@@ -58,6 +58,10 @@ resource "azurerm_static_web_app" "main" {
   tags = var.tags
 }
 
+# Note: OIDC authentication for GitHub Actions is configured in the workflow file
+# and handled by Azure automatically when github_id_token is provided.
+# No additional Terraform configuration is required for OIDC support.
+
 # SQL Server
 resource "azurerm_mssql_server" "main" {
   name                         = "${var.project_name}-${var.environment}-sql"
