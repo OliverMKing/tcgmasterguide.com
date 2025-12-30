@@ -11,7 +11,7 @@ Visual diagrams and infrastructure overview for TCG Master Guide.
                             │
                             ↓
 ┌─────────────────────────────────────────────────────────────┐
-│              Azure Static Web Apps (Global CDN)              │
+│               Azure Static Web Apps (No CDN)                 │
 │  ┌─────────────────────┐         ┌──────────────────────┐  │
 │  │   Next.js Frontend  │         │  Next.js API Routes  │  │
 │  │   (Static Pages)    │         │  (Azure Functions)   │  │
@@ -115,9 +115,10 @@ User Request → Next.js API Route
 ### Azure Resources
 - **Resource Group**: Container for all resources
 - **Static Web App**:
-  - Hosts Next.js frontend (static files on CDN)
+  - Hosts Next.js frontend (static files, no CDN initially)
   - Runs API routes as Azure Functions
   - Automatic HTTPS and custom domains
+  - CDN can be added later when traffic justifies the cost
 - **SQL Database**:
   - Serverless tier (auto-pause when idle)
   - Stores users, subscriptions, metadata
@@ -205,14 +206,15 @@ Static Web App → Private Connection → Azure SQL
 - User dashboard: SSR (server-side rendered with auth)
 
 ### Caching Strategy
-- Static assets: CDN cache (1 year)
+- Static assets: Browser cache (short TTL initially)
 - API responses: Short cache (5 min)
 - Database queries: No cache initially (add Redis later if needed)
+- CDN: Not used initially to minimize costs
 
 ### Edge Computing
-- API routes run on Azure Functions (close to users)
-- Static content served from global CDN
-- Low latency worldwide
+- API routes run on Azure Functions (single region initially)
+- Static content served from Azure Static Web Apps (no CDN initially)
+- Can enable global CDN later when traffic and budget justify it
 
 ## Scalability Plan
 
@@ -224,13 +226,14 @@ Static Web App → Private Connection → Azure SQL
 ### Phase 2: Growth (100-1000 users)
 - Monitor database performance
 - Add caching if needed (Azure Cache for Redis)
+- Consider enabling CDN if users report slow load times
 - Stay on serverless tier
 - Cost: ~$50-100/month
 
 ### Phase 3: Scale (1000+ users)
 - Upgrade to dedicated SQL tier if needed
 - Implement comprehensive caching
-- Consider CDN optimizations
+- Enable CDN for global content delivery
 - Cost: ~$200-500/month
 
 ## Monitoring & Observability
