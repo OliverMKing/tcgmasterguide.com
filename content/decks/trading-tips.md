@@ -1,6 +1,7 @@
 ---
 title: "Trading Tips and Tricks"
 category: "Trading"
+description: "Maximize value and build your collection through smart trading"
 date: "December 24, 2024"
 ---
 

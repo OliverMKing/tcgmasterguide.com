@@ -5,14 +5,13 @@ import path from 'path'
 import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
 
-const decks = [
-  'beginner-guide',
-  'deck-building',
-  'meta-analysis',
-  'card-values',
-  'tournament-prep',
-  'trading-tips',
-]
+function getAllDeckSlugs() {
+  const decksDirectory = path.join(process.cwd(), 'content', 'decks')
+  const filenames = fs.readdirSync(decksDirectory)
+  return filenames
+    .filter((filename) => filename.endsWith('.md'))
+    .map((filename) => filename.replace(/\.md$/, ''))
+}
 
 function getDeckContent(slug: string) {
   try {
@@ -31,7 +30,7 @@ function getDeckContent(slug: string) {
 }
 
 export function generateStaticParams() {
-  return decks.map((slug) => ({
+  return getAllDeckSlugs().map((slug) => ({
     slug,
   }))
 }

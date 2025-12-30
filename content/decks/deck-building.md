@@ -1,6 +1,7 @@
 ---
 title: "Deck Building Strategies"
 category: "Strategy"
+description: "Master the art of creating competitive decks with these proven strategies"
 date: "December 28, 2024"
 ---
 

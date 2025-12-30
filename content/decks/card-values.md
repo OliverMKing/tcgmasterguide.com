@@ -1,6 +1,7 @@
 ---
 title: "Understanding Card Values"
 category: "Collection"
+description: "Learn how to evaluate and price your Pokemon cards accurately"
 date: "December 26, 2024"
 ---
 

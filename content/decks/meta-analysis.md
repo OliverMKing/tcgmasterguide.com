@@ -1,6 +1,7 @@
 ---
 title: "Current Meta Analysis"
 category: "Meta"
+description: "Understand the current competitive meta and top-performing decks"
 date: "December 27, 2024"
 ---
 

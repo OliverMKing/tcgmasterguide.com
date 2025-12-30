@@ -1,45 +1,33 @@
 import Link from 'next/link'
+import fs from 'fs'
+import path from 'path'
+import matter from 'gray-matter'
 
-const decks = [
-  {
-    id: 'beginner-guide',
-    title: 'Beginner\'s Guide to Pokemon TCG',
-    description: 'Learn the basics of Pokemon Trading Card Game and start your journey',
-    category: 'Beginner',
-  },
-  {
-    id: 'deck-building',
-    title: 'Deck Building Strategies',
-    description: 'Master the art of creating competitive decks with these proven strategies',
-    category: 'Strategy',
-  },
-  {
-    id: 'meta-analysis',
-    title: 'Current Meta Analysis',
-    description: 'Understand the current competitive meta and top-performing decks',
-    category: 'Meta',
-  },
-  {
-    id: 'card-values',
-    title: 'Understanding Card Values',
-    description: 'Learn how to evaluate and price your Pokemon cards accurately',
-    category: 'Collection',
-  },
-  {
-    id: 'tournament-prep',
-    title: 'Tournament Preparation',
-    description: 'Everything you need to know before competing in your first tournament',
-    category: 'Competitive',
-  },
-  {
-    id: 'trading-tips',
-    title: 'Trading Tips and Tricks',
-    description: 'Maximize value and build your collection through smart trading',
-    category: 'Trading',
-  },
-]
+function getAllDecks() {
+  const decksDirectory = path.join(process.cwd(), 'content', 'decks')
+  const filenames = fs.readdirSync(decksDirectory)
+
+  const decks = filenames
+    .filter((filename) => filename.endsWith('.md'))
+    .map((filename) => {
+      const slug = filename.replace(/\.md$/, '')
+      const filePath = path.join(decksDirectory, filename)
+      const fileContent = fs.readFileSync(filePath, 'utf8')
+      const { data } = matter(fileContent)
+
+      return {
+        id: slug,
+        title: data.title || slug,
+        description: data.description || '',
+        category: data.category || 'General',
+      }
+    })
+
+  return decks
+}
 
 export default function Home() {
+  const decks = getAllDecks()
   return (
     <main className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
