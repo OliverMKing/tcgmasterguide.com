@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function AboutPage() {
   return (
@@ -23,14 +24,25 @@ export default function AboutPage() {
         <div className="space-y-8">
           {/* About the Author */}
           <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-8 hover:shadow-lg hover:shadow-purple-100/50 dark:hover:shadow-purple-900/30 transition-all duration-300">
-            <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
-              About the Author
-            </h2>
-            <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-              TCG Master Guide is written by Grant Manley, an elite competitive Pokemon TCG player who has
-              been ranked #1 in the world. Known for his consistent top finishes and deep understanding
-              of the game, Grant is one of the most accomplished players in the competitive scene.
-            </p>
+            <div className="flex flex-col sm:flex-row gap-6 items-center sm:items-start">
+              <Image
+                src="/images/grant.jpg"
+                alt="Grant Manley"
+                width={120}
+                height={120}
+                className="rounded-full border-4 border-purple-200 dark:border-purple-800 shrink-0"
+              />
+              <div>
+                <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4 text-center sm:text-left">
+                  About the Author
+                </h2>
+                <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+                  TCG Master Guide is written by Grant Manley, an elite competitive Pokemon TCG player who has
+                  been ranked #1 in the world. Known for his consistent top finishes and deep understanding
+                  of the game, Grant is one of the most accomplished players in the competitive scene.
+                </p>
+              </div>
+            </div>
           </div>
 
           {/* Our Mission */}
