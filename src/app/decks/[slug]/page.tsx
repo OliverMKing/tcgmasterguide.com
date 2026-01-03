@@ -20,11 +20,10 @@ function getDeckContent(slug: string) {
     const { data, content } = matter(fileContent)
     return {
       title: data.title,
-      category: data.category,
-      date: data.date,
+      lastEdited: data.lastEdited,
       content,
     }
-  } catch (error) {
+  } catch {
     return null
   }
 }
@@ -44,97 +43,111 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
   }
 
   return (
-    <main className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
-      <article className="max-w-4xl mx-auto">
-        {/* Back Button */}
-        <Link
-          href="/"
-          className="inline-flex items-center text-purple-700 hover:text-purple-600 mb-8"
-        >
-          <span className="mr-2">←</span>
-          Back to Home
-        </Link>
-
-        {/* Deck Header */}
-        <div className="mb-8">
-          <div className="flex items-center gap-4 mb-4">
-            <span className="text-xs font-semibold text-purple-700 bg-surface-secondary px-3 py-1 rounded-full">
-              {deck.category}
-            </span>
-            <span className="text-sm text-text-secondary">{deck.date}</span>
-          </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-text-primary mb-4">
-            {deck.title}
-          </h1>
-        </div>
-
-        {/* Deck Content */}
-        <div className="prose prose-lg max-w-none">
-          <div className="bg-white rounded-lg border border-border p-8">
-            <ReactMarkdown
-              components={{
-                h1: ({ children }) => (
-                  <h2 className="text-3xl font-bold text-text-primary mt-8 mb-4 first:mt-0">
-                    {children}
-                  </h2>
-                ),
-                h2: ({ children }) => (
-                  <h3 className="text-2xl font-bold text-text-primary mt-6 mb-3">
-                    {children}
-                  </h3>
-                ),
-                h3: ({ children }) => (
-                  <h4 className="text-xl font-bold text-text-primary mt-4 mb-2">
-                    {children}
-                  </h4>
-                ),
-                p: ({ children }) => (
-                  <p className="text-text-secondary leading-relaxed mb-4">
-                    {children}
-                  </p>
-                ),
-                ul: ({ children }) => (
-                  <ul className="list-disc list-inside space-y-2 text-text-secondary ml-4 mb-4">
-                    {children}
-                  </ul>
-                ),
-                ol: ({ children }) => (
-                  <ol className="list-decimal list-inside space-y-2 text-text-secondary ml-4 mb-4">
-                    {children}
-                  </ol>
-                ),
-                li: ({ children }) => (
-                  <li className="text-text-secondary">{children}</li>
-                ),
-                strong: ({ children }) => (
-                  <strong className="font-semibold text-text-primary">{children}</strong>
-                ),
-                em: ({ children }) => (
-                  <em className="italic">{children}</em>
-                ),
-                code: ({ children }) => (
-                  <code className="bg-surface-secondary px-2 py-1 rounded text-sm font-mono">
-                    {children}
-                  </code>
-                ),
-              }}
-            >
-              {deck.content}
-            </ReactMarkdown>
-          </div>
-        </div>
-
-        {/* Related Decks CTA */}
-        <div className="mt-12 text-center bg-surface-secondary rounded-lg p-8">
-          <h3 className="text-2xl font-bold text-text-primary mb-4">
-            Want to learn more?
-          </h3>
+    <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      {/* Header */}
+      <div className="border-b border-slate-200 bg-white/80 backdrop-blur-sm sticky top-0 z-10">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Link
             href="/"
-            className="inline-block bg-purple-700 text-white font-semibold px-6 py-3 rounded-lg hover:bg-purple-600 transition-colors"
+            className="inline-flex items-center gap-2 text-slate-600 hover:text-purple-700 transition-colors text-sm font-medium"
           >
-            Browse More Decks
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+            Back to Guides
           </Link>
+        </div>
+      </div>
+
+      <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Article Header */}
+        <header className="mb-12">
+          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 leading-tight">
+            {deck.title}
+          </h1>
+          {deck.lastEdited && (
+            <p className="text-sm text-slate-500">
+              Last updated {deck.lastEdited}
+            </p>
+          )}
+        </header>
+
+        {/* Article Content */}
+        <div className="prose prose-slate prose-lg max-w-none">
+          <ReactMarkdown
+            components={{
+              h1: ({ children }) => (
+                <h2 className="text-3xl font-bold text-slate-900 mt-12 mb-4 first:mt-0 pb-2 border-b border-slate-200">
+                  {children}
+                </h2>
+              ),
+              h2: ({ children }) => (
+                <h3 className="text-2xl font-bold text-slate-900 mt-10 mb-4">
+                  {children}
+                </h3>
+              ),
+              h3: ({ children }) => (
+                <h4 className="text-xl font-semibold text-slate-900 mt-8 mb-3">
+                  {children}
+                </h4>
+              ),
+              p: ({ children }) => (
+                <p className="text-slate-600 leading-relaxed mb-6">
+                  {children}
+                </p>
+              ),
+              ul: ({ children }) => (
+                <ul className="space-y-3 text-slate-600 mb-6 pl-0">
+                  {children}
+                </ul>
+              ),
+              ol: ({ children }) => (
+                <ol className="space-y-3 text-slate-600 mb-6 pl-0 list-decimal list-inside">
+                  {children}
+                </ol>
+              ),
+              li: ({ children }) => (
+                <li className="text-slate-600 flex items-start gap-3">
+                  <span className="shrink-0 w-1.5 h-1.5 rounded-full bg-purple-500 mt-2.5" />
+                  <span>{children}</span>
+                </li>
+              ),
+              strong: ({ children }) => (
+                <strong className="font-semibold text-slate-900">{children}</strong>
+              ),
+              em: ({ children }) => (
+                <em className="italic text-slate-700">{children}</em>
+              ),
+              code: ({ children }) => (
+                <code className="bg-slate-100 text-purple-700 px-2 py-0.5 rounded text-sm font-mono">
+                  {children}
+                </code>
+              ),
+            }}
+          >
+            {deck.content}
+          </ReactMarkdown>
+        </div>
+
+        {/* Footer CTA */}
+        <div className="mt-16 pt-8 border-t border-slate-200">
+          <div className="bg-gradient-to-r from-purple-600 to-fuchsia-600 rounded-2xl p-8 text-center">
+            <h3 className="text-2xl font-bold text-white mb-3">
+              Explore More Guides
+            </h3>
+            <p className="text-purple-100 mb-6">
+              Continue your journey with our other expert guides
+            </p>
+            <Link
+              href="/"
+              className="inline-flex items-center gap-2 bg-white text-purple-700 font-semibold px-6 py-3 rounded-xl hover:bg-purple-50 transition-colors shadow-lg shadow-purple-900/20"
+            >
+              Browse All Guides
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
         </div>
       </article>
     </main>

@@ -1,8 +1,6 @@
 ---
 title: "Tournament Preparation"
-category: "Competitive"
-description: "Everything you need to know before competing in your first tournament"
-date: "December 25, 2024"
+lastEdited: "December 25, 2024"
 ---
 
 # Before the Tournament

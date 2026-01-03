@@ -1,8 +1,6 @@
 ---
 title: "Beginner's Guide to Pokemon TCG"
-category: "Beginner"
-description: "Learn the basics of Pokemon Trading Card Game and start your journey"
-date: "December 29, 2024"
+lastEdited: "December 29, 2024"
 ---
 
 # Getting Started

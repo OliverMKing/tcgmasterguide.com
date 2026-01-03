@@ -1,8 +1,6 @@
 ---
 title: "Advanced Combo Strategies"
-category: "Advanced"
-description: "Unlock powerful card combinations and synergies for competitive play"
-date: "December 29, 2024"
+lastEdited: "December 29, 2024"
 ---
 
 # Advanced Combo Strategies
