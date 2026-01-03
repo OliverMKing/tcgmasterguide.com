@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import fs from 'fs'
 import path from 'path'
@@ -43,10 +42,10 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
     notFound()
   }
 
-  // Transform relative image paths to absolute paths for the public folder
+  // Transform relative image paths to API route
   const transformImageSrc = (src: string) => {
     if (src.startsWith('./images/')) {
-      return `/deck-images/${src.replace('./images/', '')}`
+      return `/api/deck-images/${src.replace('./images/', '')}`
     }
     return src
   }
@@ -132,17 +131,19 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
                   {children}
                 </code>
               ),
-              img: ({ src, alt }) => (
-                <span className="block my-8">
-                  <Image
-                    src={transformImageSrc(src || '')}
-                    alt={alt || ''}
-                    width={800}
-                    height={600}
-                    className="rounded-xl border border-slate-200 shadow-lg w-full h-auto"
-                  />
-                </span>
-              ),
+              img: ({ src, alt }) => {
+                const imageSrc = transformImageSrc(src || '')
+                return (
+                  <span className="block my-8">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={imageSrc}
+                      alt={alt || ''}
+                      className="rounded-xl border border-slate-200 shadow-lg w-full h-auto"
+                    />
+                  </span>
+                )
+              },
             }}
           >
             {deck.content}

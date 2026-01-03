@@ -5,6 +5,7 @@ lastEdited: "December 29, 2024"
 
 Decklist
 
+![decklist for Gardevoir / Jellicent](./images/gardevoir-jellicent/decklist.png)
 
 I decided to cut Jellicent for now, but since most lists have it, the matchup notes still include notes for Jellicent. Jellicent is mostly relevant in the mirror. It’s also good against Charizard on the Devo turn, and against Dragapult for the non-Evo build. I wasn’t using it very much but it could go back in. It’s more important to have in the non-Evo build. Also, the Charizard and mirror matchups are compensated for in other ways.
 I prefer the Evo build with two Kirlia because it makes a huge difference in the Dragapult matchup. Evo’ing is also generally better in slower matchups, and Jellicent isn’t that important overall.
