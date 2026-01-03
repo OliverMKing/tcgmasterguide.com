@@ -38,7 +38,7 @@ export default function Home() {
               TCG Master Guide
             </h1>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
-              Your ultimate Pokemon TCG companion. Master the game with expert guides and strategies.
+              In-depth deck guides by Grant Manley, former world #1 ranked player. Constantly updated to keep you ahead of the meta.
             </p>
           </div>
         </div>
@@ -80,33 +80,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* CTA Section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
-        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-purple-600 to-fuchsia-600 p-8 md:p-12">
-          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4xIj48cGF0aCBkPSJNMzYgMzRjMC0yIDItNCAyLTRzLTItMi00LTJjLTIgMC00IDItNCAyczIgMiA0IDJjMiAwIDQtMiA0LTJ6Ii8+PC9nPjwvZz48L3N2Zz4=')] opacity-30" />
-          <div className="relative text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Stay Updated
-            </h2>
-            <p className="text-lg text-purple-100 mb-8 max-w-xl mx-auto">
-              Get new guides, meta updates, and expert tips delivered to your inbox
-            </p>
-            <form className="max-w-md mx-auto flex flex-col sm:flex-row gap-3">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-5 py-3 rounded-xl text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-4 focus:ring-white/30"
-              />
-              <button
-                type="submit"
-                className="px-8 py-3 bg-white text-purple-700 font-semibold rounded-xl hover:bg-purple-50 transition-colors shadow-lg shadow-purple-900/20"
-              >
-                Subscribe
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
     </main>
   )
 }
