@@ -132,7 +132,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
                 </code>
               ),
               img: ({ src, alt }) => {
-                const imageSrc = transformImageSrc(src || '')
+                const imageSrc = transformImageSrc(typeof src === 'string' ? src : '')
                 return (
                   <span className="block my-8">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
