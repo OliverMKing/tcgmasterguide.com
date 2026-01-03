@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import fs from 'fs'
 import path from 'path'
@@ -40,6 +41,14 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
 
   if (!deck) {
     notFound()
+  }
+
+  // Transform relative image paths to absolute paths for the public folder
+  const transformImageSrc = (src: string) => {
+    if (src.startsWith('./images/')) {
+      return `/deck-images/${src.replace('./images/', '')}`
+    }
+    return src
   }
 
   return (
@@ -122,6 +131,17 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
                 <code className="bg-slate-100 text-purple-700 px-2 py-0.5 rounded text-sm font-mono">
                   {children}
                 </code>
+              ),
+              img: ({ src, alt }) => (
+                <span className="block my-8">
+                  <Image
+                    src={transformImageSrc(src || '')}
+                    alt={alt || ''}
+                    width={800}
+                    height={600}
+                    className="rounded-xl border border-slate-200 shadow-lg w-full h-auto"
+                  />
+                </span>
               ),
             }}
           >
