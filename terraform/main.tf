@@ -74,6 +74,15 @@ resource "null_resource" "enable_enterprise_edge" {
   depends_on = [azurerm_static_web_app.main]
 }
 
+# Custom domain for apex domain (tcgmasterguide.com)
+# Requires TXT record validation
+resource "azurerm_static_web_app_custom_domain" "apex" {
+  count             = var.custom_domain != "" ? 1 : 0
+  static_web_app_id = azurerm_static_web_app.main.id
+  domain_name       = var.custom_domain
+  validation_type   = "dns-txt-token"
+}
+
 # Note: OIDC authentication for GitHub Actions is configured in the workflow file
 # and handled by Azure automatically when github_id_token is provided.
 # No additional Terraform configuration is required for OIDC support.

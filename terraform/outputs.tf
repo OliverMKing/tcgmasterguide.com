@@ -48,3 +48,14 @@ output "sql_connection_string_secret_name" {
   description = "Name of the SQL connection string secret in Key Vault"
   value       = azurerm_key_vault_secret.sql_connection_string.name
 }
+
+output "custom_domain_validation_token" {
+  description = "TXT record value for custom domain validation. Add this as a TXT record for your apex domain."
+  value       = var.custom_domain != "" ? azurerm_static_web_app_custom_domain.apex[0].validation_token : null
+  sensitive   = true # this isn't actually sensitive, you need domain ownership to use this value
+}
+
+output "static_web_app_alias_target" {
+  description = "The Azure Static Web Apps hostname to use as the ALIAS record target for the apex domain"
+  value       = azurerm_static_web_app.main.default_host_name
+}

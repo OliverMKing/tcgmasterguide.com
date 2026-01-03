@@ -35,6 +35,12 @@ variable "enable_enterprise_edge" {
   default     = true
 }
 
+variable "custom_domain" {
+  description = "Custom apex domain for the Static Web App (e.g., tcgmasterguide.com)"
+  type        = string
+  default     = "tcgmasterguide.com"
+}
+
 variable "sql_admin_username" {
   description = "SQL Server administrator username"
   type        = string
