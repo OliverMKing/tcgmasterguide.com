@@ -30,6 +30,7 @@ export default function AboutPage() {
                 alt="Grant Manley"
                 width={120}
                 height={120}
+                priority
                 className="rounded-full border-4 border-purple-200 dark:border-purple-800 shrink-0"
               />
               <div>
