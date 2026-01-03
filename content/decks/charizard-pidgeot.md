@@ -1,6 +1,6 @@
 ---
 title: "Charizard / Pidgeot"
-lastEdited: "December 29, 2024"
+lastEdited: "January 2, 2026"
 ---
 
 ## Decklist
