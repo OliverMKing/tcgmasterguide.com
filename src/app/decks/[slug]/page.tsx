@@ -48,6 +48,10 @@ function getAllDeckSlugs() {
     .map((filename) => filename.replace(/\.md$/, ''))
 }
 
+function getPokemonSprite(pokedexId: number): string {
+  return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokedexId}.png`
+}
+
 function getDeckContent(slug: string) {
   try {
     const filePath = path.join(process.cwd(), 'content', 'decks', `${slug}.md`)
@@ -56,6 +60,7 @@ function getDeckContent(slug: string) {
     return {
       title: data.title,
       lastEdited: data.lastEdited || null,
+      pokemon: (data.pokemon as number[]) || [],
       content,
     }
   } catch {
@@ -107,9 +112,24 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Article Header */}
         <header className="mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-slate-100 mb-4 leading-tight">
-            {deck.title}
-          </h1>
+          <div className="flex items-center gap-3 mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-slate-100 leading-tight">
+              {deck.title}
+            </h1>
+            {deck.pokemon.length > 0 && (
+              <div className="flex -space-x-2">
+                {deck.pokemon.map((id) => (
+                  /* eslint-disable-next-line @next/next/no-img-element */
+                  <img
+                    key={id}
+                    src={getPokemonSprite(id)}
+                    alt=""
+                    className="w-12 h-12 md:w-16 md:h-16 object-contain"
+                  />
+                ))}
+              </div>
+            )}
+          </div>
           {deck.lastEdited && (
             <p className="text-sm text-slate-500 dark:text-slate-400">
               <LocalDate timestamp={deck.lastEdited} prefix="Last updated " />
