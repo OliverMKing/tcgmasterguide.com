@@ -2,8 +2,10 @@ import Link from 'next/link'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
-import { getGitLastModified } from '@/lib/git'
 import { LocalDate } from '@/components/LocalDate'
+
+// Force static generation at build time
+export const dynamic = 'force-static'
 
 function getAllDecks() {
   const decksDirectory = path.join(process.cwd(), 'content', 'decks')
@@ -20,7 +22,7 @@ function getAllDecks() {
       return {
         id: slug,
         title: data.title || slug,
-        lastEdited: getGitLastModified(filePath),
+        lastEdited: data.lastEdited || null,
       }
     })
 

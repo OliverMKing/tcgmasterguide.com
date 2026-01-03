@@ -1,5 +1,6 @@
 ---
 title: "Gholdengo"
+lastEdited: "2026-01-02T21:56:16-05:00"
 ---
 
 ## Decklist

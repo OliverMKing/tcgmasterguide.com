@@ -4,8 +4,10 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
-import { getGitLastModified } from '@/lib/git'
 import { LocalDate } from '@/components/LocalDate'
+
+// Force static generation at build time
+export const dynamic = 'force-static'
 
 interface TocItem {
   id: string
@@ -53,7 +55,7 @@ function getDeckContent(slug: string) {
     const { data, content } = matter(fileContent)
     return {
       title: data.title,
-      lastEdited: getGitLastModified(filePath),
+      lastEdited: data.lastEdited || null,
       content,
     }
   } catch {
