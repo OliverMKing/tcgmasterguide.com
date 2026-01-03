@@ -161,10 +161,10 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
               Continue your journey with our other expert guides
             </p>
             <Link
-              href="/"
+              href="/#decks"
               className="inline-flex items-center gap-2 bg-white text-purple-700 font-semibold px-6 py-3 rounded-xl hover:bg-purple-50 transition-colors shadow-lg shadow-purple-900/20"
             >
-              Browse All Guides
+              Browse All Decks
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>

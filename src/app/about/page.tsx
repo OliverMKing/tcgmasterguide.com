@@ -114,7 +114,7 @@ export default function AboutPage() {
               Explore our deck guides and master the strategies you need to win
             </p>
             <Link
-              href="/"
+              href="/#decks"
               className="inline-block px-8 py-3 bg-white text-purple-700 font-semibold rounded-xl hover:bg-purple-50 transition-colors shadow-lg shadow-purple-900/20"
             >
               View Deck Guides

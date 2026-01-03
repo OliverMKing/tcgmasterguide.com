@@ -48,7 +48,7 @@ export default function Home() {
       {/* Decks Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex items-center justify-between mb-10">
-          <h2 className="text-3xl font-bold text-slate-900">
+          <h2 id="decks" className="text-3xl font-bold text-slate-900">
             Decks
           </h2>
           <div className="h-px flex-1 bg-gradient-to-r from-slate-200 to-transparent ml-8" />
