@@ -38,6 +38,8 @@ Before making any edits, always pull the latest changes:
 4. Make your changes
 5. Save the file (Ctrl+S or Cmd+S)
 
+If you need to add images, see [Adding Images](#5-adding-images) below.
+
 ### 3. Create a Pull Request
 
 1. Go back to GitHub Desktop
