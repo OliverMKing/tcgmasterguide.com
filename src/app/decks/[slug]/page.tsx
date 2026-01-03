@@ -5,6 +5,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
 import { getGitLastModified } from '@/lib/git'
+import { LocalDate } from '@/components/LocalDate'
 
 function getAllDeckSlugs() {
   const decksDirectory = path.join(process.cwd(), 'content', 'decks')
@@ -76,7 +77,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
           </h1>
           {deck.lastEdited && (
             <p className="text-sm text-slate-500">
-              Last updated {deck.lastEdited}
+              <LocalDate timestamp={deck.lastEdited} prefix="Last updated " />
             </p>
           )}
         </header>

@@ -3,6 +3,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { getGitLastModified } from '@/lib/git'
+import { LocalDate } from '@/components/LocalDate'
 
 function getAllDecks() {
   const decksDirectory = path.join(process.cwd(), 'content', 'decks')
@@ -73,7 +74,7 @@ export default function Home() {
               </div>
               {deck.lastEdited && (
                 <p className="text-sm text-slate-400 mt-3">
-                  Updated {deck.lastEdited}
+                  <LocalDate timestamp={deck.lastEdited} prefix="Updated " />
                 </p>
               )}
             </Link>
