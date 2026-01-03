@@ -71,6 +71,9 @@ export default function Home() {
             >
               <div className="flex items-start justify-between">
                 <div className="flex items-center gap-2">
+                  <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 group-hover:text-purple-700 dark:group-hover:text-purple-400 transition-colors">
+                    {deck.title}
+                  </h3>
                   <div className="flex -space-x-2">
                     {deck.pokemon.map((id) => (
                       /* eslint-disable-next-line @next/next/no-img-element */
@@ -82,9 +85,6 @@ export default function Home() {
                       />
                     ))}
                   </div>
-                  <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 group-hover:text-purple-700 dark:group-hover:text-purple-400 transition-colors">
-                    {deck.title}
-                  </h3>
                 </div>
                 <span className="shrink-0 w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-700 group-hover:bg-purple-100 dark:group-hover:bg-purple-900/50 flex items-center justify-center transition-colors">
                   <svg className="w-4 h-4 text-slate-400 dark:text-slate-500 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">

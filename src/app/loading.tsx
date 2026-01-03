@@ -33,11 +33,11 @@ export default function HomeLoading() {
             >
               <div className="flex items-start justify-between">
                 <div className="flex items-center gap-2">
+                  <div className="h-5 w-32 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
                   <div className="flex -space-x-2">
                     <div className="w-10 h-10 bg-slate-200 dark:bg-slate-700 rounded-full animate-pulse" />
                     <div className="w-10 h-10 bg-slate-200 dark:bg-slate-700 rounded-full animate-pulse" />
                   </div>
-                  <div className="h-5 w-32 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
                 </div>
                 <div className="w-8 h-8 bg-slate-200 dark:bg-slate-700 rounded-full animate-pulse" />
               </div>
