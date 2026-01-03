@@ -44,11 +44,11 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Guides Section */}
+      {/* Decks Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex items-center justify-between mb-10">
           <h2 className="text-3xl font-bold text-slate-900">
-            Guides
+            Decks
           </h2>
           <div className="h-px flex-1 bg-gradient-to-r from-slate-200 to-transparent ml-8" />
         </div>
