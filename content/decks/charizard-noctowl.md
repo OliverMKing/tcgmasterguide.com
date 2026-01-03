@@ -5,7 +5,7 @@ lastEdited: "December 29, 2024"
 
 Decklist
 
-
+![Charizard / Noctowl Decklist](./images/charizard-noctowl/decklist.png)
 
 60 HP Pidgey is extremely relevant against any Dusknoir deck. Call for Family is still useful enough with Jet Energy in the deck (especially if you’re lacking a Tera Pokemon), so we hedge by playing one of each. If you prize the 60 HP against specifically Dusclops, tough luck.
 
@@ -47,7 +47,11 @@ Noctowl is the glue holding the deck together. It is generally used early-game t
 
 If the prize map is going to rely on Briar (as it often does, especially with Dusclops/Dusknoir), try to save Prime Catcher/Counter Catcher (if you play it) for the end-game if you’re going to have access to Noctowl. 
 
+![gameplay of Charizard / Noctowl](./images/charizard-noctowl/gameplay1.png)
+
 For this one, we need to figure out what the best turn is. We topdecked Terapagos, so we don’t necessarily need Charizard. We can KO their Gimmighoul with Fan Rotom, but that feeds them yet another prize. Charizard should be very difficult to KO from this position, so I think it’s the best option. Bench Terapagos, Noctowl for two Candy. Ultra Ball for Charizard, discarding both Jets, Candy into both, leaving us with only Iono and Noctowl. Jet Energy is not very important in this matchup, even though it is in a lot of others. Iono gives us a fresh hand, and we can use Quick Search for whatever piece we need after seeing our new hand. This list has two Iono, so we still have another one for later, which we may need if they somehow do KO our Charizard.
+
+![gameplay of Charizard / Noctowl 2](./images/charizard-noctowl/gameplay2.png)
 
 They used Watchtower, but luckily we have the Stadium counter. How do we optimally set up our board? They don’t have any Gimmighoul, so there’s no threat of KO’ing our Terapagos.
 

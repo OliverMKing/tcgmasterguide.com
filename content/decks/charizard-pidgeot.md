@@ -5,6 +5,7 @@ lastEdited: "December 29, 2024"
 
 Decklist
 
+![decklist for Charizard / Pidgeot](./images/charizard-pidgeot/decklist.png)
 
 This is basically just the Stuttgart list because it’s so good
 I cut the Turo for Stretcher because I found Stretcher to be incredibly strong in most games. It’s definitely better than the Turo, but you could potentially find space for the Turo elsewhere.
@@ -22,7 +23,8 @@ Turn 2 attacking Fezandipiti can be good against Stage 2 decks! It is also very 
 Do not use Dusknoir just because you can. You should be pulling off an extremely strong play whenever you use it, and with this deck, you should be using Dusknoir a lot more than Dusclops. Common examples: KO’ing both of something (Garde+Ralts, double Froslass), one-shotting a big guy (Dragapult, Grimmsnarl), or ending the game outright.
 Managing your extra Energy, such as the third one from Infernal Reign or Energy you have in hand, depends on how many Infernal Reigns you’ll need this game. If you’ll need a follow-up Charizard, try to leave at least two Energy in the deck and don’t commit one to Charmander off Infernal Reign just because you can. Putting an extra Energy on Chi-Yu, Pidgeot, or Tatsugiri can also be a good use of it, allowing for a lot of flexibility later. However, committing the third Infernal Reign Energy does thin the deck and prevent you from drawing it, so it can be ok to do if you don’t think you’ll need the flexibility. Saving Energy helps against gust traps, but in reality, that doesn’t happen very often (and can be negated by Pidgeot’s Quick Search).
 
-
+![gameplay for Chairzard / Pidgeot](./images/charizard-pidgeot/gameplay1.png)
+![gameplay for Chairzard / Pidgeot 2](./images/charizard-pidgeot/gameplay2.png)
 
 Matchups
 

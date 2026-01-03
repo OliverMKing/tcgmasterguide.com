@@ -25,7 +25,9 @@ Splitting Psychic and Luminous on two different Drakloak isn’t always correct,
 Dreepy and Budew are much higher priority in the early-game than Duskull. I usually priortize third Dreepy over first Duskull.
 Drakloak is a viable attacker! Don’t forget about it! Of course it is situational.
 
-
+![gameplay of dragapult / dusknoir](./images/dragapult-dusknoir/gameplay1.png)
+![gameplay of dragapult / dusknoir 2](./images/dragapult-dusknoir/gameplay2.png)
+![gameplay of dragapult / dusknoir 3](./images/dragapult-dusknoir/gameplay3.png)
 
 Matchups
 
