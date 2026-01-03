@@ -1,6 +1,5 @@
 ---
 title: "Dragapult / Dusknoir"
-lastEdited: "January 2, 2026"
 ---
 
 ## Decklist

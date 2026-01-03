@@ -1,6 +1,5 @@
 ---
 title: "Gardevoir / Jellicent"
-lastEdited: "January 2, 2026"
 ---
 
 ## Decklist

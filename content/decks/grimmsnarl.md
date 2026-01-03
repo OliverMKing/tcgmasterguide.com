@@ -1,6 +1,5 @@
 ---
 title: "Grimmsnarl"
-lastEdited: "January 2, 2026"
 ---
 
 ## Decklist

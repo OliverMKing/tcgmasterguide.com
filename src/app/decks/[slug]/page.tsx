@@ -4,6 +4,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
+import { getGitLastModified } from '@/lib/git'
 
 function getAllDeckSlugs() {
   const decksDirectory = path.join(process.cwd(), 'content', 'decks')
@@ -20,7 +21,7 @@ function getDeckContent(slug: string) {
     const { data, content } = matter(fileContent)
     return {
       title: data.title,
-      lastEdited: data.lastEdited,
+      lastEdited: getGitLastModified(filePath),
       content,
     }
   } catch {

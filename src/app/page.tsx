@@ -2,6 +2,7 @@ import Link from 'next/link'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
+import { getGitLastModified } from '@/lib/git'
 
 function getAllDecks() {
   const decksDirectory = path.join(process.cwd(), 'content', 'decks')
@@ -18,7 +19,7 @@ function getAllDecks() {
       return {
         id: slug,
         title: data.title || slug,
-        lastEdited: data.lastEdited || '',
+        lastEdited: getGitLastModified(filePath),
       }
     })
 

@@ -1,6 +1,5 @@
 ---
 title: "Absol"
-lastEdited: "January 2, 2026"
 ---
 
 ## Decklist

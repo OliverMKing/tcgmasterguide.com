@@ -1,6 +1,5 @@
 ---
 title: "Charizard / Noctowl"
-lastEdited: "January 2, 2026"
 ---
 
 ## Decklist
