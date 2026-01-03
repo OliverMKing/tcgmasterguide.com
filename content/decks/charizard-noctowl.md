@@ -1,7 +1,7 @@
 ---
 title: "Charizard / Noctowl"
 pokemon: [6, 164]
-lastEdited: "2026-01-02T21:56:16-05:00"
+lastEdited: "2026-01-02T22:57:23-05:00"
 ---
 
 ## Decklist
