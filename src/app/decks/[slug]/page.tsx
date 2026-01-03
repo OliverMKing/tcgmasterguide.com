@@ -88,13 +88,13 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+    <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800">
       {/* Header */}
-      <div className="border-b border-slate-200 bg-white/80 backdrop-blur-sm sticky top-0 z-10">
+      <div className="border-b border-slate-200 dark:border-slate-700 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm sticky top-0 z-10">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 text-slate-600 hover:text-purple-700 transition-colors text-sm font-medium"
+            className="inline-flex items-center gap-2 text-slate-600 dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors text-sm font-medium"
           >
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -107,11 +107,11 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Article Header */}
         <header className="mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 leading-tight">
+          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-slate-100 mb-4 leading-tight">
             {deck.title}
           </h1>
           {deck.lastEdited && (
-            <p className="text-sm text-slate-500">
+            <p className="text-sm text-slate-500 dark:text-slate-400">
               <LocalDate timestamp={deck.lastEdited} prefix="Last updated " />
             </p>
           )}
@@ -119,8 +119,8 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
 
         {/* Table of Contents */}
         {headings.length > 0 && (
-          <nav className="mb-12 p-6 bg-white rounded-xl border border-slate-200">
-            <h2 className="text-lg font-semibold text-slate-900 mb-4">Table of Contents</h2>
+          <nav className="mb-12 p-6 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+            <h2 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-4">Table of Contents</h2>
             <ul className="space-y-2">
               {headings.map((heading) => (
                 <li
@@ -129,7 +129,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
                 >
                   <a
                     href={`#${heading.id}`}
-                    className="text-slate-600 hover:text-purple-700 transition-colors text-sm"
+                    className="text-slate-600 dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors text-sm"
                   >
                     {heading.text}
                   </a>
@@ -140,14 +140,14 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
         )}
 
         {/* Article Content */}
-        <div className="prose prose-slate prose-lg max-w-none">
+        <div className="prose prose-slate prose-lg max-w-none dark:prose-invert">
           <ReactMarkdown
             components={{
               h1: ({ children }) => {
                 const text = String(children)
                 const id = slugify(text)
                 return (
-                  <h2 id={id} className="text-3xl font-bold text-slate-900 mt-12 mb-4 first:mt-0 pb-2 border-b border-slate-200 scroll-mt-20">
+                  <h2 id={id} className="text-3xl font-bold text-slate-900 dark:text-slate-100 mt-12 mb-4 first:mt-0 pb-2 border-b border-slate-200 dark:border-slate-700 scroll-mt-20">
                     {children}
                   </h2>
                 )
@@ -156,7 +156,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
                 const text = String(children)
                 const id = slugify(text)
                 return (
-                  <h3 id={id} className="text-2xl font-bold text-slate-900 mt-10 mb-4 scroll-mt-20">
+                  <h3 id={id} className="text-2xl font-bold text-slate-900 dark:text-slate-100 mt-10 mb-4 scroll-mt-20">
                     {children}
                   </h3>
                 )
@@ -165,40 +165,40 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
                 const text = String(children)
                 const id = slugify(text)
                 return (
-                  <h4 id={id} className="text-xl font-semibold text-slate-900 mt-8 mb-3 scroll-mt-20">
+                  <h4 id={id} className="text-xl font-semibold text-slate-900 dark:text-slate-100 mt-8 mb-3 scroll-mt-20">
                     {children}
                   </h4>
                 )
               },
               p: ({ children }) => (
-                <p className="text-slate-600 leading-relaxed mb-6">
+                <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
                   {children}
                 </p>
               ),
               ul: ({ children }) => (
-                <ul className="space-y-3 text-slate-600 mb-6 pl-0">
+                <ul className="space-y-3 text-slate-600 dark:text-slate-300 mb-6 pl-0">
                   {children}
                 </ul>
               ),
               ol: ({ children }) => (
-                <ol className="space-y-3 text-slate-600 mb-6 pl-0 list-decimal list-inside">
+                <ol className="space-y-3 text-slate-600 dark:text-slate-300 mb-6 pl-0 list-decimal list-inside">
                   {children}
                 </ol>
               ),
               li: ({ children }) => (
-                <li className="text-slate-600 flex items-start gap-3">
-                  <span className="shrink-0 w-1.5 h-1.5 rounded-full bg-purple-500 mt-2.5" />
+                <li className="text-slate-600 dark:text-slate-300 flex items-start gap-3">
+                  <span className="shrink-0 w-1.5 h-1.5 rounded-full bg-purple-500 dark:bg-purple-400 mt-2.5" />
                   <span>{children}</span>
                 </li>
               ),
               strong: ({ children }) => (
-                <strong className="font-semibold text-slate-900">{children}</strong>
+                <strong className="font-semibold text-slate-900 dark:text-slate-100">{children}</strong>
               ),
               em: ({ children }) => (
-                <em className="italic text-slate-700">{children}</em>
+                <em className="italic text-slate-700 dark:text-slate-200">{children}</em>
               ),
               code: ({ children }) => (
-                <code className="bg-slate-100 text-purple-700 px-2 py-0.5 rounded text-sm font-mono">
+                <code className="bg-slate-100 dark:bg-slate-700 text-purple-700 dark:text-purple-300 px-2 py-0.5 rounded text-sm font-mono">
                   {children}
                 </code>
               ),
@@ -210,7 +210,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
                     <img
                       src={imageSrc}
                       alt={alt || ''}
-                      className="rounded-xl border border-slate-200 shadow-lg w-full h-auto"
+                      className="rounded-xl border border-slate-200 dark:border-slate-700 shadow-lg w-full h-auto"
                     />
                   </span>
                 )
@@ -222,7 +222,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
         </div>
 
         {/* Footer CTA */}
-        <div className="mt-16 pt-8 border-t border-slate-200">
+        <div className="mt-16 pt-8 border-t border-slate-200 dark:border-slate-700">
           <div className="bg-gradient-to-r from-purple-600 to-fuchsia-600 rounded-2xl p-8 text-center">
             <h3 className="text-2xl font-bold text-white mb-3">
               Explore More Guides
