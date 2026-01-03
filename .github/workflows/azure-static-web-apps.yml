@@ -47,7 +47,7 @@ jobs:
           ###### Repository/Build Configurations ######
           app_location: "/" # App source code path
           api_location: "" # Api source code path - optional
-          output_location: "" # Built app content directory - empty for Next.js standalone mode
+          output_location: ".next" # Built app content directory for Next.js hybrid mode
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
