@@ -7,6 +7,37 @@ import ReactMarkdown from 'react-markdown'
 import { getGitLastModified } from '@/lib/git'
 import { LocalDate } from '@/components/LocalDate'
 
+interface TocItem {
+  id: string
+  text: string
+  level: number
+}
+
+function extractHeadings(content: string): TocItem[] {
+  const headingRegex = /^(#{1,3})\s+(.+)$/gm
+  const headings: TocItem[] = []
+  let match
+
+  while ((match = headingRegex.exec(content)) !== null) {
+    const level = match[1].length
+    const text = match[2]
+    const id = text
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+    headings.push({ id, text, level })
+  }
+
+  return headings
+}
+
+function slugify(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '')
+    .replace(/\s+/g, '-')
+}
+
 function getAllDeckSlugs() {
   const decksDirectory = path.join(process.cwd(), 'content', 'decks')
   const filenames = fs.readdirSync(decksDirectory)
@@ -43,6 +74,8 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
   if (!deck) {
     notFound()
   }
+
+  const headings = extractHeadings(deck.content)
 
   // Transform relative image paths to API route
   const transformImageSrc = (src: string) => {
@@ -82,25 +115,59 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
           )}
         </header>
 
+        {/* Table of Contents */}
+        {headings.length > 0 && (
+          <nav className="mb-12 p-6 bg-white rounded-xl border border-slate-200">
+            <h2 className="text-lg font-semibold text-slate-900 mb-4">Table of Contents</h2>
+            <ul className="space-y-2">
+              {headings.map((heading) => (
+                <li
+                  key={heading.id}
+                  style={{ paddingLeft: `${(heading.level - 1) * 1}rem` }}
+                >
+                  <a
+                    href={`#${heading.id}`}
+                    className="text-slate-600 hover:text-purple-700 transition-colors text-sm"
+                  >
+                    {heading.text}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        )}
+
         {/* Article Content */}
         <div className="prose prose-slate prose-lg max-w-none">
           <ReactMarkdown
             components={{
-              h1: ({ children }) => (
-                <h2 className="text-3xl font-bold text-slate-900 mt-12 mb-4 first:mt-0 pb-2 border-b border-slate-200">
-                  {children}
-                </h2>
-              ),
-              h2: ({ children }) => (
-                <h3 className="text-2xl font-bold text-slate-900 mt-10 mb-4">
-                  {children}
-                </h3>
-              ),
-              h3: ({ children }) => (
-                <h4 className="text-xl font-semibold text-slate-900 mt-8 mb-3">
-                  {children}
-                </h4>
-              ),
+              h1: ({ children }) => {
+                const text = String(children)
+                const id = slugify(text)
+                return (
+                  <h2 id={id} className="text-3xl font-bold text-slate-900 mt-12 mb-4 first:mt-0 pb-2 border-b border-slate-200 scroll-mt-20">
+                    {children}
+                  </h2>
+                )
+              },
+              h2: ({ children }) => {
+                const text = String(children)
+                const id = slugify(text)
+                return (
+                  <h3 id={id} className="text-2xl font-bold text-slate-900 mt-10 mb-4 scroll-mt-20">
+                    {children}
+                  </h3>
+                )
+              },
+              h3: ({ children }) => {
+                const text = String(children)
+                const id = slugify(text)
+                return (
+                  <h4 id={id} className="text-xl font-semibold text-slate-900 mt-8 mb-3 scroll-mt-20">
+                    {children}
+                  </h4>
+                )
+              },
               p: ({ children }) => (
                 <p className="text-slate-600 leading-relaxed mb-6">
                   {children}
