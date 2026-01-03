@@ -29,6 +29,12 @@ variable "static_web_app_sku" {
   }
 }
 
+variable "enable_enterprise_edge" {
+  description = "Enable Enterprise Edge (global CDN powered by Azure Front Door). Requires Standard SKU."
+  type        = bool
+  default     = true
+}
+
 variable "sql_admin_username" {
   description = "SQL Server administrator username"
   type        = string

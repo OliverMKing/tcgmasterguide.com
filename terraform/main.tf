@@ -10,6 +10,10 @@ terraform {
       source  = "hashicorp/azuread"
       version = "~> 2.0"
     }
+    null = {
+      source  = "hashicorp/null"
+      version = "~> 3.0"
+    }
   }
 
   backend "azurerm" {
@@ -56,6 +60,18 @@ resource "azurerm_static_web_app" "main" {
   }
 
   tags = var.tags
+}
+
+# Enable Enterprise Edge (global CDN powered by Azure Front Door)
+# Requires Standard tier
+resource "null_resource" "enable_enterprise_edge" {
+  count = var.static_web_app_sku == "Standard" && var.enable_enterprise_edge ? 1 : 0
+
+  provisioner "local-exec" {
+    command = "az staticwebapp enterprise-edge enable --name ${azurerm_static_web_app.main.name} --resource-group ${azurerm_resource_group.main.name}"
+  }
+
+  depends_on = [azurerm_static_web_app.main]
 }
 
 # Note: OIDC authentication for GitHub Actions is configured in the workflow file
