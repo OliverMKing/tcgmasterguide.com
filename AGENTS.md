@@ -9,10 +9,11 @@ This file provides guidance to AI agents when working with code in this reposito
 **CRITICAL:** Always test your changes before considering them complete:
 
 1. **After making changes that affect the application:**
-   - Run `make dev` in the background to start the development server
+   - Check if the dev server is already running by using `curl http://localhost:3000`
+   - If not running, start `make dev` in the background
    - Use `curl http://localhost:3000` or visit the URL to verify the app works correctly
    - Check for compilation errors, runtime errors, and visual issues
-   - Kill the background process when done testing
+   - Leave the dev server running for future tests (do not kill it after verifying) only if it was already running before. If you had to start the dev server, kill it
 
 2. **Before committing code:**
    - Run `make type-check` to ensure TypeScript types are valid
@@ -21,16 +22,16 @@ This file provides guidance to AI agents when working with code in this reposito
 
 3. **Example testing workflow:**
    ```bash
-   # Start dev server in background
-   make dev  # (run in background)
+   # Check if dev server is already running
+   curl -s http://localhost:3000 > /dev/null && echo "Server running" || echo "Server not running"
 
-   # Wait a few seconds for server to start
-   sleep 3
+   # Only start dev server if not already running
+   # make dev  # (run in background)
 
    # Test the application
    curl http://localhost:3000
 
-   # Kill the background process when done
+   # Leave the server running for future tests only if it was already running
    ```
 
 **Never assume changes work without testing.** This prevents shipping broken code.
