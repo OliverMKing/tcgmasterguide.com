@@ -2,6 +2,10 @@
 
 A comprehensive guide for trading card game players, built with Next.js.
 
+## Content Editing
+
+For content writers looking to add or edit deck guides, see the [Content Editing Guide](./docs/content-editing-guide.md).
+
 ## Development
 
 ### Prerequisites
