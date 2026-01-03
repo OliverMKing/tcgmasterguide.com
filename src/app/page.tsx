@@ -7,6 +7,10 @@ import { LocalDate } from '@/components/LocalDate'
 // Force static generation at build time
 export const dynamic = 'force-static'
 
+function getPokemonSprite(pokedexId: number): string {
+  return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokedexId}.png`
+}
+
 function getAllDecks() {
   const decksDirectory = path.join(process.cwd(), 'content', 'decks')
   const filenames = fs.readdirSync(decksDirectory)
@@ -23,6 +27,7 @@ function getAllDecks() {
         id: slug,
         title: data.title || slug,
         lastEdited: data.lastEdited || null,
+        pokemon: (data.pokemon as number[]) || [],
       }
     })
 
@@ -65,9 +70,22 @@ export default function Home() {
               className="group relative bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-purple-300 dark:hover:border-purple-600 hover:shadow-xl hover:shadow-purple-100/50 dark:hover:shadow-purple-900/30 transition-all duration-300 p-6"
             >
               <div className="flex items-start justify-between">
-                <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 group-hover:text-purple-700 dark:group-hover:text-purple-400 transition-colors pr-4">
-                  {deck.title}
-                </h3>
+                <div className="flex items-center gap-2">
+                  <div className="flex -space-x-2">
+                    {deck.pokemon.map((id) => (
+                      /* eslint-disable-next-line @next/next/no-img-element */
+                      <img
+                        key={id}
+                        src={getPokemonSprite(id)}
+                        alt=""
+                        className="w-10 h-10 object-contain"
+                      />
+                    ))}
+                  </div>
+                  <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 group-hover:text-purple-700 dark:group-hover:text-purple-400 transition-colors">
+                    {deck.title}
+                  </h3>
+                </div>
                 <span className="shrink-0 w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-700 group-hover:bg-purple-100 dark:group-hover:bg-purple-900/50 flex items-center justify-center transition-colors">
                   <svg className="w-4 h-4 text-slate-400 dark:text-slate-500 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
