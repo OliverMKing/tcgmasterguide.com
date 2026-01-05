@@ -12,7 +12,7 @@ lastEdited: "2026-01-02T22:57:23-05:00"
 - Defiance Band is probably more often used with things other than Moltres, such as Ursaluna, even though it was originally included as a package deal with Moltres. That said, if I cut Moltres I would probably still cut Defiance Band because it is extremely situational.
 - Yveltal was pretty underwhelming in testing, so I no longer think you need two.
 - I'm on the fence about Ciphermaniac. I think the card is extremely strong in this deck, natural synergy with Kang, Iono-proof, it's otherwise hard to find the right cards most of the time, and it can also help against Gholdengo when you aren't allowed to have any draw Pokemon on the board. The only issue with Ciphermaniac is its high opportunity cost in terms of deck space. Running one Vessel is a little risky, and I would also like another Dark Energy, so it's possible to cut the Ciphers for those cards. I also like Cipher because it improves overall consistency, which is one area where this deck is lacking.
-- Lively Stadium is relevant often enough to warrant the two copies.
+- Lively Stadium is relevant often enough to warrant both copies.
 
 **To try:** Enhanced Hammer, no Mist Energy
 
