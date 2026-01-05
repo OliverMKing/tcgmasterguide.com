@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
@@ -76,12 +77,14 @@ export default function Home() {
                   </h3>
                   <div className="flex -space-x-2">
                     {deck.pokemon.map((id) => (
-                      /* eslint-disable-next-line @next/next/no-img-element */
-                      <img
+                      <Image
                         key={id}
                         src={getPokemonSprite(id)}
                         alt=""
+                        width={40}
+                        height={40}
                         className="w-10 h-10 object-contain"
+                        unoptimized
                       />
                     ))}
                   </div>

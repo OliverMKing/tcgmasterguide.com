@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import fs from 'fs'
 import path from 'path'
@@ -119,12 +120,14 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
             {deck.pokemon.length > 0 && (
               <div className="flex -space-x-2">
                 {deck.pokemon.map((id) => (
-                  /* eslint-disable-next-line @next/next/no-img-element */
-                  <img
+                  <Image
                     key={id}
                     src={getPokemonSprite(id)}
                     alt=""
+                    width={64}
+                    height={64}
                     className="w-12 h-12 md:w-16 md:h-16 object-contain"
+                    unoptimized
                   />
                 ))}
               </div>
@@ -225,12 +228,14 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
               img: ({ src, alt }) => {
                 const imageSrc = transformImageSrc(typeof src === 'string' ? src : '')
                 return (
-                  <span className="block my-8">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
+                  <span className="block my-8 relative">
+                    <Image
                       src={imageSrc}
                       alt={alt || ''}
+                      width={800}
+                      height={600}
                       className="rounded-xl border border-slate-200 dark:border-slate-700 shadow-lg w-full h-auto"
+                      unoptimized
                     />
                   </span>
                 )
