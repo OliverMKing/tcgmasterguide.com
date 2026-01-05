@@ -47,7 +47,7 @@ If you need to add images, see [Adding Images](#5-adding-images) below.
 3. Click on the **Current Branch** dropdown at the top
 4. Click **New Branch**
 5. Name your branch (e.g., `update-grimmsnarl`) and click **Create Branch**
-6. Click **Leave my changes on...** if prompted, then **Switch Branch**
+6. Bring your changes over (or make your changes to the code now)
 7. At the bottom left, enter a summary of your changes (e.g., "Update Grimmsnarl matchup section")
 8. Click **Commit to [your-branch-name]**
 9. Click **Publish branch** at the top
