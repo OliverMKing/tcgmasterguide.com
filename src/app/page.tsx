@@ -47,7 +47,7 @@ export default function Home() {
               TCG Master Guide
             </h1>
             <p className="text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed">
-              In-depth deck guides by Grant Manley, former world #1 ranked player. Constantly updated to keep you ahead of the meta.
+              In-depth Pokemon Trading Card Game deck guides by Grant Manley, former world #1 ranked player. Constantly updated to keep you ahead of the meta.
             </p>
           </div>
         </div>
