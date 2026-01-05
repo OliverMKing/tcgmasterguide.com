@@ -28,6 +28,9 @@ lastEdited: "2026-01-02T22:57:23-05:00"
 - Drakloak is a viable attacker! Don't forget about it! Of course it is situational.
 
 ![gameplay of dragapult / dusknoir](./images/dragapult-dusknoir/gameplay1.png)
+
+Here my first inclination is to Ultra Ball away Ultra and Iono for Fez or Drakloak and play Iono, but after thinking about it, I ended up just playing Iono. These cards are all important throughout the game, and I think I am getting enough reach with the Iono plus Drakloak with the potential for more Drakloak. There could also be an argument to Recon first for something useless and Ultra Ball it away. I don't think the lone Drakloak is in immediate danger even if I whiff another one though.
+
 ![gameplay of dragapult / dusknoir 2](./images/dragapult-dusknoir/gameplay2.png)
 ![gameplay of dragapult / dusknoir 3](./images/dragapult-dusknoir/gameplay3.png)
 

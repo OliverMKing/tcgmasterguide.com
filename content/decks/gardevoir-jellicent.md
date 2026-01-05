@@ -35,7 +35,7 @@ lastEdited: "2026-01-02T22:57:23-05:00"
 ![gameplay of Gardevoir / Jellicent 3](./images/gardevoir-jellicent/gameplay3.png)
 ![gameplay of Gardevoir / Jellicent 4](./images/gardevoir-jellicent/gameplay4.png)
 
-Most people's first inclination here would probably be to get Ralts, maybe use Iono, and attack with manual Munkidori. That was my first thought too, but we do not need Gardevoir for the rest of this game. In fact, that bench spot is better off used for the third Munkidori. We can use triple Adrenabrain to KO and spawntrap their Impidimp, ensuring that no Grimmsnarl comes into play to close out this game. This completely forgoes an attack for the turn. Even though we could attack with Diancie or Munkidori, KO'ing the Impidimp is just better. Leaving the Diancie in the Active leaves it at risk of Ursaluna, so retreating it and using Iono minimizes the risk. There's also the chance of drawing Bravery Charm to make it completely safe.
+Most people's first inclination here would probably be to get Ralts, maybe use Iono, and attack with manual Munkidori. That was my first thought too, but we do not need Gardevoir for the rest of this game. In fact, that bench spot is better off used for the third Munkidori. We can use Stretcher for Dark and triple Adrenabrain to KO and spawntrap their Impidimp, ensuring that no Grimmsnarl comes into play to close out this game. This completely forgoes an attack for the turn. Even though we could attack with Diancie or Munkidori, KO'ing the Impidimp is just better. Leaving the Diancie in the Active leaves it at risk of Ursaluna, so retreating it and using Iono minimizes the risk. There's also the chance of drawing Bravery Charm to make it completely safe.
 
 ## Matchups
 
