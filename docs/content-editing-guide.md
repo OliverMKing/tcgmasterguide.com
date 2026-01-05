@@ -44,14 +44,26 @@ If you need to add images, see [Adding Images](#5-adding-images) below.
 
 1. Go back to GitHub Desktop
 2. You'll see your changes listed on the left side
-3. At the bottom left, enter a summary of your changes (e.g., "Update Grimmsnarl matchup section")
-4. Click **Commit to main**
-5. Click **Push origin** at the top
-6. Click **Create Pull Request**
-7. This opens GitHub in your browser
-8. Click **Create pull request**
-9. Since you're a code owner for content, click **Merge pull request**
-10. Click **Confirm merge**
+3. Click on the **Current Branch** dropdown at the top
+4. Click **New Branch**
+5. Name your branch (e.g., `update-grimmsnarl`) and click **Create Branch**
+6. Click **Leave my changes on...** if prompted, then **Switch Branch**
+7. At the bottom left, enter a summary of your changes (e.g., "Update Grimmsnarl matchup section")
+8. Click **Commit to [your-branch-name]**
+9. Click **Publish branch** at the top
+10. Click **Create Pull Request**
+11. This opens GitHub in your browser
+12. Click **Create pull request**
+13. Since you're a code owner for content, click **Merge pull request**
+14. Click **Confirm merge**
+
+### 4. Updating Local Main
+
+After your PR is merged, you need to update your local main branch for next time:
+
+1. In GitHub Desktop, switch back to the **main** branch
+2. Click **Fetch origin**
+3. Click **Pull origin** to get your merged changes
 
 Your changes are now live! The site will automatically rebuild.
 
