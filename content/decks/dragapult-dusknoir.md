@@ -31,8 +31,11 @@ lastEdited: "2026-01-02T22:57:23-05:00"
 
 Here my first inclination is to Ultra Ball away Ultra and Iono for Fez or Drakloak and play Iono, but after thinking about it, I ended up just playing Iono. These cards are all important throughout the game, and I think I am getting enough reach with the Iono plus Drakloak with the potential for more Drakloak. There could also be an argument to Recon first for something useless and Ultra Ball it away. I don't think the lone Drakloak is in immediate danger even if I whiff another one though.
 
-![gameplay of dragapult / dusknoir 2](./images/dragapult-dusknoir/gameplay2.png)
 ![gameplay of dragapult / dusknoir 3](./images/dragapult-dusknoir/gameplay3.png)
+
+Here we have a pretty interesting spot. Dragapult has Neo Upper and Drakloak has Luminous. Since we know we have no need for Lillie or Iono this turn, we can go ahead and use Recon Directive first. The Recons get Dreepy and Energy, so basically nothing relevant. That Clefairy and Ralts are both threats. They have two Rare Candy left, so taking out the Ralts takes priority! Attach Energy to Drakloak, retreat Dragapult, and Dragon Headbutt that Ralts! They can't win next turn, but they can respond with Mind Bend KO! We have Ultra Ball for Ursaluna and plenty of reach for another gust to close out the game. They have two Iono left but they're not likely to find it. In order for us to lose this game, the opponent would have to hit an Iono, an Energy, and a follow up Energy, and they only have two cards in hand right now! If they promote Jellicent instead of taking the Mind Bend KO, we can simply Iono and smack it.
+
+But what if we didn't have an Energy here? No problem, just Turo up the Hawlucha and use Itchy Pollen, threatening game next turn. We don't do this as our first choice because it's risking too much to a Kirlia or even an Iono. This scenario is a good example of where Drakloak can be the best attacker!
 
 ## Matchups
 
