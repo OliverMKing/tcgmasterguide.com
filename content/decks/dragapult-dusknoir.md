@@ -1,7 +1,8 @@
 ---
 title: "Dragapult / Dusknoir"
 pokemon: [887, 477]
-lastEdited: "2026-01-05T16:27:16-05:00"
+tier: 2
+lastEdited: "2026-01-05T21:02:46-05:00"
 ---
 
 ## Decklist

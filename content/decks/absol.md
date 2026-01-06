@@ -1,7 +1,8 @@
 ---
 title: "Absol"
 pokemon: [359]
-lastEdited: "2026-01-05T00:59:11-05:00"
+tier: 3
+lastEdited: "2026-01-05T21:02:46-05:00"
 ---
 
 ## Decklist

@@ -1,7 +1,8 @@
 ---
 title: "Grimmsnarl"
 pokemon: [861]
-lastEdited: "2026-01-03T10:55:04-05:00"
+tier: 2
+lastEdited: "2026-01-05T19:20:25-05:00"
 ---
 
 ## Decklist

@@ -1,7 +1,8 @@
 ---
 title: "Gholdengo"
 pokemon: [1000]
-lastEdited: "2026-01-03T10:55:04-05:00"
+tier: 1
+lastEdited: "2026-01-05T19:20:25-05:00"
 ---
 
 ## Decklist

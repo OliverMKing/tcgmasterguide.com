@@ -1,7 +1,8 @@
 ---
 title: "Gardevoir / Jellicent"
 pokemon: [282, 593]
-lastEdited: "2026-01-05T14:05:19-05:00"
+tier: 1
+lastEdited: "2026-01-05T21:02:46-05:00"
 ---
 
 ## Decklist

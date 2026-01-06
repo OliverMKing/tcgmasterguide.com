@@ -1,7 +1,8 @@
 ---
 title: "Charizard / Pidgeot"
 pokemon: [6, 18]
-lastEdited: "2026-01-03T10:55:04-05:00"
+tier: 3
+lastEdited: "2026-01-05T21:02:46-05:00"
 ---
 
 ## Decklist
