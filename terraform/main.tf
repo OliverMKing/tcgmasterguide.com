@@ -166,7 +166,7 @@ resource "azurerm_key_vault" "main" {
     ]
 
     secret_permissions = [
-      "Get", "List", "Set", "Delete", "Recover", "Backup", "Restore"
+      "Get", "List", "Set", "Delete", "Recover", "Backup", "Restore", "Purge"
     ]
 
     certificate_permissions = [
@@ -174,19 +174,7 @@ resource "azurerm_key_vault" "main" {
     ]
   }
 
-  # Access policy for Static Web App (using system-assigned managed identity)
-  access_policy {
-    tenant_id = data.azurerm_client_config.current.tenant_id
-    object_id = azurerm_static_web_app.main.identity[0].principal_id
-
-    secret_permissions = [
-      "Get", "List"
-    ]
-  }
-
   tags = var.tags
-
-  depends_on = [azurerm_static_web_app.main]
 }
 
 # Store SQL Connection String in Key Vault
@@ -280,32 +268,15 @@ resource "azurerm_role_assignment" "appinsights_reader" {
   principal_id         = azuread_service_principal.appinsights_reader.object_id
 }
 
-# Store Service Principal credentials in Key Vault
-resource "azurerm_key_vault_secret" "appinsights_sp_client_id" {
-  name         = "appinsights-sp-client-id"
-  value        = azuread_application.appinsights_reader.client_id
-  key_vault_id = azurerm_key_vault.main.id
-
-  depends_on = [azurerm_key_vault.main]
-}
-
-resource "azurerm_key_vault_secret" "appinsights_sp_client_secret" {
-  name         = "appinsights-sp-client-secret"
-  value        = azuread_service_principal_password.appinsights_reader.value
-  key_vault_id = azurerm_key_vault.main.id
-
-  depends_on = [azurerm_key_vault.main]
-}
-
-
 # Set Application Insights environment variables on Static Web App
-# Uses Key Vault references for sensitive values (requires Standard SKU)
 # Note: NEXT_PUBLIC_APPINSIGHTS_CONNECTION_STRING is set in GitHub Actions workflow
-# because Next.js NEXT_PUBLIC_* vars are baked in at build time, not read at runtime
+# because Next.js NEXT_PUBLIC_* vars are baked in at build time, not read at runtime.
+# We need to set the client secret here because managed functions don't support reading secrets from kv (we will move to this in the future)
 resource "null_resource" "swa_appinsights_settings" {
   triggers = {
-    workspace_id = azurerm_log_analytics_workspace.main.workspace_id
-    sp_client_id = azuread_application.appinsights_reader.client_id
+    workspace_id     = azurerm_log_analytics_workspace.main.workspace_id
+    sp_client_id     = azuread_application.appinsights_reader.client_id
+    sp_client_secret = azuread_service_principal_password.appinsights_reader.value
   }
 
   provisioner "local-exec" {
@@ -316,15 +287,14 @@ resource "null_resource" "swa_appinsights_settings" {
         --setting-names \
           AZURE_LOG_ANALYTICS_WORKSPACE_ID="${azurerm_log_analytics_workspace.main.workspace_id}" \
           AZURE_TENANT_ID="${data.azurerm_client_config.current.tenant_id}" \
-          AZURE_CLIENT_ID="@Microsoft.KeyVault(SecretUri=${azurerm_key_vault_secret.appinsights_sp_client_id.versionless_id})" \
-          AZURE_CLIENT_SECRET="@Microsoft.KeyVault(SecretUri=${azurerm_key_vault_secret.appinsights_sp_client_secret.versionless_id})"
+          AZURE_CLIENT_ID="${azuread_application.appinsights_reader.client_id}" \
+          AZURE_CLIENT_SECRET="${azuread_service_principal_password.appinsights_reader.value}"
     EOT
   }
 
   depends_on = [
     azurerm_static_web_app.main,
     azurerm_application_insights.main,
-    azurerm_key_vault_secret.appinsights_sp_client_id,
-    azurerm_key_vault_secret.appinsights_sp_client_secret
+    azuread_service_principal_password.appinsights_reader
   ]
 }
