@@ -6,6 +6,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
 import { LocalDate } from '@/components/LocalDate'
+import type { Metadata } from 'next'
 
 // Force static generation at build time
 export const dynamic = 'force-static'
@@ -73,6 +74,38 @@ export function generateStaticParams() {
   return getAllDeckSlugs().map((slug) => ({
     slug,
   }))
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}): Promise<Metadata> {
+  const { slug } = await params
+  const deck = getDeckContent(slug)
+
+  if (!deck) {
+    return {
+      title: 'Deck Not Found',
+    }
+  }
+
+  const description = `${deck.title} deck guide for Pokemon TCG. Expert strategy, deck list, and matchup analysis by Grant Manley.`
+
+  return {
+    title: deck.title,
+    description,
+    openGraph: {
+      title: `${deck.title} - Pokemon TCG Deck Guide`,
+      description,
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${deck.title} - Pokemon TCG Deck Guide`,
+      description,
+    },
+  }
 }
 
 export default async function DeckPage({ params }: { params: Promise<{ slug: string }> }) {

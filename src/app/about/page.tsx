@@ -1,5 +1,17 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'About',
+  description:
+    'Learn about TCG Master Guide and author Grant Manley, former world #1 ranked Pokemon TCG player. Expert deck guides and competitive strategies.',
+  openGraph: {
+    title: 'About TCG Master Guide',
+    description:
+      'Learn about TCG Master Guide and author Grant Manley, former world #1 ranked Pokemon TCG player.',
+  },
+}
 
 export default function AboutPage() {
   return (
