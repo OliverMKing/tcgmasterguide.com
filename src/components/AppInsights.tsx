@@ -10,6 +10,7 @@ function getAppInsights(): ApplicationInsights | null {
   if (typeof window === 'undefined') return null
 
   const connectionString = process.env.NEXT_PUBLIC_APPINSIGHTS_CONNECTION_STRING
+  console.log('AppInsights Connection String:', connectionString)
   if (!connectionString) return null
 
   if (!appInsights) {
@@ -25,6 +26,7 @@ function getAppInsights(): ApplicationInsights | null {
     appInsights.loadAppInsights()
   }
 
+  console.log('AppInsights initialized:', appInsights)
   return appInsights
 }
 
