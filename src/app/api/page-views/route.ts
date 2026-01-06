@@ -72,7 +72,7 @@ async function queryLogAnalytics(slug: string): Promise<{ count: number; error?:
 
   const query = `
     AppPageViews
-    | where Url endswith "/decks/${slug}"
+    | where Url == "/decks/${slug}"
     | summarize count()
   `
 
