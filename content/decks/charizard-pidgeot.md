@@ -25,7 +25,14 @@ lastEdited: "2026-01-02T22:57:23-05:00"
 - Managing your extra Energy, such as the third one from Infernal Reign or Energy you have in hand, depends on how many Infernal Reigns you'll need this game. If you'll need a follow-up Charizard, try to leave at least two Energy in the deck and don't commit one to Charmander off Infernal Reign just because you can. Putting an extra Energy on Chi-Yu, Pidgeot, or Tatsugiri can also be a good use of it, allowing for a lot of flexibility later. However, committing the third Infernal Reign Energy does thin the deck and prevent you from drawing it, so it can be ok to do if you don't think you'll need the flexibility. Saving Energy helps against gust traps, but in reality, that doesn't happen very often (and can be negated by Pidgeot's Quick Search).
 
 ![gameplay for Charizard / Pidgeot](./images/charizard-pidgeot/gameplay1.png)
+
+With Secret Box in deck, this is a straightforward lethal with Quick Search for Box for Boss and Ultra for Clops, Clops the Budew and Boss the damaged Pult. This board is to illustrate the power of double Duskull and the ability to checkmate Dragapult. If they did anything else besides spread damage, they would instantly lose to Briar Defiance (if they KO'd both Duskull) or Dusknoir (if they did anything else). This also shows how we can punish them if they put Latias down, as we were able to KO the first Budew, then Boss KO the Latias leaving the second Budew as a liability on board. Of course, this only happens with an ideal initial setup.
+
 ![gameplay for Charizard / Pidgeot 2](./images/charizard-pidgeot/gameplay2.png)
+
+This spot is interesting because the correct play is difficult to identify and the situation is more complex than it looks. Every option opens up a way to lose. All Energy are gone, but we still have both Boss as well as Stretcher and Super Rod. Smacking the Kang loses to Dark plus Boss, so we'd have to evolve into Dusclops to avoid that. However, the Dusclops gets stuck to Boss and they swap the Kang into Fez, winning within two turns anyway. They could also just win a 50-50 flip on the Pidgeot. Even if we use Quick Searches to prep an Infernal Reign to let the Dusclops escape, we can't Quick Search for enough cards to also get the Boss.
+
+We may instead go for back-to-back Bosses. Boss KO'ing the Fez loses to gust plus Dark and Energy Switch. Boss KO'ing Pecharunt loses to the same thing plus Stretcher. Although that combo may seem unlikely, they have draw 5 on board and can find the missing piece with Arven. I ended up Boss KO'ing Psyduck here. This does open us up to Yveltal plus Boss plus Dark, which I think is the least likely combo since it requires the Boss. There is also some time to topdeck out, as Dusknoir plus Blustery Wind can win in a couple of turns. Evolve to Dusclops and Poffin for Charmander to enable a potential Infernal Reign with Candy in hand already.
 
 ## Matchups
 

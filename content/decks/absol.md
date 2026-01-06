@@ -29,8 +29,16 @@ Kang is not your go-to attacker, but sometimes you just put Energy on it because
 With 3, 2, and 1-prize Pokemon, opponents can abuse this to make a convenient prize map for themselves. Your job is to identify what lines your opponent is going for, and use cards like Charm and Penny (or just not putting things down) to make the prize map as difficult as possible.
 
 ![gameplay situation](./images/absol/gameplay1.png)
+
+This spot is uncomfortable for a few reasons. Psyduck was just KO'd, and we need to minimize the chance of losing next turn. Kang could go for double heads on the Pidgeot to win right now, but I think we have better than 25% odds by simply going for Claw on their Active instead. If we had another Boss in hand, Bossing the Pidgeot and using Claw on it would almost certainly be best, but we don't. Claw finds Lillie, Candy, and Defiance, which is a cracked hand, and we are forced to discard the Defiance. They are down a Counter Catcher, so they still have to get lucky off Lillie to win.
+
 ![gameplay situation 2](./images/absol/gameplay2.png)
+
+Psyduck was just KO'd and we don't have Stretcher! A common occurrence. Both of their Jets are gone, so Bossing the Pidgeot and using Clutch is the best play! Draw and thin as much as possible, and then play Pokegear for the best odds of finding Boss. We got it off the Pokegear! Make sure to poison Yveltal to get that Pidgeot in Kang-KO range as quickly as possible, and equip a Charm to defend against the possibility of an eventual Dusknoir + Blustery Wind.
+
 ![gameplay situation 3](./images/absol/gameplay3.png)
+
+Once again, Bossing the Pidgeot would be viable if we had another follow-up Boss, but we don't! After thinking about this spot for awhile, I decided to Boss and Claw the Dusclops. Even though we have Psyduck, they have Klefki, so this limits their options as much as possible and ensures that Absol is safe! We can also get a bit of poison damage on Absol since we already have Munki with Dark. Claw of Darkness finds two Boss, a Counter Catcher, Secret Box, Dusknoir, and a TM: Evo. All kinds of goodies to choose from! Getting rid of Boss is definitely best in this matchup!
 
 ## Matchups
 

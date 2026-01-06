@@ -33,11 +33,11 @@ If the prize map is going to rely on Briar (as it often does, especially with Du
 
 ![gameplay of Charizard / Noctowl](./images/charizard-noctowl/gameplay1.png)
 
-For this one, we need to figure out what the best turn is. We topdecked Terapagos, so we don't necessarily need Charizard. We can KO their Gimmighoul with Fan Rotom, but that feeds them yet another prize. Charizard should be very difficult to KO from this position, so I think it's the best option. Bench Terapagos, Noctowl for two Candy. Ultra Ball for Charizard, discarding both Jets, Candy into both, leaving us with only Iono and Noctowl. Jet Energy is not very important in this matchup, even though it is in a lot of others. Iono gives us a fresh hand, and we can use Quick Search for whatever piece we need after seeing our new hand. This list has two Iono, so we still have another one for later, which we may need if they somehow do KO our Charizard.
+For this one, we need to figure out what the best turn is. We topdecked Terapagos, so we don't necessarily need Charizard. We can KO their Gimmighoul with Fan Rotom, but that feeds them yet another prize. Charizard should be very difficult to KO from this position, so I think it's the best option. Bench Terapagos, Noctowl for two Candy. Ultra Ball for Charizard, discarding both Jets, Candy into both, leaving us with only Iono and Noctowl. Jet Energy is not very important in this matchup, even though it is in a lot of others. Iono gives us a fresh hand, and we can use Quick Search for whatever piece we need after seeing our new hand. Iono is sometimes needed in the late-game, but since the return KO on Charizard is unlikely here, I think it's fine.
 
 ![gameplay of Charizard / Noctowl 2](./images/charizard-noctowl/gameplay2.png)
 
-They used Watchtower, but luckily we have the Stadium counter. How do we optimally set up our board? They don't have any Gimmighoul, so there's no threat of KO'ing our Terapagos.
+They used Watchtower, but luckily we have the Stadium counter. How do we optimally set up our board? They don't have any Gimmighoul, so there's no threat of KO'ing our Terapagos. Poffin for two Charmander, Dawn for Terapagos Pidgeot Noctowl, Fan Call for Hoothoot Hoothoot Pidgey, play Duskull from hand thanks to Area Zero's extra bench spot, and retreat into Terapagos. Getting/denying the first prize is massive in this matchup. If they whiff the gust KO, it's basically over (and they already used Secret Box).
 
 ## Matchups
 
