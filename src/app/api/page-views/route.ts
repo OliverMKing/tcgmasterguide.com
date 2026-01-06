@@ -56,17 +56,18 @@ async function getAzureToken(): Promise<string | null> {
   }
 }
 
-async function queryLogAnalytics(slug: string): Promise<number> {
+async function queryLogAnalytics(slug: string): Promise<{ count: number; error?: string }> {
   const workspaceId = process.env.AZURE_LOG_ANALYTICS_WORKSPACE_ID
 
   if (!workspaceId) {
-    console.warn('Log Analytics workspace ID not configured')
-    return 0
+    const msg = 'Log Analytics workspace ID not configured'
+    console.warn(msg)
+    return { count: 0, error: msg }
   }
 
   const token = await getAzureToken()
   if (!token) {
-    return 0
+    return { count: 0, error: 'Failed to get Azure AD token' }
   }
 
   const query = `
@@ -89,17 +90,20 @@ async function queryLogAnalytics(slug: string): Promise<number> {
     )
 
     if (!response.ok) {
-      console.error('Log Analytics query failed:', response.status)
-      return 0
+      const errorText = await response.text()
+      const msg = `Log Analytics query failed: ${response.status} - ${errorText}`
+      console.error(msg)
+      return { count: 0, error: msg }
     }
 
     const data = await response.json()
     // Response format: { tables: [{ rows: [[count]] }] }
     const count = data.tables?.[0]?.rows?.[0]?.[0] ?? 0
-    return typeof count === 'number' ? count : parseInt(count, 10) || 0
+    return { count: typeof count === 'number' ? count : parseInt(count, 10) || 0 }
   } catch (error) {
-    console.error('Error querying Log Analytics:', error)
-    return 0
+    const msg = `Error querying Log Analytics: ${error instanceof Error ? error.message : String(error)}`
+    console.error(msg)
+    return { count: 0, error: msg }
   }
 }
 
@@ -118,10 +122,14 @@ export async function GET(request: NextRequest) {
   }
 
   // Query Log Analytics
-  const count = await queryLogAnalytics(slug)
+  const result = await queryLogAnalytics(slug)
 
   // Update cache
-  viewCountCache.set(slug, { count, timestamp: Date.now() })
+  viewCountCache.set(slug, { count: result.count, timestamp: Date.now() })
 
-  return NextResponse.json({ slug, views: count })
+  if (result.error) {
+    return NextResponse.json({ slug, views: result.count, error: result.error })
+  }
+
+  return NextResponse.json({ slug, views: result.count })
 }
