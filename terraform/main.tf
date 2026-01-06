@@ -268,6 +268,14 @@ resource "azurerm_role_assignment" "appinsights_reader" {
   principal_id         = azuread_service_principal.appinsights_reader.object_id
 }
 
+# Grant the Service Principal "Log Analytics Reader" role on Log Analytics Workspace
+# Required to query AppPageViews via the Log Analytics API
+resource "azurerm_role_assignment" "log_analytics_reader" {
+  scope                = azurerm_log_analytics_workspace.main.id
+  role_definition_name = "Log Analytics Reader"
+  principal_id         = azuread_service_principal.appinsights_reader.object_id
+}
+
 # Set Application Insights environment variables on Static Web App
 # Note: NEXT_PUBLIC_APPINSIGHTS_CONNECTION_STRING is set in GitHub Actions workflow
 # because Next.js NEXT_PUBLIC_* vars are baked in at build time, not read at runtime.
