@@ -31,8 +31,23 @@ lastEdited: "2026-01-05T14:05:19-05:00"
 - Go second against everything besides Fan Rotom decks and Ceruledge.
 
 ![gameplay of Gardevoir / Jellicent](./images/gardevoir-jellicent/gameplay1.png)
+
+This scenario is interesting because the game is most likely doomed, but there's still some decisions to be made to maximize the chance of salvaging the game. We can empty our hand and use Mew's Restart off Ultra Ball, so the questions are where to attach the Energy and if we should evolve into Kirlia. Worth noting is that there's only one Stadium out left in the deck, as a Stadium and Secret Box are already gone.
+
+Attaching to Fez opens the copium Candy Garde or Stadium Devo lines. Attaching to Munkidori stops immediate death to Hawlucha, but still loses to Dusclops or Boss (one of each are already in their discard). Either way, we'll most likely need Iono off of this Mew since the opponent has 13 cards in hand. Evolving to Kirlia is also needed to avoid death to Hawlucha, but closes off the Candy Garde line. Since I thought the offensive lines were so unlikely, I opted to play the entire hand down, evolving to Kirlia and attaching to Munki. Restart for 3 hoping for Iono, but whiffed and Adrenabrain to Duskull. I believe there were either three or four Iono left in deck. If there were only one or two, going for an offensive line would probably be more likely to hit.
+
 ![gameplay of Gardevoir / Jellicent 2](./images/gardevoir-jellicent/gameplay2.png)
+
+Here we have a spot that looks dire but is actually not terrible. Their Dragapult has Neo Upper and their Munkidori has Luminous, which means we'll need a Munkidori of our own in order to two-shot their Dragapult with Jellicent. Both Ralts are in the discard, so we may be tempted to Stretcher for one and Charm it, but that is feeding it to Jamming Tower plus Adrenabrain. They have eight cards in hand, but thanks to Jellicent, we know their hand isn't very good, as they would have evolved into Stage 1s if they had any. There's a good chance that they won't be able to progress next turn, so we can see what happens, and play the Ralts when it's safer after taking out the Pult.
+
+We could grab Fez and draw three, but we need space for Munkidori and Ralts next turn. Artazon for Munkidori in case of Jamming Tower, and smack for 160. Vessel for Dark and attaching it now is feeding it to Dusclops unnecessarily, so we save that. Charm can go onto Scream Tail to stop that free prize from Adrenabrain plus Phantom Dive. Hold the rest of the hand.
+
 ![gameplay of Gardevoir / Jellicent 3](./images/gardevoir-jellicent/gameplay3.png)
+
+Continuing from the last position, we did get the two-shot on their Dragapult as well as the Ralts recovery. They did have Jamming Tower to get our Scream Tail (which was apparently recovered in the interim), but thanks to Jellicent's Item lock, they had no choice but to Mind Bend for the turn, and now we can Candy Garde. With plenty of options, we have to identify the correct end result and sequence appropriately. Our only Pokemon that isn't at risk of Ursaluna is Gardevoir, so we should attack with that.
+
+Vessel away Scream Tail for two Psychic, Ultra Ball away a Psychic and Turo for Garde, and use Candy. Manually attach to Jellicent to retreat, so that Adrenabrain gets it out of range of Dreepy's Bite. Adrenabrain to their active so they can't recover Munki and KO Gardevoir with Adrenabrain plus Ursaluna. Play Iono on their 8-card hand now that we're releasing the Item lock, draw one with Mew, load up Gardevoir, retreat, and KO. If they get it, they get it.
+
 ![gameplay of Gardevoir / Jellicent 4](./images/gardevoir-jellicent/gameplay4.png)
 
 Most people's first inclination here would probably be to get Ralts, maybe use Iono, and attack with manual Munkidori. That was my first thought too, but we do not need Gardevoir for the rest of this game. In fact, that bench spot is better off used for the third Munkidori. We can use Stretcher for Dark and triple Adrenabrain to KO and spawntrap their Impidimp, ensuring that no Grimmsnarl comes into play to close out this game. This completely forgoes an attack for the turn. Even though we could attack with Diancie or Munkidori, KO'ing the Impidimp is just better. Leaving the Diancie in the Active leaves it at risk of Ursaluna, so retreating it and using Iono minimizes the risk. There's also the chance of drawing Bravery Charm to make it completely safe.
