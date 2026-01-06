@@ -72,7 +72,7 @@ async function queryLogAnalytics(slug: string): Promise<{ count: number; error?:
 
   const query = `
     AppPageViews
-    | where Url == "/decks/${slug}"
+    | where Url endswith "/decks/${slug}"
     | summarize count()
   `
 
@@ -124,8 +124,10 @@ export async function GET(request: NextRequest) {
   // Query Log Analytics
   const result = await queryLogAnalytics(slug)
 
-  // Update cache
-  viewCountCache.set(slug, { count: result.count, timestamp: Date.now() })
+  // Only cache successful results
+  if (!result.error) {
+    viewCountCache.set(slug, { count: result.count, timestamp: Date.now() })
+  }
 
   if (result.error) {
     return NextResponse.json({ slug, views: result.count, error: result.error })
