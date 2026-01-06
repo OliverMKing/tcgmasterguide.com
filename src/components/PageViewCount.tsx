@@ -25,7 +25,16 @@ export function PageViewCount({ slug }: PageViewCountProps) {
     fetchViews()
   }, [slug])
 
-  if (views === null || views === 0) {
+  if (views === null) {
+    return (
+      <>
+        <span className="text-slate-300 dark:text-slate-600">•</span>
+        <span className="h-4 w-16 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
+      </>
+    )
+  }
+
+  if (views === 0) {
     return null
   }
 
