@@ -197,17 +197,21 @@ npx prisma migrate deploy
 
 ### 5. Application Insights Page View Tracking
 
-Terraform automatically configures Application Insights for page view tracking:
+Application Insights is configured for page view tracking with two components:
 
-- Creates a Service Principal with "Monitoring Reader" role
-- Sets environment variables on the Static Web App:
-  - `NEXT_PUBLIC_APPINSIGHTS_CONNECTION_STRING` - for client-side tracking
+**Client-side tracking (baked into build):**
+- `NEXT_PUBLIC_APPINSIGHTS_CONNECTION_STRING` must be set in the GitHub Actions workflow file (`.github/workflows/azure-static-web-apps.yml`) as an environment variable during build
+- This is because Next.js `NEXT_PUBLIC_*` variables are embedded at build time, not read from Azure app settings at runtime
+- Get the connection string from: Azure Portal → Application Insights → Overview → Connection String
+
+**Server-side querying (set by Terraform):**
+- Terraform creates a Service Principal with "Monitoring Reader" role
+- Sets these environment variables on the Static Web App via Key Vault references:
   - `AZURE_LOG_ANALYTICS_WORKSPACE_ID` - for querying page views
   - `AZURE_CLIENT_ID`, `AZURE_CLIENT_SECRET`, `AZURE_TENANT_ID` - for Azure AD authentication
+- The Service Principal credentials are stored in Key Vault
 
-The Service Principal credentials are also stored in Key Vault for reference.
-
-**No manual configuration required** - everything is set up automatically by Terraform.
+**Important:** If you recreate the Application Insights resource, you must update the connection string in the GitHub Actions workflow file and redeploy.
 
 ## Outputs
 

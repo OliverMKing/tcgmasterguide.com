@@ -300,11 +300,12 @@ resource "azurerm_key_vault_secret" "appinsights_sp_client_secret" {
 
 # Set Application Insights environment variables on Static Web App
 # Uses Key Vault references for sensitive values (requires Standard SKU)
+# Note: NEXT_PUBLIC_APPINSIGHTS_CONNECTION_STRING is set in GitHub Actions workflow
+# because Next.js NEXT_PUBLIC_* vars are baked in at build time, not read at runtime
 resource "null_resource" "swa_appinsights_settings" {
   triggers = {
-    connection_string = azurerm_application_insights.main.connection_string
-    workspace_id      = azurerm_log_analytics_workspace.main.workspace_id
-    sp_client_id      = azuread_application.appinsights_reader.client_id
+    workspace_id = azurerm_log_analytics_workspace.main.workspace_id
+    sp_client_id = azuread_application.appinsights_reader.client_id
   }
 
   provisioner "local-exec" {
@@ -313,7 +314,6 @@ resource "null_resource" "swa_appinsights_settings" {
         --name ${azurerm_static_web_app.main.name} \
         --resource-group ${azurerm_resource_group.main.name} \
         --setting-names \
-          NEXT_PUBLIC_APPINSIGHTS_CONNECTION_STRING="${azurerm_application_insights.main.connection_string}" \
           AZURE_LOG_ANALYTICS_WORKSPACE_ID="${azurerm_log_analytics_workspace.main.workspace_id}" \
           AZURE_TENANT_ID="${data.azurerm_client_config.current.tenant_id}" \
           AZURE_CLIENT_ID="@Microsoft.KeyVault(SecretUri=${azurerm_key_vault_secret.appinsights_sp_client_id.versionless_id})" \
