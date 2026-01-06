@@ -20,6 +20,8 @@ function getAppInsights(): ApplicationInsights | null {
         disableFetchTracking: true,
         disableAjaxTracking: true,
         disableExceptionTracking: true,
+        enableSessionStorageBuffer: false,
+        disableCookiesUsage: true,
       },
     })
     appInsights.loadAppInsights()
