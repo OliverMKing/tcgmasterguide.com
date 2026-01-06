@@ -64,11 +64,24 @@ function getDeckContent(slug: string) {
       title: data.title,
       lastEdited: data.lastEdited || null,
       pokemon: (data.pokemon as number[]) || [],
+      tier: (data.tier as number) || 3,
       content,
     }
   } catch {
     return null
   }
+}
+
+const tierLabels: Record<number, string> = {
+  1: 'Tier 1',
+  2: 'Tier 2',
+  3: 'Tier 3',
+}
+
+const tierColors: Record<number, string> = {
+  1: 'bg-amber-500',
+  2: 'bg-slate-400',
+  3: 'bg-amber-700',
 }
 
 export function generateStaticParams() {
@@ -166,6 +179,11 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
                 ))}
               </div>
             )}
+          </div>
+          <div className="flex items-center gap-3 mb-3">
+            <span className={`${tierColors[deck.tier]} text-white text-sm font-bold px-3 py-1 rounded-full`}>
+              {tierLabels[deck.tier]}
+            </span>
           </div>
           {deck.lastEdited && (
             <div className="flex items-center gap-3 text-sm text-slate-500 dark:text-slate-400">

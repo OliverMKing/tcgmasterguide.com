@@ -65,7 +65,7 @@ const tierLabels: Record<number, string> = {
 }
 
 const tierColors: Record<number, string> = {
-  1: 'bg-yellow-500',
+  1: 'bg-amber-500',
   2: 'bg-slate-400',
   3: 'bg-amber-700',
 }
