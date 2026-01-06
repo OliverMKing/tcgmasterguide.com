@@ -1,4 +1,19 @@
 export default function HomeLoading() {
+  const tierColors: Record<number, string> = {
+    1: 'bg-amber-500',
+    2: 'bg-slate-400',
+    3: 'bg-amber-700',
+  }
+
+  const tierLabels: Record<number, string> = {
+    1: 'Tier 1',
+    2: 'Tier 2',
+    3: 'Tier 3',
+  }
+
+  // Show 2 cards per tier for skeleton
+  const tiers = [1, 2, 3]
+
   return (
     <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800">
       {/* Hero Section */}
@@ -25,23 +40,34 @@ export default function HomeLoading() {
           <div className="h-px flex-1 bg-gradient-to-r from-slate-200 dark:from-slate-700 to-transparent ml-8" />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {[...Array(6)].map((_, i) => (
-            <div
-              key={i}
-              className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6"
-            >
-              <div className="flex items-start justify-between">
-                <div className="flex items-center gap-2">
-                  <div className="h-5 w-32 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
-                  <div className="flex -space-x-2">
-                    <div className="w-10 h-10 bg-slate-200 dark:bg-slate-700 rounded-full animate-pulse" />
-                    <div className="w-10 h-10 bg-slate-200 dark:bg-slate-700 rounded-full animate-pulse" />
-                  </div>
-                </div>
-                <div className="w-8 h-8 bg-slate-200 dark:bg-slate-700 rounded-full animate-pulse" />
+        <div className="space-y-12">
+          {tiers.map((tier) => (
+            <div key={tier}>
+              <div className="flex items-center gap-3 mb-6">
+                <span className={`${tierColors[tier]} text-white text-sm font-bold px-3 py-1 rounded-full`}>
+                  {tierLabels[tier]}
+                </span>
               </div>
-              <div className="h-4 w-24 bg-slate-200 dark:bg-slate-700 rounded animate-pulse mt-3" />
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {[...Array(2)].map((_, i) => (
+                  <div
+                    key={i}
+                    className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6"
+                  >
+                    <div className="flex items-start justify-between">
+                      <div className="flex items-center gap-2">
+                        <div className="h-5 w-32 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
+                        <div className="flex -space-x-2">
+                          <div className="w-10 h-10 bg-slate-200 dark:bg-slate-700 rounded-full animate-pulse" />
+                          <div className="w-10 h-10 bg-slate-200 dark:bg-slate-700 rounded-full animate-pulse" />
+                        </div>
+                      </div>
+                      <div className="w-8 h-8 bg-slate-200 dark:bg-slate-700 rounded-full animate-pulse" />
+                    </div>
+                    <div className="h-4 w-24 bg-slate-200 dark:bg-slate-700 rounded animate-pulse mt-3" />
+                  </div>
+                ))}
+              </div>
             </div>
           ))}
         </div>

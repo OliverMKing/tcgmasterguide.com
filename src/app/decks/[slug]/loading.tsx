@@ -18,7 +18,10 @@ export default function DeckLoading() {
               <div className="w-12 h-12 md:w-16 md:h-16 bg-slate-200 dark:bg-slate-700 rounded-full animate-pulse" />
             </div>
           </div>
-          <div className="h-4 w-32 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
+          <div className="flex items-center gap-3">
+            <div className="h-6 w-14 bg-slate-300 dark:bg-slate-600 rounded-full animate-pulse" />
+            <div className="h-4 w-32 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
+          </div>
         </header>
 
         {/* Table of Contents Skeleton */}

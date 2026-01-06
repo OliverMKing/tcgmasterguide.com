@@ -148,7 +148,6 @@ export default function Home() {
                 <span className={`${tierColors[tier]} text-white text-sm font-bold px-3 py-1 rounded-full`}>
                   {tierLabels[tier]}
                 </span>
-                <div className="h-px flex-1 bg-slate-200 dark:bg-slate-700" />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {decksByTier.get(tier)!.map((deck) => (
