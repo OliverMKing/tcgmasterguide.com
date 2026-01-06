@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Master Ball inspired "G" favicon -->
+
+  <!-- Ball group - tilted -->
+  <g transform="rotate(10, 32, 32)">
+    <!-- Outer circle (ball shape) - bottom half white -->
+    <circle cx="32" cy="32" r="30" fill="#FAFBFC" stroke="#111827" stroke-width="2"/>
+
+    <!-- Top half purple -->
+    <path d="M32 2 A30 30 0 0 1 62 32 L2 32 A30 30 0 0 1 32 2" fill="#9333EA"/>
+
+    <!-- Center band -->
+    <rect x="2" y="31.5" width="60" height="1" fill="#111827"/>
+  </g>
+
+  <!-- G letter - bold and readable -->
+  <text x="32" y="55" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="62" font-weight="800" fill="#111827">G</text>
+
+</svg>

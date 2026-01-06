@@ -7,6 +7,9 @@ import { ThemeProvider } from '@/components/ThemeProvider'
 export const metadata: Metadata = {
   title: 'TCG Master Guide',
   description: 'Your ultimate Pokemon TCG companion',
+  icons: {
+    icon: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({
