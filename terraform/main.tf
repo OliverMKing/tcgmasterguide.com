@@ -4,7 +4,7 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "~> 3.0"
+      version = "~> 4.0"
     }
     azuread = {
       source  = "hashicorp/azuread"
@@ -60,6 +60,14 @@ resource "azurerm_static_web_app" "main" {
   }
 
   tags = var.tags
+
+  lifecycle {
+    ignore_changes = [
+      repository_url,
+      repository_branch,
+      app_settings,
+    ]
+  }
 }
 
 # Enable Enterprise Edge (global CDN powered by Azure Front Door)
@@ -226,4 +234,97 @@ resource "azurerm_key_vault_secret" "stripe_webhook_secret" {
   }
 
   depends_on = [azurerm_key_vault.main]
+}
+
+# Log Analytics Workspace (required for Application Insights)
+resource "azurerm_log_analytics_workspace" "main" {
+  name                = "${var.project_name}-${var.environment}-law"
+  location            = azurerm_resource_group.main.location
+  resource_group_name = azurerm_resource_group.main.name
+  sku                 = "PerGB2018"
+  retention_in_days   = 30
+
+  tags = var.tags
+}
+
+# Application Insights
+resource "azurerm_application_insights" "main" {
+  name                = "${var.project_name}-${var.environment}-ai"
+  location            = azurerm_resource_group.main.location
+  resource_group_name = azurerm_resource_group.main.name
+  workspace_id        = azurerm_log_analytics_workspace.main.id
+  application_type    = "web"
+  daily_data_cap_in_gb = var.appinsights_daily_cap_gb
+
+  tags = var.tags
+}
+
+# Service Principal for querying Application Insights (replaces deprecated API keys)
+# Application Insights doesn't support Managed Identity, we should use BYO Azure Functions in the future instead
+resource "azuread_application" "appinsights_reader" {
+  display_name = "${var.project_name}-${var.environment}-appinsights-reader"
+}
+
+resource "azuread_service_principal" "appinsights_reader" {
+  client_id = azuread_application.appinsights_reader.client_id
+}
+
+resource "azuread_service_principal_password" "appinsights_reader" {
+  service_principal_id = azuread_service_principal.appinsights_reader.id
+}
+
+# Grant the Service Principal "Monitoring Reader" role on Application Insights
+resource "azurerm_role_assignment" "appinsights_reader" {
+  scope                = azurerm_application_insights.main.id
+  role_definition_name = "Monitoring Reader"
+  principal_id         = azuread_service_principal.appinsights_reader.object_id
+}
+
+# Store Service Principal credentials in Key Vault
+resource "azurerm_key_vault_secret" "appinsights_sp_client_id" {
+  name         = "appinsights-sp-client-id"
+  value        = azuread_application.appinsights_reader.client_id
+  key_vault_id = azurerm_key_vault.main.id
+
+  depends_on = [azurerm_key_vault.main]
+}
+
+resource "azurerm_key_vault_secret" "appinsights_sp_client_secret" {
+  name         = "appinsights-sp-client-secret"
+  value        = azuread_service_principal_password.appinsights_reader.value
+  key_vault_id = azurerm_key_vault.main.id
+
+  depends_on = [azurerm_key_vault.main]
+}
+
+
+# Set Application Insights environment variables on Static Web App
+# Uses Key Vault references for sensitive values (requires Standard SKU)
+resource "null_resource" "swa_appinsights_settings" {
+  triggers = {
+    connection_string = azurerm_application_insights.main.connection_string
+    workspace_id      = azurerm_log_analytics_workspace.main.workspace_id
+    sp_client_id      = azuread_application.appinsights_reader.client_id
+  }
+
+  provisioner "local-exec" {
+    command = <<-EOT
+      az staticwebapp appsettings set \
+        --name ${azurerm_static_web_app.main.name} \
+        --resource-group ${azurerm_resource_group.main.name} \
+        --setting-names \
+          NEXT_PUBLIC_APPINSIGHTS_CONNECTION_STRING="${azurerm_application_insights.main.connection_string}" \
+          AZURE_LOG_ANALYTICS_WORKSPACE_ID="${azurerm_log_analytics_workspace.main.workspace_id}" \
+          AZURE_TENANT_ID="${data.azurerm_client_config.current.tenant_id}" \
+          AZURE_CLIENT_ID="@Microsoft.KeyVault(SecretUri=${azurerm_key_vault_secret.appinsights_sp_client_id.versionless_id})" \
+          AZURE_CLIENT_SECRET="@Microsoft.KeyVault(SecretUri=${azurerm_key_vault_secret.appinsights_sp_client_secret.versionless_id})"
+    EOT
+  }
+
+  depends_on = [
+    azurerm_static_web_app.main,
+    azurerm_application_insights.main,
+    azurerm_key_vault_secret.appinsights_sp_client_id,
+    azurerm_key_vault_secret.appinsights_sp_client_secret
+  ]
 }

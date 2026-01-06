@@ -99,3 +99,9 @@ variable "tags" {
     ManagedBy   = "Terraform"
   }
 }
+
+variable "appinsights_daily_cap_gb" {
+  description = "Daily data cap for Application Insights in GB (0.4 = ~200K page views/day)"
+  type        = number
+  default     = 0.4
+}

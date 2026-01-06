@@ -59,3 +59,8 @@ output "static_web_app_alias_target" {
   description = "The Azure Static Web Apps hostname to use as the ALIAS record target for the apex domain"
   value       = azurerm_static_web_app.main.default_host_name
 }
+
+output "application_insights_name" {
+  description = "Name of the Application Insights instance"
+  value       = azurerm_application_insights.main.name
+}

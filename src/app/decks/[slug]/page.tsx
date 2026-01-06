@@ -6,6 +6,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
 import { LocalDate } from '@/components/LocalDate'
+import { PageViewCount } from '@/components/PageViewCount'
 import type { Metadata } from 'next'
 
 // Force static generation at build time
@@ -167,9 +168,10 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
             )}
           </div>
           {deck.lastEdited && (
-            <p className="text-sm text-slate-500 dark:text-slate-400">
+            <div className="flex items-center gap-3 text-sm text-slate-500 dark:text-slate-400">
               <LocalDate timestamp={deck.lastEdited} prefix="Last updated " />
-            </p>
+              <PageViewCount slug={slug} />
+            </div>
           )}
         </header>
 

@@ -195,6 +195,20 @@ export DATABASE_URL="sqlserver://${SQL_SERVER_FQDN};database=${SQL_DATABASE_NAME
 npx prisma migrate deploy
 ```
 
+### 5. Application Insights Page View Tracking
+
+Terraform automatically configures Application Insights for page view tracking:
+
+- Creates a Service Principal with "Monitoring Reader" role
+- Sets environment variables on the Static Web App:
+  - `NEXT_PUBLIC_APPINSIGHTS_CONNECTION_STRING` - for client-side tracking
+  - `AZURE_LOG_ANALYTICS_WORKSPACE_ID` - for querying page views
+  - `AZURE_CLIENT_ID`, `AZURE_CLIENT_SECRET`, `AZURE_TENANT_ID` - for Azure AD authentication
+
+The Service Principal credentials are also stored in Key Vault for reference.
+
+**No manual configuration required** - everything is set up automatically by Terraform.
+
 ## Outputs
 
 After applying, Terraform will output:
