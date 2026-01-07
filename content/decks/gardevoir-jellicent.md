@@ -8,8 +8,44 @@ lastEdited: "2026-01-05T21:02:46-05:00"
 ## Decklist
 
 ![decklist for Gardevoir / Jellicent](./images/gardevoir-jellicent/decklist.png)
+```decklist
+Pokémon: 18
+3 Ralts MEG 58
+2 Kirlia MEG 59
+2 Gardevoir ex SVI 86
+3 Munkidori TWM 95
+2 Frillish WHT 44
+1 Mew ex MEW 151
+1 Lillie's Clefairy ex JTG 56
+1 Latias ex SSP 76
+1 Mega Diancie ex PFL 41
+1 Fezandipiti ex SFA 38
+1 Scream Tail PAR 86
 
-- I decided to cut Jellicent for now, but since most lists have it, the matchup notes still include notes for Jellicent. Jellicent is mostly relevant in the mirror. It's also good against Charizard on the Devo turn, and against Dragapult for the non-Evo build. I wasn't using it very much but it could go back in. It's more important to have in the non-Evo build. Also, the Charizard and mirror matchups are compensated for in other ways.
+Trainer: 32
+4 Lillie's Determination MEG 119
+4 Iono PAL 185
+1 Arven OBF 186
+1 Professor Turo's Scenario PAR 171
+4 Ultra Ball MEG 131
+3 Earthen Vessel PAR 163
+2 Rare Candy MEG 125
+2 Nest Ball SVI 181
+2 Night Stretcher SFA 61
+1 Counter Catcher PAR 160
+1 Super Rod PAL 188
+1 Secret Box TWM 163
+2 Bravery Charm PAL 173
+1 Technical Machine: Devolution PAR 177
+1 Technical Machine: Evolution PAR 178
+2 Artazon PAL 171
+
+Energy: 10
+7 Psychic Energy MEE 5
+3 Darkness Energy MEE 7
+```
+
+- I decided to cut Jellicent for now, but since I did a lot of testing with it (and it's still relevant), the  notes still include notes for Jellicent. Jellicent is mostly relevant in the mirror. It's also good against Charizard on the Devo turn, and against Dragapult for the non-Evo build. I wasn't using it very much but it could go back in. It's more important to have in the non-Evo build. Also, the Charizard and mirror matchups are compensated for in other ways.
 - I prefer the Evo build with two Kirlia because it makes a huge difference in the Dragapult matchup. Evo'ing is also generally better in slower matchups, and Jellicent isn't that important overall.
 - Double Frillish is too important against Gholdengo. It's also important to not prize it in some matchups and situations.
 - I tried without the Latias, but getting a consistent Turn 1 Frillish is crucial against Charizard, Absol, and mirror.
@@ -55,16 +91,6 @@ Most people's first inclination here would probably be to get Ralts, maybe use I
 
 ## Matchups
 
-### Dragapult / Dusknoir - Slightly Unfavorable (for the list with no TM: Evo and 2-1-2 Gardevoir), Very Favorable (with TM: Evo and 3-2-2 Gardevoir)
-
-- Early Frillish into attacking Jellicent is generally good. If they ignore the Jellicent and wipe out the Ralts, use Clefairy's Ability to make Jellicent two-shot their Dragapult.
-- Sometimes you won't be able to get Gardevoir out for awhile. Try to manually power up relevant attackers such as Jellicent, Munkidori, or Clefairy. You'll eventually need Gardevoir at some point, so try to find openings to put down double Ralts.
-- Using Devo after hitting into their Dragapult once can also be a strong play, depending on the situation. It takes one fewer prize card than KO'ing the Dragapult, but makes it difficult or impossible for them to attack on the next turn, which can allow for Gardevoir to be set up.
-- Setting up a Gardevoir is usually a win. If you're playing the build with TM: Evo, prioritize that over early Item lock.
-- Scream Tail's first attack can apply fast pressure by KO'ing their Budew. This is situational but can sometimes be the best play. If they whiff a follow up Budew/Phantom Dive, Gardevoir can be set up.
-- If you have Gardevoir set up, look for a big play with Mew ex Phantom Dive plus Clefairy.
-- Clefairy is generally more useful in the early-game, because in the late-game, it can easily be return-KO'd by Ursaluna. If they choose to target it down, that takes some heat away from Ralts/Kirlia.
-
 ### Gholdengo - Favorable
 
 - Oftentimes only need one Gardevoir. Don't evolve into the second Gardevoir unnecessarily because they won't disrupt your hand. Try to avoid having things in play that Solrock can KO, especially when Item locking. Bravery Charm or delaying Ralts can be good for this.
@@ -78,7 +104,7 @@ Most people's first inclination here would probably be to get Ralts, maybe use I
 - If they are ahead in prizes and threatening a Mawile attack to escape Frillish lock, try to hit CC Iono Mew on their Mawile for 260. Make sure you do not damage the Mawile before hitting it with Mew, and just hope they don't get Turo. This is pretty situational.
 - Charm almost always gets slammed on Frillish.
 
-### Gardevoir Mirror - Even (maybe Slightly Unfavorable without Jellicent)
+### Gardevoir Mirror - Even / Depends on lists
 
 - Get Turn 1 Frillish. Fast attacking Jellicent is extremely strong. The non-Evo build has the Jellicent advantage while the Evo build has a better chance of setting up Gardevoir under Item lock.
 - If you don't have Gardevoir, try to respond to Jellicent with manual Mind Bend. Manual Diancie plus Adrenabrain does KO, but that is very situational. In any case, getting Darks on Munkidori is a high priority.
@@ -87,16 +113,17 @@ Most people's first inclination here would probably be to get Ralts, maybe use I
 - Mew can copy Scream Tail for tons of damage. This is generally best for closing out the game because Mew is a liability and all the Energy can get stuck on it. Watch out for your opponent doing this to you and try to play around it.
 - Counter Catcher can be useful for KO'ing a big two-prize Pokemon such as Gardevoir or something with a Charm. Even if you are the initial aggressor, sometimes the prize trade flips back depending on the Munkidori situation. Activating your opponent's Counter Catcher is generally fine since being ahead in the prize trade is better. But don't activate it unnecessarily in the mid-game if there's potential for a big punish such as instantly losing to them KO'ing Gardevoir.
 
-### Charizard / Secret Box - Unfavorable
+### Dragapult / Dusknoir - Favorable
 
-- Early Frillish/Jellicent can be strong, but don't use Jellicent if they already have Charmeleon in play.
-- Diancie is a useful attacker, especially when there are no two-prize liabilities on your bench. You can use it to attack without Gardevoir if you preload it and/or manual attach to it. With a Charm, it even survives full power Charizard.
-- If you have a fast start, Scream Tail is extremely strong for KO'ing Pidgeotto or Charmeleon, or for smacking their Pidgeot. If you have an opportunity to keep Pidgeot off the board, that is very important!
-- Endgame prize trades usually revolve around attacking Mew ex, which sometimes needs to be preloaded.
-- If you're too far behind, try setting up for a Devo play. It doesn't have to be a full board wipe, but at least try to get rid of the Pidgeot and a Charizard, and then Mew can finish their remaining Charizard.
-- Many options such as Mind Bend, Iono, and Diancie are much stronger when they do not have Pidgeot on the board.
-- Manually attaching to threats such as Diancie, Mew, and even Munkidori can be very useful as they will KO Gardevoir aggressively.
-- Devo is often best used with Jellicent if possible.
+This list is favored against Dragapult, but the build with 2-1-1 Gardevoir and no TM: Evo is unfavored against it.
+
+- Early Frillish into attacking Jellicent is generally good. If they ignore the Jellicent and wipe out the Ralts, use Clefairy's Ability to make Jellicent two-shot their Dragapult.
+- Sometimes you won't be able to get Gardevoir out for awhile. Try to manually power up relevant attackers such as Jellicent, Munkidori, or Clefairy. You'll eventually need Gardevoir at some point, so try to find openings to put down double Ralts.
+- Using Devo after hitting into their Dragapult once can also be a strong play, depending on the situation. It takes one fewer prize card than KO'ing the Dragapult, but makes it difficult or impossible for them to attack on the next turn, which can allow for Gardevoir to be set up.
+- Setting up a Gardevoir is usually a win. If you're playing the build with TM: Evo, prioritize that over early Item lock.
+- Scream Tail's first attack can apply fast pressure by KO'ing their Budew. This is situational but can sometimes be the best play. If they whiff a follow up Budew/Phantom Dive, Gardevoir can be set up.
+- If you have Gardevoir set up, look for a big play with Mew ex Phantom Dive plus Clefairy.
+- Clefairy is generally more useful in the early-game, because in the late-game, it can easily be return-KO'd by Ursaluna. If they choose to target it down, that takes some heat away from Ralts/Kirlia.
 
 ### Charizard / Noctowl - Very Unfavorable
 
@@ -108,6 +135,17 @@ Most people's first inclination here would probably be to get Ralts, maybe use I
 - Devo is only good if you can entirely wipe out all Charmander lines from the board OR if they are out of Boss's Orders (since Devo Jellicent stops Charizard from coming back into play). If you can do that, it's extremely strong. Charizard is an enormous threat.
 - Mega Diancie with Bravery Charm can survive a max power Charizard.
 - Always consider pre-loading Pokemon on your Gardevoir turns, as Gardevoir tends to disappear against Charizard.
+
+### Charizard / Secret Box - Unfavorable
+
+- Early Frillish/Jellicent can be strong, but don't use Jellicent if they already have Charmeleon in play.
+- Diancie is a useful attacker, especially when there are no two-prize liabilities on your bench. You can use it to attack without Gardevoir if you preload it and/or manual attach to it. With a Charm, it even survives full power Charizard.
+- If you have a fast start, Scream Tail is extremely strong for KO'ing Pidgeotto or Charmeleon, or for smacking their Pidgeot. If you have an opportunity to keep Pidgeot off the board, that is very important!
+- Endgame prize trades usually revolve around attacking Mew ex, which sometimes needs to be preloaded.
+- If you're too far behind, try setting up for a Devo play. It doesn't have to be a full board wipe, but at least try to get rid of the Pidgeot and a Charizard, and then Mew can finish their remaining Charizard.
+- Many options such as Mind Bend, Iono, and Diancie are much stronger when they do not have Pidgeot on the board.
+- Manually attaching to threats such as Diancie, Mew, and even Munkidori can be very useful as they will KO Gardevoir aggressively.
+- Devo is often best used with Jellicent if possible.
 
 ### Absol - Even or Slightly Favorable
 

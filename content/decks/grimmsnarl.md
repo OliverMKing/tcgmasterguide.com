@@ -8,6 +8,41 @@ lastEdited: "2026-01-05T19:20:25-05:00"
 ## Decklist
 
 ![Grimmsnarl decklist](./images/grimmsnarl/decklist.png)
+```decklist
+Pokémon: 17
+3 Marnie's Impidimp DRI 134
+2 Marnie's Morgrem DRI 135
+2 Marnie's Grimmsnarl ex DRI 136
+3 Munkidori TWM 95
+2 Snorunt PAR 37
+2 Froslass TWM 53
+1 Bloodmoon Ursaluna ex TWM 141
+1 Yveltal MEG 88
+1 Tatsugiri TWM 131
+
+Trainer: 35
+4 Lillie's Determination MEG 119
+4 Arven OBF 186
+4 Iono PAL 185
+2 Boss's Orders MEG 114
+3 Night Stretcher SFA 61
+2 Counter Catcher PAR 160
+2 Nest Ball SVI 181
+2 Buddy-Buddy Poffin TEF 144
+1 Ultra Ball MEG 131
+1 Rare Candy MEG 125
+1 Energy Search SVI 172
+1 Super Rod PAL 188
+1 Secret Box TWM 163
+2 Technical Machine: Evolution PAR 178
+1 Technical Machine: Devolution PAR 177
+1 Air Balloon BLK 79
+2 Spikemuth Gym DRI 169
+1 Artazon PAL 171
+
+Energy: 8
+8 Darkness Energy MEE 7
+```
 
 - 3 Stretcher is so insanely good, you always want to have Stretcher, and get value from all of them when you draw them. Sacrificing the fourth Munkidori for third Stretcher is good, it just sucks when you prize two Munkidori but that is rare. I don't think you need four Munkidori in this meta, but it's still fine if you're so inclined.
 - I'm considering cutting Yveltal and a search card for another line of Froslass. 2-2 Froslass is enough, but sometimes it really sucks when you prize a piece into specific matchups (Gholdengo, Charizard), which happens often.
@@ -29,6 +64,16 @@ lastEdited: "2026-01-05T19:20:25-05:00"
 
 ## Matchups
 
+### Gholdengo - Unfavorable
+
+- Prioritize getting double Froslass into play. Recover them when the opponent KO's them.
+- Yveltal is very useful because it makes them burn Turos and they cannot Boss on the turn they Turo
+- Fast Grimmsnarl is sometimes good, sometimes not. If their board is established and they can likely get the return KO, it's not as good. However if you can get off multiple attacks with the same Grimmsnarl, it's usually worth it just to get some prizes and make the late-game easier to clean up.
+- Pay attention to their prize map and make it awkward for them. Don't use Grimmsnarl when they're on two prizes (usually).
+- Devo can be useful if you are able to buy enough time, or if the opponent foolishly evolves all of their Gimmighoul immediately.
+- Having Munkidori in the Active on Turn 1 is very good because Solrock cannot KO it, and it is a bit awkward for them.
+- Counter Catcher is a premium resource
+
 ### Dragapult / Dusknoir - Favorable
 
 - Two Froslass is good, but if it isn't conveniently available, one Froslass is fine. For example, it's usually better to prioritize Morgrem and Froslass instead of double Froslass.
@@ -48,15 +93,12 @@ lastEdited: "2026-01-05T19:20:25-05:00"
 - Watch out for their Devolution, it can punish Candy and is their main win con. If they are not playing Devo, using the Candy aggressively is good.
 - Don't forget that Diancie can one-shot Grimmsnarl with two Munkidori and a Froslass in play, so don't put yourself in a position to easily lose to that.
 
-### Gholdengo - Unfavorable
+### Charizard / Noctowl - Unfavorable
 
-- Prioritize getting double Froslass into play. Recover them when the opponent KO's them.
-- Yveltal is very useful because it makes them burn Turos and they cannot Boss on the turn they Turo
-- Fast Grimmsnarl is sometimes good, sometimes not. If their board is established and they can likely get the return KO, it's not as good. However if you can get off multiple attacks with the same Grimmsnarl, it's usually worth it just to get some prizes and make the late-game easier to clean up.
-- Pay attention to their prize map and make it awkward for them. Don't use Grimmsnarl when they're on two prizes (usually).
-- Devo can be useful if you are able to buy enough time, or if the opponent foolishly evolves all of their Gimmighoul immediately.
-- Having Munkidori in the Active on Turn 1 is very good because Solrock cannot KO it, and it is a bit awkward for them.
-- Counter Catcher is a premium resource
+- Devo can be used for tempo if they use two Candy early, this slows down subsequent Dusknoir.
+- Try to KO/spawn trap Duskull on sight as it is the biggest threat.
+- Retreat lock is bait unless they're out of switching cards or maybe if they only have one left. Chaining Yveltal+gust is basically impossible.
+- Try to get double Froslass and Grimmsnarl/Morgrem quickly. The main way to win is by matching tempo and denying Duskull. One Adrenabrain + Grimmsnarl snipe KO's Duskull.
 
 ### Charizard / Secret Box - Favorable
 
@@ -65,13 +107,6 @@ lastEdited: "2026-01-05T19:20:25-05:00"
 - Be careful with using Grimmsnarl. Sometimes you use it for tempo, sometimes for setting up prize map/Devo play. Don't walk into a Charizard one-shot and let them back into the game. You don't have to attack with Grimmsnarl every turn.
 - Double Froslass is a big priority in this matchup, even more than Grimmsnarl.
 - If you need to make a bigger comeback than usual, removing Pidgeot and using Yveltal can buy some time.
-
-### Charizard / Noctowl - Unfavorable
-
-- Devo can be used for tempo if they use two Candy early, this slows down subsequent Dusknoir.
-- Try to KO/spawn trap Duskull on sight as it is the biggest threat.
-- Retreat lock is bait unless they're out of switching cards or maybe if they only have one left. Chaining Yveltal+gust is basically impossible.
-- Try to get double Froslass and Grimmsnarl/Morgrem quickly. The main way to win is by matching tempo and denying Duskull. One Adrenabrain + Grimmsnarl snipe KO's Duskull.
 
 ### Absol - Unfavorable
 

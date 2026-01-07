@@ -8,6 +8,38 @@ lastEdited: "2026-01-05T19:20:25-05:00"
 ## Decklist
 
 ![Gholdengo decklist](./images/gholdengo/decklist.png)
+```decklist
+Pokémon: 14
+4 Gimmighoul SSP 97
+3 Gholdengo ex PAR 139
+2 Solrock MEG 75
+2 Lunatone MEG 74
+1 Genesect ex BLK 67
+1 Fezandipiti ex SFA 38
+1 Mega Mawile ex MEG 94
+
+Trainer: 35
+4 Arven OBF 186
+3 Boss's Orders MEG 114
+2 Professor Turo's Scenario PAR 171
+1 Lana's Aid TWM 155
+4 Superior Energy Retrieval PAL 189
+4 Fighting Gong MEG 116
+3 Nest Ball SVI 181
+3 Earthen Vessel PAR 163
+2 Buddy-Buddy Poffin TEF 144
+1 Picnic Basket SVI 184
+1 Super Rod PAL 188
+1 Premium Power Pro MEG 124
+1 Prime Catcher TEF 157
+2 Air Balloon BLK 79
+1 Vitality Band SVI 197
+2 Artazon PAL 171
+
+Energy: 11
+7 Fighting Energy MEE 6
+4 Metal Energy MEE 8
+```
 
 - This is just the standard list
 - Mawile is the best Cornerstone counter, but Lopunny could still be worth playing
@@ -18,7 +50,7 @@ lastEdited: "2026-01-05T19:20:25-05:00"
 - I am fairly sure Prime Catcher is the best Ace Spec but I could be wrong
 - 50 HP Gimmighoul is not worth it! It is a huge liability in so many situations, even though Call for Family is sometimes good. I did include some stuff about 50 HP Gimmi in the matchup notes because most people play it.
 - I think Super Rod is better than Stretcher because putting Fightings back in the deck helps against Iono, and because sometimes you want to draw a lot and use Super Rod to not deck out. Also, three is better than one, and Gholdengo has plenty of search and draw to mitigate Super Rod's downside.
-- Team Rocket's Watchtower seems like a really good counter to Charizard/Noctowl in theory (along with Secret Box), but it doesn't help all that much in reality. It maybe adds a few percentage points in that matchup, but it's still unfavorable, so I don't think it's worth it. Also, playing Secret Box sucks. I often miss the option to Arven for Prime Catcher or Prime+Turo in the same turn.
+- Team Rocket's Watchtower seems like a really good counter to Charizard/Noctowl in theory (along with Secret Box), but it doesn't help all that much in reality. It maybe adds a few percentage points in that matchup, but it's still unfavorable, so I don't think it's worth it. I also did not enjoy having to play Secret Box. I often miss the option to Arven for Prime Catcher or Prime + Turo in the same turn.
 
 **To try:** Lopunny, maybe TM: Evo, Munkidori version
 
@@ -35,13 +67,12 @@ lastEdited: "2026-01-05T19:20:25-05:00"
 
 ## Matchups
 
-### Dragapult / Dusknoir - Slightly Favorable
+### Gholdengo Mirror - Even
 
-- When multiple Energy are prized, be careful with managing Energy so that you can always one-shot Dragapult.
-- Sometimes pre-loading Genesect with an Energy can be good to play around the stall. This is very situational.
-- Putting the 50 HP Gimmighoul down (if you play it) is ok if you can immediately evolve it before it gets sniped. Otherwise, try to avoid putting it down at all. If no Gimmighoul are prized, you can sometimes play the game without ever benching the 50 HP one.
-- Even though Genesect is a liability, it's still good to slam into play as soon as possible.
-- If you get the chance to Turo the Genesect later, even if it doesn't have any damage, it still avoids the trap or Ursaluna lose-cons
+- Do not feed them Gimmighoul unnecessarily. Sometimes it's better to wait a turn before putting Gimmighoul down because Solrock cannot KO it. When you do put Gimmighoul down, you definitely want to put down at least two. Usually don't put down just one, better to wait. In the same way, don't put down unnecessary Gimmighoul when you already have Gholdengo established.
+- Pay attention to their prize map and make it difficult for them depending on the prize count, utilizing single prize board, no Gimmie board, or Turo depending on the situation.
+- Premium Power + Vitality is obviously broken for getting a Solrock KO on a turn you wouldn't otherwise be able to do anything, but don't use it if you have another available play because you might need it later.
+- Gusts and Turo are premium resources
 
 ### Gardevoir / Jellicent - Unfavorable
 
@@ -56,14 +87,13 @@ You need to get an aggressive start, try and get as much of a prize lead as poss
 - Try to one-shot the Frillish whenever possible. If they have Charm, use Gholdengo with three Energy, otherwise use Solrock with Vitality Band
 - If you decide to KO their Gardevoir, make sure you have enough resources left to deal with the Frillish. Lana's Aid plus Mawile can help with this.
 
-### Charizard / Secret Box - Favorable
+### Dragapult / Dusknoir - Slightly Favorable
 
-- KO Pidgeot so they cannot find Briar
-- Solrock is great in the early-game, but try to take two-prize KO's with Gholdengo whenever possible, pressuring their Charizard or KO'ing their Pidgeot.
-- Sometimes delay benching Genesect so they cannot get a two-prize KO. Sometimes stagger Gholdengos so you can play with a single-prize board, but this is situational because they can Iono you.
-- Premium Power Pro and Vitality Band can be good to allow Solrock to trade into Chi Yu or KO Pidgeotto/Charmeleon.
-- Apply fast pressure to their board, using Prime Catcher if necessary. The most consistent way to win is by getting far ahead at the beginning. If they only have one Pidgey, KO that. KO'ing Tatsugiri and Charmander can also be good.
-- Turo can very situationally be useful to make a single-prize board, otherwise it is basically useless. Gust cards are extremely important and can be used aggressively (but not discarded!).
+- When multiple Energy are prized, be careful with managing Energy so that you can always one-shot Dragapult.
+- Sometimes pre-loading Genesect with an Energy can be good to play around the stall. This is very situational.
+- Putting the 50 HP Gimmighoul down (if you play it) is ok if you can immediately evolve it before it gets sniped. Otherwise, try to avoid putting it down at all. If no Gimmighoul are prized, you can sometimes play the game without ever benching the 50 HP one.
+- Even though Genesect is a liability, it's still good to slam into play as soon as possible.
+- If you get the chance to Turo the Genesect later, even if it doesn't have any damage, it still avoids the trap or Ursaluna lose-cons
 
 ### Charizard / Noctowl - Unfavorable
 
@@ -74,6 +104,15 @@ The winning prize trade is pretty idealistic. You need the first KO (usually wit
 - Pay attention to both players' prize counts and Charizard's breakpoints.
 - Utilize Gholdengo's HP in the early-game, as they cannot one-shot it (especially if you KO Duskull). This is especially strong in the rare scenario you have only Gholdengo in play so they cannot KO anything.
 - If for some reason they punch Gholdengo for less than a KO and put it into Dusknoir range, use Turo to heal it. Keeping one Turo around is generally good to stop plays like that, or for the above-mentioned plays.
+
+### Charizard / Secret Box - Favorable
+
+- KO Pidgeot so they cannot find Briar
+- Solrock is great in the early-game, but try to take two-prize KO's with Gholdengo whenever possible, pressuring their Charizard or KO'ing their Pidgeot.
+- Sometimes delay benching Genesect so they cannot get a two-prize KO. Sometimes stagger Gholdengos so you can play with a single-prize board, but this is situational because they can Iono you.
+- Premium Power Pro and Vitality Band can be good to allow Solrock to trade into Chi Yu or KO Pidgeotto/Charmeleon.
+- Apply fast pressure to their board, using Prime Catcher if necessary. The most consistent way to win is by getting far ahead at the beginning. If they only have one Pidgey, KO that. KO'ing Tatsugiri and Charmander can also be good.
+- Turo can very situationally be useful to make a single-prize board, otherwise it is basically useless. Gust cards are extremely important and can be used aggressively (but not discarded!).
 
 ### Absol - Favorable
 
@@ -93,13 +132,6 @@ The winning prize trade is pretty idealistic. You need the first KO (usually wit
 - Ideal board is Gholdengo, two Gimmighoul, Solrock, Lunatone, Genesect
 - Premium Power Pro is often useful for applying pressure with Solrock
 - One-shot their Grimmsnarl whenever possible, otherwise target Froslass and Snorunt!
-
-### Mirror - Even
-
-- Do not feed them Gimmighoul unnecessarily. Sometimes it's better to wait a turn before putting Gimmighoul down because Solrock cannot KO it. When you do put Gimmighoul down, you definitely want to put down at least two. Usually don't put down just one, better to wait. In the same way, don't put down unnecessary Gimmighoul when you already have Gholdengo established.
-- Pay attention to their prize map and make it difficult for them depending on the prize count, utilizing single prize board, no Gimmie board, or Turo depending on the situation.
-- Premium Power + Vitality is obviously broken for getting a Solrock KO on a turn you shouldn't be able to do anything, but don't use it if you have another available play because you might need it later.
-- Gusts and Turo are premium resources
 
 ## Personal thoughts
 
