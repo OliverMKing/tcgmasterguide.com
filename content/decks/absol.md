@@ -8,6 +8,46 @@ lastEdited: "2026-01-05T21:02:46-05:00"
 ## Decklist
 
 ![decklist for Absol](./images/absol/decklist.png)
+```decklist
+Pokémon: 15
+3 Munkidori TWM 95
+2 Mega Absol ex MEG 86
+2 Mega Kangaskhan ex MEG 104
+1 Yveltal MEG 88
+1 Latias ex SSP 76
+1 Bloodmoon Ursaluna ex TWM 141
+1 Psyduck MEP 7
+1 Fezandipiti ex SFA 38
+1 Pecharunt ex SFA 39
+1 Cornerstone Mask Ogerpon ex PRE 58
+1 Moltres PFL 14
+
+Trainer: 35
+4 Arven OBF 186
+4 Boss's Orders MEG 114
+3 Penny SVI 183
+2 Iono PAL 185
+2 Lillie's Determination MEG 119
+2 Ciphermaniac's Codebreaking PRE 104
+2 Pokégear 3.0 SVI 186
+2 Night Stretcher SFA 61
+2 Nest Ball SVI 181
+2 Counter Catcher PAR 160
+1 Earthen Vessel PAR 163
+1 Energy Switch MEG 115
+1 Precious Trolley SSP 185
+2 Bravery Charm PAL 173
+2 Technical Machine: Turbo Energize PAR 179
+1 Defiance Band SVI 169
+2 Lively Stadium SSP 180
+
+Energy: 10
+5 Darkness Energy MEE 7
+2 Mist Energy TEF 161
+1 Prism Energy BLK 86
+1 Fire Energy MEE 2
+1 Fighting Energy MEE 6
+```
 
 - Moltres does not really solve the Gholdengo matchup but it at least gives you a chance, as opposed to having an auto-loss which is terrible in this meta.
 - Defiance Band is probably more often used with things other than Moltres, such as Ursaluna, even though it was originally included as a package deal with Moltres. That said, if I cut Moltres I would probably still cut Defiance Band because it is extremely situational.
@@ -43,17 +83,16 @@ Once again, Bossing the Pidgeot would be viable if we had another follow-up Boss
 
 ## Matchups
 
-### Dragapult / Dusknoir - Unfavorable
+### Gholdengo - Unfavorable
 
-Ideal board is Absol Latias Kang double Monkey Psyduck. All of these are extremely important. Need to Stretcher Duck if they KO it and are threatening Dusclops.
+In the early-game, go for only Cornerstone on board. Having a single-prize Pokemon is also fine. You can use something like Kang or Latias, but try to Penny it up before they can KO it. In general, taking prizes aggressively with Cornerstone is good.
 
-- Need to build Energy in play as fast as possible
-- Don't Adrenabrain preemptively to Budew in case you want to Clutch it.
-- Charm is usually best on Absol and Psyduck (if the duck doesn't have Mist).
-- As soon as you see Mist, slam it on Duck.
-- If they have Fez, Hawlucha, or Latias in play, Clutch can punish them super hard and give you time to heal Absol. If they do not, Yveltal is basically useless.
-- Leave Kang in the Active early-game to set up. Being the aggressor with Absol is ok, especially if you have plenty of Energy on the board. Usually respond to Phantom Dive with Terminal Period. Using Claw into their first Dragapult is often not ideal because you want to one-shotting it with Terminal Period.
-- After Absol goes down, can use Kang, Ursaluna, or second Absol as your second attacker depending on the situation. Kang is generally the least useful but the most convenient because it's already on your board and may already have Energy.
+- Save Boss for smacking Mawile or for closing out the game, depending on the situation.
+- Charm and Lively Stadium are only good with each other to survive the Mawile 260. Be careful not to screw yourself by giving their Mawile extra HP.
+- If they draw well and threaten a Mawile sweep, you may need to pivot in the mid- or late-game so that you don't get swept. Try to get a few prizes with Cornerstone early, and then power up other attackers and find a prize map to close out the game.
+- Yveltal + Pech can build some damage on the board, which can be useful for closing out the game. However, they play two Turo and sometimes Prime, so you can't rely on Yveltal for long, and probably want to combo it with Iono for the best chance of buying a few turns. This is very situational and somewhat unreliable though.
+- Moltres helps with closing out the game if you're able to get a few prizes with Cornerstone. After Cornerstone dies, try to make a single prize board so that you can always activate Counter Catcher/Defiance Band. Even if you play Moltres, the matchup is still bad and you have to draw well. Also Moltres doesn't do anything vs Lopunny, just Mawile.
+- If they are playing Lopunny you need to make sure it never hits the board. KO Buneary on sight. If they TM: Evo into Lopunny, make sure you have Charm on Cornerstone, and gust up the Lopunny to smack it.
 
 ### Gardevoir / Jellicent - Even or Slightly Unfavorable
 
@@ -66,17 +105,6 @@ Slam Mist Energy on Absol because it protects from Mew and Mind Bend. Ideal boar
 - Clutch strategies are not the go-to. It is best if you are waiting to find a game-winning combo, buying a bit of time in general, or if you have the Munkidori advantage on board. Clutch can be useful but it's very situational and doesn't always come up. Also they probably play a Turo so watch out for that (in other words, don't rely on Clutch sticking forever if they haven't used Turo yet).
 - Second attacker is ideally the second Absol, but this can be hard to pull off. Pech and Ursaluna can also be decent closers, especially if they take their first KO on Absol to go to three. As usual, Kang is the least useful attacker but sometimes gets used anyway because of convenience or necessity. Energy Switch is very useful for enabling Pecharunt when no other attacker is available, which can take 1 or 2 prizes fairly easily, and Ursaluna can take the last 1-2.
 
-### Gholdengo - Unfavorable
-
-In the early-game, go for only Cornerstone on board. Having a single-prize Pokemon is also fine. You can use something like Kang or Latias, but try to Penny it up before they can KO it. In general, taking prizes aggressively with Cornerstone is good.
-
-- Save Boss for smacking Mawile or for closing out the game, depending on the situation.
-- Charm and Lively Stadium are only good with each other to survive the Mawile 260. Be careful not to screw yourself by giving their Mawile extra HP.
-- If they draw well and threaten a Mawile sweep, you may need to pivot in the mid- or late-game so that you don't get swept. Try to get a few prizes with Cornerstone early, and then power up other attackers and find a prize map to close out the game.
-- Yveltal + Pech can build some damage on the board, which can be useful for closing out the game. However, they play two Turo and sometimes Prime, so you can't rely on Yveltal for long, and probably want to combo it with Iono for the best chance of buying a few turns. This is very situational and somewhat unreliable though.
-- Moltres helps with closing out the game if you're able to get a few prizes with Cornerstone. After Cornerstone dies, try to make a single prize board so that you can always activate Counter Catcher/Defiance Band. Even if you play Moltres, the matchup is still bad and you have to draw well. Also Moltres doesn't do anything vs Lopunny, just Mawile.
-- If they are playing Lopunny you need to make sure it never hits the board. KO Buneary on sight.
-
 ### Charizard / Noctowl - Very Favorable if they don't have Klefki, Very Unfavorable if they do
 
 Start attacking with Absol because it can tank hits and disrupt. It makes great math against Terapagos in particular.
@@ -88,6 +116,18 @@ Start attacking with Absol because it can tank hits and disrupt. It makes great 
 - Going for early Absol, Psyduck, Munkidori, and Kangaskhan is ideal. Latias and Pecharunt are situational. They are very good, but also big liabilities. Charm on Cornerstone can be ok as it cannot be one-shot.
 - Make sure you can always Stretcher for Psyduck if they KO it.
 - Usually you only need one Munkidori with Dark.
+
+### Dragapult / Dusknoir - Unfavorable
+
+Ideal board is Absol Latias Kang double Monkey Psyduck. All of these are extremely important. Need to Stretcher Duck if they KO it and are threatening Dusclops.
+
+- Need to build Energy in play as fast as possible
+- Don't Adrenabrain preemptively to Budew in case you want to Clutch it.
+- Charm is usually best on Absol and Psyduck (if the duck doesn't have Mist).
+- As soon as you see Mist, slam it on Duck.
+- If they have Fez, Hawlucha, or Latias in play, Clutch can punish them super hard and give you time to heal Absol. If they do not, Yveltal is basically useless.
+- Leave Kang in the Active early-game to set up. Being the aggressor with Absol is ok, especially if you have plenty of Energy on the board. Usually respond to Phantom Dive with Terminal Period. Using Claw into their first Dragapult is often not ideal because you want to one-shotting it with Terminal Period.
+- After Absol goes down, can use Kang, Ursaluna, or second Absol as your second attacker depending on the situation. Kang is generally the least useful but the most convenient because it's already on your board and may already have Energy.
 
 ### Charizard / Secret Box - Favorable
 
@@ -120,7 +160,6 @@ Set up a double Munki and Absol behind Kang as usual.
 - Kang is a good attacker. Sometimes you need to just go in with it and flip heads. Depending on the situation, such as if you don't need to Claw punch their Mega, you'd rather have Mist on Kang so you can go in with it.
 - Pech with Charm is generally better than Latias to avoid giving them a two-prize KO with Claw (if they are potentially going for a 3-2-1). It also gets around Yveltal shenanigans. So your ideal board is Pech with Charm, Kang, Absol, two Munki, Yveltal.
 - I haven't played this one enough to know exactly when to do everything in every situation, this is a pretty weird matchup.
-
 
 ## Personal thoughts
 

@@ -8,6 +8,40 @@ lastEdited: "2026-01-05T21:02:46-05:00"
 ## Decklist
 
 ![decklist for Dragapult / Dusknoir](./images/dragapult-dusknoir/decklist.png)
+```decklist
+Pokémon: 23
+4 Dreepy TWM 128
+4 Drakloak TWM 129
+3 Dragapult ex TWM 130
+2 Duskull PRE 35
+2 Dusclops PRE 36
+1 Dusknoir PRE 37
+2 Budew PRE 4
+1 Bloodmoon Ursaluna ex TWM 141
+1 Latias ex SSP 76
+1 Fezandipiti ex SFA 38
+1 Munkidori TWM 95
+1 Hawlucha SVI 118
+
+Trainer: 30
+4 Lillie's Determination MEG 119
+4 Iono PAL 185
+3 Boss's Orders MEG 114
+2 Hilda WHT 84
+1 Professor Turo's Scenario PAR 171
+4 Buddy-Buddy Poffin TEF 144
+4 Ultra Ball MEG 131
+3 Counter Catcher PAR 160
+2 Night Stretcher SFA 61
+1 Nest Ball SVI 181
+2 Jamming Tower TWM 153
+
+Energy: 7
+3 Luminous Energy PAL 191
+2 Psychic Energy MEE 5
+1 Neo Upper Energy TEF 162
+1 Fire Energy MEE 2
+```
 
 - This is just the standard Dragapult list because it is too good and nothing is cuttable.
 - The only cuttable card in the list is Munkidori. It is strong against Grimmsnarl, but that matchup is bad either way. It is mostly relevant for the mirror match, which may be enough of a reason to keep it around. Could possibly cut Munkidori for Stretcher or a consistency card.
@@ -34,9 +68,9 @@ Here my first inclination is to Ultra Ball away Ultra and Iono for Fez or Draklo
 
 ![gameplay of dragapult / dusknoir 3](./images/dragapult-dusknoir/gameplay3.png)
 
-Here we have a pretty interesting spot. Dragapult has Neo Upper and Drakloak has Luminous. Since we know we have no need for Lillie or Iono this turn, we can go ahead and use Recon Directive first. The Recons get Dreepy and Energy, so basically nothing relevant. That Clefairy and Ralts are both threats. They have two Rare Candy left, so taking out the Ralts takes priority! Attach Energy to Drakloak, retreat Dragapult, and Dragon Headbutt that Ralts! They can't win next turn because Gardevoir doesn't usually play Boss, but they can respond with Mind Bend KO! We have Ultra Ball for Ursaluna and plenty of reach for another gust to close out the game. They have two Iono left but they're not likely to find it. In order for us to lose this game, the opponent would have to hit an Iono, an Energy, and a follow up Energy, and they only have two cards in hand right now! If they promote Jellicent instead of taking the Mind Bend KO, we can simply Iono and smack it.
+Here we have a pretty interesting spot. Dragapult has Neo Upper and Drakloak has Luminous. Since we know we have no need for Lillie or Iono this turn, we can go ahead and use Recon Directive first. The Recons get Dreepy and Energy, so basically nothing relevant. That Clefairy and Ralts are both threats. The opponent has two Rare Candy left, so taking out the Ralts takes priority! Attach Energy to Drakloak, retreat Dragapult, and Dragon Headbutt that Ralts! They can't win next turn because Gardevoir doesn't usually play Boss, but they can respond with Mind Bend KO! We have Ultra Ball for Ursaluna and plenty of reach for another gust to close out the game. They have two Iono left but they're not likely to find it. In order for us to lose this game, the opponent would have to hit an Iono, an Energy, and a follow up Energy, and they only have two cards in hand right now! If they promote Jellicent instead of taking the Mind Bend KO, we can simply Iono and smack it.
 
-But what if we didn't have an Energy here? No problem, just Turo up the Hawlucha and use Itchy Pollen, threatening game next turn. We don't do this as our first choice because it's risking too much to a Kirlia or even an Iono. We don't KO the Ralts with Turo Hawlucha Phantom Dive because that would lose to Turo/Secret Box off Fez. This scenario is a good example of where Drakloak can be the best attacker!
+But what if we didn't have an Energy here? No problem, just Turo up the Hawlucha and use Itchy Pollen, threatening lethal next turn. We don't do this as our first choice because it's risking too much to a Kirlia or even an Iono. We don't KO the Ralts with Turo Hawlucha Phantom Dive because that would lose to Turo/Secret Box off Fez. This scenario is a good example of where Drakloak can be the best attacker!
 
 ## Matchups
 
@@ -49,7 +83,9 @@ But what if we didn't have an Energy here? No problem, just Turo up the Hawlucha
 - If they have something that isn't an attacker in the Active, slam Jamming. Otherwise, save it for the combo.
 - Phantom Dive usually goes for 200 on Gholdengo and 60 on another Gholdengo/Gimmehoul. Occasionally you can go for a 0-4-2 prize map, taking four on two Gholdengo with two Phantom Dives and then two on Genesect with Ursaluna. This line requires no Dusknoir or Hawlucha, and of course is situational.
 
-### Gardevoir / Jellicent - Slightly Favorable (against the build with 2-1-2 Gardevoir and no TM EVO), Very Unfavorable (against the TM: Evo build with 3-2-2 Gardevoir)
+### Gardevoir / Jellicent - Depends on their list
+
+This matchup is slightly favorable for Dragapult if they are playing the build with 2-1-2 Gardevoir and no TM:Evo. It is unfavorable if they are playing 2 Kirlia and any amount of TM: Evo.
 
 - Ralts is usually the biggest threat. Your biggest priority is to prevent Gardevoir from coming into play. Even scary Pokemon like Jellicent or Clefairy with Energy are nothing compared to Gardevoir. Save resources like Dusclops, Hawlucha, and Jamming Tower for when you need to wipe out Ralts and Kirlia.
 - If they are playing TM: Evo, Jamming Tower can be used preemptively. Otherwise, save it to bump their Stadium when they put one in play.
@@ -59,16 +95,6 @@ But what if we didn't have an Energy here? No problem, just Turo up the Hawlucha
 - If they attack into Dragapult for some damage, be aware of a possible Devo follow up and play around it if possible. This can be done by preemptively evolving into a second Dragapult or having some other follow up plan.
 - Clefairy is generally more threatening in the early-game (and therefore a higher priority to KO), because in the late-game, it can easily be return-KO'd by Ursaluna
 - Ursaluna is a lot more useful in this matchup than you might expect. They often have to put two-prize Pokemon in play and they can sometimes one-shot Dragapult, so Ursaluna can often close out the game. Sometimes you'll have to plan your prize map so that you can use Counter Catcher at the end of the game!
-
-### Charizard / Secret Box - Favorable
-
-- Keeping opponent's Duskull out of play is a high priority. It can be a big threat.
-- Dusknoir is important. Unless you're fully boardwiping them with Dusclops, try to get it evolved into Dusknoir for maximum value.
-- Dusclops is sometimes good for KO Pidgeot via Phantom Dive snipe + Dusclops + 200 over two turns.
-- Ursaluna can be good if they don't have a backup Charizard/Charmeleon, otherwise it is a liability
-- Don't forget that Charizard can one-shot with Defiance Band if you're at 2, or if they're playing Maximum Belt when you're on 3, so try to play around that and Briar.
-- Slam Jamming Tower whenever you see it. It is extremely strong on Turn 1/2.
-- Even though Latias is a big liability, getting a fast Budew is worth putting it down for if you have to.
 
 ### Charizard / Noctowl - Very Favorable
 
@@ -81,6 +107,24 @@ But what if we didn't have an Energy here? No problem, just Turo up the Hawlucha
 - Hawlucha is usually more important than Dusknoir!
 - Watch out for Blustery Wind to remove benched damaged Pokemon and try to play around it. Usually you'll just keep Pidgey off the board to begin with.
 - It is fairly easy to play around Briar so just don't forget about it!
+
+### Dragapult Mirror - Even
+
+- Munkidori is very strong. Try not to boardlock yourself out of it so that you can utilize it whenever you find it.
+- Try to get one Duskull out and evolved early. Dusknoir is very good in this matchup, but there's no real point in putting Duskull down once they start using Phantom Dive because it will get spawn trapped.
+- Dusknoir is best used to either one-shot their attacking Dragapult with Phantom Dive or prevent them from getting to an attacking Dragapult in the first place (sometimes as Dusclops)
+- KO their Duskull on sight before they can evolve whenever possible
+- If they have Munkidori with Luminous, be very careful and consider their available options next turn. Sometimes KO'ing the Munkidori is best.
+
+### Charizard / Secret Box - Favorable
+
+- Keeping opponent's Duskull out of play is a high priority. It can be a big threat.
+- Dusknoir is important. Unless you're fully boardwiping them with Dusclops, try to get it evolved into Dusknoir for maximum value.
+- Dusclops is sometimes good for KO Pidgeot via Phantom Dive snipe + Dusclops + 200 over two turns.
+- Ursaluna can be good if they don't have a backup Charizard/Charmeleon, otherwise it is a liability
+- Don't forget that Charizard can one-shot with Defiance Band if you're at 2, or if they're playing Maximum Belt when you're on 3, so try to play around that and Briar.
+- Slam Jamming Tower whenever you see it. It is extremely strong on Turn 1/2.
+- Even though Latias is a big liability, getting a fast Budew is worth putting it down for if you have to.
 
 ### Absol - Favorable
 
@@ -103,14 +147,6 @@ But what if we didn't have an Energy here? No problem, just Turo up the Hawlucha
 - Try to keep them from getting second Grimmsnarl in play.
 - Jamming Tower is a premium card in this matchup. Can be used proactively to stop TM/Balloon, and/or reactively to bump their Stadium.
 - KO'ing both of their Munkidori + using Iono can be a very strong play that limits their options. I usually prioritize KO'ing Munkidori over Froslass. Of course, Snorunt can be easily KO'd before it evolves which is sometimes more convenient.
-
-### Dragapult Mirror - Even
-
-- Munkidori is very strong. Try not to boardlock yourself out of it so that you can utilize it whenever you find it.
-- Try to get one Duskull out and evolved early. Dusknoir is very good in this matchup, but there's no real point in putting Duskull down once they start using Phantom Dive because it will get spawn trapped.
-- Dusknoir is best used to either one-shot their attacking Dragapult with Phantom Dive or prevent them from getting to an attacking Dragapult in the first place (sometimes as Dusclops)
-- KO their Duskull on sight before they can evolve whenever possible
-- If they have Munkidori with Luminous, be very careful and consider their available options next turn. Sometimes KO'ing the Munkidori is best.
 
 ## Personal thoughts
 

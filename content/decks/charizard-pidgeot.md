@@ -8,6 +8,45 @@ lastEdited: "2026-01-05T21:02:46-05:00"
 ## Decklist
 
 ![decklist for Charizard / Pidgeot](./images/charizard-pidgeot/decklist.png)
+```decklist
+Pokémon: 20
+3 Charmander PAF 7
+1 Charmeleon PAF 8
+1 Charmeleon PFL 12
+2 Charizard ex OBF 125
+2 Duskull PRE 35
+1 Dusclops PRE 36
+1 Dusknoir PRE 37
+2 Pidgey OBF 162
+1 Pidgeotto OBF 163
+2 Pidgeot ex OBF 164
+1 Chi-Yu PAR 29
+1 Fezandipiti ex SFA 38
+1 Klefki SVI 96
+1 Tatsugiri TWM 131
+
+Trainer: 33
+3 Lillie's Determination MEG 119
+3 Arven OBF 186
+2 Boss's Orders MEG 114
+2 Iono PAL 185
+1 Briar SCR 132
+4 Buddy-Buddy Poffin TEF 144
+4 Ultra Ball MEG 131
+3 Rare Candy MEG 125
+2 Super Rod PAL 188
+2 Counter Catcher PAR 160
+1 Night Stretcher SFA 61
+1 Secret Box TWM 163
+2 Technical Machine: Evolution PAR 178
+1 Defiance Band SVI 169
+1 Mesagoza SVI 178
+1 Artazon PAL 171
+
+Energy: 7
+5 Fire Energy MEE 2
+2 Jet Energy PAL 190
+```
 
 - This is basically just the Stuttgart list because it's so good
 - I cut the Turo for Stretcher because I found Stretcher to be incredibly strong in most games. It's definitely better than the Turo, but you could potentially find space for the Turo elsewhere.
@@ -37,14 +76,6 @@ We may instead go for back-to-back Bosses. Boss KO'ing the Fez loses to gust plu
 
 ## Matchups
 
-### Dragapult / Dusknoir - Unfavorable
-
-- Prioritize setting up Pidgeot and stabilizing your board over attacking. Pidgeot is extremely important and awkward for them to KO.
-- Boss and Iono are premium resources. Boss can pick off Drakloak with Energy, and is also important to KO any two-prize liabilities if they put them down. Iono is strong in the late-game for making them miss combos.
-- Dusknoir/Dusclops are very strong. Duskull isn't a priority in the early-game, but it can be very useful later to help one-shot Dragapult. Threatening double Duskull is also very potent because if they want to KO both, they have to float a ton of damage.
-- Defiance Band (and sometimes Briar) are important pieces in making comebacks.
-- If you do not have to play a Stadium, save it to counter Jamming Tower. However, if you have to play a Stadium in order to set up (especially under Item lock), that is fine.
-
 ### Gholdengo - Unfavorable
 
 - The game gets harder if they KO Pidgeot but there's nothing you can really do about it. Tatsugiri, Fez, and second Pidgey can help.
@@ -73,6 +104,14 @@ We may instead go for back-to-back Bosses. Boss KO'ing the Fez loses to gust plu
 - Keep track of their breakpoints and manage your board accordingly. Charizard / Noctowl typically doesn't run damage modifiers, so if they do not have Duskull on the board (of if you KO it), their damage is capped.
 - If they take the first prize, try to respond with Defiance Band KO on their Terapagos.
 
+### Dragapult / Dusknoir - Unfavorable
+
+- Prioritize setting up Pidgeot and stabilizing your board over attacking. Pidgeot is extremely important and awkward for them to KO.
+- Boss and Iono are premium resources. Boss can pick off Drakloak with Energy, and is also important to KO any two-prize liabilities if they put them down. Iono is strong in the late-game for making them miss combos.
+- Dusknoir/Dusclops are very strong. Duskull isn't a priority in the early-game, but it can be very useful later to help one-shot Dragapult. Threatening double Duskull is also very potent because if they want to KO both, they have to float a ton of damage.
+- Defiance Band (and sometimes Briar) are important pieces in making comebacks.
+- If you do not have to play a Stadium, save it to counter Jamming Tower. However, if you have to play a Stadium in order to set up (especially under Item lock), that is fine.
+
 ### Absol - Unfavorable
 
 - Usually look for some form of 1-2-3 prize map. Take the 1 and 2 with Charizard normally, and try to set up a Dusknoir play for a one-shot on a Mega.
@@ -93,7 +132,7 @@ We may instead go for back-to-back Bosses. Boss KO'ing the Fez loses to gust plu
 - Attacking Fez can be good in the early-game as an efficient Froslass killer. If they KO Fez with Grimmsnarl, it powers up Charizard.
 - Try to play around Devo, such as second Pidgey or evolving to second Charizard the turn before they Devo. This is all very situational, mostly there isn't much you can do about the Devo.
 
-### Mirror - Even
+### Charizard / Pidgeot Mirror - Even
 
 - This matchup is all about Dusknoir control and board positioning. You always want Duskull in play, and double Duskull is very potent. If they have one Duskull in play, taking it out is often best.
 - Punching into Charizard usually happens at some point and is totally fine

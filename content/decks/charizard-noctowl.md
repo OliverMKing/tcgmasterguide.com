@@ -8,6 +8,42 @@ lastEdited: "2026-01-05T21:02:46-05:00"
 ## Decklist
 
 ![Charizard / Noctowl Decklist](./images/charizard-noctowl/decklist.png)
+```decklist
+Pokémon: 26
+4 Hoothoot SCR 114
+3 Noctowl SCR 115
+3 Charmander PAF 7
+1 Charmeleon PFL 12
+2 Charizard ex OBF 125
+2 Duskull PRE 35
+1 Dusclops PRE 36
+1 Dusknoir PRE 37
+1 Pidgey OBF 162
+1 Pidgey MEW 16
+2 Pidgeot ex OBF 164
+2 Terapagos ex SCR 128
+2 Fan Rotom SCR 118
+1 Fezandipiti ex SFA 38
+
+Trainer: 27
+4 Dawn PFL 87
+2 Boss's Orders MEG 114
+1 Iono PAL 185
+1 Briar SCR 132
+4 Buddy-Buddy Poffin TEF 144
+4 Nest Ball SVI 181
+4 Rare Candy MEG 125
+1 Night Stretcher SFA 61
+1 Ultra Ball MEG 131
+1 Super Rod PAL 188
+1 Counter Catcher PAR 160
+1 Prime Catcher TEF 157
+2 Area Zero Underdepths SCR 131
+
+Energy: 7
+5 Fire Energy MEE 2
+2 Jet Energy PAL 190
+```
 
 - 60 HP Pidgey is extremely relevant against any Dusknoir deck. Call for Family is still useful enough with Jet Energy in the deck (especially if you're lacking a Tera Pokemon), so we hedge by playing one of each. If you prize the 60 HP against specifically Dusclops, tough luck.
 - The more I play with 80 HP Charmander, the more I dislike it. It definitely can be relevant, but hasn't come up that often for me. More often, I want to Poffin for it and it's annoying that I can't. It's also hard to get early which is the best time for it. So I think it's better to just play all 70 HP ones.
@@ -42,25 +78,6 @@ They used Watchtower, but luckily we have the Stadium counter. How do we optimal
 
 ## Matchups
 
-### Absol - Very Favorable with Klefki, Very Unfavorable without Klefki
-
-- Terapagos is a great attacker because it does more damage than Charizard in the early-game, it can deal with Cornerstone, and you can manually attack with it.
-- You need to be very careful about allowing them to use Adrenabrain because it allows Claw of Darkness to KO Terapagos, which is very relevant. Playing around Adrenabrain by abusing early- and mid-game gusts is good.
-- Usually you'll end up attacking with a Terapagos, one Charizard, and sometimes some sort of third attacker depending on the board state. Sometimes even Fan Rotom or Pidgeot can attack in a relevant way.
-- Yveltal is not much of a factor in this matchup because there's so many switching cards, but you still need to pay attention if you're running low on switching cards.
-- Dusknoir is either best in the early-game to KO their only attacking Tag Team, or the late-game to win. Don't bother trying to cheese them with Klefki (if you have it), save it for when it's needed for a big Dusknoir combo.
-- If you don't have Klefki, aggressively KO Psyduck and try to catch them without a Stretcher to get value from Dusknoir. It's very hard to win without Dusknoir. This also lets you get value from attacking Fan Rotom.
-
-### Dragapult / Dusknoir - Very Unfavorable
-
-- Try to get Duskull down early and evolved before they start using Phantom Dive. Otherwise, only put it down when making a relevant multi-threat, or else it will get farmed by Phantom Dive. Early Duskull is sometimes more important than early Charmander.
-- Try to get early prizes with manual Fan Rotom or Terapagos to at least somewhat limit their Dusknoir options later on. Boss Fan Rotom is good against Duskull.
-- Early Charmander/Charizard isn't that important, but can sometimes be good early to manual evolve through Charmeleon if it lines up.
-- Try to have as many attacking threats present as possible in the mid- and late-game. If they wipe out all your attacking options at once you are cooked.
-- If you somehow get Pidgeot in play, Blustery Wind is very strong to bump damaged Pokemon off your bench and take one prize card at the same time.
-- Fezandipiti is a pretty massive liability in the early- and mid-game. So is Terapagos, but often you have to put that down anyway.
-- The Clefairy tech does not swing the matchup, as it's still nearly impossible to beat them if they draw well. However, Clefairy allows you to convert games where they don't draw well. This portion of games can be turned from losses into wins thanks to Clefairy. However, I still think you need a lot of luck to win.
-
 ### Gholdengo - Favorable
 
 - The most important thing is to plan out the prize map very far in advance. Oftentimes will rely on Briar to close out the game. You will need to chain multiple Charizard, and may need Dusknoir against an end-game single-prize board.
@@ -80,6 +97,16 @@ They used Watchtower, but luckily we have the Stadium counter. How do we optimal
 - If they go into Jellicent early such as Turn 2 and you don't already have Charmeleon out, go for the pop off turn with Boss's Orders and Rare Candies.
 - Gust cards are absolutely premium in this matchup. Even Counter Catcher is often useful in the early-game.
 
+### Dragapult / Dusknoir - Very Unfavorable
+
+- Try to get Duskull down early and evolved before they start using Phantom Dive. Otherwise, only put it down when making a relevant multi-threat, or else it will get farmed by Phantom Dive. Early Duskull is sometimes more important than early Charmander.
+- Try to get early prizes with manual Fan Rotom or Terapagos to at least somewhat limit their Dusknoir options later on. Boss Fan Rotom is good against Duskull.
+- Early Charmander/Charizard isn't that important, but can sometimes be good early to manual evolve through Charmeleon if it lines up.
+- Try to have as many attacking threats present as possible in the mid- and late-game. If they wipe out all your attacking options at once you are cooked.
+- If you somehow get Pidgeot in play, Blustery Wind is very strong to bump damaged Pokemon off your bench and take one prize card at the same time.
+- Fezandipiti is a pretty massive liability in the early- and mid-game. So is Terapagos, but often you have to put that down anyway.
+- The Clefairy tech does not swing the matchup, as it's still nearly impossible to beat them if they draw well. However, Clefairy allows you to convert games where they don't draw well. This portion of games can be turned from losses into wins thanks to Clefairy. However, I still think you need a lot of luck to win.
+
 ### Grimmsnarl - Favorable
 
 - Manual Pidgeot can be good for attacking on Turn 2.
@@ -87,6 +114,17 @@ They used Watchtower, but luckily we have the Stadium counter. How do we optimal
 - Try to not leave enough damage for them to spawn trap Duskull, or just put down two Duskull at once to make it hard for them to KO both. Use Dusknoir super aggressively.
 - Using a Jet/Prime for Turn 2 attack is fine, otherwise save them for retreat lock.
 - If you do have to Candy into Zard, powering up Terapagos can play around Devo.
+
+### Absol - Depends on Klefki
+
+This matchup is favorable with Klefki and unfavorable without it.
+
+- Terapagos is a great attacker because it does more damage than Charizard in the early-game, it can deal with Cornerstone, and you can manually attack with it.
+- You need to be very careful about allowing them to use Adrenabrain because it allows Claw of Darkness to KO Terapagos, which is very relevant. Playing around Adrenabrain by abusing early- and mid-game gusts is good.
+- Usually you'll end up attacking with a Terapagos, one Charizard, and sometimes some sort of third attacker depending on the board state. Sometimes even Fan Rotom or Pidgeot can attack in a relevant way.
+- Yveltal is not much of a factor in this matchup because there's so many switching cards, but you still need to pay attention if you're running low on switching cards.
+- Dusknoir is either best in the early-game to KO their only attacking Tag Team, or the late-game to win. Don't bother trying to cheese them with Klefki (if you have it), save it for when it's needed for a big Dusknoir combo.
+- If you don't have Klefki, aggressively KO Psyduck and try to catch them without a Stretcher to get value from Dusknoir. It's very hard to win without Dusknoir. This also lets you get value from attacking Fan Rotom.
 
 ### Charizard / Pidgeot - Favorable
 
@@ -105,4 +143,4 @@ They used Watchtower, but luckily we have the Stadium counter. How do we optimal
 
 ## Personal thoughts
 
-This deck is extremely strong and beats most stuff. It is just superior to the other build of Charizard/Pidgeot/Dusknoir but has a worse Dragapult matchup. Personally, I don't think I could play a deck with an auto-loss to Dragapult in this meta, but this deck is strong enough to make a case for it. Clefairy does not do nearly enough against Dragapult to warrant its inclusion in the deck.
+This deck is extremely strong and beats most stuff. It is just superior to the other build of Charizard/Pidgeot/Dusknoir but has a worse Dragapult matchup. Personally, I don't think I could play a deck with a terrible matchup to Dragapult in this meta, but this deck is strong enough to make a case for it. Clefairy does not do nearly enough against Dragapult to warrant its inclusion in the deck.
