@@ -7,6 +7,7 @@ import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
 import { LocalDate } from '@/components/LocalDate'
 import { PageViewCount } from '@/components/PageViewCount'
+import { DeckList } from '@/components/DeckList'
 import type { Metadata } from 'next'
 
 // Force static generation at build time
@@ -278,6 +279,20 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
                   {children}
                 </code>
               ),
+              pre: ({ children }) => {
+                // Check if this is a decklist code block
+                const codeElement = children as React.ReactElement<{ className?: string; children?: string }>
+                if (codeElement?.props?.className === 'language-decklist') {
+                  const decklistContent = String(codeElement.props.children || '').trim()
+                  return <DeckList decklist={decklistContent} />
+                }
+                // Default pre rendering
+                return (
+                  <pre className="bg-slate-100 dark:bg-slate-800 p-4 rounded-xl overflow-x-auto my-6">
+                    {children}
+                  </pre>
+                )
+              },
               img: ({ src, alt }) => {
                 const imageSrc = transformImageSrc(typeof src === 'string' ? src : '')
                 return (

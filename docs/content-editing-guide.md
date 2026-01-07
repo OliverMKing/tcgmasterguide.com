@@ -135,6 +135,32 @@ If you're doing something complex like adding images, you can preview your markd
 
 Follow the same steps as editing (see "Create a Pull Request" above).
 
+## Adding a Deck List
+
+You can add an expandable, copyable deck list to any deck guide using the special `decklist` code block:
+
+````markdown
+```decklist
+Pokémon: 18
+4 Absol SV10 94
+2 Mega Kangaskhan ex SV10 89
+2 Kangaskhan SV10 88
+...
+
+Trainer: 32
+4 Arven SV3 166
+3 Iono SV2 80
+...
+
+Energy: 10
+5 Darkness Energy SVE 7
+3 Mist Energy SV9 161
+...
+```
+````
+
+This will render as a collapsible "Deck List" button. When expanded, it shows the full list with a **Copy** button that copies the entire decklist to the clipboard.
+
 ## Markdown Quick Reference
 
 | What you type | What you get |
@@ -147,6 +173,7 @@ Follow the same steps as editing (see "Create a Pull Request" above).
 | `1. item` | Numbered list |
 | `[link text](url)` | Clickable link |
 | `![alt text](image.png)` | Image |
+| ` ```decklist ` | Expandable deck list (see above) |
 
 ## Need Help?
 
