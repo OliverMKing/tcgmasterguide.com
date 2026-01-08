@@ -91,7 +91,9 @@ Most people's first inclination here would probably be to get Ralts, maybe use I
 
 ## Matchups
 
-### Gholdengo - Favorable
+### Gholdengo - Depends on lists
+
+This matchup is unfavorable if they are playing Lopunny; favorable otherwise.
 
 - Oftentimes only need one Gardevoir. Don't evolve into the second Gardevoir unnecessarily because they won't disrupt your hand. Try to avoid having things in play that Solrock can KO, especially when Item locking. Bravery Charm or delaying Ralts can be good for this.
 - Every turn consider the board state and see if you can pivot into a prize trade. If you can put together a winning prize map, there isn't much they can do about it.
@@ -103,6 +105,10 @@ Most people's first inclination here would probably be to get Ralts, maybe use I
 - Do not use Jellicent at all in the early- or mid-game. It is best used with the Devo play, but doesn't always matter.
 - If they are ahead in prizes and threatening a Mawile attack to escape Frillish lock, try to hit CC Iono Mew on their Mawile for 260. Make sure you do not damage the Mawile before hitting it with Mew, and just hope they don't get Turo. This is pretty situational.
 - Charm almost always gets slammed on Frillish.
+
+- Lopunny's presence forces us to play differently because Frillish is ineffective if they already have Lopunny on board. Try to set up fast and go for a more aggressive route. Fast attacking Gardevoir can be good in the early-game if they might not have the response KO right away.
+- Need as many Munkidori as possible established for damage output.
+- It can be difficult for them to find Lopunny, so Frillish and the above strategies can still be effective if they do not have Lopunny on the board.
 
 ### Gardevoir Mirror - Even / Depends on lists
 

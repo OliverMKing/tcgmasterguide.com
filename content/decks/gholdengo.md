@@ -42,7 +42,7 @@ Energy: 11
 ```
 
 - This is just the standard list
-- Mawile is the best Cornerstone counter, but Lopunny could still be worth playing
+- Mawile is the best Cornerstone counter, while Lopunny is better against Gardevoir and more flexible. However, Lopunny runs into prizing issues more often.
 - Lana's Aid helps against Jellicent but that's basically the only use for it, so you could cut it. I think Lana's Aid provides a decent edge against mediocre Jellicent players. Could also cut a Poffin.
 - Vitality Band and Premium Power Pro are very strong and give you some agency. Makes Solrock more powerful, which is good when the game is either going off script (such as if you prize Genesect and can't find Gholdengo), or when you need a single-prize board.
 - Although four Nest Ball is good, I think having the second Artazon over the fourth one is better because you sometimes want to bump Stadiums such as Jamming or Lively.
@@ -52,7 +52,47 @@ Energy: 11
 - I think Super Rod is better than Stretcher because putting Fightings back in the deck helps against Iono, and because sometimes you want to draw a lot and use Super Rod to not deck out. Also, three is better than one, and Gholdengo has plenty of search and draw to mitigate Super Rod's downside.
 - Team Rocket's Watchtower seems like a really good counter to Charizard/Noctowl in theory (along with Secret Box), but it doesn't help all that much in reality. It maybe adds a few percentage points in that matchup, but it's still unfavorable, so I don't think it's worth it. I also did not enjoy having to play Secret Box. I often miss the option to Arven for Prime Catcher or Prime + Turo in the same turn.
 
-**To try:** Lopunny, maybe TM: Evo, Munkidori version
+![Gholdengo/Lop List](./images/gholdengo/goldlop.png)
+```decklist
+Pokémon: 15
+4 Gimmighoul SSP 97
+3 Gholdengo ex PAR 139
+2 Lunatone MEG 74
+2 Solrock MEG 75
+1 Buneary MEG 107
+1 Mega Lopunny ex PFL 84
+1 Genesect ex BLK 67
+1 Fezandipiti ex SFA 38
+
+Trainer: 34
+4 Arven OBF 186
+3 Boss's Orders MEG 114
+2 Professor Turo's Scenario PAR 171
+4 Nest Ball SVI 181
+4 Superior Energy Retrieval PAL 189
+3 Fighting Gong MEG 116
+3 Earthen Vessel PAR 163
+1 Picnic Basket SVI 184
+1 Super Rod PAL 188
+1 Premium Power Pro MEG 124
+1 Buddy-Buddy Poffin TEF 144
+1 Prime Catcher TEF 157
+2 Air Balloon BLK 79
+1 Technical Machine: Evolution PAR 178
+1 Vitality Band SVI 197
+2 Artazon PAL 171
+
+Energy: 11
+8 Fighting Energy MEE 6
+3 Metal Energy MEE 8
+```
+- Lopunny was very impressive against Gardevoir, which alone makes it worth playing.
+- Charm Buneary is optimal!
+- I still think Prime Catcher is the best Ace Spec with Lopunny and it has synergy with Lopunny's attack.
+- Secret Box was underwhelming. It works well in Stage 2 decks because we often Arven for it and get value from the follow-up Supporter. In this deck we rarely Arven for it, but it is handy when we draw into it naturally. The deck is consistent enough already, and Box is unnecessarily sacrificing the power of Prime Catcher. Playing Prime also allows us to cut the fourth Boss.
+- I basically never used the Ultra Ball, so I cut it. Using TM: Evo for Lopunny is sufficient. Speaking of TM: Evo, the card is nuts. Extremely useful in many games, especially (but not limited to) when you need Lopunny.
+
+**To try:** Munkidori version
 
 ## Gameplay
 
@@ -74,17 +114,20 @@ Energy: 11
 - Premium Power + Vitality is obviously broken for getting a Solrock KO on a turn you wouldn't otherwise be able to do anything, but don't use it if you have another available play because you might need it later.
 - Gusts and Turo are premium resources
 
-### Gardevoir / Jellicent - Unfavorable
+### Gardevoir / Jellicent - Depends on lists
 
-You need to get an aggressive start, try and get as much of a prize lead as possible. This will make it difficult for them to pivot into a prize trade and force them to rely on Frillish and Devo.
+This matchup is favorable for the Lopunny build and unfavorable for all others.
 
-- Ideal board depends on the situation, but usually it's 3 Dengo, LunaRock, and an open spot for Fez, Genesect, or Mawile. Genesect always gets used, but sometimes you want to Turo it up. Three Dengo is good because it's easier for them to Devo the fewer Dengo you have, which is very relevant.
-- Otherwise, using Turo on damaged Gholdengo, LunaRock, or Mawile can be good to throw off their prize trade.
+We need to get an aggressive start, try and get as much of a prize lead as possible. This will make it difficult for them to pivot into a prize trade and force them to rely on Frillish and Devo.
+
+- If you're playing Lopunny, try to get it in play as soon as possible. It completely invalidates their Frillish strats and is difficult for them to KO. Use Lopunny to respond to Frillish. Otherwise, play normally and use Turos for healing/prize denial. Pre-attaching to Lopunny can also be good.
+- Ideal board depends on the situation, but usually it's 3 Dengo (or 2 and Lopunny if you're playing it), LunaRock, and an open spot for Fez, Genesect, or Mawile. Genesect always gets used, but sometimes you want to Turo it up. Three Stage 1s is good because it's easier for them to Devo the fewer Stage 1s you have, which is very relevant.
+- If not using Turo on Genesect, using it on any damaged Pokemon can be good. Even using it on damaged LunaRock can deny a free prize from Adrenabrains.
 - Watch out for their opportunities to pivot into an aggressive prize trade. Sometimes you need to Turo or avoid benching single-prizers because after they kill your first Solrock, they only need to pick off one more single-prize Pokemon to then go 2-2 to close out the game.
 - Try to play Picnic Basket on any turn you can get value from it and aren't Item locked. It's very strong but difficult to use.
 - Mawile can be very strong if they are trying to spam Frillish, just watch out for Mew Counter Catcher (and try to Turo the Mawile if they hit you with that).
 - Don't hit the Frillish for less than a KO for no reason. It's ok to punch it if you're applying relevant pressure, but if they have two Munkidori with Dark, it's usually best to not hit into it.
-- Try to one-shot the Frillish whenever possible. If they have Charm, use Gholdengo with three Energy, otherwise use Solrock with Vitality Band
+- Try to one-shot the Frillish whenever possible. If they have Charm, use Gholdengo with three Energy, otherwise use Solrock with Vitality Band.
 - If you decide to KO their Gardevoir, make sure you have enough resources left to deal with the Frillish. Lana's Aid plus Mawile can help with this.
 
 ### Dragapult / Dusknoir - Slightly Favorable
@@ -123,6 +166,11 @@ The winning prize trade is pretty idealistic. You need the first KO (usually wit
 - Save Artazon for when you need to one-shot through Charm+Lively Stadium!
 - Ideal board is two Gholdengo, Solrock, Lunatone, Mawile, and Genesect if you need it (which you usually do).
 - Try to not give too many prizes up to Cornerstone or else they can just win a normal prize trade.
+
+- If you're playing Lopunny, try to get it in play as soon as possible if they are going with Cornerstone. If they are already powered up, you'll need TM: Evo to prevent the Buneary from getting sniped. 
+- Save Picnic Basket for when they punch Lopunny with Cornerstone, as you need it to survive double Adrenabrain.
+- Pre-attach Energy to Lopunny so you might not need Turo+Balloon. Hitting for 160 twice is sufficient if you have Boss and the Stadium to bump their Lively.
+- If they have two Munkidori with Dark, KO one before going in with Lopunny. We do not want them getting the triple Adrenabrain as it makes both offensive and defensive breakpoints.
 
 ### Grimmsnarl - Favorable
 
