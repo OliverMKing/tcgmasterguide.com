@@ -92,7 +92,7 @@ In the early-game, go for only Cornerstone on board. Having a single-prize Pokem
 - If they draw well and threaten a Mawile sweep, you may need to pivot in the mid- or late-game so that you don't get swept. Try to get a few prizes with Cornerstone early, and then power up other attackers and find a prize map to close out the game.
 - Yveltal + Pech can build some damage on the board, which can be useful for closing out the game. However, they play two Turo and sometimes Prime, so you can't rely on Yveltal for long, and probably want to combo it with Iono for the best chance of buying a few turns. This is very situational and somewhat unreliable though.
 - Moltres helps with closing out the game if you're able to get a few prizes with Cornerstone. After Cornerstone dies, try to make a single prize board so that you can always activate Counter Catcher/Defiance Band. Even if you play Moltres, the matchup is still bad and you have to draw well. Also Moltres doesn't do anything vs Lopunny, just Mawile.
-- If they are playing Lopunny you need to make sure it never hits the board. KO Buneary on sight. If they TM: Evo into Lopunny, make sure you have Charm on Cornerstone, and gust up the Lopunny to smack it.
+- If they are playing Lopunny, try to KO Buneary on sight. If they TM: Evo into Lopunny, make sure you have Charm on Cornerstone, and gust up the Lopunny to smack it. For Lopunny, you'll need multiple Munkidori set up. If they use up Turos, punish them by pivoting into Yveltal gameplan.
 
 ### Gardevoir / Jellicent - Even or Slightly Unfavorable
 
