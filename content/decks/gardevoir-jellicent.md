@@ -1,13 +1,13 @@
 ---
-title: "Gardevoir / Jellicent"
-pokemon: [282, 593]
-tier: 1
+title: "Gardevoir"
+pokemon: [282]
+tier: 2
 lastEdited: "2026-01-05T21:02:46-05:00"
 ---
 
 ## Decklist
 
-![decklist for Gardevoir / Jellicent](./images/gardevoir-jellicent/decklist.png)
+![decklist for Gardevoir](./images/gardevoir-jellicent/decklist.png)
 ```decklist
 Pokémon: 18
 3 Ralts MEG 58
@@ -47,16 +47,14 @@ Energy: 10
 
 - I decided to cut Jellicent for now, but since I did a lot of testing with it (and it's still relevant), the  notes still include notes for Jellicent. Jellicent is mostly relevant in the mirror. It's also good against Charizard on the Devo turn, and against Dragapult for the non-Evo build. I wasn't using it very much but it could go back in. It's more important to have in the non-Evo build. Also, the Charizard and mirror matchups are compensated for in other ways.
 - I prefer the Evo build with two Kirlia because it makes a huge difference in the Dragapult matchup. Evo'ing is also generally better in slower matchups, and Jellicent isn't that important overall.
-- Double Frillish is too important against Gholdengo. It's also important to not prize it in some matchups and situations.
+- Double Frillish is very strong against Gholdengo. It's also important to not prize it in some matchups and situations. That said, it's still possible to cut one.
 - I tried without the Latias, but getting a consistent Turn 1 Frillish is crucial against Charizard, Absol, and mirror.
 - Double Charm is extremely strong against Gholdengo and Absol.
-- Even without Jellicent, Devo is still nearly just as good. It's particularly important against Charizard, Gholdengo, and Grimmsnarl.
+- Even without Jellicent, Devo is nearly just as good. It's particularly important against Charizard, Gholdengo, and Grimmsnarl.
 - Turo gets used a decent amount. Mostly against decks with retreat lock, which aren't as popular now. It's also good for board fixing, though hard to find at the right time. Finally, it's better with Latias because that's a liability that can be removed, and also because Latias makes Energy get stuck, which Turo can unstick.
-- I'm pretty sure second Artazon is better than Mystery Garden, though they do different things so it's weird to compare them. Artazon helps set up and stabilize, and also makes the Turn 1 Frillish a lot more likely. Mystery Garden is more situational and not very good in the early-game. I did not use it that much when I had it, and never missed it when playing without it.
+- I'm convinced that second Artazon is better than Mystery Garden, though they do different things so it's weird to compare them. Artazon helps set up and stabilize, and also makes the Turn 1 Frillish a lot more likely. Mystery Garden is more situational and not very good in the early-game. I did not use it that much when I had it, and never missed it when playing without it.
 - This deck does not need two Counter Catcher! Most games you either don't need any, or just the one, and basically never need two.
 - Cuttable cards are Frillish, Turo, Bravery Charm, and maybe Latias. I wouldn't cut anything else.
-
-**To try:** Drifloon
 
 ## Gameplay
 
@@ -87,7 +85,7 @@ Vessel away Scream Tail for two Psychic, Ultra Ball away a Psychic and Turo for 
 
 ![gameplay of Gardevoir / Jellicent 4](./images/gardevoir-jellicent/gameplay4.png)
 
-Most people's first inclination here would probably be to get Ralts, maybe use Iono, and attack with manual Munkidori. That was my first thought too, but we do not need Gardevoir for the rest of this game. In fact, that bench spot is better off used for the third Munkidori. We can use Stretcher for Dark and triple Adrenabrain to KO and spawntrap their Impidimp, ensuring that no Grimmsnarl comes into play to close out this game. This completely forgoes an attack for the turn. Even though we could attack with Diancie or Munkidori, KO'ing the Impidimp is just better. Leaving the Diancie in the Active leaves it at risk of Ursaluna, so retreating it and using Iono minimizes the risk. There's also the chance of drawing Bravery Charm to make it completely safe.
+My first inclination here was to get Ralts, maybe use Iono, and attack with manual Munkidori. However, we do not need Gardevoir for the rest of this game. In fact, that bench spot is better off used for the third Munkidori. We can use Stretcher for Dark and triple Adrenabrain to KO + spawntrap their Impidimp, ensuring that no Grimmsnarl come into play to close out this game. This completely forgoes an attack for the turn. Even though we could attack with Diancie or Munkidori, KO'ing the Impidimp is just better. Leaving the Diancie in the Active leaves it at risk of Ursaluna, so retreating it and using Iono minimizes the risk. There's also the chance of drawing Bravery Charm to make it completely safe.
 
 ## Matchups
 
@@ -95,7 +93,7 @@ Most people's first inclination here would probably be to get Ralts, maybe use I
 
 This matchup is unfavorable if they are playing Lopunny; favorable otherwise.
 
-- Oftentimes only need one Gardevoir. Don't evolve into the second Gardevoir unnecessarily because they won't disrupt your hand. Try to avoid having things in play that Solrock can KO, especially when Item locking. Bravery Charm or delaying Ralts can be good for this.
+- Oftentimes only need one Gardevoir. If your second one is a Kirlia, don't evolve into the second Gardevoir unnecessarily because they won't disrupt your hand. Try to avoid having things in play that Solrock can KO, especially when Item locking. Bravery Charm or delaying Ralts can be good for this.
 - Every turn consider the board state and see if you can pivot into a prize trade. If you can put together a winning prize map, there isn't much they can do about it.
 - Ideal board is Gardevoir, Frillish, two Munkidori (extremely important), and then whatever else. Second Frillish is good when they are stalled out and not attacking, but not always necessary. Second Ralts/Kirlia is often good in the early-game! And then a leftover spot for Fez which is often needed, or a random attacker for prize trading.
 - If you cannot start prize trading, just keep attacking with Frillish and set up for a Devo play.
@@ -121,9 +119,9 @@ This matchup is unfavorable if they are playing Lopunny; favorable otherwise.
 
 ### Dragapult / Dusknoir - Favorable
 
-This list is favored against Dragapult, but the build with 2-1-1 Gardevoir and no TM: Evo is unfavored against it.
+This list is favored against Dragapult, but the build with 2-1-2 Gardevoir and no TM: Evo is unfavored against it.
 
-- Early Frillish into attacking Jellicent is generally good. If they ignore the Jellicent and wipe out the Ralts, use Clefairy's Ability to make Jellicent two-shot their Dragapult.
+- Early Frillish into attacking Jellicent is generally good. If they ignore the Jellicent and wipe out the Ralts, use Clefairy's Ability to make Jellicent two-shot their Dragapult. If you're not playing Jellicent, Frillish is a low prioritiy.
 - Sometimes you won't be able to get Gardevoir out for awhile. Try to manually power up relevant attackers such as Jellicent, Munkidori, or Clefairy. You'll eventually need Gardevoir at some point, so try to find openings to put down double Ralts.
 - Using Devo after hitting into their Dragapult once can also be a strong play, depending on the situation. It takes one fewer prize card than KO'ing the Dragapult, but makes it difficult or impossible for them to attack on the next turn, which can allow for Gardevoir to be set up.
 - Setting up a Gardevoir is usually a win. If you're playing the build with TM: Evo, prioritize that over early Item lock.
@@ -134,7 +132,7 @@ This list is favored against Dragapult, but the build with 2-1-1 Gardevoir and n
 ### Charizard / Noctowl - Very Unfavorable
 
 - Choose to go first!
-- Turn 2 Jellicent is generally bait if they have Terapagos in play. They can use Boss and pop off with Noctowl if their setup is decent. Early Frillish is the way to go. Attacking with Jellicent can be good if they don't have access to Tera Pokemon.
+- Turn 2 Jellicent is bait if they have Terapagos in play. They can use Boss and pop off with Noctowl if their setup is decent. Early Frillish is the way to go. Attacking with Jellicent can be good if they don't have access to Tera Pokemon.
 - Keep Frillish unevolved until you have a relevant reason to use Jellicent.
 - If they do not get an early Charmeleon, double Frillish with double Munkidori can apply a lot of pressure to their board.
 - If they have Charmeleon but no other Charmander, use Scream Tail to KO it. Scream Tail is a generally good attacker.
@@ -150,7 +148,7 @@ This list is favored against Dragapult, but the build with 2-1-1 Gardevoir and n
 - Endgame prize trades usually revolve around attacking Mew ex, which sometimes needs to be preloaded.
 - If you're too far behind, try setting up for a Devo play. It doesn't have to be a full board wipe, but at least try to get rid of the Pidgeot and a Charizard, and then Mew can finish their remaining Charizard.
 - Many options such as Mind Bend, Iono, and Diancie are much stronger when they do not have Pidgeot on the board.
-- Manually attaching to threats such as Diancie, Mew, and even Munkidori can be very useful as they will KO Gardevoir aggressively.
+- Manually attaching to threats such as Diancie, Mew, and even Munkidori can be very useful as the opponent will KO Gardevoir aggressively.
 - Devo is often best used with Jellicent if possible.
 
 ### Absol - Even or Slightly Favorable
@@ -170,14 +168,14 @@ This list is favored against Dragapult, but the build with 2-1-1 Gardevoir and n
 - Devo is extremely important. It can be used either as a board wipe or tempo if they used Candy on their Grimmsnarl.
 - KO any Morgrem with Scream Tail on sight.
 - Try to keep Scream Tail out of range of Grimmsnarl snipe. This can be done with Charm or by being careful.
-- Get as many Munkidori with Darks as possible
+- Get as many Munkidori with Darks as possible.
 - Frillish is low priority, but can be good on Turn 1 if they whiffed everything.
 - Manual Mind Bend is a good response to a fast aggressive Grimmsnarl.
 - If they have one Froslass in play, double Munki plus Diancie one-shots Grimmsnarl.
 - Avoid activating Counter Catcher if you have Gardevoir in play, unless they have a slow start and you can get the jump on them with Scream Tail.
 - Watch out for their Devo play.
-- Plan ahead for if they Boss KO Gardevoir and have some sort of follow up or backup plan.
+- Plan ahead for if they Boss KO Gardevoir. Try to have some sort of follow up or backup plan.
 
 ## Personal thoughts
 
-This deck is obviously insanely good. It just has an unfortunate weakness to Charizard, though it is reasonable into the rest of the field and notably has a good Gholdengo matchup. I strongly prefer the TM Evo build with 3-2-2 Gardevoir as opposed to the other one, as the difference in the Dragapult matchup is massive. Having three Ralts also helps avoid lots of awkward situations and the presence of TM:Evo improves consistency. I would definitely consider playing this deck despite its bad Charizard matchup.
+This deck is obviously very good. It just has an unfortunate weakness to Charizard, though it is reasonable into the rest of the field. It has some trouble with Gholdengo/Lopunny too. I strongly prefer the TM Evo build with 3-2-2 Gardevoir as opposed to the other one, as the difference in the Dragapult matchup is massive. Having three Ralts also helps avoid lots of awkward situations and the presence of TM:Evo improves consistency. I would definitely consider playing this deck despite its bad Charizard matchup.

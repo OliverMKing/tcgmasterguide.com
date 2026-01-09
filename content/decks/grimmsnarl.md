@@ -67,12 +67,12 @@ Energy: 8
 ### Gholdengo - Unfavorable
 
 - Prioritize getting double Froslass into play. Recover them when the opponent KO's them.
-- Yveltal is very useful because it makes them burn Turos and they cannot Boss on the turn they Turo
+- Yveltal is very useful because it makes them burn Turos and they cannot Boss on the turn they Turo.
 - Fast Grimmsnarl is sometimes good, sometimes not. If their board is established and they can likely get the return KO, it's not as good. However if you can get off multiple attacks with the same Grimmsnarl, it's usually worth it just to get some prizes and make the late-game easier to clean up.
 - Pay attention to their prize map and make it awkward for them. Don't use Grimmsnarl when they're on two prizes (usually).
 - Devo can be useful if you are able to buy enough time, or if the opponent foolishly evolves all of their Gimmighoul immediately.
 - Having Munkidori in the Active on Turn 1 is very good because Solrock cannot KO it, and it is a bit awkward for them.
-- Counter Catcher is a premium resource
+- Counter Catcher is a premium resource.
 
 ### Dragapult / Dusknoir - Favorable
 

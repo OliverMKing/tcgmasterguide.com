@@ -48,7 +48,7 @@ Energy: 7
 2 Jet Energy PAL 190
 ```
 
-- This is basically just the Stuttgart list because it's so good
+- This is basically just the Stuttgart list because it's so good.
 - I cut the Turo for Stretcher because I found Stretcher to be incredibly strong in most games. It's definitely better than the Turo, but you could potentially find space for the Turo elsewhere.
 - I cut one Lillie for Arven. Even though Lillie draws 8 cards which is broken, sometimes you need Arven because TM: Evo is also broken (and super important in some matchups), and Lillie does not consistently find TM: Evo.
 - 60 HP Pidgey is important against other Charizard decks and is also useful against Dragapult and Grimmsnarl. Although Call for Family can be useful on occasion, it is rare.
@@ -79,14 +79,14 @@ We may instead go for back-to-back Bosses. Boss KO'ing the Fez loses to gust plu
 ### Gholdengo - Unfavorable
 
 - The game gets harder if they KO Pidgeot but there's nothing you can really do about it. Tatsugiri, Fez, and second Pidgey can help.
-- Chi-Yu plus Iono is extremely strong
+- Chi-Yu plus Iono is extremely strong.
 - Getting Chi-Yu in the Active on Turn 1 can make it more annoying for Solrock. Manually attaching to Chi-Yu in the early game is very good.
 - Ideal board is double Pidgey, double Mander, Duskull, Chi-Yu. Tatsugiri is fine to have if you need it.
 - Almost always want to take a two-prize KO whenever possible.
 
 ### Gardevoir / Jellicent - Favorable
 
-- KO Gardevoir on sight
+- KO Gardevoir on sight.
 - Dusknoir is strong but not a priority. Stabilizing your board to play around their options is more important. However, if you have the option to boardwipe their Gardevoir lines (such as Dusknoir the Ralts and KO their Gardevoir, that's obviously very strong).
 - Manual Pidgeot can be a fast attacking option and doesn't worry about Mind Bend. Be careful about doing this though, as you don't want to get KO'd by Diancie.
 - Gust effects are premium resources, usually used to KO Gardevoir.
@@ -97,7 +97,7 @@ We may instead go for back-to-back Bosses. Boss KO'ing the Fez loses to gust plu
 ### Charizard / Noctowl - Unfavorable
 
 - This matchup is all about Dusknoir control and board positioning. You always want Duskull in play, and double Duskull is very potent. If they have one Duskull in play, taking it out is often best.
-- Punching into Charizard usually happens at some point and is totally fine
+- Punching into Charizard usually happens at some point and is totally fine.
 - If they setup your Charizard in range of Dusknoir and they leave Area Zero in play, you can bump it, but that is only sometimes necessary.
 - Killing their Pidgeot is often best, but not always necessary. Pidgeot can be a liability on both sides in the late-game, which is why keeping the opponent's Pidgeot around isn't the worst thing ever.
 - Look for opportunities to shut down their options. Wiping out Charizard + Charmander, or both Duskull, etc. can be potent.
@@ -126,7 +126,7 @@ We may instead go for back-to-back Bosses. Boss KO'ing the Fez loses to gust plu
 
 - Manual Pidgeot can be very good, especially on Turn 2.
 - Try to get Dusknoir into play quickly, otherwise the Duskull will get spawn trapped. Dusclops/Dusknoir is very important for controlling the board and increasing Charizard's damage.
-- Usually prioritize KO'ing their Froslass
+- Usually prioritize KO'ing their Froslass.
 - Don't put Pokemon with Abilities in play unless you have to.
 - Iono and Boss are very important resources. Try to use all of them at the best times as they are very effective at disrupting the opponent's deck.
 - Attacking Fez can be good in the early-game as an efficient Froslass killer. If they KO Fez with Grimmsnarl, it powers up Charizard.
@@ -135,7 +135,7 @@ We may instead go for back-to-back Bosses. Boss KO'ing the Fez loses to gust plu
 ### Charizard / Pidgeot Mirror - Even
 
 - This matchup is all about Dusknoir control and board positioning. You always want Duskull in play, and double Duskull is very potent. If they have one Duskull in play, taking it out is often best.
-- Punching into Charizard usually happens at some point and is totally fine
+- Punching into Charizard usually happens at some point and is totally fine.
 - Killing their Pidgeot is often best, but not always necessary. Pidgeot can be a liability on both sides in the late-game, which is why keeping the opponent's Pidgeot around isn't the worst thing ever.
 - Look for opportunities to shut down their options. Wiping out Charizard + Charmander, or both Duskull, etc. can be potent.
 - Defiance Band is an important part of the matchup, so try to get value from it by KO'ing Pidgeot or saving it for Charizard. Watch out for their Defiance Band as well! Going ahead in prizes isn't necessarily bad, again the matchup is more about positioning and Dusknoir anyway. The main downside of taking prizes is Pidgeot getting in KO range, so be aware of that and only allow it to happen if you're getting an advantageous board state.
