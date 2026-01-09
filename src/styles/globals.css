@@ -11,3 +11,16 @@ body {
   background-color: #0f172a;
   color: #f1f5f9;
 }
+
+/* Remove spacing between consecutive lists (caused by blank lines in markdown) */
+.prose ul + ul,
+.prose ol + ol,
+.prose ul + ol,
+.prose ol + ul {
+  margin-top: -1.5rem !important;
+}
+
+/* Remove paragraph margins inside list items (caused by blank lines between list items in markdown) */
+.prose li > p {
+  margin-bottom: 0 !important;
+}

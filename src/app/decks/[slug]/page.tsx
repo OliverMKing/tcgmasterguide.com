@@ -263,9 +263,8 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
                 </ol>
               ),
               li: ({ children }) => (
-                <li className="text-slate-600 dark:text-slate-300 flex items-start gap-3">
-                  <span className="shrink-0 w-1.5 h-1.5 rounded-full bg-purple-500 dark:bg-purple-400 mt-2.5" />
-                  <span>{children}</span>
+                <li className="text-slate-600 dark:text-slate-300 relative pl-5 before:content-[''] before:absolute before:left-0 before:top-[0.6em] before:w-1.5 before:h-1.5 before:rounded-full before:bg-purple-500 dark:before:bg-purple-400">
+                  {children}
                 </li>
               ),
               strong: ({ children }) => (
