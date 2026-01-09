@@ -41,7 +41,6 @@ Energy: 11
 4 Metal Energy MEE 8
 ```
 
-- This is just the standard list
 - Mawile is the best Cornerstone counter, while Lopunny is better against Gardevoir and more flexible. However, Lopunny runs into prizing issues more often.
 - Lana's Aid helps against Jellicent but that's basically the only use for it, so you could cut it. I think Lana's Aid provides a decent edge against mediocre Jellicent players. Could also cut a Poffin.
 - Vitality Band and Premium Power Pro are very strong and give you some agency. Makes Solrock more powerful, which is good when the game is either going off script (such as if you prize Genesect and can't find Gholdengo), or when you need a single-prize board.
@@ -100,9 +99,9 @@ Energy: 11
 - Sequence based on what you need for the turn. If you don't need to draw into any more Energy for the KO, use Fighting Gong and Vessel to get the Energy out, then draw. If you have Fighting Gong but already have Solrock, Lunatone, and Fighting Energy, usually draw first. If you need to fill your board, draw before using Nest Ball, etc.
 - Active Coin Bonus/Fez first, then Lunar Cycle or benched Coin Bonus. If there's a chance you won't want to use Lunar Cycle, benched Coin Bonus first. If there's a chance you'll make the benched one active for extra card, Lunar Cycle first. Arven is usually last in any sequence.
 - Keeping extra Earthen Vessel/Gong around can help against Iono at any point as long as there's Fighting Energy in the deck.
-- If you have an extra attachment for the turn, consider if you could close out the game with Mawile. Sometimes it's easier to get lethal off Iono via Mawile than Gholdengo
-- Always look for opportunities to use Solrock or single-prize board to throw off your opponent's prize trade.
-- Prioritize discarding Metal Energy off Make it Rain because Fighting is more useful to have around. You'll need to use Superior anytime you need Metal anyway. With Vessel, search out enough Fightings for the immediate future, then prioritize searching out Metals to make Fighting Gong still useful.
+- If you have an extra attachment for the turn, consider if you could close out the game with Mawile. Sometimes it's easier to get lethal off Iono by using Mawile if you pre-attach to it.
+- Always look for opportunities to use Solrock or single-prize boards to throw off your opponent's prize trade.
+- Prioritize discarding Metal Energy off Make it Rain because Fighting is more useful to have around. You'll need to use Superior anytime you need Metal anyway. With Vessel, search out enough Fightings for the immediate future, then prioritize searching out Metals to make Fighting Gong retain its usefulness.
 - Preemptively using Arven for Prime Catcher can enable powerful Prime+Turo plays later.
 
 ## Matchups
@@ -120,14 +119,14 @@ This matchup is favorable for the Lopunny build and unfavorable for all others.
 
 We need to get an aggressive start, try and get as much of a prize lead as possible. This will make it difficult for them to pivot into a prize trade and force them to rely on Frillish and Devo.
 
-- If you're playing Lopunny, try to get it in play as soon as possible. It completely invalidates their Frillish strats and is difficult for them to KO. Use Lopunny to respond to Frillish. Otherwise, play normally and use Turos for healing/prize denial. Pre-attaching to Lopunny can also be good.
+- If you're playing Lopunny, try to get it in play as soon as possible. It completely invalidates their Frillish strats and is difficult for them to KO. Use Lopunny to respond to Frillish. Otherwise, play normally and use Turos for healing/prize denial. Pre-attaching to Lopunny can also be good. Use the Lopunny to immediately KO any attacking Frillish.
 - Ideal board depends on the situation, but usually it's 3 Dengo (or 2 and Lopunny if you're playing it), LunaRock, and an open spot for Fez, Genesect, or Mawile. Genesect always gets used, but sometimes you want to Turo it up. Three Stage 1s is good because it's easier for them to Devo the fewer Stage 1s you have, which is very relevant.
-- If not using Turo on Genesect, using it on any damaged Pokemon can be good. Even using it on damaged LunaRock can deny a free prize from Adrenabrains.
+- If not using Turo on Genesect, using it on any damaged Pokemon can be good. Even using it on damaged Luna/Rock can deny a free prize from Adrenabrains.
 - Watch out for their opportunities to pivot into an aggressive prize trade. Sometimes you need to Turo or avoid benching single-prizers because after they kill your first Solrock, they only need to pick off one more single-prize Pokemon to then go 2-2 to close out the game.
 - Try to play Picnic Basket on any turn you can get value from it and aren't Item locked. It's very strong but difficult to use.
 - Mawile can be very strong if they are trying to spam Frillish, just watch out for Mew Counter Catcher (and try to Turo the Mawile if they hit you with that).
-- Don't hit the Frillish for less than a KO for no reason. It's ok to punch it if you're applying relevant pressure, but if they have two Munkidori with Dark, it's usually best to not hit into it.
-- Try to one-shot the Frillish whenever possible. If they have Charm, use Gholdengo with three Energy, otherwise use Solrock with Vitality Band.
+- Don't hit the Frillish for less than a KO for no reason. It's ok to punch it if you're applying relevant pressure, but if they have Munkidori with Dark, it's usually best to not hit into it.
+- Try to one-shot the Frillish whenever possible. If they have Charm, use Gholdengo with three Energy (if you're not playing Lopunny), otherwise use Solrock with Vitality Band.
 - If you decide to KO their Gardevoir, make sure you have enough resources left to deal with the Frillish. Lana's Aid plus Mawile can help with this.
 
 ### Dragapult / Dusknoir - Slightly Favorable
@@ -135,7 +134,7 @@ We need to get an aggressive start, try and get as much of a prize lead as possi
 - When multiple Energy are prized, be careful with managing Energy so that you can always one-shot Dragapult.
 - Sometimes pre-loading Genesect with an Energy can be good to play around the stall. This is very situational.
 - Putting the 50 HP Gimmighoul down (if you play it) is ok if you can immediately evolve it before it gets sniped. Otherwise, try to avoid putting it down at all. If no Gimmighoul are prized, you can sometimes play the game without ever benching the 50 HP one.
-- Even though Genesect is a liability, it's still good to slam into play as soon as possible.
+- Even though Genesect is a liability, it's still good to slam into play as soon as possible. We ideally want triple Gholdengo.
 - If you get the chance to Turo the Genesect later, even if it doesn't have any damage, it still avoids the trap or Ursaluna lose-cons
 
 ### Charizard / Noctowl - Unfavorable
@@ -153,7 +152,7 @@ The winning prize trade is pretty idealistic. You need the first KO (usually wit
 - KO Pidgeot so they cannot find Briar
 - Solrock is great in the early-game, but try to take two-prize KO's with Gholdengo whenever possible, pressuring their Charizard or KO'ing their Pidgeot.
 - Sometimes delay benching Genesect so they cannot get a two-prize KO. Sometimes stagger Gholdengos so you can play with a single-prize board, but this is situational because they can Iono you.
-- Premium Power Pro and Vitality Band can be good to allow Solrock to trade into Chi Yu or KO Pidgeotto/Charmeleon.
+- Premium Power Pro and Vitality Band can be good to allow Solrock to trade into Chi-Yu or KO Pidgeotto/Charmeleon.
 - Apply fast pressure to their board, using Prime Catcher if necessary. The most consistent way to win is by getting far ahead at the beginning. If they only have one Pidgey, KO that. KO'ing Tatsugiri and Charmander can also be good.
 - Turo can very situationally be useful to make a single-prize board, otherwise it is basically useless. Gust cards are extremely important and can be used aggressively (but not discarded!).
 
@@ -177,10 +176,10 @@ The winning prize trade is pretty idealistic. You need the first KO (usually wit
 - Leave backup Gimmighouls unevolved for awhile so they don't take Froslass damage.
 - Genesect on board ensures you can always get Gholdengo even if you get Iono'd.
 - Save Turos for retreat lock. Saving Prime is good too, but using it for fast pressure is fine as well.
-- Ideal board is Gholdengo, two Gimmighoul, Solrock, Lunatone, Genesect
-- Premium Power Pro is often useful for applying pressure with Solrock
+- Ideal board is Gholdengo, two Gimmighoul, Solrock, Lunatone, Genesect.
+- Premium Power Pro is often useful for applying pressure with Solrock.
 - One-shot their Grimmsnarl whenever possible, otherwise target Froslass and Snorunt!
 
 ## Personal thoughts
 
-Gholdengo is extremely strong. Its matchups are alright even though it does have some weaknesses. I would put Gholdengo in my top 3 plays. I would personally rather play Gardevoir or Charizard/Noctowl due to slightly superior matchup spreads as well as more agency. Gholdengo has basically no skill expression, so you're more at the mercy of luck than with other decks. All that said, it is an insane deck and definitely worth playing.
+Gholdengo is extremely strong. Its matchups are overall quite good even though it's weak to Charizard/Noctowl. I would personally rather play Gardevoir or Charizard/Noctowl due to slightly superior matchup spreads as well as more agency, but I would consider this deck anyway because it's so broken. Gholdengo has basically no skill expression, so you're more at the mercy of luck than with other decks. Overall, it is an insane deck and definitely worth playing.

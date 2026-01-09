@@ -46,10 +46,10 @@ Energy: 7
 - This is just the standard Dragapult list because it is too good and nothing is cuttable.
 - The only cuttable card in the list is Munkidori. It is strong against Grimmsnarl, but that matchup is bad either way. It is mostly relevant for the mirror match, which may be enough of a reason to keep it around. Could possibly cut Munkidori for Stretcher or a consistency card.
 - I initially thought it would be ok to cut Jamming Tower, but that is no longer the case. Jamming Tower is too useful in too many matchups.
-- I don't think there is any merit in swapping any Lillie's for Research
-- I don't think there is any merit in swapping any Hilda for Dawn, but there is definitely an argument to play Brock's Scouting instead
+- I don't think there is any merit in swapping any Lillie's for Research.
+- I don't think there is any merit in swapping any Hilda for Dawn, but there is definitely an argument to play Brock's Scouting instead.
 
-**To try:** Brock's Scouting
+**To try:** Brock's Scouting, Moltres
 
 ## Gameplay
 
@@ -90,17 +90,17 @@ This matchup is slightly favorable for Dragapult if they are playing the build w
 - Ralts is usually the biggest threat. Your biggest priority is to prevent Gardevoir from coming into play. Even scary Pokemon like Jellicent or Clefairy with Energy are nothing compared to Gardevoir. Save resources like Dusclops, Hawlucha, and Jamming Tower for when you need to wipe out Ralts and Kirlia.
 - If they are playing TM: Evo, Jamming Tower can be used preemptively. Otherwise, save it to bump their Stadium when they put one in play.
 - If they have Munkidori with an Energy, respect the Mind Bend on Dragapult. I often choose to wipe out double Ralts plus their Munkidori with the first Phantom Dive.
-- Your own Munkidori is very helpful in this matchup
+- Your own Munkidori is very helpful in this matchup.
 - Try to play around Mew ex Phantom Dive if they have it available. This can be done by limiting the targets in play or attacking with something besides Dragapult.
 - If they attack into Dragapult for some damage, be aware of a possible Devo follow up and play around it if possible. This can be done by preemptively evolving into a second Dragapult or having some other follow up plan.
-- Clefairy is generally more threatening in the early-game (and therefore a higher priority to KO), because in the late-game, it can easily be return-KO'd by Ursaluna
+- Clefairy is generally more threatening in the early-game (and therefore a higher priority to KO), because in the late-game, it can easily be return-KO'd by Ursaluna.
 - Ursaluna is a lot more useful in this matchup than you might expect. They often have to put two-prize Pokemon in play and they can sometimes one-shot Dragapult, so Ursaluna can often close out the game. Sometimes you'll have to plan your prize map so that you can use Counter Catcher at the end of the game!
 
 ### Charizard / Noctowl - Very Favorable
 
 - Denying Charmander is good but not always necessary, especially if they have another attacking threat online such as Terapagos or Pidgeot.
 - If they have Charizard set up, you can usually just ignore it and take six prizes elsewhere.
-- Basic two-prize Pokemon are significant liabilities, so be careful about using them. We want to limit them to one prize per turn, and abuse the fact that they cannot KO Dragapult.
+- Basic two-prize Pokemon are significant liabilities, so be careful about using them. We want to limit the opponent to one prize per turn, and abuse the fact that they cannot OHKO Dragapult.
 - KO any Duskull on sight every single time.
 - Using Phantom Dive into Terapagos or Fezandipiti is extremely strong.
 - Dusknoir is not as important as you might think but still occasionally useful. Going for double Duskull early is usually not worth prioritizing.
@@ -112,8 +112,8 @@ This matchup is slightly favorable for Dragapult if they are playing the build w
 
 - Munkidori is very strong. Try not to boardlock yourself out of it so that you can utilize it whenever you find it.
 - Try to get one Duskull out and evolved early. Dusknoir is very good in this matchup, but there's no real point in putting Duskull down once they start using Phantom Dive because it will get spawn trapped.
-- Dusknoir is best used to either one-shot their attacking Dragapult with Phantom Dive or prevent them from getting to an attacking Dragapult in the first place (sometimes as Dusclops)
-- KO their Duskull on sight before they can evolve whenever possible
+- Dusknoir is best used to either one-shot their attacking Dragapult with Phantom Dive or prevent them from getting to an attacking Dragapult in the first place (sometimes as Dusclops).
+- KO their Duskull on sight before they can evolve whenever possible.
 - If they have Munkidori with Luminous, be very careful and consider their available options next turn. Sometimes KO'ing the Munkidori is best.
 
 ### Charizard / Secret Box - Favorable
@@ -121,10 +121,10 @@ This matchup is slightly favorable for Dragapult if they are playing the build w
 - Keeping opponent's Duskull out of play is a high priority. It can be a big threat.
 - Dusknoir is important. Unless you're fully boardwiping them with Dusclops, try to get it evolved into Dusknoir for maximum value.
 - Dusclops is sometimes good for KO Pidgeot via Phantom Dive snipe + Dusclops + 200 over two turns.
-- Ursaluna can be good if they don't have a backup Charizard/Charmeleon, otherwise it is a liability
+- Ursaluna can be good if they don't have a backup Charizard/Charmeleon, otherwise it is a liability.
 - Don't forget that Charizard can one-shot with Defiance Band if you're at 2, or if they're playing Maximum Belt when you're on 3, so try to play around that and Briar.
 - Slam Jamming Tower whenever you see it. It is extremely strong on Turn 1/2.
-- Even though Latias is a big liability, getting a fast Budew is worth putting it down for if you have to.
+- Even though Latias is a big liability, getting a fast Budew is worth putting it down if you have to.
 
 ### Absol - Favorable
 
@@ -135,19 +135,19 @@ This matchup is slightly favorable for Dragapult if they are playing the build w
 - Otherwise, your first Phantom Dive can be into a single-prize target like Munkidori or Psyduck. If you spread out the damage (or put it onto Mist), you can avoid a retaliatory Terminal Period.
 - If they Penny the Absol after you punch it, keep the pressure on. Iono plus Phantom Dive is a decent follow up.
 - Having a Duskull on board is fine if there's any chance you are going to KO Psyduck (such as if it does not have Mist). Otherwise, it can be a liability. Do NOT evolve into Dusclops if you're not immediately using it, as it will get stuck.
-- Be careful about benching liabilities like Fez, Munkidori, and Hawlucha because they can get Yveltal trap. This is especially dangerous if they have a lot of damage on the board because they can heal it all off. Benching these Pokemon is sometimes ok if a) you can get value from them, b) they don't have a bench space for Yveltal and / or c) you have Turo in hand. Keeping Turo around for this option is very good.
+- Be careful about benching liabilities like Fez, Munkidori, and Hawlucha because they can get Yveltal trapped. This is especially dangerous if they have a lot of damage on the board because they can heal it all off. Benching these Pokemon is sometimes ok if a) you can get value from them, b) they don't have a bench space for Yveltal and / or c) you have Turo in hand. Keeping Turo around for this option is very good.
 - If Psyduck does not have Mist, try to snipe it off. Snipe damage is usually best on Absol, but can also be utilized on Latias, Kang, or Psyduck.
 
 ### Grimmsnarl - Unfavorable
 
-- Munkidori is very important
+- Munkidori is very important.
 - Duskull is a high priority. Usually want Dusclops when using the first Phantom Dive. Going for double Duskull early is good in this matchup.
 - Play around their Devo by preemptively evolving to a second Dragapult when your first Dragapult takes a hit. Preemptively evolving can be good in general because it stops the guy from taking Froslass damage. Can sometimes stagger Drakloak for this reason as well.
 - Latias, Fez, and Ursaluna are big liabilities because it lets them potentially win with Ursaluna, so only put them down if you have to. OR play around Ursaluna by prize mapping to not go to 2 or 1. Try to also avoid activating their Counter Catcher.
-- Try to keep them from getting second Grimmsnarl in play.
+- Try to keep them from getting second Grimmsnarl into play.
 - Jamming Tower is a premium card in this matchup. Can be used proactively to stop TM/Balloon, and/or reactively to bump their Stadium.
 - KO'ing both of their Munkidori + using Iono can be a very strong play that limits their options. I usually prioritize KO'ing Munkidori over Froslass. Of course, Snorunt can be easily KO'd before it evolves which is sometimes more convenient.
 
 ## Personal thoughts
 
-Dragapult performs alright into the field. However, it is very bad against Jelly Garde with TM:Evo. However, a lot of people are currently on the 2-1-2 Garde list with no Evo (which is favorable for Dragapult), but the Evo build did get first and second at LAIC, so it could still be risky to take a loss to. The Gholdengo matchup also leaves a lot to be desired (even though it isn't terrible), and with how insanely popular Gholdengo is, that is another thing going against Dragapult. The best thing about Dragapult is that it is basically the only deck that owns Charizard. Dragapult also has some consistency issues, but it can still win those games when it draws bad. I probably wouldn't play Dragapult myself, but it's not bad.
+Dragapult performs alright into the field. However, it is very bad against Garde with TM:Evo. Some people are still on the 2-1-2 Garde list with no Evo, but the Evo build is still somewhat popular, so it could be risky to take a loss to. The Gholdengo matchup also leaves a lot to be desired (even though it is winnable), and with how insanely popular Gholdengo is, that is another thing going against Dragapult. The best thing about Dragapult is that it is the only deck that owns Charizard. Dragapult also has some consistency issues, but it can still win those games when it draws bad. I probably wouldn't play Dragapult myself, but it's not bad.
