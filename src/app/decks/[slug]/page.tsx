@@ -85,6 +85,8 @@ const tierColors: Record<number, string> = {
   3: 'bg-amber-700',
 }
 
+const LIST_BREAK_MARKER = '---LIST-BREAK---'
+
 export function generateStaticParams() {
   return getAllDeckSlugs().map((slug) => ({
     slug,
@@ -132,6 +134,13 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
   }
 
   const headings = extractHeadings(deck.content)
+
+  // Preprocess content to add separators between consecutive lists
+  // Pattern: list item, blank line, list item -> insert a separator
+  const processedContent = deck.content.replace(
+    /^(- .+)\n\n(- )/gm,
+    `$1\n\n${LIST_BREAK_MARKER}\n\n$2`
+  )
 
   // Transform relative image paths to API route
   const transformImageSrc = (src: string) => {
@@ -247,18 +256,25 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
                   </h4>
                 )
               },
-              p: ({ children }) => (
-                <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
-                  {children}
-                </p>
-              ),
+              p: ({ children }) => {
+                // Check if this is a list break marker
+                const text = String(children)
+                if (text === LIST_BREAK_MARKER) {
+                  return <div className="h-4" aria-hidden="true" />
+                }
+                return (
+                  <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
+                    {children}
+                  </p>
+                )
+              },
               ul: ({ children }) => (
-                <ul className="space-y-3 text-slate-600 dark:text-slate-300 mb-6 pl-0">
+                <ul className="deck-list space-y-3 text-slate-600 dark:text-slate-300 mb-6 pl-0">
                   {children}
                 </ul>
               ),
               ol: ({ children }) => (
-                <ol className="space-y-3 text-slate-600 dark:text-slate-300 mb-6 pl-0 list-decimal list-inside">
+                <ol className="deck-list space-y-3 text-slate-600 dark:text-slate-300 mb-6 pl-0 list-decimal list-inside">
                   {children}
                 </ol>
               ),
@@ -309,7 +325,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
               },
             }}
           >
-            {deck.content}
+            {processedContent}
           </ReactMarkdown>
         </div>
 
