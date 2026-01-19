@@ -64,3 +64,14 @@ output "application_insights_name" {
   description = "Name of the Application Insights instance"
   value       = azurerm_application_insights.main.name
 }
+
+output "github_actions_sql_credentials" {
+  description = "Azure credentials JSON for GitHub Actions to manage SQL firewall rules. Add this as AZURE_CREDENTIALS secret in GitHub."
+  sensitive   = true
+  value = jsonencode({
+    clientId       = azuread_application.github_actions_sql.client_id
+    clientSecret   = azuread_service_principal_password.github_actions_sql.value
+    subscriptionId = data.azurerm_client_config.current.subscription_id
+    tenantId       = data.azurerm_client_config.current.tenant_id
+  })
+}

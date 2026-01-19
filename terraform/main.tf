@@ -257,6 +257,46 @@ resource "azurerm_application_insights" "main" {
   tags = var.tags
 }
 
+# Service Principal for GitHub Actions to manage SQL firewall rules
+resource "azuread_application" "github_actions_sql" {
+  display_name = "${var.project_name}-${var.environment}-github-actions-sql"
+}
+
+resource "azuread_service_principal" "github_actions_sql" {
+  client_id = azuread_application.github_actions_sql.client_id
+}
+
+resource "azuread_service_principal_password" "github_actions_sql" {
+  service_principal_id = azuread_service_principal.github_actions_sql.id
+}
+
+# Custom role for SQL firewall management only
+resource "azurerm_role_definition" "sql_firewall_contributor" {
+  name        = "${var.project_name}-${var.environment}-sql-firewall-contributor"
+  scope       = azurerm_resource_group.main.id
+  description = "Can manage SQL Server firewall rules only"
+
+  permissions {
+    actions = [
+      "Microsoft.Sql/servers/firewallRules/read",
+      "Microsoft.Sql/servers/firewallRules/write",
+      "Microsoft.Sql/servers/firewallRules/delete"
+    ]
+    not_actions = []
+  }
+
+  assignable_scopes = [
+    azurerm_mssql_server.main.id
+  ]
+}
+
+# Assign the custom role to the GitHub Actions service principal
+resource "azurerm_role_assignment" "github_actions_sql_firewall" {
+  scope              = azurerm_mssql_server.main.id
+  role_definition_id = azurerm_role_definition.sql_firewall_contributor.role_definition_resource_id
+  principal_id       = azuread_service_principal.github_actions_sql.object_id
+}
+
 # Service Principal for querying Application Insights (replaces deprecated API keys)
 # Application Insights doesn't support Managed Identity, we should use BYO Azure Functions in the future instead
 resource "azuread_application" "appinsights_reader" {

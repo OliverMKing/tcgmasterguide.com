@@ -33,11 +33,40 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Get runner IP
+        id: ip
+        run: echo "ip=$(curl -s https://api.ipify.org)" >> $GITHUB_OUTPUT
+
+      - name: Azure Login
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: azure/login@v2
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Whitelist runner IP for SQL
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          az sql server firewall-rule create \
+            --resource-group tcgmasterguide-prod-rg \
+            --server tcgmasterguide-prod-sql \
+            --name github-runner-${{ github.run_id }} \
+            --start-ip-address ${{ steps.ip.outputs.ip }} \
+            --end-ip-address ${{ steps.ip.outputs.ip }}
+
       - name: Run database migrations
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: npx prisma migrate deploy
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
+
+      - name: Remove runner IP from SQL firewall
+        if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          az sql server firewall-rule delete \
+            --resource-group tcgmasterguide-prod-rg \
+            --server tcgmasterguide-prod-sql \
+            --name github-runner-${{ github.run_id }} \
+            --yes
 
       - name: Build And Deploy
         id: builddeploy
