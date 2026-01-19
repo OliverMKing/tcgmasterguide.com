@@ -42,15 +42,17 @@ variable "custom_domain" {
 }
 
 variable "sql_admin_username" {
-  description = "SQL Server administrator username"
+  description = "SQL Server administrator username. If not set, existing value in Azure will be preserved."
   type        = string
   sensitive   = true
+  default     = null
 }
 
 variable "sql_admin_password" {
-  description = "SQL Server administrator password"
+  description = "SQL Server administrator password. If not set, existing value in Azure will be preserved."
   type        = string
   sensitive   = true
+  default     = null
 }
 
 variable "sql_azuread_admin_login" {

@@ -112,6 +112,15 @@ resource "azurerm_mssql_server" "main" {
   }
 
   tags = var.tags
+
+  lifecycle {
+    ignore_changes = [
+      # Ignore changes to admin credentials when they're not explicitly set
+      # This allows managing credentials outside of Terraform
+      administrator_login,
+      administrator_login_password,
+    ]
+  }
 }
 
 # SQL Database - Serverless
@@ -177,8 +186,9 @@ resource "azurerm_key_vault" "main" {
   tags = var.tags
 }
 
-# Store SQL Connection String in Key Vault
+# Store SQL Connection String in Key Vault (only when credentials are provided)
 resource "azurerm_key_vault_secret" "sql_connection_string" {
+  count        = var.sql_admin_username != null && var.sql_admin_password != null ? 1 : 0
   name         = "sql-connection-string"
   value        = "Server=tcp:${azurerm_mssql_server.main.fully_qualified_domain_name},1433;Initial Catalog=${azurerm_mssql_database.main.name};Persist Security Info=False;User ID=${var.sql_admin_username};Password=${var.sql_admin_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   key_vault_id = azurerm_key_vault.main.id

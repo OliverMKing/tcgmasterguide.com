@@ -55,11 +55,14 @@ az storage container create \
 
 ### 2. Configure Environment Variables
 
-Set required environment variables for sensitive data:
+Set environment variables for sensitive data. SQL credentials are optional - if not set, Terraform will ignore changes to existing credentials in Azure:
 
 ```bash
+# Optional: SQL admin credentials (only needed for initial deployment or credential rotation)
 export TF_VAR_sql_admin_username="sqladmin"
 export TF_VAR_sql_admin_password="YourSecurePassword123!"
+
+# Optional: API keys (can also be set via Azure Portal)
 export TF_VAR_clerk_secret_key="your-clerk-secret-key"
 export TF_VAR_stripe_secret_key="your-stripe-secret-key"
 export TF_VAR_stripe_webhook_secret="your-stripe-webhook-secret"
@@ -68,6 +71,7 @@ export TF_VAR_stripe_webhook_secret="your-stripe-webhook-secret"
 Alternatively, create a `terraform.tfvars` file (DO NOT commit to Git):
 
 ```hcl
+# Optional - only include if you need to set/update SQL credentials
 sql_admin_username = "sqladmin"
 sql_admin_password = "YourSecurePassword123!"
 ```
