@@ -4,7 +4,6 @@ This document tracks planned features and improvements for TCG Master Guide.
 
 ## High Priority
 
-- [ ] **Authentication** - Implement user authentication with account creation and management
 - [ ] **Paywall / Subscription** - Add subscription-based access control with payment processing 
 
 ## Medium Priority
