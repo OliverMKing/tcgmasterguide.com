@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/OliverMKing/tcgmasterguide.com#readme",
   "dependencies": {
+    "@clerk/nextjs": "^6.36.8",
     "@microsoft/applicationinsights-web": "^3.3.10",
     "gray-matter": "^4.0.3",
     "next": "^16.1.1",

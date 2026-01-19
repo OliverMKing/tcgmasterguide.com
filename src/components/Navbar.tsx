@@ -1,9 +1,25 @@
 'use client'
 
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { ThemeToggle } from './ThemeToggle'
+import {
+  SignInButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from '@clerk/nextjs'
 
 export default function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const pathname = usePathname()
+
+  // Close menu on route change
+  useEffect(() => {
+    setIsMenuOpen(false)
+  }, [pathname])
+
   return (
     <nav className="bg-white dark:bg-slate-800 border-b border-slate-100 dark:border-slate-700 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -14,22 +30,95 @@ export default function Navbar() {
             </span>
           </Link>
 
-          <div className="flex items-center space-x-3 sm:space-x-6">
+          {/* Desktop navigation */}
+          <div className="hidden sm:flex items-center space-x-6">
             <Link
               href="/"
-              className="text-sm sm:text-base text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
+              className="text-base text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
             >
               Home
             </Link>
             <Link
               href="/about"
-              className="text-sm sm:text-base text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
+              className="text-base text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
             >
               About
             </Link>
             <ThemeToggle />
+            <SignedOut>
+              <SignInButton mode="modal">
+                <button className="text-base bg-purple-700 hover:bg-purple-800 text-white px-3 py-1.5 rounded-md transition-colors cursor-pointer">
+                  Sign In
+                </button>
+              </SignInButton>
+            </SignedOut>
+            <SignedIn>
+              <UserButton
+                appearance={{
+                  elements: {
+                    avatarBox: 'w-8 h-8',
+                  },
+                }}
+              />
+            </SignedIn>
+          </div>
+
+          {/* Mobile menu button */}
+          <div className="flex sm:hidden items-center space-x-3">
+            <ThemeToggle />
+            <SignedOut>
+              <SignInButton mode="modal">
+                <button className="text-sm bg-purple-700 hover:bg-purple-800 text-white px-3 py-1.5 rounded-md transition-colors cursor-pointer">
+                  Sign In
+                </button>
+              </SignInButton>
+            </SignedOut>
+            <SignedIn>
+              <UserButton
+                appearance={{
+                  elements: {
+                    avatarBox: 'w-8 h-8',
+                  },
+                }}
+              />
+            </SignedIn>
+            <button
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="p-2 text-slate-600 dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
+              aria-label="Toggle menu"
+            >
+              {isMenuOpen ? (
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              ) : (
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              )}
+            </button>
           </div>
         </div>
+
+        {/* Mobile dropdown menu */}
+        {isMenuOpen && (
+          <div className="sm:hidden pb-4 space-y-2">
+            <Link
+              href="/"
+              onClick={() => setIsMenuOpen(false)}
+              className="block py-2 text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
+            >
+              Home
+            </Link>
+            <Link
+              href="/about"
+              onClick={() => setIsMenuOpen(false)}
+              className="block py-2 text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
+            >
+              About
+            </Link>
+          </div>
+        )}
       </div>
     </nav>
   )

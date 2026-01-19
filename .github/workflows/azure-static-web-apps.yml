@@ -28,8 +28,9 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
         env:
           NODE_VERSION: '20' # anything higher isn't supported yet by Oryx
-          # this isn't a secret and we need to bake it in at build time
+          # these aren't secrets and we need to bake them in at build time
           NEXT_PUBLIC_APPINSIGHTS_CONNECTION_STRING: 'InstrumentationKey=cac8631b-0005-4ef2-9db2-e5a5dee57321;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/;ApplicationId=ac1260d2-af55-40df-89d2-b1149d4bbd73'
+          NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: 'pk_live_Y2xlcmsudGNnbWFzdGVyZ3VpZGUuY29tJA'
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           action: "upload"

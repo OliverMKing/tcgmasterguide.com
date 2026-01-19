@@ -306,3 +306,26 @@ resource "null_resource" "swa_appinsights_settings" {
     azuread_service_principal_password.appinsights_reader
   ]
 }
+
+# Set Clerk secret key on Static Web App
+# CLERK_SECRET_KEY is server-side only (read at runtime by API routes)
+# NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY is set in GitHub Actions workflow (baked in at build time)
+resource "null_resource" "swa_clerk_settings" {
+  count = var.clerk_secret_key != "" ? 1 : 0
+
+  triggers = {
+    clerk_secret_key = var.clerk_secret_key
+  }
+
+  provisioner "local-exec" {
+    command = <<-EOT
+      az staticwebapp appsettings set \
+        --name ${azurerm_static_web_app.main.name} \
+        --resource-group ${azurerm_resource_group.main.name} \
+        --setting-names \
+          CLERK_SECRET_KEY="${var.clerk_secret_key}"
+    EOT
+  }
+
+  depends_on = [azurerm_static_web_app.main]
+}
