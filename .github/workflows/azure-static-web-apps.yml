@@ -65,8 +65,7 @@ jobs:
           az sql server firewall-rule delete \
             --resource-group tcgmasterguide-prod-rg \
             --server tcgmasterguide-prod-sql \
-            --name github-runner-${{ github.run_id }} \
-            --yes
+            --name github-runner-${{ github.run_id }}
 
       - name: Build And Deploy
         id: builddeploy
