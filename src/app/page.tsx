@@ -159,7 +159,7 @@ export default function Home() {
           ))}
         </div>
 
-        <LiveBanner channel="loltyler1" />
+        <LiveBanner channel="tricroar" />
       </div>
 
     </main>
