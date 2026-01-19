@@ -17,7 +17,6 @@ This document tracks planned features and improvements for TCG Master Guide.
 - [ ] **Embedded Twitch Stream** - Show live Twitch stream on the site when streaming
 - [ ] **Comments/Discussion** - Allow user discussion on deck guides (requires auth)
 - [ ] **Card Database Integration** - Link card names to images/details from Pokemon TCG API
-- [ ] **Theme Clerk** - It should look normal on dark mode
 
 ## Technical Improvements
 

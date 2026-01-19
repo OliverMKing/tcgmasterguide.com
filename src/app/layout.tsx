@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
-import { ClerkProvider } from '@clerk/nextjs'
 import '../styles/globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import { ThemeProvider } from '@/components/ThemeProvider'
+import { ClerkThemeWrapper } from '@/components/ClerkThemeWrapper'
 import { AppInsightsProvider } from '@/components/AppInsights'
 
 const siteUrl = 'https://tcgmasterguide.com'
@@ -66,18 +66,18 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <ClerkProvider>
-      <html lang="en" suppressHydrationWarning>
-        <body className="bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors">
-          <ThemeProvider>
+    <html lang="en" suppressHydrationWarning>
+      <body className="bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors">
+        <ThemeProvider>
+          <ClerkThemeWrapper>
             <AppInsightsProvider>
               <Navbar />
               {children}
               <Footer />
             </AppInsightsProvider>
-          </ThemeProvider>
-        </body>
-      </html>
-    </ClerkProvider>
+          </ClerkThemeWrapper>
+        </ThemeProvider>
+      </body>
+    </html>
   )
 }
