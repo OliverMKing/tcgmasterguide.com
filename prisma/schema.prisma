@@ -1,0 +1,22 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlserver"
+  url      = env("DATABASE_URL")
+}
+
+model Comment {
+  id        String   @id @default(cuid())
+  content   String
+  deckSlug  String   @map("deck_slug")
+  userId    String   @map("user_id")
+  userName  String   @map("user_name")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@index([deckSlug])
+  @@index([userId])
+  @@map("comments")
+}

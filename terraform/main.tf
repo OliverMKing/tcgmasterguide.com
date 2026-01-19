@@ -116,10 +116,9 @@ resource "azurerm_mssql_server" "main" {
 
   lifecycle {
     ignore_changes = [
-      # Ignore changes to admin credentials when they're not explicitly set
+      # Ignore changes to admin login when not explicitly set
       # This allows managing credentials outside of Terraform
       administrator_login,
-      administrator_login_password,
     ]
   }
 }
@@ -362,4 +361,32 @@ resource "null_resource" "swa_twitch_settings" {
   }
 
   depends_on = [azurerm_static_web_app.main]
+}
+
+# Set DATABASE_URL on Static Web App for Prisma
+# Format: sqlserver://server:port;database=dbname;user=username;password=password;encrypt=true
+resource "terraform_data" "swa_database_settings" {
+  count = var.sql_admin_username != null && var.sql_admin_password != null ? 1 : 0
+
+  triggers_replace = {
+    sql_server   = azurerm_mssql_server.main.fully_qualified_domain_name
+    sql_database = azurerm_mssql_database.main.name
+    sql_username = var.sql_admin_username
+    sql_password = var.sql_admin_password
+  }
+
+  provisioner "local-exec" {
+    command = <<-EOT
+      az staticwebapp appsettings set \
+        --name ${azurerm_static_web_app.main.name} \
+        --resource-group ${azurerm_resource_group.main.name} \
+        --setting-names \
+          DATABASE_URL="sqlserver://${azurerm_mssql_server.main.fully_qualified_domain_name}:1433;database=${azurerm_mssql_database.main.name};user=${var.sql_admin_username};password=${urlencode(var.sql_admin_password)};encrypt=true"
+    EOT
+  }
+
+  depends_on = [
+    azurerm_static_web_app.main,
+    azurerm_mssql_database.main
+  ]
 }

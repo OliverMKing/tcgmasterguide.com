@@ -10,12 +10,12 @@ This document tracks planned features and improvements for TCG Master Guide.
 
 - [ ] **Video Clip Support** - Embed video clips in deck guides for gameplay examples
 - [ ] **Q&A Page** - General Q&A page for user questions and answers
-- [ ] **Per-Deck Comments** - Comments section on each deck guide page (requires auth)
 
 ## Low Priority / Nice to Have
 
-- [ ] **Comments/Discussion** - Allow user discussion on deck guides (requires auth)
 - [ ] **Card Database Integration** - Link card names to images/details from Pokemon TCG API
+- [ ] **Prevent bad actors from commenting** - Prevent comments that contain harmful language
+- [ ] **Respond to comments** - Be able to respond to specific contents and render appropriately
 
 ## Technical Improvements
 

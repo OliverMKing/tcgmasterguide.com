@@ -8,6 +8,7 @@ import ReactMarkdown from 'react-markdown'
 import { LocalDate } from '@/components/LocalDate'
 import { PageViewCount } from '@/components/PageViewCount'
 import { DeckList } from '@/components/DeckList'
+import Comments from '@/components/Comments'
 import type { Metadata } from 'next'
 
 // Force static generation at build time
@@ -330,7 +331,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
         </div>
 
         {/* Footer CTA */}
-        <div className="mt-16 pt-8 border-t border-slate-200 dark:border-slate-700">
+        <div className="mt-16">
           <div className="bg-gradient-to-r from-purple-600 to-fuchsia-600 rounded-2xl p-8 text-center">
             <h3 className="text-2xl font-bold text-white mb-3">
               Explore More Guides
@@ -349,6 +350,9 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
             </Link>
           </div>
         </div>
+
+        {/* Comments Section */}
+        <Comments deckSlug={slug} />
       </article>
     </main>
   )

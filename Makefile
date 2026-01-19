@@ -1,4 +1,4 @@
-.PHONY: help install dev build start lint type-check clean format test
+.PHONY: help install dev build start lint type-check clean format test db-up db-down db-migrate db-generate
 
 # Default target
 help:
@@ -6,9 +6,15 @@ help:
 	@echo ""
 	@echo "Development:"
 	@echo "  make install      - Install dependencies"
-	@echo "  make dev          - Start development server"
+	@echo "  make dev          - Start development server (with Docker DB)"
 	@echo "  make build        - Build production bundle"
 	@echo "  make start        - Start production server"
+	@echo ""
+	@echo "Database:"
+	@echo "  make db-up        - Start SQL Server in Docker"
+	@echo "  make db-down      - Stop SQL Server Docker container"
+	@echo "  make db-migrate   - Run Prisma migrations"
+	@echo "  make db-generate  - Generate Prisma client"
 	@echo ""
 	@echo "Code Quality:"
 	@echo "  make lint         - Run ESLint"
@@ -25,8 +31,30 @@ help:
 install:
 	npm install
 
-# Development server
-dev:
+# Start SQL Server in Docker
+db-up:
+	@docker compose up -d
+	@echo "Waiting for SQL Server to be ready..."
+	@until docker compose exec -T mssql /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "LocalDev123!" -C -Q "SELECT 1" > /dev/null 2>&1; do \
+		sleep 2; \
+	done
+	@echo "SQL Server is ready!"
+	@docker compose exec -T mssql /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "LocalDev123!" -C -Q "IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = 'tcgmasterguide') CREATE DATABASE tcgmasterguide" > /dev/null 2>&1 || true
+
+# Stop SQL Server Docker container
+db-down:
+	docker compose down
+
+# Run Prisma migrations
+db-migrate: db-up
+	npx prisma migrate dev
+
+# Generate Prisma client
+db-generate:
+	npx prisma generate
+
+# Development server (starts Docker DB first)
+dev: db-up db-generate
 	npm run dev
 
 # Production build
