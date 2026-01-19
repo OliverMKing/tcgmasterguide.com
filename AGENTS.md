@@ -72,3 +72,15 @@ Store business requirements and feature specifications in:
 ```
 docs/business/
 ```
+
+### Feature Todo List
+The project maintains a feature backlog at:
+```
+docs/TODO.md
+```
+
+When working on new features:
+1. Check `docs/TODO.md` for planned features and their priority
+2. Mark items as in-progress by changing `[ ]` to `[x]` when starting work
+3. Add new feature ideas to the appropriate priority section
+4. Remove completed items or move them to a "Completed" section at the bottom
