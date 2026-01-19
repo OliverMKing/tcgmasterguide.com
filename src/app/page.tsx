@@ -4,6 +4,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { LocalDate } from '@/components/LocalDate'
+import LiveBanner from '@/components/LiveBanner'
 
 // Force static generation at build time
 export const dynamic = 'force-static'
@@ -157,6 +158,8 @@ export default function Home() {
             </div>
           ))}
         </div>
+
+        <LiveBanner channel="loltyler1" />
       </div>
 
     </main>
