@@ -76,7 +76,7 @@ docs/business/
 ### Feature Todo List
 The project maintains a feature backlog at:
 ```
-docs/TODO.md
+./TODO.md
 ```
 
 When working on new features:
