@@ -4,15 +4,23 @@ import { useEffect, useState, useRef } from 'react'
 
 interface TwitchEmbedProps {
   channel: string
+  onStatusChange?: (status: StreamStatus) => void
 }
+
+export type { StreamStatus }
 
 type StreamStatus = 'loading' | 'live' | 'offline' | 'unknown'
 
-export default function TwitchEmbed({ channel }: TwitchEmbedProps) {
+export default function TwitchEmbed({ channel, onStatusChange }: TwitchEmbedProps) {
   const [status, setStatus] = useState<StreamStatus>('loading')
   const [isMobile, setIsMobile] = useState(false)
   const embedRef = useRef<HTMLDivElement>(null)
   const playerRef = useRef<unknown>(null)
+
+  // Notify parent of status changes
+  useEffect(() => {
+    onStatusChange?.(status)
+  }, [status, onStatusChange])
 
   // Check screen size for layout
   useEffect(() => {
@@ -108,7 +116,7 @@ export default function TwitchEmbed({ channel }: TwitchEmbedProps) {
             Stream Offline
           </h2>
           <p className="text-slate-600 dark:text-slate-300 mb-6 max-w-md">
-            Grant is not currently streaming. Follow on Twitch to get notified when they go live!
+            Grant is not currently streaming. Follow on Twitch to get notified when he goes live!
           </p>
           <a
             href={`https://twitch.tv/${channel}`}
