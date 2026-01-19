@@ -66,6 +66,10 @@ export TF_VAR_sql_admin_password="YourSecurePassword123!"
 export TF_VAR_clerk_secret_key="your-clerk-secret-key"
 export TF_VAR_stripe_secret_key="your-stripe-secret-key"
 export TF_VAR_stripe_webhook_secret="your-stripe-webhook-secret"
+
+# Optional: Twitch API credentials (for live stream status)
+export TF_VAR_twitch_client_id="your-twitch-client-id"
+export TF_VAR_twitch_client_secret="your-twitch-client-secret"
 ```
 
 Alternatively, create a `terraform.tfvars` file (DO NOT commit to Git):

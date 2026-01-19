@@ -46,7 +46,7 @@ output "key_vault_uri" {
 
 output "sql_connection_string_secret_name" {
   description = "Name of the SQL connection string secret in Key Vault"
-  value       = azurerm_key_vault_secret.sql_connection_string.name
+  value       = length(azurerm_key_vault_secret.sql_connection_string) > 0 ? azurerm_key_vault_secret.sql_connection_string[0].name : null
 }
 
 output "custom_domain_validation_token" {

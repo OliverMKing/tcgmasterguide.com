@@ -107,8 +107,9 @@ resource "azurerm_mssql_server" "main" {
   minimum_tls_version = "1.2"
 
   azuread_administrator {
-    login_username = var.sql_azuread_admin_login
-    object_id      = data.azurerm_client_config.current.object_id
+    login_username              = var.sql_azuread_admin_login
+    object_id                   = data.azurerm_client_config.current.object_id
+    azuread_authentication_only = var.sql_admin_username == null || var.sql_admin_password == null
   }
 
   tags = var.tags
@@ -334,6 +335,29 @@ resource "null_resource" "swa_clerk_settings" {
         --resource-group ${azurerm_resource_group.main.name} \
         --setting-names \
           CLERK_SECRET_KEY="${var.clerk_secret_key}"
+    EOT
+  }
+
+  depends_on = [azurerm_static_web_app.main]
+}
+
+# Set Twitch API credentials on Static Web App
+resource "null_resource" "swa_twitch_settings" {
+  count = var.twitch_client_id != "" && var.twitch_client_secret != "" ? 1 : 0
+
+  triggers = {
+    twitch_client_id     = var.twitch_client_id
+    twitch_client_secret = var.twitch_client_secret
+  }
+
+  provisioner "local-exec" {
+    command = <<-EOT
+      az staticwebapp appsettings set \
+        --name ${azurerm_static_web_app.main.name} \
+        --resource-group ${azurerm_resource_group.main.name} \
+        --setting-names \
+          TWITCH_CLIENT_ID="${var.twitch_client_id}" \
+          TWITCH_CLIENT_SECRET="${var.twitch_client_secret}"
     EOT
   }
 

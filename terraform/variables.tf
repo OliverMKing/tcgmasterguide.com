@@ -107,3 +107,17 @@ variable "appinsights_daily_cap_gb" {
   type        = number
   default     = 0.4
 }
+
+variable "twitch_client_id" {
+  description = "Twitch API client ID for stream status checking"
+  type        = string
+  sensitive   = true
+  default     = ""
+}
+
+variable "twitch_client_secret" {
+  description = "Twitch API client secret for stream status checking"
+  type        = string
+  sensitive   = true
+  default     = ""
+}

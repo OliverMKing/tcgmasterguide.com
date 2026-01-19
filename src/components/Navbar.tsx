@@ -44,6 +44,12 @@ export default function Navbar() {
             >
               About
             </Link>
+            <Link
+              href="/live"
+              className="text-base text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
+            >
+              Live
+            </Link>
             <ThemeToggle />
             <SignedOut>
               <SignInButton mode="modal">
@@ -116,6 +122,13 @@ export default function Navbar() {
               className="block py-2 text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
             >
               About
+            </Link>
+            <Link
+              href="/live"
+              onClick={() => setIsMenuOpen(false)}
+              className="block py-2 text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
+            >
+              Live
             </Link>
           </div>
         )}
