@@ -10,19 +10,15 @@ on:
       - main
 
 jobs:
-  build_and_deploy_job:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+  database_migrations:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    name: Build and Deploy Job
+    name: Database Migrations
     permissions:
-       id-token: write
-       contents: read
+      id-token: write
+      contents: read
     steps:
       - uses: actions/checkout@v3
-        with:
-          submodules: true
-          lfs: false
-          fetch-depth: 0 # Full history needed to get last modified dates from git log
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -41,13 +37,11 @@ jobs:
         run: echo "ip=$(curl -s https://api.ipify.org)" >> $GITHUB_OUTPUT
 
       - name: Azure Login
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: azure/login@v2
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Whitelist runner IP for SQL
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           az sql server firewall-rule create \
             --resource-group tcgmasterguide-prod-rg \
@@ -57,18 +51,35 @@ jobs:
             --end-ip-address ${{ steps.ip.outputs.ip }}
 
       - name: Run database migrations
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: npx prisma migrate deploy
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
       - name: Remove runner IP from SQL firewall
-        if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main'
+        if: always()
         run: |
           az sql server firewall-rule delete \
             --resource-group tcgmasterguide-prod-rg \
             --server tcgmasterguide-prod-sql \
             --name github-runner-${{ github.run_id }}
+
+  build_and_deploy_job:
+    needs: [database_migrations]
+    # Run even if migrations were skipped (PRs don't run migrations)
+    if: |
+      always() &&
+      (needs.database_migrations.result == 'success' || needs.database_migrations.result == 'skipped') &&
+      (github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed'))
+    runs-on: ubuntu-latest
+    name: Build and Deploy Job
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+          lfs: false
+          fetch-depth: 0 # Full history needed to get last modified dates from git log
 
       - name: Build And Deploy
         id: builddeploy
