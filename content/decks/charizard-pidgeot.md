@@ -1,6 +1,6 @@
 ---
-title: "Charizard / Pidgeot / Dusknoir"
-pokemon: [6, 18, 477]
+title: "Charizard / Pidgeot"
+pokemon: [6, 18]
 tier: 3
 lastEdited: "2026-01-05T21:02:46-05:00"
 ---
