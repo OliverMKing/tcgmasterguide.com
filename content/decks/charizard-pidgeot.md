@@ -1,6 +1,6 @@
 ---
-title: "Charizard / Pidgeot"
-pokemon: [6, 18]
+title: "Charizard / Pidgeot / Dusknoir"
+pokemon: [6, 18, 477]
 tier: 3
 lastEdited: "2026-01-05T21:02:46-05:00"
 ---
@@ -47,12 +47,15 @@ Energy: 7
 5 Fire Energy MEE 2
 2 Jet Energy PAL 190
 ```
+### Inclusions
 
 - This is basically just the Stuttgart list because it's so good.
 - I cut the Turo for Stretcher because I found Stretcher to be incredibly strong in most games. It's definitely better than the Turo, but you could potentially find space for the Turo elsewhere.
 - I cut one Lillie for Arven. Even though Lillie draws 8 cards which is broken, sometimes you need Arven because TM: Evo is also broken (and super important in some matchups), and Lillie does not consistently find TM: Evo.
 - 60 HP Pidgey is important against other Charizard decks and is also useful against Dragapult and Grimmsnarl. Although Call for Family can be useful on occasion, it is rare.
 - Not 100% on the Charmeleon split. The 110 HP one is obviously best. The 90 HP is occasionally relevant against Devolution (Garde/Jelly and Grimmsnarl) and has the added bonus of helping against Alakazam. I don't see the reason for the 100 HP one, as this deck can't really afford to use its attack.
+
+**To try: Moltres + Maximum Belt**
 
 ## Gameplay
 
