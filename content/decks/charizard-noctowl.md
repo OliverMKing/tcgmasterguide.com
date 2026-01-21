@@ -44,16 +44,22 @@ Energy: 7
 5 Fire Energy MEE 2
 2 Jet Energy PAL 190
 ```
+### Inclusions
 
 - 60 HP Pidgey is extremely relevant against any Dusknoir deck. Call for Family is still useful enough with Jet Energy in the deck (especially if you're lacking a Tera Pokemon), so we hedge by playing one of each. If you prize the 60 HP against specifically Dusclops, tough luck.
+- Counter Catcher makes it a lot easier to pull off Briar and has great synergy with Noctowl and Dusclops/Dusknoir. Sometimes we want to use Prime plus Dawn in the early-game. Sometimes this deck wants more gusts in general. A third Boss's Orders would be very nice too, so I'd consider swapping CC for that.
+- Four Hoothoot is very nice as you often need Noctowl to both set up the early-game and finish the late-game. With the possibility of Hoothoot being prized or KO'd, having as many as possible is relevant. That said, this is probably the most flexible spot, and could be a Klefki, Pidgeotto, or second Iono instead.
+- Four Nest Ball is just too good. We always want to slam it Turn 1 for Terapagos, and it retains its usefulness for random stuff in the mid-game (especially Fezandipiti). The Ultra Ball is a premium resource so we'd rather not be forced to use that for a Basic.
+
+### Exclusions
+
 - The more I play with 80 HP Charmander, the more I dislike it. It definitely can be relevant, but hasn't come up that often for me. More often, I want to Poffin for it and it's annoying that I can't. It's also hard to get early which is the best time for it. So I think it's better to just play all 70 HP ones.
 - Pidgeotto is obviously helpful against Dragapult and Jellicent. However, this deck loses to Dragapult anyway. In practice, it is good against Jellicent, but it's not as important as I initially expected it to be. You lose a few percentage points against Jellicent without it, but that matchup is still favorable anyway. The deciding factor for me is how useless Pidgeotto was against literally everything else; you're simply always Candy'ing into Pidgeot.
 - Ditto is bad. There are lots of times where you simply don't have Energy Turn 1, and even if you do, having to discard it is bad too. Ditto is mostly relevant specifically when you start with Energy and no out to Tera, which is somewhat rare (especially with four Dawn now). Can also Call for Family for Terapagos. However, naturally opening with Ditto is extremely strong.
 - Klefki is very relevant against Psyduck, but most decks don't play Psyduck. Absol is slightly fading in popularity. Klefki is always a consideration that could make its way back into the list if Absol is enough of a popular threat.
-- Counter Catcher makes it a lot easier to pull off Briar and has great synergy with Noctowl and Dusclops/Dusknoir. Sometimes we want to use Prime plus Dawn in the early-game. Sometimes this deck wants more gusts in general. A third Boss's Orders would be very nice too, so I'd consider swapping CC for that.
 - Second Iono would be nice and helpful in various spots. It's just not entirely necessary all that often. You don't ever need both, but sometimes you really need that one at the end of the game. Iono is also a useful draw/consistency card which makes it generally good. I think it is similar in usefulness to Counter Catcher, but maybe slightly less so.
-- Four Hoothoot is very nice as you often need Noctowl to both set up the early-game and finish the late-game. With the possibility of Hoothoot being prized or KO'd, having as many as possible is relevant. That said, this is probably the most flexible spot, and could be a Klefki, Pidgeotto, or second Iono instead.
-- Four Nest Ball is just too good. We always want to slam it Turn 1 for Terapagos, and it retains its usefulness for random stuff in the mid-game (especially Fezandipiti). The Ultra Ball is a premium resource so we'd rather not be forced to use that for a Basic.
+
+**To try: Wellspring Ogerpon, Jamming + Pidgeotto.**
 
 ## Gameplay
 
@@ -84,7 +90,7 @@ They used Watchtower, but luckily we have the Stadium counter. How do we optimal
 - Some end-games you'll need to keep everything out of Solrock range, especially when relying on Iono, and this sometimes requires thinking a turn ahead and managing your board appropriately.
 - If they use Watchtower, we may need to use Charmander's Blazing Destruction to remove it, so try to leave yourself with that option.
 
-### Gardevoir / Jellicent - Very Favorable
+### Gardevoir / Jellicent - Favorable
 
 - Dusknoir isn't as much of a priority as you'd expect, but it can still be useful occasionally, especially for KO'ing Ralts + Gardevoir in the same turn.
 - Aggressively targeting down the Ralts line is often very strong, as well as KO'ing Gardevoir on sight.
@@ -104,13 +110,15 @@ They used Watchtower, but luckily we have the Stadium counter. How do we optimal
 - Fezandipiti is a pretty massive liability in the early- and mid-game. So is Terapagos, but often you have to put that down anyway.
 - The Clefairy tech does not swing the matchup, as it's still nearly impossible to beat them if they draw well. However, Clefairy allows you to convert games where they don't draw well. This portion of games can be turned from losses into wins thanks to Clefairy. However, you still need a lot of luck to win.
 
-### Grimmsnarl - Favorable
+### Grimmsnarl - Favorable*
 
 - Manual Pidgeot can be good for attacking on Turn 2.
 - Dusknoir is absolutely cracked in this matchup and getting Duskull is a high priority.
 - Try to not leave enough damage for them to spawn trap Duskull, or just put down two Duskull at once to make it hard for them to KO both. Use Dusknoir super aggressively.
 - Using a Jet/Prime for Turn 2 attack is fine, otherwise save them for retreat lock.
 - If you do have to Candy into Zard, powering up Terapagos can play around Devo.
+
+*With Grimmsnarls adding Budew, I may need to re-test this to see if it is still favorable.
 
 ### Absol - Depends on Klefki
 

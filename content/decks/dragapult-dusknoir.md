@@ -7,7 +7,7 @@ lastEdited: "2026-01-05T21:02:46-05:00"
 
 ## Decklist
 
-![decklist for Dragapult / Dusknoir](./images/dragapult-dusknoir/decklist.png)
+![decklist for Dragapult / Dusknoir](./images/dragapult-dusknoir/pultlist2.png)
 ```decklist
 Pokémon: 23
 4 Dreepy TWM 128
@@ -27,13 +27,14 @@ Trainer: 30
 4 Lillie's Determination MEG 119
 4 Iono PAL 185
 3 Boss's Orders MEG 114
-2 Hilda WHT 84
+1 Hilda WHT 84
+1 Dawn PFL 87
+1 Professor's Research JTG 155
 1 Professor Turo's Scenario PAR 171
 4 Buddy-Buddy Poffin TEF 144
 4 Ultra Ball MEG 131
 3 Counter Catcher PAR 160
 2 Night Stretcher SFA 61
-1 Nest Ball SVI 181
 2 Jamming Tower TWM 153
 
 Energy: 7
@@ -42,14 +43,15 @@ Energy: 7
 1 Neo Upper Energy TEF 162
 1 Fire Energy MEE 2
 ```
+### Inclusions
 
-- This is just the standard Dragapult list because it is too good and nothing is cuttable.
-- The only cuttable card in the list is Munkidori. It is strong against Grimmsnarl, but that matchup is bad either way. It is mostly relevant for the mirror match, which may be enough of a reason to keep it around. Could possibly cut Munkidori for Stretcher or a consistency card.
+- I like the new concept of cutting Nest Ball and second Hilda for Research and Dawn. Research helps compensate for the questionable early-game consistency, while Dawn provides a powerful mid-game popoff/combo Supporter option that doesn't require a hand reset.
+- Munkidori is strong against Grimmsnarl, but that matchup is bad either way. It is mostly relevant for the mirror match, which I think is enough of a reason to play it. Can also be used against Charizard or Gardevoir occasionally.
 - I initially thought it would be ok to cut Jamming Tower, but that is no longer the case. Jamming Tower is too useful in too many matchups.
-- I don't think there is any merit in swapping any Lillie's for Research.
-- I don't think there is any merit in swapping any Hilda for Dawn, but there is definitely an argument to play Brock's Scouting instead.
 
-**To try:** Brock's Scouting, Moltres
+### Exclusions
+
+- I tried Moltres and found that it did not impact the Gholdengo matchup as much as I hoped.
 
 ## Gameplay
 
@@ -74,7 +76,7 @@ But what if we didn't have an Energy here? No problem, just Turo up the Hawlucha
 
 ## Matchups
 
-### Gholdengo - Slightly Unfavorable
+### Gholdengo - Unfavorable
 
 - In the mid- to late-game, try to have a board of stuff that Solrock can't easily kill. Don't put down Duskull/Dreepy/Hawlucha unnecessarily. That said, Hawlucha is very good and often gets used at some point.
 - In general, looking to start chaining Phantom Dive as soon as possible. Look for a wombo turn of Counter Catcher + Iono + Jamming Tower. These cards all all premium resources that you want to keep around.
@@ -85,7 +87,7 @@ But what if we didn't have an Energy here? No problem, just Turo up the Hawlucha
 
 ### Gardevoir / Jellicent - Depends on their list
 
-This matchup is slightly favorable for Dragapult if they are playing the build with 2-1-2 Gardevoir and no TM:Evo. It is unfavorable if they are playing 2 Kirlia and any amount of TM: Evo.
+This matchup is slightly favorable for Dragapult if they are playing the build with only one Kirlia and no TM:Evo. It is unfavorable if they are playing 2 Kirlia and any amount of TM: Evo.
 
 - Ralts is usually the biggest threat. Your biggest priority is to prevent Gardevoir from coming into play. Even scary Pokemon like Jellicent or Clefairy with Energy are nothing compared to Gardevoir. Save resources like Dusclops, Hawlucha, and Jamming Tower for when you need to wipe out Ralts and Kirlia.
 - If they are playing TM: Evo, Jamming Tower can be used preemptively. Otherwise, save it to bump their Stadium when they put one in play.
@@ -150,4 +152,4 @@ This matchup is slightly favorable for Dragapult if they are playing the build w
 
 ## Personal thoughts
 
-Dragapult performs alright into the field. However, it is very bad against Garde with TM:Evo. Some people are still on the 2-1-2 Garde list with no Evo, but the Evo build is still somewhat popular, so it could be risky to take a loss to. The Gholdengo matchup also leaves a lot to be desired (even though it is winnable), and with how insanely popular Gholdengo is, that is another thing going against Dragapult. The best thing about Dragapult is that it is the only deck that owns Charizard. Dragapult also has some consistency issues, but it can still win those games when it draws bad. I probably wouldn't play Dragapult myself, but it's not bad.
+Dragapult performs alright into the field. However, it is very bad against Garde with TM:Evo. Some people are still on the single Kirlia list with no Evo, but the Evo build is still somewhat popular, so it could be risky to take a loss to. The Gholdengo matchup also leaves a lot to be desired (even though it is winnable), and with how insanely popular Gholdengo is, that is another thing going against Dragapult. The best thing about Dragapult is that it is the only deck that owns Charizard. Dragapult also has some consistency issues, but it can still win those games when it draws bad. I probably wouldn't play Dragapult myself, but it's not bad.

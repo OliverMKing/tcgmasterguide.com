@@ -7,28 +7,28 @@ lastEdited: "2026-01-05T19:20:25-05:00"
 
 ## Decklist
 
-![Grimmsnarl decklist](./images/grimmsnarl/decklist.png)
+![Grimmsnarl decklist](./images/grimmsnarl/decklist2.png)
 ```decklist
-Pokémon: 17
+Pokémon: 19
 3 Marnie's Impidimp DRI 134
 2 Marnie's Morgrem DRI 135
 2 Marnie's Grimmsnarl ex DRI 136
+3 Snorunt PAR 37
+3 Froslass TWM 53
 3 Munkidori TWM 95
-2 Snorunt PAR 37
-2 Froslass TWM 53
 1 Bloodmoon Ursaluna ex TWM 141
-1 Yveltal MEG 88
 1 Tatsugiri TWM 131
+1 Budew PRE 4
 
-Trainer: 35
+Trainer: 33
 4 Lillie's Determination MEG 119
 4 Arven OBF 186
 4 Iono PAL 185
 2 Boss's Orders MEG 114
 3 Night Stretcher SFA 61
-2 Counter Catcher PAR 160
-2 Nest Ball SVI 181
 2 Buddy-Buddy Poffin TEF 144
+1 Nest Ball SVI 181
+1 Counter Catcher PAR 160
 1 Ultra Ball MEG 131
 1 Rare Candy MEG 125
 1 Energy Search SVI 172
@@ -43,13 +43,17 @@ Trainer: 35
 Energy: 8
 8 Darkness Energy MEE 7
 ```
+### Inclusions
 
-- 3 Stretcher is so insanely good, you always want to have Stretcher, and get value from all of them when you draw them. Sacrificing the fourth Munkidori for third Stretcher is good, it just sucks when you prize two Munkidori but that is rare. I don't think you need four Munkidori in this meta, but it's still fine if you're so inclined.
-- I'm considering cutting Yveltal and a search card for another line of Froslass. 2-2 Froslass is enough, but sometimes it really sucks when you prize a piece into specific matchups (Gholdengo, Charizard), which happens often.
-- Yveltal is mostly used to punish specific board states/resources (such as used Turo). Oftentimes you won't use it at all, but the threat of it restricts your opponent's options. It can also be useful against decks that have a hard time finding their Turo to buy time.
+- Budew and the 3-3 Froslass line are good against Gholdengo and Dawn Zard. Although Gholdengo is still unfavored, it's worth having the extra percentage points when the cards can also make a big difference against Dawn Zard.
+- 3 Stretcher is so insanely good, you always want to have Stretcher, and get value from all of them when you draw them. 
 - Tatsugiri is needed for consistency.
 - Energy Search is relevant way too often. I would never cut it.
-- The only cuttable cards are Yveltal, Poffin/Ultra Ball, and Super Rod. Could maybe cut Super Rod for another Dark Energy.
+
+### Exclusions
+
+- Yveltal is mostly used to punish specific board states/resources (such as used Turo). Oftentimes you won't use it at all, but the threat of it restricts your opponent's options. It can also be useful against decks that have a hard time finding their Turo to buy time. With the other techs, there isn't space for it right now.
+- Sacrificing the fourth Munkidori for third Stretcher is good, it just sucks when you prize two Munkidori, but that is rare. I don't think you need four Munkidori in this meta, but it's still fine if you're so inclined.
 
 **To try:** Moltres
 
@@ -93,12 +97,14 @@ Energy: 8
 - Watch out for their Devolution, it can punish Candy and is their main win con. If they are not playing Devo, using the Candy aggressively is good.
 - Don't forget that Diancie can one-shot Grimmsnarl with two Munkidori and a Froslass in play, so don't put yourself in a position to easily lose to that.
 
-### Charizard / Noctowl - Unfavorable
+### Charizard / Noctowl - Unfavorable*
 
 - Devo can be used for tempo if they use two Candy early, this slows down subsequent Dusknoir.
 - Try to KO/spawn trap Duskull on sight as it is the biggest threat.
 - Retreat lock is bait unless they're out of switching cards or maybe if they only have one left. Chaining Yveltal+gust is basically impossible.
 - Try to get double Froslass and Grimmsnarl/Morgrem quickly. The main way to win is by matching tempo and denying Duskull. One Adrenabrain + Grimmsnarl snipe KO's Duskull.
+
+*I need to re-test this since adding Budew to the deck to see if the matchup is still unfavorable.
 
 ### Charizard / Secret Box - Favorable
 
@@ -126,4 +132,4 @@ Energy: 8
 
 ## Personal thoughts
 
-Grimmsnarl is a very potent deck with some good matchups. However, it's biggest glaring issue is its problem with Gholdengo. It also isn't great into Charizard/Noctowl. For these reasons, I wouldn't play it in the current meta.
+Grimmsnarl is a very potent deck with mostly good matchups. However, its biggest glaring issue is its unsolvable problem with Gholdengo, which alone is a big thing holding it back. I wouldn't play it in the current meta unless I thought I could at least beat mediocre Gholdengo players.
