@@ -10,6 +10,7 @@ const nextConfig = {
       },
     ],
   },
+  serverExternalPackages: ['applicationinsights'],
 }
 
 module.exports = nextConfig

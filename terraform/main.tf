@@ -329,12 +329,14 @@ resource "azurerm_role_assignment" "log_analytics_reader" {
 # Set Application Insights environment variables on Static Web App
 # Note: NEXT_PUBLIC_APPINSIGHTS_CONNECTION_STRING is set in GitHub Actions workflow
 # because Next.js NEXT_PUBLIC_* vars are baked in at build time, not read at runtime.
+# APPLICATIONINSIGHTS_CONNECTION_STRING is for server-side Node.js SDK (API routes)
 # We need to set the client secret here because managed functions don't support reading secrets from kv (we will move to this in the future)
 resource "null_resource" "swa_appinsights_settings" {
   triggers = {
-    workspace_id     = azurerm_log_analytics_workspace.main.workspace_id
-    sp_client_id     = azuread_application.appinsights_reader.client_id
-    sp_client_secret = azuread_service_principal_password.appinsights_reader.value
+    workspace_id              = azurerm_log_analytics_workspace.main.workspace_id
+    sp_client_id              = azuread_application.appinsights_reader.client_id
+    sp_client_secret          = azuread_service_principal_password.appinsights_reader.value
+    appinsights_conn_string   = azurerm_application_insights.main.connection_string
   }
 
   provisioner "local-exec" {
@@ -346,7 +348,8 @@ resource "null_resource" "swa_appinsights_settings" {
           AZURE_LOG_ANALYTICS_WORKSPACE_ID="${azurerm_log_analytics_workspace.main.workspace_id}" \
           AZURE_TENANT_ID="${data.azurerm_client_config.current.tenant_id}" \
           AZURE_CLIENT_ID="${azuread_application.appinsights_reader.client_id}" \
-          AZURE_CLIENT_SECRET="${azuread_service_principal_password.appinsights_reader.value}"
+          AZURE_CLIENT_SECRET="${azuread_service_principal_password.appinsights_reader.value}" \
+          APPLICATIONINSIGHTS_CONNECTION_STRING="${azurerm_application_insights.main.connection_string}"
     EOT
   }
 

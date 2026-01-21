@@ -26,6 +26,7 @@
     "@clerk/nextjs": "^6.36.8",
     "@clerk/themes": "^2.4.48",
     "@microsoft/applicationinsights-web": "^3.3.10",
+    "applicationinsights": "^3.13.0",
     "gray-matter": "^4.0.3",
     "next": "^16.1.1",
     "react": "^19.2.3",
