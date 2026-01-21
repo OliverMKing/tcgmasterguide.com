@@ -51,7 +51,25 @@ jobs:
             --end-ip-address ${{ steps.ip.outputs.ip }}
 
       - name: Run database migrations
-        run: npx prisma migrate deploy
+        # Azure SQL can be slow to respond when cold/idle (P1001 error).
+        # The first connection attempt wakes it up, so retrying usually works.
+        run: |
+          max_attempts=3
+          attempt=1
+          while [ $attempt -le $max_attempts ]; do
+            echo "Migration attempt $attempt of $max_attempts..."
+            if npx prisma migrate deploy; then
+              echo "Migration succeeded!"
+              exit 0
+            fi
+            if [ $attempt -lt $max_attempts ]; then
+              echo "Migration failed, waiting 30 seconds before retry..."
+              sleep 30
+            fi
+            attempt=$((attempt + 1))
+          done
+          echo "Migration failed after $max_attempts attempts"
+          exit 1
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
