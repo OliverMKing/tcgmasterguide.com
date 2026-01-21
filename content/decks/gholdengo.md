@@ -7,50 +7,6 @@ lastEdited: "2026-01-05T19:20:25-05:00"
 
 ## Decklist
 
-![Gholdengo decklist](./images/gholdengo/decklist.png)
-```decklist
-Pokémon: 14
-4 Gimmighoul SSP 97
-3 Gholdengo ex PAR 139
-2 Solrock MEG 75
-2 Lunatone MEG 74
-1 Genesect ex BLK 67
-1 Fezandipiti ex SFA 38
-1 Mega Mawile ex MEG 94
-
-Trainer: 35
-4 Arven OBF 186
-3 Boss's Orders MEG 114
-2 Professor Turo's Scenario PAR 171
-1 Lana's Aid TWM 155
-4 Superior Energy Retrieval PAL 189
-4 Fighting Gong MEG 116
-3 Nest Ball SVI 181
-3 Earthen Vessel PAR 163
-2 Buddy-Buddy Poffin TEF 144
-1 Picnic Basket SVI 184
-1 Super Rod PAL 188
-1 Premium Power Pro MEG 124
-1 Prime Catcher TEF 157
-2 Air Balloon BLK 79
-1 Vitality Band SVI 197
-2 Artazon PAL 171
-
-Energy: 11
-7 Fighting Energy MEE 6
-4 Metal Energy MEE 8
-```
-
-- Mawile is the best Cornerstone counter, while Lopunny is better against Gardevoir and more flexible. However, Lopunny runs into prizing issues more often.
-- Lana's Aid helps against Jellicent but that's basically the only use for it, so you could cut it. I think Lana's Aid provides a decent edge against mediocre Jellicent players. Could also cut a Poffin.
-- Vitality Band and Premium Power Pro are very strong and give you some agency. Makes Solrock more powerful, which is good when the game is either going off script (such as if you prize Genesect and can't find Gholdengo), or when you need a single-prize board.
-- Although four Nest Ball is good, I think having the second Artazon over the fourth one is better because you sometimes want to bump Stadiums such as Jamming or Lively.
-- Four Dengo is not necessary.
-- I am fairly sure Prime Catcher is the best Ace Spec but I could be wrong
-- 50 HP Gimmighoul is not worth it! It is a huge liability in so many situations, even though Call for Family is sometimes good. I did include some stuff about 50 HP Gimmi in the matchup notes because most people play it.
-- I think Super Rod is better than Stretcher because putting Fightings back in the deck helps against Iono, and because sometimes you want to draw a lot and use Super Rod to not deck out. Also, three is better than one, and Gholdengo has plenty of search and draw to mitigate Super Rod's downside.
-- Team Rocket's Watchtower seems like a really good counter to Charizard/Noctowl in theory (along with Secret Box), but it doesn't help all that much in reality. It maybe adds a few percentage points in that matchup, but it's still unfavorable, so I don't think it's worth it. I also did not enjoy having to play Secret Box. I often miss the option to Arven for Prime Catcher or Prime + Turo in the same turn.
-
 ![Gholdengo/Lop List](./images/gholdengo/goldlop.png)
 ```decklist
 Pokémon: 15
@@ -85,13 +41,26 @@ Energy: 11
 8 Fighting Energy MEE 6
 3 Metal Energy MEE 8
 ```
-- Lopunny was very impressive against Gardevoir, which alone makes it worth playing.
-- Charm Buneary is optimal!
-- I still think Prime Catcher is the best Ace Spec with Lopunny and it has synergy with Lopunny's attack.
-- Secret Box was underwhelming. It works well in Stage 2 decks because we often Arven for it and get value from the follow-up Supporter. In this deck we rarely Arven for it, but it is handy when we draw into it naturally. The deck is consistent enough already, and Box is unnecessarily sacrificing the power of Prime Catcher. Playing Prime also allows us to cut the fourth Boss.
-- I basically never used the Ultra Ball, so I cut it. Using TM: Evo for Lopunny is sufficient. Speaking of TM: Evo, the card is nuts. Extremely useful in many games, especially (but not limited to) when you need Lopunny.
+### Inclusions
 
-**To try:** Munkidori version
+- Lopunny is extremely important against Gardevoir and still handles Cornerstone, which is why I think it's better than Mawile.
+- Charm Buneary is optimal!
+- I still think Prime Catcher is the best Ace Spec with Lopunny and it has synergy with Lopunny's attack. Prime allows us to consistently access gust via Arven, a well as pull off powerful Prime + Turo plays.
+- TM: Evo is nuts. Extremely useful in many games, especially (but not limited to) when you need Lopunny. Also very handy against Dragapult.
+- Vitality Band and Premium Power Pro are very strong and give the deck a little bit of agency. By making Solrock more powerful, you can more easily pressure Pokemon like Munkidori/random Stage 1s. This also helps navigate single-prize boards, which is very good in the mirror or against Charizard.
+- Second Artazon is very nice to bump annoying Stadiums as well as help get the early Lunatone + Solrock, which is the highest priority.
+
+### Exclusions
+
+- Secret Box was underwhelming. It works well in Stage 2 decks because we often Arven for it and get value from the follow-up Supporter. In this deck we rarely Arven for it, but it is handy when we draw into it naturally. The deck is consistent enough already, and Box is unnecessarily sacrificing the power of Prime Catcher. Playing Prime also allows us to cut the fourth Boss.
+- I basically never used the Ultra Ball, so I cut it. Using TM: Evo for Lopunny is sufficient.
+- Mawile could still be reasonable to play over Lopunny. It is better at countering Cornerstone and doesn't rely as much on prize cards. It is also a little more flexible at closing out endgames. If I did play Lopunny, I would probably play Lana's Aid with it to help against Gardevoir. I did a lot of testing with Mawile, and it's still relevant, so I've included lots of notes about it.
+- The fourth Gholdengo is not necessary.
+- 50 HP Gimmighoul is a huge liability in many situations. Although Call for Family is useful, I found the card's downsides to outweight the benefits. I did include some matchup notes about the 50 HP one because it's still relevant.
+- Team Rocket's Watchtower sounds good on paper to counter Charizard, but it didn't improve the winrate very much when I tried it out.  It maybe adds a few percentage points in that matchup, but it's still unfavorable, so I don't think it's worth it. I also did not enjoy having to play Secret Box.
+- Munkidori could be considered over Picnic Basket, as it can be set up preemptively, whereas Picnic Basket has to be drawn at the right time. However, with Lunatone and Solrock now in the deck, there is not much bench space for Munkidori, especially considering it is mostly useful against Dragapult (which requires three Gholdengo/Gimmi and is an already favorable matchup).
+
+**To try: Bravery Charm**
 
 ## Gameplay
 
@@ -128,8 +97,9 @@ We need to get an aggressive start, try and get as much of a prize lead as possi
 - Don't hit the Frillish for less than a KO for no reason. It's ok to punch it if you're applying relevant pressure, but if they have Munkidori with Dark, it's usually best to not hit into it.
 - Try to one-shot the Frillish whenever possible. If they have Charm, use Gholdengo with three Energy (if you're not playing Lopunny), otherwise use Solrock with Vitality Band.
 - If you decide to KO their Gardevoir, make sure you have enough resources left to deal with the Frillish. Lana's Aid plus Mawile can help with this.
+- If you do not have a secondary attacker available (such as Mawile or Lopunny), power up Fezandipiti to deal with their Frillish.
 
-### Dragapult / Dusknoir - Slightly Favorable
+### Dragapult / Dusknoir - Favorable
 
 - When multiple Energy are prized, be careful with managing Energy so that you can always one-shot Dragapult.
 - Sometimes pre-loading Genesect with an Energy can be good to play around the stall. This is very situational.
@@ -182,4 +152,4 @@ The winning prize trade is pretty idealistic. You need the first KO (usually wit
 
 ## Personal thoughts
 
-Gholdengo is extremely strong. Its matchups are overall quite good even though it's weak to Charizard/Noctowl. I would personally rather play Gardevoir or Charizard/Noctowl due to slightly superior matchup spreads as well as more agency, but I would consider this deck anyway because it's so broken. Gholdengo has basically no skill expression, so you're more at the mercy of luck than with other decks. Overall, it is an insane deck and definitely worth playing.
+Gholdengo is extremely strong. Its matchups are overall quite good even though it's weak to Charizard/Noctowl. I would usually prefer a deck with more agency such as Charizard or Gardevoir but I would consider this deck anyway because it's so broken. Gholdengo has basically no skill expression, so you're more at the mercy of luck than with other decks. Overall, it is a great deck and definitely worth playing.
