@@ -39,3 +39,6 @@ next-env.d.ts
 .idea/
 *.swp
 *.swo
+
+# Clerk
+.clerk/

@@ -8,6 +8,7 @@ import ReactMarkdown from 'react-markdown'
 import { LocalDate } from '@/components/LocalDate'
 import { PageViewCount } from '@/components/PageViewCount'
 import { DeckList } from '@/components/DeckList'
+import { YouTubeEmbed } from '@/components/YouTubeEmbed'
 import Comments from '@/components/Comments'
 import type { Metadata } from 'next'
 
@@ -301,6 +302,22 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
                 if (codeElement?.props?.className === 'language-decklist') {
                   const decklistContent = String(codeElement.props.children || '').trim()
                   return <DeckList decklist={decklistContent} />
+                }
+                // Check if this is a youtube code block
+                if (codeElement?.props?.className === 'language-youtube') {
+                  const content = String(codeElement.props.children || '').trim()
+                  const lines = content.split('\n')
+                  let videoId = ''
+                  let title = 'YouTube video'
+                  for (const line of lines) {
+                    const [key, ...valueParts] = line.split(':')
+                    const value = valueParts.join(':').trim()
+                    if (key.trim() === 'id') videoId = value
+                    if (key.trim() === 'title') title = value
+                  }
+                  if (videoId) {
+                    return <YouTubeEmbed videoId={videoId} title={title} />
+                  }
                 }
                 // Default pre rendering
                 return (

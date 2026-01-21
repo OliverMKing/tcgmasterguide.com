@@ -161,6 +161,30 @@ Energy: 10
 
 This will render as a collapsible "Deck List" button. When expanded, it shows the full list with a **Copy** button that copies the entire decklist to the clipboard.
 
+## Embedding YouTube Videos
+
+You can embed YouTube videos in your deck guides using the special `youtube` code block:
+
+````markdown
+```youtube
+id: dQw4w9WgXcQ
+title: Example Video Title
+```
+````
+
+**Fields:**
+
+| Field | Required | Description |
+|-------|----------|-------------|
+| `id` | Yes | The YouTube video ID (the part after `v=` in the URL) |
+| `title` | No | Accessible title for the video (defaults to "YouTube video") |
+
+**Finding the video ID:**
+
+From a YouTube URL like `https://www.youtube.com/watch?v=dQw4w9WgXcQ`, the video ID is `dQw4w9WgXcQ` (everything after `v=`).
+
+This will render as a responsive, embedded YouTube player with rounded corners that matches the site's design.
+
 ## Markdown Quick Reference
 
 | What you type | What you get |
@@ -174,6 +198,7 @@ This will render as a collapsible "Deck List" button. When expanded, it shows th
 | `[link text](url)` | Clickable link |
 | `![alt text](image.png)` | Image |
 | ` ```decklist ` | Expandable deck list (see above) |
+| ` ```youtube ` | Embedded YouTube video (see above) |
 
 ## Need Help?
 
