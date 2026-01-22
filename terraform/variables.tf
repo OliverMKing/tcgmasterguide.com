@@ -79,6 +79,13 @@ variable "clerk_secret_key" {
   default     = ""
 }
 
+variable "clerk_webhook_secret" {
+  description = "Clerk webhook signing secret for verifying webhook requests"
+  type        = string
+  sensitive   = true
+  default     = ""
+}
+
 variable "stripe_secret_key" {
   description = "Stripe API secret key"
   type        = string

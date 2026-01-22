@@ -64,6 +64,7 @@ export TF_VAR_sql_admin_password="YourSecurePassword123!"
 
 # Optional: API keys (can also be set via Azure Portal)
 export TF_VAR_clerk_secret_key="your-clerk-secret-key"
+export TF_VAR_clerk_webhook_secret="your-clerk-webhook-secret"
 export TF_VAR_stripe_secret_key="your-stripe-secret-key"
 export TF_VAR_stripe_webhook_secret="your-stripe-webhook-secret"
 

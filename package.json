@@ -33,7 +33,8 @@
     "next": "^16.1.1",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "react-markdown": "^10.1.0"
+    "react-markdown": "^10.1.0",
+    "svix": "^1.84.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.3",

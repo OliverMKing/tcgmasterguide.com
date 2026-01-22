@@ -383,6 +383,28 @@ resource "null_resource" "swa_clerk_settings" {
   depends_on = [azurerm_static_web_app.main]
 }
 
+# Set Clerk webhook secret on Static Web App
+# CLERK_WEBHOOK_SECRET is for verifying webhook signatures from Clerk
+resource "null_resource" "swa_clerk_webhook_settings" {
+  count = var.clerk_webhook_secret != "" ? 1 : 0
+
+  triggers = {
+    clerk_webhook_secret = var.clerk_webhook_secret
+  }
+
+  provisioner "local-exec" {
+    command = <<-EOT
+      az staticwebapp appsettings set \
+        --name ${azurerm_static_web_app.main.name} \
+        --resource-group ${azurerm_resource_group.main.name} \
+        --setting-names \
+          CLERK_WEBHOOK_SECRET="${var.clerk_webhook_secret}"
+    EOT
+  }
+
+  depends_on = [azurerm_static_web_app.main]
+}
+
 # Set Twitch API credentials on Static Web App
 resource "null_resource" "swa_twitch_settings" {
   count = var.twitch_client_id != "" && var.twitch_client_secret != "" ? 1 : 0
