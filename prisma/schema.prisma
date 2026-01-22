@@ -9,6 +9,19 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+// UserRole values: "USER" | "ADMIN" | "SUBSCRIBER"
+model User {
+  id        String   @id @default(cuid())
+  authId    String   @unique @map("auth_id") // External auth provider ID (e.g., Clerk, Auth0)
+  email     String?  @unique
+  name      String?
+  role      String   @default("USER") // USER, ADMIN, SUBSCRIBER
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("users")
+}
+
 model Comment {
   id        String   @id @default(cuid())
   content   String
