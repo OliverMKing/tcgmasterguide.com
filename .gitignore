@@ -42,6 +42,3 @@ next-env.d.ts
 
 # Clerk
 .clerk/
-
-# Prisma generated client (generated via postinstall)
-src/generated/
