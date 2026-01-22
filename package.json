@@ -7,6 +7,7 @@
     "dev": "next dev",
     "prebuild": "node scripts/update-dates.js",
     "build": "next build",
+    "postinstall": "prisma generate",
     "start": "next start",
     "lint": "echo 'Linting skipped - ESLint v9 compatibility pending'",
     "type-check": "tsc --noEmit"
@@ -26,6 +27,7 @@
     "@clerk/nextjs": "^6.36.8",
     "@clerk/themes": "^2.4.48",
     "@microsoft/applicationinsights-web": "^3.3.10",
+    "@prisma/client": "^6.19.2",
     "applicationinsights": "^3.13.0",
     "gray-matter": "^4.0.3",
     "next": "^16.1.1",
@@ -35,7 +37,6 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.3",
-    "@prisma/client": "^6.19.2",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^25.0.3",
     "@types/react": "^19.2.7",
