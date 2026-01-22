@@ -24,3 +24,4 @@ This document tracks planned features and improvements for TCG Master Guide.
 - [ ] **Unit Tests** - Add unit tests
 - [ ] **Accessibility Audit** - Ensure WCAG 2.1 AA compliance
 - [ ] **SEO Improvements** - Add structured data (JSON-LD) for deck guides
+- [ ] **Database connection pooling** - Pool database connections
