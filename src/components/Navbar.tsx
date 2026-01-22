@@ -50,6 +50,12 @@ export default function Navbar() {
             >
               Live
             </Link>
+            <Link
+              href="/qna"
+              className="text-base text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
+            >
+              Q&A
+            </Link>
             <ThemeToggle />
             <SignedOut>
               <SignInButton mode="modal">
@@ -129,6 +135,13 @@ export default function Navbar() {
               className="block py-2 text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
             >
               Live
+            </Link>
+            <Link
+              href="/qna"
+              onClick={() => setIsMenuOpen(false)}
+              className="block py-2 text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
+            >
+              Q&A
             </Link>
           </div>
         )}

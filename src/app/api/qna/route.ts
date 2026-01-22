@@ -2,26 +2,30 @@ import { NextRequest, NextResponse } from 'next/server'
 import { auth, currentUser } from '@clerk/nextjs/server'
 import { prisma } from '@/lib/prisma'
 
-// GET /api/comments?deckSlug=xxx
-export async function GET(request: NextRequest) {
-  const searchParams = request.nextUrl.searchParams
-  const deckSlug = searchParams.get('deckSlug')
+interface CommentWithReplies {
+  id: string
+  content: string
+  deckSlug: string | null
+  userId: string
+  userName: string
+  parentId: string | null
+  createdAt: Date
+  updatedAt: Date
+  replies: CommentWithReplies[]
+}
 
-  if (!deckSlug) {
-    return NextResponse.json({ error: 'deckSlug is required' }, { status: 400 })
-  }
-
+// GET /api/qna - Get all comments (both deck comments and Q&A questions)
+export async function GET() {
   try {
-    // Get top-level comments for this deck
+    // Get all top-level comments (no parentId) with their replies
     const comments = await prisma.comment.findMany({
-      where: { deckSlug, parentId: null },
+      where: { parentId: null },
       orderBy: { createdAt: 'desc' },
     })
 
-    // Get all replies for these comments
-    const commentIds = comments.map((c) => c.id)
+    // Get all replies
     const replies = await prisma.comment.findMany({
-      where: { parentId: { in: commentIds } },
+      where: { parentId: { not: null } },
       orderBy: { createdAt: 'asc' },
     })
 
@@ -34,16 +38,19 @@ export async function GET(request: NextRequest) {
     }
 
     // Attach replies to comments
-    const commentsWithReplies = comments.map((comment) => ({
+    const commentsWithReplies: CommentWithReplies[] = comments.map((comment) => ({
       ...comment,
-      replies: repliesMap.get(comment.id) || [],
+      replies: (repliesMap.get(comment.id) || []).map((r) => ({
+        ...r,
+        replies: [],
+      })),
     }))
 
     return NextResponse.json({
       comments: commentsWithReplies,
     })
   } catch (error) {
-    console.error('Error fetching comments:', error)
+    console.error('Error fetching Q&A comments:', error)
     return NextResponse.json(
       { error: 'Failed to fetch comments' },
       { status: 500 }
@@ -51,7 +58,7 @@ export async function GET(request: NextRequest) {
   }
 }
 
-// POST /api/comments
+// POST /api/qna - Create a new Q&A question (not tied to a deck)
 export async function POST(request: NextRequest) {
   const { userId } = await auth()
 
@@ -66,18 +73,18 @@ export async function POST(request: NextRequest) {
 
   try {
     const body = await request.json()
-    const { deckSlug, content } = body
+    const { content } = body
 
-    if (!deckSlug || !content) {
+    if (!content) {
       return NextResponse.json(
-        { error: 'deckSlug and content are required' },
+        { error: 'Content is required' },
         { status: 400 }
       )
     }
 
     if (content.length > 2000) {
       return NextResponse.json(
-        { error: 'Comment too long (max 2000 characters)' },
+        { error: 'Question too long (max 2000 characters)' },
         { status: 400 }
       )
     }
@@ -89,19 +96,19 @@ export async function POST(request: NextRequest) {
 
     const comment = await prisma.comment.create({
       data: {
-        deckSlug,
         content: content.trim(),
+        deckSlug: null, // Q&A questions are not tied to a deck
         userId,
         userName,
         parentId: null,
       },
     })
 
-    return NextResponse.json(comment, { status: 201 })
+    return NextResponse.json({ ...comment, replies: [] }, { status: 201 })
   } catch (error) {
-    console.error('Error creating comment:', error)
+    console.error('Error creating Q&A question:', error)
     return NextResponse.json(
-      { error: 'Failed to create comment' },
+      { error: 'Failed to create question' },
       { status: 500 }
     )
   }
