@@ -1,7 +1,52 @@
-import { Webhook } from 'svix'
+import { createHmac, timingSafeEqual } from 'crypto'
 import { headers } from 'next/headers'
 import { WebhookEvent } from '@clerk/nextjs/server'
 import { prisma } from '@/lib/prisma'
+
+// Verify Svix webhook signature without the svix package
+function verifyWebhook(
+  secret: string,
+  payload: string,
+  svixId: string,
+  svixTimestamp: string,
+  svixSignature: string
+): boolean {
+  // Svix secrets are base64 encoded with a "whsec_" prefix
+  const secretBytes = Buffer.from(secret.replace('whsec_', ''), 'base64')
+
+  // Check timestamp is within 5 minutes
+  const timestamp = parseInt(svixTimestamp, 10)
+  const now = Math.floor(Date.now() / 1000)
+  if (Math.abs(now - timestamp) > 300) {
+    return false
+  }
+
+  // Create the signed content
+  const signedContent = `${svixId}.${svixTimestamp}.${payload}`
+
+  // Compute expected signature
+  const expectedSignature = createHmac('sha256', secretBytes)
+    .update(signedContent)
+    .digest('base64')
+
+  // Svix signature header contains multiple signatures like "v1,signature1 v1,signature2"
+  const signatures = svixSignature.split(' ')
+  for (const sig of signatures) {
+    const [version, signature] = sig.split(',')
+    if (version === 'v1') {
+      try {
+        const sigBuffer = Buffer.from(signature, 'base64')
+        const expectedBuffer = Buffer.from(expectedSignature, 'base64')
+        if (sigBuffer.length === expectedBuffer.length && timingSafeEqual(sigBuffer, expectedBuffer)) {
+          return true
+        }
+      } catch {
+        continue
+      }
+    }
+  }
+  return false
+}
 
 export async function POST(req: Request) {
   const WEBHOOK_SECRET = process.env.CLERK_WEBHOOK_SECRET
@@ -27,24 +72,15 @@ export async function POST(req: Request) {
   const payload = await req.json()
   const body = JSON.stringify(payload)
 
-  // Create a new Svix instance with your secret.
-  const wh = new Webhook(WEBHOOK_SECRET)
-
-  let evt: WebhookEvent
-
-  // Verify the payload with the headers
-  try {
-    evt = wh.verify(body, {
-      'svix-id': svix_id,
-      'svix-timestamp': svix_timestamp,
-      'svix-signature': svix_signature,
-    }) as WebhookEvent
-  } catch (err) {
-    console.error('Error verifying webhook:', err)
+  // Verify the webhook signature
+  if (!verifyWebhook(WEBHOOK_SECRET, body, svix_id, svix_timestamp, svix_signature)) {
+    console.error('Error verifying webhook signature')
     return new Response('Error occurred', {
       status: 400,
     })
   }
+
+  const evt = payload as WebhookEvent
 
   const eventType = evt.type
 
