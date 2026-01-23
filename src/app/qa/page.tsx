@@ -359,16 +359,6 @@ export default function QAPage() {
             >
               Date {sortBy === 'createdAt' && (sortOrder === 'asc' ? '↑' : '↓')}
             </button>
-            <button
-              onClick={() => handleSortChange('userName')}
-              className={`px-3 py-1 text-sm rounded-lg transition-colors ${
-                sortBy === 'userName'
-                  ? 'bg-purple-600 text-white'
-                  : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
-              }`}
-            >
-              User {sortBy === 'userName' && (sortOrder === 'asc' ? '↑' : '↓')}
-            </button>
           </div>
         </div>
         {isLoading ? (

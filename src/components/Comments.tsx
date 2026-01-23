@@ -217,7 +217,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
         </h2>
         {pagination && pagination.total > 0 && (
           <div className="flex items-center gap-2">
-            <span className="text-sm text-slate-500 dark:text-slate-400">Sort by:</span>
+            <span className="text-sm text-slate-500 dark:text-slate-400">Sort:</span>
             <button
               onClick={() => handleSortChange('createdAt')}
               className={`px-3 py-1 text-sm rounded-lg transition-colors ${
@@ -227,16 +227,6 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
               }`}
             >
               Date {sortBy === 'createdAt' && (sortOrder === 'asc' ? '↑' : '↓')}
-            </button>
-            <button
-              onClick={() => handleSortChange('userName')}
-              className={`px-3 py-1 text-sm rounded-lg transition-colors ${
-                sortBy === 'userName'
-                  ? 'bg-purple-600 text-white'
-                  : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
-              }`}
-            >
-              User {sortBy === 'userName' && (sortOrder === 'asc' ? '↑' : '↓')}
             </button>
           </div>
         )}
