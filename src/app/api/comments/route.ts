@@ -96,6 +96,25 @@ export async function POST(request: NextRequest) {
       )
     }
 
+    // Check that parent comment is approved before allowing reply
+    if (parentId) {
+      const parentComment = await prisma.comment.findUnique({
+        where: { id: parentId },
+      })
+      if (!parentComment) {
+        return NextResponse.json(
+          { error: 'Parent comment not found' },
+          { status: 404 }
+        )
+      }
+      if (!parentComment.approved) {
+        return NextResponse.json(
+          { error: 'Cannot reply to an unapproved comment' },
+          { status: 400 }
+        )
+      }
+    }
+
     const userName =
       user.firstName && user.lastName
         ? `${user.firstName} ${user.lastName}`
