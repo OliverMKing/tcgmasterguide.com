@@ -2,12 +2,14 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { useUser, SignInButton } from '@clerk/nextjs'
+import { useCurrentUser } from '@/hooks/useCurrentUser'
 
 interface Comment {
   id: string
   content: string
   userName: string
   userId: string
+  approved: boolean
   createdAt: string
 }
 
@@ -16,7 +18,8 @@ interface CommentsProps {
 }
 
 export default function Comments({ deckSlug }: CommentsProps) {
-  const { isSignedIn, user, isLoaded } = useUser()
+  const { isSignedIn, isLoaded } = useUser()
+  const { isAdmin } = useCurrentUser()
   const [comments, setComments] = useState<Comment[]>([])
   const [newComment, setNewComment] = useState('')
   const [isLoading, setIsLoading] = useState(true)
@@ -82,6 +85,24 @@ export default function Comments({ deckSlug }: CommentsProps) {
       setComments((prev) => prev.filter((c) => c.id !== commentId))
     } catch {
       setError('Failed to delete comment')
+    }
+  }
+
+  const handleApprove = async (commentId: string) => {
+    try {
+      const response = await fetch(`/api/admin/comments/${commentId}/approve`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ approved: true }),
+      })
+
+      if (!response.ok) throw new Error('Failed to approve comment')
+
+      setComments((prev) =>
+        prev.map((c) => (c.id === commentId ? { ...c, approved: true } : c))
+      )
+    } catch {
+      setError('Failed to approve comment')
     }
   }
 
@@ -163,7 +184,11 @@ export default function Comments({ deckSlug }: CommentsProps) {
           {comments.map((comment) => (
             <div
               key={comment.id}
-              className="p-5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700"
+              className={`p-5 rounded-xl border ${
+                !comment.approved
+                  ? 'bg-amber-50 dark:bg-amber-900/20 border-amber-200 dark:border-amber-700'
+                  : 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700'
+              }`}
             >
               <div className="flex items-start justify-between gap-4">
                 <div className="flex-1 min-w-0">
@@ -174,31 +199,59 @@ export default function Comments({ deckSlug }: CommentsProps) {
                     <span className="text-sm text-slate-400 dark:text-slate-500">
                       {formatDate(comment.createdAt)}
                     </span>
+                    {!comment.approved && (
+                      <span className="px-2 py-0.5 text-xs font-medium bg-amber-100 dark:bg-amber-800 text-amber-700 dark:text-amber-200 rounded-full" title="Only you can see this comment until an admin approves it">
+                        Pending approval
+                      </span>
+                    )}
                   </div>
                   <p className="text-slate-700 dark:text-slate-300 whitespace-pre-wrap">
                     {comment.content}
                   </p>
                 </div>
-                {user?.id === comment.userId && (
-                  <button
-                    onClick={() => handleDelete(comment.id)}
-                    className="shrink-0 p-2 text-slate-400 hover:text-red-500 dark:text-slate-500 dark:hover:text-red-400 transition-colors cursor-pointer"
-                    title="Delete comment"
-                  >
-                    <svg
-                      className="w-5 h-5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
+                {isAdmin && (
+                  <div className="flex shrink-0 gap-1">
+                    {!comment.approved && (
+                      <button
+                        onClick={() => handleApprove(comment.id)}
+                        className="p-2 text-slate-400 hover:text-green-500 dark:text-slate-500 dark:hover:text-green-400 transition-colors cursor-pointer"
+                        title="Approve comment"
+                      >
+                        <svg
+                          className="w-5 h-5"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M5 13l4 4L19 7"
+                          />
+                        </svg>
+                      </button>
+                    )}
+                    <button
+                      onClick={() => handleDelete(comment.id)}
+                      className="p-2 text-slate-400 hover:text-red-500 dark:text-slate-500 dark:hover:text-red-400 transition-colors cursor-pointer"
+                      title="Delete comment"
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
-                      />
-                    </svg>
-                  </button>
+                      <svg
+                        className="w-5 h-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                        />
+                      </svg>
+                    </button>
+                  </div>
                 )}
               </div>
             </div>
