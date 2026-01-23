@@ -526,7 +526,7 @@ export default function QAPage() {
 
                 {/* Replies */}
                 {comment.replies && comment.replies.length > 0 && (
-                  <div className="ml-8 mt-2 space-y-2">
+                  <div className="mt-3 pl-4 border-l-2 border-purple-200 dark:border-purple-800 space-y-2">
                     {comment.replies.map((reply) => (
                       <div
                         key={reply.id}
