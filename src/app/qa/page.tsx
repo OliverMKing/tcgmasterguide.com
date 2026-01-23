@@ -351,7 +351,7 @@ export default function QAPage() {
             <span className="text-sm text-slate-500 dark:text-slate-400">Sort:</span>
             <button
               onClick={() => handleSortChange('createdAt')}
-              className={`px-3 py-1 text-sm rounded-lg transition-colors ${
+              className={`px-3 py-1 text-sm rounded-lg transition-colors cursor-pointer ${
                 sortBy === 'createdAt'
                   ? 'bg-purple-600 text-white'
                   : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
