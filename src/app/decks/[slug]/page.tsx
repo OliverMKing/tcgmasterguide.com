@@ -223,6 +223,14 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
                   </a>
                 </li>
               ))}
+              <li style={{ paddingLeft: '1rem' }}>
+                <a
+                  href="#discussion"
+                  className="text-slate-600 dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors text-sm"
+                >
+                  Discussion
+                </a>
+              </li>
             </ul>
           </nav>
         )}

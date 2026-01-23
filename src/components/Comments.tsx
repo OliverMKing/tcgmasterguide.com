@@ -180,7 +180,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
   }
 
   return (
-    <div className="mt-16 border-t border-slate-200 dark:border-slate-700 pt-12">
+    <div id="discussion" className="mt-16 border-t border-slate-200 dark:border-slate-700 pt-12 scroll-mt-20">
       <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-8">
         Discussion
       </h2>
