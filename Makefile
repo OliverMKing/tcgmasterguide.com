@@ -1,4 +1,4 @@
-.PHONY: help install dev build start lint type-check clean format test db-up db-down db-migrate db-generate
+.PHONY: help install dev build start lint type-check clean format test db-up db-down db-migrate db-generate set-admin
 
 # Default target
 help:
@@ -15,6 +15,7 @@ help:
 	@echo "  make db-down      - Stop SQL Server Docker container"
 	@echo "  make db-migrate   - Run Prisma migrations"
 	@echo "  make db-generate  - Generate Prisma client"
+	@echo "  make set-admin AUTH_ID=<id> EMAIL=<email> - Set/create a user as admin"
 	@echo ""
 	@echo "Code Quality:"
 	@echo "  make lint         - Run ESLint"
@@ -52,6 +53,17 @@ db-migrate: db-up
 # Generate Prisma client
 db-generate:
 	npx prisma generate
+
+# Set a user as admin by auth ID and email (creates user if not exists)
+# Usage: make set-admin AUTH_ID=<auth-id> EMAIL=<email>
+set-admin:
+ifndef AUTH_ID
+	$(error AUTH_ID is required. Usage: make set-admin AUTH_ID=<auth-id> EMAIL=<email>)
+endif
+ifndef EMAIL
+	$(error EMAIL is required. Usage: make set-admin AUTH_ID=<auth-id> EMAIL=<email>)
+endif
+	npx tsx scripts/set-admin.ts $(AUTH_ID) $(EMAIL)
 
 # Development server (starts Docker DB first)
 dev: db-up db-generate

@@ -10,10 +10,12 @@ import {
   SignedOut,
   UserButton,
 } from '@clerk/nextjs'
+import { useCurrentUser } from '@/hooks/useCurrentUser'
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const pathname = usePathname()
+  const { isAdmin } = useCurrentUser()
 
   // Close menu on route change
   useEffect(() => {
@@ -50,6 +52,14 @@ export default function Navbar() {
             >
               Live
             </Link>
+            {isAdmin && (
+              <Link
+                href="/admin"
+                className="text-base text-purple-600 dark:text-purple-400 hover:text-purple-700 dark:hover:text-purple-300 transition-colors font-medium"
+              >
+                Admin
+              </Link>
+            )}
             <ThemeToggle />
             <SignedOut>
               <SignInButton mode="modal">
@@ -130,6 +140,15 @@ export default function Navbar() {
             >
               Live
             </Link>
+            {isAdmin && (
+              <Link
+                href="/admin"
+                onClick={() => setIsMenuOpen(false)}
+                className="block py-2 text-purple-600 dark:text-purple-400 hover:text-purple-700 dark:hover:text-purple-300 transition-colors font-medium"
+              >
+                Admin
+              </Link>
+            )}
           </div>
         )}
       </div>
