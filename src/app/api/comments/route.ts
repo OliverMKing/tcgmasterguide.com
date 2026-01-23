@@ -67,11 +67,11 @@ export async function POST(request: NextRequest) {
 
   try {
     const body = await request.json()
-    const { deckSlug, content } = body
+    const { deckSlug, deckTitle, content } = body
 
-    if (!deckSlug || !content) {
+    if (!deckSlug || !deckTitle || !content) {
       return NextResponse.json(
-        { error: 'deckSlug and content are required' },
+        { error: 'deckSlug, deckTitle, and content are required' },
         { status: 400 }
       )
     }
@@ -91,6 +91,7 @@ export async function POST(request: NextRequest) {
     const comment = await prisma.comment.create({
       data: {
         deckSlug,
+        deckTitle,
         content: content.trim(),
         userId,
         userName,

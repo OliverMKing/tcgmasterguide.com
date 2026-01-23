@@ -15,9 +15,10 @@ interface Comment {
 
 interface CommentsProps {
   deckSlug: string
+  deckTitle: string
 }
 
-export default function Comments({ deckSlug }: CommentsProps) {
+export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
   const { isSignedIn, isLoaded } = useUser()
   const { isAdmin } = useCurrentUser()
   const [comments, setComments] = useState<Comment[]>([])
@@ -54,7 +55,7 @@ export default function Comments({ deckSlug }: CommentsProps) {
       const response = await fetch('/api/comments', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ deckSlug, content: newComment }),
+        body: JSON.stringify({ deckSlug, deckTitle, content: newComment }),
       })
 
       if (!response.ok) {

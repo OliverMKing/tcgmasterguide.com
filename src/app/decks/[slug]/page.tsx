@@ -369,7 +369,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
         </div>
 
         {/* Comments Section */}
-        <Comments deckSlug={slug} />
+        <Comments deckSlug={slug} deckTitle={deck.title} />
       </article>
     </main>
   )

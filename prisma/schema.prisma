@@ -26,6 +26,7 @@ model Comment {
   id        String   @id @default(cuid())
   content   String
   deckSlug  String   @map("deck_slug")
+  deckTitle String   @map("deck_title")
   userId    String   @map("user_id")
   userName  String   @map("user_name")
   approved  Boolean  @default(false)

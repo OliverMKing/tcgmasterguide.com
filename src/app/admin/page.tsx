@@ -17,6 +17,7 @@ interface Comment {
   id: string
   content: string
   deckSlug: string
+  deckTitle: string
   userId: string
   userName: string
   approved: boolean
@@ -261,7 +262,7 @@ export default function AdminPage() {
                         {comment.userName}
                       </span>
                       <span className="text-sm text-slate-500 dark:text-slate-400 ml-2">
-                        on {comment.deckSlug}
+                        on {comment.deckTitle}
                       </span>
                     </div>
                     <span className="text-xs text-slate-400 dark:text-slate-500">
@@ -275,14 +276,14 @@ export default function AdminPage() {
                     <button
                       onClick={() => approveComment(comment.id, true)}
                       disabled={updatingCommentId === comment.id}
-                      className="px-4 py-1.5 bg-green-600 hover:bg-green-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50"
+                      className="px-4 py-1.5 bg-green-600 hover:bg-green-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
                     >
                       Approve
                     </button>
                     <button
                       onClick={() => deleteComment(comment.id)}
                       disabled={updatingCommentId === comment.id}
-                      className="px-4 py-1.5 bg-red-600 hover:bg-red-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50"
+                      className="px-4 py-1.5 bg-red-600 hover:bg-red-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
                     >
                       Delete
                     </button>
