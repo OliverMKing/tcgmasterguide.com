@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useUser } from '@clerk/nextjs'
 
 interface UserData {
@@ -57,6 +57,22 @@ export function useCurrentUser() {
   const { isLoaded, isSignedIn, user } = useUser()
   const [userData, setUserData] = useState<UserData | null>(null)
   const [loading, setLoading] = useState(true)
+  const prevSignedInRef = useRef<boolean | undefined>(undefined)
+
+  // Clear cache when user signs out or signs in (auth state changes)
+  useEffect(() => {
+    if (!isLoaded) return
+
+    const wasSignedIn = prevSignedInRef.current
+    const nowSignedIn = isSignedIn
+
+    // Detect auth state change (sign in or sign out)
+    if (wasSignedIn !== undefined && wasSignedIn !== nowSignedIn) {
+      clearUserCache()
+    }
+
+    prevSignedInRef.current = nowSignedIn
+  }, [isLoaded, isSignedIn])
 
   useEffect(() => {
     async function fetchUserData() {
