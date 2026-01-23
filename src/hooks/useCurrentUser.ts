@@ -1,8 +1,7 @@
 'use client'
 
 import { useState, useEffect, useRef } from 'react'
-import { useUser } from '@clerk/nextjs'
-import { fetchWithRetry } from '@/lib/fetch-with-retry'
+import { useUser, useAuth } from '@clerk/nextjs'
 
 interface UserData {
   id: string
@@ -56,6 +55,7 @@ export function clearUserCache(): void {
 
 export function useCurrentUser() {
   const { isLoaded, isSignedIn, user } = useUser()
+  const { getToken } = useAuth()
   const [userData, setUserData] = useState<UserData | null>(null)
   const [loading, setLoading] = useState(true)
   const prevUserIdRef = useRef<string | null | undefined>(undefined)
@@ -90,7 +90,14 @@ export function useCurrentUser() {
       }
 
       try {
-        const res = await fetchWithRetry('/api/user/me')
+        let res = await fetch('/api/user/me')
+
+        // Handle expired JWT by forcing token refresh and retrying
+        if (res.status === 401) {
+          await getToken({ skipCache: true })
+          res = await fetch('/api/user/me')
+        }
+
         if (res.ok) {
           const data = await res.json()
           setUserData(data)
@@ -108,7 +115,7 @@ export function useCurrentUser() {
     }
 
     fetchUserData()
-  }, [isLoaded, isSignedIn, user])
+  }, [isLoaded, isSignedIn, user, getToken])
 
   return {
     isLoaded: isLoaded && !loading,

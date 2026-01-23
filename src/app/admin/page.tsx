@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useUser } from '@clerk/nextjs'
 import { UserRole } from '@/lib/user-roles'
-import { fetchWithRetry } from '@/lib/fetch-with-retry'
+import { useFetchWithRetry } from '@/lib/fetch-with-retry'
 
 interface User {
   id: string
@@ -42,6 +42,7 @@ type SortOrder = 'asc' | 'desc'
 
 export default function AdminPage() {
   const { isLoaded, isSignedIn } = useUser()
+  const fetchWithRetry = useFetchWithRetry()
   const [users, setUsers] = useState<User[]>([])
   const [userPagination, setUserPagination] = useState<Pagination | null>(null)
   const [pendingComments, setPendingComments] = useState<Comment[]>([])

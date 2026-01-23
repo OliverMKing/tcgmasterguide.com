@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useUser, SignInButton } from '@clerk/nextjs'
 import { useCurrentUser } from '@/hooks/useCurrentUser'
-import { fetchWithRetry } from '@/lib/fetch-with-retry'
+import { useFetchWithRetry } from '@/lib/fetch-with-retry'
 import Link from 'next/link'
 
 interface Reply {
@@ -45,6 +45,7 @@ type SortOrder = 'asc' | 'desc'
 export default function QAPage() {
   const { isSignedIn, isLoaded } = useUser()
   const { isAdmin } = useCurrentUser()
+  const fetchWithRetry = useFetchWithRetry()
   const [comments, setComments] = useState<Comment[]>([])
   const [pagination, setPagination] = useState<Pagination | null>(null)
   const [sortBy, setSortBy] = useState<SortField>('createdAt')

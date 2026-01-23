@@ -1,21 +1,31 @@
+'use client'
+
+import { useAuth } from '@clerk/nextjs'
+import { useCallback } from 'react'
+
 /**
- * Fetch wrapper that handles Clerk JWT expiration by retrying once on 401.
- * When a 401 is received, it waits briefly for Clerk to refresh the token,
- * then retries the request.
+ * Hook that provides a fetch wrapper handling Clerk JWT expiration.
+ * On 401, it forces a token refresh via getToken and retries.
  */
-export async function fetchWithRetry(
-  url: string,
-  options?: RequestInit
-): Promise<Response> {
-  const response = await fetch(url, options)
+export function useFetchWithRetry() {
+  const { getToken } = useAuth()
 
-  if (response.status === 401) {
-    // Wait a moment for Clerk to refresh the token in the background
-    await new Promise((resolve) => setTimeout(resolve, 1000))
+  const fetchWithRetry = useCallback(
+    async (url: string, options?: RequestInit): Promise<Response> => {
+      const response = await fetch(url, options)
 
-    // Retry the request once
-    return fetch(url, options)
-  }
+      if (response.status === 401) {
+        // Force Clerk to refresh the token
+        await getToken({ skipCache: true })
 
-  return response
+        // Retry the request once
+        return fetch(url, options)
+      }
+
+      return response
+    },
+    [getToken]
+  )
+
+  return fetchWithRetry
 }
