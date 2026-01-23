@@ -57,26 +57,24 @@ export function useCurrentUser() {
   const { isLoaded, isSignedIn, user } = useUser()
   const [userData, setUserData] = useState<UserData | null>(null)
   const [loading, setLoading] = useState(true)
-  const prevSignedInRef = useRef<boolean | undefined>(undefined)
-
-  // Clear cache when user signs out or signs in (auth state changes)
-  useEffect(() => {
-    if (!isLoaded) return
-
-    const wasSignedIn = prevSignedInRef.current
-    const nowSignedIn = isSignedIn
-
-    // Detect auth state change (sign in or sign out)
-    if (wasSignedIn !== undefined && wasSignedIn !== nowSignedIn) {
-      clearUserCache()
-    }
-
-    prevSignedInRef.current = nowSignedIn
-  }, [isLoaded, isSignedIn])
+  const prevUserIdRef = useRef<string | null | undefined>(undefined)
 
   useEffect(() => {
     async function fetchUserData() {
-      if (!isLoaded || !isSignedIn || !user) {
+      if (!isLoaded) return
+
+      const currentUserId = isSignedIn && user ? user.id : null
+      const prevUserId = prevUserIdRef.current
+
+      // Detect user change (sign out, sign in, or switch user)
+      if (prevUserId !== undefined && prevUserId !== currentUserId) {
+        clearUserCache()
+        setUserData(null)
+      }
+
+      prevUserIdRef.current = currentUserId
+
+      if (!isSignedIn || !user) {
         setUserData(null)
         setLoading(false)
         return
@@ -96,9 +94,13 @@ export function useCurrentUser() {
           const data = await res.json()
           setUserData(data)
           setCachedUserData(user.id, data)
+        } else {
+          // User not found in DB or other error - clear any stale data
+          setUserData(null)
         }
       } catch (error) {
         console.error('Failed to fetch user data:', error)
+        setUserData(null)
       } finally {
         setLoading(false)
       }
