@@ -45,6 +45,12 @@ export default function Navbar() {
               className="text-base text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
             >
               About
+            </Link>            
+            <Link
+              href="/qa"
+              className="text-base text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
+            >
+              Q&A
             </Link>
             <Link
               href="/live"
@@ -132,6 +138,13 @@ export default function Navbar() {
               className="block py-2 text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
             >
               About
+            </Link>            
+            <Link
+              href="/qa"
+              onClick={() => setIsMenuOpen(false)}
+              className="block py-2 text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
+            >
+              Q&A
             </Link>
             <Link
               href="/live"

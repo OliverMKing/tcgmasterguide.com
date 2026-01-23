@@ -3,14 +3,10 @@ import { auth, currentUser } from '@clerk/nextjs/server'
 import { prisma } from '@/lib/prisma'
 import { isAdmin } from '@/lib/user-roles'
 
-// GET /api/comments?deckSlug=xxx
+// GET /api/comments?deckSlug=xxx or GET /api/comments (all comments for Q&A)
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams
   const deckSlug = searchParams.get('deckSlug')
-
-  if (!deckSlug) {
-    return NextResponse.json({ error: 'deckSlug is required' }, { status: 400 })
-  }
 
   const { userId } = await auth()
   let userIsAdmin = false
@@ -24,7 +20,8 @@ export async function GET(request: NextRequest) {
   try {
     const comments = await prisma.comment.findMany({
       where: {
-        deckSlug,
+        // If deckSlug provided, filter by it; otherwise get all
+        ...(deckSlug ? { deckSlug } : {}),
         // Admins see all, users see approved + their own pending
         OR: userIsAdmin
           ? undefined
@@ -69,9 +66,9 @@ export async function POST(request: NextRequest) {
     const body = await request.json()
     const { deckSlug, deckTitle, content } = body
 
-    if (!deckSlug || !deckTitle || !content) {
+    if (!content) {
       return NextResponse.json(
-        { error: 'deckSlug, deckTitle, and content are required' },
+        { error: 'content is required' },
         { status: 400 }
       )
     }
@@ -90,8 +87,8 @@ export async function POST(request: NextRequest) {
 
     const comment = await prisma.comment.create({
       data: {
-        deckSlug,
-        deckTitle,
+        deckSlug: deckSlug || null,
+        deckTitle: deckTitle || null,
         content: content.trim(),
         userId,
         userName,

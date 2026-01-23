@@ -16,8 +16,8 @@ interface User {
 interface Comment {
   id: string
   content: string
-  deckSlug: string
-  deckTitle: string
+  deckSlug: string | null
+  deckTitle: string | null
   userId: string
   userName: string
   approved: boolean
@@ -262,7 +262,7 @@ export default function AdminPage() {
                         {comment.userName}
                       </span>
                       <span className="text-sm text-slate-500 dark:text-slate-400 ml-2">
-                        on {comment.deckTitle}
+                        on {comment.deckTitle || 'Other'}
                       </span>
                     </div>
                     <span className="text-xs text-slate-400 dark:text-slate-500">
