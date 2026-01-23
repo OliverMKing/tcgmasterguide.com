@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import { useUser } from '@clerk/nextjs'
+import { fetchWithRetry } from '@/lib/fetch-with-retry'
 
 interface UserData {
   id: string
@@ -89,7 +90,7 @@ export function useCurrentUser() {
       }
 
       try {
-        const res = await fetch('/api/user/me')
+        const res = await fetchWithRetry('/api/user/me')
         if (res.ok) {
           const data = await res.json()
           setUserData(data)

@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useUser } from '@clerk/nextjs'
 import { UserRole } from '@/lib/user-roles'
+import { fetchWithRetry } from '@/lib/fetch-with-retry'
 
 interface User {
   id: string
@@ -57,7 +58,7 @@ export default function AdminPage() {
 
   const fetchStats = useCallback(async () => {
     try {
-      const res = await fetch('/api/admin/stats')
+      const res = await fetchWithRetry('/api/admin/stats')
       if (!res.ok) {
         if (res.status === 403) {
           setError('You do not have permission to access this page')
@@ -74,7 +75,7 @@ export default function AdminPage() {
 
   const fetchPendingComments = useCallback(async (page = 1, sortBy: CommentSortField = 'createdAt', sortOrder: SortOrder = 'asc') => {
     try {
-      const res = await fetch(`/api/admin/comments?page=${page}&sortBy=${sortBy}&sortOrder=${sortOrder}`)
+      const res = await fetchWithRetry(`/api/admin/comments?page=${page}&sortBy=${sortBy}&sortOrder=${sortOrder}`)
       if (res.ok) {
         const data = await res.json()
         setPendingComments(data.comments)
@@ -90,7 +91,7 @@ export default function AdminPage() {
       setLoading(true)
       const params = new URLSearchParams({ page: String(page) })
       if (searchQuery) params.set('search', searchQuery)
-      const res = await fetch(`/api/admin/users?${params}`)
+      const res = await fetchWithRetry(`/api/admin/users?${params}`)
       if (!res.ok) {
         if (res.status === 403) {
           setError('You do not have permission to access this page')
@@ -147,7 +148,7 @@ export default function AdminPage() {
   const approveComment = async (commentId: string, approved: boolean) => {
     setUpdatingCommentId(commentId)
     try {
-      const res = await fetch(`/api/admin/comments/${commentId}/approve`, {
+      const res = await fetchWithRetry(`/api/admin/comments/${commentId}/approve`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ approved }),
@@ -166,7 +167,7 @@ export default function AdminPage() {
   const deleteComment = async (commentId: string) => {
     setUpdatingCommentId(commentId)
     try {
-      const res = await fetch(`/api/admin/comments/${commentId}/approve`, {
+      const res = await fetchWithRetry(`/api/admin/comments/${commentId}/approve`, {
         method: 'DELETE',
       })
       if (!res.ok) {
@@ -186,7 +187,7 @@ export default function AdminPage() {
     }
     setUpdatingUserId(userId)
     try {
-      const res = await fetch(`/api/admin/users/${userId}/role`, {
+      const res = await fetchWithRetry(`/api/admin/users/${userId}/role`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ role: newRole }),

@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useUser, SignInButton } from '@clerk/nextjs'
 import { useCurrentUser } from '@/hooks/useCurrentUser'
+import { fetchWithRetry } from '@/lib/fetch-with-retry'
 
 interface Reply {
   id: string
@@ -95,7 +96,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
     setError(null)
 
     try {
-      const response = await fetch('/api/comments', {
+      const response = await fetchWithRetry('/api/comments', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ deckSlug, deckTitle, content: newComment }),
@@ -123,7 +124,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
     setError(null)
 
     try {
-      const response = await fetch('/api/comments', {
+      const response = await fetchWithRetry('/api/comments', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -158,7 +159,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
     if (!confirm('Are you sure you want to delete this?')) return
 
     try {
-      const response = await fetch(`/api/comments/${commentId}`, {
+      const response = await fetchWithRetry(`/api/comments/${commentId}`, {
         method: 'DELETE',
       })
 
@@ -182,7 +183,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
 
   const handleApprove = async (commentId: string) => {
     try {
-      const response = await fetch(`/api/admin/comments/${commentId}/approve`, {
+      const response = await fetchWithRetry(`/api/admin/comments/${commentId}/approve`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ approved: true }),
