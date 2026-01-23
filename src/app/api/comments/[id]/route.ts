@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { auth } from '@clerk/nextjs/server'
 import { prisma } from '@/lib/prisma'
+import { isAdmin } from '@/lib/user-roles'
 
 // DELETE /api/comments/[id]
 export async function DELETE(
@@ -13,21 +14,24 @@ export async function DELETE(
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
+  // Check if user is admin
+  const dbUser = await prisma.user.findUnique({
+    where: { authId: userId },
+  })
+
+  if (!dbUser || !isAdmin(dbUser.role)) {
+    return NextResponse.json({ error: 'Forbidden' }, { status: 403 })
+  }
+
   const { id } = await params
 
   try {
-    // Find the comment first to check ownership
     const comment = await prisma.comment.findUnique({
       where: { id },
     })
 
     if (!comment) {
       return NextResponse.json({ error: 'Comment not found' }, { status: 404 })
-    }
-
-    // Only allow the comment author to delete their own comment
-    if (comment.userId !== userId) {
-      return NextResponse.json({ error: 'Forbidden' }, { status: 403 })
     }
 
     await prisma.comment.delete({

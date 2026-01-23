@@ -31,12 +31,14 @@ interface Stats {
 export default function AdminPage() {
   const { isLoaded, isSignedIn } = useUser()
   const [users, setUsers] = useState<User[]>([])
+  const [pendingComments, setPendingComments] = useState<Comment[]>([])
   const [stats, setStats] = useState<Stats | null>(null)
   const [search, setSearch] = useState('')
   const [loading, setLoading] = useState(true)
   const [initialLoading, setInitialLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [updatingUserId, setUpdatingUserId] = useState<string | null>(null)
+  const [updatingCommentId, setUpdatingCommentId] = useState<string | null>(null)
 
   const fetchStats = useCallback(async () => {
     try {
@@ -52,6 +54,18 @@ export default function AdminPage() {
       setStats(data)
     } catch {
       setError('Failed to load stats')
+    }
+  }, [])
+
+  const fetchPendingComments = useCallback(async () => {
+    try {
+      const res = await fetch('/api/admin/comments')
+      if (res.ok) {
+        const data = await res.json()
+        setPendingComments(data)
+      }
+    } catch {
+      console.error('Failed to fetch pending comments')
     }
   }, [])
 
@@ -81,17 +95,53 @@ export default function AdminPage() {
 
   useEffect(() => {
     if (isLoaded && isSignedIn) {
-      Promise.all([fetchStats(), fetchUsers('')]).finally(() => {
+      Promise.all([fetchStats(), fetchUsers(''), fetchPendingComments()]).finally(() => {
         setInitialLoading(false)
       })
     } else if (isLoaded && !isSignedIn) {
       setInitialLoading(false)
     }
-  }, [isLoaded, isSignedIn, fetchStats, fetchUsers])
+  }, [isLoaded, isSignedIn, fetchStats, fetchUsers, fetchPendingComments])
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault()
     fetchUsers(search)
+  }
+
+  const approveComment = async (commentId: string, approved: boolean) => {
+    setUpdatingCommentId(commentId)
+    try {
+      const res = await fetch(`/api/admin/comments/${commentId}/approve`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ approved }),
+      })
+      if (!res.ok) {
+        throw new Error('Failed to update comment')
+      }
+      await fetchPendingComments()
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to update comment')
+    } finally {
+      setUpdatingCommentId(null)
+    }
+  }
+
+  const deleteComment = async (commentId: string) => {
+    setUpdatingCommentId(commentId)
+    try {
+      const res = await fetch(`/api/admin/comments/${commentId}/approve`, {
+        method: 'DELETE',
+      })
+      if (!res.ok) {
+        throw new Error('Failed to delete comment')
+      }
+      await fetchPendingComments()
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to delete comment')
+    } finally {
+      setUpdatingCommentId(null)
+    }
   }
 
   const updateUserRole = async (userId: string, newRole: string) => {
@@ -188,6 +238,60 @@ export default function AdminPage() {
             </div>
           </div>
         )}
+
+        {/* Pending Comments Section */}
+        <div className="mt-12 mb-8">
+          <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-100 mb-4">
+            Pending Comments ({pendingComments.length})
+          </h2>
+          {pendingComments.length === 0 ? (
+            <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6 text-center text-slate-500 dark:text-slate-400">
+              No pending comments
+            </div>
+          ) : (
+            <div className="space-y-4">
+              {pendingComments.map((comment) => (
+                <div
+                  key={comment.id}
+                  className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-4"
+                >
+                  <div className="flex justify-between items-start mb-2">
+                    <div>
+                      <span className="font-medium text-slate-900 dark:text-slate-100">
+                        {comment.userName}
+                      </span>
+                      <span className="text-sm text-slate-500 dark:text-slate-400 ml-2">
+                        on {comment.deckSlug}
+                      </span>
+                    </div>
+                    <span className="text-xs text-slate-400 dark:text-slate-500">
+                      {new Date(comment.createdAt).toLocaleDateString()}
+                    </span>
+                  </div>
+                  <p className="text-slate-700 dark:text-slate-300 mb-4 whitespace-pre-wrap">
+                    {comment.content}
+                  </p>
+                  <div className="flex gap-2">
+                    <button
+                      onClick={() => approveComment(comment.id, true)}
+                      disabled={updatingCommentId === comment.id}
+                      className="px-4 py-1.5 bg-green-600 hover:bg-green-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50"
+                    >
+                      Approve
+                    </button>
+                    <button
+                      onClick={() => deleteComment(comment.id)}
+                      disabled={updatingCommentId === comment.id}
+                      className="px-4 py-1.5 bg-red-600 hover:bg-red-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50"
+                    >
+                      Delete
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
 
         {/* Search Section */}
         <div className="mb-8">
