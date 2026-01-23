@@ -145,7 +145,10 @@ export default function AdminPage() {
     }
   }
 
-  const updateUserRole = async (userId: string, newRole: string) => {
+  const updateUserRole = async (userId: string, newRole: string, userName: string | null) => {
+    if (!confirm(`Are you sure you want to change ${userName || 'this user'}'s role to ${newRole}?`)) {
+      return
+    }
     setUpdatingUserId(userId)
     try {
       const res = await fetch(`/api/admin/users/${userId}/role`, {
@@ -370,7 +373,7 @@ export default function AdminPage() {
                     <td className="px-4 py-4 whitespace-nowrap">
                       <select
                         value={user.role}
-                        onChange={(e) => updateUserRole(user.id, e.target.value)}
+                        onChange={(e) => updateUserRole(user.id, e.target.value, user.name)}
                         disabled={updatingUserId === user.id}
                         className="px-3 py-1 rounded border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-sm text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-purple-500 disabled:opacity-50"
                       >

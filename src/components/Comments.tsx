@@ -274,9 +274,17 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
                   {isAdmin && (
                     <div className="flex shrink-0 gap-1">
                       <button
-                        onClick={() => setReplyingTo(replyingTo === comment.id ? null : comment.id)}
+                        onClick={() => {
+                          if (!comment.approved) {
+                            if (confirm('This comment is not approved yet. Would you like to approve it first?')) {
+                              handleApprove(comment.id)
+                            }
+                            return
+                          }
+                          setReplyingTo(replyingTo === comment.id ? null : comment.id)
+                        }}
                         className="p-2 text-slate-400 hover:text-purple-500 dark:text-slate-500 dark:hover:text-purple-400 transition-colors cursor-pointer"
-                        title="Reply"
+                        title={comment.approved ? "Reply" : "Approve first to reply"}
                       >
                         <svg
                           className="w-5 h-5"
