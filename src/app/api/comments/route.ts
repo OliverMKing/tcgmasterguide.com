@@ -30,11 +30,18 @@ export async function GET(request: NextRequest) {
     userIsAdmin = isAdmin(dbUser?.role)
   }
 
+  // Build deck filter: null = no filter, '' = only null deckSlug (Other), 'slug' = specific deck
+  const deckFilter = deckSlug === null
+    ? {}
+    : deckSlug === ''
+      ? { deckSlug: null }
+      : { deckSlug }
+
   const whereClause = {
     // Only top-level comments (parentId is null)
     parentId: null,
-    // If deckSlug provided, filter by it; otherwise get all
-    ...(deckSlug ? { deckSlug } : {}),
+    // Deck filter
+    ...deckFilter,
     // Admins see all, users see approved + their own pending
     OR: userIsAdmin
       ? undefined

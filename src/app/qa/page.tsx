@@ -48,6 +48,7 @@ export default function QAPage() {
   const [pagination, setPagination] = useState<Pagination | null>(null)
   const [sortBy, setSortBy] = useState<SortField>('createdAt')
   const [sortOrder, setSortOrder] = useState<SortOrder>('desc')
+  const [filterDeck, setFilterDeck] = useState<string>('all')
   const [decks, setDecks] = useState<Deck[]>([])
   const [newQuestion, setNewQuestion] = useState('')
   const [selectedDeck, setSelectedDeck] = useState<string>('')
@@ -58,9 +59,19 @@ export default function QAPage() {
   const [replyContent, setReplyContent] = useState('')
   const [isSubmittingReply, setIsSubmittingReply] = useState(false)
 
-  const fetchComments = useCallback(async (page = 1, sort: SortField = 'createdAt', order: SortOrder = 'desc') => {
+  const fetchComments = useCallback(async (page = 1, sort: SortField = 'createdAt', order: SortOrder = 'desc', deckFilter: string = 'all') => {
     try {
-      const response = await fetch(`/api/comments?page=${page}&sortBy=${sort}&sortOrder=${order}`)
+      const params = new URLSearchParams({
+        page: String(page),
+        sortBy: sort,
+        sortOrder: order,
+      })
+      if (deckFilter === 'other') {
+        params.set('deckSlug', '')
+      } else if (deckFilter !== 'all') {
+        params.set('deckSlug', deckFilter)
+      }
+      const response = await fetch(`/api/comments?${params}`)
       if (!response.ok) throw new Error('Failed to fetch comments')
       const data = await response.json()
       setComments(data.comments)
@@ -85,24 +96,29 @@ export default function QAPage() {
   }, [])
 
   useEffect(() => {
-    fetchComments(1, sortBy, sortOrder)
+    fetchComments(1, sortBy, sortOrder, filterDeck)
     fetchDecks()
-  }, [fetchComments, fetchDecks, sortBy, sortOrder])
+  }, [fetchComments, fetchDecks, sortBy, sortOrder, filterDeck])
 
   const handlePageChange = (page: number) => {
-    fetchComments(page, sortBy, sortOrder)
+    fetchComments(page, sortBy, sortOrder, filterDeck)
   }
 
   const handleSortChange = (field: SortField) => {
     if (field === sortBy) {
       const newOrder = sortOrder === 'asc' ? 'desc' : 'asc'
       setSortOrder(newOrder)
-      fetchComments(1, field, newOrder)
+      fetchComments(1, field, newOrder, filterDeck)
     } else {
       setSortBy(field)
       setSortOrder('desc')
-      fetchComments(1, field, 'desc')
+      fetchComments(1, field, 'desc', filterDeck)
     }
+  }
+
+  const handleFilterChange = (deck: string) => {
+    setFilterDeck(deck)
+    fetchComments(1, sortBy, sortOrder, deck)
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -314,12 +330,25 @@ export default function QAPage() {
         )}
 
         {/* Questions List */}
-        <div className="flex items-center justify-between mb-6">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
           <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-100">
             Questions & Comments {pagination && `(${pagination.total})`}
           </h2>
-          <div className="flex items-center gap-2">
-            <span className="text-sm text-slate-500 dark:text-slate-400">Sort by:</span>
+          <div className="flex flex-wrap items-center gap-2">
+            <select
+              value={filterDeck}
+              onChange={(e) => handleFilterChange(e.target.value)}
+              className="px-3 py-1 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-500"
+            >
+              <option value="all">All Decks</option>
+              <option value="other">Other</option>
+              {decks.map((deck) => (
+                <option key={deck.slug} value={deck.slug}>
+                  {deck.title}
+                </option>
+              ))}
+            </select>
+            <span className="text-sm text-slate-500 dark:text-slate-400">Sort:</span>
             <button
               onClick={() => handleSortChange('createdAt')}
               className={`px-3 py-1 text-sm rounded-lg transition-colors ${
