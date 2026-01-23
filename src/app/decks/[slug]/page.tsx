@@ -9,6 +9,7 @@ import { LocalDate } from '@/components/LocalDate'
 import { PageViewCount } from '@/components/PageViewCount'
 import { DeckList } from '@/components/DeckList'
 import { YouTubeEmbed } from '@/components/YouTubeEmbed'
+import { TwitchVideoEmbed } from '@/components/TwitchVideoEmbed'
 import Comments from '@/components/Comments'
 import type { Metadata } from 'next'
 
@@ -325,6 +326,22 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
                   }
                   if (videoId) {
                     return <YouTubeEmbed videoId={videoId} title={title} />
+                  }
+                }
+                // Check if this is a twitch code block
+                if (codeElement?.props?.className === 'language-twitch') {
+                  const content = String(codeElement.props.children || '').trim()
+                  const lines = content.split('\n')
+                  let videoId = ''
+                  let title = 'Twitch video'
+                  for (const line of lines) {
+                    const [key, ...valueParts] = line.split(':')
+                    const value = valueParts.join(':').trim()
+                    if (key.trim() === 'id') videoId = value
+                    if (key.trim() === 'title') title = value
+                  }
+                  if (videoId) {
+                    return <TwitchVideoEmbed videoId={videoId} title={title} />
                   }
                 }
                 // Default pre rendering

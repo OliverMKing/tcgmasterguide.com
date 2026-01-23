@@ -83,6 +83,11 @@ They used Watchtower, but luckily we have the Stadium counter. How do we optimal
 
 ### Gholdengo - Favorable
 
+```twitch
+id: 2675808573
+title: Charizard / Noctowl vs Gholdengo
+```
+
 - The most important thing is to plan out the prize map very far in advance. Oftentimes will rely on Briar to close out the game. You will need to chain multiple Charizard, and may need Dusknoir against an end-game single-prize board.
 - Establishing multiple Hoothoot and Charmander is more important than Duskull in most spots. Dusknoir is usually not worth investing into early even though it seems good, as you need a fully established board. It's mostly used for closing out the game.
 - Be careful to always have outs to your Stage 2s, or get them in advance with Dawn. With only one Ultra Ball, finding Stage 2s can be difficult on turns where you need to use Boss or Briar. Stretcher is an important piece in chaining Charizard for this reason.

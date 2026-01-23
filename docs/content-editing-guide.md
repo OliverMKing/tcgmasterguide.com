@@ -185,6 +185,30 @@ From a YouTube URL like `https://www.youtube.com/watch?v=dQw4w9WgXcQ`, the video
 
 This will render as a responsive, embedded YouTube player with rounded corners that matches the site's design.
 
+## Embedding Twitch Videos
+
+You can embed Twitch VODs (past broadcasts) in your deck guides using the special `twitch` code block:
+
+````markdown
+```twitch
+id: 2675808573
+title: Charizard / Noctowl vs Gholdengo
+```
+````
+
+**Fields:**
+
+| Field | Required | Description |
+|-------|----------|-------------|
+| `id` | Yes | The Twitch video ID (the number at the end of the VOD URL) |
+| `title` | No | Accessible title for the video (defaults to "Twitch video") |
+
+**Finding the video ID:**
+
+From a Twitch VOD URL like `https://www.twitch.tv/videos/2675808573`, the video ID is `2675808573` (the number after `/videos/`).
+
+This will render as a responsive, embedded Twitch player with rounded corners that matches the site's design.
+
 ## Markdown Quick Reference
 
 | What you type | What you get |
@@ -199,6 +223,7 @@ This will render as a responsive, embedded YouTube player with rounded corners t
 | `![alt text](image.png)` | Image |
 | ` ```decklist ` | Expandable deck list (see above) |
 | ` ```youtube ` | Embedded YouTube video (see above) |
+| ` ```twitch ` | Embedded Twitch VOD (see above) |
 
 ## Need Help?
 
