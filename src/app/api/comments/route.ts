@@ -3,10 +3,23 @@ import { auth, currentUser } from '@clerk/nextjs/server'
 import { prisma } from '@/lib/prisma'
 import { isAdmin } from '@/lib/user-roles'
 
+type SortField = 'createdAt' | 'userName'
+type SortOrder = 'asc' | 'desc'
+
 // GET /api/comments?deckSlug=xxx or GET /api/comments (all comments for Q&A)
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams
   const deckSlug = searchParams.get('deckSlug')
+  const page = parseInt(searchParams.get('page') || '1', 10)
+  const limit = Math.min(parseInt(searchParams.get('limit') || '15', 10), 15)
+  const sortBy = (searchParams.get('sortBy') || 'createdAt') as SortField
+  const sortOrder = (searchParams.get('sortOrder') || 'desc') as SortOrder
+  const skip = (page - 1) * limit
+
+  // Validate sort field
+  const validSortFields: SortField[] = ['createdAt', 'userName']
+  const finalSortBy = validSortFields.includes(sortBy) ? sortBy : 'createdAt'
+  const finalSortOrder: SortOrder = sortOrder === 'asc' ? 'asc' : 'desc'
 
   const { userId } = await auth()
   let userIsAdmin = false
@@ -17,31 +30,46 @@ export async function GET(request: NextRequest) {
     userIsAdmin = isAdmin(dbUser?.role)
   }
 
+  const whereClause = {
+    // Only top-level comments (parentId is null)
+    parentId: null,
+    // If deckSlug provided, filter by it; otherwise get all
+    ...(deckSlug ? { deckSlug } : {}),
+    // Admins see all, users see approved + their own pending
+    OR: userIsAdmin
+      ? undefined
+      : [
+          { approved: true },
+          ...(userId ? [{ userId, approved: false }] : []),
+        ],
+  }
+
   try {
     // Fetch top-level comments with their replies
-    const comments = await prisma.comment.findMany({
-      where: {
-        // Only top-level comments (parentId is null)
-        parentId: null,
-        // If deckSlug provided, filter by it; otherwise get all
-        ...(deckSlug ? { deckSlug } : {}),
-        // Admins see all, users see approved + their own pending
-        OR: userIsAdmin
-          ? undefined
-          : [
-              { approved: true },
-              ...(userId ? [{ userId, approved: false }] : []),
-            ],
-      },
-      include: {
-        replies: {
-          orderBy: { createdAt: 'asc' },
+    const [comments, total] = await Promise.all([
+      prisma.comment.findMany({
+        where: whereClause,
+        include: {
+          replies: {
+            orderBy: { createdAt: 'asc' },
+          },
         },
-      },
-      orderBy: { createdAt: 'desc' },
-    })
+        orderBy: { [finalSortBy]: finalSortOrder },
+        skip,
+        take: limit,
+      }),
+      prisma.comment.count({ where: whereClause }),
+    ])
 
-    return NextResponse.json(comments)
+    return NextResponse.json({
+      comments,
+      pagination: {
+        page,
+        limit,
+        total,
+        totalPages: Math.ceil(total / limit),
+      },
+    })
   } catch (error) {
     console.error('Error fetching comments:', error)
     return NextResponse.json(

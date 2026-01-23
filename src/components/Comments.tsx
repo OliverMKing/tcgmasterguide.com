@@ -23,15 +23,28 @@ interface Comment {
   replies: Reply[]
 }
 
+interface Pagination {
+  page: number
+  limit: number
+  total: number
+  totalPages: number
+}
+
 interface CommentsProps {
   deckSlug: string
   deckTitle: string
 }
 
+type SortField = 'createdAt' | 'userName'
+type SortOrder = 'asc' | 'desc'
+
 export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
   const { isSignedIn, isLoaded } = useUser()
   const { isAdmin } = useCurrentUser()
   const [comments, setComments] = useState<Comment[]>([])
+  const [pagination, setPagination] = useState<Pagination | null>(null)
+  const [sortBy, setSortBy] = useState<SortField>('createdAt')
+  const [sortOrder, setSortOrder] = useState<SortOrder>('desc')
   const [newComment, setNewComment] = useState('')
   const [isLoading, setIsLoading] = useState(true)
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -40,12 +53,13 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
   const [replyContent, setReplyContent] = useState('')
   const [isSubmittingReply, setIsSubmittingReply] = useState(false)
 
-  const fetchComments = useCallback(async () => {
+  const fetchComments = useCallback(async (page = 1, sort: SortField = 'createdAt', order: SortOrder = 'desc') => {
     try {
-      const response = await fetch(`/api/comments?deckSlug=${deckSlug}`)
+      const response = await fetch(`/api/comments?deckSlug=${deckSlug}&page=${page}&sortBy=${sort}&sortOrder=${order}`)
       if (!response.ok) throw new Error('Failed to fetch comments')
       const data = await response.json()
-      setComments(data)
+      setComments(data.comments)
+      setPagination(data.pagination)
     } catch {
       setError('Failed to load comments')
     } finally {
@@ -54,8 +68,24 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
   }, [deckSlug])
 
   useEffect(() => {
-    fetchComments()
-  }, [fetchComments])
+    fetchComments(1, sortBy, sortOrder)
+  }, [fetchComments, sortBy, sortOrder])
+
+  const handlePageChange = (page: number) => {
+    fetchComments(page, sortBy, sortOrder)
+  }
+
+  const handleSortChange = (field: SortField) => {
+    if (field === sortBy) {
+      const newOrder = sortOrder === 'asc' ? 'desc' : 'asc'
+      setSortOrder(newOrder)
+      fetchComments(1, field, newOrder)
+    } else {
+      setSortBy(field)
+      setSortOrder('desc')
+      fetchComments(1, field, 'desc')
+    }
+  }
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -181,9 +211,36 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
 
   return (
     <div id="discussion" className="mt-16 border-t border-slate-200 dark:border-slate-700 pt-12 scroll-mt-20">
-      <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-8">
-        Discussion
-      </h2>
+      <div className="flex items-center justify-between mb-8">
+        <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
+          Discussion {pagination && pagination.total > 0 && `(${pagination.total})`}
+        </h2>
+        {pagination && pagination.total > 0 && (
+          <div className="flex items-center gap-2">
+            <span className="text-sm text-slate-500 dark:text-slate-400">Sort by:</span>
+            <button
+              onClick={() => handleSortChange('createdAt')}
+              className={`px-3 py-1 text-sm rounded-lg transition-colors ${
+                sortBy === 'createdAt'
+                  ? 'bg-purple-600 text-white'
+                  : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
+              }`}
+            >
+              Date {sortBy === 'createdAt' && (sortOrder === 'asc' ? '↑' : '↓')}
+            </button>
+            <button
+              onClick={() => handleSortChange('userName')}
+              className={`px-3 py-1 text-sm rounded-lg transition-colors ${
+                sortBy === 'userName'
+                  ? 'bg-purple-600 text-white'
+                  : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
+              }`}
+            >
+              User {sortBy === 'userName' && (sortOrder === 'asc' ? '↑' : '↓')}
+            </button>
+          </div>
+        )}
+      </div>
 
       {/* Comment Form */}
       {isLoaded && (
@@ -437,6 +494,29 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
               )}
             </div>
           ))}
+        </div>
+      )}
+
+      {/* Pagination */}
+      {pagination && pagination.totalPages > 1 && (
+        <div className="flex items-center justify-center gap-2 mt-8">
+          <button
+            onClick={() => handlePageChange(pagination.page - 1)}
+            disabled={pagination.page === 1}
+            className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            Previous
+          </button>
+          <span className="text-sm text-slate-600 dark:text-slate-400">
+            Page {pagination.page} of {pagination.totalPages}
+          </span>
+          <button
+            onClick={() => handlePageChange(pagination.page + 1)}
+            disabled={pagination.page === pagination.totalPages}
+            className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            Next
+          </button>
         </div>
       )}
     </div>

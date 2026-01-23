@@ -24,15 +24,29 @@ interface Comment {
   createdAt: string
 }
 
+interface Pagination {
+  page: number
+  limit: number
+  total: number
+  totalPages: number
+}
+
 interface Stats {
   totalUsers: number
   byRole: Record<string, number>
 }
 
+type CommentSortField = 'createdAt' | 'userName' | 'deckTitle'
+type SortOrder = 'asc' | 'desc'
+
 export default function AdminPage() {
   const { isLoaded, isSignedIn } = useUser()
   const [users, setUsers] = useState<User[]>([])
+  const [userPagination, setUserPagination] = useState<Pagination | null>(null)
   const [pendingComments, setPendingComments] = useState<Comment[]>([])
+  const [commentPagination, setCommentPagination] = useState<Pagination | null>(null)
+  const [commentSortBy, setCommentSortBy] = useState<CommentSortField>('createdAt')
+  const [commentSortOrder, setCommentSortOrder] = useState<SortOrder>('asc')
   const [stats, setStats] = useState<Stats | null>(null)
   const [search, setSearch] = useState('')
   const [loading, setLoading] = useState(true)
@@ -58,25 +72,25 @@ export default function AdminPage() {
     }
   }, [])
 
-  const fetchPendingComments = useCallback(async () => {
+  const fetchPendingComments = useCallback(async (page = 1, sortBy: CommentSortField = 'createdAt', sortOrder: SortOrder = 'asc') => {
     try {
-      const res = await fetch('/api/admin/comments')
+      const res = await fetch(`/api/admin/comments?page=${page}&sortBy=${sortBy}&sortOrder=${sortOrder}`)
       if (res.ok) {
         const data = await res.json()
-        setPendingComments(data)
+        setPendingComments(data.comments)
+        setCommentPagination(data.pagination)
       }
     } catch {
       console.error('Failed to fetch pending comments')
     }
   }, [])
 
-  const fetchUsers = useCallback(async (searchQuery: string) => {
+  const fetchUsers = useCallback(async (searchQuery: string, page = 1) => {
     try {
       setLoading(true)
-      const url = searchQuery
-        ? `/api/admin/users?search=${encodeURIComponent(searchQuery)}`
-        : '/api/admin/users'
-      const res = await fetch(url)
+      const params = new URLSearchParams({ page: String(page) })
+      if (searchQuery) params.set('search', searchQuery)
+      const res = await fetch(`/api/admin/users?${params}`)
       if (!res.ok) {
         if (res.status === 403) {
           setError('You do not have permission to access this page')
@@ -85,7 +99,8 @@ export default function AdminPage() {
         throw new Error('Failed to fetch users')
       }
       const data = await res.json()
-      setUsers(data)
+      setUsers(data.users)
+      setUserPagination(data.pagination)
       setError(null)
     } catch {
       setError('Failed to load users')
@@ -96,17 +111,37 @@ export default function AdminPage() {
 
   useEffect(() => {
     if (isLoaded && isSignedIn) {
-      Promise.all([fetchStats(), fetchUsers(''), fetchPendingComments()]).finally(() => {
+      Promise.all([fetchStats(), fetchUsers(''), fetchPendingComments(1, commentSortBy, commentSortOrder)]).finally(() => {
         setInitialLoading(false)
       })
     } else if (isLoaded && !isSignedIn) {
       setInitialLoading(false)
     }
-  }, [isLoaded, isSignedIn, fetchStats, fetchUsers, fetchPendingComments])
+  }, [isLoaded, isSignedIn, fetchStats, fetchUsers, fetchPendingComments, commentSortBy, commentSortOrder])
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault()
-    fetchUsers(search)
+    fetchUsers(search, 1)
+  }
+
+  const handleUserPageChange = (page: number) => {
+    fetchUsers(search, page)
+  }
+
+  const handleCommentPageChange = (page: number) => {
+    fetchPendingComments(page, commentSortBy, commentSortOrder)
+  }
+
+  const handleCommentSortChange = (sortBy: CommentSortField) => {
+    if (sortBy === commentSortBy) {
+      const newOrder = commentSortOrder === 'asc' ? 'desc' : 'asc'
+      setCommentSortOrder(newOrder)
+      fetchPendingComments(1, sortBy, newOrder)
+    } else {
+      setCommentSortBy(sortBy)
+      setCommentSortOrder('asc')
+      fetchPendingComments(1, sortBy, 'asc')
+    }
   }
 
   const approveComment = async (commentId: string, approved: boolean) => {
@@ -120,7 +155,7 @@ export default function AdminPage() {
       if (!res.ok) {
         throw new Error('Failed to update comment')
       }
-      await fetchPendingComments()
+      await fetchPendingComments(commentPagination?.page || 1, commentSortBy, commentSortOrder)
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to update comment')
     } finally {
@@ -137,7 +172,7 @@ export default function AdminPage() {
       if (!res.ok) {
         throw new Error('Failed to delete comment')
       }
-      await fetchPendingComments()
+      await fetchPendingComments(commentPagination?.page || 1, commentSortBy, commentSortOrder)
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to delete comment')
     } finally {
@@ -161,7 +196,7 @@ export default function AdminPage() {
         throw new Error(data.error || 'Failed to update role')
       }
       // Refresh users and stats
-      await Promise.all([fetchUsers(search), fetchStats()])
+      await Promise.all([fetchUsers(search, userPagination?.page || 1), fetchStats()])
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to update role')
     } finally {
@@ -245,55 +280,116 @@ export default function AdminPage() {
 
         {/* Pending Comments Section */}
         <div className="mt-12 mb-8">
-          <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-100 mb-4">
-            Pending Comments ({pendingComments.length})
-          </h2>
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-100">
+              Pending Comments ({commentPagination?.total || 0})
+            </h2>
+            {commentPagination && commentPagination.total > 0 && (
+              <div className="flex items-center gap-2">
+                <span className="text-sm text-slate-500 dark:text-slate-400">Sort by:</span>
+                <button
+                  onClick={() => handleCommentSortChange('createdAt')}
+                  className={`px-3 py-1 text-sm rounded-lg transition-colors ${
+                    commentSortBy === 'createdAt'
+                      ? 'bg-purple-600 text-white'
+                      : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
+                  }`}
+                >
+                  Date {commentSortBy === 'createdAt' && (commentSortOrder === 'asc' ? '↑' : '↓')}
+                </button>
+                <button
+                  onClick={() => handleCommentSortChange('userName')}
+                  className={`px-3 py-1 text-sm rounded-lg transition-colors ${
+                    commentSortBy === 'userName'
+                      ? 'bg-purple-600 text-white'
+                      : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
+                  }`}
+                >
+                  User {commentSortBy === 'userName' && (commentSortOrder === 'asc' ? '↑' : '↓')}
+                </button>
+                <button
+                  onClick={() => handleCommentSortChange('deckTitle')}
+                  className={`px-3 py-1 text-sm rounded-lg transition-colors ${
+                    commentSortBy === 'deckTitle'
+                      ? 'bg-purple-600 text-white'
+                      : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
+                  }`}
+                >
+                  Deck {commentSortBy === 'deckTitle' && (commentSortOrder === 'asc' ? '↑' : '↓')}
+                </button>
+              </div>
+            )}
+          </div>
           {pendingComments.length === 0 ? (
             <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6 text-center text-slate-500 dark:text-slate-400">
               No pending comments
             </div>
           ) : (
-            <div className="space-y-4">
-              {pendingComments.map((comment) => (
-                <div
-                  key={comment.id}
-                  className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-4"
-                >
-                  <div className="flex justify-between items-start mb-2">
-                    <div>
-                      <span className="font-medium text-slate-900 dark:text-slate-100">
-                        {comment.userName}
-                      </span>
-                      <span className="text-sm text-slate-500 dark:text-slate-400 ml-2">
-                        on {comment.deckTitle || 'Other'}
+            <>
+              <div className="space-y-4">
+                {pendingComments.map((comment) => (
+                  <div
+                    key={comment.id}
+                    className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-4"
+                  >
+                    <div className="flex justify-between items-start mb-2">
+                      <div>
+                        <span className="font-medium text-slate-900 dark:text-slate-100">
+                          {comment.userName}
+                        </span>
+                        <span className="text-sm text-slate-500 dark:text-slate-400 ml-2">
+                          on {comment.deckTitle || 'Other'}
+                        </span>
+                      </div>
+                      <span className="text-xs text-slate-400 dark:text-slate-500">
+                        {new Date(comment.createdAt).toLocaleDateString()}
                       </span>
                     </div>
-                    <span className="text-xs text-slate-400 dark:text-slate-500">
-                      {new Date(comment.createdAt).toLocaleDateString()}
-                    </span>
+                    <p className="text-slate-700 dark:text-slate-300 mb-4 whitespace-pre-wrap">
+                      {comment.content}
+                    </p>
+                    <div className="flex gap-2">
+                      <button
+                        onClick={() => approveComment(comment.id, true)}
+                        disabled={updatingCommentId === comment.id}
+                        className="px-4 py-1.5 bg-green-600 hover:bg-green-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
+                      >
+                        Approve
+                      </button>
+                      <button
+                        onClick={() => deleteComment(comment.id)}
+                        disabled={updatingCommentId === comment.id}
+                        className="px-4 py-1.5 bg-red-600 hover:bg-red-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
+                      >
+                        Delete
+                      </button>
+                    </div>
                   </div>
-                  <p className="text-slate-700 dark:text-slate-300 mb-4 whitespace-pre-wrap">
-                    {comment.content}
-                  </p>
-                  <div className="flex gap-2">
-                    <button
-                      onClick={() => approveComment(comment.id, true)}
-                      disabled={updatingCommentId === comment.id}
-                      className="px-4 py-1.5 bg-green-600 hover:bg-green-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
-                    >
-                      Approve
-                    </button>
-                    <button
-                      onClick={() => deleteComment(comment.id)}
-                      disabled={updatingCommentId === comment.id}
-                      className="px-4 py-1.5 bg-red-600 hover:bg-red-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
-                    >
-                      Delete
-                    </button>
-                  </div>
+                ))}
+              </div>
+              {/* Comment Pagination */}
+              {commentPagination && commentPagination.totalPages > 1 && (
+                <div className="flex items-center justify-center gap-2 mt-6">
+                  <button
+                    onClick={() => handleCommentPageChange(commentPagination.page - 1)}
+                    disabled={commentPagination.page === 1}
+                    className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    Previous
+                  </button>
+                  <span className="text-sm text-slate-600 dark:text-slate-400">
+                    Page {commentPagination.page} of {commentPagination.totalPages}
+                  </span>
+                  <button
+                    onClick={() => handleCommentPageChange(commentPagination.page + 1)}
+                    disabled={commentPagination.page === commentPagination.totalPages}
+                    className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    Next
+                  </button>
                 </div>
-              ))}
-            </div>
+              )}
+            </>
           )}
         </div>
 
@@ -396,6 +492,29 @@ export default function AdminPage() {
                 )}
               </tbody>
             </table>
+          </div>
+        )}
+
+        {/* User Pagination */}
+        {userPagination && userPagination.totalPages > 1 && (
+          <div className="flex items-center justify-center gap-2 mt-6">
+            <button
+              onClick={() => handleUserPageChange(userPagination.page - 1)}
+              disabled={userPagination.page === 1}
+              className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              Previous
+            </button>
+            <span className="text-sm text-slate-600 dark:text-slate-400">
+              Page {userPagination.page} of {userPagination.totalPages} ({userPagination.total} total)
+            </span>
+            <button
+              onClick={() => handleUserPageChange(userPagination.page + 1)}
+              disabled={userPagination.page === userPagination.totalPages}
+              className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              Next
+            </button>
           </div>
         )}
       </div>

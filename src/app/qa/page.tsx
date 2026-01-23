@@ -26,15 +26,28 @@ interface Comment {
   replies: Reply[]
 }
 
+interface Pagination {
+  page: number
+  limit: number
+  total: number
+  totalPages: number
+}
+
 interface Deck {
   slug: string
   title: string
 }
 
+type SortField = 'createdAt' | 'userName'
+type SortOrder = 'asc' | 'desc'
+
 export default function QAPage() {
   const { isSignedIn, isLoaded } = useUser()
   const { isAdmin } = useCurrentUser()
   const [comments, setComments] = useState<Comment[]>([])
+  const [pagination, setPagination] = useState<Pagination | null>(null)
+  const [sortBy, setSortBy] = useState<SortField>('createdAt')
+  const [sortOrder, setSortOrder] = useState<SortOrder>('desc')
   const [decks, setDecks] = useState<Deck[]>([])
   const [newQuestion, setNewQuestion] = useState('')
   const [selectedDeck, setSelectedDeck] = useState<string>('')
@@ -45,12 +58,13 @@ export default function QAPage() {
   const [replyContent, setReplyContent] = useState('')
   const [isSubmittingReply, setIsSubmittingReply] = useState(false)
 
-  const fetchComments = useCallback(async () => {
+  const fetchComments = useCallback(async (page = 1, sort: SortField = 'createdAt', order: SortOrder = 'desc') => {
     try {
-      const response = await fetch('/api/comments')
+      const response = await fetch(`/api/comments?page=${page}&sortBy=${sort}&sortOrder=${order}`)
       if (!response.ok) throw new Error('Failed to fetch comments')
       const data = await response.json()
-      setComments(data)
+      setComments(data.comments)
+      setPagination(data.pagination)
     } catch {
       setError('Failed to load questions')
     } finally {
@@ -71,9 +85,25 @@ export default function QAPage() {
   }, [])
 
   useEffect(() => {
-    fetchComments()
+    fetchComments(1, sortBy, sortOrder)
     fetchDecks()
-  }, [fetchComments, fetchDecks])
+  }, [fetchComments, fetchDecks, sortBy, sortOrder])
+
+  const handlePageChange = (page: number) => {
+    fetchComments(page, sortBy, sortOrder)
+  }
+
+  const handleSortChange = (field: SortField) => {
+    if (field === sortBy) {
+      const newOrder = sortOrder === 'asc' ? 'desc' : 'asc'
+      setSortOrder(newOrder)
+      fetchComments(1, field, newOrder)
+    } else {
+      setSortBy(field)
+      setSortOrder('desc')
+      fetchComments(1, field, 'desc')
+    }
+  }
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -284,9 +314,34 @@ export default function QAPage() {
         )}
 
         {/* Questions List */}
-        <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-100 mb-6">
-          Questions & Comments
-        </h2>
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-100">
+            Questions & Comments {pagination && `(${pagination.total})`}
+          </h2>
+          <div className="flex items-center gap-2">
+            <span className="text-sm text-slate-500 dark:text-slate-400">Sort by:</span>
+            <button
+              onClick={() => handleSortChange('createdAt')}
+              className={`px-3 py-1 text-sm rounded-lg transition-colors ${
+                sortBy === 'createdAt'
+                  ? 'bg-purple-600 text-white'
+                  : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
+              }`}
+            >
+              Date {sortBy === 'createdAt' && (sortOrder === 'asc' ? '↑' : '↓')}
+            </button>
+            <button
+              onClick={() => handleSortChange('userName')}
+              className={`px-3 py-1 text-sm rounded-lg transition-colors ${
+                sortBy === 'userName'
+                  ? 'bg-purple-600 text-white'
+                  : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
+              }`}
+            >
+              User {sortBy === 'userName' && (sortOrder === 'asc' ? '↑' : '↓')}
+            </button>
+          </div>
+        </div>
         {isLoading ? (
           <div className="flex justify-center py-8">
             <div className="w-8 h-8 border-4 border-purple-600 border-t-transparent rounded-full animate-spin" />
@@ -503,6 +558,29 @@ export default function QAPage() {
                 )}
               </div>
             ))}
+          </div>
+        )}
+
+        {/* Pagination */}
+        {pagination && pagination.totalPages > 1 && (
+          <div className="flex items-center justify-center gap-2 mt-8">
+            <button
+              onClick={() => handlePageChange(pagination.page - 1)}
+              disabled={pagination.page === 1}
+              className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              Previous
+            </button>
+            <span className="text-sm text-slate-600 dark:text-slate-400">
+              Page {pagination.page} of {pagination.totalPages}
+            </span>
+            <button
+              onClick={() => handlePageChange(pagination.page + 1)}
+              disabled={pagination.page === pagination.totalPages}
+              className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              Next
+            </button>
           </div>
         )}
       </div>

@@ -3,7 +3,7 @@ import { auth } from '@clerk/nextjs/server'
 import { prisma } from '@/lib/prisma'
 import { isAdmin, UserRole } from '@/lib/user-roles'
 
-// GET /api/admin/users?search=xxx
+// GET /api/admin/users?search=xxx&page=1&limit=20
 export async function GET(request: NextRequest) {
   const { userId } = await auth()
 
@@ -22,22 +22,39 @@ export async function GET(request: NextRequest) {
 
   const searchParams = request.nextUrl.searchParams
   const search = searchParams.get('search')
+  const page = parseInt(searchParams.get('page') || '1', 10)
+  const limit = Math.min(parseInt(searchParams.get('limit') || '10', 10), 10)
+  const skip = (page - 1) * limit
+
+  const where = search
+    ? {
+        OR: [
+          { email: { contains: search } },
+          { name: { contains: search } },
+        ],
+      }
+    : undefined
 
   try {
-    const users = await prisma.user.findMany({
-      where: search
-        ? {
-            OR: [
-              { email: { contains: search } },
-              { name: { contains: search } },
-            ],
-          }
-        : undefined,
-      orderBy: { createdAt: 'desc' },
-      take: 50,
-    })
+    const [users, total] = await Promise.all([
+      prisma.user.findMany({
+        where,
+        orderBy: { createdAt: 'desc' },
+        skip,
+        take: limit,
+      }),
+      prisma.user.count({ where }),
+    ])
 
-    return NextResponse.json(users)
+    return NextResponse.json({
+      users,
+      pagination: {
+        page,
+        limit,
+        total,
+        totalPages: Math.ceil(total / limit),
+      },
+    })
   } catch (error) {
     console.error('Error fetching users:', error)
     return NextResponse.json(
