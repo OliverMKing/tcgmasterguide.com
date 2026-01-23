@@ -144,7 +144,7 @@ export default function Navbar() {
               onClick={() => setIsMenuOpen(false)}
               className="block py-2 text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
             >
-              Q&A
+              Questions and Answers
             </Link>
             <Link
               href="/live"
