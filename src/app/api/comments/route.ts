@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { auth, currentUser } from '@clerk/nextjs/server'
 import { prisma } from '@/lib/prisma'
+import { isAdmin } from '@/lib/user-roles'
 
 // GET /api/comments?deckSlug=xxx
 export async function GET(request: NextRequest) {
@@ -11,9 +12,23 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: 'deckSlug is required' }, { status: 400 })
   }
 
+  // Check if user is admin to show all comments
+  const { userId } = await auth()
+  let showAll = false
+  if (userId) {
+    const dbUser = await prisma.user.findUnique({
+      where: { authId: userId },
+    })
+    showAll = isAdmin(dbUser?.role)
+  }
+
   try {
     const comments = await prisma.comment.findMany({
-      where: { deckSlug },
+      where: {
+        deckSlug,
+        // Show all comments to admins, only approved to others
+        ...(showAll ? {} : { approved: true }),
+      },
       orderBy: { createdAt: 'desc' },
     })
 

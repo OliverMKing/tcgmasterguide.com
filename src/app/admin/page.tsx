@@ -13,6 +13,16 @@ interface User {
   createdAt: string
 }
 
+interface Comment {
+  id: string
+  content: string
+  deckSlug: string
+  userId: string
+  userName: string
+  approved: boolean
+  createdAt: string
+}
+
 interface Stats {
   totalUsers: number
   byRole: Record<string, number>
