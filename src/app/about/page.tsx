@@ -84,7 +84,7 @@ export default function AboutPage() {
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                 </span>
-                <span>Detailed deck guides with card breakdowns and strategy tips</span>
+                <span>Detailed deck guides with in-depth text strategies and video matchup breakdowns</span>
               </li>
               <li className="flex items-start">
                 <span className="shrink-0 w-6 h-6 rounded-full bg-purple-100 dark:bg-purple-900/50 flex items-center justify-center mr-3 mt-0.5">
@@ -109,6 +109,14 @@ export default function AboutPage() {
                   </svg>
                 </span>
                 <span>Matchup analysis and tech card recommendations</span>
+              </li>
+              <li className="flex items-start">
+                <span className="shrink-0 w-6 h-6 rounded-full bg-purple-100 dark:bg-purple-900/50 flex items-center justify-center mr-3 mt-0.5">
+                  <svg className="w-3 h-3 text-purple-600 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                </span>
+                <span>Q&A section where you can ask questions and get answers directly from Grant</span>
               </li>
             </ul>
           </div>
