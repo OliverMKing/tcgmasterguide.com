@@ -226,7 +226,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
         </div>
       )}
 
-      {error && (
+      {error && !replyingTo && (
         <div className="mb-6 p-4 rounded-xl bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400">
           {error}
         </div>
@@ -282,6 +282,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
                             return
                           }
                           setReplyingTo(replyingTo === comment.id ? null : comment.id)
+                          setError(null)
                         }}
                         className="p-2 text-slate-400 hover:text-purple-500 dark:text-slate-500 dark:hover:text-purple-400 transition-colors cursor-pointer"
                         title={comment.approved ? "Reply" : "Approve first to reply"}
@@ -347,6 +348,11 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
                 {/* Reply Form */}
                 {isAdmin && replyingTo === comment.id && (
                   <div className="mt-4 pt-4 border-t border-slate-200 dark:border-slate-700">
+                    {error && (
+                      <div className="mb-3 p-3 rounded-lg bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400 text-sm">
+                        {error}
+                      </div>
+                    )}
                     <textarea
                       value={replyContent}
                       onChange={(e) => setReplyContent(e.target.value)}
@@ -360,6 +366,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
                         onClick={() => {
                           setReplyingTo(null)
                           setReplyContent('')
+                          setError(null)
                         }}
                         className="px-4 py-1.5 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 font-medium rounded-lg transition-colors cursor-pointer"
                       >
