@@ -18,8 +18,11 @@ export async function GET(request: NextRequest) {
   }
 
   try {
+    // Fetch top-level comments with their replies
     const comments = await prisma.comment.findMany({
       where: {
+        // Only top-level comments (parentId is null)
+        parentId: null,
         // If deckSlug provided, filter by it; otherwise get all
         ...(deckSlug ? { deckSlug } : {}),
         // Admins see all, users see approved + their own pending
@@ -29,6 +32,11 @@ export async function GET(request: NextRequest) {
               { approved: true },
               ...(userId ? [{ userId, approved: false }] : []),
             ],
+      },
+      include: {
+        replies: {
+          orderBy: { createdAt: 'asc' },
+        },
       },
       orderBy: { createdAt: 'desc' },
     })
@@ -64,7 +72,7 @@ export async function POST(request: NextRequest) {
 
   try {
     const body = await request.json()
-    const { deckSlug, deckTitle, content } = body
+    const { deckSlug, deckTitle, content, parentId } = body
 
     if (!content) {
       return NextResponse.json(
@@ -77,6 +85,14 @@ export async function POST(request: NextRequest) {
       return NextResponse.json(
         { error: 'Comment too long (max 2000 characters)' },
         { status: 400 }
+      )
+    }
+
+    // Only admins can reply
+    if (parentId && !userIsAdmin) {
+      return NextResponse.json(
+        { error: 'Only admins can reply to comments' },
+        { status: 403 }
       )
     }
 
@@ -93,6 +109,7 @@ export async function POST(request: NextRequest) {
         userId,
         userName,
         approved: userIsAdmin,
+        parentId: parentId || null,
       },
     })
 
