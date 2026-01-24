@@ -5,6 +5,7 @@ import Footer from '@/components/Footer'
 import { ThemeProvider } from '@/components/ThemeProvider'
 import { ClerkThemeWrapper } from '@/components/ClerkThemeWrapper'
 import { AppInsightsProvider } from '@/components/AppInsights'
+import { VideoEmbedProvider } from '@/contexts/VideoEmbedContext'
 
 const siteUrl = 'https://tcgmasterguide.com'
 
@@ -71,9 +72,11 @@ export default function RootLayout({
         <ThemeProvider>
           <ClerkThemeWrapper>
             <AppInsightsProvider>
-              <Navbar />
-              {children}
-              <Footer />
+              <VideoEmbedProvider>
+                <Navbar />
+                {children}
+                <Footer />
+              </VideoEmbedProvider>
             </AppInsightsProvider>
           </ClerkThemeWrapper>
         </ThemeProvider>

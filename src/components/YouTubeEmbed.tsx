@@ -1,6 +1,7 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useVideoEmbed } from '@/contexts/VideoEmbedContext'
+import Image from 'next/image'
 
 interface YouTubeEmbedProps {
   videoId: string
@@ -8,44 +9,44 @@ interface YouTubeEmbedProps {
 }
 
 export function YouTubeEmbed({ videoId, title = 'YouTube video' }: YouTubeEmbedProps) {
-  const [isVisible, setIsVisible] = useState(false)
-  const containerRef = useRef<HTMLDivElement>(null)
+  const { activeVideoId, setActiveVideoId } = useVideoEmbed()
+  const isActive = activeVideoId === `youtube-${videoId}`
 
-  useEffect(() => {
-    const container = containerRef.current
-    if (!container) return
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true)
-          observer.disconnect()
-        }
-      },
-      { rootMargin: '100px' }
-    )
-
-    observer.observe(container)
-    return () => observer.disconnect()
-  }, [])
+  const handleClick = () => {
+    setActiveVideoId(`youtube-${videoId}`)
+  }
 
   return (
-    <div
-      ref={containerRef}
-      className="my-6 aspect-video rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-lg bg-slate-100 dark:bg-slate-800"
-    >
-      {isVisible ? (
+    <div className="my-6 aspect-video rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-lg bg-slate-900 relative">
+      {isActive ? (
         <iframe
-          src={`https://www.youtube.com/embed/${videoId}`}
+          src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
           title={title}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
           className="w-full h-full"
         />
       ) : (
-        <div className="w-full h-full flex items-center justify-center">
-          <div className="text-slate-400 dark:text-slate-500">Loading video...</div>
-        </div>
+        <button
+          onClick={handleClick}
+          className="w-full h-full relative group cursor-pointer"
+          aria-label={`Play ${title}`}
+        >
+          <Image
+            src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
+            alt={title}
+            fill
+            className="object-cover"
+            unoptimized
+          />
+          <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors flex items-center justify-center">
+            <div className="w-16 h-16 md:w-20 md:h-20 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg">
+              <svg className="w-8 h-8 md:w-10 md:h-10 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </div>
+          </div>
+        </button>
       )}
     </div>
   )

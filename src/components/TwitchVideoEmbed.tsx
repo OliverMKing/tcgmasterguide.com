@@ -1,6 +1,7 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
+import { useVideoEmbed } from '@/contexts/VideoEmbedContext'
 
 interface TwitchVideoEmbedProps {
   videoId: string
@@ -8,48 +9,42 @@ interface TwitchVideoEmbedProps {
 }
 
 export function TwitchVideoEmbed({ videoId, title = 'Twitch video' }: TwitchVideoEmbedProps) {
-  const [isVisible, setIsVisible] = useState(false)
   const [parent, setParent] = useState('localhost')
-  const containerRef = useRef<HTMLDivElement>(null)
+  const { activeVideoId, setActiveVideoId } = useVideoEmbed()
+  const isActive = activeVideoId === `twitch-${videoId}`
 
   useEffect(() => {
     setParent(window.location.hostname)
   }, [])
 
-  useEffect(() => {
-    const container = containerRef.current
-    if (!container) return
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true)
-          observer.disconnect()
-        }
-      },
-      { rootMargin: '100px' }
-    )
-
-    observer.observe(container)
-    return () => observer.disconnect()
-  }, [])
+  const handleClick = () => {
+    setActiveVideoId(`twitch-${videoId}`)
+  }
 
   return (
-    <div
-      ref={containerRef}
-      className="my-6 aspect-video rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-lg bg-slate-100 dark:bg-slate-800"
-    >
-      {isVisible ? (
+    <div className="my-6 aspect-video rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-lg relative">
+      {isActive ? (
         <iframe
-          src={`https://player.twitch.tv/?video=${videoId}&parent=${parent}&autoplay=false`}
+          src={`https://player.twitch.tv/?video=${videoId}&parent=${parent}&autoplay=true`}
           title={title}
           allowFullScreen
           className="w-full h-full"
         />
       ) : (
-        <div className="w-full h-full flex items-center justify-center">
-          <div className="text-slate-400 dark:text-slate-500">Loading video...</div>
-        </div>
+        <button
+          onClick={handleClick}
+          className="w-full h-full relative group cursor-pointer bg-slate-800"
+          aria-label={`Play ${title}`}
+        >
+          <div className="absolute inset-0 flex flex-col items-center justify-center">
+            <div className="aspect-square w-16 md:w-20 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 group-hover:bg-white transition-all shadow-lg mb-4">
+              <svg className="w-7 h-7 md:w-9 md:h-9 text-slate-800 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </div>
+            <span className="text-white/90 font-medium text-sm md:text-base px-6 text-center leading-snug">{title}</span>
+          </div>
+        </button>
       )}
     </div>
   )
