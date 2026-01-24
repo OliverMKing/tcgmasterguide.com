@@ -11,6 +11,8 @@ import { DeckList } from '@/components/DeckList'
 import { YouTubeEmbed } from '@/components/YouTubeEmbed'
 import { TwitchVideoEmbed } from '@/components/TwitchVideoEmbed'
 import Comments from '@/components/Comments'
+import { ViewHistoryButton } from '@/components/ViewHistoryButton'
+import { deckHistory } from '@/generated/deck-history'
 import type { Metadata } from 'next'
 
 // Force static generation at build time
@@ -137,6 +139,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
   }
 
   const headings = extractHeadings(deck.content)
+  const history = deckHistory[slug] || []
 
   // Preprocess content to add separators between consecutive lists
   // Pattern: list item, blank line, list item -> insert a separator
@@ -201,6 +204,8 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
           {deck.lastEdited && (
             <div className="flex items-center gap-3 text-sm text-slate-500 dark:text-slate-400">
               <LocalDate timestamp={deck.lastEdited} prefix="Last updated " />
+              <span className="text-slate-300 dark:text-slate-600">•</span>
+              <ViewHistoryButton history={history} deckTitle={deck.title} />
               <PageViewCount slug={slug} />
             </div>
           )}
