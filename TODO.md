@@ -8,8 +8,6 @@ This document tracks planned features and improvements for TCG Master Guide.
 
 ## Medium Priority
 
-- [ ] **History** - to show what changed
-
 ## Low Priority / Nice to Have
 
 - [ ] **Card Database Integration** - Link card names to images/details from Pokemon TCG API
