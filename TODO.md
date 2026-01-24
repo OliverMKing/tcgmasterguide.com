@@ -8,14 +8,12 @@ This document tracks planned features and improvements for TCG Master Guide.
 
 ## Medium Priority
 
-- [ ] **Video Clip Support** - Embed video clips in deck guides for gameplay examples
-- [ ] **Q&A Page** - General Q&A page for user questions and answers
+- [ ] **History** - to show what changed
 
 ## Low Priority / Nice to Have
 
 - [ ] **Card Database Integration** - Link card names to images/details from Pokemon TCG API
-- [ ] **Prevent bad actors from commenting** - Prevent comments that contain harmful language
-- [ ] **Respond to comments** - Be able to respond to specific contents and render appropriately
+- [ ] **Pre tournament thoughts** - for quick thoughts / what he's playing to specific tournaments
 
 ## Technical Improvements
 
