@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { HistoryEntry, HistoryChange } from '@/generated/deck-history'
 
 interface HistoryModalProps {
@@ -47,6 +47,12 @@ function ChangeItem({ change }: { change: HistoryChange }) {
 
 export function HistoryModal({ isOpen, onClose, history, deckTitle }: HistoryModalProps) {
   const [selectedIndex, setSelectedIndex] = useState(0)
+  const detailsRef = useRef<HTMLDivElement>(null)
+
+  const handleSelectRevision = (index: number) => {
+    setSelectedIndex(index)
+    detailsRef.current?.scrollTo({ top: 0 })
+  }
 
   const handleKeyDown = useCallback((e: KeyboardEvent) => {
     if (e.key === 'Escape') {
@@ -109,7 +115,7 @@ export function HistoryModal({ isOpen, onClose, history, deckTitle }: HistoryMod
             {history.map((entry, index) => (
               <button
                 key={entry.hash}
-                onClick={() => setSelectedIndex(index)}
+                onClick={() => handleSelectRevision(index)}
                 className={`flex-1 px-2 py-2 rounded-lg text-sm transition-colors cursor-pointer ${
                   selectedIndex === index
                     ? 'bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 font-medium'
@@ -137,7 +143,7 @@ export function HistoryModal({ isOpen, onClose, history, deckTitle }: HistoryMod
             {history.map((entry, index) => (
               <button
                 key={entry.hash}
-                onClick={() => setSelectedIndex(index)}
+                onClick={() => handleSelectRevision(index)}
                 className={`w-full text-left p-4 border-b border-slate-100 dark:border-slate-700 transition-colors cursor-pointer ${
                   selectedIndex === index
                     ? 'bg-purple-50 dark:bg-purple-900/20 border-l-4 border-l-purple-500'
@@ -170,7 +176,7 @@ export function HistoryModal({ isOpen, onClose, history, deckTitle }: HistoryMod
           </div>
 
           {/* Change details */}
-          <div className="flex-1 overflow-y-auto p-4 sm:p-6">
+          <div ref={detailsRef} className="flex-1 overflow-y-auto p-4 sm:p-6">
             {selectedEntry && (
               <>
                 <div className="mb-4 sm:mb-6">
