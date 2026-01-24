@@ -115,6 +115,60 @@ This matchup is unfavorable if they are playing Lopunny; favorable otherwise.
 - Need as many Munkidori as possible established for damage output.
 - It can be difficult for them to find Lopunny, so Frillish and the above strategies can still be effective if they do not have Lopunny on the board.
 
+```twitch
+id: 2676733822
+title: Garde v Dengo (Mawile) 1
+```
+Me learning the matchup, Devo game.
+
+```twitch
+id: 2676733831
+title: Garde v Dengo (Mawile) 2
+```
+Looking at alternate timelines in the same game, still learning the matchup. This game is a good example of pivoting from Frillish into prize trade, which is a common win condition.
+
+```twitch
+id: 2676733824
+title: Garde v Dengo (Mawile) 3
+```
+Mew plus Counter Catcher Iono can be useful to copy Mawile's second attack if they're building Mawile on the Bench. You don't always have to do this but it is a viable options in some situations.
+
+```twitch
+id: 2676733825
+title: Garde v Dengo (Mawile) 4
+```
+Another instance of Mew against Mawile. Jelly Devo game.
+
+```twitch
+id: 2676733817
+title: Garde v Dengo (Mawile) 5
+```
+This was a Devo game but it didn't end up working.
+
+```twitch
+id: 2676733820
+title: Garde v Dengo (Mawile) 6
+```
+Different endgame routes.
+
+```twitch
+id: 2676733830
+title: Garde v Dengo (Mawile) 7
+```
+Rare Diancie checkmate. Lots of options open up for prize trading if they do not get a big lead.
+
+```twitch
+id: 2677358602
+title: Garde v Dengo (Lopunny) 1
+```
+Lopunny is very effective at countering Frillish, which applies a lot of pressure and is quite annoying.
+
+```twitch
+id: 2677358604
+title: Garde v Dengo (Lopunny) 2
+```
+This game highlights a lot of the issues with this matchup.
+
 ### Gardevoir Mirror - Even / Depends on lists
 
 - Get Turn 1 Frillish. Fast attacking Jellicent is extremely strong. The non-Evo build has the Jellicent advantage while the Evo build has a better chance of setting up Gardevoir under Item lock.
@@ -136,6 +190,64 @@ This list is favored against Dragapult, but the build with 2-1-2 Gardevoir and n
 - If you have Gardevoir set up, look for a big play with Mew ex Phantom Dive plus Clefairy.
 - Clefairy is generally more useful in the early-game, because in the late-game, it can easily be return-KO'd by Ursaluna. If they choose to target it down, that takes some heat away from Ralts/Kirlia.
 
+```twitch
+id: 2676468354
+title: Dragapult v Jelly/Garde (no Evo) 1
+```
+This is an interesting aggro Scream Tail game.
+
+```twitch
+id: 2676468363
+title: Dragapult v Jelly/Garde (no Evo) 2
+```
+Sometimes you need to go for Mind Bend.
+
+```twitch
+id: 2676468358
+title: Dragapult v Jelly/Garde (no Evo) 3
+```
+Hedging for various scenarios when you're in a bad spot.
+
+```twitch
+id: 2676468364
+title: Dragapult v Jelly/Garde (no Evo) 4
+```
+How to (almost) win without Gardevoir.
+
+```twitch
+id: 2676468350
+title: Dragapult v Jelly/Garde (no Evo) 5
+```
+This game shows a situation where it comes down to a confusion flip off Mind Bend.
+
+```twitch
+id: 2676468365
+title: Dragapult v Jelly/Garde (no Evo) 6
+```
+Interesting endgame. Overlook me getting confused.
+
+```twitch
+id: 2676733823
+title: Dragapult v Garde (with Evo) 1
+```
+Manual Mind Bend can be very strong. Ignore my brain fart at the end.
+
+```twitch
+id: 2676733819
+title: Dragapult v Garde (with Evo) 2
+```
+Two timelines of the same game, one where each deck wins.
+
+```twitch
+id: 2676733832
+title: Dragapult v Garde (with Evo) 3
+```
+
+```twitch
+id: 2676733821
+title: Dragapult v Garde (with Evo) 4
+```
+
 ### Charizard / Noctowl - Unfavorable
 
 - Choose to go first!
@@ -147,6 +259,30 @@ This list is favored against Dragapult, but the build with 2-1-2 Gardevoir and n
 - Mega Diancie with Bravery Charm can survive a max power Charizard.
 - Always consider pre-loading Pokemon on your Gardevoir turns, as Gardevoir tends to disappear against Charizard.
 
+```twitch
+id: 2676410869
+title: DawnZard v Gardevoir 1
+```
+This game shows a good instance to use Jellicent plus Devo.
+
+```twitch
+id: 2676410867
+title: DawnZard v Gardevoir 2
+```
+I wasn't really sure what to do here, maybe I could have played it differently.
+
+```twitch
+id: 2676410872
+title: DawnZard v Gardevoir 3
+```
+Different early-game lines involving Jellicent.
+
+```twitch
+id: 2676410871
+title: DawnZard v Gardevoir 4
+```
+Trying different lines and having an aneurysm.
+
 ### Charizard / Secret Box - Unfavorable
 
 - Early Frillish/Jellicent can be strong, but don't use Jellicent if they already have Charmeleon in play.
@@ -157,6 +293,24 @@ This list is favored against Dragapult, but the build with 2-1-2 Gardevoir and n
 - Many options such as Mind Bend, Iono, and Diancie are much stronger when they do not have Pidgeot on the board.
 - Manually attaching to threats such as Diancie, Mew, and even Munkidori can be very useful as the opponent will KO Gardevoir aggressively.
 - Devo is often best used with Jellicent if possible.
+
+```twitch
+id: 2677185403
+title: Garde v BoxZard 1
+```
+Back and forth game. Optimizing and trying different lines.
+
+```twitch
+id: 2677185407
+title: Garde v BoxZard 2
+```
+Looking at different timelines of the same game.
+
+```twitch
+id: 2677185402
+title: Garde v BoxZard 3
+```
+Looking at different timelines, almost made an insane comeback.
 
 ### Absol - Even or Slightly Favorable
 
@@ -170,6 +324,30 @@ This list is favored against Dragapult, but the build with 2-1-2 Gardevoir and n
 - For the most part, use Charm exclusively on Scream Tail, as it allows extra damage and keeps it out of Adrenabrain range.
 - Keeping damage around on the board can be very relevant in this matchup for when you want to reach with Adrenabrain.
 
+```twitch
+id: 2677185410
+title: Garde v Absol 1
+```
+Me being a headless chicken.
+
+```twitch
+id: 2677185406
+title: Garde v Absol 2
+```
+Almost an insane comeback.
+
+```twitch
+id: 2677185405
+title: Garde v Absol 3
+```
+This was a kind of weird game.
+
+```twitch
+id: 2677185404
+title: Garde v Absol 4
+```
+Dominating to start into an interesting endgame.
+
 ### Grimmsnarl - Slightly Unfavorable
 
 - Devo is extremely important. It can be used either as a board wipe or tempo if they used Candy on their Grimmsnarl.
@@ -182,6 +360,30 @@ This list is favored against Dragapult, but the build with 2-1-2 Gardevoir and n
 - Avoid activating Counter Catcher if you have Gardevoir in play, unless they have a slow start and you can get the jump on them with Scream Tail.
 - Watch out for their Devo play.
 - Plan ahead for if they Boss KO Gardevoir. Try to have some sort of follow up or backup plan.
+
+```twitch
+id: 2677185408
+title: Garde v Grimm 1
+```
+Interesting game. Not sure if I played it correctly.
+
+```twitch
+id: 2677221307
+title: Garde v Grimm 2
+```
+This game showcases how Gardevoir can pick apart their board.
+
+```twitch
+id: 2677221308
+title: Garde v Grimm 3
+```
+This game demonstrates how Grimmsnarl can punish weak boards if we do not set up well.
+
+```twitch
+id: 2677221310
+title: Garde v Grimm 4
+```
+This game shows the power of Diancie in this matchup, as well as a cool endgame scenario.
 
 ## Personal thoughts
 

@@ -82,7 +82,7 @@ Energy: 11
 - Premium Power + Vitality is obviously broken for getting a Solrock KO on a turn you wouldn't otherwise be able to do anything, but don't use it if you have another available play because you might need it later.
 - Gusts and Turo are premium resources
 
-### Gardevoir / Jellicent - Depends on lists
+### Gardevoir - Depends on lists
 
 This matchup is favorable for the Lopunny build and unfavorable for all others.
 
@@ -99,6 +99,59 @@ We need to get an aggressive start, try and get as much of a prize lead as possi
 - If you decide to KO their Gardevoir, make sure you have enough resources left to deal with the Frillish. Lana's Aid plus Mawile can help with this.
 - If you do not have a secondary attacker available (such as Mawile or Lopunny), power up Fezandipiti to deal with their Frillish.
 
+```twitch
+id: 2676733822
+title: Garde v Dengo (Mawile) 1
+```
+Me learning the matchup. Mawile being very useful.
+
+```twitch
+id: 2676733831
+title: Garde v Dengo (Mawile) 2
+```
+Looking at alternate timelines in the same game, still learning the matchup.
+
+```twitch
+id: 2676733824
+title: Garde v Dengo (Mawile) 3
+```
+Mawile is good but watch out for Mew hitting it for 260. Might want to conserve Turos if that looks like a possibility.
+
+```twitch
+id: 2676733825
+title: Garde v Dengo (Mawile) 4
+```
+Another instance of Mew against Mawile.
+
+```twitch
+id: 2676733817
+title: Garde v Dengo (Mawile) 5
+```
+Having lots of Stage 1s (or their Basics) helps against Devo.
+
+```twitch
+id: 2676733820
+title: Garde v Dengo (Mawile) 6
+```
+Different endgame routes.
+
+```twitch
+id: 2676733830
+title: Garde v Dengo (Mawile) 7
+```
+Need to get ahead or else they can do stuff like that.
+
+```twitch
+id: 2677358602
+title: Garde v Dengo (Lopunny) 1
+```
+Lopunny is very effective at countering Frillish, leaving them with few options.
+
+```twitch
+id: 2677358604
+title: Garde v Dengo (Lopunny) 2
+```
+
 ### Dragapult / Dusknoir - Favorable
 
 - When multiple Energy are prized, be careful with managing Energy so that you can always one-shot Dragapult.
@@ -106,6 +159,50 @@ We need to get an aggressive start, try and get as much of a prize lead as possi
 - Putting the 50 HP Gimmighoul down (if you play it) is ok if you can immediately evolve it before it gets sniped. Otherwise, try to avoid putting it down at all. If no Gimmighoul are prized, you can sometimes play the game without ever benching the 50 HP one.
 - Even though Genesect is a liability, it's still good to slam into play as soon as possible. We ideally want triple Gholdengo.
 - If you get the chance to Turo the Genesect later, even if it doesn't have any damage, it still avoids the trap or Ursaluna lose-cons
+
+```twitch
+id: 2676468352
+title: Dragapult v Gholdengo 1
+```
+
+```twitch
+id: 2676468361
+title: Dragapult v Gholdengo 2
+```
+The importance of getting plenty of Gimmi, but sometimes its outside of your control.
+
+```twitch
+id: 2676468357
+title: Dragapult v Gholdengo 3
+```
+Liabilities getting punished, though sometimes you have no choice.
+
+```twitch
+id: 2676468336
+title: Dragapult v Gholdengo 4
+```
+
+```twitch
+id: 2676468339
+title: Dragapult v Gholdengo 5
+```
+
+```twitch
+id: 2676468367
+title: Dragapult v Gholdengo 6
+```
+
+```twitch
+id: 2676468359
+title: Dragapult v Gholdengo 7
+```
+Always be vigilant, as Dragapult can make crazy comebacks.
+
+```twitch
+id: 2676468338
+title: Dragapult v Gholdengo 8
+```
+This game shows why getting a fast lead is so good and limits their options.
 
 ### Charizard / Noctowl - Unfavorable
 
@@ -117,6 +214,58 @@ The winning prize trade is pretty idealistic. You need the first KO (usually wit
 - Utilize Gholdengo's HP in the early-game, as they cannot one-shot it (especially if you KO Duskull). This is especially strong in the rare scenario you have only Gholdengo in play so they cannot KO anything.
 - If for some reason they punch Gholdengo for less than a KO and put it into Dusknoir range, use Turo to heal it. Keeping one Turo around is generally good to stop plays like that, or for the above-mentioned plays.
 
+```twitch
+id: 2675808573
+title: Charizard / Noctowl vs Gholdengo 1
+```
+This game shows some of the ways Gholdengo can weasel around the matchup even with a suboptimal start, though it does come up short in a close game.
+
+```twitch
+id: 2675808564
+title: DawnZard v Gholdengo 2
+```
+This game shows how Gholdengo can lose a winning prize trade. Make sure to play around Iono to the best of your ability!
+
+```twitch
+id: 2675808565
+title: DawnZard v Gholdengo 3
+```
+
+```twitch
+id: 2675808583
+title: DawnZard v Gholdengo 4
+```
+Even if they don't have Charizard, you still have to watch out for Terapagos if you have Genesect on board!
+
+```twitch
+id: 2675808574
+title: DawnZard v Gholdengo 5
+```
+
+```twitch
+id: 2677340490
+title: DawnZard v Gholdengo (Watchtower) 1
+```
+Team Rocket's Watchtower being a fraud.
+
+```twitch
+id: 2677340499
+title: DawnZard v Gholdengo (Watchtower) 2
+```
+I finally found an example of how to win the prize trade.
+
+```twitch
+id: 2677340498
+title: DawnZard v Gholdengo (Watchtower) 3
+```
+Another example of how Gholdengo can win the prize trade.
+
+```twitch
+id: 2677340485
+title: DawnZard v Gholdengo (Watchtower) 4
+```
+I maybe could have played the Secret Box turn differently and KO'd the Charmander instead.
+
 ### Charizard / Secret Box - Favorable
 
 - KO Pidgeot so they cannot find Briar
@@ -125,6 +274,45 @@ The winning prize trade is pretty idealistic. You need the first KO (usually wit
 - Premium Power Pro and Vitality Band can be good to allow Solrock to trade into Chi-Yu or KO Pidgeotto/Charmeleon.
 - Apply fast pressure to their board, using Prime Catcher if necessary. The most consistent way to win is by getting far ahead at the beginning. If they only have one Pidgey, KO that. KO'ing Tatsugiri and Charmander can also be good.
 - Turo can very situationally be useful to make a single-prize board, otherwise it is basically useless. Gust cards are extremely important and can be used aggressively (but not discarded!).
+
+```twitch
+id: 2677221311
+title: Dengo v BoxZard 1
+```
+This game demonstrates why Dusknoir is sometimes a non-issue. It's very difficult for them to line it up on a normal prize race. Therefore, it can sometimes be ok to ignore it and take out more relevant Pokemon, but of course this is all situational.
+
+```twitch
+id: 2677221309
+title: Dengo v BoxZard 2
+```
+Klefki is no problem. This game shows a decision point in the endgame where it's not clear what Pokemon you should promote after getting KO'd.
+
+```twitch
+id: 2677221318
+title: Dengo v BoxZard 3
+```
+This game shows how the single-prize board can be useful in endgames. I didn't get it this game, but I wish that I did.
+
+```twitch
+id: 2677221321
+title: Dengo v BoxZard 4
+```
+
+```twitch
+id: 2677221319
+title: Dengo v BoxZard 5
+```
+Using Premium Power and Vitality Band to allow Solrock to KO Chi-Yu is often a good play. This time in the early-game, but sometimes in the mid-game instead.
+
+```twitch
+id: 2677221317
+title: Dengo v BoxZard 6
+```
+
+```twitch
+id: 2677221320
+title: Dengo v BoxZard 7
+```
 
 ### Absol - Favorable
 
@@ -141,6 +329,41 @@ The winning prize trade is pretty idealistic. You need the first KO (usually wit
 - Pre-attach Energy to Lopunny so you might not need Turo+Balloon. Hitting for 160 twice is sufficient if you have Boss and the Stadium to bump their Lively.
 - If they have two Munkidori with Dark, KO one before going in with Lopunny. We do not want them getting the triple Adrenabrain as it makes both offensive and defensive breakpoints.
 
+```twitch
+id: 2677258007
+title: Dengo (Mawile) v Absol 1
+```
+This game shows how to deal with Cornerstone.
+
+```twitch
+id: 2677258001
+title: Dengo (Mawile) v Absol 2
+```
+Interesting game. This game shows how taking an unintuitive KO is actually the winning line.
+
+```twitch
+id: 2677340489
+title: Dengo (Mawile) v Absol (Moltres) 1
+```
+Kinda close game.
+
+```twitch
+id: 2677340486
+title: Dengo (Mawile) v Absol (Moltres) 2
+```
+This game shows how Moltres can be a threat.
+
+```twitch
+id: 2677340487
+title: Dengo (Mawile) v Absol (Moltres) 3
+```
+
+```twitch
+id: 2677358603
+title: Absol v Dengo (Lopunny) 1
+```
+Most of the games I recorded of this matchup are total clown-fests.
+
 ### Grimmsnarl - Favorable
 
 - Leave backup Gimmighouls unevolved for awhile so they don't take Froslass damage.
@@ -149,6 +372,23 @@ The winning prize trade is pretty idealistic. You need the first KO (usually wit
 - Ideal board is Gholdengo, two Gimmighoul, Solrock, Lunatone, Genesect.
 - Premium Power Pro is often useful for applying pressure with Solrock.
 - One-shot their Grimmsnarl whenever possible, otherwise target Froslass and Snorunt!
+
+```twitch
+id: 2677258005
+title: Dengo v Grimm 1
+```
+Interesting timelines.
+
+```twitch
+id: 2677258006
+title: Dengo v Grimm 2
+```
+
+```twitch
+id: 2677258003
+title: Dengo v Grimm 3
+```
+This game shows how you can draw bad and still win this matchup.
 
 ## Personal thoughts
 

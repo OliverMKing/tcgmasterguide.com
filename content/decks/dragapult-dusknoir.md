@@ -85,7 +85,51 @@ But what if we didn't have an Energy here? No problem, just Turo up the Hawlucha
 - If they have something that isn't an attacker in the Active, slam Jamming. Otherwise, save it for the combo.
 - Phantom Dive usually goes for 200 on Gholdengo and 60 on another Gholdengo/Gimmehoul. Occasionally you can go for a 0-4-2 prize map, taking four on two Gholdengo with two Phantom Dives and then two on Genesect with Ursaluna. This line requires no Dusknoir or Hawlucha, and of course is situational.
 
-### Gardevoir / Jellicent - Depends on their list
+```twitch
+id: 2676468352
+title: Dragapult v Gholdengo 1
+```
+
+```twitch
+id: 2676468361
+title: Dragapult v Gholdengo 2
+```
+Punishing their lack of Gimmighoul is a common win-con.
+
+```twitch
+id: 2676468357
+title: Dragapult v Gholdengo 3
+```
+This game is a good example of how punishing their liabilities can be a relevant way to win.
+
+```twitch
+id: 2676468336
+title: Dragapult v Gholdengo 4
+```
+
+```twitch
+id: 2676468339
+title: Dragapult v Gholdengo 5
+```
+
+```twitch
+id: 2676468367
+title: Dragapult v Gholdengo 6
+```
+
+```twitch
+id: 2676468359
+title: Dragapult v Gholdengo 7
+```
+Almost a great comeback, and not even unreasonable to make it.
+
+```twitch
+id: 2676468338
+title: Dragapult v Gholdengo 8
+```
+This game shows what happens when you fall too far behind before getting going.
+
+### Gardevoir - Depends on their list
 
 This matchup is slightly favorable for Dragapult if they are playing the build with only one Kirlia and no TM:Evo. It is unfavorable if they are playing 2 Kirlia and any amount of TM: Evo.
 
@@ -98,6 +142,63 @@ This matchup is slightly favorable for Dragapult if they are playing the build w
 - Clefairy is generally more threatening in the early-game (and therefore a higher priority to KO), because in the late-game, it can easily be return-KO'd by Ursaluna.
 - Ursaluna is a lot more useful in this matchup than you might expect. They often have to put two-prize Pokemon in play and they can sometimes one-shot Dragapult, so Ursaluna can often close out the game. Sometimes you'll have to plan your prize map so that you can use Counter Catcher at the end of the game!
 
+```twitch
+id: 2676468354
+title: Dragapult v Jelly/Garde (no Evo) 1
+```
+This game explores different routes and shows how to pick apart their board. It also showcases a good instance of attacking with Drakloak at the end.
+
+```twitch
+id: 2676468363
+title: Dragapult v Jelly/Garde (no Evo) 2
+```
+Sometimes you just gotta go for the confusion flip.
+
+```twitch
+id: 2676468358
+title: Dragapult v Jelly/Garde (no Evo) 3
+```
+
+```twitch
+id: 2676468364
+title: Dragapult v Jelly/Garde (no Evo) 4
+```
+Interesting game where they do not get Gardevoir.
+
+```twitch
+id: 2676468350
+title: Dragapult v Jelly/Garde (no Evo) 5
+```
+This game shows a situation where it comes down to a confusion flip off Mind Bend.
+
+```twitch
+id: 2676468365
+title: Dragapult v Jelly/Garde (no Evo) 6
+```
+Interesting endgame. Overlook me getting confused.
+
+```twitch
+id: 2676733823
+title: Dragapult v Garde (with Evo) 1
+```
+Here I play around Devo with the second Dragapult but kind of get punished for it. I could have gotten punished harder by Devo if I didn't though.
+
+```twitch
+id: 2676733819
+title: Dragapult v Garde (with Evo) 2
+```
+Two timelines of the same game, one where each deck wins.
+
+```twitch
+id: 2676733832
+title: Dragapult v Garde (with Evo) 3
+```
+
+```twitch
+id: 2676733821
+title: Dragapult v Garde (with Evo) 4
+```
+
 ### Charizard / Noctowl - Very Favorable
 
 - Denying Charmander is good but not always necessary, especially if they have another attacking threat online such as Terapagos or Pidgeot.
@@ -109,6 +210,59 @@ This matchup is slightly favorable for Dragapult if they are playing the build w
 - Hawlucha is usually more important than Dusknoir!
 - Watch out for Blustery Wind to remove benched damaged Pokemon and try to play around it. Usually you'll just keep Pidgey off the board to begin with.
 - It is fairly easy to play around Briar so just don't forget about it!
+
+```twitch
+id: 2675808576
+title: DawnZard v Dragapult 1
+```
+This game shows how even when things go right for them, the game is pretty much always winnable.
+
+```twitch
+id: 2675808577
+title: DawnZard v Dragapult 2
+```
+This game explores possibilities of double Duskull on both sides.
+
+```twitch
+id: 2675808578
+title: DawnZard v Dragapult 3
+```
+This game demonstrates how you need to still respect their attackers even when they aren't optimally set up.
+
+```twitch
+id: 2676410883
+title: DawnZard (Clefairy) v Dragapult 1
+```
+This game shows how sometimes their Clefairy does nothing. Whether it is a threat or not depends on the situation. I included Clefairy games here because it is still somewhat relevant for games against the regular build, as Clefairy isn't always present.
+
+```twitch
+id: 2676410866
+title: DawnZard (Clefairy) v Dragapult 2
+```
+Even though the matchup is favored, Clefairy is can still be a threat.
+
+```twitch
+id: 2676410870
+title: DawnZard (Clefairy) v Dragapult 3
+```
+This game shows an instance where targeting Hoothoot is best. It can completely kneecap them in some situations.
+
+```twitch
+id: 2676468360
+title: DawnZard (Clefairy) v Dragapult 4
+```
+How to exploit and punish them if they have no Stadium bump (or a way to search it on board).
+
+```twitch
+id: 2676468337
+title: DawnZard (Clefairy) v Dragapult 5
+```
+This game shows how you can still win even with a bad start.
+
+```twitch
+id: 2676468356
+title: DawnZard (Clefairy) v Dragapult 6
+```
 
 ### Dragapult Mirror - Even
 
@@ -128,6 +282,28 @@ This matchup is slightly favorable for Dragapult if they are playing the build w
 - Slam Jamming Tower whenever you see it. It is extremely strong on Turn 1/2.
 - Even though Latias is a big liability, getting a fast Budew is worth putting it down if you have to.
 
+```twitch
+id: 2676573154
+title: Dragapult v BoxZard 2
+```
+Funny game.
+
+```twitch
+id: 2676573153
+title: Dragapult v BoxZard 3
+```
+Funny endgame.
+
+```twitch
+id: 2676573179
+title: Dragapult v BoxZard 4
+```
+
+```twitch
+id: 2676573166
+title: Dragapult v BoxZard 5
+```
+
 ### Absol - Favorable
 
 - Jamming Tower is a premium resource. You can use it early to stop the Turbo Energize, but if you miss that window, save it for Charm later.
@@ -140,6 +316,40 @@ This matchup is slightly favorable for Dragapult if they are playing the build w
 - Be careful about benching liabilities like Fez, Munkidori, and Hawlucha because they can get Yveltal trapped. This is especially dangerous if they have a lot of damage on the board because they can heal it all off. Benching these Pokemon is sometimes ok if a) you can get value from them, b) they don't have a bench space for Yveltal and / or c) you have Turo in hand. Keeping Turo around for this option is very good.
 - If Psyduck does not have Mist, try to snipe it off. Snipe damage is usually best on Absol, but can also be utilized on Latias, Kang, or Psyduck.
 
+```twitch
+id: 2676573152
+title: Dragapult v Absol 1
+```
+This was a weird game. Be careful of retreat lock.
+
+```twitch
+id: 2676573174
+title: Dragapult v Absol 2
+```
+Interesting game that looks at different lines.
+
+```twitch
+id: 2676573151
+title: Dragapult v Absol 3
+```
+This game shows how to dance around Terminal Period.
+
+```twitch
+id: 2676573148
+title: Dragapult v Absol 4
+```
+Interesting early-game showcasing how Budew can really mess with them.
+
+```twitch
+id: 2676573180
+title: Dragapult v Absol 5
+```
+
+```twitch
+id: 2676573175
+title: Dragapult v Absol 6
+```
+
 ### Grimmsnarl - Unfavorable
 
 - Munkidori is very important.
@@ -149,6 +359,41 @@ This matchup is slightly favorable for Dragapult if they are playing the build w
 - Try to keep them from getting second Grimmsnarl into play.
 - Jamming Tower is a premium card in this matchup. Can be used proactively to stop TM/Balloon, and/or reactively to bump their Stadium.
 - KO'ing both of their Munkidori + using Iono can be a very strong play that limits their options. I usually prioritize KO'ing Munkidori over Froslass. Of course, Snorunt can be easily KO'd before it evolves which is sometimes more convenient.
+
+```twitch
+id: 2676573173
+title: Dragapult v Grimm 1
+```
+Latias can be a massive liability.
+
+```twitch
+id: 2676573150
+title: Dragapult v Grimm 2
+```
+Close game.
+
+```twitch
+id: 2676573149
+title: Dragapult v Grimm 3
+```
+Watch out for tempo Devo, but there's sometimes nothing you can do about it.
+
+```twitch
+id: 2676573176
+title: Dragapult v Grimm 4
+```
+How to make the craziest comeback you've ever seen.
+
+```twitch
+id: 2676733818
+title: Dragapult v Grimm 5
+```
+
+```twitch
+id: 2676733827
+title: Dragapult v Grimm 6
+```
+Make them get lucky. But how do they always have it?!
 
 ## Personal thoughts
 

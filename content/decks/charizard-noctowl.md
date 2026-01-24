@@ -83,11 +83,6 @@ They used Watchtower, but luckily we have the Stadium counter. How do we optimal
 
 ### Gholdengo - Favorable
 
-```twitch
-id: 2675808573
-title: Charizard / Noctowl vs Gholdengo
-```
-
 - The most important thing is to plan out the prize map very far in advance. Oftentimes will rely on Briar to close out the game. You will need to chain multiple Charizard, and may need Dusknoir against an end-game single-prize board.
 - Establishing multiple Hoothoot and Charmander is more important than Duskull in most spots. Dusknoir is usually not worth investing into early even though it seems good, as you need a fully established board. It's mostly used for closing out the game.
 - Be careful to always have outs to your Stage 2s, or get them in advance with Dawn. With only one Ultra Ball, finding Stage 2s can be difficult on turns where you need to use Boss or Briar. Stretcher is an important piece in chaining Charizard for this reason.
@@ -95,7 +90,59 @@ title: Charizard / Noctowl vs Gholdengo
 - Some end-games you'll need to keep everything out of Solrock range, especially when relying on Iono, and this sometimes requires thinking a turn ahead and managing your board appropriately.
 - If they use Watchtower, we may need to use Charmander's Blazing Destruction to remove it, so try to leave yourself with that option.
 
-### Gardevoir / Jellicent - Favorable
+```twitch
+id: 2675808573
+title: Charizard / Noctowl vs Gholdengo 1
+```
+This game shows how you can punish them if they play 50 HP Gimmi.
+
+```twitch
+id: 2675808564
+title: DawnZard v Gholdengo 2
+```
+This game shows how Iono is relevant in the matchup.
+
+```twitch
+id: 2675808565
+title: DawnZard v Gholdengo 3
+```
+This game shows when attacking Pidgeot can be good against Gholdengo! Though it's not as common as in other matchups.
+
+```twitch
+id: 2675808583
+title: DawnZard v Gholdengo 4
+```
+This game shows how you can punish Genesect with manual Terapagos.
+
+```twitch
+id: 2675808574
+title: DawnZard v Gholdengo 5
+```
+
+```twitch
+id: 2677340490
+title: DawnZard v Gholdengo (Watchtower) 1
+```
+Using Blazing Destruction and making an epic comeback against Turn 1 Watchtower.
+
+```twitch
+id: 2677340499
+title: DawnZard v Gholdengo (Watchtower) 2
+```
+I finally found an example of how to lose the prize trade.
+
+```twitch
+id: 2677340498
+title: DawnZard v Gholdengo (Watchtower) 3
+```
+Another example of how Charizard can lose the prize trade.
+
+```twitch
+id: 2677340485
+title: DawnZard v Gholdengo (Watchtower) 4
+```
+
+### Gardevoir - Favorable
 
 - Dusknoir isn't as much of a priority as you'd expect, but it can still be useful occasionally, especially for KO'ing Ralts + Gardevoir in the same turn.
 - Aggressively targeting down the Ralts line is often very strong, as well as KO'ing Gardevoir on sight.
@@ -104,6 +151,30 @@ title: Charizard / Noctowl vs Gholdengo
 - If they start off attacking with Frillish, try to get Charmeleon and then Charizard as soon as possible. For attacking options before Charizard comes into play, gust-KO Ralts with Fan Rotom or manually power Terapagos if possible.
 - If they go into Jellicent early such as Turn 2 and you don't already have Charmeleon out, go for the pop off turn with Boss's Orders and Rare Candies.
 - Gust cards are absolutely premium in this matchup. Even Counter Catcher is often useful in the early-game.
+
+```twitch
+id: 2676410869
+title: DawnZard v Gardevoir 1
+```
+Making a comeback with the raw power of Charizard.
+
+```twitch
+id: 2676410867
+title: DawnZard v Gardevoir 2
+```
+This game shows how Iono can be very strong in the matchup.
+
+```twitch
+id: 2676410872
+title: DawnZard v Gardevoir 3
+```
+This game showcases the problems with going slow early-game.
+
+```twitch
+id: 2676410871
+title: DawnZard v Gardevoir 4
+```
+Trying different lines and having an aneurysm.
 
 ### Dragapult / Dusknoir - Very Unfavorable
 
@@ -115,6 +186,60 @@ title: Charizard / Noctowl vs Gholdengo
 - Fezandipiti is a pretty massive liability in the early- and mid-game. So is Terapagos, but often you have to put that down anyway.
 - The Clefairy tech does not swing the matchup, as it's still nearly impossible to beat them if they draw well. However, Clefairy allows you to convert games where they don't draw well. This portion of games can be turned from losses into wins thanks to Clefairy. However, you still need a lot of luck to win.
 
+```twitch
+id: 2675808576
+title: DawnZard v Dragapult 1
+```
+Even when a lot of things go right, this matchup is still hard to win.
+
+```twitch
+id: 2675808577
+title: DawnZard v Dragapult 2
+```
+This game explores possibilities of double Duskull on both sides.
+
+```twitch
+id: 2675808578
+title: DawnZard v Dragapult 3
+```
+This is an interesting tempo game, showing how the deck can still function even when not fully set up.
+
+```twitch
+id: 2676410883
+title: DawnZard (Clefairy) v Dragapult 1
+```
+This game shows how sometimes Clefairy does nothing.
+
+```twitch
+id: 2676410866
+title: DawnZard (Clefairy) v Dragapult 2
+```
+Rare footage of Clefairy doing its job.
+
+```twitch
+id: 2676410870
+title: DawnZard (Clefairy) v Dragapult 3
+```
+This game shows a funny instance of a valiant attacking Fez.
+
+```twitch
+id: 2676468360
+title: DawnZard (Clefairy) v Dragapult 4
+```
+This is one example of how a Stadium-bump could be very useful in this matchup.
+
+```twitch
+id: 2676468337
+title: DawnZard (Clefairy) v Dragapult 5
+```
+This game shows what happens when you don't get to stabilize
+
+```twitch
+id: 2676468356
+title: DawnZard (Clefairy) v Dragapult 6
+```
+More instances of Clefairy being a fraud.
+
 ### Grimmsnarl - Favorable*
 
 - Manual Pidgeot can be good for attacking on Turn 2.
@@ -124,6 +249,16 @@ title: Charizard / Noctowl vs Gholdengo
 - If you do have to Candy into Zard, powering up Terapagos can play around Devo.
 
 *With Grimmsnarls adding Budew, I may need to re-test this to see if it is still favorable.
+
+```twitch
+id: 2677315537
+title: DawnZard v Grimm (No Budew) 1
+```
+
+```twitch
+id: 2677315538
+title: DawnZard v Grimm (No Budew) 2
+```
 
 ### Absol - Depends on Klefki
 
@@ -136,6 +271,48 @@ This matchup is favorable with Klefki and unfavorable without it.
 - Dusknoir is either best in the early-game to KO their only attacking Mega, or the late-game to win. Don't bother trying to cheese them with Klefki (if you have it), save it for when it's needed for a big Dusknoir combo.
 - If you don't have Klefki, aggressively KO Psyduck and try to catch them without a Stretcher to get value from Dusknoir. It's very hard to win without Dusknoir. This also lets you get value from offensive Fan Rotom.
 
+```twitch
+id: 2675808567
+title: DawnZard (no Klefki) v Absol 1
+```
+This is how to almost make a comeback after bricking at the beginning. Try not to run out of switching cards or you'll get retreat locked!
+
+```twitch
+id: 2675808563
+title: DawnZard (no Klefki) v Absol 2
+```
+This game is a good example of planning a prize map without Klefki.
+
+```twitch
+id: 2675808581
+title: DawnZard (no Klefki) v Absol 3
+```
+This game shows how tempo can carry even with an otherwise poor setup.
+
+```twitch
+id: 2675808575
+title: DawnZard (Klefki) v Absol 1
+```
+Sometimes you still need to KO Psyduck even with Klefki in the deck.
+
+```twitch
+id: 2675808579
+title: DawnZard (Klefki) v Absol 2
+```
+This is a pretty one-sided game, showing how the decks interact with various combinations of Klefki and / or Duck on the board.
+
+```twitch
+id: 2675808566
+title: DawnZard (Klefki) v Absol 3
+```
+This game shows how even suboptimal draws can end up winning. My brain was also operating at the level of a caveman at the end, which is quite funny.
+
+```twitch
+id: 2675808580
+title: DawnZard (Klefki) v Absol 4
+```
+This game demonstrates the power of Klefki in this matchup.
+
 ### Charizard / Pidgeot - Favorable
 
 - This matchup is all about Dusknoir control and board positioning. You always want Duskull in play, and double Duskull is very potent. If they have one Duskull in play, taking it out is often best.
@@ -144,6 +321,24 @@ This matchup is favorable with Klefki and unfavorable without it.
 - Killing their Pidgeot is often best, but not always necessary. Pidgeot can be a liability on both sides in the late-game, which is why keeping the opponent's Pidgeot around isn't the worst thing ever.
 - Look for opportunities to shut down their options. Wiping out Charizard + Charmander, or both Duskull, etc. can be potent.
 - Taking the first prize can be risky if you aren't stabilized, as they can use Charizard + Defiance Band to KO Terapagos (only relevant against the non-Max Belt build with Defiance Band, against other builds, being aggressive with Fan Rotom is fine.).
+
+```twitch
+id: 2676468351
+title: DawnZard v BoxZard 1
+```
+This game looks at various different lines.
+
+```twitch
+id: 2676468355
+title: DawnZard v BoxZard 2
+```
+Fast pressure is very strong.
+
+```twitch
+id: 2676468366
+title: DawnZard v BoxZard 3
+```
+Close game.
 
 ### Charizard / Noctowl Mirror - Even
 

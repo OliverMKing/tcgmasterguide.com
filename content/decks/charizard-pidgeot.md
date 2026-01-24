@@ -87,7 +87,47 @@ We may instead go for back-to-back Bosses. Boss KO'ing the Fez loses to gust plu
 - Ideal board is double Pidgey, double Mander, Duskull, Chi-Yu. Tatsugiri is fine to have if you need it.
 - Almost always want to take a two-prize KO whenever possible.
 
-### Gardevoir / Jellicent - Favorable
+```twitch
+id: 2677221311
+title: Dengo v BoxZard 1
+```
+I maybe could have played this game differently. It can be difficult to work Dusknoir into a normal prize trade, and sometimes there's nothing you can do about it.
+
+```twitch
+id: 2677221309
+title: Dengo v BoxZard 2
+```
+This game shows how Klefki is a fraud. While it varies on the situation, this is a compelling case to not go out of your way to get Klefki.
+
+```twitch
+id: 2677221318
+title: Dengo v BoxZard 3
+```
+This game is a good example of how Turo can be very useful in this matchup.
+
+```twitch
+id: 2677221321
+title: Dengo v BoxZard 4
+```
+
+```twitch
+id: 2677221319
+title: Dengo v BoxZard 5
+```
+Getting Chi-Yu in the Active early is definitely good, but it is sad when they have the response.
+
+```twitch
+id: 2677221317
+title: Dengo v BoxZard 6
+```
+This was a reasonable Iono effort, but it just didn't work out this time.
+
+```twitch
+id: 2677221320
+title: Dengo v BoxZard 7
+```
+
+### Gardevoir - Favorable
 
 - KO Gardevoir on sight.
 - Dusknoir is strong but not a priority. Stabilizing your board to play around their options is more important. However, if you have the option to boardwipe their Gardevoir lines (such as Dusknoir the Ralts and KO their Gardevoir, that's obviously very strong).
@@ -96,6 +136,24 @@ We may instead go for back-to-back Bosses. Boss KO'ing the Fez loses to gust plu
 - Setting up with TM:Evo is generally best, as it does not leave you vulnerable to Devo. However, you often have to Candy into the initial Pidgeot because of the Scream Tail threat. Setting up a second Pidgeot is very strong if possible.
 - Their main win cons are setting up Devo or Mew one-shot. Try to play around these however possible. They also are aiming to remove Pidgeot as it is extremely important.
 - Third Charmander can help prevent getting boardwiped.
+
+```twitch
+id: 2677185403
+title: Garde v BoxZard 1
+```
+Back and forth game. Optimizing and trying different lines.
+
+```twitch
+id: 2677185407
+title: Garde v BoxZard 2
+```
+Looking at different timelines of the same game.
+
+```twitch
+id: 2677185402
+title: Garde v BoxZard 3
+```
+Looking at different timelines. Always need to respect their comeback potential.
 
 ### Charizard / Noctowl - Unfavorable
 
@@ -107,6 +165,24 @@ We may instead go for back-to-back Bosses. Boss KO'ing the Fez loses to gust plu
 - Keep track of their breakpoints and manage your board accordingly. Charizard / Noctowl typically doesn't run damage modifiers, so if they do not have Duskull on the board (of if you KO it), their damage is capped.
 - If they take the first prize, try to respond with Defiance Band KO on their Terapagos.
 
+```twitch
+id: 2676468351
+title: DawnZard v BoxZard 1
+```
+This game looks at various different lines and shows how to win this matchup.
+
+```twitch
+id: 2676468355
+title: DawnZard v BoxZard 2
+```
+Sometimes you need to go for a high-roll play, even though it doesn't always work out.
+
+```twitch
+id: 2676468366
+title: DawnZard v BoxZard 3
+```
+Close game.
+
 ### Dragapult / Dusknoir - Unfavorable
 
 - Prioritize setting up Pidgeot and stabilizing your board over attacking. Pidgeot is extremely important and awkward for them to KO.
@@ -114,6 +190,29 @@ We may instead go for back-to-back Bosses. Boss KO'ing the Fez loses to gust plu
 - Dusknoir/Dusclops are very strong. Duskull isn't a priority in the early-game, but it can be very useful later to help one-shot Dragapult. Threatening double Duskull is also very potent because if they want to KO both, they have to float a ton of damage.
 - Defiance Band (and sometimes Briar) are important pieces in making comebacks.
 - If you do not have to play a Stadium, save it to counter Jamming Tower. However, if you have to play a Stadium in order to set up (especially under Item lock), that is fine.
+
+```twitch
+id: 2676573154
+title: Dragapult v BoxZard 2
+```
+Funny game.
+
+```twitch
+id: 2676573153
+title: Dragapult v BoxZard 3
+```
+Funny endgame.
+
+```twitch
+id: 2676573179
+title: Dragapult v BoxZard 4
+```
+
+```twitch
+id: 2676573166
+title: Dragapult v BoxZard 5
+```
+Attacking with Pidgeot!
 
 ### Absol - Unfavorable
 
@@ -125,6 +224,18 @@ We may instead go for back-to-back Bosses. Boss KO'ing the Fez loses to gust plu
 - Two-shotting Absol can be ok if they're attacking with it, accepting the Terminal Period response.
 - Stadiums, Defiance Band, Jet Energy, and honestly most things are very important resources so you just have to be careful.
 
+```twitch
+id: 2677258000
+title: ZardBox v Absol 1
+```
+This was an interesting game. I'm also just learning the matchup.
+
+```twitch
+id: 2677258004
+title: ZardBox v Absol 2
+```
+Interesting endgame.
+
 ### Grimmsnarl - Unfavorable
 
 - Manual Pidgeot can be very good, especially on Turn 2.
@@ -134,6 +245,24 @@ We may instead go for back-to-back Bosses. Boss KO'ing the Fez loses to gust plu
 - Iono and Boss are very important resources. Try to use all of them at the best times as they are very effective at disrupting the opponent's deck.
 - Attacking Fez can be good in the early-game as an efficient Froslass killer. If they KO Fez with Grimmsnarl, it powers up Charizard.
 - Try to play around Devo, such as second Pidgey or evolving to second Charizard the turn before they Devo. This is all very situational, mostly there isn't much you can do about the Devo.
+
+```twitch
+id: 2677315534
+title: ZardBox v Grimm 1
+```
+This is an interesting game that shows how Charizard can make a comeback.
+
+```twitch
+id: 2677315535
+title: ZardBox v Grimm 2
+```
+This is an interesting game that is also an example of how the manual attacking Pidgeot can be good.
+
+```twitch
+id: 2677315536
+title: ZardBox v Grimm 3
+```
+This game shows how Ursaluna is a big threat and common lose-condition.
 
 ### Charizard / Pidgeot Mirror - Even
 

@@ -93,7 +93,37 @@ Once again, Bossing the Pidgeot would be viable if we had another follow-up Boss
 - Moltres helps with closing out the game if you're able to get a few prizes with Cornerstone. After Cornerstone dies, try to make a single prize board so that you can always activate Counter Catcher/Defiance Band. Even if you play Moltres, the matchup is still bad and you have to draw well. Also Moltres doesn't do anything vs Lopunny, just Mawile.
 - If they are playing Lopunny, try to KO Buneary on sight. If they TM: Evo into Lopunny, make sure you have Charm on Cornerstone, and gust up the Lopunny to smack it. For Lopunny, you'll need multiple Munkidori set up. If they use up Turos, punish them by pivoting into Yveltal gameplan.
 
-### Gardevoir / Jellicent - Even or Slightly Unfavorable
+```twitch
+id: 2677258007
+title: Dengo (Mawile) v Absol 1
+```
+This game shows how Cornerstone alone is not good enough.
+
+```twitch
+id: 2677258001
+title: Dengo (Mawile) v Absol 2
+```
+Interesting game. Ignore my brain fart on lethal in the first timeline.
+
+```twitch
+id: 2677340489
+title: Dengo (Mawile) v Absol (Moltres) 1
+```
+Kinda close game.
+
+```twitch
+id: 2677340486
+title: Dengo (Mawile) v Absol (Moltres) 2
+```
+Rare footage of Moltres actually doing its thing.
+
+```twitch
+id: 2677340487
+title: Dengo (Mawile) v Absol (Moltres) 3
+```
+Moltres being good again. Is this legit?
+
+### Gardevoir - Even or Slightly Unfavorable
 
 - Slam Mist Energy on Absol because it protects from Mew and Mind Bend. Ideal board is Kang, Absol, Latias, two Munki, and then an open spot depending on the situation.
 - Starting out aggressively is good if they won't be able to immediately punch your Absol after its first attack. Otherwise, try to get Absol and multiple Munkidori with Energy.
@@ -102,6 +132,30 @@ Once again, Bossing the Pidgeot would be viable if we had another follow-up Boss
 - If you have a Mega in the Active with no HP buffs, Diancie with two Adrenabrain can one-shot it, so try to play around that.
 - Clutch strategies are not the go-to. It is best if you are waiting to find a game-winning combo, buying a bit of time in general, or if you have the Munkidori advantage on board. Clutch can be useful but it's very situational and doesn't always come up. Also they probably play a Turo so watch out for that (in other words, don't rely on Clutch sticking forever if they haven't used Turo yet).
 - Second attacker is ideally the second Absol, but this can be hard to pull off. Pech and Ursaluna can also be decent closers, especially if they take their first KO on Absol to go to three. As usual, Kang is the least useful attacker but sometimes gets used anyway because of convenience or necessity. Energy Switch is very useful for enabling Pecharunt when no other attacker is available, which can take 1 or 2 prizes fairly easily, and Ursaluna can take the last 1-2.
+
+```twitch
+id: 2677185410
+title: Garde v Absol 1
+```
+Me being a headless chicken.
+
+```twitch
+id: 2677185406
+title: Garde v Absol 2
+```
+Starting out ahead into a close endgame.
+
+```twitch
+id: 2677185405
+title: Garde v Absol 3
+```
+This was a kind of weird game.
+
+```twitch
+id: 2677185404
+title: Garde v Absol 4
+```
+Getting dominated to start into an interesting endgame.
 
 ### Charizard / Noctowl - Depends on Klefki
 
@@ -116,6 +170,47 @@ This matchup is favorable if they don't have Klefki and unfavorable if they do.
 - Make sure you can always Stretcher for Psyduck if they KO it.
 - Usually you only need one Munkidori with Dark.
 
+```twitch
+id: 2675808567
+title: DawnZard (no Klefki) v Absol 1
+```
+This game is a good example of using Yveltal to punish them for using switch cards.
+
+```twitch
+id: 2675808563
+title: DawnZard (no Klefki) v Absol 2
+```
+This game demonstrates how to take advantage of and punish their resources to make a comeback!
+
+```twitch
+id: 2675808581
+title: DawnZard (no Klefki) v Absol 3
+```
+This game shows how Kangaskhan can be a convenient backup attacker.
+
+```twitch
+id: 2675808575
+title: DawnZard (Klefki) v Absol 1
+```
+This game explores some potential routes with suboptimal draws.
+
+```twitch
+id: 2675808579
+title: DawnZard (Klefki) v Absol 2
+```
+This is a pretty one-sided game, showing how the decks interact with various combinations of Klefki and / or Duck on the board.
+
+```twitch
+id: 2675808566
+title: DawnZard (Klefki) v Absol 3
+```
+This game comes down to an interesting decision: force a sudden death or go for a 50-50 flip on Kang. You'll have to excuse me completely spacing out near the end.
+
+```twitch
+id: 2675808580
+title: DawnZard (Klefki) v Absol 4
+```
+
 ### Dragapult / Dusknoir - Unfavorable
 
 - Ideal board is Absol Latias Kang double Monkey Psyduck. All of these are extremely important. Need to Stretcher Duck if they KO it and are threatening Dusclops.
@@ -127,6 +222,41 @@ This matchup is favorable if they don't have Klefki and unfavorable if they do.
 - Leave Kang in the Active early-game to set up. Being the aggressor with Absol is ok, especially if you have plenty of Energy on the board. Usually respond to Phantom Dive with Terminal Period. Using Claw into their first Dragapult is often not ideal because you want to one-shotting it with Terminal Period.
 - After Absol goes down, can use Kang, Ursaluna, or second Absol as your second attacker depending on the situation. Kang is generally the least useful but the most convenient because it's already on your board and may already have Energy.
 
+```twitch
+id: 2676573152
+title: Dragapult v Absol 1
+```
+Weird game. Going in with Absol seemed fine but kind of got punished by Neo Upper.
+
+```twitch
+id: 2676573174
+title: Dragapult v Absol 2
+```
+Interesting game that looks at different lines, and how to make a nice comeback. Kindly overlook the (possible) misplay at the beginning and missing the lethal.
+
+```twitch
+id: 2676573151
+title: Dragapult v Absol 3
+```
+I think going in with Absol was alright here, as the game then kinda progressed as if I hadn't (so I wouldn't have gotten the benefits of doing so). Sometimes it's hard to tell whether or not you should go in or wait.
+
+```twitch
+id: 2676573148
+title: Dragapult v Absol 4
+```
+Yveltal goes hard in this game.
+
+```twitch
+id: 2676573180
+title: Dragapult v Absol 5
+```
+I think I misjudged the situation this time and went in with Absol when I shouldn't, since it was good a lot of other times.
+
+```twitch
+id: 2676573175
+title: Dragapult v Absol 6
+```
+
 ### Charizard / Secret Box - Favorable
 
 - Cornerstone is bait early on! Ideal board is Absol, Kang, two Munki, Pech/Latias, Psyduck. Sometimes Yveltal can be in there as well. You can sometimes pivot into Cornerstone as your second attacker later if they run out of gusts.
@@ -136,6 +266,18 @@ This matchup is favorable if they don't have Klefki and unfavorable if they do.
 - In general, just make it as as possible hard for them to KO a Mega.
 - If they punch your Absol, either use Penny to heal or take the opportunity to Terminal Period their Pidgeot.
 - Hitting Boss, Jet, or Super Rod with Claw of Darkness can be game-winning.
+
+```twitch
+id: 2677258000
+title: ZardBox v Absol 1
+```
+This was an interesting game. I'm also just learning the matchup.
+
+```twitch
+id: 2677258004
+title: ZardBox v Absol 2
+```
+Interesting endgame.
 
 ### Grimmsnarl - Favorable
 
@@ -147,7 +289,19 @@ This matchup is favorable if they don't have Klefki and unfavorable if they do.
 - If they punch a Mega with Grimmsnarl, use a bunch of Adrenabrains and Terminal Period. Try to get the Mega out of two-shot range with HP buffs and Adrenabrain.
 - If you're not sure what to do, do nothing but set up or KO their Munkidori with Energy.
 - If you need to buy time for healing or setup, Yveltal can trap their Froslass or Munkidori.
-- Ideal board is Kang, Absol, Latias, double Munki, plus extra spot, or Pech+Yveltal instead of Latias.
+- Ideal board is Kang, Absol, Latias, double Munki, plus extra spot, or Pech + Yveltal instead of Latias.
+
+```twitch
+id: 2677315533
+title: Absol v Grimm 1
+```
+Me trying to figure out how to navigate this matchup. It can get a little weird sometimes.
+
+```twitch
+id: 2677315540
+title: Absol v Grimm 2
+```
+This game demonstrates how important Munkidori control is. The Munkis are everything.
 
 ### Absol Mirror - Even
 
