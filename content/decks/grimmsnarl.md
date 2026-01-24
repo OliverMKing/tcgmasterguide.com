@@ -78,6 +78,22 @@ Energy: 8
 - Having Munkidori in the Active on Turn 1 is very good because Solrock cannot KO it, and it is a bit awkward for them.
 - Counter Catcher is a premium resource.
 
+```twitch
+id: 2677258005
+title: Dengo v Grimm 1
+```
+Interesting timelines.
+
+```twitch
+id: 2677258006
+title: Dengo v Grimm 2
+```
+
+```twitch
+id: 2677258003
+title: Dengo v Grimm 3
+```
+
 ### Dragapult / Dusknoir - Favorable
 
 - Two Froslass is good, but if it isn't conveniently available, one Froslass is fine. For example, it's usually better to prioritize Morgrem and Froslass instead of double Froslass.
@@ -87,7 +103,43 @@ Energy: 8
 - Look for opportunities to land a devastating Devo for tempo. If they do not play Rare Candy, Devo can oftentimes prevent them from using Phantom Dive on the next turn. You almost never need Devo for a full board wipe, so it's better used whenever an opportunity arises.
 - If they have any two prize liabilities in play, Yveltal can be very strong. Otherwise, it is basically useless.
 
-### Gardevoir / Jellicent - Slightly Favorable
+```twitch
+id: 2676573173
+title: Dragapult v Grimm 1
+```
+Hard punishing their Latias if they put it down.
+
+```twitch
+id: 2676573150
+title: Dragapult v Grimm 2
+```
+Close game.
+
+```twitch
+id: 2676573149
+title: Dragapult v Grimm 3
+```
+Tempo Devo can be very strong.
+
+```twitch
+id: 2676573176
+title: Dragapult v Grimm 4
+```
+Could have Ultra'd for second Froslass. It would have changed how the game progressed, but also would put Grimmsnarl within KO range earlier.
+
+```twitch
+id: 2676733818
+title: Dragapult v Grimm 5
+```
+This is a good example of the manual Morgrem being useful.
+
+```twitch
+id: 2676733827
+title: Dragapult v Grimm 6
+```
+Just draw the cards you need.
+
+### Gardevoir - Slightly Favorable
 
 - Impidimp and Morgrem are premium resources and so is Boss's Orders.
 - One Froslass is the go-to, but it's not a big deal if you don't get it. Sometimes getting double Morgrem is better. Benching Snorunt if they have already have a Munkidori with a Dark is usually not worth it because it will get KO'd by double Adrenabrain.
@@ -96,6 +148,30 @@ Energy: 8
 - When using Secret Box in the early-game, you usually want to get Boss for the follow up. Boss KO their Gardevoir whenever possible.
 - Watch out for their Devolution, it can punish Candy and is their main win con. If they are not playing Devo, using the Candy aggressively is good.
 - Don't forget that Diancie can one-shot Grimmsnarl with two Munkidori and a Froslass in play, so don't put yourself in a position to easily lose to that.
+
+```twitch
+id: 2677185408
+title: Garde v Grimm 1
+```
+Interesting game. Not sure if I played it correctly.
+
+```twitch
+id: 2677221307
+title: Garde v Grimm 2
+```
+This game showcases the attacking Morgrem. It is often a useful attacker in this matchup.
+
+```twitch
+id: 2677221308
+title: Garde v Grimm 3
+```
+This game demonstrates how Grimmsnarl can punish weak boards if they do not set up well.
+
+```twitch
+id: 2677221310
+title: Garde v Grimm 4
+```
+This game shows how Grimmsnarl's pressure can allow plenty of opportunities for opponents to misplay and potentially let Grimmsnarl back into games that it shouldn't have any business winning.
 
 ### Charizard / Noctowl - Unfavorable*
 
@@ -106,6 +182,17 @@ Energy: 8
 
 *I need to re-test this since adding Budew to the deck to see if the matchup is still unfavorable.
 
+```twitch
+id: 2677315537
+title: DawnZard v Grimm (No Budew) 1
+```
+
+```twitch
+id: 2677315538
+title: DawnZard v Grimm (No Budew) 2
+```
+Rare footage of tempo Grimmsnarl being able to win.
+
 ### Charizard / Secret Box - Favorable
 
 - Watch out for Duskull/Clops/Noir and KO them whenever possible.
@@ -113,6 +200,24 @@ Energy: 8
 - Be careful with using Grimmsnarl. Sometimes you use it for tempo, sometimes for setting up prize map/Devo play. Don't walk into a Charizard one-shot and let them back into the game. You don't have to attack with Grimmsnarl every turn.
 - Double Froslass is a big priority in this matchup, even more than Grimmsnarl.
 - If you need to make a bigger comeback than usual, removing Pidgeot and using Yveltal can buy some time.
+
+```twitch
+id: 2677315534
+title: ZardBox v Grimm 1
+```
+This is an interesting game that shows how they can make a comeback.
+
+```twitch
+id: 2677315535
+title: ZardBox v Grimm 2
+```
+This is an interesting game.
+
+```twitch
+id: 2677315536
+title: ZardBox v Grimm 3
+```
+This game is a common example of Ursaluna being used to close things out.
 
 ### Absol - Unfavorable
 
@@ -122,6 +227,18 @@ Energy: 8
 - You are trying to prize race while they are trying to control. If you can pick up an early KO on Latias/Pech and a Munki, all you need to do from there is KO a Mega with Ursaluna+Adrenabrain. You can force them to activate Ursaluna by continuing to attack with Grimm.
 - Use Boss for either aggressive KO on Munki/two-prizer, otherwise save it for getting around Cornerstone.
 - Do not punch into their Mega (usually Kang) for no reason because they will just get a Terminal Period KO for free.
+
+```twitch
+id: 2677315533
+title: Absol v Grimm 1
+```
+Me trying to figure out how to navigate this matchup. It can get a little weird sometimes.
+
+```twitch
+id: 2677315540
+title: Absol v Grimm 2
+```
+This game demonstrates how important Munkidori control is. The Munkis are everything.
 
 ### Grimmsnarl Mirror - Even
 
