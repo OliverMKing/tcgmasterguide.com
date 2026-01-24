@@ -202,11 +202,18 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
             </span>
           </div>
           {deck.lastEdited && (
-            <div className="flex items-center gap-3 text-sm text-slate-500 dark:text-slate-400">
-              <LocalDate timestamp={deck.lastEdited} prefix="Last updated " />
-              <span className="text-slate-300 dark:text-slate-600">•</span>
-              <ViewHistoryButton history={history} deckTitle={deck.title} />
-              <PageViewCount slug={slug} />
+            <div className="text-sm text-slate-500 dark:text-slate-400">
+              <div className="flex items-center gap-3">
+                <LocalDate timestamp={deck.lastEdited} prefix="Last updated " />
+                <span className="text-slate-300 dark:text-slate-600">•</span>
+                <ViewHistoryButton history={history} deckTitle={deck.title} />
+                <span className="hidden sm:inline">
+                  <PageViewCount slug={slug} />
+                </span>
+              </div>
+              <div className="sm:hidden mt-1">
+                <PageViewCount slug={slug} />
+              </div>
             </div>
           )}
         </header>
