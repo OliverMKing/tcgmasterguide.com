@@ -212,7 +212,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
                 </span>
               </div>
               <div className="sm:hidden mt-1">
-                <PageViewCount slug={slug} />
+                <PageViewCount slug={slug} hideBullet />
               </div>
             </div>
           )}

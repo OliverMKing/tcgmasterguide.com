@@ -4,9 +4,10 @@ import { useEffect, useState } from 'react'
 
 interface PageViewCountProps {
   slug: string
+  hideBullet?: boolean
 }
 
-export function PageViewCount({ slug }: PageViewCountProps) {
+export function PageViewCount({ slug, hideBullet = false }: PageViewCountProps) {
   const [views, setViews] = useState<number | null>(null)
 
   useEffect(() => {
@@ -28,7 +29,7 @@ export function PageViewCount({ slug }: PageViewCountProps) {
   if (views === null) {
     return (
       <>
-        <span className="text-slate-300 dark:text-slate-600">•</span>
+        {!hideBullet && <span className="text-slate-300 dark:text-slate-600">•</span>}
         <span className="h-4 w-16 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
       </>
     )
@@ -40,7 +41,7 @@ export function PageViewCount({ slug }: PageViewCountProps) {
 
   return (
     <>
-      <span className="text-slate-300 dark:text-slate-600">•</span>
+      {!hideBullet && <span className="text-slate-300 dark:text-slate-600">•</span>}
       <span className="text-sm text-slate-500 dark:text-slate-400">
         {views.toLocaleString()} {views === 1 ? 'view' : 'views'}
       </span>
