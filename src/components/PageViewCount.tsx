@@ -28,10 +28,10 @@ export function PageViewCount({ slug, hideBullet = false }: PageViewCountProps) 
 
   if (views === null) {
     return (
-      <>
+      <span className="inline-flex items-center gap-3">
         {!hideBullet && <span className="text-slate-300 dark:text-slate-600">•</span>}
         <span className="h-4 w-16 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
-      </>
+      </span>
     )
   }
 
@@ -40,11 +40,11 @@ export function PageViewCount({ slug, hideBullet = false }: PageViewCountProps) 
   }
 
   return (
-    <>
+    <span className="inline-flex items-center gap-3">
       {!hideBullet && <span className="text-slate-300 dark:text-slate-600">•</span>}
       <span className="text-sm text-slate-500 dark:text-slate-400">
         {views.toLocaleString()} {views === 1 ? 'view' : 'views'}
       </span>
-    </>
+    </span>
   )
 }

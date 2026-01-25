@@ -5,7 +5,7 @@
   "main": "tailwind.config.js",
   "scripts": {
     "dev": "next dev",
-    "prebuild": "prisma generate && node scripts/update-dates.js && node scripts/generate-history.js",
+    "prebuild": "prisma generate && node scripts/generate-dates.js && node scripts/generate-history.js",
     "build": "next build --webpack",
     "postinstall": "prisma generate",
     "start": "next start",

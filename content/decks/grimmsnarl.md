@@ -2,7 +2,6 @@
 title: "Grimmsnarl"
 pokemon: [861]
 tier: 2
-lastEdited: "2026-01-05T19:20:25-05:00"
 ---
 
 ## Decklist

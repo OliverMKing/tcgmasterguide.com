@@ -2,7 +2,6 @@
 title: "Gardevoir"
 pokemon: [282]
 tier: 2
-lastEdited: "2026-01-05T21:02:46-05:00"
 ---
 
 ## Decklist

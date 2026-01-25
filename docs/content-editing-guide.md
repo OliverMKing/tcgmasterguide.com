@@ -94,7 +94,6 @@ tier: 1
 | `title` | Yes | The display name of the deck (e.g., "Charizard / Pidgeot") |
 | `pokemon` | Yes | Array of Pokédex numbers for the Pokemon representing the deck |
 | `tier` | Yes | Tier ranking (1, 2, or 3). Tier 1 = top meta decks, Tier 2 = competitive, Tier 3 = viable |
-| `lastEdited` | No | **Do not add this** - it's automatically generated |
 
 ### 3. Find Pokemon Numbers
 

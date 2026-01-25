@@ -5,6 +5,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import { LocalDate } from '@/components/LocalDate'
 import LiveBanner from '@/components/LiveBanner'
+import { deckDates } from '@/generated/deck-dates'
 
 // Force static generation at build time
 export const dynamic = 'force-static'
@@ -16,7 +17,6 @@ function getPokemonSprite(pokedexId: number): string {
 interface Deck {
   id: string
   title: string
-  lastEdited: string | null
   pokemon: number[]
   tier: number
 }
@@ -36,7 +36,6 @@ function getAllDecks(): Deck[] {
       return {
         id: slug,
         title: data.title || slug,
-        lastEdited: data.lastEdited || null,
         pokemon: (data.pokemon as number[]) || [],
         tier: (data.tier as number) || 3,
       }
@@ -72,6 +71,7 @@ const tierColors: Record<number, string> = {
 }
 
 function DeckCard({ deck }: { deck: Deck }) {
+  const lastEdited = deckDates[deck.id] || null
   return (
     <Link
       href={`/decks/${deck.id}`}
@@ -102,9 +102,9 @@ function DeckCard({ deck }: { deck: Deck }) {
           </svg>
         </span>
       </div>
-      {deck.lastEdited && (
+      {lastEdited && (
         <p className="text-sm text-slate-400 dark:text-slate-500 mt-3">
-          <LocalDate timestamp={deck.lastEdited} prefix="Updated " />
+          <LocalDate timestamp={lastEdited} prefix="Updated " />
         </p>
       )}
     </Link>

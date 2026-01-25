@@ -13,6 +13,7 @@ import { TwitchVideoEmbed } from '@/components/TwitchVideoEmbed'
 import Comments from '@/components/Comments'
 import { ViewHistoryButton } from '@/components/ViewHistoryButton'
 import { deckHistory } from '@/generated/deck-history'
+import { deckDates } from '@/generated/deck-dates'
 import type { Metadata } from 'next'
 
 // Force static generation at build time
@@ -68,7 +69,6 @@ function getDeckContent(slug: string) {
     const { data, content } = matter(fileContent)
     return {
       title: data.title,
-      lastEdited: data.lastEdited || null,
       pokemon: (data.pokemon as number[]) || [],
       tier: (data.tier as number) || 3,
       content,
@@ -140,6 +140,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
 
   const headings = extractHeadings(deck.content)
   const history = deckHistory[slug] || []
+  const lastEdited = deckDates[slug] || null
 
   // Preprocess content to add separators between consecutive lists
   // Pattern: list item, blank line, list item -> insert a separator
@@ -201,10 +202,10 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
               {tierLabels[deck.tier]}
             </span>
           </div>
-          {deck.lastEdited && (
+          {lastEdited && (
             <div className="text-sm text-slate-500 dark:text-slate-400">
               <div className="flex items-center gap-3">
-                <LocalDate timestamp={deck.lastEdited} prefix="Last updated " />
+                <LocalDate timestamp={lastEdited} prefix="Last updated " />
                 <span className="text-slate-300 dark:text-slate-600">•</span>
                 <ViewHistoryButton history={history} deckTitle={deck.title} />
                 <span className="hidden sm:inline">
