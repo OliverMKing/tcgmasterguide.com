@@ -1,7 +1,8 @@
 generator client {
-  provider      = "prisma-client-js"
-  // "native" for local dev, "debian-openssl-3.0.x" for Azure Static Web Apps (really Azure functions) runtime
-  binaryTargets = ["native", "debian-openssl-3.0.x"]
+  provider   = "prisma-client-js"
+  output     = "../src/generated/prisma"
+  // Use TypeScript-based query engine (no Rust binaries) - smaller bundle, works better in serverless
+  engineType = "client"
 }
 
 datasource db {
