@@ -239,15 +239,16 @@ title: DawnZard (Clefairy) v Dragapult 6
 ```
 More instances of Clefairy being a fraud.
 
-### Grimmsnarl - Favorable*
+### Grimmsnarl - Unfavorable
 
+This matchup is unfavorable if they have Budew and favorable if they do not.
+
+- Try to make some sort of cheap attacker in case they attack with Budew early. Killing it once is sometimes enough so you don’t get delayed too long.
 - Manual Pidgeot can be good for attacking on Turn 2.
 - Dusknoir is absolutely cracked in this matchup and getting Duskull is a high priority.
 - Try to not leave enough damage for them to spawn trap Duskull, or just put down two Duskull at once to make it hard for them to KO both. Use Dusknoir super aggressively.
 - Using a Jet/Prime for Turn 2 attack is fine, otherwise save them for retreat lock.
 - If you do have to Candy into Zard, powering up Terapagos can play around Devo.
-
-*With Grimmsnarls adding Budew, I may need to re-test this to see if it is still favorable.
 
 ```twitch
 id: 2677315537
@@ -258,6 +259,18 @@ title: DawnZard v Grimm (No Budew) 1
 id: 2677315538
 title: DawnZard v Grimm (No Budew) 2
 ```
+
+```twitch
+id: 2682290632
+title: Grimm (Budew) v DawnZard 1
+```
+This game showcases the power of Budew.
+
+```twitch
+id: 2682290630
+title: Grimm (Budew) v DawnZard 2
+```
+More Budew action.
 
 ### Absol - Depends on Klefki
 

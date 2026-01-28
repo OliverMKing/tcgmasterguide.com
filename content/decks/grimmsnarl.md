@@ -1,42 +1,44 @@
 ---
 title: "Grimmsnarl"
 pokemon: [861]
-tier: 2
+tier: 1
 ---
 
 ## Decklist
 
-![Grimmsnarl decklist](./images/grimmsnarl/decklist2.png)
+![Grimmsnarl decklist](./images/grimmsnarl/toedgrim2.png)
 ```decklist
 Pokémon: 19
 3 Marnie's Impidimp DRI 134
 2 Marnie's Morgrem DRI 135
 2 Marnie's Grimmsnarl ex DRI 136
-3 Snorunt PAR 37
-3 Froslass TWM 53
 3 Munkidori TWM 95
+2 Snorunt M2a 35
+2 Froslass TWM 53
+1 Toedscool OBF 118
+1 Toedscruel PAR 17
 1 Bloodmoon Ursaluna ex TWM 141
-1 Tatsugiri TWM 131
 1 Budew PRE 4
+1 Tatsugiri TWM 131
 
 Trainer: 33
-4 Lillie's Determination MEG 119
 4 Arven OBF 186
+4 Lillie's Determination MEG 119
 4 Iono PAL 185
 2 Boss's Orders MEG 114
 3 Night Stretcher SFA 61
-2 Buddy-Buddy Poffin TEF 144
-1 Nest Ball SVI 181
 1 Counter Catcher PAR 160
-1 Ultra Ball MEG 131
 1 Rare Candy MEG 125
-1 Energy Search SVI 172
+1 Ultra Ball MEG 131
 1 Super Rod PAL 188
+1 Nest Ball SVI 181
+1 Buddy-Buddy Poffin TEF 144
+1 Energy Search SVI 172
 1 Secret Box TWM 163
 2 Technical Machine: Evolution PAR 178
 1 Technical Machine: Devolution PAR 177
 1 Air Balloon BLK 79
-2 Spikemuth Gym DRI 169
+3 Spikemuth Gym DRI 169
 1 Artazon PAL 171
 
 Energy: 8
@@ -44,17 +46,17 @@ Energy: 8
 ```
 ### Inclusions
 
-- Budew and the 3-3 Froslass line are good against Gholdengo and Dawn Zard. Although Gholdengo is still unfavored, it's worth having the extra percentage points when the cards can also make a big difference against Dawn Zard.
-- 3 Stretcher is so insanely good, you always want to have Stretcher, and get value from all of them when you draw them. 
-- Tatsugiri is needed for consistency.
+- Budew is extremely strong against Dawn Zard and can sometimes scam Gholdengo.
+- 3 Stretcher is so insanely good, you always want to have Stretcher, and get value from all of them when you draw them. It's especially important with Toedscruel.
+- Toedscruel increases the win rate against Gholdengo quite a bit, though the matchup is still close to even or slightly unfavorable. I think it is worth playing.
 - Energy Search is relevant way too often. I would never cut it.
+- Tatsugiri is necessary for consistency.
 
 ### Exclusions
 
 - Yveltal is mostly used to punish specific board states/resources (such as used Turo). Oftentimes you won't use it at all, but the threat of it restricts your opponent's options. It can also be useful against decks that have a hard time finding their Turo to buy time. With the other techs, there isn't space for it right now.
 - Sacrificing the fourth Munkidori for third Stretcher is good, it just sucks when you prize two Munkidori, but that is rare. I don't think you need four Munkidori in this meta, but it's still fine if you're so inclined.
-
-**To try:** Moltres
+- Psyduck is bad. All of the Dusknoir matchups are already favorable, and the bench spot it occupies is a massive liability. Charizard decks also have Klefki anyway.
 
 ## Gameplay
 
@@ -67,7 +69,15 @@ Energy: 8
 
 ## Matchups
 
-### Gholdengo - Unfavorable
+### Gholdengo - Slightly Unfavorable
+
+This matchup is slightly unfavorable with Toedscruel and unfavorable without it.
+
+- Leave Toedscool unevolved until they burn a lot of Energy. Prioritize setting up Froslass and Grimmsnarl but still get Toedscool.
+- Ideal board is Grimmsnarl, Morgrem, double Monkey, and Toedscool. Two Froslass can still be good but the board becomes awkward with Toed. Single Froslass is ok if you’re attacking with Grimmsnarl. If they want to KO your only Froslass they still have to deal with the Grimmsnarl.
+- Look for opportunities to set up for Devo checkmate. This is not the main gameplan but still relevant enough to keep an eye out for.
+
+For the non Toedscruel build:
 
 - Prioritize getting double Froslass into play. Recover them when the opponent KO's them.
 - Yveltal is very useful because it makes them burn Turos and they cannot Boss on the turn they Turo.
@@ -76,6 +86,30 @@ Energy: 8
 - Devo can be useful if you are able to buy enough time, or if the opponent foolishly evolves all of their Gimmighoul immediately.
 - Having Munkidori in the Active on Turn 1 is very good because Solrock cannot KO it, and it is a bit awkward for them.
 - Counter Catcher is a premium resource.
+
+```twitch
+id: 2682290644
+title: Grimm (Toed) v Gholdengo 1
+```
+Rare footage of Grimmsnarl winning without Toedscruel.
+
+```twitch
+id: 2682290643
+title: Grimm (Toed) v Gholdengo 2
+```
+Toedscruel checkmate. They can’t keep it off the board forever.
+
+```twitch
+id: 2682290646
+title: Grimm (Toed) v Gholdengo 3
+```
+Toedscruel being good.
+
+```twitch
+id: 2682290645
+title: Grimm (Toed) v Gholdengo 4
+```
+I go deep into the weeds to fully optimize this interesting endgame.
 
 ```twitch
 id: 2677258005
@@ -172,14 +206,25 @@ title: Garde v Grimm 4
 ```
 This game shows how Grimmsnarl's pressure can allow plenty of opportunities for opponents to misplay and potentially let Grimmsnarl back into games that it shouldn't have any business winning.
 
-### Charizard / Noctowl - Unfavorable*
+### Charizard / Noctowl - Favorable
 
-- Devo can be used for tempo if they use two Candy early, this slows down subsequent Dusknoir.
+- Budew is very important in the early game to slow them down. If you do not have Budew, this matchup is unfavorable. Using Budew is best when they need Candy to do anything, mostly shuts down insane Dusknoir plays, allowing Grim to set up and get back into the game.
+- Devo can be used for tempo if they use two Candy early, this slows down subsequent Dusknoir. However, Devo is not usually that important if you're using Budew.
 - Try to KO/spawn trap Duskull on sight as it is the biggest threat.
 - Retreat lock is bait unless they're out of switching cards or maybe if they only have one left. Chaining Yveltal+gust is basically impossible.
 - Try to get double Froslass and Grimmsnarl/Morgrem quickly. The main way to win is by matching tempo and denying Duskull. One Adrenabrain + Grimmsnarl snipe KO's Duskull.
 
-*I need to re-test this since adding Budew to the deck to see if the matchup is still unfavorable.
+```twitch
+id: 2682290632
+title: Grimm (Budew) v DawnZard 1
+```
+This game showcases the power of Budew.
+
+```twitch
+id: 2682290630
+title: Grimm (Budew) v DawnZard 2
+```
+More Budew action.
 
 ```twitch
 id: 2677315537
@@ -248,4 +293,4 @@ This game demonstrates how important Munkidori control is. The Munkis are everyt
 
 ## Personal thoughts
 
-Grimmsnarl is a very potent deck with mostly good matchups. However, its biggest glaring issue is its unsolvable problem with Gholdengo, which alone is a big thing holding it back. I wouldn't play it in the current meta unless I thought I could at least beat mediocre Gholdengo players.
+Grimmsnarl is a very potent deck with mostly good matchups. It is still slighly unfavorable with Gholdengo and unfavorable against Absol, but with the addition of Toedscruel making the Gholdengo matchup playable (and Budew beating Dawn Zard), Grimmsnarl seems like a strong play. The deck also has some consistency issues.
