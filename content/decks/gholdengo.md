@@ -436,7 +436,7 @@ title: Grimm (Toed) v Gholdengo 1
 Trying to navigate with bad draws.
 
 ```twitch
-id: 2682290643
+id: 2682290631
 title: Grimm (Toed) v Gholdengo 2
 ```
 Go after the Toed at important moments, not just whenever because you can, as they will reestablish it.
