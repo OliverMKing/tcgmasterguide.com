@@ -94,7 +94,7 @@ title: Grimm (Toed) v Gholdengo 1
 Rare footage of Grimmsnarl winning without Toedscruel.
 
 ```twitch
-id: 2682290643
+id: 2682290631
 title: Grimm (Toed) v Gholdengo 2
 ```
 Toedscruel checkmate. They can’t keep it off the board forever.
