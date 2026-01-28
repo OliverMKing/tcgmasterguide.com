@@ -61,6 +61,17 @@ function extractMarkdownContent(fileContent) {
   return fileContent.slice(endOfFrontmatter + 3).trim()
 }
 
+function getHeadingAtLine(lines, lineIndex) {
+  // Walk backwards from lineIndex to find the most recent heading
+  for (let i = lineIndex; i >= 0; i--) {
+    const line = lines[i]
+    if (line.startsWith('## ') || line.startsWith('### ')) {
+      return line.replace(/^#+\s*/, '')
+    }
+  }
+  return null
+}
+
 function computeDiff(oldContent, newContent) {
   if (!oldContent) {
     // This is the first commit, everything is an addition
@@ -72,6 +83,7 @@ function computeDiff(oldContent, newContent) {
         type: 'add',
         lineNumber: i + 1,
         content: line,
+        heading: getHeadingAtLine(lines, i),
       })),
     }
   }
@@ -96,6 +108,7 @@ function computeDiff(oldContent, newContent) {
         type: 'add',
         lineNumber: i + 1,
         content: line,
+        heading: getHeadingAtLine(newLines, i),
       })
       additions++
     }
@@ -108,6 +121,7 @@ function computeDiff(oldContent, newContent) {
         type: 'remove',
         lineNumber: i + 1,
         content: line,
+        heading: getHeadingAtLine(oldLines, i),
       })
       deletions++
     }
@@ -181,6 +195,7 @@ export interface HistoryChange {
   type: 'add' | 'remove'
   lineNumber: number
   content: string
+  heading: string | null
 }
 
 export interface HistoryEntry {

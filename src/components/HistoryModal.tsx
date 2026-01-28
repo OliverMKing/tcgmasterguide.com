@@ -45,6 +45,18 @@ function ChangeItem({ change }: { change: HistoryChange }) {
   )
 }
 
+function groupChangesByHeading(changes: HistoryChange[]): Map<string | null, HistoryChange[]> {
+  const groups = new Map<string | null, HistoryChange[]>()
+  for (const change of changes) {
+    const heading = change.heading
+    if (!groups.has(heading)) {
+      groups.set(heading, [])
+    }
+    groups.get(heading)!.push(change)
+  }
+  return groups
+}
+
 export function HistoryModal({ isOpen, onClose, history, deckTitle }: HistoryModalProps) {
   const [selectedIndex, setSelectedIndex] = useState(0)
   const detailsRef = useRef<HTMLDivElement>(null)
@@ -190,9 +202,20 @@ export function HistoryModal({ isOpen, onClose, history, deckTitle }: HistoryMod
                 </div>
 
                 {selectedEntry.changes.length > 0 ? (
-                  <div className="space-y-2">
-                    {selectedEntry.changes.map((change, i) => (
-                      <ChangeItem key={`${change.type}-${change.lineNumber}-${i}`} change={change} />
+                  <div className="space-y-4">
+                    {Array.from(groupChangesByHeading(selectedEntry.changes)).map(([heading, changes]) => (
+                      <div key={heading ?? 'no-heading'}>
+                        {heading && (
+                          <h4 className="text-sm font-medium text-slate-600 dark:text-slate-400 mb-2 pb-1 border-b border-slate-200 dark:border-slate-600">
+                            {heading}
+                          </h4>
+                        )}
+                        <div className="space-y-1">
+                          {changes.map((change, i) => (
+                            <ChangeItem key={`${change.type}-${change.lineNumber}-${i}`} change={change} />
+                          ))}
+                        </div>
+                      </div>
                     ))}
                   </div>
                 ) : (
