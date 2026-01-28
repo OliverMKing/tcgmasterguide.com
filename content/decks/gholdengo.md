@@ -315,6 +315,8 @@ title: Dengo v BoxZard 7
 
 ### Absol - Favorable
 
+This matchup is generally favorable, but if they have Toedscruel, it is slightly unfavorable.
+
 - If they go only Cornerstone board, do not attack. Solrock never makes any real progress and it disables Mawile's second attack. If they only have single-prize targets, ignore them because you don't want to proc Counter Catcher. If this scenario happens, just load up Mawile and sweep them with its second attack.
 - If they have two- or three-prize targets on their board, play normally and KO them with Gholdengo. If they start putting Energy on Cornerstone, then start powering up Mawile.
 - Save Turos for if they try to smack Mawile (or for retreat lock). Use Picnic Basket on Mawile if you are about to start attacking with it. Picnic Basket can also be good on Gholdengo to deny prizes. Saving Prime Catcher for retreat lock is also good so that you can use Turos elsewhere such as on Mawile.
@@ -323,10 +325,23 @@ title: Dengo v BoxZard 7
 - Ideal board is two Gholdengo, Solrock, Lunatone, Mawile, and Genesect if you need it (which you usually do).
 - Try to not give too many prizes up to Cornerstone or else they can just win a normal prize trade.
 
+For the Lopunny build:
+
 - If you're playing Lopunny, try to get it in play as soon as possible if they are going with Cornerstone. If they are already powered up, you'll need TM: Evo to prevent the Buneary from getting sniped. 
 - Save Picnic Basket for when they punch Lopunny with Cornerstone, as you need it to survive double Adrenabrain.
 - Pre-attach Energy to Lopunny so you might not need Turo+Balloon. Hitting for 160 twice is sufficient if you have Boss and the Stadium to bump their Lively.
 - If they have two Munkidori with Dark, KO one before going in with Lopunny. We do not want them getting the triple Adrenabrain as it makes both offensive and defensive breakpoints.
+
+Against Toedscruel:
+
+- Solrock can sometimes be used to KO Toedscool, or to close out the game with all damage mods on a Munkidori.
+- Artazon is a very good resource for bumping Lively Stadium, which is very relevant.
+- Super Rod is a premium resource for getting back Energy under Toedscruel (oftentimes Metals for Mawile).
+-  If they only have one Toedscool/Toedscruel in play, KO that. Otherwise, KO their first Absol and start powering up Mawile.
+- If you can get a fast cheap prize in addition to the three from Absol, that can be quite strong for Mawile.
+- If you play Cram, it can occasionally be useful to KO Toedscruel but I found it did not impact the matchup that much.
+- Vitality Band is often relevant.
+- Picnic Basket is usually irrelevant.
 
 ```twitch
 id: 2677258007
@@ -361,7 +376,25 @@ title: Dengo (Mawile) v Absol (Moltres) 3
 id: 2677358603
 title: Absol v Dengo (Lopunny) 1
 ```
-Most of the games I recorded of this matchup are total clown-fests.
+Most of the games I recorded with Lopunny are total clown-fests.
+
+```twitch
+id: 2682290642
+title: Absol (Toed) v Gholdengo 1
+```
+Me figuring how to play this matchup against Toedscruel.
+
+```twitch
+id: 2682290643
+title: Absol (Toed) v Gholdengo 2
+```
+This game is a common example of how things can fall apart at the end. You have to handle resources very carefully due to Claw of Darkness.
+
+```twitch
+id: 2682290633
+title: Absol (Toed) v Gholdengo 3
+```
+Close game.
 
 ### Grimmsnarl - Favorable
 
@@ -371,6 +404,13 @@ Most of the games I recorded of this matchup are total clown-fests.
 - Ideal board is Gholdengo, two Gimmighoul, Solrock, Lunatone, Genesect.
 - Premium Power Pro is often useful for applying pressure with Solrock.
 - One-shot their Grimmsnarl whenever possible, otherwise target Froslass and Snorunt!
+
+Against Toedscruel:
+
+- If they have Toedscruel, you sometimes do want to KO it, but not necessarily all the time. Try to carefully manage Energy and prize map the endgame based on how much Energy you have left.
+- If you get enough of a lead, KO’ing the Toed isn’t even necessary.
+- If they don’t have a lot of damage/only one Froslass, sometimes KO’ing the Froslass is best.
+- Premium Power Pro is very useful, usually for Solrock to KO Froslass or Munki.
 
 ```twitch
 id: 2677258005
@@ -388,6 +428,30 @@ id: 2677258003
 title: Dengo v Grimm 3
 ```
 This game shows how you can draw bad and still win this matchup.
+
+```twitch
+id: 2682290644
+title: Grimm (Toed) v Gholdengo 1
+```
+Trying to navigate with bad draws.
+
+```twitch
+id: 2682290643
+title: Grimm (Toed) v Gholdengo 2
+```
+Go after the Toed at important moments, not just whenever because you can, as they will reestablish it.
+
+```twitch
+id: 2682290646
+title: Grimm (Toed) v Gholdengo 3
+```
+This game is a good example of why you want a third Gimmighoul down.
+
+```twitch
+id: 2682290645
+title: Grimm (Toed) v Gholdengo 4
+```
+I go deep into the weeds to fully optimize this interesting endgame.
 
 ## Personal thoughts
 

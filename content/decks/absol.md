@@ -6,59 +6,57 @@ tier: 3
 
 ## Decklist
 
-![decklist for Absol](./images/absol/decklist.png)
+![decklist for Absol](./images/absol/toedlist.png)
 ```decklist
-Pokémon: 15
+Pokémon: 16
 3 Munkidori TWM 95
-2 Mega Absol ex MEG 86
+2 Toedscool PAR 16
+1 Toedscruel PAR 17
 2 Mega Kangaskhan ex MEG 104
+2 Mega Absol ex MEG 86
 1 Yveltal MEG 88
-1 Latias ex SSP 76
 1 Bloodmoon Ursaluna ex TWM 141
-1 Psyduck MEP 7
-1 Fezandipiti ex SFA 38
 1 Pecharunt ex SFA 39
-1 Cornerstone Mask Ogerpon ex PRE 58
-1 Moltres PFL 14
+1 Fezandipiti ex SFA 38
+1 Latias ex SSP 76
+1 Psyduck MEP 7
 
 Trainer: 35
-4 Arven OBF 186
 4 Boss's Orders MEG 114
+4 Arven OBF 186
 3 Penny SVI 183
+3 Lillie's Determination MEG 119
 2 Iono PAL 185
-2 Lillie's Determination MEG 119
-2 Ciphermaniac's Codebreaking PRE 104
+2 Ultra Ball MEG 131
 2 Pokégear 3.0 SVI 186
 2 Night Stretcher SFA 61
-2 Nest Ball SVI 181
 2 Counter Catcher PAR 160
 1 Earthen Vessel PAR 163
+1 Jumbo Ice Cream PFL 91
 1 Energy Switch MEG 115
+1 Nest Ball PAF 84
 1 Precious Trolley SSP 185
-2 Bravery Charm PAL 173
 2 Technical Machine: Turbo Energize PAR 179
-1 Defiance Band SVI 169
+2 Bravery Charm PAL 173
 2 Lively Stadium SSP 180
 
-Energy: 10
-5 Darkness Energy MEE 7
+Energy: 9
+7 Darkness Energy MEE 7
 2 Mist Energy TEF 161
-1 Prism Energy BLK 86
-1 Fire Energy MEE 2
-1 Fighting Energy MEE 6
 ```
 ### Inclusions
 
-- Moltres does not really solve the Gholdengo matchup but it at least gives you a chance, as opposed to having an auto-loss which is terrible in this meta.
-- Defiance Band is probably more often used with things other than Moltres, such as Ursaluna, even though it was originally included as a package deal with Moltres. That said, if I cut Moltres I would probably still cut Defiance Band because it is extremely situational.
-- I'm on the fence about Ciphermaniac. I think the card is extremely strong in this deck, natural synergy with Kang, Iono-proof, it's otherwise hard to find the right cards most of the time, and it can also help against Gholdengo when you aren't allowed to have any draw Pokemon on the board. The only issue with Ciphermaniac is its high opportunity cost in terms of deck space. Running one Vessel is a little risky, and I would also like another Dark Energy, so it's possible to cut the Ciphers for those cards. I also like Cipher because it improves overall consistency, which is one area where this deck is lacking.
+- Toedscruel actually works pretty well against Gholdengo, improving the matchup to slightly favorable. However, some of the credit also has to go to Jumbo Ice Cream for thwarting Mawile.
+- Jumbo Ice Cream is extremely strong in every matchup. This deck's main lose condition is the Absol going down too early, and Ice Cream helps prevent that. I am considering adding a second copy.
 - Lively Stadium is relevant often enough to warrant both copies.
+- Two Ultra Ball is necessary with Toedscruel. I still like having Nest Ball too, but perhaps it is cuttable.
 
 ### Exclusions
 
 - Yveltal was pretty underwhelming in testing, so I no longer think you need two of them.
-
-**To try:** Enhanced Hammer, no Mist Energy, Jumbo Ice Cream
+- Cornerstone and Moltres aren't as good at beating Gholdengo as Toedscruel.
+- I think Judge is a terrible card.
+- Other random techs such as Hammer, Devo, and Sandy Shocks seem bad to me but I have not tried them so they could be worthwhile. I would sooner try out a second Jumbo Ice Cream though.
 
 ## Gameplay
 
@@ -66,7 +64,7 @@ Energy: 10
 - Aggressive Absol can also be strong in general if the opponent has a weak start. Multiple Claws of Darkness do compound if you're able to use the attack multiple times. I think this deck really benefits from a balance of playing passive and aggressive depending on the matchup and situation. Most players tend to favor one route or the other when they both can be good. I think this deck requires a lot of experience to get used to. It is very weird and runs into complex situations often.
 - Always be vigilant and look for spots to pivot into a prize trade. This is a very important part of this deck. You need to be able to identify board states and lines to close out games, even when the game was slow up until that point. It is difficult for this deck to power up attackers, so try to get a lot of mileage out of your first Absol. You may need to rely on Ursaluna/Pecharunt to close out a lot of games. Yveltal/Iono can also be a useful stopgap to pivot.
 - Kang is never your go-to attacker, but sometimes you just put Energy on it because you have nothing better to do, and it can act as a convenient backup attacker.
-- With 3, 2, and 1-prize Pokemon, opponents can abuse this to make a convenient prize map for themselves. Your job is to identify what lines your opponent is going for, and use cards like Charm and Penny (or just not putting things down) to make the prize map as difficult as possible.
+- With 3, 2, and 1-prize Pokemon, opponents can abuse this to make a convenient prize map for themselves. Your job is to identify what lines your opponent is going for, and use cards like Charm and Penny (or just not putting things down) to make their prize map as difficult as possible.
 
 ![gameplay situation](./images/absol/gameplay1.png)
 
@@ -82,7 +80,18 @@ Once again, Bossing the Pidgeot would be viable if we had another follow-up Boss
 
 ## Matchups
 
-### Gholdengo - Unfavorable
+### Gholdengo - Slightly Favorable
+
+This matchup is slightly favorable with Toedscruel and unfavorable without it. Your approach to the matchup depends on what build and techs you are playing.
+
+- Ideal board is both Toedscool, Absol, Kang, Latias, Munki/random guy.
+- Do not evolve Toedscool until after they discard a bunch of Energy. Use Stretcher to recover Toedscool if KO’d. If you have Toedscool and Toedscruel, and they KO Toedscruel, make sure to save a Stretcher so you can reestablish it.
+- Spam attacks with Absol. If Absol is KO’d, use second Turbo Energize to load up another one.
+- If they are loading up Mawile, try to gust and smack it.
+- If they play Cram, try to play around it (don’t go to 4 until you’re good and ready, KO Cram if it’s on the board). Just be aware that Cram can KO Toedscruel for minimal investment.
+- Super Rod is their most important resource when Toedscruel is in play, so always Claw it away if you can.
+
+For the non Toedscruel build:
 
 - In the early-game, go for only Cornerstone on board. Having a single-prize Pokemon is also fine. You can use something like Kang or Latias, but try to Penny it up before they can KO it. In general, taking prizes aggressively with Cornerstone is good.
 - Save Boss for smacking Mawile or for closing out the game, depending on the situation.
@@ -91,6 +100,24 @@ Once again, Bossing the Pidgeot would be viable if we had another follow-up Boss
 - Yveltal + Pech can build some damage on the board, which can be useful for closing out the game. However, they play two Turo and sometimes Prime, so you can't rely on Yveltal for long, and probably want to combo it with Iono for the best chance of buying a few turns. This is very situational and somewhat unreliable though.
 - Moltres helps with closing out the game if you're able to get a few prizes with Cornerstone. After Cornerstone dies, try to make a single prize board so that you can always activate Counter Catcher/Defiance Band. Even if you play Moltres, the matchup is still bad and you have to draw well. Also Moltres doesn't do anything vs Lopunny, just Mawile.
 - If they are playing Lopunny, try to KO Buneary on sight. If they TM: Evo into Lopunny, make sure you have Charm on Cornerstone, and gust up the Lopunny to smack it. For Lopunny, you'll need multiple Munkidori set up. If they use up Turos, punish them by pivoting into Yveltal gameplan.
+
+```twitch
+id: 2682290642
+title: Absol (Toed) v Gholdengo 1
+```
+Me figuring how Toedscruel does against Gholdengo.
+
+```twitch
+id: 2682290643
+title: Absol (Toed) v Gholdengo 2
+```
+They have a hard time piecing it together at the end as long as you can establish Toedscruel.
+
+```twitch
+id: 2682290633
+title: Absol (Toed) v Gholdengo 3
+```
+Close game.
 
 ```twitch
 id: 2677258007
@@ -313,4 +340,4 @@ This game demonstrates how important Munkidori control is. The Munkis are everyt
 
 ## Personal thoughts
 
-This is probably the most interesting deck in the format, however I would not recommend playing to a major tournament. It is inconsistent, has a bad matchup spread, and is extremely difficult to play. I rank it along with Charizard/Secret Box at the very bottom of the meta decks, and I won't be playing until something changes in the meta.
+This is probably the most interesting deck in the format, however I would not recommend playing to a major tournament. It is inconsistent, has a bad matchup spread, and is extremely difficult to play. However, with the new additions of Toedscruel and Jumbo Ice Cream, there is some merit to revisiting this deck. These cards might be what Absol needs to save it.
