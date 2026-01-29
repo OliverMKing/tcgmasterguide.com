@@ -1,19 +1,19 @@
 ---
 title: "Gardevoir"
 pokemon: [282]
-tier: 2
+tier: 1
 ---
 
 ## Decklist
 
-![decklist for Gardevoir](./images/gardevoir-jellicent/decklist.png)
+![decklist for Gardevoir](./images/gardevoir-jellicent/cape.png)
 ```decklist
-Pokémon: 18
+Pokémon: 17
 3 Ralts MEG 58
 2 Kirlia MEG 59
 2 Gardevoir ex SVI 86
 3 Munkidori TWM 95
-2 Frillish WHT 44
+1 Frillish WHT 44
 1 Mew ex MEW 151
 1 Lillie's Clefairy ex JTG 56
 1 Latias ex SSP 76
@@ -21,7 +21,7 @@ Pokémon: 18
 1 Fezandipiti ex SFA 38
 1 Scream Tail PAR 86
 
-Trainer: 32
+Trainer: 33
 4 Lillie's Determination MEG 119
 4 Iono PAL 185
 1 Arven OBF 186
@@ -31,10 +31,11 @@ Trainer: 32
 2 Rare Candy MEG 125
 2 Nest Ball SVI 181
 2 Night Stretcher SFA 61
-1 Counter Catcher PAR 160
+2 Counter Catcher PAR 160
 1 Super Rod PAL 188
 1 Secret Box TWM 163
-2 Bravery Charm PAL 173
+1 Bravery Charm PAL 173
+1 Luxurious Cape PAR 166
 1 Technical Machine: Devolution PAR 177
 1 Technical Machine: Evolution PAR 178
 2 Artazon PAL 171
@@ -46,21 +47,20 @@ Energy: 10
 ### Inclusions
 
 - I prefer the Evo build with two Kirlia because it makes a huge difference in the Dragapult matchup. Evo'ing is also generally better in slower matchups, and Jellicent isn't that important overall.
-- Double Frillish is very strong against Gholdengo. It's also important to not prize it in some matchups and situations. That said, it's still possible to cut one.
 - I tried without the Latias, but getting a consistent Turn 1 Frillish is crucial against Charizard, Absol, and mirror.
-- Double Charm is extremely strong against Gholdengo and Absol.
 - Even without Jellicent, Devo is nearly just as good. It's particularly important against Charizard, Gholdengo, and Grimmsnarl.
-- Turo gets used a decent amount. Mostly against decks with retreat lock, which aren't as popular now. It's also good for board fixing, though hard to find at the right time. Finally, it's better with Latias because that's a liability that can be removed, and also because Latias makes Energy get stuck, which Turo can unstick.
+- Turo gets used a decent amount. Mostly against Gholdengo and decks with retreat lock. It is very strong for endgames against Gholdengo that involve Frillish comebacks. It's also good for board fixing, though hard to find at the right time. Finally, it's better with Latias because that's a liability that can be removed, and also because Latias makes Energy get stuck, which Turo can unstick.
 - I'm convinced that second Artazon is better than Mystery Garden, though they do different things so it's weird to compare them. Artazon helps set up and stabilize, and also makes the Turn 1 Frillish a lot more likely. Mystery Garden is more situational and not very good in the early-game. I did not use it that much when I had it, and never missed it when playing without it.
-- Cuttable cards are Frillish, Turo, Bravery Charm, and maybe Latias. I wouldn't cut anything else.
+- I changed my mind about the second Counter Catcher because it is actually very important against Gholdengo, especially the Lopunny build. That is the only reason I've added the second one back in.
+- I also swapped a Charm for a Cape for now, but I'm not sure if this is correct. Cape opens up some power options to close out games, specifically against Gholdengo. However, playing only one Charm carries considerable risks such as prizing it or not finding it at the right time.
 
 ### Exclusions
 
 - I decided to cut Jellicent for now, but since I did a lot of testing with it (and it's still relevant), the  notes still include notes for Jellicent. Jellicent is mostly relevant in the mirror. It's also good against Charizard on the Devo turn, and against Dragapult for the non-Evo build. I wasn't using it very much but it could go back in. It's more important to have in the non-Evo build. Also, the Charizard and mirror matchups are compensated for in other ways.
-- This deck does not need two Counter Catcher! Most games you either don't need any, or just the one, and basically never need two.
-- Luxurious Cape + 8th Psychic are certainly useful, there's no denying that. However, it's a matter of space. I'd rather have some power options (Diancie and Devo) and a winnable Charizard matchup. Charm is also more versatile and consistent than Cape.
+- 8th Psychic and 2nd Arven are certainly useful, but it's a matter of space. I'd rather have some power options (Diancie and Devo) and a better Charizard matchup. I don't think the lack of Arven compromises the Dragapult matchup all that much.
+- Drifloon would most likely require another Psychic and Vessel, and doesn't really help as much against Gholdengo as one might think. However, it can be useful against other things, so playing a deck more focused on that isn't necessarily bad.
 
-**To try: Team Rocket's Watchtower, Budew.**
+**To try: Team Rocket's Watchtower.**
 
 ## Gameplay
 
@@ -95,9 +95,11 @@ My first inclination here was to get Ralts, maybe use Iono, and attack with manu
 
 ## Matchups
 
-### Gholdengo - Depends on lists
+### Gholdengo - Slightly Favorable
 
-This matchup is unfavorable if they are playing Lopunny; favorable otherwise.
+This matchup is a bit more difficult if they are playing Lopunny. With the second Counter Catcher, I think it is slightly favorable. Against non-Lopunny, the matchup is more favorable.
+
+Against non-Lopunny:
 
 - Oftentimes only need one Gardevoir. If your second one is a Kirlia, don't evolve into the second Gardevoir unnecessarily because they won't disrupt your hand. Try to avoid having things in play that Solrock can KO, especially when Item locking. Bravery Charm or delaying Ralts can be good for this.
 - Every turn consider the board state and see if you can pivot into a prize trade. If you can put together a winning prize map, there isn't much they can do about it.
@@ -110,9 +112,17 @@ This matchup is unfavorable if they are playing Lopunny; favorable otherwise.
 - If they are ahead in prizes and threatening a Mawile attack to escape Frillish lock, try to hit CC Iono Mew on their Mawile for 260. Make sure you do not damage the Mawile before hitting it with Mew, and just hope they don't get Turo. This is pretty situational.
 - Charm almost always gets slammed on Frillish.
 
-- Lopunny's presence forces us to play differently because Frillish is ineffective if they already have Lopunny on board. Try to set up fast and go for a more aggressive route. Fast attacking Gardevoir can be good in the early-game if they might not have the response KO right away.
-- Need as many Munkidori as possible established for damage output.
-- It can be difficult for them to find Lopunny, so Frillish and the above strategies can still be effective if they do not have Lopunny on the board.
+Against Lopunny:
+
+- This matchup plays a bit differently than above. The win condition is to keep Lopunny off the board and then use Frillish.
+- Ideal board is double Munkidori, double Gardevoir, Fez, and your single-prize attacker which should be Scream Tail or Frillish depending on the situation.
+- Early attacking Gardevoir is good if either a) there is no Lopunny present or b) you can Counter Catcher smack the Lopunny for 190 with Gardevoir. Otherwise, use Scream Tail to damage the Lopunny as much as possible. If they have Buneary, use Scream Tail to KO it.
+- If you're behind in prizes, make sure to save the Turo! It is very important for converting Frillish endgames.
+- When they are low on Energy and don't have Lopunny, use Frillish and Adrenabrain for a couple of turns to set up a winning play where you take the rest of your prize cards!
+- Putting random extra damage on Lunatone or Solrock is generally good.
+- If they have not used Vitality Band yet, make sure to keep Frillish protected with Charm. Once Lopunny is removed, Charmed Frillish is basically invincible.
+- Frillish can also be randomly used at some points to buy time or be annoying if you don't have a better play.
+- Using Devo to KO the Lopunny is acceptable if it's your only method of doing so. I'd rather have the three prizes, but removing Lopunny is what's important. If you have Jellicent and second Frillish or Turo, you can KO Lopunny with Jellicent + Devo + Iono and then go into Frillish for a very strong play.
 
 ```twitch
 id: 2676733822
@@ -167,6 +177,30 @@ id: 2677358604
 title: Garde v Dengo (Lopunny) 2
 ```
 This game highlights a lot of the issues with this matchup.
+
+```twitch
+id: 2683711308
+title: Garde v Dengo (Lopunny) 3
+```
+Interesting game that shows how to come back as Gardevoir.
+
+```twitch
+id: 2683711305
+title: Garde v Dengo (Lopunny) 4
+```
+I neglected to put Charm on Fez at the end of the game. This protects it from Lopunny, but this does not come up very often. Not sure if Gardevoir would have necessarily won anyway though.
+
+```twitch
+id: 2683711304
+title: Garde v Dengo (Lopunny) 5
+```
+This game shows how Cape can generate a win in a tough spot. However, I did not count that I had exact damage with Adrenabrain and Cape Scream Tail so I initially missed it.
+
+```twitch
+id: 2683711307
+title: Garde v Dengo (Lopunny) 6
+```
+This game showcases an interesting line and endgame lethal play.
 
 ### Gardevoir Mirror - Even / Depends on lists
 
@@ -386,4 +420,4 @@ This game shows the power of Diancie in this matchup, as well as a cool endgame 
 
 ## Personal thoughts
 
-This deck is obviously very good. It just has an unfortunate weakness to Charizard, though it is reasonable into the rest of the field. It has some trouble with Gholdengo/Lopunny too. I strongly prefer the TM Evo build with 3-2-2 Gardevoir as opposed to the other one, as the difference in the Dragapult matchup is massive. Having three Ralts also helps avoid lots of awkward situations and the presence of TM:Evo improves consistency. I would definitely consider playing this deck despite its bad Charizard matchup.
+This deck is obviously very good. It just has an unfortunate weakness to Charizard, though it is reasonable into the rest of the field. I strongly prefer the TM Evo build with 3-2-2 Gardevoir as opposed to the other one, as the difference in the Dragapult matchup is massive. Having three Ralts also helps avoid lots of awkward situations and the presence of TM:Evo improves consistency. I would definitely consider playing this deck despite its bad Charizard matchup.
