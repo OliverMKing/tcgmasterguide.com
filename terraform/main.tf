@@ -123,16 +123,14 @@ resource "azurerm_mssql_server" "main" {
   }
 }
 
-# SQL Database - Serverless
+# SQL Database - Standard tier (DTU-based, predictable pricing)
 resource "azurerm_mssql_database" "main" {
-  name                        = "${var.project_name}-${var.environment}-db"
-  server_id                   = azurerm_mssql_server.main.id
-  collation                   = "SQL_Latin1_General_CP1_CI_AS"
-  max_size_gb                 = var.sql_max_size_gb
-  sku_name                    = "GP_S_Gen5_1"  # Serverless, 1 vCore
-  min_capacity                = 0.5
-  auto_pause_delay_in_minutes = 60
-  zone_redundant              = false
+  name           = "${var.project_name}-${var.environment}-db"
+  server_id      = azurerm_mssql_server.main.id
+  collation      = "SQL_Latin1_General_CP1_CI_AS"
+  max_size_gb    = var.sql_max_size_gb
+  sku_name       = "S1"  # Standard tier, 20 DTUs
+  zone_redundant = false
 
   tags = var.tags
 }
