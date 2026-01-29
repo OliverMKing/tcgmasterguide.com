@@ -1,7 +1,7 @@
 ---
 title: "Gholdengo"
 pokemon: [1000]
-tier: 1
+tier: 2
 ---
 
 ## Decklist
@@ -53,13 +53,14 @@ Energy: 11
 
 - Secret Box was underwhelming. It works well in Stage 2 decks because we often Arven for it and get value from the follow-up Supporter. In this deck we rarely Arven for it, but it is handy when we draw into it naturally. The deck is consistent enough already, and Box is unnecessarily sacrificing the power of Prime Catcher. Playing Prime also allows us to cut the fourth Boss.
 - I basically never used the Ultra Ball, so I cut it. Using TM: Evo for Lopunny is sufficient.
-- Mawile could still be reasonable to play over Lopunny. It is better at countering Cornerstone and doesn't rely as much on prize cards. It is also a little more flexible at closing out endgames. If I did play Lopunny, I would probably play Lana's Aid with it to help against Gardevoir. I did a lot of testing with Mawile, and it's still relevant, so I've included lots of notes about it.
+- Mawile could still be reasonable to play over Lopunny. It is better at countering Cornerstone and doesn't rely as much on prize cards. It is also a little more flexible at closing out endgames. I did a lot of testing with Mawile, and it's still relevant, so I've included lots of notes about it.
 - The fourth Gholdengo is not necessary.
 - 50 HP Gimmighoul is a huge liability in many situations. Although Call for Family is useful, I found the card's downsides to outweight the benefits. I did include some matchup notes about the 50 HP one because it's still relevant.
 - Team Rocket's Watchtower sounds good on paper to counter Charizard, but it didn't improve the winrate very much when I tried it out.  It maybe adds a few percentage points in that matchup, but it's still unfavorable, so I don't think it's worth it. I also did not enjoy having to play Secret Box.
 - Munkidori could be considered over Picnic Basket, as it can be set up preemptively, whereas Picnic Basket has to be drawn at the right time. However, with Lunatone and Solrock now in the deck, there is not much bench space for Munkidori, especially considering it is mostly useful against Dragapult (which requires three Gholdengo/Gimmi and is an already favorable matchup).
+- Lana's Aid is something I'm considering adding.
 
-**To try: Bravery Charm**
+**To try: Bravery Charm, Lana's Aid**
 
 ## Gameplay
 
@@ -81,22 +82,32 @@ Energy: 11
 - Premium Power + Vitality is obviously broken for getting a Solrock KO on a turn you wouldn't otherwise be able to do anything, but don't use it if you have another available play because you might need it later.
 - Gusts and Turo are premium resources
 
-### Gardevoir - Depends on lists
+### Gardevoir - Slightly Unfavorable
 
-This matchup is favorable for the Lopunny build and unfavorable for all others.
+This matchup is fairly close for the the Lopunny build and a little worse for non-Lopunny builds. I think it is slightly unfavorable but is also a very skill-dependent matchup for both sides.
 
-We need to get an aggressive start, try and get as much of a prize lead as possible. This will make it difficult for them to pivot into a prize trade and force them to rely on Frillish and Devo.
+We need to get an aggressive start, try and get as much of a prize lead as possible. This will make it difficult for them to pivot into a prize trade and force them to heavily rely on Frillish.
 
-- If you're playing Lopunny, try to get it in play as soon as possible. It completely invalidates their Frillish strats and is difficult for them to KO. Use Lopunny to respond to Frillish. Otherwise, play normally and use Turos for healing/prize denial. Pre-attaching to Lopunny can also be good. Use the Lopunny to immediately KO any attacking Frillish.
-- Ideal board depends on the situation, but usually it's 3 Dengo (or 2 and Lopunny if you're playing it), LunaRock, and an open spot for Fez, Genesect, or Mawile. Genesect always gets used, but sometimes you want to Turo it up. Three Stage 1s is good because it's easier for them to Devo the fewer Stage 1s you have, which is very relevant.
+- Ideal board depends on the situation, but usually it's 3 Dengo, LunaRock, and an open spot for Fez, Genesect, or Mawile. If playing Lopunny, that can replace the third Dengo. Genesect often gets used, but sometimes you want to Turo it up. Three Stage 1s is good because it's easier for them to Devo the fewer Stage 1s you have, which is very relevant if they play Devo.
 - If not using Turo on Genesect, using it on any damaged Pokemon can be good. Even using it on damaged Luna/Rock can deny a free prize from Adrenabrains.
 - Watch out for their opportunities to pivot into an aggressive prize trade. Sometimes you need to Turo or avoid benching single-prizers because after they kill your first Solrock, they only need to pick off one more single-prize Pokemon to then go 2-2 to close out the game.
 - Try to play Picnic Basket on any turn you can get value from it and aren't Item locked. It's very strong but difficult to use.
-- Mawile can be very strong if they are trying to spam Frillish, just watch out for Mew Counter Catcher (and try to Turo the Mawile if they hit you with that).
 - Don't hit the Frillish for less than a KO for no reason. It's ok to punch it if you're applying relevant pressure, but if they have Munkidori with Dark, it's usually best to not hit into it.
-- Try to one-shot the Frillish whenever possible. If they have Charm, use Gholdengo with three Energy (if you're not playing Lopunny), otherwise use Solrock with Vitality Band.
-- If you decide to KO their Gardevoir, make sure you have enough resources left to deal with the Frillish. Lana's Aid plus Mawile can help with this.
+- Try to one-shot the Frillish whenever possible. If they have Charm, use Gholdengo with three Energy (if you're not playing Lopunny). If it isn't Charmed, use Solrock with Vitality Band.
+- When you KO their Gardevoir, make sure you have a plan to deal with Frillish.
 - If you do not have a secondary attacker available (such as Mawile or Lopunny), power up Fezandipiti to deal with their Frillish.
+
+As Lopunny:
+
+- Try to get Lopunny in play as soon as possible. Otherwise, they can spawn trap Buneary with Counter Catcher. Lopunny completely invalidates their Frillish strats and is difficult for them to KO. Use Lopunny to respond to Frillish. Otherwise, play normally and use Turos for healing/prize denial. Pre-attaching to Lopunny can also be good. Use the Lopunny to immediately KO any attacking Frillish.
+- Picnic Basket is particularly good if they use Scream Tail to smack Lopunny and you can gust around it + heal.
+- If they smack Lopunny, you may be tempted to Turo it. This is sometimes bait, depending on the situation. Leaving it damaged can be ok if you're winning the prize trade. Turo'ing it can be ok if you have enough resources to win on pure tempo without losing to Frillish. If you Turo the Lopunny, accept that it may never see the light of day again. Therefore, it is mainly used as a way to deny prize cards.
+- Prioritizing taking KO's on their two-prize Pokemon. This takes care of the "winning the prize race" aspect of the matchup, while Lopunny takes care of the "don't lose to Frillish" part.
+
+As Mawile: 
+
+- Mawile can be very strong if they are trying to spam Frillish, just watch out for Mew Counter Catcher (and try to Turo the Mawile if they hit you with that).
+- Lana's Aid with Mawile can be your safety net after KO'ing their Gardevoir.
 
 ```twitch
 id: 2676733822
@@ -150,6 +161,30 @@ Lopunny is very effective at countering Frillish, leaving them with few options.
 id: 2677358604
 title: Garde v Dengo (Lopunny) 2
 ```
+
+```twitch
+id: 2683711308
+title: Garde v Dengo (Lopunny) 3
+```
+Interesting game that shows that sometimes hedging against Iono is not worth it. Sometimes it's best to play for the win hoping that they don't have it, as they sometimes won't. This requires exceptional board state analysis that I may have misjudged on this one.
+
+```twitch
+id: 2683711305
+title: Garde v Dengo (Lopunny) 4
+```
+This game shows how Gholdengo can have all the answers as long as it draws well.
+
+```twitch
+id: 2683711304
+title: Garde v Dengo (Lopunny) 5
+```
+Interesting game where I try out different lines.
+
+```twitch
+id: 2683711307
+title: Garde v Dengo (Lopunny) 6
+```
+Interesting game that shows how Gardevoir can threaten lethal from unlikely spots.
 
 ### Dragapult / Dusknoir - Favorable
 
@@ -455,4 +490,4 @@ I go deep into the weeds to fully optimize this interesting endgame.
 
 ## Personal thoughts
 
-Gholdengo is extremely strong. Its matchups are overall quite good even though it's weak to Charizard/Noctowl. I would usually prefer a deck with more agency such as Charizard or Gardevoir but I would consider this deck anyway because it's so broken. Gholdengo has basically no skill expression, so you're more at the mercy of luck than with other decks. Overall, it is a great deck and definitely worth playing.
+Gholdengo is extremely strong. Its matchups are overall quite good even though it's weak to Charizard/Noctowl. I would usually prefer a deck with more agency such as Charizard or Gardevoir but I would consider this deck anyway because it's so broken. Gholdengo has relatively little skill expression, so you're more at the mercy of luck than with other decks. Overall, it is a great deck and definitely worth playing.
