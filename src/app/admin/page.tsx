@@ -166,6 +166,7 @@ export default function AdminPage() {
   }
 
   const deleteComment = async (commentId: string) => {
+    if (!confirm('Are you sure you want to delete this comment?')) return
     setUpdatingCommentId(commentId)
     try {
       const res = await fetchWithRetry(`/api/admin/comments/${commentId}/approve`, {
