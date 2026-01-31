@@ -58,7 +58,57 @@ Energy: 7
 - Klefki is very relevant against Psyduck, but most decks don't play Psyduck. Absol is slightly fading in popularity. Klefki is always a consideration that could make its way back into the list if Absol is enough of a popular threat.
 - Second Iono would be nice and helpful in various spots. It's just not entirely necessary all that often. You don't ever need both, but sometimes you really need that one at the end of the game. Iono is also a useful draw/consistency card which makes it generally good. I think it is similar in usefulness to Counter Catcher, but maybe slightly less so.
 
-**To try: Wellspring Ogerpon, Jamming + Pidgeotto.**
+![Wellspring](./images/charizard-noctowl/wellspring.png)
+```decklist
+Pokémon: 24
+3 Hoothoot SCR 114
+3 Noctowl SCR 115
+3 Charmander PAF 7
+1 Charmeleon PFL 12
+2 Charizard ex OBF 125
+2 Pidgey OBF 162
+1 Pidgeotto OBF 163
+2 Pidgeot ex OBF 164
+1 Terapagos ex SCR 128
+1 Wellspring Mask Ogerpon ex TWM 64
+2 Fan Rotom SCR 118
+1 Duskull PRE 35
+1 Dusknoir PRE 37
+1 Fezandipiti ex SFA 38
+
+Trainer: 29
+4 Dawn PFL 87
+2 Boss's Orders MEG 114
+2 Crispin PRE 105
+1 Iono PAL 185
+1 Briar SCR 132
+4 Buddy-Buddy Poffin TEF 144
+4 Nest Ball SVI 181
+4 Rare Candy MEG 125
+1 Night Stretcher SFA 61
+1 Ultra Ball MEG 131
+1 Switch MEG 130
+1 Super Rod PAL 188
+1 Sparkling Crystal PRE 129
+2 Area Zero Underdepths SCR 131
+
+Energy: 7
+5 Fire Energy MEE 2
+2 Water Energy MEE 3
+```
+### Inclusions
+
+- Wellspring Ogerpon gives a few percentage points against Dragapult. The matchup is still unfavorable, but this version could still be worth playing. Although the trade off in deck spots makes the deck a little weaker against Gardevoir, the Wellspring can be useful against Gholdengo and Charizard in addition to Dragapult.
+- Sparking Crystal has to be the Ace Spec if playing the Wellspring build. I tried Prime Catcher and the Wellspring just does not function without Crystal.
+- 60 HP Pidgey makes more sense without Jets in the list.
+- Switch is better than Jet now to accommodate Wellspring, and it can be fetched via Noctowl.
+- I tried with just one Crispin but prefer two to accomodate Wellspring.
+- Pidgeotto makes sense to play in this build because the Dragapult matchup is actually playable thanks to Wellspring. However, Wellspring also needs Pidgeot in play to consistently be useful, so the Pidgeotto is actually needed.
+
+### Exclusions
+
+- Unfortunately some cards need to be cut in order to play Wellspring, such as Duskull and Jet Energy. This can make the deck a little less efficient overall, however since Wellspring can be used in matchups besides Dragapult, that helps compensate.
+- I would consider a second Wellspring over Terapagos because starting with it is very good. Terapagos can sometimes be a liability due to its retreat or simply not being a Wellspring, but it is also a useful card sometimes (especially against Cornerstone).
 
 ## Gameplay
 
@@ -145,11 +195,19 @@ title: DawnZard v Gholdengo (Watchtower) 4
 
 - Dusknoir isn't as much of a priority as you'd expect, but it can still be useful occasionally, especially for KO'ing Ralts + Gardevoir in the same turn.
 - Aggressively targeting down the Ralts line is often very strong, as well as KO'ing Gardevoir on sight.
+- If you go first and they don't start with Frillish or Mew, attaching to Pidgey can be quite strong.
 - Establishing Charizard is very important, sometimes it's more of a priority than anything else like Pidgeot or Hoothoot. Charizard mercilessly destroys them.
 - Terapagos is nice to keep around for Devo protection. Sometimes keep Noctowl on the board when they bump your Stadium. If you have Terapagos + Noctowl on the board, you can easily recover from any Devolution combo. Watch out for late-game Jellicent + Devolution.
 - If they start off attacking with Frillish, try to get Charmeleon and then Charizard as soon as possible. For attacking options before Charizard comes into play, gust-KO Ralts with Fan Rotom or manually power Terapagos if possible.
 - If they go into Jellicent early such as Turn 2 and you don't already have Charmeleon out, go for the pop off turn with Boss's Orders and Rare Candies.
 - Gust cards are absolutely premium in this matchup. Even Counter Catcher is often useful in the early-game.
+- Consider playing Items preemptively, as they can pivot into Frillish at any time.
+
+```twitch
+id: 2684926209
+title: Chaoxty v DawnZard 1
+```
+I spend a very long time analyzing this unique and brain-melting game.
 
 ```twitch
 id: 2676410869
@@ -175,7 +233,9 @@ title: DawnZard v Gardevoir 4
 ```
 Trying different lines and having an aneurysm.
 
-### Dragapult / Dusknoir - Very Unfavorable
+### Dragapult / Dusknoir - Unfavorable
+
+This matchup is very unfavorable for the normal build, and unfavorable for the Wellspring build. We mostly need them to draw bad, but that does happen often.
 
 - Try to get Duskull down early and evolved before they start using Phantom Dive. Otherwise, only put it down when making a relevant multi-threat, or else it will get farmed by Phantom Dive. Early Duskull is sometimes more important than early Charmander.
 - Try to get early prizes with manual Fan Rotom or Terapagos to at least somewhat limit their Dusknoir options later on. Boss Fan Rotom is good against Duskull.
@@ -184,6 +244,14 @@ Trying different lines and having an aneurysm.
 - If you somehow get Pidgeot in play, Blustery Wind is very strong to bump damaged Pokemon off your bench and take one prize card at the same time.
 - Fezandipiti is a pretty massive liability in the early- and mid-game. So is Terapagos, but often you have to put that down anyway.
 - The Clefairy tech does not swing the matchup, as it's still nearly impossible to beat them if they draw well. However, Clefairy allows you to convert games where they don't draw well. This portion of games can be turned from losses into wins thanks to Clefairy. However, you still need a lot of luck to win.
+
+With Wellspring build:
+
+- Prioritize setting up Pidgeot via Pidgeotto and attaching Energy to Wellspring.
+- Using Wellspring's second attack without shuffling the Energy back (for a flat 100) can be a valid play.
+- If they have Budew active, sometimes it's better to pass instead of Sob so that you can Sob trap it next turn and buy more time. For example, if they have no attacking threat next turn, there's not much of a reason to Sob it.
+- KO'ing both Drakloak in the early-game is the ideal play to look for. While Wellspring is often used at the beginning, it can also be used to close things out in the endgame.
+- Sob can buy time against Latias, Fez, or Hawlucha. Don't rely on it indefinitely, as they can use Munkidori or Turo to offset the damage, but it can allow you to set up threats such as Dusknoir.
 
 ```twitch
 id: 2675808576
@@ -202,6 +270,24 @@ id: 2675808578
 title: DawnZard v Dragapult 3
 ```
 This is an interesting tempo game, showing how the deck can still function even when not fully set up.
+
+```youtube
+id: 8a1AVI7UFfM
+title: DawnZard (Wellspring) v Dragapult 1
+```
+Close game.
+
+```youtube
+id: y7JLH41GcHw
+title: DawnZard (Wellspring) v Dragapult 2
+```
+This game demonstrates how Wellspring can pick apart Dragapult.
+
+```youtube
+id: jBOj5V9TyHU
+title: DawnZard (Wellspring) v Dragapult 3
+```
+Interesting game.
 
 ```twitch
 id: 2676410883

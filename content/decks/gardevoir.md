@@ -284,13 +284,22 @@ title: Dragapult v Garde (with Evo) 4
 ### Charizard / Noctowl - Unfavorable
 
 - Choose to go first!
+- Try to spawn trap Duskull from ever evolving 
+- Use Mew to one-shot Charizard along with Adrenabrain when they get to three prizes.
 - Turn 2 Jellicent is bait if they have Terapagos in play. They can use Boss and pop off with Noctowl if their setup is decent. Early Frillish is the way to go. Attacking with Jellicent can be good if they don't have access to Tera Pokemon.
 - Keep Frillish unevolved until you have a relevant reason to use Jellicent.
-- If they do not get an early Charmeleon, double Frillish with double Munkidori can apply a lot of pressure to their board.
+- If they do not get an early Charmeleon, Frillish double Munkidori can apply a lot of pressure to their board.
 - If they have Charmeleon but no other Charmander, use Scream Tail to KO it. Scream Tail is a generally good attacker.
 - Devo is only good if you can entirely wipe out all Charmander lines from the board OR if they are out of Boss's Orders (since Devo Jellicent stops Charizard from coming back into play). If you can do that, it's extremely strong. Charizard is an enormous threat.
 - Mega Diancie with Bravery Charm can survive a max power Charizard.
 - Always consider pre-loading Pokemon on your Gardevoir turns, as Gardevoir tends to disappear against Charizard.
+- Randomly pivoting into Frillish can be very useful, as it stops Rare Candy plays for Charizard or Dusknoir.
+
+```twitch
+id: 2684926209
+title: Chaoxty v DawnZard 1
+```
+I spend a very long time analyzing this unique and brain-melting game.
 
 ```twitch
 id: 2676410869

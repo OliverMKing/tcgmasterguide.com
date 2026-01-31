@@ -210,6 +210,12 @@ title: Dragapult v Garde (with Evo) 4
 - Watch out for Blustery Wind to remove benched damaged Pokemon and try to play around it. Usually you'll just keep Pidgey off the board to begin with.
 - It is fairly easy to play around Briar so just don't forget about it!
 
+Against Wellspring:
+
+- Try not to put down Latias as it can sometimes get punished by Sob.
+- Munkidori can offset the Sob lock damage.
+- Jamming Tower is extremely useful to make it difficult for them to use Wellspring. Combo'ing various disruption cards can delay the Boss + Wellspring combo and allow a Dragapult to get set up.
+
 ```twitch
 id: 2675808576
 title: DawnZard v Dragapult 1
@@ -227,6 +233,24 @@ id: 2675808578
 title: DawnZard v Dragapult 3
 ```
 This game demonstrates how you need to still respect their attackers even when they aren't optimally set up.
+
+```youtube
+id: 8a1AVI7UFfM
+title: DawnZard (Wellspring) v Dragapult 1
+```
+This game shows how Latias can get trapped but can also threaten to attack!
+
+```youtube
+id: y7JLH41GcHw
+title: DawnZard (Wellspring) v Dragapult 2
+```
+This game shows how you cannot allow Wellspring to get them too far ahead. A Dragapult that is too late is not good enough!
+
+```youtube
+id: jBOj5V9TyHU
+title: DawnZard (Wellspring) v Dragapult 3
+```
+Interesting game.
 
 ```twitch
 id: 2676410883
