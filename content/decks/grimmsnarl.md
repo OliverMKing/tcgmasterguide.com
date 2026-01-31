@@ -6,14 +6,14 @@ tier: 1
 
 ## Decklist
 
-![Grimmsnarl decklist](./images/grimmsnarl/toedgrim2.png)
+![Grimmsnarl decklist](./images/grimmsnarl/toed3.png)
 ```decklist
 Pokémon: 19
 3 Marnie's Impidimp DRI 134
 2 Marnie's Morgrem DRI 135
 2 Marnie's Grimmsnarl ex DRI 136
 3 Munkidori TWM 95
-2 Snorunt M2a 35
+2 Snorunt PAR 37
 2 Froslass TWM 53
 1 Toedscool OBF 118
 1 Toedscruel PAR 17
