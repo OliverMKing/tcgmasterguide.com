@@ -12,6 +12,7 @@ This document tracks planned features and improvements for TCG Master Guide.
 
 - [ ] **Card Database Integration** - Link card names to images/details from Pokemon TCG API
 - [ ] **Pre tournament thoughts** - for quick thoughts / what he's playing to specific tournaments
+- [ ] **Preview environment** - easy testing
 
 ## Technical Improvements
 
