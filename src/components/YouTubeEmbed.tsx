@@ -1,7 +1,6 @@
 'use client'
 
 import { useVideoEmbed } from '@/contexts/VideoEmbedContext'
-import Image from 'next/image'
 
 interface YouTubeEmbedProps {
   videoId: string
@@ -17,7 +16,7 @@ export function YouTubeEmbed({ videoId, title = 'YouTube video' }: YouTubeEmbedP
   }
 
   return (
-    <div className="my-6 aspect-video rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-lg bg-slate-900 relative">
+    <div className="my-6 aspect-video rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-lg relative">
       {isActive ? (
         <iframe
           src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
@@ -29,22 +28,16 @@ export function YouTubeEmbed({ videoId, title = 'YouTube video' }: YouTubeEmbedP
       ) : (
         <button
           onClick={handleClick}
-          className="w-full h-full relative group cursor-pointer"
+          className="w-full h-full relative group cursor-pointer bg-slate-800"
           aria-label={`Play ${title}`}
         >
-          <Image
-            src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
-            alt={title}
-            fill
-            className="object-cover"
-            unoptimized
-          />
-          <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors flex items-center justify-center">
-            <div className="w-16 h-16 md:w-20 md:h-20 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg">
-              <svg className="w-8 h-8 md:w-10 md:h-10 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+          <div className="absolute inset-0 flex flex-col items-center justify-center">
+            <div className="aspect-square w-16 md:w-20 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 group-hover:bg-white transition-all shadow-lg mb-4">
+              <svg className="w-7 h-7 md:w-9 md:h-9 text-slate-800 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M8 5v14l11-7z" />
               </svg>
             </div>
+            <span className="text-white/90 font-medium text-sm md:text-base px-6 text-center leading-snug">{title}</span>
           </div>
         </button>
       )}
