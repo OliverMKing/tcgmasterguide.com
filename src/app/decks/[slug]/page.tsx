@@ -28,15 +28,13 @@ interface TocItem {
 function extractHeadings(content: string): TocItem[] {
   const headingRegex = /^(#{1,3})\s+(.+)$/gm
   const headings: TocItem[] = []
+  const generateId = createIdGenerator()
   let match
 
   while ((match = headingRegex.exec(content)) !== null) {
     const level = match[1].length
     const text = match[2]
-    const id = text
-      .toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, '')
-      .replace(/\s+/g, '-')
+    const id = generateId(text)
     headings.push({ id, text, level })
   }
 
@@ -48,6 +46,21 @@ function slugify(text: string): string {
     .toLowerCase()
     .replace(/[^a-z0-9\s-]/g, '')
     .replace(/\s+/g, '-')
+}
+
+// Creates a function that generates unique IDs, tracking duplicates
+function createIdGenerator(): (text: string) => string {
+  const idCounts: Record<string, number> = {}
+  return (text: string) => {
+    const baseId = slugify(text)
+    if (idCounts[baseId] === undefined) {
+      idCounts[baseId] = 0
+      return baseId
+    } else {
+      idCounts[baseId]++
+      return `${baseId}-${idCounts[baseId]}`
+    }
+  }
 }
 
 function getAllDeckSlugs() {
@@ -141,6 +154,9 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
   const headings = extractHeadings(deck.content)
   const history = deckHistory[slug] || []
   const lastEdited = deckDates[slug] || null
+
+  // Create an ID generator for ReactMarkdown headings (matches extractHeadings behavior)
+  const generateHeadingId = createIdGenerator()
 
   // Preprocess content to add separators between consecutive lists
   // Pattern: list item, blank line, list item -> insert a separator
@@ -255,7 +271,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
             components={{
               h1: ({ children }) => {
                 const text = String(children)
-                const id = slugify(text)
+                const id = generateHeadingId(text)
                 return (
                   <h2 id={id} className="text-3xl font-bold text-slate-900 dark:text-slate-100 mt-12 mb-4 first:mt-0 pb-2 border-b border-slate-200 dark:border-slate-700 scroll-mt-20">
                     {children}
@@ -264,7 +280,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
               },
               h2: ({ children }) => {
                 const text = String(children)
-                const id = slugify(text)
+                const id = generateHeadingId(text)
                 return (
                   <h3 id={id} className="text-2xl font-bold text-slate-900 dark:text-slate-100 mt-10 mb-4 scroll-mt-20">
                     {children}
@@ -273,7 +289,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
               },
               h3: ({ children }) => {
                 const text = String(children)
-                const id = slugify(text)
+                const id = generateHeadingId(text)
                 return (
                   <h4 id={id} className="text-xl font-semibold text-slate-900 dark:text-slate-100 mt-8 mb-3 scroll-mt-20">
                     {children}
