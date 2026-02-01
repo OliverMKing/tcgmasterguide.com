@@ -11,6 +11,11 @@ interface UserData {
 const CACHE_KEY = 'tcg_user_data'
 const CACHE_TTL = 5 * 60 * 1000 // 5 minutes
 
+// Retry configuration for handling race conditions with Clerk session/webhook
+const MAX_RETRIES = 5
+const INITIAL_RETRY_DELAY = 500 // ms
+const RETRYABLE_STATUS_CODES = [401, 404] // 401: session not ready, 404: user not in DB yet
+
 interface CachedUserData {
   data: UserData
   userId: string
@@ -90,20 +95,55 @@ export function useCurrentUser() {
       }
 
       try {
-        let res = await fetch('/api/user/me')
+        let res: Response | null = null
+        let lastError: Error | null = null
 
-        // Handle expired JWT by forcing token refresh and retrying
-        if (res.status === 401) {
-          await getToken({ skipCache: true })
-          res = await fetch('/api/user/me')
+        // Retry loop with exponential backoff for race conditions
+        // (Clerk session not ready or webhook hasn't created user yet)
+        for (let attempt = 0; attempt < MAX_RETRIES; attempt++) {
+          try {
+            res = await fetch('/api/user/me')
+
+            // Handle expired JWT by forcing token refresh
+            if (res.status === 401 && attempt === 0) {
+              await getToken({ skipCache: true })
+              res = await fetch('/api/user/me')
+            }
+
+            // Success - break out of retry loop
+            if (res.ok) {
+              break
+            }
+
+            // If it's a retryable error and we have retries left, wait and retry
+            if (RETRYABLE_STATUS_CODES.includes(res.status) && attempt < MAX_RETRIES - 1) {
+              const delay = INITIAL_RETRY_DELAY * Math.pow(2, attempt)
+              await new Promise(resolve => setTimeout(resolve, delay))
+              continue
+            }
+
+            // Non-retryable error or out of retries
+            break
+          } catch (error) {
+            lastError = error instanceof Error ? error : new Error('Unknown error')
+            // Network error - retry if we have attempts left
+            if (attempt < MAX_RETRIES - 1) {
+              const delay = INITIAL_RETRY_DELAY * Math.pow(2, attempt)
+              await new Promise(resolve => setTimeout(resolve, delay))
+              continue
+            }
+          }
         }
 
-        if (res.ok) {
+        if (res?.ok) {
           const data = await res.json()
           setUserData(data)
           setCachedUserData(user.id, data)
         } else {
-          // User not found in DB or other error - clear any stale data
+          // User not found in DB or other error after all retries
+          if (lastError) {
+            console.error('Failed to fetch user data:', lastError)
+          }
           setUserData(null)
         }
       } catch (error) {
