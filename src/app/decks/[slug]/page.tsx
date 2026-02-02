@@ -6,7 +6,6 @@ import path from 'path'
 import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
 import { LocalDate } from '@/components/LocalDate'
-import { PageViewCount } from '@/components/PageViewCount'
 import { DeckList } from '@/components/DeckList'
 import { YouTubeEmbed } from '@/components/YouTubeEmbed'
 import { TwitchVideoEmbed } from '@/components/TwitchVideoEmbed'
@@ -224,12 +223,6 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
                 <LocalDate timestamp={lastEdited} prefix="Last updated " />
                 <span className="text-slate-300 dark:text-slate-600">•</span>
                 <ViewHistoryButton history={history} deckTitle={deck.title} />
-                <span className="hidden sm:inline">
-                  <PageViewCount slug={slug} />
-                </span>
-              </div>
-              <div className="sm:hidden mt-1">
-                <PageViewCount slug={slug} hideBullet />
               </div>
             </div>
           )}
