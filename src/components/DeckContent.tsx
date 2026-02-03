@@ -8,6 +8,7 @@ import { DeckList } from '@/components/DeckList'
 import { YouTubeEmbed } from '@/components/YouTubeEmbed'
 import { TwitchVideoEmbed } from '@/components/TwitchVideoEmbed'
 import { LockedDeckContent } from '@/components/LockedDeckContent'
+import { LockedSection } from '@/components/LockedSection'
 import { ViewHistoryButton } from '@/components/ViewHistoryButton'
 import Comments from '@/components/Comments'
 import { HistoryEntry } from '@/generated/deck-history'
@@ -27,6 +28,7 @@ interface DeckContentProps {
 }
 
 const LIST_BREAK_MARKER = '---LIST-BREAK---'
+const PREMIUM_PLACEHOLDER = ':::PREMIUM_LOCKED:::'
 
 function slugify(text: string): string {
   return text
@@ -49,6 +51,22 @@ function createIdGenerator(): (text: string) => string {
   }
 }
 
+function extractHeadingsFromContent(content: string): TocItem[] {
+  const headingRegex = /^(#{1,3})\s+(.+)$/gm
+  const headings: TocItem[] = []
+  const generateId = createIdGenerator()
+  let match
+
+  while ((match = headingRegex.exec(content)) !== null) {
+    const level = match[1].length
+    const text = match[2]
+    const id = generateId(text)
+    headings.push({ id, text, level })
+  }
+
+  return headings
+}
+
 function transformImageSrc(src: string): string {
   if (src.startsWith('./images/')) {
     return `/api/deck-images/${src.replace('./images/', '')}`
@@ -67,9 +85,9 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
         const res = await fetch(`/api/decks/${slug}/content`)
         const data = await res.json()
 
-        if (res.ok && data.hasAccess) {
+        if (res.ok) {
           setContent(data.content)
-          setHasAccess(true)
+          setHasAccess(data.hasAccess)
         } else {
           setHasAccess(false)
         }
@@ -98,12 +116,18 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
     )
   }
 
-  if (!hasAccess) {
+  // Check if content is only a premium placeholder (no public content at all)
+  const isFullyLocked = !hasAccess && content?.trim() === PREMIUM_PLACEHOLDER
+
+  if (isFullyLocked || !content) {
     return <LockedDeckContent title={title} headings={headings} />
   }
 
   // Create an ID generator for ReactMarkdown headings
   const generateHeadingId = createIdGenerator()
+
+  // For non-subscribers, extract headings only from the content they can see
+  const visibleHeadings = hasAccess ? headings : extractHeadingsFromContent(content)
 
   // Preprocess content to add separators between consecutive lists
   const processedContent = content!.replace(
@@ -113,19 +137,45 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
 
   return (
     <>
-      {/* View History Button */}
-      {history.length > 0 && (
+      {/* Free Preview Banner for non-subscribers */}
+      {!hasAccess && (
+        <div className="mb-8 p-4 bg-gradient-to-r from-purple-50 to-fuchsia-50 dark:from-purple-900/20 dark:to-fuchsia-900/20 rounded-xl border border-purple-200 dark:border-purple-800">
+          <div className="flex items-center gap-3">
+            <div className="flex-shrink-0 w-10 h-10 bg-purple-100 dark:bg-purple-900/40 rounded-full flex items-center justify-center">
+              <svg className="w-5 h-5 text-purple-600 dark:text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+              </svg>
+            </div>
+            <div>
+              <p className="font-semibold text-slate-900 dark:text-slate-100">Free Preview</p>
+              <p className="text-sm text-slate-600 dark:text-slate-400">
+                You&apos;re viewing a limited preview.{' '}
+                <Link href="/subscribe" className="text-purple-600 dark:text-purple-400 hover:underline font-medium">
+                  Subscribe
+                </Link>
+                {' '}for full access to all guides.
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* View History Button - only for subscribers */}
+      {hasAccess && history.length > 0 && (
         <div className="-mt-10 mb-8">
           <ViewHistoryButton history={history} deckTitle={deckTitle} />
         </div>
       )}
 
       {/* Table of Contents */}
-      {headings.length > 0 && (
+      {visibleHeadings.length > 0 && (
         <nav className="mb-12 p-6 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
-          <h2 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-4">Table of Contents</h2>
+          <h2 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-4">
+            {hasAccess ? 'Table of Contents' : 'Preview Contents'}
+          </h2>
           <ul className="space-y-2">
-            {headings.map((heading) => (
+            {visibleHeadings.map((heading) => (
               <li
                 key={heading.id}
                 style={{ paddingLeft: `${(heading.level - 1) * 1}rem` }}
@@ -138,15 +188,43 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
                 </a>
               </li>
             ))}
-            <li style={{ paddingLeft: '1rem' }}>
-              <a
-                href="#discussion"
-                className="text-slate-600 dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors text-sm"
-              >
-                Discussion
-              </a>
-            </li>
+            {hasAccess && (
+              <li style={{ paddingLeft: '1rem' }}>
+                <a
+                  href="#discussion"
+                  className="text-slate-600 dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors text-sm"
+                >
+                  Discussion
+                </a>
+              </li>
+            )}
           </ul>
+          {/* Show "What's Inside" teaser for non-subscribers */}
+          {!hasAccess && headings.length > visibleHeadings.length && (
+            <div className="mt-4 pt-4 border-t border-slate-200 dark:border-slate-700">
+              <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mb-2">
+                Full guide includes:
+              </p>
+              <ul className="space-y-1">
+                {headings.slice(visibleHeadings.length, visibleHeadings.length + 4).map((heading) => (
+                  <li
+                    key={heading.id}
+                    className="flex items-center gap-2 text-slate-400 dark:text-slate-500 text-sm"
+                  >
+                    <svg className="w-3 h-3 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                    </svg>
+                    <span>{heading.text}</span>
+                  </li>
+                ))}
+                {headings.length > visibleHeadings.length + 4 && (
+                  <li className="text-slate-400 dark:text-slate-500 text-sm pl-5">
+                    + {headings.length - visibleHeadings.length - 4} more sections...
+                  </li>
+                )}
+              </ul>
+            </div>
+          )}
         </nav>
       )}
 
@@ -185,6 +263,9 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
               const text = String(children)
               if (text === LIST_BREAK_MARKER) {
                 return <div className="h-4" aria-hidden="true" />
+              }
+              if (text === PREMIUM_PLACEHOLDER) {
+                return <LockedSection />
               }
               return (
                 <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">

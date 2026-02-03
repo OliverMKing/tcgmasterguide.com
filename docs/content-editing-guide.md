@@ -224,6 +224,82 @@ This will render as a responsive, embedded Twitch player with rounded corners th
 | ` ```youtube ` | Embedded YouTube video (see above) |
 | ` ```twitch ` | Embedded Twitch VOD (see above) |
 
+## Content Visibility (Public vs Premium)
+
+You can control which parts of your deck guides are visible to everyone vs. only to subscribers using special HTML comment markers.
+
+### How It Works
+
+- **PUBLIC content**: Visible to everyone, including non-subscribers
+- **PREMIUM content**: Only visible to subscribers
+- **Unmarked content**: Treated as PREMIUM by default (secure by default)
+
+### Syntax
+
+Wrap sections with these HTML comment markers:
+
+```markdown
+<!-- PUBLIC -->
+This content is visible to everyone!
+
+## Decklist
+...your decklist here...
+<!-- /PUBLIC -->
+
+<!-- PREMIUM -->
+## Detailed Strategy
+This section is only visible to subscribers.
+...premium strategy content...
+<!-- /PREMIUM -->
+```
+
+### Best Practices
+
+1. **Always mark public content explicitly** - Unmarked content defaults to premium for security
+2. **Use for teasers** - Make decklists and basic info public to attract subscribers
+3. **Keep premium content valuable** - Detailed matchup analysis, video content, and advanced strategies work well as premium
+4. **Markers must be on their own lines** - Don't put markers inline with other content
+
+### Example Structure
+
+```markdown
+---
+title: "My Deck"
+pokemon: [25]
+tier: 1
+---
+
+<!-- PUBLIC -->
+## Decklist
+
+```decklist
+...
+```
+
+### Quick Overview
+This deck focuses on...
+<!-- /PUBLIC -->
+
+<!-- PREMIUM -->
+## Detailed Gameplay
+
+Here's the in-depth strategy...
+
+## Matchups
+
+### Charizard - Favorable
+Detailed matchup analysis...
+<!-- /PREMIUM -->
+```
+
+### What Non-Subscribers See
+
+Non-subscribers will see:
+- All content marked with `<!-- PUBLIC -->` ... `<!-- /PUBLIC -->`
+- A "Premium Content" box with a subscribe button where premium content would be
+
+They will NOT receive any premium content in their browser - it's completely stripped on the server.
+
 ## Need Help?
 
 If you run into issues, reach out to Oliver for technical help.
