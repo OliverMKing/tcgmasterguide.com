@@ -6,10 +6,10 @@ tier: 1
 
 ## Decklist
 
-![Charizard / Noctowl Decklist](./images/charizard-noctowl/decklist.png)
+![Charizard / Noctowl Decklist](./images/charizard-noctowl/jacq.png)
 ```decklist
 Pokémon: 26
-4 Hoothoot SCR 114
+3 Hoothoot SCR 114
 3 Noctowl SCR 115
 3 Charmander PAF 7
 1 Charmeleon PFL 12
@@ -23,12 +23,14 @@ Pokémon: 26
 2 Terapagos ex SCR 128
 2 Fan Rotom SCR 118
 1 Fezandipiti ex SFA 38
+1 Klefki SVI 96
 
 Trainer: 27
-4 Dawn PFL 87
+3 Dawn PFL 87
 2 Boss's Orders MEG 114
 1 Iono PAL 185
 1 Briar SCR 132
+1 Jacq SVI 175
 4 Buddy-Buddy Poffin TEF 144
 4 Nest Ball SVI 181
 4 Rare Candy MEG 125
@@ -47,15 +49,15 @@ Energy: 7
 
 - 60 HP Pidgey is extremely relevant against any Dusknoir deck. Call for Family is still useful enough with Jet Energy in the deck (especially if you're lacking a Tera Pokemon), so we hedge by playing one of each. If you prize the 60 HP against specifically Dusclops, tough luck.
 - Counter Catcher makes it a lot easier to pull off Briar and has great synergy with Noctowl and Dusclops/Dusknoir. Sometimes we want to use Prime plus Dawn in the early-game. Sometimes this deck wants more gusts in general. A third Boss's Orders would be very nice too, so I'd consider swapping CC for that.
-- Four Hoothoot is very nice as you often need Noctowl to both set up the early-game and finish the late-game. With the possibility of Hoothoot being prized or KO'd, having as many as possible is relevant. That said, this is probably the most flexible spot, and could be a Klefki, Pidgeotto, or second Iono instead.
+- Swapped the fourth Hoothoot back out for Klefki. A small consistency sacrifice for Klefki's versatility and countering Psyduck. Fourth Hoothoot would still be good.
 - Four Nest Ball is just too good. We always want to slam it Turn 1 for Terapagos, and it retains its usefulness for random stuff in the mid-game (especially Fezandipiti). The Ultra Ball is a premium resource so we'd rather not be forced to use that for a Basic.
+- Jacq is sometimes very strong due to it being able to search out two Stage 1 Pokemon, especially under Item lock. I think it is better than TM: Evo because of Jamming Tower and not requiring an Energy to use. Dawn is the better Supporter overall, but since this deck has plenty of Basic search, having the option of Jacq is optimal.
 
 ### Exclusions
 
 - The more I play with 80 HP Charmander, the more I dislike it. It definitely can be relevant, but hasn't come up that often for me. More often, I want to Poffin for it and it's annoying that I can't. It's also hard to get early which is the best time for it. So I think it's better to just play all 70 HP ones.
 - Pidgeotto is obviously helpful against Dragapult and Jellicent. However, this deck loses to Dragapult anyway. In practice, it is good against Jellicent, but it's not as important as I initially expected it to be. You lose a few percentage points against Jellicent without it, but that matchup is still favorable anyway. The deciding factor for me is how useless Pidgeotto was against literally everything else; you're simply always Candy'ing into Pidgeot.
 - Ditto is bad. There are lots of times where you simply don't have Energy Turn 1, and even if you do, having to discard it is bad too. Ditto is mostly relevant specifically when you start with Energy and no out to Tera, which is somewhat rare (especially with four Dawn now). Can also Call for Family for Terapagos. However, naturally opening with Ditto is extremely strong.
-- Klefki is very relevant against Psyduck, but most decks don't play Psyduck. Absol is slightly fading in popularity. Klefki is always a consideration that could make its way back into the list if Absol is enough of a popular threat.
 - Second Iono would be nice and helpful in various spots. It's just not entirely necessary all that often. You don't ever need both, but sometimes you really need that one at the end of the game. Iono is also a useful draw/consistency card which makes it generally good. I think it is similar in usefulness to Counter Catcher, but maybe slightly less so.
 
 ![Wellspring](./images/charizard-noctowl/wellspring.png)

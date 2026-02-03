@@ -1,12 +1,12 @@
 ---
 title: "Absol"
 pokemon: [359]
-tier: 3
+tier: 2
 ---
 
 ## Decklist
 
-![decklist for Absol](./images/absol/toedlist.png)
+![decklist for Absol](./images/absol/2ice.png)
 ```decklist
 Pokémon: 16
 3 Munkidori TWM 95
@@ -31,10 +31,9 @@ Trainer: 35
 2 Pokégear 3.0 SVI 186
 2 Night Stretcher SFA 61
 2 Counter Catcher PAR 160
+2 Jumbo Ice Cream PFL 91
 1 Earthen Vessel PAR 163
-1 Jumbo Ice Cream PFL 91
 1 Energy Switch MEG 115
-1 Nest Ball PAF 84
 1 Precious Trolley SSP 185
 2 Technical Machine: Turbo Energize PAR 179
 2 Bravery Charm PAL 173
@@ -47,9 +46,9 @@ Energy: 9
 ### Inclusions
 
 - Toedscruel actually works pretty well against Gholdengo, improving the matchup to slightly favorable. However, some of the credit also has to go to Jumbo Ice Cream for thwarting Mawile.
-- Jumbo Ice Cream is extremely strong in every matchup. This deck's main lose condition is the Absol going down too early, and Ice Cream helps prevent that. I am considering adding a second copy.
+- Jumbo Ice Cream is extremely strong in every matchup. This deck's main lose condition is the Absol going down too early, and Ice Cream helps prevent that. I added a second copy to help find it at the right time since it needs to be used on one specific turn.
 - Lively Stadium is relevant often enough to warrant both copies.
-- Two Ultra Ball is necessary with Toedscruel. I still like having Nest Ball too, but perhaps it is cuttable.
+- Two Ultra Ball is necessary with Toedscruel. I still like having Nest Ball too, but ended up cutting it for second Ice Cream (for now).
 
 ### Exclusions
 
@@ -237,7 +236,9 @@ id: 2675808580
 title: DawnZard (Klefki) v Absol 4
 ```
 
-### Dragapult / Dusknoir - Unfavorable
+### Dragapult / Dusknoir - Slightly Favorable
+
+This matchup is slightly favorable with the Ice Creams and unfavorable without them.
 
 - Ideal board is Absol Latias Kang double Monkey Psyduck. All of these are extremely important. Need to Stretcher Duck if they KO it and are threatening Dusclops.
 - Need to build Energy in play as fast as possible.
