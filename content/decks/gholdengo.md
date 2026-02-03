@@ -1,7 +1,7 @@
 ---
 title: "Gholdengo"
 pokemon: [1000]
-tier: 2
+tier: 1
 ---
 
 ## Decklist
@@ -59,6 +59,8 @@ Energy: 11
 - Team Rocket's Watchtower sounds good on paper to counter Charizard, but it didn't improve the winrate very much when I tried it out.  It maybe adds a few percentage points in that matchup, but it's still unfavorable, so I don't think it's worth it. I also did not enjoy having to play Secret Box.
 - Munkidori could be considered over Picnic Basket, as it can be set up preemptively, whereas Picnic Basket has to be drawn at the right time. However, with Lunatone and Solrock now in the deck, there is not much bench space for Munkidori, especially considering it is mostly useful against Dragapult (which requires three Gholdengo/Gimmi and is an already favorable matchup).
 - I tried both one and two Lana's Aid in this deck and it does not work.
+
+## Decklist 2
 
 ![Lana List](./images/gholdengo/lana.png)
 ```decklist
@@ -162,6 +164,11 @@ As triple Lana + Munki:
 - Try to leave a spot open for Munkidori, leaving out the third Gholdengo if you must. Get a Dark Energy on it at your earliest convenience and profit. If Dark is prized, don't prioritize a precious board spot for the Munkidori and play normally instead.
 - Hoard Lana's Aids so that you'll always have it when they use Frillish, and use it to immediately respond to and KO Frillish.
 - For the most part, play normally.
+
+```youtube
+id: FvxO3pERp7Y
+title: Dengo (Lanas) v Gardevoir 1
+```
 
 ```twitch
 id: 2676733822
