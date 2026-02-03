@@ -6,7 +6,7 @@ tier: 1
 
 ## Decklist
 
-![decklist for Gardevoir](./images/gardevoir-jellicent/cape.png)
+![decklist for Gardevoir](./images/gardevoir-jellicent/2charm.png)
 ```decklist
 Pokémon: 17
 3 Ralts MEG 58
@@ -34,8 +34,7 @@ Trainer: 33
 2 Counter Catcher PAR 160
 1 Super Rod PAL 188
 1 Secret Box TWM 163
-1 Bravery Charm PAL 173
-1 Luxurious Cape PAR 166
+2 Bravery Charm PAL 173
 1 Technical Machine: Devolution PAR 177
 1 Technical Machine: Evolution PAR 178
 2 Artazon PAL 171
@@ -52,7 +51,7 @@ Energy: 10
 - Turo gets used a decent amount. Mostly against Gholdengo and decks with retreat lock. It is very strong for endgames against Gholdengo that involve Frillish comebacks. It's also good for board fixing, though hard to find at the right time. Finally, it's better with Latias because that's a liability that can be removed, and also because Latias makes Energy get stuck, which Turo can unstick.
 - I'm convinced that second Artazon is better than Mystery Garden, though they do different things so it's weird to compare them. Artazon helps set up and stabilize, and also makes the Turn 1 Frillish a lot more likely. Mystery Garden is more situational and not very good in the early-game. I did not use it that much when I had it, and never missed it when playing without it.
 - I changed my mind about the second Counter Catcher because it is actually very important against Gholdengo, especially the Lopunny build. That is the only reason I've added the second one back in.
-- I also swapped a Charm for a Cape for now, but I'm not sure if this is correct. Cape opens up some power options to close out games, specifically against Gholdengo. However, playing only one Charm carries considerable risks such as prizing it or not finding it at the right time.
+- Swapped Cape back for second Charm, but I'm not sure if this is correct. Cape opens up some power options to close out games, specifically against Gholdengo. However, playing only one Charm carries considerable risks such as prizing it or not finding it at the right time. Charm is also very nice against Gholdengo and Absol and playing two makes it more consistent.
 
 ### Exclusions
 

@@ -58,9 +58,55 @@ Energy: 11
 - 50 HP Gimmighoul is a huge liability in many situations. Although Call for Family is useful, I found the card's downsides to outweight the benefits. I did include some matchup notes about the 50 HP one because it's still relevant.
 - Team Rocket's Watchtower sounds good on paper to counter Charizard, but it didn't improve the winrate very much when I tried it out.  It maybe adds a few percentage points in that matchup, but it's still unfavorable, so I don't think it's worth it. I also did not enjoy having to play Secret Box.
 - Munkidori could be considered over Picnic Basket, as it can be set up preemptively, whereas Picnic Basket has to be drawn at the right time. However, with Lunatone and Solrock now in the deck, there is not much bench space for Munkidori, especially considering it is mostly useful against Dragapult (which requires three Gholdengo/Gimmi and is an already favorable matchup).
-- Lana's Aid is something I'm considering adding.
+- I tried both one and two Lana's Aid in this deck and it does not work.
 
-**To try: Bravery Charm, Lana's Aid**
+![Lana List](./images/gholdengo/lana.png)
+```decklist
+Pokémon: 14
+4 Gimmighoul SSP 97
+3 Gholdengo ex PAR 139
+2 Lunatone MEG 74
+2 Solrock MEG 75
+1 Genesect ex BLK 67
+1 Fezandipiti ex SFA 38
+1 Munkidori ASC 99
+
+Trainer: 34
+4 Arven OBF 186
+3 Boss's Orders MEG 114
+3 Lana's Aid TWM 155
+2 Professor Turo's Scenario PAR 171
+4 Nest Ball SVI 181
+4 Superior Energy Retrieval PAL 189
+3 Fighting Gong MEG 116
+3 Earthen Vessel PAR 163
+1 Buddy-Buddy Poffin TEF 144
+1 Premium Power Pro ASC 199
+1 Prime Catcher TEF 157
+2 Air Balloon BLK 79
+1 Vitality Band SVI 197
+2 Artazon PAL 171
+
+Energy: 12
+8 Fighting Energy MEE 6
+3 Metal Energy MEE 8
+1 Darkness Energy MEE 7
+```
+
+### Inclusions
+
+I currently think this is best way to play Gholdengo.
+
+- Three Lana's Aid is a better way to deal with Gardevoir, specifically Frillish. It can be good in random scenarios as additional Energy recovery (Lana + Superior is 350 damage). Another very strong use of it is recovering Munkidori whenever it gets targeted. Fewer than three isn't enough to consistently have it on the right turn. We also need multiple Lana's against Frillish strats without a backup attacker.
+- Munkidori shores up the Gardevoir matchup. Along with Lana's Aid, this combo invalidates most things Gardevoir can do. Of course, it's also great against Dragapult and Grimmsnarl. With two Turo, double Adrenabrain is a very real thing.
+
+### Exclusions
+
+- No backup attacker leaves us vulnerable to Cornerstone. This is a meta call and a bit of a risk. The trade off is many spots to deal with Gardevoir and the powerful addition of Munkidori.
+- Super Rod does not make sense to play with three Lana's.
+- Picnic Basket has overlap with Munkidori and therefore gets cut.
+
+**To try: Bravery Charm**
 
 ## Gameplay
 
@@ -84,7 +130,9 @@ Energy: 11
 
 ### Gardevoir - Slightly Unfavorable
 
-This matchup is fairly close for the the Lopunny build and a little worse for non-Lopunny builds. I think it is slightly unfavorable but is also a very skill-dependent matchup for both sides.
+This matchup is fairly close for the the Lopunny build and a little worse for non-Lopunny builds. I think it is slightly unfavorable but is also a very skill-dependent matchup for both sides. 
+
+This matchup is favorable for the 3 Lana + Munki build and is the sole reason I was driven to such madness.
 
 We need to get an aggressive start, try and get as much of a prize lead as possible. This will make it difficult for them to pivot into a prize trade and force them to heavily rely on Frillish.
 
@@ -108,6 +156,12 @@ As Mawile:
 
 - Mawile can be very strong if they are trying to spam Frillish, just watch out for Mew Counter Catcher (and try to Turo the Mawile if they hit you with that).
 - Lana's Aid with Mawile can be your safety net after KO'ing their Gardevoir.
+
+As triple Lana + Munki:
+
+- Try to leave a spot open for Munkidori, leaving out the third Gholdengo if you must. Get a Dark Energy on it at your earliest convenience and profit. If Dark is prized, don't prioritize a precious board spot for the Munkidori and play normally instead.
+- Hoard Lana's Aids so that you'll always have it when they use Frillish, and use it to immediately respond to and KO Frillish.
+- For the most part, play normally.
 
 ```twitch
 id: 2676733822
