@@ -17,8 +17,8 @@ model User {
   email                  String?   @unique
   name                   String?
   role                   String    @default("USER") // USER, ADMIN, SUBSCRIBER
-  stripeCustomerId       String?   @map("stripe_customer_id") // Unique enforced via filtered index in migration
-  stripeSubscriptionId   String?   @map("stripe_subscription_id") // Unique enforced via filtered index in migration
+  stripeCustomerId       String?   @map("stripe_customer_id")
+  stripeSubscriptionId   String?   @map("stripe_subscription_id")
   stripeSubscriptionStatus String? @map("stripe_subscription_status") // active, canceled, past_due, etc.
   subscriptionEndsAt     DateTime? @map("subscription_ends_at")
   createdAt              DateTime  @default(now()) @map("created_at")
