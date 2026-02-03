@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import { auth } from '@clerk/nextjs/server'
 import { stripe, SUBSCRIPTION_PRICE_ID } from '@/lib/stripe'
 import { prisma } from '@/lib/prisma'
+import { trackException } from '@/lib/appinsights'
 
 export async function POST() {
   const { userId } = await auth()
@@ -66,7 +67,11 @@ export async function POST() {
 
     return NextResponse.json({ url: session.url })
   } catch (error) {
-    console.error('Error creating checkout session:', error)
+    trackException(error, {
+      route: '/api/stripe/checkout',
+      userId: user.id,
+      stripeCustomerId: user.stripeCustomerId || 'none',
+    })
     return NextResponse.json(
       { error: 'Failed to create checkout session' },
       { status: 500 }
