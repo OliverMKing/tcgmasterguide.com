@@ -6,9 +6,12 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
+// Set to true to enable subscription requirement
+const REQUIRE_SUBSCRIPTION = false
+
 // GET /api/decks/[slug]/content - Get deck content if user has access
 export async function GET(
-  request: Request,
+  _request: Request,
   { params }: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await params
@@ -19,33 +22,31 @@ export async function GET(
     return NextResponse.json({ error: 'Deck not found' }, { status: 404 })
   }
 
-  let hasAccess = true
-
-  // uncomment when subscription is required
-  /** 
   // Check subscription access
-  const { userId } = await auth()
-  let hasAccess = false
+  let hasAccess = !REQUIRE_SUBSCRIPTION
 
-  if (userId) {
-    try {
-      const user = await prisma.user.findUnique({
-        where: { authId: userId },
-        select: { role: true },
-      })
-      hasAccess = hasSubscriberAccess(user?.role)
-    } catch (error) {
-      console.error('Error checking user access:', error)
+  if (REQUIRE_SUBSCRIPTION) {
+    const { userId } = await auth()
+
+    if (userId) {
+      try {
+        const user = await prisma.user.findUnique({
+          where: { authId: userId },
+          select: { role: true },
+        })
+        hasAccess = hasSubscriberAccess(user?.role)
+      } catch (error) {
+        console.error('Error checking user access:', error)
+      }
+    }
+
+    if (!hasAccess) {
+      return NextResponse.json(
+        { error: 'Subscription required', hasAccess: false },
+        { status: 403 }
+      )
     }
   }
-
-  if (!hasAccess) {
-    return NextResponse.json(
-      { error: 'Subscription required', hasAccess: false },
-      { status: 403 }
-    )
-  }
-  */
 
   // User has access - return the content
   try {

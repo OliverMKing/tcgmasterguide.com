@@ -33,18 +33,18 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop navigation */}
-          <div className="hidden sm:flex items-center space-x-6">
-            <Link
-              href="/"
-              className="text-base text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
-            >
-              Home
-            </Link>
+          <div className="hidden md:flex items-center space-x-6">
             <Link
               href="/about"
               className="text-base text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
             >
               About
+            </Link>
+            <Link
+              href="/subscribe"
+              className="text-base text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
+            >
+              Subscribe
             </Link>
             <Link
               href="/#decks"
@@ -92,7 +92,7 @@ export default function Navbar() {
           </div>
 
           {/* Mobile menu button */}
-          <div className="flex sm:hidden items-center space-x-3">
+          <div className="flex md:hidden items-center space-x-3">
             <ThemeToggle />
             <SignedOut>
               <SignInButton mode="modal">
@@ -130,7 +130,7 @@ export default function Navbar() {
 
         {/* Mobile dropdown menu */}
         {isMenuOpen && (
-          <div className="sm:hidden pb-4 space-y-2">
+          <div className="md:hidden pb-4 space-y-2">
             <Link
               href="/"
               onClick={() => setIsMenuOpen(false)}
@@ -144,6 +144,13 @@ export default function Navbar() {
               className="block py-2 text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
             >
               About
+            </Link>
+            <Link
+              href="/subscribe"
+              onClick={() => setIsMenuOpen(false)}
+              className="block py-2 text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
+            >
+              Subscribe
             </Link>
             <Link
               href="/#decks"

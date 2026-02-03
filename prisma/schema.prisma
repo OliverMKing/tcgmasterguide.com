@@ -12,13 +12,17 @@ datasource db {
 
 // UserRole values: "USER" | "ADMIN" | "SUBSCRIBER"
 model User {
-  id        String   @id @default(cuid())
-  authId    String   @unique @map("auth_id") // External auth provider ID (e.g., Clerk, Auth0)
-  email     String?  @unique
-  name      String?
-  role      String   @default("USER") // USER, ADMIN, SUBSCRIBER
-  createdAt DateTime @default(now()) @map("created_at")
-  updatedAt DateTime @updatedAt @map("updated_at")
+  id                     String    @id @default(cuid())
+  authId                 String    @unique @map("auth_id") // External auth provider ID (e.g., Clerk, Auth0)
+  email                  String?   @unique
+  name                   String?
+  role                   String    @default("USER") // USER, ADMIN, SUBSCRIBER
+  stripeCustomerId       String?   @unique @map("stripe_customer_id")
+  stripeSubscriptionId   String?   @unique @map("stripe_subscription_id")
+  stripeSubscriptionStatus String? @map("stripe_subscription_status") // active, canceled, past_due, etc.
+  subscriptionEndsAt     DateTime? @map("subscription_ends_at")
+  createdAt              DateTime  @default(now()) @map("created_at")
+  updatedAt              DateTime  @updatedAt @map("updated_at")
 
   @@map("users")
 }
