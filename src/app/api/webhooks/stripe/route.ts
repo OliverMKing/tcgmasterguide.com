@@ -89,7 +89,7 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session) 
 async function handleSubscriptionUpdated(subscription: Stripe.Subscription) {
   const customerId = subscription.customer as string
 
-  const user = await prisma.user.findUnique({
+  const user = await prisma.user.findFirst({
     where: { stripeCustomerId: customerId },
   })
 
@@ -121,7 +121,7 @@ async function handleSubscriptionUpdated(subscription: Stripe.Subscription) {
 async function handleSubscriptionDeleted(subscription: Stripe.Subscription) {
   const customerId = subscription.customer as string
 
-  const user = await prisma.user.findUnique({
+  const user = await prisma.user.findFirst({
     where: { stripeCustomerId: customerId },
   })
 
@@ -144,7 +144,7 @@ async function handleSubscriptionDeleted(subscription: Stripe.Subscription) {
 async function handlePaymentFailed(invoice: Stripe.Invoice) {
   const customerId = invoice.customer as string
 
-  const user = await prisma.user.findUnique({
+  const user = await prisma.user.findFirst({
     where: { stripeCustomerId: customerId },
   })
 
