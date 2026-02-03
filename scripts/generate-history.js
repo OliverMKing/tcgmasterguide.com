@@ -9,13 +9,15 @@ const outputDir = path.join(__dirname, '..', 'src', 'generated')
 
 // Number of history entries to keep
 const MAX_HISTORY_ENTRIES = 3
+// Fetch more commits to account for skipped ones (metadata-only, excluded lines)
+const MAX_COMMITS_TO_FETCH = 5
 
 function getGitHistory(filePath) {
   try {
-    // Get the last N+1 commits to calculate diffs between versions
+    // Get more commits than needed to account for skipped ones
     // Format: commit hash, date, subject
     const log = execSync(
-      `git log --follow --format="%H|%cI|%s" -n ${MAX_HISTORY_ENTRIES + 1} -- "${filePath}"`,
+      `git log --follow --format="%H|%cI|%s" -n ${MAX_COMMITS_TO_FETCH} -- "${filePath}"`,
       { encoding: 'utf8' }
     ).trim()
 
@@ -72,19 +74,27 @@ function getHeadingAtLine(lines, lineIndex) {
   return null
 }
 
+function shouldExcludeLine(line) {
+  const trimmed = line.trim().toLowerCase()
+  return trimmed.includes('<!-- public -->') || trimmed.includes('private')
+}
+
 function computeDiff(oldContent, newContent) {
   if (!oldContent) {
     // This is the first commit, everything is an addition
     const lines = newContent.split('\n')
-    return {
-      additions: lines.length,
-      deletions: 0,
-      changes: lines.map((line, i) => ({
+    const filteredChanges = lines
+      .map((line, i) => ({
         type: 'add',
         lineNumber: i + 1,
         content: line,
         heading: getHeadingAtLine(lines, i),
-      })),
+      }))
+      .filter((c) => !shouldExcludeLine(c.content))
+    return {
+      additions: filteredChanges.length,
+      deletions: 0,
+      changes: filteredChanges,
     }
   }
 
@@ -103,7 +113,7 @@ function computeDiff(oldContent, newContent) {
 
   // Lines that are new
   newLines.forEach((line, i) => {
-    if (!oldSet.has(line)) {
+    if (!oldSet.has(line) && !shouldExcludeLine(line)) {
       changes.push({
         type: 'add',
         lineNumber: i + 1,
@@ -116,7 +126,7 @@ function computeDiff(oldContent, newContent) {
 
   // Lines that were removed
   oldLines.forEach((line, i) => {
-    if (!newSet.has(line)) {
+    if (!newSet.has(line) && !shouldExcludeLine(line)) {
       changes.push({
         type: 'remove',
         lineNumber: i + 1,
@@ -136,13 +146,21 @@ function generateHistoryForDeck(filePath) {
   if (commits.length === 0) return []
 
   const history = []
+  let commitIndex = 0
 
-  for (let i = 0; i < Math.min(commits.length, MAX_HISTORY_ENTRIES); i++) {
-    const commit = commits[i]
-    const previousCommit = commits[i + 1]
+  // Keep processing commits until we have enough history entries or run out of commits
+  while (history.length < MAX_HISTORY_ENTRIES && commitIndex < commits.length) {
+    const commit = commits[commitIndex]
+    const previousCommit = commits[commitIndex + 1]
+
+    commitIndex++
+
+    // Skip if this is the last commit and there's no previous to diff against
+    // (we can't show meaningful changes without a baseline)
+    if (!previousCommit) continue
 
     const currentContent = getFileContentAtCommit(filePath, commit.hash)
-    const previousContent = previousCommit ? getFileContentAtCommit(filePath, previousCommit.hash) : null
+    const previousContent = getFileContentAtCommit(filePath, previousCommit.hash)
 
     if (!currentContent) continue
 
@@ -151,14 +169,19 @@ function generateHistoryForDeck(filePath) {
 
     const diff = computeDiff(previousMarkdown, currentMarkdown)
 
+    // Filter to only significant changes (non-empty lines)
+    const significantChanges = diff.changes.filter((c) => c.content.trim().length > 0)
+
+    // Skip commits with no meaningful changes (metadata-only or only excluded lines)
+    if (significantChanges.length === 0) continue
+
     history.push({
       hash: commit.hash.substring(0, 7),
       date: commit.date,
       subject: commit.subject,
       additions: diff.additions,
       deletions: diff.deletions,
-      // Only include significant changes (skip empty lines)
-      changes: diff.changes.filter((c) => c.content.trim().length > 0).slice(0, 50), // Limit to 50 changes per version
+      changes: significantChanges.slice(0, 50), // Limit to 50 changes per version
     })
   }
 
