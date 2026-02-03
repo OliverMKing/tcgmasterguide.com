@@ -3,7 +3,7 @@ title: "Gholdengo"
 pokemon: [1000]
 tier: 1
 ---
-
+<!-- PUBLIC -->
 ## Decklist
 
 ![Gholdengo/Lop List](./images/gholdengo/goldlop.png)
@@ -59,7 +59,7 @@ Energy: 11
 - Team Rocket's Watchtower sounds good on paper to counter Charizard, but it didn't improve the winrate very much when I tried it out.  It maybe adds a few percentage points in that matchup, but it's still unfavorable, so I don't think it's worth it. I also did not enjoy having to play Secret Box.
 - Munkidori could be considered over Picnic Basket, as it can be set up preemptively, whereas Picnic Basket has to be drawn at the right time. However, with Lunatone and Solrock now in the deck, there is not much bench space for Munkidori, especially considering it is mostly useful against Dragapult (which requires three Gholdengo/Gimmi and is an already favorable matchup).
 - I tried both one and two Lana's Aid in this deck and it does not work.
-
+<!-- /PUBLIC -->
 ## Decklist 2
 
 ![Lana List](./images/gholdengo/lana.png)

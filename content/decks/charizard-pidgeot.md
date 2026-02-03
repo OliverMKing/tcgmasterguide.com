@@ -3,7 +3,7 @@ title: "Charizard / Pidgeot"
 pokemon: [6, 18]
 tier: 3
 ---
-
+<!-- PUBLIC -->
 ## Decklist
 
 ![decklist for Charizard / Pidgeot](./images/charizard-pidgeot/decklist.png)
@@ -53,7 +53,7 @@ Energy: 7
 - I cut one Lillie for Arven. Even though Lillie draws 8 cards which is broken, sometimes you need Arven because TM: Evo is also broken (and super important in some matchups), and Lillie does not consistently find TM: Evo.
 - 60 HP Pidgey is important against other Charizard decks and is also useful against Dragapult and Grimmsnarl. Although Call for Family can be useful on occasion, it is rare.
 - Not 100% on the Charmeleon split. The 110 HP one is obviously best. The 90 HP is occasionally relevant against Devolution (Garde/Jelly and Grimmsnarl) and has the added bonus of helping against Alakazam. I don't see the reason for the 100 HP one, as this deck can't really afford to use its attack.
-
+<!-- /PUBLIC -->
 ## Gameplay
 
 - Setting up Pidgeot is usually the number one priority.
