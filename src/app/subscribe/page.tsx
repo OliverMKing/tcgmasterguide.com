@@ -2,12 +2,13 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { useUser, SignInButton } from '@clerk/nextjs'
+import { useUser, useAuth, SignInButton } from '@clerk/nextjs'
 import { useCurrentUser } from '@/hooks/useCurrentUser'
 import { hasSubscriberAccess, isAdmin } from '@/lib/user-roles'
 
 export default function SubscribePage() {
   const { isSignedIn, isLoaded: clerkLoaded } = useUser()
+  const { getToken } = useAuth()
   const { userData, isLoaded: userLoaded } = useCurrentUser()
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -19,7 +20,13 @@ export default function SubscribePage() {
     setError(null)
 
     try {
-      const res = await fetch('/api/stripe/checkout', { method: 'POST' })
+      const token = await getToken()
+      const res = await fetch('/api/stripe/checkout', {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      })
       const data = await res.json()
 
       if (!res.ok) {
@@ -39,7 +46,13 @@ export default function SubscribePage() {
     setError(null)
 
     try {
-      const res = await fetch('/api/stripe/portal', { method: 'POST' })
+      const token = await getToken()
+      const res = await fetch('/api/stripe/portal', {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      })
       const data = await res.json()
 
       if (!res.ok) {
