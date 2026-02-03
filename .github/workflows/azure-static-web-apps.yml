@@ -47,7 +47,7 @@ jobs:
             --end-ip-address ${{ steps.ip.outputs.ip }}
 
       - name: Resolve failed migration
-        run: npx prisma migrate resolve --rolled-back 20260202234732_stripe --applied
+        run: npx prisma migrate resolve --applied 20260202234732_stripe 
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
