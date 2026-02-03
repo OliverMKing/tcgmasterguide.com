@@ -101,6 +101,7 @@ jobs:
           # these aren't secrets and we need to bake them in at build time
           NEXT_PUBLIC_APPINSIGHTS_CONNECTION_STRING: 'InstrumentationKey=cac8631b-0005-4ef2-9db2-e5a5dee57321;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/;ApplicationId=ac1260d2-af55-40df-89d2-b1149d4bbd73'
           NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: 'pk_live_Y2xlcmsudGNnbWFzdGVyZ3VpZGUuY29tJA'
+          NEXT_PUBLIC_APP_URL: 'https://www.tcgmasterguide.com'
           # Clean up large files to stay under Azure Functions size limits
           # Using engineType=client means no Rust binaries - much smaller bundle
           POST_BUILD_COMMAND: 'rm -rf .next/cache .next/dev node_modules/.bin node_modules/@next/swc-* node_modules/@img node_modules/lightningcss-* node_modules/typescript node_modules/@typescript-eslint node_modules/eslint* node_modules/@eslint* node_modules/@babel node_modules/prisma 2>/dev/null || true'

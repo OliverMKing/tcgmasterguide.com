@@ -426,6 +426,31 @@ resource "null_resource" "swa_twitch_settings" {
   depends_on = [azurerm_static_web_app.main]
 }
 
+# Set Stripe API credentials on Static Web App
+resource "null_resource" "swa_stripe_settings" {
+  count = var.stripe_secret_key != "" ? 1 : 0
+
+  triggers = {
+    stripe_secret_key    = var.stripe_secret_key
+    stripe_webhook_secret = var.stripe_webhook_secret
+    stripe_price_id      = var.stripe_price_id
+  }
+
+  provisioner "local-exec" {
+    command = <<-EOT
+      az staticwebapp appsettings set \
+        --name ${azurerm_static_web_app.main.name} \
+        --resource-group ${azurerm_resource_group.main.name} \
+        --setting-names \
+          STRIPE_SECRET_KEY="${var.stripe_secret_key}" \
+          STRIPE_WEBHOOK_SECRET="${var.stripe_webhook_secret}" \
+          STRIPE_PRICE_ID="${var.stripe_price_id}"
+    EOT
+  }
+
+  depends_on = [azurerm_static_web_app.main]
+}
+
 # Set DATABASE_URL on Static Web App for Prisma
 # Format: sqlserver://server:port;database=dbname;user=username;password=password;encrypt=true
 resource "terraform_data" "swa_database_settings" {

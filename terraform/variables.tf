@@ -100,6 +100,12 @@ variable "stripe_webhook_secret" {
   default     = ""
 }
 
+variable "stripe_price_id" {
+  description = "Stripe subscription price ID"
+  type        = string
+  default     = ""
+}
+
 variable "tags" {
   description = "Tags to apply to all resources"
   type        = map(string)
