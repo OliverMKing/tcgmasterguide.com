@@ -99,7 +99,7 @@ async function handleSubscriptionUpdated(subscription: Stripe.Subscription) {
   }
 
   const status = subscription.status
-  const isActive = status === 'active' || status === 'trialing'
+  const isActive = status === 'active' 
   // Get current period end from subscription items or use a default
   const currentPeriodEnd = subscription.items?.data[0]?.current_period_end
     ? new Date(subscription.items.data[0].current_period_end * 1000)

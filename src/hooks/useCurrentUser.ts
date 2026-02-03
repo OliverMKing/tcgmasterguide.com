@@ -10,7 +10,7 @@ interface UserData {
 }
 
 const CACHE_KEY = 'tcg_user_data'
-const CACHE_TTL = 5 * 60 * 1000 // 5 minutes
+const CACHE_TTL = 2 * 60 * 1000 // 2 minutes
 
 // Retry configuration for handling race conditions with Clerk session/webhook
 const MAX_RETRIES = 5

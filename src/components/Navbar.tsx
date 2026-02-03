@@ -15,7 +15,7 @@ import { useCurrentUser } from '@/hooks/useCurrentUser'
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const pathname = usePathname()
-  const { isAdmin } = useCurrentUser()
+  const { isAdmin, hasSubscriberAccess } = useCurrentUser()
 
   // Close menu on route change
   useEffect(() => {
@@ -44,7 +44,7 @@ export default function Navbar() {
               href="/subscribe"
               className="text-base text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
             >
-              Subscribe
+              {hasSubscriberAccess ? 'Subscription' : 'Subscribe'}
             </Link>
             <Link
               href="/#decks"
@@ -150,7 +150,7 @@ export default function Navbar() {
               onClick={() => setIsMenuOpen(false)}
               className="block py-2 text-text-secondary dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
             >
-              Subscribe
+              {hasSubscriberAccess ? 'Subscription' : 'Subscribe'}
             </Link>
             <Link
               href="/#decks"
