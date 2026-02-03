@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import { useUser, useAuth } from '@clerk/nextjs'
 import { hasSubscriberAccess as checkSubscriberAccess } from '@/lib/user-roles'
 
@@ -12,10 +12,9 @@ interface UserData {
 const CACHE_KEY = 'tcg_user_data'
 const CACHE_TTL = 2 * 60 * 1000 // 2 minutes
 
-// Retry configuration for handling race conditions with Clerk session/webhook
+// Retry configuration for handling race conditions with Clerk webhook
 const MAX_RETRIES = 5
 const INITIAL_RETRY_DELAY = 500 // ms
-const RETRYABLE_STATUS_CODES = [401, 404] // 401: session not ready, 404: user not in DB yet
 
 interface CachedUserData {
   data: UserData
@@ -66,6 +65,15 @@ export function useCurrentUser() {
   const [loading, setLoading] = useState(true)
   const prevUserIdRef = useRef<string | null | undefined>(undefined)
 
+  // Create a fetch function that includes the session token in the Authorization header
+  // This ensures the API receives the current token even after a refresh
+  const fetchWithToken = useCallback(async (skipCache = false): Promise<Response> => {
+    const token = await getToken({ skipCache })
+    return fetch('/api/user/me', {
+      headers: token ? { Authorization: `Bearer ${token}` } : {},
+    })
+  }, [getToken])
+
   useEffect(() => {
     async function fetchUserData() {
       if (!isLoaded) return
@@ -100,24 +108,23 @@ export function useCurrentUser() {
         let lastError: Error | null = null
 
         // Retry loop with exponential backoff for race conditions
-        // (Clerk session not ready or webhook hasn't created user yet)
+        // (webhook hasn't created user yet)
         for (let attempt = 0; attempt < MAX_RETRIES; attempt++) {
           try {
-            res = await fetch('/api/user/me')
-
-            // Handle expired JWT by forcing token refresh
-            if (res.status === 401 && attempt === 0) {
-              await getToken({ skipCache: true })
-              res = await fetch('/api/user/me')
-            }
+            // First attempt: use cached token for speed
+            // On 401: force token refresh and retry
+            const skipCache = attempt > 0
+            res = await fetchWithToken(skipCache)
 
             // Success - break out of retry loop
             if (res.ok) {
               break
             }
 
-            // If it's a retryable error and we have retries left, wait and retry
-            if (RETRYABLE_STATUS_CODES.includes(res.status) && attempt < MAX_RETRIES - 1) {
+            // 401 or 404 with retries left: wait and retry
+            // 401: session token expired/invalid
+            // 404: webhook race condition (user not in DB yet)
+            if ([401, 404].includes(res.status) && attempt < MAX_RETRIES - 1) {
               const delay = INITIAL_RETRY_DELAY * Math.pow(2, attempt)
               await new Promise(resolve => setTimeout(resolve, delay))
               continue
@@ -156,7 +163,7 @@ export function useCurrentUser() {
     }
 
     fetchUserData()
-  }, [isLoaded, isSignedIn, user, getToken])
+  }, [isLoaded, isSignedIn, user, fetchWithToken])
 
   const isAdmin = userData?.role === 'ADMIN'
 
