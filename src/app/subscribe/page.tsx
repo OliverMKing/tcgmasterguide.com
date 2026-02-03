@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { useUser, SignInButton } from '@clerk/nextjs'
 import { useCurrentUser } from '@/hooks/useCurrentUser'
-import { hasSubscriberAccess } from '@/lib/user-roles'
+import { hasSubscriberAccess, isAdmin } from '@/lib/user-roles'
 
 export default function SubscribePage() {
   const { isSignedIn, isLoaded: clerkLoaded } = useUser()
@@ -165,16 +165,18 @@ export default function SubscribePage() {
                 <div className="space-y-4">
                   <div className="text-center p-4 bg-green-100 dark:bg-green-900/30 rounded-xl">
                     <p className="text-green-700 dark:text-green-300 font-semibold">
-                      You&apos;re subscribed!
+                      {isAdmin(userData?.role) ? 'You have admin access!' : "You're subscribed!"}
                     </p>
                   </div>
-                  <button
-                    onClick={handleManageSubscription}
-                    disabled={loading}
-                    className="w-full bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-semibold px-6 py-4 rounded-xl hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors cursor-pointer disabled:opacity-50"
-                  >
-                    {loading ? 'Loading...' : 'Manage Subscription'}
-                  </button>
+                  {!isAdmin(userData?.role) && (
+                    <button
+                      onClick={handleManageSubscription}
+                      disabled={loading}
+                      className="w-full bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-semibold px-6 py-4 rounded-xl hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors cursor-pointer disabled:opacity-50"
+                    >
+                      {loading ? 'Loading...' : 'Manage Subscription'}
+                    </button>
+                  )}
                 </div>
               ) : (
                 <>
