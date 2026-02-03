@@ -114,25 +114,37 @@ export default function SubscribePage() {
                   <svg className="w-5 h-5 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span className="text-slate-700 dark:text-slate-300">Access to all deck guides</span>
+                  <span className="text-slate-700 dark:text-slate-300">Comprehensive deck guides</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <svg className="w-5 h-5 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span className="text-slate-700 dark:text-slate-300">Matchup analysis & strategies</span>
+                  <span className="text-slate-700 dark:text-slate-300">Every relevant matchup explained</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <svg className="w-5 h-5 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span className="text-slate-700 dark:text-slate-300">Updated decklists</span>
+                  <span className="text-slate-700 dark:text-slate-300">120+ gameplay videos and analysis</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <svg className="w-5 h-5 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span className="text-slate-700 dark:text-slate-300">Discussion & comments</span>
+                  <span className="text-slate-700 dark:text-slate-300">Constant updates</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-slate-700 dark:text-slate-300">Easy to navigate site, mobile friendly</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-slate-700 dark:text-slate-300">Discussion and comments</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <svg className="w-5 h-5 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
