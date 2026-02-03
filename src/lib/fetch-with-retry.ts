@@ -16,10 +16,17 @@ export function useFetchWithRetry() {
 
       if (response.status === 401) {
         // Force Clerk to refresh the token
-        await getToken({ skipCache: true })
+        const token = await getToken({ skipCache: true })
 
-        // Retry the request once
-        return fetch(url, options)
+        // Retry the request with the fresh token in Authorization header
+        const retryOptions: RequestInit = {
+          ...options,
+          headers: {
+            ...options?.headers,
+            Authorization: `Bearer ${token}`,
+          },
+        }
+        return fetch(url, retryOptions)
       }
 
       return response
