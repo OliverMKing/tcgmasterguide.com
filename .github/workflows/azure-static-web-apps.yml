@@ -46,6 +46,11 @@ jobs:
             --start-ip-address ${{ steps.ip.outputs.ip }} \
             --end-ip-address ${{ steps.ip.outputs.ip }}
 
+      - name: Resolve failed migration
+        run: npx prisma migrate resolve --rolled-back 20260202234732_stripe
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+
       - name: Run database migrations
         # Azure SQL can be slow to respond when cold/idle (P1001 error).
         # The first connection attempt wakes it up, so retrying usually works.
