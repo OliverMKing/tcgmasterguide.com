@@ -249,6 +249,18 @@ This matchup is slightly favorable with the Ice Creams and unfavorable without t
 - Leave Kang in the Active early-game to set up. Being the aggressor with Absol is ok, especially if you have plenty of Energy on the board. Usually respond to Phantom Dive with Terminal Period. Using Claw into their first Dragapult is often not ideal because you want to one-shotting it with Terminal Period.
 - After Absol goes down, can use Kang, Ursaluna, or second Absol as your second attacker depending on the situation. Kang is generally the least useful but the most convenient because it's already on your board and may already have Energy.
 
+```youtube
+id: VDQKGxKCEg8
+title: Absol (Ice Cream) v Pult 1
+```
+This is an interesting game.
+
+```twitch
+id: 2687729270
+title: Absol (Ice Cream) v Pult 2
+```
+This is another interesting game where I look at three main timelines.
+
 ```twitch
 id: 2676573152
 title: Dragapult v Absol 1

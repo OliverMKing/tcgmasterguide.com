@@ -373,6 +373,18 @@ id: 2676573175
 title: Dragapult v Absol 6
 ```
 
+```youtube
+id: VDQKGxKCEg8
+title: Absol (Ice Cream) v Pult 1
+```
+This is an interesting game.
+
+```twitch
+id: 2687729270
+title: Absol (Ice Cream) v Pult 2
+```
+This is another interesting game where I look at three main timelines.
+
 ### Grimmsnarl - Unfavorable
 
 - Munkidori is very important.
