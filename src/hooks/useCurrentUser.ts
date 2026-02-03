@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import { useUser, useAuth } from '@clerk/nextjs'
+import { hasSubscriberAccess as checkSubscriberAccess } from '@/lib/user-roles'
 
 interface UserData {
   id: string
@@ -157,11 +158,14 @@ export function useCurrentUser() {
     fetchUserData()
   }, [isLoaded, isSignedIn, user, getToken])
 
+  const isAdmin = userData?.role === 'ADMIN'
+
   return {
     isLoaded: isLoaded && !loading,
     isSignedIn,
     user,
     userData,
-    isAdmin: userData?.role === 'ADMIN',
+    isAdmin,
+    hasSubscriberAccess: checkSubscriberAccess(userData?.role),
   }
 }

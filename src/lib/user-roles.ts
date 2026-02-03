@@ -19,5 +19,9 @@ export function isSubscriber(role: string | null | undefined): boolean {
 }
 
 export function hasSubscriberAccess(role: string | null | undefined): boolean {
+  // If NEXT_PUBLIC_REQUIRE_SUBSCRIPTION is not 'true', grant access to everyone
+  if (process.env.NEXT_PUBLIC_REQUIRE_SUBSCRIPTION !== 'true') {
+    return true;
+  }
   return role === UserRole.ADMIN || role === UserRole.SUBSCRIBER;
 }

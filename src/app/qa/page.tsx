@@ -44,7 +44,7 @@ type SortOrder = 'asc' | 'desc'
 
 export default function QAPage() {
   const { isSignedIn, isLoaded } = useUser()
-  const { isAdmin } = useCurrentUser()
+  const { isAdmin, hasSubscriberAccess, isLoaded: userLoaded } = useCurrentUser()
   const fetchWithRetry = useFetchWithRetry()
   const [comments, setComments] = useState<Comment[]>([])
   const [pagination, setPagination] = useState<Pagination | null>(null)
@@ -262,6 +262,68 @@ export default function QAPage() {
           Want to know more about a deck or the game in general? Ask here and get answers from Grant.
         </p>
 
+        {/* Subscriber Gate */}
+        {isLoaded && userLoaded && !hasSubscriberAccess && (
+          <div className="p-8 rounded-xl bg-gradient-to-br from-purple-50 to-indigo-50 dark:from-purple-900/20 dark:to-indigo-900/20 border border-purple-200 dark:border-purple-800 text-center">
+            <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-purple-100 dark:bg-purple-900/50 flex items-center justify-center">
+              <svg className="w-8 h-8 text-purple-600 dark:text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+              </svg>
+            </div>
+            <h2 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-2">
+              Subscriber-Only Feature
+            </h2>
+            <p className="text-slate-600 dark:text-slate-400 mb-6 max-w-md mx-auto">
+              Q&A is exclusively available to subscribers. Subscribe to ask questions and get personalized answers from Grant.
+            </p>
+            {isSignedIn ? (
+              <Link
+                href="/subscribe"
+                className="inline-flex px-6 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-xl transition-colors"
+              >
+                Subscribe Now
+              </Link>
+            ) : (
+              <SignInButton mode="modal">
+                <button className="px-6 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-xl transition-colors cursor-pointer">
+                  Sign In
+                </button>
+              </SignInButton>
+            )}
+          </div>
+        )}
+
+        {/* Loading State */}
+        {(!isLoaded || !userLoaded) && (
+          <div className="space-y-6">
+            {/* Skeleton for form */}
+            <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6 animate-pulse">
+              <div className="h-4 w-32 bg-slate-200 dark:bg-slate-700 rounded mb-4" />
+              <div className="h-10 bg-slate-200 dark:bg-slate-700 rounded mb-4" />
+              <div className="h-4 w-24 bg-slate-200 dark:bg-slate-700 rounded mb-4" />
+              <div className="h-32 bg-slate-200 dark:bg-slate-700 rounded mb-4" />
+              <div className="h-10 w-36 bg-slate-200 dark:bg-slate-700 rounded" />
+            </div>
+            {/* Skeleton for questions */}
+            {[1, 2, 3].map((i) => (
+              <div key={i} className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-5 animate-pulse">
+                <div className="flex items-center gap-2 mb-3">
+                  <div className="h-4 w-24 bg-slate-200 dark:bg-slate-700 rounded" />
+                  <div className="h-4 w-20 bg-slate-200 dark:bg-slate-700 rounded" />
+                  <div className="h-5 w-16 bg-slate-200 dark:bg-slate-700 rounded-full" />
+                </div>
+                <div className="space-y-2">
+                  <div className="h-4 bg-slate-200 dark:bg-slate-700 rounded w-full" />
+                  <div className="h-4 bg-slate-200 dark:bg-slate-700 rounded w-3/4" />
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* Main Content - Only for Subscribers */}
+        {isLoaded && userLoaded && hasSubscriberAccess && (
+          <>
         {/* Question Form */}
         {isLoaded && (
           <div className="mb-12">
@@ -603,6 +665,8 @@ export default function QAPage() {
               Next
             </button>
           </div>
+        )}
+          </>
         )}
       </div>
     </main>

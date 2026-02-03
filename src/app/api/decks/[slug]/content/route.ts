@@ -6,8 +6,8 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
-// Set to true to enable subscription requirement
-const REQUIRE_SUBSCRIPTION = false
+// Set via NEXT_PUBLIC_REQUIRE_SUBSCRIPTION env variable (defaults to false)
+const REQUIRE_SUBSCRIPTION = process.env.NEXT_PUBLIC_REQUIRE_SUBSCRIPTION === 'true'
 
 // GET /api/decks/[slug]/content - Get deck content if user has access
 export async function GET(

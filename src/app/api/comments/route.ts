@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { auth, currentUser } from '@clerk/nextjs/server'
 import { prisma } from '@/lib/prisma'
-import { isAdmin } from '@/lib/user-roles'
+import { isAdmin, hasSubscriberAccess } from '@/lib/user-roles'
 
 type SortField = 'createdAt' | 'userName'
 type SortOrder = 'asc' | 'desc'
@@ -22,12 +22,24 @@ export async function GET(request: NextRequest) {
   const finalSortOrder: SortOrder = sortOrder === 'asc' ? 'asc' : 'desc'
 
   const { userId } = await auth()
+
+  // Check user role
   let userIsAdmin = false
+  let userHasSubscriberAccess = hasSubscriberAccess(null) // Check if subscription is disabled
   if (userId) {
     const dbUser = await prisma.user.findUnique({
       where: { authId: userId },
     })
     userIsAdmin = isAdmin(dbUser?.role)
+    userHasSubscriberAccess = hasSubscriberAccess(dbUser?.role)
+  }
+
+  // Only subscribers can access comments
+  if (!userHasSubscriberAccess) {
+    return NextResponse.json(
+      { error: 'Subscription required to view comments' },
+      { status: 403 }
+    )
   }
 
   // Build deck filter: null = no filter, '' = only null deckSlug (Other), 'slug' = specific deck
@@ -99,10 +111,18 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: 'User not found' }, { status: 401 })
   }
 
-  // Check if user is admin (auto-approve their comments)
+  // Check if user has subscriber access
   const dbUser = await prisma.user.findUnique({
     where: { authId: userId },
   })
+
+  if (!hasSubscriberAccess(dbUser?.role)) {
+    return NextResponse.json(
+      { error: 'Subscription required to post comments' },
+      { status: 403 }
+    )
+  }
+
   const userIsAdmin = isAdmin(dbUser?.role)
 
   try {
