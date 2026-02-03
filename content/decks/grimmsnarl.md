@@ -44,6 +44,7 @@ Trainer: 33
 Energy: 8
 8 Darkness Energy MEE 7
 ```
+<!-- PUBLIC -->
 ### Inclusions
 
 - Budew is extremely strong against Dawn Zard and can sometimes scam Gholdengo.
@@ -57,7 +58,7 @@ Energy: 8
 - Yveltal is mostly used to punish specific board states/resources (such as used Turo). Oftentimes you won't use it at all, but the threat of it restricts your opponent's options. It can also be useful against decks that have a hard time finding their Turo to buy time. With the other techs, there isn't space for it right now.
 - Sacrificing the fourth Munkidori for third Stretcher is good, it just sucks when you prize two Munkidori, but that is rare. I don't think you need four Munkidori in this meta, but it's still fine if you're so inclined.
 - Psyduck is bad. All of the Dusknoir matchups are already favorable, and the bench spot it occupies is a massive liability. Charizard decks also have Klefki anyway.
-
+<!-- /PUBLIC -->
 ## Gameplay
 
 - You do not have to yolo attack with Grimmsnarl just because you can. You are allowed to play this deck slow, like a Froslass/Munkidori deck. Attacking with Grimmsnarl when they can one-shot it and you don't have a follow up plan is generally bad. Saving Candy and evolving the first Grimmsnarl through Morgrem allows for a better late-game. However, if you're going first and/or the opponent has a weak start, using the Candy to be aggressive can be game-winning. Try not to walk into manual Mind Bend (or just flip heads).

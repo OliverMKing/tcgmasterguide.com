@@ -43,6 +43,7 @@ Energy: 9
 7 Darkness Energy MEE 7
 2 Mist Energy TEF 161
 ```
+<!-- PUBLIC -->
 ### Inclusions
 
 - Toedscruel actually works pretty well against Gholdengo, improving the matchup to slightly favorable. However, some of the credit also has to go to Jumbo Ice Cream for thwarting Mawile.
@@ -56,7 +57,7 @@ Energy: 9
 - Cornerstone and Moltres aren't as good at beating Gholdengo as Toedscruel.
 - I think Judge is a terrible card.
 - Other random techs such as Hammer, Devo, and Sandy Shocks seem bad to me but I have not tried them so they could be worthwhile. I would sooner try out a second Jumbo Ice Cream though.
-
+<!-- /PUBLIC -->
 ## Gameplay
 
 - In slower matchups or against decks that have a hard time getting through a Mega Kangaskhan, you typically want to play more passively and prioritize setting up an unbreakable board. However, against decks that can pressure you, such as sniping or capability of one-shotting Megas, it's ok to be aggressive with Absol on Turn 2-3. 

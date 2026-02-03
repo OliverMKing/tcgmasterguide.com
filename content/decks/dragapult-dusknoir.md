@@ -3,7 +3,7 @@ title: "Dragapult / Dusknoir"
 pokemon: [887, 477]
 tier: 2
 ---
-
+<!-- PUBLIC -->
 ## Decklist
 
 ![decklist for Dragapult / Dusknoir](./images/dragapult-dusknoir/pultlist2.png)
@@ -51,7 +51,7 @@ Energy: 7
 ### Exclusions
 
 - I tried Moltres and found that it did not impact the Gholdengo matchup as much as I hoped.
-
+<!-- /PUBLIC -->
 ## Gameplay
 
 - The sequencing with this deck depends on what you're trying to do. When reaching for combos, maximize the number of cards seen by starting with draw Supporter, then Fezandipiti, and Recon Directives last. If you need more Pokemon than search cards you have, draw first. If not, search first. If you need to evolve into Dragapult before playing a draw Supporter, use the evolving Drakloak's Recon first, then evolve, then go into the above sequence.

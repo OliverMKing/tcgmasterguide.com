@@ -43,6 +43,7 @@ Energy: 10
 7 Psychic Energy MEE 5
 3 Darkness Energy MEE 7
 ```
+<!-- PUBLIC -->
 ### Inclusions
 
 - I prefer the Evo build with two Kirlia because it makes a huge difference in the Dragapult matchup. Evo'ing is also generally better in slower matchups, and Jellicent isn't that important overall.
@@ -60,7 +61,7 @@ Energy: 10
 - Drifloon would most likely require another Psychic and Vessel, and doesn't really help as much against Gholdengo as one might think. However, it can be useful against other things, so playing a deck more focused on that isn't necessarily bad.
 
 **To try: Team Rocket's Watchtower.**
-
+<!-- /PUBLIC -->
 ## Gameplay
 
 - Going for Turn 1 Latias plus Frillish is generally worth it when the opponent did not have a strong Turn 1 and you can cut off their options. For example, if Gholdengo or Absol did not get their key Pokemon into play, Frillish can cripple them. If they did, Frillish isn't as necessary on Turn 1. Against decks like Charizard and Gardevoir that rely on Items to set up, you basically always want a Turn 1 Frillish.

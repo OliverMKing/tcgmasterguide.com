@@ -3,7 +3,7 @@ title: "Charizard / Noctowl"
 pokemon: [6, 164]
 tier: 1
 ---
-
+<!-- PUBLIC -->
 ## Decklist
 
 ![Charizard / Noctowl Decklist](./images/charizard-noctowl/jacq.png)
@@ -59,7 +59,7 @@ Energy: 7
 - Pidgeotto is obviously helpful against Dragapult and Jellicent. However, this deck loses to Dragapult anyway. In practice, it is good against Jellicent, but it's not as important as I initially expected it to be. You lose a few percentage points against Jellicent without it, but that matchup is still favorable anyway. The deciding factor for me is how useless Pidgeotto was against literally everything else; you're simply always Candy'ing into Pidgeot.
 - Ditto is bad. There are lots of times where you simply don't have Energy Turn 1, and even if you do, having to discard it is bad too. Ditto is mostly relevant specifically when you start with Energy and no out to Tera, which is somewhat rare (especially with four Dawn now). Can also Call for Family for Terapagos. However, naturally opening with Ditto is extremely strong.
 - Second Iono would be nice and helpful in various spots. It's just not entirely necessary all that often. You don't ever need both, but sometimes you really need that one at the end of the game. Iono is also a useful draw/consistency card which makes it generally good. I think it is similar in usefulness to Counter Catcher, but maybe slightly less so.
-
+<!-- /PUBLIC -->
 ## Decklist 2
 
 ![Wellspring](./images/charizard-noctowl/wellspring.png)
