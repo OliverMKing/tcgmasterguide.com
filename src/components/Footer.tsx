@@ -6,7 +6,16 @@ export default function Footer() {
           <p className="text-slate-600 dark:text-slate-400 text-sm">
             Contact
           </p>
-          <div className="flex items-center gap-4">
+          <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center items-center gap-4">
+            <a
+              href="mailto:grantm1999@hotmail.com"
+              className="flex items-center gap-2 text-slate-600 dark:text-slate-400 hover:text-purple-700 dark:hover:text-purple-400 transition-colors"
+            >
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <span className="text-sm font-medium">Email</span>
+            </a>
             <a
               href="https://x.com/Tricroar"
               target="_blank"
