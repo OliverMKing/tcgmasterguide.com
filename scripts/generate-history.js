@@ -76,7 +76,12 @@ function getHeadingAtLine(lines, lineIndex) {
 
 function shouldExcludeLine(line) {
   const trimmed = line.trim().toLowerCase()
-  return trimmed.includes('<!-- public -->') || trimmed.includes('private')
+  return (
+    trimmed.includes('<!-- private -->') ||
+    trimmed.includes('<!-- /private -->') ||
+    trimmed.includes('<!-- public -->') ||
+    trimmed.includes('<!-- /public -->')
+  )
 }
 
 function computeDiff(oldContent, newContent) {
