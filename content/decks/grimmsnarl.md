@@ -6,7 +6,7 @@ tier: 1
 
 ## Decklist
 
-![Grimmsnarl decklist](./images/grimmsnarl/toed3.png)
+![Grimmsnarl decklist](./images/grimmsnarl/cool.png)
 ```decklist
 Pokémon: 19
 3 Marnie's Impidimp DRI 134
@@ -15,7 +15,7 @@ Pokémon: 19
 3 Munkidori TWM 95
 2 Snorunt PAR 37
 2 Froslass TWM 53
-1 Toedscool OBF 118
+1 Toedscool JTG 88
 1 Toedscruel PAR 17
 1 Bloodmoon Ursaluna ex TWM 141
 1 Budew PRE 4
