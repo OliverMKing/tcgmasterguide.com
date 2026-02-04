@@ -12,6 +12,7 @@ import { LockedSection } from '@/components/LockedSection'
 import { ViewHistoryButton } from '@/components/ViewHistoryButton'
 import Comments from '@/components/Comments'
 import { HistoryEntry } from '@/generated/deck-history'
+import { useFetchWithRetry } from '@/lib/fetch-with-retry'
 
 interface TocItem {
   id: string
@@ -78,11 +79,13 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
   const [content, setContent] = useState<string | null>(null)
   const [hasAccess, setHasAccess] = useState<boolean | null>(null)
   const [loading, setLoading] = useState(true)
+  const fetchWithRetry = useFetchWithRetry()
 
   useEffect(() => {
     async function fetchContent() {
       try {
-        const res = await fetch(`/api/decks/${slug}/content`)
+        // Force token refresh before fetching to ensure subscriber status is current
+        const res = await fetchWithRetry(`/api/decks/${slug}/content`, { forceRefresh: true })
         const data = await res.json()
 
         if (res.ok) {
@@ -100,7 +103,7 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
     }
 
     fetchContent()
-  }, [slug])
+  }, [slug, fetchWithRetry])
 
   if (loading) {
     return (
