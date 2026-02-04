@@ -73,7 +73,7 @@ export default function QAPage() {
       } else if (deckFilter !== 'all') {
         params.set('deckSlug', deckFilter)
       }
-      const response = await fetch(`/api/comments?${params}`)
+      const response = await fetchWithRetry(`/api/comments?${params}`, { forceRefresh: true })
       if (!response.ok) throw new Error('Failed to fetch comments')
       const data = await response.json()
       setComments(data.comments)
@@ -83,11 +83,11 @@ export default function QAPage() {
     } finally {
       setIsLoading(false)
     }
-  }, [])
+  }, [fetchWithRetry])
 
   const fetchDecks = useCallback(async () => {
     try {
-      const response = await fetch('/api/decks')
+      const response = await fetchWithRetry('/api/decks', { forceRefresh: true })
       if (response.ok) {
         const data = await response.json()
         setDecks(data)
@@ -95,7 +95,7 @@ export default function QAPage() {
     } catch {
       console.error('Failed to fetch decks')
     }
-  }, [])
+  }, [fetchWithRetry])
 
   useEffect(() => {
     fetchComments(1, sortBy, sortOrder, filterDeck)
