@@ -253,39 +253,39 @@ export default function QAPage() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800">
+    <main className="min-h-screen bg-gradient-to-b from-stone-50 to-white dark:from-slate-900 dark:to-slate-800">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h1 className="text-3xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        <h1 className="text-3xl font-bold text-neutral-800 dark:text-slate-100 mb-4">
           Questions and Answers
         </h1>
-        <p className="text-slate-600 dark:text-slate-400 mb-8">
+        <p className="text-neutral-600 dark:text-slate-400 mb-8">
           Want to know more about a deck or the game in general? Ask here and get answers from Grant.
         </p>
 
         {/* Subscriber Gate */}
         {isLoaded && userLoaded && !hasSubscriberAccess && (
-          <div className="p-8 rounded-xl bg-gradient-to-br from-purple-50 to-indigo-50 dark:from-purple-900/20 dark:to-indigo-900/20 border border-purple-200 dark:border-purple-800 text-center">
-            <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-purple-100 dark:bg-purple-900/50 flex items-center justify-center">
-              <svg className="w-8 h-8 text-purple-600 dark:text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <div className="p-8 rounded-2xl bg-violet-50 dark:bg-slate-800 border border-violet-100 dark:border-slate-700 text-center">
+            <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-violet-100 dark:bg-slate-700 flex items-center justify-center">
+              <svg className="w-7 h-7 text-violet-600 dark:text-violet-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
               </svg>
             </div>
-            <h2 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-2">
+            <h2 className="text-xl font-bold text-neutral-800 dark:text-slate-100 mb-2">
               Subscriber-Only Feature
             </h2>
-            <p className="text-slate-600 dark:text-slate-400 mb-6 max-w-md mx-auto">
+            <p className="text-neutral-600 dark:text-slate-400 mb-6 max-w-md mx-auto">
               Q&A is exclusively available to subscribers. Subscribe to ask questions and get personalized answers from Grant.
             </p>
             {isSignedIn ? (
               <Link
                 href="/subscribe"
-                className="inline-flex px-6 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-xl transition-colors"
+                className="inline-flex px-6 py-2.5 bg-violet-600 hover:bg-violet-700 text-white font-medium rounded-xl transition-colors"
               >
                 Subscribe Now
               </Link>
             ) : (
               <SignInButton mode="modal">
-                <button className="px-6 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-xl transition-colors cursor-pointer">
+                <button className="px-6 py-2.5 bg-violet-600 hover:bg-violet-700 text-white font-medium rounded-xl transition-colors cursor-pointer">
                   Sign In
                 </button>
               </SignInButton>
@@ -297,24 +297,24 @@ export default function QAPage() {
         {(!isLoaded || !userLoaded) && (
           <div className="space-y-6">
             {/* Skeleton for form */}
-            <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6 animate-pulse">
-              <div className="h-4 w-32 bg-slate-200 dark:bg-slate-700 rounded mb-4" />
-              <div className="h-10 bg-slate-200 dark:bg-slate-700 rounded mb-4" />
-              <div className="h-4 w-24 bg-slate-200 dark:bg-slate-700 rounded mb-4" />
-              <div className="h-32 bg-slate-200 dark:bg-slate-700 rounded mb-4" />
-              <div className="h-10 w-36 bg-slate-200 dark:bg-slate-700 rounded" />
+            <div className="bg-white dark:bg-slate-800 rounded-xl border border-stone-200 dark:border-slate-700 p-6 animate-pulse">
+              <div className="h-4 w-32 bg-stone-200 dark:bg-slate-700 rounded mb-4" />
+              <div className="h-10 bg-stone-200 dark:bg-slate-700 rounded mb-4" />
+              <div className="h-4 w-24 bg-stone-200 dark:bg-slate-700 rounded mb-4" />
+              <div className="h-32 bg-stone-200 dark:bg-slate-700 rounded mb-4" />
+              <div className="h-10 w-36 bg-stone-200 dark:bg-slate-700 rounded" />
             </div>
             {/* Skeleton for questions */}
             {[1, 2, 3].map((i) => (
-              <div key={i} className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-5 animate-pulse">
+              <div key={i} className="bg-white dark:bg-slate-800 rounded-xl border border-stone-200 dark:border-slate-700 p-5 animate-pulse">
                 <div className="flex items-center gap-2 mb-3">
-                  <div className="h-4 w-24 bg-slate-200 dark:bg-slate-700 rounded" />
-                  <div className="h-4 w-20 bg-slate-200 dark:bg-slate-700 rounded" />
-                  <div className="h-5 w-16 bg-slate-200 dark:bg-slate-700 rounded-full" />
+                  <div className="h-4 w-24 bg-stone-200 dark:bg-slate-700 rounded" />
+                  <div className="h-4 w-20 bg-stone-200 dark:bg-slate-700 rounded" />
+                  <div className="h-5 w-16 bg-stone-200 dark:bg-slate-700 rounded-full" />
                 </div>
                 <div className="space-y-2">
-                  <div className="h-4 bg-slate-200 dark:bg-slate-700 rounded w-full" />
-                  <div className="h-4 bg-slate-200 dark:bg-slate-700 rounded w-3/4" />
+                  <div className="h-4 bg-stone-200 dark:bg-slate-700 rounded w-full" />
+                  <div className="h-4 bg-stone-200 dark:bg-slate-700 rounded w-3/4" />
                 </div>
               </div>
             ))}
@@ -328,15 +328,15 @@ export default function QAPage() {
         {isLoaded && (
           <div className="mb-12">
             {isSignedIn ? (
-              <form onSubmit={handleSubmit} className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6">
+              <form onSubmit={handleSubmit} className="bg-white dark:bg-slate-800 rounded-xl border border-stone-200 dark:border-slate-700 p-6">
                 <div className="mb-4">
-                  <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
+                  <label className="block text-sm font-medium text-neutral-600 dark:text-slate-300 mb-2">
                     Related Deck (optional)
                   </label>
                   <select
                     value={selectedDeck}
                     onChange={(e) => setSelectedDeck(e.target.value)}
-                    className="w-full px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-purple-500"
+                    className="w-full px-4 py-2 rounded-lg border border-stone-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-neutral-800 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-violet-500"
                   >
                     <option value="">Other</option>
                     {decks.map((deck) => (
@@ -347,19 +347,19 @@ export default function QAPage() {
                   </select>
                 </div>
                 <div className="mb-4">
-                  <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
+                  <label className="block text-sm font-medium text-neutral-600 dark:text-slate-300 mb-2">
                     Your Question
                   </label>
                   <textarea
                     value={newQuestion}
                     onChange={(e) => setNewQuestion(e.target.value)}
                     placeholder="What would you like to know?"
-                    className="w-full p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:ring-2 focus:ring-purple-500 focus:border-transparent resize-none"
+                    className="w-full p-4 rounded-xl border border-stone-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-neutral-800 dark:text-slate-100 placeholder-neutral-400 dark:placeholder-slate-500 focus:ring-2 focus:ring-violet-500 focus:border-transparent resize-none"
                     rows={4}
                     maxLength={2000}
                   />
                   <div className="flex items-center justify-between mt-2">
-                    <span className="text-sm text-slate-400 dark:text-slate-500">
+                    <span className="text-sm text-neutral-400 dark:text-slate-500">
                       {newQuestion.length}/2000
                     </span>
                   </div>
@@ -367,18 +367,18 @@ export default function QAPage() {
                 <button
                   type="submit"
                   disabled={!newQuestion.trim() || isSubmitting}
-                  className="px-6 py-2.5 bg-purple-600 hover:bg-purple-700 disabled:bg-slate-300 dark:disabled:bg-slate-600 text-white font-semibold rounded-xl transition-colors cursor-pointer disabled:cursor-not-allowed"
+                  className="px-6 py-2.5 bg-violet-600 hover:bg-violet-700 disabled:bg-stone-300 dark:disabled:bg-slate-600 text-white font-medium rounded-xl transition-colors cursor-pointer disabled:cursor-not-allowed"
                 >
                   {isSubmitting ? 'Submitting...' : 'Submit Question'}
                 </button>
               </form>
             ) : (
-              <div className="p-6 rounded-xl bg-slate-100 dark:bg-slate-800 text-center">
-                <p className="text-slate-600 dark:text-slate-300 mb-4">
+              <div className="p-6 rounded-xl bg-stone-100 dark:bg-slate-800 text-center">
+                <p className="text-neutral-600 dark:text-slate-300 mb-4">
                   Sign in to ask a question
                 </p>
                 <SignInButton mode="modal">
-                  <button className="px-6 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-xl transition-colors cursor-pointer">
+                  <button className="px-6 py-2.5 bg-violet-600 hover:bg-violet-700 text-white font-medium rounded-xl transition-colors cursor-pointer">
                     Sign In
                   </button>
                 </SignInButton>
@@ -395,14 +395,14 @@ export default function QAPage() {
 
         {/* Questions List */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
-          <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-100">
+          <h2 className="text-xl font-semibold text-neutral-800 dark:text-slate-100">
             Questions & Comments {pagination && `(${pagination.total})`}
           </h2>
           <div className="flex flex-wrap items-center gap-2">
             <select
               value={filterDeck}
               onChange={(e) => handleFilterChange(e.target.value)}
-              className="px-3 py-1 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 focus:outline-none focus:ring-2 focus:ring-purple-500"
+              className="px-3 py-1 text-sm rounded-lg border border-stone-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-neutral-600 dark:text-slate-300 focus:outline-none focus:ring-2 focus:ring-violet-500"
             >
               <option value="all">All Decks</option>
               <option value="other">Other</option>
@@ -412,13 +412,13 @@ export default function QAPage() {
                 </option>
               ))}
             </select>
-            <span className="text-sm text-slate-500 dark:text-slate-400">Sort:</span>
+            <span className="text-sm text-neutral-500 dark:text-slate-400">Sort:</span>
             <button
               onClick={() => handleSortChange('createdAt')}
               className={`px-3 py-1 text-sm rounded-lg transition-colors cursor-pointer ${
                 sortBy === 'createdAt'
-                  ? 'bg-purple-600 text-white'
-                  : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
+                  ? 'bg-violet-600 text-white'
+                  : 'bg-stone-100 dark:bg-slate-700 text-neutral-600 dark:text-slate-300 hover:bg-stone-200 dark:hover:bg-slate-600'
               }`}
             >
               Date {sortBy === 'createdAt' && (sortOrder === 'asc' ? '↑' : '↓')}
@@ -427,10 +427,10 @@ export default function QAPage() {
         </div>
         {isLoading ? (
           <div className="flex justify-center py-8">
-            <div className="w-8 h-8 border-4 border-purple-600 border-t-transparent rounded-full animate-spin" />
+            <div className="w-8 h-8 border-4 border-violet-600 border-t-transparent rounded-full animate-spin" />
           </div>
         ) : comments.length === 0 ? (
-          <p className="text-center text-slate-500 dark:text-slate-400 py-8">
+          <p className="text-center text-neutral-500 dark:text-slate-400 py-8">
             No questions yet. Be the first to ask!
           </p>
         ) : (
@@ -441,27 +441,27 @@ export default function QAPage() {
                   className={`p-5 rounded-xl border ${
                     !comment.approved
                       ? 'bg-amber-50 dark:bg-amber-900/20 border-amber-200 dark:border-amber-700'
-                      : 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700'
+                      : 'bg-white dark:bg-slate-800 border-stone-200 dark:border-slate-700'
                   }`}
                 >
                   <div className="flex items-start justify-between gap-4">
                     <div className="flex-1 min-w-0">
-                      <div className="flex items-center gap-2 mb-2 flex-wrap">
-                        <span className="font-semibold text-slate-900 dark:text-slate-100">
+                      <div className="flex flex-wrap items-center gap-2 mb-2">
+                        <span className="font-semibold text-neutral-800 dark:text-slate-100">
                           {comment.userName}
                         </span>
-                        <span className="text-sm text-slate-400 dark:text-slate-500">
+                        <span className="text-sm text-neutral-400 dark:text-slate-500">
                           {formatDate(comment.createdAt)}
                         </span>
                         {comment.deckTitle ? (
                           <Link
                             href={`/decks/${comment.deckSlug}`}
-                            className="px-2 py-0.5 text-xs font-medium bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300 rounded-full hover:bg-purple-200 dark:hover:bg-purple-900/70 transition-colors"
+                            className="px-2 py-0.5 text-xs font-medium bg-violet-100 dark:bg-violet-900/50 text-violet-700 dark:text-violet-300 rounded-full hover:bg-violet-200 dark:hover:bg-violet-900/70 transition-colors"
                           >
                             {comment.deckTitle}
                           </Link>
                         ) : (
-                          <span className="px-2 py-0.5 text-xs font-medium bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-400 rounded-full">
+                          <span className="px-2 py-0.5 text-xs font-medium bg-stone-100 dark:bg-slate-700 text-neutral-500 dark:text-slate-400 rounded-full">
                             Other
                           </span>
                         )}
@@ -471,7 +471,7 @@ export default function QAPage() {
                           </span>
                         )}
                       </div>
-                      <p className="text-slate-700 dark:text-slate-300 whitespace-pre-wrap">
+                      <p className="text-neutral-600 dark:text-slate-300 whitespace-pre-wrap">
                         {comment.content}
                       </p>
                     </div>
@@ -488,7 +488,7 @@ export default function QAPage() {
                             setReplyingTo(replyingTo === comment.id ? null : comment.id)
                             setError(null)
                           }}
-                          className="p-2 text-slate-400 hover:text-purple-500 dark:text-slate-500 dark:hover:text-purple-400 transition-colors cursor-pointer"
+                          className="p-2 text-neutral-400 hover:text-violet-500 dark:text-slate-500 dark:hover:text-violet-400 transition-colors cursor-pointer"
                           title={comment.approved ? "Reply" : "Approve first to reply"}
                         >
                           <svg
@@ -508,7 +508,7 @@ export default function QAPage() {
                         {!comment.approved && (
                           <button
                             onClick={() => handleApprove(comment.id)}
-                            className="p-2 text-slate-400 hover:text-green-500 dark:text-slate-500 dark:hover:text-green-400 transition-colors cursor-pointer"
+                            className="p-2 text-neutral-400 hover:text-green-500 dark:text-slate-500 dark:hover:text-green-400 transition-colors cursor-pointer"
                             title="Approve question"
                           >
                             <svg
@@ -528,7 +528,7 @@ export default function QAPage() {
                         )}
                         <button
                           onClick={() => handleDelete(comment.id)}
-                          className="p-2 text-slate-400 hover:text-red-500 dark:text-slate-500 dark:hover:text-red-400 transition-colors cursor-pointer"
+                          className="p-2 text-neutral-400 hover:text-red-500 dark:text-slate-500 dark:hover:text-red-400 transition-colors cursor-pointer"
                           title="Delete question"
                         >
                           <svg
@@ -551,7 +551,7 @@ export default function QAPage() {
 
                   {/* Reply Form */}
                   {isAdmin && replyingTo === comment.id && (
-                    <div className="mt-4 pt-4 border-t border-slate-200 dark:border-slate-700">
+                    <div className="mt-4 pt-4 border-t border-stone-200 dark:border-slate-700">
                       {error && (
                         <div className="mb-3 p-3 rounded-lg bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400 text-sm">
                           {error}
@@ -561,7 +561,7 @@ export default function QAPage() {
                         value={replyContent}
                         onChange={(e) => setReplyContent(e.target.value)}
                         placeholder="Write your reply..."
-                        className="w-full p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:ring-2 focus:ring-purple-500 focus:border-transparent resize-none text-sm"
+                        className="w-full p-3 rounded-lg border border-stone-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-neutral-800 dark:text-slate-100 placeholder-neutral-400 dark:placeholder-slate-500 focus:ring-2 focus:ring-violet-500 focus:border-transparent resize-none text-sm"
                         rows={3}
                         maxLength={2000}
                       />
@@ -572,14 +572,14 @@ export default function QAPage() {
                             setReplyContent('')
                             setError(null)
                           }}
-                          className="px-4 py-1.5 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 font-medium rounded-lg transition-colors cursor-pointer"
+                          className="px-4 py-1.5 text-neutral-600 dark:text-slate-400 hover:text-neutral-800 dark:hover:text-slate-100 font-medium rounded-lg transition-colors cursor-pointer"
                         >
                           Cancel
                         </button>
                         <button
                           onClick={() => handleReply(comment.id)}
                           disabled={!replyContent.trim() || isSubmittingReply}
-                          className="px-4 py-1.5 bg-purple-600 hover:bg-purple-700 disabled:bg-slate-300 dark:disabled:bg-slate-600 text-white font-medium rounded-lg transition-colors cursor-pointer disabled:cursor-not-allowed"
+                          className="px-4 py-1.5 bg-violet-600 hover:bg-violet-700 disabled:bg-stone-300 dark:disabled:bg-slate-600 text-white font-medium rounded-lg transition-colors cursor-pointer disabled:cursor-not-allowed"
                         >
                           {isSubmittingReply ? 'Posting...' : 'Post Reply'}
                         </button>
@@ -590,33 +590,33 @@ export default function QAPage() {
 
                 {/* Replies */}
                 {comment.replies && comment.replies.length > 0 && (
-                  <div className="mt-3 pl-4 border-l-2 border-purple-200 dark:border-purple-800 space-y-2">
+                  <div className="mt-3 pl-4 border-l-2 border-violet-200 dark:border-violet-800/50 space-y-2">
                     {comment.replies.map((reply) => (
                       <div
                         key={reply.id}
-                        className="p-4 rounded-xl bg-purple-50 dark:bg-purple-900/20 border border-purple-200 dark:border-purple-800"
+                        className="p-4 rounded-xl bg-violet-50 dark:bg-slate-700/50 border border-violet-100 dark:border-slate-600"
                       >
                         <div className="flex items-start justify-between gap-4">
                           <div className="flex-1 min-w-0">
-                            <div className="flex items-center gap-2 mb-2">
-                              <span className="font-semibold text-purple-700 dark:text-purple-300">
+                            <div className="flex flex-wrap items-center gap-2 mb-2">
+                              <span className="font-semibold text-violet-700 dark:text-violet-300">
                                 {reply.userName}
                               </span>
-                              <span className="px-2 py-0.5 text-xs font-medium bg-purple-200 dark:bg-purple-800 text-purple-700 dark:text-purple-200 rounded-full">
+                              <span className="px-2 py-0.5 text-xs font-medium bg-violet-200 dark:bg-violet-800 text-violet-700 dark:text-violet-200 rounded-full">
                                 Admin
                               </span>
-                              <span className="text-sm text-slate-400 dark:text-slate-500">
+                              <span className="text-sm text-neutral-400 dark:text-slate-500">
                                 {formatDate(reply.createdAt)}
                               </span>
                             </div>
-                            <p className="text-slate-700 dark:text-slate-300 whitespace-pre-wrap">
+                            <p className="text-neutral-600 dark:text-slate-300 whitespace-pre-wrap">
                               {reply.content}
                             </p>
                           </div>
                           {isAdmin && (
                             <button
                               onClick={() => handleDelete(reply.id, true, comment.id)}
-                              className="p-2 text-slate-400 hover:text-red-500 dark:text-slate-500 dark:hover:text-red-400 transition-colors cursor-pointer shrink-0"
+                              className="p-2 text-neutral-400 hover:text-red-500 dark:text-slate-500 dark:hover:text-red-400 transition-colors cursor-pointer shrink-0"
                               title="Delete reply"
                             >
                               <svg
@@ -650,17 +650,17 @@ export default function QAPage() {
             <button
               onClick={() => handlePageChange(pagination.page - 1)}
               disabled={pagination.page === 1}
-              className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="px-3 py-1.5 text-sm rounded-lg border border-stone-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-neutral-600 dark:text-slate-300 hover:bg-stone-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               Previous
             </button>
-            <span className="text-sm text-slate-600 dark:text-slate-400">
+            <span className="text-sm text-neutral-500 dark:text-slate-400">
               Page {pagination.page} of {pagination.totalPages}
             </span>
             <button
               onClick={() => handlePageChange(pagination.page + 1)}
               disabled={pagination.page === pagination.totalPages}
-              className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="px-3 py-1.5 text-sm rounded-lg border border-stone-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-neutral-600 dark:text-slate-300 hover:bg-stone-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               Next
             </button>

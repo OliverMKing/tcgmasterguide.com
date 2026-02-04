@@ -15,16 +15,15 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800">
+    <main className="min-h-screen bg-gradient-to-b from-stone-50 to-white dark:from-slate-900 dark:to-slate-800">
       {/* Hero Section */}
-      <div className="relative overflow-hidden border-b border-slate-200 dark:border-slate-700">
-        <div className="absolute inset-0 bg-gradient-to-r from-purple-600/10 via-transparent to-fuchsia-600/10 dark:from-purple-600/20 dark:to-fuchsia-600/20" />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 relative">
+      <div className="border-b border-stone-200 dark:border-slate-700">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center">
-            <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-700 to-fuchsia-600 dark:from-purple-400 dark:to-fuchsia-400 bg-clip-text text-transparent mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-neutral-800 dark:text-slate-100 mb-4">
               About TCG Master Guide
             </h1>
-            <p className="text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg text-neutral-600 dark:text-slate-300 max-w-2xl mx-auto">
               Expert deck guides from one of the most accomplished players in competitive Pokemon TCG.
             </p>
           </div>
@@ -32,38 +31,36 @@ export default function AboutPage() {
       </div>
 
       {/* Content Section */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="space-y-8">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="bg-white dark:bg-slate-800 rounded-2xl border border-stone-200 dark:border-slate-700 p-8 md:p-10">
           {/* About the Author */}
-          <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-8 hover:shadow-lg hover:shadow-purple-100/50 dark:hover:shadow-purple-900/30 transition-all duration-300">
-            <div className="flex flex-col sm:flex-row gap-6 items-center sm:items-start">
-              <Image
-                src="/images/grant.jpg"
-                alt="Grant Manley"
-                width={120}
-                height={120}
-                priority
-                className="rounded-full border-4 border-purple-200 dark:border-purple-800 shrink-0"
-              />
-              <div>
-                <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4 text-center sm:text-left">
-                  About the Author
-                </h2>
-                <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-                  TCG Master Guide is written by Grant Manley, an elite competitive Pokemon TCG player who has
-                  been ranked #1 in the world. Known for his consistent top finishes and deep understanding
-                  of the game, Grant is one of the most accomplished players in the competitive scene.
-                </p>
-              </div>
+          <div className="flex flex-col sm:flex-row gap-6 items-center sm:items-start mb-10">
+            <Image
+              src="/images/grant.jpg"
+              alt="Grant Manley"
+              width={120}
+              height={120}
+              priority
+              className="rounded-full border-4 border-stone-200 dark:border-slate-600 shrink-0"
+            />
+            <div>
+              <h2 className="text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-3 text-center sm:text-left">
+                About the Author
+              </h2>
+              <p className="text-neutral-600 dark:text-slate-300 leading-relaxed">
+                TCG Master Guide is written by <span className="font-semibold text-violet-600 dark:text-violet-400">Grant Manley</span>, an elite competitive Pokemon TCG player who has
+                been ranked #1 in the world. Known for his consistent top finishes and deep understanding
+                of the game, Grant is one of the most accomplished players in the competitive scene.
+              </p>
             </div>
           </div>
 
           {/* Our Mission */}
-          <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-8 hover:shadow-lg hover:shadow-purple-100/50 dark:hover:shadow-purple-900/30 transition-all duration-300">
-            <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+          <div className="mb-10">
+            <h2 className="text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-3">
               Our Mission
             </h2>
-            <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+            <p className="text-neutral-600 dark:text-slate-300 leading-relaxed">
               TCG Master Guide provides in-depth deck guides for Pokemon Trading Card Game players
               of all skill levels. Our guides are constantly updated to reflect the latest meta shifts,
               new card releases, and competitive strategies. Whether you're just starting out or
@@ -73,82 +70,67 @@ export default function AboutPage() {
           </div>
 
           {/* What We Offer */}
-          <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-8 hover:shadow-lg hover:shadow-purple-100/50 dark:hover:shadow-purple-900/30 transition-all duration-300">
-            <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+          <div className="mb-10">
+            <h2 className="text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-4">
               What We Offer
             </h2>
-            <ul className="space-y-3 text-slate-600 dark:text-slate-300">
+            <ul className="space-y-3 text-neutral-600 dark:text-slate-300">
               <li className="flex items-start">
-                <span className="shrink-0 w-6 h-6 rounded-full bg-purple-100 dark:bg-purple-900/50 flex items-center justify-center mr-3 mt-0.5">
-                  <svg className="w-3 h-3 text-purple-600 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                </span>
+                <svg className="w-4 h-4 text-violet-600 dark:text-violet-400 mr-3 mt-1 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
                 <span>Detailed deck guides with in-depth text strategies and video matchup breakdowns</span>
               </li>
               <li className="flex items-start">
-                <span className="shrink-0 w-6 h-6 rounded-full bg-purple-100 dark:bg-purple-900/50 flex items-center justify-center mr-3 mt-0.5">
-                  <svg className="w-3 h-3 text-purple-600 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                </span>
+                <svg className="w-4 h-4 text-violet-600 dark:text-violet-400 mr-3 mt-1 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
                 <span>Regularly updated content reflecting the current meta</span>
               </li>
               <li className="flex items-start">
-                <span className="shrink-0 w-6 h-6 rounded-full bg-purple-100 dark:bg-purple-900/50 flex items-center justify-center mr-3 mt-0.5">
-                  <svg className="w-3 h-3 text-purple-600 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                </span>
+                <svg className="w-4 h-4 text-violet-600 dark:text-violet-400 mr-3 mt-1 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
                 <span>Guides for both beginners and competitive players</span>
               </li>
               <li className="flex items-start">
-                <span className="shrink-0 w-6 h-6 rounded-full bg-purple-100 dark:bg-purple-900/50 flex items-center justify-center mr-3 mt-0.5">
-                  <svg className="w-3 h-3 text-purple-600 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                </span>
+                <svg className="w-4 h-4 text-violet-600 dark:text-violet-400 mr-3 mt-1 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
                 <span>Matchup analysis and tech card recommendations</span>
               </li>
               <li className="flex items-start">
-                <span className="shrink-0 w-6 h-6 rounded-full bg-purple-100 dark:bg-purple-900/50 flex items-center justify-center mr-3 mt-0.5">
-                  <svg className="w-3 h-3 text-purple-600 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                </span>
+                <svg className="w-4 h-4 text-violet-600 dark:text-violet-400 mr-3 mt-1 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
                 <span>Q&A section where you can ask questions and get answers directly from Grant</span>
               </li>
             </ul>
           </div>
 
           {/* Always Up to Date */}
-          <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-8 hover:shadow-lg hover:shadow-purple-100/50 dark:hover:shadow-purple-900/30 transition-all duration-300">
-            <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+          <div className="mb-10">
+            <h2 className="text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-3">
               Always Up to Date
             </h2>
-            <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+            <p className="text-neutral-600 dark:text-slate-300 leading-relaxed">
               Grant continuously updates these deck guides as the meta evolves,
               new sets release, and strategies develop. Check back regularly to stay
               ahead of the competition!
             </p>
           </div>
-        </div>
-      </div>
 
-      {/* CTA Section */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
-        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-purple-600 to-fuchsia-600 p-8 md:p-12">
-          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4xIj48cGF0aCBkPSJNMzYgMzRjMC0yIDItNCAyLTRzLTItMi00LTJjLTIgMC00IDItNCAyczIgMiA0IDJjMiAwIDQtMiA0LTJ6Ii8+PC9nPjwvZz48L3N2Zz4=')] opacity-30" />
-          <div className="relative text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          {/* CTA */}
+          <div className="text-center pt-6 border-t border-stone-200 dark:border-slate-700">
+            <h2 className="text-xl font-bold text-neutral-800 dark:text-slate-100 mb-2">
               Ready to level up your game?
             </h2>
-            <p className="text-lg text-purple-100 mb-8 max-w-xl mx-auto">
+            <p className="text-neutral-600 dark:text-slate-300 mb-5">
               Explore our deck guides and master the strategies you need to win
             </p>
             <Link
               href="/#decks"
-              className="inline-block px-8 py-3 bg-white text-purple-700 font-semibold rounded-xl hover:bg-purple-50 transition-colors shadow-lg shadow-purple-900/20"
+              className="inline-block px-6 py-2.5 bg-violet-600 hover:bg-violet-700 text-white font-medium rounded-xl transition-colors"
             >
               View Deck Guides
             </Link>

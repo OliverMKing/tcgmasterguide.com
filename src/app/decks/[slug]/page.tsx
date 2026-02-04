@@ -92,9 +92,9 @@ const tierLabels: Record<number, string> = {
 }
 
 const tierColors: Record<number, string> = {
-  1: 'bg-amber-500',
-  2: 'bg-slate-400',
-  3: 'bg-amber-700',
+  1: 'bg-amber-100 text-amber-700 dark:bg-yellow-900/40 dark:text-yellow-300',
+  2: 'bg-slate-200 text-slate-700 dark:bg-slate-600/50 dark:text-slate-200',
+  3: 'bg-orange-100 text-orange-700 dark:bg-orange-900/40 dark:text-orange-300',
 }
 
 export function generateStaticParams() {
@@ -187,7 +187,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
             )}
           </div>
           <div className="flex items-center gap-3 mb-3">
-            <span className={`${tierColors[deck.tier]} text-white text-sm font-bold px-3 py-1 rounded-full`}>
+            <span className={`${tierColors[deck.tier]} text-sm font-medium px-3 py-1 rounded-lg`}>
               {tierLabels[deck.tier]}
             </span>
           </div>
