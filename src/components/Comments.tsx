@@ -57,7 +57,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
 
   const fetchComments = useCallback(async (page = 1, sort: SortField = 'createdAt', order: SortOrder = 'desc') => {
     try {
-      const response = await fetch(`/api/comments?deckSlug=${deckSlug}&page=${page}&sortBy=${sort}&sortOrder=${order}`)
+      const response = await fetchWithRetry(`/api/comments?deckSlug=${deckSlug}&page=${page}&sortBy=${sort}&sortOrder=${order}`, { forceRefresh: true })
       if (!response.ok) throw new Error('Failed to fetch comments')
       const data = await response.json()
       setComments(data.comments)
@@ -67,7 +67,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
     } finally {
       setIsLoading(false)
     }
-  }, [deckSlug])
+  }, [deckSlug, fetchWithRetry])
 
   useEffect(() => {
     fetchComments(1, sortBy, sortOrder)
