@@ -6,11 +6,11 @@ tier: 2
 
 ## Decklist
 
-![decklist for Absol](./images/absol/2ice.png)
+![decklist for Absol](./images/absol/good.png)
 ```decklist
 Pokémon: 16
 3 Munkidori TWM 95
-2 Toedscool PAR 16
+2 Toedscool JTG 88
 1 Toedscruel PAR 17
 2 Mega Kangaskhan ex MEG 104
 2 Mega Absol ex MEG 86
@@ -30,8 +30,8 @@ Trainer: 35
 2 Ultra Ball MEG 131
 2 Pokégear 3.0 SVI 186
 2 Night Stretcher SFA 61
-2 Counter Catcher PAR 160
 2 Jumbo Ice Cream PFL 91
+2 Counter Catcher PAR 160
 1 Earthen Vessel PAR 163
 1 Energy Switch MEG 115
 1 Precious Trolley SSP 185
@@ -65,6 +65,7 @@ Energy: 9
 - Always be vigilant and look for spots to pivot into a prize trade. This is a very important part of this deck. You need to be able to identify board states and lines to close out games, even when the game was slow up until that point. It is difficult for this deck to power up attackers, so try to get a lot of mileage out of your first Absol. You may need to rely on Ursaluna/Pecharunt to close out a lot of games. Yveltal/Iono can also be a useful stopgap to pivot.
 - Kang is never your go-to attacker, but sometimes you just put Energy on it because you have nothing better to do, and it can act as a convenient backup attacker.
 - With 3, 2, and 1-prize Pokemon, opponents can abuse this to make a convenient prize map for themselves. Your job is to identify what lines your opponent is going for, and use cards like Charm and Penny (or just not putting things down) to make their prize map as difficult as possible.
+- This deck can come back from pretty much any spot and plays long, grindy games. Therefore, do a little less scooping in best-of-three swiss and try to make a comeback instead.
 
 ![gameplay situation](./images/absol/gameplay1.png)
 
