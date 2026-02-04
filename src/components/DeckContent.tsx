@@ -31,6 +31,14 @@ interface DeckContentProps {
 const LIST_BREAK_MARKER = '---LIST-BREAK---'
 const PREMIUM_PLACEHOLDER = ':::PREMIUM_LOCKED:::'
 
+// Retry config for subscription propagation delays
+const ACCESS_RETRY_COUNT = 3
+const ACCESS_RETRY_DELAY_MS = 1000
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms))
+}
+
 function slugify(text: string): string {
   return text
     .toLowerCase()
@@ -85,8 +93,19 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
     async function fetchContent() {
       try {
         // Force token refresh before fetching to ensure subscriber status is current
-        const res = await fetchWithRetry(`/api/decks/${slug}/content`, { forceRefresh: true })
-        const data = await res.json()
+        let res = await fetchWithRetry(`/api/decks/${slug}/content`, { forceRefresh: true })
+        let data = await res.json()
+
+        // If user doesn't have access, retry a few times in case subscription
+        // webhook hasn't propagated yet (e.g., just subscribed)
+        if (res.ok && !data.hasAccess) {
+          for (let attempt = 0; attempt < ACCESS_RETRY_COUNT; attempt++) {
+            await sleep(ACCESS_RETRY_DELAY_MS)
+            res = await fetchWithRetry(`/api/decks/${slug}/content`, { forceRefresh: true })
+            data = await res.json()
+            if (data.hasAccess) break
+          }
+        }
 
         if (res.ok) {
           setContent(data.content)
