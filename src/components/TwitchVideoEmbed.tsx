@@ -22,7 +22,7 @@ export function TwitchVideoEmbed({ videoId, title = 'Twitch video' }: TwitchVide
   }
 
   return (
-    <div className="my-6 aspect-video rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-lg relative">
+    <div className="my-6 aspect-video max-w-2xl rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-lg relative">
       {isActive ? (
         <iframe
           src={`https://player.twitch.tv/?video=${videoId}&parent=${parent}&autoplay=true`}
