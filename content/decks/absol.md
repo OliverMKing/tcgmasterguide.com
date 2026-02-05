@@ -150,7 +150,7 @@ title: Dengo (Mawile) v Absol (Moltres) 3
 ```
 Moltres being good again. Is this legit?
 
-### Gardevoir - Even or Slightly Unfavorable
+### Gardevoir - Slightly Unfavorable
 
 - Slam Mist Energy on Absol because it protects from Mew and Mind Bend. Ideal board is Kang, Absol, Latias, two Munki, and then an open spot depending on the situation.
 - Starting out aggressively is good if they won't be able to immediately punch your Absol after its first attack. Otherwise, try to get Absol and multiple Munkidori with Energy.
@@ -159,6 +159,13 @@ Moltres being good again. Is this legit?
 - If you have a Mega in the Active with no HP buffs, Diancie with two Adrenabrain can one-shot it, so try to play around that.
 - Clutch strategies are not the go-to. It is best if you are waiting to find a game-winning combo, buying a bit of time in general, or if you have the Munkidori advantage on board. Clutch can be useful but it's very situational and doesn't always come up. Also they probably play a Turo so watch out for that (in other words, don't rely on Clutch sticking forever if they haven't used Turo yet).
 - Second attacker is ideally the second Absol, but this can be hard to pull off. Pech and Ursaluna can also be decent closers, especially if they take their first KO on Absol to go to three. As usual, Kang is the least useful attacker but sometimes gets used anyway because of convenience or necessity. Energy Switch is very useful for enabling Pecharunt when no other attacker is available, which can take 1 or 2 prizes fairly easily, and Ursaluna can take the last 1-2.
+- Don't poison Absol if you don't have to. Every damage matters! 
+- Against non-Diancie builds, pay attention to Clefairy breakpoints with all attackers. Sometimes you need to hold off on benching something or use Penny to stop a Clefairy KO.
+
+With Toedscruel build:
+
+- Initial board should be Absol, Kang, Pecharunt, Munkidori, Toedscool, and either Latias or Yveltal. Toedscruel is strong in this matchup, especially with Claw of Darkness.
+- If Pecharunt is prized, do not bother with Toedscool or Toedscruel. You will get punished. In that case, go for a board of Kang, two Munkidori, Latias, and both Absol.
 
 ```twitch
 id: 2677185410
