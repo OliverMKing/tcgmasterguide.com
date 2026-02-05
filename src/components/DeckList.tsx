@@ -23,7 +23,7 @@ export function DeckList({ decklist }: DeckListProps) {
         className="w-full flex items-center justify-between px-4 py-3 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors text-left cursor-pointer"
       >
         <span className="font-semibold text-slate-900 dark:text-slate-100">
-          Deck List Text
+          Decklist Text
         </span>
         <svg
           className={`w-5 h-5 text-slate-600 dark:text-slate-400 transition-transform ${isExpanded ? 'rotate-180' : ''}`}

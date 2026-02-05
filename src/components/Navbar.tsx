@@ -33,7 +33,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop navigation */}
-          <div className="hidden md:flex items-center space-x-1">
+          <div className="hidden lg:flex items-center space-x-1">
             <Link
               href="/about"
               className={`relative text-base px-4 py-2 rounded-xl transition-all duration-200 ${
@@ -120,11 +120,11 @@ export default function Navbar() {
           </div>
 
           {/* Mobile menu button */}
-          <div className="flex md:hidden items-center space-x-3">
+          <div className="flex lg:hidden items-center space-x-3">
             <ThemeToggle />
             <SignedOut>
               <SignInButton mode="modal">
-                <button className="text-sm bg-gradient-to-r from-violet-500 to-purple-500 hover:from-violet-600 hover:to-purple-600 text-white px-3 py-1.5 rounded-xl transition-all duration-300 cursor-pointer shadow-md shadow-violet-500/15">
+                <button className="text-sm bg-gradient-to-r from-violet-500 to-purple-500 hover:from-violet-600 hover:to-purple-600 text-white px-3 py-1.5 rounded-xl transition-all duration-300 cursor-pointer shadow-md shadow-violet-500/15 whitespace-nowrap">
                   Sign In
                 </button>
               </SignInButton>
@@ -140,7 +140,7 @@ export default function Navbar() {
             </SignedIn>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="p-2 text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-100 dark:hover:bg-neutral-700 rounded-xl transition-all duration-200"
+              className="p-2 text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-100 dark:hover:bg-neutral-700 rounded-xl transition-all duration-200 cursor-pointer"
               aria-label="Toggle menu"
             >
               {isMenuOpen ? (
@@ -157,7 +157,7 @@ export default function Navbar() {
         </div>
 
         {/* Mobile dropdown menu */}
-        <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${isMenuOpen ? 'max-h-96 pb-4' : 'max-h-0'}`}>
+        <div className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${isMenuOpen ? 'max-h-96 pb-4' : 'max-h-0'}`}>
           <div className="space-y-1 pt-2">
             <Link
               href="/"
