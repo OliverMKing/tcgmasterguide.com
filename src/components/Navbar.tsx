@@ -23,11 +23,7 @@ export default function Navbar() {
     if (pathname === '/') {
       document.getElementById('decks')?.scrollIntoView()
     } else {
-      router.push('/')
-      // Wait for navigation then scroll
-      setTimeout(() => {
-        document.getElementById('decks')?.scrollIntoView()
-      }, 100)
+      router.push('/#decks')
     }
   }
 
