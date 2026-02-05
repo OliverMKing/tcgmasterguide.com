@@ -1,11 +1,11 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { LocalDate } from '@/components/LocalDate'
 import { DeckContent } from '@/components/DeckContent'
+import { BouncingSprite } from '@/components/BouncingSprite'
 import { deckHistory } from '@/generated/deck-history'
 import { deckDates } from '@/generated/deck-dates'
 import type { Metadata } from 'next'
@@ -173,14 +173,11 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
             {deck.pokemon.length > 0 && (
               <div className="flex -space-x-2 shrink-0">
                 {deck.pokemon.map((id) => (
-                  <Image
+                  <BouncingSprite
                     key={id}
                     src={getPokemonSprite(id)}
-                    alt=""
-                    width={64}
-                    height={64}
-                    className="w-12 h-12 md:w-16 md:h-16 object-contain"
-                    unoptimized
+                    size={64}
+                    className="w-12 h-12 md:w-16 md:h-16"
                   />
                 ))}
               </div>

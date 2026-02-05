@@ -1,11 +1,11 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { LocalDate } from '@/components/LocalDate'
 import LiveBanner from '@/components/LiveBanner'
 import { deckDates } from '@/generated/deck-dates'
+import { BouncingSprite } from '@/components/BouncingSprite'
 
 // Force static generation at build time
 export const dynamic = 'force-static'
@@ -85,16 +85,13 @@ function DeckCard({ deck }: { deck: Deck }) {
           <h3 className="text-lg font-semibold text-neutral-800 dark:text-slate-100 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">
             {deck.title}
           </h3>
-          <div className="flex -space-x-2 sprite-hover">
+          <div className="flex -space-x-2">
             {deck.pokemon.map((id) => (
-              <Image
+              <BouncingSprite
                 key={id}
                 src={getPokemonSprite(id)}
-                alt=""
-                width={40}
-                height={40}
-                className="w-10 h-10 object-contain"
-                unoptimized
+                size={40}
+                className="w-10 h-10"
               />
             ))}
           </div>

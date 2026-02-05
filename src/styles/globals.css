@@ -183,3 +183,11 @@ html {
 .sprite-hover:hover img {
   animation: sprite-bounce 0.6s ease;
 }
+
+.sprite-hover-individual:hover {
+  animation: sprite-bounce 0.6s ease;
+}
+
+.sprite-bouncing {
+  animation: sprite-bounce 0.6s ease;
+}
