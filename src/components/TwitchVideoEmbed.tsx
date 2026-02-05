@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { useVideoEmbed } from '@/contexts/VideoEmbedContext'
 
 interface TwitchVideoEmbedProps {
@@ -9,15 +9,13 @@ interface TwitchVideoEmbedProps {
 }
 
 export function TwitchVideoEmbed({ videoId, title = 'Twitch video' }: TwitchVideoEmbedProps) {
-  const [parent, setParent] = useState('localhost')
+  const [parent] = useState(() =>
+    typeof window !== 'undefined' ? window.location.hostname : 'localhost'
+  )
   const { activeVideoId, setActiveVideoId, expandedVideoId, setExpandedVideoId } = useVideoEmbed()
   const myId = `twitch-${videoId}`
   const isActive = activeVideoId === myId
   const isExpanded = expandedVideoId === myId
-
-  useEffect(() => {
-    setParent(window.location.hostname)
-  }, [])
 
   const handlePlay = () => {
     setActiveVideoId(myId)
