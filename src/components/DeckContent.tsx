@@ -101,7 +101,7 @@ const MemoizedMarkdown = memo(function MemoizedMarkdown({ content }: { content: 
           const text = String(children)
           const id = generateHeadingId(text)
           return (
-            <h2 id={id} className="text-3xl font-bold text-slate-900 dark:text-slate-100 mt-12 mb-4 first:mt-0 pb-2 border-b border-slate-200 dark:border-slate-700 scroll-mt-20">
+            <h2 id={id} className="text-3xl font-bold text-slate-900 dark:text-slate-100 mt-12 mb-4 first:mt-0 pb-2 border-b border-slate-200 dark:border-slate-700 scroll-mt-20 md:scroll-mt-32">
               {children}
             </h2>
           )
@@ -110,7 +110,7 @@ const MemoizedMarkdown = memo(function MemoizedMarkdown({ content }: { content: 
           const text = String(children)
           const id = generateHeadingId(text)
           return (
-            <h3 id={id} className="text-2xl font-bold text-slate-900 dark:text-slate-100 mt-10 mb-4 scroll-mt-20">
+            <h3 id={id} className="text-2xl font-bold text-slate-900 dark:text-slate-100 mt-10 mb-4 scroll-mt-20 md:scroll-mt-32">
               {children}
             </h3>
           )
@@ -119,7 +119,7 @@ const MemoizedMarkdown = memo(function MemoizedMarkdown({ content }: { content: 
           const text = String(children)
           const id = generateHeadingId(text)
           return (
-            <h4 id={id} className="text-xl font-semibold text-slate-900 dark:text-slate-100 mt-8 mb-3 scroll-mt-20">
+            <h4 id={id} className="text-xl font-semibold text-slate-900 dark:text-slate-100 mt-8 mb-3 scroll-mt-20 md:scroll-mt-32">
               {children}
             </h4>
           )
