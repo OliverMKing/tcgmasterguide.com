@@ -354,7 +354,7 @@ title: Garde v BoxZard 3
 ```
 Looking at different timelines, almost made an insane comeback.
 
-### Absol - Even or Slightly Favorable
+### Absol - Slightly Favorable
 
 - Item lock is extremely strong before they get their Basics out, otherwise basically useless.
 - Scream Tail is usually the best attacker. Be very careful managing Scream Tail's HP and pay attention to their board state with Energy. The main thing you're trying to avoid is allowing them to KO Scream Tail with Adrenabrain and attack with Absol in the same turn. You want to open aggression by smacking their benched Absol with Scream Tail, which inevitably allows them to use Adrenabrain. Scream Tail is also the optimal attacker even into the mid- and late-game, as it allows you to pressure the most relevant Pokemon and stay on a convenient prize map.
@@ -363,8 +363,9 @@ Looking at different timelines, almost made an insane comeback.
 - Diancie can be a good attacker if you're not leaving damage on their board or if they're short on Energy. Otherwise, be very careful not to let the Diancie get hit by Terminal Period. Most of the time, Diancie shouldn't be in play, especially in the early-game.
 - Mind Bend is strong if they are boardlocked out of Pecharunt and only have one attacker (that doesn't have Mist), which does come up every so often.
 - Save the Turo in case of Yveltal's Clutch.
-- For the most part, use Charm exclusively on Scream Tail, as it allows extra damage and keeps it out of Adrenabrain range.
+- For the most part, use Charm exclusively on Scream Tail, as it allows extra damage and keeps it out of Adrenabrain range. Occasionally, Charm can be good on Fez to keep it out of Ursaluna range (and that goes for any matchup with Ursaluna).
 - Keeping damage around on the board can be very relevant in this matchup for when you want to reach with Adrenabrain.
+- If they have Toedscruel, play mostly the same as normal. However, be careful with resources and with using Kirlia's Call Sign. Don't let Scream Tail, Mew, or your only Gardevoir get Claw'd away. Super Rod is a premium resource and is usually used for maximum impact at the end of the game. If your gameplan doesn't involve KO'ing Toedscruel (it usually doesn't, but it's not unheard of), it's fine to throw away the Stretchers.
 
 ```twitch
 id: 2677185410
