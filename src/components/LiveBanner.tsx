@@ -24,7 +24,7 @@ export default function LiveBanner({ channel }: { channel: string }) {
     return () => clearInterval(interval)
   }, [channel])
 
-  // if (!isLive) return null
+  if (!isLive) return null
 
   return (
     <Link
