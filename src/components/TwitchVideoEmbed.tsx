@@ -1,6 +1,6 @@
 'use client'
 
-import { useRef, useEffect, useState } from 'react'
+import { useState } from 'react'
 import { useVideoEmbed } from '@/contexts/VideoEmbedContext'
 
 interface TwitchVideoEmbedProps {
@@ -9,17 +9,13 @@ interface TwitchVideoEmbedProps {
 }
 
 export function TwitchVideoEmbed({ videoId, title = 'Twitch video' }: TwitchVideoEmbedProps) {
-  const parentRef = useRef<string | null>(null)
-  const [isMounted, setIsMounted] = useState(false)
+  const [parent] = useState(() =>
+    typeof window !== 'undefined' ? window.location.hostname : 'localhost'
+  )
   const { activeVideoId, setActiveVideoId, expandedVideoId, setExpandedVideoId } = useVideoEmbed()
   const myId = `twitch-${videoId}`
   const isActive = activeVideoId === myId
   const isExpanded = expandedVideoId === myId
-
-  useEffect(() => {
-    parentRef.current = window.location.hostname
-    setIsMounted(true)
-  }, [])
 
   const handlePlay = () => {
     setActiveVideoId(myId)
@@ -28,17 +24,13 @@ export function TwitchVideoEmbed({ videoId, title = 'Twitch video' }: TwitchVide
 
   return (
     <div className={`my-6 aspect-video rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-lg relative transition-all duration-300 ${isExpanded ? 'w-full' : 'w-full max-w-sm'}`}>
-      {isActive && isMounted ? (
+      {isActive ? (
         <iframe
-          src={`https://player.twitch.tv/?video=${videoId}&parent=${parentRef.current}&autoplay=true`}
+          src={`https://player.twitch.tv/?video=${videoId}&parent=${parent}&autoplay=true`}
           title={title}
           allowFullScreen
           className="w-full h-full"
         />
-      ) : isActive ? (
-        <div className="w-full h-full bg-slate-800 flex items-center justify-center">
-          <span className="text-white/60">Loading...</span>
-        </div>
       ) : (
         <button
           onClick={handlePlay}

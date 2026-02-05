@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
@@ -88,12 +88,14 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
   const [hasAccess, setHasAccess] = useState<boolean | null>(null)
   const [loading, setLoading] = useState(true)
   const fetchWithRetry = useFetchWithRetry()
+  const fetchWithRetryRef = useRef(fetchWithRetry)
+  fetchWithRetryRef.current = fetchWithRetry
 
   useEffect(() => {
     async function fetchContent() {
       try {
         // Force token refresh before fetching to ensure subscriber status is current
-        let res = await fetchWithRetry(`/api/decks/${slug}/content`, { forceRefresh: true })
+        let res = await fetchWithRetryRef.current(`/api/decks/${slug}/content`, { forceRefresh: true })
         let data = await res.json()
 
         // If user doesn't have access, retry a few times in case subscription
@@ -101,7 +103,7 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
         if (res.ok && !data.hasAccess) {
           for (let attempt = 0; attempt < ACCESS_RETRY_COUNT; attempt++) {
             await sleep(ACCESS_RETRY_DELAY_MS)
-            res = await fetchWithRetry(`/api/decks/${slug}/content`, { forceRefresh: true })
+            res = await fetchWithRetryRef.current(`/api/decks/${slug}/content`, { forceRefresh: true })
             data = await res.json()
             if (data.hasAccess) break
           }
@@ -122,7 +124,7 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
     }
 
     fetchContent()
-  }, [slug, fetchWithRetry])
+  }, [slug])
 
   if (loading) {
     return (
