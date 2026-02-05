@@ -10,53 +10,29 @@ interface TwitchVideoEmbedProps {
 
 export function TwitchVideoEmbed({ videoId, title = 'Twitch video' }: TwitchVideoEmbedProps) {
   const [parent, setParent] = useState('localhost')
-  const { activeVideoId, setActiveVideoId } = useVideoEmbed()
-  const [isExpanded, setIsExpanded] = useState(false)
-  const isActive = activeVideoId === `twitch-${videoId}`
+  const { activeVideoId, setActiveVideoId, expandedVideoId, setExpandedVideoId } = useVideoEmbed()
+  const myId = `twitch-${videoId}`
+  const isActive = activeVideoId === myId
+  const isExpanded = expandedVideoId === myId
 
   useEffect(() => {
     setParent(window.location.hostname)
   }, [])
 
   const handlePlay = () => {
-    setActiveVideoId(`twitch-${videoId}`)
-    setIsExpanded(true)
-  }
-
-  const handleExpand = () => {
-    setIsExpanded(true)
-  }
-
-  const handleCollapse = () => {
-    setIsExpanded(false)
+    setActiveVideoId(myId)
+    setExpandedVideoId(myId)
   }
 
   return (
     <div className={`my-6 aspect-video rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-lg relative transition-all duration-300 ${isExpanded ? 'w-full' : 'w-full max-w-sm'}`}>
       {isActive ? (
-        <>
-          <iframe
-            src={`https://player.twitch.tv/?video=${videoId}&parent=${parent}&autoplay=true`}
-            title={title}
-            allowFullScreen
-            className="w-full h-full"
-          />
-          <button
-            onClick={isExpanded ? handleCollapse : handleExpand}
-            className="absolute top-2 right-2 p-2 bg-black/60 hover:bg-black/80 rounded-lg transition-colors z-10 cursor-pointer"
-            aria-label={isExpanded ? 'Collapse video' : 'Expand video'}
-          >
-            {isExpanded ? (
-              <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            ) : (
-              <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
-              </svg>
-            )}
-          </button>
-        </>
+        <iframe
+          src={`https://player.twitch.tv/?video=${videoId}&parent=${parent}&autoplay=true`}
+          title={title}
+          allowFullScreen
+          className="w-full h-full"
+        />
       ) : (
         <button
           onClick={handlePlay}
