@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 import { ThemeToggle } from './ThemeToggle'
 import {
   SignInButton,
@@ -15,7 +15,21 @@ import { useCurrentUser } from '@/hooks/useCurrentUser'
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const pathname = usePathname()
+  const router = useRouter()
   const { isAdmin, hasSubscriberAccess } = useCurrentUser()
+
+  const handleDecksClick = (e: React.MouseEvent) => {
+    e.preventDefault()
+    if (pathname === '/') {
+      document.getElementById('decks')?.scrollIntoView()
+    } else {
+      router.push('/')
+      // Wait for navigation then scroll
+      setTimeout(() => {
+        document.getElementById('decks')?.scrollIntoView()
+      }, 100)
+    }
+  }
 
   // Close menu on route change
   useEffect(() => {
@@ -56,6 +70,7 @@ export default function Navbar() {
             </Link>
             <Link
               href="/#decks"
+              onClick={handleDecksClick}
               className="relative text-base text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50 px-4 py-2 rounded-xl transition-all duration-200"
             >
               Decks
@@ -187,7 +202,10 @@ export default function Navbar() {
             </Link>
             <Link
               href="/#decks"
-              onClick={() => setIsMenuOpen(false)}
+              onClick={(e) => {
+                setIsMenuOpen(false)
+                handleDecksClick(e)
+              }}
               className="block py-2.5 px-4 rounded-xl text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50 transition-all duration-200"
             >
               Decks
