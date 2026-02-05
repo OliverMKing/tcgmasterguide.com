@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef, memo } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
@@ -83,6 +83,151 @@ function transformImageSrc(src: string): string {
   return src
 }
 
+// Memoized markdown renderer to prevent iframe remounting on parent re-renders
+const MemoizedMarkdown = memo(function MemoizedMarkdown({ content }: { content: string }) {
+  // Create an ID generator scoped to this render
+  const generateHeadingId = createIdGenerator()
+
+  // Preprocess content to add separators between consecutive lists
+  const processedContent = content.replace(
+    /^(- .+)\n\n(- )/gm,
+    `$1\n\n${LIST_BREAK_MARKER}\n\n$2`
+  )
+
+  return (
+    <ReactMarkdown
+      components={{
+        h1: ({ children }) => {
+          const text = String(children)
+          const id = generateHeadingId(text)
+          return (
+            <h2 id={id} className="text-3xl font-bold text-slate-900 dark:text-slate-100 mt-12 mb-4 first:mt-0 pb-2 border-b border-slate-200 dark:border-slate-700 scroll-mt-20">
+              {children}
+            </h2>
+          )
+        },
+        h2: ({ children }) => {
+          const text = String(children)
+          const id = generateHeadingId(text)
+          return (
+            <h3 id={id} className="text-2xl font-bold text-slate-900 dark:text-slate-100 mt-10 mb-4 scroll-mt-20">
+              {children}
+            </h3>
+          )
+        },
+        h3: ({ children }) => {
+          const text = String(children)
+          const id = generateHeadingId(text)
+          return (
+            <h4 id={id} className="text-xl font-semibold text-slate-900 dark:text-slate-100 mt-8 mb-3 scroll-mt-20">
+              {children}
+            </h4>
+          )
+        },
+        p: ({ children }) => {
+          const text = String(children)
+          if (text === LIST_BREAK_MARKER) {
+            return <div className="h-4" aria-hidden="true" />
+          }
+          if (text === PREMIUM_PLACEHOLDER) {
+            return <LockedSection />
+          }
+          return (
+            <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
+              {children}
+            </p>
+          )
+        },
+        ul: ({ children }) => (
+          <ul className="deck-list space-y-3 text-slate-600 dark:text-slate-300 mb-6 pl-0">
+            {children}
+          </ul>
+        ),
+        ol: ({ children }) => (
+          <ol className="deck-list space-y-3 text-slate-600 dark:text-slate-300 mb-6 pl-0 list-decimal list-inside">
+            {children}
+          </ol>
+        ),
+        li: ({ children }) => (
+          <li className="text-slate-600 dark:text-slate-300 relative pl-5 before:content-[''] before:absolute before:left-0 before:top-[0.6em] before:w-1.5 before:h-1.5 before:rounded-full before:bg-purple-500 dark:before:bg-purple-400">
+            {children}
+          </li>
+        ),
+        strong: ({ children }) => (
+          <strong className="font-semibold text-slate-900 dark:text-slate-100">{children}</strong>
+        ),
+        em: ({ children }) => (
+          <em className="italic text-slate-700 dark:text-slate-200">{children}</em>
+        ),
+        code: ({ children }) => (
+          <code className="bg-slate-100 dark:bg-slate-700 text-purple-700 dark:text-purple-300 px-2 py-0.5 rounded text-sm font-mono">
+            {children}
+          </code>
+        ),
+        pre: ({ children }) => {
+          const codeElement = children as React.ReactElement<{ className?: string; children?: string }>
+          if (codeElement?.props?.className === 'language-decklist') {
+            const decklistContent = String(codeElement.props.children || '').trim()
+            return <DeckList decklist={decklistContent} />
+          }
+          if (codeElement?.props?.className === 'language-youtube') {
+            const codeContent = String(codeElement.props.children || '').trim()
+            const lines = codeContent.split('\n')
+            let videoId = ''
+            let videoTitle = 'YouTube video'
+            for (const line of lines) {
+              const [key, ...valueParts] = line.split(':')
+              const value = valueParts.join(':').trim()
+              if (key.trim() === 'id') videoId = value
+              if (key.trim() === 'title') videoTitle = value
+            }
+            if (videoId) {
+              return <YouTubeEmbed videoId={videoId} title={videoTitle} />
+            }
+          }
+          if (codeElement?.props?.className === 'language-twitch') {
+            const codeContent = String(codeElement.props.children || '').trim()
+            const lines = codeContent.split('\n')
+            let videoId = ''
+            let videoTitle = 'Twitch video'
+            for (const line of lines) {
+              const [key, ...valueParts] = line.split(':')
+              const value = valueParts.join(':').trim()
+              if (key.trim() === 'id') videoId = value
+              if (key.trim() === 'title') videoTitle = value
+            }
+            if (videoId) {
+              return <TwitchVideoEmbed videoId={videoId} title={videoTitle} />
+            }
+          }
+          return (
+            <pre className="bg-slate-100 dark:bg-slate-800 p-4 rounded-xl overflow-x-auto my-6">
+              {children}
+            </pre>
+          )
+        },
+        img: ({ src, alt }) => {
+          const imageSrc = transformImageSrc(typeof src === 'string' ? src : '')
+          return (
+            <span className="block my-8 relative">
+              <Image
+                src={imageSrc}
+                alt={alt || ''}
+                width={800}
+                height={600}
+                className="rounded-xl border border-slate-200 dark:border-slate-700 shadow-lg w-full h-auto"
+                unoptimized
+              />
+            </span>
+          )
+        },
+      }}
+    >
+      {processedContent}
+    </ReactMarkdown>
+  )
+})
+
 export function DeckContent({ slug, title, headings, history, deckTitle }: DeckContentProps) {
   const [content, setContent] = useState<string | null>(null)
   const [hasAccess, setHasAccess] = useState<boolean | null>(null)
@@ -147,17 +292,8 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
     return <LockedDeckContent title={title} headings={headings} />
   }
 
-  // Create an ID generator for ReactMarkdown headings
-  const generateHeadingId = createIdGenerator()
-
   // For non-subscribers, extract headings only from the content they can see
   const visibleHeadings = hasAccess ? headings : extractHeadingsFromContent(content)
-
-  // Preprocess content to add separators between consecutive lists
-  const processedContent = content!.replace(
-    /^(- .+)\n\n(- )/gm,
-    `$1\n\n${LIST_BREAK_MARKER}\n\n$2`
-  )
 
   return (
     <>
@@ -254,136 +390,7 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
 
       {/* Article Content */}
       <div className="prose prose-slate prose-lg max-w-none dark:prose-invert">
-        <ReactMarkdown
-          components={{
-            h1: ({ children }) => {
-              const text = String(children)
-              const id = generateHeadingId(text)
-              return (
-                <h2 id={id} className="text-3xl font-bold text-slate-900 dark:text-slate-100 mt-12 mb-4 first:mt-0 pb-2 border-b border-slate-200 dark:border-slate-700 scroll-mt-20">
-                  {children}
-                </h2>
-              )
-            },
-            h2: ({ children }) => {
-              const text = String(children)
-              const id = generateHeadingId(text)
-              return (
-                <h3 id={id} className="text-2xl font-bold text-slate-900 dark:text-slate-100 mt-10 mb-4 scroll-mt-20">
-                  {children}
-                </h3>
-              )
-            },
-            h3: ({ children }) => {
-              const text = String(children)
-              const id = generateHeadingId(text)
-              return (
-                <h4 id={id} className="text-xl font-semibold text-slate-900 dark:text-slate-100 mt-8 mb-3 scroll-mt-20">
-                  {children}
-                </h4>
-              )
-            },
-            p: ({ children }) => {
-              const text = String(children)
-              if (text === LIST_BREAK_MARKER) {
-                return <div className="h-4" aria-hidden="true" />
-              }
-              if (text === PREMIUM_PLACEHOLDER) {
-                return <LockedSection />
-              }
-              return (
-                <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
-                  {children}
-                </p>
-              )
-            },
-            ul: ({ children }) => (
-              <ul className="deck-list space-y-3 text-slate-600 dark:text-slate-300 mb-6 pl-0">
-                {children}
-              </ul>
-            ),
-            ol: ({ children }) => (
-              <ol className="deck-list space-y-3 text-slate-600 dark:text-slate-300 mb-6 pl-0 list-decimal list-inside">
-                {children}
-              </ol>
-            ),
-            li: ({ children }) => (
-              <li className="text-slate-600 dark:text-slate-300 relative pl-5 before:content-[''] before:absolute before:left-0 before:top-[0.6em] before:w-1.5 before:h-1.5 before:rounded-full before:bg-purple-500 dark:before:bg-purple-400">
-                {children}
-              </li>
-            ),
-            strong: ({ children }) => (
-              <strong className="font-semibold text-slate-900 dark:text-slate-100">{children}</strong>
-            ),
-            em: ({ children }) => (
-              <em className="italic text-slate-700 dark:text-slate-200">{children}</em>
-            ),
-            code: ({ children }) => (
-              <code className="bg-slate-100 dark:bg-slate-700 text-purple-700 dark:text-purple-300 px-2 py-0.5 rounded text-sm font-mono">
-                {children}
-              </code>
-            ),
-            pre: ({ children }) => {
-              const codeElement = children as React.ReactElement<{ className?: string; children?: string }>
-              if (codeElement?.props?.className === 'language-decklist') {
-                const decklistContent = String(codeElement.props.children || '').trim()
-                return <DeckList decklist={decklistContent} />
-              }
-              if (codeElement?.props?.className === 'language-youtube') {
-                const content = String(codeElement.props.children || '').trim()
-                const lines = content.split('\n')
-                let videoId = ''
-                let videoTitle = 'YouTube video'
-                for (const line of lines) {
-                  const [key, ...valueParts] = line.split(':')
-                  const value = valueParts.join(':').trim()
-                  if (key.trim() === 'id') videoId = value
-                  if (key.trim() === 'title') videoTitle = value
-                }
-                if (videoId) {
-                  return <YouTubeEmbed videoId={videoId} title={videoTitle} />
-                }
-              }
-              if (codeElement?.props?.className === 'language-twitch') {
-                const content = String(codeElement.props.children || '').trim()
-                const lines = content.split('\n')
-                let videoId = ''
-                let videoTitle = 'Twitch video'
-                for (const line of lines) {
-                  const [key, ...valueParts] = line.split(':')
-                  const value = valueParts.join(':').trim()
-                  if (key.trim() === 'id') videoId = value
-                  if (key.trim() === 'title') videoTitle = value
-                }
-                if (videoId) {
-                  return <TwitchVideoEmbed videoId={videoId} title={videoTitle} />
-                }
-              }
-              return (
-                <pre className="bg-slate-100 dark:bg-slate-800 p-4 rounded-xl overflow-x-auto my-6">
-                  {children}
-                </pre>
-              )
-            },
-            img: ({ src, alt }) => {
-              const imageSrc = transformImageSrc(typeof src === 'string' ? src : '')
-              return (
-                <span className="block my-8 relative">
-                  <Image
-                    src={imageSrc}
-                    alt={alt || ''}
-                    width={800}
-                    height={600}
-                    className="rounded-xl border border-slate-200 dark:border-slate-700 shadow-lg w-full h-auto"
-                    unoptimized
-                  />
-                </span>
-              )
-            },
-          }}
-        >
-          {processedContent}
-        </ReactMarkdown>
+        <MemoizedMarkdown content={content} />
       </div>
 
       {/* Footer CTA */}

@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { useUser, SignInButton } from '@clerk/nextjs'
 import { useCurrentUser } from '@/hooks/useCurrentUser'
 import { useFetchWithRetry } from '@/lib/fetch-with-retry'
@@ -43,6 +43,8 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
   const { isSignedIn, isLoaded } = useUser()
   const { isAdmin, hasSubscriberAccess, isLoaded: userLoaded } = useCurrentUser()
   const fetchWithRetry = useFetchWithRetry()
+  const fetchWithRetryRef = useRef(fetchWithRetry)
+  fetchWithRetryRef.current = fetchWithRetry
   const [comments, setComments] = useState<Comment[]>([])
   const [pagination, setPagination] = useState<Pagination | null>(null)
   const [sortBy, setSortBy] = useState<SortField>('createdAt')
@@ -57,7 +59,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
 
   const fetchComments = useCallback(async (page = 1, sort: SortField = 'createdAt', order: SortOrder = 'desc') => {
     try {
-      const response = await fetchWithRetry(`/api/comments?deckSlug=${deckSlug}&page=${page}&sortBy=${sort}&sortOrder=${order}`, { forceRefresh: true })
+      const response = await fetchWithRetryRef.current(`/api/comments?deckSlug=${deckSlug}&page=${page}&sortBy=${sort}&sortOrder=${order}`, { forceRefresh: true })
       if (!response.ok) throw new Error('Failed to fetch comments')
       const data = await response.json()
       setComments(data.comments)
@@ -67,7 +69,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
     } finally {
       setIsLoading(false)
     }
-  }, [deckSlug, fetchWithRetry])
+  }, [deckSlug])
 
   useEffect(() => {
     fetchComments(1, sortBy, sortOrder)
@@ -97,7 +99,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
     setError(null)
 
     try {
-      const response = await fetchWithRetry('/api/comments', {
+      const response = await fetchWithRetryRef.current('/api/comments', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ deckSlug, deckTitle, content: newComment }),
@@ -125,7 +127,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
     setError(null)
 
     try {
-      const response = await fetchWithRetry('/api/comments', {
+      const response = await fetchWithRetryRef.current('/api/comments', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -160,7 +162,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
     if (!confirm('Are you sure you want to delete this?')) return
 
     try {
-      const response = await fetchWithRetry(`/api/comments/${commentId}`, {
+      const response = await fetchWithRetryRef.current(`/api/comments/${commentId}`, {
         method: 'DELETE',
       })
 
@@ -184,7 +186,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
 
   const handleApprove = async (commentId: string) => {
     try {
-      const response = await fetchWithRetry(`/api/admin/comments/${commentId}/approve`, {
+      const response = await fetchWithRetryRef.current(`/api/admin/comments/${commentId}/approve`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ approved: true }),
