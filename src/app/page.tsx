@@ -154,7 +154,7 @@ export default function Home() {
         {/* Background accent */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-violet-100/40 dark:bg-violet-900/20 rounded-full blur-3xl -z-10" />
 
-        <h2 id="decks" className="text-3xl font-bold text-neutral-800 dark:text-slate-100 mb-10 scroll-mt-20">
+        <h2 id="decks" className="text-3xl font-bold text-neutral-800 dark:text-slate-100 mb-10 scroll-mt-24">
           Decks
         </h2>
 
