@@ -60,7 +60,7 @@ export default function Navbar() {
               onClick={(e) => {
                 if (pathname === '/') {
                   e.preventDefault()
-                  document.getElementById('decks')?.scrollIntoView({ behavior: 'smooth' })
+                  document.getElementById('decks')?.scrollIntoView()
                 }
               }}
               className="relative text-base text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50 px-4 py-2 rounded-xl transition-all duration-200"
@@ -199,7 +199,7 @@ export default function Navbar() {
                 setIsMenuOpen(false)
                 if (pathname === '/') {
                   e.preventDefault()
-                  document.getElementById('decks')?.scrollIntoView({ behavior: 'smooth' })
+                  document.getElementById('decks')?.scrollIntoView()
                 }
               }}
               className="block py-2.5 px-4 rounded-xl text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50 transition-all duration-200"

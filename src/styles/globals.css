@@ -155,11 +155,6 @@ h1, h2, h3, h4, h5, h6,
   /* Bronze tier - no glow */
 }
 
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
-}
-
 /* Focus ring */
 *:focus-visible {
   outline: 2px solid #a1a1aa;
