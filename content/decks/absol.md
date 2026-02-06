@@ -161,11 +161,18 @@ Moltres being good again. Is this legit?
 - Second attacker is ideally the second Absol, but this can be hard to pull off. Pech and Ursaluna can also be decent closers, especially if they take their first KO on Absol to go to three. As usual, Kang is the least useful attacker but sometimes gets used anyway because of convenience or necessity. Energy Switch is very useful for enabling Pecharunt when no other attacker is available, which can take 1 or 2 prizes fairly easily, and Ursaluna can take the last 1-2.
 - Don't poison Absol if you don't have to. Every damage matters! 
 - Against non-Diancie builds, pay attention to Clefairy breakpoints with all attackers. Sometimes you need to hold off on benching something or use Penny to stop a Clefairy KO.
+- If you can't find Mist for the undamaged Absol, consider going for a KO on their Munki with Dark. This is very situational, such as if they could otherwise threaten a Mew Terminal Period on Absol.
 
 With Toedscruel build:
 
 - Initial board should be Absol, Kang, Pecharunt, Munkidori, Toedscool, and either Latias or Yveltal. Toedscruel is strong in this matchup, especially with Claw of Darkness.
 - If Pecharunt is prized, do not bother with Toedscool or Toedscruel. You will get punished. In that case, go for a board of Kang, two Munkidori, Latias, and both Absol.
+
+```twitch
+id: 2690809553
+title: Absol (techs) v Garde 1
+```
+This is an interesting game that showcases some of the interactions in this matchup. This game is also an example of Absol going for a prize race, willingly trading off the initial Absol in the process.
 
 ```twitch
 id: 2677185410
@@ -197,8 +204,7 @@ This matchup is favorable if they don't have Klefki and unfavorable if they do.
 
 - Start attacking with Absol because it can tank hits and disrupt. It makes great math against Terapagos in particular.
 - Smacking their big guys with Claw is generally good. You can delay activating Charizard's extra damage while pressuring their resources. Terminal Period on a Charizard is often bait, especially if they can KO you back.
-- If they use Jet to activate Klefki and you've Claw'd away another switching card at some point, look for an opportunity to win with Yveltal.
-- Cornerstone is futile, even if you think can remove their Terapagos. Yveltal is also generally bad because they have so many switching cards.
+- Cornerstone is futile, even if you think can remove their Terapagos. Yveltal is also generally bad because they have so many switching cards. However, if they use Jet to activate Klefki and you've Claw'd away another switching card at some point, you can look for an opportunity to win with Yveltal.
 - Kangaskhan as the second attacker can be good because it survives max-power Charizard with a Charm.
 - The early-game is about denying prize cards and forcing them to activate Adrenabrain.
 - You have to be extremely careful with what Pokemon you put on your board to avoid giving them and easy prize map.

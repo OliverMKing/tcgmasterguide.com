@@ -368,6 +368,12 @@ Looking at different timelines, almost made an insane comeback.
 - If they have Toedscruel, play mostly the same as normal. However, be careful with resources and with using Kirlia's Call Sign. Don't let Scream Tail, Mew, or your only Gardevoir get Claw'd away. Super Rod is a premium resource and is usually used for maximum impact at the end of the game. If your gameplan doesn't involve KO'ing Toedscruel (it usually doesn't, but it's not unheard of), it's fine to throw away the Stretchers.
 
 ```twitch
+id: 2690809553
+title: Absol (techs) v Garde 1
+```
+This is an interesting game that showcases some of the interactions in this matchup. This also showcases how you can use Mew to immediately respond to Absol provided the Munkidori are set up and they didn't find Mist.
+
+```twitch
 id: 2677185410
 title: Garde v Absol 1
 ```
