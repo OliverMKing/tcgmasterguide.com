@@ -196,6 +196,8 @@ Getting dominated to start into an interesting endgame.
 This matchup is favorable if they don't have Klefki and unfavorable if they do.
 
 - Start attacking with Absol because it can tank hits and disrupt. It makes great math against Terapagos in particular.
+- Smacking their big guys with Claw is generally good. You can delay activating Charizard's extra damage while pressuring their resources. Terminal Period on a Charizard is often bait, especially if they can KO you back.
+- If they use Jet to activate Klefki and you've Claw'd away another switching card at some point, look for an opportunity to win with Yveltal.
 - Cornerstone is futile, even if you think can remove their Terapagos. Yveltal is also generally bad because they have so many switching cards.
 - Kangaskhan as the second attacker can be good because it survives max-power Charizard with a Charm.
 - The early-game is about denying prize cards and forcing them to activate Adrenabrain.
@@ -310,6 +312,8 @@ title: Dragapult v Absol 6
 - Cornerstone is bait early on! Ideal board is Absol, Kang, two Munki, Pech/Latias, Psyduck. Sometimes Yveltal can be in there as well. You can sometimes pivot into Cornerstone as your second attacker later if they run out of gusts.
 - If you cannot find/recover Psyduck, sometimes KO'ing their Duskull/Clops/Noir is effective because they have a really hard time KO'ing Megas without it.
 - Apply pressure with Absol, don't wait around for them to find their wombo combo.
+- Smacking their big guys with Claw is generally good. You can delay activating Charizard's extra damage while pressuring their resources. Terminal Period on a Charizard is often bait, especially if they can KO you back.
+- If they use Jet to activate Klefki and you've Claw'd away another switching card at some point, look for an opportunity to win with Yveltal.
 - Charm is best on Pecharunt and Absol. Sometimes you can even Penny up the Pecharunt/Latias to throw off their prize map.
 - In general, just make it as as possible hard for them to KO a Mega.
 - If they punch your Absol, either use Penny to heal or take the opportunity to Terminal Period their Pidgeot.
