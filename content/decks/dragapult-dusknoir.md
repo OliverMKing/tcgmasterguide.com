@@ -329,6 +329,8 @@ title: Dragapult v BoxZard 5
 
 ### Absol - Favorable
 
+This matchup is favorable assuming they don't have Ice Creams, and slightly unfavorable if they do.
+
 - Jamming Tower is a premium resource. You can use it early to stop the Turbo Energize, but if you miss that window, save it for Charm later.
 - Budew is extremely strong before they get Trolley/Nest Balls, and not very important if they already got the Trolley/Nest Balls.
 - Need to be aggressive before they get the god board. First Phantom Dive needs to either be into Absol or a single-prizer. There's no real point in spending Boss on an Absol with less than two Energy.

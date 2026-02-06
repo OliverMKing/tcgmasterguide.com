@@ -6,7 +6,7 @@ tier: 1
 
 ## Decklist
 
-![Grimmsnarl decklist](./images/grimmsnarl/cool.png)
+![Grimmsnarl decklist](./images/grimmsnarl/3boss.png)
 ```decklist
 Pokémon: 19
 3 Marnie's Impidimp DRI 134
@@ -24,8 +24,8 @@ Pokémon: 19
 Trainer: 33
 4 Arven OBF 186
 4 Lillie's Determination MEG 119
-4 Iono PAL 185
-2 Boss's Orders MEG 114
+3 Iono PAL 185
+3 Boss's Orders MEG 114
 3 Night Stretcher SFA 61
 1 Counter Catcher PAR 160
 1 Rare Candy MEG 125
@@ -52,6 +52,7 @@ Energy: 8
 - Toedscruel increases the win rate against Gholdengo quite a bit, though the matchup is still close to even or slightly unfavorable. I think it is worth playing.
 - Energy Search is relevant way too often. I would never cut it.
 - Tatsugiri is necessary for consistency.
+- I added third Boss for now. It is very useful against Munkidori decks, especially Garde, Absol, and mirror. Perhaps cutting Spikemuth or Super Rod is better than cutting Iono, but I think it's fine with Tatsugiri.
 
 ### Exclusions
 

@@ -362,4 +362,4 @@ This game demonstrates how important Munkidori control is. The Munkis are everyt
 
 ## Personal thoughts
 
-This is probably the most interesting deck in the format, however I would not recommend playing to a major tournament. It is inconsistent, has a bad matchup spread, and is extremely difficult to play. However, with the new additions of Toedscruel and Jumbo Ice Cream, there is some merit to revisiting this deck. These cards might be what Absol needs to save it.
+This is probably the most interesting deck in the format. In my opinion, with the new additions of Toedscruel and Jumbo Ice Cream, this deck becomes a lot more viable. Its matchup spread is much better, so I would consider playing it. However, the Gardevoir matchup is still difficult.
