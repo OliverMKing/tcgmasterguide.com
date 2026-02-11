@@ -60,8 +60,51 @@ Energy: 10
 - 8th Psychic and 2nd Arven are certainly useful, but it's a matter of space. I'd rather have some power options (Diancie and Devo) and a better Charizard matchup. I don't think the lack of Arven compromises the Dragapult matchup all that much.
 - Drifloon would most likely require another Psychic and Vessel, and doesn't really help as much against Gholdengo as one might think. However, it can be useful against other things, so playing a deck more focused on that isn't necessarily bad.
 
-**To try: Team Rocket's Watchtower.**
 <!-- /PUBLIC -->
+## Decklist 2
+
+![decklist2](./images/gardevoir-jellicent/watchtower.png)
+```decklist
+Pokémon: 15
+3 Ralts MEG 58
+2 Kirlia MEG 59
+2 Gardevoir ex SVI 86
+3 Munkidori TWM 95
+1 Scream Tail PAR 86
+1 Frillish WHT 44
+1 Mew ex MEW 151
+1 Lillie's Clefairy ex JTG 56
+1 Fezandipiti ex SFA 38
+
+Trainer: 34
+4 Iono PAL 185
+4 Lillie's Determination MEG 119
+2 Arven OBF 186
+1 Professor Turo's Scenario PAR 171
+4 Ultra Ball MEG 131
+3 Earthen Vessel PAR 163
+2 Nest Ball SVI 181
+2 Rare Candy MEG 125
+2 Night Stretcher SFA 61
+2 Counter Catcher PAR 160
+1 Super Rod PAL 188
+1 Secret Box TWM 163
+2 Bravery Charm PAL 173
+1 Technical Machine: Evolution PAR 178
+2 Artazon PAL 171
+1 Team Rocket's Watchtower DRI 180
+
+Energy: 11
+8 Psychic Energy MEE 5
+3 Darkness Energy MEE 7
+```
+### Inclusions
+
+- This is basically the Chao build that is more focused on consistency without many power options.
+- Team Rocket's Watchtower was impressive enough against DawnZard for me to warrant including it.
+- Second Counter Catcher is still included because it is very good against Gholdengo.
+- I'm including this list because it is most likely what I'm playing for EUIC, but that could change between now (2/10) and then.
+
 ## Gameplay
 
 - Going for Turn 1 Latias plus Frillish is generally worth it when the opponent did not have a strong Turn 1 and you can cut off their options. For example, if Gholdengo or Absol did not get their key Pokemon into play, Frillish can cripple them. If they did, Frillish isn't as necessary on Turn 1. Against decks like Charizard and Gardevoir that rely on Items to set up, you basically always want a Turn 1 Frillish.

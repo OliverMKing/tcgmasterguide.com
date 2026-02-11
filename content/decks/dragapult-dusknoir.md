@@ -6,7 +6,7 @@ tier: 2
 <!-- PUBLIC -->
 ## Decklist
 
-![decklist for Dragapult / Dusknoir](./images/dragapult-dusknoir/pultlist2.png)
+![decklist for Dragapult / Dusknoir](./images/dragapult-dusknoir/2hilda.png)
 ```decklist
 Pokémon: 23
 4 Dreepy TWM 128
@@ -26,8 +26,7 @@ Trainer: 30
 4 Lillie's Determination MEG 119
 4 Iono PAL 185
 3 Boss's Orders MEG 114
-1 Hilda WHT 84
-1 Dawn PFL 87
+2 Hilda WHT 84
 1 Professor's Research JTG 155
 1 Professor Turo's Scenario PAR 171
 4 Buddy-Buddy Poffin TEF 144
@@ -44,13 +43,14 @@ Energy: 7
 ```
 ### Inclusions
 
-- I like the new concept of cutting Nest Ball and second Hilda for Research and Dawn. Research helps compensate for the questionable early-game consistency, while Dawn provides a powerful mid-game popoff/combo Supporter option that doesn't require a hand reset.
+- Research helps compensate for the questionable early-game consistency and is an additional out that helps us play the game, unlike Nest Ball.
 - Munkidori is strong against Grimmsnarl, but that matchup is bad either way. It is mostly relevant for the mirror match, which I think is enough of a reason to play it. Can also be used against Charizard or Gardevoir occasionally.
 - I initially thought it would be ok to cut Jamming Tower, but that is no longer the case. Jamming Tower is too useful in too many matchups.
 
 ### Exclusions
 
 - I tried Moltres and found that it did not impact the Gholdengo matchup as much as I hoped.
+- Dawn was very underwhelming when I tried it.
 <!-- /PUBLIC -->
 ## Gameplay
 

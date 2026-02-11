@@ -50,13 +50,14 @@ Energy: 9
 - Jumbo Ice Cream is extremely strong in every matchup. This deck's main lose condition is the Absol going down too early, and Ice Cream helps prevent that. I added a second copy to help find it at the right time since it needs to be used on one specific turn.
 - Lively Stadium is relevant often enough to warrant both copies.
 - Two Ultra Ball is necessary with Toedscruel. I still like having Nest Ball too, but ended up cutting it for second Ice Cream (for now).
+- One Earthen Vessel is definitely sufficient.
 
 ### Exclusions
 
 - Yveltal was pretty underwhelming in testing, so I no longer think you need two of them.
 - Cornerstone and Moltres aren't as good at beating Gholdengo as Toedscruel.
 - I think Judge is a terrible card.
-- Other random techs such as Hammer, Devo, and Sandy Shocks seem bad to me but I have not tried them so they could be worthwhile. I would sooner try out a second Jumbo Ice Cream though.
+- Other random techs such as Hammer, Devo, Watchtower, and Sandy Shocks seem bad to me but I have not tried them so they could be worthwhile.
 <!-- /PUBLIC -->
 ## Gameplay
 
