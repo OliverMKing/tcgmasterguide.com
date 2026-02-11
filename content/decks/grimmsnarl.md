@@ -47,7 +47,7 @@ Energy: 8
 <!-- PUBLIC -->
 ### Inclusions
 
-- Budew is extremely strong against Dawn Zard and can sometimes scam Gholdengo.
+- Budew is extremely strong against Dawn Zard and can sometimes scam Gholdengo or Absol.
 - 3 Stretcher is so insanely good, you always want to have Stretcher, and get value from all of them when you draw them. It's especially important with Toedscruel.
 - Toedscruel increases the win rate against Gholdengo quite a bit, though the matchup is still close to even or slightly unfavorable. I think it is worth playing.
 - Energy Search is relevant way too often. I would never cut it.
@@ -68,6 +68,7 @@ Energy: 8
 - Pay careful attention to the board state. Watch for opportunities to pivot into a prize trade. Sometimes you can also use aggressive Devo as part of a prize race.
 - Sometimes you leave ten damage on Munkidori so that after a full turn of Froslass you'll have 30 for the next turn. The 30 damage increments are extremely relevant, especially combined with Grimmsnarl's snipe attack.
 - In general, try to avoid situations where Grimmsnarl gets one-shot, unless it's part of a winning prize trade. A Grimmsnarl that gets to fire off more than one attack can be devastating.
+- When going second, consider using Budew on Turn 1 if your opponent's board is weak or if they are playing a Rare Candy deck. Sometimes can also apply to Turn 2 when going first.
 
 ## Matchups
 
@@ -271,8 +272,9 @@ This game is a common example of Ursaluna being used to close things out.
 - Try to KO their Munkis very aggressively. Whenever possible, snipe off their Munki with Fros+Adrena+Grimmsnarl's attack.
 - Get two Froslass, two Munki, Grimm, and backup Imp/Morg. Sometimes third Munki is better, but very situational.
 - You are trying to prize race while they are trying to control. If you can pick up an early KO on Latias/Pech and a Munki, all you need to do from there is KO a Mega with Ursaluna+Adrenabrain. You can force them to activate Ursaluna by continuing to attack with Grimm.
-- Use Boss for either aggressive KO on Munki/two-prizer, otherwise save it for getting around Cornerstone.
+- Use Boss for either aggressive KO on Munki/two-prizer, otherwise save it.
 - Do not punch into their Mega (usually Kang) for no reason because they will just get a Terminal Period KO for free.
+- If you get Budew before they can Trolley, it's very good.
 
 ```twitch
 id: 2677315533

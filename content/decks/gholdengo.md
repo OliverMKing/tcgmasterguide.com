@@ -107,8 +107,9 @@ I currently think this is best way to play Gholdengo.
 - No backup attacker leaves us vulnerable to Cornerstone. This is a meta call and a bit of a risk. The trade off is many spots to deal with Gardevoir and the powerful addition of Munkidori.
 - Super Rod does not make sense to play with three Lana's.
 - Picnic Basket has overlap with Munkidori and therefore gets cut.
+- Fourth Gong is better early-game, while the 8th Fighting is better past that. Either option is fine.
 
-**To try: Bravery Charm**
+**To try: Legacy + Lillie build**
 
 ## Gameplay
 
