@@ -63,20 +63,22 @@ Energy: 10
 <!-- /PUBLIC -->
 ## Decklist 2
 
-![decklist2](./images/gardevoir-jellicent/watchtower.png)
+![decklist2](./images/gardevoir-jellicent/bundle.png)
 ```decklist
-Pokémon: 15
+Pokémon: 17
 3 Ralts MEG 58
 2 Kirlia MEG 59
 2 Gardevoir ex SVI 86
 3 Munkidori TWM 95
+1 Drifloon SVI 89
 1 Scream Tail PAR 86
 1 Frillish WHT 44
 1 Mew ex MEW 151
 1 Lillie's Clefairy ex JTG 56
 1 Fezandipiti ex SFA 38
+1 Iron Bundle PAR 56
 
-Trainer: 34
+Trainer: 32
 4 Iono PAL 185
 4 Lillie's Determination MEG 119
 2 Arven OBF 186
@@ -86,13 +88,12 @@ Trainer: 34
 2 Nest Ball SVI 181
 2 Rare Candy MEG 125
 2 Night Stretcher SFA 61
-2 Counter Catcher PAR 160
+1 Counter Catcher PAR 160
 1 Super Rod PAL 188
 1 Secret Box TWM 163
 2 Bravery Charm PAL 173
 1 Technical Machine: Evolution PAR 178
 2 Artazon PAL 171
-1 Team Rocket's Watchtower DRI 180
 
 Energy: 11
 8 Psychic Energy MEE 5
@@ -100,10 +101,16 @@ Energy: 11
 ```
 ### Inclusions
 
-- This is basically the Chao build that is more focused on consistency without many power options.
-- Team Rocket's Watchtower was impressive enough against DawnZard for me to warrant including it.
-- Second Counter Catcher is still included because it is very good against Gholdengo.
-- I'm including this list because it is most likely what I'm playing for EUIC, but that could change between now (2/10) and then.
+- Drifloon is pretty good against everything in the current meta except for Dragapult. Getting five Energy in discard is not too hard and then Drifloon gets to take easy KO's on big things that are otherwise really hard for Gardevoir to get the KO on.
+- With an expected increase in Jellicent for Seattle, I like the Iron Bundle tech.
+- The consistency of Charm is better than Cape, especially with Drifloon in the deck. Charm can sometimes mimic Cape, but is mostly just better in many situations (Scream Tail in mirror, Frillish against Gholdengo, slap it on Fez/Mew, etc.)
+
+### Exclusions
+
+- Second Counter Catcher isn't really necessary. It is good against Gholdengo and mirror though.
+- Second TM: Evo isn't necessary.
+- Rocket's Watchtower would still be really nice to help against DawnZard, but there's no space. Swapping the Bundle back out for it could be fine.
+- Diancie is good there's just no space. I think Drifloon is better.
 
 ## Gameplay
 
@@ -157,7 +164,7 @@ Against non-Lopunny:
 
 Against Lopunny:
 
-- This matchup plays a bit differently than above. The win condition is to keep Lopunny off the board and then use Frillish.
+- This matchup plays a bit differently than above. The win condition is to keep Lopunny off the board and then use Frillish. Of course, if you're in a position to go for a winning prize race, just do that instead.
 - Ideal board is double Munkidori, double Gardevoir, Fez, and your single-prize attacker which should be Scream Tail or Frillish depending on the situation.
 - Early attacking Gardevoir is good if either a) there is no Lopunny present or b) you can Counter Catcher smack the Lopunny for 190 with Gardevoir. Otherwise, use Scream Tail to damage the Lopunny as much as possible. If they have Buneary, use Scream Tail to KO it.
 - If you're behind in prizes, make sure to save the Turo! It is very important for converting Frillish endgames.
@@ -247,16 +254,17 @@ This game showcases an interesting line and endgame lethal play.
 
 ### Gardevoir Mirror - Even / Depends on lists
 
-- Get Turn 1 Frillish. Fast attacking Jellicent is extremely strong. The non-Evo build has the Jellicent advantage while the Evo build has a better chance of setting up Gardevoir under Item lock.
+- Get Turn 1 Frillish. Fast attacking Jellicent is extremely strong. The non-Evo build has the Jellicent advantage while the Evo build has a better chance of setting up Gardevoir under Item lock. Even if you're not playing Latias or Jellicent, early Frillish can still be very strong.
 - If you don't have Gardevoir, try to respond to Jellicent with manual Mind Bend. Manual Diancie plus Adrenabrain does KO, but that is very situational. In any case, getting Darks on Munkidori is a high priority.
 - When Gardevoir is set up, KO'ing their Munkidori with Darks via Scream Tail is usually a good play. KO'ing their Jellicent is also good whenever possible.
-- Charm is usually best on Scream Tail to prevent Adrenabrain from KO'ing it. Charm can also be good to protect two-prize Pokemon such as Fezandipiti or Latias if they happen to be on the board. Another underrated use for Charm is to protect your only Munkidori with Dark from Scream Tail.
+- Charm is usually best on Scream Tail to prevent Adrenabrain from KO'ing it (or Frillish plus Adrenabrain). Charm can also be good to protect two-prize Pokemon such as Fezandipiti or Latias if they happen to be on the board. Another underrated use for Charm is to protect your only Munkidori with Dark from Scream Tail.
+- Fez and Mew are generally not bad to have in play. They are liabilities but they can also be necessary to not brick off an opposing Iono.
 - Mew can copy Scream Tail for tons of damage. This is generally best for closing out the game because Mew is a liability and all the Energy can get stuck on it. Watch out for your opponent doing this to you and try to play around it.
 - Counter Catcher can be useful for KO'ing a big two-prize Pokemon such as Gardevoir or something with a Charm. Even if you are the initial aggressor, sometimes the prize trade flips back depending on the Munkidori situation. Activating your opponent's Counter Catcher is generally fine since being ahead in the prize trade is better. But don't activate it unnecessarily in the mid-game if there's potential for a big punish such as instantly losing to them KO'ing Gardevoir.
 
 ### Dragapult / Dusknoir - Favorable
 
-This list is favored against Dragapult, but the build with 2-1-2 Gardevoir and no TM: Evo is unfavored against it.
+This matchup is favorable, but the build with one Kirlia and no TM: Evo is unfavored against it.
 
 - Early Frillish into attacking Jellicent is generally good. If they ignore the Jellicent and wipe out the Ralts, use Clefairy's Ability to make Jellicent two-shot their Dragapult. If you're not playing Jellicent, Frillish is a low prioritiy.
 - Sometimes you won't be able to get Gardevoir out for awhile. Try to manually power up relevant attackers such as Jellicent, Munkidori, or Clefairy. You'll eventually need Gardevoir at some point, so try to find openings to put down double Ralts.
@@ -337,6 +345,7 @@ title: Dragapult v Garde (with Evo) 4
 - Mega Diancie with Bravery Charm can survive a max power Charizard.
 - Always consider pre-loading Pokemon on your Gardevoir turns, as Gardevoir tends to disappear against Charizard.
 - Randomly pivoting into Frillish can be very useful, as it stops Rare Candy plays for Charizard or Dusknoir.
+- Drifloon (if you play it) can one-shot their initial Charizard (or Pidgeot with Counter Catcher), which is very strong.
 
 ```twitch
 id: 2684926209
@@ -378,6 +387,7 @@ Trying different lines and having an aneurysm.
 - Many options such as Mind Bend, Iono, and Diancie are much stronger when they do not have Pidgeot on the board.
 - Manually attaching to threats such as Diancie, Mew, and even Munkidori can be very useful as the opponent will KO Gardevoir aggressively.
 - Devo is often best used with Jellicent if possible.
+- Drifloon (if you play it) can one-shot their initial Charizard (or Pidgeot with Counter Catcher), which is very strong.
 
 ```twitch
 id: 2677185403
@@ -409,6 +419,7 @@ Looking at different timelines, almost made an insane comeback.
 - For the most part, use Charm exclusively on Scream Tail, as it allows extra damage and keeps it out of Adrenabrain range. Occasionally, Charm can be good on Fez to keep it out of Ursaluna range (and that goes for any matchup with Ursaluna).
 - Keeping damage around on the board can be very relevant in this matchup for when you want to reach with Adrenabrain.
 - If they have Toedscruel, play mostly the same as normal. However, be careful with resources and with using Kirlia's Call Sign. Don't let Scream Tail, Mew, or your only Gardevoir get Claw'd away. Super Rod is a premium resource and is usually used for maximum impact at the end of the game. If your gameplan doesn't involve KO'ing Toedscruel (it usually doesn't, but it's not unheard of), it's fine to throw away the Stretchers.
+- Drifloon can get a big KO on Absol, but watch out for getting stuck from Yveltal. You'll want to have your Turo available at some point.
 
 ```twitch
 id: 2690809553
@@ -452,6 +463,7 @@ Dominating to start into an interesting endgame.
 - Avoid activating Counter Catcher if you have Gardevoir in play, unless they have a slow start and you can get the jump on them with Scream Tail.
 - Watch out for their Devo play.
 - Plan ahead for if they Boss KO Gardevoir. Try to have some sort of follow up or backup plan.
+- Drifloon (if you play it) can one-shot their initial Grimmsnarl, which is very strong.
 
 ```twitch
 id: 2677185408
