@@ -56,9 +56,13 @@ Energy: 9
 
 - Yveltal was pretty underwhelming in testing, so I no longer think you need two of them.
 - Cornerstone and Moltres aren't as good at beating Gholdengo as Toedscruel.
-- I think Judge is a terrible card.
-- Other random techs such as Hammer, Devo, Watchtower, and Sandy Shocks seem bad to me but I have not tried them so they could be worthwhile.
+- Other random techs such as Erika's Invitation package, Frillish package, Devo, Judge, and Sandy Shocks seem bad to me but I have not tried them so I could be wrong.
+- Enhanced Hammer seems decent for the Dragapult and mirror matchups. The second Jumbo Ice Cream is also useful against Dragapult as well as many other decks, but doesn't do as much in the mirror.
+- Watchtower could be ok, but it is extremely niche and situational. Also hard to use because it shuts off your own Kangaskhan draw.
 <!-- /PUBLIC -->
+
+**To Try: Team Rocket's Watchtower, Enhanced Hammer**
+
 ## Gameplay
 
 - In slower matchups or against decks that have a hard time getting through a Mega Kangaskhan, you typically want to play more passively and prioritize setting up an unbreakable board. However, against decks that can pressure you, such as sniping or capability of one-shotting Megas, it's ok to be aggressive with Absol on Turn 2-3. 
