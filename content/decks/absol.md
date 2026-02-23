@@ -61,7 +61,7 @@ Energy: 9
 - Watchtower could be ok, but it is extremely niche and situational. Also hard to use because it shuts off your own Kangaskhan draw.
 <!-- /PUBLIC -->
 
-**To Try: Team Rocket's Watchtower, Enhanced Hammer**
+**To Try: Team Rocket's Watchtower**
 
 ## Gameplay
 
