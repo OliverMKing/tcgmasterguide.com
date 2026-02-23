@@ -1,7 +1,7 @@
 ---
 title: "Grimmsnarl"
 pokemon: [861]
-tier: 1
+tier: 2
 ---
 
 ## Decklist

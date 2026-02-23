@@ -100,6 +100,9 @@ Energy: 7
 5 Fire Energy MEE 2
 2 Water Energy MEE 3
 ```
+
+This list is bad against Absol, so it's not as good into the current meta until Absol dies back down.
+
 ### Inclusions
 
 - Wellspring Ogerpon gives a few percentage points against Dragapult. The matchup is still unfavorable, but this version could still be worth playing. Although the trade off in deck spots makes the deck a little weaker against Gardevoir, the Wellspring can be useful against Gholdengo and Charizard in addition to Dragapult.
