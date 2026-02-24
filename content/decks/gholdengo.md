@@ -550,6 +550,66 @@ title: Grimm (Toed) v Gholdengo 4
 ```
 I go deep into the weeds to fully optimize this interesting endgame.
 
+### Kangaskhan / Bouffalant - Slightly Unfavorable
+
+This matchup is favorable if you have Mega Mawile and slightly unfavorable otherwise.
+
+Against the Eri build:
+- Go for a one-shot on their Kang as soon as possible.
+- If you’re playing Mawile, prioritize powering it up. Make sure you still have enough Energy to one-shot their first Kang with Gholdengo though!
+- If you’re playing Lopunny, it can be helpful for easily KO’ing Bouffalant. 
+- Don’t waste Energy KO’ing Bouffalant with Gholdengo. There are some exceptions, such as if they only have one Bouff on board, or they don’t have any Kang in play. Going for a 3-3 prize map is ideal, but if you’re playing Lopunny (or sometimes Mawile), going for 3-1-1-1 is sometimes fine.
+- Vitality Band on Dengo is very strong!
+- Applying fast pressure is more important than worrying about Eri/Xerosic. If they’ve already used an Eri, try to play around Xerosic, and vice versa. 
+
+Against Moltres build:
+- Genesect is a huge liability. Don’t put it down unless you have to. If you do, Turo it up ASAP.
+- Artazon and Basket can punish them if they use Snowy Mountain too early or overly rely on it.
+- KO Kang whenever you can. Otherwise KO Moltres. If Moltres has Energy/Bangle, sometimes prioritize KO’ing ot over the Kang.
+- Lopunny is generally very good.
+
+```youtube
+id: 9e5SCBSK67k
+title: Kang/Eri v Dengo 1
+```
+Interesting game.
+
+```youtube
+id: 1XrDibm15LA
+title: Kang/Eri v Dengo 2
+```
+This game shows why you want to be fast and aggressive and keep the pressure on. Sometimes you can just steamroll them if you draw well.
+
+```youtube
+id: 8VGT4VbR3Yg
+title: Kang/Eri v Dengo 3
+```
+This is a very interesting and close game that was difficult to navigate. It’s a good example of how to maneuver the endgame and to be very careful with your resources.
+
+```twitch
+id: 2690809543
+title: Kang/Moltres v Dengo 1
+```
+This is a good example of why you shouldn’t put down Genesect if you can avoid it.
+
+```twitch
+id: 2690809541
+title: Kang/Moltres v Dengo 2
+```
+Even when steamrolling, be careful of their options.
+
+```twitch
+id: 2690809546
+title: Kang/Moltres v Dengo 3
+```
+This game shows why Lopunny is sometimes needed.
+
+```youtube
+id: hPoWuCwhi4s
+title: Kang/Moltres v Dengo 4
+```
+This game shows how you can outmaneuver them with Lopunny and no liabilities on board.
+
 ## Personal thoughts
 
 Gholdengo is extremely strong. Its matchups are overall quite good even though it's weak to Charizard/Noctowl. I would usually prefer a deck with more agency such as Charizard or Gardevoir but I would consider this deck anyway because it's so broken. Gholdengo has relatively little skill expression, so you're more at the mercy of luck than with other decks. Overall, it is a great deck and definitely worth playing.

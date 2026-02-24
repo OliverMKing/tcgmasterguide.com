@@ -435,6 +435,31 @@ title: Dragapult v Grimm 6
 ```
 Make them get lucky. But how do they always have it?!
 
+### Kangaskhan / Bouffalant - Slightly Unfavorable
+
+- Psyduck and Munkidori are huge threats. Prioritize KO’ing Psyduck and Munki with Dark. You’ll eventually need Dusknoir in order to get through a Kang and win.
+- Sometimes you’ll get to Item lock them out of Psyduck. If that’s the case, set up Dusknoir and Dusclops if possible for a wombo combo play on their Kang. Continue Item locking them until everything is all ready to go. Even if you don’t get the KO, getting Dusknoir plus Iono to like 3 or 4 plus Phantom Dive should be enough for a clean two-shot.
+- Slam Jamming Tower before they Turbo Energize if you have it. Otherwise, save it for disabling Charm and getting a KO.
+- Play around Eri, especially when the game is slow. Eri isn’t their preferred play, but sometimes they’ll use it just because they have nothing better to do. Don’t take unnecessary Stretcher/CC/Ultra with Recon Directive. Play Ultra or Stretcher preemptively if you can get value from them. Don’t bend over backwards playing around Eri, just do so if it’s convenient.
+
+```twitch
+id: 2705287180
+title: Kang/Eri v Pult 1
+```
+This is an interesting game.
+
+```twitch
+id: 2705287182
+title: Kang/Eri v Pult 2
+```
+Using Dusknoir on Bouffalant yields more overall damage, so it can be worth going for if you can’t get the outright KO on Kang.
+
+```twitch
+id: 2705287183
+title: Kang/Eri v Pult 3
+```
+Setting up the wombo combo. It isn’t a guaranteed win, but it puts them in a bad spot, so it’s good to go for.
+
 ## Personal thoughts
 
 Dragapult performs alright into the field. However, it is bad against Garde with TM:Evo. Some people are still on the single Kirlia list with no Evo, but the Evo build is still somewhat popular, so it could be risky to take a loss to. The Gholdengo matchup also leaves a lot to be desired (even though it is winnable), and with how insanely popular Gholdengo is, that is another thing going against Dragapult. The best thing about Dragapult is that it is the only deck that owns Charizard. Dragapult also has some consistency issues, but it can still win those games when it draws bad. I probably wouldn't play Dragapult myself, but it's not bad.
