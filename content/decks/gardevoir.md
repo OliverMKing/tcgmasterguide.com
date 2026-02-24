@@ -489,6 +489,41 @@ title: Garde v Grimm 4
 ```
 This game shows the power of Diancie in this matchup, as well as a cool endgame scenario.
 
+### Kangaskhan / Bouffalant - Slightly Unfavorable
+
+I think this matchup is favorable with Watchtower and slightly unfavorable otherwise.
+
+- Mind Bend can be quite useful, especially when you have nothing better to do.
+- Attacking with Gardevoir can be ok, but it is very risky because it’s fairly easy for them to KO it. Usually there will be some combination of damage as well as Adrenabrain, meaning Kang only needs one heads for a KO. Be careful attacking with Garde and consider other options.
+- You can make comebacks from ridiculous spots.
+- If they don’t have Shaymin, prioritize Scream Tail KO’ing their Munkidori with Dark, and save recovery cards for Scream Tail. If they have no Munki with Dark, snipe off Boufflant instead.
+- If they do have Shaymin, pressure it with Adrenabrain and force them to put a Charm on it. Once they have a Charm on a somewhat healthy Shaymin, just ignore it. Best case, you get a triple Adrenabrain on a non-Charmed Shaymin and also get to Scream Tail snipe something.
+- If they have two Munki with Dark, watch out for possible triple Adrenabrain plays and try to play around it.
+- Mew can be a decent attacker in the early- or mid-game. Be aware that Energy may get stuck on it, which is why it isn’t ideal later on.
+- If you play Cape, Scream Tail with Cape is extremely strong in the late-game if you get all the Psychic Energy.
+- If you play Watchtower, set up for a mid- or late-game Watchtower Iono and watch them completely fall apart.
+- If you can Item lock them before they get Trolley, go for it. Otherwise, Item lock is not that great. If you play Jellicent, you can use it as a one-turn stop on their Ice Cream. If you can set up a 2-shot with this play, it can be pretty good.
+- Spam Iono once they start taking prize cards.
+- Turo is often very useful in the late-game.
+
+```youtube
+id: 14J9Y2YRRx0
+title: Kang v Garde 1
+```
+This game shows how to pick them apart utilizing all of our options.
+
+```youtube
+id: aikBr9IdmjM
+title: Kang v Garde 2
+```
+This game shows how things can devolve into a flip-fest. The flips are a pretty big deal in this matchup, so just embrace it.
+
+```youtube
+id: oWdYJtLPy_0
+title: Kang v Garde 3
+```
+This is a nice comeback that comes down to a flip at the end.
+
 ## Personal thoughts
 
 This deck is obviously very good. It just has an unfortunate weakness to Charizard, though it is reasonable into the rest of the field. I strongly prefer the TM Evo build with 3-2-2 Gardevoir as opposed to the other one, as the difference in the Dragapult matchup is massive. Having three Ralts also helps avoid lots of awkward situations and the presence of TM:Evo improves consistency. I would definitely consider playing this deck despite its bad Charizard matchup.

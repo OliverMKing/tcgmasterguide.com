@@ -269,6 +269,40 @@ This game shows how Ursaluna is a big threat and common lose-condition.
 - Look for opportunities to shut down their options. Wiping out Charizard + Charmander, or both Duskull, etc. can be potent.
 - Defiance Band is an important part of the matchup, so try to get value from it by KO'ing Pidgeot or saving it for Charizard. Watch out for their Defiance Band as well! Going ahead in prizes isn't necessarily bad, again the matchup is more about positioning and Dusknoir anyway. The main downside of taking prizes is Pidgeot getting in KO range, so be aware of that and only allow it to happen if you're getting an advantageous board state.
 
+### Kangaskhan / Bouffalant - Slightly Favorable
+
+- Try to set up perfect board: Pidgeot, double Duskull/Dusclops, double Charizard, Klefki. Don’t put down anything else unless necessary, such as if you need Tatsugiri to play the game.
+- Save at least one Jet for a Klefki play.
+- Try to play around Eri/Xerosic and be careful not to amass a large hand full of important stuff. Don’t bend over backwards every turn to play around them, just do it when convenient.
+- Turo can be good to board fix or heal a Pidgeot. They may go after Pidgeot, so try to keep the pieces around to make another one.
+- If they take prizes, hit them with the wombo combo to KO their Kang. Otherwise, just set up to use Dusknoir plus Zard and Iono, and just hit them for a ton of damage. Then finish up with Zard and use the second Iono when appropriate. Iono is very strong in this matchup.
+- If you aren’t going to be able to line up that play for whatever reason, using Boss to KO their single-prizers is also fine. Depending on the situation, go after Psyduck (if you can’t easily get to Klefki Jet), Bouff (if you can disrupt their hand), or Munki Dark (if you’ll still have to 2-shot their Kang anyway).
+- Defiance Band is usually good.
+
+```youtube
+id: _iX3zC3HJOU
+title: Kang v ZardPidg 1
+```
+This is a VERY interesting game that was fun and difficult to navigate.
+
+```youtube
+id: vMwmtja1mEM
+title: Kang v ZardPidg 2
+```
+This was an interesting and close game. Try to protect Pidgeot or be ready to get a backup one in case they target it.
+
+```youtube
+id: bZwfCaKXPYw
+title: Kang v ZardPidg 3
+```
+This game shows how strong Iono can be. A well-timed Iono can swing games and punish them for taking prize cards.
+
+```youtube
+id: gsZEOxr52kk
+title: Kang v ZardPidg 4
+```
+Going for the Dusknoir Iono is sometimes all you can do, even if you can’t KO the Kang. They have to get lucky to recover from it.
+
 ## Personal thoughts
 
 This is the worst among the main meta decks and I would not play it in this format. Its matchups are pretty bad and the Noctowl build is superior. However, this deck has a significantly better Dragapult matchup than the Noctowl build, but I don't think that makes up for its other shortcomings.

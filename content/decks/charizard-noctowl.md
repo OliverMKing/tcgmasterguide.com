@@ -451,6 +451,26 @@ Close game.
 - Try to play around their breakpoints (on 5 prizes still keeps Terapagos out of range of their Charizard, 3 prizes Pidgeot is out of range, and 2 for Charizard but watch out for Briar).
 - Fan Rotom can be a useful aggressive option for speed or single-prize board.
 
+### Kangaskhan / Bouffalant - Unfavorable
+
+- Watch out for Iron Leaves. It is a threat if you only have one Charizard line on the board and they have Grass Energy in play. That said, Iron Leaves is not a big deal if you can respond to it, so sometimes it’s still ok to attack with Charizard.
+- Fan Rotom to KO Psyduck can be very useful in the early-game.
+- Aggressively targeting Psyduck can set up well for a 1-1-1-3 prize map, but you need lots of gusts to do it, as well as recovery for Duskull that might get KO’d.
+- Dusknoir is the key to the matchup. Want to have multiple Duskull/Dusclops present as a threat, also need open Hoothoot and an attacking threat. This can all be difficult to manage, as they can also take strategic KO’s to exploit any vulnerabilities.
+- Of course, getting the Dusknoir wombo combo to KO Kang is very good, but hard to pull off.
+
+```twitch
+id: 2706222694
+title: Kang v DawnZard 1
+```
+Close game.
+
+```youtube
+id: _e2Yz6EsORw
+title: Kang v DawnZard 2
+```
+This game demonstrates how to apply pressure and put them into awkward spots. Sometimes they’ll get out of it like here, but sometimes they won’t. This is honestly a very difficult matchup in terms of how to play it as well as win rate.
+
 ## Personal thoughts
 
 This deck is extremely strong and beats most stuff. It is superior to the other build of Charizard/Pidgeot/Dusknoir but has a worse Dragapult matchup. Personally, I am hesitant to play a deck with a terrible matchup to Dragapult in this meta, but this deck is strong enough to make a case for it. Clefairy does not do nearly enough against Dragapult to warrant its inclusion in the deck.

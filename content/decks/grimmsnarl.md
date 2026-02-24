@@ -295,6 +295,25 @@ This game demonstrates how important Munkidori control is. The Munkis are everyt
 - Sometimes you want/need one Froslass and sometimes you don't. Sometimes it's ok/necessary to punch into their Grimmsnarl and sometimes it's not.
 - I honestly haven't played this mirror enough to know exactly when to do everything.
 
+### Kangaskhan / Bouffalant - Favorable
+
+- Get as many Froslass out as possible. You don’t even need an early Munkidori. Sometimes it’s even better not to get them right away because they will die to Froslass + opposing Adrenabrain. Of course, Munkidori is still good in general, but it’s just not a priority in the early-game.
+- Try to set up Grimmsnarl with a backup Morgrem. It’s best to start attacking with Grimmsnarl when you will be able to have a follow up one in case they KO it with Iron Leaves. Take out their Munkidori and ignore Bouffalant. The Bouffalant will die eventually from Froslass. If you KO their Munkis, they cannot spawn trap Snorunt. If they KO you with Iron Leaves, simply KO the Leaves back.
+- When Froslass are KO’d, try to get them back. Depending on the board state, such as if you have damage built up, sometimes it’s better to get more Munkidori down instead. You ALWAYS want to have at least one Froslass in play. The more the merrier though.
+- Budew can be good before they get Trolley, but I would still prioritize ™ Evo into Froslass if it’s available.
+
+```youtube
+id: nDVM6Pc6b5k
+title: Kang v Grimm 1
+```
+Me figuring out the matchup. This is a close and interesting game.
+
+```twitch
+id: 2706222693
+title: Kang v Grimm 2
+```
+This game shows how Frolass is insanely strong in this matchup and why you want to prioritize getting a bunch of them.
+
 ## Personal thoughts
 
 Grimmsnarl is a very potent deck with mostly good matchups. It is still slighly unfavorable with Gholdengo and unfavorable against Absol, but with the addition of Toedscruel making the Gholdengo matchup playable (and Budew beating Dawn Zard), Grimmsnarl seems like a strong play. The deck also has some consistency issues.

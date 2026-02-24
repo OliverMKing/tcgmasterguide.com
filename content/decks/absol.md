@@ -375,6 +375,31 @@ This game demonstrates how important Munkidori control is. The Munkis are everyt
 - Pech with Charm is generally better than Latias to avoid giving them a two-prize KO with Claw (if they are potentially going for a 3-2-1). It also gets around Yveltal shenanigans. So your ideal board is Pech with Charm, Kang, Absol, two Munki, Yveltal.
 - I haven't played this one enough to know exactly when to do everything in every situation; this is a pretty weird matchup.
 
+### Kangaskhan / Bouffalant - Even / Depends on lists
+
+How you play this matchup kind of depends on your list. My current list doesn’t play any of the techs (Hammer, Watchtower, or Cornerstone), so there’s pretty much nothing it can do against Kang. I am considering adding the Watchtower though.
+
+- If you play Watchtower, draw as many cards as possible to try and find it. You also want to prioritize setting up a fast Absol. The Iron Leaves is scary, but Absol is still the way to go. If you can get rid of a Stadium off Claw, you can get the Watchtower to stick. Watchtower + Iono + Claw is also extremely strong.
+- Toedscruel stops Night Stretcher, which means that if you hit the Iron Leaves off Claw, you’ll be in a good spot.
+- Go for Kang, Absol, Latias, Toed, double Munki. Double Munki enables Terminal Period, which can come up.
+- Claw aims to stop Iron Leaves from happening. Their outs are Brock, Cipher, and Gear, so try to get rid of those.
+- If they start attacking with Kang, you can respond with Terminal Period. If they have Mist, you’ll need Hammer. If you can’t get a KO, just Claw and pray.
+- If they KO Absol with Leaves, you can respond with Ursaluna Energy Switch, or just a delayed Ursaluna. Once you KO the Leaves, you’ll want another Absol.
+- If they aren’t playing the Leaves version. Go for Absol and spam Boss KO their Benched Support Pokemon, using Toedscruel to stop their recovery. If you ever have the chance to Terminal Period KO a Kang, go for it.
+- If you are playing Cornerstone, your game plan should revolve entirely around it. Do not let them get six prizes via gusts. Do not put Absol into play. And also do not put Watchtower into play!
+
+```twitch
+id: 2705287179
+title: Kang/Eri v Absol 1
+```
+This game shows how the matchup revolves around Watchtower. If you aren’t playing that or Cornerstone, you’ll have a very hard time in this matchup. If you get the Watchtower at a good time, you can destroy them. I didn’t go for Toedscruel in either of these games but I probably should have.
+
+```twitch
+id: 2705287181
+title: Kang/Eri v Absol 2
+```
+This game shows what happens when things don’t line up and you don’t get Watchtower until too late.
+
 ## Personal thoughts
 
 This is probably the most interesting deck in the format. In my opinion, with the new additions of Toedscruel and Jumbo Ice Cream, this deck becomes a lot more viable. Its matchup spread is much better, so I would consider playing it. However, the Gardevoir matchup is still difficult.
