@@ -1,6 +1,6 @@
 ---
 title: "Kangaskhan"
-pokemon: [115]
+pokemon: [10039]
 tier: 2
 ---
 
