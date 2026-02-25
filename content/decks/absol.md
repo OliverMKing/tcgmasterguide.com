@@ -1,6 +1,6 @@
 ---
 title: "Absol"
-pokemon: [359]
+pokemon: [10057]
 tier: 2
 ---
 
