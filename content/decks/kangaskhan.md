@@ -289,6 +289,16 @@ title: Kang v ZardPidg 4
 ```
 Sometimes you need a little luck to draw the right cards right after getting Iono’d.
 
+### Kangaskhan / Bouffalant Mirror - Even
+
+- Prioritize attacking with Kang as fast as possible.
+- Ideal board is double Kang, double Bouff, double Munki.
+- Mostly going for some form of a 3-1-1-1 prize map, unless 3-3 is easier in the game (such as if you hit some Ice Creams with Eri).
+- Once you're attacking with Kang, get Munkis with Darks, and then after all that, start powering up another Kang to try and make them go through two Kang.
+- When you're about to hit into their Kang, use Eri to get rid of Ice Cream or Boss KO Munki with Dark if you don't have Eri.
+- There's not much you can really do to play around Eri/Xerosic besides preemptively using Pokegear, but even that is situational.
+- If they have Cornerstone, you're probably going to lose. Use Boss only to KO Munki with Dark, and set up as many of your own Munki as possible.
+
 ## Personal Thoughts
 
 This deck is surprisingly good. It has good matchups against the top decks, so it’s definitely worth considering. However, it can get punked by random Watchtowers, and auto-loses to random fringe stuff like Cornerstone and Raging Bolt.
