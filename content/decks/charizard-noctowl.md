@@ -1,7 +1,7 @@
 ---
 title: "Charizard / Noctowl"
 pokemon: [6, 164]
-tier: 1
+tier: 2
 ---
 <!-- PUBLIC -->
 ## Decklist
@@ -365,9 +365,9 @@ title: Grimm (Budew) v DawnZard 2
 ```
 More Budew action.
 
-### Absol - Depends on Klefki
+### Absol - Unfavorable
 
-This matchup is favorable with Klefki and unfavorable without it.
+Now that they all play Watchtower the matchup becomes unfavorable.
 
 - Terapagos is a great attacker because it does more damage than Charizard in the early-game, it can deal with Cornerstone, and you can manually attack with it.
 - You need to be very careful about allowing them to use Adrenabrain because it allows Claw of Darkness to KO Terapagos, which is very relevant. Playing around Adrenabrain by abusing early- and mid-game gusts is good.
@@ -375,6 +375,7 @@ This matchup is favorable with Klefki and unfavorable without it.
 - Yveltal is not much of a factor in this matchup because there's so many switching cards, but you still need to pay attention if you're running low on switching cards.
 - Dusknoir is either best in the early-game to KO their only attacking Mega, or the late-game to win. Don't bother trying to cheese them with Klefki (if you have it), save it for when it's needed for a big Dusknoir combo.
 - If you don't have Klefki, aggressively KO Psyduck and try to catch them without a Stretcher to get value from Dusknoir. It's very hard to win without Dusknoir. This also lets you get value from offensive Fan Rotom.
+- Try to preemptively play around Watchtower as much as possible, usually by setting up Blazing Destruction Charmander or Pidgeot. If you're able to respond to Watchtower with one of these attacks, you'll be in good shape. You don't necessarily have to bump the Watchtower on the very next turn, but it just depends on what else is going on. Fez is also very good against Watchtower.
 
 ```twitch
 id: 2675808567

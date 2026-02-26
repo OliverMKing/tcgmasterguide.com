@@ -1,12 +1,12 @@
 ---
 title: "Absol"
 pokemon: [10057]
-tier: 2
+tier: 1
 ---
 
 ## Decklist
 
-![decklist for Absol](./images/absol/good.png)
+![decklist for Absol](./images/absol/tower.png)
 ```decklist
 Pokémon: 16
 3 Munkidori TWM 95
@@ -37,7 +37,8 @@ Trainer: 35
 1 Precious Trolley SSP 185
 2 Technical Machine: Turbo Energize PAR 179
 2 Bravery Charm PAL 173
-2 Lively Stadium SSP 180
+1 Team Rocket's Watchtower DRI 180
+1 Lively Stadium SSP 180
 
 Energy: 9
 7 Darkness Energy MEE 7
@@ -48,7 +49,7 @@ Energy: 9
 
 - Toedscruel actually works pretty well against Gholdengo, improving the matchup to slightly favorable. However, some of the credit also has to go to Jumbo Ice Cream for thwarting Mawile.
 - Jumbo Ice Cream is extremely strong in every matchup. This deck's main lose condition is the Absol going down too early, and Ice Cream helps prevent that. I added a second copy to help find it at the right time since it needs to be used on one specific turn.
-- Lively Stadium is relevant often enough to warrant both copies.
+- I swapped one of the Lively Stadiums for Watchtower. I still would really like two Lively as it is very good, but it's just a matter of space. Team Rocket's Watchtower overperformed against Dawn Zard which I think makes it worth it. It also gets the benefit of helping a lot against Kang/Bouff.
 - Two Ultra Ball is necessary with Toedscruel. I still like having Nest Ball too, but ended up cutting it for second Ice Cream (for now).
 - One Earthen Vessel is definitely sufficient.
 
@@ -58,10 +59,7 @@ Energy: 9
 - Cornerstone and Moltres aren't as good at beating Gholdengo as Toedscruel.
 - Other random techs such as Erika's Invitation package, Frillish package, Devo, Judge, and Sandy Shocks seem bad to me but I have not tried them so I could be wrong.
 - Enhanced Hammer seems decent for the Dragapult and mirror matchups. The second Jumbo Ice Cream is also useful against Dragapult as well as many other decks, but doesn't do as much in the mirror.
-- Watchtower could be ok, but it is extremely niche and situational. Also hard to use because it shuts off your own Kangaskhan draw.
 <!-- /PUBLIC -->
-
-**To Try: Team Rocket's Watchtower**
 
 ## Gameplay
 
@@ -203,19 +201,18 @@ title: Garde v Absol 4
 ```
 Getting dominated to start into an interesting endgame.
 
-### Charizard / Noctowl - Depends on Klefki
-
-This matchup is favorable if they don't have Klefki and unfavorable if they do.
+### Charizard / Noctowl - Favorable
 
 - Start attacking with Absol because it can tank hits and disrupt. It makes great math against Terapagos in particular.
 - Smacking their big guys with Claw is generally good. You can delay activating Charizard's extra damage while pressuring their resources. Terminal Period on a Charizard is often bait, especially if they can KO you back.
 - Cornerstone is futile, even if you think can remove their Terapagos. Yveltal is also generally bad because they have so many switching cards. However, if they use Jet to activate Klefki and you've Claw'd away another switching card at some point, you can look for an opportunity to win with Yveltal.
 - Kangaskhan as the second attacker can be good because it survives max-power Charizard with a Charm.
 - The early-game is about denying prize cards and forcing them to activate Adrenabrain.
-- You have to be extremely careful with what Pokemon you put on your board to avoid giving them and easy prize map.
+- You have to be extremely careful with what Pokemon you put on your board to avoid giving them an easy prize map.
 - Going for early Absol, Psyduck, Munkidori, and Kangaskhan is ideal. Latias and Pecharunt are situational. They are very good, but also big liabilities. Charm on Cornerstone can be ok as it cannot be one-shot.
 - Make sure you can always Stretcher for Psyduck if they KO it.
-- Usually you only need one Munkidori with Dark.
+- Usually you only need one Munkidori with Dark. The second one can still be good though.
+- Watchtower is generally good to play whenever you happen to find it, especially alongside Claw of Darkness.
 
 ```twitch
 id: 2675808567
@@ -377,7 +374,7 @@ This game demonstrates how important Munkidori control is. The Munkis are everyt
 
 ### Kangaskhan / Bouffalant - Even / Depends on lists
 
-How you play this matchup kind of depends on your list. My current list doesn’t play any of the techs (Hammer, Watchtower, or Cornerstone), so there’s pretty much nothing it can do against Kang. I am considering adding the Watchtower though.
+How you play this matchup kind of depends on your list. If you play no techs (Watchtower, Hammer, or Cornerstone), it's extremely difficult to win. Whichever tech you play, you end up relying on heavily. For the standard version of Absol with Watchtower, this matchup is about even.
 
 - If you play Watchtower, draw as many cards as possible to try and find it. You also want to prioritize setting up a fast Absol. The Iron Leaves is scary, but Absol is still the way to go. If you can get rid of a Stadium off Claw, you can get the Watchtower to stick. Watchtower + Iono + Claw is also extremely strong.
 - Toedscruel stops Night Stretcher, which means that if you hit the Iron Leaves off Claw, you’ll be in a good spot.
@@ -402,4 +399,4 @@ This game shows what happens when things don’t line up and you don’t get Wat
 
 ## Personal thoughts
 
-This is probably the most interesting deck in the format. In my opinion, with the new additions of Toedscruel and Jumbo Ice Cream, this deck becomes a lot more viable. Its matchup spread is much better, so I would consider playing it. However, the Gardevoir matchup is still difficult.
+This is probably the most interesting deck in the format. Techs such as Toedscruel, Jumbo Ice Cream, and Watchtower solve most of its problems. With this improved matchup spread, the deck is very strong and definitely worth considering.
