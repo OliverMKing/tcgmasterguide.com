@@ -59,6 +59,7 @@ Energy: 10
 - I decided to cut Jellicent for now, but since I did a lot of testing with it (and it's still relevant), the  notes still include notes for Jellicent. Jellicent is mostly relevant in the mirror. It's also good against Charizard on the Devo turn, and against Dragapult for the non-Evo build. I wasn't using it very much but it could go back in. It's more important to have in the non-Evo build. Also, the Charizard and mirror matchups are compensated for in other ways.
 - 8th Psychic and 2nd Arven are certainly useful, but it's a matter of space. I'd rather have some power options (Diancie and Devo) and a better Charizard matchup. I don't think the lack of Arven compromises the Dragapult matchup all that much.
 - Drifloon would most likely require another Psychic and Vessel, and doesn't really help as much against Gholdengo as one might think. However, it can be useful against other things, so playing a deck more focused on that isn't necessarily bad.
+- Elgyem is bad.
 
 <!-- /PUBLIC -->
 ## Decklist 2

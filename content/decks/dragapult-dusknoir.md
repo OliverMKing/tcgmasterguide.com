@@ -51,8 +51,7 @@ Energy: 7
 
 - I tried Moltres and found that it did not impact the Gholdengo matchup as much as I hoped.
 - Dawn was very underwhelming when I tried it.
-
-**To Try: Toedscruel**
+- Toedscruel didn't do anything when I tried it.
 
 <!-- /PUBLIC -->
 ## Gameplay
