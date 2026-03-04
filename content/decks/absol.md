@@ -1,7 +1,7 @@
 ---
 title: "Absol"
 pokemon: [10057]
-tier: 1
+tier: 2
 ---
 
 ## Decklist

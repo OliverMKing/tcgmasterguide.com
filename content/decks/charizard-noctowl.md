@@ -101,7 +101,7 @@ Energy: 7
 2 Water Energy MEE 3
 ```
 
-This list is bad against Absol, so it's not as good into the current meta until Absol dies back down.
+This list is bad against Absol, so if Absol dies down a little in the way of Zoroark, this version could be very potent in the metagame.
 
 ### Inclusions
 
