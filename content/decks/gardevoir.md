@@ -6,78 +6,20 @@ tier: 1
 
 ## Decklist
 
-![decklist for Gardevoir](./images/gardevoir-jellicent/2charm.png)
+![decklist for Gardevoir](./images/gardevoir-jellicent/spectrier.png)
 ```decklist
 Pokémon: 17
 3 Ralts MEG 58
 2 Kirlia MEG 59
 2 Gardevoir ex SVI 86
 3 Munkidori TWM 95
+1 Spectrier ASC 98
+1 Scream Tail PAR 86
 1 Frillish WHT 44
 1 Mew ex MEW 151
 1 Lillie's Clefairy ex JTG 56
-1 Latias ex SSP 76
+1 Fezandipiti ex SFA 38
 1 Mega Diancie ex PFL 41
-1 Fezandipiti ex SFA 38
-1 Scream Tail PAR 86
-
-Trainer: 33
-4 Lillie's Determination MEG 119
-4 Iono PAL 185
-1 Arven OBF 186
-1 Professor Turo's Scenario PAR 171
-4 Ultra Ball MEG 131
-3 Earthen Vessel PAR 163
-2 Rare Candy MEG 125
-2 Nest Ball SVI 181
-2 Night Stretcher SFA 61
-2 Counter Catcher PAR 160
-1 Super Rod PAL 188
-1 Secret Box TWM 163
-2 Bravery Charm PAL 173
-1 Technical Machine: Devolution PAR 177
-1 Technical Machine: Evolution PAR 178
-2 Artazon PAL 171
-
-Energy: 10
-7 Psychic Energy MEE 5
-3 Darkness Energy MEE 7
-```
-<!-- PUBLIC -->
-### Inclusions
-
-- I prefer the Evo build with two Kirlia because it makes a huge difference in the Dragapult matchup. Evo'ing is also generally better in slower matchups, and Jellicent isn't that important overall.
-- I tried without the Latias, but getting a consistent Turn 1 Frillish is crucial against Charizard, Absol, and mirror.
-- Even without Jellicent, Devo is nearly just as good. It's particularly important against Charizard, Gholdengo, and Grimmsnarl.
-- Turo gets used a decent amount. Mostly against Gholdengo and decks with retreat lock. It is very strong for endgames against Gholdengo that involve Frillish comebacks. It's also good for board fixing, though hard to find at the right time. Finally, it's better with Latias because that's a liability that can be removed, and also because Latias makes Energy get stuck, which Turo can unstick.
-- I'm convinced that second Artazon is better than Mystery Garden, though they do different things so it's weird to compare them. Artazon helps set up and stabilize, and also makes the Turn 1 Frillish a lot more likely. Mystery Garden is more situational and not very good in the early-game. I did not use it that much when I had it, and never missed it when playing without it.
-- I changed my mind about the second Counter Catcher because it is actually very important against Gholdengo, especially the Lopunny build. That is the only reason I've added the second one back in.
-- Swapped Cape back for second Charm, but I'm not sure if this is correct. Cape opens up some power options to close out games, specifically against Gholdengo. However, playing only one Charm carries considerable risks such as prizing it or not finding it at the right time. Charm is also very nice against Gholdengo and Absol and playing two makes it more consistent.
-
-### Exclusions
-
-- I decided to cut Jellicent for now, but since I did a lot of testing with it (and it's still relevant), the  notes still include notes for Jellicent. Jellicent is mostly relevant in the mirror. It's also good against Charizard on the Devo turn, and against Dragapult for the non-Evo build. I wasn't using it very much but it could go back in. It's more important to have in the non-Evo build. Also, the Charizard and mirror matchups are compensated for in other ways.
-- 8th Psychic and 2nd Arven are certainly useful, but it's a matter of space. I'd rather have some power options (Diancie and Devo) and a better Charizard matchup. I don't think the lack of Arven compromises the Dragapult matchup all that much.
-- Drifloon would most likely require another Psychic and Vessel, and doesn't really help as much against Gholdengo as one might think. However, it can be useful against other things, so playing a deck more focused on that isn't necessarily bad.
-- Elgyem is bad.
-
-<!-- /PUBLIC -->
-## Decklist 2
-
-![decklist2](./images/gardevoir-jellicent/bundle.png)
-```decklist
-Pokémon: 17
-3 Ralts MEG 58
-2 Kirlia MEG 59
-2 Gardevoir ex SVI 86
-3 Munkidori TWM 95
-1 Drifloon SVI 89
-1 Scream Tail PAR 86
-1 Frillish WHT 44
-1 Mew ex MEW 151
-1 Lillie's Clefairy ex JTG 56
-1 Fezandipiti ex SFA 38
-1 Iron Bundle PAR 56
 
 Trainer: 32
 4 Iono PAL 185
@@ -100,18 +42,25 @@ Energy: 11
 8 Psychic Energy MEE 5
 3 Darkness Energy MEE 7
 ```
+<!-- PUBLIC -->
 ### Inclusions
 
-- Drifloon is pretty good against everything in the current meta except for Dragapult. Getting five Energy in discard is not too hard and then Drifloon gets to take easy KO's on big things that are otherwise really hard for Gardevoir to get the KO on.
-- With an expected increase in Jellicent for Seattle, I like the Iron Bundle tech.
-- The consistency of Charm is better than Cape, especially with Drifloon in the deck. Charm can sometimes mimic Cape, but is mostly just better in many situations (Scream Tail in mirror, Frillish against Gholdengo, slap it on Fez/Mew, etc.)
+- Turo is so good. Mostly against Gholdengo and decks with retreat lock. It is very strong for endgames against Gholdengo that involve Frillish comebacks. It's also good for board fixing and unsticking Energy from Frillish or Scream Tail.
+- I'm convinced that second Artazon is better than Mystery Garden, though they do different things so it's weird to compare them. Artazon helps set up and stabilize, while Mystery Garden is more situational and not very good in the early-game. I did not use it that much when I had it, and never missed it when playing without it.
+- I'm fully sold on second Charm over Cape because it is more consistently useful. This is now a lock because of the addition of Mega Diancie back into the deck, which needs Bravery Charm in some matchups.
+- Diancie is very good against Dark-types such as Charizard and Zoroark. With Bravery Charm, it survives even their biggest hits.
+- Spectrier is a very good card. Scream Tail has many inconveniences, such as low HP, committing Energy, and not being able to Adrenabrain off it. Of course, Scream Tail is still broken, but Spectrier is better in many situations.
 
 ### Exclusions
 
+- The non Jellicent build is better in my opinion. The Dragapult matchup is significantly better, and Jellicent just isn't that great in the current meta. Of course, it is extremely strong in the mirror match.
+- Drifloon may come back in at some point. For now, Diancie's defensive capabilities take priority.
+- Team Rocket's Watchtower is still very good, but for now I want the space for Spectrier and Diancie.
+- Elgyem is bad.
+- Iron Bundle may be a little too niche to warrant a deck spot, though it is still great against Jellicent.
 - Second Counter Catcher isn't really necessary. It is good against Gholdengo and mirror though.
 - Second TM: Evo isn't necessary.
-- Rocket's Watchtower would still be really nice to help against DawnZard, but there's no space. Swapping the Bundle back out for it could be fine.
-- Diancie is good there's just no space. I think Drifloon is better.
+<!-- /PUBLIC -->
 
 ## Gameplay
 

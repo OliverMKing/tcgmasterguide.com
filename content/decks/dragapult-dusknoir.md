@@ -6,7 +6,7 @@ tier: 2
 <!-- PUBLIC -->
 ## Decklist
 
-![decklist for Dragapult / Dusknoir](./images/dragapult-dusknoir/2hilda.png)
+![decklist for Dragapult / Dusknoir](./images/dragapult-dusknoir/pads.png)
 ```decklist
 Pokémon: 23
 4 Dreepy TWM 128
@@ -16,21 +16,21 @@ Pokémon: 23
 2 Dusclops PRE 36
 1 Dusknoir PRE 37
 2 Budew PRE 4
-1 Bloodmoon Ursaluna ex TWM 141
-1 Latias ex SSP 76
-1 Fezandipiti ex SFA 38
-1 Munkidori TWM 95
 1 Hawlucha SVI 118
+1 Munkidori TWM 95
+1 Bloodmoon Ursaluna ex TWM 141
+1 Fezandipiti ex SFA 38
+1 Latias ex SSP 76
 
 Trainer: 30
 4 Lillie's Determination MEG 119
 4 Iono PAL 185
 3 Boss's Orders MEG 114
-2 Hilda WHT 84
-1 Professor's Research JTG 155
+1 Hilda WHT 84
 1 Professor Turo's Scenario PAR 171
 4 Buddy-Buddy Poffin TEF 144
-4 Ultra Ball MEG 131
+3 Ultra Ball MEG 131
+3 Poké Pad ASC 198
 3 Counter Catcher PAR 160
 2 Night Stretcher SFA 61
 2 Jamming Tower TWM 153
@@ -38,17 +38,18 @@ Trainer: 30
 Energy: 7
 3 Luminous Energy PAL 191
 2 Psychic Energy MEE 5
-1 Neo Upper Energy TEF 162
 1 Fire Energy MEE 2
+1 Neo Upper Energy TEF 162
 ```
 ### Inclusions
 
-- Research helps compensate for the questionable early-game consistency and is an additional out that helps us play the game, unlike Nest Ball.
 - Munkidori is strong against Grimmsnarl, but that matchup is bad either way. It is mostly relevant for the mirror match, which I think is enough of a reason to play it. Can also be used against Charizard or Gardevoir occasionally.
 - I initially thought it would be ok to cut Jamming Tower, but that is no longer the case. Jamming Tower is too useful in too many matchups.
+- I still like Turo in this deck. There are many random situations where it's relevant. Aside from retreat lock, it can be useful to remove liabilities or reuse Hawlucha. It can also be good in Ursaluna endgames.
 
 ### Exclusions
 
+- Poke Pad increases consistency, so cards such as Nest Ball, Research, and second Hilda aren't played anymore.
 - I tried Moltres and found that it did not impact the Gholdengo matchup as much as I hoped.
 - Dawn was very underwhelming when I tried it.
 - Toedscruel didn't do anything when I tried it.
