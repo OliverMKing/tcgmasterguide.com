@@ -6,16 +6,16 @@ tier: 2
 
 ## Decklist
 
-![decklist for Kangaskhan](./images/kangaskhan/kanglist.png)
+![decklist for Kangaskhan](./images/kangaskhan/night.png)
 ```decklist
 Pokémon: 11
 2 Mega Kangaskhan ex MEG 104
 2 Bouffalant SCR 119
 1 Bouffalant OBF 174
 3 Munkidori TWM 95
-1 Iron Leaves ex TEF 25
-1 Shaymin DRI 10
 1 Psyduck ASC 39
+1 Shaymin DRI 10
+1 Iron Leaves ex TEF 25
 
 Trainer: 39
 4 Arven OBF 186
@@ -36,7 +36,7 @@ Trainer: 39
 2 Technical Machine: Turbo Energize PAR 179
 1 Air Balloon ASC 181
 2 Town Store OBF 196
-1 Artazon PAL 171
+1 Academy at Night SFA 54
 
 Energy: 10
 3 Darkness Energy MEE 7
@@ -58,7 +58,8 @@ Energy: 10
 - Stretcher is far better than Lana’s Aid. It is very useful for recovering KO’d Boufflant, Munkidori, or getting an Energy attachment for turn. Lana’s Aid is situationally better for getting Munki+Dark, but it’s inconvenient and very hard to use. I happily use both Stretcher in most games.
 - Nest Ball is for general consistency, flexibility off Arven, and can make games playable when Trolley is prized.
 - Energy Switch and Earthen Vessel are both very handy Items. Second copies would be nice, but space does not permit.
-- The Stadiums are mostly for defensive purposes, attempting to deal with Watchtower and Jamming Tower. They are occasionally helpful and slightly increase consistency. I would consider Mesagoza since it more directly helps you play the game, but haven’t tested it.
+- The Stadiums are mostly for defensive purposes, attempting to deal with Watchtower and Jamming Tower. They are occasionally helpful and slightly increase consistency.
+- Academy at Night is very handy against decks with Watchtower and / or Iono, and it lessens the impact of suddenly going from a large hand to a small one. Unfortunately it is card-negative, so you don't want to spam it all the time.
 - Jet Energy has nice utility and basically negates the various ways opponents may attempt to play against this deck.
 - Mist Energy is just better than Therapeutic. Mind Bend is not a big enough threat to sacrifice a significant help against Absol.
 
