@@ -61,6 +61,16 @@ export default function Navbar() {
               Decks
             </a>
             <Link
+              href="/announcements"
+              className={`relative text-base px-4 py-2 rounded-xl transition-all duration-200 ${
+                pathname.startsWith('/announcements')
+                  ? 'text-violet-600 dark:text-violet-400 bg-violet-50 dark:bg-violet-900/30'
+                  : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50'
+              }`}
+            >
+              Announcements
+            </Link>
+            <Link
               href="/qa"
               className={`relative text-base px-4 py-2 rounded-xl transition-all duration-200 ${
                 pathname === '/qa'
@@ -72,7 +82,7 @@ export default function Navbar() {
             </Link>
             <Link
               href="/live"
-              className={`relative text-base px-4 py-2 rounded-xl transition-all duration-200 ${
+              className={`hidden xl:block relative text-base px-4 py-2 rounded-xl transition-all duration-200 ${
                 pathname === '/live'
                   ? 'text-violet-600 dark:text-violet-400 bg-violet-50 dark:bg-violet-900/30'
                   : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50'
@@ -192,6 +202,17 @@ export default function Navbar() {
             >
               Decks
             </a>
+            <Link
+              href="/announcements"
+              onClick={() => setIsMenuOpen(false)}
+              className={`block py-2.5 px-4 rounded-xl transition-all duration-200 ${
+                pathname.startsWith('/announcements')
+                  ? 'text-violet-600 dark:text-violet-400 bg-violet-50 dark:bg-violet-900/30'
+                  : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50'
+              }`}
+            >
+              Announcements
+            </Link>
             <Link
               href="/qa"
               onClick={() => setIsMenuOpen(false)}
