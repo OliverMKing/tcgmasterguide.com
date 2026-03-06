@@ -1,6 +1,7 @@
 'use client'
 
 import React, { memo } from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
 import { DeckList } from '@/components/DeckList'
@@ -119,14 +120,21 @@ export const MarkdownRenderer = memo(function MarkdownRenderer({
         strong: ({ children }) => (
           <strong className="font-semibold text-slate-900 dark:text-slate-100">{children}</strong>
         ),
-        a: ({ href, children }) => (
-          <a
-            href={href}
-            className="text-purple-600 dark:text-purple-400 hover:text-purple-800 dark:hover:text-purple-300 underline decoration-purple-300 dark:decoration-purple-600 underline-offset-2 hover:decoration-purple-500 dark:hover:decoration-purple-400 transition-colors"
-          >
-            {children}
-          </a>
-        ),
+        a: ({ href, children }) => {
+          const linkClass = "text-purple-600 dark:text-purple-400 hover:text-purple-800 dark:hover:text-purple-300 underline decoration-purple-300 dark:decoration-purple-600 underline-offset-2 hover:decoration-purple-500 dark:hover:decoration-purple-400 transition-colors"
+          if (href && (href.startsWith('/') || href.startsWith('#'))) {
+            return (
+              <Link href={href} className={linkClass}>
+                {children}
+              </Link>
+            )
+          }
+          return (
+            <a href={href} className={linkClass}>
+              {children}
+            </a>
+          )
+        },
         em: ({ children }) => (
           <em className="italic text-slate-700 dark:text-slate-200">{children}</em>
         ),
