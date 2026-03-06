@@ -160,7 +160,7 @@ export default function Navbar() {
         </div>
 
         {/* Mobile dropdown menu */}
-        <div className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${isMenuOpen ? 'max-h-96 pb-4' : 'max-h-0'}`}>
+        <div className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${isMenuOpen ? 'max-h-[32rem] pb-4' : 'max-h-0'}`}>
           <div className="space-y-1 pt-2">
             <Link
               href="/"
