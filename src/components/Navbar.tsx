@@ -1,8 +1,8 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 import { ThemeToggle } from './ThemeToggle'
 import {
   SignInButton,
@@ -15,7 +15,41 @@ import { useCurrentUser } from '@/hooks/useCurrentUser'
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const pathname = usePathname()
+  const router = useRouter()
   const { isAdmin, hasSubscriberAccess } = useCurrentUser()
+
+  const scrollToDecks = useCallback(() => {
+    const element = document.getElementById('decks')
+    if (element) {
+      const navbarHeight = 64 // matches the h-16 (4rem) sticky navbar
+      const top = element.getBoundingClientRect().top + window.scrollY - navbarHeight
+      window.scrollTo({ top, behavior: 'smooth' })
+      window.history.pushState(null, '', '/#decks')
+    }
+  }, [])
+
+  const handleDecksClick = useCallback(() => {
+    if (pathname === '/') {
+      // Already on the homepage — scroll to decks section
+      scrollToDecks()
+    } else {
+      // Navigate to homepage, then scroll to decks after page loads
+      router.push('/')
+      // Wait for navigation to complete, then scroll
+      const checkAndScroll = () => {
+        const element = document.getElementById('decks')
+        if (element) {
+          const navbarHeight = 64
+          const top = element.getBoundingClientRect().top + window.scrollY - navbarHeight
+          window.scrollTo({ top, behavior: 'smooth' })
+          window.history.pushState(null, '', '/#decks')
+        } else {
+          requestAnimationFrame(checkAndScroll)
+        }
+      }
+      requestAnimationFrame(checkAndScroll)
+    }
+  }, [pathname, router, scrollToDecks])
 
   // Close menu on route change
   useEffect(() => {
@@ -54,12 +88,12 @@ export default function Navbar() {
             >
               {hasSubscriberAccess ? 'Subscription' : 'Subscribe'}
             </Link>
-            <a
-              href="/#decks"
-              className="relative text-base text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50 px-4 py-2 rounded-xl transition-all duration-200"
+            <button
+              onClick={handleDecksClick}
+              className="relative text-base text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50 px-4 py-2 rounded-xl transition-all duration-200 cursor-pointer"
             >
               Decks
-            </a>
+            </button>
             <Link
               href="/announcements"
               className={`relative text-base px-4 py-2 rounded-xl transition-all duration-200 ${
@@ -79,16 +113,6 @@ export default function Navbar() {
               }`}
             >
               Q&A
-            </Link>
-            <Link
-              href="/live"
-              className={`hidden xl:block relative text-base px-4 py-2 rounded-xl transition-all duration-200 ${
-                pathname === '/live'
-                  ? 'text-violet-600 dark:text-violet-400 bg-violet-50 dark:bg-violet-900/30'
-                  : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50'
-              }`}
-            >
-              Live
             </Link>
             {isAdmin && (
               <Link
@@ -195,13 +219,16 @@ export default function Navbar() {
             >
               {hasSubscriberAccess ? 'Subscription' : 'Subscribe'}
             </Link>
-            <a
-              href="/#decks"
-              onClick={() => setIsMenuOpen(false)}
-              className="block py-2.5 px-4 rounded-xl text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50 transition-all duration-200"
+            <button
+              onClick={() => {
+                setIsMenuOpen(false)
+                // Wait for menu collapse animation (300ms transition) before scrolling
+                setTimeout(handleDecksClick, 350)
+              }}
+              className="block w-full text-left py-2.5 px-4 rounded-xl text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50 transition-all duration-200 cursor-pointer"
             >
               Decks
-            </a>
+            </button>
             <Link
               href="/announcements"
               onClick={() => setIsMenuOpen(false)}
@@ -223,17 +250,6 @@ export default function Navbar() {
               }`}
             >
               Questions and Answers
-            </Link>
-            <Link
-              href="/live"
-              onClick={() => setIsMenuOpen(false)}
-              className={`block py-2.5 px-4 rounded-xl transition-all duration-200 ${
-                pathname === '/live'
-                  ? 'text-violet-600 dark:text-violet-400 bg-violet-50 dark:bg-violet-900/30'
-                  : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50'
-              }`}
-            >
-              Live
             </Link>
             {isAdmin && (
               <Link

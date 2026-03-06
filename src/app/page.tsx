@@ -152,9 +152,39 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Decks Section */}
+      <div id="decks" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative scroll-mt-16">
+        {/* Background accent */}
+        <div className="absolute top-0 right-0 w-96 h-96 bg-violet-100/40 dark:bg-violet-900/20 rounded-full blur-3xl -z-10" />
+
+        <h2 className="text-3xl font-bold text-neutral-800 dark:text-slate-100 mb-10">
+          Decks
+        </h2>
+
+        <div className="space-y-12">
+          {sortedTiers.map((tier) => (
+            <div key={tier}>
+              <div className="flex items-center gap-3 mb-6">
+                <span className={`${tierColors[tier]} text-sm font-medium px-3 py-1 rounded-lg`}>
+                  {tierLabels[tier]}
+                </span>
+                <div className="h-px flex-1 bg-gradient-to-r from-stone-200 dark:from-slate-700 to-transparent" />
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                {decksByTier.get(tier)!.map((deck) => (
+                  <DeckCard key={deck.id} deck={deck} />
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <LiveBanner channel="tricroar" />
+      </div>
+
       {/* Announcements Section */}
       {announcements.length > 0 && (
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 relative">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 relative">
           <div className="flex items-center justify-between mb-10">
             <h2 id="announcements" className="text-3xl font-bold text-neutral-800 dark:text-slate-100 scroll-mt-24">
               Announcements
@@ -184,36 +214,6 @@ export default function Home() {
           </div>
         </div>
       )}
-
-      {/* Decks Section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative">
-        {/* Background accent */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-violet-100/40 dark:bg-violet-900/20 rounded-full blur-3xl -z-10" />
-
-        <h2 id="decks" className="text-3xl font-bold text-neutral-800 dark:text-slate-100 mb-10 scroll-mt-24">
-          Decks
-        </h2>
-
-        <div className="space-y-12">
-          {sortedTiers.map((tier) => (
-            <div key={tier}>
-              <div className="flex items-center gap-3 mb-6">
-                <span className={`${tierColors[tier]} text-sm font-medium px-3 py-1 rounded-lg`}>
-                  {tierLabels[tier]}
-                </span>
-                <div className="h-px flex-1 bg-gradient-to-r from-stone-200 dark:from-slate-700 to-transparent" />
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                {decksByTier.get(tier)!.map((deck) => (
-                  <DeckCard key={deck.id} deck={deck} />
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-
-        <LiveBanner channel="tricroar" />
-      </div>
 
     </main>
   )
