@@ -4,14 +4,13 @@ This document tracks planned features and improvements for TCG Master Guide.
 
 ## High Priority
 
-- [ ] **Paywall / Subscription** - Add subscription-based access control with payment processing 
-
 ## Medium Priority
+
+- [ ] **Internationalization (i18n)** - Multi-language support using `next-intl`. See [architecture doc](docs/architecture/internationalization.md) for full design. Phases: 1) Install & configure next-intl + routing, 2) Extract ~300 hardcoded strings, 3) Restructure routes to `[locale]`, 4) Add Japanese translations, 5) Translate content
 
 ## Low Priority / Nice to Have
 
 - [ ] **Card Database Integration** - Link card names to images/details from Pokemon TCG API
-- [ ] **Pre tournament thoughts** - for quick thoughts / what he's playing to specific tournaments
 - [ ] **Preview environment** - easy testing
 
 ## Technical Improvements

@@ -8,6 +8,7 @@ Comprehensive architecture documentation for TCG Master Guide.
 - **[Architecture Decisions](./architecture-decisions.md)**: Detailed rationale for each tech choice
 - **[System Architecture](./system-architecture.md)**: Visual diagrams and infrastructure overview
 - **[Data Model](./data-model.md)**: Database schema and relationships
+- **[Internationalization](./internationalization.md)**: Multi-language support design (i18n)
 - **[Original Tech Stack Doc](./tech-stack.md)**: Complete combined reference (legacy)
 
 ## Getting Started
