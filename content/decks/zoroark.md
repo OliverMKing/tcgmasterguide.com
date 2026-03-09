@@ -1,7 +1,7 @@
 ---
 title: “Zoroark”
 pokemon: [571]
-tier 1
+tier: 1
 ---
 ## Decklist
 ![Zoroark decklist](./images/zoroark/zorolist.png)
