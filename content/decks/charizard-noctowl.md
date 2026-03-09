@@ -332,6 +332,31 @@ title: DawnZard (Clefairy) v Dragapult 6
 ```
 More instances of Clefairy being a fraud.
 
+### Zoroark - Unfavorable
+
+- This matchup revolves around Watchtower. You don’t always need a wide board, so save Area Zero if you can. As usual, Fezandipiti, Charmander’s Blazing Destruction, and Pidgeot’s Blustery Wind are also good options for dealing with Watchtower. If they haven’t used their Watchtower early, try to hold an extra Area Zero in hand. They may use Iono, but that means they aren’t getting a combo that involves Boss or Black Belt (which are the cards they need to deal with Charizard).
+- Try to get an attacking Charizard as soon as possible. Getting Charmander down is generally higher priority than other things. It’s hard for them to deal with the massive HP and damage output. Go after Pokemon that you can one-shot if possible, but if they don’t play Reshiram, swinging into Zoroark isn’t as bad. This also sets it up for Dusknoir.
+- Attacking Fan Rotom is very nice in this matchup for KO’ing Zorua.
+- If they have the threat of Darmanitan, try to carefully play around it such as by putting down extra Charmander. Don’t worry about Reversal Energy, but moreso Zoroark using its attack. They cannot KO a Charmeleon and a Charmander at the same time (unless they have Adrenabrain damage). If they do not have Darumaka, you can alter your play accordingly.
+
+```youtube
+id: zPOegg1_T6g
+title: Zoro v DawnZard 1
+```
+Close game.
+
+```youtube
+id: fY5-iA-CODs
+title: Zoro v DawnZard 2
+```
+This game shows how it’s easy to win when their disruption doesn’t work.
+
+```youtube
+id: pb8ERfOQalY
+title: Zoro v DawnZard 3
+```
+Good comeback! They don’t always have their combo, so keep the pressure on.
+
 ### Grimmsnarl - Unfavorable
 
 This matchup is unfavorable if they have Budew and favorable if they do not.

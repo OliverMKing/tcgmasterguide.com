@@ -201,6 +201,25 @@ title: Garde v Absol 4
 ```
 Getting dominated to start into an interesting endgame.
 
+### Zoroark - Unfavorable
+
+- The gameplan is to use Toedscruel and try to run them out of Zekrom.
+- Ideal board is double Toed, Absol, Kang, Pech, and either Yveltal or Latias.
+- Charm on Absol to help it survive. Second Charm can go on Kang or on Toedscool to stop them from taking out Toedscruel and Toedscool at once with Darmanitan’s attack.
+- Look for chances to pivot into a prize trade, especially if they allow a Terminal Period KO on Zoroark. Their Pecharunt is easy pickings. Sometimes no opportunity arises, so we’re trying to bleed them of resources with Toedscruel and Claw. Taking KO’s can also be a form of resource control.
+
+```twitch
+id: 2717455605
+title: Zoro v Absol 1
+```
+I did not play these games great and should probably prioritize the Toedscruel board more. However the Munkis did end up working out in this game.
+
+```twitch
+id: 2717455606
+title: Zoro v Absol 2
+```
+This game was a bit awkward with Pecharunt prized. Probably should have gotten the second Toedscool over second Munki.
+
 ### Charizard / Noctowl - Favorable
 
 - Start attacking with Absol because it can tank hits and disrupt. It makes great math against Terapagos in particular.

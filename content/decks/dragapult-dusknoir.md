@@ -201,6 +201,31 @@ id: 2676733821
 title: Dragapult v Garde (with Evo) 4
 ```
 
+### Zoroark - Slightly Unfavorable
+
+- Targeting down the Darmanitan is generally good. If you’re able to limit that guy, you can set up and more reliably do whatever you want. Similarly, targeting down the Munkidori can also be good. Dusclops + Phantom Dive snipe can conveniently remove their Munki.
+- Itchy Pollen can be used after they use Flamebody Cannon to stop them from getting an attack on the next turn (if they don’t have Energy on a backup Zoroark). Stopping N’s PP Up is a nice utility option to reset tempo and buy time. Of course, you also use Budew as usual for the opening turns.
+- Double Duskull is good in this matchup.
+- Don’t worry too much about if they have Reshiram. If you don’t know, just make sure you can attack with a backup Dragapult if they one-shot your first one. Their bench gets very congested very easily, so it’s not too bad as long as you don’t lose too much tempo. Obviously if you know they have Reshiram and they also have an open bench spot, don’t swing into their Zoroark and give it to them for free.
+
+```youtube
+id: q4DSOA1JiQY
+title: Zoro v Pult 1
+```
+Interesting game. Also my first time playing it so I’m learning the matchup.
+
+```youtube
+id: FxKjcMQP8p4
+title: Zoro v Pult 2
+```
+Sometimes Budew can slow them down enough to put them too far behind.
+
+```youtube
+id: n0BsJJue3gU
+title: Zoro v Pult 3
+```
+If they get what they want, it can be tough to deal with. Most of the losses to Zoroark are just getting steamrolled or drawing bad. Dragapult naturally has the advantage in most matchups if it gets stabilized fast enough.
+
 ### Charizard / Noctowl - Very Favorable
 
 - Denying Charmander is good but not always necessary, especially if they have another attacking threat online such as Terapagos or Pidgeot.

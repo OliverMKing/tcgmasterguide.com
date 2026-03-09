@@ -300,6 +300,47 @@ title: Dragapult v Gholdengo 8
 ```
 This game shows why getting a fast lead is so good and limits their options.
 
+### Zoroark - Even
+
+Against the Darmanitan build:
+
+- If you’re playing Bravery Charm, it is very good in this matchup and also a precious resource. If they are threatening a relevant Darmanitan snipe, slam it on Gimmighoul. Otherwise, it can be very good on Fez or Mawile. Genesect appreciates the extra HP, but as always, putting Charm on Genesect is incredibly sketchy. Keep in mind that Gimmighoul is weak to Dark, which means it won’t be good to have Charm on an active one.
+- Be very careful and aware of their options. If they aren’t behind, they can’t use Reversal or CC. If they have a clogged board with any vulnerabilities, they may not have specific options next turn. Use Turo, Charm, Boss, or holding things to play around their potential options depending on the situation. Keep track of Energy in discard to play around Back Draft.
+- If they have no Darumaka, or if you can KO their only one with Solrock, having a single-prize board while attacking with Solrock can be game-winning.
+- If they attack with a poisoned Zoroark, use Vitality Band on Gholdengo to KO it with poison, which denies Fezandipiti. If you had to use Vitality Band on Solrock to KO Darumaka, that’s totally fine.
+- If you don’t have Genesect on board, you can KO their Pecharunt with Gholdengo to deny the Back Draft KO, which forces them to find and spend Black Belt. This can be a good trick to stop them from coming back in the prize race. Just make sure you aren’t leaving any extra Energy in the discard on relevant Back Draft turns!
+- If they start playing only one Reversal Energy, you can more reasonably play into it and hope they don’t get it. Doing a play that loses to Reversal can be the highest likelihood of success, depending on the situation or alternatives.
+
+Against Toedscruel:
+
+- You just need to avoid a situation where they have Toedscruel in play and you have lots of Energy in the discard. Spend Energy aggressively when they don’t have Toedscool in play. If you play Lopunny, it can be useful because it does not care about Toedscruel and survives Zekrom… usually. If they have a large hand, be careful about using Lopunny as it can be one-shot (though it’s a pretty involved combo to do so). It’s also unlikely if their Secret Box or Black Belt are gone.
+- Single prize board is very strong to play around Zekrom. You can pivot between single-prize and two-prize boards if you’re careful. Just make sure not to let them Iono + KO a rock and make you stuck on a low hand. In other words, a single-prize board is riskier and weaker the longer the game goes.
+- When Toedscruel is inevitable, get all the Energy back and try to close out the game with your resources remaining. If you can’t find a map to do that, you’ll just have to KO the Toed. Hanging onto Earthen Vessel for the late-game is very important as they can put the Energy back into your deck with Iono.
+
+```twitch
+id: 2714177467
+title: Zoro v Dengo 1
+```
+With their new capabilities, we cannot afford to have a bad start. However, there’s nothing we can really do about it sometimes.
+
+```twitch
+id: 2714177466
+title: Zoro v Dengo 2
+```
+There are a couple examples of how to swing the prize trade back. Zoroark won’t always have everything it needs. It’s very realistic for them to whiff Boss or Reversal Energy.
+
+```twitch
+id: 2714177468
+title: Zoro v Dengo 3
+```
+Pretty normal prize trade with Dengo coming out on top
+
+```twitch
+id: 2714177465
+title: Zoro v Dengo 4
+```
+Pretty normal prize trade with Zoro coming out on top. Even with no Darm, we need to respect Zekrom.
+
 ### Charizard / Noctowl - Unfavorable
 
 The winning prize trade is pretty idealistic. You need the first KO (usually with Solrock). If they take one prize, get a two-prize KO in response. They take two back. Take two more prizes, going to one, profit. This successfully plays around Dusknoir and Briar, but it's hard to pull off. In other words: 1-2-2-1 prize map.
