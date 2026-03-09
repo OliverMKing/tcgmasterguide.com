@@ -63,6 +63,8 @@ Energy: 8
 ### Exclusions
 
 - Toedscruel is a thing of the past. The Darmanitan build is now about equally as good against Gholdengo thanks to Zekrom’s support, and much better against everything else.
+- Budew is not bad, but it doesn't work well with the Evo build and managing bench space is very rough with this deck.
+- I prefer the speed and flexibility of Pokegear and TM: Evo to the slowness of Cyrano. When you don't magically have Poffin and Cyrano it feels useless.
 - Tatsugiri theoretically helps consistency by playing more games. However I did not get value from it once in lots of testing because it is very hard for everything to line up for it. It also occupies a precious board spot.
 - Reshiram is not needed. Even if they swing into Zoroark, dealing massive damage with Zekrom is fine. We also have no board space to spare.
 - Professor Turo’s Scenario seems like it would be good but I was basically never using it. This deck is a lot more fast and aggressive now and you don’t need Turo anymore.
