@@ -113,10 +113,36 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-3">
               Always Up to Date
             </h2>
-            <p className="text-neutral-600 dark:text-slate-300 leading-relaxed">
+            <p className="text-neutral-600 dark:text-slate-300 leading-relaxed mb-4">
               Grant continuously updates these deck guides as the meta evolves,
-              new sets release, and strategies develop. Check back regularly to stay
-              ahead of the competition!
+              new sets release, and strategies develop. Here&apos;s how to stay on top of changes:
+            </p>
+            <ul className="space-y-3 text-neutral-600 dark:text-slate-300">
+              <li className="flex items-start">
+                <svg className="w-4 h-4 text-violet-600 dark:text-violet-400 mr-3 mt-1 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span><span className="font-semibold">Last updated date</span> — Every deck guide shows a &quot;Last updated&quot; date near the top of the page so you can see how recently it was refreshed.</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-4 h-4 text-violet-600 dark:text-violet-400 mr-3 mt-1 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span><span className="font-semibold">View History</span> — Subscribers can click the View History button at the top of any deck guide to see exactly what changed in each update. This makes it easy to catch up on new tech options, revised matchup advice, or updated decklists without re-reading the entire guide.</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Q&A */}
+          <div className="mb-10">
+            <h2 className="text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-3">
+              Questions & Answers
+            </h2>
+            <p className="text-neutral-600 dark:text-slate-300 leading-relaxed">
+              Subscribers get access to the{' '}
+              <Link href="/qa" className="text-violet-600 dark:text-violet-400 hover:underline font-medium">Q&A</Link>{' '}
+              page, where you can ask anything about the Pokemon TCG. Whether it&apos;s a specific matchup question,
+              a deck building decision, or general strategy advice, Q&A is there to help.
             </p>
           </div>
 

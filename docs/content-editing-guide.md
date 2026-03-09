@@ -1,6 +1,6 @@
 # Content Editing Guide
 
-This guide explains how to edit and add deck content and announcements to TCG Master Guide.
+This guide explains how to edit and add deck content to TCG Master Guide.
 
 ## Prerequisites
 
@@ -299,87 +299,6 @@ Non-subscribers will see:
 - A "Premium Content" box with a subscribe button where premium content would be
 
 They will NOT receive any premium content in their browser - it's completely stripped on the server.
-
-## Adding an Announcement
-
-Announcements are public posts that appear on the homepage and at `/announcements`. Unlike deck guides, announcements are **not behind the subscription wall** - they are visible to everyone.
-
-### 1. Create a New File
-
-1. In your text editor, navigate to `content/announcements/`
-2. Create a new file with a descriptive name in lowercase, using hyphens for spaces
-   - Example: `march-2026-meta-update.md` or `tournament-recap-naic.md`
-
-### 2. Add the Required Metadata
-
-Every announcement file must start with metadata between `---` marks:
-
-```markdown
----
-title: "March 2026 Meta Update"
-date: "2026-03-06"
-summary: "Breaking down the latest meta shifts after the recent tournament results."
----
-```
-
-**Metadata fields:**
-
-| Field | Required | Description |
-|-------|----------|-------------|
-| `title` | Yes | The display title of the announcement |
-| `date` | Yes | The publish date in `YYYY-MM-DD` format (e.g., `2026-03-06`). Used for ordering (newest first) |
-| `summary` | Yes | A brief 1-2 sentence summary shown on the homepage card and in search results |
-
-### 3. Write the Announcement Content
-
-Write your announcement using [Markdown](https://www.markdownguide.org/basic-syntax/). All the same formatting features available in deck guides also work in announcements:
-
-- Headings, bold, italic, lists, links
-- Deck lists (`decklist` code blocks)
-- YouTube video embeds (`youtube` code blocks)
-- Twitch video embeds (`twitch` code blocks)
-
-**Important:** Unlike deck guides, announcements do **not** use `<!-- PUBLIC -->` or `<!-- PREMIUM -->` markers. All announcement content is always public.
-
-### 4. Example Announcement
-
-```markdown
----
-title: "NAIC 2026 Tournament Recap"
-date: "2026-06-15"
-summary: "Recap and analysis from the 2026 North American International Championships."
----
-
-# NAIC 2026 Recap
-
-The 2026 NAIC just wrapped up, and the results are in! Here's what happened and what it means for the meta going forward.
-
-## Top 8 Breakdown
-
-The top 8 was dominated by...
-
-## What This Means for the Meta
-
-Going forward, expect to see more...
-
-## Updated Deck Guides
-
-We've updated the following deck guides based on these results:
-
-- [Charizard / Pidgeot](/decks/charizard-pidgeot) - Updated matchup section
-- [Gholdengo](/decks/gholdengo) - New tech options added
-```
-
-### 5. Commit and Create Pull Request
-
-Follow the same steps as editing deck content (see "Create a Pull Request" above).
-
-### Where Announcements Appear
-
-- **Homepage**: The 3 most recent announcements are shown in an "Announcements" section above the deck listings
-- **Announcements page**: All announcements are listed at `/announcements`, sorted by date (newest first)
-- **Individual pages**: Each announcement has its own page at `/announcements/[slug]`
-- **Navbar**: There is an "Announcements" link in the navigation bar
 
 ## Need Help?
 

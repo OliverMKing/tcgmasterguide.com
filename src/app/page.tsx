@@ -6,8 +6,6 @@ import { LocalDate } from '@/components/LocalDate'
 import LiveBanner from '@/components/LiveBanner'
 import { deckDates } from '@/generated/deck-dates'
 import { BouncingSprite } from '@/components/BouncingSprite'
-import { getAllAnnouncements } from '@/lib/announcements'
-import { AnnouncementCard } from '@/components/AnnouncementCard'
 
 // Force static generation at build time
 export const dynamic = 'force-static'
@@ -117,7 +115,6 @@ export default function Home() {
   const decks = getAllDecks()
   const decksByTier = getDecksByTier(decks)
   const sortedTiers = Array.from(decksByTier.keys()).sort((a, b) => a - b)
-  const announcements = getAllAnnouncements()
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-stone-50 to-white dark:from-slate-900 dark:to-slate-800 relative">
@@ -181,39 +178,6 @@ export default function Home() {
 
         <LiveBanner channel="tricroar" />
       </div>
-
-      {/* Announcements Section */}
-      {announcements.length > 0 && (
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 relative">
-          <div className="flex items-center justify-between mb-10">
-            <h2 id="announcements" className="text-3xl font-bold text-neutral-800 dark:text-slate-100 scroll-mt-24">
-              Announcements
-            </h2>
-            {announcements.length > 3 && (
-              <Link
-                href="/announcements"
-                className="inline-flex items-center gap-1 text-sm font-medium text-violet-600 dark:text-violet-400 hover:text-violet-700 dark:hover:text-violet-300 transition-colors"
-              >
-                View all
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </Link>
-            )}
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {announcements.slice(0, 3).map((announcement) => (
-              <AnnouncementCard
-                key={announcement.slug}
-                slug={announcement.slug}
-                title={announcement.title}
-                date={announcement.date}
-                summary={announcement.summary}
-              />
-            ))}
-          </div>
-        </div>
-      )}
 
     </main>
   )

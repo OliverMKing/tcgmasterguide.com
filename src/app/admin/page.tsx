@@ -436,7 +436,7 @@ export default function AdminPage() {
                   <button
                     onClick={() => handleCommentPageChange(commentPagination.page - 1)}
                     disabled={commentPagination.page === 1}
-                    className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
                   >
                     Previous
                   </button>
@@ -446,7 +446,7 @@ export default function AdminPage() {
                   <button
                     onClick={() => handleCommentPageChange(commentPagination.page + 1)}
                     disabled={commentPagination.page === commentPagination.totalPages}
-                    className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
                   >
                     Next
                   </button>
@@ -579,7 +579,7 @@ export default function AdminPage() {
             <button
               onClick={() => handleUserPageChange(userPagination.page - 1)}
               disabled={userPagination.page === 1}
-              className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
             >
               Previous
             </button>
@@ -589,7 +589,7 @@ export default function AdminPage() {
             <button
               onClick={() => handleUserPageChange(userPagination.page + 1)}
               disabled={userPagination.page === userPagination.totalPages}
-              className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
             >
               Next
             </button>
