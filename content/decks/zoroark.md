@@ -167,7 +167,7 @@ title: Zoro v Garde 2
 Close game, they just got it at the end.
 
 ```twitch
-id: 
+id: 2716892166
 title: Zoro v Garde 3
 ```
 Lots of options to mess them up. Also getting a preemptive strike on Diancie is game-winning.
