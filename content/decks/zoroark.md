@@ -49,7 +49,7 @@ Energy: 8
 - Black Belt’s Training is nice utility and helps reach key numbers. With lots of draw power and Pokegear, it’s not too hard to find. It has a lot of synergy with this deck.
 - Three N’s PP Up is needed to maintain constant aggression and chain attackers. Whether you’re using Darmanitan’s or Zekrom’s attacks, you’ll need to use multiple PP Up each game.
 - Counter Catcher is completely broken when your opponent takes the lead. Although you’ll be ahead a lot of the time, this card singlehandedly spikes the power ceiling of the deck and allows you to do disgusting things. It also makes making comebacks trivial.
-- Pokegear 3.0 has been very handy. It helps consistency for Lillie, power for Boss, and late-game utility and synergy to easily reach for Iono or Black Belt. This deck relies on early Lillie as well as general Boss spam, and the card works well with Zoroark’s engine.
+- Pokegear 3.0 has been very handy. It helps consistency for Lillie, power for Boss, and late-game utility and synergy to easily reach for Iono or Black Belt. This deck relies on early Lillie as well as general Boss spam, and the card works well with Zoroark’s engine. Arven could also be good in these spots although it doesn't quite do the same thing.
 - The Pokemon search split is very awkward. All the search cards are good for general consistency. PokePad helps get Darmanitan online, Nest Ball makes finding Pecharunt realistic, and Ultra Ball is for safety. Ultra Ball’s downside is extremely significant in this deck, so that’s why there’s only one.
 - TM: Evolution has been extremely helpful as there is a decent chance of finding it by Turn 1 or Turn 2. Even if you don’t, as long as you find Zoroark, it’s fine. It makes Secret Box and Lillie way better in the early-game. I think it’s better than Cyrano.
 - Binding Mochi with Zekrom’s attack is broken. I tried playing only one and had trouble finding it consistently. It’s a little too important.
@@ -58,7 +58,7 @@ Energy: 8
 - Team Rocket’s Watchtower singlehandedly carries the DawnZard matchup and also helps in some random difficult matchups.
 - Artazon is for utility, consistency, and helping get a fast Darumaka, which can be annoying sometimes.
 - Reversal Energy is honestly not that good but it is strong against Gholdengo. With seeing so many cards and potentially making big combos, having the option in general is not bad. This card is probably cuttable though.
-- I am considering adding a second Pecharunt ex because it is just that good. You also need it to not be prized most of the time.
+- I am considering adding a second Pecharunt ex because it is just that good. You also need it to not be prized most of the time. Janine's Secret Art could be good as well.
 
 ### Exclusions
 
@@ -70,6 +70,7 @@ Energy: 8
 - Professor Turo’s Scenario seems like it would be good but I was basically never using it. This deck is a lot more fast and aggressive now and you don’t need Turo anymore.
 - Similar reasoning applies to Pal Pad. Pokegear and a third Boss are much better suited for the deck in its current iteration, and they make the deck run a lot smoother and more consistent.
 - Defiance Band seems pretty good but it is very situational. I tried one Mochi and one Band and I think two Mochi is better, but it is still close.
+- Powerglass is not worth playing anymore. It is good against decks with Budew, but still hard to find against them.
 
 ## Gameplay
 
