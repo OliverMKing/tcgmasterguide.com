@@ -5,6 +5,14 @@ import { useUser } from '@clerk/nextjs'
 import { UserRole } from '@/lib/user-roles'
 import { useFetchWithRetry } from '@/lib/fetch-with-retry'
 
+interface Announcement {
+  id: string
+  type: string
+  message: string
+  active: boolean
+  updatedAt: string
+}
+
 interface User {
   id: string
   authId: string
@@ -56,6 +64,10 @@ export default function AdminPage() {
   const [error, setError] = useState<string | null>(null)
   const [updatingUserId, setUpdatingUserId] = useState<string | null>(null)
   const [updatingCommentId, setUpdatingCommentId] = useState<string | null>(null)
+  const [announcements, setAnnouncements] = useState<Announcement[]>([])
+  const [publicMessage, setPublicMessage] = useState('')
+  const [subscriberMessage, setSubscriberMessage] = useState('')
+  const [savingAnnouncement, setSavingAnnouncement] = useState<string | null>(null)
 
   const fetchStats = useCallback(async () => {
     try {
@@ -71,6 +83,22 @@ export default function AdminPage() {
       setStats(data)
     } catch {
       setError('Failed to load stats')
+    }
+  }, [])
+
+  const fetchAnnouncements = useCallback(async () => {
+    try {
+      const res = await fetchWithRetry('/api/admin/announcements')
+      if (res.ok) {
+        const data = await res.json()
+        setAnnouncements(data.announcements)
+        const pub = data.announcements.find((a: Announcement) => a.type === 'PUBLIC')
+        const sub = data.announcements.find((a: Announcement) => a.type === 'SUBSCRIBER')
+        setPublicMessage(pub?.message || '')
+        setSubscriberMessage(sub?.message || '')
+      }
+    } catch {
+      console.error('Failed to fetch announcements')
     }
   }, [])
 
@@ -113,13 +141,13 @@ export default function AdminPage() {
 
   useEffect(() => {
     if (isLoaded && isSignedIn) {
-      Promise.all([fetchStats(), fetchUsers(''), fetchPendingComments(1, commentSortBy, commentSortOrder)]).finally(() => {
+      Promise.all([fetchStats(), fetchUsers(''), fetchPendingComments(1, commentSortBy, commentSortOrder), fetchAnnouncements()]).finally(() => {
         setInitialLoading(false)
       })
     } else if (isLoaded && !isSignedIn) {
       setInitialLoading(false)
     }
-  }, [isLoaded, isSignedIn, fetchStats, fetchUsers, fetchPendingComments, commentSortBy, commentSortOrder])
+  }, [isLoaded, isSignedIn, fetchStats, fetchUsers, fetchPendingComments, fetchAnnouncements, commentSortBy, commentSortOrder])
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault()
@@ -183,6 +211,51 @@ export default function AdminPage() {
     }
   }
 
+  const saveAnnouncement = async (type: 'PUBLIC' | 'SUBSCRIBER') => {
+    const message = type === 'PUBLIC' ? publicMessage : subscriberMessage
+    if (!message.trim()) return
+    if (!confirm(`Are you sure you want to set the ${type.toLowerCase()} announcement?`)) return
+    setSavingAnnouncement(type)
+    try {
+      const res = await fetchWithRetry('/api/admin/announcements', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type, message: message.trim(), active: true }),
+      })
+      if (!res.ok) {
+        const data = await res.json()
+        throw new Error(data.error || 'Failed to save announcement')
+      }
+      await fetchAnnouncements()
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to save announcement')
+    } finally {
+      setSavingAnnouncement(null)
+    }
+  }
+
+  const clearAnnouncement = async (type: 'PUBLIC' | 'SUBSCRIBER') => {
+    if (!confirm(`Are you sure you want to clear the ${type.toLowerCase()} announcement?`)) return
+    setSavingAnnouncement(type)
+    try {
+      const res = await fetchWithRetry('/api/admin/announcements', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type, message: '', active: false }),
+      })
+      if (!res.ok) {
+        throw new Error('Failed to clear announcement')
+      }
+      if (type === 'PUBLIC') setPublicMessage('')
+      else setSubscriberMessage('')
+      await fetchAnnouncements()
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to clear announcement')
+    } finally {
+      setSavingAnnouncement(null)
+    }
+  }
+
   const updateUserRole = async (userId: string, newRole: string, userName: string | null) => {
     if (!confirm(`Are you sure you want to change ${userName || 'this user'}'s role to ${newRole}?`)) {
       return
@@ -222,6 +295,22 @@ export default function AdminPage() {
                 <div key={i} className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6">
                   <div className="h-9 w-16 bg-slate-200 dark:bg-slate-700 rounded mb-2 animate-pulse" />
                   <div className="h-4 w-20 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Announcements skeleton */}
+          <div className="mb-12">
+            <div className="h-7 w-40 bg-slate-200 dark:bg-slate-700 rounded mb-4 animate-pulse" />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {[...Array(2)].map((_, i) => (
+                <div key={i} className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6">
+                  <div className="h-6 w-48 bg-slate-200 dark:bg-slate-700 rounded mb-4 animate-pulse" />
+                  <div className="h-4 w-64 bg-slate-200 dark:bg-slate-700 rounded mb-3 animate-pulse" />
+                  <div className="h-20 w-full bg-slate-200 dark:bg-slate-700 rounded mb-3 animate-pulse" />
+                  <div className="h-16 w-full bg-slate-200 dark:bg-slate-700 rounded mb-3 animate-pulse" />
+                  <div className="h-9 w-36 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
                 </div>
               ))}
             </div>
@@ -340,6 +429,92 @@ export default function AdminPage() {
             </div>
           </div>
         )}
+
+        {/* Announcements Section */}
+        <div className="mb-12">
+          <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-100 mb-4">
+            Announcements
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Public Announcement */}
+            <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6">
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-3 h-3 rounded-full bg-violet-500" />
+                <h3 className="text-lg font-medium text-slate-900 dark:text-slate-100">
+                  Public Announcement
+                </h3>
+                {announcements.find((a) => a.type === 'PUBLIC')?.active && (
+                  <span className="text-xs font-semibold text-violet-600 dark:text-violet-400 uppercase tracking-wider bg-violet-50 dark:bg-violet-900/30 px-2 py-0.5 rounded-full">Active</span>
+                )}
+              </div>
+              <p className="text-sm text-slate-500 dark:text-slate-400 mb-3">
+                Visible to all visitors
+              </p>
+              <textarea
+                value={publicMessage}
+                onChange={(e) => setPublicMessage(e.target.value)}
+                placeholder="Enter announcement message..."
+                rows={3}
+                className="w-full px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-purple-500 resize-none text-sm"
+              />
+              <div className="flex gap-2 mt-3">
+                <button
+                  onClick={() => saveAnnouncement('PUBLIC')}
+                  disabled={savingAnnouncement === 'PUBLIC' || !publicMessage.trim()}
+                  className="px-4 py-2 bg-violet-600 hover:bg-violet-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
+                >
+                  {savingAnnouncement === 'PUBLIC' ? 'Saving...' : 'Set Announcement'}
+                </button>
+                <button
+                  onClick={() => clearAnnouncement('PUBLIC')}
+                  disabled={savingAnnouncement === 'PUBLIC' || !announcements.find((a) => a.type === 'PUBLIC')?.active}
+                  className="px-4 py-2 bg-red-600 hover:bg-red-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
+                >
+                  Clear
+                </button>
+              </div>
+            </div>
+
+            {/* Subscriber Announcement */}
+            <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6">
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-3 h-3 rounded-full bg-amber-500" />
+                <h3 className="text-lg font-medium text-slate-900 dark:text-slate-100">
+                  Subscriber Announcement
+                </h3>
+                {announcements.find((a) => a.type === 'SUBSCRIBER')?.active && (
+                  <span className="text-xs font-semibold text-amber-600 dark:text-amber-400 uppercase tracking-wider bg-amber-50 dark:bg-amber-900/30 px-2 py-0.5 rounded-full">Active</span>
+                )}
+              </div>
+              <p className="text-sm text-slate-500 dark:text-slate-400 mb-3">
+                Only visible to subscribers and admins
+              </p>
+              <textarea
+                value={subscriberMessage}
+                onChange={(e) => setSubscriberMessage(e.target.value)}
+                placeholder="Enter subscriber announcement message..."
+                rows={3}
+                className="w-full px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-purple-500 resize-none text-sm"
+              />
+              <div className="flex gap-2 mt-3">
+                <button
+                  onClick={() => saveAnnouncement('SUBSCRIBER')}
+                  disabled={savingAnnouncement === 'SUBSCRIBER' || !subscriberMessage.trim()}
+                  className="px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
+                >
+                  {savingAnnouncement === 'SUBSCRIBER' ? 'Saving...' : 'Set Announcement'}
+                </button>
+                <button
+                  onClick={() => clearAnnouncement('SUBSCRIBER')}
+                  disabled={savingAnnouncement === 'SUBSCRIBER' || !announcements.find((a) => a.type === 'SUBSCRIBER')?.active}
+                  className="px-4 py-2 bg-red-600 hover:bg-red-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
+                >
+                  Clear
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* Pending Comments Section */}
         <div className="mt-12 mb-8">

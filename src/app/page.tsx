@@ -4,6 +4,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import { LocalDate } from '@/components/LocalDate'
 import LiveBanner from '@/components/LiveBanner'
+import AnnouncementBanner from '@/components/AnnouncementBanner'
 import { deckDates } from '@/generated/deck-dates'
 import { BouncingSprite } from '@/components/BouncingSprite'
 
@@ -118,6 +119,9 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-stone-50 to-white dark:from-slate-900 dark:to-slate-800 relative">
+      {/* Announcements */}
+      <AnnouncementBanner />
+
       {/* Hero Section */}
       <div className="relative overflow-hidden border-b border-stone-200 dark:border-slate-700">
         {/* Animated gradient background */}

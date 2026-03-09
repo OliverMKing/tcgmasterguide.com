@@ -48,3 +48,15 @@ model Comment {
   @@index([parentId])
   @@map("comments")
 }
+
+// Announcement type: "PUBLIC" (visible to all) or "SUBSCRIBER" (visible to subscribers/admins only)
+model Announcement {
+  id        String   @id @default(cuid())
+  type      String   // PUBLIC or SUBSCRIBER
+  message   String
+  active    Boolean  @default(true)
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@unique([type]) // Only one announcement per type
+  @@map("announcements")
+}
