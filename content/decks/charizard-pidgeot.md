@@ -324,4 +324,4 @@ Going for the Dusknoir Iono is sometimes all you can do, even if you can’t KO 
 
 ## Personal thoughts
 
-This is the worst among the main meta decks and I would not play it in this format. Its matchups are pretty bad and the Noctowl build is superior. However, this deck has a significantly better Dragapult matchup than the Noctowl build, but I don't think that makes up for its other shortcomings.
+This is the worst among the main meta decks and I would not play it in this format. Its matchups are pretty bad and the Noctowl build is superior. However, this deck is better than its Noctowl counterpart against Dragapult as well as Watchtower decks such as Absol and Zoroark. With an increase in Watchtower decks, there are more valid reasons to play this deck over Noctowl. This deck is fundamentally not bad, but I still rank it worse than the other main meta decks.

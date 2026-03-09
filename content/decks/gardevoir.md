@@ -504,4 +504,4 @@ This is a nice comeback that comes down to a flip at the end.
 
 ## Personal thoughts
 
-This deck is obviously very good. It just has an unfortunate weakness to Charizard, though it is reasonable into the rest of the field. I strongly prefer the TM Evo build with 3-2-2 Gardevoir as opposed to the other one, as the difference in the Dragapult matchup is massive. Having three Ralts also helps avoid lots of awkward situations and the presence of TM:Evo improves consistency. I would definitely consider playing this deck despite its bad Charizard matchup.
+This deck is obviously very good. Its matchup spread is very solid and it even beats Dawn/Zard if you tech in Team Rocket's Watchtower. The weakness to Zoroark is unfortunate, but despite that I think Gardevoir is extremely strong overall.
