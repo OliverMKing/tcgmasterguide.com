@@ -305,7 +305,7 @@ title: Zoro v Garde 2
 Close game, triple Munkidori can be game-winning. Manual Turn 2 Clefairy when going first is useful in a variety of matchups.
 
 ```twitch
-id: 
+id: 2716892166
 title: Zoro v Garde 3
 ```
 Accidentally started with Diancie and that cost the game. Gotta protect it until its ready to start attacking.
