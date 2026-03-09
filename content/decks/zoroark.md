@@ -1,5 +1,5 @@
 ---
-title: “Zoroark”
+title: Zoroark
 pokemon: [571]
 tier: 1
 ---
