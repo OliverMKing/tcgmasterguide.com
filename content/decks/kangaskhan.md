@@ -195,6 +195,31 @@ title: Kang/Eri v Pult 3
 ```
 Recovering from their wombo combo is possible with a little luck. This game also reinforces the power of multiple Munkidori.
 
+### Zoroark - Slightly Favorable
+
+- Play around Watchtower as much as possible.
+- Iron Leaves can be good in some spots to rush prize cards or checkmate them if you ever get a prize lead.
+- Ideal board is Kang, double Bouff, double Munki, and Shaymin if they’re threatening Darmanitan. Shaymin may not seem important but it is actually pretty good. If they don’t have Darmanitan, leave the spot open for Iron Leaves.
+- Attack and apply pressure as fast as possible. Kang isn’t exactly known for its speed, but allowing them to set up and stabilize can be a disaster.
+
+```twitch
+id: 2717585990
+title: Zoro v Kang 1
+```
+Making an INSANE comeback.
+
+```twitch
+id: 2717585989
+title: Zoro v Kang 2
+```
+This is an absolutely gorgeous checkmate, and the early preemptive attachment to Bouffalant ended up being good!
+
+```twitch
+id: 2717585991
+title: Zoro v Kang 3
+```
+This is pretty much the ideal game for Zoroark, and sometimes you just lose to Iono Watchtower.
+
 ### Absol - Even
 
 This matchup is about even if they have Watchtower. If they have Cornerstone, it might be an auto-loss, though I haven’t tested against it. If they have neither of those, the matchup becomes quite favorable.

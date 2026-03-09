@@ -152,6 +152,25 @@ title: Garde v BoxZard 3
 ```
 Looking at different timelines. Always need to respect their comeback potential.
 
+### Zoroark - Favorable
+
+- Dusknoir is very good in this matchup. Ideal board is Pidgeot, three Charizard lines, and two Dusknoir lines. Do not simply use Dusknoir whenever you can, but make sure it’s for a very strong and impactful play. Using it to KO Zoroark early is fine, as Charizard is better the faster it gets to the late-game.
+- Attacking with Pidgeot can be good as a matter of convenience, but of course Charizard is better overall.
+- Do not attack into their Zoroark for a two-shot unless you know they don’t play Reshiram or if they’re board-locked out of it.
+- Make sure to keep at least one Stadium around as an out to Watchtower. Bonus points if Secret Box is still around that makes Arven an out. You can use Charmander’s or Pidgeot’s attacks to remove Watchtower if it’s convenient, but it is not always necessary.
+
+```youtube
+id: 1EP_85UJ3kU
+title: Zoro v BoxZard 1
+```
+Close game.
+
+```youtube
+id: ORkMq84BSb4
+title: Zoro v BoxZard 2
+```
+Interesting game.
+
 ### Charizard / Noctowl - Unfavorable
 
 - This matchup is all about Dusknoir control and board positioning. You always want Duskull in play, and double Duskull is very potent. If they have one Duskull in play, taking it out is often best.

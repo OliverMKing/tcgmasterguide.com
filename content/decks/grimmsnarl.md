@@ -209,6 +209,20 @@ title: Garde v Grimm 4
 ```
 This game shows how Grimmsnarl's pressure can allow plenty of opportunities for opponents to misplay and potentially let Grimmsnarl back into games that it shouldn't have any business winning.
 
+### Zoroark - Favorable
+
+- Budew is completely broken in this matchup. When they use Darmanitan, you can Item-lock them to stop N’s PP Up and buy more time for the damage to rack up.
+- Froslass is generally good. However, there are some situations where putting the second Froslass in play is incorrect because it makes Grimmsnarl easier to KO. With two Froslass and Grimmsnarl at full HP, they only need one damage modifier to one-shot it with Zekrom. This is only worth worrying about if you’re going to attack with Grimmsnarl on that turn. Nonetheless, you’ll usually want the second Snorunt at the very least. In other words, consider delaying the second Froslass if you’re attacking with Grimmsnarl.
+- You don’t always need Grimmsnarl. It’s possible to win with a very late Grimmsnarl. The same goes for Devo. There are many ways to win this matchup, so you won’t necessarily need Devo every game. Be flexible and try to play your hand as efficiently as possible. Of course, an early Grimmsnarl can still be good.
+- Reshiram is generally not worth playing around. If you’re going to swing into Zoroark and they have Reshiram (or a spot for it), obviously don’t worry about delaying the Froslass.
+- Double Adrenabrain plus Grimmsnarl snipe to KO Zorua off the bench is very strong.
+
+```twitch
+id: 2717552274
+title: Zoro v Grimm 1
+```
+This is a prime example of when to not put down the second Froslass (at the end). Close game. Please ignore the outdated Snorunts (they didn’t matter for this game).
+
 ### Charizard / Noctowl - Favorable
 
 - Budew is very important in the early game to slow them down. If you do not have Budew, this matchup is unfavorable. Using Budew is best when they need Candy to do anything, mostly shuts down insane Dusknoir plays, allowing Grim to set up and get back into the game.

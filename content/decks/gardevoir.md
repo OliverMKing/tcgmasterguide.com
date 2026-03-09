@@ -282,6 +282,34 @@ id: 2676733821
 title: Dragapult v Garde (with Evo) 4
 ```
 
+### Zoroark - Unfavorable
+
+- Need double Adrenabrain online to have a chance. A third one would be great as well.
+- Often need to preload things and plan to play some turns without Gardevoir. They can KO Gardevoir basically at will and you don’t want to constantly feed it to them.
+- Diancie double Adrenabrain support can be a useful attacker. If you can’t get a KO, you can at least set up damage for Adrenabrain KO’s as long as you have the Munkidori advantage.
+- Try not to let the Diancie get hit before you’re ready to start attacking with it. Benching it preemptively can get punished very hard.
+- Iono is very important to try to disrupt them from pulling off powerful combos.
+- If you’re playing Drifloon, use that to one-shot Zoroark. Make sure you aren’t leaving damage in play when you attack with Drifloon, as you don’t want them to KO you with Adrenabrain.
+- Can spam Scream Tail to try to deny Darmanitan. Works well if you have a single-prize board and can stop a Darmanitan play. If you Scream KO a Darm, they KO Garde, you still have Scream to KO another Darm and hopefully a single-prize board at this point, so now they cannot take two prizes that turn. Of course, many games involve Fez or Mew, but it can still be good situationally.
+
+```twitch
+id: 2716892167
+title: Zoro v Garde 1
+```
+Interesting and close game. Diancie and Scream Tail working together well.
+
+```twitch
+id: 2716892168
+title: Zoro v Garde 2
+```
+Close game, triple Munkidori can be game-winning. Manual Turn 2 Clefairy when going first is useful in a variety of matchups.
+
+```twitch
+id: 
+title: Zoro v Garde 3
+```
+Accidentally started with Diancie and that cost the game. Gotta protect it until its ready to start attacking.
+
 ### Charizard / Noctowl - Unfavorable
 
 - Choose to go first!
