@@ -25,6 +25,15 @@ export default function Navbar() {
       const top = element.getBoundingClientRect().top + window.scrollY - navbarHeight
       window.scrollTo({ top, behavior: 'smooth' })
       window.history.pushState(null, '', '/#decks')
+
+      // Re-adjust after a short delay in case async content (e.g. announcements)
+      // loaded and shifted the layout between the initial calculation and now.
+      setTimeout(() => {
+        const adjusted = element.getBoundingClientRect().top + window.scrollY - navbarHeight
+        if (Math.abs(adjusted - top) > 2) {
+          window.scrollTo({ top: adjusted, behavior: 'smooth' })
+        }
+      }, 500)
     }
   }, [])
 
@@ -39,10 +48,21 @@ export default function Navbar() {
       const checkAndScroll = () => {
         const element = document.getElementById('decks')
         if (element) {
-          const navbarHeight = 64
-          const top = element.getBoundingClientRect().top + window.scrollY - navbarHeight
-          window.scrollTo({ top, behavior: 'smooth' })
-          window.history.pushState(null, '', '/#decks')
+          // Delay to allow async content (announcements) to load and settle
+          setTimeout(() => {
+            const navbarHeight = 64
+            const top = element.getBoundingClientRect().top + window.scrollY - navbarHeight
+            window.scrollTo({ top, behavior: 'smooth' })
+            window.history.pushState(null, '', '/#decks')
+
+            // Re-adjust after async content settles
+            setTimeout(() => {
+              const adjusted = element.getBoundingClientRect().top + window.scrollY - navbarHeight
+              if (Math.abs(adjusted - top) > 2) {
+                window.scrollTo({ top: adjusted, behavior: 'smooth' })
+              }
+            }, 500)
+          }, 100)
         } else {
           requestAnimationFrame(checkAndScroll)
         }
