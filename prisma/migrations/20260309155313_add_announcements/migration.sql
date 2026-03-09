@@ -2,12 +2,6 @@ BEGIN TRY
 
 BEGIN TRAN;
 
--- DropIndex
-ALTER TABLE [dbo].[users] DROP CONSTRAINT [users_stripe_customer_id_key];
-
--- DropIndex
-ALTER TABLE [dbo].[users] DROP CONSTRAINT [users_stripe_subscription_id_key];
-
 -- CreateTable
 CREATE TABLE [dbo].[announcements] (
     [id] NVARCHAR(1000) NOT NULL,
