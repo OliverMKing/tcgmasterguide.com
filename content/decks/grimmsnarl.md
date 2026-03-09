@@ -330,4 +330,4 @@ This game shows how Frolass is insanely strong in this matchup and why you want 
 
 ## Personal thoughts
 
-Grimmsnarl is a very potent deck with mostly good matchups. It is still slighly unfavorable with Gholdengo and unfavorable against Absol, but with the addition of Toedscruel making the Gholdengo matchup playable (and Budew beating Dawn Zard), Grimmsnarl seems like a strong play. The deck also has some consistency issues.
+Grimmsnarl is a very potent deck with mostly good matchups. It is still slighly unfavorable with Gholdengo and unfavorable against Absol, but with the addition of Toedscruel making the Gholdengo matchup playable (and Budew beating Dawn Zard), Grimmsnarl seems like a strong play. The deck also has some consistency issues. If Zoroark goes up in play and Absol goes down, Grimmsnarl is poised to be very good in the metagame.

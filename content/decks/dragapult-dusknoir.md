@@ -487,4 +487,4 @@ Setting up the wombo combo. It isn’t a guaranteed win, but it puts them in a b
 
 ## Personal thoughts
 
-Dragapult performs alright into the field. However, it is bad against Garde with TM:Evo. Some people are still on the single Kirlia list with no Evo, but the Evo build is still somewhat popular, so it could be risky to take a loss to. The Gholdengo matchup also leaves a lot to be desired (even though it is winnable), and with how insanely popular Gholdengo is, that is another thing going against Dragapult. The best thing about Dragapult is that it is the only deck that owns Charizard. Dragapult also has some consistency issues, but it can still win those games when it draws bad. I probably wouldn't play Dragapult myself, but it's not bad.
+Dragapult's matchup spread is not great. Although it can beat Gholdengo and Gardevoir, they are still tough matchups. The best thing about Dragapult is that it is the only deck that owns Charizard. Dragapult still has some consistency issues, but it can sometimes win those games when it draws bad. I wouldn't play Dragapult myself, but it's not bad.

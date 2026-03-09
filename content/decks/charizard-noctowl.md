@@ -499,4 +499,4 @@ This game demonstrates how to apply pressure and put them into awkward spots. So
 
 ## Personal thoughts
 
-This deck is extremely strong and beats most stuff. It is superior to the other build of Charizard/Pidgeot/Dusknoir but has a worse Dragapult matchup. Personally, I am hesitant to play a deck with a terrible matchup to Dragapult in this meta, but this deck is strong enough to make a case for it. Clefairy does not do nearly enough against Dragapult to warrant its inclusion in the deck.
+This deck is extremely strong and beats most stuff. It is superior to the other build of Charizard/Pidgeot/Dusknoir but has a worse Dragapult matchup. This deck also suffers greatly against Team Rocket's Watchtower, which is seeing a decent amount of play currently, so that's not great. If Absol becomes less popular due to Zoroark, the Wellspring build becomes very strong.

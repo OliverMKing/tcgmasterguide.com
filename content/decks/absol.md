@@ -418,4 +418,4 @@ This game shows what happens when things don’t line up and you don’t get Wat
 
 ## Personal thoughts
 
-This is probably the most interesting deck in the format. Techs such as Toedscruel, Jumbo Ice Cream, and Watchtower solve most of its problems. With this improved matchup spread, the deck is very strong and definitely worth considering.
+This is probably the most interesting deck in the format. Techs such as Toedscruel, Jumbo Ice Cream, and Watchtower solve most of its problems. With this improved matchup spread, the deck is very strong and definitely worth considering. Although it is weak against Zoroark, this does not make the deck unplayable by any means.
