@@ -4,9 +4,9 @@ pokemon: [571]
 tier: 1
 ---
 ## Decklist
-![Zoroark decklist](./images/zoroark/zorolist.png)
+![Zoroark decklist](./images/zoroark/fourpp.png)
 ```decklist
-Pokémon: 17
+Pokémon: 16
 4 N's Zorua JTG 97
 4 N's Zoroark ex JTG 98
 2 N's Darumaka JTG 26
@@ -14,77 +14,81 @@ Pokémon: 17
 2 N's Zekrom ASC 155
 1 Pecharunt ex SFA 39
 1 Fezandipiti ex ASC 142
-1 Munkidori TWM 95
 
-Trainer: 35
+Trainer: 37
 4 Lillie's Determination MEG 119
 3 Boss's Orders MEG 114
 2 Iono PAL 185
-1 Black Belt's Training JTG 143
+1 Arven OBF 186
+1 Black Belt's Training PRE 96
 4 Buddy-Buddy Poffin TEF 144
-3 N's PP Up JTG 153
+4 N's PP Up JTG 153
 2 Counter Catcher PAR 160
 2 Night Stretcher ASC 196
 2 Pokégear 3.0 BLK 84
-1 Ultra Ball ASC 213
-1 Nest Ball PAF 84
-1 Poké Pad ASC 198
+2 Nest Ball PAF 84
+1 Earthen Vessel PRE 106
 1 Secret Box TWM 163
 2 Technical Machine: Evolution PAR 178
 2 Binding Mochi SFA 55
-1 Air Balloon ASC 181
-1 N's Castle JTG 152
+1 Air Balloon BLK 79
 1 Team Rocket's Watchtower DRI 180
 1 Artazon PAF 76
+1 N's Castle JTG 152
 
-Energy: 8
+Energy: 7
 7 Darkness Energy MEE 7
-1 Reversal Energy PAL 192
 ```
 
 ### Inclusions
 
-- Zekrom is too important to play just one. Darmanitan is great in enough matchups to warrant its inclusion. It also makes the deck fundamentally a lot stronger and threatening. The Pokemon lineup is seems pretty straightforward.
+- Zekrom is too important to play just one. Darmanitan is great in enough matchups to warrant its inclusion. It also makes the deck fundamentally a lot stronger and threatening. The Pokemon lineup is pretty straightforward.
 - Third Boss is included because I found myself always wanting to spam Boss. This deck is more aggressive before, so it won’t often be behind in prizes and able to use Counter Catcher.
 - Black Belt’s Training is nice utility and helps reach key numbers. With lots of draw power and Pokegear, it’s not too hard to find. It has a lot of synergy with this deck.
-- Three N’s PP Up is needed to maintain constant aggression and chain attackers. Whether you’re using Darmanitan’s or Zekrom’s attacks, you’ll need to use multiple PP Up each game.
+- Four N’s PP Up is needed to maintain constant aggression and chain attackers. Whether you’re using Darmanitan’s or Zekrom’s attacks, you’ll need to spam this card every game and sometimes every turn.
 - Counter Catcher is completely broken when your opponent takes the lead. Although you’ll be ahead a lot of the time, this card singlehandedly spikes the power ceiling of the deck and allows you to do disgusting things. It also makes making comebacks trivial.
-- Pokegear 3.0 has been very handy. It helps consistency for Lillie, power for Boss, and late-game utility and synergy to easily reach for Iono or Black Belt. This deck relies on early Lillie as well as general Boss spam, and the card works well with Zoroark’s engine. Arven could also be good in these spots although it doesn't quite do the same thing.
-- The Pokemon search split is very awkward. All the search cards are good for general consistency. PokePad helps get Darmanitan online, Nest Ball makes finding Pecharunt realistic, and Ultra Ball is for safety. Ultra Ball’s downside is extremely significant in this deck, so that’s why there’s only one.
+- Pokegear 3.0 has been very handy. It helps consistency for Lillie, power for Boss, and late-game utility and synergy to easily reach for Iono or Black Belt. This deck relies on early Lillie as well as general Boss spam, and the card works well with Zoroark’s engine.
+- Arven is a very strong consistency card and has a lot of synergy with this deck. More would be nice, but for now, I prefer Pokegear.
+- I cleaned up the Pokemon search engine. Nest Ball is the best one due to overal consistency and finding Pecharunt and Fez. These supporting Pokemon ex are so important but somewhat difficult to find.
+- Earthen Vessel is actually very good and often relevant. I really want a second one but I can't really find the space. I think the most likely cut would be Pokegear or N's PP Up.
 - TM: Evolution has been extremely helpful as there is a decent chance of finding it by Turn 1 or Turn 2. Even if you don’t, as long as you find Zoroark, it’s fine. It makes Secret Box and Lillie way better in the early-game. I think it’s better than Cyrano.
 - Binding Mochi with Zekrom’s attack is broken. I tried playing only one and had trouble finding it consistently. It’s a little too important.
 - Air Ballon is excellent utility as this deck constantly needs to pivot around due to the restrictions on the attacks and N’s PP Up. Also works well with Pecharunt and Secret Box. I would consider a second N’s Castle over the Balloon.
 - N’s Castle is a great mobility card but has restrictions as a Stadium and can be bumped by the opponent, so it’s not super reliable. Typically best when you want to bump a troublesome Stadium or reuse a Mochi Zoroark.
 - Team Rocket’s Watchtower singlehandedly carries the DawnZard matchup and also helps in some random difficult matchups.
 - Artazon is for utility, consistency, and helping get a fast Darumaka, which can be annoying sometimes.
-- Reversal Energy is honestly not that good but it is strong against Gholdengo. With seeing so many cards and potentially making big combos, having the option in general is not bad. This card is probably cuttable though.
-- I am considering adding a second Pecharunt ex because it is just that good. You also need it to not be prized most of the time. Janine's Secret Art could be good as well.
 
 ### Exclusions
 
 - Toedscruel is a thing of the past. The Darmanitan build is now about equally as good against Gholdengo thanks to Zekrom’s support, and much better against everything else.
 - Budew is not bad, but it doesn't work well with the Evo build and managing bench space is very rough with this deck.
+- Munkidori is quite strong against Dragapult but that matchup basically requires you to cheese them with Darmanitan anyway. I surprisingly did not find the win rate to change without Munkidori.
+- I tried second Pecharunt and it is very nice for consistency and saving deck space, as well as not prizing it. However, I did not like always being poisoned, as it opened up break points in nearly every matchup with no counterplay. If you prize Pecharunt, you are very sad, but oh well.
 - I prefer the speed and flexibility of Pokegear and TM: Evo to the slowness of Cyrano. When you don't magically have Poffin and Cyrano it feels useless.
 - Tatsugiri theoretically helps consistency by playing more games. However I did not get value from it once in lots of testing because it is very hard for everything to line up for it. It also occupies a precious board spot.
-- Reshiram is not needed. Even if they swing into Zoroark, dealing massive damage with Zekrom is fine. We also have no board space to spare.
+- Reshiram is not needed. Even if they swing into Zoroark, dealing massive damage with Zekrom is fine. We also have no board space to spare. Try not to let on that you don't have Reshiram as you do want your opponent to be scared of it.
 - Professor Turo’s Scenario seems like it would be good but I was basically never using it. This deck is a lot more fast and aggressive now and you don’t need Turo anymore.
 - Similar reasoning applies to Pal Pad. Pokegear and a third Boss are much better suited for the deck in its current iteration, and they make the deck run a lot smoother and more consistent.
 - Defiance Band seems pretty good but it is very situational. I tried one Mochi and one Band and I think two Mochi is better, but it is still close.
 - Powerglass is not worth playing anymore. It is good against decks with Budew, but still hard to find against them.
+- Don't really need PokePad with TM: Evo sometimes getting Darmanitan. I wasn't getting much use from it. Nest Ball is generally better than Ultra Ball because Ultra Balling for Zoroark is rare.
+- Reversal Energy can sometimes be useful but overall not good enough in my opinion, and too situational.
 
 ## Gameplay
 
-- We need to be very careful with our board and resources! With no Turo or Pal Pad, there are no bailout options. This is completely fine, just need to be very judicious and careful with what Pokemon we’re putting down and not discarding Supporters besides Lillie.
-- Choose to go second blind. Starting Zekrom when going second is usually fine but it is situation/matchup dependent. Starting Zorua when going second and attaching to it is fine if the matchup is one that probably won’t KO it on Turn 2, such as Dragapult.
+- We need to be very careful with our board and resources! With no Turo or Pal Pad, there are no bailout options. This is completely fine, just need to be very judicious and careful with what Pokemon we’re putting down and not discarding Supporters besides Lillie. Second Darumaka is usually bait and I always get punished for putting it down.
+- After the initial three Zoroark, getting the fourth one is generally not a priority. After the first Zorua/Zoroark goes down, Fezandipiti is a much higher priority. You'll have enough Zoroark to close out the game regardless, and if they KO'd Zorua to go to odd prizes, you can close out with Pecharunt.
+- Choose to go second blind. Starting Zekrom when going second is usually fine but it is situation/matchup dependent. Starting Zorua when going second and attaching to it is better if the matchup is one that probably won’t KO it on Turn 2, such as Dragapult.
 - When going first, starting with Zorua and attaching to it is generally good, except against Gholdengo or any deck that can consistently KO it on turn 1.
 - Trading away the extra Zekrom can punish you! There is a lot of pressure on our two Night Stretcher as is, so if you’re going to need more Zekrom attacks, try to keep it around. As the game goes on, it’s easier to trade away resources as you can map out exactly what you’ll need to close it out.
 - Be aggressive. Win the prize trade. If you’re behind by two prizes, utilize Iono, CC, and Darmanitan to swing it back.
 - Attaching Energy to Pecharunt in the late-game is something you should keep in mind. It comes up more than I expected.
 - Pecharunt is a really big liability but you pretty much need it in play all the time anyway, so just try to win the prize race.
 - Against decks with Item-lock or Eri, consider playing Pokegear (and Items in general) preemptively. Otherwise, hold it.
-- Air Balloon is usually best on Zoroark or Fez due to synergy with Pecharunt.
-- Try to avoid Munkidori damage setups from opponents. This can be done by using your own Munkidori for healing or by not leaving damage on the opponent’s board. Without Turo we have to be a little more careful about opposing Munkidori.
+- Air Balloon is usually best on Zoroark or Fez due to synergy with Pecharunt, but it is more likely to stick (not get KO'd) on Zekrom, so that is sometimes better.
+- Try to avoid Munkidori damage setups from opponents. This can be done by using your own Munkidori for healing or by not leaving damage on the opponent’s board. Without Turo we have to be a little more careful about opposing Munkidori. My current list does not have any real counterplay to damage setups so just be aggressive and run them over.
 - Zorua’s Scratch with Binding Mochi can KO various Pokemon on Turn 1, including Munkidori!
+- Using N's PP Up preemptively against decks with Iono is very good. This is more relevant with four of them as we don't worry as much about the Energy getting sniped, but there are many exceptions!
 
 ## Matchups
 
@@ -92,7 +96,7 @@ Energy: 8
 
 - Getting the lead in the prize exchange is basically instant win. There are so many ways to get two prizes in this matchup. If they aren’t pressuring you, you don’t necessarily need Zoroark right away, but they usually are.
 - Make sure you always have a bench spot for Zekrom! It is usually more important than second Darm.
-- The second Darm generally isn’t needed and you shouldn’t commit the board space to it. However the key exception is in the early-game if they are threatening a single-prize board. If they’re able to KO your only Darumaka with Solrock and have no two-prizers on the board, it’s a disaster. If that is possible, having two Darumaka is fine.
+- The second Darm generally isn’t needed and you shouldn’t commit the board space to it. However the key exception is in the early-game if they are threatening a single-prize board. If they’re able to KO your only Darumaka with Solrock and have no two-prizers on the board, it’s a disaster. If that is possible, having two Darumaka is the answer.
 - Ideal board is double Zoroark, Zekrom, Darmanitan, Pecharunt, Fez (or Zoroark).
 - Darmanitan is mostly used for Back Draft to one-shot a Gholdengo. Black Belt is important because they could KO Pecharunt with Gholdengo and then you need Black Belt to get the KO. The Reversal plus Black Belt three prize turn rarely lines up. It should be considered a nice treat, and is NOT part of the main strategy. It can also be a way to make a comeback if the opponent leaves themselves open to it.
 - You will be taking a LOT of prize cards with Zekrom’s attack. Even more than Darmanitan, probably.
@@ -131,6 +135,14 @@ Pretty normal prize trade with Zoro coming out on top. No Darm needed for this o
 - Darmanitan is very strong, especially in the early-game. It applies pressure and ensures that they cannot do whatever they want. It can deny Dusclops or take out two Drakloak at once, depending on the situation which is better. Since you cannot chain Darmanitan under Item-lock, it’s sometimes better to wait for a Boss, but it just depends.
 - In general, being aggressive is good!
 - You might be expecting to get the big combo to one-shot a Dragapult, but that doesn’t often happen. That is totally fine! Smacking the Dragapult for a ton of damage is still good! Hitting it for 290 sets it up for Adrenabrain. Hitting for any big amount sets up for a 3-prize Flamebody Cannon play. Just don’t forget that you cannot snipe Dragapult on the bench due to being Tera.
+- Attacking with non-poisoned Zoroark is very good as it fades the KO on the 200 + 60 from Phantom Dive.
+
+Without Munkidori:
+
+- This matchup changes slightly without Munkidori. We are all in on Darmanitan aggression. KO'ing Budew and something else with Darmanitan is very good! We don't want them to Item lock us after using Darmanitan's attack.
+- If they get an early Dragapult, we really want the Black Belt combo to KO it! If you don't get it, using Darmanitan's attack followed by Zekrom can still be good!
+- Without Munkidori, we can sometimes use the bench spot for an extra Darumaka, but this can still punish you so I would be very careful about doing it! It is very situational.
+
 
 ```youtube
 id: q4DSOA1JiQY
@@ -156,6 +168,7 @@ This game shows how Zoroark can pick them apart, especially when they have a fre
 - Go fast and apply as much pressure as possible.
 - Watch out for Adrenabrain damage setups. Your own Adrenabrain plus the potential to remove their Munkidori from play can help with this. KO’ing two Munkidori at once isn’t hard if you have Adrenabrain available or if they leave damage on a Munki.
 - Darmanitan’s attack can do nasty things, especially considering damage modifiers and their weakness to Dark. It’s not even out of the question to one-shot a Gardevoir and snipe something else with one attack!
+- Attacking with a non-poisoned Zoroark is very good so they cannot KO with Diancie plus Adrenabrain!
 
 ```twitch
 id: 2716892167
@@ -295,4 +308,4 @@ This is pretty much the ideal game for Zoroark.
 
 ## Personal Thoughts
 
-This is the best deck and I’m playing it for Houston.
+This is the best deck and I’m playing it for Houston. However it is not overwhelmingly broken or meta-warping.

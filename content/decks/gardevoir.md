@@ -6,7 +6,7 @@ tier: 1
 
 ## Decklist
 
-![decklist for Gardevoir](./images/gardevoir-jellicent/spectrier.png)
+![decklist for Gardevoir](./images/gardevoir-jellicent/loonspec.png)
 ```decklist
 Pokémon: 17
 3 Ralts MEG 58
@@ -16,10 +16,10 @@ Pokémon: 17
 1 Spectrier ASC 98
 1 Scream Tail PAR 86
 1 Frillish WHT 44
+1 Drifloon SVI 89
 1 Mew ex MEW 151
 1 Lillie's Clefairy ex JTG 56
 1 Fezandipiti ex SFA 38
-1 Mega Diancie ex PFL 41
 
 Trainer: 32
 4 Iono PAL 185
@@ -48,14 +48,14 @@ Energy: 11
 - Turo is so good. Mostly against Gholdengo and decks with retreat lock. It is very strong for endgames against Gholdengo that involve Frillish comebacks. It's also good for board fixing and unsticking Energy from Frillish or Scream Tail.
 - I'm convinced that second Artazon is better than Mystery Garden, though they do different things so it's weird to compare them. Artazon helps set up and stabilize, while Mystery Garden is more situational and not very good in the early-game. I did not use it that much when I had it, and never missed it when playing without it.
 - I'm fully sold on second Charm over Cape because it is more consistently useful. This is now a lock because of the addition of Mega Diancie back into the deck, which needs Bravery Charm in some matchups.
-- Diancie is very good against Dark-types such as Charizard and Zoroark. With Bravery Charm, it survives even their biggest hits.
+- After some more testing, I now think that Drifloon is better than Diancie against Zoroark. Although the matchup still isn't good, Drifloon gives a better chance. It does not require multiple Munkidori to one-shot, and threatens to run through multiple Zoroark if they choose to target Gardevoir.
 - Spectrier is a very good card. Scream Tail has many inconveniences, such as low HP, committing Energy, and not being able to Adrenabrain off it. Of course, Scream Tail is still broken, but Spectrier is better in many situations.
 
 ### Exclusions
 
-- The non Jellicent build is better in my opinion. The Dragapult matchup is significantly better, and Jellicent just isn't that great in the current meta. Of course, it is extremely strong in the mirror match.
-- Drifloon may come back in at some point. For now, Diancie's defensive capabilities take priority.
-- Team Rocket's Watchtower is still very good, but for now I want the space for Spectrier and Diancie.
+- The non-Jellicent build is better in my opinion. The Dragapult matchup is significantly better, and Jellicent just isn't that great in the current meta. Of course, it is extremely strong in the mirror match.
+- Diancie gets cut because I think Drifloon is better against Zoroark.
+- Team Rocket's Watchtower is still very good, but for now I want the space for Spectrier and Drifloon. I may consider cutting Frillish for it.
 - Elgyem is bad.
 - Iron Bundle may be a little too niche to warrant a deck spot, though it is still great against Jellicent.
 - Second Counter Catcher isn't really necessary. It is good against Gholdengo and mirror though.
@@ -289,7 +289,7 @@ title: Dragapult v Garde (with Evo) 4
 - Diancie double Adrenabrain support can be a useful attacker. If you can’t get a KO, you can at least set up damage for Adrenabrain KO’s as long as you have the Munkidori advantage.
 - Try not to let the Diancie get hit before you’re ready to start attacking with it. Benching it preemptively can get punished very hard.
 - Iono is very important to try to disrupt them from pulling off powerful combos.
-- If you’re playing Drifloon, use that to one-shot Zoroark. Make sure you aren’t leaving damage in play when you attack with Drifloon, as you don’t want them to KO you with Adrenabrain.
+- If you’re playing Drifloon, use that to one-shot Zoroark. Make sure you aren’t leaving damage in play when you attack with Drifloon, as you don’t want them to KO you with Adrenabrain. When attacking with Drifloon, you also want to make sure you have nothing with 90 HP or less on bench so they have to gust if they want to use Darmanitan.
 - Can spam Scream Tail to try to deny Darmanitan. Works well if you have a single-prize board and can stop a Darmanitan play. If you Scream KO a Darm, they KO Garde, you still have Scream to KO another Darm and hopefully a single-prize board at this point, so now they cannot take two prizes that turn. Of course, many games involve Fez or Mew, but it can still be good situationally.
 
 ```twitch

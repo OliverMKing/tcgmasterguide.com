@@ -56,9 +56,11 @@ Energy: 8
 
 ### Exclusions
 
+- The third Froslass is becoming increasingly good in the metagame, so it's possible to add it back. I personally can't sacrifice the Gholdengo matchup by cutting Toedscruel, and space is so tight otehrwise that I wouldn't know what to cut, but the third Froslass is definitely better overall now than it used to be.
 - Yveltal is mostly used to punish specific board states/resources (such as used Turo). Oftentimes you won't use it at all, but the threat of it restricts your opponent's options. It can also be useful against decks that have a hard time finding their Turo to buy time. With the other techs, there isn't space for it right now.
 - Sacrificing the fourth Munkidori for third Stretcher is good, it just sucks when you prize two Munkidori, but that is rare. I don't think you need four Munkidori in this meta, but it's still fine if you're so inclined.
 - Psyduck is bad. All of the Dusknoir matchups are already favorable, and the bench spot it occupies is a massive liability. Charizard decks also have Klefki anyway.
+- PokePad does not seem that great to me as this deck still relies on Ursaluna and does not have many ways to find it to begin with. Ultra Ball as a route to Grimmsnarl is also quite nice. Of course, PokePad can't be bad in this deck but I don't know if I can cut anything.
 <!-- /PUBLIC -->
 ## Gameplay
 
