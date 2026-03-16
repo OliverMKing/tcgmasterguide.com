@@ -97,7 +97,7 @@ Energy: 12
 
 ### Inclusions
 
-I currently think this is best way to play Gholdengo.
+I currently think this is best way to play Gholdengo, but if Zoroark with specifically Toedscruel becomes very popular, we may need to play a bulid with a Mega Pokemon.
 
 - Three Lana's Aid is a better way to deal with Gardevoir, specifically Frillish. It can be good in random scenarios as additional Energy recovery (Lana + Superior is 350 damage). Another very strong use of it is recovering Munkidori whenever it gets targeted. Fewer than three isn't enough to consistently have it on the right turn. We also need multiple Lana's against Frillish strats without a backup attacker.
 - Munkidori shores up the Gardevoir matchup. Along with Lana's Aid, this combo invalidates most things Gardevoir can do. Of course, it's also great against Dragapult and Grimmsnarl. With two Turo, double Adrenabrain is a very real thing.
