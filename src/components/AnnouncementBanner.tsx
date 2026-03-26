@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useRef, useCallback } from 'react'
+import { useLocale } from 'next-intl'
 import { useCurrentUser } from '@/hooks/useCurrentUser'
 
 interface Announcement {
@@ -123,12 +124,19 @@ function AnnouncementRow({
 }
 
 export default function AnnouncementBanner() {
+  const locale = useLocale()
   const { isLoaded, isSignedIn, hasSubscriberAccess } = useCurrentUser()
   const [announcements, setAnnouncements] = useState<Announcement[]>([])
   const [dismissed, setDismissed] = useState<Set<string>>(new Set())
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    // Only fetch announcements for English locale
+    if (locale !== 'en') {
+      setLoading(false)
+      return
+    }
+
     async function fetchAnnouncements() {
       try {
         const res = await fetch('/api/announcements')
@@ -144,7 +152,7 @@ export default function AnnouncementBanner() {
     }
 
     fetchAnnouncements()
-  }, [])
+  }, [locale])
 
   if (loading || announcements.length === 0) return null
 

@@ -35,17 +35,24 @@ export async function GET() {
       prisma.user.count({ where: { role: UserRole.SUBSCRIBER } }),
       prisma.user.count({ where: { role: UserRole.USER } }),
       // English only: has active English sub but NOT active Spanish sub
+      // Must use OR with explicit null check due to SQL Server NULL semantics
       prisma.user.count({
         where: {
           stripeSubscriptionStatus: 'active',
-          NOT: { stripeSubscriptionStatusEs: 'active' },
+          OR: [
+            { stripeSubscriptionStatusEs: null },
+            { stripeSubscriptionStatusEs: { not: 'active' } },
+          ],
         },
       }),
       // Spanish only: has active Spanish sub but NOT active English sub
       prisma.user.count({
         where: {
           stripeSubscriptionStatusEs: 'active',
-          NOT: { stripeSubscriptionStatus: 'active' },
+          OR: [
+            { stripeSubscriptionStatus: null },
+            { stripeSubscriptionStatus: { not: 'active' } },
+          ],
         },
       }),
       // Both: has both active
