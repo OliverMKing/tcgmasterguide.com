@@ -50,7 +50,9 @@ jobs:
         # The 20260324205818_add_spanish_language_support migration failed due to
         # missing constraints. This marks it as rolled back so the fixed version can run.
         # Safe to remove this step after successful deployment.
-        run: npx prisma migrate resolve --rolled-back 20260324205818_add_spanish_language_support || true
+        run: |
+          echo "Attempting to resolve failed migration..."
+          npx prisma migrate resolve --rolled-back 20260324205818_add_spanish_language_support && echo "Migration marked as rolled back" || echo "Resolve command failed or migration not in failed state"
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
 

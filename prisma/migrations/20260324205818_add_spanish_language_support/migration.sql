@@ -2,17 +2,8 @@ BEGIN TRY
 
 BEGIN TRAN;
 
--- DropIndex (only if exists)
-IF EXISTS (SELECT 1 FROM sys.indexes WHERE name = 'users_stripe_customer_id_key' AND object_id = OBJECT_ID('[dbo].[users]'))
-BEGIN
-    ALTER TABLE [dbo].[users] DROP CONSTRAINT [users_stripe_customer_id_key];
-END
-
--- DropIndex (only if exists)
-IF EXISTS (SELECT 1 FROM sys.indexes WHERE name = 'users_stripe_subscription_id_key' AND object_id = OBJECT_ID('[dbo].[users]'))
-BEGIN
-    ALTER TABLE [dbo].[users] DROP CONSTRAINT [users_stripe_subscription_id_key];
-END
+-- Note: Skipping DROP CONSTRAINT for users_stripe_customer_id_key and
+-- users_stripe_subscription_id_key as these constraints don't exist in production
 
 -- AlterTable
 ALTER TABLE [dbo].[comments] ADD [locale] NVARCHAR(1000) NOT NULL CONSTRAINT [comments_locale_df] DEFAULT 'en';
