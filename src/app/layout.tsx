@@ -1,13 +1,6 @@
 import type { Metadata } from 'next'
 import { Lexend } from 'next/font/google'
 import '../styles/globals.css'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
-import { ThemeProvider } from '@/components/ThemeProvider'
-import { ClerkThemeWrapper } from '@/components/ClerkThemeWrapper'
-import { AppInsightsProvider } from '@/components/AppInsights'
-import { VideoEmbedProvider } from '@/contexts/VideoEmbedContext'
-import { ScrollToTop } from '@/components/ScrollToTop'
 
 const lexend = Lexend({
   subsets: ['latin'],
@@ -75,20 +68,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" suppressHydrationWarning className={lexend.variable}>
+    <html suppressHydrationWarning className={lexend.variable}>
       <body className="font-sans bg-stone-50 dark:bg-slate-900 text-neutral-800 dark:text-neutral-100 transition-colors">
-        <ThemeProvider>
-          <ClerkThemeWrapper>
-            <AppInsightsProvider>
-              <VideoEmbedProvider>
-                <ScrollToTop />
-                <Navbar />
-                {children}
-                <Footer />
-              </VideoEmbedProvider>
-            </AppInsightsProvider>
-          </ClerkThemeWrapper>
-        </ThemeProvider>
+        {children}
       </body>
     </html>
   )

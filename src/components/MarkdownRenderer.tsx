@@ -1,7 +1,7 @@
 'use client'
 
 import React, { memo } from 'react'
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
 import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
 import { DeckList } from '@/components/DeckList'

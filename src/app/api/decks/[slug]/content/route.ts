@@ -1,7 +1,7 @@
-import { NextResponse } from 'next/server'
+import { NextResponse, type NextRequest } from 'next/server'
 import { auth } from '@clerk/nextjs/server'
 import { prisma } from '@/lib/prisma'
-import { hasSubscriberAccess } from '@/lib/user-roles'
+import { hasSubscriberAccessForLocale, type SubscriptionLocale } from '@/lib/user-roles'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
@@ -15,6 +15,13 @@ const PUBLIC_END = '<!-- /PUBLIC -->'
 const PREMIUM_START = '<!-- PREMIUM -->'
 const PREMIUM_END = '<!-- /PREMIUM -->'
 const PREMIUM_PLACEHOLDER = ':::PREMIUM_LOCKED:::'
+
+function getDecksDirectory(locale: SubscriptionLocale): string {
+  if (locale === 'es') {
+    return path.join(process.cwd(), 'content', 'decks', 'es')
+  }
+  return path.join(process.cwd(), 'content', 'decks')
+}
 
 /**
  * Parse content and extract public/premium sections.
@@ -126,19 +133,24 @@ function parseContentByVisibility(content: string, hasAccess: boolean): string {
 }
 
 // GET /api/decks/[slug]/content - Get deck content if user has access
+// Query params: ?locale=en|es (defaults to 'en')
 export async function GET(
-  _request: Request,
+  request: NextRequest,
   { params }: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await params
+  const searchParams = request.nextUrl.searchParams
+  const localeParam = searchParams.get('locale')
+  const locale: SubscriptionLocale = localeParam === 'es' ? 'es' : 'en'
 
-  // Check if deck exists
-  const filePath = path.join(process.cwd(), 'content', 'decks', `${slug}.md`)
+  // Check if deck exists for this locale
+  const decksDirectory = getDecksDirectory(locale)
+  const filePath = path.join(decksDirectory, `${slug}.md`)
   if (!fs.existsSync(filePath)) {
     return NextResponse.json({ error: 'Deck not found' }, { status: 404 })
   }
 
-  // Check subscription access
+  // Check subscription access for this locale
   let hasAccess = !REQUIRE_SUBSCRIPTION
 
   if (REQUIRE_SUBSCRIPTION) {
@@ -148,9 +160,13 @@ export async function GET(
       try {
         const user = await prisma.user.findUnique({
           where: { authId: userId },
-          select: { role: true },
+          select: {
+            role: true,
+            stripeSubscriptionStatus: true,
+            stripeSubscriptionStatusEs: true,
+          },
         })
-        hasAccess = hasSubscriberAccess(user?.role)
+        hasAccess = hasSubscriberAccessForLocale(user, locale)
       } catch (error) {
         console.error('Error checking user access:', error)
       }

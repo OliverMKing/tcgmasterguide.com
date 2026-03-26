@@ -300,6 +300,111 @@ Non-subscribers will see:
 
 They will NOT receive any premium content in their browser - it's completely stripped on the server.
 
+## Adding Spanish Deck Pages
+
+The site supports separate Spanish translations of deck guides. Spanish deck content lives in a separate directory and requires a separate Spanish subscription to access.
+
+### Directory Structure
+
+```
+content/
+└── decks/
+    ├── charizard.md          # English deck
+    ├── grimmsnarl.md         # English deck
+    ├── images/               # Shared images (used by both languages)
+    │   ├── charizard/
+    │   └── grimmsnarl/
+    └── es/                   # Spanish decks directory
+        ├── charizard.md      # Spanish translation
+        └── grimmsnarl.md     # Spanish translation
+```
+
+### Creating a Spanish Deck Page
+
+1. **Create the Spanish directory** (if it doesn't exist):
+   - Navigate to `content/decks/`
+   - Create a folder named `es`
+
+2. **Create the Spanish deck file**:
+   - The filename must match the English version exactly (e.g., `charizard.md`)
+   - This ensures the deck appears at the same URL path (`/es/decks/charizard`)
+
+3. **Add the metadata** (same format as English):
+   ```markdown
+   ---
+   title: "Charizard / Pidgeot"
+   pokemon: [6, 18]
+   tier: 1
+   ---
+   ```
+   - The `title` can be translated or kept the same (Pokemon names are often kept in English)
+   - `pokemon` and `tier` should match the English version
+
+4. **Write the Spanish content**:
+   - Translate the deck guide content into Spanish
+   - Use the same Markdown structure as the English version
+   - Use the same `<!-- PUBLIC -->` and `<!-- PREMIUM -->` markers
+
+### Images in Spanish Decks
+
+Spanish decks share images with English decks. Reference images the same way:
+
+```markdown
+![Descripción](./images/charizard/decklist.png)
+```
+
+The `./images/` path works from both `content/decks/` and `content/decks/es/` because the API resolves images from the main decks directory.
+
+### Subscription Access
+
+- Spanish deck content requires a **Spanish subscription** (`/es/subscribe`)
+- English subscribers cannot access Spanish premium content, and vice versa
+- Users can subscribe to both languages if they want access to both
+
+### Example Spanish Deck File
+
+```markdown
+---
+title: "Charizard / Pidgeot"
+pokemon: [6, 18]
+tier: 1
+---
+
+<!-- PUBLIC -->
+## Lista de Mazo
+
+```decklist
+Pokémon: 15
+4 Charmander MEW 4
+3 Charizard ex OBF 125
+...
+```
+
+### Resumen Rápido
+Este mazo se centra en...
+<!-- /PUBLIC -->
+
+<!-- PREMIUM -->
+## Estrategia Detallada
+
+Aquí está la estrategia en profundidad...
+
+## Enfrentamientos
+
+### Gholdengo - Favorable
+Análisis detallado del enfrentamiento...
+<!-- /PREMIUM -->
+```
+
+### Checklist for Spanish Decks
+
+- [ ] File is in `content/decks/es/` directory
+- [ ] Filename matches the English version exactly
+- [ ] Metadata includes `title`, `pokemon`, and `tier`
+- [ ] Content is translated to Spanish
+- [ ] `<!-- PUBLIC -->` and `<!-- PREMIUM -->` markers are in place
+- [ ] Image paths use `./images/` (shared with English)
+
 ## Need Help?
 
 If you run into issues, reach out to Oliver for technical help.

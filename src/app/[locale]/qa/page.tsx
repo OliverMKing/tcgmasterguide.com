@@ -2,9 +2,10 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { useUser, SignInButton } from '@clerk/nextjs'
+import { useTranslations } from 'next-intl'
 import { useCurrentUser } from '@/hooks/useCurrentUser'
 import { useFetchWithRetry } from '@/lib/fetch-with-retry'
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
 
 interface Reply {
   id: string
@@ -43,6 +44,7 @@ type SortField = 'createdAt' | 'userName'
 type SortOrder = 'asc' | 'desc'
 
 export default function QAPage() {
+  const t = useTranslations('qa')
   const { isSignedIn, isLoaded } = useUser()
   const { isAdmin, hasSubscriberAccess, isLoaded: userLoaded } = useCurrentUser()
   const fetchWithRetry = useFetchWithRetry()
@@ -79,11 +81,11 @@ export default function QAPage() {
       setComments(data.comments)
       setPagination(data.pagination)
     } catch {
-      setError('Failed to load questions')
+      setError(t('failedToLoad'))
     } finally {
       setIsLoading(false)
     }
-  }, [fetchWithRetry])
+  }, [fetchWithRetry, t])
 
   const fetchDecks = useCallback(async () => {
     try {
@@ -153,7 +155,7 @@ export default function QAPage() {
       setNewQuestion('')
       setSelectedDeck('')
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to post question')
+      setError(err instanceof Error ? err.message : t('failedToPost'))
     } finally {
       setIsSubmitting(false)
     }
@@ -193,7 +195,7 @@ export default function QAPage() {
       setReplyContent('')
       setReplyingTo(null)
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to post reply')
+      setError(err instanceof Error ? err.message : t('failedToPost'))
     } finally {
       setIsSubmittingReply(false)
     }
@@ -221,7 +223,7 @@ export default function QAPage() {
         setComments((prev) => prev.filter((q) => q.id !== commentId))
       }
     } catch {
-      setError('Failed to delete')
+      setError(t('failedToDelete'))
     }
   }
 
@@ -239,7 +241,7 @@ export default function QAPage() {
         prev.map((q) => (q.id === commentId ? { ...q, approved: true } : q))
       )
     } catch {
-      setError('Failed to approve question')
+      setError(t('failedToApprove'))
     }
   }
 
@@ -256,10 +258,10 @@ export default function QAPage() {
     <main className="min-h-screen bg-gradient-to-b from-stone-50 to-white dark:from-slate-900 dark:to-slate-800">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h1 className="text-3xl font-bold text-neutral-800 dark:text-slate-100 mb-4">
-          Questions and Answers
+          {t('title')}
         </h1>
         <p className="text-neutral-600 dark:text-slate-400 mb-8">
-          Want to know more about a deck or the game in general? Ask here and get answers from Grant.
+          {t('subtitle')}
         </p>
 
         {/* Subscriber Gate */}
@@ -271,22 +273,22 @@ export default function QAPage() {
               </svg>
             </div>
             <h2 className="text-xl font-bold text-neutral-800 dark:text-slate-100 mb-2">
-              Subscriber-Only Feature
+              {t('subscriberOnly')}
             </h2>
             <p className="text-neutral-600 dark:text-slate-400 mb-6 max-w-md mx-auto">
-              Q&A is exclusively available to subscribers. Subscribe to ask questions and get personalized answers from Grant.
+              {t('subscriberOnlyMessage')}
             </p>
             {isSignedIn ? (
               <Link
                 href="/subscribe"
                 className="inline-flex px-6 py-2.5 bg-violet-600 hover:bg-violet-700 text-white font-medium rounded-xl transition-colors"
               >
-                Subscribe Now
+                {t('subscribeNow')}
               </Link>
             ) : (
               <SignInButton mode="modal">
                 <button className="px-6 py-2.5 bg-violet-600 hover:bg-violet-700 text-white font-medium rounded-xl transition-colors cursor-pointer">
-                  Sign In
+                  {t('signIn')}
                 </button>
               </SignInButton>
             )}
@@ -331,14 +333,14 @@ export default function QAPage() {
               <form onSubmit={handleSubmit} className="bg-white dark:bg-slate-800 rounded-xl border border-stone-200 dark:border-slate-700 p-6">
                 <div className="mb-4">
                   <label className="block text-sm font-medium text-neutral-600 dark:text-slate-300 mb-2">
-                    Related Deck (optional)
+                    {t('relatedDeck')}
                   </label>
                   <select
                     value={selectedDeck}
                     onChange={(e) => setSelectedDeck(e.target.value)}
                     className="w-full px-4 py-2 rounded-lg border border-stone-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-neutral-800 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-violet-500"
                   >
-                    <option value="">Other</option>
+                    <option value="">{t('other')}</option>
                     {decks.map((deck) => (
                       <option key={deck.slug} value={deck.slug}>
                         {deck.title}
@@ -348,12 +350,12 @@ export default function QAPage() {
                 </div>
                 <div className="mb-4">
                   <label className="block text-sm font-medium text-neutral-600 dark:text-slate-300 mb-2">
-                    Your Question
+                    {t('yourQuestion')}
                   </label>
                   <textarea
                     value={newQuestion}
                     onChange={(e) => setNewQuestion(e.target.value)}
-                    placeholder="What would you like to know?"
+                    placeholder={t('questionPlaceholder')}
                     className="w-full p-4 rounded-xl border border-stone-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-neutral-800 dark:text-slate-100 placeholder-neutral-400 dark:placeholder-slate-500 focus:ring-2 focus:ring-violet-500 focus:border-transparent resize-none"
                     rows={4}
                     maxLength={2000}
@@ -369,17 +371,17 @@ export default function QAPage() {
                   disabled={!newQuestion.trim() || isSubmitting}
                   className="px-6 py-2.5 bg-violet-600 hover:bg-violet-700 disabled:bg-stone-300 dark:disabled:bg-slate-600 text-white font-medium rounded-xl transition-colors cursor-pointer disabled:cursor-not-allowed"
                 >
-                  {isSubmitting ? 'Submitting...' : 'Submit Question'}
+                  {isSubmitting ? t('submitting') : t('submitQuestion')}
                 </button>
               </form>
             ) : (
               <div className="p-6 rounded-xl bg-stone-100 dark:bg-slate-800 text-center">
                 <p className="text-neutral-600 dark:text-slate-300 mb-4">
-                  Sign in to ask a question
+                  {t('signInToAsk')}
                 </p>
                 <SignInButton mode="modal">
                   <button className="px-6 py-2.5 bg-violet-600 hover:bg-violet-700 text-white font-medium rounded-xl transition-colors cursor-pointer">
-                    Sign In
+                    {t('signIn')}
                   </button>
                 </SignInButton>
               </div>
@@ -396,7 +398,7 @@ export default function QAPage() {
         {/* Questions List */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
           <h2 className="text-xl font-semibold text-neutral-800 dark:text-slate-100">
-            Questions & Comments {pagination && `(${pagination.total})`}
+            {t('questionsAndComments')} {pagination && `(${pagination.total})`}
           </h2>
           <div className="flex flex-wrap items-center gap-2">
             <select
@@ -404,15 +406,15 @@ export default function QAPage() {
               onChange={(e) => handleFilterChange(e.target.value)}
               className="px-3 py-1 text-sm rounded-lg border border-stone-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-neutral-600 dark:text-slate-300 focus:outline-none focus:ring-2 focus:ring-violet-500"
             >
-              <option value="all">All Decks</option>
-              <option value="other">Other</option>
+              <option value="all">{t('allDecks')}</option>
+              <option value="other">{t('other')}</option>
               {decks.map((deck) => (
                 <option key={deck.slug} value={deck.slug}>
                   {deck.title}
                 </option>
               ))}
             </select>
-            <span className="text-sm text-neutral-500 dark:text-slate-400">Sort:</span>
+            <span className="text-sm text-neutral-500 dark:text-slate-400">{t('sort')}</span>
             <button
               onClick={() => handleSortChange('createdAt')}
               className={`px-3 py-1 text-sm rounded-lg transition-colors cursor-pointer ${
@@ -421,7 +423,7 @@ export default function QAPage() {
                   : 'bg-stone-100 dark:bg-slate-700 text-neutral-600 dark:text-slate-300 hover:bg-stone-200 dark:hover:bg-slate-600'
               }`}
             >
-              Date {sortBy === 'createdAt' && (sortOrder === 'asc' ? '↑' : '↓')}
+              {t('date')} {sortBy === 'createdAt' && (sortOrder === 'asc' ? '↑' : '↓')}
             </button>
           </div>
         </div>
@@ -431,7 +433,7 @@ export default function QAPage() {
           </div>
         ) : comments.length === 0 ? (
           <p className="text-center text-neutral-500 dark:text-slate-400 py-8">
-            No questions yet. Be the first to ask!
+            {t('noQuestions')}
           </p>
         ) : (
           <div className="space-y-6">
@@ -462,12 +464,12 @@ export default function QAPage() {
                           </Link>
                         ) : (
                           <span className="px-2 py-0.5 text-xs font-medium bg-stone-100 dark:bg-slate-700 text-neutral-500 dark:text-slate-400 rounded-full">
-                            Other
+                            {t('other')}
                           </span>
                         )}
                         {!comment.approved && (
                           <span className="px-2 py-0.5 text-xs font-medium bg-amber-100 dark:bg-amber-800 text-amber-700 dark:text-amber-200 rounded-full">
-                            Pending approval
+                            {t('pendingApproval')}
                           </span>
                         )}
                       </div>
@@ -560,7 +562,7 @@ export default function QAPage() {
                       <textarea
                         value={replyContent}
                         onChange={(e) => setReplyContent(e.target.value)}
-                        placeholder="Write your reply..."
+                        placeholder={t('replyPlaceholder')}
                         className="w-full p-3 rounded-lg border border-stone-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-neutral-800 dark:text-slate-100 placeholder-neutral-400 dark:placeholder-slate-500 focus:ring-2 focus:ring-violet-500 focus:border-transparent resize-none text-sm"
                         rows={3}
                         maxLength={2000}
@@ -574,14 +576,14 @@ export default function QAPage() {
                           }}
                           className="px-4 py-1.5 text-neutral-600 dark:text-slate-400 hover:text-neutral-800 dark:hover:text-slate-100 font-medium rounded-lg transition-colors cursor-pointer"
                         >
-                          Cancel
+                          {t('cancel')}
                         </button>
                         <button
                           onClick={() => handleReply(comment.id)}
                           disabled={!replyContent.trim() || isSubmittingReply}
                           className="px-4 py-1.5 bg-violet-600 hover:bg-violet-700 disabled:bg-stone-300 dark:disabled:bg-slate-600 text-white font-medium rounded-lg transition-colors cursor-pointer disabled:cursor-not-allowed"
                         >
-                          {isSubmittingReply ? 'Posting...' : 'Post Reply'}
+                          {isSubmittingReply ? t('posting') : t('postReply')}
                         </button>
                       </div>
                     </div>
@@ -603,7 +605,7 @@ export default function QAPage() {
                                 {reply.userName}
                               </span>
                               <span className="px-2 py-0.5 text-xs font-medium bg-violet-200 dark:bg-violet-800 text-violet-700 dark:text-violet-200 rounded-full">
-                                Admin
+                                {t('admin')}
                               </span>
                               <span className="text-sm text-neutral-400 dark:text-slate-500">
                                 {formatDate(reply.createdAt)}
@@ -652,17 +654,17 @@ export default function QAPage() {
               disabled={pagination.page === 1}
               className="px-3 py-1.5 text-sm rounded-lg border border-stone-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-neutral-600 dark:text-slate-300 hover:bg-stone-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              Previous
+              {t('previous')}
             </button>
             <span className="text-sm text-neutral-500 dark:text-slate-400">
-              Page {pagination.page} of {pagination.totalPages}
+              {t('page')} {pagination.page} {t('of')} {pagination.totalPages}
             </span>
             <button
               onClick={() => handlePageChange(pagination.page + 1)}
               disabled={pagination.page === pagination.totalPages}
               className="px-3 py-1.5 text-sm rounded-lg border border-stone-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-neutral-600 dark:text-slate-300 hover:bg-stone-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              Next
+              {t('next')}
             </button>
           </div>
         )}

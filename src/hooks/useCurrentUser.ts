@@ -2,11 +2,17 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { useUser, useAuth } from '@clerk/nextjs'
-import { hasSubscriberAccess as checkSubscriberAccess } from '@/lib/user-roles'
+import {
+  hasSubscriberAccess as checkSubscriberAccess,
+  hasSubscriberAccessForLocale as checkSubscriberAccessForLocale,
+  type SubscriptionLocale,
+} from '@/lib/user-roles'
 
 interface UserData {
   id: string
   role: string
+  stripeSubscriptionStatus: string | null
+  stripeSubscriptionStatusEs: string | null
 }
 
 const CACHE_KEY = 'tcg_user_data'
@@ -167,6 +173,11 @@ export function useCurrentUser() {
 
   const isAdmin = userData?.role === 'ADMIN'
 
+  // Create a function to check locale-specific access
+  const hasSubscriberAccessForLocale = (locale: SubscriptionLocale): boolean => {
+    return checkSubscriberAccessForLocale(userData, locale)
+  }
+
   return {
     isLoaded: isLoaded && !loading,
     isSignedIn,
@@ -174,5 +185,6 @@ export function useCurrentUser() {
     userData,
     isAdmin,
     hasSubscriberAccess: checkSubscriberAccess(userData?.role),
+    hasSubscriberAccessForLocale,
   }
 }

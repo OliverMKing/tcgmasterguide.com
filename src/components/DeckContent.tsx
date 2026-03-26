@@ -1,7 +1,8 @@
 'use client'
 
-import React, { useState, useEffect, useRef, memo } from 'react'
-import Link from 'next/link'
+import React, { useState, useEffect, useRef, memo, useMemo } from 'react'
+import { Link } from '@/i18n/navigation'
+import { useTranslations, useLocale } from 'next-intl'
 import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
 import { DeckList } from '@/components/DeckList'
@@ -83,10 +84,47 @@ function transformImageSrc(src: string): string {
   return src
 }
 
+// Helper to extract plain text from React children
+function getTextFromChildren(children: React.ReactNode): string {
+  if (typeof children === 'string') return children
+  if (typeof children === 'number') return String(children)
+  if (Array.isArray(children)) {
+    return children.map(getTextFromChildren).join('')
+  }
+  if (React.isValidElement(children)) {
+    const props = children.props as { children?: React.ReactNode }
+    return getTextFromChildren(props.children)
+  }
+  return ''
+}
+
 // Memoized markdown renderer to prevent iframe remounting on parent re-renders
 const MemoizedMarkdown = memo(function MemoizedMarkdown({ content }: { content: string }) {
-  // Create an ID generator scoped to this render
-  const generateHeadingId = createIdGenerator()
+  // Pre-compute all heading IDs to ensure consistency
+  // Extract headings from content and map text to ID
+  const headingIdMap = useMemo(() => {
+    const map = new Map<string, string>()
+    const headingRegex = /^(#{1,3})\s+(.+)$/gm
+    const idCounts: Record<string, number> = {}
+    let match
+
+    while ((match = headingRegex.exec(content)) !== null) {
+      const text = match[2]
+      const baseId = slugify(text)
+
+      if (idCounts[baseId] === undefined) {
+        idCounts[baseId] = 0
+        map.set(text, baseId)
+      } else {
+        idCounts[baseId]++
+        map.set(text, `${baseId}-${idCounts[baseId]}`)
+      }
+    }
+
+    return map
+  }, [content])
+
+  const getHeadingId = (text: string) => headingIdMap.get(text) || slugify(text)
 
   // Preprocess content to add separators between consecutive lists
   const processedContent = content.replace(
@@ -98,8 +136,8 @@ const MemoizedMarkdown = memo(function MemoizedMarkdown({ content }: { content: 
     <ReactMarkdown
       components={{
         h1: ({ children }) => {
-          const text = String(children)
-          const id = generateHeadingId(text)
+          const text = getTextFromChildren(children)
+          const id = getHeadingId(text)
           return (
             <h2 id={id} className="text-3xl font-bold text-slate-900 dark:text-slate-100 mt-12 mb-4 first:mt-0 pb-2 border-b border-slate-200 dark:border-slate-700 scroll-mt-20 md:scroll-mt-32">
               {children}
@@ -107,8 +145,8 @@ const MemoizedMarkdown = memo(function MemoizedMarkdown({ content }: { content: 
           )
         },
         h2: ({ children }) => {
-          const text = String(children)
-          const id = generateHeadingId(text)
+          const text = getTextFromChildren(children)
+          const id = getHeadingId(text)
           return (
             <h3 id={id} className="text-2xl font-bold text-slate-900 dark:text-slate-100 mt-10 mb-4 scroll-mt-20 md:scroll-mt-32">
               {children}
@@ -116,8 +154,8 @@ const MemoizedMarkdown = memo(function MemoizedMarkdown({ content }: { content: 
           )
         },
         h3: ({ children }) => {
-          const text = String(children)
-          const id = generateHeadingId(text)
+          const text = getTextFromChildren(children)
+          const id = getHeadingId(text)
           return (
             <h4 id={id} className="text-xl font-semibold text-slate-900 dark:text-slate-100 mt-8 mb-3 scroll-mt-20 md:scroll-mt-32">
               {children}
@@ -229,6 +267,8 @@ const MemoizedMarkdown = memo(function MemoizedMarkdown({ content }: { content: 
 })
 
 export function DeckContent({ slug, title, headings, history, deckTitle }: DeckContentProps) {
+  const t = useTranslations('deck')
+  const locale = useLocale()
   const [content, setContent] = useState<string | null>(null)
   const [hasAccess, setHasAccess] = useState<boolean | null>(null)
   const [loading, setLoading] = useState(true)
@@ -240,7 +280,7 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
     async function fetchContent() {
       try {
         // Force token refresh before fetching to ensure subscriber status is current
-        let res = await fetchWithRetryRef.current(`/api/decks/${slug}/content`, { forceRefresh: true })
+        let res = await fetchWithRetryRef.current(`/api/decks/${slug}/content?locale=${locale}`, { forceRefresh: true })
         let data = await res.json()
 
         // If user doesn't have access, retry a few times in case subscription
@@ -248,7 +288,7 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
         if (res.ok && !data.hasAccess) {
           for (let attempt = 0; attempt < ACCESS_RETRY_COUNT; attempt++) {
             await sleep(ACCESS_RETRY_DELAY_MS)
-            res = await fetchWithRetryRef.current(`/api/decks/${slug}/content`, { forceRefresh: true })
+            res = await fetchWithRetryRef.current(`/api/decks/${slug}/content?locale=${locale}`, { forceRefresh: true })
             data = await res.json()
             if (data.hasAccess) break
           }
@@ -269,7 +309,7 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
     }
 
     fetchContent()
-  }, [slug])
+  }, [slug, locale])
 
   if (loading) {
     return (
@@ -308,21 +348,21 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
               </svg>
             </div>
             <div>
-              <p className="font-semibold text-slate-900 dark:text-slate-100">Free Preview</p>
+              <p className="font-semibold text-slate-900 dark:text-slate-100">{t('freePreview')}</p>
               <p className="text-sm text-slate-600 dark:text-slate-400">
-                You&apos;re viewing a limited preview.{' '}
+                {t('limitedPreview')}{' '}
                 <Link href="/subscribe" className="text-purple-600 dark:text-purple-400 hover:underline font-medium">
-                  Subscribe
+                  {t('subscribeForAccess')}
                 </Link>
-                {' '}for full access to all guides.
+                {' '}{t('forFullAccess')}
               </p>
             </div>
           </div>
         </div>
       )}
 
-      {/* View History Button - only for subscribers */}
-      {hasAccess && history.length > 0 && (
+      {/* View History Button - only for English subscribers (history is only generated for English content) */}
+      {hasAccess && history.length > 0 && locale === 'en' && (
         <div className="-mt-10 mb-8">
           <ViewHistoryButton history={history} deckTitle={deckTitle} />
         </div>
@@ -332,7 +372,7 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
       {visibleHeadings.length > 0 && (
         <nav className="mb-12 p-6 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
           <h2 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-4">
-            {hasAccess ? 'Table of Contents' : 'Preview Contents'}
+            {hasAccess ? t('tableOfContents') : t('previewContents')}
           </h2>
           <ul className="space-y-2">
             {visibleHeadings.map((heading) => (
@@ -354,7 +394,7 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
                   href="#discussion"
                   className="text-slate-600 dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors text-sm"
                 >
-                  Discussion
+                  {t('discussion')}
                 </a>
               </li>
             )}
@@ -363,7 +403,7 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
           {!hasAccess && headings.length > visibleHeadings.length && (
             <div className="mt-4 pt-4 border-t border-slate-200 dark:border-slate-700">
               <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mb-2">
-                Full guide includes:
+                {t('fullGuideIncludes')}
               </p>
               <ul className="space-y-1">
                 {headings.slice(visibleHeadings.length, visibleHeadings.length + 4).map((heading) => (
@@ -379,7 +419,7 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
                 ))}
                 {headings.length > visibleHeadings.length + 4 && (
                   <li className="text-slate-400 dark:text-slate-500 text-sm pl-5">
-                    + {headings.length - visibleHeadings.length - 4} more sections...
+                    {t('moreSections', { count: headings.length - visibleHeadings.length - 4 })}
                   </li>
                 )}
               </ul>
@@ -397,16 +437,16 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
       <div className="mt-16">
         <div className="bg-violet-50 dark:bg-slate-800 border border-violet-100 dark:border-slate-700 rounded-2xl p-8 text-center">
           <h3 className="text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-2">
-            Explore More Guides
+            {t('exploreMoreGuides')}
           </h3>
           <p className="text-neutral-600 dark:text-slate-300 mb-6">
-            Continue your journey with our other expert guides
+            {t('continueJourney')}
           </p>
           <Link
             href="/#decks"
             className="inline-flex items-center gap-2 bg-violet-600 hover:bg-violet-700 text-white font-medium px-6 py-3 rounded-xl transition-colors"
           >
-            Browse All Decks
+            {t('browseAllDecks')}
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>

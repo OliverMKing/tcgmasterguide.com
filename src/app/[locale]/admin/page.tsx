@@ -43,6 +43,12 @@ interface Pagination {
 interface Stats {
   totalUsers: number
   byRole: Record<string, number>
+  subscribersByLanguage?: {
+    englishOnly: number
+    spanishOnly: number
+    both: number
+    total: number
+  }
 }
 
 type CommentSortField = 'createdAt' | 'userName' | 'deckTitle'
@@ -427,6 +433,41 @@ export default function AdminPage() {
                 <div className="text-sm text-slate-600 dark:text-slate-400">Regular Users</div>
               </div>
             </div>
+
+            {/* Subscriber Language Breakdown */}
+            {stats.subscribersByLanguage && (
+              <div className="mt-6">
+                <h3 className="text-lg font-medium text-slate-900 dark:text-slate-100 mb-3">
+                  Subscribers by Language
+                </h3>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                  <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-4">
+                    <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+                      {stats.subscribersByLanguage.englishOnly}
+                    </div>
+                    <div className="text-sm text-slate-600 dark:text-slate-400">English Only</div>
+                  </div>
+                  <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-4">
+                    <div className="text-2xl font-bold text-orange-600 dark:text-orange-400">
+                      {stats.subscribersByLanguage.spanishOnly}
+                    </div>
+                    <div className="text-sm text-slate-600 dark:text-slate-400">Spanish Only</div>
+                  </div>
+                  <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-4">
+                    <div className="text-2xl font-bold text-green-600 dark:text-green-400">
+                      {stats.subscribersByLanguage.both}
+                    </div>
+                    <div className="text-sm text-slate-600 dark:text-slate-400">Both Languages</div>
+                  </div>
+                  <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-4">
+                    <div className="text-2xl font-bold text-amber-600 dark:text-amber-400">
+                      {stats.subscribersByLanguage.total}
+                    </div>
+                    <div className="text-sm text-slate-600 dark:text-slate-400">Total Active</div>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         )}
 

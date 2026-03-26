@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState, useRef } from 'react'
+import { useTranslations } from 'next-intl'
 
 interface TwitchEmbedProps {
   channel: string
@@ -12,6 +13,7 @@ export type { StreamStatus }
 type StreamStatus = 'loading' | 'live' | 'offline' | 'unknown'
 
 export default function TwitchEmbed({ channel, onStatusChange }: TwitchEmbedProps) {
+  const t = useTranslations('live')
   const [status, setStatus] = useState<StreamStatus>('loading')
   const [isMobile, setIsMobile] = useState(false)
   const embedRef = useRef<HTMLDivElement>(null)
@@ -97,7 +99,7 @@ export default function TwitchEmbed({ channel, onStatusChange }: TwitchEmbedProp
       <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-12">
         <div className="flex flex-col items-center justify-center text-center">
           <div className="w-12 h-12 border-4 border-purple-600 border-t-transparent rounded-full animate-spin mb-4" />
-          <p className="text-slate-600 dark:text-slate-300">Checking stream status...</p>
+          <p className="text-slate-600 dark:text-slate-300">{t('checkingStatus')}</p>
         </div>
       </div>
     )
@@ -113,10 +115,10 @@ export default function TwitchEmbed({ channel, onStatusChange }: TwitchEmbedProp
             </svg>
           </div>
           <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-2">
-            Stream Offline
+            {t('streamOffline')}
           </h2>
           <p className="text-slate-600 dark:text-slate-300 mb-6 max-w-md">
-            Grant is not currently streaming. Follow on Twitch to get notified when he goes live!
+            {t('offlineMessage')}
           </p>
           <a
             href={`https://twitch.tv/${channel}`}
@@ -127,7 +129,7 @@ export default function TwitchEmbed({ channel, onStatusChange }: TwitchEmbedProp
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
               <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714z" />
             </svg>
-            Follow on Twitch
+            {t('followOnTwitch')}
           </a>
         </div>
       </div>
@@ -143,15 +145,15 @@ export default function TwitchEmbed({ channel, onStatusChange }: TwitchEmbedProp
             <>
               <span className="flex items-center gap-2">
                 <span className="w-3 h-3 bg-red-500 rounded-full animate-pulse" />
-                <span className="text-sm font-semibold text-red-500">LIVE</span>
+                <span className="text-sm font-semibold text-red-500">{t('live')}</span>
               </span>
               <span className="text-slate-600 dark:text-slate-300 text-sm hidden sm:inline">
-                Grant is streaming now!
+                {t('streamingNow')}
               </span>
             </>
           ) : (
             <span className="text-slate-600 dark:text-slate-300 text-sm">
-              Check if Grant is live on Twitch
+              {t('checkIfLive')}
             </span>
           )}
         </div>
@@ -161,7 +163,7 @@ export default function TwitchEmbed({ channel, onStatusChange }: TwitchEmbedProp
           rel="noopener noreferrer"
           className="text-sm text-purple-600 dark:text-purple-400 hover:underline"
         >
-          Open in Twitch
+          {t('openInTwitch')}
         </a>
       </div>
       {/* Video player */}

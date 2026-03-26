@@ -1,4 +1,5 @@
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
+import { setRequestLocale, getTranslations } from 'next-intl/server'
 import Image from 'next/image'
 import type { Metadata } from 'next'
 
@@ -13,7 +14,16 @@ export const metadata: Metadata = {
   },
 }
 
-export default function AboutPage() {
+export default async function AboutPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
+  setRequestLocale(locale)
+
+  const t = await getTranslations('about')
+
   return (
     <main className="min-h-screen bg-gradient-to-b from-stone-50 to-white dark:from-slate-900 dark:to-slate-800">
       {/* Hero Section */}
@@ -21,10 +31,10 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-neutral-800 dark:text-slate-100 mb-4">
-              About TCG Master Guide
+              {t('title')}
             </h1>
             <p className="text-lg text-neutral-600 dark:text-slate-300 max-w-2xl mx-auto">
-              Expert deck guides from one of the most accomplished players in competitive Pokemon TCG.
+              {t('subtitle')}
             </p>
           </div>
         </div>
@@ -45,12 +55,12 @@ export default function AboutPage() {
             />
             <div>
               <h2 className="text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-3 text-center sm:text-left">
-                About the Author
+                {t('authorTitle')}
               </h2>
               <p className="text-neutral-600 dark:text-slate-300 leading-relaxed">
-                TCG Master Guide is written by <span className="font-semibold text-violet-600 dark:text-violet-400">Grant Manley</span>, an elite competitive Pokemon TCG player who has
-                been ranked #1 in the world. Known for his consistent top finishes and deep understanding
-                of the game, Grant is one of the most accomplished players in the competitive scene.
+                {t.rich('authorDescription', {
+                  author: (chunks) => <span className="font-semibold text-violet-600 dark:text-violet-400">{chunks}</span>
+                })}
               </p>
             </div>
           </div>
@@ -58,52 +68,48 @@ export default function AboutPage() {
           {/* Our Mission */}
           <div className="mb-10">
             <h2 className="text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-3">
-              Our Mission
+              {t('missionTitle')}
             </h2>
             <p className="text-neutral-600 dark:text-slate-300 leading-relaxed">
-              TCG Master Guide provides in-depth deck guides for Pokemon Trading Card Game players
-              of all skill levels. Our guides are constantly updated to reflect the latest meta shifts,
-              new card releases, and competitive strategies. Whether you're just starting out or
-              competing at the highest levels, our deck guides give you the insights you need to
-              succeed.
+              {t('missionDescription')}
             </p>
           </div>
 
           {/* What We Offer */}
           <div className="mb-10">
             <h2 className="text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-4">
-              What We Offer
+              {t('offerTitle')}
             </h2>
             <ul className="space-y-3 text-neutral-600 dark:text-slate-300">
               <li className="flex items-start">
                 <svg className="w-4 h-4 text-violet-600 dark:text-violet-400 mr-3 mt-1 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span>Detailed deck guides with in-depth text strategies and video matchup breakdowns</span>
+                <span>{t('offer1')}</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-4 h-4 text-violet-600 dark:text-violet-400 mr-3 mt-1 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span>Regularly updated content reflecting the current meta</span>
+                <span>{t('offer2')}</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-4 h-4 text-violet-600 dark:text-violet-400 mr-3 mt-1 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span>Guides for both beginners and competitive players</span>
+                <span>{t('offer3')}</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-4 h-4 text-violet-600 dark:text-violet-400 mr-3 mt-1 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span>Matchup analysis and tech card recommendations</span>
+                <span>{t('offer4')}</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-4 h-4 text-violet-600 dark:text-violet-400 mr-3 mt-1 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span>Q&A section where you can ask questions and get answers directly from Grant</span>
+                <span>{t('offer5')}</span>
               </li>
             </ul>
           </div>
@@ -111,24 +117,23 @@ export default function AboutPage() {
           {/* Always Up to Date */}
           <div className="mb-10">
             <h2 className="text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-3">
-              Always Up to Date
+              {t('updatesTitle')}
             </h2>
             <p className="text-neutral-600 dark:text-slate-300 leading-relaxed mb-4">
-              Grant continuously updates these deck guides as the meta evolves,
-              new sets release, and strategies develop. Here&apos;s how to stay on top of changes:
+              {t('updatesDescription')}
             </p>
             <ul className="space-y-3 text-neutral-600 dark:text-slate-300">
               <li className="flex items-start">
                 <svg className="w-4 h-4 text-violet-600 dark:text-violet-400 mr-3 mt-1 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span><span className="font-semibold">Last updated date</span> — Every deck guide shows a &quot;Last updated&quot; date near the top of the page so you can see how recently it was refreshed.</span>
+                <span><span className="font-semibold">{t('updatesFeature1Title')}</span> — {t('updatesFeature1')}</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-4 h-4 text-violet-600 dark:text-violet-400 mr-3 mt-1 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span><span className="font-semibold">View History</span> — Subscribers can click the View History button at the top of any deck guide to see exactly what changed in each update. This makes it easy to catch up on new tech options, revised matchup advice, or updated decklists without re-reading the entire guide.</span>
+                <span><span className="font-semibold">{t('updatesFeature2Title')}</span> — {t('updatesFeature2')}</span>
               </li>
             </ul>
           </div>
@@ -136,29 +141,28 @@ export default function AboutPage() {
           {/* Q&A */}
           <div className="mb-10">
             <h2 className="text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-3">
-              Questions & Answers
+              {t('qaTitle')}
             </h2>
             <p className="text-neutral-600 dark:text-slate-300 leading-relaxed">
-              Subscribers get access to the{' '}
-              <Link href="/qa" className="text-violet-600 dark:text-violet-400 hover:underline font-medium">Q&A</Link>{' '}
-              page, where you can ask anything about the Pokemon TCG. Whether it&apos;s a specific matchup question,
-              a deck building decision, or general strategy advice, Q&A is there to help.
+              {t.rich('qaDescription', {
+                qaLink: (chunks) => <Link href="/qa" className="text-violet-600 dark:text-violet-400 hover:underline font-medium">{chunks}</Link>
+              })}
             </p>
           </div>
 
           {/* CTA */}
           <div className="text-center pt-6 border-t border-stone-200 dark:border-slate-700">
             <h2 className="text-xl font-bold text-neutral-800 dark:text-slate-100 mb-2">
-              Ready to level up your game?
+              {t('ctaTitle')}
             </h2>
             <p className="text-neutral-600 dark:text-slate-300 mb-5">
-              Explore our deck guides and master the strategies you need to win
+              {t('ctaDescription')}
             </p>
             <Link
               href="/#decks"
               className="inline-block px-6 py-2.5 bg-violet-600 hover:bg-violet-700 text-white font-medium rounded-xl transition-colors"
             >
-              View Deck Guides
+              {t('ctaButton')}
             </Link>
           </div>
         </div>

@@ -16,6 +16,8 @@ export async function GET() {
       select: {
         id: true,
         role: true,
+        stripeSubscriptionStatus: true,
+        stripeSubscriptionStatusEs: true,
       },
     })
 

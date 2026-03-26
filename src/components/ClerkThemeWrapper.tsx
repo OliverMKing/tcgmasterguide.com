@@ -2,9 +2,15 @@
 
 import { ClerkProvider } from '@clerk/nextjs'
 import { dark } from '@clerk/themes'
+import { esES } from '@clerk/localizations'
 import { useTheme } from './ThemeProvider'
 
-export function ClerkThemeWrapper({ children }: { children: React.ReactNode }) {
+interface ClerkThemeWrapperProps {
+  children: React.ReactNode
+  locale?: string
+}
+
+export function ClerkThemeWrapper({ children, locale }: ClerkThemeWrapperProps) {
   const { theme } = useTheme()
 
   return (
@@ -12,6 +18,7 @@ export function ClerkThemeWrapper({ children }: { children: React.ReactNode }) {
       appearance={{
         baseTheme: theme === 'dark' ? dark : undefined,
       }}
+      localization={locale === 'es' ? esES : undefined}
     >
       {children}
     </ClerkProvider>

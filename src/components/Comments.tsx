@@ -1,6 +1,8 @@
 'use client'
 
 import { useState, useEffect, useCallback, useRef } from 'react'
+import { Link } from '@/i18n/navigation'
+import { useTranslations, useLocale } from 'next-intl'
 import { useUser, SignInButton } from '@clerk/nextjs'
 import { useCurrentUser } from '@/hooks/useCurrentUser'
 import { useFetchWithRetry } from '@/lib/fetch-with-retry'
@@ -40,6 +42,8 @@ type SortField = 'createdAt' | 'userName'
 type SortOrder = 'asc' | 'desc'
 
 export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
+  const t = useTranslations('comments')
+  const locale = useLocale()
   const { isSignedIn, isLoaded } = useUser()
   const { isAdmin, hasSubscriberAccess, isLoaded: userLoaded } = useCurrentUser()
   const fetchWithRetry = useFetchWithRetry()
@@ -204,7 +208,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString)
-    return date.toLocaleDateString('en-US', {
+    return date.toLocaleDateString(locale === 'es' ? 'es-ES' : 'en-US', {
       year: 'numeric',
       month: 'short',
       day: 'numeric',
@@ -217,11 +221,11 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
     <div id="discussion" className="mt-16 border-t border-slate-200 dark:border-slate-700 pt-12 scroll-mt-20">
       <div className="flex items-center justify-between mb-8">
         <h2 className="text-2xl font-bold text-neutral-800 dark:text-slate-100">
-          Discussion {hasSubscriberAccess && pagination && pagination.total > 0 && `(${pagination.total})`}
+          {t('title')} {hasSubscriberAccess && pagination && pagination.total > 0 && `(${pagination.total})`}
         </h2>
         {hasSubscriberAccess && pagination && pagination.total > 0 && (
           <div className="flex items-center gap-2">
-            <span className="text-sm text-neutral-500 dark:text-slate-400">Sort:</span>
+            <span className="text-sm text-neutral-500 dark:text-slate-400">{t('sort')}</span>
             <button
               onClick={() => handleSortChange('createdAt')}
               className={`px-3 py-1 text-sm rounded-lg transition-colors cursor-pointer ${
@@ -230,7 +234,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
                   : 'bg-stone-100 dark:bg-slate-700 text-neutral-600 dark:text-slate-300 hover:bg-stone-200 dark:hover:bg-slate-600'
               }`}
             >
-              Date {sortBy === 'createdAt' && (sortOrder === 'asc' ? '↑' : '↓')}
+              {t('date')} {sortBy === 'createdAt' && (sortOrder === 'asc' ? '↑' : '↓')}
             </button>
           </div>
         )}
@@ -245,22 +249,22 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
             </svg>
           </div>
           <h3 className="text-xl font-bold text-neutral-800 dark:text-slate-100 mb-2">
-            Subscriber-Only Feature
+            {t('subscriberOnly')}
           </h3>
           <p className="text-neutral-600 dark:text-slate-400 mb-6 max-w-md mx-auto">
-            Discussion is exclusively available to subscribers. Subscribe to join the conversation.
+            {t('subscriberOnlyMessage')}
           </p>
           {isSignedIn ? (
-            <a
+            <Link
               href="/subscribe"
               className="inline-flex px-6 py-2.5 bg-violet-600 hover:bg-violet-700 text-white font-medium rounded-xl transition-colors"
             >
-              Subscribe Now
-            </a>
+              {t('subscribeNow')}
+            </Link>
           ) : (
             <SignInButton mode="modal">
               <button className="px-6 py-2.5 bg-violet-600 hover:bg-violet-700 text-white font-medium rounded-xl transition-colors cursor-pointer">
-                Sign In
+                {t('signIn')}
               </button>
             </SignInButton>
           )}
@@ -305,7 +309,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
               <textarea
                 value={newComment}
                 onChange={(e) => setNewComment(e.target.value)}
-                placeholder="Share your thoughts on this deck..."
+                placeholder={t('placeholder')}
                 className="w-full p-4 rounded-xl border border-stone-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-neutral-800 dark:text-slate-100 placeholder-neutral-400 dark:placeholder-slate-500 focus:ring-2 focus:ring-violet-500 focus:border-transparent resize-none"
                 rows={4}
                 maxLength={2000}
@@ -319,18 +323,18 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
                   disabled={!newComment.trim() || isSubmitting}
                   className="px-6 py-2.5 bg-violet-600 hover:bg-violet-700 disabled:bg-stone-300 dark:disabled:bg-slate-600 text-white font-medium rounded-xl transition-colors cursor-pointer disabled:cursor-not-allowed"
                 >
-                  {isSubmitting ? 'Posting...' : 'Post Comment'}
+                  {isSubmitting ? t('posting') : t('postComment')}
                 </button>
               </div>
             </form>
           ) : (
             <div className="p-6 rounded-xl bg-stone-100 dark:bg-slate-800 text-center">
               <p className="text-neutral-600 dark:text-slate-300 mb-4">
-                Sign in to join the discussion
+                {t('signInToComment')}
               </p>
               <SignInButton mode="modal">
                 <button className="px-6 py-2.5 bg-violet-600 hover:bg-violet-700 text-white font-medium rounded-xl transition-colors cursor-pointer">
-                  Sign In
+                  {t('signIn')}
                 </button>
               </SignInButton>
             </div>
@@ -351,7 +355,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
         </div>
       ) : comments.length === 0 ? (
         <p className="text-center text-neutral-500 dark:text-slate-400 py-8">
-          No comments yet. Be the first to share your thoughts!
+          {t('noComments')}
         </p>
       ) : (
         <div className="space-y-6">
@@ -375,7 +379,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
                       </span>
                       {!comment.approved && (
                         <span className="px-2 py-0.5 text-xs font-medium bg-amber-100 dark:bg-amber-800 text-amber-700 dark:text-amber-200 rounded-full" title="Only you can see this comment until an admin approves it">
-                          Pending approval
+                          {t('pendingApproval')}
                         </span>
                       )}
                     </div>
@@ -468,7 +472,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
                     <textarea
                       value={replyContent}
                       onChange={(e) => setReplyContent(e.target.value)}
-                      placeholder="Write your reply..."
+                      placeholder={t('replyPlaceholder')}
                       className="w-full p-3 rounded-lg border border-stone-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-neutral-800 dark:text-slate-100 placeholder-neutral-400 dark:placeholder-slate-500 focus:ring-2 focus:ring-violet-500 focus:border-transparent resize-none text-sm"
                       rows={3}
                       maxLength={2000}
@@ -482,14 +486,14 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
                         }}
                         className="px-4 py-1.5 text-neutral-600 dark:text-slate-400 hover:text-neutral-800 dark:hover:text-slate-100 font-medium rounded-lg transition-colors cursor-pointer"
                       >
-                        Cancel
+                        {t('cancel')}
                       </button>
                       <button
                         onClick={() => handleReply(comment.id)}
                         disabled={!replyContent.trim() || isSubmittingReply}
                         className="px-4 py-1.5 bg-violet-600 hover:bg-violet-700 disabled:bg-stone-300 dark:disabled:bg-slate-600 text-white font-medium rounded-lg transition-colors cursor-pointer disabled:cursor-not-allowed"
                       >
-                        {isSubmittingReply ? 'Posting...' : 'Post Reply'}
+                        {isSubmittingReply ? t('posting') : t('postReply')}
                       </button>
                     </div>
                   </div>
@@ -511,7 +515,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
                               {reply.userName}
                             </span>
                             <span className="px-2 py-0.5 text-xs font-medium bg-violet-200 dark:bg-violet-800 text-violet-700 dark:text-violet-200 rounded-full">
-                              Admin
+                              {t('admin')}
                             </span>
                             <span className="text-sm text-neutral-400 dark:text-slate-500">
                               {formatDate(reply.createdAt)}
@@ -560,17 +564,17 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
             disabled={pagination.page === 1}
             className="px-3 py-1.5 text-sm rounded-lg border border-stone-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-neutral-600 dark:text-slate-300 hover:bg-stone-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            Previous
+            {t('previous')}
           </button>
           <span className="text-sm text-neutral-500 dark:text-slate-400">
-            Page {pagination.page} of {pagination.totalPages}
+            {t('page')} {pagination.page} {t('of')} {pagination.totalPages}
           </span>
           <button
             onClick={() => handlePageChange(pagination.page + 1)}
             disabled={pagination.page === pagination.totalPages}
             className="px-3 py-1.5 text-sm rounded-lg border border-stone-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-neutral-600 dark:text-slate-300 hover:bg-stone-100 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            Next
+            {t('next')}
           </button>
         </div>
       )}

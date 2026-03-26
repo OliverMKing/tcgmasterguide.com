@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback, useRef } from 'react'
+import { useTranslations, useLocale } from 'next-intl'
 import { HistoryEntry, HistoryChange } from '@/generated/deck-history'
 
 interface HistoryModalProps {
@@ -10,23 +11,29 @@ interface HistoryModalProps {
   deckTitle: string
 }
 
-function formatDate(dateString: string): string {
-  const date = new Date(dateString)
-  return date.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-    hour: '2-digit',
-    minute: '2-digit',
-  })
-}
+function useFormatDate() {
+  const locale = useLocale()
+  const dateLocale = locale === 'es' ? 'es-ES' : 'en-US'
 
-function formatDateShort(dateString: string): string {
-  const date = new Date(dateString)
-  return date.toLocaleDateString('en-US', {
-    month: 'short',
-    day: 'numeric',
-  })
+  return {
+    formatDate: (dateString: string): string => {
+      const date = new Date(dateString)
+      return date.toLocaleDateString(dateLocale, {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+      })
+    },
+    formatDateShort: (dateString: string): string => {
+      const date = new Date(dateString)
+      return date.toLocaleDateString(dateLocale, {
+        month: 'short',
+        day: 'numeric',
+      })
+    }
+  }
 }
 
 function ChangeItem({ change }: { change: HistoryChange }) {
@@ -58,6 +65,8 @@ function groupChangesByHeading(changes: HistoryChange[]): Map<string | null, His
 }
 
 export function HistoryModal({ isOpen, onClose, history, deckTitle }: HistoryModalProps) {
+  const t = useTranslations('deck')
+  const { formatDate, formatDateShort } = useFormatDate()
   const [selectedIndex, setSelectedIndex] = useState(0)
   const detailsRef = useRef<HTMLDivElement>(null)
 
@@ -104,7 +113,7 @@ export function HistoryModal({ isOpen, onClose, history, deckTitle }: HistoryMod
         <div className="flex items-center justify-between p-4 sm:p-6 border-b border-slate-200 dark:border-slate-700">
           <div>
             <h2 className="text-lg sm:text-xl font-bold text-slate-900 dark:text-slate-100">
-              Revision History
+              {t('revisionHistory')}
             </h2>
             <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1">
               {deckTitle}
@@ -113,7 +122,7 @@ export function HistoryModal({ isOpen, onClose, history, deckTitle }: HistoryMod
           <button
             onClick={onClose}
             className="p-2 hover:bg-slate-100 dark:hover:bg-slate-700 rounded-lg transition-colors cursor-pointer"
-            aria-label="Close"
+            aria-label={t('close')}
           >
             <svg className="w-5 h-5 text-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -136,7 +145,7 @@ export function HistoryModal({ isOpen, onClose, history, deckTitle }: HistoryMod
               >
                 <div className="flex flex-col items-center gap-0.5">
                   <div className="flex items-center gap-1">
-                    <span>Rev {history.length - index}</span>
+                    <span>{t('rev')} {history.length - index}</span>
                     {index === 0 && (
                       <span className="text-[10px] text-green-600 dark:text-green-400">✓</span>
                     )}
@@ -164,11 +173,11 @@ export function HistoryModal({ isOpen, onClose, history, deckTitle }: HistoryMod
               >
                 <div className="flex items-center gap-2 mb-1">
                   <span className="text-sm font-medium text-slate-900 dark:text-slate-100">
-                    Revision {history.length - index}
+                    {t('revision')} {history.length - index}
                   </span>
                   {index === 0 && (
                     <span className="text-xs bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 px-1.5 py-0.5 rounded">
-                      Current
+                      {t('current')}
                     </span>
                   )}
                 </div>
@@ -193,11 +202,11 @@ export function HistoryModal({ isOpen, onClose, history, deckTitle }: HistoryMod
               <>
                 <div className="mb-4 sm:mb-6">
                   <h3 className="text-base sm:text-lg font-semibold text-slate-900 dark:text-slate-100">
-                    Revision {history.length - selectedIndex}
-                    {selectedIndex === 0 && <span className="text-green-600 dark:text-green-400 text-sm font-normal ml-2">(Current)</span>}
+                    {t('revision')} {history.length - selectedIndex}
+                    {selectedIndex === 0 && <span className="text-green-600 dark:text-green-400 text-sm font-normal ml-2">({t('current')})</span>}
                   </h3>
                   <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1">
-                    {formatDate(selectedEntry.date)} • {selectedEntry.additions} additions, {selectedEntry.deletions} deletions
+                    {formatDate(selectedEntry.date)} • {selectedEntry.additions} {t('additions')}, {selectedEntry.deletions} {t('deletions')}
                   </p>
                 </div>
 
@@ -223,8 +232,8 @@ export function HistoryModal({ isOpen, onClose, history, deckTitle }: HistoryMod
                     <svg className="w-10 h-10 sm:w-12 sm:h-12 mx-auto mb-4 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
-                    <p>No content changes in this revision</p>
-                    <p className="text-sm mt-1">(Metadata-only update)</p>
+                    <p>{t('noChanges')}</p>
+                    <p className="text-sm mt-1">{t('metadataOnly')}</p>
                   </div>
                 )}
               </>

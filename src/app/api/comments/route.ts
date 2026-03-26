@@ -1,15 +1,17 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { auth, currentUser } from '@clerk/nextjs/server'
 import { prisma } from '@/lib/prisma'
-import { isAdmin, hasSubscriberAccess } from '@/lib/user-roles'
+import { isAdmin, hasSubscriberAccessForLocale, type SubscriptionLocale } from '@/lib/user-roles'
 
 type SortField = 'createdAt' | 'userName'
 type SortOrder = 'asc' | 'desc'
 
-// GET /api/comments?deckSlug=xxx or GET /api/comments (all comments for Q&A)
+// GET /api/comments?deckSlug=xxx&locale=en|es or GET /api/comments (all comments for Q&A)
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams
   const deckSlug = searchParams.get('deckSlug')
+  const localeParam = searchParams.get('locale')
+  const locale: SubscriptionLocale = localeParam === 'es' ? 'es' : 'en'
   const page = parseInt(searchParams.get('page') || '1', 10)
   const limit = Math.min(parseInt(searchParams.get('limit') || '15', 10), 15)
   const sortBy = (searchParams.get('sortBy') || 'createdAt') as SortField
@@ -23,15 +25,23 @@ export async function GET(request: NextRequest) {
 
   const { userId } = await auth()
 
-  // Check user role
+  // Check user role and locale-specific access
   let userIsAdmin = false
-  let userHasSubscriberAccess = hasSubscriberAccess(null) // Check if subscription is disabled
+  let userHasSubscriberAccess = false
   if (userId) {
     const dbUser = await prisma.user.findUnique({
       where: { authId: userId },
+      select: {
+        role: true,
+        stripeSubscriptionStatus: true,
+        stripeSubscriptionStatusEs: true,
+      },
     })
     userIsAdmin = isAdmin(dbUser?.role)
-    userHasSubscriberAccess = hasSubscriberAccess(dbUser?.role)
+    userHasSubscriberAccess = hasSubscriberAccessForLocale(dbUser, locale)
+  } else {
+    // Check if subscription is disabled globally
+    userHasSubscriberAccess = hasSubscriberAccessForLocale(null, locale)
   }
 
   // Only subscribers can access comments
@@ -52,6 +62,8 @@ export async function GET(request: NextRequest) {
   const whereClause = {
     // Only top-level comments (parentId is null)
     parentId: null,
+    // Filter by locale
+    locale: locale,
     // Deck filter
     ...deckFilter,
     // Admins see all, users see approved + their own pending
@@ -111,23 +123,29 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: 'User not found' }, { status: 401 })
   }
 
-  // Check if user has subscriber access
-  const dbUser = await prisma.user.findUnique({
-    where: { authId: userId },
-  })
-
-  if (!hasSubscriberAccess(dbUser?.role)) {
-    return NextResponse.json(
-      { error: 'Subscription required to post comments' },
-      { status: 403 }
-    )
-  }
-
-  const userIsAdmin = isAdmin(dbUser?.role)
-
   try {
     const body = await request.json()
-    const { deckSlug, deckTitle, content, parentId } = body
+    const { deckSlug, deckTitle, content, parentId, locale: localeParam } = body
+    const locale: SubscriptionLocale = localeParam === 'es' ? 'es' : 'en'
+
+    // Check if user has subscriber access for this locale
+    const dbUser = await prisma.user.findUnique({
+      where: { authId: userId },
+      select: {
+        role: true,
+        stripeSubscriptionStatus: true,
+        stripeSubscriptionStatusEs: true,
+      },
+    })
+
+    if (!hasSubscriberAccessForLocale(dbUser, locale)) {
+      return NextResponse.json(
+        { error: 'Subscription required to post comments' },
+        { status: 403 }
+      )
+    }
+
+    const userIsAdmin = isAdmin(dbUser?.role)
 
     if (!content) {
       return NextResponse.json(
@@ -180,6 +198,7 @@ export async function POST(request: NextRequest) {
         deckSlug: deckSlug || null,
         deckTitle: deckTitle || null,
         content: content.trim(),
+        locale,
         userId,
         userName,
         approved: userIsAdmin,

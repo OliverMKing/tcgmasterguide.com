@@ -1,4 +1,5 @@
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
+import { setRequestLocale, getTranslations } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import fs from 'fs'
 import path from 'path'
@@ -69,7 +70,28 @@ function getPokemonSprite(pokedexId: number): string {
   return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokedexId}.png`
 }
 
-function getDeckMetadata(slug: string) {
+function getDeckMetadata(slug: string, locale: string = 'en') {
+  // For Spanish locale, only return Spanish content (no fallback to English)
+  if (locale === 'es') {
+    const esFilePath = path.join(process.cwd(), 'content', 'decks', 'es', `${slug}.md`)
+    if (!fs.existsSync(esFilePath)) {
+      return null // Spanish deck doesn't exist - will trigger 404
+    }
+    try {
+      const fileContent = fs.readFileSync(esFilePath, 'utf8')
+      const { data, content } = matter(fileContent)
+      return {
+        title: data.title,
+        pokemon: (data.pokemon as number[]) || [],
+        tier: (data.tier as number) || 3,
+        headings: extractHeadings(content),
+      }
+    } catch {
+      return null
+    }
+  }
+
+  // English locale
   try {
     const filePath = path.join(process.cwd(), 'content', 'decks', `${slug}.md`)
     const fileContent = fs.readFileSync(filePath, 'utf8')
@@ -135,9 +157,12 @@ export async function generateMetadata({
   }
 }
 
-export default async function DeckPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params
-  const deck = getDeckMetadata(slug)
+export default async function DeckPage({ params }: { params: Promise<{ slug: string; locale: string }> }) {
+  const { slug, locale } = await params
+  setRequestLocale(locale)
+
+  const t = await getTranslations('deck')
+  const deck = getDeckMetadata(slug, locale)
 
   if (!deck) {
     notFound()
@@ -158,7 +183,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            Back to Guides
+            {t('backToGuides')}
           </Link>
         </div>
       </div>
@@ -190,7 +215,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
           </div>
           {lastEdited && (
             <div className="text-sm text-slate-500 dark:text-slate-400">
-              <LocalDate timestamp={lastEdited} prefix="Last updated " />
+              <LocalDate timestamp={lastEdited} prefixKey="deck.lastUpdated" />
             </div>
           )}
         </header>

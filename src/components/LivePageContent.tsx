@@ -1,7 +1,8 @@
 'use client'
 
 import { useState, useCallback } from 'react'
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
+import { useTranslations } from 'next-intl'
 import TwitchEmbed, { type StreamStatus } from '@/components/TwitchEmbed'
 
 interface LivePageContentProps {
@@ -9,6 +10,7 @@ interface LivePageContentProps {
 }
 
 export default function LivePageContent({ channel }: LivePageContentProps) {
+  const t = useTranslations('live')
   const [streamStatus, setStreamStatus] = useState<StreamStatus>('loading')
 
   const handleStatusChange = useCallback((status: StreamStatus) => {
@@ -30,21 +32,17 @@ export default function LivePageContent({ channel }: LivePageContentProps) {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="text-center sm:text-left">
               <h2 className="text-xl md:text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-1">
-                {isLive
-                  ? 'Want to learn these strategies?'
-                  : 'In the meantime, learn his winning strategies'}
+                {isLive ? t('ctaTitleLive') : t('ctaTitleOffline')}
               </h2>
               <p className="text-neutral-600 dark:text-slate-300">
-                {isLive
-                  ? 'Check out our in-depth deck guides'
-                  : 'Everything you need to know to win at every level of competitive play'}
+                {isLive ? t('ctaDescLive') : t('ctaDescOffline')}
               </p>
             </div>
             <Link
               href="/#decks"
               className="shrink-0 px-6 py-2.5 bg-violet-600 hover:bg-violet-700 text-white font-medium rounded-xl transition-colors"
             >
-              View Deck Guides
+              {t('viewDeckGuides')}
             </Link>
           </div>
         </div>

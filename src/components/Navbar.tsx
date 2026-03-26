@@ -1,8 +1,8 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
-import Link from 'next/link'
-import { usePathname, useRouter } from 'next/navigation'
+import { Link, usePathname, useRouter } from '@/i18n/navigation'
+import { useTranslations } from 'next-intl'
 import { ThemeToggle } from './ThemeToggle'
 import {
   SignInButton,
@@ -13,6 +13,7 @@ import {
 import { useCurrentUser } from '@/hooks/useCurrentUser'
 
 export default function Navbar() {
+  const t = useTranslations('nav')
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const pathname = usePathname()
   const router = useRouter()
@@ -96,7 +97,7 @@ export default function Navbar() {
                   : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50'
               }`}
             >
-              About
+              {t('about')}
             </Link>
             <Link
               href="/subscribe"
@@ -106,13 +107,13 @@ export default function Navbar() {
                   : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50'
               }`}
             >
-              {hasSubscriberAccess ? 'Subscription' : 'Subscribe'}
+              {t('subscribe')}
             </Link>
             <button
               onClick={handleDecksClick}
               className="relative text-base text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50 px-4 py-2 rounded-xl transition-all duration-200 cursor-pointer"
             >
-              Decks
+              {t('decks')}
             </button>
             <Link
               href="/qa"
@@ -122,7 +123,7 @@ export default function Navbar() {
                   : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50'
               }`}
             >
-              Q&A
+              {t('qa')}
             </Link>
             {isAdmin && (
               <Link
@@ -133,7 +134,7 @@ export default function Navbar() {
                     : 'text-violet-500 dark:text-violet-400 hover:text-violet-600 dark:hover:text-violet-300 hover:bg-violet-50 dark:hover:bg-violet-900/30'
                 }`}
               >
-                Admin
+                {t('admin')}
               </Link>
             )}
             <div className="w-px h-6 bg-stone-200 dark:bg-neutral-700 mx-2" />
@@ -141,7 +142,7 @@ export default function Navbar() {
             <SignedOut>
               <SignInButton mode="modal">
                 <button className="text-base bg-gradient-to-r from-violet-500 to-purple-500 hover:from-violet-600 hover:to-purple-600 text-white px-4 py-2 rounded-xl transition-all duration-300 cursor-pointer shadow-md shadow-violet-500/15 hover:shadow-lg hover:shadow-violet-500/25">
-                  Sign In
+                  {t('signIn')}
                 </button>
               </SignInButton>
             </SignedOut>
@@ -162,7 +163,7 @@ export default function Navbar() {
             <SignedOut>
               <SignInButton mode="modal">
                 <button className="text-sm bg-gradient-to-r from-violet-500 to-purple-500 hover:from-violet-600 hover:to-purple-600 text-white px-3 py-1.5 rounded-xl transition-all duration-300 cursor-pointer shadow-md shadow-violet-500/15 whitespace-nowrap">
-                  Sign In
+                  {t('signIn')}
                 </button>
               </SignInButton>
             </SignedOut>
@@ -205,7 +206,7 @@ export default function Navbar() {
                   : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50'
               }`}
             >
-              Home
+              {t('home')}
             </Link>
             <Link
               href="/about"
@@ -216,7 +217,7 @@ export default function Navbar() {
                   : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50'
               }`}
             >
-              About
+              {t('about')}
             </Link>
             <Link
               href="/subscribe"
@@ -227,7 +228,7 @@ export default function Navbar() {
                   : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50'
               }`}
             >
-              {hasSubscriberAccess ? 'Subscription' : 'Subscribe'}
+              {t('subscribe')}
             </Link>
             <button
               onClick={() => {
@@ -237,7 +238,7 @@ export default function Navbar() {
               }}
               className="block w-full text-left py-2.5 px-4 rounded-xl text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50 transition-all duration-200 cursor-pointer"
             >
-              Decks
+              {t('decks')}
             </button>
             <Link
               href="/qa"
@@ -248,7 +249,7 @@ export default function Navbar() {
                   : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-neutral-700/50'
               }`}
             >
-              Questions and Answers
+              {t('qa')}
             </Link>
             {isAdmin && (
               <Link
@@ -260,7 +261,7 @@ export default function Navbar() {
                     : 'text-violet-500 dark:text-violet-400 hover:text-violet-600 dark:hover:text-violet-300 hover:bg-violet-50 dark:hover:bg-violet-900/30'
                 }`}
               >
-                Admin
+                {t('admin')}
               </Link>
             )}
           </div>

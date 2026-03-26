@@ -1,9 +1,11 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
+import { useTranslations } from 'next-intl'
 
 export default function LiveBanner({ channel }: { channel: string }) {
+  const t = useTranslations('live')
   const [isLive, setIsLive] = useState(false)
 
   useEffect(() => {
@@ -34,10 +36,10 @@ export default function LiveBanner({ channel }: { channel: string }) {
       <div className="flex items-center justify-center gap-3 flex-wrap">
         <span className="flex items-center gap-2">
           <span className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse" />
-          <span className="text-red-600 dark:text-red-400 font-semibold">Live Now</span>
+          <span className="text-red-600 dark:text-red-400 font-semibold">{t('liveNow')}</span>
         </span>
         <span className="text-neutral-600 dark:text-slate-300">
-          Grant is streaming on Twitch
+          {t('streaming')}
         </span>
         <span className="w-8 h-8 rounded-full bg-red-100 dark:bg-red-900/40 flex items-center justify-center">
           <svg

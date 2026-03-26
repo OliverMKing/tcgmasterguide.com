@@ -1,22 +1,27 @@
-import Link from 'next/link'
+'use client'
+
+import { Link } from '@/i18n/navigation'
+import { useTranslations } from 'next-intl'
 import { SignInButton, SignedIn, SignedOut } from '@clerk/nextjs'
 
 export function LockedSection() {
+  const t = useTranslations('locked')
+
   return (
     <div className="my-12 relative">
       {/* Blurred teaser content */}
       <div className="blur-sm select-none pointer-events-none opacity-40 mb-8">
         <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
-          Detailed Strategy Guide
+          {t('teaserTitle1')}
         </h3>
         <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
-          Master the intricacies of this deck with in-depth gameplay tips, optimal sequencing, and advanced techniques used by top players...
+          {t('teaserText1')}
         </p>
         <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
-          Matchup Analysis
+          {t('teaserTitle2')}
         </h3>
         <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-          Learn how to navigate every matchup in the current meta with specific strategies, key cards to watch for, and winning lines of play...
+          {t('teaserText2')}
         </p>
       </div>
 
@@ -28,16 +33,16 @@ export function LockedSection() {
           </svg>
         </div>
         <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-2">
-          Unlock the Full Guide
+          {t('title')}
         </h3>
         <p className="text-slate-600 dark:text-slate-400 mb-6">
-          Subscribe to access detailed gameplay strategies, complete matchup breakdowns, video examples, and expert analysis.
+          {t('message')}
         </p>
 
         <SignedOut>
           <SignInButton mode="modal">
             <button className="w-full bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white font-semibold px-6 py-3 rounded-xl hover:from-purple-700 hover:to-fuchsia-700 transition-all shadow-lg shadow-purple-500/25 cursor-pointer mb-3">
-              Sign In to Subscribe
+              {t('signInButton')}
             </button>
           </SignInButton>
         </SignedOut>
@@ -47,12 +52,12 @@ export function LockedSection() {
             href="/subscribe"
             className="block w-full bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white font-semibold px-6 py-3 rounded-xl hover:from-purple-700 hover:to-fuchsia-700 transition-all shadow-lg shadow-purple-500/25 mb-3"
           >
-            Subscribe Now
+            {t('subscribeButton')}
           </Link>
         </SignedIn>
 
         <p className="text-sm text-slate-500 dark:text-slate-400">
-          Get unlimited access to all premium guides
+          {t('unlimitedAccess')}
         </p>
       </div>
     </div>

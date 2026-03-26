@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
 import { SignInButton, SignedIn, SignedOut } from '@clerk/nextjs'
 
 interface TocItem {

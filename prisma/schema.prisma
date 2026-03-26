@@ -12,17 +12,22 @@ datasource db {
 
 // UserRole values: "USER" | "ADMIN" | "SUBSCRIBER"
 model User {
-  id                     String    @id @default(cuid())
-  authId                 String    @unique @map("auth_id") // External auth provider ID (e.g., Clerk, Auth0)
-  email                  String?   @unique
-  name                   String?
-  role                   String    @default("USER") // USER, ADMIN, SUBSCRIBER
-  stripeCustomerId       String?   @map("stripe_customer_id")
-  stripeSubscriptionId   String?   @map("stripe_subscription_id")
-  stripeSubscriptionStatus String? @map("stripe_subscription_status") // active, canceled, past_due, etc.
-  subscriptionEndsAt     DateTime? @map("subscription_ends_at")
-  createdAt              DateTime  @default(now()) @map("created_at")
-  updatedAt              DateTime  @updatedAt @map("updated_at")
+  id                       String    @id @default(cuid())
+  authId                   String    @unique @map("auth_id") // External auth provider ID (e.g., Clerk, Auth0)
+  email                    String?   @unique
+  name                     String?
+  role                     String    @default("USER") // USER, ADMIN, SUBSCRIBER
+  stripeCustomerId         String?   @map("stripe_customer_id")
+  // English subscription (existing fields unchanged)
+  stripeSubscriptionId     String?   @map("stripe_subscription_id")
+  stripeSubscriptionStatus String?   @map("stripe_subscription_status") // active, canceled, past_due, etc.
+  subscriptionEndsAt       DateTime? @map("subscription_ends_at")
+  // Spanish subscription (new fields)
+  stripeSubscriptionIdEs     String?   @map("stripe_subscription_id_es")
+  stripeSubscriptionStatusEs String?   @map("stripe_subscription_status_es")
+  subscriptionEndsAtEs       DateTime? @map("subscription_ends_at_es")
+  createdAt                DateTime  @default(now()) @map("created_at")
+  updatedAt                DateTime  @updatedAt @map("updated_at")
 
   @@map("users")
 }
@@ -32,6 +37,7 @@ model Comment {
   content   String
   deckSlug  String?  @map("deck_slug") // null means "Other"
   deckTitle String?  @map("deck_title") // null means "Other"
+  locale    String   @default("en") // "en" or "es"
   userId    String   @map("user_id")
   userName  String   @map("user_name")
   approved  Boolean  @default(false)
@@ -46,6 +52,7 @@ model Comment {
   @@index([userId])
   @@index([approved])
   @@index([parentId])
+  @@index([locale])
   @@map("comments")
 }
 

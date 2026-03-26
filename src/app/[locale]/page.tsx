@@ -1,4 +1,5 @@
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
+import { setRequestLocale, getTranslations } from 'next-intl/server'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
@@ -22,8 +23,24 @@ interface Deck {
   tier: number
 }
 
-function getAllDecks(): Deck[] {
-  const decksDirectory = path.join(process.cwd(), 'content', 'decks')
+type Locale = 'en' | 'es'
+
+function getAllDecks(locale: Locale): Deck[] {
+  // Try locale-specific directory first (for Spanish: content/decks/es)
+  // Fall back to English decks if locale directory doesn't exist or is empty
+  let decksDirectory = path.join(process.cwd(), 'content', 'decks')
+
+  if (locale === 'es') {
+    const esDirectory = path.join(process.cwd(), 'content', 'decks', 'es')
+    if (fs.existsSync(esDirectory)) {
+      const esFiles = fs.readdirSync(esDirectory).filter(f => f.endsWith('.md'))
+      if (esFiles.length > 0) {
+        decksDirectory = esDirectory
+      }
+    }
+    // If no Spanish decks, fall back to English (decksDirectory stays as default)
+  }
+
   const filenames = fs.readdirSync(decksDirectory)
 
   const decks = filenames
@@ -105,17 +122,31 @@ function DeckCard({ deck }: { deck: Deck }) {
       </div>
       {lastEdited && (
         <p className="relative text-sm text-stone-400 dark:text-slate-500 mt-3">
-          <LocalDate timestamp={lastEdited} prefix="Updated " />
+          <LocalDate timestamp={lastEdited} prefixKey="home.updated" />
         </p>
       )}
     </Link>
   )
 }
 
-export default function Home() {
-  const decks = getAllDecks()
+export default async function Home({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
+  setRequestLocale(locale)
+
+  const t = await getTranslations('home')
+  const decks = getAllDecks(locale as Locale)
   const decksByTier = getDecksByTier(decks)
   const sortedTiers = Array.from(decksByTier.keys()).sort((a, b) => a - b)
+
+  const tierLabelsTranslated: Record<number, string> = {
+    1: t('tier1'),
+    2: t('tier2'),
+    3: t('tier3'),
+  }
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-stone-50 to-white dark:from-slate-900 dark:to-slate-800 relative">
@@ -137,10 +168,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 relative">
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-violet-600 via-purple-500 to-violet-600 dark:from-violet-400 dark:via-purple-400 dark:to-violet-400 bg-clip-text text-transparent mb-6 animate-gradient bg-[length:200%_auto]">
-              TCG Master Guide
+              {t('title')}
             </h1>
             <p className="text-lg text-neutral-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed">
-              In-depth Pokemon Trading Card Game deck guides by <span className="font-semibold text-violet-600 dark:text-violet-400">Grant Manley</span>, former world #1 ranked player. Constantly updated to keep you ahead of the meta.
+              {t.rich('subtitle', {
+                author: (chunks) => <span className="font-semibold text-violet-600 dark:text-violet-400">{chunks}</span>
+              })}
             </p>
 
             {/* Decorative divider */}
@@ -159,7 +192,7 @@ export default function Home() {
         <div className="absolute top-0 right-0 w-96 h-96 bg-violet-100/40 dark:bg-violet-900/20 rounded-full blur-3xl -z-10" />
 
         <h2 className="text-3xl font-bold text-neutral-800 dark:text-slate-100 mb-10">
-          Decks
+          {t('decksTitle')}
         </h2>
 
         <div className="space-y-12">
@@ -167,7 +200,7 @@ export default function Home() {
             <div key={tier}>
               <div className="flex items-center gap-3 mb-6">
                 <span className={`${tierColors[tier]} text-sm font-medium px-3 py-1 rounded-lg`}>
-                  {tierLabels[tier]}
+                  {tierLabelsTranslated[tier]}
                 </span>
                 <div className="h-px flex-1 bg-gradient-to-r from-stone-200 dark:from-slate-700 to-transparent" />
               </div>

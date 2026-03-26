@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
 import { clearUserCache, useCurrentUser } from '@/hooks/useCurrentUser'
 
 const MAX_POLL_ATTEMPTS = 10

@@ -1,4 +1,11 @@
+'use client'
+
+import { useTranslations } from 'next-intl'
+import { LocaleSwitcher } from './LocaleSwitcher'
+
 export default function Footer() {
+  const t = useTranslations('footer')
+
   return (
     <footer className="bg-white dark:bg-slate-800 border-t border-stone-200 dark:border-slate-700 relative overflow-hidden">
       {/* Subtle gradient accent */}
@@ -12,7 +19,7 @@ export default function Footer() {
               TCG Master Guide
             </span>
             <p className="text-sm text-neutral-500 dark:text-neutral-400 mt-1">
-              Expert deck guides by Grant Manley
+              {t('tagline')}
             </p>
           </div>
 
@@ -32,7 +39,7 @@ export default function Footer() {
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
-              <span className="text-sm font-medium">Email</span>
+              <span className="text-sm font-medium">{t('email')}</span>
             </a>
             <a
               href="https://x.com/Tricroar"
@@ -58,10 +65,13 @@ export default function Footer() {
             </a>
           </div>
 
-          {/* Copyright */}
-          <p className="text-xs text-neutral-400 dark:text-neutral-500">
-            {new Date().getFullYear()} tcgmasterguide.com
-          </p>
+          {/* Language Switcher and Copyright */}
+          <div className="flex flex-col items-center gap-3">
+            <LocaleSwitcher />
+            <p className="text-xs text-neutral-400 dark:text-neutral-500">
+              {new Date().getFullYear()} tcgmasterguide.com
+            </p>
+          </div>
         </div>
       </div>
     </footer>

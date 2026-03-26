@@ -1,4 +1,4 @@
-import { NextResponse } from 'next/server'
+import { NextResponse, type NextRequest } from 'next/server'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
@@ -8,10 +8,31 @@ interface Deck {
   title: string
 }
 
+type Locale = 'en' | 'es'
+
+function getDecksDirectory(locale: Locale): string {
+  if (locale === 'es') {
+    return path.join(process.cwd(), 'content', 'decks', 'es')
+  }
+  return path.join(process.cwd(), 'content', 'decks')
+}
+
 // GET /api/decks - Get list of all decks (slug and title only)
-export async function GET() {
+// Query params: ?locale=en|es (defaults to 'en')
+export async function GET(request: NextRequest) {
   try {
-    const decksDirectory = path.join(process.cwd(), 'content', 'decks')
+    const searchParams = request.nextUrl.searchParams
+    const localeParam = searchParams.get('locale')
+    const locale: Locale = localeParam === 'es' ? 'es' : 'en'
+
+    const decksDirectory = getDecksDirectory(locale)
+
+    // Check if directory exists
+    if (!fs.existsSync(decksDirectory)) {
+      // Return empty array if no Spanish decks yet
+      return NextResponse.json([])
+    }
+
     const filenames = fs.readdirSync(decksDirectory)
 
     const decks: Deck[] = filenames

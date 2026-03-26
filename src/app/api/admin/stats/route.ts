@@ -21,11 +21,40 @@ export async function GET() {
   }
 
   try {
-    const [totalUsers, adminCount, subscriberCount, userCount] = await Promise.all([
+    const [
+      totalUsers,
+      adminCount,
+      subscriberCount,
+      userCount,
+      englishOnlySubscribers,
+      spanishOnlySubscribers,
+      bothLanguageSubscribers,
+    ] = await Promise.all([
       prisma.user.count(),
       prisma.user.count({ where: { role: UserRole.ADMIN } }),
       prisma.user.count({ where: { role: UserRole.SUBSCRIBER } }),
       prisma.user.count({ where: { role: UserRole.USER } }),
+      // English only: has active English sub but NOT active Spanish sub
+      prisma.user.count({
+        where: {
+          stripeSubscriptionStatus: 'active',
+          NOT: { stripeSubscriptionStatusEs: 'active' },
+        },
+      }),
+      // Spanish only: has active Spanish sub but NOT active English sub
+      prisma.user.count({
+        where: {
+          stripeSubscriptionStatusEs: 'active',
+          NOT: { stripeSubscriptionStatus: 'active' },
+        },
+      }),
+      // Both: has both active
+      prisma.user.count({
+        where: {
+          stripeSubscriptionStatus: 'active',
+          stripeSubscriptionStatusEs: 'active',
+        },
+      }),
     ])
 
     return NextResponse.json({
@@ -34,6 +63,12 @@ export async function GET() {
         [UserRole.ADMIN]: adminCount,
         [UserRole.SUBSCRIBER]: subscriberCount,
         [UserRole.USER]: userCount,
+      },
+      subscribersByLanguage: {
+        englishOnly: englishOnlySubscribers,
+        spanishOnly: spanishOnlySubscribers,
+        both: bothLanguageSubscribers,
+        total: englishOnlySubscribers + spanishOnlySubscribers + bothLanguageSubscribers,
       },
     })
   } catch (error) {

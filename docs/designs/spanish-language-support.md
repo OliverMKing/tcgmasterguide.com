@@ -1,5 +1,27 @@
 # Spanish Language Support Design
 
+## Implementation Status
+
+✅ **IMPLEMENTED** - Core infrastructure complete. Ready for Spanish content and incremental UI translation.
+
+### What's Done:
+- Database schema with Spanish subscription fields
+- Stripe multi-price support (STRIPE_PRICE_ID_ES)
+- Locale-aware access control
+- Stripe webhooks handling locale
+- next-intl framework with [locale] routing
+- Language switcher in footer with auto-detection
+- Q&A separated by locale
+- Admin dashboard with English/Spanish subscriber counts
+- Spanish deck content directory (content/decks/es/)
+
+### What's Left (Incremental):
+- Translate UI components to use `useTranslations` hook (can be done as Spanish content is added)
+- Add Spanish deck content files to content/decks/es/
+- Create Spanish Stripe product in dashboard
+
+---
+
 ## Context
 
 This design adds Spanish language support to TCG Master Guide with **separate paid subscriptions** for each language. Key requirements:
