@@ -262,7 +262,7 @@ This section is only visible to subscribers.
 
 ### Example Structure
 
-```markdown
+````markdown
 ---
 title: "My Deck"
 pokemon: [25]
@@ -290,7 +290,7 @@ Here's the in-depth strategy...
 ### Charizard - Favorable
 Detailed matchup analysis...
 <!-- /PREMIUM -->
-```
+````
 
 ### What Non-Subscribers See
 
@@ -363,7 +363,7 @@ The `./images/` path works from both `content/decks/` and `content/decks/es/` be
 
 ### Example Spanish Deck File
 
-```markdown
+````markdown
 ---
 title: "Charizard / Pidgeot"
 pokemon: [6, 18]
@@ -394,7 +394,7 @@ Aquí está la estrategia en profundidad...
 ### Gholdengo - Favorable
 Análisis detallado del enfrentamiento...
 <!-- /PREMIUM -->
-```
+````
 
 ### Checklist for Spanish Decks
 
