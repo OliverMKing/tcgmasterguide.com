@@ -16,6 +16,8 @@
     "tier1": "Nivel 1",
     "tier2": "Nivel 2",
     "tier3": "Nivel 3",
+    "formatStandard": "Estándar",
+    "formatPostRotation": "Post-Rotación",
     "updated": "Actualizado"
   },
   "about": {

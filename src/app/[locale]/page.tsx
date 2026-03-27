@@ -16,11 +16,14 @@ function getPokemonSprite(pokedexId: number): string {
   return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokedexId}.png`
 }
 
+type DeckFormat = 'Standard' | 'Post-Rotation'
+
 interface Deck {
   id: string
   title: string
   pokemon: number[]
   tier: number
+  format: DeckFormat
 }
 
 type Locale = 'en' | 'es'
@@ -56,6 +59,7 @@ function getAllDecks(locale: Locale): Deck[] {
         title: data.title || slug,
         pokemon: (data.pokemon as number[]) || [],
         tier: (data.tier as number) || 3,
+        format: (data.format as DeckFormat) || 'Standard',
       }
     })
 
@@ -75,6 +79,22 @@ function getDecksByTier(decks: Deck[]): Map<number, Deck[]> {
 
   return tierMap
 }
+
+function getDecksByFormat(decks: Deck[]): Map<DeckFormat, Deck[]> {
+  const formatMap = new Map<DeckFormat, Deck[]>()
+
+  decks.forEach((deck) => {
+    const format = deck.format
+    if (!formatMap.has(format)) {
+      formatMap.set(format, [])
+    }
+    formatMap.get(format)!.push(deck)
+  })
+
+  return formatMap
+}
+
+const formatOrder: DeckFormat[] = ['Standard', 'Post-Rotation']
 
 const tierLabels: Record<number, string> = {
   1: 'Tier 1',
@@ -139,13 +159,17 @@ export default async function Home({
 
   const t = await getTranslations('home')
   const decks = getAllDecks(locale as Locale)
-  const decksByTier = getDecksByTier(decks)
-  const sortedTiers = Array.from(decksByTier.keys()).sort((a, b) => a - b)
+  const decksByFormat = getDecksByFormat(decks)
 
   const tierLabelsTranslated: Record<number, string> = {
     1: t('tier1'),
     2: t('tier2'),
     3: t('tier3'),
+  }
+
+  const formatLabelsTranslated: Record<DeckFormat, string> = {
+    'Standard': t('formatStandard'),
+    'Post-Rotation': t('formatPostRotation'),
   }
 
   return (
@@ -195,22 +219,43 @@ export default async function Home({
           {t('decksTitle')}
         </h2>
 
-        <div className="space-y-12">
-          {sortedTiers.map((tier) => (
-            <div key={tier}>
-              <div className="flex items-center gap-3 mb-6">
-                <span className={`${tierColors[tier]} text-sm font-medium px-3 py-1 rounded-lg`}>
-                  {tierLabelsTranslated[tier]}
-                </span>
-                <div className="h-px flex-1 bg-gradient-to-r from-stone-200 dark:from-slate-700 to-transparent" />
+        <div className="space-y-16">
+          {formatOrder.map((format) => {
+            const formatDecks = decksByFormat.get(format)
+            if (!formatDecks || formatDecks.length === 0) return null
+
+            const decksByTier = getDecksByTier(formatDecks)
+            const sortedTiers = Array.from(decksByTier.keys()).sort((a, b) => a - b)
+
+            return (
+              <div key={format}>
+                {/* Format Header */}
+                <div className="mb-8">
+                  <h3 className="text-2xl font-medium text-neutral-800 dark:text-slate-100">
+                    {formatLabelsTranslated[format]}
+                  </h3>
+                </div>
+
+                <div className="space-y-12">
+                  {sortedTiers.map((tier) => (
+                    <div key={tier}>
+                      <div className="flex items-center gap-3 mb-6">
+                        <span className={`${tierColors[tier]} text-sm font-medium px-3 py-1 rounded-lg`}>
+                          {tierLabelsTranslated[tier]}
+                        </span>
+                        <div className="h-px flex-1 bg-gradient-to-r from-stone-200 dark:from-slate-700 to-transparent" />
+                      </div>
+                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                        {decksByTier.get(tier)!.map((deck) => (
+                          <DeckCard key={deck.id} deck={deck} />
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                {decksByTier.get(tier)!.map((deck) => (
-                  <DeckCard key={deck.id} deck={deck} />
-                ))}
-              </div>
-            </div>
-          ))}
+            )
+          })}
         </div>
 
         <LiveBanner channel="tricroar" />

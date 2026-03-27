@@ -70,6 +70,8 @@ function getPokemonSprite(pokedexId: number): string {
   return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokedexId}.png`
 }
 
+type DeckFormat = 'Standard' | 'Post-Rotation'
+
 function getDeckMetadata(slug: string, locale: string = 'en') {
   // For Spanish locale, only return Spanish content (no fallback to English)
   if (locale === 'es') {
@@ -84,6 +86,7 @@ function getDeckMetadata(slug: string, locale: string = 'en') {
         title: data.title,
         pokemon: (data.pokemon as number[]) || [],
         tier: (data.tier as number) || 3,
+        format: (data.format as DeckFormat) || 'Standard',
         headings: extractHeadings(content),
       }
     } catch {
@@ -100,6 +103,7 @@ function getDeckMetadata(slug: string, locale: string = 'en') {
       title: data.title,
       pokemon: (data.pokemon as number[]) || [],
       tier: (data.tier as number) || 3,
+      format: (data.format as DeckFormat) || 'Standard',
       headings: extractHeadings(content),
     }
   } catch {
@@ -107,16 +111,15 @@ function getDeckMetadata(slug: string, locale: string = 'en') {
   }
 }
 
-const tierLabels: Record<number, string> = {
-  1: 'Tier 1',
-  2: 'Tier 2',
-  3: 'Tier 3',
-}
-
 const tierColors: Record<number, string> = {
   1: 'bg-amber-100 text-amber-700 dark:bg-yellow-900/40 dark:text-yellow-300',
   2: 'bg-slate-200 text-slate-700 dark:bg-slate-600/50 dark:text-slate-200',
   3: 'bg-orange-100 text-orange-700 dark:bg-orange-900/40 dark:text-orange-300',
+}
+
+const formatColors: Record<DeckFormat, string> = {
+  'Standard': 'bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300',
+  'Post-Rotation': 'bg-violet-100 text-violet-700 dark:bg-violet-900/40 dark:text-violet-300',
 }
 
 export function generateStaticParams() {
@@ -162,6 +165,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
   setRequestLocale(locale)
 
   const t = await getTranslations('deck')
+  const tHome = await getTranslations('home')
   const deck = getDeckMetadata(slug, locale)
 
   if (!deck) {
@@ -170,6 +174,17 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
 
   const history = deckHistory[slug] || []
   const lastEdited = deckDates[slug] || null
+
+  const tierLabelsTranslated: Record<number, string> = {
+    1: tHome('tier1'),
+    2: tHome('tier2'),
+    3: tHome('tier3'),
+  }
+
+  const formatLabelsTranslated: Record<DeckFormat, string> = {
+    'Standard': tHome('formatStandard'),
+    'Post-Rotation': tHome('formatPostRotation'),
+  }
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800">
@@ -209,8 +224,11 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
             )}
           </div>
           <div className="flex items-center gap-3 mb-3">
+            <span className={`${formatColors[deck.format]} text-sm font-medium px-3 py-1 rounded-lg`}>
+              {formatLabelsTranslated[deck.format]}
+            </span>
             <span className={`${tierColors[deck.tier]} text-sm font-medium px-3 py-1 rounded-lg`}>
-              {tierLabels[deck.tier]}
+              {tierLabelsTranslated[deck.tier]}
             </span>
           </div>
           {lastEdited && (

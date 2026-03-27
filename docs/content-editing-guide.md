@@ -84,6 +84,7 @@ Every deck file must start with metadata between `---` marks:
 title: "Deck Name Here"
 pokemon: [25, 6]
 tier: 1
+format: "Standard"
 ---
 ```
 
@@ -94,6 +95,13 @@ tier: 1
 | `title` | Yes | The display name of the deck (e.g., "Charizard / Pidgeot") |
 | `pokemon` | Yes | Array of Pokédex numbers for the Pokemon representing the deck |
 | `tier` | Yes | Tier ranking (1, 2, or 3). Tier 1 = top meta decks, Tier 2 = competitive, Tier 3 = viable |
+| `format` | Yes | The format the deck is for. Must be either `"Standard"` or `"Post-Rotation"` |
+
+**Format values:**
+- `"Standard"` - For decks legal in the current Standard format
+- `"Post-Rotation"` - For decks built for the upcoming post-rotation format
+
+On the main page, decks are grouped by format first (Standard decks shown first, then Post-Rotation), and within each format they are organized by tier.
 
 ### 3. Find Pokemon Numbers
 
@@ -267,6 +275,7 @@ This section is only visible to subscribers.
 title: "My Deck"
 pokemon: [25]
 tier: 1
+format: "Standard"
 ---
 
 <!-- PUBLIC -->
@@ -335,10 +344,11 @@ content/
    title: "Charizard / Pidgeot"
    pokemon: [6, 18]
    tier: 1
+   format: "Standard"
    ---
    ```
    - The `title` can be translated or kept the same (Pokemon names are often kept in English)
-   - `pokemon` and `tier` should match the English version
+   - `pokemon`, `tier`, and `format` should match the English version
 
 4. **Write the Spanish content**:
    - Translate the deck guide content into Spanish
@@ -368,6 +378,7 @@ The `./images/` path works from both `content/decks/` and `content/decks/es/` be
 title: "Charizard / Pidgeot"
 pokemon: [6, 18]
 tier: 1
+format: "Standard"
 ---
 
 <!-- PUBLIC -->
@@ -400,7 +411,7 @@ Análisis detallado del enfrentamiento...
 
 - [ ] File is in `content/decks/es/` directory
 - [ ] Filename matches the English version exactly
-- [ ] Metadata includes `title`, `pokemon`, and `tier`
+- [ ] Metadata includes `title`, `pokemon`, `tier`, and `format`
 - [ ] Content is translated to Spanish
 - [ ] `<!-- PUBLIC -->` and `<!-- PREMIUM -->` markers are in place
 - [ ] Image paths use `./images/` (shared with English)
