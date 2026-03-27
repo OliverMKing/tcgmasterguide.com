@@ -113,12 +113,12 @@ function DeckCard({ deck }: { deck: Deck }) {
   return (
     <Link
       href={`/decks/${deck.id}`}
-      className="group relative bg-white dark:bg-slate-800 rounded-2xl border border-stone-200 dark:border-slate-700 hover:border-violet-300 dark:hover:border-violet-500 transition-all duration-300 p-6 overflow-hidden"
+      className="group relative bg-white dark:bg-slate-800 rounded-2xl border border-stone-200 dark:border-slate-700 hover:border-violet-300 dark:hover:border-violet-500 transition-all duration-300 p-6 overflow-hidden flex flex-col h-full"
     >
       {/* Subtle gradient overlay on hover */}
       <div className="absolute inset-0 bg-gradient-to-br from-violet-500/0 via-transparent to-purple-500/0 group-hover:from-violet-500/5 group-hover:to-purple-500/5 transition-all duration-500 rounded-2xl" />
 
-      <div className="relative flex items-start justify-between">
+      <div className="relative flex items-start justify-between flex-1">
         <div className="flex items-center gap-3">
           <h3 className="text-lg font-semibold text-neutral-800 dark:text-slate-100 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">
             {deck.title}
@@ -141,7 +141,7 @@ function DeckCard({ deck }: { deck: Deck }) {
         </span>
       </div>
       {lastEdited && (
-        <p className="relative text-sm text-stone-400 dark:text-slate-500 mt-3">
+        <p className="relative text-sm text-stone-400 dark:text-slate-500 mt-auto pt-3">
           <LocalDate timestamp={lastEdited} prefixKey="home.updated" />
         </p>
       )}
@@ -189,7 +189,7 @@ export default async function Home({
         <div className="absolute top-20 left-10 w-72 h-72 bg-violet-300/15 dark:bg-violet-500/20 rounded-full blur-3xl animate-float" />
         <div className="absolute bottom-10 right-10 w-80 h-80 bg-purple-300/15 dark:bg-purple-500/20 rounded-full blur-3xl animate-float-delayed" />
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 relative">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 relative">
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-violet-600 via-purple-500 to-violet-600 dark:from-violet-400 dark:via-purple-400 dark:to-violet-400 bg-clip-text text-transparent mb-6 animate-gradient bg-[length:200%_auto]">
               {t('title')}
@@ -211,7 +211,7 @@ export default async function Home({
       </div>
 
       {/* Decks Section */}
-      <div id="decks" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative scroll-mt-16">
+      <div id="decks" className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative scroll-mt-16">
         {/* Background accent */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-violet-100/40 dark:bg-violet-900/20 rounded-full blur-3xl -z-10" />
 

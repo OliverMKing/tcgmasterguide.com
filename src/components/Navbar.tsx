@@ -79,7 +79,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white/90 dark:bg-slate-800/90 backdrop-blur-md border-b border-stone-200 dark:border-slate-700 shadow-sm sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center shrink-0 group">
             <span className="text-lg sm:text-2xl font-bold bg-gradient-to-r from-violet-600 to-purple-500 dark:from-violet-400 dark:to-purple-400 bg-clip-text text-transparent group-hover:from-purple-500 group-hover:to-violet-600 dark:group-hover:from-purple-400 dark:group-hover:to-violet-400 transition-all duration-500">
@@ -141,7 +141,7 @@ export default function Navbar() {
             <ThemeToggle />
             <SignedOut>
               <SignInButton mode="modal">
-                <button className="text-base bg-gradient-to-r from-violet-500 to-purple-500 hover:from-violet-600 hover:to-purple-600 text-white px-4 py-2 rounded-xl transition-all duration-300 cursor-pointer shadow-md shadow-violet-500/15 hover:shadow-lg hover:shadow-violet-500/25">
+                <button className="text-base bg-gradient-to-r from-violet-500 to-purple-500 hover:from-violet-600 hover:to-purple-600 text-white px-4 py-1.5 rounded-xl transition-all duration-300 cursor-pointer shadow-md shadow-violet-500/15 hover:shadow-lg hover:shadow-violet-500/25 ml-2">
                   {t('signIn')}
                 </button>
               </SignInButton>

@@ -20,7 +20,7 @@ export function LocaleSwitcher() {
       <select
         value={locale}
         onChange={(e) => handleChange(e.target.value)}
-        className="bg-transparent text-sm text-neutral-500 dark:text-neutral-400 border border-neutral-300 dark:border-neutral-600 rounded px-2 py-1 focus:outline-none focus:ring-2 focus:ring-violet-500 dark:focus:ring-violet-400"
+        className="bg-transparent text-sm text-neutral-500 dark:text-neutral-400 border border-neutral-300 dark:border-neutral-600 rounded px-2 py-1 focus:outline-none focus:ring-2 focus:ring-violet-500 dark:focus:ring-violet-400 cursor-pointer"
         aria-label="Select language"
       >
         {routing.locales.map((loc) => (
