@@ -118,27 +118,20 @@ function DeckCard({ deck }: { deck: Deck }) {
       {/* Subtle gradient overlay on hover */}
       <div className="absolute inset-0 bg-gradient-to-br from-violet-500/0 via-transparent to-purple-500/0 group-hover:from-violet-500/5 group-hover:to-purple-500/5 transition-all duration-500 rounded-2xl" />
 
-      <div className="relative flex items-start justify-between flex-1">
-        <div className="flex items-center gap-3">
-          <h3 className="text-lg font-semibold text-neutral-800 dark:text-slate-100 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">
-            {deck.title}
-          </h3>
-          <div className="flex -space-x-2">
-            {deck.pokemon.map((id) => (
-              <BouncingSprite
-                key={id}
-                src={getPokemonSprite(id)}
-                size={40}
-                className="w-10 h-10"
-              />
-            ))}
-          </div>
+      <div className="relative flex items-center gap-3 flex-1">
+        <h3 className="text-lg font-semibold text-neutral-800 dark:text-slate-100 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">
+          {deck.title}
+        </h3>
+        <div className="flex -space-x-2">
+          {deck.pokemon.map((id) => (
+            <BouncingSprite
+              key={id}
+              src={getPokemonSprite(id)}
+              size={40}
+              className="w-10 h-10"
+            />
+          ))}
         </div>
-        <span className="shrink-0 w-8 h-8 rounded-full bg-stone-100 dark:bg-slate-700 flex items-center justify-center">
-          <svg className="w-4 h-4 text-stone-400 dark:text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-          </svg>
-        </span>
       </div>
       {lastEdited && (
         <p className="relative text-sm text-stone-400 dark:text-slate-500 mt-auto pt-3">
