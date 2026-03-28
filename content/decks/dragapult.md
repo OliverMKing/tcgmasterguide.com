@@ -2,7 +2,7 @@
 title: “Dragapult”
 pokemon: [887]
 tier: 1
-format: “Post-Rotation”
+format: Post-Rotation
 ---
 ## Decklist
 
