@@ -1,5 +1,5 @@
 ---
-title: “Dragapult”
+title: Dragapult
 pokemon: [887]
 tier: 1
 format: Post-Rotation
