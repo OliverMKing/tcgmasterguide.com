@@ -6,14 +6,14 @@ format: Post-Rotation
 ---
 ## Decklist
 
-![decklist for Dragapult](./images/dragapult/poropult.png)
+![decklist for Dragapult](./images/dragapult/enmeowth.png)
 ```decklist
 Pokémon: 20
 4 Dreepy TWM 128
 4 Drakloak TWM 129
 3 Dragapult ex TWM 130
 2 Budew ASC 16
-2 Meowth ex M3 61
+2 Meowth ex POR 62
 1 Munkidori TWM 95
 1 Fezandipiti ex ASC 142
 1 Latias ex SSP 76
@@ -26,7 +26,7 @@ Trainer: 31
 2 Crispin SCR 133
 2 Brock's Scouting JTG 146
 1 Team Rocket's Petrel DRI 176
-1 Rosa's Encouragement M3 75
+1 Rosa's Encouragement POR 84
 4 Buddy-Buddy Poffin TEF 144
 4 Ultra Ball MEG 131
 4 Poké Pad ASC 198
