@@ -308,4 +308,4 @@ This is pretty much the ideal game for Zoroark.
 
 ## Personal Thoughts
 
-This is the best deck and I’m playing it for Houston. However it is not overwhelmingly broken or meta-warping.
+This deck is extremely strong but suffers from an increased presence of Froslass. Despite that, it still has a great matchup spread overall.

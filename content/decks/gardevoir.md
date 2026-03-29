@@ -504,4 +504,4 @@ This is a nice comeback that comes down to a flip at the end.
 
 ## Personal thoughts
 
-This deck is obviously very good. Its matchup spread is very solid and it even beats Dawn/Zard if you tech in Team Rocket's Watchtower. The weakness to Zoroark is unfortunate, but despite that I think Gardevoir is extremely strong overall.
+This deck is obviously very good. Its matchup spread is very solid and it even beats Dawn/Zard if you tech in Team Rocket's Watchtower. The weakness to Zoroark is unfortunate, but despite that I think Gardevoir is extremely strong overall. Probably playing this deck for Orlando.

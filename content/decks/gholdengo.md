@@ -653,4 +653,4 @@ This game shows how you can outmaneuver them with Lopunny and no liabilities on 
 
 ## Personal thoughts
 
-Gholdengo is extremely strong. Its matchups are overall quite good even though it's weak to Charizard/Noctowl. I would usually prefer a deck with more agency such as Charizard or Gardevoir but I would consider this deck anyway because it's so broken. Gholdengo has relatively little skill expression, so you're more at the mercy of luck than with other decks. Overall, it is a great deck and definitely worth playing.
+Gholdengo is extremely strong. Its matchups are overall quite good even though it's weak to Charizard/Noctowl. I would usually prefer a deck with more agency such as Charizard or Gardevoir but I would consider this deck anyway because it's so broken. Gholdengo has relatively little skill expression, so you're more at the mercy of luck than with other decks. Overall, it is a great deck and definitely worth playing. I also think the Lillie build is actually good but I haven't tested it enough to update the guide for it. The lists here are still good, and this deck does alright against Zoroark, which is nice.
