@@ -170,9 +170,9 @@ id: QjIFFi2LNgI
 title: Pult v Meganium 4
 ```
 
-### Raging Bolt - Depends
+### Raging Bolt - Unfavorable
 
-If they have Clefairy, this matchup is unfavorable. If they don’t have Clefairy, it’s favorable.
+Assuming they have Clefairy, this matchup is unfavorable. If they don’t have Clefairy, it’s favorable.
 
 - Pretty much just play normally. Keep them Item-locked until you start attacking.
 - Unfair Stamp is very strong unless they have both Fez and Hoothoot. Try to use it when they don’t have both of those. Save Unfair Stamp for when you start attacking, unless you can potentially stop them from attacking.
