@@ -94,7 +94,7 @@ function getDecksByFormat(decks: Deck[]): Map<DeckFormat, Deck[]> {
   return formatMap
 }
 
-const formatOrder: DeckFormat[] = ['Standard', 'Post-Rotation']
+const formatOrder: DeckFormat[] = ['Post-Rotation', 'Standard']
 
 const tierLabels: Record<number, string> = {
   1: 'Tier 1',
