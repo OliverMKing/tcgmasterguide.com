@@ -95,11 +95,11 @@ format: "Standard"
 | `title` | Yes | The display name of the deck (e.g., "Charizard / Pidgeot") |
 | `pokemon` | Yes | Array of Pokédex numbers for the Pokemon representing the deck |
 | `tier` | Yes | Tier ranking (1, 2, or 3). Tier 1 = top meta decks, Tier 2 = competitive, Tier 3 = viable |
-| `format` | No | The format the deck is for. Must be either `"Standard"` or `"Post-Rotation"`. Defaults to `"Standard"` |
+| `format` | No | The format the deck is for. Must be either `Standard` or `Post-Rotation`. Defaults to `Standard` |
 
 **Format values:**
-- `"Standard"` - For decks legal in the current Standard format
-- `"Post-Rotation"` - For decks built for the upcoming post-rotation format
+- `Standard` - For decks legal in the current Standard format
+- `Post-Rotation` - For decks built for the upcoming post-rotation format
 
 On the main page, decks are grouped by format first (Standard decks shown first, then Post-Rotation), and within each format they are organized by tier.
 

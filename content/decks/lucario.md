@@ -1,6 +1,6 @@
 ---
 title: Lucario
-pokemon: 448
+pokemon: [10059]
 tier: 2
 format: Post-Rotation
 ---
