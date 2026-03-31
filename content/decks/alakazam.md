@@ -35,7 +35,7 @@ Energy: 7
 2 Psychic Energy MEE 5
 1 Enriching Energy SSP 191
 ```
-
+<!-- PUBLIC -->
 ### Inclusions
 
 - This list is pretty simple and straightforward. Alakazam’s matchups are extremely polarized. It would make sense to try and cover for the bad matchups in some way, but I don’t think that’s possible. Therefore, I wanted to make the deck as fundamentally sound as possible and fully lean into the matchup roulette.
@@ -55,7 +55,7 @@ Energy: 7
 - Speaking of Stadiums, many lists play Battle Cage. However, even with 3-4 Battle Cage, the Dragapult matchup is still terrible. Therefore, I do not want to waste the deck space on it. Another option for the Stadium is Nighttime Mine, which might be better.
 - Chien-Pao is a consideration for random Watchtowers. If decks besides Dragapult end up playing random Watchtowers, it may be worth adding Chien-Pao in.
 - Lana’s Aid seems like it would be alright but I would always rather play other Supporters for the turn. Night Stretcher is more convenient. This deck doesn’t really need heavy recovery, but if it does, there’s still Sacred Ash.
-
+<!-- /PUBLIC -->
 ## Gameplay
 
 - As long as you have access to a 3-2 line of Dudunsparce, you can never deck out! Make sure to always use Run Away Draw with one or more cards in deck and never go down to 0 cards in deck! The extra Dunsparce is needed in this scenario in case your opponent KO’s one. Pretty nifty!
