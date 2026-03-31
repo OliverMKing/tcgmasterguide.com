@@ -221,6 +221,24 @@ id: rKnuz-k3Qxw
 title: Pult v Mewtwo 4
 ```
 
+### Alakazam - Very Favorable
+
+- Save Risky Ruins to bump Battle Cage. Also good with Munkidori later. Try to get two prizes per Phantom Dive. Ideally you can snipe Kadabra or Dunsparce with Munkidori’s help, but if not, sniping Abra is also fine.
+- Use Stamp on a Phantom Dive turn, ideally the first one, but the second one is fine too.
+- Ursaluna to close out the game is somewhat common, especially if they have Fez.
+- Using Pokemon like Fez/Meowth is generally fine in order to maintain tempo. Try to leave a spot for Munkidori in the mid- or late-game.
+- Go first.
+
+```youtube
+id: N7C96e59bMc
+title: Zam v Pult 1
+```
+
+```youtube
+id: HJZBgT8hcF0
+title: Zam v Pult 2
+```
+
 ### Zoroark - Favorable
 
 - Munkidori with Dark is usually the biggest threat that you want to KO.
