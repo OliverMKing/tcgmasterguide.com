@@ -186,6 +186,19 @@ id: NlCBLjsG3ic
 title: Lucario v Mewtwo 2
 ```
 
+### Alakazam - Very Unfavorable
+
+- Use Judge on a turn where you’re attacking with Lucario and they have a large hand, ideally in the late-game. This can be particularly good alongside a Hariyama gust on Fez/Dudunsparce.
+- Solrock can be useful for speed, but also try to get a fast Aura Jab. If their start isn’t great, it’s possible to get Aura Jab off before they’re ready to one-shot a Lucario, thus getting a free KO or two with the Lucario.
+- Hariyama can be a useful attacker in-between Lucario.
+- The second Lucario is generally best when they’re on 2 prizes left. If used when they’re on 3, they can just go 3-3. If they’re on 1, they can simply gust KO a one-prizer for game.
+- Save Gravity Mountain for when they have Alakazam set up. It makes breakpoints with Premium Power Pro for Lucario and Solrock.
+
+```youtube
+id: tQgDTTJcgC0
+title: Zam v Lucario 1
+```
+
 ### Zoroark - Favorable
 
 - Target their Energy or easy prize cards. Solrock can be good for this as it one-shots Zorua. Aura Jab for acceleration vs Fez/Meowth/Pech, etc.
