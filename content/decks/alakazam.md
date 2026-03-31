@@ -1,9 +1,9 @@
 alakazam.md
 ---
-title: Alakazam
+title: "Alakazam"
 pokemon: [65]
 tier: 2
-format: Post-Rotation
+format: "Post-Rotation"
 ---
 ## Decklist
 
