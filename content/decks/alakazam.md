@@ -1,4 +1,3 @@
-alakazam.md
 ---
 title: Alakazam
 pokemon: [65]
