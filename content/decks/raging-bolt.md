@@ -1,6 +1,6 @@
 ---
 title: Raging Bolt
-pokemon: 1021
+pokemon: [1021]
 tier: 2
 format: Post-Rotation
 ---
