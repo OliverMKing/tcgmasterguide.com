@@ -2,7 +2,7 @@
 title: Meganium
 pokemon: [154]
 tier: 3
-format: Post-Rotation
+format: Standard
 ---
 <!-- PUBLIC -->
 ## Decklist
@@ -50,6 +50,7 @@ Energy: 12
 ### Exclusions
 
 - Energy Switch is not necessary in this build at all. It is possible to play an Energy Switch build with other Grass attackers, but it’s less efficient and the deck becomes clunkier (and it is already kind of clunky).
+- Lots of people are swearing by the Noctowl build, so I'm going to try that soon.
 <!-- /PUBLIC -->
 
 ## Gameplay
@@ -204,4 +205,4 @@ title: Zoroark v Meganium 2
 
 ## Personal Thoughts
 
-This deck just isn’t that good.
+This deck just isn’t that good. A lot of people are telling me I'm wrong about this, so I'll give it another shot with the Noctowl build soon.
