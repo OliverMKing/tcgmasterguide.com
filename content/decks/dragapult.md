@@ -61,7 +61,7 @@ Energy: 9
 - Briar is basically impossible to line up, as this deck is already trying too hard to use Boss and Crispin.
 - Even with Noctowl, Team Rocket’s Watchtower was not lining up, and it also can hurt yourself quite a bit.
 <!-- /PUBLIC -->
-## Gameplay
+## Gameplay Tips
 
 - The sequencing with this deck depends on what you’re trying to do. When reaching for combos, maximize the number of cards seen by starting with draw Supporter, then Fezandipiti, and Recon Directives last. If you need more Pokemon than search cards you have, draw first. If not, search first. If you need to evolve into Dragapult before playing a draw Supporter, use the evolving Drakloak’s Recon first, then evolve, then go into the above sequence.
 - Plan out your turn before you start playing cards. What are you trying to get done this turn? Most importantly, what Supporter to you want to play? If you’re using Crispin, best to start with that.

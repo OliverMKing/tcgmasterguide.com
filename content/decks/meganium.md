@@ -53,7 +53,7 @@ Energy: 12
 - Lots of people are swearing by the Noctowl build, so I'm going to try that soon.
 <!-- /PUBLIC -->
 
-## Gameplay
+## Gameplay Tips
 
  - Oftentimes you’ll need to sacrifice a single-prize Pokemon in the active before you’re ready to engage in a favorable prize trade. Budew is very good for this because it comes with Item-lock. It can occasionally get punished, but usually it’s fine.
 - Fast Arboliva is the priority in most matchups. It is just very good in this format and difficult for opponents to deal with right away.

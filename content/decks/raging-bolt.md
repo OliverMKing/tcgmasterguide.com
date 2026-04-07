@@ -65,7 +65,7 @@ Energy: 11
 - Kangaskhan could help with drawing cards, which would be nice, but it’s still hard to find and very annoying to use because you’d also need the Latias. Getting both of those early is basically impossible. I could see potentially playing a version with Cyrano over the Lillie and adding a Kang. I’ll probably try this at some point.
 - Jamming Tower / other Stadiums seem useless. Bumping Area Zero is not very important and usually strictly harmful. I’m not even sure if the third Area Zero is necessary.
 <!-- /PUBLIC -->
-## Gameplay
+## Gameplay Tips
 
 - Raging Bolt ex isn’t necessarily the go-to attacker. It is mostly reserved to get one or two big KO’s throughout the game, depending on the matchup, since it is not very efficient. It can also be a good consistency card by utilizing Burst Roar, which is very reasonable in a lot of spots.
 - Using Stamp just for draw or just for disruption is fine. Using it for no reason is not. It should be doing something specific and useful. When used for disruption, using it alongside Boss to KO Fez/other support can cripple opponents. Usually, Stamp’s only opportunity cost is not playing it on a different turn, which isn’t a big deal. In this deck, the opportunity cost is using a Noctowl and forgoing a different Trainer card.
