@@ -54,7 +54,7 @@ Energy: 11
 - I tried Wally’s Compassion and just never got value from it. Using it on Lucario means you can’t use Mega Brave or Boss’s Orders that turn, which sucks. Wally’s seems good in theory but is just bad.
 - Rocky Energy is bad. I always get punished for having it over Fighting Energy as there are too many interactions with Basic Fighting Energy each game. Sure, Rocky has use cases against Dragapult and Alakazam, but it doesn’t really impact win-rate that much.
 <!-- /PUBLIC -->
-## Gameplay
+## Gameplay Tips
 
 - Hariyama is a very good attacker! It often swings prize trades. You’ll almost never power it up manually, but it’s great to power up with Aura Jab in some matchups. In the matchups where Hariyama is good, I usually Aura Jab two to it while putting one on Riolu/Lucario. That way, I can be flexible and use the manual attachment next turn on whichever one I want to use.
 - Lunar Cycling your only Fighting Energy for turn may be tempting, but don’t fall for it! I always get punished when I greed the Lunar Cycle! Only greed it when you are desperate, otherwise don’t sacrifice your manual attachment for the turn if you need it for a relevant attack. If you’re already able to use the attack you want (or if you can’t attack anyway), of course Lunar Cycle away. In other words, if you aren’t sure if you should Lunar Cycle or not, just don’t!
