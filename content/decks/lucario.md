@@ -2,7 +2,7 @@
 title: Lucario
 pokemon: [10059]
 tier: 2
-format: Post-Rotation
+format: Standard
 ---
 ## Decklist
 
