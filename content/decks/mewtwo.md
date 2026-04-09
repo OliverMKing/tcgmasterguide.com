@@ -152,7 +152,7 @@ I did not get any close or interesting games to put here. Only massacres.
 - Two shotting their Mewtwo is fine unless you’re far behind.
 - Articuno can have uses against Wobbuffet or Murkrow, if they play those.
 
-### Absol - Even
+### Slop Box / Absol - Even
 
 This matchup could be slightly favored one way or the other, but I couldn’t really tell, so I think it’s close enough to even.
 

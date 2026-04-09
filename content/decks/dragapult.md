@@ -114,7 +114,7 @@ id: peMLpGQQT9o
 title: Pult v Lucario 3
 ```
 
-### Absol (or other Clefairy/Ogerpon) - Unfavorable
+### Slop Box / Absol - Unfavorable
 
 Absol itself is pretty irrelevant, so this matchup generally refers to the toolbox-type decks that attack with Clefairy.
 

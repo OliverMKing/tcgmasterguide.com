@@ -136,7 +136,7 @@ id: mfO2VViBono
 title: Zam v Meganium 2
 ```
 
-### Absol - Even
+### Slop Box / Absol - Even
 
 - If they have Munkidori and a Mega in play, use Arboliva to KO the Munki, which sets up a very nice 1-3-2 prize map.
 - If you can nuke their active with Ogerpon and take the lead in the prize race (or use Boss to do so), that is an easy way to win. If you can’t, leave a single-prizer up instead and wait until you can. Budew is generally good, but you do have to be somewhat careful with it. If you Itchy Pollen three times, they can KO it with Adrenabrain and open aggression with the lead.
