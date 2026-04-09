@@ -104,7 +104,7 @@ id: tQgDTTJcgC0
 title: Zam v Lucario 1
 ```
 
-### Absol - Very Favorable
+### Slop Box / Absol - Very Favorable
 
 - The only real lose conditions are bricking off Stamp or running out of ways to deal with Mist Energy, both of which can be played around.
 - Play around Stamp as normal, try to keep a Dudunsparce in play.

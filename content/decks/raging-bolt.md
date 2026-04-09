@@ -150,7 +150,7 @@ title: Bolt v Meganium 2
 
 I did not get any close or interesting games to put here. Only massacres.
 
-### Absol - Slightly Unfavorable
+### Slop Box / Absol - Slightly Unfavorable
 
 - This is a straight up prize race matchup. Try to open the aggression when you can get a two-prize KO and leave a single-prize Pokemon in the active until you’re ready to do so. If they have a single-prize Pokemon in the active, it’s fine to KO it with a two-prizer if they also have a Mega in play, as you can go 1-2-3.
 - If they put a Mega in play, you may need Raging Bolt to one-shot it. Sometimes you can go 2-2-2 and ignore it though, depending on how things shake out.

@@ -108,7 +108,7 @@ This matchup may be slightly unfavored depending on the opponent’s list, as we
 - Judge is best used to stop them from one-shotting your Lucario. For example, if you’re attacking with an undamaged Lucario and they have a large hand, Judge can be good to potentially make them whiff the KO.
 - Genesect is very strong alongside an undamaged Lucario, as it makes it very hard for them to KO it.
 
-### Absol (or other Clefairy/Ogerpon) - Favorable
+### Slop Box / Absol - Favorable
 
 This matchup is favorable against non-Noctowl toolbox-type decks.
 
