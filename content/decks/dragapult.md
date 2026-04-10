@@ -149,6 +149,7 @@ This matchup is basically pure luck of the draw. If they get a fast Arboliva you
 - If they use Arboliva you’ll usually need to just two-shot it with Phantom Dive.
 - Ogerpon with four energy one-shots Dragapult, so be wary of any Ogerpon with two Energy and ping them for ten damage. Other spread damage should go onto Meowth. With Munkidori’s help, it’s not too hard to set up Meowth for a snipe KO. If they don’t have Meowth and you’ve already got ten on each Ogerpon/Fez, spread damage should pressure their lowest-HP single-prize Pokemon in play.
 - Save Risky Ruins to bump Forest. Ruins isn’t that good preemptively and is likely to get bumped. If they already have all their Stage 2’s out, save Risky Ruins until you can benefit from it.
+- Another good play I found is the preemptive Crispin. If you have a Fire or Psychic already in hand, you can play Crispin to load the same type of Energy on two different Drakloak. You know they're going to snipe the one with the Energy, so this way you can play a different Supporter on the next turn, such as Petrel for Stamp. Otherwise, if they have Arboliva, there's no point attaching Energy to Drakloak (if that is your only Energy in play), since you know they will just snipe it.
 
 ```youtube
 id: q32sS-zVUb8
