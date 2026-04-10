@@ -4,12 +4,12 @@ pokemon: [154]
 tier: 3
 format: Standard
 ---
-<!-- PUBLIC -->
+
 ## Decklist
 ![Meganium list](./images/meganium/meglist.png)
 
 ```decklist
-Pokémon: 20
+Pokémon: 22
 4 Teal Mask Ogerpon ex TWM 25
 2 Chikorita MEG 8
 2 Bayleef MEG 9
@@ -17,16 +17,16 @@ Pokémon: 20
 2 Smoliv DRI 21
 2 Dolliv DRI 22
 2 Arboliva ex DRI 23
-2 Meowth ex POR 62
-1 Budew ASC 16
+2 Hoothoot SCR 114
+2 Noctowl SCR 115
+1 Meowth ex POR 62
 1 Fezandipiti ex ASC 142
 
-Trainer: 28
+Trainer: 26
 4 Lillie's Determination MEG 119
 3 Dawn PFL 87
-3 Boss's Orders MEG 114
+2 Boss's Orders MEG 114
 1 Judge POR 76
-1 Lana's Aid TWM 155
 4 Bug Catching Set TWM 143
 4 Ultra Ball MEG 131
 2 Poké Pad ASC 198
@@ -37,31 +37,30 @@ Trainer: 28
 Energy: 12
 12 Grass Energy MEE 1
 ```
-
+<!-- PUBLIC -->
 ### Inclusions
 
-- This is basically the Japanese list but I added a third Boss’s Orders because this deck likes to Boss a lot.
 - You usually won’t need the third or fourth Ogerpon, but they are important to find early. They get the deck going and you want to start loading Energy on Ogerpon quickly so that they can one-shot anything.
-- Without that much draw support, this deck relies on Meowth and needs at least two. Fez also helps with this.
-- Budew is actually very good. In some games, this deck goes for a simple 2-2-2 prize race. Budew helps ensure that you start out on the winning end of this trade, by slowing down opponents as well as being a single-prize Pokemon. Budew is best against decks that can’t really punish it with spread or snipe damage.
-- The one of Judge looks bad but it actually is very strong in some situations. It can break opponent’s combos if they are building a large hand, which ends up being relevant a lot more often than I expected. Stamp is useful for the same reason, however it’s harder to find since it cannot be searched via Meowth.
-- Lana’s Aid is another card I wanted to cut but it proved its usefulness. Opponents can sometimes cripple this deck by KO’ing the Meganium, but Lana’s makes this a non-issue. There are also a decent amount of situations where you actually want a second Arboliva since it is difficult to KO, which Lana helps with.
+- Noctowl greatly improves the performance of this deck. I don't think one is reliable enough, and I always want to have it, so I like the 2-2 line.
+- The one of Judge looks bad but it actually is very strong in some situations. It can break opponent’s combos if they are building a large hand, which ends up being relevant a lot more often than I expected. Stamp is useful for the same reason, and both can be searched with Noctowl.
+- Even with Noctowl, Forest and Dawn are kind of hard to find and I always want to have them. I tried with 3 Forest and really think 4 is necessary. Dawn is even better with Noctowl.
 
 ### Exclusions
 
-- Energy Switch is not necessary in this build at all. It is possible to play an Energy Switch build with other Grass attackers, but it’s less efficient and the deck becomes clunkier (and it is already kind of clunky).
-- Lots of people are swearing by the Noctowl build, so I'm going to try that soon.
+- Energy Switch is not necessary in this build at all. It has some use cases but you just don't need it very often and I'd rather be consistent.
+- Unfortunately some cuts had to be made for Noctowl: Boss, Budew, Meowth, and a recovery card. All of those besides Meowth would still be very good in the Noctowl build and could potentially be added back in.
+- Briar is bad and hardly ever relevant.
 <!-- /PUBLIC -->
 
 ## Gameplay Tips
 
- - Oftentimes you’ll need to sacrifice a single-prize Pokemon in the active before you’re ready to engage in a favorable prize trade. Budew is very good for this because it comes with Item-lock. It can occasionally get punished, but usually it’s fine.
+ - Oftentimes you’ll need to sacrifice a single-prize Pokemon in the active before you’re ready to engage in a favorable prize trade. Budew is very good for this if you play it because it comes with Item-lock. It can occasionally get punished, but usually it’s fine.
 - Fast Arboliva is the priority in most matchups. It is just very good in this format and difficult for opponents to deal with right away.
 - Don’t play Forest until you can get immediate value from it, as the opponent can just bump it. Exceptions are 1) if you have multiple Forest in hand or 2) you expect an incoming Unfair Stamp.
 - Preload Ogerpon with the amount of Energy corresponding to the matchup. Against Lucario (for example), you want to have Ogerpon with 3 Energy to threaten a KO on it next turn. Against Zoroark, preloading Ogerpon is not very important at all.
 - Occasionally you do actually save Stamp. Arboliva is capable of sniping key support Pokemon which can go well with Stamp. Stamp + Boss stall + Arboliva snipe is very potent and can make comebacks.
 - Bug Catching Set is an interesting sequencing card. It is like Pokegear in that you may want to draw first with Fez/Teal Dance, but oftentimes I use it before Poke Pad/Ultra Ball so I know what missing Pokemon to search out. If you mostly want Energy, thin the Pokemon out first. If you want multiple Pokemon (such as the early-game or if you have Forest in play), use Bug Catching Set first. If you don’t have Forest in play (or even sometimes if you do), shuffling the Bug Catching Set back in with Lillie/Stamp is actually best! Without Forest, you can’t get as much value from the Bug Catching Set, and it’s a very powerful resource, so shuffling it back in can be very strong.
-- Putting a third Ogerpon in play is usually not necessary and will likely actively harm you. You’ll inevitably need bench space for support Pokemon like Meowth and Fez. Second Arboliva is sometimes good, and second Meganium is only useful if they KO the first one.
+- Putting a third Ogerpon in play is usually not necessary and will likely actively harm you. You’ll inevitably need bench space for support Pokemon. Second Arboliva is sometimes good, and second Meganium is only useful if they KO the first one. The extra Ogerpon is much better if you play Energy Switch.
 - Late game Ultra Balls are sometimes used just to thin cards out.
 
 ## Matchups
@@ -95,7 +94,7 @@ title: Pult v Meganium 4
 
 ### Lucario - Unfavorable
 
-- Itchy Pollen or other random ping damage on Riolu/Lucario is relevant for the Ogerpon breakpoint.
+- Hitting Riolu for 10 with a random guy or pinging it for 20 with Arboliva is relevant for the Ogerpon breakpoint.
 - Arboliva is very good. Try to get it early, and sometimes you’ll want a second one. Sometimes it’s best to KO Lunatona or Solrock if their board isn’t developed. Otherwise, KO’ing Makuhita while pinging Riolu/Lucario is also very good.
 - Meowth/Fez are big liabilities but it’s hard to go without them. Try to use Arboliva to snipe off Makuhita and Judge to disrupt them when they have a big hand. If they whiff a response to an Arboliva, it’s possible to win as a result.
 - Getting tons of Energy on Ogerpon quickly is another win condition. If you can one-shot their Lucario as soon as they attack with it, you’ll be in great shape. Since that sometimes isn’t possible, you may need to save an Energy for Arboliva instead.
@@ -112,7 +111,7 @@ title: Lucario v Meganium 2
 
 ### Meganium mirror - Even
 
-- Budew can be both good and bad. It can be good for its normal purpose, but bad because they can punish it with Arboliva. If you have another small single-prize Pokemon on the board, it may be better to not put Budew down so they cannot get two prizes with Arboliva. If that looks like an issue, you can push a different single-prize Pokemon as a sacrifice before you’re ready to go in.
+- If you play Budew, it can be both good and bad. It can be good for its normal purpose, but bad because they can punish it with Arboliva. If you have another small single-prize Pokemon on the board, it may be better to not put Budew down so they cannot get two prizes with Arboliva. If that looks like an issue, you can push a different single-prize Pokemon as a sacrifice before you’re ready to go in.
 - Even if you aren’t getting two prizes, Arboliva can be useful to KO Chikorita/Bayleef and potentially deny a Meganium. Boss stalling can also stress their Energy so they can’t load up Ogerpon as quickly.
 - Ideally, you’ll simply get the first two prizes and win from there. If you’re behind, you’ll have to rely on Arboliva and disruption tactics to try and make them whiff something.
 - If you have extra ping damage, think about what you might want to go for. 20 on Meowth puts it in range of Arboliva’s second attack, while 60 puts it in range of another snipe. 40 on Meganium puts it in range of another snipe, and damage on their Arboliva can make it easier for Ogerpon to KO it.
@@ -139,7 +138,7 @@ title: Zam v Meganium 2
 ### Slop Box / Absol - Even
 
 - If they have Munkidori and a Mega in play, use Arboliva to KO the Munki, which sets up a very nice 1-3-2 prize map.
-- If you can nuke their active with Ogerpon and take the lead in the prize race (or use Boss to do so), that is an easy way to win. If you can’t, leave a single-prizer up instead and wait until you can. Budew is generally good, but you do have to be somewhat careful with it. If you Itchy Pollen three times, they can KO it with Adrenabrain and open aggression with the lead.
+- If you can nuke their active with Ogerpon and take the lead in the prize race (or use Boss to do so), that is an easy way to win. If you can’t, leave a single-prizer up instead and wait until you can. Budew is generally good if you play it, but you do have to be somewhat careful with it. If you Itchy Pollen three times, they can KO it with Adrenabrain and open aggression with the lead.
 - This matchup is a very straightforward prize race where each side tries to position themselves to get the lead at the beginning, as it is very hard to make a comeback if you’re behind. Loading Energy on multiple Ogerpon is generally good as you need to chain them for one-shots. This is one matchup where the third Ogerpon can potentially be good, especially if they don’t put down Munkidori since Arboliva will have less value in that case.
 - Staying at four Pokemon on the bench makes it harder for them to win since they cannot KO Ogerpon with Clefairy (unless they also get Area Zero).
 
@@ -188,7 +187,7 @@ title: Mewtwo v Meganium 2
 
 ### Zoroark - Favorable
 
-- Treat this the same as other prize-trade matchups. Don’t initiate with Ogerpon unless you’re getting two prizes. Opening with Budew or Arboliva is best. With Budew, you have to be a little careful if they are threatening Darmanitan, so it can sometimes be better to leave up something like Bayleef or Meganium. Leaving up a lower-HP Pokemon is fine if you don’t have something else that Darmanitan can snipe, or if they don’t have Darumaka yet.
+- Treat this the same as other prize-trade matchups. Don’t initiate with Ogerpon unless you’re getting two prizes. Opening with a single-prizer or Arboliva is best. With a single-prizer, you have to be a little careful if they are threatening Darmanitan, so sometimes you want a chunkier one like Bayleef or Meganium. Leaving up a lower-HP Pokemon is fine if you don’t have something else that Darmanitan can snipe, or if they don’t have Darumaka yet.
 - As always, fast Arboliva is very good since it’s hard for them to KO it early. Getting the two-prize lead straight-up is best if you have the option (such as Ogerpon Boss on Zoroark).
 - Yveltal is basically a non-issue since everything can attack with two attachments, so don’t worry about it.
 - Using an extra Energy attachment on Meganium is very good, as it can one-shot Zoroark for just two Energy. This is relatively easy to do since you don’t really need to prioritize loading up Ogerpon with a bunch of Energy. This can be a solid way to make a comeback if they do get the initial lead, especially combined with Stamp or Judge to make them whiff gusts.
@@ -205,4 +204,4 @@ title: Zoroark v Meganium 2
 
 ## Personal Thoughts
 
-This deck just isn’t that good. A lot of people are telling me I'm wrong about this, so I'll give it another shot with the Noctowl build soon.
+The Noctowl build does perform better than without, but overall the deck still does not seem that great to me. Another issue is lots of people randomly teching Shaymin. If that changes I would consider this deck a bit better.
