@@ -6,7 +6,7 @@ format: Standard
 ---
 
 ## Decklist
-![Meganium list](./images/meganium/meglist.png)
+![Meganium list](./images/meganium/noct.png)
 
 ```decklist
 Pokémon: 22
