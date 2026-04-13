@@ -60,5 +60,14 @@ export function hasSubscriberAccessForLocale(
     ? user.stripeSubscriptionStatusEs
     : user.stripeSubscriptionStatus;
 
-  return status === 'active' || status === 'trialing';
+  if (status === 'active' || status === 'trialing') return true;
+
+  // Manually-assigned subscribers (no Stripe subscription for any locale) get all locales
+  if (user.role === UserRole.SUBSCRIBER
+    && !user.stripeSubscriptionStatus
+    && !user.stripeSubscriptionStatusEs) {
+    return true;
+  }
+
+  return false;
 }
