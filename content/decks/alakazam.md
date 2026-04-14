@@ -67,7 +67,7 @@ Energy: 7
 - The ideal bench to play around hand disruption is: two Dudunsparce, Abra, Kadabra, and Fez. Sometimes Fez can get punished, however, so it is a little more situational. If you have everything you need for the turn, I prefer leaving evolved Dudunsparce on my bench as well as Abra and Kadabra so that Kadabra and Alakazam are both draw outs.
 - Keep careful track of how many cards are in your hand as well as how many you need to get the KO! Against higher-HP Pokemon, every card matters, and sometimes you will make sacrifices to get the KO.
 - Understanding the card values of draw cards can help with Alakzam specifically. Dudunsparce in hand is +2, Dudunsparce on board is +3, Candy Alakazam is only +1, as is Kadabra. In the best case, Hilda can be +6, while Dawn can be a whopping +8! Morty’s Conviction is only +3 if your opponent has a full bench (or +6 with Area Zero), but it is less conditional based on what you have on the board. In other words, Morty is better draw power if your Pokemon are already evolved.
-- Going first is best!
+- Going first is best unless otherwise stated!
 
 ## Matchups
 
@@ -98,6 +98,7 @@ title: Zam v Pult 2
 - Your lose conditions involve Rocky Fighting Energy and Judge. Play around Judge the same way you would play around Stamp.
 - Save Enhanced Hammers for Rocky Energy on Lucario. If they are attacking with Rocky Energy on Solrock, try to Boss around it instead so you’ll have Hammer for the Lucario/Hariyama. If you can’t Boss around, it’s fine to use the Hammer on it to get the KO as long as you did not prize your other Hammer.
 - Benching Fez preemptively is fine to play around Judge, as long as you’re ahead in the prize race and won’t lose by giving it to them. They can get an easy two prizes on it, but they cannot do any real snipe or trap shenanigans like Dragapult.
+- I think going second is best to avoid the unnecessary risk of getting donked by Solrock.
 
 ```youtube
 id: tQgDTTJcgC0

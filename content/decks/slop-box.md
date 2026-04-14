@@ -72,6 +72,7 @@ Energy: 13
 - Munkidori is often a good attacker and is sometimes the only option for fast pressure. Also keep your eyes open for possible double or triple Adrenabrain plays out of nowhere, as they can be very potent.
 - Ogerpon should probably be attacking less often than you think and Kang more than you think.
 - Sometimes keeping Munkidori off the board entirely is the best way to stop the opponent from having an easy prize map. This is mostly relevant if they’re KO’ing Kangaskhan. It comes up most often against Arboliva. The inverse can also be said about keeping Kangaskhan off the board, but that is somewhat rare (mostly done against Lucario).
+- Go first against everything besides Dragapult.
 
 ## Matchups
 

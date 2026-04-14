@@ -68,7 +68,7 @@ Energy: 11
 - Using Aura Jab to KO Pokemon like Meowth/Fez to accelerate Energy while prize trading is a major part of this deck’s win condition/prize mapping. It’s best to do so when you have 2-3 Energy in your discard. If you do it without accelerating Energy, you may get punished and stuck later.
 - If you have a very small bench against Clefairy decks, it’s possible that Clefairy won’t be able to one-shot Lucario. This is pretty difficult to play around but can be game-winning if you have the opportunity.
 - It is okay to evolve into Hariyama without using the Ability, so long as the following conditions are met: 1) you’re getting Stamped OR they can easily snipe off the Makuhita 2) you are going to need to attack with the Hariyama, and 3) you won’t necessarily need the gust effect from the Ability.
-- Going first is usually best. Go second against decks with Budew or some evolution decks, particularly Dragapult.
+- Going first is usually best. Go second against decks with Budew or some evolution decks, particularly Dragapult. Also go second against unfavorable matchups such as Alakazam or Garchomp to cheese them with fast KO's.
 
 ## Matchups
 
