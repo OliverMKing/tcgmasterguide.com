@@ -76,6 +76,7 @@ Energy: 9
 - Don’t mindlessly slam the Unfair Stamp as soon as you can. Depending on what you’re going to be able to do, or what the opponent’s board state looks like, sometimes it is tactically better to delay the Stamp by one turn. A good example is if you’re activating their Fez now, but can KO it next turn. If the opponent’s board is not developed, it may be better to slam it now even if you can’t attack because they might brick! Is the Stamp stopping them from doing something specific? If not, maybe hold it.
 - Against most decks, they only play Unfair Stamp as disruption, so you can hoard cards and not thin. However, decks like Lucario or Meganium can play Judge, so it’s best to thin out random garbage against those decks.
 - Risky Ruins can be mostly used in three different ways: preemptively, reactively, or for instant value with Munkidori. Which one you prioritize typically depends on the matchup.
+- I'm starting to be convinced that going first blind is best, but I'm still not sure.
 
 ## Matchups
 
@@ -99,6 +100,7 @@ This matchup is favorable with Clefairy, and about even without it.
 - Play around late-game Solrock by not benching unnecessary Dreepy. This is only relevant if they have no other attackers ready to go.
 - Early Budew is extremely strong in this matchup and is a high priority.
 - If you don’t have the one-shot on Lucario, smacking it with Phantom Dive is still very good!
+- Go second.
 
 ```youtube
 id: KrC_xNmpJrg
@@ -145,6 +147,7 @@ title: Zam v Pult 2
 - Unfair Stamp is best on turns where they don’t have a KO on board. If you’re attacking with Dragapult and they don’t want to use the first attack, or if you can make them whiff a relevant Boss or Energy drop is when Stamp is best.
 - Turn 2 Drakloak Dragon Headbutt is especially good when they don’t have Gabite on the board and less than two Roselia! Look for this play when going first!
 - Try to play without Fez/Meowth/Ursaluna because they are big liabilities in this matchup.
+- Go first.
 
 ```youtube
 id: L91Px7smMls
@@ -171,6 +174,7 @@ Absol itself is pretty irrelevant, so this matchup generally refers to the toolb
 - This is one matchup where timing the Unfair Stamp is more relevant than yolo slamming it. Are you stopping them from using Fez and/or getting Clefairy? It’s all situational.
 - Targeting the Clefairy is usually best. There’s a good chance they just won’t have the response to your Dragapult, especially if you Unfair Stamp them on the same turn.
 - If you have Shaymin or Watchtower, this is the best matchup for them.
+- I think going second is best in this matchup.
 
 ```youtube
 id: mlxrooxjTrg
@@ -197,6 +201,7 @@ This matchup is basically pure luck of the draw. If they get a fast Arboliva you
 - Ogerpon with four energy one-shots Dragapult, so be wary of any Ogerpon with two Energy and ping them for ten damage. Other spread damage should go onto Meowth. With Munkidori’s help, it’s not too hard to set up Meowth for a snipe KO. If they don’t have Meowth and you’ve already got ten on each Ogerpon/Fez, spread damage should pressure their lowest-HP single-prize Pokemon in play.
 - Save Risky Ruins to bump Forest. Ruins isn’t that good preemptively and is likely to get bumped. If they already have all their Stage 2’s out, save Risky Ruins until you can benefit from it.
 - Another good play I found is the preemptive Crispin. If you have a Fire or Psychic already in hand, you can play Crispin to load the same type of Energy on two different Drakloak. You know they're going to snipe the one with the Energy, so this way you can play a different Supporter on the next turn, such as Petrel for Stamp. Otherwise, if they have Arboliva, there's no point attaching Energy to Drakloak (if that is your only Energy in play), since you know they will just snipe it.
+- Go first.
 
 ```youtube
 id: q32sS-zVUb8
@@ -226,6 +231,7 @@ Assuming they have Clefairy, this matchup is unfavorable. If they don’t have C
 - Unfair Stamp is very strong unless they have both Fez and Hoothoot. Try to use it when they don’t have both of those. Save Unfair Stamp for when you start attacking, unless you can potentially stop them from attacking.
 - In order of priority, spread damage should always put 10 on all Hoothoot (or 20 if it’s the 80 HP Hoothoot) and 40 on Raging Bolt ex if they have it. 10 is often good on Fan Rotom, Fez, or other 210 HP Pokemon. Extra damage can also set up Noctowl to get KO’d from snipe. KO’ing random single-prizes that you set up is also good.
 - Crispin for Clefairy or Ursaluna can be decent attackers in a pinch. If you can take a fast lead with Clefairy, that is actually quite good, but it doesn’t line up all that often. Responding to a Raging Bolt ex with Clefairy is actually not that good unless you just don’t have Dragapult ready yet.
+- I would choose second because they play so many Crispin now and have a good chance of getting Turn 1 KO, but I'm not sure if that is correct.
 
 ```youtube
 id: iBgJKAXktFk
@@ -275,6 +281,7 @@ title: Pult v Mewtwo 4
 - Smacking a Zoroark and feeding the Reshiram KO is totally fine as long as you have a follow-up to finish it off.
 - Spread damage usually goes on Zorua/Zoroark. There are tons of random relevant damage breakpoints and ways to take advantage of damage on Zoroark. Pinging Darumaka for 20 can sometimes be fine.
 - Itchy Pollen to stop N’s PP Up is very good if they don’t have much Energy on board. This is most relevant after they use Darmanitan’s Flamebody Cannon. Of course, Budew is also very good early as it can stop Darmanitan from coming into play.
+- Go second.
 
 ```youtube
 id: VJXxkFjhhtA

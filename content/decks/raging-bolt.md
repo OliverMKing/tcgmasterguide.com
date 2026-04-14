@@ -73,6 +73,7 @@ Energy: 11
 - Most of the time you use Trumpet you won’t have Terapagos, and that’s totally fine. Terapagos is only an occasional attacker. You aren’t wasting Trumpet by using it on random Noctowl and such, as its main purpose is enabling Energy Switch/Bellowing Thunder. As such, slamming Trumpet whenever is generally fine even if you aren’t getting instant value.
 - Try to always have at least one Hoothoot in play. Sometimes you’ll end up with random extra search cards or a Trainer off Noctowl. If you do, try to get a Hoothoot down if you don’t already have one!
 - Energy Switch is a precious resource. Every time you use it, it should be for a very strong play. It’s especially useful along with Boss, as you won’t be able to use Crispin on Boss turns. Playing two Energy Switch also means that it’s easy to get value from Energy randomly thrown onto the board whenever you get the chance.
+- Go first against almost everything. Go second against unfavorable evolution decks like Alakazam and Garchomp to try and cheese them with fast KO's.
 
 ## Matchups
 

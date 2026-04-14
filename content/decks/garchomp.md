@@ -65,6 +65,7 @@ Energy: 9
 - Once your board is fully set up, consider evolving extra Gabite into Garchomp. If Gabite can get sniped off (especially with Energy), evolving them can be good for protection. If there is no apparent risk to leaving Gabite unevolved, then you can leave them unevolved for the potential flexibility of a single-prize board. If your opponent can take advantage of extra Garchomp in play for their prize map, that is another reason to leave them unevolved. This is all situation dependent but often relevant.
 - Boss KO on Meowth/Fez with the first attack is extremely strong and should mostly be used when you cannot get two prizes on their active. This is an important part of prize racing with this deck.
 - In matchups where Fighting and Rocky are the same, usually attach Fighting Energy first (especially when you need to retreat). I’ve had enough situations where I need to Stretcher for a retreated Fighting Energy that I’ve been conditioned to default attach Fighting before Rocky.
+- Go first unless except against Lucario or other favorable matchups that can get a KO on Turn 1.
 
 ## Matchups
 

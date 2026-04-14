@@ -62,6 +62,7 @@ Energy: 12
 - Bug Catching Set is an interesting sequencing card. It is like Pokegear in that you may want to draw first with Fez/Teal Dance, but oftentimes I use it before Poke Pad/Ultra Ball so I know what missing Pokemon to search out. If you mostly want Energy, thin the Pokemon out first. If you want multiple Pokemon (such as the early-game or if you have Forest in play), use Bug Catching Set first. If you don’t have Forest in play (or even sometimes if you do), shuffling the Bug Catching Set back in with Lillie/Stamp is actually best! Without Forest, you can’t get as much value from the Bug Catching Set, and it’s a very powerful resource, so shuffling it back in can be very strong.
 - Putting a third Ogerpon in play is usually not necessary and will likely actively harm you. You’ll inevitably need bench space for support Pokemon. Second Arboliva is sometimes good, and second Meganium is only useful if they KO the first one. The extra Ogerpon is much better if you play Energy Switch.
 - Late game Ultra Balls are sometimes used just to thin cards out.
+- Go first against everything.
 
 ## Matchups
 
