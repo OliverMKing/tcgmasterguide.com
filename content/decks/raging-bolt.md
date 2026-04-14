@@ -126,6 +126,24 @@ id: nqv7CF4-1NI
 title: Zam v Bolt 2
 ```
 
+### Garchomp - Favorable
+
+- Get a fast Fan Rotom KO if you can. If not, attacking with Raging Bolt ex can be fine for a fast attacking option. Baby Bolt can also be fine if you happen to get an Energy on it going first.
+- Load as much Energy in play as possible, and have both Raging Bolt and Ogerpon as threats that can one-shot a Garchomp. Try to preload at least one Grass Energy onto one or two Ogerpon. Loading extra random Energy types on it can also be good since you’ll often need four or even five Energy for a KO anyway..
+- Glass Trumpet and Energy Switch are very important resources in this matchup, as they can be used to reach for a big KO on a Garchomp.
+- Fez is sometimes necessary, but it is also a big liability because it can be KO’d by Gabite or Garchomp’s first attack. Don’t put it down if you don’t have to!
+- If you play Jamming Tower, it is extremely strong in this matchup, especially with Iron Leaves.
+
+```youtube
+id: 6pt514ByFc8
+title: Chomp v Bolt 1
+```
+
+```youtube
+id: hk89SR43qCE
+title: Chomp v Bolt 2
+```
+
 ### Meganium - Unfavorable
 
 - Building lots of Energy in play is very good so that Raging Bolt can one-shot Arboliva.

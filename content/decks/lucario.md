@@ -51,8 +51,9 @@ Energy: 11
 
 - Tried the third Solrock and found it to be dead weight. This deck does not attack with Solrock as much as I expected. Using Aura Jab is usually preferred. You still attack with Solrock some, but not enough to warrant a third copy of it.
 - Also tried the second Judge and just hate the card. I am only playing one reluctantly because there are occasionally situations where you need it. I don’t see the need for a second one. Between Lunar Cycle, Meowth, and Secret Box, it’s not too hard to find the single copy. Using Judge for draw is just terrible so it’s mostly for disruption.
-- I tried Wally’s Compassion and just never got value from it. Using it on Lucario means you can’t use Mega Brave or Boss’s Orders that turn, which sucks. Wally’s seems good in theory but is just bad.
+- I tried Wally’s Compassion and just never got value from it. Using it on Lucario means you can’t use Mega Brave or Boss’s Orders that turn, which sucks. Wally’s seems good in theory but is just bad. Scoop Up Cyclone has similar issues. Being an Item is nice but I don't think it's that good.
 - Rocky Energy is bad. I always get punished for having it over Fighting Energy as there are too many interactions with Basic Fighting Energy each game. Sure, Rocky has use cases against Dragapult and Alakazam, but it doesn’t really impact win-rate that much.
+- Ciphermaniac's Codebreaking could be alright. I have not tried it yet, but I don't know what is cuttable besides maybe a Switch.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
@@ -107,6 +108,24 @@ This matchup may be slightly unfavored depending on the opponent’s list, as we
 - If they get two Lucario in play early, you can ignore single-prizers and try to win by KO’ing both of them. Two-shot one and one-shot the other. If this map is available to your opponent, you may want to delay your second Lucario from coming into play.
 - Judge is best used to stop them from one-shotting your Lucario. For example, if you’re attacking with an undamaged Lucario and they have a large hand, Judge can be good to potentially make them whiff the KO.
 - Genesect is very strong alongside an undamaged Lucario, as it makes it very hard for them to KO it.
+
+### Garchomp - Unfavorable
+
+- Early Solrock is very good, especially if they did not get Power Weight. Even if they did, you can gust around it.
+- Save some damage modifiers for a big one-shot on a Garchomp. Try to one-shot one Garchomp and two-shot another. This lines up a nice 1-1-2-2 prize map.
+- If they have a Garchomp without a Power Weight, try to pick that off with a one-shot!
+- Don’t feed them a 3-3 prize map by putting a second Lucario in play too early! Hariyama can be a decent attacker for pretty much anything in the prize map. Against a non-Weighted Chomp, it can even get the one-shot with some damage mods! If you get a prize or two with Solrock, Hariyama may not be necessary, and it is hard to power up.
+- Genesect is not that good in this matchup if they play Neo Upper. It’s only useful if they are woefully behind on Energy attachments and even then it’s not a huge priority. However, if they play Stamp, Gensect is much better.
+
+```youtube
+id: hUTwVpazbKw
+title: Chomp v Lucario 1
+```
+
+```youtube
+id: fzdEVpj8fSg
+title: Chomp v Lucario 2
+```
 
 ### Slop Box / Absol - Favorable
 

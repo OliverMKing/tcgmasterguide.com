@@ -1,7 +1,7 @@
 ---
 title: Slop Box
 pokemon: [115]
-tier: 1
+tier: 2
 format: Standard
 ---
 ## Decklist
@@ -130,6 +130,27 @@ title: Lucario v Slop 3
 - On your Stamp turn, you need to KO Fez/Dudunsparce to maximize the chance of them bricking.
 - If they don’t play Hammer, rely on Mist Kang and don’t put many Pokemon in play. If they play bad Zam, use Adrenabrain to stop it from 2-shotting Kang and try to get a second Mist Energy attacker.
 
+### Garchomp - Unfavorable
+
+- Try to cheese them with a fast Fezandipiti or Clefairy.
+- Extra Energy should go onto Ogerpon. Try to preload it as much as possible to get a one-shot on Garchomp.
+- Mind Bend is useful on some occasions, especially if you were able to pressure their early Energy attachments.
+
+```youtube
+id: MNNf2n41tB0
+title: Chomp v Slop 1
+```
+
+```youtube
+id: aGzRod7FXUs
+title: Chomp v Slop 2
+```
+
+```youtube
+id: YhIOn0kE4ko
+title: Chomp v Slop 3
+```
+
 ### Meganium - Even
 
 This matchup is about even if they have Budew and a little better if they don’t.
@@ -193,4 +214,4 @@ Unfortunately I forgot to record for this matchup and the next one. My bad.
 
 ## Personal Thoughts
 
-This deck does not look remarkable and neither does its matchup spread. However, the deck is fundamentally strong and somehow wins lots of games. I think it’s better than everything else I’ve tested besides Dragapult. There is also lots of space for adaptability and teching should the need arise.
+This deck does not look remarkable and neither does its matchup spread. However, the deck is fundamentally strong and somehow wins lots of games. I think it’s better than most of the other decks, but it can sometimes struggle against random stuff. There is also lots of space for adaptability and teching should the need arise.

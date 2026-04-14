@@ -56,6 +56,7 @@ Energy: 11
 - Psychic Energy was never really needed, and it doesn’t mesh well with Bug Catching Set. However, the two Energy Switch are a bit worse with no Psychic Energy.
 - Other random Rocket Pokemon such as Wobbuffet, Sneasel, and Murkrow/Honchkrow have only fringe use cases. Smacking with Spidops is sufficient for the most part. However, having these Pokemon around can still help Spidops do more damage, so the flexibility of other situational attackers isn’t necessarily bad. I haven’t tried them much though.
 - Playing Poffin over a Proton and Bug Catching Set is also a consideration. Tweaking the Bug Catching Set and Grass Energy counts also requires some adjustment with Psychic Energy and Poke Pad, and it’s hard to find the perfect balance. Proton’s existence also makes me question if Poffin is even worth playing, but it definitely can be useful in games where you don’t have Proton and start with Lillie/Ariana instead.
+- Sacred Ash could be ok for chaining Spidops. However Stretcher is mostly better because it's hard to find the Pokemon out of the deck. Most games also end before you really need the Sacred Ash.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
@@ -118,6 +119,27 @@ title: Lucario v Mewtwo 2
 - Powering up a second Mewtwo is also good in case they have a tech like the other Alakazam, which can two-shot a Mewtwo. Spidops can also one-shot the bad Zam, but it can be return KO’d, so Mewtwo is better if it’s available. If they play Dudunsparce ex, don’t put the second Mewtwo down, as they can then one-shot Articuno.
 - When choosing to attach Grass or Rocket Energy to Mewtwo first, attaching Grass first is better. They play Enhanced Hammer (and it also takes less damage to bad Zam).
 - If they KO a Mewtwo with bad Zam and you can KO it back with another Mewtwo, try to use Archer to stop them from chaining bad Zam.
+
+### Garchomp - Favorable
+
+- Swarm the board with as many Spidops and Tarountula as possible.
+- Save Max Belt and Bangle for a big one-shot on Garchomp. If you don’t have them, two-shotting a Garchomp is fine but you’ll need Giovanni to finish it off.
+- Attack with Spidops pretty much every turn. It’s easy for them to one-shot Mewtwo, so don’t put it in play early and only use it if you need to not run out of attackers.
+
+```youtube
+id: 9FyEwjGxUZE
+title: Chomp v Mewtwo 1
+```
+
+```youtube
+id: cGdmwR51CxI
+title: Chomp v Mewtwo 2
+```
+
+```youtube
+id: LvY_9sbjIjQ
+title: Chomp v Mewtwo 3
+```
 
 ### Meganium - Unfavorable
 
