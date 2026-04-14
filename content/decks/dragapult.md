@@ -55,6 +55,7 @@ Energy: 9
 ### Exclusions
 
 - Dusknoir is just not that good in the current meta. I did not find myself using it very often and it doesn’t solve any particular problem. Dusknoir is also much weaker now without Counter Catcher or Iono to take advantage of it.
+- Blaziken is unnecessary and way less efficient than Crispin or just attaching normally. There's no need to counter Grass since the matchup is already fine. Same goes for Moltres.
 - Noctowl is not very good and way too difficult to use. Prizing a piece, deck space, board space, and finding the actual Pokemon. Its payoff isn’t even that good as you’ll have a massive hand and can usually do whatever you want anyway.
 - Shaymin is way better in theory than in practice. Of course, it can still be useful on occasion. It is mostly good against Crispin box decks that can attack with Fez/Waterpon or the Meganium deck with Arboliva.
 - I don’t think there are any legitimate use cases for Jamming Tower. There aren’t any real Tools in this format, and the card feels completely useless. Risky Ruins is miles better.
@@ -112,6 +113,52 @@ title: Pult v Lucario 2
 ```youtube
 id: peMLpGQQT9o
 title: Pult v Lucario 3
+```
+
+### Alakazam - Very Favorable
+
+- Save Risky Ruins to bump Battle Cage. Also good with Munkidori later. Try to get two prizes per Phantom Dive. Ideally you can snipe Kadabra or Dunsparce with Munkidori’s help, but if not, sniping Abra is also fine.
+- Use Stamp on a Phantom Dive turn, ideally the first one, but the second one is fine too.
+- Ursaluna to close out the game is somewhat common, especially if they have Fez.
+- Using Pokemon like Fez/Meowth is generally fine in order to maintain tempo. Try to leave a spot for Munkidori in the mid- or late-game.
+- Go first.
+
+```youtube
+id: N7C96e59bMc
+title: Zam v Pult 1
+```
+
+```youtube
+id: HJZBgT8hcF0
+title: Zam v Pult 2
+```
+
+### Garchomp - Unfavorable
+
+- Chain Dragapult as much as possible. If they smack into one, try to attack with a fresh one.
+- Getting Energy drops on Dreepy/Drakloak is very important. Sometimes it’s better to power them up in the early-game rather than retreating into Budew. If you’re going second and they didn’t get Gible, prioritize Budew. Otherwise, prioritize Energy drops on Dreepy/Drakloak. Of course, getting both is ideal.
+- Budew is also not as good because it feeds Gabite early prize cards. It’s sometimes still worth going for if they have a weak board, but usually not a huge priority.
+- Slamming Risky Ruins asap is very good. If you have Jamming Tower, it’s very good at strategic times in this matchup.
+- Try to keep double Roserade off the board! Make it difficult for them to KO Dragapult. Using Boss on Roserade or even Roselia is valid. Targeting their Energy can also be very strong if they don’t have much Energy in play.
+- Munkidori is very good! Try to get it in play and use it to make relevant breakpoints such as sniping Roselia.
+- Feeding one Spiritomb KO is unavoidable, just don’t feed them more than one.
+- Unfair Stamp is best on turns where they don’t have a KO on board. If you’re attacking with Dragapult and they don’t want to use the first attack, or if you can make them whiff a relevant Boss or Energy drop is when Stamp is best.
+- Turn 2 Drakloak Dragon Headbutt is especially good when they don’t have Gabite on the board and less than two Roselia! Look for this play when going first!
+- Try to play without Fez/Meowth/Ursaluna because they are big liabilities in this matchup.
+
+```youtube
+id: L91Px7smMls
+title: Chomp v Pult 1
+```
+
+```youtube
+id: GLj-hxbxidE
+title: Chomp v Pult 2
+```
+
+```youtube
+id: WIPj56l63IE
+title: Chomp v Pult 3
 ```
 
 ### Slop Box / Absol - Unfavorable
@@ -222,24 +269,6 @@ id: rKnuz-k3Qxw
 title: Pult v Mewtwo 4
 ```
 
-### Alakazam - Very Favorable
-
-- Save Risky Ruins to bump Battle Cage. Also good with Munkidori later. Try to get two prizes per Phantom Dive. Ideally you can snipe Kadabra or Dunsparce with Munkidori’s help, but if not, sniping Abra is also fine.
-- Use Stamp on a Phantom Dive turn, ideally the first one, but the second one is fine too.
-- Ursaluna to close out the game is somewhat common, especially if they have Fez.
-- Using Pokemon like Fez/Meowth is generally fine in order to maintain tempo. Try to leave a spot for Munkidori in the mid- or late-game.
-- Go first.
-
-```youtube
-id: N7C96e59bMc
-title: Zam v Pult 1
-```
-
-```youtube
-id: HJZBgT8hcF0
-title: Zam v Pult 2
-```
-
 ### Zoroark - Favorable
 
 - Munkidori with Dark is usually the biggest threat that you want to KO.
@@ -264,4 +293,4 @@ title: Pult v Zoroark 3
 
 ## Personal Thoughts
 
-This deck is definitely very good and probably the best deck in format. Even with decks trying to counter it and the big target on its back, its matchup spread is still pretty good. However, I don’t think it is the ultimate insane broken deck that it is being hyped up to be. Multiple tiers above everything else? I don’t think so.
+This deck is definitely very good and probably the best deck in format. Even with decks trying to counter it and the big target on its back, its matchup spread is still pretty good. However, I don’t think it is the ultimate insane broken deck that it is being hyped up to be. Multiple tiers above everything else? I don’t know about that.

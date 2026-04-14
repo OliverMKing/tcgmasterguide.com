@@ -104,6 +104,30 @@ id: tQgDTTJcgC0
 title: Zam v Lucario 1
 ```
 
+### Alakazam Mirror - Even
+
+- Do everything you can to get the first attack. Use Sacred Ash for Alakazam pieces as needed.
+- Play around Enhanced Hammer.
+- Don't put Fez in play.
+
+### Garchomp - Even
+
+This matchup is about even assuming they play four Rocky Energy and some Hilda. The fewer of those they play, the better the matchup gets.
+
+- Draw tons of cards aggressively to find Hammers and Bosses.
+- Use any spare Energy attachments to power up Fezandipiti. You may need it to KO a Gabite with Rocky Energy. Get one Energy on Alakazam first, then power up Fez asap. Use Fez to KO a Rocky Energy at any opportunity! This play is basically an instant-win if you get it.
+- If they have Garchomp in play, try to KO it. If not, Gabite is the ideal target. However, if they have lots of Pokemon in play, it can be better to save Boss to get around Rocky which can close out the game if the opponent is not careful.
+
+```youtube
+id: 8q94dnhtquM
+title: Chomp v Zam 1
+```
+
+```youtube
+id: sAhw5oGWVZE
+title: Chomp v Zam 2
+```
+
 ### Slop Box / Absol - Very Favorable
 
 - The only real lose conditions are bricking off Stamp or running out of ways to deal with Mist Energy, both of which can be played around.

@@ -117,7 +117,7 @@ title: Lucario v Meganium 2
 - If you have extra ping damage, think about what you might want to go for. 20 on Meowth puts it in range of Arboliva’s second attack, while 60 puts it in range of another snipe. 40 on Meganium puts it in range of another snipe, and damage on their Arboliva can make it easier for Ogerpon to KO it.
 - Your Meganium boosts their Ogerpon’s damage. It’s possible to delay Meganium to make it harder for them to one-shot your Arboliva.
 
-### Alakazam -  Very Unfavorable
+### Alakazam - Very Unfavorable
 
 - Try to get a fast Arboliva. If you can’t, attack with whatever you can as fast as possible.
 - Hand disruption is your win condition. Judge/Stamp when you’re attacking with Arboliva to try and make them whiff. KO two Abra with Arboliva if possible.
@@ -133,6 +133,27 @@ title: Zam v Meganium 1
 ```youtube
 id: mfO2VViBono
 title: Zam v Meganium 2
+```
+
+### Garchomp - Favorable
+
+- Fast Arboliva is insanely strong. Use it to spawn trap Gabite or Energy. If you can’t get it, try to take two fast prize cards to get ahead on the trade.
+- Prioritize getting lots of Ogerpon with Energy, especially if you don’t get the Arboliva. You’ll need to chain Ogerpon with three Energy to mow down their Garchomp. This is one matchup where you may actually need a third Ogerpon. If they don’t have Power Weight, Ogerpon with two Energy can get an efficient KO.
+- Second Meganium can be ok if you’re ahead on the trade. At the very least, don’t discard the pieces for the second Meganium so that you can set it back up if the first one gets KO’d.
+
+```youtube
+id: hZzfYs-eYcI
+title: Chomp v Meg 1
+```
+
+```youtube
+id: Tyoe8uv-E4c
+title: Chomp v Meg 2
+```
+
+```youtube
+id: A0I3I8FeHYw
+title: Chomp v Meg 3
 ```
 
 ### Slop Box / Absol - Even
