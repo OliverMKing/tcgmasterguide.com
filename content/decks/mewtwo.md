@@ -201,6 +201,24 @@ id: AqDycXcIsq0
 title: Mewtwo v Zoroark 2
 ```
 
+### Crustle - Depends
+
+If they play Cornerstone and adequate support for it, the matchup is slightly unfavorable, so I’ll be going over that one. If they don’t have Cornerstone, it’s a free win.
+
+- Attack and get KO’s with fast Spidops. Leave two or three Tarountula unevolved because it’s good against Cornerstone. Save damage modifiers for attacking into Cornerstone. You can use Bangle/Max Belt on Tarountula or Mimikyu.
+- Mimikyu is a premium resource. Use it and both Stretcher to deal with Cornerstone. You’ll want to save it until you’re ready to attack with it so that it does not get KO’d preemptively. This also means you’ll need to manage your Energy so that you can pivot into it.
+- Giovanni and Archer are very good in this matchup. Use Giovanni to either pressure Cornerstone before it gets enough Energy or to KO Munkidori with Dark, which is also a big threat. Disrupt their hand with Archer when applicable. It’s best when they attack with Cornerstone, you can Archer them to hopefully make them whiff Ice Cream.
+
+```youtube
+id: C3ofUo0imDU
+title: Crustle v Mewtwo 1
+```
+
+```youtube
+id: 9R29o4idU1o
+title: Crustle v Mewtwo 2
+```
+
 ## Personal Thoughts
 
 Don’t be deceived by the acceptable-looking matchup spread. This deck is truly bad.

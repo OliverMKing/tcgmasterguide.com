@@ -238,6 +238,16 @@ id: s3PdNIgy3AY
 title: Chomp v Zoro 2
 ```
 
+### Crustle - Unfavorable
+
+- Get as many Roserade as possible. Ideally all four of them, so you can one-shot Crustle.
+- Attack fast and use Boss to apply pressure on their Energy.
+
+```youtube
+id: JxbWBGACztg
+title: Crustle v Garchomp 1
+```
+
 ## Personal Thoughts
 
 This deck is surprisingly good. Its matchup spread is solid, and overall the deck seems better than everything else besides Dragapult. It has a great built-in engine and insane stats. Of course, it’s weak to some of the Grass decks, but I don’t think there’s anything you can do about it. Playing Garchomp is very strong if the Grass decks aren’t as popular. I think they aren’t very good, so perhaps they will see a decrease in play if other people think the same way.

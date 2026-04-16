@@ -213,6 +213,17 @@ Unfortunately I forgot to record for this matchup and the next one. My bad.
 - Get Grass Energy on Ogerpon asap so that you can one-shot Zoroark. If you can get two Ogerpon, each with a Grass Energy, that’s even better.
 - If they have a full bench, which is most of the time, Clefairy with full bench can one-shot Zoroark.
 
+### Crustle - Very Unfavorable
+
+- Your best chance is to cheese them with a fast Fezandipiti or Clefairy to spawn trap Dwebble.
+- Mind Bend is very good if they don’t have Mist Energy.
+- Otherwise, leave Kang in the active. If they hit it, unleash triple Adrenabrain. KO any Dwebble on sight. Fez or Boss can also take out their Munkidori if they put any down to ensure you have the Munkidori advantage. Save Stretchers for Munkidori and Dark.
+
+```youtube
+id: aUg9LG87Px8
+title: Crustle v Slop 1
+```
+
 ## Personal Thoughts
 
 This deck does not look remarkable and neither does its matchup spread. However, the deck is fundamentally strong and somehow wins lots of games. I think it’s better than most of the other decks, but it can sometimes struggle against random stuff. There is also lots of space for adaptability and teching should the need arise.
