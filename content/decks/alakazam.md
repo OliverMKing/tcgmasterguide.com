@@ -189,6 +189,24 @@ id: AAIh8BWElzA
 title: Zam v Zoroark 1
 ```
 
+### Crustle - Even
+
+This matchup is about even or slightly favorable assuming they play four Mist and some ways to find them. Any less and it’s favorable.
+
+- Get a fast Alakazam and draw cards aggressively to find Hammers and Bosses. 
+- Boss is good specifically to target Spiky Energy, Hero’s Cape, or anything that accumulates too much Energy.
+- Start powering up Dudunsparce right away! This is how you can deal with a Crustle with Mist once you run out of Hammers. This is actually relevant in most games. If they ever leave a Dwebble with Mist Energy and you can KO it with Dudunsparce, do that and it’s basically game over.
+
+```youtube
+id: KfDqsPaSWZo
+title: Crustle v Zam 1
+```
+
+```youtube
+id: 0Cw8pFTfpZE
+title: Crustle v Zam 2
+```
+
 ## Personal Thoughts
 
 Pure matchup roulette deck. I probably wouldn’t play it because losing to Dragapult is not ideal, and that matchup is worse than expected. However most of the other matchups are so free that Alakazam can still be a good play. The deck is also very consistent and can even be fast with the Candies.

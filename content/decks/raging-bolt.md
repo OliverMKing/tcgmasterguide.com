@@ -210,6 +210,20 @@ id: iLIy5jBXhcw
 title: Bolt v Zoroark 2
 ```
 
+### Crustle - Very Unfavorable
+
+- Fan Rotom can be used for fast pressure, but most of the time you’ll be trying to power up baby Bolt as fast as possible. It’s possible to win with baby Bolt. Use Boss to stall and snipe to pressure their Energy. Stamp is also very good to make them brick. If they KO baby Bolt, get it back and power it up with Energy Switch / Crispin.
+
+```youtube
+id: BK_19n-ZiI0
+title: Crustle v Bolt 1
+```
+
+```youtube
+id: ovX7LmYRiqY
+title: Crustle v Bolt 2
+```
+
 ## Personal Thoughts
 
 This deck is fine but it does have a lot of games that make you question life. Being one of the few decks good into Dragapult and Lucario is pretty nice, and it’s fundamentally a decent deck so it can hold its own against most other stuff.

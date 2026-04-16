@@ -300,6 +300,12 @@ id: zG_aBiWOZDM
 title: Pult v Zoroark 3
 ```
 
+### Crustle - Very Unfavorable
+
+- Pick off any Dwebble on sight before they evolve into Crustle.
+- Pressure them with a fast attacker. If they don’t have Crustle yet, Dragapult is best. If they have Crustle without Mist, Mind Bend is best. Otherwise, Drakloak. Sometimes it is just a matter of whatever you have easy access to, and that’s fine. We want to force them to respond so that we can use Stamp and hopefully make them brick.
+- Go second and try to cheese them with a Turn 1 Itchy Pollen.
+
 ## Personal Thoughts
 
 This deck is definitely very good and probably the best deck in format. Even with decks trying to counter it and the big target on its back, its matchup spread is still pretty good. However, I don’t think it is the ultimate insane broken deck that it is being hyped up to be. Multiple tiers above everything else? I don’t know about that.

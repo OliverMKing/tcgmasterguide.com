@@ -54,7 +54,7 @@ Energy: 12
 
 ## Gameplay Tips
 
- - Oftentimes you’ll need to sacrifice a single-prize Pokemon in the active before you’re ready to engage in a favorable prize trade. Budew is very good for this if you play it because it comes with Item-lock. It can occasionally get punished, but usually it’s fine.
+- Oftentimes you’ll need to sacrifice a single-prize Pokemon in the active before you’re ready to engage in a favorable prize trade. Budew is very good for this if you play it because it comes with Item-lock. It can occasionally get punished, but usually it’s fine.
 - Fast Arboliva is the priority in most matchups. It is just very good in this format and difficult for opponents to deal with right away.
 - Don’t play Forest until you can get immediate value from it, as the opponent can just bump it. Exceptions are 1) if you have multiple Forest in hand or 2) you expect an incoming Unfair Stamp.
 - Preload Ogerpon with the amount of Energy corresponding to the matchup. Against Lucario (for example), you want to have Ogerpon with 3 Energy to threaten a KO on it next turn. Against Zoroark, preloading Ogerpon is not very important at all.
@@ -222,6 +222,16 @@ title: Zoroark v Meganium 1
 ```youtube
 id: VESe6pnhDkk
 title: Zoroark v Meganium 2
+```
+
+### Crustle - Unfavorable
+
+- Fast Arboliva is very good for sniping off Dwebble (or Munkidori).
+- Extra attachments should go onto Meganium since that’s the only thing that can take out a Crustle. Ideally you’ll also use Judge or Stamp when going in with Meganium, although those cards are also good at pretty much any time. Hand disruption is the best way to realistically win this matchup.
+
+```youtube
+id: ioVZ82Db7Gw
+title: Crustle v Meg 1
 ```
 
 ## Personal Thoughts
