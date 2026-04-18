@@ -71,7 +71,7 @@ function AnnouncementRow({
 
   return (
     <div className={bgClasses}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-2.5">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-2.5">
         <div
           className={`flex gap-2.5 sm:gap-3 ${isMultiline ? 'items-start' : 'items-center'}`}
         >

@@ -41,7 +41,7 @@ export function LockedSection() {
 
         <SignedOut>
           <SignInButton mode="modal">
-            <button className="w-full bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white font-semibold px-6 py-3 rounded-xl hover:from-purple-700 hover:to-fuchsia-700 transition-all shadow-lg shadow-purple-500/25 cursor-pointer mb-3">
+            <button className="w-full bg-gradient-to-r from-violet-500 to-purple-500 text-white font-semibold px-6 py-3 rounded-xl hover:from-violet-600 hover:to-purple-600 transition-colors duration-200 ease-snappy active:scale-[0.98] cursor-pointer mb-3">
               {t('signInButton')}
             </button>
           </SignInButton>
@@ -50,7 +50,7 @@ export function LockedSection() {
         <SignedIn>
           <Link
             href="/subscribe"
-            className="block w-full bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white font-semibold px-6 py-3 rounded-xl hover:from-purple-700 hover:to-fuchsia-700 transition-all shadow-lg shadow-purple-500/25 mb-3"
+            className="block w-full bg-gradient-to-r from-violet-500 to-purple-500 text-white font-semibold px-6 py-3 rounded-xl hover:from-violet-600 hover:to-purple-600 transition-colors duration-200 ease-snappy active:scale-[0.98] mb-3"
           >
             {t('subscribeButton')}
           </Link>

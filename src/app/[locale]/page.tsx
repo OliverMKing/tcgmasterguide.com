@@ -3,18 +3,15 @@ import { setRequestLocale, getTranslations } from 'next-intl/server'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
-import { LocalDate } from '@/components/LocalDate'
 import LiveBanner from '@/components/LiveBanner'
 import AnnouncementBanner from '@/components/AnnouncementBanner'
-import { deckDates } from '@/generated/deck-dates'
-import { BouncingSprite } from '@/components/BouncingSprite'
+import { DeckCard } from '@/components/DeckCard'
+import { TierBadge } from '@/components/TierBadge'
+import { BrowseDecksButton } from '@/components/BrowseDecksButton'
+import { Badge, EmptyState } from '@/components/ui'
 
 // Force static generation at build time
 export const dynamic = 'force-static'
-
-function getPokemonSprite(pokedexId: number): string {
-  return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokedexId}.png`
-}
 
 type DeckFormat = 'Standard' | 'Post-Rotation'
 
@@ -96,56 +93,19 @@ function getDecksByFormat(decks: Deck[]): Map<DeckFormat, Deck[]> {
 
 const formatOrder: DeckFormat[] = ['Post-Rotation', 'Standard']
 
-const tierLabels: Record<number, string> = {
-  1: 'Tier 1',
-  2: 'Tier 2',
-  3: 'Tier 3',
-}
-
-const tierColors: Record<number, string> = {
-  1: 'bg-amber-100 text-amber-700 dark:bg-yellow-900/40 dark:text-yellow-300',
-  2: 'bg-slate-200 text-slate-700 dark:bg-slate-600/50 dark:text-slate-200',
-  3: 'bg-orange-100 text-orange-700 dark:bg-orange-900/40 dark:text-orange-300',
-}
-
-function DeckCard({ deck }: { deck: Deck }) {
-  const lastEdited = deckDates[deck.id] || null
+function FormatIcon({ format }: { format: DeckFormat }) {
+  if (format === 'Post-Rotation') {
+    return (
+      <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M23 4v6h-6M1 20v-6h6" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15" />
+      </svg>
+    )
+  }
   return (
-    <Link
-      href={`/decks/${deck.id}`}
-      className="group relative bg-white dark:bg-slate-800 rounded-2xl border border-stone-200 dark:border-slate-700 hover:border-violet-300 dark:hover:border-violet-500 transition-all duration-300 p-6 overflow-hidden flex flex-col h-full"
-    >
-      {/* Subtle gradient overlay on hover */}
-      <div className="absolute inset-0 bg-gradient-to-br from-violet-500/0 via-transparent to-purple-500/0 group-hover:from-violet-500/5 group-hover:to-purple-500/5 transition-all duration-500 rounded-2xl" />
-
-      <div className="relative flex items-center justify-between gap-3 flex-1">
-        <div className="flex items-center gap-3">
-          <h3 className="text-lg font-normal text-neutral-800 dark:text-slate-100 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">
-            {deck.title}
-          </h3>
-          <div className="flex -space-x-2">
-            {deck.pokemon.map((id) => (
-              <BouncingSprite
-                key={id}
-                src={getPokemonSprite(id)}
-                size={40}
-                className="w-10 h-10"
-              />
-            ))}
-          </div>
-        </div>
-        <span className="shrink-0 w-8 h-8 rounded-full bg-stone-100 dark:bg-slate-700 flex items-center justify-center lg:hidden">
-          <svg className="w-4 h-4 text-stone-400 dark:text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-          </svg>
-        </span>
-      </div>
-      {lastEdited && (
-        <p className="relative text-sm text-stone-400 dark:text-slate-500 mt-auto pt-3">
-          <LocalDate timestamp={lastEdited} prefixKey="home.updated" />
-        </p>
-      )}
-    </Link>
+    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M12 2l3 7h7l-5.5 4 2 7-6.5-4.5L5.5 20l2-7L2 9h7z" />
+    </svg>
   )
 }
 
@@ -200,11 +160,20 @@ export default async function Home({
               })}
             </p>
 
-            {/* Decorative divider */}
-            <div className="mt-8 flex items-center justify-center gap-3">
-              <div className="h-px w-12 bg-gradient-to-r from-transparent to-violet-300 dark:to-violet-500" />
-              <div className="w-2 h-2 rounded-full bg-violet-400 dark:bg-violet-500 pulse-subtle" />
-              <div className="h-px w-12 bg-gradient-to-l from-transparent to-violet-300 dark:to-violet-500" />
+            {/* Primary + secondary CTA */}
+            <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3">
+              <BrowseDecksButton>
+                {t('browseDecks')}
+              </BrowseDecksButton>
+              <Link
+                href="/about"
+                className="inline-flex items-center justify-center gap-2 text-neutral-700 dark:text-slate-200 hover:text-violet-600 dark:hover:text-violet-400 font-medium px-5 py-3 rounded-xl border border-stone-200 dark:border-slate-700 bg-white/60 dark:bg-slate-800/60 hover:border-violet-300 dark:hover:border-violet-500 backdrop-blur-sm transition-all duration-300 ease-snappy"
+              >
+                {t('aboutAuthor')}
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
             </div>
           </div>
         </div>
@@ -215,9 +184,11 @@ export default async function Home({
         {/* Background accent */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-violet-100/40 dark:bg-violet-900/20 rounded-full blur-3xl -z-10" />
 
-        <h2 className="text-3xl font-bold text-neutral-800 dark:text-slate-100 mb-10">
-          {t('decksTitle')}
-        </h2>
+        <div className="flex items-end justify-between mb-10 gap-4">
+          <h2 className="text-3xl font-bold text-neutral-800 dark:text-slate-100">
+            {t('decksTitle')}
+          </h2>
+        </div>
 
         <div className="space-y-16">
           {formatOrder.map((format) => {
@@ -228,32 +199,52 @@ export default async function Home({
             const sortedTiers = Array.from(decksByTier.keys()).sort((a, b) => a - b)
 
             return (
-              <div key={format}>
-                {/* Format Header */}
-                <div className="mb-8">
-                  <h3 className="text-2xl font-medium text-neutral-800 dark:text-slate-100">
+              <section key={format} aria-labelledby={`format-${format}`}>
+                {/* Format Header — accent bar + icon + count */}
+                <div className="mb-8 flex items-center gap-3">
+                  <span className="inline-block h-8 w-1 rounded-full bg-gradient-to-b from-violet-500 to-purple-500" aria-hidden="true" />
+                  {format === 'Post-Rotation' && (
+                    <span className="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-violet-100 text-violet-600 dark:bg-violet-900/40 dark:text-violet-300">
+                      <FormatIcon format={format} />
+                    </span>
+                  )}
+                  <h3
+                    id={`format-${format}`}
+                    className="text-2xl font-semibold text-neutral-800 dark:text-slate-100"
+                  >
                     {formatLabelsTranslated[format]}
                   </h3>
+                  <Badge variant="neutral" size="sm" className="ml-auto">
+                    {t('deckCount', { count: formatDecks.length })}
+                  </Badge>
                 </div>
 
                 <div className="space-y-12">
-                  {sortedTiers.map((tier) => (
-                    <div key={tier}>
-                      <div className="flex items-center gap-3 mb-6">
-                        <span className={`${tierColors[tier]} text-sm font-medium px-3 py-1 rounded-lg`}>
-                          {tierLabelsTranslated[tier]}
-                        </span>
-                        <div className="h-px flex-1 bg-gradient-to-r from-stone-200 dark:from-slate-700 to-transparent" />
+                  {sortedTiers.map((tier) => {
+                    const tierDecks = decksByTier.get(tier)!
+                    return (
+                      <div key={tier}>
+                        <div className="flex items-center gap-3 mb-6">
+                          <TierBadge tier={tier} label={tierLabelsTranslated[tier]} />
+                          <div className="h-px flex-1 bg-gradient-to-r from-stone-200 dark:from-slate-700 to-transparent" />
+                        </div>
+                        {tierDecks.length === 0 ? (
+                          <EmptyState
+                            title={t('emptyTierTitle')}
+                            description={t('emptyTierDescription')}
+                          />
+                        ) : (
+                          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                            {tierDecks.map((deck) => (
+                              <DeckCard key={deck.id} deck={deck} />
+                            ))}
+                          </div>
+                        )}
                       </div>
-                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                        {decksByTier.get(tier)!.map((deck) => (
-                          <DeckCard key={deck.id} deck={deck} />
-                        ))}
-                      </div>
-                    </div>
-                  ))}
+                    )
+                  })}
                 </div>
-              </div>
+              </section>
             )
           })}
         </div>

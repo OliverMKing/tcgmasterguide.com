@@ -7,6 +7,8 @@ import matter from 'gray-matter'
 import { LocalDate } from '@/components/LocalDate'
 import { DeckContent } from '@/components/DeckContent'
 import { BouncingSprite } from '@/components/BouncingSprite'
+import { TierBadge } from '@/components/TierBadge'
+import { FormatBadge } from '@/components/FormatBadge'
 import { deckHistory } from '@/generated/deck-history'
 import { deckDates } from '@/generated/deck-dates'
 import type { Metadata } from 'next'
@@ -111,17 +113,6 @@ function getDeckMetadata(slug: string, locale: string = 'en') {
   }
 }
 
-const tierColors: Record<number, string> = {
-  1: 'bg-amber-100 text-amber-700 dark:bg-yellow-900/40 dark:text-yellow-300',
-  2: 'bg-slate-200 text-slate-700 dark:bg-slate-600/50 dark:text-slate-200',
-  3: 'bg-orange-100 text-orange-700 dark:bg-orange-900/40 dark:text-orange-300',
-}
-
-const formatColors: Record<DeckFormat, string> = {
-  'Standard': 'bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300',
-  'Post-Rotation': 'bg-violet-100 text-violet-700 dark:bg-violet-900/40 dark:text-violet-300',
-}
-
 export function generateStaticParams() {
   return getAllDeckSlugs().map((slug) => ({
     slug,
@@ -224,12 +215,8 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
             )}
           </div>
           <div className="flex items-center gap-3 mb-3">
-            <span className={`${formatColors[deck.format]} text-sm font-medium px-3 py-1 rounded-lg`}>
-              {formatLabelsTranslated[deck.format]}
-            </span>
-            <span className={`${tierColors[deck.tier]} text-sm font-medium px-3 py-1 rounded-lg`}>
-              {tierLabelsTranslated[deck.tier]}
-            </span>
+            <FormatBadge format={deck.format} label={formatLabelsTranslated[deck.format]} size="md" />
+            <TierBadge tier={deck.tier} label={tierLabelsTranslated[deck.tier]} size="md" />
           </div>
           {lastEdited && (
             <div className="text-sm text-slate-500 dark:text-slate-400">

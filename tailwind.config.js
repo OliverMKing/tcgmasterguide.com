@@ -58,6 +58,23 @@ module.exports = {
         'purple-gradient': 'linear-gradient(135deg, #7C3AED 0%, #C026D3 100%)',
         'purple-gradient-soft': 'linear-gradient(135deg, #F7F5F9 0%, #FAFBFC 100%)',
       },
+      boxShadow: {
+        card: '0 1px 2px rgba(15, 23, 42, 0.04), 0 1px 3px rgba(15, 23, 42, 0.06)',
+        'card-hover':
+          '0 10px 30px -10px rgba(124, 58, 237, 0.25), 0 4px 12px rgba(15, 23, 42, 0.06)',
+      },
+      transitionTimingFunction: {
+        snappy: 'cubic-bezier(0.22, 1, 0.36, 1)',
+      },
+      keyframes: {
+        shimmer: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(100%)' },
+        },
+      },
+      animation: {
+        shimmer: 'shimmer 1.6s infinite',
+      },
     },
   },
   plugins: [],

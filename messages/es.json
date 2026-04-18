@@ -12,13 +12,18 @@
   "home": {
     "title": "TCG Master Guide",
     "subtitle": "Guías detalladas de mazos del Juego de Cartas Coleccionables Pokémon por <author>Grant Manley</author>, ex jugador número 1 del mundo. Constantemente actualizadas para mantenerte al día con el meta.",
+    "browseDecks": "Ver mazos",
+    "aboutAuthor": "Acerca de",
     "decksTitle": "Mazos",
     "tier1": "Nivel 1",
     "tier2": "Nivel 2",
     "tier3": "Nivel 3",
     "formatStandard": "Estándar",
     "formatPostRotation": "Post-Rotación",
-    "updated": "Actualizado"
+    "updated": "Actualizado",
+    "deckCount": "{count, plural, =0 {Sin mazos} =1 {1 mazo} other {# mazos}}",
+    "emptyTierTitle": "Aún no hay mazos aquí",
+    "emptyTierDescription": "Publicamos nuevas guías conforme cambia el meta. Vuelve pronto."
   },
   "about": {
     "title": "Acerca de TCG Master Guide",
@@ -197,6 +202,7 @@
     "copyright": "{year} tcgmasterguide.com",
     "tagline": "Guías de mazos expertas por Grant Manley",
     "language": "Idioma",
-    "email": "Correo"
+    "email": "Correo",
+    "lastUpdated": "Última actualización"
   }
 }

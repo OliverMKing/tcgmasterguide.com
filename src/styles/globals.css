@@ -78,9 +78,11 @@ h1, h2, h3, h4, h5, h6,
 @keyframes shimmer {
   0% {
     background-position: -200% 0;
+    transform: translateX(-100%);
   }
   100% {
     background-position: 200% 0;
+    transform: translateX(100%);
   }
 }
 
@@ -155,14 +157,31 @@ h1, h2, h3, h4, h5, h6,
   /* Bronze tier - no glow */
 }
 
-/* Focus ring */
+/* Focus ring — brand violet for higher contrast and on-brand consistency */
 *:focus-visible {
-  outline: 2px solid #a1a1aa;
+  outline: 2px solid #8b5cf6;
   outline-offset: 2px;
+  border-radius: 6px;
 }
 
 .dark *:focus-visible {
-  outline-color: #71717a;
+  outline-color: #a78bfa;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Respect user motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 /* Pokemon sprite hover - gentler bounce */

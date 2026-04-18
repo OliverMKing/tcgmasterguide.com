@@ -14,6 +14,7 @@ import { ViewHistoryButton } from '@/components/ViewHistoryButton'
 import Comments from '@/components/Comments'
 import { HistoryEntry } from '@/generated/deck-history'
 import { useFetchWithRetry } from '@/lib/fetch-with-retry'
+import { Skeleton, ReadingProgress } from '@/components/ui'
 
 interface TocItem {
   id: string
@@ -313,14 +314,32 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
 
   if (loading) {
     return (
-      <div className="animate-pulse space-y-6">
-        <div className="h-6 bg-slate-200 dark:bg-slate-700 rounded w-3/4"></div>
-        <div className="h-4 bg-slate-200 dark:bg-slate-700 rounded w-full"></div>
-        <div className="h-4 bg-slate-200 dark:bg-slate-700 rounded w-5/6"></div>
-        <div className="h-4 bg-slate-200 dark:bg-slate-700 rounded w-full"></div>
-        <div className="h-6 bg-slate-200 dark:bg-slate-700 rounded w-1/2 mt-8"></div>
-        <div className="h-4 bg-slate-200 dark:bg-slate-700 rounded w-full"></div>
-        <div className="h-4 bg-slate-200 dark:bg-slate-700 rounded w-4/5"></div>
+      <div className="space-y-8" aria-busy="true" aria-label="Loading deck guide">
+        {/* TOC skeleton */}
+        <div className="p-6 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700">
+          <Skeleton className="h-5 w-40 mb-4" />
+          <div className="space-y-2">
+            <Skeleton className="h-4 w-5/6" />
+            <Skeleton className="h-4 w-2/3 ml-4" />
+            <Skeleton className="h-4 w-3/4" />
+            <Skeleton className="h-4 w-1/2 ml-4" />
+            <Skeleton className="h-4 w-2/3" />
+          </div>
+        </div>
+        {/* Article skeleton */}
+        <div className="space-y-4">
+          <Skeleton className="h-8 w-1/2" />
+          <Skeleton className="h-4 w-full" />
+          <Skeleton className="h-4 w-full" />
+          <Skeleton className="h-4 w-5/6" />
+          <Skeleton className="h-4 w-3/4" />
+          <div className="pt-6">
+            <Skeleton className="h-6 w-1/3 mb-3" />
+            <Skeleton className="h-4 w-full" />
+            <Skeleton className="h-4 w-full mt-2" />
+            <Skeleton className="h-4 w-11/12 mt-2" />
+          </div>
+        </div>
       </div>
     )
   }
@@ -337,21 +356,22 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
 
   return (
     <>
+      <ReadingProgress />
       {/* Free Preview Banner for non-subscribers */}
       {!hasAccess && (
-        <div className="mb-8 p-4 bg-gradient-to-r from-purple-50 to-fuchsia-50 dark:from-purple-900/20 dark:to-fuchsia-900/20 rounded-xl border border-purple-200 dark:border-purple-800">
-          <div className="flex items-center gap-3">
-            <div className="flex-shrink-0 w-10 h-10 bg-purple-100 dark:bg-purple-900/40 rounded-full flex items-center justify-center">
-              <svg className="w-5 h-5 text-purple-600 dark:text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <div className="mb-8 p-5 bg-gradient-to-r from-violet-50 via-purple-50 to-fuchsia-50 dark:from-violet-900/20 dark:via-purple-900/20 dark:to-fuchsia-900/20 rounded-2xl border border-violet-200/70 dark:border-violet-800/50 shadow-sm">
+          <div className="flex items-center gap-4">
+            <div className="flex-shrink-0 w-11 h-11 bg-violet-100 text-violet-600 dark:bg-slate-700/60 dark:text-violet-400 rounded-xl flex items-center justify-center">
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
               </svg>
             </div>
-            <div>
+            <div className="flex-1 min-w-0">
               <p className="font-semibold text-slate-900 dark:text-slate-100">{t('freePreview')}</p>
-              <p className="text-sm text-slate-600 dark:text-slate-400">
+              <p className="text-sm text-slate-600 dark:text-slate-400 mt-0.5">
                 {t('limitedPreview')}{' '}
-                <Link href="/subscribe" className="text-purple-600 dark:text-purple-400 hover:underline font-medium">
+                <Link href="/subscribe" className="text-violet-600 dark:text-violet-400 hover:underline underline-offset-4 font-medium">
                   {t('subscribeForAccess')}
                 </Link>
                 {' '}{t('forFullAccess')}
@@ -370,29 +390,42 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
 
       {/* Table of Contents */}
       {visibleHeadings.length > 0 && (
-        <nav className="mb-12 p-6 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
-          <h2 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-4">
-            {hasAccess ? t('tableOfContents') : t('previewContents')}
-          </h2>
-          <ul className="space-y-2">
-            {visibleHeadings.map((heading) => (
-              <li
-                key={heading.id}
-                style={{ paddingLeft: `${(heading.level - 1) * 1}rem` }}
-              >
-                <a
-                  href={`#${heading.id}`}
-                  className="text-slate-600 dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors text-sm"
+        <nav
+          aria-label="Table of contents"
+          className="mb-12 p-6 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm"
+        >
+          <div className="flex items-center gap-2 mb-4">
+            <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-violet-100 dark:bg-violet-900/40 text-violet-600 dark:text-violet-300">
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h10M4 18h7" />
+              </svg>
+            </span>
+            <h2 className="text-lg font-semibold text-slate-900 dark:text-slate-100">
+              {hasAccess ? t('tableOfContents') : t('previewContents')}
+            </h2>
+          </div>
+          <ul className="space-y-1">
+            {(() => {
+              const minLevel = visibleHeadings.length > 0 ? Math.min(...visibleHeadings.map((h) => h.level)) : 1
+              return visibleHeadings.map((heading) => (
+                <li
+                  key={heading.id}
+                  style={{ paddingLeft: `${(heading.level - minLevel) * 1}rem` }}
                 >
-                  {heading.text}
-                </a>
-              </li>
-            ))}
+                  <a
+                    href={`#${heading.id}`}
+                    className="text-slate-600 dark:text-slate-300 hover:text-violet-700 dark:hover:text-violet-400 transition-colors text-sm py-1"
+                  >
+                    {heading.text}
+                  </a>
+                </li>
+              ))
+            })()}
             {hasAccess && (
-              <li style={{ paddingLeft: '1rem' }}>
+              <li>
                 <a
                   href="#discussion"
-                  className="text-slate-600 dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors text-sm"
+                  className="text-slate-600 dark:text-slate-300 hover:text-violet-700 dark:hover:text-violet-400 transition-colors text-sm py-1"
                 >
                   {t('discussion')}
                 </a>
@@ -411,7 +444,7 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
                     key={heading.id}
                     className="flex items-center gap-2 text-slate-400 dark:text-slate-500 text-sm"
                   >
-                    <svg className="w-3 h-3 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg className="w-3.5 h-3.5 text-violet-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                     </svg>
                     <span>{heading.text}</span>
@@ -435,22 +468,26 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
 
       {/* Footer CTA */}
       <div className="mt-16">
-        <div className="bg-violet-50 dark:bg-slate-800 border border-violet-100 dark:border-slate-700 rounded-2xl p-8 text-center">
-          <h3 className="text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-2">
-            {t('exploreMoreGuides')}
-          </h3>
-          <p className="text-neutral-600 dark:text-slate-300 mb-6">
-            {t('continueJourney')}
-          </p>
-          <Link
-            href="/#decks"
-            className="inline-flex items-center gap-2 bg-violet-600 hover:bg-violet-700 text-white font-medium px-6 py-3 rounded-xl transition-colors"
-          >
-            {t('browseAllDecks')}
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </Link>
+        <div className="relative overflow-hidden bg-gradient-to-br from-violet-50 via-white to-purple-50 dark:from-slate-800 dark:via-slate-800 dark:to-slate-800/80 border border-violet-100 dark:border-slate-700 rounded-2xl p-8 text-center shadow-sm">
+          <div className="absolute -top-16 -right-16 w-48 h-48 bg-violet-300/20 dark:bg-violet-500/10 rounded-full blur-3xl" aria-hidden="true" />
+          <div className="absolute -bottom-20 -left-20 w-56 h-56 bg-purple-300/20 dark:bg-purple-500/10 rounded-full blur-3xl" aria-hidden="true" />
+          <div className="relative">
+            <h3 className="text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-2">
+              {t('exploreMoreGuides')}
+            </h3>
+            <p className="text-neutral-600 dark:text-slate-300 mb-6">
+              {t('continueJourney')}
+            </p>
+            <Link
+              href="/#decks"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-violet-500 to-purple-500 hover:from-violet-600 hover:to-purple-600 text-white font-medium px-6 py-3 rounded-xl transition-all duration-300 ease-snappy active:scale-[0.98]"
+            >
+              {t('browseAllDecks')}
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
         </div>
       </div>
 

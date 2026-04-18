@@ -66,7 +66,7 @@ export default function SubscribeSuccessPage() {
         {!isWaiting && (
           <Link
             href="/#decks"
-            className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white font-semibold px-6 py-3 rounded-xl hover:from-purple-700 hover:to-fuchsia-700 transition-all shadow-lg shadow-purple-500/25"
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-violet-500 to-purple-500 text-white font-semibold px-6 py-3 rounded-xl hover:from-violet-600 hover:to-purple-600 transition-colors duration-200 ease-snappy active:scale-[0.98]"
           >
             Browse Deck Guides
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
