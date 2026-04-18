@@ -1,4 +1,3 @@
-zoroark.md
 ---
 title: Zoroark
 pokemon: [571]
