@@ -139,8 +139,9 @@ export default function Navbar() {
               <ActiveUnderline show={pathname === '/subscribe'} />
             </Link>
             {/* Decks (button — scrolls) */}
-            <button onClick={handleDecksClick} className={`${navClasses({ active: false })} cursor-pointer`}>
+            <button onClick={handleDecksClick} className={`${navClasses({ active: pathname === '/' })} cursor-pointer`}>
               {t('decks')}
+              <ActiveUnderline show={pathname === '/'} />
             </button>
             {/* Q&A */}
             <Link href="/qa" className={navClasses({ active: pathname === '/qa' })}>
@@ -236,12 +237,7 @@ export default function Navbar() {
           }`}
         >
           <div className="space-y-1 pt-2">
-            {(
-              [
-                { href: '/', key: 'home' as const },
-                ...desktopLinks,
-              ]
-            ).map(({ href, key }) => {
+            {desktopLinks.map(({ href, key }) => {
               const active = pathname === href
               return (
                 <Link
@@ -263,7 +259,11 @@ export default function Navbar() {
                 setIsMenuOpen(false)
                 setTimeout(handleDecksClick, 350)
               }}
-              className="block w-full text-left py-2.5 px-4 rounded-xl text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-slate-700/50 transition-colors duration-200 cursor-pointer border-l-2 border-transparent"
+              className={`block w-full text-left py-2.5 px-4 rounded-xl transition-colors duration-200 cursor-pointer border-l-2 ${
+                pathname === '/'
+                  ? 'text-white bg-violet-500 border-transparent dark:text-violet-400 dark:bg-violet-900/30 dark:border-violet-500 font-medium'
+                  : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-slate-700/50 border-transparent'
+              }`}
             >
               {t('decks')}
             </button>
