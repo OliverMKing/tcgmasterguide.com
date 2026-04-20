@@ -433,31 +433,36 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
             )}
           </ul>
           {/* Show "What's Inside" teaser for non-subscribers */}
-          {!hasAccess && headings.length > visibleHeadings.length && (
-            <div className="mt-4 pt-4 border-t border-slate-200 dark:border-slate-700">
-              <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mb-2">
-                {t('fullGuideIncludes')}
-              </p>
-              <ul className="space-y-1">
-                {headings.slice(visibleHeadings.length, visibleHeadings.length + 4).map((heading) => (
-                  <li
-                    key={heading.id}
-                    className="flex items-center gap-2 text-slate-400 dark:text-slate-500 text-sm"
-                  >
-                    <svg className="w-3.5 h-3.5 text-violet-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                    </svg>
-                    <span>{heading.text}</span>
-                  </li>
-                ))}
-                {headings.length > visibleHeadings.length + 4 && (
-                  <li className="text-slate-400 dark:text-slate-500 text-sm pl-5">
-                    {t('moreSections', { count: headings.length - visibleHeadings.length - 4 })}
-                  </li>
-                )}
-              </ul>
-            </div>
-          )}
+          {!hasAccess && (() => {
+            const visibleTexts = new Set(visibleHeadings.map((h) => h.text))
+            const hiddenHeadings = headings.filter((h) => !visibleTexts.has(h.text))
+            if (hiddenHeadings.length === 0) return null
+            return (
+              <div className="mt-4 pt-4 border-t border-slate-200 dark:border-slate-700">
+                <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mb-2">
+                  {t('fullGuideIncludes')}
+                </p>
+                <ul className="space-y-1">
+                  {hiddenHeadings.slice(0, 4).map((heading) => (
+                    <li
+                      key={heading.id}
+                      className="flex items-center gap-2 text-slate-400 dark:text-slate-500 text-sm"
+                    >
+                      <svg className="w-3.5 h-3.5 text-violet-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                      </svg>
+                      <span>{heading.text}</span>
+                    </li>
+                  ))}
+                  {hiddenHeadings.length > 4 && (
+                    <li className="text-slate-400 dark:text-slate-500 text-sm pl-5">
+                      {t('moreSections', { count: hiddenHeadings.length - 4 })}
+                    </li>
+                  )}
+                </ul>
+              </div>
+            )
+          })()}
         </nav>
       )}
 
