@@ -53,7 +53,7 @@ export default function Navbar() {
     if (element) {
       const navbarHeight = 64 // matches the h-16 (4rem) sticky navbar
       const top = element.getBoundingClientRect().top + window.scrollY - navbarHeight
-      window.scrollTo({ top, behavior: 'smooth' })
+      window.scrollTo({ top, behavior: 'auto' })
       window.history.pushState(null, '', '/#decks')
 
       // Re-adjust after a short delay in case async content (e.g. announcements)
@@ -61,7 +61,7 @@ export default function Navbar() {
       setTimeout(() => {
         const adjusted = element.getBoundingClientRect().top + window.scrollY - navbarHeight
         if (Math.abs(adjusted - top) > 2) {
-          window.scrollTo({ top: adjusted, behavior: 'smooth' })
+          window.scrollTo({ top: adjusted, behavior: 'auto' })
         }
       }, 500)
     }
@@ -78,12 +78,12 @@ export default function Navbar() {
           setTimeout(() => {
             const navbarHeight = 64
             const top = element.getBoundingClientRect().top + window.scrollY - navbarHeight
-            window.scrollTo({ top, behavior: 'smooth' })
+            window.scrollTo({ top, behavior: 'auto' })
             window.history.pushState(null, '', '/#decks')
             setTimeout(() => {
               const adjusted = element.getBoundingClientRect().top + window.scrollY - navbarHeight
               if (Math.abs(adjusted - top) > 2) {
-                window.scrollTo({ top: adjusted, behavior: 'smooth' })
+                window.scrollTo({ top: adjusted, behavior: 'auto' })
               }
             }, 500)
           }, 100)

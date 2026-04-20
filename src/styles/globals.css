@@ -168,10 +168,6 @@ h1, h2, h3, h4, h5, h6,
   outline-color: #a78bfa;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 /* Respect user motion preferences */
 @media (prefers-reduced-motion: reduce) {
   *,
