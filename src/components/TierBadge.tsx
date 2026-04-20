@@ -16,7 +16,7 @@ function TierIcon({ tier }: { tier: number }) {
   }
   if (tier === 2) {
     return (
-      <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <svg className="w-3.5 h-3.5" viewBox="0 -2.31 24 24" fill="currentColor" aria-hidden="true">
         <path d="M12 2l2.39 4.84L20 8l-4 3.9.94 5.48L12 14.77l-4.94 2.6L8 11.9 4 8l5.61-1.16L12 2z" />
       </svg>
     )
