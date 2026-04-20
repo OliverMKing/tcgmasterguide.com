@@ -215,7 +215,9 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
             )}
           </div>
           <div className="flex items-center gap-3 mb-3">
-            <FormatBadge format={deck.format} label={formatLabelsTranslated[deck.format]} size="md" />
+            {process.env.NEXT_PUBLIC_ENABLE_MULTI_FORMAT === 'true' && (
+              <FormatBadge format={deck.format} label={formatLabelsTranslated[deck.format]} size="md" />
+            )}
             <TierBadge tier={deck.tier} label={tierLabelsTranslated[deck.tier]} size="md" />
           </div>
           {lastEdited && (
