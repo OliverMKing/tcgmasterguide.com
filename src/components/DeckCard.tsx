@@ -29,8 +29,8 @@ export function DeckCard({ deck }: { deck: Deck }) {
       <div className="absolute inset-0 bg-gradient-to-br from-violet-500/0 via-transparent to-purple-500/0 group-hover:from-violet-500/5 group-hover:to-purple-500/5 transition-all duration-500 rounded-2xl" />
 
       <div className="relative flex items-center justify-between gap-3 flex-1">
-        <div className="flex items-center gap-3 min-w-0">
-          <h3 className="text-lg font-medium text-neutral-800 dark:text-slate-100 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors truncate">
+        <div className="flex items-center gap-3 min-w-0 flex-wrap">
+          <h3 className="text-lg font-medium text-neutral-800 dark:text-slate-100 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors break-words">
             {deck.title}
           </h3>
           <div className="flex -space-x-2 shrink-0">
