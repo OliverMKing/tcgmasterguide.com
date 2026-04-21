@@ -1,4 +1,3 @@
-import { Link } from '@/i18n/navigation'
 import { setRequestLocale, getTranslations } from 'next-intl/server'
 import fs from 'fs'
 import path from 'path'
@@ -7,7 +6,6 @@ import LiveBanner from '@/components/LiveBanner'
 import AnnouncementBanner from '@/components/AnnouncementBanner'
 import { DeckCard } from '@/components/DeckCard'
 import { TierBadge } from '@/components/TierBadge'
-import { BrowseDecksButton } from '@/components/BrowseDecksButton'
 import { Badge, EmptyState } from '@/components/ui'
 
 // Force static generation at build time
@@ -159,22 +157,6 @@ export default async function Home({
                 author: (chunks) => <span className="font-semibold text-violet-600 dark:text-violet-400">{chunks}</span>
               })}
             </p>
-
-            {/* Primary + secondary CTA */}
-            <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3">
-              <BrowseDecksButton>
-                {t('browseDecks')}
-              </BrowseDecksButton>
-              <Link
-                href="/about"
-                className="inline-flex items-center justify-center gap-2 text-neutral-700 dark:text-slate-200 hover:text-violet-600 dark:hover:text-violet-400 font-medium px-5 py-3 rounded-xl border border-stone-200 dark:border-slate-700 bg-white/60 dark:bg-slate-800/60 hover:border-violet-300 dark:hover:border-violet-500 backdrop-blur-sm transition-all duration-300 ease-snappy"
-              >
-                {t('aboutAuthor')}
-                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                </svg>
-              </Link>
-            </div>
           </div>
         </div>
       </div>
@@ -188,6 +170,11 @@ export default async function Home({
           <h2 className="text-3xl font-bold text-neutral-800 dark:text-slate-100">
             {t('decksTitle')}
           </h2>
+          {process.env.NEXT_PUBLIC_ENABLE_MULTI_FORMAT !== 'true' && (
+            <Badge variant="neutral" size="sm">
+              {t('deckCount', { count: decks.length })}
+            </Badge>
+          )}
         </div>
 
         <div className="space-y-16">
@@ -201,23 +188,25 @@ export default async function Home({
             return (
               <section key={format} aria-labelledby={`format-${format}`}>
                 {/* Format Header — accent bar + icon + count */}
-                <div className="mb-8 flex items-center gap-3">
-                  <span className="inline-block h-8 w-1 rounded-full bg-gradient-to-b from-violet-500 to-purple-500" aria-hidden="true" />
-                  {format === 'Post-Rotation' && (
-                    <span className="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-violet-100 text-violet-600 dark:bg-violet-900/40 dark:text-violet-300">
-                      <FormatIcon format={format} />
-                    </span>
-                  )}
-                  <h3
-                    id={`format-${format}`}
-                    className="text-2xl font-semibold text-neutral-800 dark:text-slate-100"
-                  >
-                    {formatLabelsTranslated[format]}
-                  </h3>
-                  <Badge variant="neutral" size="sm" className="ml-auto">
-                    {t('deckCount', { count: formatDecks.length })}
-                  </Badge>
-                </div>
+                {process.env.NEXT_PUBLIC_ENABLE_MULTI_FORMAT === 'true' && (
+                  <div className="mb-8 flex items-center gap-3">
+                    <span className="inline-block h-8 w-1 rounded-full bg-gradient-to-b from-violet-500 to-purple-500" aria-hidden="true" />
+                    {format === 'Post-Rotation' && (
+                      <span className="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-violet-100 text-violet-600 dark:bg-violet-900/40 dark:text-violet-300">
+                        <FormatIcon format={format} />
+                      </span>
+                    )}
+                    <h3
+                      id={`format-${format}`}
+                      className="text-2xl font-semibold text-neutral-800 dark:text-slate-100"
+                    >
+                      {formatLabelsTranslated[format]}
+                    </h3>
+                    <Badge variant="neutral" size="sm" className="ml-auto">
+                      {t('deckCount', { count: formatDecks.length })}
+                    </Badge>
+                  </div>
+                )}
 
                 <div className="space-y-12">
                   {sortedTiers.map((tier) => {
