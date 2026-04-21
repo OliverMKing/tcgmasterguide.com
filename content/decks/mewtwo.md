@@ -96,6 +96,16 @@ id: rKnuz-k3Qxw
 title: Pult v Mewtwo 4
 ```
 
+```youtube
+id: _g3NT0sbFGo
+title: Blaziken v Mewtwo 1
+```
+
+```youtube
+id: bwkleD_as9E
+title: Blaziken v Mewtwo 2
+```
+
 ### Lucario - Favorable
 
 - Mewtwo is the best attacker because it one-shots Lucario and is somewhat hard for them to kill.

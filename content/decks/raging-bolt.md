@@ -95,6 +95,16 @@ id: szk1791lO-s
 title: Pult v Bolt 2
 ```
 
+```youtube
+id: b_n36dgxdPo
+title: Blaziken v Bolt 1
+```
+
+```youtube
+id: v568uuMMVyM
+title: Blaziken v Bolt 2
+```
+
 ### Lucario - Favorable
 
 - Baby Raging Bolt is extremely helpful. It is a good option to open the aggression and get off to a fast start. It can also be used at other points to fix the prize trade if necessary.

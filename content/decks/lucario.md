@@ -99,6 +99,16 @@ id: peMLpGQQT9o
 title: Pult v Lucario 3
 ```
 
+```youtube
+id: yxInJvRcl4Q
+title: Blaziken v Lucario 1
+```
+
+```youtube
+id: 4Nk425YlP_8
+title: Blaziken v Lucario 2
+```
+
 ### Lucario Mirror - Even
 
 This matchup may be slightly unfavored depending on the opponent’s list, as we do not have Maximum Belt or healing. This is the main matchup where the lack of Maximum Belt will be felt.
