@@ -101,6 +101,11 @@ id: 3CKGTQowFjM
 title: Pult v Slop 3
 ```
 
+```youtube
+id: IZFz1CYLWvw
+title: Blaziken v Slop 1
+```
+
 ### Lucario - Unfavorable
 
 - Use Clefairy to respond to Lucario and one-shot it.

@@ -92,6 +92,17 @@ If they don’t play Clefairy and you do, you’ll have a slight edge. However s
 - Clefairy introduces an interesting aspect because it can one-shot their Dragapult, but doesn’t necessarily put you ahead in the trade because it gets easily KO’d in return. The exception is early if they get a fast Phantom Dive but aren’t necessarily stabilized yet. It’s best to KO their Dragapult if they don’t have Energy on benched Drakloak, as they might whiff the response. This is particularly good with Stamp and is generally the best way to come back. Conversely, you don’t need to be scared of their Clefairy if you’re winning and can get the response KO on it.
 - On Turn 1, use Items preemptively to play around Budew. PokePad for Drakloak, Ultra Ball for Meowth, whatever is best in the situation. Just don’t let those Items get locked if you have the chance to play them.
 
+```youtube
+id: SmX3t4Se6hk
+title: Blaziken v Pult 1
+```
+This was a very interesting game.
+
+```youtube
+id: YbrejTOUFNI
+title: Blaziken v Pult 2
+```
+
 ### Lucario - Favorable
 
 This matchup is favorable with Clefairy, and about even without it.

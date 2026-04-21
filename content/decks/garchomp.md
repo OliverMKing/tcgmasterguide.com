@@ -94,6 +94,16 @@ id: WIPj56l63IE
 title: Chomp v Pult 3
 ```
 
+```youtube
+id: zgWVSoAduyg
+title: Blaziken v Chomp 1
+```
+
+```youtube
+id: UqhNx2eGSQg
+title: Blaziken v Chomp 2
+```
+
 ### Lucario - Favorable
 
 - Early Power Weight on your active is insanely strong, protects it from Aura Jab and Solrock. You’ll also want it on Garchomp to make it hard for Lucario to KO it.

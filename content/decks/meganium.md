@@ -93,6 +93,16 @@ id: QjIFFi2LNgI
 title: Pult v Meganium 4
 ```
 
+```youtube
+id: Ibp6SWJNgX8
+title: Blaziken v Meg 1
+```
+
+```youtube
+id: 1pSNLuWc6y8
+title: Blaziken v Meg 2
+```
+
 ### Lucario - Unfavorable
 
 - Hitting Riolu for 10 with a random guy or pinging it for 20 with Arboliva is relevant for the Ogerpon breakpoint.

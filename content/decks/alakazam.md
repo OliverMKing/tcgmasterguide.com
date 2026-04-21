@@ -93,6 +93,16 @@ id: HJZBgT8hcF0
 title: Zam v Pult 2
 ```
 
+```youtube
+id: bdMztyglVF4
+title: Blaziken v Zam 1
+```
+
+```youtube
+id: 3oqKTcPvTRs
+title: Blaziken v Zam 2
+```
+
 ### Lucario - Very Favorable
 
 - Your lose conditions involve Rocky Fighting Energy and Judge. Play around Judge the same way you would play around Stamp.
