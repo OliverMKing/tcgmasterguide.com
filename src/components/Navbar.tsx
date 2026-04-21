@@ -128,6 +128,11 @@ export default function Navbar() {
 
           {/* Desktop navigation */}
           <div className="hidden lg:flex items-center gap-1">
+            {/* Decks (button — scrolls) */}
+            <button onClick={handleDecksClick} className={`${navClasses({ active: pathname === '/' })} cursor-pointer`}>
+              {t('decks')}
+              <ActiveUnderline show={pathname === '/'} />
+            </button>
             {/* About */}
             <Link href="/about" className={navClasses({ active: pathname === '/about' })}>
               {t('about')}
@@ -138,11 +143,6 @@ export default function Navbar() {
               {t('subscribe')}
               <ActiveUnderline show={pathname === '/subscribe'} />
             </Link>
-            {/* Decks (button — scrolls) */}
-            <button onClick={handleDecksClick} className={`${navClasses({ active: pathname === '/' })} cursor-pointer`}>
-              {t('decks')}
-              <ActiveUnderline show={pathname === '/'} />
-            </button>
             {/* Q&A */}
             <Link href="/qa" className={navClasses({ active: pathname === '/qa' })}>
               {t('qa')}
@@ -237,6 +237,19 @@ export default function Navbar() {
           }`}
         >
           <div className="space-y-1 pt-2">
+            <button
+              onClick={() => {
+                setIsMenuOpen(false)
+                setTimeout(handleDecksClick, 350)
+              }}
+              className={`block w-full text-left py-2.5 px-4 rounded-xl transition-colors duration-200 cursor-pointer border-l-2 ${
+                pathname === '/'
+                  ? 'text-white bg-violet-500 border-transparent dark:text-violet-400 dark:bg-violet-900/30 dark:border-violet-500 font-medium'
+                  : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-slate-700/50 border-transparent'
+              }`}
+            >
+              {t('decks')}
+            </button>
             {desktopLinks.map(({ href, key }) => {
               const active = pathname === href
               return (
@@ -254,19 +267,6 @@ export default function Navbar() {
                 </Link>
               )
             })}
-            <button
-              onClick={() => {
-                setIsMenuOpen(false)
-                setTimeout(handleDecksClick, 350)
-              }}
-              className={`block w-full text-left py-2.5 px-4 rounded-xl transition-colors duration-200 cursor-pointer border-l-2 ${
-                pathname === '/'
-                  ? 'text-white bg-violet-500 border-transparent dark:text-violet-400 dark:bg-violet-900/30 dark:border-violet-500 font-medium'
-                  : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-slate-700/50 border-transparent'
-              }`}
-            >
-              {t('decks')}
-            </button>
             {isAdmin && (
               <Link
                 href="/admin"
