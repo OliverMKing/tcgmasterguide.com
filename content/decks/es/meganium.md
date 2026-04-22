@@ -2,7 +2,7 @@
 title: Meganium
 pokemon: [154]
 tier: 3
-format: Post-Rotation
+format: Standard
 ---
 
 ## Decklist
