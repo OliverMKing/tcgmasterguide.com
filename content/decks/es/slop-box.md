@@ -1,7 +1,7 @@
 ---
 title: Kangskhan Box
 pokemon: [115]
-tier: 1
+tier: 2
 format: Standard
 ---
 ## Decklist
