@@ -67,7 +67,7 @@ Energy: 11
 <!-- /PUBLIC -->
 ## Gameplay
 
-- Raging Bolt ex no es necesariamente el atacante principal. Se suele reservar para conseguir uno o dos KOs importantes a lo largo de la partida, dependiendo del enfrentamiento, ya que no es muy eficiente. También puede ser una buena carta de consistencia utilizando Burst Roar, que es muy útil en muchas situaciones.
+- Raging Bolt ex no es necesariamente el atacante principal. Se suele reservar para conseguir uno o dos KOs importantes a lo largo de la partida, dependiendo del matchup, ya que no es muy eficiente. También puede ser una buena carta de consistencia utilizando Burst Roar, que es muy útil en muchas situaciones.
 - Usar Unfair Stamp solo para robar cartas o para interrumpir al oponente está bien. Usarla sin razón no está bien. Debe tener una función específica y útil. Cuando se usa para interrumpir al oponente, combinala junto con Boss’s Orders para debilitar a Fezandipiti u otras cartas de apoyo para perjudicar. Normalmente, el único costo de oportunidad de Unfair Stamp es no jugarlo en otro turno, lo cual no es un gran problema. En este deck, el costo de oportunidad es usar un Noctowl y renunciar a otra carta de Entrenador.
 - Usar Teal Dance no es realmente una prioridad. Es mejor usarlo principalmente cuando se busca una jugada de Energy Switch o Bellowing Thunder.
 - La mayoría de las veces que uses Glass Trumpet, no tendrás a Terapagos, y eso está perfectamente bien. Terapagos solo ataca ocasionalmente. No desperdicias Glass Trumpet usándola en Noctowl y otros Pokémon similares, ya que su propósito principal es habilitar Energy Switch y Bellowing Thunder. Por lo tanto, usarla siempre está bien, incluso si no obtienes un beneficio inmediato.
@@ -75,11 +75,11 @@ Energy: 11
 - Los Energy Switch son un recurso valioso. Cada vez que lo uses, debería ser para una jugada muy poderosa. Es especialmente útil junto con el Boss's Orders, ya que no podrás usar a Crispin en esos turnos. Jugar dos IEnergy Switch también significa que es fácil obtener valor de cualquier Energía en juego cuando tengas la oportunidad.
 - Ve primero contra casi todo. Ve segundo contra decks de evolución desfavorables como Alakazam y Garchomp para intentar ganarles con noqueos rápidos.
 
-## Enfrentamientos
+## Matchups
 
 ### Dragapult - Favorable
 
-Con Clefairy, este enfrentamiento es favorable. Si no juegas con Clefairy, es desfavorable.
+Con Clefairy, este matchup es favorable. Si no juegas con Clefairy, es desfavorable.
 
 - Intenta tomar la delantera atacando con lo que tengas enfrente. Raging Bolt no ex o Fezandipiti son los mejores atacantes al principio del juego, pero pueden ser difíciles de conseguir con el bloqueo de Items. Incluso he atacado con Noctowl para debilitar a Budew. Si solo consigues dos energías para Raging Bolt no ex, aún así puede debilitar a Budew y luego a Drakloak en el siguiente turno.
 - Lo mejor es responder a Dragapult con un Clefairy inmediato. Si no tienes a Clefairy, tendrás que responder con Raging Bolt ex, que es mucho más difícil.
@@ -105,7 +105,7 @@ id: v568uuMMVyM
 title: blaziken v Bolt  2
 ```
 
-### Lucario - Favorable
+### Mega Lucario - Favorable
 
 - El Raging Bolt no ex es extremadamente útil. Es una buena opción para iniciar la agresión y obtener un buen comienzo. También se puede usar en otros momentos para mejorar el intercambio de premios si es necesario.
 - Debes ser rápido y presionarlo con lo que puedas. La siguiente mejor opción es Raging Bolt ex o Clefairy. Clefairy es más eficiente, pero corre el riesgo de ser noqueado por un Aura Jab con dos modificadores, lo cual puede ser peligroso, así que prefiero Raging Bolt. Probablemente no necesites a Raging Bolt ex más adelante, y es poco probable que sea noqueado por un Aura Jab.
@@ -137,10 +137,28 @@ id: nqv7CF4-1NI
 Título: Zam contra Bolt 2
 ```
 
+### Garchomp - Favorable
+
+- Si puedes, consigue un KO rápido con Fan Rotom. Si no, atacar con Raging Bolt ex puede ser una buena opción de ataque rápido. Raging Bolt no ex también puede ser útil si consigues cargarle una Energía en tu primer turno.
+- Carga tanta Energía como sea posible y ten tanto a Raging Bolt como Ogerpon como amenazas que puedan noquear a un Garchomp de un solo golpe. Intenta cargar al menos una Energía Planta en uno o dos Ogerpon. Cargar energías adicionales de diferentes tipos también puede ser útil, ya que a menudo necesitarás cuatro o incluso cinco Energías para noquearlo.
+- Glass Trumpet y Energy Switch son recursos muy importantes en este matchup, ya que pueden usarse para lograr un KO contundente contra un Garchomp.
+- Fezandipiti a veces es necesario, pero también es una gran desventaja, ya que puede ser noqueado por Gabite o el primer ataque de Garchomp. No lo uses si no es necesario.
+- Si juegas con Jamming Tower, es extremadamente fuerte en este matchup, especialmente con Iron Leaves.
+
+```youtube
+id: 6pt514ByFc8
+title: Chomp v Bolt 1
+```
+
+```youtube
+id: hk89SR43qCE
+title: Chomp v Bolt 2
+```
+
 ### Meganium - Desfavorable
 
 - Acumular muchas Energías en juego es muy bueno para que Raging Bolt ex pueda derrotar a Arboliva de un solo golpe.
-- Este es un enfrentamiento normal de intercambio de premios. Clefairy, Terapgaos o incluso Ogerpon pueden usarse para debilitar eficazmente a los Ogerpon del oponente. Intenta dejar Pokémon de un solo premio en el campo hasta que puedas entrar en una carrera de premios ganadora.
+- Este es un matchup normal de intercambio de premios. Clefairy, Terapgaos o incluso Ogerpon pueden usarse para debilitar eficazmente a los Ogerpon del oponente. Intenta dejar Pokémon de un solo premio en el campo hasta que puedas entrar en una carrera de premios ganadora.
 - Raging Bolt ex puede descartar Energía de sí mísmo, lo cual puede ser útil. Si su Ogerpon solo tiene una Energía en tu turno, no puede derrotar de un solo golpe a Raging Bolt ex sin Energía, ya que solo puede obtener dos y luego hacer un máximo de 210 de daño. En este escenario, Raging Bolt ex es un atacante muy bueno.
 
 ```youtube
@@ -163,7 +181,7 @@ No encontré ningún juego interesante o que estuviera cerca de ser interesante 
 
 ### Kangaskhan Box - Ligeramente desfavorable
 
-- Este es un enfrentamiento directo por premios. Intenta atacar cuando puedas conseguir un KO de dos premios y deja Pokémon de un solo premio en el campo hasta que estés listo para hacerlo. Si tienen un Pokémon de un solo premio en el activo, puedes derrotarlo con uno de dos premios si también tienen una Megaevolución en juego, ya que puedes hacer un map de premios 1-2-3 o 1-3-2.
+- Este es un matchup directo por premios. Intenta atacar cuando puedas conseguir un KO de dos premios y deja Pokémon de un solo premio en el campo hasta que estés listo para hacerlo. Si tienen un Pokémon de un solo premio en el activo, puedes derrotarlo con uno de dos premios si también tienen una Megaevolución en juego, ya que puedes hacer un map de premios 1-2-3 o 1-3-2.
 - Si ponen un Mega en juego, puede que necesites a Raging Bolt ex para noquearlo de un solo golpe. Sin embargo, a veces puedes hacer 2-2-2 e ignorarlo, dependiendo de cómo se desarrollan las cosas.
 - Si llevas la delantera, aprovecha al máximo Unfair Stamp y prepara atacantes eficientes como Clefairy y Terapagos. Mantener a Fezandipiti, Hoothoot y atacantes en juego es la mejor manera de conservar la ventaja.
 - Si te encuentras en un intercambio de premios desfavorable, tendrás que recurrir a la esperanza de brickeo de Unfair Stamp. Quitarles el Fezandipiti y estamparlos puede dejarlos brickeados, pero aún así tendrás que lidiar con el atacante que probablemente te derrote de un solo golpe (normalmente Clefairy o Ursaluna). Por lo tanto, es posible que necesites debilitar a su atacante el mismo turno de Unfair Stamp, aunque les des robo de Fezandipiti, y esperar que fallen.
@@ -181,7 +199,7 @@ title: Bolt v Absol 2
 
 ### Mirror de Raging Bolt - Parejo
 
-- Esto es similar al enfrentamiento Kangaskhan Box. No dejes Pokémon con 70 de HP en el activo que puedan ser noqueados por Fan Rotom.
+- Esto es similar al matchup Kangaskhan Box. No dejes Pokémon con 70 de HP en el activo que puedan ser noqueados por Fan Rotom.
 - No siempre es malo conseguir un KO con un solo premio para ejercer presión rápidamente. Si lo haces, puedes noquear a Hoothoot con Fan Rotom más tarde para intentar cambiar el rumbo del intercambio de premios a tu favor. Si te ves obligado a hacerlo, intenta usar Unfair Stamp en el mismo turno para evitar la respuesta con su Boss's Orders.
 - Vas a jugar como se describe arriba ya sea que vayas por delante o por detrás en la mayoría de los casos.
 

@@ -107,7 +107,7 @@ id: YbrejTOUFNI
 Título: Blaziken v Pult 2
 ```
 
-### Lucario - Favorable
+### Mega Lucario - Favorable
 
 - Derrota a su Lucario de un solo golpe siempre que puedas. Esto se puede hacer con Clefairy o Latias. Si no tienes a Clefairy, es buena idea cargar Energía a Latias al principio del juego. Podemos encontrar fácilmente a Crispin con Meowth, así que Latias funciona siempre que consigas la Energía inicial.
 - Juega Risky Ruins cuanto antes. Los 20 puntos de daño son extremadamente importantes. Si usan Gravity Mountain demasiado pronto para defenderse, les quitas esa opción con tu segundo Estadio para que no la tengan disponible para noquearte después. Lo más probable es que no tengan otra Gravity Mountain y reciban el daño.
