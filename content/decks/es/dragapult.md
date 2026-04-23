@@ -81,7 +81,7 @@ Energy: 9
 
 ## Matchups
 
-### Dragapult Mirror - Parejo
+### Mirror de Dragapult - Parejo
 
 Si no juegan Clefairy y tu si, tendrás una ligera ventaja, pero jugar dos Munkidori también puede ser un factor de ventaja en ciertas situaciones.
 
@@ -101,7 +101,7 @@ id: YbrejTOUFNI
 title: Blaziken v Pult 2
 ```
 
-### Lucario - Favorable
+### Mega Lucario - Favorable
 
 Este matchup es favorable con Clefairy y parejo sin él.
 
@@ -134,6 +134,20 @@ title: Pult v Lucario 3
 - Usa Unfair Stamp en un turno de Phantom Dive, idealmente en el primero, pero el segundo también está bien.
 - Usar Pokémon como Fezandipiti/Meowth suele ser una buena opción para mantener el ritmo. Intenta reservar un espacio para Munkidori en la fase intermedia o final del juego.
 - Elige ir primero.
+
+### Garchomp - Desfavorable
+
+- Encadena Dragapult tanto como sea posible. Si atacan a uno, intenta atacar con uno nuevo.
+- Es muy importante conseguir energía para Dreepy/Drakloak. A veces es mejor cargarlos al principio de la partida en lugar de retraer a Budew. Si vas segundo y no tienen a Gible, prioriza a Budew. De lo contrario, prioriza conseguir energía para Dreepy/Drakloak. Por supuesto, lo ideal es conseguir ambos.
+- Budew tampoco es tan bueno porque le da a Gabite cartas de premio tempranas. A veces vale la pena intentar conseguirlo si tienen un tablero débil, pero generalmente no es una prioridad.
+- Es muy bueno bajar Risky Ruins lo antes posible.
+- Intenta evitar que haya dos Roserade en la banca. Dificulta que puedan noquear a Dragapult en un golpe. Usar Boss’s Orders en Roserade o incluso en Roselia es una opción válida. Atacar sus Energías también puede ser muy efectivo si no tienen muchas Energías en juego.
+- Munkidori es muy bueno. Intenta ponerlo en juego y úsalo para lograr noqueos importantes como noquear a Roselia.
+- Permitirles un KO con Spiritomb es inevitable, simplemente asegurate que no sea más de uno.
+- Unfair Stamp es mejor en turnos donde no tienen un KO fácil en la mesa. Si atacas con Dragapult y no quieren usar el primer ataque, o si puedes hacer que fallen un Boss’s Orders o una carga de energía relevante es cuando Unfair Stamp es mejor.
+- Dragon Headbutt de Drakloak en turno 2 es especialmente bueno cuando no tienen a Gabite en el tablero y menos de dos Roselia. Busca esta jugada cuando empieces primero.
+- Intenta jugar sin Fezandipiti/Meowth porque son una gran desventaja en este matchup.
+- Ve primero.
 
 ### Kangaskhan Box - Desfavorable
 

@@ -106,7 +106,7 @@ id: bwkleD_as9E
 title: Blaziken v Mewtwo  2
 ```
 
-### Lucario - Favorable
+### Mega Lucario - Favorable
 
 - Mewtwo es el mejor atacante porque derrota a Lucario de un solo golpe y es bastante difícil para ellos noquearlo.
 - Spidops es un atacante muy común porque a veces no puedes cargar a Mewtwo o este es debilitado. Spidops puede derrotar de un solo golpe a todos los Pokémon de un solo premio y también derrotar a Mega Lucario de dos golpes si tienes la banca llena, así que es bastante bueno.
@@ -129,6 +129,27 @@ title: Lucario v Mewtwo 2
 - Cargar un segundo Mewtwo también es buena idea por si tienen una estrategia como el otro Alakazam, que puede derrotar a Mewtwo de dos golpes. Spidops también puede derrotar al otro Alakazam de un solo golpe, pero puede ser noqueado de regreso, así que Mewtwo es mejor si está disponible. Si juegan Dudunsparce ex, no saques al segundo Mewtwo, ya que podrían derrotar a Articuno de un solo golpe.
 - Al elegir entre cargar Energía Planta o Energía Rocket a Mewtwo, es mejor cargar primero Energía Planta. Juegan Enhanced Hammer (y también recibe menos daño del otro Alakazam).
 - Si noquean a un Mewtwo con un Alakazam malo y tú puedes noquearlo de nuevo con otro Mewtwo, intenta usar Archer para evitar que encadenen a ese Alakazam malo.
+
+### Garchomp - Favorable
+
+- Llena tu mesa con tantos Spidops y Tarountula como sea posible.
+- Guarda el Maximum Belt y el Brave Bangle para un golpe contundente contra Garchomp. Si no los tienes, noquearlo de dos golpes está bien, pero necesitarás a Giovanni para rematarlo.
+- Ataca con Spidops prácticamente todos los turnos turno. Es fácil que derroten a Mewtwo de un solo golpe, así que no lo pongas en juego al principio y úsalo solo si te vas a quedar sin atacantes disponibles.
+
+```youtube
+id: 9FyEwjGxUZE
+title: Chomp v Mewtwo 1
+```
+
+```youtube
+id: cGdmwR51CxI
+title: Chomp v Mewtwo 2
+```
+
+```youtube
+id: LvY_9sbjIjQ
+title: Chomp v Mewtwo 3
+```
 
 ### Meganium - Desfavorable
 
@@ -163,7 +184,7 @@ No encontré ningún juego que estuviera cerca de ser interesante para poner aqu
 - Derrotar a su Mewtwo de dos ataques está bien a menos que estés muy por detrás.
 - Articuno puede ser útil contra Wobbuffet o Murkrow, si es que los juegan.
 
-### Kangaskhan Box (con o sin Mega Absol) - Parejo
+### Kangaskhan Box - Parejo
 
 Este matchup podría inclinarse ligeramente hacia un lado u otro, pero realmente no podría decirlo, así que creo que está bastante igualado.
 

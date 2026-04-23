@@ -103,7 +103,7 @@ id: 1pSNLuWc6y8
 title: Blaziken v Meganium 2
 ```
 
-### Lucario - Desfavorable
+### Mega Lucario - Desfavorable
 
 - El Itchy Pollen u otro daño aleatorio en Riolu/Lucario es relevante para el punto de quiebre en el daño con Ogerpon.
 - Arboliva es muy bueno. Intenta conseguirlo pronto, y a veces querrás un segundo. A veces es mejor debilitar a Lunatone o Solrock si su tablero no está bien desarrollado. De lo contrario, debilitar a Makuhita mientras atacas a Riolu/Lucario también es muy bueno.
@@ -146,7 +146,28 @@ id: mfO2VViBono
 title: Zam v Meganium 2
 ```
 
-### Absol - Parejo
+### Garchomp - Favorable
+
+- Arboliva es increíblemente fuerte. Úsalo para noquear a cualquier Gabite o Energía en juego. Si no puedes conseguirlo, intenta tomar dos premios rápidos para obtener ventaja en el intercambio.
+- Prioriza obtener muchos Ogerpon con Energía, especialmente si no consigues Arboliva. Necesitarás encadenar Ogerpon con tres Energías para derrotar a su Garchomp. Este es un enfrentamiento en el que podrías necesitar un tercer Ogerpon. Si no tienen Power Weight, un Ogerpon con dos Energías puede lograr un KO eficiente.
+- Un segundo Meganium puede ser útil si tienes ventaja en el intercambio. Como mínimo, no descartes las piezas para el segundo Meganium para poder prepararlo de nuevo si el primero es noqueado.
+
+```youtube
+id: hZzfYs-eYcI
+title: Chomp v Meg 1
+```
+
+```youtube
+id: Tyoe8uv-E4c
+title: Chomp v Meg 2
+```
+
+```youtube
+id: A0I3I8FeHYw
+title: Chomp v Meg 3
+```
+
+### Kangaskhan Box - Parejo
 
 - Si tienen a Munkidori y un Mega en juego, usa a Arboliva para debilitar a Munki, lo que crea un mapa de premios 1-3-2 muy bueno.
 - Si puedes eliminar a su Pokémon activo con Ogerpon y tomar la delantera en la carrera de premios (o usar a Boss’s Orders para hacerlo), es una forma fácil de ganar. Si no puedes, deja un Pokémon con un solo premio y espera hasta que puedas. Budew suele ser bueno, pero debes tener cuidado con él. Si usas Itchy Pollen tres veces, pueden debilitarlo con Adrena Brain y obtener la ventaja.

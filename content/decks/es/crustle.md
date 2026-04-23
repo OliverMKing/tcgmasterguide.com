@@ -92,7 +92,7 @@ id: NvqJhv7tq-Y
 title: Crustle v Pultnoir 2
 ```
 
-### Lucario - Muy desfavorable
+### Mega Lucario - Muy desfavorable
 
 - Intenta ponerle Hero’s Cape a Crustle y ataca a Makuhita/Hariyama con Boss's Orders siempre que sea posible, especialmente cuando usen Aura Jab sobre él.
 - No coloques un Dwebble a la vez, ya que será noqueado. Intenta colocar dos a la vez para que uno pueda convertirse en Crustle.

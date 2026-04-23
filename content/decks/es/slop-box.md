@@ -106,7 +106,7 @@ id: IZFz1CYLWvw
 title: Blaziken v Kangaskhan 1
 ```
 
-### Lucario - Desfavorable
+### Mega Lucario - Desfavorable
 
 - Usa a Clefairy para responder a Lucario y derrotarlo de un solo golpe.
 - Inicia la agresión cuanto antes con un atacante que Aura Jab no pueda noquear fácilmente, como Ogerpon o incluso Latias. Necesitamos presionarlos e intentar que no puedan cargar fácilmente a Hariyama. Sin embargo, esto es más fácil decirlo que hacerlo. Si estás desesperado, puedes usar a Clefairy para iniciar la agresión y esperar que no tengan dos modificadores de daño para noquear con Aura Jab.
@@ -135,6 +135,27 @@ title: Lucario v Kangaskhan 3
 - Ataca con lo que sea más rápido o conveniente. En la situación ideal, Kangaskhan es la mejor opción, ya que tiene la mayor cantidad de puntos de vida y podría sobrevivir si tienes suerte. De lo contrario, usa Clefairy o Fezandipiti.
 - En tu turno de Unfair Stamp, necesitas noquear a Fezandipiti/Dudunsparce para maximizar la posibilidad de que se queden brickeados.
 - Si no juegan Enhanced Hammer, confía en Mist Energy Kangaskhan y no pongas muchos Pokémon en juego. Si juegan el otro Alakazam, usa Adrena Brain para evitar que derrote a Kangaskhan de dos golpes e intenta conseguir un segundo atacante Mist Energy.
+
+### Garchomp - Desfavorable
+
+- Intenta presionarlos rápido con un Fezandipiti o Clefairy.
+- Cualquier Energía extra ponla en Ogerpon. Intenta cargarlo lo máximo posible para noquear a Garchomp de un solo golpe.
+- Mind Bend es útil en algunas ocasiones, especialmente si lograste presionar sus primeroas Energías en juego.
+
+```youtube
+id: MNNf2n41tB0
+title: Chomp v Slop 1
+```
+
+```youtube
+id: aGzRod7FXUs
+title: Chomp v Slop 2
+```
+
+```youtube
+id: YhIOn0kE4ko
+title: Chomp v Slop 3
+```
 
 ### Meganium - Parejo
 

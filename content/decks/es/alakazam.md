@@ -115,7 +115,30 @@ id: tQgDTTJcgC0
 title: Zam v Lucario 1
 ```
 
-### Absol - Muy Favorable
+### Mirror de Alakazam - Parejo
+
+- Haz todo lo posible por atacar primero. Usa Sacred Ash para las piezas de Alakazam según sea necesario.
+- Ten cuidado con Enhanced Hammer.
+- No pongas a Fezandipiti en juego.
+
+### Garchomp - Parejo
+
+- Este matchup está bastante parejo, suponiendo que jueguen cuatro Rocky Energy y algunas Hilda. Cuantas menos de estas jueguen, mejor será para tí.
+- Roba muchas cartas agresivamente para encontrar Enhanced Hammer y Boss's Orders.
+- Usa cualquier Energía adicional para cargar a Fezandipiti. Puede que la necesites para noquear a Gabite con Rocky Energy. Consigue Energía para Alakazam primero y luego carga a Fezandipiti lo antes posible. Usa a Fez para noquear una Rocky Energy siempre que tengas la oportunidad. Esta jugada prácticamente garantiza la victoria.
+- Si tienen a Garchomp en juego, intenta noquearlo. Si no, Gabite es el objetivo ideal. Sin embargo, si tienen muchos Pokémon en juego, puede ser mejor guardar tu Boss's Orders para contrarrestar Rocky Energy, que puede ganarte la partida si el oponente no tiene cuidado.
+
+```youtube
+id: 8q94dnhtquM
+title: Chomp v Zam 1
+```
+
+```youtube
+id: sAhw5oGWVZE
+title: Chomp v Zam 2
+```
+
+### Kangaskhan Box - Muy Favorable
 
 - Las únicas condiciones reales de derrota son brickear después de la Unfair Stamp o quedarte sin formas de lidiar con Mist Energy, ambas situaciones se pueden evitar.
 - Juega alrededor de Unfair Stamp como de costumbre, intenta mantener un Dudunsparce en juego.

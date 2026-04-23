@@ -1,6 +1,6 @@
 ---
-title: Lucario
-pokemon: [448]
+title: Mega Lucario
+pokemon: [10059]
 tier: 2
 format: Standard
 ---
@@ -54,7 +54,7 @@ Energy: 11
 - Probé Wally’s Compassion y no le encontré ningún sentido. Usarla en Lucario impide usar Mega Brave o Boss’s Orders en ese turno, lo cual no es ideal. Wally’s Compassion parece buena en teoría, pero no lo es en la práctica.
 - La Fighting Rocky Energy es mala. Siempre quisiera que fuera una Energía Básica cuando la tengo, ya que hay demasiadas interacciones con la Energía Básica en cada partida. Claro, la Fighting Rocky Energy tiene sus ventajas contra Dragapult y Alakazam, pero no influye mucho en el porcentaje de victorias.
 <!-- /PUBLIC -->
-## Jugabilidad
+## Gameplay
 
 - ¡Hariyama es un atacante excelente! Suele cambiar el rumbo de los intercambios de premios. Casi nunca lo cargaras manualmente, pero es muy bueno cargarlo con Aura Jab en algunos matchups. En los matchups donde Hariyama es efectivo, suelo cargarle dos Energías a Hariyama mientras pongo una en Riolu/Lucario. De esa forma, puedo ser flexible y usar la energía de turno en el que quiera usar durante el siguiente turno.
 - Usar Lunar Cycle con tu única Energía de Lucha en mano puede ser tentador, ¡pero no caigas en la tentación! Siempre me castigan cuando uso Lunar Cycle de esa manera. Hazlo solo cuando estés desesperado; de lo contrario, no sacrifiques tu carga manual del turno si la necesitas para un ataque importante. Si ya puedes usar el ataque que quieres (o si no puedes atacar de todos modos), por supuesto que puedes usar Lunar Cycle. En otras palabras, si no estás seguro de si debes usar Lunar Cycle o no, probablemente no valga la pena.
@@ -108,7 +108,7 @@ id: 4Nk425YlP_8
 title: Blaziken v Lucario 2
 ```
 
-### Mirror de Lucario - Parejo
+### Mirror de Mega Lucario - Parejo
 
 Este matchup podría ser ligeramente desfavorable dependiendo de la lista del oponente, ya que no contamos con Maximum Belt ni curación. Este es el matchup principal donde se notará la falta de Maximum Belt.
 
@@ -118,7 +118,15 @@ Este matchup podría ser ligeramente desfavorable dependiendo de la lista del op
 - Judge es ideal para evitar que derroten a tu Lucario de un solo golpe. Por ejemplo, si atacas con un Lucario intacto y tienen una mano grande, Judge puede ser útil para que fallen el KO.
 - Genesect es muy fuerte junto a un Lucario intacto, ya que les dificulta mucho debilitarlo.
 
-### Absol (u otro Clefairy/Ogerpon) - Favorable
+### Garchomp - Desfavorable
+
+- Solrock es muy bueno al inicio, especialmente si no tienen Power Weight. Incluso si lo tienen, puedes esquivarlo con Boss's Orders.
+- Guarda algunos modificadores de daño para noquear de un solo golpe a un Garchomp. Intenta derrotar a un Garchomp de un solo golpe y a otro de dos. Esto crea un mapa de premios 1-1-2-2 ideal.
+- Si tienen un Garchomp sin Power Weight, intenta derrotarlo de un solo golpe.
+- No les des un mapa de premios 3-3 poniendo un segundo Lucario en juego demasiado pronto. Hariyama puede ser un atacante decente contra casi cualquier cosa en el mapa de premios. Incluso puede derrotar a un Garchomp sin Power Weight de un solo golpe con algunos modificadores de daño. Si obtienes uno o dos premios con Solrock, Hariyama puede no ser necesario, y es difícil de cargar.
+- Genesect no es muy bueno en este matchup si juegan Neo Upper. Solo es útil si están muy atrasados ​​en cargas de Energía, e incluso en ese caso no es una prioridad. Sin embargo, si juegan Unfair Stamp, Gensect es mucho mejor.
+
+### Kangaskhan Box - Favorable
 
 Este matchup es favorable contra decks que no sean del tipo Noctowl Toolbox.
 
@@ -194,6 +202,19 @@ title: Lucario v Mewtwo 1
 ```youtube
 id: NlCBLjsG3ic
 title: Lucario v Mewtwo 2
+```
+
+### Alakazam - Muy Desfavorable
+
+- Usa Judge en un turno donde ataques con Lucario y tengan una mano fuerte, idealmente al final de la partida. Esto puede ser especialmente efectivo junto con un la habilidad de Hariyama sobre Fezandipiti/Dudunsparce.
+- Solrock puede ser útil por su velocidad, pero también intenta usar Aura Jab rápidamente. Si su inicio no es bueno, es posible usar Aura Jab antes de que estén listos para noquear a un Lucario de un solo golpe, consiguiendo así uno o dos premios 'gratis' con Lucario.
+- Hariyama puede ser un atacante útil entre Lucarios.
+- El segundo Lucario suele ser mejor cuando les quedan 2 premios. Si se usa cuando les quedan 3, pueden ganar fácilmente 3-3. Si les queda 1, pueden noquear fácilmente a un Pokémon de un solo premio con Boss's Orders para ganar.
+- Guarda Gravity Mountain para cuando tengan listo a Alakazam. Establece puntos de daño clave con Premium Power Pro para Lucario y Solrock.
+
+``youtube
+id: tQgDTTJcgC0
+title: Zam v Lucario 1
 ```
 
 ### Zoroark - Favorable
