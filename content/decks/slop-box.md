@@ -1,6 +1,6 @@
 ---
 title: Slop Box
-pokemon: [115]
+pokemon: [10039]
 tier: 2
 format: Standard
 ---
