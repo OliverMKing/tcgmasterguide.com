@@ -253,6 +253,23 @@ id: qD3lvE40LAM
 title: Crustle v Lucario 1
 ```
 
+### Ogerpon - Desfavorable
+- Intenta jugar alrededor de Wellspring Ogerpon y Clefairy. Guardar tus Switch puede ser útil para escapar de Sob. Es mejor darles un Solrock para Sob que darles dos premios gratis dejando a Riolu en el activo.
+- Solrock en el activo también es bueno como atacante. Si consigues suficientes Premium Power Pro, puedes debilitar a un Pokémon de dos premios con él, lo cual es excelente. Si no obtienes valor de Solrock, no pasa nada. Busca la oportunidad de noquear a Meowth con un Riolu, lo que puede cerrar la partida (o a veces ser útil al principio).
+- Mega Lucario con solo dos Pokémon en la banca puede sobrevivir a un ataque de Clefairy y obligarlos a buscar Área Zero. A veces es mejor optar por esto, pero también puede dejarte vulnerable, así que depende del estado de juego. A veces es mejor simplemente darles el KO de un solo golpe a Mega Lucario e intentar ganar el intercambio de premios.
+- Debes cargar a Hariyama con Aura Jab lo antes posible. Idealmente, Aura Jab te dará dos premios con Premium Power Pros o Boss's Orders. No pongas un segundo Mega Lucario en juego a menos que vayas a ganar con él.
+- Un mapa de premios plausible es dos con Mega Lucario, dos con Hariyama y dos con Riolu o Solrock, no necesariamente en ese orden.
+
+```youtube
+id: FEY-EhVbP6o
+title: Ogerpon v Lucario 1
+```
+
+```youtube
+id: Q_P_hE7aCWE
+title: Ogerpon v Lucario 2
+```
+
 ## Conclusión
 
 Este deck es bastante bueno, mejor de lo que esperaba. Sin embargo, tiene una distribución de matchups bastante polarizada y se ve perjudicado por todos los Clefairy que hay por ahí. No creo que sea lo suficientemente bueno como para ser de primer nivel, pero sin duda es viable.

@@ -264,6 +264,13 @@ Título: Blaziken v Mewtwo 2
 - Presiona con un atacante rápido. Si aún no tienen a Crustle, Dragapult es la mejor opción. Si tienen a Crustle sin Mist Energy, Mind Bend es la mejor opción. De lo contrario, Drakloak. Presiona con lo que sea que tengas disponible, queremos obligarlos a reaccionar para poder usar Unfair Stamp y, con suerte, dejarlos brickeados.
 - Ve segundo y trata de alentarlos con un Itchy Pollen en el primer turno.
 
+### Ogerpon - Ligeramente desfavorable
+
+- Itchy Pollen es muy fuerte al principio de la partida para alentarlos. Doble Torchic también es buena opción, ya que querrás atacar rápidamente con Blaziken.
+- Blaziken suele ser mejor para atacar que Dragapult, ya que Clefairy no lo derrota de un solo golpe. Si usan Sob contra Blaziken (o cualquier otro Pokémon), usa Adrena Brain para contrarrestar el daño.
+- Unfair Stamp es ideal cuando además derrotas a su Fezandipiti (o si no lo tienen en juego).
+- RRisky Ruins es ideal para quitar su Área Zero y deshacerte de cualquier Pokémon que te otorgue dos premios. Claro que, si necesitas daño en su banca para Dragapult, quizás sea mejor no usarla.
+
 ## Reflexiones personales
 
 Este deck es simplemente una versión ligeramente inferior de Dragapult, que sigue siendo muy buena. He descubierto que Dragapult normal es sorprendentemente más eficiente para poner Energía en juego, y no tiene que preocuparse por el espacio extra en el deck o en el tablero con Blaziken. Esta versión también carece de la increíble utilidad de Ursaluna y Latias, lo cual es una lástima. Sin embargo, Blaziken mejora algunos matchups poco favorables, como contra Raging Bolt y Mewtwo, ya que no se ve amenazado por Clefairy, lo cual es algo muy positivo.

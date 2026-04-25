@@ -231,7 +231,25 @@ title: Crustle v Bolt 1
 
 ```youtube
 id: ovX7LmYRiqY
-title: Crustle v Bolt  2
+title: Crustle v Bolt 2
+```
+
+### Ogerpon - Depende
+
+Este enfrentamiento suele ser favorable, pero si juegan Moltres, se vuelve desfavorable.
+- Este es el típico enfrentamiento de intercambio de dos premios. Si no tienen Moltres, tenemos la ventaja porque podemos conseguir un KO rápido con Raging Bolt ex usando a Crispin. Un Raging Bolt ex rápido es una excelente manera de tomar la delantera.
+- Si no consigues la delantera, no dejes a Raging Bolt ex en el activo, ya que Clefairy lo noqueará. Lo mismo se aplica a llenar tu banca si tienes otro Pokémon de dos premios en el activo.
+- Guarda tus Boss's Orders para contrarrestar Legacy Energy o Moltres si los juegan.
+- Ten cuidado con Sob, especialmente al principio de la partida. Deja en juego algo como Hoothoot (sin otros en la banca para Wellspring Ogerpon) o Clefairy si no tienes suficientes Pokémon en juego para que lo debiliten con su propio Clefairy. Les resulta difícil noquear a Latias o Fezandipiti pero son vulnerables a Sob.
+
+```youtube
+id: rs8soPQClrQ
+title: Ogerpon v Bolt 1
+```
+
+```youtube
+id: WH8m4IA1vOc
+title: Ogerpon v Bolt 2
 ```
 
 ## Conclusión

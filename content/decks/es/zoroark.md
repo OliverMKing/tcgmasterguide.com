@@ -205,6 +205,13 @@ title: Bolt v Zoroark 2
 
 - Presiónalos con un Zoroark rápido. Noquea a cualquier Dwebble que veas. Contra Crustle, copia Shred de Zekrom. Oblígalos a responder y luego usa Unfair Stamp. Hacer que se queden brickeados con Unfair Stamp es tu única oportunidad.
 
+### Ogerpon - Desfavorable
+
+- Intenta ganar un intercambio de premios de forma normal. Necesitas un seteo bastante rápido para esto.
+- Si tienes la opción, lo mejor es dejar a Zekrom en el activo, ya que no es vulnerable a Wellspring Ogerpon. Si lo atacan con Sob, puedes usar a Pecharunt e iniciar la carrera de premios.
+- Darmanitan puede usarse como atacante de un solo premio para potencialmente cambiar el rumbo del intercambio. Juegan mucha Energía Básica, pero primero tendrás que noquear a uno o dos Pokémon para activar a Darmanitan.
+- Si vas perdiendo en la carrera de premios, intenta usar Unfair Stamp en el turno en que atacas con Darmanitan. Si lo tienes disponible pronto, también puedes usarlo en los primeros turnos para intentar que se queden sin opciones si aún no están estabilizados.
+
 ## Conclusión
 
 Este deck es terrible en el metajuego actual. Zoroark es un deck bastante fuerte, pero tiene desventaja contra prácticamente todo y presenta la peor distribución de matchups en este momento que he visto en mi vida. Claro, existen diferentes listas y cartas que podrían cubrir amenazas específicas, pero el problema fundamental de una mala distribución de matchups en general no tiene solución.

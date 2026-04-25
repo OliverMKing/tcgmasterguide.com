@@ -250,6 +250,23 @@ id: 9R29o4idU1o
 title: Crustle v Mewtwo  2
 ```
 
+### Ogerpon - Ligeramente favorable
+- Los modificadores de daño y Energy Switch son nuestros recursos más valiosos. Deben usarse para conseguir dos premios cuando de otra manera no sería posible. Son extremadamente fuertes en este matchup.
+- Spidops es un atacante bastante bueno porque puede debilitar a Meowth con Boss's Orders o debilitar a cualquier otro atacante con un modificador de daño, así que busca esas jugadas.
+- Consigue Energía en juego siempre que puedas, ya que hay muchas maneras de utilizarla. Cargar Energía preventiva en Mimikyu puede ser útil para debilitar de un solo golpe al Ogerpon enemigo si atacan con el.
+- Articuno previene el efecto de Sob.
+- Mewtwo a veces sirve por falta de una mejor opción. Es muy bueno si logras noquear de un solo golpe, pero es más difícil de conseguir de lo esperado.
+
+```youtube
+id: Szl3_rJGc6s
+title: Ogerpon v Mewtwo 1
+```
+
+```youtube
+id: Q0ck8sVaKG4
+title: Ogerpon v Mewtwo  2
+```
+
 ## Conclusión
 
 No te dejes engañar por la distribución de matchups, que parece aceptable. Este deck es bastante mediocre.

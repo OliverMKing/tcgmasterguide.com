@@ -257,6 +257,22 @@ id: JxbWBGACztg
 title: Crustle v Garchomp 1
 ```
 
+### Ogerpon - Desfavorable
+- Prioriza tener tantos Gible y Gabite en juego como sea posible.
+- Protege tus energías y/o tu Pokémon activo con Power Weight para contrarrestar a Wellspring Ogerpon.
+- Roserade no aporta mucho valor y puede quedar atrapado con Sob. Si estás ganando el intercambio, está bien evolucionarlo, ya que lo máximo que pueden hacer es convertirlo en una jugada de dos premios. De lo contrario, evito evolucionar a Roselia o incluso en ponerla en juego debido a Wellspring Ogerpon. Sin embargo, muchos decks de Ogerpon solo juegan dos Boss's Orders, y necesitan ambos para aprovecharse correctamente de Roserade. Si usan un Boss's Orders al principio, por ejemplo, puede estar bien evolucionar para quitar a Roselia del alcance de Wellspring Ogerpon.
+- Si evolucionas o no a tu Gabite de reserva depende de varios factores. Si tiene Power Weight, esta relativamente seguro en la banca sin evolucionar. De lo contrario, puedes evolucionarlo pero es más vulnerable a sus atacantes de tipo Planta, por lo que depende de cómo sea el mapa de premios del oponente.
+
+```youtube
+id: mk-e0LvwOls
+title: Ogerpon v Chomp 1
+```
+
+```youtube
+id: 1pVKyVlZlzQ
+title: Ogerpon v Chomp 2
+```
+
 ## Conclusión
 
 Este deck es sorprendentemente bueno. Su variedad de matchups es sólida y, en general, parece mejor que cualquier otro, excepto Dragapult. Tiene un excelente motor integrado y llega a números impresionantes. Claro que es débil contra algunos decks de tipo Planta, pero no creo que haya nada que se pueda hacer al respecto. Jugar con Garchomp es muy efectivo si los decks de tipo Planta no son tan populares. Creo que no son muy buenos, así que quizás su popularidad disminuya si otros piensan igual.

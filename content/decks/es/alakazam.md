@@ -204,6 +204,7 @@ Este matchup es bastante parejo o ligeramente favorable, suponiendo que jueguen 
 - Consigue un Alakazam rápido y roba cartas agresivamente para encontrar Enhanced Hammer y Boss’s Orders.
 - Boss’s Orders es especialmente útil para atacar Spiky Energy, Hero’s Cape o cualquier Pokemon que acumule demasiadas Energías.
 - Empieza a cargar a Dudunsparce de inmediato. Así podrás lidiar con un Crustle con Mist Energy una vez que te quedes sin Enhanced Hammer. Esto es relevante en la mayoría de las partidas. Si alguna vez dejan un Dwebble con Mist Energy y puedes noquearlo con Dudunsparce, hazlo y prácticamente se acaba la partida.
+- Si les quedan más premios que Boss's Orders, puedes encadenar Dudunsparce entre sí al final de la partida. Debes tener cuidado al gestionar tu deck para no quedarte sin cartas, pero Dudunsparce puede curarse infinitamente mientras que Crustle no puede noquearlo de un solo golpe.
 
 ```youtube
 id: KfDqsPaSWZo
@@ -214,6 +215,11 @@ title: Crustle v Zam 1
 id: 0Cw8pFTfpZE
 title: Crustle v Zam 2
 ```
+
+### Ogerpon - Muy favorable
+- Prioriza conseguir a Shaymin. Si no puedes conseguirlo rápido, pero logras setearte sin quedarte muy atrás, ya no lo necesitarás.
+- Probablemente no tengan Unfair Stamp ni Xerosic, pero juega teniendo esto en cuenta por si acaso.
+- Si terminas poniendo a Fezandipiti en juego, cargale una o dos Energías adicionales por si intentan usar Sob para conseguir tres premios.
 
 ## Conclusión
 

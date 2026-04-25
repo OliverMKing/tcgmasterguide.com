@@ -286,6 +286,26 @@ title: Pult v Zoroark 3
 - Presiona con un atacante rápido. Si aún no tienen a Crustle, Dragapult es la mejor opción. Si tienen a Crustle sin Mist Energy, Mind Bend es la mejor opción. De lo contrario, Drakloak. Presiona con lo que sea que tengas disponible, queremos obligarlos a reaccionar para poder usar Unfair Stamp y, con suerte, dejarlos brickeados.
 - Ve segundo y trata de alentarlos con un Itchy Pollen en el primer turno.
 
+### Ogerpon - Desfavorable
+- Itchy Pollen es una prioridad importante al principio del juego para alentarlos.
+- Intenta usar Unfair Stamp al noquear a Clefairy o Fezandipiti con Phantom Dive. De lo contrario, usa Unfair Stamp al final del juego al atacar con Ursaluna para intentar impedir que consigan lo que necesitan para ganar.
+- No dejes nada expuesto que no quieras que quede atrapado con Sob. Si lo hacen, Munkidori puede aprovechar ese daño.
+
+```youtube
+id: WjBDGAt49G8
+title: Ogerpon v Pult 1
+```
+
+```youtube
+id: EwB6s6nUu8A
+title: Ogerpon v Pult 2
+```
+
+```youtube
+id: K9E4AWBJng4
+title: Ogerpon v Pult 3
+```
+
 ## Conclusión
 
 Este deck es sin duda muy bueno y probablemente el mejor del formato. Incluso con deck que intentan contrarrestarlo y siendo un objetivo prioritario, su variedad de matchups sigue siendo bastante buena. Sin embargo, no creo que sea el deck increíblemente poderoso que se dice que es. ¿Está realmente muy por encima de los demás? No lo creo.
