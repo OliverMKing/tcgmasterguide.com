@@ -244,6 +244,23 @@ id: ioVZ82Db7Gw
 title: Crustle v Meganium 1
 ```
 
+### Ogerpon - Depende
+
+Este matchup depende principalmente de las cartas tech que use cada jugador. Si tienen a Moltres, es desfavorable. Si tienen Legacy Energy y tú tienes Briar, es favorable. Si no tienen Moltres y tú no tienes Briar, es parejo o ligeramente favorable.
+- Como siempre, queremos posicionarnos para empezar la partida ganando el intercambio de premios. Tenemos ventaja en este sentido porque tenemos Meganium y ellos no. Sin embargo, Meganium también puede aumentar su daño, así que no lo pongas en juego hasta que estés listo para atacar.
+- No llenes completamente tu banca al principio de la partida para potenciar a Clefairy. Esto es menos relevante más adelante porque pueden conseguir KOs con Ogerpon, pero no tendrán suficientes Energías para hacerlo al comienzo de la partida.
+- No les des aperturas para jugadas con Wellspring Ogerpon. El mejor Pokémon activo para empezar la partida es Ogerpon con una sola Energía, a menos que jueguen con Moltres, en cuyo caso tendrás que mantener a Ogerpon en la banca al inicio y sacrificar un Pokémon de un premio. En general, piensa en qué tipo de jugadas pueden realizar e intenta adaptar tu estrategia.
+
+```youtube
+id: NqIuI3DuDVI
+title: Ogerpon v Meganium 1
+```
+
+```youtube
+id: OILBoOI06cM
+title: Ogerpon v Meganium 2
+```
+
 ## Conclusión
 
 Este deck es viable pero simplemente no es tan bueno como inicialmente creíamos, más que nada por la falta de consistencia y motor de robo del deck.

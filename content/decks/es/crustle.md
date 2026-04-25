@@ -49,7 +49,7 @@ Energy: 15
 - Hilda suele ser bastante débil, pero puede ser útil para encontrar tipos de energía específicos. Se incluye principalmente porque mejora el matchup contra Alakazam, además de ser una carta bastante funcional en general.
 - Petrel es bastante débil, pero resulta crucial en las situaciones en las que se necesita. Buscar Hero’s Cape, Jumbo Ice Cream o Night Stretcher en momentos clave es decisivo para ganar. También es fundamental para el matchup contra Mewtwo, ya que permite encontrar a Cornerstone Ogerpon mediante Ultra Ball, y buscar Buddy Buddy Poffin al principio de la partida también es una buena opción.
 - La mayoría de los Items son bastante intuitivos. Juego dos Ultra Ball porque es mucho más difícil encontrar Cornerstone con solo una. Aunque esto solo es relevante en un matchup, la Ultra Ball sigue siendo útil en general y descartar cartas no es tan malo para este deck. Claro que, si quitas a Cornerstone, el deck solo jugaría otra PokéPad y ninguna Ultra Ball, lo cual sería ideal.
-- La Hero's Escape es la única opción viable de Ace Spec para este deck porque en realidad es bastante difícil mantener a Crustle con vida.
+- La Hero's Cape es la única opción viable de Ace Spec para este deck porque en realidad es bastante difícil mantener a Crustle con vida.
 - Spiky Energy es muy bueno contra muchos Pokémon: Meganium, Dusknoir, Raging Bolt no ex, Pokémon del Team Rocket y Zoroark, por nombrar algunos.
 - Se requieren cuatro Mist Energy para Alakazam y también son muy útiles contra Dragapult.
 - Si no fuera por Crispin, probablemente podríamos arreglárnoslas con dos de tipo Oscuro y dos de tipo Planta, pero Crispin es muy importante y poderoso, y a menudo dependemos de que esté activo para la aceleración de Energía.
@@ -198,6 +198,10 @@ title: Crustle v Mewtwo 2
 ### Mirror de Crustle - Parejo
 
 Nunca he jugado un matchup contra un Crustle y no tengo intención de hacerlo. Con dos Munkidori y varios Crispin, podría ser ligeramente favorable dependiendo de su lista. Si tienen a Munkidori y Lana’s Aid, podría ser ligeramente desfavorable.
+
+### Ogerpon - Muy favorable
+
+- Solo baja a un Crustle y se acabó el juego.
 
 ## Conclusión
 
