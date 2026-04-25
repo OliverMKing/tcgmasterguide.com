@@ -317,6 +317,27 @@ title: Pult v Zoroark 3
 - Pressure them with a fast attacker. If they don’t have Crustle yet, Dragapult is best. If they have Crustle without Mist, Mind Bend is best. Otherwise, Drakloak. Sometimes it is just a matter of whatever you have easy access to, and that’s fine. We want to force them to respond so that we can use Stamp and hopefully make them brick.
 - Go second and try to cheese them with a Turn 1 Itchy Pollen.
 
+ ### Ogerpon - Unfavorable
+
+- Itchy Pollen is a big priority in the early-game to slow them down.
+- Try to Stamp when KO’ing Clefairy or Fez with Phantom Dive. Otherwise, use Stamp at the end of the game when attacking with Ursaluna to try and stop them from getting what they need to win.
+- Don’t leave anything up that you don’t want to get Sobbed. If they do go for Sob, Munkidori can offset all of the damage from it.
+
+```youtube
+id: WjBDGAt49G8
+title: Ogerpon v Pult 1
+```
+
+```youtube
+id: EwB6s6nUu8A
+title: Ogerpon v Pult 2
+```
+
+```youtube
+id: K9E4AWBJng4
+title: Ogerpon v Pult 3
+```
+
 ## Personal Thoughts
 
 This deck is definitely very good and probably the best deck in format. Even with decks trying to counter it and the big target on its back, its matchup spread is still pretty good. However, I don’t think it is the ultimate insane broken deck that it is being hyped up to be. Multiple tiers above everything else? I don’t know about that.

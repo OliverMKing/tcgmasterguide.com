@@ -244,6 +244,24 @@ id: ioVZ82Db7Gw
 title: Crustle v Meg 1
 ```
 
+### Ogerpon - Depends
+
+This matchup mostly depends on what techs each player plays. If they have Moltres, it’s unfavorable. If they have Legacy Energy and you have Briar, it’s favorable. If they don’t have Moltres and you don’t have Briar, it’s about even or slightly favorable.
+
+- As usual, we want to position ourselves to start the game on the winning end of the prize trade. We have the advantage in regards to this because we have Meganium and they don’t. However, Meganium can also buff their damage, so don’t put it in play until you’re ready to engage.
+- Don’t completely fill your bench in the early-game to feed Clefairy. This is less relevant later because they can get KO’s with Ogerpon, but they won’t have enough Energy to do so at the start of the game.
+- Don’t feed them Wellspring plays. The best active Pokemon to start the game is Ogerpon with just one Energy, unless they play Moltres, in which case you’ll have to keep Ogerpon on the bench to start and sacrifice a random single-prize Pokemon. In general, think about what types of plays they can do and try to play around them.
+
+```youtube
+id: NqIuI3DuDVI
+title: Ogerpon v Meganium 1
+```
+
+```youtube
+id: OILBoOI06cM
+title: Ogerpon v Meganium 2
+```
+
 ## Personal Thoughts
 
 The Noctowl build does perform better than without, but overall the deck still does not seem that great to me. Another issue is lots of people randomly teching Shaymin. If that changes I would consider this deck a bit better.

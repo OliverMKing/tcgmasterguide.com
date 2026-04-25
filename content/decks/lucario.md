@@ -264,6 +264,24 @@ id: qD3lvE40LAM
 title: Crustle v Lucario 1
 ```
 
+### Ogerpon - Unfavorable
+
+- Try to play around Wellspring and Clefairy. Saving switching cards can be helpful to escape Sob’s retreat lock. Feeding them a Solrock to Sob is better then giving them a free two prizes by leaving Riolu in the active. 
+- Solrock in the active is also good as an attacker. If you get enough Premium Powers, you can two-shot a two-prize Pokemon with it, which is great. If you don’t get value from Solrock, that’s fine. Look for a chance to get a Riolu one-shot on Meowth, which can close out games (or sometimes be good early).
+- Lucario with only two Pokemon on the bench can survive a Clefairy attack and force them to find Area Zero. Sometimes it’s better to go for this, but it also can leave you vulnerable, so it depends on the board state. Sometimes it’s better to just feed them the one-shot on Lucario and try to win the prize trade.
+- You need to power up Hariyama with Aura Jab as soon as possible. Ideally, Aura Jab will get two-prizes with either Premium Powers or Boss. Don’t put a second Lucario in play unless you’re winning the game with it.
+- One plausible prize map is two with Lucario, two with Hariyama, and two with Riolu or Solrock, not necessarily in that order.
+
+```youtube
+id: FEY-EhVbP6o
+title: Ogerpon v Lucario 1
+```
+
+```youtube
+id: Q_P_hE7aCWE
+title: Ogerpon v Lucario 2
+```
+
 ## Personal Thoughts
 
 This deck is pretty good and better than I was expecting. However, it has a rather polarized matchup spread and gets collateral'd by all the random Clefairy running around. I don't think it's quite good enough to be top tier, but definitely viable

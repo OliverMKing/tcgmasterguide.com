@@ -263,6 +263,13 @@ title: Blaziken v Mewtwo 2
 - Pressure them with a fast attacker. If they don’t have Crustle yet, Dragapult is best. If they have Crustle without Mist, Mind Bend is best. Otherwise, Drakloak. Sometimes it is just a matter of whatever you have easy access to, and that’s fine. We want to force them to respond so that we can use Stamp and hopefully make them brick.
 - Go second and try to cheese them with a Turn 1 Itchy Pollen.
 
+### Ogerpon - Slightly Unfavorable
+
+- Itchy Pollen is very strong in the early-game to slow them down. Double Torchic is also good, as you want to attack with Blaziken quickly.
+- Blaziken is typically better to attack with than Dragapult since it does not get one-shot by Clefairy. If they Sob the Blaziken (or anything else), use Adrenabrain to offset the damage.
+- Unfair Stamp is best when KO’ing their Fez (or if they have no Fez).
+- Risky Ruins is best to bump their Area Zero and get rid of any of your two-prize liabilities. Of course, if you need damage on their board for Dragapult, it may be best not to use it.
+
 ## Personal Thoughts
 
 This deck is just a slightly-worse straight Pult, which is still very good. I’ve found that regular Dragapult is weirdly more efficient with getting Energy into play, and it doesn’t have to worry about the extra deck space or board space with Blaziken. This build also lacks the insane utility of Ursaluna and Latias, which is sad. However, Blaziken does improve some fringe matchups such as Raging Bolt and Mewtwo because it is not threatened by Clefairy, which is nice.
