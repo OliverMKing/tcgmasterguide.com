@@ -205,6 +205,13 @@ title: Bolt v Zoroark 2
 
 - Pressure them with a fast Zoroark. KO any Dwebble on sight. Against Crustle, copy Zekrom’s Shred. Force them to respond and then Stamp them. Making them brick off Stamp is your only chance.
 
+### Ogerpon - Unfavorable
+
+- Try to win a prize trade normally. You have to get a fairly fast setup for this.
+- Leaving Zekrom in the active is best if you have the choice, as it is not vulnerable to Wellspring. If they Sob it, you can use Pecharunt and initiate the prize race.
+- Darmanitan can be used as a single-prize attacker to potentially swing the prize trade back. They play a lot of Basic Energy, but you’ll need to KO a Pokemon or two first in order to activate Darmanitan.
+- If you’re behind in the prize race, try to use Stamp on the turn you attack with Darmanitan. If you have it early, you can also use it within the first couple of turns to try and make them brick if they aren’t stabilized yet.
+
 ## Personal Thoughts
 
 This deck is terrible in the current metagame. Zoroark is a pretty strong deck but it is unfavored against basically everything, and it has the worst matchup spread I have seen in my entire life. Frankly, it does not pass the bar for being good enough to write a guide on but I figured I should not be lazy and at least put it up. Sure, there are different builds and techs that could cover specific threats, but the fundamental issue of a bad matchup spread across the board cannot be fixed.

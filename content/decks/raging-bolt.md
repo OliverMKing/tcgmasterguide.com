@@ -234,6 +234,25 @@ id: ovX7LmYRiqY
 title: Crustle v Bolt 2
 ```
 
+### Ogerpon - Depends
+
+This matchup is largely good, but if they play Moltres it becomes unfavorable.
+
+- This is your generic two-prize trade matchup. If they don’t have Moltres, we have the advantage because we can get a fast Raging Bolt KO with Crispin. Fast Raging Bolt is a great way to take the lead.
+- If you’re not getting a lead, don’t leave Raging Bolt ex in the active as it will die to Clefairy. The same applies about filling up your bench if you have a different two-prize Pokemon in the active.
+- Save gusts to get around Legacy Energy or Moltres if they play them.
+- Watch out for Sob, especially in the early-game. Leave up something like Hoothoot (with no other ones on the bench for Wellspring) or Clefairy if you don’t have enough Pokemon in play for them to KO it with their own Clefairy. Latias or Fez are hard for them to KO, but vulnerable to Sob.
+
+```youtube
+id: rs8soPQClrQ
+title: Ogerpon v Raging Bolt 1
+```
+
+```youtube
+id: WH8m4IA1vOc
+title: Ogerpon v Raging Bolt 2
+```
+
 ## Personal Thoughts
 
 This deck is fine but it does have a lot of games that make you question life. Being one of the few decks good into Dragapult and Lucario is pretty nice, and it’s fundamentally a decent deck so it can hold its own against most other stuff.

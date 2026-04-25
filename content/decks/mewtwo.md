@@ -229,6 +229,24 @@ id: 9R29o4idU1o
 title: Crustle v Mewtwo 2
 ```
 
+### Ogerpon - Slightly Favorable
+
+- Damage modifiers and Energy Switch are our most premium resources. They should be used to get a two-prize turn when you otherwise wouldn’t be able to. They are extremely strong in this matchup.
+- Spidops is quite a good attacker because it can get a gust-KO on Meowth or a damage modifier KO on their attacker, so look for those plays.
+- Getting Energy in play whenever you can as there’s lots of ways to utilize them. Preemptive Energy on Mimikyu can be good for helping get the one-shot on their Ogerpon if they attack with it.
+- Articuno stops their Sob.
+- Mewtwo is sometimes fine for lack of a better option. It’s very good if you manage to get a one-shot with it, but that is harder to come by than expected.
+
+```youtube
+id: Szl3_rJGc6s
+title: Ogerpon v Mewtwo 1
+```
+
+```youtube
+id: Q0ck8sVaKG4
+title: Ogerpon v Mewtwo 2
+```
+
 ## Personal Thoughts
 
 Don’t be deceived by the acceptable-looking matchup spread. This deck is truly bad.

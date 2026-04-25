@@ -259,6 +259,23 @@ id: JxbWBGACztg
 title: Crustle v Garchomp 1
 ```
 
+### Ogerpon - Unfavorable
+
+- Prioritize getting as many Gible and Gabite in play as possible.
+- Protect your Energy drops and/or your active with Power Weight to play around Wellsrping.
+- Roserade does not provide much value and can get retreat locked. If you’re winning the trade, it’s fine to evolve into it because the most they can do is convert it into a two-prize play. Otherwise, I’m hesitant to evolve into Roserade or even put Roselia down due to Wellspring. Lots of Ogerpon lists only play two Boss though, and they need both of them to properly convert on a Rosreade. If they use a Boss early for example, it can be fine to evolve them in order to get Roselia out of Wellspring range.
+- Whether you evolve your backup Gabite depends on various things. If it has Weight, it is relatively safe as a Gabite. If not, it can evolve out of Wellspring, but is more vulnerable to their Grass attackers, so it depends on what the opponent’s prize map looks like.
+
+```youtube
+id: mk-e0LvwOls
+title: Ogerpon v Garchomp 1
+```
+
+```youtube
+id: 1pVKyVlZlzQ
+title: Ogerpon v Garchomp 2
+```
+
 ## Personal Thoughts
 
 This deck is surprisingly good. Its matchup spread is solid, and overall the deck seems better than everything else besides Dragapult. It has a great built-in engine and insane stats. Of course, it’s weak to some of the Grass decks, but I don’t think there’s anything you can do about it. Playing Garchomp is very strong if the Grass decks aren’t as popular. I think they aren’t very good, so perhaps they will see a decrease in play if other people think the same way.

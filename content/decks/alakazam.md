@@ -206,6 +206,7 @@ This matchup is about even or slightly favorable assuming they play four Mist an
 - Get a fast Alakazam and draw cards aggressively to find Hammers and Bosses. 
 - Boss is good specifically to target Spiky Energy, Hero’s Cape, or anything that accumulates too much Energy.
 - Start powering up Dudunsparce right away! This is how you can deal with a Crustle with Mist once you run out of Hammers. This is actually relevant in most games. If they ever leave a Dwebble with Mist Energy and you can KO it with Dudunsparce, do that and it’s basically game over.
+- If they have more prizes left than Bosses, you can even loop Dudunsparce into each other in the end-game. You have to be a bit careful with managing cards to not accidentally deck out, but Dudunsparce can infinitely heal itself while Crustle cannot KO it in one shot.
 
 ```youtube
 id: KfDqsPaSWZo
@@ -216,6 +217,12 @@ title: Crustle v Zam 1
 id: 0Cw8pFTfpZE
 title: Crustle v Zam 2
 ```
+
+### Ogerpon - Very Favorable
+
+- Prioritize getting Shaymin. If you can’t get Shaymin fast but you do get set up without going too far behind, you won’t even need Shaymin anymore.
+- They probably don’t have Stamp or Xerosic, but play around them just in case.
+- If you end up putting Fez in play, attach an extra Energy or two to it in case they go for the Sob into three-prize play.
 
 ## Personal Thoughts
 

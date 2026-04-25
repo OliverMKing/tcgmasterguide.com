@@ -199,6 +199,10 @@ title: Crustle v Mewtwo 2
 
 I've never played the Crustle mirror and I never intend to. With two Munkidori and several Crispin, it might be slightly favorable depending on their list. If they have Munkidori and Lana's Aid it might be slighly unfavorable.
 
+### Ogerpon - Auto-Win
+
+- Just get a Crustle in play and the game is over.
+
 ## Personal Thoughts
 
 This deck’s matchup spread is too good to ignore. It’s way better now that it doesn’t have to worry about Gardevoir. However, it loses to Lucario and random nonsense like Festival Lead. It’s still very much an anti-meta deck, which carries some inherent risk in an undefined metagame. That said, I think it’s incredibly strong and takes very favorable matchups against a good chunk of the field, doing what Crustle does.
