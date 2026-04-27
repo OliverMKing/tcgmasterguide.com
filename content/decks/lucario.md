@@ -284,4 +284,4 @@ title: Ogerpon v Lucario 2
 
 ## Personal Thoughts
 
-This deck is pretty good and better than I was expecting. However, it has a rather polarized matchup spread and gets collateral'd by all the random Clefairy running around. I don't think it's quite good enough to be top tier, but definitely viable
+This deck is pretty good and better than I was expecting. However, it has a rather polarized matchup spread and gets collateral'd by all the random Clefairy running around. I don't think it's quite good enough to be top tier, but definitely viable.

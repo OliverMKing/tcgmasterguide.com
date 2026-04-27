@@ -264,4 +264,4 @@ title: Ogerpon v Meganium 2
 
 ## Personal Thoughts
 
-The Noctowl build does perform better than without, but overall the deck still does not seem that great to me. Another issue is lots of people randomly teching Shaymin. If that changes I would consider this deck a bit better.
+The Noctowl build does perform better than without, but overall the deck still does not seem that great to me. Another issue is people randomly teching Shaymin. If that changes I would consider this deck a bit better.

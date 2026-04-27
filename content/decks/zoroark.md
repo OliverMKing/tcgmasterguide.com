@@ -51,7 +51,9 @@ Energy: 8
 
 ### Exclusions
 
+- Mega Lopunny could be included to counter Crustle and it also is good against two-prize decks that can be troublesome.
 - This deck does not have any bench space to spare. When I tried cards like Yveltal and Budew, starting with them was very problematic. Yveltal can be strong in this format, but I did not have the bench space to accommodate it with Munkdori and Pecharunt. Most decks that Yveltal would seem good against (like Dragapult) can also attack with their liabilities a lot easier now, so I was not having much success with it.
+- Scoop Up Cyclone makes more sense in builds with more different Pokemon so you can play a toolbox without getting kneecapped by the lack of board space.
 - Munkidori is not very good outside of the Dragapult matchup and there isn’t bench space. You could include it over Reshiram.
 - Janine’s Secret Art is not bad, you could play it if you want. It’s just situational and hard to find, but usually good when you have it.
 - There are a lot of cards that make sense in the Control build such as Dedenne, Elgyem, Xerosic’s etc., but are not suited for this version of the deck.

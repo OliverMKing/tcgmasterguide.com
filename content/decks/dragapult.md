@@ -43,7 +43,7 @@ Energy: 9
 ### Inclusions
 
 - Meowth is so insanely good in this deck. It makes it easy to do whatever you want and it’s useful in basically any spot. I thought Meowth would be a liability due to its low HP and bench spot occupation, but this is hardly noticeable. The only real downside is sometimes starting with it, but I still think it is easily worth it to play both copies.
-- Munkidori with Risky Ruins seems like a weak gimmick, but it comes into play way more than I expected. Risky Ruins is acutally good in basically every single matchup, and this combo can replicate what Hawlucha did. I don’t like the second Munkidori because there are rarely opportunities to use both at the same time, and it’s easy to find the one-of. Sometimes it’s prized, which is annoying, but it’s not that big of a deal. The main use case for second Munki would probably be the mirror.
+- Munkidori with Risky Ruins seems like a weak gimmick, but it comes into play way more than I expected. Risky Ruins is acutally good in basically every single matchup, and this combo can replicate what Hawlucha did. I don’t like the second Munkidori because there are rarely opportunities to use both at the same time, and it’s easy to find the one-of. Sometimes it’s prized, which is annoying, but it’s not that big of a deal. The main use case for second Munki would be the mirror. Risky Ruins is mostly better than Area Zero because it activates relavant Munkidori uses in most matchups. Without it, Munkidori is still good in mirror but basically useless everywhere else. The preemptive Risky Ruins damage is also very good against Fighting decks.
 - Latias and Ursaluna are still broken and not playing them is throwing. Aside from Ursaluna’s normal uses, it has additional utility with Crispin. Having an attacker that isn’t weak to Clefairy comes up very often in this format.
 - Clefairy is particularly strong for the mirror and Lucario matchups. These are probably going to be the two most popular matchups as the format begins.
 - This deck relies on Boss’s Orders on specific turns and sometimes likes to spam it. I am firmly in the four Boss camp, and this also helps compensate for the loss of Counter Catcher.
@@ -51,12 +51,15 @@ Energy: 9
 - Rosa’s Encouragement is extremely situational. Before trying it, I thought Crispin was for sure better. However, being able to instantly charge a Dragapult while also attaching Dark to Munkidori is an extremely powerful play that comes up enough to be relevant. The Drakloak with Energy often gets sniped down, which makes Rosa even more necessary. Furthermore, the full wombo combo often assembles itself in-hand with the format’s lack of hand disruption.
 - Brock’s Scouting is just good for general consistency as well as finding the Pokemon ex that can be annoying to search out.
 - Team Rocket’s Petrel is mostly to find Unfair Stamp on demand via Meowth, and it also helps with general consistency. It is used very often.
+- The second Budew is probably not necessary but I don't know what I would want to add instead. I will test Maractus against Garchomp and if it works well, then I will probably swap it in.
 
 ### Exclusions
 
+- Dudunsparce is quite good for general utility and its capability to counter Crustle and Slop decks. I will definitely test and consider it a bit more.
+- Hero's Cape is very strong but I still think Stamp is better. Not having Stamp exposes some vulnerabilities and makes some matchups a lot worse (Single-prize decks, Mewtwo, etc.).
 - Dusknoir is just not that good in the current meta. I did not find myself using it very often and it doesn’t solve any particular problem. Dusknoir is also much weaker now without Counter Catcher or Iono to take advantage of it.
 - Blaziken is unnecessary and way less efficient than Crispin or just attaching normally. There's no need to counter Grass since the matchup is already fine. Same goes for Moltres.
-- Area Zero has some uses but it's far less useful and impactful than Risky Ruins.
+- Area Zero has some uses but it's far less useful and impactful than Risky Ruins. If you do play Area Zero, I would also play Chien-Pao to make sure to get the upside of getting rid of liabilities.
 - Maractus isn't that great because most decks can get out of it or KO the Maractus with whatever gets "stuck." However it can be good against Garchomp or to punish unaware players in some fringe scenarios.
 - Noctowl is not very good and way too difficult to use. Prizing a piece, deck space, board space, and finding the actual Pokemon. Its payoff isn’t even that good as you’ll have a massive hand and can usually do whatever you want anyway.
 - Shaymin is way better in theory than in practice. Of course, it can still be useful on occasion. It is mostly good against Crispin box decks that can attack with Fez/Waterpon or the Meganium deck with Arboliva.
@@ -340,4 +343,4 @@ title: Ogerpon v Pult 3
 
 ## Personal Thoughts
 
-This deck is definitely very good and probably the best deck in format. Even with decks trying to counter it and the big target on its back, its matchup spread is still pretty good. However, I don’t think it is the ultimate insane broken deck that it is being hyped up to be. Multiple tiers above everything else? I don’t know about that.
+This deck is definitely very good definitely the best archetype. Even with decks trying to counter it and the big target on its back, its matchup spread is still pretty good. However, I don’t think it is the ultimate insane broken deck that it is being hyped up to be. Multiple tiers above everything else? I don’t know about that.

@@ -56,6 +56,7 @@ Energy: 8
 - Two Budew would be nice but it is sometimes a liability and the board space is a little tighter with the Blaziken line. The second would be good when one is prized, or sometimes to be used as a pivot. I’m also not sure what I would cut for it.
 - A thicker Blaziken line isn’t necessary because you’re only using one Blaziken in most games. Having double Blaziken on the board is nice, but more of an unnecessary luxury. It would also be hard to leverage as it takes up another board spot (so less for Munkidori). Of course, in matchups where attacking with Blaziken is important, a thicker line would be good.
 - Shaymin is a fraud. Most of the matchups that snipe are still manageable without Shaymin. The ones that aren’t are very fringe decks such as Slowking, which I’m not concerned about.
+- Dudunsparce could be a good tech for Crustle if you were inclined to do so.
 - I think Judge and Harlequin are bad cards so I am not going to play them unless I find a good reason to do so.
 - I tried four Boss because the card is broken, but didn’t find that to be necessary in testing.
 - Team Rocket’s Watchtower could help against Slop Box decks in theory, but lining it up with hand disruption is basically impossible. Other matchups where Watchtower could be used, such as Alakazam, are already favorable anyway.

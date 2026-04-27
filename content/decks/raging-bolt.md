@@ -43,6 +43,8 @@ Energy: 11
 2 Psychic Energy MEE 5
 ```
 <!-- PUBLIC -->
+The non-Noctowl build is getting a lot more popularity. I tried it to see if I should add it to the guide and it is not very good. The straight Ogerpon deck is a better version of it, so if you want to play non-Noctowl Bolt, just play that instead. If you are going to play Bolt, Noctowl is still the way to go.
+
 ### Inclusions
 
 - I think the fourth Noctowl line is very beneficial since this deck has a lot more trouble with drawing without Sada, so it relies on Noctowl even more. When playing with the 3-3 line I always wanted more.
@@ -67,7 +69,7 @@ Energy: 11
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
-- Raging Bolt ex isn’t necessarily the go-to attacker. It is mostly reserved to get one or two big KO’s throughout the game, depending on the matchup, since it is not very efficient. It can also be a good consistency card by utilizing Burst Roar, which is very reasonable in a lot of spots.
+- Raging Bolt ex isn’t necessarily the go-to attacker. It is mostly reserved to get one or two big KO’s throughout the game, depending on the matchup, since it is not very efficient. Of course, if you start with it or don't have a better option, it is still a fine early-game attacker. It can also be a good consistency card by utilizing Burst Roar, which is very reasonable in a lot of spots.
 - Using Stamp just for draw or just for disruption is fine. Using it for no reason is not. It should be doing something specific and useful. When used for disruption, using it alongside Boss to KO Fez/other support can cripple opponents. Usually, Stamp’s only opportunity cost is not playing it on a different turn, which isn’t a big deal. In this deck, the opportunity cost is using a Noctowl and forgoing a different Trainer card.
 - Using Teal Dance isn’t really a priority. It’s mostly best when going for an Energy Switch or Bellowing Thunder play.
 - Most of the time you use Trumpet you won’t have Terapagos, and that’s totally fine. Terapagos is only an occasional attacker. You aren’t wasting Trumpet by using it on random Noctowl and such, as its main purpose is enabling Energy Switch/Bellowing Thunder. As such, slamming Trumpet whenever is generally fine even if you aren’t getting instant value.
