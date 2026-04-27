@@ -6,7 +6,7 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for Alakazam](./images/alakazam/zamlist.png)
+![decklist for Alakazam](./images/alakazam/4candy.png)
 ```decklist
 Pokémon: 22
 4 Dunsparce JTG 120
@@ -21,10 +21,10 @@ Trainer: 31
 4 Hilda WHT 84
 4 Dawn PFL 87
 3 Boss's Orders PAL 172
-2 Morty's Conviction TEF 155
+1 Morty's Conviction TEF 155
 4 Buddy-Buddy Poffin TEF 144
 4 Poké Pad ASC 198
-3 Rare Candy SVI 191
+4 Rare Candy SVI 191
 2 Wondrous Patch PFL 94
 2 Enhanced Hammer TWM 148
 2 Night Stretcher SFA 61
@@ -41,7 +41,7 @@ Energy: 7
 - This list is pretty simple and straightforward. Alakazam’s matchups are extremely polarized. It would make sense to try and cover for the bad matchups in some way, but I don’t think that’s possible. Therefore, I wanted to make the deck as fundamentally sound as possible and fully lean into the matchup roulette.
 - Shaymin is mostly relevant against random Waterpons and Darmanitan. It also adds a few percentage points against Arboliva. I think it’s one of the few techs that makes a lot of sense, though it’s not strictly needed.
 - Morty’s Conviction is very nice as a draw card that can add a lot of cards to hand. Sometimes Hilda or Dawn nets more cards by extending into Alakazam/Dudunsparce, but in other situations, Morty is a more powerful draw Supporter. The reason I prefer Morty to other options is because it’s the only way for this deck to discard Psychic Energy, which is very relevant when you want to use the Wondrous Patch/Enriching Energy combo.
-- Rare Candy is so broken and consistently useful in this deck. From early-game speed, mid-game consistency, sometimes whiffing multiple Kadabra, Abra getting sniped off, etc. There are so many reasons to love Rare Candy. Even with four Kadabra, I actually want a fourth Candy and will be trying to fit it in.
+- Rare Candy is so broken and consistently useful in this deck. From early-game speed, mid-game consistency, sometimes whiffing multiple Kadabra, Abra getting sniped off, etc. There are so many reasons to love Rare Candy. Even with four Kadabra, I still think this deck needs four Rare Candy.
 - Night Stretcher is my preferred recovery because I mostly just want to get back Abra as conveniently as possible.
 - Wondrous Patch is either useless or insanely powerful. It won’t be used every game, but it allows us to make use of Enriching Energy, which is a fantastic draw card that we can recycle via Dudunsparce.
 - Enhanced Hammer is necessary to deal with Mist Energy and Rocky Fighting Energy.
@@ -51,8 +51,8 @@ Energy: 7
 
 - Psyduck is not here because we lose to Dragapult either way and Dusknoir isn’t that big a part of the meta.
 - Genesect is too much investment for too little return. It’s not that hard to recover off Stamp, and committing a bench spot as well as deck spots for Tools seems bad.
-- Fan Rotom is bad, especially with no Stadiums. I initially thought that it would be fine to play Fan Rotom if you played Stadiums, but I did not get much value from it at all, and it is a liability to have in play. Even with Stadiums, I don’t think I would play Fan Rotom.
-- Speaking of Stadiums, many lists play Battle Cage. However, even with 3-4 Battle Cage, the Dragapult matchup is still terrible. Therefore, I do not want to waste the deck space on it. Another option for the Stadium is Nighttime Mine, which might be better.
+- Fan Rotom is bad, especially with no Stadiums. I initially thought that it would be fine to play Fan Rotom if you played Stadiums, but I did not get much value from it at all, and it is a liability to have in play. Even with Stadiums, I would not play Fan Rotom.
+- Speaking of Stadiums, many lists play Battle Cage. However, even with 3-4 Battle Cage, the Dragapult matchup is still terrible. Therefore, I do not want to waste the deck space on it.
 - Chien-Pao is a consideration for random Watchtowers. If decks besides Dragapult end up playing random Watchtowers, it may be worth adding Chien-Pao in.
 - Lana’s Aid seems like it would be alright but I would always rather play other Supporters for the turn. Night Stretcher is more convenient. This deck doesn’t really need heavy recovery, but if it does, there’s still Sacred Ash.
 <!-- /PUBLIC -->
@@ -226,4 +226,4 @@ title: Crustle v Zam 2
 
 ## Personal Thoughts
 
-Pure matchup roulette deck. I probably wouldn’t play it because losing to Dragapult is not ideal, and that matchup is worse than expected. However most of the other matchups are so free that Alakazam can still be a good play. The deck is also very consistent and can even be fast with the Candies.
+Pure matchup roulette deck. I probably wouldn’t play it because losing to Dragapult is not ideal, and that matchup is worse than expected. However most of the other matchups are so free that Alakazam can still be a good play. The deck is also very consistent and can be fast with the Candies.

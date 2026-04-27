@@ -42,7 +42,7 @@ Energy: 15
 
 - Munkidori is very strong against anything that cannot easily one-shot your attacker. Particularly Dragapult, Mewtwo, or anything with their own Munkidori. It has natural synergy with Crispin and Crustle by helping to keep it alive.
 - Psyduck is needed for Dusknoir. Although I don’t have Psyduck in a lot of my other decks because Dusknoir is a fraud, it’s too easy to include in this one. This is also the deck that has a big difference against the Dusknoir build of Dragapult as opposed to the non-Dusknoir one. That said, it’s definitely cuttable depending how the meta shapes up.
-- Cornerstone Ogerpon single-handedly saves the Mewtwo matchup. Cuttable if Mewtwo ends up being a non-issue in the metagame. For most other decks I don’t want to tech for an undefined meta. For Crustle it is different because Crustle is not a fundamentally good deck and only gets wins by countering other decks, so it makes more sense to counter as many decks as possible.
+- Cornerstone Ogerpon single-handedly saves the Mewtwo and Festival Lead matchups. For most other decks I don’t want to tech for random decks. For Crustle it is different because Crustle is not a fundamentally good deck and only gets wins by countering other decks, so it makes more sense to counter as many decks as possible.
 - Boss is very good in this deck because most decks only have a few answers to Crustle. Boss allows us to pick them off before they can get value, allowing for easy wins. There are many examples where Boss is actually relevant for winning the game: Duskull, Meganium, Team Rocket’s Mimikyu, etc. I would not play fewer than four!
 - Crispin is included because this deck is way too slow with Energy attachments and desperately needs the help.
 - Morty’s Conviction is a mid draw Supporter but there aren’t really any better options and Crustle needs a lot of help with seeing cards.
@@ -56,9 +56,13 @@ Energy: 15
 
 ### Exclusions
 
+- I think the Kangaskhan is an unnecessary liability. It is too difficult to maneuver around, and giving up those prizes is a good way to instantly lose matchups such as Alakazam
+- Playing the non-Crispin build makes the deck unnecessarily vulnerable to random matchups (Garchomp, Mewtwo, etc.) that are able to pressure your Energy drops. It is too slow and can potentially lose to matchups that should be easy wins.
 - Some lists play the baby Fezandipiti to counter Hariyama. I am skeptical that this actually works but I haven’t tried it. I think I would rather just play Psychic Energy and KO the Hariyama with Mind Bend, but the matchup is probably bad no matter what.
-- Growing Energy would be a nice luxury but there isn’t really any space for it. I don’t think it’s that important but it is not bad.
+- Growing Energy and extra healing cards aren't necessary, but they do make the deck better in the mirror match.
 - Sacred Charm is a consideration as it would help against the close matchups by reducing relevant damage from Drakloak, Dusknoir, or Dudunsparce.
+- Forest of Vitality could be a decent inclusion. It does not seem powerful enough to warrant the space but I haven't tried it.
+- I don't think Xerosic's Machinations or Eri do anything that we need.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
@@ -75,7 +79,7 @@ Some of these are fairly straightforward and polarized due to the anti-meta natu
 
 ### Dragapult - Depends
 
-Against the Dusknoir version, this matchup is about 50-50 or maybe slightly unfavorable, so I’ll just be going over that one. Against non-Dusknoir, it’s free, so it probably doesn’t matter how you play.
+Against the Dusknoir version, this matchup is about 50-50 or maybe slightly unfavorable, so I’ll just be going over that one. Against non-Dusknoir, it’s free, so it probably doesn’t matter how you play. The reverse is true against Dudunsparce, where it's basically impossible to win even if you play perfectly.
 
 - Psyduck is pretty much always good if they have Duskull in play because a lot of them play Rare Candy now, so the Dusknoir threat is always there. Try to keep Psyduck in play by using Night Stretcher if it gets KO’d and protecting it with Mist Energy.
 - Munkidori is very good due to the residual damage that adds up. It is often used to heal Psyduck and can pressure Duskull.
@@ -205,4 +209,4 @@ I've never played the Crustle mirror and I never intend to. With two Munkidori a
 
 ## Personal Thoughts
 
-This deck’s matchup spread is too good to ignore. It’s way better now that it doesn’t have to worry about Gardevoir. However, it loses to Lucario and random nonsense like Festival Lead. It’s still very much an anti-meta deck, which carries some inherent risk in an undefined metagame. That said, I think it’s incredibly strong and takes very favorable matchups against a good chunk of the field, doing what Crustle does.
+This deck’s matchup spread is too good to ignore. It’s way better now that it doesn’t have to worry about Gardevoir. However, it loses to Dudunsparce and Lucario, which is very concerning. It’s still very much an anti-meta deck, which makes it inherently better when it's unexpected, and worse after it has success like it did in Prague. That said, I think it’s incredibly strong and takes very favorable matchups against a good chunk of the field, doing what Crustle does.
