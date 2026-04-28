@@ -56,6 +56,8 @@ Energy: 8
 - Janine’s Secret Art no está mal, puedes jugarlo si quieres. Simplemente es situacional y difícil de encontrar, pero suele ser buena cuando la tienes.
 - Hay muchas cartas que tienen sentido en la versión de Control, como Dedenne, Elgyem, Xerosic, etc., pero no son adecuadas para esta versión del deck.
 - Rocket’s Watchtower podría ser una buena opción para Alakazam, pero yo querría jugar dos copias además de otra carta de interrupción de mano como Judge para tener una probabilidad decente de que funcione. Con solo una copia y el Unfair Stamp, no se alineará tan a menudo y solo tendrán que escapar del bloqueo una vez. Sí puede sorprender a otros decks bloqueando a Meowth, Noctowl o Mega Kangaskhan, pero es muy situacional y no puedes garantizar cuando la robas. Creo que el deck tiene más éxito siendo rápido y agresivo. A veces la respuesta más simple es la mejor. Simplemente toma dos premios cada turno.
+- Mega Lopunny podría incluirse para counterear a Crustle y también es útil contra decks de dos premios que pueden resultar problemáticos.
+- Scoop Up cyclone tiene más sentido en decks con más Pokémon diferentes, ya que permite jugar con una variedad de opciones sin verse limitado por la falta de espacio en el tablero.
 <!-- /PUBLIC -->
 ## Gameplay
 

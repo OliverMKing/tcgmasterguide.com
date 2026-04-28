@@ -43,6 +43,9 @@ Energy: 11
 2 Psychic Energy MEE 5
 ```
 <!-- PUBLIC -->
+
+La versión sin Noctowl está ganando mucha popularidad. La probé para ver si debía incluirla en la guía, pero no es muy buena. El deck de Ogerpon puro es una versión superior, así que si quieres jugar con Raging Bolt sin Noctowl, mejor usa ese. Si vas a jugar con Raging Bolt, Noctowl sigue siendo la mejor opción.
+
 ### Inclusiones
 
 - Creo que la cuarta línea de Noctowl es muy importante, ya que este deck tiene muchos más problemas para robar sin Profesora Sada, por lo que depende aún más de Noctowl. Cuando jugaba con la línea 3-3, siempre quería más.
@@ -67,7 +70,7 @@ Energy: 11
 <!-- /PUBLIC -->
 ## Gameplay
 
-- Raging Bolt ex no es necesariamente el atacante principal. Se suele reservar para conseguir uno o dos KOs importantes a lo largo de la partida, dependiendo del matchup, ya que no es muy eficiente. También puede ser una buena carta de consistencia utilizando Burst Roar, que es muy útil en muchas situaciones.
+- Raging Bolt ex no es necesariamente el atacante principal. Se suele reservar para conseguir uno o dos KOs importantes a lo largo de la partida, dependiendo del matchup, ya que no es muy eficiente. Claro que si inicias con el o no tienes una mejor opción, también puede ser un buen atacante al inicio, asi como una buena carta de consistencia utilizando Burst Roar, que es muy útil en muchas situaciones.
 - Usar Unfair Stamp solo para robar cartas o para interrumpir al oponente está bien. Usarla sin razón no está bien. Debe tener una función específica y útil. Cuando se usa para interrumpir al oponente, combinala junto con Boss’s Orders para debilitar a Fezandipiti u otras cartas de apoyo para perjudicar. Normalmente, el único costo de oportunidad de Unfair Stamp es no jugarlo en otro turno, lo cual no es un gran problema. En este deck, el costo de oportunidad es usar un Noctowl y renunciar a otra carta de Entrenador.
 - Usar Teal Dance no es realmente una prioridad. Es mejor usarlo principalmente cuando se busca una jugada de Energy Switch o Bellowing Thunder.
 - La mayoría de las veces que uses Glass Trumpet, no tendrás a Terapagos, y eso está perfectamente bien. Terapagos solo ataca ocasionalmente. No desperdicias Glass Trumpet usándola en Noctowl y otros Pokémon similares, ya que su propósito principal es habilitar Energy Switch y Bellowing Thunder. Por lo tanto, usarla siempre está bien, incluso si no obtienes un beneficio inmediato.

@@ -263,4 +263,4 @@ title: Ogerpon v Meganium 2
 
 ## Conclusión
 
-Este deck es viable pero simplemente no es tan bueno como inicialmente creíamos, más que nada por la falta de consistencia y motor de robo del deck.
+La versión con Noctowl rinde mejor que sin él, pero en general el deck todavía no me parece muy bueno. Otro problema es que la gente incluye a Shaymin en sus decks. Si eso cambia, consideraría que este deck mejoraría un poco.
