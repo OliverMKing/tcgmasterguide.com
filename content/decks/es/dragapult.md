@@ -44,7 +44,7 @@ Energy: 9
 ### Inclusiones
 
 - Meowth es demasiado bueno en este deck. Te permite buscar lo que quieras en cualquier momento para cualquier jugada que necesites y es útil durante cualquier parte del juego. Originalmente pensé que Meowth sería un riesgo muy grande por su bajo HP y que ocupa un espacio en banca pero es tan útil que ni notas eso. El único punto en contra de Meowth es que a veces inicias con esta carta, pero aun así vale la pena utilizar dos copias.
-- Munkidori con Risky Ruins parecería que es un combo inconsistente, pero ha tenido mucha más relevancia de lo que esperaba. Risky Ruins es bueno en cualquier matchup y este combo reemplaza lo que se lograba anteriormente con Hawlucha. No tengo al segundo Munkidori porque no hay muchas oportunidades de usar ambos en un mismo turno y es realmente muy fácil encontrar al único que juegas y aunque a veces se premia, no te afecta tanto. La principal razón para jugar un segundo Munkidori sería el mirror.
+- Munkidori con Risky Ruins parecería que es un combo inconsistente, pero ha tenido mucha más relevancia de lo que esperaba. Risky Ruins es bueno en cualquier matchup y este combo reemplaza lo que se lograba anteriormente con Hawlucha. No tengo al segundo Munkidori porque no hay muchas oportunidades de usar ambos en un mismo turno y es realmente muy fácil encontrar al único que juegas y aunque a veces se premia, no te afecta tanto. La principal razón para jugar un segundo Munkidori sería el mirror. Risky Ruins suele ser mejor que Area Zero porque activa usos relevantes de Munkidori en la mayoría de los matchups. Sin el, Munkidori sigue siendo buena en los mirrors, pero prácticamente inútil en cualquier otro caso. El daño de Risky Ruins también es muy efectivo contra decks de tipo Lucha.
 - Latias y Ursaluna continúan siendo muy buenos y sería un grave error no incluirlos en la lista. Además del uso normal de Ursaluna, Crispin le abre las puertas a atacar antes de lo normal y tener un atacante que no es débil a Lillie’s Clefairy es muy importante en este formato.
 - Clefairy es demasiado fuerte en los mirror y contra Lucario, dos de los decks que probablemente se encuentren entre los más populares del nuevo formato inicialmente.
 - Este deck depende de Boss’s Orders en muchos turnos específicos y los necesitas en turnos seguidos, así es que estoy muy seguro que jugar 4 es necesario para compensar la pérdida de Counter Catcher. 
@@ -52,6 +52,7 @@ Energy: 9
 - Aún así, Rosa’s Encouragement es muy situacional. Antes de probarla, estaba seguro que un tercer Crispin sería mejor pero cargar instantáneamente a un Dragapult y también cargar de turno a Munkidori es una jugada que sucede lo suficiente que se vuelve muy relevante. Un Drakloak con energía casi siempre será atacado por un oponente lo cual hace de Rosa aún mas necesaria. Además, es muy fácil hacer el combo de Rosa mas Dark a Munkidori gracias a que hay muy poca disrupción de mano viable en este momento en el nuevo formato. 
 - Brock’s Scouting también es muy bueno para agregar consistencia al deck, así como para encontrar Pokemon ex que ahora son un poco más complicados de buscar. 
 - Team Rocket’s Petrel es usado principalmente para buscar Unfair Stamp en cualquier momento gracias a Meowth y también ayuda con la consistencia en general ya que es muy versatil. 
+- El segundo Budew probablemente no sea necesario, pero no sé qué añadir en su lugar. Probaré a Maractus contra Garchomp y, si funciona bien, probablemente lo incluiré.
 
 ### Exclusiones
 
@@ -61,8 +62,10 @@ Energy: 9
 - Hasta ahora no le he encontrado ningún uso legítimo a Jamming Tower. No hay herramientas realmente buenas este formato y me pareció que Risky Ruins es mucho mejor.
 - Briar es casi imposible de utilizar ya que este deck se enfoca mucho en usar Crispin y Boss todo el tiempo.
 - Aun con Noctowl, no lograba utilizar Team Rocket’s Watchtower de manera efectiva y además puede perjudicarte quitándole la habilidad a tu propio Meowth ex.
-- Área Zero tiene alguna utilidad, pero es mucho menos útil e impactante que Risky Ruins.
+- Área Zero tiene alguna utilidad, pero es mucho menos útil e impactante que Risky Ruins. Si juegas Área Zero, también te recomiendo jugar Chien-Pao para asegurarte de aprovechar la ventaja de reacomodar tu banca.
 - Maractus no es tan bueno porque la mayoría de los decks pueden librarse de él o noquearlo con lo que quede atrapado. Sin embargo, puede ser útil contra Garchomp o para castigar a jugadores desprevenidos en ciertas situaciones.
+- Dudunsparce es bastante útil en general y tiene la capacidad de contrarrestar los decks de Crustle y Kangaskhan Box. Sin duda lo probaré y lo consideraré con más detenimiento.
+- Hero's Cape es muy fuerte, pero sigo pensando que Unfair Stamp es mejor. No tener Unfair Stamp deja al descubierto algunas vulnerabilidades y empeora mucho algunos matchups (decks de una sola carta de premio, Mewtwo, etc.).
 <!-- /PUBLIC -->
 ## Gameplay
 
@@ -308,4 +311,4 @@ title: Ogerpon v Pult 3
 
 ## Conclusión
 
-Este deck es sin duda muy bueno y probablemente el mejor del formato. Incluso con deck que intentan contrarrestarlo y siendo un objetivo prioritario, su variedad de matchups sigue siendo bastante buena. Sin embargo, no creo que sea el deck increíblemente poderoso que se dice que es. ¿Está realmente muy por encima de los demás? No lo creo.
+Este deck es sin duda muy bueno y el mejor del formato. Incluso con deck que intentan contrarrestarlo y siendo un objetivo prioritario, su variedad de matchups sigue siendo bastante buena. Sin embargo, no creo que sea el deck increíblemente poderoso que se dice que es. ¿Está realmente muy por encima de los demás? No lo creo.

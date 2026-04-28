@@ -45,7 +45,7 @@ Energy: 8
 
 - Clefairy es una muy buena opción contra Dragapult y Lucario.
 - Las dos Dawn resultaron mejores de lo esperado y también combinan bien con Rare Candy.
-- Rare Candyes una carta que puede ser inútil o extremadamente impactante. Hay partidas en las que no la necesitas, pero es muy poderosa e importante tenerla en turnos específicos en diversas situaciones. La probé con dos y tres copias y me pareció lo suficientemente fuerte como para justificar la tercera.
+- Rare Candy es una carta que puede ser inútil o extremadamente impactante. Hay partidas en las que no la necesitas, pero es muy poderosa e importante tenerla en turnos específicos en diversas situaciones. La probé con dos y tres copias y me pareció lo suficientemente fuerte como para justificar la tercera.
 - Crispin es extremadamente fuerte. Lo usé muchísimo, a pesar de que el deck también incluye a Blaziken. Consideraría seriamente incluir otro. Un aspecto muy subestimado es la dificultad para encontrar Energías, algo que a veces puede ser inconsistente.
 - Petrel es ideal principalmente para obtener Unfair Stamp de forma consistente. A veces se usa para hacer una jugada con Rare Candy o para mayor consistencia, como por ejemplo para obtener Buddy Buddy Poffin.
 - PokePad hace que el deck funcione, así que no quiero jugar con menos de cuatro cartas.
@@ -60,6 +60,7 @@ Energy: 8
 - Probé con cuatro Boss’s Orders porque la carta está rota, pero no me pareció necesario en las pruebas.
 - Team Rocket’s Watchtower podría ser útil contra los decks de Kangaskhan Box en teoría, pero combinarla con cartas que interrumpen la mano del oponente es prácticamente imposible. Otros matchups donde la Watchtower podría usarse, como contra Alakazam, ya son favorables de todas maneras.
 - El principal problema de Area Zero es que no es Risky Ruins. Con Blaziken y Munkidori, Area Zero puede ser útil en ocasiones, pero la utilidad de Risky Ruins es mucho más frecuente. Además, existe un conflicto de intereses, ya que se necesita espacio en la banca para Munkidori, pero no se puede aprovechar adecuadamente sin Risky Ruins en juego.
+- Dudunsparce podría ser una buena tech para Crustle si crees que la necesites.
 
 <!-- /PUBLIC -->
 ## Gameplay

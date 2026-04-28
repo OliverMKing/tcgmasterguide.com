@@ -6,7 +6,7 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for Alakazam](./images/alakazam/zamlist.png)
+![decklist for Alakazam](./images/alakazam/4candy.png)
 ```decklist
 Pokémon: 22
 4 Dunsparce JTG 120
@@ -21,10 +21,10 @@ Trainer: 31
 4 Hilda WHT 84
 4 Dawn PFL 87
 3 Boss's Orders PAL 172
-2 Morty's Conviction TEF 155
+1 Morty's Conviction TEF 155
 4 Buddy-Buddy Poffin TEF 144
 4 Poké Pad ASC 198
-3 Rare Candy SVI 191
+4 Rare Candy SVI 191
 2 Wondrous Patch PFL 94
 2 Enhanced Hammer TWM 148
 2 Night Stretcher SFA 61
@@ -41,7 +41,7 @@ Energy: 7
 Esta lista es bastante simple y directa. Los matchups de Alakazam son extremadamente polarizados. Sería lógico intentar compensar los matchups desfavorables de alguna manera, pero no creo que sea posible. Por lo tanto, quise crear un deck lo más sólido posible en sus fundamentos y aprovechar al máximo las ventajas en muchos de los matchups.
 - Shaymin es especialmente útil contra Wellspring Ogerpon y Darmanitan. También aporta algunos puntos porcentuales de efectividad contra Arboliva. Creo que es una de las pocas tech que tiene mucho sentido, aunque no sea estrictamente necesaria.
 - Morty’s Conviction es una carta muy útil para robar cartas y aumentar la mano. A veces, Hilda o Dawn consiguen más cartas al traer a Alakazam/Dudunsparce, pero en otras ocasiones, Morty es un Partidario de robo más poderoso. Prefiero a Morty a otras opciones porque es la única forma de descartar Energía Psíquica en este deck, lo cual es fundamental para usar la combinación de Wondrous Patch/Enriching Energy en un solo turno.
-- Rare Candy es increíblemente útil y es muy bueno en este deck. Desde su velocidad al principio de la partida, su consistencia a mitad de partida, a veces fallas establecer más de un Kadabra, Abra es eliminado rápidamente, etc. Hay muchísimas razones para adorar a Rare Candy. Incluso con cuatro Kadabra, quiero un cuarto Rare Candy y haré todo lo posible por incluirlo.
+- Rare Candy es increíblemente útil y es muy bueno en este deck. Desde su velocidad al principio de la partida, su consistencia a mitad de partida, a veces fallas establecer más de un Kadabra, Abra es eliminado rápidamente, etc. Hay muchísimas razones para adorar a Rare Candy. Incluso con cuatro Kadabra, creo que este deck necesita 4 Rare Candy.
 - Night Stretcher es mi opción preferida porque, principalmente, quiero que sea muy fácil que Abra regrese lo más rápido posible.
 - Wondrous Patch es inútil o increíblemente poderosa. No se usará en todas las partidas, pero nos permite aprovechar Enriching Energy, una fantástica carta de robo que podemos reciclar mediante Dudunsparce.
 - Enhanced Hammer es necesario para lidiar con la Mist Energy y la Rocky Fighting Energy.
@@ -51,8 +51,8 @@ Esta lista es bastante simple y directa. Los matchups de Alakazam son extremadam
 
 - Psyduck no está aquí porque perdemos contra Dragapult de todas formas y Dusknoir no es una parte tan importante del meta.
 - Genesect supone una inversión excesiva de recursos para un retorno tan pequeño. No es tan difícil recuperarse de Unfair Stamp, y comprometer un espacio de la banca, así como espacios en el deck para Tools, me parece una mala idea.
-- Fan Rotom es malo, sobre todo sin Estadios. Al principio pensé que estaría bien usarlo si se jugaban Estadios, pero no le saqué mucho provecho y es un riesgo tenerlo en juego. Incluso con Estadios, no creo que lo usaría.
-- Hablando de estadios, muchas listas incluyen Battle Cage. Sin embargo, incluso con 3 o 4 copias, el matchup contra Dragapult sigue siendo desfavorable. Por lo tanto, no quiero desperdiciar espacio en el deck con esta carta. Otra opción para el estadio es Nighttime Mine, que podría ser mejor.
+- Fan Rotom es malo, sobre todo sin Estadios. Al principio pensé que estaría bien usarlo si se jugaban Estadios, pero no le saqué mucho provecho y es un riesgo tenerlo en juego. Incluso con Estadios, no lo usaría.
+- Hablando de estadios, muchas listas incluyen Battle Cage. Sin embargo, incluso con 3 o 4 copias, el matchup contra Dragapult sigue siendo desfavorable. Por lo tanto, no quiero desperdiciar espacio en el deck con esta carta.
 - Chien-Pao es una opción a considerar para las Rocket’s Watchtower aleatorias. Si otros decks, además de Dragapult, terminan jugandolo, podría valer la pena incluir a Chien-Pao.
 - Lana’s Aid parece una buena opción, pero siempre prefiero jugar otras cartas de partidario en ese turno. Night Stretcher es más conveniente. Este deck no necesita mucha recuperación, pero si la necesitara, también tiene Sacred Ash.
 <!-- /PUBLIC -->
@@ -223,4 +223,4 @@ title: Crustle v Zam 2
 
 ## Conclusión
 
-Deck puro de ruleta de matchups. Probablemente no lo jugaría porque perder contra Dragapult no es lo ideal, y ese matchup es peor de lo esperado. Sin embargo, la mayoría de los demás matchups son tan favorables que Alakazam aún puede ser una buena opción. El deck también es muy consistente e incluso puede ser rápido con los multiples Rare Candy.
+Deck puro de ruleta de matchups. Probablemente no lo jugaría porque perder contra Dragapult no es lo ideal, y ese matchup es peor de lo esperado. Sin embargo, la mayoría de los demás matchups son tan favorables que Alakazam aún puede ser una buena opción. El deck también es muy consistente y rápido con los multiples Rare Candy.
