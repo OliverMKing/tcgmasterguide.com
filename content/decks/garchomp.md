@@ -1,7 +1,7 @@
 ---
 title: Garchomp
 pokemon: [445]
-tier: 1
+tier: 2
 format: Standard
 ---
 ## Decklist
@@ -188,6 +188,19 @@ title: Chomp v Bolt 1
 ```youtube
 id: hk89SR43qCE
 title: Chomp v Bolt 2
+```
+
+### Festival Lead - Very Unfavorable
+
+- Roselia, Roserade, and Power Weights are the most important resources. If you play Switch, that is also a premium resource (for switching out a Roserade after getting hit). 
+- Get as many Roselia in play as possible as well as two Roserade. Roselia w/ Power Weight is actually your best attacker. Spiritomb can also be good if they swing into your sponge. Gible, Gabite, or even Garchomp can all be usable attackers if the situation calls for it.
+- Power Weight is usually best on Roselia.
+- Be as fast and aggressive as possible. It’s basically impossible to win, so we have to get lucky and cheese them.
+- Preemptively attaching Energy to future attackers is very good. Keeping Energy on the board is also good as you will need to spend Energy to retreat Roserade after using them as sponges.
+
+```youtube
+id: Jimw7-gidwk
+title: Festival v Chomp 1
 ```
 
 ### Absol / Slop Box - Favorable

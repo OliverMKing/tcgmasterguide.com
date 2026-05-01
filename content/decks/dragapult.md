@@ -259,6 +259,33 @@ id: szk1791lO-s
 title: Pult v Bolt 2
 ```
 
+### Festival Lead - Slightly Unfavorable
+
+This matchup is pretty close. It might be even, but is a little worse if they have Genesect.
+
+- Getting Munkidori in play to use as a sponge is very good. It can be used as a sacrifice or as a promote after they use their first attack to get a KO. Later in the game, it will also be relevant for Adrenabrain.
+- Save Risky Ruins for when you can get immediate value from it (or if you can combo it with Stamp).
+- Stamp is very broken. Use it when you get to start attacking with Dragapult, or with Boss to slow them down. If you Boss up Thwackey and Stamp them, they are unlikely to get out of it and you can buy time that way. If they have Genesect and aren’t board locked, just use Stamp as soon as possible and try to do the Boss play.
+- KO Rabsca as soon as possible. It’s basically impossible to win if that thing stays in play for too long. Sometimes you KO it with Drakloak, or with just one Energy on Dragapult.
+- If you play Moltres, it can be very good to get fast KO’s on Applin.
+- If you play Maractus, it can buy time in the early-game by Boss trapping Thwackey. This obviously does not work if they have Kieran in hand.
+- If they don’t have a large hand and only two Thwackey, it may be better to target a Thwackey. Depending on the board, it may be more likely to get them to whiff a KO, but sometimes KO’ing their attacker is still best. If they have only one Thwackey, KO’ing it is usually best.
+
+```youtube
+id: tcf2S94_PRY
+title: Festival v Pult 1
+```
+
+```youtube
+id: ImXsejPjQFE
+title: Festival v Pult 2
+```
+
+```youtube
+id: ZwTtfOhLMS0
+title: Festival v Pult 3
+```
+
 ### Mewtwo - Even
 
 This matchup is weird because they will destroy you if they draw well but they often brick or randomly whiff things.

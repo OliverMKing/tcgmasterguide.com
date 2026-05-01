@@ -1,7 +1,7 @@
 ---
 title: Slop Box
 pokemon: [10039]
-tier: 2
+tier: 3
 format: Standard
 ---
 ## Decklist
@@ -231,4 +231,4 @@ title: Crustle v Slop 1
 
 ## Personal Thoughts
 
-This deck does not look remarkable and neither does its matchup spread. However, the deck is fundamentally strong and somehow wins lots of games. I think it’s better than some of the other decks, but it can sometimes struggle against random stuff. There is also lots of space for adaptability and teching should the need arise.
+This deck does not look remarkable and neither does its matchup spread. However, the deck is fundamentally strong and somehow wins lots of games. I think it’s better than some of the other decks, but it can sometimes struggle against random stuff. There is also lots of space for adaptability and teching should the need arise. Sadly, this deck gets worse and worse in the current metagame as time goes on, but that could always change.

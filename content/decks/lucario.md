@@ -198,6 +198,23 @@ id: 3gGYgkVt9Qs
 title: Lucario v Bolt 2
 ```
 
+### Festival Lead - Unfavorable
+
+- Get as many fast Solrock KO’s as possible. This is the main way to get a prize lead and win.
+- Hariyama is valuable as a sponge. Evolve into it as soon as possible, even if you don’t want to use the ability. Don’t attack with it, as the self-damage removes its viability as a sponge.
+- If they one-shot the first Lucario, they probably can’t one-shot the second one, so it can be useful to throw off their prize map. This is even better if you play Scoop Up Cyclone or Wally’s Compassion.
+- Judge can possibly make them brick if they do not have a backup Dipplin.
+
+```youtube
+id: plt2swbYZCQ
+title: Festival v Lucario 1
+```
+
+```youtube
+id: BQW03QYb1X0
+title: Festival v Lucario 2
+```
+
 ### Mewtwo - Unfavorable
 
 - Getting random KO’s with single-prize Pokemon can be good because if they do not have a full board of Rocket’s Pokemon they cannot two-shot Lucario with Spidops, which is often relevant.

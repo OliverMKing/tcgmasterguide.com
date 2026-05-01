@@ -176,6 +176,17 @@ title: Mewtwo v Meganium 2
 
 I did not get any close or interesting games to put here. Only massacres.
 
+### Festival Lead - Very Unfavorable
+
+- Get as many Tarountula and Spidops as possible. KO Dipplin.
+- Archer is best when they don’t have a backup Dipplin. Bumping their Stadium is best in the early-game or when using Archer.
+- Mewtwo can sometimes be used in the early-game as they might not be able to get the KO on it right away. Using it when they’re stabilized is a bad idea, except if you get Archer + Stadium they might not be able to get all the pieces to KO it.
+
+```youtube
+id: YT4891TzjBk
+title: Festival v Mewtwo 1
+```
+
 ### Mewtwo Mirror - Even
 
 - Try to get a fast lead with Spidops or Mewtwo. With Spidops is easier, but Mewtwo is often better if you can get it just as quickly. Getting any value from Mewtwo before they can one-shot it is good.
