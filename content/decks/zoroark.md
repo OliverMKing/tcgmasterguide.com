@@ -186,6 +186,18 @@ id: iLIy5jBXhcw
 title: Bolt v Zoroark 2
 ```
 
+### Festival Lead - Very Unfavorable
+
+- This matchup is basically impossible but we have two win conditions. The first is going fast and running them off the board with Darmanitan. The other is cheesing with Boss stall and retreat lock. 
+- If you’re able to get a fast Boss, it’s possible that they didn’t get a chance to put a switching card in their hand. This is more effective if you also have Yveltal so they can’t use Air Balloon, but it’s still possible by just Bossing Thwackey. You’ll need lots of bench space, as you’ll also need Pecharunt and Munkidori to capitalize on the lock. Don’t put down too many extra Zorua or other Pokemon that aren’t important for the lock.
+- Zekrom can be good as a sponge while you’re setting up or for Shredding Thwackey for some damage (via Zoroark copy) if you don’t have Yveltal.
+- Boss (and Stretcher for Yveltal if you play it) are important resources to continue the lock even if they get out of it once. The way to capitalize on the lock if you get it is to eventually KO their Shaymin with Adrenabrain and then KO two apples with Darmanitan. If they have three apples, you’ll want to KO all of them. KO’ing both Thwackey is another possibility. Bump the Stadium on the turn you do all that.
+
+```youtube
+id: nqiBklziLiw
+title: Festival v Zoroark 1
+```
+
 ### Slop Box / Absol - Even
 
 - This is a straight up prize trade matchup. Try to keep a single-prize board until you’re ready to go in. Having Zoroark on the bench with no Energy can be fine depending on how much Energy they have on their Ogerpon.

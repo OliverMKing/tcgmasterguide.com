@@ -201,6 +201,21 @@ id: lvVut6hOcNI
 title: Bolt v Meganium 2
 ```
 
+### Festival Lead - Slightly Unfavorable
+
+- Arboliva is the ideal attacker, even if they have Shaymin in play. Meganium isn’t very important. All Arboliva pieces are resources as you will ideally make two Arboliva each game.
+- Usually it’s best to bump their Stadium. One exception is if they have two Dipplin and no Applin, and you can Stamp next turn. You can KO their Dipplin and next turn hit them with Stamp + KO, withholding Forest so they cannot get a backup Dipplin, and then playing the Forest on the Stamp turn. The same concept applies with Judge as well, but it works less often. If they have no backup Dipplin, just disrupt + KO right away!
+
+```youtube
+id: hCIQ25JKocE
+title: Festival v Meganium 1
+```
+
+```youtube
+id: 6Xz91WQNidc
+title: Festival v Meganium 2
+```
+
 ### Mewtwo - Favorable
 
 - Fast Arboliva is very strong because it can KO multiple Pokemon at once. Even if you can’t do that, it’s hard for them to deal with the Arboliva and the snipe damage adds up. If they have Articuno in play, usually you want to put 60 on it while KO’ing a small guy (of course, KO’ing two small guys at once is better if it is available). By putting 60 on Articuno, it traps them from putting more small guys in play. This is relevant because Mimikyu is actually a threat.

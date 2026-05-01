@@ -163,6 +163,19 @@ id: ovX7LmYRiqY
 title: Crustle v Bolt 2
 ```
 
+### Festival Lead - Depends
+
+If they have Rillaboom, it’s basically impossible to win. If they don’t, this matchup is favorable.
+
+- Load up Cornerstone on the bench as fast as possible. If they attach Energy to Thwackey, try to KO it immediately. Do not KO anything that is not a threat (such as Dipplin, as it is a liability for them). If they put Rellor down preemptively, KO that on sight. Same with Rillaboom.
+- Bossing Thwackey randomly can be good as it stops the searches or forces them to use a switching card.
+- Ice Cream, Cape, and Munkidori are all very good to help Cornerstone survive. If they play Maximum Belt, you’ll need that Cape on Cornerstone as soon as possible.
+
+```youtube
+id: s16Xk0eqB8c
+title: Festival v Crustle 1
+```
+
 ### Slop Box / Absol - Very Favorable
 
 - This matchup can actually be losable depending on what techs they play.

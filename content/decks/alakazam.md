@@ -6,11 +6,11 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for Alakazam](./images/alakazam/4candy.png)
+![decklist for Alakazam](./images/alakazam/3hammer.png)
 ```decklist
 Pokémon: 22
 4 Dunsparce JTG 120
-4 Dudunsparce TEF 129
+3 Dudunsparce TEF 129
 4 Abra MEG 54
 4 Kadabra MEG 55
 4 Alakazam MEG 56
@@ -25,8 +25,8 @@ Trainer: 31
 4 Buddy-Buddy Poffin TEF 144
 4 Poké Pad ASC 198
 4 Rare Candy SVI 191
+3 Enhanced Hammer TWM 148
 2 Wondrous Patch PFL 94
-2 Enhanced Hammer TWM 148
 2 Night Stretcher SFA 61
 1 Sacred Ash DRI 168
 
@@ -44,7 +44,7 @@ Energy: 7
 - Rare Candy is so broken and consistently useful in this deck. From early-game speed, mid-game consistency, sometimes whiffing multiple Kadabra, Abra getting sniped off, etc. There are so many reasons to love Rare Candy. Even with four Kadabra, I still think this deck needs four Rare Candy.
 - Night Stretcher is my preferred recovery because I mostly just want to get back Abra as conveniently as possible.
 - Wondrous Patch is either useless or insanely powerful. It won’t be used every game, but it allows us to make use of Enriching Energy, which is a fantastic draw card that we can recycle via Dudunsparce.
-- Enhanced Hammer is necessary to deal with Mist Energy and Rocky Fighting Energy.
+- Enhanced Hammer is necessary to deal with Mist Energy and Rocky Fighting Energy. I added a third one to reflect an increased threat level of Crustle and Garchomp.
 - Sacred Ash isn’t very good, but the downside compared to Night Stretcher is minimal. It is mostly included to easily make 5-6 Alakazam against single-prize decks such as the mirror match.
 
 ### Exclusions
@@ -121,9 +121,9 @@ title: Zam v Lucario 1
 - Play around Enhanced Hammer.
 - Don't put Fez in play.
 
-### Garchomp - Even
+### Garchomp - Favorable
 
-This matchup is about even assuming they play four Rocky Energy and some Hilda. The fewer of those they play, the better the matchup gets.
+This matchup is now favorable with an additional Enhanced Hammer.
 
 - Draw tons of cards aggressively to find Hammers and Bosses.
 - Use any spare Energy attachments to power up Fezandipiti. You may need it to KO a Gabite with Rocky Energy. Get one Energy on Alakazam first, then power up Fez asap. Use Fez to KO a Rocky Energy at any opportunity! This play is basically an instant-win if you get it.
@@ -183,6 +183,24 @@ id: nqv7CF4-1NI
 title: Zam v Bolt 2
 ```
 
+### Festival Lead - Even
+
+- Rare Candy is a very important resource. Try to get as many Abra and Kadabra in play as soon as possible so that you won’t stress the Candies as much.
+- Try to get a Dudunsparce in play to use as a sponge as soon as possible to deny them the two-prize turn.
+- KO Dipplin every turn. This stresses their resources the most. One time I got baited by KO’ing their only Thwackey and it was actually the difference between winning and losing.
+- If you play Battle Cage, try to bump their Stadium every turn. You can create a board in the end-game full of Pokemon with more than 100 HP to potentially win if they run out of Stadiums.
+- If you play Fan, using it on Alakazam is usually best. There can be some cheeky Dudunsparce plays with Fan but they are very involved and situational.
+
+```youtube
+id: g5-pKFaJc_Y
+title: Festival v Zam 1
+```
+
+```youtube
+id: X3YpsKBoBBI
+title: Festival v Zam 2
+```
+
 ### Mewtwo - Very Unfavorable
 
 - This is obviously a horrible matchup because of Articuno, but if there is a way to win it’s by powering up Fez as fast as possible and taking out their Articuno. Use Boss’s Orders and Enhanced Hammer to slow them down. They do sometimes draw garbage, so it is possible to get lucky.
@@ -199,9 +217,9 @@ id: AAIh8BWElzA
 title: Zam v Zoroark 1
 ```
 
-### Crustle - Even
+### Crustle - Favorable
 
-This matchup is about even or slightly favorable assuming they play four Mist and some ways to find them. Any less and it’s favorable.
+This matchup is now favorable with the third Hammer.
 
 - Get a fast Alakazam and draw cards aggressively to find Hammers and Bosses. 
 - Boss is good specifically to target Spiky Energy, Hero’s Cape, or anything that accumulates too much Energy.
@@ -226,4 +244,4 @@ title: Crustle v Zam 2
 
 ## Personal Thoughts
 
-Pure matchup roulette deck. I probably wouldn’t play it because losing to Dragapult is not ideal, and that matchup is worse than expected. However most of the other matchups are so free that Alakazam can still be a good play. The deck is also very consistent and can be fast with the Candies.
+Pure matchup roulette deck. I probably wouldn’t play it because losing to Dragapult is not ideal, and that matchup is worse than expected. However most of the other matchups are so free that Alakazam can still be a good play. The deck is also very consistent and fast with the Candies.
