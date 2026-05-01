@@ -108,7 +108,6 @@ title: Festival v Pult 3
 ### Garchomp - Very Favorable
 
 - This matchup is just as free as you would expect. Focus on setting up and stabilizing so that you cannot lose. Get triple Thwackey and at least two apples. Ideally, I would go for an extra apple over Genesect, but if your board is a bit fragile and you’re vulnerable to Stamp, getting Genesect is fine. Passing or utilizing Goldeen are also options to stabilize. If you know they do not play Stamp, you don’t need to be as careful.
-- Damage modifiers are important resources as you still need the double modifier combo to one-shot a Weighted Garchomp.
 - Slamming Festival Grounds instantly is usually fine. They often don’t play Stadiums, or sometimes just one. They do sometimes play Judge or Stamp though.
 
 ```youtube
