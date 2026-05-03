@@ -43,7 +43,7 @@ Energy: 4
 ### Inclusions
 
 - I like playing four Thwackey because the deck needs to see it early to function, always needs two in play, and sometimes even needs three.
-- Rillaboom is an optional tech for Crustle with Cornerstone. It does that job very well, as Rellor alone isn’t enough to beat that deck. It’s useless against most other things besides decks with Handheld Fan, or unless you somehow run out of Festival Grounds. You could cut it for something like another Boss.
+- Rillaboom is an optional tech for Crustle with Cornerstone. It does that job very well, as Rellor alone isn’t enough to beat that deck. It’s useless against most other things unless you somehow run out of Festival Grounds. You could cut it for something like another Boss.
 - Rabsca is a necessary tech for Dragapult and it works well.
 - Shaymin flips the matchup against decks that have Wellspring Ogerpon, Arboliva, or Darmanitan. It is quite efficient for only one deck spot.
 - Goldeen helps with early-game consistency. This deck has a fantastic matchup spread but can sometimes brick, and Goldeen helps brick less often. You can theoretically use it as a pivot on the board to help against hand disruption, but that didn’t come up for me very often.
@@ -117,13 +117,13 @@ title: Festival v Chomp 1
 
 ### Alakazam - Even
 
-This matchup is pretty close. However, if they have Handheld Fan and you don’t have Rillaboom, it’s very unfavorable. If you do, it’s still unfavorable.
+This matchup is pretty close. If they have Handheld Fan, it’s unfavorable.
 
 - Festival Grounds is a resource since they often play four Battle Cage. Don’t put it in play until you’re ready to attack.
 - They don’t play hand disruption. Be as fast and aggressive as possible.
 - If they bump your Stadium, consider using Boss to KO something small while saving a Stadium. If you play all the Stadiums early, you might run out, and they can create an endgame board that cannot be KO’d by a single-attack Dipplin. If they don’t have Kadabra in play, KO’ing their active Alakazam is still best to force them to find Rare Candy.
-- Early Genesect can be ok if the opportunity presents itself. However it is very bad to have in play if they play Fan. Against Fan, you want to force them to put Energy on Thwackey.
-- Rillaboom is very good for one-shotting through Fan. If they don’t play Fan, you may want to preemptively attach an extra Energy to Thwackey to play around the possibility of running out of Stadiums, but this might be irrelevant depending on how many resources you have left. If you didn’t get the initial two-prize lead, saving Energy for Dipplin is usually better since you may run low on Energy.
+- Early Genesect can be ok if the opportunity presents itself. However it is very bad to have in play if they play Fan. If they Fan Energy to Thwackey, you can attack with Rillaboom.
+- If you ever have an extra Energy attachment, attaching to a backup apple is generally good. When you have two apples each with Energy, you can get through the Handheld Fan because you can attach another Energy when you need to. If they don’t play Fan, you may want to use an extra attachment on Thwackey to play around the possibility of running out of Stadiums, but this might be irrelevant depending on how many resources you have left. If you didn’t get the initial two-prize lead, saving Energy for Dipplin is usually better since you may run low on Energy.
 
 ```youtube
 id: g5-pKFaJc_Y
