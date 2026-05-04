@@ -164,6 +164,18 @@ id: ovX7LmYRiqY
 title: Crustle v Bolt 2
 ```
 
+### Festival Lead - Depende
+Si tienen a Rillaboom, es prácticamente imposible de ganar. Si no, este enfrentamiento es favorable.
+
+- Carga a Cornerstone Ogerpon en la banca lo más rápido posible. Si le cargan Energía a Thwackey, intenta noquearlo inmediatamente. No debilites nada que no represente una amenaza (como Dipplin, ya que es un problema para ellos). Si ponen a Rellor de forma preventiva, noquealo en cuanto lo veas. Lo mismo con Rillaboom.
+- Usar Boss's Orders a Thwackey puede ser útil, ya que detiene las búsquedas o los obliga a usar una carta de cambio.
+- Jumbo Ice Cream, Hero's Cape y Munkidori son muy útiles para ayudar a Cornerstone Ogerpon a sobrevivir. Si juegan Maximum Belt, necesitarás esa Hero's Cape en Cornerstone cuanto antes.
+
+```youtube
+id: s16Xk0eqB8c
+title: Festival v Crustle 1
+```
+
 ### Kangaskhan Box - Muy favorable
 
 - Este matchup puede perderse dependiendo de las tech que utilicen.

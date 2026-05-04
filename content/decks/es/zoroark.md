@@ -186,6 +186,17 @@ id: iLIy5jBXhcw
 title: Bolt v Zoroark 2
 ```
 
+### Festival Lead - Muy desfavorable
+- Este matchup es prácticamente imposible, pero tenemos dos condiciones de victoria. La primera es atacar rápido y presionarlos con Darmanitan. La otra es usar una estrategia alterna con Boss's Orders y bloquear su retirada.
+- Si logras sacar un Boss's Orders rápidamente, es posible que no hayan tenido la oportunidad de poner una carta de cambio en su mano. Esto es más efectivo si también tienes a Yveltal para que no puedan usar Air Balloon, pero aún es posible con solo subir a Thwackey con Boss's Orders. Necesitarás mucho espacio en la banca, ya que también necesitarás a Pecharunt y Munkidori para aprovechar el bloqueo. No pongas demasiados Zorua adicionales u otros Pokémon que no sean importantes para el bloqueo.
+- Zekrom puede ser útil como escudo mientras te preparas o para usar Shred en Thwackey y causar algo de daño (mediante el ataque de Zoroark) si no tienes a Yveltal.
+- Boss's Orders (y Night Strecther para Yveltal si la juegas) son recursos importantes para mantener el bloqueo incluso si se liberan una vez. La forma de aprovechar el bloqueo, si lo consigues, es noquear a su Shaymin con Adrena Brain durante tu turno y luego noquear dos Dipplin con Darmanitan. Si tienen tres , querrás noquearlas todas. Noquear a ambos Thwackey es otra posibilidad. Baja tu Estadio en el turno en que hagas todo eso.
+
+```youtube
+id: nqiBklziLiw
+title: Festival v Zoroark 1
+```
+
 ### Kangaskhan Box - Parejo
 
 - Este es un matchup directo de intercambio de premios. Intenta mantener un tablero de Pokemon de un solo premio hasta que estés listo para atacar. Tener a Zoroark en la banca sin Energía puede ser útil dependiendo de cuánta Energía tenga su Teal Mask Ogerpon.

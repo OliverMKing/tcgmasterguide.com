@@ -66,6 +66,7 @@ Energy: 9
 - Maractus no es tan bueno porque la mayoría de los decks pueden librarse de él o noquearlo con lo que quede atrapado. Sin embargo, puede ser útil contra Garchomp o para castigar a jugadores desprevenidos en ciertas situaciones.
 - Dudunsparce es bastante útil en general y tiene la capacidad de contrarrestar los decks de Crustle y Kangaskhan Box. Sin duda lo probaré y lo consideraré con más detenimiento.
 - Hero's Cape es muy fuerte, pero sigo pensando que Unfair Stamp es mejor. No tener Unfair Stamp deja al descubierto algunas vulnerabilidades y empeora mucho algunos matchups (decks de una sola carta de premio, Mewtwo, etc.).
+- Otras cartas tech que probaré son Azumarill y Tauros. Azumarill es similar a Dudunsparce en que es eficaz contra Raging Bolt y Crustle. Ocupa menos espacio y requiere menos adaptaciones, pero tampoco se beneficia de la consistencia que ofrece Dudunsparce al robar cartas. Tauros es solo para Crustle y creo que es mejor que Chi-Yu.
 <!-- /PUBLIC -->
 ## Gameplay
 
@@ -227,6 +228,32 @@ title: Pult v Bolt 1
 ```youtube
 id: szk1791lO-s
 title: Pult v Bolt 2
+```
+
+### Festival Lead - Ligeramente favorable
+
+Este matchup es muy cerrado. Es un poco peor si juegan Genesect.
+- Poner a Munkidori en juego para usarlo como escudo es muy bueno. Se puede usar como sacrificio o para subirlo después de que usen su primer ataque y noquean algo. Más adelante en la partida, también será relevante para Adrena Brain.
+- Guarda Risky Ruins para cuando puedas sacarle provecho inmediato (o si puedes combinarlo con Unfair Stamp).
+- Unfair Stamp está muy rota. Úsala cuando empieces a atacar con Dragapult, o con Boss's Orders para alentarlos. Si subes a Thwackey y juegas Unfair Stamp, es poco probable que se libere de inmediato y así puedes ganar tiempo. Si juegan Genesect y no tienen la banca llena, usa Unfair Stamp lo antes posible e intenta hacer la jugada de Boss's Orders a Thwackey.
+- Noquea a Rabsca lo antes posible. Es prácticamente imposible ganar si permanece en juego demasiado tiempo. A veces lo noqueas con Drakloak, o con una sola Energía en Dragapult.
+- Si juegas Moltres, puede ser muy bueno para noquear Applin's.
+- Si jugeas MAractus, puede comprarte tiempo al inicio atrapando a un Thwackey, aunque claro esto no funciona si tienen Kiean ya en la mano.
+- Si no tienen muchas cartas en la mano y solo dos Thwackey, puede ser mejor atacar a uno de ellos. Dependiendo del tablero, es más probable que fallen un KO, pero a veces debilitar a su atacante sigue siendo la mejor opción. Si solo tienen un Thwackey, noquearlo suele ser lo mejor.
+
+```youtube
+id: tcf2S94_PRY
+title: Festival v Pult 1
+```
+
+```youtube
+id: ImXsejPjQFE
+title: Festival v Pult 2
+```
+
+```youtube
+id: ZwTtfOhLMS0
+title: Festival v Pult 3
 ```
 
 ### Mewtwo - Parejo

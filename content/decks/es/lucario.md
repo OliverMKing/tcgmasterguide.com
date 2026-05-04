@@ -187,6 +187,22 @@ id: 3gGYgkVt9Qs
 title: Lucario v Bolt 2
 ```
 
+### Festival Lead - Desfavorable
+- Consigue tantos KOs rápidos con Solrock como sea posible. Esta es la principal forma de obtener ventaja en premios y ganar.
+- Hariyama es valioso como tanque. Evoluciona a él lo antes posible, incluso si no quieres usar su habilidad. No ataques con él, ya que el daño que se inflige a sí mismo elimina su utilidad como tanque.
+- Si noquean de un solo golpe al primer Lucario, probablemente no puedan noquear al segundo, así que eso puede ser útil desestabilizar su mapa de premios. Esto es aún mejor si usas Scoop Up Cyclone o Wally's Compassion.
+- Judge puede dejarlos sin opciones si no tienen un Dipplin de reserva.
+
+```youtube
+id: plt2swbYZCQ
+title: Lucario v Festival 1
+```
+
+```youtube
+id: BQW03QYb1X0
+title: Lucario v Festival 2
+```
+
 ### Mewtwo - Desfavorable
 
 - Conseguir noqueos aleatorios con Pokémon de un solo premio puede ser bueno porque si no tienen una banca completa de Pokémon del Equipo Rocket no pueden derrotar a Lucario de dos golpes con Spidops, lo cual suele ser relevante.

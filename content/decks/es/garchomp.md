@@ -189,6 +189,18 @@ id: hk89SR43qCE
 title: Chomp v Bolt 2
 ```
 
+### Festival Lead - Muy Desfavorable
+- Roselia, Roserade y Power Weight son los recursos más importantes. Si juegas con Switch, también es un recurso valioso (para cambiar a Roserade después de recibir daño).
+- Consigue tantas Roselia como sea posible, además de dos Roserade. Roselia con Power Weight es tu mejor atacante. Spiritomb también puede ser útil si le dejan daño a tu Roserade. Gible, Gabite o incluso Garchomp pueden ser atacantes útiles si la situación lo requiere.
+- Power Weight suele ser mejor en Roselia.
+- Sé lo más rápido y agresivo posible. Es prácticamente imposible ganar, así que tenemos que tener suerte y usar tácticas poco convencionales.
+- Cargar Energía a futuros atacantes de forma anticipada es muy bueno. Mantener Energía en el tablero también es importante, ya que necesitarás gastar Energía para retirar a Roserade después de usarla como esponja.
+
+```youtube
+id: Jimw7-gidwk
+title: Chomp v Festival 1
+```
+
 ### Kangaskhan Box - Favorable
 
 - Los Power Weights pueden ser útiles al principio del juego para proteger a Gabite y tus energías de un Fezandipiti rápido.

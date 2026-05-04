@@ -176,6 +176,16 @@ title: Mewtwo v Meganium 2
 
 No encontré ningún juego que estuviera cerca de ser interesante para poner aquí. Solo masacres.
 
+### Festival Lead - Muy Desfavorable
+- Consigue tantos Tarountula y Spidops como sea posible. Noquear a Dipplin.
+- Archer es la mejor opción cuando no tienen un Dipplin de reserva. Quitar su Estadio es lo mejor al principio del juego o al usar Archer.
+- A veces se puede usar a Mewtwo al principio del juego, ya que puede que no consigan noquearlo de inmediato. Usarlo cuando ya están estabilizados es una mala idea, excepto si consigues Archer + Estadio, puede que no consigan todas las piezas para noquearlo.
+
+```youtube
+id: YT4891TzjBk
+title: Mewtwo v Festival 1
+```
+
 ### Mirror de Mewtwo - Parejo
 
 - Intenta conseguir una ventaja rápida con Spidops o Mewtwo. Con Spidops es más fácil, pero Mewtwo suele ser mejor si puedes conseguirla igual de rápido. Es bueno sacarle provecho a Mewtwo antes de que puedan derrotarlo de un solo golpe.
