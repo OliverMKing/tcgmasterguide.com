@@ -56,6 +56,7 @@ Energy: 9
 ### Exclusions
 
 - Dudunsparce is quite good for general utility and its capability to counter Crustle and Slop decks. I will definitely test and consider it a bit more.
+- Other techs I will test and consider are Azumarill and Tauros. Azumarill is similar to Dudunsparce in that it's good against Raging Bolt and Crustle. It takes up less space and requires less accomodation, but also does not get the consistency boost from the drawing Dudunsparce. Tauros is just for Crustle and I think it's better than Chi-Yu.
 - Hero's Cape is very strong but I still think Stamp is better. Not having Stamp exposes some vulnerabilities and makes some matchups a lot worse (Single-prize decks, Mewtwo, etc.).
 - Dusknoir is just not that good in the current meta. I did not find myself using it very often and it doesn’t solve any particular problem. Dusknoir is also much weaker now without Counter Catcher or Iono to take advantage of it.
 - Blaziken is unnecessary and way less efficient than Crispin or just attaching normally. There's no need to counter Grass since the matchup is already fine. Same goes for Moltres.
