@@ -43,7 +43,7 @@ Energy: 4
 ### Inclusiones
 
 -Me gusta jugar con cuatro copias de Thwackey porque el deck necesita verlo al inicio para funcionar, siempre necesita dos en juego, y a veces incluso tres.
--Rillaboom es una carta tech opcional para Crustle con Cornerstone. Cumple su función a la perfección, ya que Rellor por sí solo no basta para vencer a ese deck. Es inútil contra la mayoría de los demás decks excepto aquellos con Handheld Fano si te quedas sin Festival Grounds. Podrías reemplazarla por otra carta como Boss’s Orders.
+-Rillaboom es una carta tech opcional para Crustle con Cornerstone. Cumple su función a la perfección, ya que Rellor por sí solo no basta para vencer a ese deck. Es inútil contra la mayoría de los demás decks a menos que te quedes sin Festival Grounds. Podrías reemplazarla por otra carta como Boss’s Orders.
 -Rabsca es una tech necesaria para Dragapult y funciona bien.
 -Shaymin cambia el rumbo del matchup contra decks que incluyen Wellspring Ogerpon, Arboliva o Darmanitan. Es bastante eficiente ocupando solo un espacio en el deck.
 -Goldeen ayuda a mantener la consistencia al principio de la partida. Este deck tiene una excelente distribución de matchups, pero a veces puede tener manos iniciales malas, y Goldeen ayuda a reducir eso. En teoría, se puede usar como pivote en la banca para contrarrestar la disrupción de mano, pero no me ocurrió muy a menudo.
@@ -118,13 +118,14 @@ title: Festival v Chomp 1
 
 ### Alakazam - Parejo
 
-Este matchup está bastante parejo. Sin embargo, si ellos tienen Handheld Fan y tú no tienes a Rillaboom, la situación es muy desfavorable. Incluso si lo tienes, sigue siendo desfavorable.
+Este matchup está bastante parejo. Sin embargo, si ellos tienen Handheld Fan es muy desfavorable.
 
 -Festival Grounds es un recurso, ya que suelen jugar cuatro Battle Cage. No lo pongas en juego hasta que estés listo para atacar.
 -No juegan disrupción de mano así es que sé lo más rápido y agresivo que puedas.
 -Si te quitan el Estadio, considera usar Boss’s Orders para noquear a un Pokémon pequeño mientras guardas un Estadio. Si juegas todos los Estadios demasiado pronto, podrías quedarte sin ellos y podrían crear un tablero final donde ningún Pokemon pueda ser noqueado por un Dipplin de un solo ataque. Si no tienen a Kadabra en juego, noquear a su Alakazam activo sigue siendo la mejor opción para obligarlos a buscar Rare Candy.
 -Genesect puede ser útil al principio del juego si se presenta la oportunidad. Sin embargo, es muy perjudicial tenerlo en juego si el oponente usa Handheld Fan. Contra Handheld Fan, lo ideal es obligarlo a mover Energías a Thwackey.
 -Rillaboom es muy bueno para noquear al Pokemon con Handheld Fan de un solo golpe. Si no lo juegan, quizás quieras cargar una Energía extra a Thwackey de forma preventiva para evitar quedarte sin Estadios, pero esto podría ser irrelevante dependiendo de cuántos recursos te queden. Si no conseguiste la ventaja inicial de dos premios, suele ser mejor guardar las Energías para Dipplin, ya que podrías quedarte sin Energía.
+- Si tienes una carga de Energía extra disponible, generalmente es buena idea colocarla en un Dipplin de reserva. Cuando tienes dos, cada una con Energía, puedes ganarle al Handheld Fan porque puedes cargar otra Energía cuando la necesites. Si no juegan con Handheld Fan, puedes usarla en Thwackey para la situación donde quizá te quedas sin Estadios, pero esto podría ser irrelevante dependiendo de cuántos recursos te queden. Si no conseguiste la ventaja inicial de dos premios, suele ser mejor guardar Energía para Dipplin.
 
 ```youtube
 id: g5-pKFaJc_Y

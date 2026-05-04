@@ -6,11 +6,11 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for Alakazam](./images/alakazam/4candy.png)
+![decklist for Alakazam](./images/alakazam/3hammer.png)
 ```decklist
 Pokémon: 22
 4 Dunsparce JTG 120
-4 Dudunsparce TEF 129
+3 Dudunsparce TEF 129
 4 Abra MEG 54
 4 Kadabra MEG 55
 4 Alakazam MEG 56
@@ -26,7 +26,7 @@ Trainer: 31
 4 Poké Pad ASC 198
 4 Rare Candy SVI 191
 2 Wondrous Patch PFL 94
-2 Enhanced Hammer TWM 148
+3 Enhanced Hammer TWM 148
 2 Night Stretcher SFA 61
 1 Sacred Ash DRI 168
 
@@ -44,7 +44,7 @@ Esta lista es bastante simple y directa. Los matchups de Alakazam son extremadam
 - Rare Candy es increíblemente útil y es muy bueno en este deck. Desde su velocidad al principio de la partida, su consistencia a mitad de partida, a veces fallas establecer más de un Kadabra, Abra es eliminado rápidamente, etc. Hay muchísimas razones para adorar a Rare Candy. Incluso con cuatro Kadabra, creo que este deck necesita 4 Rare Candy.
 - Night Stretcher es mi opción preferida porque, principalmente, quiero que sea muy fácil que Abra regrese lo más rápido posible.
 - Wondrous Patch es inútil o increíblemente poderosa. No se usará en todas las partidas, pero nos permite aprovechar Enriching Energy, una fantástica carta de robo que podemos reciclar mediante Dudunsparce.
-- Enhanced Hammer es necesario para lidiar con la Mist Energy y la Rocky Fighting Energy.
+- Enhanced Hammer es necesario para lidiar con la Mist Energy y la Rocky Fighting Energy. Agregue un tercero por el mayor nivel de amenaza de Crustle y Garchomp.
 - Sacred Ash no es muy buena, pero su desventaja en comparación con Night Stretcher es mínima. Se incluye principalmente para crear fácilmente 5 o 6 Alakazam contra decks de un premio, como en el mirror matchup.
 
 ### Exclusiones
@@ -121,9 +121,9 @@ title: Zam v Lucario 1
 - Ten cuidado con Enhanced Hammer.
 - No pongas a Fezandipiti en juego.
 
-### Garchomp - Parejo
+### Garchomp - Favorable
 
-- Este matchup está bastante parejo, suponiendo que jueguen cuatro Rocky Energy y algunas Hilda. Cuantas menos de estas jueguen, mejor será para tí.
+- Este matchup es favorable con el Enhanced Hammer adicional, suponiendo que jueguen cuatro Rocky Energy y algunas Hilda. Cuantas menos de estas jueguen, mejor será para tí.
 - Roba muchas cartas agresivamente para encontrar Enhanced Hammer y Boss's Orders.
 - Usa cualquier Energía adicional para cargar a Fezandipiti. Puede que la necesites para noquear a Gabite con Rocky Energy. Consigue Energía para Alakazam primero y luego carga a Fezandipiti lo antes posible. Usa a Fez para noquear una Rocky Energy siempre que tengas la oportunidad. Esta jugada prácticamente garantiza la victoria.
 - Si tienen a Garchomp en juego, intenta noquearlo. Si no, Gabite es el objetivo ideal. Sin embargo, si tienen muchos Pokémon en juego, puede ser mejor guardar tu Boss's Orders para contrarrestar Rocky Energy, que puede ganarte la partida si el oponente no tiene cuidado.
@@ -182,6 +182,23 @@ id: nqv7CF4-1NI
 title: Zam v Bolt 2
 ```
 
+### Festival Lead - Parejo
+- Los Rare Candy son un recurso muy importante. Intenta poner en juego tantos Abra y Kadabra como sea posible cuanto antes para tenerlos disponibles durante todo el juego.
+- Intenta poner un Dudunsparce en juego cuanto antes para usarlo como escudo y evitar que consigan dos premios.
+- Noquea a Dipplin en cada turno. Esto agota sus recursos al máximo. Una vez caí en la trampa de debilitar a su único Thwackey, y eso marcó la diferencia entre ganar y perder.
+- Si juegas Battle Cage, intenta quitar su Estadio en cada turno. Puedes crear un tablero al final de la partida lleno de Pokémon con más de 100 de HP para potencialmente ganar si se quedan sin Estadios.
+- Si juegas Handheld Fan, usarlo en Alakazam suele ser la mejor opción. Se pueden hacer algunas jugadas ingeniosas con Dudunsparce y Handheld Fan, pero son muy complejas y dependen de la situación.
+
+```youtube
+id: g5-pKFaJc_Y
+title: Zam v Festival 1
+```
+
+```youtube
+id: X3YpsKBoBBI
+title: Zam v Festival 2
+```
+
 ### Mewtwo - Muy Desfavorable
 
 - Obviamente, este es un matchup terrible debido a Articuno, pero si hay alguna forma de ganar es cargando a Fez lo más rápido posible y eliminando a su Articuno. Usa Boss’s Orders y Enhanced Hammer para alentarlos. A veces roban mal o brickean, así que es posible tener suerte.
@@ -198,9 +215,9 @@ id: AAIh8BWElzA
 title: Zam v Zoroark 1
 ```
 
-### Crustle - Parejo
+### Crustle - Favorable
 
-Este matchup es bastante parejo o ligeramente favorable, suponiendo que jueguen cuatro Mist Energy y tengan alguna forma de encontrarlas. Si juegan menos, es favorable.
+Este matchup ahora es favorable, suponiendo que jueguen cuatro Mist Energy y tengan alguna forma de encontrarlas. Si juegan menos, es aún más favorable.
 - Consigue un Alakazam rápido y roba cartas agresivamente para encontrar Enhanced Hammer y Boss’s Orders.
 - Boss’s Orders es especialmente útil para atacar Spiky Energy, Hero’s Cape o cualquier Pokemon que acumule demasiadas Energías.
 - Empieza a cargar a Dudunsparce de inmediato. Así podrás lidiar con un Crustle con Mist Energy una vez que te quedes sin Enhanced Hammer. Esto es relevante en la mayoría de las partidas. Si alguna vez dejan un Dwebble con Mist Energy y puedes noquearlo con Dudunsparce, hazlo y prácticamente se acaba la partida.
@@ -217,6 +234,7 @@ title: Crustle v Zam 2
 ```
 
 ### Ogerpon - Muy favorable
+
 - Prioriza conseguir a Shaymin. Si no puedes conseguirlo rápido, pero logras setearte sin quedarte muy atrás, ya no lo necesitarás.
 - Probablemente no tengan Unfair Stamp ni Xerosic, pero juega teniendo esto en cuenta por si acaso.
 - Si terminas poniendo a Fezandipiti en juego, cargale una o dos Energías adicionales por si intentan usar Sob para conseguir tres premios.

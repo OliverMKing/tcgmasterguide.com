@@ -228,6 +228,16 @@ id: v568uuMMVyM
 Título: Blaziken v Bolt 2
 ```
 
+### Festival Lead - Ligeramente favorable
+
+Este matchup podría estar casi parejo pero jugar tres Rare Candy ayuda a que sea ligeramente favorable.
+- Los Rare Candy son un recurso muy valioso, al igual que Blaziken para acelerar Energía.
+- Poner a Munkidori en juego para usarlo como escudo es muy bueno. Se puede usar como sacrificio o para subirlo después de que usen su primer ataque y noquean algo. Más adelante en la partida, también será relevante para Adrena Brain.
+- Guarda Risky Ruins para cuando puedas sacarle provecho inmediato (o si puedes combinarlo con Unfair Stamp).
+- Unfair Stamp está muy rota. Úsala cuando empieces a atacar con Dragapult, o con Boss's Orders para alentarlos. Si subes a Thwackey y juegas Unfair Stamp, es poco probable que se libere de inmediato y así puedes ganar tiempo. Si juegan Genesect y no tienen la banca llena, usa Unfair Stamp lo antes posible e intenta hacer la jugada de Boss's Orders a Thwackey.
+- Noquea a Rabsca lo antes posible. Es prácticamente imposible ganar si permanece en juego demasiado tiempo. A veces lo noqueas con Drakloak, o con una sola Energía en Dragapult.
+- Si no tienen muchas cartas en la mano y solo dos Thwackey, puede ser mejor atacar a uno de ellos. Dependiendo del tablero, es más probable que fallen un KO, pero a veces debilitar a su atacante sigue siendo la mejor opción. Si solo tienen un Thwackey, noquearlo suele ser lo mejor.
+
 ### Mewtwo - Favorable
 
 - Blaziken es un buen atacante para debilitar a los Spidops atacantes del oponente. Cuando Blaziken necesite recargarse tras atacar, usa Drakloak para debilitar a Mimikyu o Tarountula. Atacar con Drakloak también es efectivo si tienen alguno de estos en el activo.
