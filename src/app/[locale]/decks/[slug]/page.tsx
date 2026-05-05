@@ -163,7 +163,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
     notFound()
   }
 
-  const history = deckHistory[slug] || []
+  const history = deckHistory[locale]?.[slug] || []
   const lastEdited = deckDates[slug] || null
 
   const tierLabelsTranslated: Record<number, string> = {

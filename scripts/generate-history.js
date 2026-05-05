@@ -198,19 +198,27 @@ if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true })
 }
 
-// Process all markdown files in decks directory
-const files = fs.readdirSync(decksDir).filter((f) => f.endsWith('.md'))
+// Process all markdown files in decks directory, per locale
+const allHistory = { en: {}, es: {} }
 
-const allHistory = {}
+const localeDirs = [
+  { locale: 'en', dir: decksDir },
+  { locale: 'es', dir: path.join(decksDir, 'es') },
+]
 
-for (const file of files) {
-  const slug = file.replace(/\.md$/, '')
-  const filePath = path.join(decksDir, file)
-  const history = generateHistoryForDeck(filePath)
+for (const { locale, dir } of localeDirs) {
+  if (!fs.existsSync(dir)) continue
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.md'))
 
-  if (history.length > 0) {
-    allHistory[slug] = history
-    console.log(`Generated history for ${slug}: ${history.length} entries`)
+  for (const file of files) {
+    const slug = file.replace(/\.md$/, '')
+    const filePath = path.join(dir, file)
+    const history = generateHistoryForDeck(filePath)
+
+    if (history.length > 0) {
+      allHistory[locale][slug] = history
+      console.log(`Generated history for ${locale}/${slug}: ${history.length} entries`)
+    }
   }
 }
 
@@ -235,7 +243,7 @@ export interface HistoryEntry {
   changes: HistoryChange[]
 }
 
-export type DeckHistory = Record<string, HistoryEntry[]>
+export type DeckHistory = Record<string, Record<string, HistoryEntry[]>>
 
 export const deckHistory: DeckHistory = ${JSON.stringify(allHistory, null, 2)}
 `

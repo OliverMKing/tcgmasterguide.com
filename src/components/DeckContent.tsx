@@ -381,8 +381,8 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
         </div>
       )}
 
-      {/* View History Button - only for English subscribers (history is only generated for English content) */}
-      {hasAccess && history.length > 0 && locale === 'en' && (
+      {/* View History Button */}
+      {hasAccess && history.length > 0 && (
         <div className="-mt-10 mb-8">
           <ViewHistoryButton history={history} deckTitle={deckTitle} />
         </div>
