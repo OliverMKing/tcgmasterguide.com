@@ -1,27 +1,28 @@
 ---
 title: Alakazam
 pokemon: [65]
-tier: 2
+tier: 1
 format: Standard
 ---
 ## Decklist
 
-![decklist for Alakazam](./images/alakazam/3hammer.png)
+![decklist for Alakazam](./images/alakazam/rabsca.png)
 ```decklist
-Pokémon: 22
-4 Dunsparce JTG 120
-3 Dudunsparce TEF 129
+Pokémon: 23
 4 Abra MEG 54
 4 Kadabra MEG 55
 4 Alakazam MEG 56
+3 Dunsparce JTG 120
+3 Dudunsparce TEF 129
+2 Rellor TEF 23
+1 Rabsca TEF 24
 1 Shaymin DRI 10
 1 Fezandipiti ex ASC 142
 
-Trainer: 31
+Trainer: 30
 4 Hilda WHT 84
 4 Dawn PFL 87
-3 Boss's Orders PAL 172
-1 Morty's Conviction TEF 155
+2 Boss's Orders PAL 172
 4 Buddy-Buddy Poffin TEF 144
 4 Poké Pad ASC 198
 4 Rare Candy SVI 191
@@ -38,9 +39,8 @@ Energy: 7
 <!-- PUBLIC -->
 ### Inclusions
 
-- This list is pretty simple and straightforward. Alakazam’s matchups are extremely polarized. It would make sense to try and cover for the bad matchups in some way, but I don’t think that’s possible. Therefore, I wanted to make the deck as fundamentally sound as possible and fully lean into the matchup roulette.
-- Shaymin is mostly relevant against random Waterpons and Darmanitan. It also adds a few percentage points against Arboliva. I think it’s one of the few techs that makes a lot of sense, though it’s not strictly needed.
-- Morty’s Conviction is very nice as a draw card that can add a lot of cards to hand. Sometimes Hilda or Dawn nets more cards by extending into Alakazam/Dudunsparce, but in other situations, Morty is a more powerful draw Supporter. The reason I prefer Morty to other options is because it’s the only way for this deck to discard Psychic Energy, which is very relevant when you want to use the Wondrous Patch/Enriching Energy combo.
+- Shaymin is mostly relevant against random Waterpons, Starmie, and Darmanitan. It also adds a few percentage points against Arboliva. I think it’s one of the few techs that makes a lot of sense, though it’s not strictly needed.
+- Rabsca works very well against Dragapult as long as it's a build that doesn't have Dusknoir. The second Rellor is necessary as well.
 - Rare Candy is so broken and consistently useful in this deck. From early-game speed, mid-game consistency, sometimes whiffing multiple Kadabra, Abra getting sniped off, etc. There are so many reasons to love Rare Candy. Even with four Kadabra, I still think this deck needs four Rare Candy.
 - Night Stretcher is my preferred recovery because I mostly just want to get back Abra as conveniently as possible.
 - Wondrous Patch is either useless or insanely powerful. It won’t be used every game, but it allows us to make use of Enriching Energy, which is a fantastic draw card that we can recycle via Dudunsparce.
@@ -49,12 +49,13 @@ Energy: 7
 
 ### Exclusions
 
-- Psyduck is not here because we lose to Dragapult either way and Dusknoir isn’t that big a part of the meta.
+- Psyduck is not here because I tested it against Pult/Noir and was still losing even with Rabsca too.
 - Genesect is too much investment for too little return. It’s not that hard to recover off Stamp, and committing a bench spot as well as deck spots for Tools seems bad.
 - Fan Rotom is bad, especially with no Stadiums. I initially thought that it would be fine to play Fan Rotom if you played Stadiums, but I did not get much value from it at all, and it is a liability to have in play. Even with Stadiums, I would not play Fan Rotom.
-- Speaking of Stadiums, many lists play Battle Cage. However, even with 3-4 Battle Cage, the Dragapult matchup is still terrible. Therefore, I do not want to waste the deck space on it.
+- Speaking of Stadiums, many lists play Battle Cage. However, even with 3-4 Battle Cage, the Dragapult matchup is still terrible. Therefore, I do not want to waste the deck space on it. Rabsca actually works so it's much better.
 - Chien-Pao is a consideration for random Watchtowers. If decks besides Dragapult end up playing random Watchtowers, it may be worth adding Chien-Pao in.
 - Lana’s Aid seems like it would be alright but I would always rather play other Supporters for the turn. Night Stretcher is more convenient. This deck doesn’t really need heavy recovery, but if it does, there’s still Sacred Ash.
+- Morty’s Conviction is very nice as a draw card that can add a lot of cards to hand. Sometimes Hilda or Dawn nets more cards by extending into Alakazam/Dudunsparce, but in other situations, Morty is a more powerful draw Supporter. The reason I prefer Morty to other options is because it’s the only way for this deck to discard Psychic Energy, which is very relevant when you want to use the Wondrous Patch/Enriching Energy combo. I ended up cutting the Mortys for space for Rabsca but it's still not bad.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
@@ -73,15 +74,30 @@ Energy: 7
 
 I feel like I should put a disclaimer here: there is really not a lot of strategy in these matchups due to the linear nature of Alakazam! Its matchups are either hard wins or hard losses for the most part. As a result, there is not much interesting game footage. Most of the games I recorded were one-sided beatdowns one way or the other.
 
-### Dragapult - Very Unfavorable
+### Dragapult - Depends
 
-Even with Battle Cages, this matchup is still very unfavorable! If there is some build or tech that makes this matchup slightly unfavorable instead, Alakazam will instantly become top tier.
+With the addition of Rabsca, non-Dusknoir builds are now favorable for Alakazam! Dragapult / Dusknoir is still very unfavorable. If you play Battle Cage instead of Rabsca, all Dragapult matchups are still unfavorable. How you play against Dragapult with and without Rabsca is quite different.
+
+With Rabsca:
+
+- The most important thing is setting up and stabilizing. It's ok to not attack for awhile as you don't want to lose to Unfair Stamp. If you're ok with getting Stamped, such as if you have Dudunsparce and/or Fez in play, then it's fine to start attacking. You will get Stamped at some point, and you just want to make sure you don't fully brick off of it.
+- The ideal board is Rabsca, Rellor, attacking Alakazam, Kadabra, and then some combination of Abra, Fezandipiti, and Dudunsparce. If they play Watchtower, you can ignore Dudunsparce completely.
+- If Rabsca or a Rellor is prized, you may need to be more aggressive as you won't be able to set up the unbeatable board.
+- Fezandipiti is very good in this matchup, especially to preemptively bench it to play around Stamp. Rabsca protects the Fezandipiti so it's not much of a liability like it would be without Rabsca.
+- Passing instead of swinging into Dragapult for less than a KO is often best, but there are some exceptions depending on the board (such as if you think you won't be able to get the KO next turn).
+
+Without Rabsca:
 
 - Prioritize getting lots of Abra down and evolved quickly. Since this list does not run a Stadium, we cannot bump Risky Ruins. We are trying to avoid giving them 3 prizes off one Phantom Dive.
 - Kadabra one-shots Budew. Just go for it. Our win condition is high-rolling and going fast, so play into that.
 - Boss’s Orders can let us KO Drakloak with Energy to hopefully slow them down by a turn. KO’ing two-prize liabilities can also be quite good.
 - Leave two Dudunsparce in play if you can in order to play around Stamp.
 - Fez is a HUGE liability. Ideally you won’t put it down, but it might be necessary to reach for a big one-shot on a Dragapult. I wouldn’t put it down preemptively though.
+
+```youtube
+id: M8qiF8cGqdY
+title: Rabsca v Pult 1
+```
 
 ```youtube
 id: N7C96e59bMc
