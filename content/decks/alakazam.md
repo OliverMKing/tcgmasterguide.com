@@ -260,4 +260,4 @@ title: Crustle v Zam 2
 
 ## Personal Thoughts
 
-Pure matchup roulette deck. I probably wouldn’t play it because losing to Dragapult is not ideal, and that matchup is worse than expected. However most of the other matchups are so free that Alakazam can still be a good play. The deck is also very consistent and fast with the Candies.
+This deck is very good now with Rabsca allowing it to beat a good portion of Dragapult decks. However it's still playing some matchup roulette since it hard loses to Dusknoir and Rocket's Mewtwo. The Festival Lead and mirror matchups are also very close and purely lucky based.
