@@ -57,11 +57,12 @@ Energy: 4
 
 - Seaking can be a good response to an opposing tech Chi-Yu, but I don’t want to put Goldeen down randomly, so it requires advance knowledge of the opponent’s list for full effectiveness. Drawing cards on Turn 2 sounds nice, but requires multiple searches to get it online, Energy, and a Stadium. If you have all of those prerequisites, you’re already stable and don’t need the draw.
 - Lilligant is too much commitment, and that’s something I’m scared of. The effect is not bad. I would play it if it was a basic.
-- Psyduck would be good against Dusknoir decks, but those aren’t too popular right now. Bench space would also get a bit clogged against Dragapult/Dusknoir since you need the Rabsca and just forego the Genesect. Starting Psyduck against anything else is absolutely miserable too.
+- Psyduck does not really work against Dragapult / Dusknoir since the matchup is still unfavorable even with it.
 - Brock’s Scouting is worse than Dawn. Of course, there are some situations where you’d wish that you had Brock instead, but the same could be said for any random card.
 - Gusting is not that important in this deck, so playing one Boss is fine. Another one would be nice though since it can help make comebacks.
 - Other Ace Specs are far inferior to Secret Box. Honorable mention to Maximum Belt for saving two deck spots, which is pretty cool.
 - Switch is worse than two Kieran and two Air Balloon, especially with Genesect in the list.
+- Tool Scrapper could somewhat replace Genesect. Unfortunately neither one really helps the Crustle matchup that much.
 - Other random cards such as Sacred Ash, Judge, or Forest of Vitality are just bad and pointless.
 <!-- /PUBLIC -->
 ## Gameplay Tips
