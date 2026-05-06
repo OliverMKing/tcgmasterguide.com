@@ -61,7 +61,7 @@ Energy: 9
 - Dusknoir is just not that good in the current meta. I did not find myself using it very often and it doesn’t solve any particular problem. Dusknoir is also much weaker now without Counter Catcher or Iono to take advantage of it.
 - Blaziken is unnecessary and way less efficient than Crispin or just attaching normally. There's no need to counter Grass since the matchup is already fine. Same goes for Moltres.
 - Area Zero has some uses but it's far less useful and impactful than Risky Ruins. If you do play Area Zero, I would also play Chien-Pao to make sure to get the upside of getting rid of liabilities.
-- Maractus isn't that great because most decks can get out of it or KO the Maractus with whatever gets "stuck." However it can be good against Garchomp or to punish unaware players in some fringe scenarios.
+- Maractus isn't that great because most decks can get out of it or KO the Maractus with whatever gets "stuck." I tried it against Garchomp and it did nothing.
 - Noctowl is not very good and way too difficult to use. Prizing a piece, deck space, board space, and finding the actual Pokemon. Its payoff isn’t even that good as you’ll have a massive hand and can usually do whatever you want anyway.
 - Shaymin is way better in theory than in practice. Of course, it can still be useful on occasion. It is mostly good against Crispin box decks that can attack with Fez/Waterpon or the Meganium deck with Arboliva.
 - I don’t think there are any legitimate use cases for Jamming Tower. There aren’t any real Tools in this format, and the card feels completely useless. Risky Ruins is miles better.
