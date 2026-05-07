@@ -1,7 +1,7 @@
 ---
 title: Alakazam
 pokemon: [65]
-tier: 2
+tier: 1
 format: Standard
 ---
 ## Decklist
