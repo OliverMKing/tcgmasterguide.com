@@ -9,7 +9,7 @@ const PARAM_KEY = 'discountcode'
 export function getStoredDiscountCode(): string | null {
   if (typeof window === 'undefined') return null
   try {
-    return window.localStorage.getItem(STORAGE_KEY)
+    return window.sessionStorage.getItem(STORAGE_KEY)
   } catch {
     return null
   }
@@ -27,13 +27,13 @@ export default function DiscountCodeTracker() {
 
     if (fromUrl) {
       try {
-        window.localStorage.setItem(STORAGE_KEY, fromUrl)
+        window.sessionStorage.setItem(STORAGE_KEY, fromUrl)
       } catch {
         // ignore storage errors
       }
     } else {
       try {
-        code = window.localStorage.getItem(STORAGE_KEY)
+        code = window.sessionStorage.getItem(STORAGE_KEY)
       } catch {
         code = null
       }
