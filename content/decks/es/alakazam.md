@@ -6,22 +6,23 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for Alakazam](./images/alakazam/3hammer.png)
+![decklist for Alakazam](./images/alakazam/rabsca.png)
 ```decklist
-Pokémon: 22
-4 Dunsparce JTG 120
+Pokémon: 23
+3 Dunsparce JTG 120
 3 Dudunsparce TEF 129
 4 Abra MEG 54
 4 Kadabra MEG 55
 4 Alakazam MEG 56
 1 Shaymin DRI 10
 1 Fezandipiti ex ASC 142
+2 Rellor TEF 23
+1 Rabsca TEF 24
 
-Trainer: 31
+Trainer: 30
 4 Hilda WHT 84
 4 Dawn PFL 87
-3 Boss's Orders PAL 172
-1 Morty's Conviction TEF 155
+2 Boss's Orders PAL 172
 4 Buddy-Buddy Poffin TEF 144
 4 Poké Pad ASC 198
 4 Rare Candy SVI 191
@@ -38,8 +39,8 @@ Energy: 7
 <!-- PUBLIC -->
 ### Inclusiones
 
-Esta lista es bastante simple y directa. Los matchups de Alakazam son extremadamente polarizados. Sería lógico intentar compensar los matchups desfavorables de alguna manera, pero no creo que sea posible. Por lo tanto, quise crear un deck lo más sólido posible en sus fundamentos y aprovechar al máximo las ventajas en muchos de los matchups.
-- Shaymin es especialmente útil contra Wellspring Ogerpon y Darmanitan. También aporta algunos puntos porcentuales de efectividad contra Arboliva. Creo que es una de las pocas tech que tiene mucho sentido, aunque no sea estrictamente necesaria.
+- Shaymin es especialmente útil contra Wellspring Ogerpon, Mega Starmie y Darmanitan. También aporta algunos puntos porcentuales de efectividad contra Arboliva. Creo que es una de las pocas tech que tiene mucho sentido, aunque no sea estrictamente necesaria.
+- Rabsca funciona muy bien contra Dragapult mientras no sea la versión con Dusknoir. El segundo Rellor es muy necesario para poder setear a Rabsca de manera consistente.
 - Morty’s Conviction es una carta muy útil para robar cartas y aumentar la mano. A veces, Hilda o Dawn consiguen más cartas al traer a Alakazam/Dudunsparce, pero en otras ocasiones, Morty es un Partidario de robo más poderoso. Prefiero a Morty a otras opciones porque es la única forma de descartar Energía Psíquica en este deck, lo cual es fundamental para usar la combinación de Wondrous Patch/Enriching Energy en un solo turno.
 - Rare Candy es increíblemente útil y es muy bueno en este deck. Desde su velocidad al principio de la partida, su consistencia a mitad de partida, a veces fallas establecer más de un Kadabra, Abra es eliminado rápidamente, etc. Hay muchísimas razones para adorar a Rare Candy. Incluso con cuatro Kadabra, creo que este deck necesita 4 Rare Candy.
 - Night Stretcher es mi opción preferida porque, principalmente, quiero que sea muy fácil que Abra regrese lo más rápido posible.
@@ -49,12 +50,13 @@ Esta lista es bastante simple y directa. Los matchups de Alakazam son extremadam
 
 ### Exclusiones
 
-- Psyduck no está aquí porque perdemos contra Dragapult de todas formas y Dusknoir no es una parte tan importante del meta.
+- Psyduck no está aquí porque testee versus Dragapult/Dusknoir y aún así perdía, incluso con Rabsca. 
 - Genesect supone una inversión excesiva de recursos para un retorno tan pequeño. No es tan difícil recuperarse de Unfair Stamp, y comprometer un espacio de la banca, así como espacios en el deck para Tools, me parece una mala idea.
 - Fan Rotom es malo, sobre todo sin Estadios. Al principio pensé que estaría bien usarlo si se jugaban Estadios, pero no le saqué mucho provecho y es un riesgo tenerlo en juego. Incluso con Estadios, no lo usaría.
-- Hablando de estadios, muchas listas incluyen Battle Cage. Sin embargo, incluso con 3 o 4 copias, el matchup contra Dragapult sigue siendo desfavorable. Por lo tanto, no quiero desperdiciar espacio en el deck con esta carta.
+- Hablando de estadios, muchas listas incluyen Battle Cage. Sin embargo, incluso con 3 o 4 copias, el matchup contra Dragapult sigue siendo desfavorable. Por lo tanto, no quiero desperdiciar espacio en el deck con esta carta. Rabsca sí funciona y es mucho mejor.
 - Chien-Pao es una opción a considerar para las Rocket’s Watchtower aleatorias. Si otros decks, además de Dragapult, terminan jugandolo, podría valer la pena incluir a Chien-Pao.
 - Lana’s Aid parece una buena opción, pero siempre prefiero jugar otras cartas de partidario en ese turno. Night Stretcher es más conveniente. Este deck no necesita mucha recuperación, pero si la necesitara, también tiene Sacred Ash.
+- Morty's Conviction es muy útil como carta de robo que puede añadir muchas cartas a la mano. A veces, Hilda o Dawn consiguen más cartas al abrir opciones de Alakazam/Dudunsparce, pero en otras situaciones, Morty es un Partidario de robo más poderoso. La razón por la que prefiero Morty's Conviction que otras opciones es porque es la única forma que tiene este deck de descartar Energía Psíquica, lo cual es muy relevante cuando quieres usar el combo de Wondrous Patch/Enriching Energy. Terminé quitando los Morty's Conviction para hacer espacio para Rabsca, pero aún así no está mal.
 <!-- /PUBLIC -->
 ## Gameplay
 
@@ -73,10 +75,18 @@ Esta lista es bastante simple y directa. Los matchups de Alakazam son extremadam
 
 Creo que debo aclarar algo: debido a la naturaleza lineal de Alakazam, en estos matchups no hay mucha estrategia. La mayoría de las veces, los matchups son victorias o derrotas contundentes. Por lo tanto, no hay mucho material de juego interesante. La mayoría de las partidas que grabé fueron palizas unilaterales, ya sea para un lado o para el otro.
 
-### Dragapult - Muy Desfavorable
+### Dragapult - Depende
 
-Incluso con las Battle Cage, este matchup sigue siendo muy desfavorable. Si existe alguna estrategia o técnica que lo haga ligeramente menos favorable, Alakazam se convertirá instantáneamente en uno de los mejores decks del formato.
+Con la incorporación de Rabsca, las variantes sin Dusknoir ahora son favorables para Alakazam. Dragapult/Dusknoir sigue siendo muy desfavorable. Si juegas Battle Cage en lugar de Rabsca, todos los matchups contra Dragapult siguen siendo desfavorables. La forma de jugar contra Dragapult con y sin Rabsca es bastante diferente.
 
+Con Rabsca:
+- Lo más importante es setearte y estabilizar el tablero. No hay problema en no atacar durante un tiempo, ya que no querrás perder por Unfair Stamp. Si no te importa que lo usen porque ya tienes a Dudunsparce y/o Fezandipiti en juego, entonces puedes empezar a atacar. Usaran Unfair Stamp en algún momento, y quieres asegurarte de no quedarte sin opciones.
+- El tablero ideal es Rabsca, Rellor, Alakazam atacando, Kadabra y luego alguna combinación de Abra, Fezandipiti y Dudunsparce. Si juegan Rocket's Watchtower, puedes ignorar a Dudunsparce por completo.
+- Si Rabsca o un Rellor estan premiados, es posible que debas ser más agresivo, ya que no podrás establecer una banca imbatible.
+- Fezandipiti es muy útil en este matchup, especialmente para ponerlo en la banca de forma preventiva y contrarrestar Unfair Stamp. Rabsca protege a Fezandipiti, por lo que no representa una gran desventaja como lo sería sin el.
+- Pasar turno en lugar de atacar a Dragapult sin noquearlo suele ser la mejor opción, pero hay algunas excepciones dependiendo del campo (por ejemplo, si crees que no podrás conseguir el KO en el siguiente turno).
+
+Sin Rabsca:
 - Prioriza conseguir muchos Abra y evolucionarlos rápidamente. Dado que esta lista no incluye un Estadio, no podemos quitar risky Ruins. Necesitas evitar darles 3 premios con un solo Phantom Dive.
 - Kadabra derrota a Budew de un solo golpe y a veces toca usarlo. Nuestra condición de victoria es presionar rápido, así que aprovecha eso.
 - Boss’s Orders nos permite debilitar a Drakloak con Energía para que, con suerte, los atrasemos un turno. Debilitar Pokémon que otorgan dos premios también puede ser muy útil.
@@ -101,6 +111,11 @@ title: Blaziken v Zam 1
 ```youtube
 id: 3oqKTcPvTRs
 title: Blaziken v Zam 2
+```
+
+```youtube
+id: M8qiF8cGqdY
+title: Rabsca v Pult 1
 ```
 
 ### Mega Lucario - Muy favorable

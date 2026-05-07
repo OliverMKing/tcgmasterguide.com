@@ -57,12 +57,13 @@ Energy: 4
 
 -Seaking puede ser una buena respuesta a una tech de Chi-Yu del oponente, pero no quiero poner a Goldeen en juego sin razón, así que requiere conocer de antemano la lista del oponente para ser completamente efectivo. Robar cartas en el Turno 2 suena bien, pero requiere varias búsquedas para ponerlo en juego, Energía y un Estadio. Si tienes todos esos requisitos, ya estás seteado y probablemente no necesitas robar cartas.
 -Lilligant requiere demasiado espacio y eso me preocupa. El efecto no está mal. La jugaría si fuera un básico.
--Psyduck sería bueno contra los decks de Dusknoir, pero no son muy populares ahora mismo. El espacio en la banca también se llenaría un poco contra Dragapult/Dusknoir, ya que necesitas a Rabsca y a Genesect. Empezar con Psyduck contra cualquier otro deck es una auténtica pesadilla.
+-Psyduck no funciona realmente en contra de Dragapult/Dusknoir, ya que el matchup es desfavorable aún con el.
 -Brock’s Exploration es peor que la de Dawn. Claro que hay situaciones en las que desearías tener a Brock en su lugar, pero lo mismo podría decirse de cualquier otra carta específica
 -Hacer Boss’s Orders no es tan importante en este deck, así que jugar uno está bien. Sin embargo, otro sería útil, ya que puede ayudar con remontadas.
 -Otras cartas Ace Specs son muy inferiores a Secret Box. Mención especial para Maximum Belt por ahorrar dos espacios en el deck.
 -Switch es peor que dos Kieran y dos Air Balloon, especialmente con Genesect en la lista.
 -Otras cartas como Sacred Ash, Judge o Forest of Vitality son simplemente malas e inútiles.
+-Tool Scrapper podría reemplazar a Genesect, pero desafortunadamente ninguno de los dos ayuda realmente contra el matchup de Crustle.
 <!-- /PUBLIC -->
 ## Gameplay
 
