@@ -63,7 +63,7 @@ Energy: 9
 - Briar es casi imposible de utilizar ya que este deck se enfoca mucho en usar Crispin y Boss todo el tiempo.
 - Aun con Noctowl, no lograba utilizar Team Rocket’s Watchtower de manera efectiva y además puede perjudicarte quitándole la habilidad a tu propio Meowth ex.
 - Área Zero tiene alguna utilidad, pero es mucho menos útil e impactante que Risky Ruins. Si juegas Área Zero, también te recomiendo jugar Chien-Pao para asegurarte de aprovechar la ventaja de reacomodar tu banca.
-- Maractus no es tan bueno porque la mayoría de los decks pueden librarse de él o noquearlo con lo que quede atrapado. Sin embargo, puede ser útil contra Garchomp o para castigar a jugadores desprevenidos en ciertas situaciones.
+- Maractus no es tan bueno porque la mayoría de los decks pueden librarse de él o noquearlo con lo que quede atrapado. Lo intente utilizar contra Garchomp y no fue efectivo para nada.
 - Dudunsparce es bastante útil en general y tiene la capacidad de contrarrestar los decks de Crustle y Kangaskhan Box. Sin duda lo probaré y lo consideraré con más detenimiento.
 - Hero's Cape es muy fuerte, pero sigo pensando que Unfair Stamp es mejor. No tener Unfair Stamp deja al descubierto algunas vulnerabilidades y empeora mucho algunos matchups (decks de una sola carta de premio, Mewtwo, etc.).
 - Otras cartas tech que probaré son Azumarill y Tauros. Azumarill es similar a Dudunsparce en que es eficaz contra Raging Bolt y Crustle. Ocupa menos espacio y requiere menos adaptaciones, pero tampoco se beneficia de la consistencia que ofrece Dudunsparce al robar cartas. Tauros es solo para Crustle y creo que es mejor que Chi-Yu.
