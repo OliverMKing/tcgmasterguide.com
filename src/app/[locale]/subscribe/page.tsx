@@ -7,6 +7,7 @@ import { useUser, useAuth, SignInButton } from '@clerk/nextjs'
 import { useCurrentUser } from '@/hooks/useCurrentUser'
 import { hasSubscriberAccess, isAdmin } from '@/lib/user-roles'
 import { Button } from '@/components/ui'
+import { getStoredDiscountCode } from '@/components/DiscountCodeTracker'
 
 type CheckoutErrorKind = 'network' | 'auth' | 'already-subscribed' | 'declined' | 'unknown'
 
@@ -87,7 +88,7 @@ export default function SubscribePage() {
           Authorization: `Bearer ${token}`,
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ locale }),
+        body: JSON.stringify({ locale, discountCode: getStoredDiscountCode() }),
       })
       const data = await res.json()
 

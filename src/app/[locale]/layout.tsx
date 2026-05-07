@@ -9,6 +9,7 @@ import { ClerkThemeWrapper } from '@/components/ClerkThemeWrapper'
 import { AppInsightsProvider } from '@/components/AppInsights'
 import { VideoEmbedProvider } from '@/contexts/VideoEmbedContext'
 import { ScrollToTop } from '@/components/ScrollToTop'
+import DiscountCodeTracker from '@/components/DiscountCodeTracker'
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }))
@@ -41,6 +42,7 @@ export default async function LocaleLayout({
           <AppInsightsProvider>
             <VideoEmbedProvider>
               <ScrollToTop />
+              <DiscountCodeTracker />
               <Navbar />
               {children}
               <Footer />

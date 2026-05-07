@@ -13,10 +13,14 @@ export async function POST(request: Request) {
 
   // Get locale from request body, default to 'en'
   let locale: SubscriptionLocale = 'en'
+  let discountCode: string | null = null
   try {
     const body = await request.json()
     if (body.locale === 'es') {
       locale = 'es'
+    }
+    if (typeof body.discountCode === 'string' && body.discountCode.trim()) {
+      discountCode = body.discountCode.trim()
     }
   } catch {
     // No body or invalid JSON, use default locale
@@ -68,6 +72,19 @@ export async function POST(request: Request) {
       })
     }
 
+    // Look up promotion code if provided
+    let promotionCodeId: string | null = null
+    if (discountCode) {
+      const promos = await stripe.promotionCodes.list({
+        code: discountCode,
+        active: true,
+        limit: 1,
+      })
+      if (promos.data.length > 0) {
+        promotionCodeId = promos.data[0].id
+      }
+    }
+
     // Create checkout session
     const session = await stripe.checkout.sessions.create({
       customer: customerId,
@@ -80,11 +97,15 @@ export async function POST(request: Request) {
           quantity: 1,
         },
       ],
+      ...(promotionCodeId
+        ? { discounts: [{ promotion_code: promotionCodeId }] }
+        : { allow_promotion_codes: true }),
       success_url: `${process.env.NEXT_PUBLIC_APP_URL}/${locale}/subscribe/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${process.env.NEXT_PUBLIC_APP_URL}/${locale}/subscribe`,
       metadata: {
         userId: user.id,
         subscriptionLocale: locale,
+        ...(discountCode ? { discountCode } : {}),
       },
     })
 
