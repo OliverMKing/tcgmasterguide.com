@@ -43,7 +43,7 @@ Energy: 11
 2 Psychic Energy MEE 5
 ```
 <!-- PUBLIC -->
-The non-Noctowl build is getting a lot more popularity. I tried it to see if I should add it to the guide and it is not very good. The straight Ogerpon deck is a better version of it, so if you want to play non-Noctowl Bolt, just play that instead. If you are going to play Bolt, Noctowl is still the way to go.
+The non-Noctowl build is getting a lot more popularity than this one. I tried it out to see if I should add it to the guide and it is not very good. The straight Ogerpon deck is a better version of it, so if you want to play non-Noctowl Bolt, just play that instead. If you are going to play Bolt, Noctowl is still the way to go. This version has better functionality and better matchups.
 
 ### Inclusions
 
@@ -54,18 +54,23 @@ The non-Noctowl build is getting a lot more popularity. I tried it to see if I s
 - Terapagos is mainly here because we always need a Tera Pokemon to make the deck function. A fourth Ogerpon could be considered, but I like the flexibility of Terapagos. I end up attacking with it occasionally. It’s very convenient because it can attack with Glass Trumpet, which allows you to Boss for the turn instead of Crispin (which is particularly strong on the Stamp turn).
 - I think the second Boss is necessary. Although this deck does rely on Crispin, it still needs to Boss a decent amount.
 - Lillie’s Determination is very convenient because there are many spots where you simply play down your hand and then use Lillie to set yourself up for the rest of the game. Of course, it’s also a neutrally good consistency card.
-- A fourth PokePad could be considered. It’s obviously very good.
 - Glass Trumpet enables all sorts of strong plays along with Energy Switch, and is also needed to consistently use Raging Bolt’s attack. It’s possible to get away with playing just one Trumpet, though I would never play fewer than two Energy Switch. Energy Switch is too important every game and I usually use both of them.
 - Tera Orb is mostly for early-game consistency. You could play a fourth Ogerpon, but having too many Pokemon makes this deck very clunky. You’ll always have a chance to play Tera Orb before getting Item-locked anyway. 
 - Air Balloon helps make up for not having Latias on the board since it’s hard to find and usually not a priority when setting up. It’s very handy. This deck likes to pivot around a lot.
 - Unfair Stamp is the Ace Spec of choice because this deck hugely benefits from the draw power of the Stamp in addition to the disruption. Prime Catcher would also be very good though.
 
+### Possible Inclusions
+
+- A fourth PokePad could be considered. It’s obviously very good.
+- Switching option could be considered with a higher prevalence of Yveltal in Dragapult.
+- Chien-Pao could be good as well.
+- A package with Cyrano and Mega Kangaskhan could be ok.
+
 ### Exclusions
 
 - Trimming any extra Pokemon such as the fourth Ogerpon, Iron Leaves, and second Fan Rotom makes the deck less clunky and works pretty well. However, this does make the opening turns a little less consistent. As for Iron Leaves, it’s just not very good.
 - I considered Wellspring Ogerpon and Water Energy but I think that’s doing too much, and at that point just play Tera Box. Wellspring is not as good in this format as it was pre-rotation, I think.
-- Kangaskhan could help with drawing cards, which would be nice, but it’s still hard to find and very annoying to use because you’d also need the Latias. Getting both of those early is basically impossible. I could see potentially playing a version with Cyrano over the Lillie and adding a Kang. I’ll probably try this at some point.
-- Jamming Tower / other Stadiums seem useless. Bumping Area Zero is not very important and usually strictly harmful. I’m not even sure if the third Area Zero is necessary.
+- Jamming Tower / other Stadiums seem useless. Bumping Area Zero is not very important and usually strictly harmful except against Dragapult, but I'd rather have Chien-Pao for that. I’m not even sure if the third Area Zero is necessary.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
@@ -80,8 +85,6 @@ The non-Noctowl build is getting a lot more popularity. I tried it to see if I s
 ## Matchups
 
 ### Dragapult - Favorable
-
-With Clefairy, this matchup is favorable. If you don’t play Clefairy, it’s unfavorable.
 
 - Try to get an early lead attacking with whatever you can. Baby Raging Bolt or Fez are the best early-game attackers, but they can be hard to get under Item lock. I’ve even attacked with Noctowl to KO Budew. If you can only get two Energy on baby Bolt, it can still KO Budew and then Drakloak on the following turn.
 - Best to respond to Dragapult with an immediate Clefairy. If you don’t have Clefairy, you’ll have to respond with Raging Bolt ex, which is a lot harder.
@@ -107,6 +110,41 @@ id: v568uuMMVyM
 title: Blaziken v Bolt 2
 ```
 
+### Raging Bolt Mirror - Even
+
+- This is a straight up prize race matchup. Try to open the aggression when you can get a two-prize KO and leave a single-prize Pokemon in the active until you’re ready to do so. If they have a single-prize Pokemon in the active, it’s fine to KO it with a two-prizer if they also have a Mega in play, as you can go 1-2-3.
+- If they put a Mega in play, you may need Raging Bolt to one-shot it. Sometimes you can go 2-2-2 and ignore it though, depending on how things shake out.
+- If you have the lead, play around Stamp as much as you can and set up efficient attackers like Clefairy and Terapagos. Keeping Fez, Hoothoot, and attackers in play is the best way to maintain a lead.
+- If you’re stuck in a losing prize trade, you’ll have to rely on Stamp scam. Taking out their Fez and Stamping them can make them brick, but then you still have the attacker to deal with that can probably one-shot you (usually Clefairy or Ursaluna). Therefore, you may need to KO their attacker and Stamp, giving them Fez, and hope they whiff.
+
+### Mewtwo - Favorable
+
+- Use Raging Bolt ex to one-shot Mewtwo whenever possible. Otherwise, attack with whatever the situation calls for. Baby Bolt is good but sometimes annoying to use since you’ll need some Fighting/Lightning for the ex. Fan Rotom is an extremely useful and efficient attacker when they have Tarountula/Mimikyu in the active, which is often. Otherwise, Clefairy or Terapagos are good neutrally. Terapagos is generally better because it does not get KO’d by a Bangle Spidops (but still does to Max Belt). Mimikyu copying Tera attacks is completely irrelevant, unless you attack with Ogerpon for some reason, which is not recommended.
+- Putting random Energy in play is good whenever you get the chance. It’s hard for them to power up Mewtwo in one turn, so they’ll often put it on the bench and attach an Energy to it. That’s your cue to go for a Boss-KO on it with Bolt.
+- If they don’t have Mewtwo in play, KO’ing their Mimikyu (sometimes via Baby Bolt snipe) can be very good as it is hard for them to maneuver around. Without a pivot, it’s even more difficult for them to put together a Mewtwo play. That said, most Mewtwo-less boards are attacking with Spidops, so you may just want to KO that depending on the situation.
+
+I did not get any close or interesting games to put here. Only massacres.
+
+### Festival Lead - Unfavorable
+
+- Try to be very fast and aggressive with a single-prize attacker. Baby Raging Bolt is ideal, but Fan Rotom is much easier to use.
+- Stamp + Boss Thwackey is very effective if they don't have Shaymin in play. You can get Thwackey stuck and then snipe around it.
+
+### Alakazam - Very Unfavorable
+
+- Baby Raging Bolt is very good, prioritize attacking with it early. If you can’t, Fan Rotom is also a good fast attacker. Otherwise, just attack with whatever you can for fast pressure. Baby Raging Bolt can also be useful throughout the game.
+- If they have Fez, KO it. If they only have one Dudunsparce/Fez, go for Stamp + Boss KO it and hope they brick. If they have neither, use Stamp immediately and hope they brick.
+
+```youtube
+id: jghIvgnkBmg
+title: Zam v Bolt 1
+```
+
+```youtube
+id: nqv7CF4-1NI
+title: Zam v Bolt 2
+```
+
 ### Lucario - Favorable
 
 - Baby Raging Bolt is extremely helpful. It is a good option to open the aggression and get off to a fast start. It can also be used at other points to fix the prize trade if necessary.
@@ -122,21 +160,6 @@ title: Lucario v Bolt 1
 ```youtube
 id: 3gGYgkVt9Qs
 title: Lucario v Bolt 2
-```
-
-### Alakazam - Very Unfavorable
-
-- Baby Raging Bolt is very good, prioritize attacking with it early. If you can’t, Fan Rotom is also a good fast attacker. Otherwise, just attack with whatever you can for fast pressure. Baby Raging Bolt can also be useful throughout the game.
-- If they have Fez, KO it. If they only have one Dudunsparce/Fez, go for Stamp + Boss KO it and hope they brick. If they have neither, use Stamp immediately and hope they brick.
-
-```youtube
-id: jghIvgnkBmg
-title: Zam v Bolt 1
-```
-
-```youtube
-id: nqv7CF4-1NI
-title: Zam v Bolt 2
 ```
 
 ### Garchomp - Favorable
@@ -173,37 +196,19 @@ id: lvVut6hOcNI
 title: Bolt v Meganium 2
 ```
 
-### Mewtwo - Favorable
+### Crustle - Very Unfavorable
 
-- Use Raging Bolt ex to one-shot Mewtwo whenever possible. Otherwise, attack with whatever the situation calls for. Baby Bolt is good but sometimes annoying to use since you’ll need some Fighting/Lightning for the ex. Fan Rotom is an extremely useful and efficient attacker when they have Tarountula/Mimikyu in the active, which is often. Otherwise, Clefairy or Terapagos are good neutrally. Terapagos is generally better because it does not get KO’d by a Bangle Spidops (but still does to Max Belt). Mimikyu copying Tera attacks is completely irrelevant, unless you attack with Ogerpon for some reason, which is not recommended.
-- Putting random Energy in play is good whenever you get the chance. It’s hard for them to power up Mewtwo in one turn, so they’ll often put it on the bench and attach an Energy to it. That’s your cue to go for a Boss-KO on it with Bolt.
-- If they don’t have Mewtwo in play, KO’ing their Mimikyu (sometimes via Baby Bolt snipe) can be very good as it is hard for them to maneuver around. Without a pivot, it’s even more difficult for them to put together a Mewtwo play. That said, most Mewtwo-less boards are attacking with Spidops, so you may just want to KO that depending on the situation.
-
-I did not get any close or interesting games to put here. Only massacres.
-
-### Slop Box / Absol - Slightly Unfavorable
-
-- This is a straight up prize race matchup. Try to open the aggression when you can get a two-prize KO and leave a single-prize Pokemon in the active until you’re ready to do so. If they have a single-prize Pokemon in the active, it’s fine to KO it with a two-prizer if they also have a Mega in play, as you can go 1-2-3.
-- If they put a Mega in play, you may need Raging Bolt to one-shot it. Sometimes you can go 2-2-2 and ignore it though, depending on how things shake out.
-- If you have the lead, play around Stamp as much as you can and set up efficient attackers like Clefairy and Terapagos. Keeping Fez, Hoothoot, and attackers in play is the best way to maintain a lead.
-- If you’re stuck in a losing prize trade, you’ll have to rely on Stamp scam. Taking out their Fez and Stamping them can make them brick, but then you still have the attacker to deal with that can probably one-shot you (usually Clefairy or Ursaluna). Therefore, you may need to KO their attacker and Stamp, giving them Fez, and hope they whiff.
-- In the early-game, keep a somewhat small bench and don’t put down Pokemon that can easily be KO’d by Clefairy, such as Raging Bolt ex or your own Clefairy. It’s hard for them to get a two-prize KO in the early-game if they cannot do so with Clefairy.
+- Fan Rotom can be used for fast pressure, but most of the time you’ll be trying to power up baby Bolt as fast as possible. It’s possible to win with baby Bolt. Use Boss to stall and snipe to pressure their Energy. Stamp is also very good to make them brick. If they KO baby Bolt, get it back and power it up with Energy Switch / Crispin.
 
 ```youtube
-id: Ljy0_-rv0pM
-title: Bolt v Absol 1
+id: BK_19n-ZiI0
+title: Crustle v Bolt 1
 ```
 
 ```youtube
-id: TPHTpIWAvpE
-title: Bolt v Absol 2
+id: ovX7LmYRiqY
+title: Crustle v Bolt 2
 ```
-
-### Raging Bolt Mirror - Even
-
-- This is similar to the Absol/Tera Box/slopbox matchup. Don’t leave 70 HP Pokemon in the active to feed Fan Rotom.
-- Taking a single-prize KO to apply fast pressure isn’t always bad. If you do, you can KO Hoothoot with Fan Rotom later to potentially swing a prize trade back into your favor. If you end up having to do this, try to use Stamp on the same turn to stop a Boss response.
-- Playing with the lead and without it are basically the same as above.
 
 ### Zoroark - Even
 
@@ -220,20 +225,6 @@ title: Bolt v Zoroark 1
 ```youtube
 id: iLIy5jBXhcw
 title: Bolt v Zoroark 2
-```
-
-### Crustle - Very Unfavorable
-
-- Fan Rotom can be used for fast pressure, but most of the time you’ll be trying to power up baby Bolt as fast as possible. It’s possible to win with baby Bolt. Use Boss to stall and snipe to pressure their Energy. Stamp is also very good to make them brick. If they KO baby Bolt, get it back and power it up with Energy Switch / Crispin.
-
-```youtube
-id: BK_19n-ZiI0
-title: Crustle v Bolt 1
-```
-
-```youtube
-id: ovX7LmYRiqY
-title: Crustle v Bolt 2
 ```
 
 ### Ogerpon - Depends
@@ -255,6 +246,24 @@ id: WH8m4IA1vOc
 title: Ogerpon v Raging Bolt 2
 ```
 
+### Slop Box - Slightly Unfavorable
+
+- This is a straight up prize race matchup. Try to open the aggression when you can get a two-prize KO and leave a single-prize Pokemon in the active until you’re ready to do so. If they have a single-prize Pokemon in the active, it’s fine to KO it with a two-prizer if they also have a Mega in play, as you can go 1-2-3.
+- If they put a Mega in play, you may need Raging Bolt to one-shot it. Sometimes you can go 2-2-2 and ignore it though, depending on how things shake out.
+- If you have the lead, play around Stamp as much as you can and set up efficient attackers like Clefairy and Terapagos. Keeping Fez, Hoothoot, and attackers in play is the best way to maintain a lead.
+- If you’re stuck in a losing prize trade, you’ll have to rely on Stamp scam. Taking out their Fez and Stamping them can make them brick, but then you still have the attacker to deal with that can probably one-shot you (usually Clefairy or Ursaluna). Therefore, you may need to KO their attacker and Stamp, giving them Fez, and hope they whiff.
+- In the early-game, keep a somewhat small bench and don’t put down Pokemon that can easily be KO’d by Clefairy, such as Raging Bolt ex or your own Clefairy. It’s hard for them to get a two-prize KO in the early-game if they cannot do so with Clefairy.
+
+```youtube
+id: Ljy0_-rv0pM
+title: Bolt v Absol 1
+```
+
+```youtube
+id: TPHTpIWAvpE
+title: Bolt v Absol 2
+```
+
 ## Personal Thoughts
 
-This deck is fine but it does have a lot of games that make you question life. Being one of the few decks good into Dragapult and Lucario is pretty nice, and it’s fundamentally a decent deck so it can hold its own against most other stuff.
+This deck is fine but it does have a lot of games that make you question life and sucks against single-prize decks. Being one of the few decks good into Dragapult is pretty nice, and it’s fundamentally a decent deck so it can hold its own against most other stuff.

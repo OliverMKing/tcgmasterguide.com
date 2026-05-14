@@ -49,14 +49,20 @@ Energy: 11
 - Brave Bangle is very good with Spidops and hits tons of relevant numbers. One-shotting 210 HP two-prizers and more easily two-shotting Lucario are both great. I tried with just Maximum Belt and found that it was not really enough as far as damage mods.
 - Maximum Belt is the Ace Spec because it lets Mewtwo hit for 330 and Spidops to hit for up to 230. These numbers are very relevant for helping Mewtwo keep up in the metagame.
 
-### Exclusions
+### Possible Inclusions
 
 - Second Mimikyu is unnecessary and it’s sometimes a liability. However, that or the Rocket’s Kangaskhan could be considered to help against Cornerstone, should it become meta-relevant.
-- Poke Pad was very underwhelming when testing with it.
-- Psychic Energy was never really needed, and it doesn’t mesh well with Bug Catching Set. However, the two Energy Switch are a bit worse with no Psychic Energy.
 - Other random Rocket Pokemon such as Wobbuffet, Sneasel, and Murkrow/Honchkrow have only fringe use cases. Smacking with Spidops is sufficient for the most part. However, having these Pokemon around can still help Spidops do more damage, so the flexibility of other situational attackers isn’t necessarily bad. I haven’t tried them much though.
 - Playing Poffin over a Proton and Bug Catching Set is also a consideration. Tweaking the Bug Catching Set and Grass Energy counts also requires some adjustment with Psychic Energy and Poke Pad, and it’s hard to find the perfect balance. Proton’s existence also makes me question if Poffin is even worth playing, but it definitely can be useful in games where you don’t have Proton and start with Lillie/Ariana instead.
-- Sacred Ash could be ok for chaining Spidops. However Stretcher is mostly better because it's hard to find the Pokemon out of the deck. Most games also end before you really need the Sacred Ash.
+- Lucky Helmet could be good for consistency and helping against Unfair Stamp.
+
+### Exclusions
+
+- Poke Pad was very underwhelming when testing with it.
+- Secret Box is a consideration for consistency, especially if you play Tools, but I still think Maximum Belt is necessary in the current meta.
+- Handheld Fan is a decent tech for Festival Lead, but I am sketched out by it since some of them play Tool Scrapper.
+- Psychic Energy was never really needed, and it doesn’t mesh well with Bug Catching Set. However, the two Energy Switch are a bit worse with no Psychic Energy.
+- Sacred Ash could be ok for chaining Spidops. However Stretcher is mostly better because it's hard to find the Pokemon out of the deck. Most games also end before you really need the Sacred Ash. I much prefer Stretcher.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
@@ -106,6 +112,40 @@ id: bwkleD_as9E
 title: Blaziken v Mewtwo 2
 ```
 
+### Raging Bolt - Slightly Unfavorable
+
+- Powering up Mewtwo on the bench might be safe in the early-game. Later, or if they have a strong board, try to delay Mewtwo until you can charge it in one turn via Energy Switch. Otherwise, it will get Boss-KO’d. Clefairy can help Mewtwo one-shot Bolt, and that also should not be put into play until absolutely necessary.
+- Spidops can be a very good attacker that trades well into most things that they have. You’ll need Bangle or Max Belt to get a relevant one-shot with Spidops.
+- Putting Mimikyu in play is very good as it can be used as a pivot to help make Mewtwo in one turn. If you don’t have Mewtwo, you’ll want to attack with Spidops to maintain tempo. Attacking Spidops can also be used as a pivot if they don’t KO it.
+
+I did not get any close or interesting games to put here. Only massacres.
+
+### Mewtwo Mirror - Even
+
+- Try to get a fast lead with Spidops or Mewtwo. With Spidops is easier, but Mewtwo is often better if you can get it just as quickly. Getting any value from Mewtwo before they can one-shot it is good.
+- You’ll have to use Mewtwo at some point anyway because you’ll run out of Spidops if you only use that. We want to use Mewtwo when it’s less likely for the opponent to one-shot our Mewtwo back. Can also attack with Mewtwo along with Archer for disruption or with Giovanni to KO their Mewtwo. Attacking with Mewtwo when they can obviously one-shot it back is bad.
+- Mewtwo needs two Energy on the bench to one-shot each other, which makes the damage mods irrelevant. Therefore, it’s best to attack with Mewtwo when they don’t have extra Energy/Spidops, which is typically earlier rather than later. We also want to be able to one-shot their Mewtwo when the opportunity arise.
+- Two shotting their Mewtwo is fine unless you’re far behind.
+- Articuno can have uses against Wobbuffet or Murkrow, if they play those.
+
+### Festival Lead - Very Unfavorable
+
+- Get as many Tarountula and Spidops as possible. KO Dipplin.
+- Archer is best when they don’t have a backup Dipplin. Bumping their Stadium is best in the early-game or when using Archer.
+- Mewtwo can sometimes be used in the early-game as they might not be able to get the KO on it right away. Using it when they’re stabilized is a bad idea, except if you get Archer + Stadium they might not be able to get all the pieces to KO it.
+
+```youtube
+id: YT4891TzjBk
+title: Festival v Mewtwo 1
+```
+
+### Alakazam - Very Favorable
+
+- Try to keep Articuno on the bench at all times. Getting both of them is fine. Attack with Mewtwo. It’s basically impossible to lose unless you brick, and even then you might still win.
+- Powering up a second Mewtwo is also good in case they have a tech like the other Alakazam, which can two-shot a Mewtwo. Spidops can also one-shot the bad Zam, but it can be return KO’d, so Mewtwo is better if it’s available. If they play Dudunsparce ex, don’t put the second Mewtwo down, as they can then one-shot Articuno.
+- When choosing to attach Grass or Rocket Energy to Mewtwo first, attaching Grass first is better. They play Enhanced Hammer (and it also takes less damage to bad Zam).
+- If they KO a Mewtwo with bad Zam and you can KO it back with another Mewtwo, try to use Archer to stop them from chaining bad Zam.
+
 ### Lucario - Favorable
 
 - Mewtwo is the best attacker because it one-shots Lucario and is somewhat hard for them to kill.
@@ -122,13 +162,6 @@ title: Lucario v Mewtwo 1
 id: NlCBLjsG3ic
 title: Lucario v Mewtwo 2
 ```
-
-### Alakazam - Very Favorable
-
-- Try to keep Articuno on the bench at all times. Getting both of them is fine. Attack with Mewtwo. It’s basically impossible to lose unless you brick, and even then you might still win.
-- Powering up a second Mewtwo is also good in case they have a tech like the other Alakazam, which can two-shot a Mewtwo. Spidops can also one-shot the bad Zam, but it can be return KO’d, so Mewtwo is better if it’s available. If they play Dudunsparce ex, don’t put the second Mewtwo down, as they can then one-shot Articuno.
-- When choosing to attach Grass or Rocket Energy to Mewtwo first, attaching Grass first is better. They play Enhanced Hammer (and it also takes less damage to bad Zam).
-- If they KO a Mewtwo with bad Zam and you can KO it back with another Mewtwo, try to use Archer to stop them from chaining bad Zam.
 
 ### Garchomp - Favorable
 
@@ -168,60 +201,6 @@ id: Txu0iMcxAKA
 title: Mewtwo v Meganium 2
 ```
 
-### Raging Bolt - Unfavorable
-
-- Powering up Mewtwo on the bench might be safe in the early-game. Later, or if they have a strong board, try to delay Mewtwo until you can charge it in one turn via Energy Switch. Otherwise, it will get Boss-KO’d. Clefairy can help Mewtwo one-shot Bolt, and that also should not be put into play until absolutely necessary.
-- Spidops can be a very good attacker that trades well into most things that they have. You’ll need Bangle or Max Belt to get a relevant one-shot with Spidops.
-- Putting Mimikyu in play is very good as it can be used as a pivot to help make Mewtwo in one turn. If you don’t have Mewtwo, you’ll want to attack with Spidops to maintain tempo. Attacking Spidops can also be used as a pivot if they don’t KO it.
-
-I did not get any close or interesting games to put here. Only massacres.
-
-### Festival Lead - Very Unfavorable
-
-- Get as many Tarountula and Spidops as possible. KO Dipplin.
-- Archer is best when they don’t have a backup Dipplin. Bumping their Stadium is best in the early-game or when using Archer.
-- Mewtwo can sometimes be used in the early-game as they might not be able to get the KO on it right away. Using it when they’re stabilized is a bad idea, except if you get Archer + Stadium they might not be able to get all the pieces to KO it.
-
-```youtube
-id: YT4891TzjBk
-title: Festival v Mewtwo 1
-```
-
-### Mewtwo Mirror - Even
-
-- Try to get a fast lead with Spidops or Mewtwo. With Spidops is easier, but Mewtwo is often better if you can get it just as quickly. Getting any value from Mewtwo before they can one-shot it is good.
-- You’ll have to use Mewtwo at some point anyway because you’ll run out of Spidops if you only use that. We want to use Mewtwo when it’s less likely for the opponent to one-shot our Mewtwo back. Can also attack with Mewtwo along with Archer for disruption or with Giovanni to KO their Mewtwo. Attacking with Mewtwo when they can obviously one-shot it back is bad.
-- Mewtwo needs two Energy on the bench to one-shot each other, which makes the damage mods irrelevant. Therefore, it’s best to attack with Mewtwo when they don’t have extra Energy/Spidops, which is typically earlier rather than later. We also want to be able to one-shot their Mewtwo when the opportunity arise.
-- Two shotting their Mewtwo is fine unless you’re far behind.
-- Articuno can have uses against Wobbuffet or Murkrow, if they play those.
-
-### Slop Box / Absol - Even
-
-This matchup could be slightly favored one way or the other, but I couldn’t really tell, so I think it’s close enough to even.
-
-- Smacking into their Kang is not ideal, as we don’t want to give them Adrenabrain damage. Waiting a turn to gust or one-shot with Mewtwo Max Belt is preferred. There are some situations where hitting the Kang is still correct, such as if we need to apply pressure, have nothing else going on, or if they have a weak board/start. That said, the main way to lose this matchup is by giving them Adrenabrain damage, so it is risky.
-- Use Spidops for gust KO’s. Also can use it to KO Absol or Clefairy (with Bangle/Max Belt) should they choose to attack with either of those. Otherwise, use Mewtwo.
-- Mewtwo is generally good because it’s very hard for them to KO. If they use Absol to do so, we trade into it favorably with Spidops.
-- Don’t put a fifth Pokemon on your bench so that Clefairy with Area Zero cannot one-shot Mewtwo. This can also apply to a fourth Pokemon if they have Adrenabrain damage, but that is much harder to avoid. Easier to not give them Adrenabrain damage.
-
-I forgot to record the games I tested of this matchup, sorry about that.
-
-### Zoroark - Favorable
-
-- Mewtwo is obviously very bad in this matchup. I wouldn’t put it down unless you absolutely need it for Spidops damage. Spidops easily one-shots everything, so spam it.
-- Your main lose condition is bricking off Stamp. There isn’t that much you can do about it. Don’t use draw Supporters if you don’t have to, and thin out any other cards whenever you can get a chance. Try to burn non-draw Trainer cards and establish as much Spidops/Energy/random single-prize Pokemon as possible.
-- Darmanitan with Mochi lets them take a double KO. If you have a chance to snipe off Darm with Giovanni, sometimes it is worth it.
-
-```youtube
-id: MHPP4lIZYY0
-title: Mewtwo v Zoroark 1
-```
-
-```youtube
-id: AqDycXcIsq0
-title: Mewtwo v Zoroark 2
-```
-
 ### Crustle - Depends
 
 If they play Cornerstone and adequate support for it, the matchup is slightly unfavorable, so I’ll be going over that one. If they don’t have Cornerstone, it’s a free win.
@@ -238,6 +217,22 @@ title: Crustle v Mewtwo 1
 ```youtube
 id: 9R29o4idU1o
 title: Crustle v Mewtwo 2
+```
+
+### Zoroark - Favorable
+
+- Mewtwo is obviously very bad in this matchup. I wouldn’t put it down unless you absolutely need it for Spidops damage. Spidops easily one-shots everything, so spam it.
+- Your main lose condition is bricking off Stamp. There isn’t that much you can do about it. Don’t use draw Supporters if you don’t have to, and thin out any other cards whenever you can get a chance. Try to burn non-draw Trainer cards and establish as much Spidops/Energy/random single-prize Pokemon as possible.
+- Darmanitan with Mochi lets them take a double KO. If you have a chance to snipe off Darm with Giovanni, sometimes it is worth it.
+
+```youtube
+id: MHPP4lIZYY0
+title: Mewtwo v Zoroark 1
+```
+
+```youtube
+id: AqDycXcIsq0
+title: Mewtwo v Zoroark 2
 ```
 
 ### Ogerpon - Slightly Favorable
@@ -258,6 +253,15 @@ id: Q0ck8sVaKG4
 title: Ogerpon v Mewtwo 2
 ```
 
+### Slop Box - Even
+
+This matchup could be slightly favored one way or the other, but I couldn’t really tell, so I think it’s close enough to even.
+
+- Smacking into their Kang is not ideal, as we don’t want to give them Adrenabrain damage. Waiting a turn to gust or one-shot with Mewtwo Max Belt is preferred. There are some situations where hitting the Kang is still correct, such as if we need to apply pressure, have nothing else going on, or if they have a weak board/start. That said, the main way to lose this matchup is by giving them Adrenabrain damage, so it is risky.
+- Use Spidops for gust KO’s. Also can use it to KO Absol or Clefairy (with Bangle/Max Belt) should they choose to attack with either of those. Otherwise, use Mewtwo.
+- Mewtwo is generally good because it’s very hard for them to KO. If they use Absol to do so, we trade into it favorably with Spidops.
+- Don’t put a fifth Pokemon on your bench so that Clefairy with Area Zero cannot one-shot Mewtwo. This can also apply to a fourth Pokemon if they have Adrenabrain damage, but that is much harder to avoid. Easier to not give them Adrenabrain damage.
+
 ## Personal Thoughts
 
-Don’t be deceived by the acceptable-looking matchup spread. This deck is truly bad.
+This deck is just terrible.

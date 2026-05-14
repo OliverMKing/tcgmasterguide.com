@@ -45,6 +45,10 @@ Energy: 18
 - Maxing out Tera Orb and Bug Catching Set makes sense because this deck’s entire engine revolves around Teal Dance, which is sufficient for winning games.
 - Unfair Stamp is my Ace Spec of choice because the card is way too good and is the most reliable means of swinging back the prize trade. I tried Legacy Energy and it was completely useless. Stamp isn’t necessary for the deck to function but the other Ace Specs don’t seem very appealing. Boss + Unfair Stamp is also extremely strong in this format.
 
+### Possible Inclusions
+
+- Passimian could be a good tech for Lopunny and Crustle.
+
 ### Exclusions
 
 - I did not find Latias or Kangaskhan to be very good in this version of this deck. Spamming Teal Dance gets you where you need to go, and without reliable Cyrano usage, the Kang + Latias combo is not as good. I also think those cards are just too slow for an aggro deck like this. I tested and happily cut them for a more streamlined approach. Cyrano itself is ok but Lillie is just better. Without Latias and Kang, Cyrano is not really necessary.
@@ -88,60 +92,6 @@ id: K9E4AWBJng4
 title: Ogerpon v Pult 3
 ```
 
-### Lucario - Favorable
-
-- Wellspring is very good in this matchup. If they have Solrock or Lunatone active, Sob into Torrential Pump is an easy two prizes. Of course, if they have Riolu or Makuhita active, or if you can use Boss for two prizes right away, that’s better. You can also Boss to use Sob on Lunatone/Solrock if you don’t have a more powerful play available yet.
-- Wellspring can also be a good response to an attacking Hariyama since it does 70 damage to itself. Teal Mask Ogerpon is more of a placeholder attacker if you can’t do anything else. Ideally, you’ll be using Clefairy or Wellspring for big plays.
-- Area Zero is a very important resource in this matchup. They can keep Lucario out of Clefairy KO range, so you’ll need Area Zero to get the one-shot. Don’t put it down preemptively or it might get bumped. Play it when you need to reach for the KO on Lucario.
-
-```youtube
-id: FEY-EhVbP6o
-title: Ogerpon v Lucario 1
-```
-
-```youtube
-id: Q_P_hE7aCWE
-title: Ogerpon v Lucario 2
-```
-
-### Alakazam - Very Unfavorable
-
-- Your only chance is to cheese them with Wellspring before they get Shaymin in play.
-- Stamp + KO their draw support on board, or Stamp when they have no draw support on board.
-
-### Garchomp - Favorable
-
-- Wellspring is very good in this matchup. Use it to apply fast pressure. If you can’t, try to at least get a fast KO with something else. If they evolve into Roserade, you can Sob it to set up a two-prize play if needed.
-- Try to spawn trap their Energy in the early-game so they cannot build up Energy in play. If they use Power Weight protect their Gible/Gabite with Energy, using Boss to KO it with Teal Mask is fine. Of course, if there’s a two-prize play available with Wellspring, that can be better.
-- Teal Mask with enough Energy can one-shot even a Weighted Garchomp. If you don’t have enough Energy, try to find something more efficient to do besides just smacking into it.
-- Iron Leaves is an efficient way to one-shot a non-Weighted Garchomp.
-
-```youtube
-id: mk-e0LvwOls
-title: Ogerpon v Garchomp 1
-```
-
-```youtube
-id: 1pVKyVlZlzQ
-title: Ogerpon v Garchomp 2
-```
-
-### Meganium - Favorable
-
-- As expected, Moltres is extremely good in this matchup. It can be used to initiate or to swing the prize trade back.
-- If the opportunity presents itself for Wellspring to get two-prizes, it can be a great chance to remove Hoothoot from their board. Noctowl is threatening because it can find Briar or consecutive Bosses to get around Moltres.
-- Try not to leave Energy on your active two-prize Pokemon until you’re ready to initiate. Although we do have Moltres, we still want to engage in a winning 2-2-2 prize race. If you have Energy on your active, it’s easier for them to get the first KO. The exception of course is if you’re using Sob to stop them from initiating. This is somewhat rare and only works on fully evolved Pokemon or liabilities like Fezandipiti, but it is very good in those cases.
-
-```youtube
-id: NqIuI3DuDVI
-title: Ogerpon v Meganium 1
-```
-
-```youtube
-id: OILBoOI06cM
-title: Ogerpon v Meganium 2
-```
-
 ### Raging Bolt - Favorable
 
 - Once again, this matchup is quite good thanks to Moltres. You’ll usually need to combo it with Boss to snipe off an Ogerpon. Bonus points if you can get Stamp at the same time.
@@ -176,14 +126,68 @@ id: Q0ck8sVaKG4
 title: Ogerpon v Mewtwo 2
 ```
 
-### Zoroark - Favorable
+### Alakazam and Festival Lead - Very Unfavorable
 
-- Pressure them in the early-game with Wellspring or Fezandipti. If you can’t, at least get a KO with any means possible. You can also use Sob in the early-game to set up a strong play, but they can get out of it with Pecharunt, so it’s not very reliable and I would rather get a KO. 
-- Once you’ve got the first two prizes, you can win the trade normally. If you don’t, it is possible to lose the trade. Target Zoroark with Energy given the choice, and maybe Unfair Stamp can make them whiff a turn.
+- Your only chance is to cheese them with Wellspring before they get Shaymin in play.
+- Stamp + KO their draw support on board, or Stamp when they have no draw support on board.
+
+### Lucario - Favorable
+
+- Wellspring is very good in this matchup. If they have Solrock or Lunatone active, Sob into Torrential Pump is an easy two prizes. Of course, if they have Riolu or Makuhita active, or if you can use Boss for two prizes right away, that’s better. You can also Boss to use Sob on Lunatone/Solrock if you don’t have a more powerful play available yet.
+- Wellspring can also be a good response to an attacking Hariyama since it does 70 damage to itself. Teal Mask Ogerpon is more of a placeholder attacker if you can’t do anything else. Ideally, you’ll be using Clefairy or Wellspring for big plays.
+- Area Zero is a very important resource in this matchup. They can keep Lucario out of Clefairy KO range, so you’ll need Area Zero to get the one-shot. Don’t put it down preemptively or it might get bumped. Play it when you need to reach for the KO on Lucario.
+
+```youtube
+id: FEY-EhVbP6o
+title: Ogerpon v Lucario 1
+```
+
+```youtube
+id: Q_P_hE7aCWE
+title: Ogerpon v Lucario 2
+```
+
+### Garchomp - Favorable
+
+- Wellspring is very good in this matchup. Use it to apply fast pressure. If you can’t, try to at least get a fast KO with something else. If they evolve into Roserade, you can Sob it to set up a two-prize play if needed.
+- Try to spawn trap their Energy in the early-game so they cannot build up Energy in play. If they use Power Weight protect their Gible/Gabite with Energy, using Boss to KO it with Teal Mask is fine. Of course, if there’s a two-prize play available with Wellspring, that can be better.
+- Teal Mask with enough Energy can one-shot even a Weighted Garchomp. If you don’t have enough Energy, try to find something more efficient to do besides just smacking into it.
+- Iron Leaves is an efficient way to one-shot a non-Weighted Garchomp.
+
+```youtube
+id: mk-e0LvwOls
+title: Ogerpon v Garchomp 1
+```
+
+```youtube
+id: 1pVKyVlZlzQ
+title: Ogerpon v Garchomp 2
+```
+
+### Meganium - Favorable
+
+- As expected, Moltres is extremely good in this matchup. It can be used to initiate or to swing the prize trade back.
+- If the opportunity presents itself for Wellspring to get two-prizes, it can be a great chance to remove Hoothoot from their board. Noctowl is threatening because it can find Briar or consecutive Bosses to get around Moltres.
+- Try not to leave Energy on your active two-prize Pokemon until you’re ready to initiate. Although we do have Moltres, we still want to engage in a winning 2-2-2 prize race. If you have Energy on your active, it’s easier for them to get the first KO. The exception of course is if you’re using Sob to stop them from initiating. This is somewhat rare and only works on fully evolved Pokemon or liabilities like Fezandipiti, but it is very good in those cases.
+
+```youtube
+id: NqIuI3DuDVI
+title: Ogerpon v Meganium 1
+```
+
+```youtube
+id: OILBoOI06cM
+title: Ogerpon v Meganium 2
+```
 
 ### Crustle - Auto-Loss
 
 - There is literally nothing you can do once they get a Crustle in play, so do everything you can to stop that from happening (it’s basically impossible).
+
+### Zoroark - Favorable
+
+- Pressure them in the early-game with Wellspring or Fezandipti. If you can’t, at least get a KO with any means possible. You can also use Sob in the early-game to set up a strong play, but they can get out of it with Pecharunt, so it’s not very reliable and I would rather get a KO. 
+- Once you’ve got the first two prizes, you can win the trade normally. If you don’t, it is possible to lose the trade. Target Zoroark with Energy given the choice, and maybe Unfair Stamp can make them whiff a turn.
 
 ### Ogerpon Mirror / other Slop Box - Favorable
 

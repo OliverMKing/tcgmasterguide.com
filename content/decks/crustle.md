@@ -1,7 +1,7 @@
 ---
 title: Crustle
 pokemon: [558]
-tier: 1
+tier: 2
 format: Standard
 ---
 ## Decklist
@@ -41,18 +41,23 @@ Energy: 15
 ### Inclusions
 
 - Munkidori is very strong against anything that cannot easily one-shot your attacker. Particularly Dragapult, Mewtwo, or anything with their own Munkidori. It has natural synergy with Crispin and Crustle by helping to keep it alive.
-- Psyduck is needed for Dusknoir. Although I don’t have Psyduck in a lot of my other decks because Dusknoir is a fraud, it’s too easy to include in this one. This is also the deck that has a big difference against the Dusknoir build of Dragapult as opposed to the non-Dusknoir one. That said, it’s definitely cuttable depending how the meta shapes up.
-- Cornerstone Ogerpon single-handedly saves the Mewtwo and Festival Lead matchups. For most other decks I don’t want to tech for random decks. For Crustle it is different because Crustle is not a fundamentally good deck and only gets wins by countering other decks, so it makes more sense to counter as many decks as possible.
+- Psyduck is needed for Dusknoir.
+- Cornerstone Ogerpon single-handedly saves the Mewtwo and Festival Lead matchups.
 - Boss is very good in this deck because most decks only have a few answers to Crustle. Boss allows us to pick them off before they can get value, allowing for easy wins. There are many examples where Boss is actually relevant for winning the game: Duskull, Meganium, Team Rocket’s Mimikyu, etc. I would not play fewer than four!
 - Crispin is included because this deck is way too slow with Energy attachments and desperately needs the help.
 - Morty’s Conviction is a mid draw Supporter but there aren’t really any better options and Crustle needs a lot of help with seeing cards.
 - Hilda is rather weak most of the time but can be good for finding specific Energy types. It’s mostly included because it improves the Alakazam matchup while also being a fairly functional card in general.
 - Team Rocket’s Petrel is also pretty weak but it is very important in the situations where you need it. Searching Cape, Ice Cream, or Stretcher at key times is game-winning. It also is key for the Mewtwo matchup as a way to find Cornerstone Ogerpon via Ultra Ball, and searching for Poffin early is nice as well.
-- Most of the Item cards are pretty self-explanatory. I play two Ultra Ball because it is a lot harder to find the Cornerstone with just one. Although this is only relevant in one matchup, Ultra Ball is still useful in general and discarding cards isn’t that bad for this deck. Of course, if you cut Cornerstone, the deck would just play another PokePad and no Ultra Ball, which would be nice.
+- Most of the Item cards are pretty self-explanatory. I play two Ultra Ball because it is a lot harder to find the Cornerstone with just one. Although this is only relevant in two matchups, Ultra Ball is still useful in general and discarding cards isn’t that bad for this deck.
 - Hero’s Cape is the only viable Ace Spec for this deck because it’s actually pretty hard to keep Crustle alive.
 - Spiky Energy is very good against lots of Pokemon: Meganium, Dusknoir, baby Raging Bolt, Rocket stuff, and Zoroark to name a few.
 - Four Mist Energy is required for Alakazam and very nice against Dragapult as well.
 - If it weren’t for Crispin, we could probably get away with two Dark and two Grass, but Crispin is very important and powerful, and we often rely on it being live for Energy acceleration.
+
+### Possible Inclusions
+
+- Sacred Charm is a consideration as it would help against the close matchups by reducing relevant damage from Drakloak, Dusknoir, or Dudunsparce.
+- Forest of Vitality could be a decent inclusion. It does not seem powerful enough to warrant the space but I haven't tried it.
 
 ### Exclusions
 
@@ -60,8 +65,6 @@ Energy: 15
 - Playing the non-Crispin build makes the deck unnecessarily vulnerable to random matchups (Garchomp, Mewtwo, etc.) that are able to pressure your Energy drops. It is too slow and can potentially lose to matchups that should be easy wins.
 - Some lists play the baby Fezandipiti to counter Hariyama. I am skeptical that this actually works but I haven’t tried it. I think I would rather just play Psychic Energy and KO the Hariyama with Mind Bend, but the matchup is probably bad no matter what.
 - Growing Energy and extra healing cards aren't necessary, but they do make the deck better in the mirror match.
-- Sacred Charm is a consideration as it would help against the close matchups by reducing relevant damage from Drakloak, Dusknoir, or Dudunsparce.
-- Forest of Vitality could be a decent inclusion. It does not seem powerful enough to warrant the space but I haven't tried it.
 - I don't think Xerosic's Machinations or Eri do anything that we need.
 <!-- /PUBLIC -->
 ## Gameplay Tips
@@ -75,11 +78,9 @@ Energy: 15
 
 ## Matchups
 
-Some of these are fairly straightforward and polarized due to the anti-meta nature of Crustle, so there isn’t much to say about some of these matchups.
-
 ### Dragapult - Depends
 
-Against the Dusknoir version, this matchup is about 50-50 or maybe slightly unfavorable, so I’ll just be going over that one. Against non-Dusknoir, it’s free, so it probably doesn’t matter how you play. The reverse is true against Dudunsparce, where it's basically impossible to win even if you play perfectly.
+Most Dragapult decks probably won't be teching for Crustle at the moment, so it really depends what build we're up against. If they have Dudunsparce ex, we are so cooked. If they are playing Dusknoir, the matchup is fairly close (about even or slightly unfavorable). Against all other builds, the matchup is very favorable. Of course, if they do have a tech like Paldean Tauros, we have basically no chance.
 
 - Psyduck is pretty much always good if they have Duskull in play because a lot of them play Rare Candy now, so the Dusknoir threat is always there. Try to keep Psyduck in play by using Night Stretcher if it gets KO’d and protecting it with Mist Energy.
 - Munkidori is very good due to the residual damage that adds up. It is often used to heal Psyduck and can pressure Duskull.
@@ -96,62 +97,11 @@ id: NvqJhv7tq-Y
 title: Crustle v Pultnoir 2
 ```
 
-### Lucario - Very Unfavorable
-
-- Try to get Cape on Crustle and Boss smack Makuhita/Hariyama whenever possible, especially when they Aura Jab onto it.
-- Don’t put down one Dwebble at a time as it will just get KO’d. Try to put down two at once so that one can become a Crustle.
-
-```youtube
-id: qD3lvE40LAM
-title: Crustle v Lucario 1
-```
-
-### Alakazam - Depends
-
-This matchup is about even if they play two Enhanched Hammer, or maybe slightly unfavorable. Any more Hammers than that is probably a loss and fewer is a free win. This matchup is unfavorable if they have Dudunsparce ex or bad Zam.
-
-- Our win condition is to stick an attacker with Mist Energy and outlast their Enhanced Hammers. Use Lillie and Morty first to try and find the initial Mist Energy or two, and then use Hilda to find one or two.
-- Crustles are actually resources because you’ll need to be able to threaten attackers with Mist. Don’t evolve into them just to send them to the slaughter. Cornerstone Ogerpon can also be used for this purpose. 
-- Using Cornerstone as the final Pokemon with Mist is the win condition if they have a tech like Dudunsparce ex or bad Zam, as it can outlast them with Ice Creams.
-- Similarly, Ice Creams and Cape are also resources that you’ll need for the late-game. Even if you aren’t using Cornerstone and they don’t have techs, you’ll still have to contend with an attacking Dudunsparce, which they can use to two-shot your final Crustle.
-- Whenever you don’t have Mist for the turn, spread out random Energy among different Dwebble/Crustle. You’ll want to be able to respond to Dudunsparce in the late-game. Spiky Energy can also be good for that, since Spiky plus 120 one-shots Dudunsparce.
-
-```youtube
-id: KfDqsPaSWZo
-title: Crustle v Zam 1
-```
-
-```youtube
-id: 0Cw8pFTfpZE
-title: Crustle v Zam 2
-```
-
-### Meganium - Favorable
-
-- Double Spiky Energy on Crustle (or one plus a Munkidori) allows you to effectively one-shot Meganium.
-- Boss on Meganium pieces to smack for 120 is extremely strong.
-- Don’t forget that random stuff like Noctowl and Dolliv can smack for some damage for one Energy.
-- Just get as many Crustle with Energy as possible and you’ll probably win without thinking too much.
-
-```youtube
-id: ioVZ82Db7Gw
-title: Crustle v Meg 1
-```
-
-### Garchomp - Favorable
-
-- Do not attack their Garchomp or they will wreck you with Spiritomb.
-- Try to get undamaged Crustles set up. If they smack with triple Roserade, use two Ice Cream (or one with Cape). If you only have one Ice Cream, it might be a waste to use it depending on the math.
-
-```youtube
-id: JxbWBGACztg
-title: Crustle v Garchomp 1
-```
-
 ### Raging Bolt - Very Favorable
 
 - This matchup is straightforward just like many others. Just set up multiple Crustle as normal.
 - Baby Raging Bolt is actually a relevant threat. If they have it on the bench, use Boss to pressure it if possible. They can also use Fan Rotom for fast pressure. You need to set up an undamaged Crustle (on the bench if necessary).
+- The non-Noctowl build sometimes includes Passimian, which is a threat. Try to get Hero's Cape on your main attacking Crustle so that it can survive a Passimian hit and one-shot in return. You don't want to commit all of your Energy to one Crustle only to be swept by a Passimian, so try to spread out your Energy at the start (or just use Hero's Cape).
 
 ```youtube
 id: BK_19n-ZiI0
@@ -161,30 +111,6 @@ title: Crustle v Bolt 1
 ```youtube
 id: ovX7LmYRiqY
 title: Crustle v Bolt 2
-```
-
-### Festival Lead - Depends
-
-If they have Rillaboom, it’s basically impossible to win. If they don’t, this matchup is favorable.
-
-- Load up Cornerstone on the bench as fast as possible. If they attach Energy to Thwackey, try to KO it immediately. Do not KO anything that is not a threat (such as Dipplin, as it is a liability for them). If they put Rellor down preemptively, KO that on sight. Same with Rillaboom.
-- Bossing Thwackey randomly can be good as it stops the searches or forces them to use a switching card.
-- Ice Cream, Cape, and Munkidori are all very good to help Cornerstone survive. If they play Maximum Belt, you’ll need that Cape on Cornerstone as soon as possible.
-
-```youtube
-id: s16Xk0eqB8c
-title: Festival v Crustle 1
-```
-
-### Slop Box / Absol - Very Favorable
-
-- This matchup can actually be losable depending on what techs they play.
-- If they have Cornerstone, they can get through Crustle, but it’s not a problem as long as you can actually attack and one-shot it.
-- If they’re playing a build with Dark Energy, prioritize Mist Energy to protect Crustle from Mind Bend and Terminal Period. Even if they don’t have Absol, Mind Bend can be annoying.
-
-```youtube
-id: aUg9LG87Px8
-title: Crustle v Slop 1
 ```
 
 ### Mewtwo - Slightly Favorable
@@ -206,20 +132,100 @@ id: 9R29o4idU1o
 title: Crustle v Mewtwo 2
 ```
 
-### Zoroark - Very Favorable
+### Festival Lead - Depends
+
+If they have Rillaboom, it’s basically impossible to win. If they don’t, this matchup is favorable.
+
+- Load up Cornerstone on the bench as fast as possible. If they attach Energy to Thwackey, try to KO it immediately. Do not KO anything that is not a threat (such as Dipplin, as it is a liability for them). If they put Rellor down preemptively, KO that on sight. Same with Rillaboom.
+- Bossing Thwackey randomly can be good as it stops the searches or forces them to use a switching card.
+- Ice Cream, Cape, and Munkidori are all very good to help Cornerstone survive. If they play Maximum Belt, you’ll need that Cape on Cornerstone as soon as possible.
+
+```youtube
+id: s16Xk0eqB8c
+title: Festival v Crustle 1
+```
+
+### Alakazam - Depends
+
+This matchup is about even if they play two Enhanched Hammer, or maybe slightly unfavorable. Any more Hammers than that is probably a loss and fewer is a free win. This matchup is also very unfavorable if they have Dedenne.
+
+- Our win condition is to stick an attacker with Mist Energy and outlast their Enhanced Hammers. Use Lillie and Morty first to try and find the initial Mist Energy or two, and then use Hilda to find one or two.
+- Crustles are actually resources because you’ll need to be able to threaten attackers with Mist. Don’t evolve into them just to send them to the slaughter. Cornerstone Ogerpon can also be used for this purpose. 
+- Using Cornerstone as the final Pokemon with Mist is the win condition if they have a tech like Dudunsparce ex or bad Zam, as it can outlast them with Ice Creams.
+- Similarly, Ice Creams and Cape are also resources that you’ll need for the late-game. Even if you aren’t using Cornerstone and they don’t have techs, you’ll still have to contend with an attacking Dudunsparce, which they can use to two-shot your final Crustle.
+- Whenever you don’t have Mist for the turn, spread out random Energy among different Dwebble/Crustle. You’ll want to be able to respond to Dudunsparce in the late-game. Spiky Energy can also be good for that, since Spiky plus 120 one-shots Dudunsparce.
+
+```youtube
+id: KfDqsPaSWZo
+title: Crustle v Zam 1
+```
+
+```youtube
+id: 0Cw8pFTfpZE
+title: Crustle v Zam 2
+```
+
+### Lucario - Very Unfavorable
+
+- Try to get Cape on Crustle and Boss smack Makuhita/Hariyama whenever possible, especially when they Aura Jab onto it.
+- Don’t put down one Dwebble at a time as it will just get KO’d. Try to put down two at once so that one can become a Crustle.
+
+```youtube
+id: qD3lvE40LAM
+title: Crustle v Lucario 1
+```
+
+### Garchomp - Favorable
+
+- Do not attack their Garchomp or they will wreck you with Spiritomb.
+- Try to get undamaged Crustles set up. If they smack with triple Roserade, use two Ice Cream (or one with Cape). If you only have one Ice Cream, it might be a waste to use it depending on the math.
+
+```youtube
+id: JxbWBGACztg
+title: Crustle v Garchomp 1
+```
+
+### Meganium - Favorable
+
+- Double Spiky Energy on Crustle (or one plus a Munkidori) allows you to effectively one-shot Meganium.
+- Boss on Meganium pieces to smack for 120 is extremely strong.
+- Don’t forget that random stuff like Noctowl and Dolliv can smack for some damage for one Energy.
+- Just get as many Crustle with Energy as possible and you’ll probably win without thinking too much.
+
+```youtube
+id: ioVZ82Db7Gw
+title: Crustle v Meg 1
+```
+
+### Crustle Mirror - Even 
+
+I've never played the Crustle mirror and I never intend to. With two Munkidori and several Crispin, it might be slightly favorable depending on their list.
+
+### Zoroark - Favorable
+
+If they don't have Lopunny, this matchup is very favorable. If they do, it is closer but still very winnable.
 
 - Spiky Energy is insane in this matchup. With one Spiky, Crustle effectively one-shots a poisoned Zoroark, Darmanitan, or Zekrom. With two, Crustle one-shots a non-poisoned Zoroark.
 - Cornerstone can be good, but I would still prioritize Crustle because it can one-shot Zoroark with help from Spiky. If you end up with too much Basic Energy in the discard, Darmanitan can become a threat, so try not to let that happen. Even if it does, you’ll still probably win.
 - Mist Energy is good to stop potential Elgyem shenanigans. Don’t put down unnecessary extra Pokemon or you could get punished by random control cards.
+- If they have Lopunny, you need to get Cape on Crustle and also try to target it down with Boss before it becomes active.
 
-### Crustle Mirror - Even 
+### Ogerpon - Very Favorable
 
-I've never played the Crustle mirror and I never intend to. With two Munkidori and several Crispin, it might be slightly favorable depending on their list. If they have Munkidori and Lana's Aid it might be slighly unfavorable.
+- Some may play Passimian, which is a threat. Try to get Hero's Cape on your main attacking Crustle so that it can survive a Passimian hit and one-shot in return.
+- If they don't have Passimian, you win for free, so may as well try to play around it. You don't want to commit all of your Energy to one Crustle only to be swept by a Passimian, so try to spread out your Energy (or just use Hero's Cape).
 
-### Ogerpon - Auto-Win
+### Slop Box - Very Favorable
 
-- Just get a Crustle in play and the game is over.
+- This matchup can actually be losable depending on what techs they play.
+- If they have Cornerstone, they can get through Crustle, but it’s not a problem as long as you can actually attack and one-shot it.
+- If they’re playing a build with Dark Energy, prioritize Mist Energy to protect Crustle from Mind Bend and Terminal Period. Even if they don’t have Absol, Mind Bend can be annoying.
+
+```youtube
+id: aUg9LG87Px8
+title: Crustle v Slop 1
+```
 
 ## Personal Thoughts
 
-This deck’s matchup spread is too good to ignore. It’s way better now that it doesn’t have to worry about Gardevoir. However, it loses to Dudunsparce and Lucario, which is very concerning. It’s still very much an anti-meta deck, which makes it inherently better when it's unexpected, and worse after it has success like it did in Prague. That said, I think it’s incredibly strong and takes very favorable matchups against a good chunk of the field, doing what Crustle does.
+This deck’s matchup spread is insane. Since it flopped at LA Regionals, I expect techs for it to go down significantly. However, it still loses to Dudunsparce ex, which is very rough for it in the current format. Despite that, the deck is still very good overall and has a good chance of success in the current meta. The LA winning list playing Dudunsparce with no ex also works in Crustle's favor.
