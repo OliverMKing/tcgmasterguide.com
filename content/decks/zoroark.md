@@ -229,3 +229,5 @@ title: Festival v Zoroark 1
 ## Personal Thoughts
 
 This deck is terrible in the current metagame. Zoroark is a pretty strong deck but it is unfavored against basically everything, and it has the worst matchup spread I have seen in my entire life. Frankly, it does not pass the bar for being good enough to write a guide on but I figured I should not be lazy and at least put it up. Sure, there are different builds and techs that could cover specific threats, but the fundamental issue of a bad matchup spread across the board cannot be fixed.
+
+I probably won't bother working on or updating this deck until it becomes better or more relevant.

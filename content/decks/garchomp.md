@@ -35,7 +35,7 @@ Energy: 9
 <!-- PUBLIC -->
 ### Inclusions
 
-- I think four Roserade is best because it’s very hard to find Premium Power Pro on demand, and there’s not enough space to accommodate for them. Roserade is easy to search, and a Roselia often gets KO’d early when you start it. There are also some matchups where you need three or even four Roserade.
+- I think four Roserade is best because it’s very important to have multiple in play. There are also some matchups where you need three or even four Roserade.
 - Spiritomb is broken at random times. Although it’s situational, it’s only a one-card commitment and can often get big KO’s for free. Very strong card.
 - Four Boss is necessary, as this deck likes to spam Boss. It’s important on turns where you’re forced into the first attack so you can get a KO with it, and also used to close out games most of the time.
 - Similarly, Pokegear 3.0 provides a nice boost to consistency and more importantly makes it easier to find Boss on the right turns.
@@ -46,14 +46,17 @@ Energy: 9
 - Rocky Energy is very relevant against Dragapult and Alakazam, but best of all, there’s basically no downside to playing them.
 - I think Neo Upper is the best Ace Spec because it allows us to do powerful plays that would otherwise be impossible. It has great synergy with the deck and none of the other Ace Specs are all that enticing. However, it is possible to play another Ace Spec if you can find a good reason to, as Neo Upper isn’t completely integral for the deck to function.
 
+### Possible Inclusions
+
+- I am starting to come around on Premium Power Pro since it's very good against Dragapult, though that matchup is generally fine anyway.
+- Prime Catcher actually seems pretty good but I haven’t tried it. It’s the only Ace Spec I’d seriously consider over Neo Upper right now. Unfair Stamp is a great card but this deck really doesn’t care about hand disruption or lack draw power.
+- If you are playing the Petrel Stamp build, one Switch and one Rare Candy seems good.
+
 ### Exclusions
 
 - I tried Budew and was not getting a lot of value from it. I also find that I need to fill up the entire board with useful Pokemon, so if Budew doesn't get KO'd (or even sometimes if it does), the board spot it occupies is troublesome. Finally, using an Energy to retreat into it was also very annoying.
 - Surfer, Judge, and other Supporters are bad and useless. Surfer does basically nothing and I don’t care about retreat lock for the time being because it has to be an extremely specific situation for you to actually lose to it. Even if that does happen, there’s a good chance you won’t actually have the Surfer anyway. You can also play around retreat lock to some extent by not evolving into Roserade. Judge actually does nothing.
 - Stadiums are bad and useless too. Having counter Stadiums against Dragapult is good but since that matchup is favored anyway I don’t see the point. Watchtower could be good if Raging Bolt becomes popular, but that is not the case right now. Watchtower plus Judge could theoretically scam some wins against Alakazam but that would require playing both of them and drawing them at the right time, and hoping they whiff a Battle Cage. Not worth playing. Forest of Vitality actually does have a use case. There are some games where you’re slow to get Roserade out or they get snpied off, so it could be good then, but ultimately still not worth the space in my opinion.
-- Premium Power Pro is nice in theory. However, there’s no good way to search them, so you’d have to play quite a few for it to be relevant. I think Roserade is more reliable and you need four Roselia anyway, so it’s hard to find the space. Playing with just 1-2 Premium Power Pro felt pointless.
-- Prime Catcher actually seems pretty good but I haven’t tried it. It’s the only Ace Spec I’d seriously consider over Neo Upper right now. Unfair Stamp is a great card but this deck really doesn’t care about hand disruption or lack draw power.
-- Rare Candy could be nice for some random high roll or recovery potential but I think it’s too situational. Skipping the Gabite also somewhat kneecaps this deck.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
@@ -105,75 +108,9 @@ id: UqhNx2eGSQg
 title: Blaziken v Chomp 2
 ```
 
-### Lucario - Favorable
+### Raging Bolt - Depends
 
-- Early Power Weight on your active is insanely strong, protects it from Aura Jab and Solrock. You’ll also want it on Garchomp to make it hard for Lucario to KO it.
-- Don’t evolve into extra Garchomp without a Power Weight as they can easily one-shot it with Lucario.
-- Get triple Roserade to one-shot Lucario. If you don’t have three Roserade, Boss around it and then one-shot them when you do have them.
-- If they put two Lucario in play, go for a 3-3 prize map. Otherwise, scoop up single-prize KO’s whenever possible to go for a 1-1-1-3 line.
-- Gible/Gabite with double or triple Roserade can get certain single-prize KO’s. If you are worried about Garchomp getting KO’d or in danger of losing a trade, this can be relevant.
-
-```youtube
-id: hUTwVpazbKw
-title: Chomp v Lucario 1
-```
-
-```youtube
-id: fzdEVpj8fSg
-title: Chomp v Lucario 2
-```
-
-### Alakazam - Even
-
-Assuming they play two Enhanced Hammer, this matchup is about even, or slightly favorable. If they play fewer Hammer, it’s a free win, and if they play more, it’s basically unwinnable.
-
-- Your win condition is getting N + 1 Rocky Energy in play, where N is the number of Enhanced Hammer they play. Fighting Energy is bad because it isn’t Rocky Energy, so only attach it if you definitely can’t get a Rocky for the turn.
-- Garchomp is generally bad to get into play before you’ve achieved your win condition. It speeds up the game and gives them a two-prize KO, which is more lose conditions. Only use it if your hand is dead and you need to draw cards to stay in the game.
-- Playing Lillie instead of Hilda is better for finding the first Rocky or two. Hilda is better when you only need one or two more Rocky to win the game.
-- Benching a few random Pokemon to thin is fine, but don’t give up too many. Be mindful of how many Boss they have left and don’t let them win by using Boss. How many Pokemon you can put down depends on how many prizes and how many Bosses they have left. You also need to account for them getting one or two free KO’s with Enhanced Hammer.
-- Your active Pokemon should have Rocky Energy to force them to find Hammer or Boss. If you don’t have any Rocky Energy, sacrifice Roselia/Roserade over Gible/Gabite.
-
-```youtube
-id: 8q94dnhtquM
-title: Chomp v Zam 1
-```
-
-```youtube
-id: sAhw5oGWVZE
-title: Chomp v Zam 2
-```
-
-### Meganium - Unfavorable
-
-- Power Weight is good on the bench to protect Energy drops and Gible/Gabite from Arboliva. It’s also good on Garchomp to force them to chain three-Energy Ogerpon.
-- Prioritize three Gabite, but later you can get the quad Roserade board which lets you one-shot Ogerpon with the first attack. You can use their Forest for instant Roserade whenever.
-- If you don’t get early Power Weight and also didn’t start with Gible, you’ll want to attach to your Active. If you attach to the bench your Energy might get spawn trapped by Arboliva and your active gets stuck.
-- Winning a prize trade is possible and that’s the ideal game plan.
-- If they get a good start they will be ahead on the prize trade, so you’ll have to go to a backup plan. KO Meganium can be a viable play because it’s hard for them to KO Garchomp without it. Alternatively, if you don’t think they can chain three-Energy Ogerpon, you can try KO’ing back to back Ogerpon and hoping they whiff something.
-
-```youtube
-id: hZzfYs-eYcI
-title: Chomp v Meg 1
-```
-
-```youtube
-id: Tyoe8uv-E4c
-title: Chomp v Meg 2
-```
-
-```youtube
-id: A0I3I8FeHYw
-title: Chomp v Meg 3
-```
-
-### Garchomp Mirror - Even
-
-- Get triple Roserade and one-shot any Garchomp that doesn’t have Power Weight. Don’t let them do the same to you. Don’t put down extra Garchomp without Power Weight. If you have to in order to attack, KO’ing Roserade can stop an incoming one-shot.
-- Do not let them get a free Spiritomb one-shot. You’ll inevitably have to smack a Garchomp for a two-shot, so use the first attack first and then Boss to finish it off.
-
-### Raging Bolt - Unfavorable
-
-This matchup is pretty bad if they play the Iron Leaves plus Jamming Tower combo. If they don’t play either, it’s still unfavorable but a lot closer.
+This matchup is pretty bad if they play the Iron Leaves plus Jamming Tower combo, which can be possible in Noctowl builds. Since most builds don't play Noctowl now, this is a huge benefit for Garchomp, but the matchup can still be close.
 
 - Early Power Weight on your active is very good to make it annoying to KO. As usual, you’ll also need them on Garchomp. Even if they play Jamming Tower, they won’t always have it in play.
 - Like with Meganium, it’s possible to win a prize trade outright, and that’s the ideal game plan.
@@ -188,40 +125,6 @@ title: Chomp v Bolt 1
 ```youtube
 id: hk89SR43qCE
 title: Chomp v Bolt 2
-```
-
-### Festival Lead - Very Unfavorable
-
-- Roselia, Roserade, and Power Weights are the most important resources. If you play Switch, that is also a premium resource (for switching out a Roserade after getting hit). 
-- Get as many Roselia in play as possible as well as two Roserade. Roselia w/ Power Weight is actually your best attacker. Spiritomb can also be good if they swing into your sponge. Gible, Gabite, or even Garchomp can all be usable attackers if the situation calls for it.
-- Power Weight is usually best on Roselia.
-- Be as fast and aggressive as possible. It’s basically impossible to win, so we have to get lucky and cheese them.
-- Preemptively attaching Energy to future attackers is very good. Keeping Energy on the board is also good as you will need to spend Energy to retreat Roserade after using them as sponges.
-
-```youtube
-id: Jimw7-gidwk
-title: Festival v Chomp 1
-```
-
-### Absol / Slop Box - Favorable
-
-- Weights can be good in the early-game to protect Gabite and Energy drops from a fast Fezandipiti.
-- If they play Absol, be wary of Terminal Period. If you have to smack into it to draw cards, that’s one thing, but if you don’t, better to Boss or wait for a one-shot.
-- Triple Roserade allows Garchomp to one-shot Clefairy with its first attack, which is relevant.
-
-```youtube
-id: MNNf2n41tB0
-title: Chomp v Slop 1
-```
-
-```youtube
-id: aGzRod7FXUs
-title: Chomp v Slop 2
-```
-
-```youtube
-id: YhIOn0kE4ko
-title: Chomp v Slop 3
 ```
 
 ### Mewtwo - Unfavorable
@@ -246,6 +149,95 @@ id: LvY_9sbjIjQ
 title: Chomp v Mewtwo 3
 ```
 
+### Festival Lead - Very Unfavorable
+
+- Roselia, Roserade, and Power Weights are the most important resources. If you play Switch, that is also a premium resource (for switching out a Roserade after getting hit). 
+- Get as many Roselia in play as possible as well as two Roserade. Roselia w/ Power Weight is actually your best attacker. Spiritomb can also be good if they swing into your sponge. Gible, Gabite, or even Garchomp can all be usable attackers if the situation calls for it.
+- Power Weight is usually best on Roselia.
+- Be as fast and aggressive as possible. It’s basically impossible to win, so we have to get lucky and cheese them.
+- Preemptively attaching Energy to future attackers is very good. Keeping Energy on the board is also good as you will need to spend Energy to retreat Roserade after using them as sponges.
+
+```youtube
+id: Jimw7-gidwk
+title: Festival v Chomp 1
+```
+
+### Alakazam - Depends
+
+Assuming they play two Enhanced Hammer, this matchup is about even, or slightly favorable. If they play fewer Hammer, it’s a free win, and if they play more or Dedenne, it’s basically unwinnable.
+
+- Your win condition is getting N + 1 Rocky Energy in play, where N is the number of Enhanced Hammer they play. Fighting Energy is bad because it isn’t Rocky Energy, so only attach it if you definitely can’t get a Rocky for the turn.
+- Garchomp is generally bad to get into play before you’ve achieved your win condition. It speeds up the game and gives them a two-prize KO, which is more lose conditions. Only use it if your hand is dead and you need to draw cards to stay in the game.
+- Playing Lillie instead of Hilda is better for finding the first Rocky or two. Hilda is better when you only need one or two more Rocky to win the game.
+- Benching a few random Pokemon to thin is fine, but don’t give up too many. Be mindful of how many Boss they have left and don’t let them win by using Boss. How many Pokemon you can put down depends on how many prizes and how many Bosses they have left. You also need to account for them getting one or two free KO’s with Enhanced Hammer.
+- Your active Pokemon should have Rocky Energy to force them to find Hammer or Boss. If you don’t have any Rocky Energy, sacrifice Roselia/Roserade over Gible/Gabite.
+
+```youtube
+id: 8q94dnhtquM
+title: Chomp v Zam 1
+```
+
+```youtube
+id: sAhw5oGWVZE
+title: Chomp v Zam 2
+```
+
+### Lucario - Favorable
+
+- Early Power Weight on your active is insanely strong, protects it from Aura Jab and Solrock. You’ll also want it on Garchomp to make it hard for Lucario to KO it.
+- Don’t evolve into extra Garchomp without a Power Weight as they can easily one-shot it with Lucario.
+- Get triple Roserade to one-shot Lucario. If you don’t have three Roserade, Boss around it and then one-shot them when you do have them.
+- If they put two Lucario in play, go for a 3-3 prize map. Otherwise, scoop up single-prize KO’s whenever possible to go for a 1-1-1-3 line.
+- Gible/Gabite with double or triple Roserade can get certain single-prize KO’s. If you are worried about Garchomp getting KO’d or in danger of losing a trade, this can be relevant.
+
+```youtube
+id: hUTwVpazbKw
+title: Chomp v Lucario 1
+```
+
+```youtube
+id: fzdEVpj8fSg
+title: Chomp v Lucario 2
+```
+
+### Garchomp Mirror - Even
+
+- Get triple Roserade and one-shot any Garchomp that doesn’t have Power Weight. Don’t let them do the same to you. Don’t put down extra Garchomp without Power Weight. If you have to in order to attack, KO’ing Roserade can stop an incoming one-shot.
+- Do not let them get a free Spiritomb one-shot. You’ll inevitably have to smack a Garchomp for a two-shot, so use the first attack first and then Boss to finish it off.
+
+### Meganium - Unfavorable
+
+- Power Weight is good on the bench to protect Energy drops and Gible/Gabite from Arboliva. It’s also good on Garchomp to force them to chain three-Energy Ogerpon.
+- Prioritize three Gabite, but later you can get the quad Roserade board which lets you one-shot Ogerpon with the first attack. You can use their Forest for instant Roserade whenever.
+- If you don’t get early Power Weight and also didn’t start with Gible, you’ll want to attach to your Active. If you attach to the bench your Energy might get spawn trapped by Arboliva and your active gets stuck.
+- Winning a prize trade is possible and that’s the ideal game plan.
+- If they get a good start they will be ahead on the prize trade, so you’ll have to go to a backup plan. KO Meganium can be a viable play because it’s hard for them to KO Garchomp without it. Alternatively, if you don’t think they can chain three-Energy Ogerpon, you can try KO’ing back to back Ogerpon and hoping they whiff something.
+
+```youtube
+id: hZzfYs-eYcI
+title: Chomp v Meg 1
+```
+
+```youtube
+id: Tyoe8uv-E4c
+title: Chomp v Meg 2
+```
+
+```youtube
+id: A0I3I8FeHYw
+title: Chomp v Meg 3
+```
+
+### Crustle - Unfavorable
+
+- Get as many Roserade as possible. Ideally all four of them, so you can one-shot Crustle.
+- Attack fast and use Boss to apply pressure on their Energy.
+
+```youtube
+id: JxbWBGACztg
+title: Crustle v Garchomp 1
+```
+
 ### Zoroark - Favorable
 
 - Early Power Weight on your active is very good to protect from Darmanitan. Try to not let them get value from Darmanitan as it is a way to actually lose. In the mid- or late-game, put Power Weight on benched Pokemon that are within Darmanitan range. Power Weight is also useful on Garchomp because they can one-shot it with Mochi plus Black Belt. However, since this combo is kind of hard for them to pull off, I prioritize using Weight for protecting Pokemon from Darmanitan if they are threatening it.
@@ -260,16 +252,6 @@ title: Chomp v Zoro 1
 ```youtube
 id: s3PdNIgy3AY
 title: Chomp v Zoro 2
-```
-
-### Crustle - Unfavorable
-
-- Get as many Roserade as possible. Ideally all four of them, so you can one-shot Crustle.
-- Attack fast and use Boss to apply pressure on their Energy.
-
-```youtube
-id: JxbWBGACztg
-title: Crustle v Garchomp 1
 ```
 
 ### Ogerpon - Unfavorable
@@ -289,6 +271,27 @@ id: 1pVKyVlZlzQ
 title: Ogerpon v Garchomp 2
 ```
 
+### Slop Box - Favorable
+
+- Weights can be good in the early-game to protect Gabite and Energy drops from a fast Fezandipiti.
+- If they play Absol, be wary of Terminal Period. If you have to smack into it to draw cards, that’s one thing, but if you don’t, better to Boss or wait for a one-shot.
+- Triple Roserade allows Garchomp to one-shot Clefairy with its first attack, which is relevant.
+
+```youtube
+id: MNNf2n41tB0
+title: Chomp v Slop 1
+```
+
+```youtube
+id: aGzRod7FXUs
+title: Chomp v Slop 2
+```
+
+```youtube
+id: YhIOn0kE4ko
+title: Chomp v Slop 3
+```
+
 ## Personal Thoughts
 
-This deck is surprisingly good. Its matchup spread is solid, and overall the deck seems better than everything else besides Dragapult. It has a great built-in engine and insane stats. Of course, it’s weak to some of the Grass decks, but I don’t think there’s anything you can do about it. Playing Garchomp is very strong if the Grass decks aren’t as popular. I think they aren’t very good, so perhaps they will see a decrease in play if other people think the same way.
+This deck is surprisingly good. It has one of the best Dragapult matchups in the format and is good against some other decks too. Unfortunately its Grass weakness severely hurts against the rest of the field. There are quite a few of those running around, which makes Garchomp a risky play.
