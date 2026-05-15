@@ -35,7 +35,7 @@ Energy: 9
 <!-- PUBLIC -->
 ### Inclusiones
 
-- Cuatro Roserade es lo ideal porque es muy difícil encontrar Premium Power Pro cuando se necesita, y no hay suficiente espacio para incluirlos. Roserade es fácil de encontrar, y por lo menos una Roselia suele ser noqueada rápidamente al inicio. Además, hay algunos matchups en los que se necesitan tres o incluso cuatro Roserade.
+- Cuatro Roserade es lo ideal porque necesitas varias en juego al mismo tiempo. Además, hay algunos matchups en los que se necesitan tres o incluso cuatro Roserade.
 - Spiritomb es impredecible. Aunque depende de la situación, solo ocupa un espacio y a menudo permite conseguir noqueos importantes sin coste alguno. Una carta muy poderosa.
 - Cuatro Boss’s Orders son necesarios, ya que este deck tiende a usar Boss's Orders repetidamente. Es importante en los turnos donde te ves obligado a realizar el primer ataque para poder conseguir un KO, y también se usa para cerrar las partidas la mayoría de las veces.
 - Del mismo modo, Pokegear 3.0 proporciona una buena mejora en la consistencia y, lo que es más importante, hace que sea más fácil encontrar Boss's Orders en los turnos adecuados.
@@ -45,6 +45,11 @@ Energy: 9
 - Al principio no estaba seguro de usar cuatro Power Weight, pero ahora estoy convencido de que son necesarias. Esta carta es clave para el deck. Es importante robarla pronto para proteger a los pequeños, y en algunos matchups es imprescindible tener en todos tus Garchomp.
 - Rocky Energy es muy relevante contra Dragapult y Alakazam, pero lo mejor de todo es que prácticamente no hay inconvenientes en usarlas en lugar de Energías Básicas.
 - Creo que Neo Upper Energy es el mejor Ace Spec porque nos permite realizar jugadas poderosas que de otra manera serían imposibles. Tiene una gran sinergia con el deck y ninguna de las otras resultan tan atractivas. Sin embargo, es posible jugar otra si encuentras una buena razón para hacerlo, ya que Neo Upper Energy no es completamente esencial para el funcionamiento del deck.
+
+### Posibles Inclusiones
+
+- Empiezo a convencerme de Premium Power Pro, ya que es muy bueno contra Dragapult, aunque en general ese matchup no suele ser tan malo.
+- Si usas una versión con Petrel y Unfair Stamp, un Switch y un Rare Candy parecen una buena opción.
 
 ### Exclusiones
 
@@ -122,7 +127,7 @@ id: fzdEVpj8fSg
 title: Chomp v Lucario 2
 ```
 
-### Alakazam - Parejo
+### Alakazam - Depende
 
 Suponiendo que jueguen dos Enhanced Hammer, este matchup está bastante parejo, o incluso ligeramente favorable. Si juegan menos, la victoria es segura, y si juegan más, es prácticamente imposible ganar.
 
@@ -170,7 +175,7 @@ title: Chomp v Meg 3
 - Consigue tres Roserade y derrota de un solo golpe a cualquier Garchomp que no tenga Power Weight. No dejes que te hagan lo mismo. No saques Garchomp adicionales sin Power Weight. Si es necesario para atacar, debilitar a Roserade puede evitar que te derroten de un solo golpe.
 - No permitas que Spiritomb te derrote de un solo golpe. Inevitablemente tendrás que derrotar a Garchomp de dos golpes, así que usa primero el primer ataque y luego un Boss's Orders para rematarlo.
 
-### Raging Bolt - Desfavorable
+### Raging Bolt - Depende
 
 Este matchup es bastante malo si juegan la combinación de Iron Leaves y Jamming Tower. Si no juegan ninguna de las dos, sigue siendo desfavorable, pero mucho más parejo.
 
@@ -190,6 +195,7 @@ title: Chomp v Bolt 2
 ```
 
 ### Festival Lead - Muy Desfavorable
+
 - Roselia, Roserade y Power Weight son los recursos más importantes. Si juegas con Switch, también es un recurso valioso (para cambiar a Roserade después de recibir daño).
 - Consigue tantas Roselia como sea posible, además de dos Roserade. Roselia con Power Weight es tu mejor atacante. Spiritomb también puede ser útil si le dejan daño a tu Roserade. Gible, Gabite o incluso Garchomp pueden ser atacantes útiles si la situación lo requiere.
 - Power Weight suele ser mejor en Roselia.
@@ -287,4 +293,4 @@ title: Ogerpon v Chomp 2
 
 ## Conclusión
 
-Este deck es sorprendentemente bueno. Su variedad de matchups es sólida y, en general, parece mejor que cualquier otro, excepto Dragapult. Tiene un excelente motor integrado y llega a números impresionantes. Claro que es débil contra algunos decks de tipo Planta, pero no creo que haya nada que se pueda hacer al respecto. Jugar con Garchomp es muy efectivo si los decks de tipo Planta no son tan populares. Creo que no son muy buenos, así que quizás su popularidad disminuya si otros piensan igual.
+Este deck es sorprendentemente bueno. Tiene uno de los mejores matchups contra Dragapult y es bueno contra otros decks tambien. Desafortunadamente la debilidad Planta le afecta muchisimo contra el resto de lemta ya que hay bastantes decks de este tipo ahorita.

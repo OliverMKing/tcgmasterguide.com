@@ -46,6 +46,9 @@ Energy: 18
 -Maximizar Tera Orb y Bug Catching Set tiene sentido porque todo el motor de este deck gira en torno a Teal Dance, que es suficiente para ganar partidas.
 -Unfair Stamp es mi carta favorita para Ace Spec porque es demasiado buena y es la forma más fiable de recuperarte si vas por detras. Probé Legacy Energy y fue completamente inútil. Unfair Stamp no es necesaria para que el deck funcione, pero las otras cartas de Ace Spec no me parecen muy atractivas. Boss’s Orders + Unfair Stamp también es extremadamente fuerte en este formato.
 
+### Posibles Inclusiones
+- Passimian podría ser una buena tech encontra de Mega Lopunny y Crustle.
+
 ### Exclusiones
 
 -No encontré que Latias ni Mega Kangaskhan fueran muy buenos en esta versión del deck. Usar Teal Dance repetidamente es suficiente para encontrar recursos, y sin Cyrano, el combo Kang + Latias no es tan bueno. También creo que esas cartas son demasiado lentas para un deck agresivo como este. Las probé y con gusto las quité para un enfoque más optimizado. Cyrano en sí está bien, pero Lillie es simplemente mejor. Sin Latias y Kang, Cyrano no es realmente necesario.
@@ -192,6 +195,8 @@ Este matchup es favorable gracias a Moltres, a menos que ellos también tengan a
 -Guarda Boss’s Orders para combinarlo con Moltres o para evitar Legacy Energy si la juegan.
 -Limita tu banca al principio del juego para que no puedan conseguir un noqueo fácil con Clefairy.
 -Juega como siempre en matchups de intercambio de dos premios.
+
+### Festival Lead - Muy Desfavorable
 
 ## Reflexiones personales
 
