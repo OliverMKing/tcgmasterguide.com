@@ -5,26 +5,25 @@ tier: 1
 format: Standard
 ---
 ## Decklist
-![Festival list](./images/festival-lead/festivallist.png)
+![Festival list](./images/festival-lead/noboom.png)
 
 ```decklist
-Pokémon: 22
+Pokémon: 21
 4 Applin TWM 17
 4 Dipplin TWM 18
 4 Grookey TWM 14
 4 Thwackey TWM 15
-1 Rillaboom TWM 16
 1 Rellor TEF 23
 1 Rabsca TEF 24
 1 Shaymin DRI 10
 1 Goldeen TWM 44
 1 Genesect SFA 40
 
-Trainer: 34
+Trainer: 35
 4 Lillie's Determination MEG 119
 2 Kieran TWM 154
 2 Dawn PFL 87
-1 Boss's Orders PAL 172
+2 Boss's Orders PAL 172
 1 Black Belt's Training PRE 96
 1 Lana's Aid TWM 155
 4 Buddy-Buddy Poffin TEF 144
@@ -43,27 +42,30 @@ Energy: 4
 ### Inclusiones
 
 -Me gusta jugar con cuatro copias de Thwackey porque el deck necesita verlo al inicio para funcionar, siempre necesita dos en juego, y a veces incluso tres.
--Rillaboom es una carta tech opcional para Crustle con Cornerstone. Cumple su función a la perfección, ya que Rellor por sí solo no basta para vencer a ese deck. Es inútil contra la mayoría de los demás decks a menos que te quedes sin Festival Grounds. Podrías reemplazarla por otra carta como Boss’s Orders.
 -Rabsca es una tech necesaria para Dragapult y funciona bien.
 -Shaymin cambia el rumbo del matchup contra decks que incluyen Wellspring Ogerpon, Arboliva o Darmanitan. Es bastante eficiente ocupando solo un espacio en el deck.
 -Goldeen ayuda a mantener la consistencia al principio de la partida. Este deck tiene una excelente distribución de matchups, pero a veces puede tener manos iniciales malas, y Goldeen ayuda a reducir eso. En teoría, se puede usar como pivote en la banca para contrarrestar la disrupción de mano, pero no me ocurrió muy a menudo.
 -Genesect es otra carta útil para Dragapult. Es muy efectiva contra decks de Dragapult con Hero’s Cape especialmente y contra decks con Unfair Stamp.
 -Dawn es igual de buena independientemente de si Rillaboom está en el deck o no. Su función es simplemente proporcionar consistencia al principio de la partida y suele ser mejor que Brock's Scouting, ya que este deck necesita dos Pokémon de Fase 1 diferentes en juego para funcionar.
--Black Belt’s Training permite alcanzar números de daño clave contra Mega Lucario y Mega Starmie. Contra otros decks, se sigue utilizando como un modificador de daño genérico, mientras que Kieran puede reservarse como carta de cambio en una emergencia.
+-Black Belt’s Training permite alcanzar números de daño clave contra Mega Lucario y Mega Lopunny. Contra otros decks, se sigue utilizando como un modificador de daño genérico, mientras que Kieran puede reservarse como carta de cambio en una emergencia.
 -Lana’s Aid tiene una excelente sinergia con este deck y querrás usarla cuando no necesites otro Partidario en ese turno. Sin embargo, dado que este deck generalmente necesita usar un Partidario diferente, solo jugamos una Lana’s Aid para no depender demasiado de ella.
 -Secret Box es sin duda la mejor carta para este deck. Permite obtener cuatro piezas de cualquier combo por el precio de una búsqueda, lo que nos permite estabilizar el juego o lograr un gran KO incluso con un campo débil, al principio de la partida o después de una Unfair Stamp. Es la carta definitiva para la consistencia.
 
+### Posibles inclusiones
+- Rillaboom es una opción para Crustle con Cornerstone Ogerpon. Cumple muy bien su función, ya que Rellor por sí solo no es suficiente para vencer a ese deck. También puede ser útil contra Handheld Fan aleatorios y en el mirror, lo cual es una ventaja. Podría volver a incluirlo.
+- Más Rellor y Rabsca podrían ayudar contra Dragapult, lo cual podría valer la pena.
+- Growing Energy podría ser aceptable.
+- Tool Scrapper puede ser decente para contrarrestar los Handheld Fans aleatorios de Mewtwo o Alakazam.
+
 ### Exclusiones
 
--Seaking puede ser una buena respuesta a una tech de Chi-Yu del oponente, pero no quiero poner a Goldeen en juego sin razón, así que requiere conocer de antemano la lista del oponente para ser completamente efectivo. Robar cartas en el Turno 2 suena bien, pero requiere varias búsquedas para ponerlo en juego, Energía y un Estadio. Si tienes todos esos requisitos, ya estás seteado y probablemente no necesitas robar cartas.
--Lilligant requiere demasiado espacio y eso me preocupa. El efecto no está mal. La jugaría si fuera un básico.
--Psyduck no funciona realmente en contra de Dragapult/Dusknoir, ya que el matchup es desfavorable aún con el.
--Brock’s Exploration es peor que la de Dawn. Claro que hay situaciones en las que desearías tener a Brock en su lugar, pero lo mismo podría decirse de cualquier otra carta específica
--Hacer Boss’s Orders no es tan importante en este deck, así que jugar uno está bien. Sin embargo, otro sería útil, ya que puede ayudar con remontadas.
--Otras cartas Ace Specs son muy inferiores a Secret Box. Mención especial para Maximum Belt por ahorrar dos espacios en el deck.
--Switch es peor que dos Kieran y dos Air Balloon, especialmente con Genesect en la lista.
--Otras cartas como Sacred Ash, Judge o Forest of Vitality son simplemente malas e inútiles.
--Tool Scrapper podría reemplazar a Genesect, pero desafortunadamente ninguno de los dos ayuda realmente contra el matchup de Crustle.
+- Seaking puede ser una buena respuesta a una tech de Chi-Yu del oponente, pero no quiero poner a Goldeen en juego sin razón, así que requiere conocer de antemano la lista del oponente para ser completamente efectivo. Robar cartas en el Turno 2 suena bien, pero requiere varias búsquedas para ponerlo en juego, Energía y un Estadio. Si tienes todos esos requisitos, ya estás seteado y probablemente no necesitas robar cartas.
+- Lilligant requiere demasiado espacio y eso me preocupa. El efecto no está mal. La jugaría si fuera un básico.
+- Psyduck no funciona realmente en contra de Dragapult/Dusknoir, ya que el matchup es desfavorable aún con el.
+- Brock’s Exploration es peor que la de Dawn. Claro que hay situaciones en las que desearías tener a Brock en su lugar, pero lo mismo podría decirse de cualquier otra carta específica
+- Otras cartas Ace Specs son muy inferiores a Secret Box. Mención especial para Maximum Belt por ahorrar dos espacios en el deck.
+- Switch es peor que dos Kieran y dos Air Balloon, especialmente con Genesect en la lista. Si Genesect o Goldeen no estuvieran en la lista, Switch podría ser considerado.
+- Otras cartas como Sacred Ash, Judge o Forest of Vitality son simplemente malas e inútiles.
 <!-- /PUBLIC -->
 ## Gameplay
 
@@ -83,7 +85,7 @@ Energy: 4
 
 ### Dragapult - Depende
 
-Este matchup es favorable contra listas sin Rare Candy. Es particularmente favorable contra la lista ganadora de Praga (Dudunsparce) porque es un poco más lenta y su único truco (Hero’s Cape) está bloqueado por Genesect. Cuantos más Rare Candy tengan, más difícil se vuelve. Contra la lista de Tord (tres Rare Candy), sigue siendo bastante parejo o ligeramente desfavorable. Contra Dusknoir, es desfavorable.
+Este matchup es favorable contra listas sin Rare Candy o Dusknoir. Cuantos más Rare Candy tengan, más difícil se vuelve. Contra la lista de Tord (tres Rare Candy), sigue siendo bastante parejo o ligeramente desfavorable. Contra Dusknoir, es desfavorable.
 
 -Es absolutamente imprescindible evolucionar a Rabsca rápidamente. Claro que también necesitas a Dipplin y Thwackey para poder jugar, pero Rabsca también es una prioridad. Puede ser molesto quedarse sin Items, así que intenta conseguir a Rellor cuanto antes. Rellor tiene prioridad incluso sobre el segundo Applin o el segundo Grookey. Incluso tiene prioridad sobre el primer Applin si empiezas con Goldeen o tienes que usarlo para setearte, aunque Goldeen es bastante malo en este matchup en general, así que lo evitaría si fuera posible.
 -Genesect es la mejor opción para este matchup. La banca ideal consiste en dos Thwackey, dos Dipplin, Rabsca y Genesect con Air Balloon. Si ya han usado su Ace Spec, Genesect es obviamente inútil, así que ese espacio debería ocuparse con otro Dipplin. Una vez que debiliten a Rabsca, querrás tener tantos Dipplin en juego como sea posible.
@@ -124,9 +126,9 @@ Este matchup está bastante parejo. Sin embargo, si ellos tienen Handheld Fan es
 -Festival Grounds es un recurso, ya que suelen jugar cuatro Battle Cage. No lo pongas en juego hasta que estés listo para atacar.
 -No juegan disrupción de mano así es que sé lo más rápido y agresivo que puedas.
 -Si te quitan el Estadio, considera usar Boss’s Orders para noquear a un Pokémon pequeño mientras guardas un Estadio. Si juegas todos los Estadios demasiado pronto, podrías quedarte sin ellos y podrían crear un tablero final donde ningún Pokemon pueda ser noqueado por un Dipplin de un solo ataque. Si no tienen a Kadabra en juego, noquear a su Alakazam activo sigue siendo la mejor opción para obligarlos a buscar Rare Candy.
--Genesect puede ser útil al principio del juego si se presenta la oportunidad. Sin embargo, es muy perjudicial tenerlo en juego si el oponente usa Handheld Fan. Contra Handheld Fan, lo ideal es obligarlo a mover Energías a Thwackey.
+-Genesect puede ser útil al principio del juego si se presenta la oportunidad pero no es prioridad.
 -Rillaboom es muy bueno para noquear al Pokemon con Handheld Fan de un solo golpe. Si no lo juegan, quizás quieras cargar una Energía extra a Thwackey de forma preventiva para evitar quedarte sin Estadios, pero esto podría ser irrelevante dependiendo de cuántos recursos te queden. Si no conseguiste la ventaja inicial de dos premios, suele ser mejor guardar las Energías para Dipplin, ya que podrías quedarte sin Energía.
-- Si tienes una carga de Energía extra disponible, generalmente es buena idea colocarla en un Dipplin de reserva. Cuando tienes dos, cada una con Energía, puedes ganarle al Handheld Fan porque puedes cargar otra Energía cuando la necesites. Si no juegan con Handheld Fan, puedes usarla en Thwackey para la situación donde quizá te quedas sin Estadios, pero esto podría ser irrelevante dependiendo de cuántos recursos te queden. Si no conseguiste la ventaja inicial de dos premios, suele ser mejor guardar Energía para Dipplin.
+- Si tienes una carga de Energía extra disponible, generalmente es buena idea colocarla en un Dipplin de reserva. Cuando tienes dos, cada una con Energía, puedes ganarle al Handheld Fan porque puedes cargar otra Energía cuando la necesites. Si no conseguiste la ventaja inicial de dos premios, suele ser mejor guardar Energía para Dipplin.
 
 ```youtube
 id: g5-pKFaJc_Y
@@ -138,10 +140,11 @@ id: X3YpsKBoBBI
 title: Festival v Zam 2
 ```
 
-### Mewtwo - Muy favorable
+### Mewtwo - Favorable
 
 -Tienen fácil acceso a Archer, que básicamente es un Unfair Stamp que no puedes bloquear con Genesect. En este matchup, lo principal es jugar con precaución contra Archer. Intenta conseguir un Dipplin de reserva cuanto antes. Si no puedes, Goldeen con Air Balloon puede ser una buena opción para contrarrestar a Archer (o puede ayudarte a setearte). El tablero ideal es con tres manzanas y 2 o 3 Thwackey, dependiendo de si necesitas a Goldeen.
 -Todas las tech son inútiles. Simplemente ataca normalmente en cada turno. Black Belt’s Training (o Kieran + Brave Bangle) puede noquear a Mewtwo si atacan con él.
+- Podrían jugar Handheld Fan. Puedes jugar alrededor de el si tienes dos Dipplin en juego cada uno con Energía. Noquean a uno y puedes cargarle una segunda Energía al otro para pasar por Handheld Fan.
 
 ```youtube
 id: YT4891TzjBk
@@ -209,10 +212,7 @@ title: Festival v Bolt 1
 
 ### Mirror de Festival Lead - Parejo
 
-En el peor de los casos, este matchup está parejo. Dado que contamos con Genesect y Rillaboom, tenemos ventaja contra cualquier lista que no tenga suficientes “esponjas” que absorban daño. Otras listas suelen incluir a Seaking precisamente para esto.
-
--Este matchup depende completamente de los Pokémon “esponja” que absorben mucho daño. Pon a Genesect en juego lo antes posible. No necesita necesariamente una herramienta, ya que su función es la de absorber daño. Cuando el oponente noquee algo, sube a Genesect y cuando Genesect sea noqueado, recupéralo. El mismo concepto se aplica a Rillaboom, aunque perderás permanentemente un Thwackey, así que guárdalo para más adelante. A veces lo necesitarás antes si no puedes permitirte sacrificar a Genesect en dos golpes.
--Las cartas de cambio son recursos valiosos. Necesitarás Air Balloon para retirar a Genesect y a Kieran para cambiar a Rillaboom después de usarlos para absorber daño.
+Este matchup depende completamente de cuantos Pokémon “esponja” tengan que absorben daño. Tenemos a Genesect pero no a Seaking así es que quizá perdamos contra listas que tengan dos "esponjas". Rillaboom ya no es tan popular pero también puede servir para este proposito. Maximum Belt más Tool Scrapper es otra buena manera de contrarrestar a Cornerstone Ogerpon pero prefiero jugar Secret Box.
 
 ### Crustle - Depende
 
@@ -229,4 +229,4 @@ title: Festival v Crustle 1
 
 ## Conclusión
 
-Creo que este deck es una tontería, pero ahora mismo es increíblemente bueno. Tiene una distribución de matchups descomunal y le puede ganar a todo. Incluso los matchups contra Dragapult son buenos en general, y este deck no se brickea tanto como esperaba. Este deck es una amenaza enorme en el metajuego actual, y es posible que la gente incluya cartas como Chi-Yu o Handheld Fan para contrarrestarlo. No he probado Chi-Yu, así que no sé si será tan importante. Si se populariza, consideraré añadir Seaking para hacerle frente. Como la mayoría de los jugadores de Festival Lead ya tienen Seaking, no sé si Chi-Yu será tan relevante.
+Creo que este deck es una tontería, pero ahora mismo es increíblemente bueno. Tiene una distribución de matchups descomunal y le puede ganar a todo. Sin embargo con más decks de Dragapult jugando Rare Candy y Dusknoir, esto mantiene Festival Lead al margen. Budew también es un problema que ya alenta mucho el set up. La consistencia del deck es un poco cuestionable pero me fue mejor de lo que esperaba al probarlo.

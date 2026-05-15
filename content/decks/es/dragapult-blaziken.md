@@ -51,16 +51,20 @@ Energy: 8
 - PokePad hace que el deck funcione, así que no quiero jugar con menos de cuatro cartas.
 - Al igual que Dragapult normal, Risky Ruins es muy útil e impactante. Creo que es el mejor estadio por mucho.
 
+### Posibles Inclusiones
+
+- Tener dos Budew sería ideal, pero a veces resulta contraproducente y el espacio en banca es más limitado con la línea evolutiva de Blaziken. El segundo sería útil cuando uno está premiado, o a veces para usarlo como pivote. Tampoco estoy seguro de qué carta quitaría para incluirlo o si realmente es necesario.
+- Un segundo Crispin sería útil.
+- Dudunsparce EX o Paldean Tauros podrían ser buenas opciones para Crustle si surgiera la necesidad.
+
 ### Exclusiones
 
-- Dos Budew serían ideales, pero a veces resultan un inconveniente y el espacio en banca es algo más limitado con la línea de Blaziken. El segundo sería útil cuando uno está premiado, o a veces para usarlo como pivote. Tampoco estoy seguro de qué carta quitaría para reemplazarlo.
 - Una línea más gruesa de Blaziken no es necesaria porque solo usas un Blaziken en la mayoría de los juegos. Tener dos Blaziken en juego es útil, pero un lujo innecesario. Además, sería difícil sacarle provecho, ya que ocupa un espacio adicional en juego (lo que reduce las opciones para Munkidori). Claro que, en matchups donde atacar con Blaziken es importante, una línea más gruesa sería muy útil.
 - Shaymin es un fraude. La mayoría de los matchups donde lo necesitas son manejables sin Shaymin. Los que no lo son son decks muy poco comunes como Slowking, que no me preocupan.
 - Creo que Judge y Harlequin son malas cartas, así que no las voy a jugar a menos que encuentre una buena razón para hacerlo.
 - Probé con cuatro Boss’s Orders porque la carta está rota, pero no me pareció necesario en las pruebas.
-- Team Rocket’s Watchtower podría ser útil contra los decks de Kangaskhan Box en teoría, pero combinarla con cartas que interrumpen la mano del oponente es prácticamente imposible. Otros matchups donde la Watchtower podría usarse, como contra Alakazam, ya son favorables de todas maneras.
+- Team Rocket’s Watchtower podría ser útil contra los decks de Kangaskhan Box en teoría, pero combinarla con cartas que interrumpen la mano del oponente es prácticamente imposible. Otros matchups donde la Watchtower podría usarse, como contra Alakazam, ya son favorables de todas maneras. No creo que tenga el suficiente impacto para justificar jugarlo.
 - El principal problema de Area Zero es que no es Risky Ruins. Con Blaziken y Munkidori, Area Zero puede ser útil en ocasiones, pero la utilidad de Risky Ruins es mucho más frecuente. Además, existe un conflicto de intereses, ya que se necesita espacio en la banca para Munkidori, pero no se puede aprovechar adecuadamente sin Risky Ruins en juego.
-- Dudunsparce podría ser una buena tech para Crustle si crees que la necesites.
 
 <!-- /PUBLIC -->
 ## Gameplay
@@ -72,7 +76,7 @@ En esta sección y en los matchups, gran parte del contenido será el mismo que 
 - Si Torchic está en peligro y no podrás atacar sin Blaziken en el siguiente turno, baja un segundo Torchic. De lo contrario, no te molestes en conseguir un segundo Torchic.
 - Poner cualquier Energía extra en juego es bueno para tener un pivote. Esto es especialmente relevante en matchups donde necesitas a Clefairy.
 - Budew no es una prioridad en esta lista. Es difícil retraer hacia el, y el espacio en la banca también es un problema. Puede ser útil en ciertas situaciones contra cualquier oponente, pero realmente depende de cada caso.
-- Creo que lo mejor es empezar a ciegas. Esta versión depende menos de Budew y atacar en turno 2 es bastante común.
+- Siempre elige iniciar ecepto contra matchups que puedan atacar en turno 1 como Mega Lucario o Raging Bolt.
 - Me inclino por empezar con Dreepy (en comparación con Torchic o Munkidori) cuando voy primero por la posibilidad de usar Dragon Headbutt en turno 2 (o incluso Phantom Dive). Blaziken en turno 2 aún puede ocurrir incluso si decides no empezar con Torchic gracias a su habilidad, pero lo contrario no es cierto para Dreepy. Cuando voy segundo, suelo empezar con Torchic debido a su ataque Collect. No usarás Collect muy a menudo, pero es claramente mejor que Dreepy o Munkidori cuando vas segundo debido a su flexibilidad. Torchic también suele ser un mejor sacrificio que Dreepy, pero aún puede retirarse a algo como Budew o Munkidori si es necesario.
 - A diferencia de Dragapult puro, colocar Energía en la parte inferior con Recon Directive no es tan efectivo, ya que solo hay un Crispin. Acumular Energía en la mano es bastante útil, así tendrás una para cargar disponible en cada turno. Además, ocasionalmente uso Ultra Ball para descartar Energía y combinarla con la habilidad de Blaziken.
 - Otra diferencia radica en la combinación de Drakloak con Energía y Torchic en el tablero. Si sabes que tu Drakloak con Energía será eliminado fácilmente, no te convendría equiparlo. Sin embargo, con Torchic y Blaziken en el tablero, ocurre lo contrario. Se complementan entre sí, de modo que, independientemente de lo que tu oponente decida eliminar, tendrás una forma de atacar.
@@ -92,7 +96,7 @@ Esto es aún más común con la lista de Blaziken.
 - Si atacan primero y consiguen Dragon Headbutt en Turno 2 con Drakloak, puedes castigarlos duramente con un KO gracias a Rare Candy.
 - El tablero ideal es Blaziken, dos Munkidori y el resto Drakloak o Dragapult. Evolucionar a Dragapult adicional de forma preventiva a veces es necesario para evitar que eliminen a Drakloak con un KO repentino usando Munkidori + Phantom Dive. Si vas a atacar, intenta no dejar 3 contadores de daño en su mesa para que no puedan eliminar a uno de tus Drakloak.
 - Munkidori puede ser un atacante rápido decente para noquear a Budew y obtener ventaja en premios. No es tan importante protegerlo como a un Drakloak atacante, pero Drakloak puede ser un atacante seguro si no tienen otro Drakloak y no juegan Rare Candy.
-- Contra decks con Ursaluna (la mayoría que no sean Blaziken), intenta evitar usar a Meowth o Fezandipiti. Si usan Área Zero, puedes usar tu Risky Ruins para descartar esos Pokemon de juego después de utilizarlos.
+- Contra decks con Ursaluna (ya no tan común hoy en día), intenta evitar usar a Meowth o Fezandipiti. Si usan Área Zero, puedes usar tu Risky Ruins para descartar esos Pokemon de juego después de utilizarlos.
 
 - Clefairy introduce un aspecto interesante porque puede debilitar a su Dragapult de un solo golpe, pero no necesariamente te da ventaja en el intercambio porque es fácilmente debilitado de regreso. La excepción es al principio si consiguen un Phantom Dive rápido, pero aún no están estabilizados. Lo mejor es debilitar a su Dragapult si no tienen Energía en el Drakloak en la banca, ya que podrían fallar la respuesta. Esto es especialmente efectivo con Unfair Stamp y suele ser la mejor manera de remontar. Por otro lado, no tienes que temer a su Clefairy si vas ganando y puedes responderles con otro atacante.
 - En el Turno 1, usa Items de forma anticipada para jugar alrededor de Budew. PokéPad para Drakloak, Ultra Ball para Meowth, lo que sea mejor en la situación. Simplemente no dejes que esos Items se atoren si tienes la oportunidad de usarlos.
@@ -133,7 +137,6 @@ Título: Blaziken v Lucario 2
 - Guarda Risky Ruins para quitar sus Battle Cage. También funciona bien con Munkidori más adelante. Intenta conseguir dos premios cada que ataques con Phantom Dive. Lo ideal es que puedas derrotar a Kadabra o Dunsparce con la ayuda de Munkidori, pero si no, derrotar a Abra también está bien.
 - Usa Unfair Stamp en un turno de Phantom Dive, idealmente en el primero, pero el segundo también está bien.
 - Usar Pokémon como Fezandipiti/Meowth suele ser una buena opción para mantener el ritmo. Intenta reservar un espacio para Munkidori en la fase intermedia o final del juego.
-- Ve primero siempre.
 
 ```youtube
 id: bdMztyglVF4
@@ -157,7 +160,6 @@ Título: Blaziken v Zam 2
 - Unfair Stamp es mejor en turnos donde no tienen un KO fácil en la mesa. Si atacas con Dragapult y no quieren usar el primer ataque, o si puedes hacer que fallen un Boss’s Orders o una carga de energía relevante es cuando Unfair Stamp es mejor.
 - Dragon Headbutt de Drakloak en turno 2 es especialmente bueno cuando no tienen a Gabite en el tablero y menos de dos Roselia. Busca esta jugada cuando empieces primero.
 - Intenta jugar sin Fezandipiti/Meowth porque son una gran desventaja en este matchup.
-- Ve primero.
 
 ```youtube
 id: zgWVSoAduyg
@@ -174,13 +176,12 @@ Título: Blaziken v Chomp 2
 - Intenta conseguir un Blaziken rápido. Si amenazan un ataque con Fezandipiti (o Wellspring Ogerpon), consigue ambos Torchic de inmediato. Si no, consíguelos relativamente pronto. Blaziken puede derrotar a la mayoría de los Pokémon que dan dos premios (a veces con la ayuda de Adrena Brain) y no se preocupa por Clefairy.
 - Atacar con Dragapult sigue siendo una buena opción, y de todas formas lo harás con bastante frecuencia. Es mejor combinarlo con Unfair Stamp, ya que así es menos probable que tengan una respuesta.
 
-- Los Pokémon de dos premios como Fezandipiti y Meowth son más una desventaja de lo normal, ya que suelen empezar con ventaja en el intercambio de premios y luego cierran con Ursaluna sobre las presas fáciles así es que intenta mantenerlos fuera de juego si puedes. Claro que si es necesario bajarlos para mantenerte en el juego, usalos. No es una derrota instantánea si los bajas simplemente determina cuando realmente son indispensables.
+- Los Pokémon de dos premios como Fezandipiti y Meowth son más una desventaja de lo normal, ya que el oponente puede empezar con ventaja en el intercambio de premios y luego cierran con Ursaluna sobre las presas fáciles así es que intenta mantenerlos fuera de juego si puedes. Claro que si es necesario bajarlos para mantenerte en el juego, usalos. No es una derrota instantánea si los bajas simplemente determina cuando realmente son indispensables.
 - Budew se usa principalmente para evitar que encuentren a Fezandipiti o que usen Energy Switch sobre él. Si ya tienen un atacante, el bloqueo de Items no es tan prioritario.
-- Guarda Risky Ruins para una jugada potente con Munkidori. Este combo es muy relevante. Puede usarse para derrotar de un solo golpe a Pokémon como Fezandipiti, o rematarlo después de un golpe de 200 en caso de que lo protejan con Mist Energy. Munkidori también es muy bueno para devolver el daño que te hayan infligido en el campo. Rosa’s Encouragement también puede ser muy relevante en este matchup al ser tan agresivos.
+- Guarda Risky Ruins para una jugada potente con Munkidori. Este combo es muy relevante. Puede usarse para derrotar de un solo golpe a Pokémon como Fezandipiti, o rematarlo después de un golpe de 200.
 - Usar Unfair Stamp en el momento preciso es más importante que usarlo a la primera oportunidad. ¿Quieres evitar que usen a Fezeandipiti o a Clefairy? Todo depende de la situación.
 - Ir tras Clefairy suele ser lo mejor. Hay muchas probabilidades de que no tengan respuesta para tu Dragapult, especialmente si usas Unfair Stamp en el mismo turno.
 - Si tienes Shaymin o Watchtower, este es el mejor matchup para ellos.
-- Creo que lo mejor en este matchup es ir segundo.
 
 ```youtube
 id: IZFz1CYLWvw
@@ -189,15 +190,13 @@ Título: Blaziken v Slop 1
 
 ### Meganium - Ligeramente favorable
 
-- Este es otro matchup en el que suelo priorizar dos Torchic. Blaziken puede derrotar a Arboliva de un solo golpe, que es la mayor amenaza, pero Arboliva puede eliminar a Torchic primero, por eso necesitas dos.
+- Este es un matchup en el que suelo priorizar dos Torchic. Blaziken puede derrotar a Arboliva de un solo golpe, que es la mayor amenaza, pero Arboliva puede eliminar a Torchic primero, por eso necesitas dos.
 - Blaziken en turno 2 también puede ser bueno, pero es contraproducente si solo vas a conseguir un premio y si ya tienen a Teal Mask Ogerpon con dos Energías, ya que pueden conseguir el KO de vuelta con bastante facilidad en ese escenario.
 - Intenta encontrar o recuperar al otro Torchic, incluso si ya tienes a Blaziken.
 - Si no usas a Blaziken para derrotar a Arboliva de un solo golpe, Dragapult sigue siendo el atacante ideal la mayoría de las veces (aunque a veces Blaziken es el único disponible). El ataque de Dragapult suele ser mejor y no es tan grave si es noqueado como si lo fuera un Blaziken.
 - Si vas perdiendo en el intercambio de premios, intenta brickearlos con Unfair Stamp y/o noquear a Meganium. Si no tienen a Meganium en juego, es prácticamente imposible que derroten a Dragapult/Blaziken de un solo golpe.
-
 - Ogerpon con cuatro energías noquea a Dragapult de un solo golpe, así que ten cuidado con cualquier Ogerpon con dos energías y colocale un contador de daño. El resto del daño debería ir dirigido a Meowth. Con la ayuda de Munkidori, no es muy difícil preparar a Meowth para ser noqueado eventualmente. Si no tienen a Meowth y ya tienes diez en cada Ogerpon/Fez, el daño en área debería presionar a su Pokémon de un premio con menos HP en juego.
 - Guarda Risky Ruins para quitar Vitality Forest siempre que puedas. Risky Ruins no es muy bueno de inicio y es probable que la quiten. Si ya tienen todos sus Pokémon de Fase 2 en juego, guarda Risky Ruins hasta que puedas sacarle provecho.
-- Ve primero.
 
 ```youtube
 id: Ibp6SWJNgX8
@@ -214,7 +213,7 @@ Título: Blaziken v Meg 2
 - Este es otro matchup donde Blaziken es muy bueno. No necesitas conseguir el segundo Torchic de inmediato, y muchas veces ni siquiera lo necesitas.
 - Blaziken se usa mejor para atacar prácticamente siempre que pueda conseguir un KO. Idealmente, no tienen muchas Energías o un Raging Bolt ex con Energía en juego. Es posible que derroten a Blaziken de un solo golpe con Raging Bolt ex. Si lo hacen, responde con Unfair Stamp y Phantom Dive. Si tienen a Fezandipiti, no tomes un KO de inmediato e intenta que pierdan turnos en el juego. Aunque Blaziken es bueno para atacar, puede que ni siquiera ataques con él más de una vez. Se usa principalmente para frenar su ritmo y evitar un KO fácil de Clefairy.
 
-- Unfair Stamp es muy potente a menos que tengan a Fezandipiti y a Hoothoot. Intenta usarlo cuando no los tengan. Guarda Unfair Stamp para cuando empieces a atacar, a menos que puedas impedir que ataquen.
+- Unfair Stamp es muy potente a menos que tengan a Fezandipiti y a Hoothoot. Intenta usarlo cuando no los tengan (aunque ya cas nadie usa a Noctowl hoy en día). Guarda Unfair Stamp para cuando empieces a atacar, a menos que puedas impedir que ataquen.
 - En orden de prioridad, el daño en la banca siempre debe ser de 10 en todos los Hoothoot (o 20 si es el Hoothoot de 80 de HP) y 40 en Raging Bolt si lo tienen. 10 suele ser bueno en Fan Rotom, Fezandipiti u otros Pokémon de 210 de HP. El daño adicional también puede preparar a Noctowl para ser debilitado por Phantom Dive. Debilitar premios individuales aleatorios que hayas preparado también es muy útil.
 - Yo elegiría ir segundo porque ahora juegan muchos Crispin y tienen una buena oportunidad de conseguir un KO en el Turno 1.
 
@@ -230,7 +229,6 @@ Título: Blaziken v Bolt 2
 
 ### Festival Lead - Ligeramente favorable
 
-Este matchup podría estar casi parejo pero jugar tres Rare Candy ayuda a que sea ligeramente favorable.
 - Los Rare Candy son un recurso muy valioso, al igual que Blaziken para acelerar Energía.
 - Poner a Munkidori en juego para usarlo como escudo es muy bueno. Se puede usar como sacrificio o para subirlo después de que usen su primer ataque y noquean algo. Más adelante en la partida, también será relevante para Adrena Brain.
 - Guarda Risky Ruins para cuando puedas sacarle provecho inmediato (o si puedes combinarlo con Unfair Stamp).
@@ -244,7 +242,7 @@ Este matchup podría estar casi parejo pero jugar tres Rare Candy ayuda a que se
 - Si tienen a Mewtwo activo, intenta usar Itchy Pollen en el Turno 1, Dragon Headbutt en el Turno 2 y luego noquealo en el Turno 3. De lo contrario, simplemente noquealo en dos turnos normalmente. Atacarlo con Blaziken suele ser una buena opción y luego puedes rematarlo con Dragon Headbutt más Adrena Brain u otro Blaziken.
 - Dragapult no es tan bueno en este matchup, pero aun así se usa bastante.
 
-- Empieza tú. Si empiezas tú y ellos empiezan con Mimikyu o Tarountula, no dejes a Budew en el activo en el Turno 1.
+- Si empiezas tú y ellos empiezan con Mimikyu o Tarountula, no dejes a Budew en el activo en el Turno 1.
 - Normalmente necesitas usar Unfaiur Stamp en cuanto empieces a atacar. Sin embargo, usarlo antes a veces puede ser bueno si tienen un tablero malo y podrían quedarse sin cartas en la mano.
 - Suponiendo que tengan a Articuno en juego, el daño de Munkidori debería ir dirigido a Spidops o Tarountula. Si logras que Mewtwo esté al alcance de Ursaluna para un KO instantáneo sería ideal pero no es algo que suceda comúnmente.
 - Risky Ruins se usa mejor de forma reactiva para quitar su Estadio. Esto aumenta la probabilidad de que algo les falle en algún momento. Si juegas Risky Ruins de forma anticipada, pueden quitarlo fácilmente.
@@ -267,7 +265,7 @@ Título: Blaziken v Mewtwo 2
 - El Itchy Pollen para detener el N’s PP Up es muy bueno si no tienen mucha Energía en el campo. Esto es especialmente relevante después de que usen Flamebody Cannon de Darmanitan. Por supuesto, Budew también es muy bueno al principio, ya que puede impedir que evolucionen a Darmanitan al inicio.
 - Ve segundo.
 
-### Crustle - Desfavorable
+### Crustle - Muy Desfavorable
 
 - Combusken puede derrotar a Crustle de un solo golpe si consigues dos caras. Usa Night Stretcher para Torchic y Combusken. Puede que necesites a Blaziken para acelerar la Energía a pesar del coste de oportunidad de Combusken. Incluso una sola cara en Combusken deja a Crustle listo para un Dragon Headbutt. Combusken se usa mejor contra Crustle con varias energías y máximo HP.
 
@@ -284,4 +282,4 @@ Título: Blaziken v Mewtwo 2
 
 ## Reflexiones personales
 
-Este deck es simplemente una versión ligeramente inferior de Dragapult, que sigue siendo muy buena. He descubierto que Dragapult normal es sorprendentemente más eficiente para poner Energía en juego, y no tiene que preocuparse por el espacio extra en el deck o en el tablero con Blaziken. Esta versión también carece de la increíble utilidad de Ursaluna y Latias, lo cual es una lástima. Sin embargo, Blaziken mejora algunos matchups poco favorables, como contra Raging Bolt y Mewtwo, ya que no se ve amenazado por Clefairy, lo cual es algo muy positivo.
+Este deck es simplemente una versión ligeramente inferior de Dragapult, que sigue siendo muy buena. He descubierto que Dragapult normal es sorprendentemente más eficiente para poner Energía en juego, y no tiene que preocuparse por el espacio extra en el deck o en el tablero con Blaziken. Esta versión también carece de la increíble utilidad de Ursaluna y Latias, lo cual es una lástima. Sin embargo, Blaziken mejora algunos matchups poco favorables, como contra Raging Bolt y Mewtwo, ya que no se ve amenazado por Clefairy, lo cual es algo muy positivo. Blaziken también es mejor contra los Crushing Hammer o los mirror con Dusknoir así es que hay más justificacion de jugarlo en este meta.
