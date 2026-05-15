@@ -40,13 +40,17 @@ Energy: 7
 ### Inclusiones
 
 - Shaymin es especialmente útil contra Wellspring Ogerpon, Mega Starmie y Darmanitan. También aporta algunos puntos porcentuales de efectividad contra Arboliva. Creo que es una de las pocas tech que tiene mucho sentido, aunque no sea estrictamente necesaria.
-- Rabsca funciona muy bien contra Dragapult mientras no sea la versión con Dusknoir. El segundo Rellor es muy necesario para poder setear a Rabsca de manera consistente.
+- Rabsca funciona muy bien contra Dragapult mientras no sea la versión con Dusknoir o Yveltal. El segundo Rellor es muy necesario para poder setear a Rabsca de manera consistente.
 - Morty’s Conviction es una carta muy útil para robar cartas y aumentar la mano. A veces, Hilda o Dawn consiguen más cartas al traer a Alakazam/Dudunsparce, pero en otras ocasiones, Morty es un Partidario de robo más poderoso. Prefiero a Morty a otras opciones porque es la única forma de descartar Energía Psíquica en este deck, lo cual es fundamental para usar la combinación de Wondrous Patch/Enriching Energy en un solo turno.
 - Rare Candy es increíblemente útil y es muy bueno en este deck. Desde su velocidad al principio de la partida, su consistencia a mitad de partida, a veces fallas establecer más de un Kadabra, Abra es eliminado rápidamente, etc. Hay muchísimas razones para adorar a Rare Candy. Incluso con cuatro Kadabra, creo que este deck necesita 4 Rare Candy.
 - Night Stretcher es mi opción preferida porque, principalmente, quiero que sea muy fácil que Abra regrese lo más rápido posible.
-- Wondrous Patch es inútil o increíblemente poderosa. No se usará en todas las partidas, pero nos permite aprovechar Enriching Energy, una fantástica carta de robo que podemos reciclar mediante Dudunsparce.
-- Enhanced Hammer es necesario para lidiar con la Mist Energy y la Rocky Fighting Energy. Agregue un tercero por el mayor nivel de amenaza de Crustle y Garchomp.
-- Sacred Ash no es muy buena, pero su desventaja en comparación con Night Stretcher es mínima. Se incluye principalmente para crear fácilmente 5 o 6 Alakazam contra decks de un premio, como en el mirror matchup.
+- Wondrous Patch nos permite aprovechar Enriching Energy que es esencial para recuperarnos de la disrupción de mano.
+- Enhanced Hammer es necesario para lidiar con Mist Energy y Rocky Fighting Energy. Agregue un tercero por Lopunny, Crustle y Garchomp.
+- Sacred Ash no es muy buena, pero su desventaja en comparación con Night Stretcher es mínima. Se incluye principalmente para crear fácilmente 5 o 6 Alakazam contra decks de un premio, como en el mirror matchup o Festival Lead.
+
+### Posibles Inclusiones
+- Quizás sea necesario incluir un segundo Rabsca en la lista. Esto podría solucionar en parte el problema con Dusknoir si logras poner ambos en juego, aunque no resolvería el problema contra Yveltal. Sin embargo, dado que Psyduck no me impresionó en al probarlo, es posible que el segundo Rabsca tampoco lo haga.
+- Tal vez alguna opción de cambio para contrarrestar el aumento de Yveltal en los decks de Dragapult también sería útil. El bloqueo de retirada normalmente no es un problema para Alakazam, pero solo es relevante aquí porque pueden usar Adrena Brain para noquar un Rabsca atrapado, lo cual es muy problemático. Esta es una situación muy específica, pero cada vez cobra más importancia.
 
 ### Exclusiones
 
@@ -54,9 +58,9 @@ Energy: 7
 - Genesect supone una inversión excesiva de recursos para un retorno tan pequeño. No es tan difícil recuperarse de Unfair Stamp, y comprometer un espacio de la banca, así como espacios en el deck para Tools, me parece una mala idea.
 - Fan Rotom es malo, sobre todo sin Estadios. Al principio pensé que estaría bien usarlo si se jugaban Estadios, pero no le saqué mucho provecho y es un riesgo tenerlo en juego. Incluso con Estadios, no lo usaría.
 - Hablando de estadios, muchas listas incluyen Battle Cage. Sin embargo, incluso con 3 o 4 copias, el matchup contra Dragapult sigue siendo desfavorable. Por lo tanto, no quiero desperdiciar espacio en el deck con esta carta. Rabsca sí funciona y es mucho mejor.
-- Chien-Pao es una opción a considerar para las Rocket’s Watchtower aleatorias. Si otros decks, además de Dragapult, terminan jugandolo, podría valer la pena incluir a Chien-Pao.
 - Lana’s Aid parece una buena opción, pero siempre prefiero jugar otras cartas de partidario en ese turno. Night Stretcher es más conveniente. Este deck no necesita mucha recuperación, pero si la necesitara, también tiene Sacred Ash.
 - Morty's Conviction es muy útil como carta de robo que puede añadir muchas cartas a la mano. A veces, Hilda o Dawn consiguen más cartas al abrir opciones de Alakazam/Dudunsparce, pero en otras situaciones, Morty es un Partidario de robo más poderoso. La razón por la que prefiero Morty's Conviction que otras opciones es porque es la única forma que tiene este deck de descartar Energía Psíquica, lo cual es muy relevante cuando quieres usar el combo de Wondrous Patch/Enriching Energy. Terminé quitando los Morty's Conviction para hacer espacio para Rabsca, pero aún así no está mal.
+- Handheld Fan sería muy bueno contra Festival Lead pero es cuestionable porque ya están incluyendo Tool Scrapper y es dificil encontrarlo.
 <!-- /PUBLIC -->
 ## Gameplay
 
@@ -77,14 +81,14 @@ Creo que debo aclarar algo: debido a la naturaleza lineal de Alakazam, en estos 
 
 ### Dragapult - Depende
 
-Con la incorporación de Rabsca, las variantes sin Dusknoir ahora son favorables para Alakazam. Dragapult/Dusknoir sigue siendo muy desfavorable. Si juegas Battle Cage en lugar de Rabsca, todos los matchups contra Dragapult siguen siendo desfavorables. La forma de jugar contra Dragapult con y sin Rabsca es bastante diferente.
+Con la incorporación de Rabsca, las variantes sin Dusknoir y sin Yveltal ahora son favorables para Alakazam. Dragapult/Dusknoir sigue siendo muy desfavorable. Si juegas Battle Cage en lugar de Rabsca, todos los matchups contra Dragapult siguen siendo desfavorables. La forma de jugar contra Dragapult con y sin Rabsca es bastante diferente.
 
 Con Rabsca:
 - Lo más importante es setearte y estabilizar el tablero. No hay problema en no atacar durante un tiempo, ya que no querrás perder por Unfair Stamp. Si no te importa que lo usen porque ya tienes a Dudunsparce y/o Fezandipiti en juego, entonces puedes empezar a atacar. Usaran Unfair Stamp en algún momento, y quieres asegurarte de no quedarte sin opciones.
 - El tablero ideal es Rabsca, Rellor, Alakazam atacando, Kadabra y luego alguna combinación de Abra, Fezandipiti y Dudunsparce. Si juegan Rocket's Watchtower, puedes ignorar a Dudunsparce por completo.
-- Si Rabsca o un Rellor estan premiados, es posible que debas ser más agresivo, ya que no podrás establecer una banca imbatible.
+- Si Rabsca o un Rellor estan premiados, es posible que debas ser más agresivo, ya que no podrás establecer una banca imbatible. Igual debes ser muy agresivo si tienen Dusknoir.
 - Fezandipiti es muy útil en este matchup, especialmente para ponerlo en la banca de forma preventiva y contrarrestar Unfair Stamp. Rabsca protege a Fezandipiti, por lo que no representa una gran desventaja como lo sería sin el.
-- Pasar turno en lugar de atacar a Dragapult sin noquearlo suele ser la mejor opción, pero hay algunas excepciones dependiendo del campo (por ejemplo, si crees que no podrás conseguir el KO en el siguiente turno).
+- Pasar turno en lugar de atacar a Dragapult sin noquearlo suele ser la mejor opción, pero hay algunas excepciones dependiendo del campo (por ejemplo, si crees que no podrás conseguir el KO en el siguiente turno). En general no hay que darles acceso a daño extra, pero si ya tienen mucho de su lado por Risky Ruins, es irrelevante.
 
 Sin Rabsca:
 - Prioriza conseguir muchos Abra y evolucionarlos rápidamente. Dado que esta lista no incluye un Estadio, no podemos quitar risky Ruins. Necesitas evitar darles 3 premios con un solo Phantom Dive.
@@ -121,7 +125,7 @@ title: Rabsca v Pult 1
 ### Mega Lucario - Muy favorable
 
 - Tus condiciones de derrota involucran Rocky Fighting Energy y Judge. Juega alrededor de  Judge de la misma manera que jugarías con Unfair Stamp.
-- Guarda los Enhanced Hammer para la Rocky Fighting Energy en Mega Lucario. Si atacan con Rocky Fighting Energy en Solrock, intenta noquear otros Pokemon para tener Enhanced Hammer para Mega Lucario/Hariyama. Si no puedes esquivarlo, puedes usar el Enhanced Hammer para debilitarlo, siempre y cuando no hayas premiado el otro.
+- Guarda los Enhanced Hammer para la Rocky Fighting Energy en Mega Lucario. Si atacan con Rocky Fighting Energy en Solrock, intenta noquear otros Pokemon para tener Enhanced Hammer para Mega Lucario/Hariyama. Si no puedes esquivarlo, puedes usar el Enhanced Hammer para debilitarlo.
 - Dejar a Fezandipiti en la banca de forma preventiva es una buena estrategia contra Judge, siempre y cuando tengas ventaja en la carrera de premios y no pierdas al dárselo. Pueden conseguir fácilmente dos premios, pero no podrán realizar jugadas de atrapar o múltiples KO como Dragapult.
 - Creo que elegir segundo es mejor para evitar el riesgo innecesario de no conseguir más de un Básico y ser noqueado por Solrock o Riolu en turno 1.
 
@@ -159,6 +163,7 @@ title: Chomp v Zam 2
 - Juega alrededor de Unfair Stamp como de costumbre, intenta mantener un Dudunsparce en juego.
 - Usa el Enhanced Hammer en cuanto veas Mist Energy. Si lo conservas, podrían quitártelo con Claw of Darkness, lo cual es una de las pocas maneras de perder este matchup. Boss’s Orders también es un buen recurso para contrarrestar la Mist Energy, ya que normalmente tendrán muchas opciones para noquear en banca. Usar uno o dos de forma agresiva suele estar bien, pero depende de la situación y de cómo esté su mesa.
 - No te molestes con Shaymin en este matchup a menos que jueguen con Wellspring Ogerpon. Fezandipiti por sí solo no es gran cosa.
+- La versión de Mega Absol con Mist Energy ya es practicamente inexistente.
 
 ```youtube
 id: XXMfhlPs4lg
@@ -169,6 +174,7 @@ title: Zam v Absol 1
 
 - Las condiciones de derrota incluyen el brickeo después de Unfair Stamp/Judge y las artimañas de Arboliva. Fezandipiti es muy bueno en este matchup para contrarrestar el ataque de mano del oponente, pero Arboliva puede atraparlo en el activo y destruir tu banca fácilmente. Aun así, conviene jugar teniendo en cuenta la interrupción de la mano del oponente en la medida de lo posible. Intenta tener siempre un Dudunsparce en el tablero.
 - Shaymin es una buena opción ya que siempre representa una solución para un Arboliva rápido. Sin embargo, dependiendo del estado del tablero, Shaymin podría no ser una prioridad. Evita que Arboliva elimine a dos Abra a la vez. 
+- Intenta jugar alrededor de Briar con Boss's Orders.
 
 ```youtube
 id: iD7-LXurpaQ
@@ -182,8 +188,11 @@ title: Zam v Meganium 2
 
 ### Raging Bolt - Muy Favorable
 
-- Aunque el Raging Bolt no ex es muy molesto, sigo pensando que no merece la pena priorizar a Shaymin debido al espacio que ocupa en la banca.
+- Shaymin es muy bueno para protegernos de Wellspring Ogerpon.
 - Cuidado con Unfair Stamp, Fezandipiti es muy bueno, etc. Mismas recomendaciones que contra los decks anteriores.
+- Aveces tienen Xerosic's Machinations asi es que intenta jugar alrededor de eso. Deja Enriching Energy en Dudunsparce, guarda tu Sacred Ash, deja Abra y Kadabra en la banca, no robes cartas extra sin justificación, etc.
+
+Contra las versiones con Noctowl:
 - Si atacan con Raging Bolt no ex, tarde o temprano tendrás que lidiar con él, así que hazlo cuando te resulte más conveniente o menos conveniente para tu oponente. Derrotar al Raging Bolt no ex cuanto antes, cuando sea el único Pokémon con Energía, puede ser una buena estrategia. También podrías considerar derrotar a Fezandipiti o a su único Pokémon Tera, si es posible.
 - Si no tienen a Raging Bolt no ex y aún no estás listo para atacar, intenta dejar algo robusto en el activo, como Dudunsparce o incluso Kadabra, para que no consigan un KO fácil con Fan Rotom.
 
@@ -251,9 +260,10 @@ title: Crustle v Zam 2
 ### Ogerpon - Muy favorable
 
 - Prioriza conseguir a Shaymin. Si no puedes conseguirlo rápido, pero logras setearte sin quedarte muy atrás, ya no lo necesitarás.
-- Probablemente no tengan Unfair Stamp ni Xerosic, pero juega teniendo esto en cuenta por si acaso.
+- AAveces tienen Xerosic's Machinations asi es que intenta jugar alrededor de eso. Deja Enriching Energy en Dudunsparce, guarda tu Sacred Ash, deja Abra y Kadabra en la banca, no robes cartas extra sin justificación, etc.
 - Si terminas poniendo a Fezandipiti en juego, cargale una o dos Energías adicionales por si intentan usar Sob para conseguir tres premios.
+- Juega alrededor de Unfair Stamp a menos que ya tengas confirmación que tienen otro Ace Spec.
 
 ## Conclusión
 
-Deck puro de ruleta de matchups. Probablemente no lo jugaría porque perder contra Dragapult no es lo ideal, y ese matchup es peor de lo esperado. Sin embargo, la mayoría de los demás matchups son tan favorables que Alakazam aún puede ser una buena opción. El deck también es muy consistente y rápido con los multiples Rare Candy.
+Este deck es muy bueno ahora con Rabsca, lo que le permite vencer a una buena parte de los decks de Dragapult. Sin embargo, sigue siendo una ruleta en cuanto a matchups, ya que pierde estrepitosamente contra Mewtwo y algunas listas de Dragapult. Los matchups contra Festival Lead y los mirror son muy parejos y dependen puramente de la suerte.

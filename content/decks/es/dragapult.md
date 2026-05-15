@@ -6,19 +6,20 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for Dragapult](./images/dragapult/enmeowth.png)
+![decklist for Dragapult](./images/dragapult/shaymin.png)
 ```decklist
 Pokémon: 20
 4 Dreepy TWM 128
 4 Drakloak TWM 129
 3 Dragapult ex TWM 130
-2 Budew ASC 16
+1 Budew ASC 16
 2 Meowth ex M3 61
 1 Munkidori TWM 95
 1 Fezandipiti ex ASC 142
 1 Latias ex SSP 76
 1 Lillie's Clefairy ex JTG 56
 1 Bloodmoon Ursaluna ex TWM 141
+1 Shaymin DRI 10
 
 Trainer: 31
 4 Lillie's Determination MEG 119
@@ -44,15 +45,23 @@ Energy: 9
 ### Inclusiones
 
 - Meowth es demasiado bueno en este deck. Te permite buscar lo que quieras en cualquier momento para cualquier jugada que necesites y es útil durante cualquier parte del juego. Originalmente pensé que Meowth sería un riesgo muy grande por su bajo HP y que ocupa un espacio en banca pero es tan útil que ni notas eso. El único punto en contra de Meowth es que a veces inicias con esta carta, pero aun así vale la pena utilizar dos copias.
-- Munkidori con Risky Ruins parecería que es un combo inconsistente, pero ha tenido mucha más relevancia de lo que esperaba. Risky Ruins es bueno en cualquier matchup y este combo reemplaza lo que se lograba anteriormente con Hawlucha. No tengo al segundo Munkidori porque no hay muchas oportunidades de usar ambos en un mismo turno y es realmente muy fácil encontrar al único que juegas y aunque a veces se premia, no te afecta tanto. La principal razón para jugar un segundo Munkidori sería el mirror. Risky Ruins suele ser mejor que Area Zero porque activa usos relevantes de Munkidori en la mayoría de los matchups. Sin el, Munkidori sigue siendo buena en los mirrors, pero prácticamente inútil en cualquier otro caso. El daño de Risky Ruins también es muy efectivo contra decks de tipo Lucha.
+- Risky Ruins es bueno en cualquier matchup y este combo reemplaza lo que se lograba anteriormente con Hawlucha. No tengo al segundo Munkidori porque no hay muchas oportunidades de usar ambos en un mismo turno y es realmente muy fácil encontrar al único que juegas y aunque a veces se premia, no te afecta tanto. La principal razón para jugar un segundo Munkidori sería el mirror. Risky Ruins suele ser mejor que Area Zero porque activa usos relevantes de Munkidori en la mayoría de los matchups. Sin el, Munkidori sigue siendo buena en los mirrors, pero prácticamente inútil en cualquier otro caso. El daño de Risky Ruins también es muy efectivo contra decks de tipo Lucha.
 - Latias y Ursaluna continúan siendo muy buenos y sería un grave error no incluirlos en la lista. Además del uso normal de Ursaluna, Crispin le abre las puertas a atacar antes de lo normal y tener un atacante que no es débil a Lillie’s Clefairy es muy importante en este formato.
-- Clefairy es demasiado fuerte en los mirror y contra Lucario, dos de los decks que probablemente se encuentren entre los más populares del nuevo formato inicialmente.
+- Clefairy es demasiado fuerte en los mirror y contra Mega Lucario. Tener un atacante fácil de cargar que no sea Dragapult puede ser muy útil.
 - Este deck depende de Boss’s Orders en muchos turnos específicos y los necesitas en turnos seguidos, así es que estoy muy seguro que jugar 4 es necesario para compensar la pérdida de Counter Catcher. 
 - Crispin es muy bueno y jugar 2 es lo mínimo que debes hacer. Aunque no he tenido problemas encontrando a Crispin en el momento justo, la opción de Rosa’s Encouragement también es muy buena por si acaso no lo encuentras.
 - Aún así, Rosa’s Encouragement es muy situacional. Antes de probarla, estaba seguro que un tercer Crispin sería mejor pero cargar instantáneamente a un Dragapult y también cargar de turno a Munkidori es una jugada que sucede lo suficiente que se vuelve muy relevante. Un Drakloak con energía casi siempre será atacado por un oponente lo cual hace de Rosa aún mas necesaria. Además, es muy fácil hacer el combo de Rosa mas Dark a Munkidori gracias a que hay muy poca disrupción de mano viable en este momento en el nuevo formato. 
 - Brock’s Scouting también es muy bueno para agregar consistencia al deck, así como para encontrar Pokemon ex que ahora son un poco más complicados de buscar. 
 - Team Rocket’s Petrel es usado principalmente para buscar Unfair Stamp en cualquier momento gracias a Meowth y también ayuda con la consistencia en general ya que es muy versatil. 
-- El segundo Budew probablemente no sea necesario, pero no sé qué añadir en su lugar. Probaré a Maractus contra Garchomp y, si funciona bien, probablemente lo incluiré.
+- Creo que Shaymin ahora es más necesario por la amenaza de Raging Bolt y Mega Starmie, además de alguno beneficio contra otros decks random.
+
+### Posibles Inclusiones
+- Dudunsparce ex puede ser muy útil contra Raging Bolt y Crustle. Viene con Run Away Draw Dudunsparce, que ofrece una gran utilidad. Es bastante fácil reemplazar cartas como Brock's Scouting, Ursaluna o el segundo Budew por el paquete de Dudunsparce. Azumarill y Mega Lopunny tienen aplicaciones similares a las de Dudunsparce ex.
+- Paldean Tauros puede ser un counter de una sola carta contra Crustle si surge la necesidad.
+- Crushing Hammers pueden ser muy buenos en matchups contra Dragapult y Garchomp.
+- Yveltal puede ayudar con el posicionamiento en el tablero, remontadas o condiciones de victoria alternativas. Dragapult puede aprovechar muy bien a Yveltal, pero la lista debe cambiar bastante para incluirlo (más Munkidori y Dark Energy, quizás Dudunsparce, Area Zero o Pecharunt ex).
+- Un segundo Budew ayuda a evitar empezar con desventajas de dos premios. Aunque Budew ya no es tan importante como antes, sigue siendo útil en la mayoría de las partidas.
+- Bronzong es algo que tengo que probar. Me destrozó en Los Ángeles y desde entonces me intriga.
 
 ### Exclusiones
 
@@ -64,9 +73,11 @@ Energy: 9
 - Aun con Noctowl, no lograba utilizar Team Rocket’s Watchtower de manera efectiva y además puede perjudicarte quitándole la habilidad a tu propio Meowth ex.
 - Área Zero tiene alguna utilidad, pero es mucho menos útil e impactante que Risky Ruins. Si juegas Área Zero, también te recomiendo jugar Chien-Pao para asegurarte de aprovechar la ventaja de reacomodar tu banca.
 - Maractus no es tan bueno porque la mayoría de los decks pueden librarse de él o noquearlo con lo que quede atrapado. Lo intente utilizar contra Garchomp y no fue efectivo para nada.
-- Dudunsparce es bastante útil en general y tiene la capacidad de contrarrestar los decks de Crustle y Kangaskhan Box. Sin duda lo probaré y lo consideraré con más detenimiento.
 - Hero's Cape es muy fuerte, pero sigo pensando que Unfair Stamp es mejor. No tener Unfair Stamp deja al descubierto algunas vulnerabilidades y empeora mucho algunos matchups (decks de una sola carta de premio, Mewtwo, etc.).
-- Otras cartas tech que probaré son Azumarill y Tauros. Azumarill es similar a Dudunsparce en que es eficaz contra Raging Bolt y Crustle. Ocupa menos espacio y requiere menos adaptaciones, pero tampoco se beneficia de la consistencia que ofrece Dudunsparce al robar cartas. Tauros es solo para Crustle y creo que es mejor que Chi-Yu.
+- El segundo Munkidori es bueno en el mirror pero con Clefairy en esta lista los mirror suelen ser mas rápidos y el segundo no me ha parecido necesario.
+- Rare Candy es una carta muy buena pero no creo que sea necesaria.
+- Dusknoir es una carta muy fuerte, pero no necesariamente en este metajuego. Suele ser relevante solo contra decks de un premio, que ya deberían ser manejables. Sin embargo, puede ser muy útil contra Crustle. Mega Lopunny tiene a Psyduck y Garchomp sigue siendo un matchup difícil.
+- Finalmente probé Moltres y no sirvió para nada contra Raging Bolt, así que no creo que merezca estar en el deck.
 <!-- /PUBLIC -->
 ## Gameplay
 
@@ -82,6 +93,7 @@ Energy: 9
 - No uses el Unfair Stamp en cuanto puedas sin analizarlo. Dependiendo de lo que puedas hacer o del estado del tablero del oponente, a veces es mejor tácticamente atrasar el Unfair Stamp un turno. Un buen ejemplo de cuándo no usarlo es si activarías su Fezandipiti este turno, pero si esperas puedes noquearlo en el siguiente turno junto con el Unfair Stamp. Otro ejemplo es si el tablero del oponente no está desarrollado, puede ser mejor usarlo en ese momento aunque no puedas atacar porque podrías hacerlos robar muerto. Pregúntate ¿El Unfair Stamp les impide hacer algo específico? Si no, quizás sea mejor conservarlo.
 - La mayoría de los decks solo tiene el Unfair Stamp para atacar tu mano, así que puedes acumular cartas en mano y no enfocarte en adelgazar tu deck. Sin embargo, decks como Lucario o Meganium pueden usar Judge, así que es mejor adelgazar cartas inútiles contra estos decks.
 - Risky Ruins se puede usar principalmente de tres maneras diferentes: de forma preventiva, reactiva o para obtener ventaja inmediata con Munkidori. La prioridad que se le dé dependerá del matchup.
+- Ve primero a ciegas contra todo. Elige segundo contra decks que pueden atacar en turno 1 como Raging Bolt o Mega Lucario.
 
 ## Matchups
 
@@ -153,12 +165,12 @@ title: Pult v Lucario 3
 - Intenta jugar sin Fezandipiti/Meowth porque son una gran desventaja en este matchup.
 - Ve primero.
 
-### Kangaskhan Box - Desfavorable
+### Kangaskhan Box - Ligeramente Desfavorable
 
-Absol en sí es bastante irrelevante, así que este matchup generalmente se refiere a los decks tipo “Box” que atacan con Clefairy.
+Mega Absol en sí es bastante irrelevante, así que este matchup generalmente se refiere a los decks tipo “Box” que atacan con Clefairy. Este matchup mejora mucho con Shaymin.
 
 - Los Pokémon de dos premios como Fezandipiti y Meowth son más una desventaja de lo normal, ya que suelen empezar con ventaja en el intercambio de premios y luego cierran con Ursaluna sobre las presas fáciles así es que intenta mantenerlos fuera de juego si puedes. Claro que si es necesario bajarlos para mantenerte en el juego, usalos. No es una derrota instantánea si los bajas simplemente determina cuando realmente son indispensables.
-- Budew se usa principalmente para evitar que encuentren a Fezandipiti o que usen Energy Switch sobre él. Si ya tienen un atacante, el bloqueo de Items no es tan prioritario.
+- Budew se usa principalmente para evitar que encuentren a Fezandipiti o que usen Energy Switch sobre él. Si ya tienen un atacante, el bloqueo de Items no es tan prioritario. Ahora con Shaymin ya no es tan necesario bloquear los Items al inicio.
 - Guarda Risky Ruins para una jugada potente con Munkidori. Este combo es muy relevante. Puede usarse para derrotar de un solo golpe a Pokémon como Fezandipiti, o rematarlo después de un golpe de 200 en caso de que lo protejan con Mist Energy. Munkidori también es muy bueno para devolver el daño que te hayan infligido en el campo. Rosa’s Encouragement también puede ser muy relevante en este matchup al ser tan agresivos.
 - Usar Unfair Stamp en el momento preciso es más importante que usarlo a la primera oportunidad. ¿Quieres evitar que usen a Fezeandipiti o a Clefairy? Todo depende de la situación.
 - Ir tras Clefairy suele ser lo mejor. Hay muchas probabilidades de que no tengan respuesta para tu Dragapult, especialmente si usas Unfair Stamp en el mismo turno.
@@ -182,14 +194,13 @@ title: Pult v Absol 3
 
 ### Meganium - Favorable
 
-Este matchup depende básicamente de suerte. Si consiguen un Arboliva rápido, te destrozarán y no podrás hacer nada al respecto y menos si no juegas Shaymin.
+Este matchup es mucho mejor ahora que jugamos Shaymin auynque aún depende mucho de la suerte.
 
-- Bloquear los Items al principio es fundamental, ya que tu única condición para perder es que consigan un Arboliva rápido.
+- Bloquear los Items al principio es fundamental, ya que tu única condición de perder es que consigan un Arboliva rápido. Esto es menos relevante con Shaymin.
 - La otra prioridad es conseguir tantos Drakloak como sea posible, aunque esto aplica a cualquier partida. Si tienes buena suerte y consigues muchos Drakloak, aún puedes ganar incluso contra un Arboliva rápido.
 - Si llegan rápido a Arboliva, normalmente necesitarás derrotarlo de dos golpes con Phantom Dive.
 - Ogerpon con cuatro energías noquea a Dragapult de un solo golpe, así que ten cuidado con cualquier Ogerpon con dos energías y colocale un contador de daño. El resto del daño debería ir dirigido a Meowth. Con la ayuda de Munkidori, no es muy difícil preparar a Meowth para ser noqueado eventualmente. Si no tienen a Meowth y ya tienes diez en cada Ogerpon/Fez, el daño en área debería presionar a su Pokémon de un premio con menos HP en juego.
 - Guarda Risky Ruins para quitar Vitality Forest siempre que puedas. Risky Ruins no es muy bueno de inicio y es probable que la quiten. Si ya tienen todos sus Pokémon de Fase 2 en juego, guarda Risky Ruins hasta que puedas sacarle provecho.
-- Elige ir primero.
 
 ```youtube
 id: q32sS-zVUb8
@@ -211,14 +222,14 @@ id: QjIFFi2LNgI
 title: Pult v Meganium 4
 ```
 
-### Raging Bolt - Desfavorable
-
-Si tienen a Clefairy, este enfrentamiento es desfavorable. Si no lo tienen, es favorable.
+### Raging Bolt - Ligeramente Desfavorable
 
 - Simplemente juega con normalidad. Manténlos bloqueados de Items hasta que empieces a atacar.
-- Unfair Stamp es muy potente a menos que tengan a Fezandipiti y a Hoothoot. Intenta usarlo cuando no los tengan. Guarda Unfair Stamp para cuando empieces a atacar, a menos que puedas impedir que ataquen.
+- Unfair Stamp es muy poderosa a menos que tengan a Fezandipiti y a Hoothoot. Intenta usarla cuando no los tengan (aunque Noctowl ya no es común últimamente). Guarda Unfair Stamp para cuando empieces a atacar, a menos que puedas impedir que ataquen.
 - En orden de prioridad, el daño en la banca siempre debe ser de 10 en todos los Hoothoot (o 20 si es el Hoothoot de 80 de HP) y 40 en Raging Bolt si lo tienen. 10 suele ser bueno en Fan Rotom, Fezandipiti u otros Pokémon de 210 de HP. El daño adicional también puede preparar a Noctowl para ser debilitado por Phantom Dive. Debilitar premios individuales aleatorios que hayas preparado también es muy útil.
 - Crispin, Clefairy o Ursaluna pueden ser atacantes decentes en caso de necesidad. Si puedes tomar la delantera rápidamente con Clefairy, es bastante bueno, pero no suele ser muy frecuente. Responder a un Raging Bolt con Clefairy no es muy efectivo a menos que aún no tengas a Dragapult listo.
+- El matchup mejora con Shaymin pero aun asi es dificil.
+- Item lock al inicio puede alentarlos.
 
 ```youtube
 id: iBgJKAXktFk
@@ -230,15 +241,15 @@ id: szk1791lO-s
 title: Pult v Bolt 2
 ```
 
-### Festival Lead - Ligeramente favorable
+### Festival Lead - Parejo
 
-Este matchup es muy cerrado. Es un poco peor si juegan Genesect.
+La lista actual de Dragapult es una de las peores contra Festival Lead, junto con las versiones de Hero's Cape y Crushing Hammer, pero aún así no es tan mal matchup.
 - Poner a Munkidori en juego para usarlo como escudo es muy bueno. Se puede usar como sacrificio o para subirlo después de que usen su primer ataque y noquean algo. Más adelante en la partida, también será relevante para Adrena Brain.
 - Guarda Risky Ruins para cuando puedas sacarle provecho inmediato (o si puedes combinarlo con Unfair Stamp).
 - Unfair Stamp está muy rota. Úsala cuando empieces a atacar con Dragapult, o con Boss's Orders para alentarlos. Si subes a Thwackey y juegas Unfair Stamp, es poco probable que se libere de inmediato y así puedes ganar tiempo. Si juegan Genesect y no tienen la banca llena, usa Unfair Stamp lo antes posible e intenta hacer la jugada de Boss's Orders a Thwackey.
 - Noquea a Rabsca lo antes posible. Es prácticamente imposible ganar si permanece en juego demasiado tiempo. A veces lo noqueas con Drakloak, o con una sola Energía en Dragapult.
 - Si juegas Moltres, puede ser muy bueno para noquear Applin's.
-- Si jugeas MAractus, puede comprarte tiempo al inicio atrapando a un Thwackey, aunque claro esto no funciona si tienen Kiean ya en la mano.
+- Si jugeas Maractus o Yveltal, puede comprarte tiempo al inicio atrapando a un Thwackey, aunque claro esto no funciona si tienen Kiean ya en la mano.
 - Si no tienen muchas cartas en la mano y solo dos Thwackey, puede ser mejor atacar a uno de ellos. Dependiendo del tablero, es más probable que fallen un KO, pero a veces debilitar a su atacante sigue siendo la mejor opción. Si solo tienen un Thwackey, noquearlo suele ser lo mejor.
 
 ```youtube
@@ -317,9 +328,11 @@ title: Pult v Zoroark 3
 - Ve segundo y trata de alentarlos con un Itchy Pollen en el primer turno.
 
 ### Ogerpon - Desfavorable
+
 - Itchy Pollen es una prioridad importante al principio del juego para alentarlos.
 - Intenta usar Unfair Stamp al noquear a Clefairy o Fezandipiti con Phantom Dive. De lo contrario, usa Unfair Stamp al final del juego al atacar con Ursaluna para intentar impedir que consigan lo que necesitan para ganar.
 - No dejes nada expuesto que no quieras que quede atrapado con Sob. Si lo hacen, Munkidori puede aprovechar ese daño.
+- Shaymin te protege de Fezandipiti y Wellspring Ogerpon.
 
 ```youtube
 id: WjBDGAt49G8
@@ -338,4 +351,4 @@ title: Ogerpon v Pult 3
 
 ## Conclusión
 
-Este deck es sin duda muy bueno y el mejor del formato. Incluso con deck que intentan contrarrestarlo y siendo un objetivo prioritario, su variedad de matchups sigue siendo bastante buena. Sin embargo, no creo que sea el deck increíblemente poderoso que se dice que es. ¿Está realmente muy por encima de los demás? No lo creo.
+Dragapult es claramente muy dominante y hay todo tipo de variantes diferentes circulando. No sé con certeza cuál es la mejor, pero mis resultados y razonamientos se presentan aquí, lo que me ha llevado a creer en una lista similar a esta, aunque aún se puede ajustar aquí y allá. No creo que Dudunsparce sea necesariamente tan bueno, ya que a este deck no le importa robar tres cartas al azar de vez en cuando. Lo que más me atrae es el potencial tech de Dudunspace ex, y resulta que viene con una opción de robo decente. Poder extraer constantemente valor de cartas de búsqueda adicionales durante la partida (sinergia con Run Away Draw) es genial.

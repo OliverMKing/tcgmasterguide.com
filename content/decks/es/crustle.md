@@ -1,7 +1,7 @@
 ---
 title: Crustle
 pokemon: [558]
-tier: 1
+tier: 2
 format: Standard
 ---
 ## Decklist
@@ -41,18 +41,23 @@ Energy: 15
 ### Inclusiones
 
 - Munkidori es muy fuerte contra cualquier Pokémon que no pueda derrotar fácilmente a tu atacante de un solo golpe. En particular, Dragapult, Mewtwo o cualquier Pokémon que tenga su propio Munkidori. Tiene una sinergia natural con Crispin y Crustle, ayudándolos a mantenerse con vida.
-- Psyduck es necesario para Dusknoir. Aunque no lo tengo en muchos de mis otros decks porque Dusknoir es un fraude, es demasiado fácil incluirlo en este. Este deck también tiene una gran diferencia en su matchup contra la versión de Dragapult con Dusknoir en comparación con la versión sin Dusknoir. Dicho esto, definitivamente se puede quitar dependiendo de cómo evolucione el metajuego.
-- Cornerstone Ogerpon salva por sí solo el matchup contra Mewtwo y Festival Lead. Para la mayoría de los demás decks no es necesario incluir techs. Para Crustle es diferente porque Crustle no es un deck fundamentalmente bueno y solo gana contrarrestando otros decks, por lo que tiene más sentido contrarrestar tantos decks como sea posible.
+- Psyduck es necesario para Dusknoir.
+- Cornerstone Ogerpon salva por sí solo el matchup contra Mewtwo y Festival Lead.
 - Boss’s Orders es muy útil en este deck porque la mayoría de los decks solo tienen unas pocas respuestas para Crustle. Boss’s Orders nos permite eliminarlos antes de que puedan obtener ventaja, facilitando así las victorias. Hay muchos ejemplos donde Boss es realmente relevante para ganar la partida: Duskull, Meganium, Mimikyu del Team Rocket, etc. No jugaría con menos de cuatro.
 - Crispin está incluido porque este deck es demasiado lento con las Energías y necesita toda la ayuda posible.
 - Morty’s Conviction es un partidario mediocre, pero realmente no hay mejores opciones y Crustle necesita mucha ayuda para ver cartas.
 - Hilda suele ser bastante débil, pero puede ser útil para encontrar tipos de energía específicos. Se incluye principalmente porque mejora el matchup contra Alakazam, además de ser una carta bastante funcional en general.
 - Petrel es bastante débil, pero resulta crucial en las situaciones en las que se necesita. Buscar Hero’s Cape, Jumbo Ice Cream o Night Stretcher en momentos clave es decisivo para ganar. También es fundamental para el matchup contra Mewtwo, ya que permite encontrar a Cornerstone Ogerpon mediante Ultra Ball, y buscar Buddy Buddy Poffin al principio de la partida también es una buena opción.
-- La mayoría de los Items son bastante intuitivos. Juego dos Ultra Ball porque es mucho más difícil encontrar Cornerstone con solo una. Aunque esto solo es relevante en un matchup, la Ultra Ball sigue siendo útil en general y descartar cartas no es tan malo para este deck. Claro que, si quitas a Cornerstone, el deck solo jugaría otra PokéPad y ninguna Ultra Ball, lo cual sería ideal.
+- La mayoría de los Items son bastante intuitivos. Juego dos Ultra Ball porque es mucho más difícil encontrar Cornerstone con solo una. Aunque esto solo es relevante en un matchup, la Ultra Ball sigue siendo útil en general y descartar cartas no es tan malo para este deck. 
 - La Hero's Cape es la única opción viable de Ace Spec para este deck porque en realidad es bastante difícil mantener a Crustle con vida.
 - Spiky Energy es muy bueno contra muchos Pokémon: Meganium, Dusknoir, Raging Bolt no ex, Pokémon del Team Rocket y Zoroark, por nombrar algunos.
 - Se requieren cuatro Mist Energy para Alakazam y también son muy útiles contra Dragapult.
 - Si no fuera por Crispin, probablemente podríamos arreglárnoslas con dos de tipo Oscuro y dos de tipo Planta, pero Crispin es muy importante y poderoso, y a menudo dependemos de que esté activo para la aceleración de Energía.
+
+### Posible Inclusiones
+
+- Sacred Charm es una opción a considerar, ya que ayudaría en matchups ajustados al reducir el daño relevante de Drakloak, Dusknoir o Dudunsparce.
+- Forest of Vitality podría ser una buena adición. No parece lo suficientemente poderoso como para justificar su inclusión, pero no lo he probado.
 
 ### Exclusiones
 
@@ -80,7 +85,7 @@ Algunos de estos matchups son bastante sencillos y polarizados debido a la natur
 
 ### Dragapult - Depende
 
-Contra la versión Dusknoir, este matchup está bastante parejo, o quizás ligeramente desfavorable, así que solo hablaré de ese. Contra las versiones que no tienen Dusknoir, es fácil, así que probablemente no importe cómo juegues. Y lo inverso es verdad contra las versiones de Dudunsparce, donde es practicamente imposible ganar si lo juegan correctamente.
+La mayoría de los decks de Dragapult probablemente no techeen contra Crustle en este momento, así que realmente depende de la lista a la que nos enfrentemos. Si tienen a Dudunsparce ex, estamos perdidos. Si juegan con Dusknoir, el matchup es bastante parejo (o ligeramente desfavorable). Contra cualquier otra versión, el matchup es muy favorable. Por supuesto, si tienen una carta como Paldean Tauros, prácticamente no tenemos ninguna posibilidad.
 
 - Psyduck casi siempre es útil si tienen a Dusknoir en juego, ya que muchos jugadores usan Rare Candy ahora, por lo que la amenaza de Dusknoir siempre está presente. Intenta mantener a Psyduck en juego usando Night Stretcher si es noqueado y protegiéndolo con Mist Energy.
 - Munkidori es muy bueno debido al daño residual que se acumula. Se usa a menudo para curar a Psyduck y puede presionar a Duskull.
@@ -109,7 +114,7 @@ title: Crustle v Lucario 1
 
 ### Alakazam - Depende
 
-Este matchup está bastante parejo si juegan dos Enhanced Hammer, o quizás ligeramente desfavorable. Si juegan más Ehanced Hammer, probablemente perdemos, y si juegan menos, ganamos fácilmente. Este matchup es desfavorable si tienen Dudunsparce ex o un Alakazam alterno.
+Este matchup está bastante parejo si juegan dos Enhanced Hammer, o quizás ligeramente desfavorable. Si juegan más Ehanced Hammer, probablemente perdemos, y si juegan menos, ganamos fácilmente. Este matchup es desfavorable si tienen a Dedenne.
 
 - Nuestra condición de victoria tener en el activo a un atacante con Mist Energy y resistir sus Enhanced Hammer. Usa primero a Lillie y Morty para intentar encontrar una o dos Mist Energy iniciales, y luego usa a Hilda para encontrar una o dos más.
 - Los Crustles son recursos valiosos, ya que necesitarás poder amenazar con atacantes con Mist Energy. No evoluciones a ellos solo para ser noqueados de inmediato. Puedes sacrificar a Cornerstone Ogerpon para llegar a la situación ideal.
@@ -153,6 +158,7 @@ title: Crustle v Garchomp 1
 
 - Este matchup es sencillo, como muchos otros. Simplemente setea varios Crustle como de costumbre.
 - Raging Bolt no ex es una amenaza real. Si lo tienen en la banca, usa Boss’s Orders para presionarlo si es posible. También pueden usar a Fan Rotom para presionar rápidamente. Necesitas preparar un Crustle sin daño (en la banca si es necesario).
+- La versión sin Noctowl a veces incluye a Passimian, que representa una amenaza. Intenta tener a tu Crustle principal con Hero's Cape para que pueda sobrevivir a un ataque de Passimian y noquearlo de regreso. No querrás invertir todas tus Energía en un solo Crustle para que luego Passimian te noquee, así que intenta distribuir tus Energías al principio (o simplemente usa Hero's Cape).
 
 ```youtube
 id: BK_19n-ZiI0
@@ -176,7 +182,7 @@ id: s16Xk0eqB8c
 title: Festival v Crustle 1
 ```
 
-### Kangaskhan Box - Muy favorable
+### Kangaskhan Box - Muy Favorable
 
 - Este matchup puede perderse dependiendo de las tech que utilicen.
 - Si tienen Cornerstone Ogerpon pueden pegarle a tu Crustle, pero no es un problema siempre y cuando puedas atacar y derrotarlo de un solo golpe.
@@ -206,20 +212,23 @@ id: 9R29o4idU1o
 title: Crustle v Mewtwo 2
 ```
 
-### Zoroark - Muy favorable
+### Zoroark - favorable
+Si no tienen a Mega Lopunny, este matchup es muy favorable. Si la tienen, es más parejo, pero aún así es muy ganable.
 
 - La Spiky Energy es increíble en este matchup. Con una, Crustle derrota de un solo golpe a un Zoroark, Darmanitan o Zekrom envenenado. Con dos, Crustle derrota de un solo golpe a un Zoroark no envenenado.
 - Cornerstone Ogerpon puede ser útil, pero yo priorizaría a Crustle, ya que puede derrotar a Zoroark de un solo golpe con la ayuda de Spiky Energy. Si acumulas demasiadas Energías Básicas en el descarte, Darmanitan puede convertirse en una amenaza, así que intenta evitarlo. Aun así, probablemente ganarás.
 - La Mist Energy es útil para detener posibles estrategias de Elgyem. No coloques Pokémon adicionales innecesarios o podrías ser castigado por cartas de control aleatorias.
+- Si tienen a Mega Lopunny, necesitas ponerle Hero's Cape a Crustle y también intentar atacarlo con Boss's Orders antes de que te ataquen.
 
 ### Mirror de Crustle - Parejo
 
-Nunca he jugado un matchup contra un Crustle y no tengo intención de hacerlo. Con dos Munkidori y varios Crispin, podría ser ligeramente favorable dependiendo de su lista. Si tienen a Munkidori y Lana’s Aid, podría ser ligeramente desfavorable.
+Nunca he jugado un matchup contra un Crustle y no tengo intención de hacerlo. Con dos Munkidori y varios Crispin, podría ser ligeramente favorable dependiendo de su lista.
 
 ### Ogerpon - Muy favorable
 
-- Solo baja a un Crustle y se acabó el juego.
+- Algunos podrían jugar Passimian, lo cual representa una amenaza. Intenta tener a tu Crustle principal con Hero's Cape para que pueda sobrevivir a un ataque de Passimian y noquearlo de regreso. No querrás invertir todas tus Energía en un solo Crustle para que luego Passimian te noquee, así que intenta distribuir tus Energías al principio (o simplemente usa Hero's Cape).
+- Si no tienen Passimian, ganas fácilmente, así que intenta jugar alrededor de el. No querrás invertir todas tus Energía en un solo Crustle para que luego Passimian te noquee, así que intenta distribuir tus Energías al principio (o simplemente usa Hero's Cape).
 
 ## Conclusión
 
-El abanico de matchups de este deck es demasiado bueno como para ignorarlo. Es mucho mejor ahora que no tiene que preocuparse por Gardevoir. Sin embargo, pierde contra Dudunsparce y Mega Lucario y contra decks aleatorios como Festival Lead. Sigue siendo un deck claramente antimeta, lo que lo hace inherentemente mejor cuando es inesperado y peor después de tener éxito, como sucedió en Praga. Dicho esto, creo que es increíblemente fuerte y consigue matchups muy favorables contra una buena parte del meta, haciendo cosas de Crustle.
+El abanico de matchups de este deck es demasiado bueno como para ignorarlo. Como no le fue bien en LA, espero que las techs en su contra bajen bastante. Sin embargo, pierde contra Dudunsparce ex. A pesar de ello, el deck sigue siendo muy bueno en general y tiene buenas posibilidades de éxito en el metajuego actual. La lista ganadora de LA que juega Dudunsparce sin ex también beneficia a Crustle.
