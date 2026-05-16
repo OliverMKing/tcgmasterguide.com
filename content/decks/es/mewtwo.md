@@ -49,6 +49,9 @@ Energy: 11
 - Brave Bangle funciona muy bien con Spidops y alcanza cifras muy relevantes. Derrotar de un solo golpe a Pokémon con 210 de HP de dos premios, y derrotar a Lucario de dos golpes con mayor facilidad, es excelente. Probé solo con Maximum Belt y descubrí que no era suficiente en cuanto a modificadores de daño.
 - El Maximum Belt es el Ace Spec del deck porque permite que Mewtwo llegue a 330 de daño y Spidops a 230. Estos números son muy relevantes para ayudar a Mewtwo a mantenerse competitivo en el metajuego.
 
+### Posibles inclusiones
+- Lucky Helmet podría ser útil para la consistencia y para contrarrestar Unfair Stamp.
+
 ### Exclusiones
 
 - Un segundo Mimikyu es innecesario y a veces resulta contraproducente. Sin embargo, este o el Kangaskhan del Team Rocket podrían considerarse para contrarrestar a Cornerstone Ogerpon, en caso de que se vuelva relevante en el metajuego.
@@ -57,6 +60,8 @@ Energy: 11
 - Otros Pokémon del Team Rocket, como Wobbuffet, Sneasel y Murkrow/Honchkrow, tienen una utilidad limitada. Atacar con Spidops suele ser suficiente. Sin embargo, tener a estos Pokémon cerca puede ayudar a Spidops a infligir más daño, por lo que la flexibilidad de otros atacantes situacionales no es necesariamente mala. Aunque no los he probado mucho.
 - También hay que tener en cuenta la posibilidad de usar Buddy Buddy Poffin en lugar de un Protón y un Bug Catching Set. Esto requeriria agegar Energía Psíquica y Poké Pad, y es difícil encontrar el equilibrio perfecto. La existencia de Protón me hace dudar de si vale la pena usar  Poffins, pero sin duda puede ser útil en partidas donde no tienes Protón y empiezas con Lillie o Ariana.
 - Sacred Ash podría ser útil para encadenar Spidops. Sin embargo, Night Stretcher suele ser mejor porque es difícil sacar Pokémon del deck. Además, la mayoría de las partidas terminan antes de que realmente necesites Sacred Ash.
+- Secret Box es una opción a considerar para mantener la consistencia, especialmente si juegas con Herramientas, pero sigo pensando que Maximum Belt es necesario en el meta actual.
+- Handheld Fan es una buena opción para Festival Lead, pero me genera dudas ya que algunos jugadores usan Tool Scrapper.
 <!-- /PUBLIC -->
 ## Gameplay
 
@@ -168,7 +173,7 @@ id: Txu0iMcxAKA
 title: Mewtwo v Meganium 2
 ```
 
-### Raging Bolt - Desfavorable
+### Raging Bolt - Ligeramente Desfavorable
 
 - Cargar a Mewtwo en la banca puede ser seguro al principio del juego. Más adelante, o si el oponente tiene un campo fuerte, intenta retrasar a Mewtwo hasta que puedas cargarlo en un solo turno con Energy Switch. De lo contrario, será noqueado con Boss’s Orders. Clefairy puede ayudar a Mewtwo a derrotar a Raging Bolt de un solo golpe, y tampoco debería usarse hasta que sea absolutamente necesario.
 - Spidops puede ser un atacante muy bueno que se defiende bien contra la mayoría de los Pokémon que tiene. Necesitarás un Brave Bangle o un Maximum Belt para conseguir un KO de un solo golpe efectivo con Spidops.
@@ -261,6 +266,7 @@ title: Crustle v Mewtwo  2
 ```
 
 ### Ogerpon - Ligeramente favorable
+
 - Los modificadores de daño y Energy Switch son nuestros recursos más valiosos. Deben usarse para conseguir dos premios cuando de otra manera no sería posible. Son extremadamente fuertes en este matchup.
 - Spidops es un atacante bastante bueno porque puede debilitar a Meowth con Boss's Orders o debilitar a cualquier otro atacante con un modificador de daño, así que busca esas jugadas.
 - Consigue Energía en juego siempre que puedas, ya que hay muchas maneras de utilizarla. Cargar Energía preventiva en Mimikyu puede ser útil para debilitar de un solo golpe al Ogerpon enemigo si atacan con el.
@@ -279,4 +285,4 @@ title: Ogerpon v Mewtwo  2
 
 ## Conclusión
 
-No te dejes engañar por la distribución de matchups, que parece aceptable. Este deck es bastante mediocre.
+Este deck es bastante mediocre.

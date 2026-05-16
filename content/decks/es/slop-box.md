@@ -231,4 +231,4 @@ title: Crustle v Kangaskhan 1
 
 ## Conclusión
 
-Este deck no parece nada del otro mundo, ni tampoco su variedad de matchups. Sin embargo, es fundamentalmente fuerte y, de alguna manera, gana muchas partidas. Creo que es mejor que cualquier otro que haya probado, excepto Dragapult. Además, ofrece mucho margen de adaptación y permite añadir cartas adicionales para techear contra matchups si fuera necesario.
+Este deck no me gusta mucho y no creo que sea muy relevante en el meta en estos momentos asi es que no creo que lo actualice hasta que no de más de que hablar en torneos competitivos.

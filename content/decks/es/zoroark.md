@@ -227,7 +227,7 @@ title: Festival v Zoroark 1
 
 ## Conclusión
 
-Este deck es terrible en el metajuego actual. Zoroark es un deck bastante fuerte, pero tiene desventaja contra prácticamente todo y presenta la peor distribución de matchups en este momento que he visto en mi vida. Claro, existen diferentes listas y cartas que podrían cubrir amenazas específicas, pero el problema fundamental de una mala distribución de matchups en general no tiene solución.
+Este deck no me gusta mucho y no creo que sea muy relevante en el meta en estos momentos asi es que no creo que lo actualice hasta que no de más de que hablar en torneos competitivos.
 
 
 

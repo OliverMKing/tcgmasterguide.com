@@ -44,7 +44,7 @@ Energy: 11
 ```
 <!-- PUBLIC -->
 
-La versión sin Noctowl está ganando mucha popularidad. La probé para ver si debía incluirla en la guía, pero no es muy buena. El deck de Ogerpon puro es una versión superior, así que si quieres jugar con Raging Bolt sin Noctowl, mejor usa ese. Si vas a jugar con Raging Bolt, Noctowl sigue siendo la mejor opción.
+La versión sin Noctowl está ganando mucha popularidad que esta. La probé para ver si debía incluirla en la guía, pero no es muy buena. El deck de Ogerpon puro es una versión superior, así que si quieres jugar con Raging Bolt sin Noctowl, mejor usa ese. Si vas a jugar con Raging Bolt, Noctowl sigue siendo la mejor opción.
 
 ### Inclusiones
 
@@ -61,12 +61,17 @@ La versión sin Noctowl está ganando mucha popularidad. La probé para ver si d
 - El Air Balloon ayuda a compensar la ausencia de Latias en el tablero, ya que es difícil de encontrar y normalmente no es una prioridad al setear el deck. Es muy útil. Este deck necesita un pivote en todo momento.
 - Unfair Stamp es la opción preferida de Ace Spec porque este deck se beneficia enormemente del poder de robo de cartas de Unfair Stamp, además de la interrupción que proporciona. Prime Catcher también sería muy buena opción.
 
+### Posibles Inclusiones
+
+- Una opción para cambiar podría considerarse por el aumento de uso de Yveltal en Dragapult.
+- Chien Pao podría ser bueno.
+- Cyrano y Mega Kangaskhan podrían ser incluidos.
+
 ### Exclusiones
 
 - Eliminar Pokémon adicionales como el cuarto Ogerpon, Iron Leaves y el segundo Fan Rotom hace que el deck sea más fluido y funcione bastante bien. Sin embargo, esto hace que los primeros turnos sean un poco menos consistentes. En cuanto a Iron Leaves, simplemente no es muy bueno.
 - Consideré Wellspring Ogerpon y Energía Agua, pero creo que es demasiado, y en ese caso mejor jugar Tera Box. Wellspring no es tan bueno en este formato como lo era antes de la rotación, creo.
-- Mega Kangaskhan podría ayudar a robar cartas, lo cual sería genial, pero sigue siendo difícil de encontrar y muy molesto de usar porque también necesitarías a Latias. Conseguir ambas al principio es prácticamente imposible. Podría considerar jugar una versión con Cyrano en lugar de Lillie’s Determination y añadir un Kangaskhan. Probablemente lo intente en algún momento.
-- La Jamming Tower y otros estadios parecen inútiles. Área Zero no es muy importante y suele ser perjudicial. Ni siquiera estoy seguro de que el tercer Área Zero sea necesario.
+- La Jamming Tower y otros estadios parecen inútiles. Área Zero no es muy importante y suele ser perjudicial excepto contra Dragapult pero preferiria tener a Chien-Pao para eso. Ni siquiera estoy seguro de que el tercer Área Zero sea necesario.
 <!-- /PUBLIC -->
 ## Gameplay
 
@@ -255,6 +260,11 @@ id: WH8m4IA1vOc
 title: Ogerpon v Bolt 2
 ```
 
+### Festival Lead - Desfavorable
+
+- Intenta ser agresivo con un atacante de un premio, Raging Bolt no ex es el ideal pero Fan Rotom es mucho más facil de utilizar.
+- Unfair Stamp + Boss's Orders en Thwackey es muy efectivo si no tienen a Shaymin en juego, ya que se puede quedar atorado y noqueas Pokemon en la banca con Raging Bolt no ex.
+
 ## Conclusión
 
-Este deck está bien posicionado, pero tiene muchas partidas que te hacen cuestionarte la vida. Ser uno de los pocos decks que funciona bien contra Dragapult y Mega Lucario es una gran ventaja, y en general es un deck decente, así que puede competir bien contra la mayoría de los demás decks.
+Este deck está bien posicionado, pero tiene muchas partidas que te hacen cuestionarte la vida y no es muy bueno contra los decks de un premio. Ser uno de los pocos decks que funciona bien contra Dragapult es una gran ventaja, y en general es un deck decente, así que puede competir bien contra la mayoría de los demás decks.
