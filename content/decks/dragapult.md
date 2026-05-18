@@ -62,13 +62,13 @@ Energy: 9
 - Yveltal can help with board positioning, comebacks, or alternate win conditions. Dragapult can capitalize on Yveltal very well, but the list has to change quite a bit to accommodate it (more Munkidori and Dark Energy, maybe Dudunsparce, Area Zero, or Pecharunt ex).
 - A second Budew helps to not start with two-prize liabilities. Although Budew isn't as important as before, it is still useful in most games.
 - Bronzong is something I need to try out. I got wrecked by it at LA and have been intrigued ever since.
+- Dusknoir is a very strong card, but not necessarily in this meta. It's mostly only relevanta against single-prize decks, which should already be manageable. Now that Lopunny is more popular and mostly doesn't play Psyduck, Dusknoir could be better.
 
 ### Exclusions
 
 - Second Munkidori is good for the mirror but with Clefairy this list can often force faster games that don't require double Munki. I have not found two Munki to be needed.
 - Rare Candy is a good card but not necessary in my experience.
 - Hero's Cape is very strong but I still think Stamp is better. Not having Stamp exposes some vulnerabilities and makes some matchups a lot worse (Single-prize decks, Mewtwo, etc.).
-- Dusknoir is a very strong card, but not necessarily in this meta. It's mostly only relevanta against single-prize decks, which should already be manageable. It can be very relevant against Crustle though. Lopunny has Psyduck and Garchomp is still tough anyway.
 - I finally tested Moltres and it did absolutely nothing for the Raging Bolt matchup, so I don't think it deserves to be in the deck.
 - Area Zero has some uses but it's far less useful and impactful than Risky Ruins. If you do play Area Zero, I would also play Chien-Pao to make sure to get the upside of getting rid of liabilities.
 - I don’t think there are any legitimate use cases for Jamming Tower. There aren’t any real Tools in this format, and the card feels completely useless. Risky Ruins is miles better.
