@@ -239,6 +239,15 @@ id: tQgDTTJcgC0
 title: Zam v Lucario 1
 ```
 
+### Lopunny - Auto Win
+
+- Enfocate en setear y estabilizarte. Con los modificadores de daño es muy facil noquear de un golpe a Lopunny con Aura Jab. Setea dos Mega Lucario y se acabo el juego.
+
+```youtube
+id: uLwhdLAY6b8
+title: Lop v Lucario 1
+```
+
 ### Zoroark - Favorable
 
 - Apunta a sus cartas de Energía o premios fáciles. Solrock puede ser útil para esto, ya que derrota a Zorua de un solo golpe. Usa Aura Jab para noquear y cargar Energías fácilmente contra Fezandipiti, Meowth, Pecharunt, etc.

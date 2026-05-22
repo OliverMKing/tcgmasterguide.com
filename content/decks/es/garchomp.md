@@ -147,6 +147,15 @@ id: sAhw5oGWVZE
 title: Chomp v Zam 2
 ```
 
+### Lopunny - Auto Win
+- Setea la mayor cantidad de Gible y Gabite como puedas. Intenta cargar Energía cada turno y repartirlas. Enfocate en setear y estabilizarte.
+- Con 3 Roserade en juego ya puedes noquear a Mega Lopunny de un solo golpe con el primer ataque.
+
+```youtube
+id: ueOJv4yRtcU
+title: Lop v Garchomp 1
+```
+
 ### Meganium - Desfavorable
 
 - Power Weight es útil en la banca para proteger las energías y a Gible/Gabite de Arboliva. También es útil en Garchomp para forzarlos a encadenar Ogerpon de tres Energías.

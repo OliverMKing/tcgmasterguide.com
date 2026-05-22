@@ -5,10 +5,10 @@ tier: 2
 format: Standard
 ---
 ## Decklist
-![Ogerpon list](./images/ogerpon/ogerponlist.png)
+![Ogerpon list](./images/ogerpon/passimian.png)
 
 ```decklist
-Pokémon: 14
+Pokémon: 15
 4 Teal Mask Ogerpon ex TWM 25
 3 Meowth ex POR 62
 2 Lillie's Clefairy ex ASC 76
@@ -16,6 +16,7 @@ Pokémon: 14
 1 Wellspring Mask Ogerpon ex TWM 64
 1 Iron Leaves ex TEF 25
 1 Moltres PFL 14
+1 Passimian SSP 111
 
 Trainer: 28
 4 Lillie's Determination MEG 119
@@ -28,8 +29,8 @@ Trainer: 28
 1 Unfair Stamp TWM 165
 2 Area Zero Underdepths SCR 131
 
-Energy: 18
-14 Grass Energy MEE 1
+Energy: 17
+13 Grass Energy MEE 1
 4 Prism Energy BLK 86
 ```
 <!-- PUBLIC -->
@@ -45,9 +46,10 @@ Energy: 18
 -Si bien es útil tener Área Zero, no es imprescindible para que este deck ejecute su estrategia. Probablemente sería buena idea añadir otra copia si así lo deseas.
 -Maximizar Tera Orb y Bug Catching Set tiene sentido porque todo el motor de este deck gira en torno a Teal Dance, que es suficiente para ganar partidas.
 -Unfair Stamp es mi carta favorita para Ace Spec porque es demasiado buena y es la forma más fiable de recuperarte si vas por detras. Probé Legacy Energy y fue completamente inútil. Unfair Stamp no es necesaria para que el deck funcione, pero las otras cartas de Ace Spec no me parecen muy atractivas. Boss’s Orders + Unfair Stamp también es extremadamente fuerte en este formato.
+- Passimian es bueno en contra de Mega Lopunny y Crustle.
 
 ### Posibles Inclusiones
-- Passimian podría ser una buena tech encontra de Mega Lopunny y Crustle.
+- Más Energías Planta siempre podrían ser buenas.
 
 ### Exclusiones
 
@@ -113,6 +115,12 @@ title: Ogerpon v Lucario 2
 -Tu única oportunidad es usar a Wellspring Ogerpon antes de que pongan a Shaymin en juego.
 -Unfair Stamp + KO algún Pokemon de robo, u Unfair Stamp cuando no tengan Pokemon de robo en juego.
 
+### Lopunny - Favorable
+
+- Usa a Passimian para responder a su primer Lopunny. guarda Area Zero hasta que tengas la posibilidad de hacer esta jugada con tu banca llena.
+- Deja Energía en juego para poder noquear de un solo golpe al segundo Lopunny con un Ogerpon grande.
+- Si consigues dos premios con Wellspring Ogerpon al principio del juego, puedes noquear a otro de uno con Boss's Orders y luego noquear de un solo golpe a un Lopunny para completar tu mapa de premios.
+
 ### Garchomp - Favorable
 
 -Wellspring Ogerpon es muy útil en este matchup. Úsalo para ejercer presión rápidamente. Si no puedes, intenta al menos conseguir un KO rápido con otra cosa. Si evolucionan a Roserade, puedes usar Sob para preparar una jugada de dos premios si es necesario.
@@ -152,6 +160,8 @@ title: Ogerpon v Meganium 2
 -Clefairy es muy bueno para derrotar de un solo golpe a Raging Bolt, o en general si llenan demasiado su banca.
 -Crear un gran Ogerpon para intentar un KO también es bastante común como forma de conseguir dos premios o finalizar la partida.
 -Este es otro matchup estándar de intercambio de dos premios, pero tenemos a Moltres para inclinar la balanza a nuestro favor si es necesario.
+- Passimian puede noquear a Mega Kangaskhan de vez en cuando.
+
 ```youtube
 id: rs8soPQClrQ
 title: Ogerpon v Raging Bolt 1
@@ -197,6 +207,8 @@ Este matchup es favorable gracias a Moltres, a menos que ellos también tengan a
 -Juega como siempre en matchups de intercambio de dos premios.
 
 ### Festival Lead - Muy Desfavorable
+-Tu única oportunidad es usar a Wellspring Ogerpon antes de que pongan a Shaymin en juego.
+-Unfair Stamp + KO algún Pokemon de robo, u Unfair Stamp cuando no tengan Pokemon de robo en juego.
 
 ## Reflexiones personales
 
