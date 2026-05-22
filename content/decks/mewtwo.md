@@ -139,12 +139,30 @@ id: YT4891TzjBk
 title: Festival v Mewtwo 1
 ```
 
-### Alakazam - Very Favorable
+### Alakazam - Auto Win
 
 - Try to keep Articuno on the bench at all times. Getting both of them is fine. Attack with Mewtwo. It’s basically impossible to lose unless you brick, and even then you might still win.
 - Powering up a second Mewtwo is also good in case they have a tech like the other Alakazam, which can two-shot a Mewtwo. Spidops can also one-shot the bad Zam, but it can be return KO’d, so Mewtwo is better if it’s available. If they play Dudunsparce ex, don’t put the second Mewtwo down, as they can then one-shot Articuno.
 - When choosing to attach Grass or Rocket Energy to Mewtwo first, attaching Grass first is better. They play Enhanced Hammer (and it also takes less damage to bad Zam).
 - If they KO a Mewtwo with bad Zam and you can KO it back with another Mewtwo, try to use Archer to stop them from chaining bad Zam.
+
+### Lopunny - Very Favorable
+
+As long as you have Maximum Belt (and Petrel to find it), this matchup is very favorable. If you don’t, it’s very unfavorable.
+
+- The general plan is to get one clean one-shot on a Lopunny with Maximum Belt and get the rest of your prizes from single-prize KO’s. You’ll need two or even three Giovanni to accomplish this. Of course, if they don’t KO your Mewtwo right away, it’s possible to get more than three prizes with it.
+- Getting a fast Spidops KO on a single-prizer is valuable since it’s one fewer Giovanni you’ll need to win. You’ll probably want to rely on Spidops for all of the single-prize KO’s since Mewtwo is a valuable piece to deal with Lopunny.
+- Mimikyu and Articuno are pretty much useless, so prioritize getting as many Tarountula/Spidops as possible as well as Mewtwo. Sometimes you’ll need a second Mewtwo if you draw slow and they pressure the first one.
+
+```youtube
+id: Wv0v3yl2L5I
+title: Lop v Mewtwo 1
+```
+
+```youtube
+id: O306NKKdc3Y
+title: Lop v Mewtwo 2
+```
 
 ### Lucario - Favorable
 

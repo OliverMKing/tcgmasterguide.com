@@ -279,4 +279,4 @@ title: Absol v Meganium 2
 
 ## Personal Thoughts
 
-This deck is not very good or relevant in the meta right now. I probably won't bother working on or updating it until it becomes better or more relevant.
+This deck is not very good or relevant in the meta right now. I probably won't add as many updates for it until it becomes better or more relevant.

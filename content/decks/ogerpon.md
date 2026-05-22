@@ -5,10 +5,10 @@ tier: 2
 format: Standard
 ---
 ## Decklist
-![Ogerpon list](./images/ogerpon/ogerponlist.png)
+![Ogerpon list](./images/ogerpon/passimian.png)
 
 ```decklist
-Pokémon: 14
+Pokémon: 15
 4 Teal Mask Ogerpon ex TWM 25
 3 Meowth ex POR 62
 2 Lillie's Clefairy ex ASC 76
@@ -16,6 +16,7 @@ Pokémon: 14
 1 Wellspring Mask Ogerpon ex TWM 64
 1 Iron Leaves ex TEF 25
 1 Moltres PFL 14
+1 Passimian SSP 111
 
 Trainer: 28
 4 Lillie's Determination MEG 119
@@ -28,8 +29,8 @@ Trainer: 28
 1 Unfair Stamp TWM 165
 2 Area Zero Underdepths SCR 131
 
-Energy: 18
-14 Grass Energy MEE 1
+Energy: 17
+13 Grass Energy MEE 1
 4 Prism Energy BLK 86
 ```
 <!-- PUBLIC -->
@@ -37,6 +38,7 @@ Energy: 18
 
 - Fezandipti is very important for draw power. I always want it in play and not prized. It is more important now that there’s no Kangaskhan. It can sometimes attack as well.
 - Wellspring is very strong and easy to use in this deck. It is particularly good against Fighting decks. Sob can also buy a turn to build up Energy in some situations.
+- Passimian is very good for Lopunny and Crustle.
 - Iron Leaves is a very convenient attacker because of how easy it is to utilize and get a Turn 1 attack. Although nothing really gets stuck from retreat lock, having an out to that is nice as well. Even aside from retreat lock, it sometimes gets used as a general purpose switching card since this deck doesn’t play Latias. Iron Leaves’ flexibility and utility is great, but it probably is cuttable if you needed space.
 - Moltres is incredibly useful for getting the advantage against all similar two-prize decks. It is much better and more consistent than other methods of swinging the prize trade such as Legacy Energy or Briar.
 - I like the third Meowth and third Boss because of how often I rely on Meowth. It also works well with this deck. Boss is just broken and I think two is too few a lot of times. Boss is especially strong with Wellspring or Moltres.
@@ -47,7 +49,7 @@ Energy: 18
 
 ### Possible Inclusions
 
-- Passimian could be a good tech for Lopunny and Crustle.
+- More Grass Energy could always be good.
 
 ### Exclusions
 
@@ -98,6 +100,7 @@ title: Ogerpon v Pult 3
 - Clefairy is very good to one-shot Raging Bolt, or in general if they fill up their bench too much.
 - Making a big Ogerpon to reach for a KO is also somewhat common as a means to grab two prizes or close out the game.
 - This is another standard two-prize trade-off matchup, but we have Moltres to swing things in our favor if needed.
+- Passimian can occasionally one-shot Kangaskhan.
 
 ```youtube
 id: rs8soPQClrQ
@@ -130,6 +133,12 @@ title: Ogerpon v Mewtwo 2
 
 - Your only chance is to cheese them with Wellspring before they get Shaymin in play.
 - Stamp + KO their draw support on board, or Stamp when they have no draw support on board.
+
+### Lopunny - Favorable
+
+- Use Passimian to respond to their first Lopunny. Save Area Zero for this play so you can get a full board.
+- Load Energy in play so that you can one-shot the second Lopunny with a big Ogerpon.
+- If you're able to get two prizes with Wellspring in the early-game, you can boss for another single-prize KO and then one-shot a Lopunny for your prize map.
 
 ### Lucario - Favorable
 
@@ -180,9 +189,9 @@ id: OILBoOI06cM
 title: Ogerpon v Meganium 2
 ```
 
-### Crustle - Auto-Loss
+### Crustle - Unfavorable
 
-- There is literally nothing you can do once they get a Crustle in play, so do everything you can to stop that from happening (it’s basically impossible).
+- A fast Passimian can run them over since it one-shots everything besides Cornerstone. However you have to make sure to keep it alive. Use Boss to target anything with Energy or Hero's Cape as those are the threats.
 
 ### Zoroark - Favorable
 

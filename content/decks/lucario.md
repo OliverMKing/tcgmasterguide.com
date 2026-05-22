@@ -179,6 +179,15 @@ id: tQgDTTJcgC0
 title: Zam v Lucario 1
 ```
 
+## Lopunny - Auto Win
+
+- Focus on setting up and stabilizing. Damage modifiers are good to one-shot Lopunny with Aura Jab. Get two Mega Lucario up and the game is over.
+
+```youtube
+id: uLwhdLAY6b8
+title: Lop v Lucario 1
+```
+
 ### Lucario Mirror - Even
 
 This matchup may be slightly unfavored depending on the opponent’s list, as we do not have Maximum Belt or healing. This is the main matchup where the lack of Maximum Belt will be felt.

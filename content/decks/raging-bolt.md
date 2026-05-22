@@ -145,6 +145,23 @@ id: nqv7CF4-1NI
 title: Zam v Bolt 2
 ```
 
+### Lopunny - Favorable
+
+- In the early-game, it’s possible to play around all of their threats. By limiting the two-prize Pokemon in play, they can’t apply fast pressure with Moltres or Dudunsparce ex.
+- If you’re playing Kang, it is a fantastic early-game meat shield. For Noctowl, single-prize Pokemon or Raging Bolt ex provide a similar effect.
+- Build up Energy in play so that you can one-shot multiple Lopunny with Raging Bolt. Raging Bolt is generally the best attacker since it cannot be KO’d by Lopunny. If they have Spiky Energy, consider playing around it.
+- If you play Wellspring Ogerpon, it can be very strong in the early-game.
+
+```youtube
+id: eT9eYofGYhY
+title: Lop v Bolt 1
+```
+
+```youtube
+id: i2Iu-VecsPo
+title: Lop v Bolt 2
+```
+
 ### Lucario - Favorable
 
 - Baby Raging Bolt is extremely helpful. It is a good option to open the aggression and get off to a fast start. It can also be used at other points to fix the prize trade if necessary.
