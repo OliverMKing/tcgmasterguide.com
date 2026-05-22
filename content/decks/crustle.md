@@ -165,6 +165,15 @@ id: 0Cw8pFTfpZE
 title: Crustle v Zam 2
 ```
 
+### Lopunny - Auto Loss
+
+- Impossible to win. If you’re playing Kang you can go for the triple heads twice, or triple heads into triple Boss. If you’re playing Munkidori, try to set up a bunch of them on the bench with a Hero’s Cape Crustle.
+
+```youtube
+id: whq8qKAhgBg
+title: Lop v Crustle 1
+```
+
 ### Lucario - Very Unfavorable
 
 - Try to get Cape on Crustle and Boss smack Makuhita/Hariyama whenever possible, especially when they Aura Jab onto it.

@@ -5,7 +5,7 @@ tier: 1
 format: Standard
 ---
 ## Decklist
-![Festival list](./images/festival-lead/noboom.png)
+![Festival list](./images/festival-lead/scrap.png)
 
 ```decklist
 Pokémon: 21
@@ -21,15 +21,16 @@ Pokémon: 21
 
 Trainer: 35
 4 Lillie's Determination MEG 119
-2 Kieran TWM 154
 2 Dawn PFL 87
-2 Boss's Orders PAL 172
-1 Black Belt's Training PRE 96
+2 Black Belt's Training PRE 96
+1 Kieran TWM 154
+1 Boss's Orders PAL 172
 1 Lana's Aid TWM 155
 4 Buddy-Buddy Poffin TEF 144
 4 Poké Pad ASC 198
 4 Bug Catching Set TWM 143
 2 Night Stretcher ASC 196
+1 Tool Scrapper WHT 85
 1 Secret Box TWM 163
 2 Air Balloon BLK 79
 2 Brave Bangle WHT 80
@@ -45,18 +46,19 @@ Energy: 4
 - Rabsca is a necessary tech for Dragapult and it works well.
 - Shaymin flips the matchup against decks that have Wellspring Ogerpon, Arboliva, or Darmanitan. It is quite efficient for only one deck spot.
 - Goldeen helps with early-game consistency. This deck has a fantastic matchup spread but can sometimes brick, and Goldeen helps brick less often. You can theoretically use it as a pivot on the board to help against hand disruption, but that didn’t come up for me very often.
-- Genesect is another tech for Dragapult. It is very strong against Dragapult decks with Cape specifically, and also Stamp. It can theoretically be good against other decks with Stamp, but I found it did not come up that often.
+- Genesect is another tech for Dragapult. It can theoretically be good against other decks with Stamp, but I found it did not come up that often. It's also my preferred card for mirror as opposed to Seaking or Rillaboom so that you have something to use as a sponge.
 - Dawn is equally good regardless if Rillaboom is in the deck or not. It is just for early-game consistency and is usually better than Brock’s Scouting since this deck needs two different Stage 1 Pokemon in play to function.
-- Black Belt’s Training enables relevant breakpoints against Mega Lucario and Mega Lopunny. Against other decks, it’s still used as a generic damage modifier while Kieran can be reserved for an emergency switching card.
+- Black Belt’s Training enables relevant breakpoints against Mega Lucario and Mega Lopunny. Against other decks, it’s still used as a generic damage modifier while Kieran can be reserved for an emergency switching card. Swapping the second Kieran for a second Black Belt is a noninvasive way to counter Lopunny.
 - Lana’s Aid has excellent synergy with this deck and you’ll want to use it for value when you don’t need another Supporter for the turn. However, since this deck usually needs to use a different Supporter, we only play one Lana to not rely on it too much.
 - Secret Box is definitely the best Ace Spec for this deck. It grabs four combo pieces for the price of one search, which allows us to stabilize or reach for a big KO even with a weaker board, early in the game, or after getting Stamped. It is the ultimate consistency card.
+- I added a Tool Scrapper to deal with an increased presence of Handheld Fan. Ideally you'll preattach to a backup Dipplin to play around Fan, but that isn't always possible, so Scrapper can handle one of them.
 
 ### Possible Inclusions
 
 - Rillaboom is an optional tech for Crustle with Cornerstone. It does that job very well, as Rellor alone isn’t enough to beat that deck. It can also be good against random Fans as well as the mirror match, which is nice. I might add it back in.
 - More Rellor and Rabsca could help against Dragapult, which may be worthwhile.
 - Growing Energy could be ok.
-- Tool Scrapper can be decent to counter random Handheld Fans from the likes of Mewtwo or Alakazam.
+- Second Boss would be nice but it's not 100% necessary.
 
 ### Exclusions
 
@@ -123,8 +125,8 @@ title: Festival v Bolt 1
 ### Mewtwo - Favorable
 
 - They have easy access to Archer which is basically a Stamp that you can’t lock with Genesect. Playing around Archer is the main thing in this matchup. Try to get a backup Dipplin as soon as possible. If you can’t, Goldeen with Air Balloon can be a good way to play around Archer (or can help set up). Ideal board is triple apple and 2-3 Thwackey depending if you need Goldeen.
-- All of the techs are useless. Just attack normally every turn. Black Belt (or Kieran + Bangle) can get the KO on Mewtwo if they attack with it.
-- They might play Fan. You can somewhat play around this if you have two Dipplin in play each with Energy. They KO one, and you can attach a second time to one to get through a Fan.
+- All of the Pokemon techs are useless. Just attack normally every turn. Black Belt (or Kieran + Bangle) can get the KO on Mewtwo if they attack with it.
+- They might play Fan. You can somewhat play around this if you have two Dipplin in play each with Energy. They KO one, and you can attach a second time to one to get through a Fan. Scrapper is also very good in this matchup to deal with Fan.
 
 ```youtube
 id: YT4891TzjBk
@@ -140,7 +142,7 @@ This matchup depends on how many damage sponges each players' list has. We have 
 
 ### Alakazam - Even
 
-This matchup is pretty close. If they have Handheld Fan, it’s unfavorable.
+This matchup is pretty close. Scrapper helps deal with Fan.
 
 - Festival Grounds is a resource since they often play four Battle Cage. Don’t put it in play until you’re ready to attack.
 - They don’t play hand disruption. Be as fast and aggressive as possible.
@@ -156,6 +158,30 @@ title: Festival v Zam 1
 ```youtube
 id: X3YpsKBoBBI
 title: Festival v Zam 2
+```
+
+### Lopunny - Depends
+
+With the second Black Belt, this matchup is a free win. Without it, the matchup is slightly unfavorable.
+
+- If you have two Black Belt, just play normally and set up for two big one-shots on Lopunny. Easy win.
+- If you go first, you can get a Turn 2 double KO, and then you don’t have to get through two Lopunny. If that happens, try to use Boss as soon as possible for the third prize before they clean up all the single-prizers off their board. If you can get three single-prize KO’s, you’ll only have to get one big KO on a Lopunny.
+- The worst case scenario is they go first and get Turn 2 Lopunny. If that’s the case, you may be tempted to take the KO right away. However, if you don’t have the second Black Belt, you’ll need them to whiff Wally at some point. The most likely time for that is the early-game, so just smack the Lopunny a few turns in a row and hope they eventually whiff Wally. If that happens, you can Boss KO to finish it off and then one-shot the second one.
+- If you prize a combo piece such as Brave Bangle, I would still go for the big KO right away and hope to get it off the prizes. That has a higher chance of success than any of these backup plans.
+
+```youtube
+id: UMCYykyzajc
+title: Lop v Festival 1
+```
+
+```youtube
+id: wcW8QeFjgtE
+title: Lop v Festival 2
+```
+
+```youtube
+id: 7W-YVpWEcL4
+title: Lop v Festival 3
 ```
 
 ### Lucario - Favorable

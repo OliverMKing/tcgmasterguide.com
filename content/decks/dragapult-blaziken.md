@@ -176,6 +176,15 @@ id: 3oqKTcPvTRs
 title: Blaziken v Zam 2
 ```
 
+### Lopunny - Unfavorable
+
+- The main win condition is Stamp. Try to set up a turn where you can KO Dudunsparce and Stamp at the same time. Ideally, you’ll KO their only Dudunsparce and then they’ll brick.
+- If they have two Dudunsparce, prioritize KO’ing them. Whether you want to use Stamp on the first KO or the next one depends. It’s best to set up a situation where you’re KO’ing their only one, but if the game is going too fast, you may need to Stamp before you get to do that.
+- Try to set up as many Blaziken as possible. This allows you to easily rotate attackers when one of them gets smacked. By constantly attacking with a new attacker, it forces them to use Wally so they can’t use Boss to finish off the damaged one.
+- KO Dunsparce with snipes whenever possible.
+- Extra snipe damage is generally best on Buneary/Lopunny. If you build up enough damage, you can threaten both Lopunny at the same time, which can be game-winning. Generally best to put damage on the backup Buneary and not actually KO it, but it depends. It can also be good to ping 10 to multiple 70 HP Dunsparce to pressure them, or 10 to Fan Rotom for an easy KO option later.
+- Munkidori is very good in general. Save Risky Ruins to bump Battle Cage for a relevant snipe play.
+
 ### Lucario - Favorable
 
 - One-shot their Lucario with Clefairy whenever possible. You may need to have extra Energy in play or Budew for a pivot. Crispin can also work. You could also put Clefairy in play preemptively, but that’s a dangerous game because it can be gusted and KO’d fairly easily. I would be more inclined to put it in play if they have no Makuhita on the board.

@@ -182,6 +182,15 @@ id: sAhw5oGWVZE
 title: Chomp v Zam 2
 ```
 
+### Lopunny - Auto Win
+
+- Set up as many Gible and Gabite as possible. Try to get Energy drops every turn and spread them around. Focus on setting up and stabilizing. Getting three Roserade (or two if you have Premium Power) can be nice to one-shot Lopunny with the first attack.
+
+```youtube
+id: ueOJv4yRtcU
+title: Lop v Garchomp 1
+```
+
 ### Lucario - Favorable
 
 - Early Power Weight on your active is insanely strong, protects it from Aura Jab and Solrock. You’ll also want it on Garchomp to make it hard for Lucario to KO it.

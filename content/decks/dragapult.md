@@ -208,6 +208,45 @@ id: HJZBgT8hcF0
 title: Zam v Pult 2
 ```
 
+### Lopunny - Unfavorable
+
+- The main win condition is Stamp. Try to set up a turn where you can KO Dudunsparce and Stamp at the same time. Ideally, you’ll KO their only Dudunsparce and then they’ll brick.
+- If they have two Dudunsparce, prioritize KO’ing them. Whether you want to use Stamp on the first KO or the next one depends. It’s best to set up a situation where you’re KO’ing their only one, but if the game is going too fast, you may need to Stamp before you get to do that.
+- If you’re doing good on Energy attachments, you can retreat Dragapult after they smack it into another one and start attacking with that. This forces them to Wally so they can’t Boss, so it’s quite effective if you’re able to pull it off.
+- KO Dunsparce with snipes whenever possible.
+- Extra snipe damage is generally best on Buneary/Lopunny. If you build up enough damage, you can threaten both Lopunny at the same time, which can be game-winning. Generally best to put damage on the backup Buneary and not actually KO it, but it depends. It can also be good to ping 10 to multiple 70 HP Dunsparce to pressure them, or 10 to Fan Rotom for an easy KO option later.
+- Munkidori is very good in general. Save Risky Ruins to bump Battle Cage for a relevant snipe play.
+
+```youtube
+id: kpIBOnfXjLE
+title: Lop v Hammers 1
+```
+
+```youtube
+id: bcg3aRUL5lg
+title: Lop v Hammers 2
+```
+
+```youtube
+id: -dkLl5npZaE
+title: Lop v Hammers 3
+```
+
+```youtube
+id: btqClFVMizE
+title: Lop v Hammers 4
+```
+
+```youtube
+id: gCResoCcZb8
+title: Lop v Pultnoir 1
+```
+
+```youtube
+id: tjyW4TJ4Grg
+title: Lop v Pultnoir 2
+```
+
 ### Lucario - Favorable
 
 This matchup is favorable with Clefairy, and about even without it.

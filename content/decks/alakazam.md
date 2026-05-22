@@ -1,7 +1,7 @@
 ---
 title: Alakazam
 pokemon: [65]
-tier: 1
+tier: 2
 format: Standard
 ---
 ## Decklist
@@ -145,7 +145,7 @@ id: nqv7CF4-1NI
 title: Zam v Bolt 2
 ```
 
-### Mewtwo - Very Unfavorable
+### Mewtwo - Auto Loss
 
 - This is obviously a horrible matchup because of Articuno, but if there is a way to win it’s by powering up Fez as fast as possible and taking out their Articuno. Use Boss’s Orders and Enhanced Hammer to slow them down. They do sometimes draw garbage, so it is possible to get lucky.
 - If they for some reason do not have Articuno in play, wreak as much havoc as possible with Alakazam during that window whenever possible. Also use Alakazam to KO Spidops.
@@ -173,6 +173,21 @@ title: Festival v Zam 2
 - Do everything you can to get the first attack. Use Sacred Ash for Alakazam pieces as needed.
 - Play around Enhanced Hammer.
 - Don't put Fez in play.
+
+### Lopunny - Slightly Favorable
+
+This matchup would be better with Dedenne or Handheld Fan, but it’s still fine.
+
+- Draw cards fast and cycle Dudunsparce as aggressively as possible. We need to find those Hammers!
+- Hoard the Hammers until you can empty the clip to one-shot a Lopunny. Same goes for Boss. If you play three Boss you could consider a cheeky KO on a Dunsparce/Dudunsparce one time.
+- Start attaching Energy to Fezandipiti as soon as possible. This is very important since we need to threaten their Buneary before it gets all four Mists.
+- If you play Handheld Fan, there might be some merit to not KO’ing their extra Buneary or Fan Rotom, depending on the situation. Without Fan, just take KO’s as much as you can.
+- KO any Lopunny whenever possible!
+
+```youtube
+id: STEe7cRpzw0
+title: Lop v Zam 1
+```
 
 ### Lucario - Very Favorable
 
