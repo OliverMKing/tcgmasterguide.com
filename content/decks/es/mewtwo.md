@@ -128,12 +128,30 @@ id: NlCBLjsG3ic
 title: Lucario v Mewtwo 2
 ```
 
-### Alakazam - Muy favorable
+### Alakazam - Auto Win
 
 - Intenta mantener a Articuno en la banca en todo momento. Tener a ambos está bien. Ataca con Mewtwo. Es prácticamente imposible perder a menos que tengas mala suerte, e incluso en ese caso podrías ganar.
 - Cargar un segundo Mewtwo también es buena idea por si tienen una estrategia como el otro Alakazam, que puede derrotar a Mewtwo de dos golpes. Spidops también puede derrotar al otro Alakazam de un solo golpe, pero puede ser noqueado de regreso, así que Mewtwo es mejor si está disponible. Si juegan Dudunsparce ex, no saques al segundo Mewtwo, ya que podrían derrotar a Articuno de un solo golpe.
 - Al elegir entre cargar Energía Planta o Energía Rocket a Mewtwo, es mejor cargar primero Energía Planta. Juegan Enhanced Hammer (y también recibe menos daño del otro Alakazam).
 - Si noquean a un Mewtwo con un Alakazam malo y tú puedes noquearlo de nuevo con otro Mewtwo, intenta usar Archer para evitar que encadenen a ese Alakazam malo.
+
+### Lopunny - Muy Favorable
+
+Mientras tengas Maximum Belt (y Petrel para encontrarlo), este matchup es muy favorable. Si no lo tienes, es muy desfavorable.
+
+- El plan general es conseguir un KO limpio a un Lopunny con el Maximum Belt y obtener el resto de tus premios con KOs de un solo premio. Necesitarás dos o incluso tres Giovanni para lograrlo. Claro que, si no noquean a tu Mewtwo de inmediato, es posible obtener más de tres premios con él.
+- Conseguir un KO rápido con Spidops a un Pokémon de un solo premio es valioso, ya que es un Giovanni menos que necesitarás para ganar. Probablemente querrás depender de Spidops para todos los KOs de un solo premio, ya que Mewtwo es una pieza valiosa para lidiar con Lopunny.
+- Mimikyu y Articuno son prácticamente inútiles, así que prioriza conseguir tantos Tarountula/Spidops como sea posible, además de Mewtwo. A veces necesitarás un segundo Mewtwo si inicias lento y presionan al primero.
+
+```youtube
+id: Wv0v3yl2L5I
+title: Lop v Mewtwo 1
+```
+
+```youtube
+id: O306NKKdc3Y
+title: Lop v Mewtwo 2
+```
 
 ### Garchomp - Favorable
 
@@ -182,6 +200,7 @@ title: Mewtwo v Meganium 2
 No encontré ningún juego que estuviera cerca de ser interesante para poner aquí. Solo masacres.
 
 ### Festival Lead - Muy Desfavorable
+
 - Consigue tantos Tarountula y Spidops como sea posible. Noquear a Dipplin.
 - Archer es la mejor opción cuando no tienen un Dipplin de reserva. Quitar su Estadio es lo mejor al principio del juego o al usar Archer.
 - A veces se puede usar a Mewtwo al principio del juego, ya que puede que no consigan noquearlo de inmediato. Usarlo cuando ya están estabilizados es una mala idea, excepto si consigues Archer + Estadio, puede que no consigan todas las piezas para noquearlo.

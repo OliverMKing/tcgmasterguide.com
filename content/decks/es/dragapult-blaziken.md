@@ -148,6 +148,15 @@ id: 3oqKTcPvTRs
 Título: Blaziken v Zam 2
 ```
 
+### Mega Lopunny - Desfavorable
+
+- La condición principal para ganar es Unfair Stamp. Intenta crear un turno en el que puedas noquear a Dudunsparce y usar Unfair Stamp al mismo tiempo. Lo ideal es noquear a su único Dudunsparce y que se queden sin opciones.
+- Si tienen dos Dudunsparce, prioriza noquearlos. Usar Unfair Stamp en el primer Dudunsparce o en el siguiente depende. Lo mejor es crear una situación en la que estés noqueando al único que tienen, pero si el juego va muy rápido, puede que tengas que usar Unfair Stamp antes de poder hacerlo.
+- Intenta tener tantos Blaziken como sea posible. Esto te permite rotar fácilmente a los atacantes cuando uno de ellos es noqueado. Al atacar constantemente con un nuevo atacante, los obligas a usar a Wally, impidiendo que usen Boss's Orders para rematar al debilitado.
+- Noquea a Dudunsparce antes de que evolucione siempre que sea posible.
+- El daño adicional de Phantom Dive suele ser mejor en Buneary/Lopunny que Dudunsparce. Si acumulas suficiente daño, puedes amenazar a ambos Lopunny al mismo tiempo, lo que puede ser decisivo para ganar la partida. Generalmente, es mejor infligir daño al Buneary de reserva en lugar de noquearlo, pero depende de cada caso. También puede ser útil usar 10 de daño contra varios Dunsparce con 70 de HP para presionarlos, o 10 contra Fan Rotom para una opción de premio fácil más adelante.
+- Munkidori es muy bueno en general. Guarda Risky Ruins para quitar Battle Cage.
+
 ### Garchomp - Desfavorable
 
 - Encadena Dragapult tanto como sea posible. Si atacan a uno, intenta atacar con uno nuevo.
@@ -280,6 +289,6 @@ Título: Blaziken v Mewtwo 2
 - Unfair Stamp es ideal cuando además derrotas a su Fezandipiti (o si no lo tienen en juego).
 - RRisky Ruins es ideal para quitar su Área Zero y deshacerte de cualquier Pokémon que te otorgue dos premios. Claro que, si necesitas daño en su banca para Dragapult, quizás sea mejor no usarla.
 
-## Reflexiones personales
+## Conclusión
 
 Este deck es simplemente una versión ligeramente inferior de Dragapult, que sigue siendo muy buena. He descubierto que Dragapult normal es sorprendentemente más eficiente para poner Energía en juego, y no tiene que preocuparse por el espacio extra en el deck o en el tablero con Blaziken. Esta versión también carece de la increíble utilidad de Ursaluna y Latias, lo cual es una lástima. Sin embargo, Blaziken mejora algunos matchups poco favorables, como contra Raging Bolt y Mewtwo, ya que no se ve amenazado por Clefairy, lo cual es algo muy positivo. Blaziken también es mejor contra los Crushing Hammer o los mirror con Dusknoir así es que hay más justificacion de jugarlo en este meta.

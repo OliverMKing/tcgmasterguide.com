@@ -1,7 +1,7 @@
 ---
 title: Alakazam
 pokemon: [65]
-tier: 1
+tier: 2
 format: Standard
 ---
 ## Decklist
@@ -140,6 +140,20 @@ title: Zam v Lucario 1
 - Ten cuidado con Enhanced Hammer.
 - No pongas a Fezandipiti en juego.
 
+### Lopunny - Ligeramente favorable
+
+Este enfrentamiento sería mejor con Dedenne o Handheld Fan, pero aun así está bien.
+
+- Roba cartas rápido y usa a Dudunsparce lo más agresivamente posible. Necesitamos encontrar esos Enhanced Hammer.
+- Guardalos hasta que puedas noquear a un Lopunny de un solo golpe. Lo mismo aplica para Boss's Orders. Si juegas tres, podrías considerar un KO inesperado a un Dunsparce/Dudunsparce una vez.
+- Empieza a cargar Energía a Fezandipiti lo antes posible. Esto es muy importante, ya que necesitamos amenazar a su Buneary antes de que consigan las cuatro Mist Energy.
+- Si juegas Handheld Fan, podría ser conveniente no noquear a su Buneary o Fan Rotom dependiendo de la situación. Sin el, simplemente busca todos los KOs que puedas.
+
+```youtube
+id: STEe7cRpzw0
+title: Lop v Zam 1
+```
+
 ### Garchomp - Favorable
 
 - Este matchup es favorable con el Enhanced Hammer adicional, suponiendo que jueguen cuatro Rocky Energy y algunas Hilda. Cuantas menos de estas jueguen, mejor será para tí.
@@ -207,6 +221,7 @@ title: Zam v Bolt 2
 ```
 
 ### Festival Lead - Parejo
+
 - Los Rare Candy son un recurso muy importante. Intenta poner en juego tantos Abra y Kadabra como sea posible cuanto antes para tenerlos disponibles durante todo el juego.
 - Intenta poner un Dudunsparce en juego cuanto antes para usarlo como escudo y evitar que consigan dos premios.
 - Noquea a Dipplin en cada turno. Esto agota sus recursos al máximo. Una vez caí en la trampa de debilitar a su único Thwackey, y eso marcó la diferencia entre ganar y perder.
@@ -223,7 +238,7 @@ id: X3YpsKBoBBI
 title: Zam v Festival 2
 ```
 
-### Mewtwo - Muy Desfavorable
+### Mewtwo - Auto Loss
 
 - Obviamente, este es un matchup terrible debido a Articuno, pero si hay alguna forma de ganar es cargando a Fez lo más rápido posible y eliminando a su Articuno. Usa Boss’s Orders y Enhanced Hammer para alentarlos. A veces roban mal o brickean, así que es posible tener suerte.
 - Si por alguna razón no tienen a Articuno en juego, toca ser lo más agresivo posible con Alakazam y aprovechar esa ventana que se abre.

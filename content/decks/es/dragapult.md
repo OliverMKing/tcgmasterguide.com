@@ -151,6 +151,45 @@ title: Pult v Lucario 3
 - Usar Pokémon como Fezandipiti/Meowth suele ser una buena opción para mantener el ritmo. Intenta reservar un espacio para Munkidori en la fase intermedia o final del juego.
 - Elige ir primero.
 
+### Mega Lopunny - Desfavorable
+
+- La condición principal para ganar es Unfair Stamp. Intenta crear un turno en el que puedas noquear a Dudunsparce y usar Unfair Stamp al mismo tiempo. Lo ideal es noquear a su único Dudunsparce y que se queden sin opciones.
+- Si tienen dos Dudunsparce, prioriza noquearlos. Usar Unfair Stamp en el primer Dudunsparce o en el siguiente depende. Lo mejor es crear una situación en la que estés noqueando al único que tienen, pero si el juego va muy rápido, puede que tengas que usar Unfair Stamp antes de poder hacerlo.
+- Si tienes mucha Energía en juego, puedes retirar a Dragapult después de que lo golpeen por otro y empezar a atacar con él. Esto los obliga a usar Wally para que no puedan usar Boss, así que es bastante efectivo si logras hacerlo.
+- Noquea a Dudunsparce antes de que evolucione siempre que sea posible.
+- El daño adicional de Phantom Dive suele ser mejor en Buneary/Lopunny que Dudunsparce. Si acumulas suficiente daño, puedes amenazar a ambos Lopunny al mismo tiempo, lo que puede ser decisivo para ganar la partida. Generalmente, es mejor infligir daño al Buneary de reserva en lugar de noquearlo, pero depende de cada caso. También puede ser útil usar 10 de daño contra varios Dunsparce con 70 de HP para presionarlos, o 10 contra Fan Rotom para una opción de premio fácil más adelante.
+- Munkidori es muy bueno en general. Guarda Risky Ruins para quitar Battle Cage.
+
+```youtube
+id: kpIBOnfXjLE
+title: Lop v Hammers 1
+```
+
+```youtube
+id: bcg3aRUL5lg
+title: Lop v Hammers 2
+```
+
+```youtube
+id: -dkLl5npZaE
+title: Lop v Hammers 3
+```
+
+```youtube
+id: btqClFVMizE
+title: Lop v Hammers 4
+```
+
+```youtube
+id: gCResoCcZb8
+title: Lop v Pultnoir 1
+```
+
+```youtube
+id: tjyW4TJ4Grg
+title: Lop v Pultnoir 2
+```
+
 ### Garchomp - Desfavorable
 
 - Encadena Dragapult tanto como sea posible. Si atacan a uno, intenta atacar con uno nuevo.

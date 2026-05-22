@@ -132,6 +132,17 @@ id: 0Cw8pFTfpZE
 title: Crustle v Zam 2
 ```
 
+### Lopunny - Auto Loss
+
+- Imposible de ganar.
+- Si juegas Mega Kangaskhan puedes intentar sacar triple cara dos veces.
+- si juegas Munkidori quizas una estrategia de Munkidori con Hero's Cape y Jumbo Ice Cream logre ganarles pero es poco probable.
+
+```youtube
+id: whq8qKAhgBg
+title: Lop v Crustle 1
+```
+
 ### Meganium - Favorable
 
 - Tener dos Spiky Energy en Crustle (o una más un Munkidori) te permite derrotar a Meganium de un solo golpe.
@@ -171,6 +182,7 @@ title: Crustle v Bolt 2
 ```
 
 ### Festival Lead - Depende
+
 Si tienen a Rillaboom, es prácticamente imposible de ganar. Si no, este enfrentamiento es favorable.
 
 - Carga a Cornerstone Ogerpon en la banca lo más rápido posible. Si le cargan Energía a Thwackey, intenta noquearlo inmediatamente. No debilites nada que no represente una amenaza (como Dipplin, ya que es un problema para ellos). Si ponen a Rellor de forma preventiva, noquealo en cuanto lo veas. Lo mismo con Rillaboom.

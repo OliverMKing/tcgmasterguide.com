@@ -145,6 +145,23 @@ id: nqv7CF4-1NI
 Título: Zam contra Bolt 2
 ```
 
+### Lopunny - Favorable
+
+- Al principio del juego, es posible contrarrestar todas sus amenazas. Al limitar los Pokémon de dos premios en juego, no pueden ejercer presión rápida con Moltres o Dudunsparce ex.
+- Si juegas con Mega Kangaskhan, es un excelente escudo al principio del juego. Para Noctowl, los Pokémon de un solo premio o Raging Bolt ex ofrecen un efecto similar.
+- Acumula Energía en juego para poder noquear a varios Lopunny de un solo golpe con Raging Bolt. Raging Bolt suele ser el mejor atacante, ya que Lopunny no puede noquearlo. Si tienen Spiky Energy, considera jugar alrededor de ella.
+- Si juegas con Wellspring Ogerpon, puede ser muy fuerte al principio del juego.
+
+```youtube
+id: eT9eYofGYhY
+title: Lop v Bolt 1
+```
+
+```youtube
+id: i2Iu-VecsPo
+title: Lop v Bolt 2
+```
+
 ### Garchomp - Favorable
 
 - Si puedes, consigue un KO rápido con Fan Rotom. Si no, atacar con Raging Bolt ex puede ser una buena opción de ataque rápido. Raging Bolt no ex también puede ser útil si consigues cargarle una Energía en tu primer turno.
