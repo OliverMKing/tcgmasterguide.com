@@ -179,7 +179,7 @@ id: tQgDTTJcgC0
 title: Zam v Lucario 1
 ```
 
-## Lopunny - Auto Win
+### Lopunny - Auto Win
 
 - Focus on setting up and stabilizing. Damage modifiers are good to one-shot Lopunny with Aura Jab. Get two Mega Lucario up and the game is over.
 
