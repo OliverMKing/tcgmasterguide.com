@@ -73,6 +73,40 @@ Energy: 9
 - Area Zero has some uses but it's far less useful and impactful than Risky Ruins. If you do play Area Zero, I would also play Chien-Pao to make sure to get the upside of getting rid of liabilities.
 - I don’t think there are any legitimate use cases for Jamming Tower. There aren’t any real Tools in this format, and the card feels completely useless. Risky Ruins is miles better.
 <!-- /PUBLIC -->
+## Decklist 2
+
+![decklist for Dragapult](./images/dragapult/hammers.png)
+```decklist
+Pokémon: 17
+4 Dreepy TWM 128
+4 Drakloak TWM 129
+3 Dragapult ex TWM 130
+2 Munkidori TWM 95
+1 Moltres PFL 14
+1 Budew PRE 4
+1 Fezandipiti ex SFA 38
+1 Meowth ex POR 62
+
+Trainer: 33
+4 Lillie's Determination MEG 119
+3 Crispin SCR 133
+3 Boss's Orders MEG 114
+1 Judge POR 76
+4 Buddy-Buddy Poffin TEF 144
+4 Ultra Ball MEG 131
+4 Poké Pad POR 81
+4 Crushing Hammer POR 71
+2 Night Stretcher ASC 196
+1 Unfair Stamp TWM 165
+3 Team Rocket's Watchtower DRI 180
+
+Energy: 10
+4 Fire Energy MEE 2
+3 Psychic Energy MEE 5
+3 Darkness Energy MEE 7
+```
+Might be playing this for Indianapolis since I couldn't come up with anything good. Watchtower is more reliable when playing a bunch of them, and they're included to respond to an increased threat of Lopunny and Raging Bolt. Similarly, Judge is better when it is basically always combod with Watchtower. I still think Moltres is mostly bad, but it's included due to Hydrapple hype. It can sometimes be good in other spots too, I guess.
+
 ## Gameplay Tips
 
 - Go first blind. Go first against everything except some matchups that can attack on Turn 1, such as Lucario or Raging Bolt. Notables will be mentioned in the matchups.
