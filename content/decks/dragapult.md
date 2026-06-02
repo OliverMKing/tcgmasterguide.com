@@ -6,15 +6,15 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for Dragapult](./images/dragapult/shaymin.png)
+![decklist for Dragapult](./images/dragapult/clefred.png)
 ```decklist
 Pokémon: 20
 4 Dreepy TWM 128
 4 Drakloak TWM 129
 3 Dragapult ex TWM 130
 2 Meowth ex POR 62
-1 Shaymin DRI 10
 1 Budew ASC 16
+1 Moltres PFL 14
 1 Munkidori TWM 95
 1 Fezandipiti ex ASC 142
 1 Latias ex SSP 76
@@ -24,20 +24,19 @@ Pokémon: 20
 Trainer: 31
 4 Lillie's Determination MEG 119
 4 Boss's Orders MEG 114
-2 Crispin SCR 133
+3 Crispin SCR 133
 2 Brock's Scouting JTG 146
-1 Team Rocket's Petrel DRI 176
-1 Rosa's Encouragement POR 84
 4 Buddy-Buddy Poffin TEF 144
 4 Ultra Ball MEG 131
 4 Poké Pad ASC 198
 2 Night Stretcher ASC 196
+1 Special Red Card CRI 82
 1 Unfair Stamp TWM 165
 2 Risky Ruins MEG 127
 
 Energy: 9
-4 Psychic Energy MEE 5
-3 Fire Energy MEE 2
+4 Fire Energy MEE 2
+3 Psychic Energy MEE 5
 2 Darkness Energy MEE 7
 ```
 <!-- PUBLIC -->
@@ -48,28 +47,26 @@ Energy: 9
 - Latias and Ursaluna are still very useful and relevant. Aside from Ursaluna’s normal uses, it has additional utility with Crispin. Having an attacker that isn’t weak to Clefairy comes up very often in this format.
 - Clefairy is particularly strong for the mirror and Lucario matchups. Having an easy access attacker that isn't Dragapult can also be useful at times.
 - This deck relies on Boss’s Orders on specific turns and sometimes likes to spam it. I am firmly in the four Boss camp, and this also helps compensate for the loss of Counter Catcher.
-- Crispin is very good and playing only two is definitely on the low end. However, I have not had any problems finding Crispin, and Rosa’s Encouragement also makes up for it.
-- Rosa’s Encouragement is extremely situational. Before trying it, I thought Crispin was for sure better. However, being able to instantly charge a Dragapult while also attaching Dark to Munkidori is an extremely powerful play that comes up enough to be relevant. The Drakloak with Energy often gets sniped down, which makes Rosa even more necessary. Furthermore, the full wombo combo often assembles itself in-hand with the format’s lack of hand disruption.
+- Swapped Rosa for third Crispin because I think it's better in the current format, especially with more of a reliance on Clefairy.
 - Brock’s Scouting is for general consistency as well as finding the Pokemon ex that can be annoying to search out. The card isn't that good but helps play the game more often.
-- Team Rocket’s Petrel is mostly to find Unfair Stamp on demand via Meowth, and it also helps with general consistency. It is used very often.
-- My opinion on Shaymin has gone up due to an increased threat of Raging Bolt and Mega Starmie. Other Raging Bolt techs are ineffective or committal on space, and Shaymin has the added benefit of being good in other random matchups.
+- Special Red Card is a good replacement for Petrel as an additional out to hand disruption.
+- Moltres is quite nice to help against Hydrapple which is seeing some popularity for the time being.
 
 ### Possible Inclusions
 
-- Dudunsparce ex can be very useful to help against Raging Bolt and Crustle. It comes with the Run Away Draw Dudunsparce which is very nice utility. It is fairly easy to cut cards such as Brock's Scouting, Ursaluna, or the second Budew for the Dudunsparce package. Azumarill and Mega Lopunny have similar applications as Dudunsparce ex.
+- Dudunsparce ex can be very useful to help against Raging Bolt and Crustle. It comes with the Run Away Draw Dudunsparce which is very nice utility. It is fairly easy to cut cards such as Brock's Scouting, Ursaluna, or the Moltres for the Dudunsparce package. Azumarill and Mega Lopunny have similar applications as Dudunsparce ex.
 - Paldean Tauros can be a one-card counter to Crustle should the need arise.
 - Crushing Hammers can be very good in Dragapult mirrors and the Garchomp matchup.
 - Yveltal can help with board positioning, comebacks, or alternate win conditions. Dragapult can capitalize on Yveltal very well, but the list has to change quite a bit to accommodate it (more Munkidori and Dark Energy, maybe Dudunsparce, Area Zero, or Pecharunt ex).
 - A second Budew helps to not start with two-prize liabilities. Although Budew isn't as important as before, it is still useful in most games.
 - Bronzong is something I need to try out. I got wrecked by it at LA and have been intrigued ever since.
-- Dusknoir is a very strong card, but not necessarily in this meta. It's mostly only relevanta against single-prize decks, which should already be manageable. Now that Lopunny is more popular and mostly doesn't play Psyduck, Dusknoir could be better.
+- Dusknoir is a very strong card, but not necessarily in this meta. It's mostly only relevanta against single-prize decks, which should already be manageable. It can also be used to help swing the matchups against Crustle or Lopunny, so it can be good depending on the meta.
 
 ### Exclusions
 
 - Second Munkidori is good for the mirror but with Clefairy this list can often force faster games that don't require double Munki. I have not found two Munki to be needed.
 - Rare Candy is a good card but not necessary in my experience.
 - Hero's Cape is very strong but I still think Stamp is better. Not having Stamp exposes some vulnerabilities and makes some matchups a lot worse (Single-prize decks, Mewtwo, etc.).
-- I finally tested Moltres and it did absolutely nothing for the Raging Bolt matchup, so I don't think it deserves to be in the deck.
 - Area Zero has some uses but it's far less useful and impactful than Risky Ruins. If you do play Area Zero, I would also play Chien-Pao to make sure to get the upside of getting rid of liabilities.
 - I don’t think there are any legitimate use cases for Jamming Tower. There aren’t any real Tools in this format, and the card feels completely useless. Risky Ruins is miles better.
 <!-- /PUBLIC -->
@@ -87,25 +84,25 @@ Pokémon: 17
 1 Fezandipiti ex SFA 38
 1 Meowth ex POR 62
 
-Trainer: 33
+Trainer: 34
 4 Lillie's Determination MEG 119
 3 Crispin SCR 133
 3 Boss's Orders MEG 114
-1 Judge POR 76
 4 Buddy-Buddy Poffin TEF 144
 4 Ultra Ball MEG 131
 4 Poké Pad POR 81
 4 Crushing Hammer POR 71
 2 Night Stretcher ASC 196
+2 Special Red Card CRI 82
 1 Unfair Stamp TWM 165
 3 Team Rocket's Watchtower DRI 180
 
-Energy: 10
+Energy: 9
 4 Fire Energy MEE 2
 3 Psychic Energy MEE 5
-3 Darkness Energy MEE 7
+2 Darkness Energy MEE 7
 ```
-Might be playing this for Indianapolis since I couldn't come up with anything good. Watchtower is more reliable when playing a bunch of them, and they're included to respond to an increased threat of Lopunny and Raging Bolt. Similarly, Judge is better when it is basically always combod with Watchtower. I still think Moltres is mostly bad, but it's included due to Hydrapple hype. It can sometimes be good in other spots too, I guess.
+The disruption build is very nice and I played it to Indianapolis as a last-minute decision. I only finished Top64 due to some atrocious variance but the deck does somewhat rely on luck to an extent. Nonetheless the deck felt extremely strong. Playing three Watchtower makes it more reliable and has a lot of uses in the meta. I think Special Red Card is very useful in this deck, replacing Judge and the fourth Boss. That said, a fourth Boss may end up going back in. I will probably add a more detailed writeup for this variant once I have more testing with it.
 
 ## Gameplay Tips
 
