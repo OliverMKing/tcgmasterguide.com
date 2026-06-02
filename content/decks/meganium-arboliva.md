@@ -1,6 +1,6 @@
 ---
-title: Meganium
-pokemon: [154]
+title: Meganium / Arboliva
+pokemon: [154, 930]
 tier: 3
 format: Standard
 ---
