@@ -72,7 +72,7 @@ Energy: 9
 <!-- /PUBLIC -->
 ## Decklist 2
 
-![decklist for Dragapult](./images/dragapult/hammers.png)
+![decklist for Dragapult](./images/dragapult/redcard.png)
 ```decklist
 Pokémon: 17
 4 Dreepy TWM 128
