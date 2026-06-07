@@ -288,4 +288,4 @@ title: Zam v Absol 1
 
 ## Personal Thoughts
 
-This deck is very good now with Rabsca allowing it to beat a good portion of Dragapult decks. However it's still playing matchup roulette since it hard loses to Mewtwo and some Dragapult lists. The Festival Lead and mirror matchups are also very close and purely lucky based.
+This deck is quite good now with Rabsca allowing it to beat some Dragapult decks such as the Hedrick build. However it's still playing matchup roulette since it hard loses to Mewtwo and some other Dragapult lists. The Festival Lead and mirror matchups are also very close and purely lucky based. This deck is also a lot worse when more Dragapult are playing Watchtower, so it depends on current meta trends.
