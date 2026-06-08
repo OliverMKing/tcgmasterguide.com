@@ -1,6 +1,6 @@
 ---
 title: Dragapult / Dusknoir
-pokemon: [887], [477]
+pokemon: [887, 477]
 tier: 1
 format: Standard
 ---
