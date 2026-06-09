@@ -6,62 +6,60 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for Dragapult](./images/dragapult/shaymin.png)
+![decklist for Dragapult](./images/dragapult/clefred.png)
 ```decklist
 Pokémon: 20
 4 Dreepy TWM 128
 4 Drakloak TWM 129
 3 Dragapult ex TWM 130
+2 Meowth ex POR 62
 1 Budew ASC 16
-2 Meowth ex M3 61
+1 Moltres PFL 14
 1 Munkidori TWM 95
 1 Fezandipiti ex ASC 142
 1 Latias ex SSP 76
 1 Lillie's Clefairy ex JTG 56
 1 Bloodmoon Ursaluna ex TWM 141
-1 Shaymin DRI 10
 
 Trainer: 31
 4 Lillie's Determination MEG 119
 4 Boss's Orders MEG 114
-2 Crispin SCR 133
+3 Crispin SCR 133
 2 Brock's Scouting JTG 146
-1 Team Rocket's Petrel DRI 176
-1 Rosa's Encouragement M3 75
 4 Buddy-Buddy Poffin TEF 144
 4 Ultra Ball MEG 131
 4 Poké Pad ASC 198
 2 Night Stretcher ASC 196
+1 Special Red Card CRI 82
 1 Unfair Stamp TWM 165
 2 Risky Ruins MEG 127
 
 Energy: 9
-4 Psychic Energy MEE 5
-3 Fire Energy MEE 2
+4 Fire Energy MEE 2
+3 Psychic Energy MEE 5
 2 Darkness Energy MEE 7
 ```
-
 <!-- PUBLIC -->
 ### Inclusiones
 
 - Meowth es demasiado bueno en este deck. Te permite buscar lo que quieras en cualquier momento para cualquier jugada que necesites y es útil durante cualquier parte del juego. Originalmente pensé que Meowth sería un riesgo muy grande por su bajo HP y que ocupa un espacio en banca pero es tan útil que ni notas eso. El único punto en contra de Meowth es que a veces inicias con esta carta, pero aun así vale la pena utilizar dos copias.
+- Cambié Rosa's Encouragement por un tercer Crispin porque creo que es mejor en el formato actual, especialmente con la mayor dependencia de Clefairy.
+- Special Red Card es un buen reemplazo para Petrel como una disrupción adicional de mano.
+- Moltres es bastante útil contra Hydrapple, que está ganando popularidad últimamente.
 - Risky Ruins es bueno en cualquier matchup y este combo reemplaza lo que se lograba anteriormente con Hawlucha. No tengo al segundo Munkidori porque no hay muchas oportunidades de usar ambos en un mismo turno y es realmente muy fácil encontrar al único que juegas y aunque a veces se premia, no te afecta tanto. La principal razón para jugar un segundo Munkidori sería el mirror. Risky Ruins suele ser mejor que Area Zero porque activa usos relevantes de Munkidori en la mayoría de los matchups. Sin el, Munkidori sigue siendo buena en los mirrors, pero prácticamente inútil en cualquier otro caso. El daño de Risky Ruins también es muy efectivo contra decks de tipo Lucha.
 - Latias y Ursaluna continúan siendo muy buenos y sería un grave error no incluirlos en la lista. Además del uso normal de Ursaluna, Crispin le abre las puertas a atacar antes de lo normal y tener un atacante que no es débil a Lillie’s Clefairy es muy importante en este formato.
 - Clefairy es demasiado fuerte en los mirror y contra Mega Lucario. Tener un atacante fácil de cargar que no sea Dragapult puede ser muy útil.
 - Este deck depende de Boss’s Orders en muchos turnos específicos y los necesitas en turnos seguidos, así es que estoy muy seguro que jugar 4 es necesario para compensar la pérdida de Counter Catcher. 
-- Crispin es muy bueno y jugar 2 es lo mínimo que debes hacer. Aunque no he tenido problemas encontrando a Crispin en el momento justo, la opción de Rosa’s Encouragement también es muy buena por si acaso no lo encuentras.
-- Aún así, Rosa’s Encouragement es muy situacional. Antes de probarla, estaba seguro que un tercer Crispin sería mejor pero cargar instantáneamente a un Dragapult y también cargar de turno a Munkidori es una jugada que sucede lo suficiente que se vuelve muy relevante. Un Drakloak con energía casi siempre será atacado por un oponente lo cual hace de Rosa aún mas necesaria. Además, es muy fácil hacer el combo de Rosa mas Dark a Munkidori gracias a que hay muy poca disrupción de mano viable en este momento en el nuevo formato. 
 - Brock’s Scouting también es muy bueno para agregar consistencia al deck, así como para encontrar Pokemon ex que ahora son un poco más complicados de buscar. 
-- Team Rocket’s Petrel es usado principalmente para buscar Unfair Stamp en cualquier momento gracias a Meowth y también ayuda con la consistencia en general ya que es muy versatil. 
-- Creo que Shaymin ahora es más necesario por la amenaza de Raging Bolt y Mega Starmie, además de alguno beneficio contra otros decks random.
 
 ### Posibles Inclusiones
-- Dudunsparce ex puede ser muy útil contra Raging Bolt y Crustle. Viene con Run Away Draw Dudunsparce, que ofrece una gran utilidad. Es bastante fácil reemplazar cartas como Brock's Scouting, Ursaluna o el segundo Budew por el paquete de Dudunsparce. Azumarill y Mega Lopunny tienen aplicaciones similares a las de Dudunsparce ex.
+- Dudunsparce ex puede ser muy útil contra Raging Bolt y Crustle. Viene con Run Away Draw Dudunsparce, que ofrece una gran utilidad. Es bastante fácil reemplazar cartas como Brock's Scouting, Ursaluna o el Moltres por el paquete de Dudunsparce. Azumarill y Mega Lopunny tienen aplicaciones similares a las de Dudunsparce ex.
 - Paldean Tauros puede ser un counter de una sola carta contra Crustle si surge la necesidad.
 - Crushing Hammers pueden ser muy buenos en matchups contra Dragapult y Garchomp.
 - Yveltal puede ayudar con el posicionamiento en el tablero, remontadas o condiciones de victoria alternativas. Dragapult puede aprovechar muy bien a Yveltal, pero la lista debe cambiar bastante para incluirlo (más Munkidori y Dark Energy, quizás Dudunsparce, Area Zero o Pecharunt ex).
 - Un segundo Budew ayuda a evitar empezar con desventajas de dos premios. Aunque Budew ya no es tan importante como antes, sigue siendo útil en la mayoría de las partidas.
 - Bronzong es algo que tengo que probar. Me destrozó en Los Ángeles y desde entonces me intriga.
+- Dusknoir es una carta muy fuerte, pero no necesariamente en este metajuego. Su relevancia radica principalmente contra decks de un solo premio, que ya deberían ser manejables. También puede usarse para inclinar la balanza a favor de Crustle o Mega Lopunny, por lo que puede ser útil dependiendo del metajuego.
 
 ### Exclusiones
 
@@ -79,6 +77,41 @@ Energy: 9
 - Dusknoir es una carta muy fuerte, pero no necesariamente en este metajuego. Suele ser relevante solo contra decks de un premio, que ya deberían ser manejables. Sin embargo, puede ser muy útil contra Crustle. Mega Lopunny tiene a Psyduck y Garchomp sigue siendo un matchup difícil.
 - Finalmente probé Moltres y no sirvió para nada contra Raging Bolt, así que no creo que merezca estar en el deck.
 <!-- /PUBLIC -->
+
+## Decklist 2
+
+![decklist for Dragapult](./images/dragapult/redcard.png)
+```decklist
+Pokémon: 17
+4 Dreepy TWM 128
+4 Drakloak TWM 129
+3 Dragapult ex TWM 130
+2 Munkidori TWM 95
+1 Moltres PFL 14
+1 Budew PRE 4
+1 Fezandipiti ex SFA 38
+1 Meowth ex POR 62
+
+Trainer: 34
+4 Lillie's Determination MEG 119
+3 Crispin SCR 133
+3 Boss's Orders MEG 114
+4 Buddy-Buddy Poffin TEF 144
+4 Ultra Ball MEG 131
+4 Poké Pad POR 81
+4 Crushing Hammer POR 71
+2 Night Stretcher ASC 196
+2 Special Red Card CRI 82
+1 Unfair Stamp TWM 165
+3 Team Rocket's Watchtower DRI 180
+
+Energy: 9
+4 Fire Energy MEE 2
+3 Psychic Energy MEE 5
+2 Darkness Energy MEE 7
+```
+La versión de disrupción es muy buena y la usé en Indianápolis de última hora. Solo logré llegar al Top 64 debido a una varianza terrible, pero el deck depende un poco de la suerte. Aun así, me pareció extremadamente fuerte. Jugar tres Rocket's Watchtower lo hace más viable y tiene muchas utilidades en el metajuego. Creo que Special Red Card es muy útil en este deck, reemplazando a Judge y al cuarto Boss's Orders. Dicho esto, es posible que vuelva a incluir un cuarto Boss. Probablemente añadiré una descripción más detallada de esta variante cuando la haya probado más a fondo.
+
 ## Gameplay
 
 - La secuencia de jugadas con este deck depende de tu estrategia. Para realizar combos, maximiza la cantidad de cartas vistas comenzando con el Supporter de robo, luego Fezandipiti y, por último, habilidad de Drakloak. Si necesitas más Pokémon que cartas de búsqueda, roba primero. Si no, busca primero. Si necesitas evolucionar a Dragapult antes de jugar un Supporter de robo, usa primero al Drakloak que evolucionara, luego evoluciona y después sigue la secuencia anterior.
