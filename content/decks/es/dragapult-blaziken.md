@@ -5,9 +5,10 @@ tier: 1
 format: Standard
 ---
 ## Decklist
-![Blaziken list](./images/dragapult-blaziken/blazelist.png)
+![Blaziken list](./images/dragapult-blaziken/redcard.png)
 
 ```decklist
+Pokémon: 21
 Pokémon: 21
 4 Dreepy TWM 128
 4 Drakloak TWM 129
@@ -24,14 +25,14 @@ Pokémon: 21
 Trainer: 31
 4 Lillie's Determination MEG 119
 3 Boss's Orders MEG 114
-2 Dawn PFL 87
-1 Crispin SCR 133
-1 Team Rocket's Petrel DRI 176
+2 Crispin SCR 133
+1 Dawn PFL 87
 4 Buddy-Buddy Poffin TEF 144
 4 Ultra Ball MEG 131
 4 Poké Pad POR 81
 3 Rare Candy MEG 125
 2 Night Stretcher ASC 196
+1 Special Red Card CRI 82
 1 Unfair Stamp TWM 165
 2 Risky Ruins MEG 127
 
@@ -44,17 +45,17 @@ Energy: 8
 ### Inclusiones
 
 - Clefairy es una muy buena opción contra Dragapult y Lucario.
-- Las dos Dawn resultaron mejores de lo esperado y también combinan bien con Rare Candy.
+- Dawn es mejor de lo que esperaba. Me gustaría volver a incluir la segunda copia, pero no sé dónde está el espacio, ya que también quiero un segundo Crispin.
+- Crispin es extremadamente fuerte. Lo usé muchísimo, a pesar de que el deck también incluye a Blaziken. Un aspecto muy subestimado es la facilidad para encontrar la Energía, algo que a veces puede ser inconsistente.
+- Petrel queda fuera por Special Red Card, ya que es similar a Unfair Stamp. Aunque sería bueno tener a Petrel para encontrar Rare Candy, en definitiva no es una carta tan fuerte.
+- Al igual que Dragapult, Risky Ruins es muy útil e impactante. Creo que es el mejor Estadio por mucho. No estoy seguro si este deck realmente necesita Estadios, pero pueden ser útiles en cualquier matchup y son particularmente importantes contra Alakazam.
 - Rare Candy es una carta que puede ser inútil o extremadamente impactante. Hay partidas en las que no la necesitas, pero es muy poderosa e importante tenerla en turnos específicos en diversas situaciones. La probé con dos y tres copias y me pareció lo suficientemente fuerte como para justificar la tercera.
-- Crispin es extremadamente fuerte. Lo usé muchísimo, a pesar de que el deck también incluye a Blaziken. Consideraría seriamente incluir otro. Un aspecto muy subestimado es la dificultad para encontrar Energías, algo que a veces puede ser inconsistente.
-- Petrel es ideal principalmente para obtener Unfair Stamp de forma consistente. A veces se usa para hacer una jugada con Rare Candy o para mayor consistencia, como por ejemplo para obtener Buddy Buddy Poffin.
 - PokePad hace que el deck funcione, así que no quiero jugar con menos de cuatro cartas.
-- Al igual que Dragapult normal, Risky Ruins es muy útil e impactante. Creo que es el mejor estadio por mucho.
 
 ### Posibles Inclusiones
 
 - Tener dos Budew sería ideal, pero a veces resulta contraproducente y el espacio en banca es más limitado con la línea evolutiva de Blaziken. El segundo sería útil cuando uno está premiado, o a veces para usarlo como pivote. Tampoco estoy seguro de qué carta quitaría para incluirlo o si realmente es necesario.
-- Un segundo Crispin sería útil.
+- Una segunda Dawn sería útil.
 - Dudunsparce EX o Paldean Tauros podrían ser buenas opciones para Crustle si surgiera la necesidad.
 
 ### Exclusiones

@@ -281,4 +281,4 @@ title: Crustle v Zam 2
 
 ## Conclusión
 
-Este deck es muy bueno ahora con Rabsca, lo que le permite vencer a una buena parte de los decks de Dragapult. Sin embargo, sigue siendo una ruleta en cuanto a matchups, ya que pierde estrepitosamente contra Mewtwo y algunas listas de Dragapult. Los matchups contra Festival Lead y los mirror son muy parejos y dependen puramente de la suerte.
+Este deck es muy bueno ahora con Rabsca, lo que le permite vencer a una buena parte de los decks de Dragapult como la versión de Hedrick. Sin embargo, sigue siendo una ruleta en cuanto a matchups, ya que pierde estrepitosamente contra Mewtwo y algunas listas de Dragapult. Los matchups contra Festival Lead y los mirror son muy parejos y dependen puramente de la suerte. Este deck también es mucho peor cuando más Dragapult están jugando hasta 3 Rocket's Watchtower así que depende de los movimientos del metajuego.
