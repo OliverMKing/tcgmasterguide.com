@@ -5,7 +5,7 @@ tier: 2
 format: Standard
 ---
 ## Decklist
-![Ogerpon list](./images/ogerpon/passimian.png)
+![Ogerpon list](./images/ogerpon/pech.png)
 
 ```decklist
 Pokémon: 15
@@ -15,18 +15,20 @@ Pokémon: 15
 2 Fezandipiti ex SFA 38
 1 Wellspring Mask Ogerpon ex TWM 64
 1 Iron Leaves ex TEF 25
+1 Pecharunt PR-SV 149
 1 Moltres PFL 14
-1 Passimian SSP 111
 
 Trainer: 28
 4 Lillie's Determination MEG 119
-3 Boss's Orders PAL 172
+2 Boss's Orders PAL 172
 2 N's Plan BLK 83
+1 Ciphermaniac's Codebreaking TEF 145
 4 Ultra Ball SVI 196
-4 Tera Orb SSP 189
 4 Bug Catching Set TWM 143
 4 Energy Switch SVI 173
-1 Unfair Stamp TWM 165
+3 Tera Orb SSP 189
+1 Night Stretcher SFA 61
+1 Prime Catcher TEF 157
 2 Area Zero Underdepths SCR 131
 
 Energy: 17
@@ -38,18 +40,21 @@ Energy: 17
 
 - Fezandipti is very important for draw power. I always want it in play and not prized. It is more important now that there’s no Kangaskhan. It can sometimes attack as well.
 - Wellspring is very strong and easy to use in this deck. It is particularly good against Fighting decks. Sob can also buy a turn to build up Energy in some situations.
-- Passimian is very good for Lopunny and Crustle.
 - Iron Leaves is a very convenient attacker because of how easy it is to utilize and get a Turn 1 attack. Although nothing really gets stuck from retreat lock, having an out to that is nice as well. Even aside from retreat lock, it sometimes gets used as a general purpose switching card since this deck doesn’t play Latias. Iron Leaves’ flexibility and utility is great, but it probably is cuttable if you needed space.
 - Moltres is incredibly useful for getting the advantage against all similar two-prize decks. It is much better and more consistent than other methods of swinging the prize trade such as Legacy Energy or Briar.
-- I like the third Meowth and third Boss because of how often I rely on Meowth. It also works well with this deck. Boss is just broken and I think two is too few a lot of times. Boss is especially strong with Wellspring or Moltres.
+- Pecharunt is very good against single-prize decks for KO'ing Shaymin going back into your turn, which enables Wellspring's Torrential Pump. It can also be good against two-prize decks by trapping Latias, Fez, or Meowth, setting them up for Torrential Pump or Moltres follow-up
+- Swapped a Boss for Prime Catcher for space. Stamp is still good but Pecharunt covers the utility against single-prize decks and we still want three gusts.
 - N’s Plan is a versatile Supporter that works perfectly in this deck. It is often used to make a big Ogerpon to close out the game.
 - Area Zero is nice to have, but not necessarily needed for this deck to execute its strategy. It would probably be good to add another one if you were so inclined.
-- Maxing out Tera Orb and Bug Catching Set makes sense because this deck’s entire engine revolves around Teal Dance, which is sufficient for winning games.
-- Unfair Stamp is my Ace Spec of choice because the card is way too good and is the most reliable means of swinging back the prize trade. I tried Legacy Energy and it was completely useless. Stamp isn’t necessary for the deck to function but the other Ace Specs don’t seem very appealing. Boss + Unfair Stamp is also extremely strong in this format.
+- Ciphermaniac helps consistently make combos and we can easily find it with Meowth.
+- Night Stretcher is kind of like another Grass Energy but more versatile. It's slightly better with Passimian in the deck for that option against Crustle.
 
 ### Possible Inclusions
 
+- Passimian isn't as important with less Lopunny, but remains a solid tech option for Crustle and Lopunny.
 - More Grass Energy could always be good.
+- Scramble Switch and Unfair Stamp would also be good Ace Spec options. You'd want a third Boss back in if you swapped out Prime Catcher.
+- Special Red Card would probably be nice but I'm not sure how good it is exactly.
 
 ### Exclusions
 
@@ -57,7 +62,7 @@ Energy: 17
 - Ursaluna would be nice but of course does not make much sense with no Latias. I haven’t had trouble making big Ogerpon to close out games since this deck plays a million Grass Energy.
 - Tried Briar and never used it. Alakazam and similar decks with Shaymin are basically auto-losses anyway.
 - Same with Legacy Energy. Did not get any value from it. Moltres and Unfair Stamp are much better and more reliable ways to swing the prize trade if needed.
-- Chien-Pao could possibly help against Dragapult with techs, but probably not that much. I found that matchup to be tough if they have both Moltres and Shaymin, but if they don’t, it’s fine anyway.
+- Chien-Pao could possibly help against Dragapult with all of the techs, but probably not that much. I found that matchup to be tough if they have both Moltres and Shaymin, but if they don’t, it’s fine anyway.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
@@ -129,15 +134,18 @@ id: Q0ck8sVaKG4
 title: Ogerpon v Mewtwo 2
 ```
 
-### Alakazam and Festival Lead - Very Unfavorable
+### Alakazam and Festival Lead - Unfavorable
 
-- Your only chance is to cheese them with Wellspring before they get Shaymin in play.
-- Stamp + KO their draw support on board, or Stamp when they have no draw support on board.
+- Pecharunt can get their Shaymin for a Wellspring follow up.
+- If you can get Wellspring off before they get Shaymin, all the better. Lots of Alakazam don't play Shaymin anymore which is nice as well.
+- Need to be as fast and aggresive as possible.
 
-### Lopunny - Favorable
+### Lopunny - Depends
 
-- Use Passimian to respond to their first Lopunny. Save Area Zero for this play so you can get a full board.
-- Load Energy in play so that you can one-shot the second Lopunny with a big Ogerpon.
+If you have Passimian, it's favorable. Otherwise, unfavorable.
+
+- Use Passimian to respond to their first Lopunny. Save Area Zero for this play so you can get a full board. If you don't have Passimian, try to find three prizes on random stuff and then make a massive Teal Mask Ogerpon to one-shot a Lopunny.
+- Load tons of Energy in play so that you can eventually one-shot the second Lopunny with a big Ogerpon.
 - If you're able to get two prizes with Wellspring in the early-game, you can boss for another single-prize KO and then one-shot a Lopunny for your prize map.
 
 ### Lucario - Favorable
@@ -191,6 +199,8 @@ title: Ogerpon v Meganium 2
 
 ### Crustle - Unfavorable
 
+Without Passimian this matchup is an auto-loss.
+
 - A fast Passimian can run them over since it one-shots everything besides Cornerstone. However you have to make sure to keep it alive. Use Boss to target anything with Energy or Hero's Cape as those are the threats.
 
 ### Zoroark - Favorable
@@ -208,4 +218,4 @@ This matchup is favorable thanks to Moltres, unless they also have Moltres, in w
 
 ## Personal Thoughts
 
-This deck is actually pretty good and might be the best of the slop decks. If you’re going to play non-Noctowl Raging Bolt, this is just better than that, so play this instead. It does unfortunately lose to some of the single-prize decks very hard, but pretty good against everything else.
+This deck is actually pretty good and might be the best of the slop decks. If you’re going to play non-Noctowl Raging Bolt, this is just better than that, so play this instead. It does have some bad matchups but the overall matchup spread is decent.
