@@ -42,8 +42,8 @@ Energy: 9
 ```
 ### Inclusions
 
-- Shaymin is mostly to help against Raging Bolt, as well as other random Fezandipiti or Wellspring Ogerpon. Of course it is also good against other fringe stuff like Slowking and Starmie.
-- Meowth is often needed to play the game and is amazing for consistency. It might look awkward with three Watchtower, but in reality, the two cards rarely end up clasing with each other.
+- Shaymin is mostly to help against fast snipers such as Fez and Wellspring, since this deck has no other response such as Moltres, Candy, or Hammer. It's also great against Slowking.
+- Meowth is often needed to play the game and is amazing for consistency. It might look awkward with three Watchtower, but in reality, the two cards rarely end up clashing with each other.
 - Rosa’s Encouragement is oftentimes just what you need on a specific turn, especially in the late-game. I don’t end up using it for attacking with Dusknoir very often, but that is a viable option, especially against decks like Lucario. It’s mostly still used on Dragapult though.
 - I added a second Special Red Card because I often found myself needing it, and one wasn’t enough. This is the best deck to utilize Red Card, as it needs to make comebacks and disrupt the opponent. Red Card also has nice synergies with Dusknoir and Watchtower.
 - I think Unfair Stamp is still the best Ace Spec because the card is completely broken and you don’t really need another Ace Spec.
@@ -60,7 +60,7 @@ Energy: 9
 
 - Moltres wasn’t doing anything against Raging Bolt, and Dusknoir helps enough against Hydrapple.
 - Rare Candy isn’t necessary although it isn’t bad either.
-- Jamming Tower is just bad in the current meta, by far the worst of the mainstream Stadium options.
+- Jamming Tower is just bad in the current meta, by far the worst of the main Stadium options.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
@@ -113,6 +113,7 @@ title: Hammers v Noir 2
 id: xtyhdTqg5eI
 title: Pultnoir v Bolt 1
 ```
+These games were before I added Shaymin.
 
 ```youtube
 id: NolNmY62jDY
@@ -149,11 +150,24 @@ id: SfQtd8mZFbE
 title: Pultnoir v Hydrap 1
 ```
 
-### Festival Lead - Favorable
+### Crustle - Slightly Favorable
 
-- Set up Dusknoir as soon as possible and use it to blow up Rabsca. Dusclops on Rellor also works. If you can’t, at least KO Rabsca normally. Then you can use Dusclops/Noir to wipe out all of the Dipplin/Applin, which is game over.
-- Getting Munkidori in play to use as a sponge is very good. It can be used as a sacrifice or as a promote after they use their first attack to get a KO. Later in the game, it will also be relevant for Adrenabrain.
-- Hand disruption is very broken. Use it when you get to start attacking with Dragapult, or with Boss to slow them down. If you Boss up Thwackey and reset their hand, they are unlikely to get out of it and you can buy time that way.
+- Dusknoir pieces, Night Stretchers, and Energy are the most premium resources.
+- If you can KO Dwebble before they evolve, do that. Otherwise, use Drakloak or Munkidori to pressure Crustle before they have enough Energy in play. Mind Bend is very good if they don’t have Mist Energy yet.
+- Slam Watchtower instantly every time.
+- Eventually will want to KO Psyduck and Kang, but not necessarily a priority. Just make sure Dusclops/Dusknoir doesn’t get stuck.
+- Sometimes you’ll use Dusknoir to attack and sometimes you won’t. If you have two Dusclops, evolve the one without Energy to blow up and then use Stretcher to make an attacking Dusknoir with the second one. In some scenarios, you’ll want to blow up both Dusknoir and attack with Drakloak/Munkidori.
+- Using Dragapult to apply fast pressure is allowed, but whether or not you want to depends on the situation (sometimes using Drakloak/Munki to swing into their Crustle with Energy is better). Going fast is actually more important than it might seem.
+
+```youtube
+id: B9PD3eYk2jo
+title: Pultnoir v Crustle 1
+```
+
+```youtube
+id: fCWrj9O2oiw
+title: Pultnoir v Crustle 2
+```
 
 ### Mewtwo - Even
 
@@ -182,6 +196,12 @@ id: tX125zkIRpw
 title: Pultnoir v Lucario 2
 ```
 
+### Festival Lead - Favorable
+
+- Set up Dusknoir as soon as possible and use it to blow up Rabsca. Dusclops on Rellor also works. If you can’t, at least KO Rabsca normally. Then you can use Dusclops/Noir to wipe out all of the Dipplin/Applin, which is game over.
+- Getting Munkidori in play to use as a sponge is very good. It can be used as a sacrifice or as a promote after they use their first attack to get a KO. Later in the game, it will also be relevant for Adrenabrain.
+- Hand disruption is very broken. Use it when you get to start attacking with Dragapult, or with Boss to slow them down. If you Boss up Thwackey and reset their hand, they are unlikely to get out of it and you can buy time that way.
+
 ### Lopunny - Favorable
 
 - Try to be aggressive and set up a Dusknoir. Even if you can’t get the one-shot play, you still want to attack and apply pressure. Smacking into their Lopunny is still fine. They can’t Wally and Boss Duskull/Clops at the same time.
@@ -197,25 +217,6 @@ title: Pultnoir v Lucario 2
 - If they smack Dragapult for less than a KO, try to get another Dragapult and retreat into it. This denies an easy two-shot and also provides damage for Munkidori.
 - Just like Lucario, try to play without Fez or Meowth if possible.
 - Feeding one Spiritomb KO is sometimes unavoidable, just try not to give them any more than that.
-
-### Crustle - Slightly Favorable
-
-- Dusknoir pieces, Night Stretchers, and Energy are the most premium resources.
-- If you can KO Dwebble before they evolve, do that. Otherwise, use Drakloak or Munkidori to pressure Crustle before they have enough Energy in play. Mind Bend is very good if they don’t have Mist Energy yet.
-- Slam Watchtower instantly every time.
-- Eventually will want to KO Psyduck and Kang, but not necessarily a priority. Just make sure Dusclops/Dusknoir doesn’t get stuck.
-- Sometimes you’ll use Dusknoir to attack and sometimes you won’t. If you have two Dusclops, evolve the one without Energy to blow up and then use Stretcher to make an attacking Dusknoir with the second one. In some scenarios, you’ll want to blow up both Dusknoir and attack with Drakloak/Munkidori.
-- Using Dragapult to apply fast pressure is allowed, but whether or not you want to depends on the situation (sometimes using Drakloak/Munki to swing into their Crustle with Energy is better). Going fast is actually more important than it might seem.
-
-```youtube
-id: B9PD3eYk2jo
-title: Pultnoir v Crustle 1
-```
-
-```youtube
-id: fCWrj9O2oiw
-title: Pultnoir v Crustle 2
-```
 
 ## Personal Thoughts
 
