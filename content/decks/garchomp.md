@@ -1,7 +1,7 @@
 ---
 title: Garchomp
 pokemon: [445]
-tier: 2
+tier: 3
 format: Standard
 ---
 ## Decklist
@@ -303,4 +303,4 @@ title: Chomp v Slop 3
 
 ## Personal Thoughts
 
-This deck is surprisingly good. It has one of the best Dragapult matchups in the format and is good against some other decks too. Unfortunately its Grass weakness severely hurts against the rest of the field. There are quite a few of those running around, which makes Garchomp a risky play.
+This deck is much weaker now that most Dragapult decks play Crushing Hammer. Its other matchups are sketcy, and dominating Dragapult was the main thing it had going for it before. Garchomp isn't terrible but it's not in a very good place in the metagame.

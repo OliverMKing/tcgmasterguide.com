@@ -234,4 +234,4 @@ title: Lop v Zoro 1
 
 ## Personal Thoughts
 
-This one of the weaker decks in the format due to its poor matchup spread. It is good against non-Dusknoir Dragapult, but bad against anything that can one-shot Lopunny, which is a few too many decks. However, it is very fast and consistent, which is nice. Overall, the deck is not as bad as something like Zoroark, but it’s not very good either.
+This deck is just bad.

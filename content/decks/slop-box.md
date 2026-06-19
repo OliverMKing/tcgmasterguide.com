@@ -231,4 +231,4 @@ title: Crustle v Slop 1
 
 ## Personal Thoughts
 
-This deck is not very good or relevant in the meta right now. I probably won't add as many updates for it until it becomes better or more relevant.
+This version of the deck is pretty irrelevant right now. I plan to replace this page with the NAIC winning Slop Box deck.

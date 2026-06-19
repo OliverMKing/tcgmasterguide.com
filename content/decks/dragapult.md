@@ -111,7 +111,7 @@ title: Hammers v Noir 2
 id: tauR3pT-QbY
 title: Pult v Bolt 1
 ```
-Close game but pretty standard. The rest are some interesting games that go in ways you might not expect.
+Close game but pretty standard. The next three are some interesting games that go in ways you might not expect.
 
 ```youtube
 id: dcyAmSbMJFY

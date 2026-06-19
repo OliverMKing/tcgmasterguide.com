@@ -282,4 +282,4 @@ This matchup could be slightly favored one way or the other, but I couldn’t re
 
 ## Personal Thoughts
 
-This deck is just terrible.
+This deck is not very good, but the metagame is actually kind of decent for it right now.
