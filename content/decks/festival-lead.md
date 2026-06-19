@@ -257,4 +257,4 @@ title: Festival v Zoroark 1
 
 ## Personal Thoughts
 
-I think this deck is stupid but it is insanely good right now. It has an obscene matchup spread and beats lots of stuff. However with more Dragapult decks playing Dusknoir and / or Rare Candy, these things can keep Festival Lead in check. Budew can also be cause for concern as it makes it difficult to set up. The deck's consistency is a bit questionable but it was better in testing than I expected.
+I actually still think this deck is pretty good right now. It can hang with most non-Dusknoir Dragapult decks and has a good matchup spread overall. The only real issue with it is being very shaky against Dragapult overall.
