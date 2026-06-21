@@ -51,9 +51,10 @@ Energy: 17
 
 ### Possible Inclusions
 
-- Passimian isn't as important with less Lopunny, but remains a solid tech option for Crustle and Lopunny.
+- Passimian isn't as important with less Lopunny in the meta.
 - More Grass Energy could always be good.
 - Scramble Switch and Unfair Stamp would also be good Ace Spec options. You'd want a third Boss back in if you swapped out Prime Catcher.
+- Chi-Yu or Paldean Tauros would be good techs for Crustle.
 - Special Red Card would probably be nice but I'm not sure how good it is exactly.
 
 ### Exclusions
@@ -77,7 +78,7 @@ Energy: 17
 
 ### Dragapult - Depends
 
-If they have both Shaymin and Moltres, this matchup is unfavorable. With neither, it’s favorable. With one or the other, it’s close to even or slightly favorable.
+If they have both Shaymin and Moltres, this matchup is unfavorable. With neither, it’s favorable. With one or the other, it’s close to even.
 
 - Oftentimes you’ll need both Clefairy to trade off against Dragapult. Putting one down preemptively is risky because it can get KO’d before you can get value from it, and there’s no way to recover it. Holding onto Clefairy is usually fine because it’s not hard to find the combo, but many exceptions exist. For example, if you get two quick prizes, you might not even need both Clefairy, so it could be better to put it down and prepare it in that case.
 - Ending the game with a massive Ogerpon is very common, even capable of one-shotting Dragapult. It’s not that hard to get 8 Energy on an Ogerpon to close out the game.
@@ -105,7 +106,7 @@ title: Ogerpon v Pult 3
 - Clefairy is very good to one-shot Raging Bolt, or in general if they fill up their bench too much.
 - Making a big Ogerpon to reach for a KO is also somewhat common as a means to grab two prizes or close out the game.
 - This is another standard two-prize trade-off matchup, but we have Moltres to swing things in our favor if needed.
-- Passimian can occasionally one-shot Kangaskhan.
+- If you play Passimian, it can occasionally one-shot Kangaskhan.
 
 ```youtube
 id: rs8soPQClrQ
@@ -116,6 +117,23 @@ title: Ogerpon v Raging Bolt 1
 id: WH8m4IA1vOc
 title: Ogerpon v Raging Bolt 2
 ```
+
+### Alakazam and Festival Lead - Unfavorable
+
+- Pecharunt can get their Shaymin for a Wellspring follow up.
+- If you can get Wellspring off before they get Shaymin, all the better. Lots of Alakazam don't play Shaymin anymore which is nice as well.
+- Need to be as fast and aggresive as possible.
+
+### Zoroark - Favorable
+
+- Pressure them in the early-game with Wellspring or Fezandipti. If you can’t, at least get a KO with any means possible. You can also use Sob in the early-game to set up a strong play, but they can get out of it with Pecharunt, so it’s not very reliable and I would rather get a KO. 
+- Once you’ve got the first two prizes, you can win the trade normally. If you don’t, it is possible to lose the trade. Target Zoroark with Energy given the choice.
+
+### Crustle - Auto Loss
+
+Without a tech this matchup is an auto-loss.
+
+- A fast Passimian can run them over since it one-shots everything besides Cornerstone. However you have to make sure to keep it alive. Use Boss to target anything with Energy or Hero's Cape as those are the threats. Similar thing applies with the Fire-type techs except they can't KO Kang.
 
 ### Mewtwo - Slightly Unfavorable
 
@@ -134,20 +152,6 @@ id: Q0ck8sVaKG4
 title: Ogerpon v Mewtwo 2
 ```
 
-### Alakazam and Festival Lead - Unfavorable
-
-- Pecharunt can get their Shaymin for a Wellspring follow up.
-- If you can get Wellspring off before they get Shaymin, all the better. Lots of Alakazam don't play Shaymin anymore which is nice as well.
-- Need to be as fast and aggresive as possible.
-
-### Lopunny - Depends
-
-If you have Passimian, it's favorable. Otherwise, unfavorable.
-
-- Use Passimian to respond to their first Lopunny. Save Area Zero for this play so you can get a full board. If you don't have Passimian, try to find three prizes on random stuff and then make a massive Teal Mask Ogerpon to one-shot a Lopunny.
-- Load tons of Energy in play so that you can eventually one-shot the second Lopunny with a big Ogerpon.
-- If you're able to get two prizes with Wellspring in the early-game, you can boss for another single-prize KO and then one-shot a Lopunny for your prize map.
-
 ### Lucario - Favorable
 
 - Wellspring is very good in this matchup. If they have Solrock or Lunatone active, Sob into Torrential Pump is an easy two prizes. Of course, if they have Riolu or Makuhita active, or if you can use Boss for two prizes right away, that’s better. You can also Boss to use Sob on Lunatone/Solrock if you don’t have a more powerful play available yet.
@@ -163,6 +167,14 @@ title: Ogerpon v Lucario 1
 id: Q_P_hE7aCWE
 title: Ogerpon v Lucario 2
 ```
+
+### Lopunny - Depends
+
+If you have Passimian, it's favorable. Otherwise, unfavorable.
+
+- Use Passimian to respond to their first Lopunny. Save Area Zero for this play so you can get a full board. If you don't have Passimian, try to find three prizes on random stuff and then make a massive Teal Mask Ogerpon to one-shot a Lopunny.
+- Load tons of Energy in play so that you can eventually one-shot the second Lopunny with a big Ogerpon.
+- If you're able to get two prizes with Wellspring in the early-game, you can boss for another single-prize KO and then one-shot a Lopunny for your prize map.
 
 ### Garchomp - Favorable
 
@@ -181,7 +193,7 @@ id: 1pVKyVlZlzQ
 title: Ogerpon v Garchomp 2
 ```
 
-### Meganium - Favorable
+### Arboliva - Favorable
 
 - As expected, Moltres is extremely good in this matchup. It can be used to initiate or to swing the prize trade back.
 - If the opportunity presents itself for Wellspring to get two-prizes, it can be a great chance to remove Hoothoot from their board. Noctowl is threatening because it can find Briar or consecutive Bosses to get around Moltres.
@@ -197,25 +209,6 @@ id: OILBoOI06cM
 title: Ogerpon v Meganium 2
 ```
 
-### Crustle - Unfavorable
-
-Without Passimian this matchup is an auto-loss.
-
-- A fast Passimian can run them over since it one-shots everything besides Cornerstone. However you have to make sure to keep it alive. Use Boss to target anything with Energy or Hero's Cape as those are the threats.
-
-### Zoroark - Favorable
-
-- Pressure them in the early-game with Wellspring or Fezandipti. If you can’t, at least get a KO with any means possible. You can also use Sob in the early-game to set up a strong play, but they can get out of it with Pecharunt, so it’s not very reliable and I would rather get a KO. 
-- Once you’ve got the first two prizes, you can win the trade normally. If you don’t, it is possible to lose the trade. Target Zoroark with Energy given the choice, and maybe Unfair Stamp can make them whiff a turn.
-
-### Ogerpon Mirror / other Slop Box - Favorable
-
-This matchup is favorable thanks to Moltres, unless they also have Moltres, in which case it's even.
-
-- Save Boss for combo with Moltres or for getting around Legacy Energy if they play it.
-- Limit your bench in the early-game so that they cannot get a free KO with Clefairy.
-- Play like usual in two-prize trade-off matchups.
-
 ## Personal Thoughts
 
-This deck is actually pretty good and might be the best of the slop decks. If you’re going to play non-Noctowl Raging Bolt, this is just better than that, so play this instead. It does have some bad matchups but the overall matchup spread is decent.
+This deck has some bad matchups and doesn't love a high presence of Moltres in Dragapult, but is still decent overall. I think it's better than Raging Bolt.

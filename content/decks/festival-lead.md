@@ -5,10 +5,10 @@ tier: 2
 format: Standard
 ---
 ## Decklist
-![Festival list](./images/festival-lead/scrap.png)
+![Festival list](./images/festival-lead/growing.png)
 
 ```decklist
-Pokémon: 21
+Pokémon: 20
 4 Applin TWM 17
 4 Dipplin TWM 18
 4 Grookey TWM 14
@@ -17,63 +17,62 @@ Pokémon: 21
 1 Rabsca TEF 24
 1 Shaymin DRI 10
 1 Goldeen TWM 44
-1 Genesect SFA 40
 
 Trainer: 35
 4 Lillie's Determination MEG 119
 2 Dawn PFL 87
 2 Black Belt's Training PRE 96
+2 Boss's Orders PAL 172
 1 Kieran TWM 154
-1 Boss's Orders PAL 172
 1 Lana's Aid TWM 155
 4 Buddy-Buddy Poffin TEF 144
 4 Poké Pad ASC 198
 4 Bug Catching Set TWM 143
 2 Night Stretcher ASC 196
-1 Tool Scrapper WHT 85
+1 Switch MEG 130
 1 Secret Box TWM 163
-2 Air Balloon BLK 79
 2 Brave Bangle WHT 80
+1 Air Balloon BLK 79
 4 Festival Grounds TWM 149
 
-Energy: 4
+Energy: 5
 4 Grass Energy MEE 1
+1 Growing Grass Energy POR 86
 ```
 <!-- PUBLIC -->
 ### Inclusions
 
 - I like playing four Thwackey because the deck needs to see it early to function, always needs two in play, and sometimes even needs three.
 - Rabsca is a necessary tech for Dragapult and it works well.
-- Shaymin flips the matchup against decks that have Wellspring Ogerpon, Arboliva, or Darmanitan. It is quite efficient for only one deck spot.
-- Goldeen helps with early-game consistency. This deck has a fantastic matchup spread but can sometimes brick, and Goldeen helps brick less often. You can theoretically use it as a pivot on the board to help against hand disruption, but that didn’t come up for me very often.
-- Genesect is another tech for Dragapult. It can theoretically be good against other decks with Stamp, but I found it did not come up that often. It's also my preferred card for mirror as opposed to Seaking or Rillaboom so that you have something to use as a sponge.
+- Shaymin flips the matchup against decks that have Wellspring Ogerpon, Slowking, or Darmanitan. It is quite efficient for only one deck spot.
+- Goldeen helps with early-game consistency. This deck has a fantastic matchup spread but can sometimes brick, and Goldeen helps brick less often. You can also use it as a pivot on the board to help against hand disruption when you don't have a second Dipplin on the board.
 - Dawn is equally good regardless if Rillaboom is in the deck or not. It is just for early-game consistency and is usually better than Brock’s Scouting since this deck needs two different Stage 1 Pokemon in play to function.
-- Black Belt’s Training enables relevant breakpoints against Mega Lucario and Mega Lopunny. Against other decks, it’s still used as a generic damage modifier while Kieran can be reserved for an emergency switching card. Swapping the second Kieran for a second Black Belt is a noninvasive way to counter Lopunny.
+- Black Belt’s Training enables relevant breakpoints against some Mega Pokemon. Against other decks, it’s still used as a generic damage modifier while Kieran can be reserved for an emergency switching card.
 - Lana’s Aid has excellent synergy with this deck and you’ll want to use it for value when you don’t need another Supporter for the turn. However, since this deck usually needs to use a different Supporter, we only play one Lana to not rely on it too much.
 - Secret Box is definitely the best Ace Spec for this deck. It grabs four combo pieces for the price of one search, which allows us to stabilize or reach for a big KO even with a weaker board, early in the game, or after getting Stamped. It is the ultimate consistency card.
-- I added a Tool Scrapper to deal with an increased presence of Handheld Fan. Ideally you'll preattach to a backup Dipplin to play around Fan, but that isn't always possible, so Scrapper can handle one of them.
+- Growing Energy is just a fifth Energy where the extra HP can occasionally be helpful. However, since it doesn't work with Bug Catching Set, it could still just be another Grass Energy. I don't think the fifth Energy is particularly needed in general, but tne deck has a bit of space to work with.
 
 ### Possible Inclusions
 
-- Rillaboom is an optional tech for Crustle with Cornerstone. It does that job very well, as Rellor alone isn’t enough to beat that deck. It can also be good against random Fans as well as the mirror match, which is nice. I might add it back in.
 - More Rellor and Rabsca could help against Dragapult, which may be worthwhile.
-- Growing Energy could be ok.
-- Second Boss would be nice but it's not 100% necessary.
+- Could reasonably play two Switch or two Air Balloon instead of one of each. If you cut Goldeen just play two Switch and no Balloon.
+- Tool Scrapper is better when Alakazam with Fan is more popular. While Festival Lead is down in usage, so is Handheld Fan.
 
 ### Exclusions
 
 - Seaking seems like it would be good but I think it's bait. The main use case would be countering Chi-Yu, which nobody is playing. Drawing cards on Turn 2 sounds nice, but requires multiple searches to get it online, Energy, and a Stadium. If you have all of those prerequisites, you’re already stable and don’t need the draw.
+- Genesect can be useful against Dragapult and mirror, but now that Dragapult has Red Card anyway, it's not as good. The mirror isn't as relevant right now either.
+- Rillaboom is only good when Crustle with Cornerstone is popular.
 - Lilligant is too much commitment, and that’s something I’m scared of. The effect is not bad. I would play it if it was a basic.
 - Psyduck does not really work against Dragapult / Dusknoir since the matchup is still unfavorable even with it.
 - Brock’s Scouting is worse than Dawn. Of course, there are some situations where you’d wish that you had Brock instead, but the same could be said for any random card.
 - Other Ace Specs are far inferior to Secret Box. Honorable mention to Maximum Belt for saving two deck spots, which is pretty cool.
-- Switch is worse than two Kieran and two Air Balloon, especially with Genesect in the list. If Genesect or Goldeen weren't in the deck, Switch might be better.
 - Other random cards such as Sacred Ash, Judge, or Forest of Vitality are just bad and pointless.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
-- The most important thing when playing this deck is to always make sure you have a way to use Thwackey’s Boom Boom Groove Ability. Ideally, you’ll have a backup Dipplin on the bench in case your attacking one gets KO’d and you get Stamped. If you only have Applin, make sure to at least have a way to search out Dipplin in hand. Saving cards like Bug Catching Set can help draw out of Stamp. You can also have Genesect or Goldeen on the bench with Air Balloon as other ways to play around Stamp.
-- If all of your ducks are in a row, try to preemptively search out Air Balloon. If your Thwackey gets gusted, it may get stuck there for a very long time. If your opponent’s deck plays retreat-lock, preemptively search out Kieran instead of Balloon (having both is great).
+- The most important thing when playing this deck is to always make sure you have a way to use Thwackey’s Boom Boom Groove Ability. Ideally, you’ll have a backup Dipplin on the bench in case your attacking one gets KO’d and you get Stamped. If you only have Applin, make sure to at least have a way to search out Dipplin in hand. Saving cards like Bug Catching Set can help draw out of Stamp. You can also have Goldeen on the bench with Air Balloon as another way to play around Stamp.
+- If all of your ducks are in a row, try to preemptively search out Switch or Air Balloon so that you won't get stuck by a random Boss.
 - In general, three Thwackey on the board is better than three Apples, but many exceptions exist.
 - Secret Box is a valuable resource. Don’t use it unless you have to in order to get the KO (or to set up/play the game).
 - Since this deck has such good prize trades into most matchups, it is ok to spend a turn getting set up and “doing nothing” as long as you can stabilize and convert that off-turn into a winning prize trade. This requires a bit of matchup and situational awareness.
@@ -88,10 +87,10 @@ Energy: 4
 
 ### Dragapult - Depends
 
-This matchup is favorable against lists without Rare Candy or Dusknoir. The more Rare Candy they have, the more difficult it gets. Against the Tord list (three Rare Candy), it is still pretty close or slightly unfavorable. Against Dusknoir, it is unfavorable.
+This matchup is favorable against lists without Rare Candy or Dusknoir. The more Rare Candy they have, the more difficult it gets. Against Dusknoir (even with no Candy), it is unfavorable.
 
 - Rabsca is absolutely imperative to get quickly. Of course, you also need Dipplin and Thwackey first in order to play the game, but Rabsca is also a priority. It can be annoying to get under Item lock, so try to get the Rellor right away. Rellor takes priority even over the second Applin or second Grookey. It takes priority even over the first Applin if you happen to start with Goldeen or have to use it to set up, though Goldeen is quite bad in this matchup overall so I would avoid it if possible.
-- Genesect is best for this matchup. Ideal board is two Thwackey, two apples, Rabsca, and Genesect w/ Balloon. If they have already used their Ace Spec, Genesect is obviously useless, so that spot should be another apple instead. Once they KO Rabsca, you’ll want to have as many Dipplin in play as possible.
+- Ideal board is two Thwackey, three apples, and Rabsca. Once they KO Rabsca, you’ll want to have as many Dipplin in play as possible.
 - Leaving damage on their board is generally bad. Usually I don’t use the double attack against Munkidori if I can’t get the KO, but if their board is weak or they’re not doing great on Energy attachments, I may smack into it instead to set up a stronger turn next turn. Smacking into Dragapult is a big no-no. We always want to one-shot Dragapult.
 - If you don’t already have Kieran in hand, use Black Belt first to get the one-shot. This lets us save Kieran in case we need to switch, but of course, using Kieran is totally fine if it’s more convenient in the situation. This applies to most matchups, so I won’t mention it every time.
 - Rabsca will inevitably die. Don’t bother recovering it. There may be very rare exceptions.
@@ -111,10 +110,10 @@ id: ZwTtfOhLMS0
 title: Festival v Pult 3
 ```
 
-### Raging Bolt and Turbo Ogerpon - Very Favorable
+### Raging Bolt - Very Favorable
 
-- Get Shaymin as soon as possible, as many of them are playing Wellspring Ogerpon now. Even if they aren’t, they might have baby Bolt and can get the Boss + Stamp play, so Shaymin is still good against that. I would assume they have Wellspring until proven otherwise.
-- Ideal board is Shaymin, double Thwackey, and triple apple to play around Stamp (or two apple and Genesect/Goldeen). If they don’t play Stamp or have already used it, third Thwackey takes priority over third apple/Genesect.
+- Get Shaymin as soon as possible to counter Wellspring or Boss + Fez.
+- Ideal board is Shaymin, double Thwackey, and triple apple to play around Stamp (or two apples and Goldeen). If they don’t play Stamp or have already used it, third Thwackey takes priority over third apple/Genesect.
 - Stabilizing and setting up for a winning prize trade is the most important thing. Try not to get cheesed or leave any openings.
 
 ```youtube
@@ -122,33 +121,14 @@ id: X6nTeKlYEVE
 title: Festival v Bolt 1
 ```
 
-### Mewtwo - Favorable
-
-- They have easy access to Archer which is basically a Stamp that you can’t lock with Genesect. Playing around Archer is the main thing in this matchup. Try to get a backup Dipplin as soon as possible. If you can’t, Goldeen with Air Balloon can be a good way to play around Archer (or can help set up). Ideal board is triple apple and 2-3 Thwackey depending if you need Goldeen.
-- All of the Pokemon techs are useless. Just attack normally every turn. Black Belt (or Kieran + Bangle) can get the KO on Mewtwo if they attack with it.
-- They might play Fan. You can somewhat play around this if you have two Dipplin in play each with Energy. They KO one, and you can attach a second time to one to get through a Fan. Scrapper is also very good in this matchup to deal with Fan.
-
-```youtube
-id: YT4891TzjBk
-title: Festival v Mewtwo 1
-```
-
-### Festival Lead Mirror - Even
-
-This matchup depends on how many damage sponges each players' list has. We have Genesect but no Seaking, so we may lose if the opponent has two sponges. Rillaboom should slightly decrease in popularity now, but that also works for this purpose.
-
-- This matchup relies entirely on sponges. Get Genesect in play as soon as possible. It doesn’t necessarily need a tool, as its purpose is a sponge. When they take a KO, promote Genesect. Rinse and repeat. When Genesect gets KO’d, get it back. The same concept can apply for Rillaboom if you play it, though you’re permanently losing a Thwackey, so save that one for later. Sometimes you’ll need it earlier if you can’t afford to sacrifice Genesect in two hits.
-- Switching cards are premium resources. You’ll need Air Balloon to retreat Genesect and Kieran to switch out Rillaboom after using them to sponge.
-
 ### Alakazam - Even
 
-This matchup is pretty close. Scrapper helps deal with Fan.
+This matchup is about even if they don't play Fan or slightly unfavorable if they do.
 
-- Festival Grounds is a resource since they often play four Battle Cage. Don’t put it in play until you’re ready to attack.
+- Festival Grounds is a resource since they often play four Stadiums. Don’t put it in play until you’re ready to attack.
 - They don’t play hand disruption. Be as fast and aggressive as possible.
 - If they bump your Stadium, consider using Boss to KO something small while saving a Stadium. If you play all the Stadiums early, you might run out, and they can create an endgame board that cannot be KO’d by a single-attack Dipplin. If they don’t have Kadabra in play, KO’ing their active Alakazam is still best to force them to find Rare Candy.
-- Genesect can be ok if the opportunity presents itself but not a priority.
-- If you ever have an extra Energy attachment, attaching to a backup apple is generally good. When you have two apples each with Energy, you can get through the Handheld Fan because you can attach another Energy when you need to. If you didn’t get the initial two-prize lead, saving Energy for Dipplin is usually better since you may run low on Energy.
+- If you ever have an extra Energy attachment, attaching to a backup apple is generally good. When you have two apples each with Energy, you can get through the Handheld Fan because you can attach another Energy when you need to. If you didn’t get the initial two-prize lead, saving Energy for Dipplin is usually better since you may run low on Energy. They may or may not play Handheld Fan, so it's best to play around it if you get the opportunity to.
 
 ```youtube
 id: g5-pKFaJc_Y
@@ -160,7 +140,72 @@ id: X3YpsKBoBBI
 title: Festival v Zam 2
 ```
 
-### Lopunny - Depends
+### Zoroark - Very Favorable
+
+- Shaymin is very good against the version with Darmanitan.
+- Preemptively search out Switch so Thwackey doesn’t get stuck in the active. Balloon isn’t good enough because they might use Yveltal, but ideally you have both to react to the situation. Believe it or not, Thwackey/Shaymin getting stuck can be a loss if they’re also able to build up damage on the board, so we need Switch or Kieran.
+- Black Belt Bangle combo can be used to one-shot Lopunny if they play it.
+- One-shotting the Zoroark with just the first attack is possible but not worth the resources if they have a sponge ready on the bench. If they don’t have a sponge, you can destroy them.
+
+```youtube
+id: nqiBklziLiw
+title: Festival v Zoroark 1
+```
+
+### Crustle - Favorable
+
+Assuming they don't play Cornerstone, this matchup is favorable. If they have it, it's unfavorable.
+
+- Try to play around Xerosic and Eri.
+- Switching cards are premium resources so you don't get permanently stuck.
+- Some lists have Handheld Fan, which is a big threat. If they have Fan on a loaded attacker, try to load extra Energy on a backup Dipplin. If you have access to both Boss, you can use the first to buy a turn for an extra attachment, and then use the second to target and KO the Pokemon with Fan.
+
+Against Cornerstone:
+
+- Without Rillaboom, the best way to KO Cornerstone is Rellor. If they have Kangaskhan, you may be tempted to one-shot it with two damage modifiers. I did this and always lost. However, if they don’t yet have Cornerstone, it’s fine to one-shot the Kang as you can run them off the board. If they have Cornerstone, save all of the damage mods for that and just two-shot the Kangaskhan. Putting Bangle on Dipplin also locks it out of Balloon which is very annoying.
+- Recovery, switching cards, damage mods, and Energy are all premium resources for getting multiple big Rellor attacks into their Cornerstone.
+- If you run out of Rellor or prize it, flipping heads with Applin accomplishes the same thing.
+
+```youtube
+id: s16Xk0eqB8c
+title: Festival v Crustle 1
+```
+
+### Mewtwo - Favorable
+
+- They have easy access to Archer which is basically a Stamp. Playing around Archer is the main thing in this matchup. Try to get a backup Dipplin as soon as possible. If you can’t, Goldeen with Air Balloon can be a good way to play around Archer (or can help set up). Ideal board is triple apple and 2-3 Thwackey depending if you need Goldeen.
+- All of the Pokemon techs are useless. Just attack normally every turn. Black Belt (or Kieran + Bangle) can get the KO on Mewtwo if they attack with it.
+
+```youtube
+id: YT4891TzjBk
+title: Festival v Mewtwo 1
+```
+
+### Lucario - Favorable
+
+- Prioritize getting triple Thwackey. They are needed for recovering off Judge and getting the one-shot on Lucario. Ideally you’ll also get triple apples. Goldeen can help set up and stabilize if needed.
+- Boss is a good late-game resource for closing out the game.
+- Black Belt + Bangle to one-shot Lucario. If you can’t win by gusting around their second Lucario, you’ll just have to two-shot it.
+- Play around Judge but not Stamp. Being fast and aggressive is good because they don’t play Stamp or Fez.
+
+```youtube
+id: plt2swbYZCQ
+title: Festival v Lucario 1
+```
+
+```youtube
+id: BQW03QYb1X0
+title: Festival v Lucario 2
+```
+
+### Festival Lead Mirror - Even
+
+This matchup depends on how many damage sponges each players' list has. The current list has no damage sponges, so if the opponent has any, the matchup is very unfavored. If they don't, it is even..
+
+- This matchup relies entirely on sponges. If you play anything with more than 100 HP, it is a huge priority. When they take a KO, promote it. Rinse and repeat. When it gets KO’d, get it back. The current list doesn't have anything like that, so you just play normally and hope they don't have one themselves.
+- Switching cards are premium resources if you play any such damage sponges.
+
+### Lopunny - Very Favorable
 
 With the second Black Belt, this matchup is a free win. Without it, the matchup is slightly unfavorable.
 
@@ -184,27 +229,9 @@ id: 7W-YVpWEcL4
 title: Lop v Festival 3
 ```
 
-### Lucario - Favorable
-
-- Prioritize getting triple Thwackey. They are needed for recovering off Judge and getting the one-shot on Lucario. Ideally you’ll also get triple apples. Goldeen can help set up and stabilize if needed.
-- Boss is a good late-game resource for closing out the game.
-- Black Belt + Bangle to one-shot Lucario. If you can’t win by gusting around their second Lucario, you’ll just have to two-shot it.
-- Play around Judge but not Stamp. Being fast and aggressive is good because they don’t play Stamp or Fez.
-- The Pokemon techs are mostly useless but Genesect can be good to start with since it tanks Solrock.
-
-```youtube
-id: plt2swbYZCQ
-title: Festival v Lucario 1
-```
-
-```youtube
-id: BQW03QYb1X0
-title: Festival v Lucario 2
-```
-
 ### Garchomp - Very Favorable
 
-- This matchup is just as free as you would expect. Focus on setting up and stabilizing so that you cannot lose. Get triple Thwackey and at least two apples. Ideally, I would go for an extra apple over Genesect, but if your board is a bit fragile and you’re vulnerable to Stamp, getting Genesect is fine. Passing or utilizing Goldeen are also options to stabilize. If you know they do not play Stamp, you don’t need to be as careful.
+- This matchup is just as free as you would expect. Focus on setting up and stabilizing so that you cannot lose. Get triple Thwackey and at least two apples. Passing or utilizing Goldeen are also options to stabilize. If you know they do not play Stamp, you don’t need to be as careful.
 - Slamming Festival Grounds instantly is usually fine. They often don’t play Stadiums, or sometimes just one. They do sometimes play Judge or Stamp though.
 
 ```youtube
@@ -212,13 +239,12 @@ id: Jimw7-gidwk
 title: Festival v Chomp 1
 ```
 
-### Meganium - Slightly Favorable
+### Arboliva - Slightly Favorable
 
 - Damage modifiers are premium resources. You’ll most likely need all of them to win.
 - Use Bangle + Kieran/Black Belt to one-shot Arboliva. Use Kieran/Black Belt to KO Ogerpon, saving Bangle for Arboliva.
-- It’s important to make use of their Forest to ensure that you always have a backup Dipplin. You will usually not have space for Genesect and they will use hand disruption such as Stamp/Judge. Thanks to their Forest, you don’t necessarily need triple apple and can prioritize triple Thwackey instead.
-- Ideal board is triple Thwackey, Shaymin, double apple. The triple Thwackey are important because you need a lot of cards after getting disrupted. Using their Forest can make the backup Applin always become Dipplin. If the ideal board isn’t possible, Genesect can make an appearance.
-- Early Shaymin is extremely important assuming they are playing Arboliva.
+- It’s important to make use of their Forest to ensure that you always have a backup Dipplin. Thanks to their Forest, you don’t necessarily need triple apple and can prioritize triple Thwackey instead.
+- Ideal board is triple Thwackey, Shaymin, double apple. The triple Thwackey are important because you need a lot of cards after getting disrupted. Using their Forest can make the backup Applin always become Dipplin.
 
 ```youtube
 id: hCIQ25JKocE
@@ -228,31 +254,6 @@ title: Festival v Meganium 1
 ```youtube
 id: 6Xz91WQNidc
 title: Festival v Meganium 2
-```
-
-### Crustle - Rillaboom
-
-If you have Rillaboom you win and if you don’t, the matchup is unfavorable. Here’s some notes for if you don’t have Rillaboom. Maximum Belt plus Tool Scrapper is another good way to beat Cornerstone, though I would still always play Secret Box.
-
-- Without Rillaboom, the best way to KO Cornerstone is Rellor. If they have Kangaskhan, you may be tempted to one-shot it with two damage modifiers. I did this and always lost. However, if they don’t yet have Cornerstone, it’s fine to one-shot the Kang as you can run them off the board. If they have Cornerstone, save all of the damage mods for that and just two-shot the Kangaskhan. Putting Bangle on Dipplin also locks it out of Balloon which is very annoying.
-- Recovery, switching cards, damage mods, and Energy are all premium resources for getting multiple big Rellor attacks into their Cornerstone.
-- If you run out of Rellor or prize it, flipping heads with Applin accomplishes the same thing.
-
-```youtube
-id: s16Xk0eqB8c
-title: Festival v Crustle 1
-```
-
-### Zoroark - Very Favorable
-
-- Leave a spot for Shaymin and make sure to get it as soon as they put down Darumaka. If they don’t play Darmanitan, Shaymin is obviously useless but I would assume they do until proven otherwise.
-- Preemptively search out Kieran so Thwackey doesn’t get stuck in the active. Balloon isn’t good enough because they might use Yveltal, but ideally you have both to react to the situation. Believe it or not, Thwackey/Shaymin getting stuck can be a loss if they’re also able to build up damage with Pecharunt, so we need Kieran.
-- Black Belt Bangle combo can be used to one-shot Lopunny if they play it.
-- One-shotting the Zoroark with just the first attack is possible but not worth the resources if they have a sponge ready on the bench. If they don’t have a sponge, you can destroy them.
-
-```youtube
-id: nqiBklziLiw
-title: Festival v Zoroark 1
 ```
 
 ## Personal Thoughts
