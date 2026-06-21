@@ -297,4 +297,4 @@ title: Lop v Hammers 4
 
 This is the best deck. When I’m playing this deck I’m only scared of Crustle, and even that is winnable with a bit of luck (or a tech). This build might not be the most consistent way to play Dragapult, but the list solves a lot of problems and covers most matchups. The disruption is extremely strong. Although somewhat luck-based, the disruption is also good at punishing opponent’s mistakes.
 
-* I need more testing against the post-NAIC builds of these decks to definitively say how good the matchup is. I don’t feel particularly threatened by these decks but they have a good track record against Dragapult.
+*I need more testing against the post-NAIC builds of these decks to definitively say how good the matchup is. I don’t feel particularly threatened by these decks but they have a good track record against Dragapult.
