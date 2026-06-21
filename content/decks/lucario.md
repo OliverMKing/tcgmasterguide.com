@@ -76,31 +76,26 @@ Energy: 11
 
 ## Matchups
 
-### Dragapult - Slightly Favorable
+### Dragapult - Depends
 
-Now that most lists aren't playing Latias or Clefairy, this matchup is pretty good. If they have Latias, it's about even. If they play Clefairy, the matchup becomes unfavorable because it’s so much easier for them to respond to Lucario.
+This matchup is about even, but it can vary based on their list.
 
-- Solrock and Riolu are good early attackers, especially if they are threatening Latias. If they aren’t threatening Latias (and sometimes even if they are), Lucario’s Aura Jab is the best early-game attack to set up Energy on backup Riolu or Hariyama.
-- Need to have some sort of response to their Psychic attackers if they play any (usually Hariyama or Lucario’s second attack). Lucario’s first attack can also kill Clefairy with two damage mods. Having lots of Energy in play is generally very important.
-- Getting a fast lead is important because the prize trade becomes unfavorable later. Mid- or late-game Aura Jab KO’s on Meowth/Fez are generally good to accelerate the game or close it out.
+- Solrock and Riolu are good early attackers that can apply fast pressure. If you can get some Energy in the discard, go for Lucario’s Aura Jab as soon as possible to set up a backup Riolu/Lucario (and / or Hariyama).
+- Overloading your attackers to play around Crushing Hammer is perfectly viable. Having lots of Energy in play is generally very good.
+- If they have Meowth or Fez in play, grab that KO with Aura Jab when you can't otherwise get two prize cards (or need to load more Energy in play).
 - Preemptively using Ultra Ball for Lucario is VERY GOOD. Try to do this before they Item lock you, such as on Turn 1 if you don’t already have Lucario in hand.
-- Two-shotting Dragapult is bad. Try to one-shot it or gust around it if necessary.
+- Two-shotting Dragapult is bad. Try to one-shot it or gust around it if necessary. Damage modifiers are important resources for one-shotting Dragapult. Save Gravity Mountain for a big play or else it will just get bumped.
 - Need to swarm Riolu and get them evolved asap because they drop like flies.
 - Try to get Genesect before they get Stamp, even though this is somewhat hard in this matchup and entirely up to luck.
 
 ```youtube
-id: KrC_xNmpJrg
-title: Pult v Lucario 1
+id: ES4sVc3cpL0
+title: Pultnoir v Lucario 1
 ```
 
 ```youtube
-id: tFMrLmjER0Y
-title: Pult v Lucario 2
-```
-
-```youtube
-id: peMLpGQQT9o
-title: Pult v Lucario 3
+id: tX125zkIRpw
+title: Pultnoir v Lucario 2
 ```
 
 ```youtube
@@ -113,14 +108,13 @@ id: 4Nk425YlP_8
 title: Blaziken v Lucario 2
 ```
 
-### Raging Bolt - Depends
-
-This matchup is fine against the standard build, but unfavorable against the Noctowl build.
+### Raging Bolt - Favorable
 
 - Don’t let them go 3-3 by feeding them two Lucario. It’s not hard for them to one-shot Lucario.
-- Hariyama is very useful in this matchup as well. Try to power it up with Aura Jab and use it to take a two-prize KO.
+- Hariyama is very important in this matchup. Try to power it up with Aura Jab as soon as possible and use it when the first Lucario goes down.
 - Not sure if I should keep mentioning Genesect since it’s good against literally every deck that has Unfair Stamp, which is most decks. You get the idea.
-- Against Noctowl, Solrock is often useful in the prize trade since it can one-shot 70 HP Hoothoot.
+- If you have a slim board, you can go Judge plus Stadium bump to stop Clefairy from KO'ing Lucario. This goes for every matchup with Clefairy, but it's pretty hard to line it up.
+- Against the Noctowl version, Solrock is often useful in the prize trade since it can one-shot 70 HP Hoothoot.
 
 ```youtube
 id: OXhJiSR_HZI
@@ -132,119 +126,17 @@ id: 3gGYgkVt9Qs
 title: Lucario v Bolt 2
 ```
 
-### Mewtwo - Unfavorable
-
-- Getting random KO’s with single-prize Pokemon can be good because if they do not have a full board of Rocket’s Pokemon they cannot two-shot Lucario with Spidops, which is often relevant.
-- Save Premium Power Pro to one-shot Mewtwo with Mega Brave. Whenever they have Mewtwo with Energy, try to get the one-shot on it with two Premium Power plus Mega Brave.
-- Try to get a fast Aura Jab for Energy acceleration and then start attacking with other Pokemon. Attacking with Lucario is generally bad unless you’re one-shotting something big or really need the Energy acceleration.
-- Their Maximum Belt does make relevant breakpoints on Lucario. Therefore, Genesect can still be useful, but it’s situation dependent. If they have Energy lying around, Mewtwo can one-shot Lucario anyway, and if they easily have a full board for Spidops, they are two-shotting with it anyway, so it doesn’t matter in those instances.
-
-```youtube
-id: e-WATTU3iTA
-title: Lucario v Mewtwo 1
-```
-
-```youtube
-id: NlCBLjsG3ic
-title: Lucario v Mewtwo 2
-```
-
-### Festival Lead - Unfavorable
-
-- Get as many fast Solrock KO’s as possible. This is the main way to get a prize lead and win.
-- Hariyama is valuable as a sponge. Evolve into it as soon as possible, even if you don’t want to use the ability. Don’t attack with it, as the self-damage removes its viability as a sponge.
-- If they one-shot the first Lucario, they probably can’t one-shot the second one, so it can be useful to throw off their prize map. This is even better if you play Scoop Up Cyclone or Wally’s Compassion.
-- Judge can possibly make them brick if they do not have a backup Dipplin.
-
-```youtube
-id: plt2swbYZCQ
-title: Festival v Lucario 1
-```
-
-```youtube
-id: BQW03QYb1X0
-title: Festival v Lucario 2
-```
-
 ### Alakazam - Very Unfavorable
 
 - Use Judge on a turn where you’re attacking with Lucario and they have a large hand, ideally in the late-game. This can be particularly good alongside a Hariyama gust on Fez/Dudunsparce.
 - Solrock can be useful for speed, but also try to get a fast Aura Jab. If their start isn’t great, it’s possible to get Aura Jab off before they’re ready to one-shot a Lucario, thus getting a free KO or two with the Lucario.
-- Hariyama can be a useful attacker in-between Lucario.
+- Hariyama can be a useful attacker in between Lucario.
 - The second Lucario is generally best when they’re on 2 prizes left. If used when they’re on 3, they can just go 3-3. If they’re on 1, they can simply gust KO a one-prizer for game.
 - Save Gravity Mountain for when they have Alakazam set up. It makes breakpoints with Premium Power Pro for Lucario and Solrock.
 
 ```youtube
 id: tQgDTTJcgC0
 title: Zam v Lucario 1
-```
-
-### Lopunny - Auto Win
-
-- Focus on setting up and stabilizing. Damage modifiers are good to one-shot Lopunny with Aura Jab. Get two Mega Lucario up and the game is over.
-
-```youtube
-id: uLwhdLAY6b8
-title: Lop v Lucario 1
-```
-
-### Lucario Mirror - Even
-
-This matchup may be slightly unfavored depending on the opponent’s list, as we do not have Maximum Belt or healing. This is the main matchup where the lack of Maximum Belt will be felt.
-
-- Prize map is usually 3-3 or 1-1-1-3 depending on the situation. If they put down Meowth, try to incorporate that into your prize map instead to win in 3 attacks. Meowth is obviously a huge liability so try not to put it in play.
-- If you get an early single prize KO, go for a 1-1-1-3 map and try to one-shot their Mega Lucario. If you can’t, gust around it until you can get the one-shot. Save Premium Power Pros so that you can get the triple Premium Power to one-shot their Lucario.
-- If they get two Lucario in play early, you can ignore single-prizers and try to win by KO’ing both of them. Two-shot one and one-shot the other. If this map is available to your opponent, you may want to delay your second Lucario from coming into play.
-- Judge is best used to stop them from one-shotting your Lucario. For example, if you’re attacking with an undamaged Lucario and they have a large hand, Judge can be good to potentially make them whiff the KO.
-- Genesect is very strong alongside an undamaged Lucario, as it makes it very hard for them to KO it.
-
-### Garchomp - Unfavorable
-
-- Early Solrock is very good, especially if they did not get Power Weight. Even if they did, you can gust around it.
-- Save some damage modifiers for a big one-shot on a Garchomp. Try to one-shot one Garchomp and two-shot another. This lines up a nice 1-1-2-2 prize map.
-- If they have a Garchomp without a Power Weight, try to pick that off with a one-shot!
-- Don’t feed them a 3-3 prize map by putting a second Lucario in play too early! Hariyama can be a decent attacker for pretty much anything in the prize map. Against a non-Weighted Chomp, it can even get the one-shot with some damage mods! If you get a prize or two with Solrock, Hariyama may not be necessary, and it is hard to power up.
-- Genesect is not that good in this matchup if they play Neo Upper. It’s only useful if they are woefully behind on Energy attachments and even then it’s not a huge priority. However, if they play Stamp, Gensect is much better.
-
-```youtube
-id: hUTwVpazbKw
-title: Chomp v Lucario 1
-```
-
-```youtube
-id: fzdEVpj8fSg
-title: Chomp v Lucario 2
-```
-
-### Meganium - Favorable
-
-- Go first even though they sometimes have Budew.
-- Genesect is also good here for stopping Stamp.
-- Ogerpon needs 5 Energy to one-shot a Lucario with 2 Energy. Therefore, any Ogerpon with fewer than three Energy isn’t much of an immediate threat.
-- Using Mega Brave to get KO’s instead of Aura Jab to set up is generally best, unless they have a three-Energy Ogerpon that you can’t immediately KO. If they can’t KO your Lucario, be as aggressive as possible. If they can, make sure to set up backup attackers.
-- Aura Jab is best on Meowth/Fez if they put them down. Loading up Hariyama can be great in this matchup since it one-shots Ogerpon.
-
-```youtube
-id: 5zPxQivDD-E
-title: Lucario v Meganium 1
-```
-
-```youtube
-id: SSoxROD2hVQ
-title: Lucario v Meganium 2
-```
-
-### Crustle - Very Favorable
-
-- KO any Dwebble on sight, ideally with Aura Jab.
-- Fast Solrock is usually good and can pressure Crustle.
-- Evolving into Hariyama is best when you’re Aura Jabbing Energy onto it. Even if you can’t use the Ability, it’s still worth doing to protect it from a Boss KO.
-- Save Premium Powers to KO Crustles. This is particularly relevant when they get the Cape and you need two Premiums to one-shot it with Hariyama.
-- Prioritize getting both Makuhita/Hariyama in play.
-
-```youtube
-id: qD3lvE40LAM
-title: Crustle v Lucario 1
 ```
 
 ### Zoroark - Favorable
@@ -270,6 +162,115 @@ id: nU1gG12catQ
 title: Lucario v Zoroark 3
 ```
 
+### Crustle - Very Favorable
+
+- KO any Dwebble on sight, ideally with Aura Jab.
+- Fast Solrock is usually good and can pressure Crustle.
+- Evolving into Hariyama is best when you’re Aura Jabbing Energy onto it. Even if you can’t use the Ability, it’s still worth doing to protect it from a Boss KO.
+- Save Premium Powers to KO Crustles. This is particularly relevant when they get the Cape and you need two Premiums to one-shot it with Hariyama.
+- Prioritize getting both Makuhita/Hariyama in play.
+
+```youtube
+id: qD3lvE40LAM
+title: Crustle v Lucario 1
+```
+
+### Mewtwo - Unfavorable
+
+- Getting random KO’s with single-prize Pokemon can be good because if they do not have a full board of Rocket’s Pokemon they cannot two-shot Lucario with Spidops, which is often relevant.
+- Save Premium Power Pro to one-shot Mewtwo with Mega Brave. Whenever they have Mewtwo with Energy, try to get the one-shot on it with two Premium Power plus Mega Brave.
+- Try to get a fast Aura Jab for Energy acceleration and then start attacking with other Pokemon. Attacking with Lucario is generally bad unless you’re one-shotting something big or really need the Energy acceleration.
+- Their Maximum Belt does make relevant breakpoints on Lucario. Therefore, Genesect can still be useful, but it’s situation dependent. If they have Energy lying around, Mewtwo can one-shot Lucario anyway, and if they easily have a full board for Spidops, they are two-shotting with it anyway, so it doesn’t matter in those instances.
+
+```youtube
+id: e-WATTU3iTA
+title: Lucario v Mewtwo 1
+```
+
+```youtube
+id: NlCBLjsG3ic
+title: Lucario v Mewtwo 2
+```
+
+### Slop Box - Favorable
+
+- Hariyama is insanely broken for swinging the prize trade, and you’ll most likely need to attack with it to win. Clefairy one-shotting Lucario is not a problem as long as you have the Hariyama response.
+- You need to use Aura Jab to set up Hariyama. If you get baited by a Mega Brave KO with no follow up plan for when Lucario inevitably gets one-shot, you’ll lose.
+- Try to get Aura Jab KO on Mega Kang, which makes it fine to go 3-2-1 through Lillie's Pearl.
+- You may want to delay the second Lucario to prevent them from going 3-3, and force them to go through the Hariyama.
+
+### Lucario Mirror - Even
+
+This matchup may be slightly unfavored depending on the opponent’s list, as we do not have Maximum Belt or healing. This is the main matchup where the lack of Maximum Belt will be felt.
+
+- Prize map is usually 3-3 or 1-1-1-3 depending on the situation. If they put down Meowth, try to incorporate that into your prize map instead to win in 3 attacks. Meowth is obviously a huge liability so try not to put it in play.
+- If you get an early single prize KO, go for a 1-1-1-3 map and try to one-shot their Mega Lucario. If you can’t, gust around it until you can get the one-shot. Save Premium Power Pros so that you can get the triple Premium Power to one-shot their Lucario.
+- If they get two Lucario in play early, you can ignore single-prizers and try to win by KO’ing both of them. Two-shot one and one-shot the other. If this map is available to your opponent, you may want to delay your second Lucario from coming into play.
+- Judge is best used to stop them from one-shotting your Lucario. For example, if you’re attacking with an undamaged Lucario and they have a large hand, Judge can be good to potentially make them whiff the KO.
+- Genesect is very strong alongside an undamaged Lucario, as it makes it very hard for them to KO it.
+
+### Festival Lead - Unfavorable
+
+- Get as many fast Solrock KO’s as possible. This is the main way to get a prize lead and win.
+- Hariyama is valuable as a sponge. Evolve into it as soon as possible, even if you don’t want to use the ability. Don’t attack with it, as the self-damage removes its viability as a sponge.
+- If they one-shot the first Lucario, they probably can’t one-shot the second one, so it can be useful to throw off their prize map. This is even better if you play Scoop Up Cyclone or Wally’s Compassion.
+- Judge can possibly make them brick if they do not have a backup Dipplin.
+
+```youtube
+id: plt2swbYZCQ
+title: Festival v Lucario 1
+```
+
+```youtube
+id: BQW03QYb1X0
+title: Festival v Lucario 2
+```
+
+### Lopunny - Auto Win
+
+- Focus on setting up and stabilizing. Damage modifiers are good to one-shot Lopunny with Aura Jab. Get two Mega Lucario up and the game is over.
+
+```youtube
+id: uLwhdLAY6b8
+title: Lop v Lucario 1
+```
+
+### Garchomp - Unfavorable
+
+- Early Solrock is very good, especially if they did not get Power Weight. Even if they did, you can gust around it.
+- Save some damage modifiers for a big one-shot on a Garchomp. Try to one-shot one Garchomp and two-shot another. This lines up a nice 1-1-2-2 prize map.
+- If they have a Garchomp without a Power Weight, try to pick that off with a one-shot!
+- Don’t feed them a 3-3 prize map by putting a second Lucario in play too early! Hariyama can be a decent attacker for pretty much anything in the prize map. Against a non-Weighted Chomp, it can even get the one-shot with some damage mods! If you get a prize or two with Solrock, Hariyama may not be necessary, and it is hard to power up.
+- Genesect is not that good in this matchup if they play Neo Upper. It’s only useful if they are woefully behind on Energy attachments and even then it’s not a huge priority. However, if they play Stamp, Gensect is much better.
+
+```youtube
+id: hUTwVpazbKw
+title: Chomp v Lucario 1
+```
+
+```youtube
+id: fzdEVpj8fSg
+title: Chomp v Lucario 2
+```
+
+### Arboliva - Favorable
+
+- Go first even though they sometimes have Budew.
+- Genesect is also good here for stopping Stamp.
+- Ogerpon needs 5 Energy to one-shot a Lucario with 2 Energy. Therefore, any Ogerpon with fewer than three Energy isn’t much of an immediate threat.
+- Using Mega Brave to get KO’s instead of Aura Jab to set up is generally best, unless they have a three-Energy Ogerpon that you can’t immediately KO. If they can’t KO your Lucario, be as aggressive as possible. If they can, make sure to set up backup attackers.
+- Aura Jab is best on Meowth/Fez if they put them down. Loading up Hariyama can be great in this matchup since it one-shots Ogerpon.
+
+```youtube
+id: 5zPxQivDD-E
+title: Lucario v Meganium 1
+```
+
+```youtube
+id: SSoxROD2hVQ
+title: Lucario v Meganium 2
+```
+
 ### Ogerpon - Unfavorable
 
 - Try to play around Wellspring and Clefairy. Saving switching cards can be helpful to escape Sob’s retreat lock. Feeding them a Solrock to Sob is better then giving them a free two prizes by leaving Riolu in the active. 
@@ -288,30 +289,6 @@ id: Q_P_hE7aCWE
 title: Ogerpon v Lucario 2
 ```
 
-### Slop Box - Favorable
-
-This matchup is favorable against non-Noctowl toolbox-type decks.
-
-- Hariyama is insanely broken for swinging the prize trade, and you’ll most likely need to attack with it to win. Clefairy one-shotting Lucario is not a problem as long as you have the Hariyama response.
-- You need to use Aura Jab to set up Hariyama. If you get baited by a Mega Brave KO with no follow up plan for when Lucario inevitably gets one-shot, you’ll lose.
-- Genesect is also quite good here for stopping Unfair Stamp.
-- You may want to delay the second Lucario to prevent them from going 3-3, and force them to go through the Hariyama.
-
-```youtube
-id: bzvRSCnAT7U
-title: Lucario v Absol 1
-```
-
-```youtube
-id: EKXF9j5d8KE
-title: Lucario v Absol 2
-```
-
-```youtube
-id: WiiZllhotKY
-title: Lucario v Absol 3
-```
-
 ## Personal Thoughts
 
-This deck is pretty good and better than I was expecting. Now that many Dragapult decks aren't playing Psychic type attackers, Lucario gets significantly better. However, it still struggles in several other matchups.
+Lucario is just an okay deck. It's not bad, but it does have a lot of bad matchups.
