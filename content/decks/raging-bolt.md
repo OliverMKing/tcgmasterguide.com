@@ -224,6 +224,28 @@ id: nqv7CF4-1NI
 title: Zam v Bolt 2
 ```
 
+### Slowking - Slightly Favorable
+
+This matchup is slightly favorable for the normal build and unfavorable for the Noctowl build.
+
+- Both of Wellspring’s attacks can be very strong. It is a big part of the matchup.
+- If you play Passimian, it can be very useful for prize trading.
+- Do NOT leave Kang in the active if they are likely to get a Metagross KO next turn. This is the main way to lose, even though sometimes you need Kang to play the game.
+- If you play Stamp, it is very good in this matchup, especially if they don’t have Fez in play or you can KO it.
+- Of course, Prime Catcher is also great if they put Kang in play because you can go for a 3-2-1 prize map. This is also possible with two Boss but it’s slightly harder.
+- Keep Chien-Pao around so they can’t set up a big double Kyurem play.
+- For the Noctowl list, a fast baby Bolt can be quite good. Try to play around Kyurem to some extent by not putting too many single-prize Pokemon in play.
+
+```youtube
+id: zB_wM3zBebQ
+title: King v Bolt 1
+```
+
+```youtube
+id: hnu2VK19vmk
+title: King v Bolt 2
+```
+
 ### Zoroark - Even
 
 - Similar to the above two, but applying fast pressure is better than positioning because they don’t have to put a two-prize Pokemon in play in order to play the game. Don’t leave a two-prize Pokemon in the active unless you’re winning the prize trade. Fan Rotom can efficiently apply pressure. Whether you’re KO’ing Zorua or not, attacking with Fan Rotom early is generally good.

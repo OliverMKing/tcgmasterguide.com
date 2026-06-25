@@ -129,6 +129,11 @@ title: Blaziken v Mewtwo 2
 - When choosing to attach Grass or Rocket Energy to Mewtwo first, attaching Grass first is better. They play Enhanced Hammer (and it also takes less damage to bad Zam).
 - If they KO a Mewtwo with bad Zam and you can KO it back with another Mewtwo, try to use Archer to stop them from chaining bad Zam.
 
+### Slowking - Unfavorable
+
+- Try to put Tarountula in play on turns where an incoming Trifrost is least likely. Spidops is the most useful attacker if you can get them into play.
+- Having 1-2 random Mewtwo on the board is generally good because they aren’t vulnerable to Trifrost and Slowking doesn’t play much gust.
+
 ### Zoroark - Favorable
 
 - Mewtwo is obviously very bad in this matchup. I wouldn’t put it down unless you absolutely need it for Spidops damage. Spidops easily one-shots everything, so spam it.
