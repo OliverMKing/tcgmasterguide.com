@@ -214,6 +214,30 @@ title: Zam v Bolt 2
 - Play around Enhanced Hammer.
 - Don't put Fez in play.
 
+### Slowking - Very Favorable
+
+This matchup is good thanks to Shaymin / Rabsca. If you don’t have either, the control combo of Dede + Elgyem + Eri also wins. If you have just Elgyem + Dedenne but no Eri, the matchup is about even. If you have none of these cards, it’s probably slightly unfavorable.
+
+- Get Shaymin / Rabsca asap and play normally.
+- If you can’t get protection or don’t play it, try to play with a slim board and make their Trifrosts inefficient. Rare Candy is a premium card in this matchup to help play around Trifrost in addition to getting a fast attack.
+- Draw tons of cards aggressively, assuming they have no hand disruption. If they have Kang in play, you can go for a 3-2-1 prize map, though usually this requires two Boss’s Orders.
+- If you have Dedenne + Elgyem, you can trap a Slowking after it uses Trifrost. This is best if they used/discarded a Switch or Patch, or if you play Eri, or if you’re too far behind and need a desperation play.
+
+```youtube
+id: yV715Nm-4z8
+title: King v Zam 1
+```
+
+```youtube
+id: FyKyROvWcvY
+title: King v Zam 2
+```
+
+```youtube
+id: OkwXG4DViHE
+title: King v Zam 3
+```
+
 ### Zoroark - Favorable
 
 - If they have Darmanitan/Darumaka, Shaymin / Rabsca is a huge priority.

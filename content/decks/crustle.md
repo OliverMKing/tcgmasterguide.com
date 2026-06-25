@@ -137,6 +137,22 @@ title: Crustle v Zam 2
 - Set up multiple Crustle so that you can always have a response to Bulu. Spread out Energy in the early-game if necessary.
 - If you can get two Spikys on a Crustle, it's very good against Meganium.
 
+### Slowking - Unfavorable
+
+As Crispin build:
+- Try to power up multiple Crustle and target their Slowking / Energy. Can use random Pokemon as sacrifices while you load up Crustle. 
+- Munkidori can be good if they use Trifrost. Try to set up double Munkidori plays to respond to Trifrost. If you put both of them in play too early, however, they will simply die to Trifrost. Hero’s Cape can also make one Pokemon survive multiple Trifrosts.
+
+As Kang build:
+- Need to make a fast attacking Kang with Hero’s Cape. Can freely use other Pokemon as sacrifices. Attacking with Crustle won’t happen probably ever.
+- Xerosic and Hand Trimmer are quite good if they have a large hand. Eri is even better for sniping important resources.
+- Try to line up Bianca’s Devotion. It won’t happen often, but it’s game-winning if it does.
+
+```youtube
+id: 7K4rTEmfVbU
+title: King v Crust 1
+```
+
 ### Zoroark - Favorable
 
 - Spiky Energy is insane in this matchup. With one Spiky, Crustle effectively one-shots a poisoned Zoroark, Darmanitan, or Zekrom. With two, Crustle one-shots a non-poisoned Zoroark.

@@ -102,6 +102,73 @@ id: TEOrq9hJz-A
 title: Zoro v Pult 3
 ```
 
+### Raging Bolt - Even
+
+- This is a straightforward prize trade matchup. Don’t feed Zorua to Fan Rotom. Don’t put Zoroark in play if their board is threatening and they might get the first two-prize KO. Of course, putting Zoroark in play is fine if you’re taking the lead or if you just need to Trade to play the game. If you do have to put it in play preemptively, don’t leave it active unless you’re winning the prize trade!
+- We’re mostly using Zekrom three times to win (can also close out with Pecharunt). Boss is generally very good for entering the prize race and keeping the lead. N’s PP Up is an extremely important resource!
+- Darmanitan can sometimes be good! In the early-game, copying its attack can get two KO’s to put you ahead in the prize trade. Later, Back Draft can KO things such as Ogerpon. This is a potential way to swing the prize trade back into your favor.
+
+```youtube
+id: OHs-Mc5D3AU
+title: Bolt v Zoroark 1
+```
+
+```youtube
+id: iLIy5jBXhcw
+title: Bolt v Zoroark 2
+```
+
+### Alakazam - Very Unfavorable
+
+Some of the techs that I don’t play can be useful in this matchup, but in the end, it’s still very unfavorable anyway.
+
+- Try to get a fast Darmanitan.
+- Use Stamp when they’re likely to brick, such as if they have no Fez/Dudunsparce. Try to remove those Pokemon and then use Stamp when you do. If you play Watchtower, try to incorporate that as well.
+- If they have Shaymin and if you play Yveltal, try to get a board of Zoroark, Yveltal, Munkidori, Darmanitan, Pecharunt. Use Yveltal to trap the Shaymin and move damage to whatever you want to snipe. After three Clutches, KO Shaymin with Adrenabrain and have Zoroark use Darmanitan’s attack to KO whatever two Pokemon you want. After they respond, use Stamp.
+
+```youtube
+id: AAIh8BWElzA
+title: Zam v Zoroark 1
+```
+
+### Slowking - Even
+
+- Darmanitan is the most used attacker as it wipes out Slowking and Slowpoke. It is extremely strong in the matchup.
+- Binding Mochi has 3 main use cases, though oftentimes you won’t use any of them: Clutch with Yveltal for good damage increments, Flamebody Cannon for 3 prizes on Latias + Slowpoke, or 290 to Kang after poking it with Yveltal or Budew. If none of those are likely to line up, you can ditch the Mochi.
+- Yveltal is very useful, but don’t rely on it too much if they haven’t used any switching cards yet.
+- Munkidori doesn’t get used in a lot of games, but occasionally it can be important. Mostly used when going with Yveltal gameplans or if they end up Trifrosting a two-prize Pokemon.
+- I wouldn’t usually prioritize Budew (if you play it), but occasionally it can be the way to stop a devastating Trifrost.
+
+```youtube
+id: rcxdgYn7PUY
+title: King v Zoro 1
+```
+
+```youtube
+id: vewPb1rXCkw
+title: King v Zoro 2
+```
+
+```youtube
+id: XJnQMqbMkXU
+title: King v Zoro 3
+```
+
+### Zoroark Mirror - Even
+
+- Make sure that your board is never vulnerable to Darmanitan! Conversely, punish them with Darmanitan if you can.
+- Just take two prizes whenever you can and try to get ahead on the prize race. If they have no Darumaka in play, your single-prize board is safe and you can wait for them to get the first two-prize Pokemon in play.
+- If you’re on odd prizes and only behind one prize, Zorua or Zekrom can get a KO on their Zorua.
+
+### Crustle - Very Unfavorable
+
+- Pressure them with a fast Zoroark. KO any Dwebble on sight. Against Crustle, copy Zekrom’s Shred. Force them to respond and then Stamp them. Making them brick off Stamp is your only chance.
+
+### Mewtwo - Unfavorable
+
+- There are two ways to win. The most consistent is to use Darmanitan’s second attack with Mochi, allowing you to KO Spidops and Tarountula in one turn. Spamming Darmanitan’s attack can be very strong. If they put Mewtwo down, you can easily one-shot it with Zekrom’s attack.
+- The other way to win is by bricking them off Stamp, so try to do that at the earliest opportunity.
+
 ### Lucario - Unfavorable
 
 - Darmanitan is very good. If they have two Lucario, hit them both for 90 and finish them off with Zekrom. If they have one Lucario, smack it for 90 and snipe KO a Riolu. This can potentially stop the second Lucario from coming in, and you can finish it off with Zekrom.
@@ -123,34 +190,16 @@ id: rSOCCo-ePY8
 title: Zoro v Lucario 3
 ```
 
-### Alakazam - Very Unfavorable
+### Festival Lead - Very Unfavorable
 
-Some of the techs that I don’t play can be useful in this matchup, but in the end, it’s still very unfavorable anyway.
-
-- Try to get a fast Darmanitan.
-- Use Stamp when they’re likely to brick, such as if they have no Fez/Dudunsparce. Try to remove those Pokemon and then use Stamp when you do. If you play Watchtower, try to incorporate that as well.
-- If they have Shaymin and if you play Yveltal, try to get a board of Zoroark, Yveltal, Munkidori, Darmanitan, Pecharunt. Use Yveltal to trap the Shaymin and move damage to whatever you want to snipe. After three Clutches, KO Shaymin with Adrenabrain and have Zoroark use Darmanitan’s attack to KO whatever two Pokemon you want. After they respond, use Stamp.
-
-```youtube
-id: AAIh8BWElzA
-title: Zam v Zoroark 1
-```
-
-### Meganium - Unfavorable
-
-- This matchup revolves around being on the winning end of the 2-2-2 prize race. Don’t leave a two-prize Pokemon in the active until you’re taking the lead in the prize trade. Zekrom’s attack is very good for farming two-prize KO’s.
-- Darmanitan is usually not a priority in the early-game. However sometimes they will use Budew and you can get a double KO with its attack, which is obviously very good.
-- Darmanitan can sometimes be used to make comebacks since it can take a KO as a single-prize Pokemon. If they have enough Energy in their discard, Darmanitan can be a good attacking option. It is best with Stamp so that they might whiff Boss, and you may also need Black Belt to get the KO.
-- Black Belt + Mochi can get the one-shot on Arboliva. It doesn’t line up often, but it’s very good if you can get it.
+- This matchup is basically impossible but we have two win conditions. The first is going fast and running them off the board with Darmanitan. The other is cheesing with Boss stall and retreat lock. 
+- If you’re able to get a fast Boss, it’s possible that they didn’t get a chance to put a switching card in their hand. This is more effective if you also have Yveltal so they can’t use Air Balloon, but it’s still possible by just Bossing Thwackey. You’ll need lots of bench space, as you’ll also need Pecharunt and Munkidori to capitalize on the lock. Don’t put down too many extra Zorua or other Pokemon that aren’t important for the lock.
+- Zekrom can be good as a sponge while you’re setting up or for Shredding Thwackey for some damage (via Zoroark copy) if you don’t have Yveltal.
+- Boss (and Stretcher for Yveltal if you play it) are important resources to continue the lock even if they get out of it once. The way to capitalize on the lock if you get it is to eventually KO their Shaymin with Adrenabrain and then KO two apples with Darmanitan. If they have three apples, you’ll want to KO all of them. KO’ing both Thwackey is another possibility. Bump the Stadium on the turn you do all that.
 
 ```youtube
-id: rft0Tohghl4
-title: Zoroark v Meganium 1
-```
-
-```youtube
-id: VESe6pnhDkk
-title: Zoroark v Meganium 2
+id: nqiBklziLiw
+title: Festival v Zoroark 1
 ```
 
 ### Garchomp - Unfavorable
@@ -170,54 +219,22 @@ id: s3PdNIgy3AY
 title: Chomp v Zoro 2
 ```
 
-### Raging Bolt - Even
+### Arboliva - Unfavorable
 
-- This is a straightforward prize trade matchup. Don’t feed Zorua to Fan Rotom. Don’t put Zoroark in play if their board is threatening and they might get the first two-prize KO. Of course, putting Zoroark in play is fine if you’re taking the lead or if you just need to Trade to play the game. If you do have to put it in play preemptively, don’t leave it active unless you’re winning the prize trade!
-- We’re mostly using Zekrom three times to win (can also close out with Pecharunt). Boss is generally very good for entering the prize race and keeping the lead. N’s PP Up is an extremely important resource!
-- Darmanitan can sometimes be good! In the early-game, copying its attack can get two KO’s to put you ahead in the prize trade. Later, Back Draft can KO things such as Ogerpon. This is a potential way to swing the prize trade back into your favor.
+- This matchup revolves around being on the winning end of the 2-2-2 prize race. Don’t leave a two-prize Pokemon in the active until you’re taking the lead in the prize trade. Zekrom’s attack is very good for farming two-prize KO’s.
+- Darmanitan is usually not a priority in the early-game. However sometimes they will use Budew and you can get a double KO with its attack, which is obviously very good.
+- Darmanitan can sometimes be used to make comebacks since it can take a KO as a single-prize Pokemon. If they have enough Energy in their discard, Darmanitan can be a good attacking option. It is best with Stamp so that they might whiff Boss, and you may also need Black Belt to get the KO.
+- Black Belt + Mochi can get the one-shot on Arboliva. It doesn’t line up often, but it’s very good if you can get it.
 
 ```youtube
-id: OHs-Mc5D3AU
-title: Bolt v Zoroark 1
+id: rft0Tohghl4
+title: Zoroark v Meganium 1
 ```
 
 ```youtube
-id: iLIy5jBXhcw
-title: Bolt v Zoroark 2
+id: VESe6pnhDkk
+title: Zoroark v Meganium 2
 ```
-
-### Festival Lead - Very Unfavorable
-
-- This matchup is basically impossible but we have two win conditions. The first is going fast and running them off the board with Darmanitan. The other is cheesing with Boss stall and retreat lock. 
-- If you’re able to get a fast Boss, it’s possible that they didn’t get a chance to put a switching card in their hand. This is more effective if you also have Yveltal so they can’t use Air Balloon, but it’s still possible by just Bossing Thwackey. You’ll need lots of bench space, as you’ll also need Pecharunt and Munkidori to capitalize on the lock. Don’t put down too many extra Zorua or other Pokemon that aren’t important for the lock.
-- Zekrom can be good as a sponge while you’re setting up or for Shredding Thwackey for some damage (via Zoroark copy) if you don’t have Yveltal.
-- Boss (and Stretcher for Yveltal if you play it) are important resources to continue the lock even if they get out of it once. The way to capitalize on the lock if you get it is to eventually KO their Shaymin with Adrenabrain and then KO two apples with Darmanitan. If they have three apples, you’ll want to KO all of them. KO’ing both Thwackey is another possibility. Bump the Stadium on the turn you do all that.
-
-```youtube
-id: nqiBklziLiw
-title: Festival v Zoroark 1
-```
-
-### Slop Box / Absol - Even
-
-- This is a straight up prize trade matchup. Try to keep a single-prize board until you’re ready to go in. Having Zoroark on the bench with no Energy can be fine depending on how much Energy they have on their Ogerpon.
-- If they have a single-prize Pokemon on the board like Munkidori, smacking their Kang can lead to a four-prize turn with Darmanitan. If you can’t confidently pull that off, just try to Boss around Kang for two prizes instead. If you’re not going for that play, you don’t need to bother getting Darmanitan in play and can use the board space for something more useful instead.
-- If you’re behind in the trade, try to keep stuff like Meowth/Fez/Pecharunt off the board, as they may struggle to KO Zoroark. If you have only four Pokemon on your bench, they cannot one-shot Zoroark with Clefairy plus full board, so that’s another possible way to come back. If you’re winning the trade, it doesn’t really matter what your board looks like.
-
-### Mewtwo - Unfavorable
-
-- There are two ways to win. The most consistent is to use Darmanitan’s second attack with Mochi, allowing you to KO Spidops and Tarountula in one turn. Spamming Darmanitan’s attack can be very strong. If they put Mewtwo down, you can easily one-shot it with Zekrom’s attack.
-- The other way to win is by bricking them off Stamp, so try to do that at the earliest opportunity.
-
-### Zoroark Mirror - Even
-
-- Make sure that your board is never vulnerable to Darmanitan! Conversely, punish them with Darmanitan if you can.
-- Just take two prizes whenever you can and try to get ahead on the prize race. If they have no Darumaka in play, your single-prize board is safe and you can wait for them to get the first two-prize Pokemon in play.
-- If you’re on odd prizes and only behind one prize, Zorua or Zekrom can get a KO on their Zorua.
-
-### Crustle - Very Unfavorable
-
-- Pressure them with a fast Zoroark. KO any Dwebble on sight. Against Crustle, copy Zekrom’s Shred. Force them to respond and then Stamp them. Making them brick off Stamp is your only chance.
 
 ### Ogerpon - Unfavorable
 
@@ -228,4 +245,4 @@ title: Festival v Zoroark 1
 
 ## Personal Thoughts
 
-Some interesting Zoroark lists did well at NAIC, so I will have to try them out and update this page when I get the chance. For now, I still think Zoroark is bad because its matchup spread is atrocious.
+This page is partly outdated so I'll have to update it when I get the chance to test out the new Zoroark lists. I still think the deck is bad due to its lackluster matchup spread and questionable consistency.

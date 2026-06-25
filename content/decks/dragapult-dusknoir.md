@@ -150,6 +150,23 @@ id: SfQtd8mZFbE
 title: Pultnoir v Hydrap 1
 ```
 
+### Slowking - Slightly Unfavorable
+
+- Dusknoir is usually very good if you can set it up, but it doesn’t get used in every game. It’s possible to win with Dusknoir and two Phantom Dives, depending on their board configuration. All random damage can potentially make a difference.
+- Try to play around Trifrost especially in the mid- and late-game. Usually you have to go for basics early and just hope they don’t get it.
+- Budew and Hammer (if you play it) are extremely effective at delaying Trifrost, as well as enabling a recovery if you do get hit by a fast Trifrost.
+- Watchtower + hand disruption is a very strong combo that will likely make them brick. If they have Fez in play and you’re using Phantom Dive, try not to take a KO unless it’s necessary or severely cripples them. Setting up the board with multiple KO’s at once is one of the main ways to win.
+
+```youtube
+id: FEuncXxevBc
+title: King v Pultnoir 1
+```
+
+```youtube
+id: DuCHkNj08Rw
+title: King v Pultnoir 2
+```
+
 ### Crustle - Slightly Favorable
 
 - Dusknoir pieces, Night Stretchers, and Energy are the most premium resources.
