@@ -31,7 +31,7 @@ export function DeckCard({ deck }: { deck: Deck }) {
       <div className="relative flex items-center justify-between gap-3 flex-1">
         <div className="flex items-center gap-3 min-w-0 flex-wrap lg:flex-nowrap">
           <h3 className="text-lg font-medium text-neutral-800 dark:text-slate-100 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors break-words">
-            {deck.title}
+            {deck.title.replace(/ \/ /g, ' / ')}
           </h3>
           <div className="flex -space-x-2 shrink-0">
             {deck.pokemon.map((id) => (
