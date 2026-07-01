@@ -78,7 +78,7 @@ Energy: 17
 
 ### Dragapult - Depends
 
-If they have both Shaymin and Moltres, this matchup is unfavorable. With neither, it’s favorable. With one or the other, it’s close to even.
+This matchup can range from slightly unfavorable to slightly favorable depending on the build.
 
 - Oftentimes you’ll need both Clefairy to trade off against Dragapult. Putting one down preemptively is risky because it can get KO’d before you can get value from it, and there’s no way to recover it. Holding onto Clefairy is usually fine because it’s not hard to find the combo, but many exceptions exist. For example, if you get two quick prizes, you might not even need both Clefairy, so it could be better to put it down and prepare it in that case.
 - Ending the game with a massive Ogerpon is very common, even capable of one-shotting Dragapult. It’s not that hard to get 8 Energy on an Ogerpon to close out the game.
@@ -98,6 +98,21 @@ title: Ogerpon v Pult 2
 ```youtube
 id: K9E4AWBJng4
 title: Ogerpon v Pult 3
+```
+
+```youtube
+id: 1dEHX3hCnjA
+title: Ogerpon v Pult 4
+```
+
+```youtube
+id: spnhdr0RtqY
+title: Ogerpon v Pult 5
+```
+
+```youtube
+id: 5rOfum4QKLw
+title: Ogerpon v Pult 6
 ```
 
 ### Raging Bolt - Favorable
