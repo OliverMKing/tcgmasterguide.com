@@ -197,7 +197,13 @@ title: Lucario v Mewtwo 2
 - Hariyama is insanely broken for swinging the prize trade, and you’ll most likely need to attack with it to win. Clefairy one-shotting Lucario is not a problem as long as you have the Hariyama response.
 - You need to use Aura Jab to set up Hariyama. If you get baited by a Mega Brave KO with no follow up plan for when Lucario inevitably gets one-shot, you’ll lose.
 - Try to get Aura Jab KO on Mega Kang, which makes it fine to go 3-2-1 through Lillie's Pearl.
-- You may want to delay the second Lucario to prevent them from going 3-3, and force them to go through the Hariyama.
+- You want to delay the second Lucario to prevent them from going 3-3, and force them to go through the Hariyama. If they already got two prizes before you start attacking, you can just go straight for both Lucario.
+- Hang on to Switches to get out of Sob.
+
+```youtube
+id: KRenxp2JaK0
+title: Slop v Lucario 1
+```
 
 ### Lucario Mirror - Even
 

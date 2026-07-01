@@ -1,234 +1,217 @@
 ---
 title: Slop Box
-pokemon: [10039]
+pokemon: [35]
 tier: 3
 format: Standard
 ---
 ## Decklist
-![SlopBox list](./images/slop-box/sloplist.png)
 
+![slop list](./images/slop-box/blitzle.png)
 ```decklist
-Pokémon: 18
+Pokémon: 22
+4 Mega Kangaskhan ex MEG 104
 4 Meowth ex POR 62
-3 Munkidori TWM 95
-2 Mega Kangaskhan ex MEG 104
-2 Teal Mask Ogerpon ex TWM 25
-2 Latias ex SSP 76
-2 Lillie's Clefairy ex JTG 56
+4 Lillie's Clefairy ex ASC 76
+3 Latias ex SSP 76
+2 Wellspring Mask Ogerpon ex TWM 64
 2 Fezandipiti ex ASC 142
-1 Bloodmoon Ursaluna ex TWM 141
+1 Moltres PFL 14
+1 Chien-Pao SSP 56
+1 Koraidon ex ASC 121
 
-Trainer: 29
+Trainer: 28
 4 Crispin SCR 133
-4 Cyrano SSP 170
-4 Boss's Orders MEG 114
+3 Boss's Orders MEG 114
+2 Cyrano SSP 170
 2 Ciphermaniac's Codebreaking TEF 145
 1 Lillie's Determination MEG 119
 4 Ultra Ball MEG 131
-4 Energy Switch MEG 115
-2 Night Stretcher ASC 196
-1 Unfair Stamp TWM 165
-3 Area Zero Underdepths SCR 131
+3 Wondrous Patch PFL 94
+2 Dusk Ball SSP 175
+1 Prime Catcher TEF 157
+2 Lillie's Pearl JTG 151
+4 Area Zero Underdepths SCR 131
 
-Energy: 13
-4 Grass Energy MEE 1
+Energy: 10
 4 Psychic Energy MEE 5
-3 Darkness Energy MEE 7
-2 Mist Energy TEF 161
+2 Water Energy MEE 3
+2 Fighting Energy MEE 6
+2 Fire Energy MEE 2
 ```
 <!-- PUBLIC -->
 ### Inclusions
 
-- This started as the winning Japanese Absol deck but obviously has undergone many changes. I play four Meowth because I literally always want it in hand and like to spam it. Tried two and three, but I want all four.
-- Munkidori is handy in a variety of matchups because many decks can’t easily one-shot Mega Kang. With multiple Energy Switch, it’s easy to get value from several Adrenabrains, which opens a lot of lines and strong plays. Wanting to use two Munkidori in a turn is somewhat common, though it’s not as good in fast-paced prize trade matchups.
-- Ogerpon allows us to make plays without necessarily needing Crispin. It works well with the Energy Switches. It can also be used to attack against Grass-weak Pokemon.
-- Latias and Kangaskhan are required for the deck to function. Although you only need one in most games, we play two because of how important they are. We can’t afford to prize either of them if we play just one copy, and Kang is often a good attacker as well.
-- Similarly, we play two Fezandipti because it’s extremely important and prizing it can be disastrous. It’s also a great attacker against Dragapult or other evolution decks if they don’t have Shaymin.
-- Clefairy is the most consistent attacker and we’ll use it to handle most situations. I think two or even three Clefairy are necessary because we use both of them in many games.
-- Crispin is used multiple times every game and we usually want to use it on turn 1 or turn 2 to start attacking.
-- Similarly, Cyrano is needed to get the game going. We’ll often use another one later for a big Clefairy attack. Unlike Crispin, we never need more than two, but it’s still good overall for consistency.
-- Ciphermaniac’s Codebreaking is extremely good with the various draw Pokemon in the deck. It is mostly used for Energy Switch/Stretcher combos, finding Stamp, or finding the right Energy to attack.
-- The one-of Lillie works well with the heavy Meowth engine. Sometimes Lillie is the best Supporter for the turn, especially when we have a small or useless hand.
-- Mist Energy is pretty good against Dragapult, but they are definitely cuttable. If you did cut them, I would probably add a Chien-Pao for a similar use case against Dragapult plus whatever else you wanted to add. Mist Energy is not that useful against Alakazam if they play Hammer, and I expect most Alakazam to play Hammer right now. If they don’t, Mist Energy becomes much better for an instant-win in that matchup.
+- This deck plays high counts of all the Pokemon primarily for consistency and to have enough Pokemon to bump liabilities with Chien-Pao whenever necessary. We also want to start with Kangaskhan as much as possible. This deck also uses many copies of Clefairy and Meowth every game, so it’s not as overkill as you might think.
+- Wellspring Ogerpon is a useful tech. Sob can buy time to build up Energy in play or find a specific combo. Torrential Pump can be very strong in early games against Dragapult or other evolving decks, though sometimes you still just use Clefairy instead. Crucially it also opens up Area Zero which powers up Clefairy and enables Chien-Pao.
+- Moltres helps prize trade against decks with Teal Mask Ogerpon. It can also be useful to smack big Pokemon like opposing Mega Kangaskhan or to open fast aggression against other two-prize decks.
+- Koraidon is surprisingly helpful because of how many decks play Kangaskhan. It enables 3-2-1 prize maps as a way to one-shot other Kangs, and also provides a Tera in play for Area Zero. Its second attack gets used on occasion too.
+- Chien-Pao is extremely relevant. Aside from the Dragapult matchup, removing Mega Kangaskhan from play is very strong against any deck that can one-shot it. This helps us utilize Lillie’s Pearl for a better prize trade.
+- I found Cyrano to be much better than Dusk Ball, so I added a Cyrano and cut a couple of Dusk Balls from the original list. Dusk Ball can still help with consistency, especially in the early-game, though I often still want to use Cyrano in most games.
+- Lillie’s Determination is a solid option in a deck with four Meowth. Sometimes your hand is small or bad and you just want a new one.
+- Prime Catcher has great synergy with the deck. It enables Ciphermaniac + Run Errand even if you don’t already have Kang in the active. It escapes retreat lock. And of course, gust + Crispin is incredibly strong.
+
+### Possible Inclusions
+
+- A tech for Crustle could be considered, such as Chi-Yu or Passimian. However, if they have Fan or Crushing Hammer, it might not be reliable. If you do play a tech, it might be worth also adding a Night Stretcher for it.
+- Second Moltres or Chien-Pao would be nice.
+- More Cyrano, Lillie’s, or Dusk Balls would increase consistency, which is never bad. I did not find the Dusk Balls to be that great when playing with four, which is why I trimmed them down.
+- A tech Energy Switch or two could still be good. There are some times where you use Crispin in the early-game but want to repurpose the Energy later. It also works well with Wondrous Patch.
+- This deck has some space to work with, so I’m sure some other ideas that I haven’t thought of could be good.
 
 ### Exclusions
 
-- Absol is useless, so I cut them.
-- I don’t think Cornerstone is needed because the Mewtwo matchup isn’t that bad.
-- Psyduck is good if Dusknoir is a big threat. I currently think Dusknoir is a fraud, but if that changes, we could add Psyduck back in. This deck has plenty of space.
-- Brock’s Scouting should go back in if we add Psyduck. Without Psyduck, Brock isn’t worth playing.
-- Pokegear is a nice consistency card but we don’t mind spamming Meowth so I prefer that.
-- Wellspring Ogerpon plus Water Energy could be a consideration, but it’s not that important for most matchups right now. I still wouldn’t play Prism Energy either way.
-- If you wanted a way to bump Area Zero, I think Chien-Pao is better than a random Stadium. However, I don’t think any of that is necessary. The heal can be good against Dragapult, which is already favorable anyway. Discarding liabilities isn’t a real thing because if you have that many Pokemon in play, there will be liabilities remaining anyway.
-- Lillie’s Pearl doesn’t make that much sense in this build that relies on Kang. However, I plan on trying Pearl builds as well.
+- I did not find the Telepathic Energy to be very useful.
+- Hand disruption cards are good and could be nice on occasion, but usually they won’t swing any matchups and don’t work well with the deck overall.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
-- Before using Run Errand, always ask yourself “is there a chance I need Ciphermaniac this turn?” If you don’t already have the cards you need for the turn, there’s a good chance the answer is yes. Blindly using Run Errand can and will cost you games. With four Meowth and four Ultra Ball, accessing Cipher is easy, so be sure you won’t need it before using Run Errand!
-- If Crispin is the desired Supporter for the turn, start your sequence with that. In general, sequence like this: Unfair Stamp -> Flip the Script -> Teal Dance -> Ciphermaniac -> Run Errand, excluding any of the steps that aren’t applicable. Of course, there are plenty of exceptions.
-- As with other decks, sometimes it’s better to delay Stamp depending on the board state. This requires some experience and intuition to get a feel for. What is Stamp doing for you? Can it stop the opponent from doing something specific? Can you combo it with a Boss or other disruptive option? Stamp is mostly used as a disruption option in this deck, so try to deliver it at a the right moment. Although it’s usually best with Boss, sometimes that is not an option because it’s hard to find Stamp without Cipher.
-- In most games, you want to ship Kang to the active and start drawing cards. It’s often fine to attach to it to start attacking, though this can depend on the matchup. Of course, if you’re against something like Lucario that can easily one-shot the Kang, try to keep it out of the active or even out of play.
-- Ursaluna can often be used earlier than normal thanks to Crispin/Energy Switch.
-- Munkidori is often a good attacker and is sometimes the only option for fast pressure. Also keep your eyes open for possible double or triple Adrenabrain plays out of nowhere, as they can be very potent.
-- Ogerpon should probably be attacking less often than you think and Kang more than you think.
-- Sometimes keeping Munkidori off the board entirely is the best way to stop the opponent from having an easy prize map. This is mostly relevant if they’re KO’ing Kangaskhan. It comes up most often against Arboliva. The inverse can also be said about keeping Kangaskhan off the board, but that is somewhat rare (mostly done against Lucario).
-- Go first against everything besides Dragapult.
+- Go first.
+- Against any deck that can one-shot Mega Kang, you may need to use Chien-Pao to remove it from play before they can KO it. This is mostly relevant if the opponent is on track for a 3-2-1 prize map, which occurs if they have to KO a Pearl’d Clefairy or Moltres. Chien-Pao is also a strong resource against Dragapult, so you mostly want to keep it around.
+- If you don’t know where to manually attach Energy for the turn, lean towards non-Psychic types. Energy attachments can be made up via Wondrous Patch, so sometimes you want to be flexible and keep various attacking options open. Manually attaching to Clefairy is still generally good though.
+- Wondrous Patch + Crispin can make an attacking Latias out of nowhere. I was surprised at how often this was relevant.
+- Draw before Dusk Ball is typically correct sequencing. Dusk Ball doesn’t thin the deck in the traditional sense, so you’d rather see your cards to inform the correct selection off Dusk Ball.
+- If you’re not sure what to get off Ciphermaniac, such as if your immediate needs are already fulfilled, remember that Area Zero, Lillie’s Pearl, and Wondrous Patch are important to have access to and difficult to find. If you don’t already have them, you may want them in the future and not have a way to find them.
+- Attacking with Kangaskhan with this deck is rare and inefficient. It’s mostly just a desperation option. However, sometimes you may need to acknowledge when you can’t win through normal means and start powering up Kang to rely on luck.
 
 ## Matchups
 
-A lot of these games I still have Absol in the deck, but you’ll notice that it doesn’t do anything.
+### Dragapult - Slightly Unfavorable
 
-### Dragapult - Favorable
+Some builds of Dragapult might be closer to even.
 
-- Get a Psychic Energy in play asap as you may need to Energy Switch onto Clefairy. Try to leave at least one Psychic in the deck for Crispin.
-- Attacking with a fast Fez is ideal and can destroy them. Attacking with a fast Munki or Kang is also somewhat common. Between attacking with Munki now or Fez next turn, it just depends. If their board is not developed at all, going for Fez next turn can be stronger as it does not proc Stamp or Fez and can spawn trap Drakloak.
-- Adrenabrain damage to their Fez/Latias is often relevant for Kang to finish it off. Alternatively, Ursaluna can close out games against those Pokemon.
-- Mist Energy is usually best on Fez or Kang. If they have Dusknoir and you have Psyduck, Mist can be good on Psyduck.
-- Use Clefairy to respond to Dragapult. Having Munkidori on board is also good.
+- Save Area Zero for bumping their Stadium, making a Chien-Pao play, or reaching for the KO when they have a slim board. Chien-Pao can bump Watchtower if necessary, but ideally you’ll have an Area Zero for that instead.
+- Latias can one-shot Dragapult even if they have too slim of a board for Clefairy. This is mostly relevant in the end-game. If you manage to get extra Energy on Latias at some point throughout the game, it can be a good closer.
+- Attaching Energy to Wellspring or Fez on Turn 1 can be good to present the threat. Even if it gets Hammered, you can still Crispin Clefairy. While attacking with Wellspring/Fez can be very strong in the early-game, attacking with Clefairy instead is still fine. It just depends on the situation and what lines up easier. If you’re going second, try to get the Turn 1 KO with Clefairy.
+- Prepare for hand disruption and play around it to the best of your ability.
+- If they have Meowth or Fez in play, they are massive liabilities for them. Don’t go out of your way to KO them. Instead, keep them around as easy Sob or KO targets for later. Of course, if they are threatening to attack with them after you use Sob, you have to take the KO.
+- Against the Dusknoir version, if you have too many Meowth and Clefairy in play, they can possibly win with just two Phantom Dives + one Dusknoir. Watch out for that and try to play around it. Snipes from Phantom Dive or Dusknoir also bypasses Lillie’s Pearl.
+- If they don’t have Stamp left, Ciphermaniac (or Dusk Ball, to some extent) can play around Special Red Card to close out the game.
 
 ```youtube
-id: mlxrooxjTrg
-title: Pult v Slop 1
+id: zvBAEEaoVNA
+title: Slop v Pult 1
 ```
 
 ```youtube
-id: xpa-XDUyuyk
-title: Pult v Slop 2
+id: sa8Ah2uxEz4
+title: Slop v Pult 2
 ```
 
 ```youtube
-id: 3CKGTQowFjM
-title: Pult v Slop 3
+id: PADRK5BOGhQ
+title: Slop v Pultnoir 1
 ```
 
+### Raging Bolt - Even
+
+- Koraidon and Moltres are generally good in this matchup. Moltres can open aggression if they foolishly put down Teal Mask, while Koraidon can threaten them if they try to hide behind a Kang. Koraidon is also good to respond to a Kang as they might try to attack with it.
+- You may need to remove your own Kang in this matchup to stop a 3-2-1 line from your opponent. Don’t worry about it if you’re already winning the trade regardless. Going 3-2-1 yourself is only possible if they use Passimian, which could happen. If not, you can sometimes just ignore their Kang.
+- Don’t board lock yourself out of a Tera Pokemon.
+- Slim board in the early-game can stop them from initiating with Clefairy. Sob can also stall them from initiating.
+- Prime Catcher is a premium resource to get around their Sob. They don’t play tons of gusts, so threatening an attack with whatever gets Sob locked is another way out of it. Boss is also a premium resource to get easy KO’s.
+- You want to be the one initiating the aggression as soon as you can get a KO, and then win the prize trade straightforward from there.
+
 ```youtube
-id: IZFz1CYLWvw
-title: Blaziken v Slop 1
+id: NfV1_7qY9JA
+title: Slop v Bolt 1
 ```
-
-### Lucario - Unfavorable
-
-- Use Clefairy to respond to Lucario and one-shot it.
-- Open aggression asap with an attacker that Aura Jab can’t easily KO, such as Ogerpon or even Latias. We need to pressure them and try to make it so that they cannot easily power up Hariyama. This is easier said than done though. If you’re desperate, you can have Clefairy open aggression and just hope they don’t have two damage mods for the Aura Jab KO.
-- If you’re able to play the early-game without putting Fighting-weak Pokemon into play (especially Kang), try to avoid doing so and still apply pressure. This is pretty hard since you usually need to rely on Kang or Meowth to play the game, but if you manage to find a way to start attacking without them, it’s the best chance of winning.
-- Munkidori’s Mind Bend can respond to Hariyama as well as potentially open aggression by KO’ing Riolu/Makuhita. If you have to choose between early-game speed or waiting a turn for a more ideal attacker, I tend to prefer going for speed.
+These games are actually surprisingly interesting.
 
 ```youtube
-id: bzvRSCnAT7U
-title: Lucario v Slop 1
-```
-
-```youtube
-id: EKXF9j5d8KE
-title: Lucario v Slop 2
-```
-
-```youtube
-id: WiiZllhotKY
-title: Lucario v Slop 3
+id: RoK0ACF6r9E
+title: Slop v Bolt 2
 ```
 
 ### Alakazam - Very Unfavorable
 
-- Your win condition is attacking fast and then bricking them off Stamp.
-- Mist Energy is best early or on the turn you Stamp, as those are the times they are least likely to have a response. Cipher can help you get value from both Mist Energy as well as Stamp on key turns.
-- Attack with whatever is fastest or most convenient. In the most ideal situation, Kang is best because it has the most HP and might survive if you’re lucky. Otherwise, use Clefairy or Fez.
-- On your Stamp turn, you need to KO Fez/Dudunsparce to maximize the chance of them bricking.
-- If they don’t play Hammer, rely on Mist Kang and don’t put many Pokemon in play. If they play bad Zam, use Adrenabrain to stop it from 2-shotting Kang and try to get a second Mist Energy attacker.
-
-### Garchomp - Unfavorable
-
-- Try to cheese them with a fast Fezandipiti or Clefairy.
-- Extra Energy should go onto Ogerpon. Try to preload it as much as possible to get a one-shot on Garchomp.
-- Mind Bend is useful on some occasions, especially if you were able to pressure their early Energy attachments.
+- Your win condition is speed blitzing prize cards before they can stabilize. Wellspring Ogerpon is very strong in the early-game. Prioritize targeting their Kadabra. If they don’t have any, target Abra. Fast Clefairy is also good. Just try to amass a fast prize lead.
+- Save Stadiums / Chien-Pao to counter Nighttime Mine if you plan on attacking with Wellspring Ogerpon.
 
 ```youtube
-id: MNNf2n41tB0
-title: Chomp v Slop 1
+id: UMXM2VXsxeo
+title: Slop v Zam 1
 ```
 
 ```youtube
-id: aGzRod7FXUs
-title: Chomp v Slop 2
+id: OABzOSwJJ3c
+title: Slop v Zam 2
 ```
 
+### Hydrapple - Unfavorable
+
+- Moltres and Lillie’s Pearl are very strong in this matchup. 
+- You’ll need to remove Kang from play at some point to deny them the 3-2-1. Even better if you can get by without putting Kang in play in the first place, but that is sometimes difficult.
+- Wellspring’s attacks are nearly useless in this matchup, but it’s still a good card to enable Area Zero.
+- Watch out for Briar. Sometimes there’s nothing you can do about it though. KO’ing their initial Celebi or other fodder one-prize isn’t bad because it does avoid Briar.
+- Also watch out for Stamp and Red Card. Play around them whenever possible.
+
 ```youtube
-id: YhIOn0kE4ko
-title: Chomp v Slop 3
+id: ReNNpTcJ4MA
+title: Slop v Hydrap 1
 ```
 
-### Meganium - Even
+### Zoroark - Unfavorable
 
-This matchup is about even if they have Budew and a little better if they don’t.
-
-- Don’t put down Munkidori until you can either get value from it or they can’t abuse it for their prize map. If you put it in play, they will snipe it with Arboliva for a convenient 1-3-2 prize map, as you almost always need to put Kang in play for draw. Munkidori is mostly good if they use Itchy Pollen too much and give you damage to throw back at them. When in doubt, just don’t put Munkidori down at all.
-- Don’t put any Energy on your initial Kang that you’re using to draw until you’re ready to attack with it. If you put even one Energy on it, they can one-shot with Ogerpon with four Energy (which can easily be made over two turns).
-- There aren’t really any convenient attackers to open aggression with. You can use Clefairy, Ogerpon, Kangaskhan, or Cornerstone (if you play it), but they’re a bit slow if you’re Item locked. This is a normal prize-trade matchup, so you want to enter the prize race on the winning end of it (don’t throw away an attacker just to KO a single prize Pokemon). Once they’ve taken a few prizes, Ursaluna is very good. It can sometimes be used as early as 3 or even 4 prizes remaining thanks to Energy Switch/Crispin.
+- Save Prime Catcher in case they try to use Yveltal or Drapion.
+- If they have a full bench, try to get the one-shot with Clefairy on their Zoroark. Your opportunity to one-shot Zoroark will disappear after that. The same is true if they have four Pokemon on the bench and a poisoned Zoroark. They should never let that happen, but if they do, you can punish it with a Clefairy one-shot.
+- If they have Fez, Meowth, or Pecharunt on their bench, KO it before it disappears to Transformation Tome.
+- Eventually, you’ll probably just have to two-shot a Zoroark, which is fine. You may need to rely on Mega Kangaskhan attacking luck in this matchup. Mega Kang can also be a meatshield at various points in the game because it’s very hard for them to one-shot it (especially because they do not want Pecharunt in play).
 
 ```youtube
-id: PvhArUmgbJ4
-title: Slop v Meganium 1
+id: Y9wQFCdEMII
+title: Slop v Zoro 1
 ```
 
+### Slowking - Favorable
+
+- Wellspring is very good in this matchup so try to power it up with any spare Energy. Smacking into Kang sets it up for a Clefairy finish, or you can snipe it off after hitting it with Clefairy first. Of course, clearing off Slowpoke + Slowking is also great, and Sob can buy a turn or two if you have nothing better to do.
+- Lillie’s Pearl on an attacking Clefairy is generally very good. Lillie’s Pearl is a premium card in general because it also denies some Trifrost lines even if you’re not attacking with Clefairy.
+- You need to hold Area Zero + Meowth to counter Trifrost. If they use Trifrost and threaten lethal, Meowth → Ciphermanaic → Prime Catcher and Chien-Pao → retreat, Run Errand, clear off the damage and Prime snipe whatever you want. This is the ideal response to Trifrost so make sure you keep it available. Set up your board so that they cannot win with two more Trifrosts.
+- If they have the Kang in play but you aren’t able to punch it, try to get Koraidon with Energy so you can take three prizes on their Kang and close out the game.
+
 ```youtube
-id: ImYPuD7Y3_Y
-title: Slop v Meganium 2
+id: m42C_e2OwqU
+title: King v Slop 1
 ```
 
-### Raging Bolt - Slightly Favorable
+### Slop Box Mirror - Even
 
-- Getting Kang in the active early is ideal because it’s hard for them to KO it in the early-game. Try to get a Clefairy with an Energy fast as well. Clefairy with Boss is the easiest way to get the first two prize cards. You may need a lot of other Pokemon and even Area Zero depending on how careful the opponent is.
-- This is straightforward prize race. Don’t put a two-prize Pokemon in the active unless you’re able to take the lead.
-- If they smack Kang with Fan Rotom or baby Bolt in the early-game, return KO with Munkidori is fine, mostly because you don’t want to leave anything else in the active.
-- We are most likely not attacking with Kang in this matchup. Mostly rely on Clefairy and Ursaluna.
+- Many of the same principles as the Raging Bolt matchup, barring Moltres. You can still use Moltres to swing fast, but it’s obviously not as strong when it can’t one-shot anything.
+- If they are threatening a Koraidon with an Energy, remove Kang from play. You can do the same thing to threaten their Kang. Using Chien-Pao makes it harder for them to remove Pokemon from play.
+- Don’t board lock yourself out of a Tera Pokemon.
+- Slim board in the early-game can stop them from initiating with Clefairy. Sob can also stall them from initiating.
+- Save Prime Catcher for Sob. It’s probably fine to use it to get a solid prize lead if you have to.
+- Lillie’s Pearl is very good.
+
+### Crustle - Auto Loss
+
+Without a tech you just can’t win. With a tech, you still have to play carefully.
+
+### Mewtwo - Unfavorable
+
+- Moltres is good to smack into Mewtwo. Lillie’s Pearl also very good in this matchup since it’s hard for them to gust a lot.
+- Wellspring’s attacks are also mostly bad here. Torrential Pump is hard to line up but it could occasionally be useful since getting the damage on Mewtwo is relevant. I never found a good chance to use it since it’s so committal.
+- Clefairy is the go-to attacker in most situations.
+- Attacking with Kang can sometimes be good in this matchup since it’s hard for them to one-shot it. Attacking with it earlier is best to reduce the likelihood of them having the Max Belt combo to one-shot it. If they swing into Kang for a bunch of damage, you HAVE to remove it with Chien-Pao.
+- Chien-Pao can also be very good because it removes Meowth from play, which leaves them with nothing they can easily KO with Spidops.
 
 ```youtube
-id: Ljy0_-rv0pM
-title: Bolt v Slop 1
+id: 5vN-SSszLeg
+title: Slop v Mewtwo 1
 ```
 
-```youtube
-id: TPHTpIWAvpE
-title: Bolt v Slop 2
-```
+### Lucario - Unfavorable
 
-### Absol / Slop Box Mirror - Even
-
-- Prize trade matchup. Try to be the one that takes the lead on even prizes. Kang in the active early because it’s hard to KO. Try to manually attach to Clefairy to get the fast Boss KO. If you can’t, just go for a fast Kang punch instead. Don’t attack with Kang if it has damage.
-- Holding Pokemon and not putting them in play can stop them from getting the first KO with Clefairy.
-- If you’re behind, you’ll have to rely on Kang and Stamp. Depending on the situation, you may need to Boss their Fez and just flip heads on your Stamp turn. 
-- If you have a slim board, you can use Ursaluna to attack without much fear of it getting return-KO’d, which is another chance to make a comeback. In general, slim board is better if you’re behind, while wide board is better if you’re ahead.
-- There could occasionally be a chance for random Mind Bends if they are attacking with Kang. If they get the first Kang smack into your Kang and you can’t get a Boss KO, Mind Bend might be your best option. Another potential option is double Adrenabrain plus flip a heads.
-
-### Mewtwo - Even
-
-- Push Kang asap. If they smack into it, pivot into attacking Clefairy and use the damaged Kang as a damage bank for Adrenabrain throughout the game. If they do not smack the Kang, start attacking with it.
-- Kang and Clefairy are the default attackers. Try not to attack with anything that is damaged! Damage in play for Adrenabrain is an incredibly powerful resource, though it’s completely up to the opponent if they give you any.
-- Ursaluna is occasionally useful on 3-4 prizes. Otherwise, use it as a closer.
-- If they have a full bench, try to use Clefairy to one-shot Mewtwo. This is easier said than done, but extremely strong if you get it.
-- If they have Spidops/Tarountula with a Bangle/Belt, it is a big threat so remove it asap. If they have a threatening Mewtwo as well, sometimes that takes priority, but it is highly situation-dependent.
-
-Unfortunately I forgot to record for this matchup and the next one. My bad.
-
-### Zoroark - Even
-
-- Although this is a prize trade matchup, they have a single-prize board to start, which means they can always theoretically win if they draw perfect.
-- Kang is very good because it is hard for them to KO it, so start attacking with that. Of course, it cannot reliably one-shot Zoroark, so you’ll likely end up using Boss for another one-prize KO with it later as well as KO on Pecharunt/Meowth if they put them in play.
-- If they smack Kang and they have Darm, heal it out of Darm range if you can. If not, don’t put Munkidori down so they cannot get a four-prize turn with Darm’s attack.
-- Get Grass Energy on Ogerpon asap so that you can one-shot Zoroark. If you can get two Ogerpon, each with a Grass Energy, that’s even better.
-- If they have a full bench, which is most of the time, Clefairy with full bench can one-shot Zoroark.
-
-### Crustle - Very Unfavorable
-
-- Your best chance is to cheese them with a fast Fezandipiti or Clefairy to spawn trap Dwebble.
-- Mind Bend is very good if they don’t have Mist Energy.
-- Otherwise, leave Kang in the active. If they hit it, unleash triple Adrenabrain. KO any Dwebble on sight. Fez or Boss can also take out their Munkidori if they put any down to ensure you have the Munkidori advantage. Save Stretchers for Munkidori and Dark.
+- Kangaskhan should be avoided if at all possible.
+- Lillie’s Pearl!
+- Sob on Lunatone or Solrock is very good because it sets up for a perfect Torrential Pump for two prizes. This is the best way to actually win a prize trade. There’s nothing you can do if they have Switch right away, but sometimes they will not have it.
+- If they have only one Riolu and no Lucario, obviously target that. Otherwise, target Makuhita because Hariyama is a massive threat in this matchup.
 
 ```youtube
-id: aUg9LG87Px8
-title: Crustle v Slop 1
+id: KRenxp2JaK0
+title: Slop v Lucario 1
 ```
 
 ## Personal Thoughts
 
-This version of the deck is pretty irrelevant right now. I plan to replace this page with the NAIC winning Slop Box deck.
+This deck is atrociously bad and doesn’t really beat anything. I just thought I should cover it since it somehow won NAIC.

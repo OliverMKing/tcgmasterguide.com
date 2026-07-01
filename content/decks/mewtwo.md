@@ -134,6 +134,18 @@ title: Blaziken v Mewtwo 2
 - Try to put Tarountula in play on turns where an incoming Trifrost is least likely. Spidops is the most useful attacker if you can get them into play.
 - Having 1-2 random Mewtwo on the board is generally good because they aren’t vulnerable to Trifrost and Slowking doesn’t play much gust.
 
+### Slop Box - Favorable
+
+- Mewtwo is the best attacker in this matchup but using Spidops is also fine. Spidops is best to get a gust KO on Meowth or KO their active with Max Belt.
+- Max Belt can be used for Mewtwo to one-shot Kang, which might come up occasionally, but usually the Belt gets used with Spidops for an easier KO. If you can’t one-shot the Kang, just smack it with Spidops.
+- Do not feed Wellspring Ogerpon two prizes. Play around this by not leaving small Pokemon in the active or staggering the Tarountula if necessary. Their Wellspring is very telegraphed if they’re playing the NAIC-winning list, so if that’s the case, you don’t need to worry about it coming out of nowhere.
+- If they put down Koraidon, Mimikyu + Giovanni can easily snipe it off. Mimikyu can also Sob their Ogerpon to buy time, but it’s usually not relevant.
+
+```youtube
+id: 5vN-SSszLeg
+title: Slop v Mewtwo 1
+```
+
 ### Zoroark - Favorable
 
 - Mewtwo is obviously very bad in this matchup. I wouldn’t put it down unless you absolutely need it for Spidops damage. Spidops easily one-shots everything, so spam it.

@@ -167,6 +167,19 @@ id: DuCHkNj08Rw
 title: King v Pultnoir 2
 ```
 
+### Slop Box - Favorable
+
+- Budew and Munkidori are usually not good in this matchup. Shaymin is sometimes good if they’re threatening Fez / Wellspring, but not always since you want a slim board later.
+- Fez and Meowth are massive liabilities. Do not put them down unless absolutely necessary.
+- Play to have a slim board at the end of the game. Save a Stadium and hand disruption card for when you have only one benched Pokemon and an attacking Dragapult. Bump their Stadium and disrupt their hand. This makes it hard for them to get the KO on a Dragapult.
+- If you play Crushing Hammer, it is generally best on their backup attacker to prevent them from building up too much Energy in play.
+- Dusknoir is generally good. It can bypass Pearl along with Phantom Dive snipe. Dusclops can be good if you end up having to smack a Kang for 200 and then finish it with Dusclops + Phantom Dive snipe.
+
+```youtube
+id: PADRK5BOGhQ
+title: Slop v Pultnoir 1
+```
+
 ### Crustle - Slightly Favorable
 
 - Dusknoir pieces, Night Stretchers, and Energy are the most premium resources.

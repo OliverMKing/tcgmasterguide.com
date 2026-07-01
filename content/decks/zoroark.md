@@ -154,6 +154,19 @@ id: XJnQMqbMkXU
 title: King v Zoro 3
 ```
 
+### Slop Box - Favorable
+
+- Limit your board so that they cannot one-shot Zoroark with Clefairy. Don’t leave Zoroark poisoned if you have four Pokemon on your bench since they can still get the KO with Clefairy.
+- Transformation Tome is extremely strong for getting a perfect board and removing two-prize liabilities.
+- It’s ok to put a two-prize liability in play, but don’t put down too many of them. Try to remove them with Tome as soon as possible.
+- Start attacking with Zoroark normally and just take easy one-shots with Zekrom’s attack. You probably won’t be able to KO their Kang and don’t need to worry about it. But if they threaten to attack with Kang, you may want to have Mochi + Black Belt to respond to it. Those cards aren’t usually important though.
+- Try to play around Wellspring and don’t let them get a double KO with it. In the early-game this means not leaving a small Pokemon in the active. Later, it means not putting down unnecessary Zorua or having two small Pokemon in play.
+
+```youtube
+id: Y9wQFCdEMII
+title: Slop v Zoro 1
+```
+
 ### Zoroark Mirror - Even
 
 - Make sure that your board is never vulnerable to Darmanitan! Conversely, punish them with Darmanitan if you can.

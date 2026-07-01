@@ -238,6 +238,22 @@ id: OkwXG4DViHE
 title: King v Zam 3
 ```
 
+### Slop Box - Very Favorable
+
+- Prioritize stabilizing by getting as many Abra and Kadabra as possible. Shaymin / Rabsca can be very good for protecting against Wellspring.
+- If they get a significant fast lead, you may need to avoid benching Fezandipiti in order to win the prize trade.
+- Play normally for the most part. It’s impossible to lose if you get set up.
+
+```youtube
+id: UMXM2VXsxeo
+title: Slop v Zam 1
+```
+
+```youtube
+id: OABzOSwJJ3c
+title: Slop v Zam 2
+```
+
 ### Zoroark - Favorable
 
 - If they have Darmanitan/Darumaka, Shaymin / Rabsca is a huge priority.
@@ -270,10 +286,6 @@ title: Crustle v Zam 2
 
 - This is obviously a horrible matchup because of Articuno, but if there is a way to win it’s by powering up Fez as fast as possible and taking out their Articuno. Use Boss’s Orders and Enhanced Hammer to slow them down. They do sometimes draw garbage, so it is possible to get lucky.
 - If they for some reason do not have Articuno in play, wreak as much havoc as possible with Alakazam during that window whenever possible. Also use Alakazam to KO Spidops.
-
-### Slop Box - Very Favorable
-
-- Just play normally and get Shaymin / Rabsca for the Wellspring.
 
 ### Lucario - Very Favorable
 

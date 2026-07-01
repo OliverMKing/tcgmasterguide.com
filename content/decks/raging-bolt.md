@@ -246,6 +246,26 @@ id: hnu2VK19vmk
 title: King v Bolt 2
 ```
 
+### Slop Box - Even
+
+- KO their Kang whenever possible.
+- Delaying putting down Teal Mask can be good because it stops them from getting an easy Moltres KO.
+- Slim board in the early-game is very good to stop them from initiating with Clefairy. If you started with something bad like Meowth or Raging Bolt, this isn’t as relevant since they can get the KO anyway.
+- Sob can be very good for buying time, particularly in the early-game.
+- If they Sob you, try to instantly start attacking with whatever is stuck.
+- Kang can sometimes be a good attacker since it’s hard for them to KO. Even if they have Koraidon, it’s not any worse than if a two-prize Pokemon gets KO’d (unless you have a single-prize attacker).
+
+```youtube
+id: NfV1_7qY9JA
+title: Slop v Bolt 1
+```
+These games are actually surprisingly interesting.
+
+```youtube
+id: RoK0ACF6r9E
+title: Slop v Bolt 2
+```
+
 ### Zoroark - Even
 
 - Similar to the above two, but applying fast pressure is better than positioning because they don’t have to put a two-prize Pokemon in play in order to play the game. Don’t leave a two-prize Pokemon in the active unless you’re winning the prize trade. Fan Rotom can efficiently apply pressure. Whether you’re KO’ing Zorua or not, attacking with Fan Rotom early is generally good.
