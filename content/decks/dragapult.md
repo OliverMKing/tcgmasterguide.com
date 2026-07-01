@@ -222,15 +222,24 @@ title: Pult v Crustle 2
 - Assuming they have Articuno in play, any Munkidori damage should go on Spidops or Tarountula.
 - Watchtower is best used reactively to bump their Stadium. This improves the chance of them bricking/whiffing. Ideally you have hand disruption too, but still worth bumping their Stadium immediately either way.
 
-### Slop Box - Slightly Unfavorable*
+### Slop Box - Slightly Favorable
 
-For now, I am using the term “Slop Box” to refer to the NAIC-winning deck.
-
+- At the end of the game, you would like to only have one benched Pokemon so that Clefairy cannot KO Dragapult without the Area Zero. This is makes it difficult for them to get the KO after disrupting them. This means you need to be careful about putting Pokemon down. Don't put down extra stuff like Munkidori or Moltres if you don't need to. Hoard the disruption combo for when you have slim board.
+- Fez and Meowth are huge liabilities so don't put them into play unless absolutely necessary.
 - Use Hammer if it has a reasonable chance of stopping an attack. Otherwise, save for a disruptive combo. Double Hammer on their Clefairy plus Boss Phantom Dive on Fez (along with hand disruption and Watchtower) is the ideal play as they have to get lucky in order to respond.
 - It’s unlikely to win a trade, so we have to rely on hand disruption plus Watchtower. These cards are premium resources.
 - Moltres is a good response if they’re threatening a fast Fez attack. It can also be very good if you can get the smack on their Kang. This lets Phantom Dive KO and prize trade ignoring Lillie’s Pearl. If you aren’t getting value from Moltres, don’t put it down for no reason so we can have a slim board in the late-game.
-- At the end of the game, you would like to only have one benched Pokemon so that Clefairy cannot KO Dragapult without the Area Zero. This is makes it difficult for them to get the KO after disrupting them. This means you need to be careful about putting Pokemon down, but this is sometimes too difficult or unreasonable depending on the situation, so it’s not something that will always be possible.
 - They have plenty of outs to Watchtower, so save one or two for a combo with hand disruption.
+
+```youtube
+id: zvBAEEaoVNA
+title: Slop v Pult 1
+```
+
+```youtube
+id: sa8Ah2uxEz4
+title: Slop v Pult 2
+```
 
 ### Lucario - Slightly Favorable
 
@@ -296,5 +305,3 @@ title: Lop v Hammers 4
 ## Personal Thoughts
 
 This is the best deck. When I’m playing this deck I’m only scared of Crustle, and even that is winnable with a bit of luck (or a tech). This build might not be the most consistent way to play Dragapult, but the list solves a lot of problems and covers most matchups. The disruption is extremely strong. Although somewhat luck-based, the disruption is also good at punishing opponent’s mistakes.
-
-*I need more testing against the post-NAIC builds of these decks to definitively say how good the matchup is. I don’t feel particularly threatened by these decks but they have a good track record against Dragapult.
