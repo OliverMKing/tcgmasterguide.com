@@ -1,7 +1,7 @@
 ---
 title: Lopunny
 pokemon: [428]
-tier: 2
+tier: 3
 format: Standard
 ---
 <!-- PUBLIC -->
