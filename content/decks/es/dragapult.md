@@ -6,33 +6,30 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for Dragapult](./images/dragapult/clefred.png)
+![decklist for Dragapult](./images/dragapult/2card.png)
 ```decklist
-Pokémon: 20
+Pokémon: 16
 4 Dreepy TWM 128
 4 Drakloak TWM 129
 3 Dragapult ex TWM 130
-2 Meowth ex POR 62
-1 Budew ASC 16
-1 Moltres PFL 14
 1 Munkidori TWM 95
-1 Fezandipiti ex ASC 142
-1 Latias ex SSP 76
-1 Lillie's Clefairy ex JTG 56
-1 Bloodmoon Ursaluna ex TWM 141
+1 Moltres PFL 14
+1 Budew PRE 4
+1 Fezandipiti ex SFA 38
+1 Meowth ex POR 62
 
-Trainer: 31
+Trainer: 35
 4 Lillie's Determination MEG 119
 4 Boss's Orders MEG 114
 3 Crispin SCR 133
-2 Brock's Scouting JTG 146
 4 Buddy-Buddy Poffin TEF 144
 4 Ultra Ball MEG 131
-4 Poké Pad ASC 198
+4 Poké Pad POR 81
+4 Crushing Hammer POR 71
 2 Night Stretcher ASC 196
-1 Special Red Card CRI 82
+2 Special Red Card CRI 82
 1 Unfair Stamp TWM 165
-2 Risky Ruins MEG 127
+3 Team Rocket's Watchtower DRI 180
 
 Energy: 9
 4 Fire Energy MEE 2
