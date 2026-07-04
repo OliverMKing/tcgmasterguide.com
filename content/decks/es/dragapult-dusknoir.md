@@ -147,54 +147,35 @@ id: SfQtd8mZFbE
 title: Pultnoir v Hydrap 1
 ```
 
-### Festival Lead - Favorable
+### Slowking - Ligeramente Desfavorable
 
-- Prepara a Dusknoir cuanto antes y úsalo para noquear a Rabsca. Dusclops en Rellor también funciona. Si no puedes, al menos noquea a Rabsca de forma normal. Luego puedes usar a Dusclops/Dusknoir para noquear a todos los Dipplin/Applin, lo que significa el fin de la partida.
-- Poner a Munkidori en juego para usarlo como escudo es muy útil. Se puede usar como sacrificio o como promoción después de que usen su primer ataque para noquear algo. Más adelante en la partida, también será relevante para Adrena Brain.
-- La interrupción de mano es muy poderosa. Úsala cuando empieces a atacar con Dragapult o con Boss para alentarlos. Si subes a Thwackey y reinicias su mano, es poco probable que se recuperen y así puedes ganar tiempo.
-
-### Mewtwo - Parejo
-
-- Tu condición de victoria es hacer que fallen. Bloquearles los objetos es la máxima prioridad. Darle Budew a Tarountula se siente mal, pero necesitas mantenerlos bloqueados hasta que empieces a atacar.
-- Usar Unfair Stamp siempre que puedas suele ser una buena estrategia. A veces, puedes guardarlo para cuando empieces a atacar.
-- Dusknoir es muy bueno porque abre varias jugadas. Eliminar a Clefairy es probablemente la mejor opción, pero también puedes debilitar a Mewtwo de un solo golpe o eliminar a Articuno para facilitar KOs rápidos a Pokémon como Mimikyu.
-- Normalmente, lo mejor es atacar a su atacante Psíquico que tenga Energía, especialmente porque tienes que debilitar a Mewtwo de dos golpes de todas formas. Si atacas a Clefairy y dejas un atacante cargado, no les será difícil simplemente usar Night Stretcher para recuperar a Clefairy.
-- Si su único atacante cargado es Mimikyu, una buena forma de contrarrestarlo es no tener a Dragapult en el campo y atacar con otro Pokémon.
-- La Rocket's Watchtower se usa mejor de forma reactiva para destruir su Estadio. Esto aumenta las probabilidades de que fallen. Si la juegas de forma preventiva, no tiene efecto y pueden quitarla fácilmente.
-
-### Lucario - Parejo
-
-- 20 de daño sobre Riolu, Lucario y Makuhita suelen ser efectivos.
-- Mind Bend suele ser buena estrategia contra Mega Lucario, pero menos si acaban de usar Mega Brave en el turno anterior. Usar Phantom Dive también funciona.
-- Budew al principio de la partida es muy útil en este matchup para alentar su seteo.
-- Evita a Solrock al final de la partida no dejando Pokémon en la banca con potencial de ser noqueados. Si no consiguen un segundo Mega Lucario, no queremos que terminen la partida con Solrock.
-- Intenta jugar sin Fezandipiti ni Meowth. A menudo es necesario sacar uno para poder jugar, lo cual es aceptable, pero evítalo si puedes.
+- Dusknoir suele ser muy bueno si logras setearlo, pero no se usa en todas las partidas. Es posible ganar con Dusknoir y dos Phantom Dive, dependiendo de como se ve su banca. Cualquier daño extra puede marcar la diferencia.
+- Intenta jugar teniendo en cuenta a Trifrost, especialmente en la mitad y al final de la partida. Normalmente, debes optar por bajar a tus básicos al principio y esperar que no lo consigan.
+- Budew y Crushing Hammer (si lo juegas) son extremadamente efectivos para retrasar el Trifrost, además de permitirte recuperarte si te golpea un Trifrost rápido.
+- Rocket's Watchtower + interrupción de mano es una combinación muy fuerte que probablemente los dejará sin cartas en la mano. Si tienen a Fezandipiti en juego y estás usando Phantom Dive, intenta no tomar un KO a menos que sea necesario o los debilite gravemente. Preparar el tablero con múltiples KO a la vez es una de las principales formas de ganar.
 
 ```youtube
-id: ES4sVc3cpL0
-title: Pultnoir v Lucario 1
+id: FEuncXxevBc
+title: King v Pultnoir 1
 ```
 
 ```youtube
-id: tX125zkIRpw
-title: Pultnoir v Lucario 2
+id: DuCHkNj08Rw
+title: King v Pultnoir 2
 ```
 
-### Mega Lopunny - Favorable
+### Mega Kangaskhan Box - Favorable
 
-- Intenta ser agresivo y prepara un Dusknoir. Incluso si no puedes noquearlo de un solo golpe, ataca y presiona. Atacar a su Lopunny sigue siendo una buena opción. No pueden usar Wally's Compassion y Boss's Orders en Duskull/Dusclops al mismo tiempo.
-- Usa a Dusknoir para noquear a su Mega Lopunny de un solo golpe. Si consigues tres noqueos de un premio, mejor, pero también puedes preparar un segundo Dusknoir para noquear a su siguiente Mega Lopunny.
-- Si tienen a Psyduck, noquealo cuanto antes, ya que eventualmente querrás usar a Dusknoir.
-- Rocket's Watchtower, Boss's Orders y las cartas de interrupción de mano son recursos muy útiles en este matchup. Watchtower suele ser una buena opción para usar siempre que la tengas, a menos que tengan una mano fuerte que no puedas interrumpir.
+- Budew y Munkidori no suelen ser buenas opciones en este matchup. Shaymin a veces es útil si amenazan con Fezandipiti o Wellspring Ogerpon, pero no siempre, ya que conviene tener una banca con pocos Pokémon al final.
+- Fezandipiti y Meowth son una gran desventaja. No los uses a menos que sea absolutamente necesario.
+- Planea tener una banca con pocos Pokémon al final de la partida. Guarda una carta de Estadio y una de interrupción de mano para cuando solo tengas un Pokémon en la Banca y un Dragapult atacando. Quita su Estadio y ataca su mano. Esto les dificultará el noqueo a un Dragapult.
+- Si juegas Crushing Hammer, generalmente es mejor usarlo en su atacante secundario para evitar que acumulen demasiadas Energías en juego.
+- Dusknoir suele ser una buena opción. Puede ignorar la Lillie's Pearl junto con los contadores de Phantom dive. Dusclops puede ser útil si terminas teniendo que infligir 200 de daño a un Kangaskhan y luego rematarlo con Dusclops y el daño extra de Phantom Dive.
 
-### Garchomp - Desfavorable
-
-- Intenta evitar que consigan KOs fáciles con Gible o Gabite en los dos primeros turnos.
-- Prepara a Dusknoir. Idealmente dos, y úsalos según lo requiera la situación.
-- Mantener a Roserade fuera del tablero suele ser una buena estrategia, ya que les dificulta debilitar a Dragapult de un solo golpe. Interrumpir la mano del oponente también puede ser muy útil contra ellos.
-- Si atacan a Dragapult sin noquearlo, intenta sacar otro Dragapult y retirarte. Esto evita un KO fácil de dos golpes y también proporciona daño a Munkidori.
-- Al igual que con Mega Lucario, intenta jugar sin Fezandipiti ni Meowth si es posible.
-- A veces es inevitable jugar alrededor de Spiritomb, simplemente intenta no darles más de un KO.
+```youtube
+id: PADRK5BOGhQ
+title: Slop v Pultnoir 1
+```
 
 ### Crustle - Ligeramente Favorable
 
@@ -215,6 +196,57 @@ id: fCWrj9O2oiw
 title: Pultnoir v Crustle 2
 ```
 
+### Mewtwo - Parejo
+
+- Tu condición de victoria es hacer que fallen. Bloquearles los objetos es la máxima prioridad. Darle Budew a Tarountula se siente mal, pero necesitas mantenerlos bloqueados hasta que empieces a atacar.
+- Usar Unfair Stamp siempre que puedas suele ser una buena estrategia. A veces, puedes guardarlo para cuando empieces a atacar.
+- Dusknoir es muy bueno porque abre varias jugadas. Eliminar a Clefairy es probablemente la mejor opción, pero también puedes debilitar a Mewtwo de un solo golpe o eliminar a Articuno para facilitar KOs rápidos a Pokémon como Mimikyu.
+- Normalmente, lo mejor es atacar a su atacante Psíquico que tenga Energía, especialmente porque tienes que debilitar a Mewtwo de dos golpes de todas formas. Si atacas a Clefairy y dejas un atacante cargado, no les será difícil simplemente usar Night Stretcher para recuperar a Clefairy.
+- Si su único atacante cargado es Mimikyu, una buena forma de contrarrestarlo es no tener a Dragapult en el campo y atacar con otro Pokémon.
+- La Rocket's Watchtower se usa mejor de forma reactiva para destruir su Estadio. Esto aumenta las probabilidades de que fallen. Si la juegas de forma preventiva, no tiene efecto y pueden quitarla fácilmente.
+
+### Mega Lucario - Parejo
+
+- 20 de daño sobre Riolu, Lucario y Makuhita suelen ser efectivos.
+- Mind Bend suele ser buena estrategia contra Mega Lucario, pero menos si acaban de usar Mega Brave en el turno anterior. Usar Phantom Dive también funciona.
+- Budew al principio de la partida es muy útil en este matchup para alentar su seteo.
+- Evita a Solrock al final de la partida no dejando Pokémon en la banca con potencial de ser noqueados. Si no consiguen un segundo Mega Lucario, no queremos que terminen la partida con Solrock.
+- Intenta jugar sin Fezandipiti ni Meowth. A menudo es necesario sacar uno para poder jugar, lo cual es aceptable, pero evítalo si puedes.
+
+```youtube
+id: ES4sVc3cpL0
+title: Pultnoir v Lucario 1
+```
+
+```youtube
+id: tX125zkIRpw
+title: Pultnoir v Lucario 2
+```
+
+### Festival Lead - Favorable
+
+- Prepara a Dusknoir cuanto antes y úsalo para noquear a Rabsca. Dusclops en Rellor también funciona. Si no puedes, al menos noquea a Rabsca de forma normal. Luego puedes usar a Dusclops/Dusknoir para noquear a todos los Dipplin/Applin, lo que significa el fin de la partida.
+- Poner a Munkidori en juego para usarlo como escudo es muy útil. Se puede usar como sacrificio o como promoción después de que usen su primer ataque para noquear algo. Más adelante en la partida, también será relevante para Adrena Brain.
+- La interrupción de mano es muy poderosa. Úsala cuando empieces a atacar con Dragapult o con Boss para alentarlos. Si subes a Thwackey y reinicias su mano, es poco probable que se recuperen y así puedes ganar tiempo.
+
+### Mega Lopunny - Favorable
+
+- Intenta ser agresivo y prepara un Dusknoir. Incluso si no puedes noquearlo de un solo golpe, ataca y presiona. Atacar a su Lopunny sigue siendo una buena opción. No pueden usar Wally's Compassion y Boss's Orders en Duskull/Dusclops al mismo tiempo.
+- Usa a Dusknoir para noquear a su Mega Lopunny de un solo golpe. Si consigues tres noqueos de un premio, mejor, pero también puedes preparar un segundo Dusknoir para noquear a su siguiente Mega Lopunny.
+- Si tienen a Psyduck, noquealo cuanto antes, ya que eventualmente querrás usar a Dusknoir.
+- Rocket's Watchtower, Boss's Orders y las cartas de interrupción de mano son recursos muy útiles en este matchup. Watchtower suele ser una buena opción para usar siempre que la tengas, a menos que tengan una mano fuerte que no puedas interrumpir.
+
+### Garchomp - Desfavorable
+
+- Intenta evitar que consigan KOs fáciles con Gible o Gabite en los dos primeros turnos.
+- Prepara a Dusknoir. Idealmente dos, y úsalos según lo requiera la situación.
+- Mantener a Roserade fuera del tablero suele ser una buena estrategia, ya que les dificulta debilitar a Dragapult de un solo golpe. Interrumpir la mano del oponente también puede ser muy útil contra ellos.
+- Si atacan a Dragapult sin noquearlo, intenta sacar otro Dragapult y retirarte. Esto evita un KO fácil de dos golpes y también proporciona daño a Munkidori.
+- Al igual que con Mega Lucario, intenta jugar sin Fezandipiti ni Meowth si es posible.
+- A veces es inevitable jugar alrededor de Spiritomb, simplemente intenta no darles más de un KO.
+
+
+
 ## Conclusión
 
-En el meta actual, creo que Dusknoir es viable aunque no sea mi versión favorita. Lo único que le falta a Dusknoir en comparación con la versión de disrupción pura es cubrir el matchup contra Crustle, lo cual no es tan grave. Su peor desempeño contra otros decks de Dragapult también es preocupante.
+En el meta actual, creo que Dusknoir es la peor de las variantes de Dragapult. sin embargo sigue siendo un deck de Dragapult lo cual inevitablemente lo hace bueno. Lo único que Dusknoir realmente hace y que le falta a la versión de interrupción directa es cubrir el matchup contra Crustle, lo cual no es tan grave. Ser peor contra el mirror match también es preocupante.

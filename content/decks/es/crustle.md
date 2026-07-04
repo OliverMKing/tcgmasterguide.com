@@ -61,13 +61,11 @@ Energy: 15
 
 ### Exclusiones
 
-- Algunos decks usan a Fezandipiti no ex para contrarrestar a Hariyama. Dudo que funcione, pero no lo he probado. Creo que preferiría usar Energía Psíquica y noquear a Hariyama con Mind Bend, pero probablemente el matchup sea desfavorable de todas formas.
-- Sacred Charm es una opción a considerar, ya que ayudaría en los matchups apretados al reducir el daño relevante de Drakloak, Dusknoir o Dudunsparce.
 - Creo que Mega Kangaskhan es una desventaja innecesaria. Es demasiado difícil de aprovecharse, y renunciar a esos 3 premios es una buena forma de perder instantáneamente matchups como el de Alakazam.
 - Jugar la versión sin Crispin hace que el deck sea innecesariamente vulnerable a matchups aleatorios (Garchomp, Mewtwo, etc.) que pueden presionar tus Energías. Es demasiado lento y puedes perder matchups que deberían ser victorias fáciles.
+- Algunos decks usan a Fezandipiti no ex para contrarrestar a Hariyama. Dudo que funcione, pero no lo he probado. Creo que preferiría usar Energía Psíquica y noquear a Hariyama con Mind Bend, pero probablemente el matchup sea desfavorable de todas formas.
 - Growing Energy y cartas de curación adicionales no son necesarias, pero mejoran el mazo en el enfrentamiento espejo.
 - Bosque de Vitalidad podría ser una buena inclusión. No parece lo suficientemente poderoso como para justificar el espacio, pero no lo he probado.
-
 - No creo que Maquinaciones de Xerosic ni Eri aporten nada que necesitemos.
 <!-- /PUBLIC -->
 ## Gameplay
@@ -81,13 +79,11 @@ Energy: 15
 
 ## Matchups
 
-Algunos de estos matchups son bastante sencillos y polarizados debido a la naturaleza antimeta de Crustle, por lo que no hay mucho que decir sobre algunos de ellos.
-
 ### Dragapult - Depende
 
 La mayoría de los decks de Dragapult probablemente no techeen contra Crustle en este momento, así que realmente depende de la lista a la que nos enfrentemos. Si tienen a Dudunsparce ex, estamos perdidos. Si juegan con Dusknoir, el matchup es bastante parejo (o ligeramente desfavorable). Contra cualquier otra versión, el matchup es muy favorable. Por supuesto, si tienen una carta como Paldean Tauros, prácticamente no tenemos ninguna posibilidad.
 
-- Psyduck casi siempre es útil si tienen a Dusknoir en juego, ya que muchos jugadores usan Rare Candy ahora, por lo que la amenaza de Dusknoir siempre está presente. Intenta mantener a Psyduck en juego usando Night Stretcher si es noqueado y protegiéndolo con Mist Energy.
+- Psyduck de inmediato en cuanot veas a Duskull e intenta mantener a Psyduck en juego usando Night Stretcher si es noqueado y protegiéndolo con Mist Energy.
 - Munkidori es muy bueno debido al daño residual que se acumula. Se usa a menudo para curar a Psyduck y puede presionar a Duskull.
 - Mist Energy también puede ser útil en Crustle porque podrían intentar usar Mind Bend sobre él. Si no tienes a Psyduck, también pueden usar Dusknoir junto con Phantom Dive para debilitar a Crustle si no tiene Mist Energy.
 - Intenta noquear a Duskull, Dusclops o Dusknoir siempre que sea posible. Noquear a Munkidori también es una buena opción, ya que puede usar Risky Ruins y Adrena Brain para atacar a Psyduck. Aunque jugamos con Psyduck, Dusknoir sigue siendo una amenaza porque puede atacar. Además, puede noquear a nuestro Psyduck varias veces.
@@ -102,23 +98,27 @@ id: NvqJhv7tq-Y
 title: Crustle v Pultnoir 2
 ```
 
-### Mega Lucario - Muy desfavorable
+### Raging Bolt - Muy Favorable
 
-- Intenta ponerle Hero’s Cape a Crustle y ataca a Makuhita/Hariyama con Boss's Orders siempre que sea posible, especialmente cuando usen Aura Jab sobre él.
-- No coloques un Dwebble a la vez, ya que será noqueado. Intenta colocar dos a la vez para que uno pueda convertirse en Crustle.
+- Setea varios Crustle como de costumbre.
+- Suelen tener a Passimian, que puede ser una amenaza. Intenta equipar a tu Crustle principal con la Hero's Cape para que pueda sobrevivir a un ataque de Passimian y noquearlo de regreso. No querrás concentrar toda tu Energía en un solo Crustle para que luego Passimian te noquee, así que intenta distribuir tus Energías al principio (o simplemente usa la Hero's Cape).
 
 ```youtube
-id: qD3lvE40LAM
-title: Crustle v Lucario 1
+id: BK_19n-ZiI0
+title: Crustle v Bolt 1
 ```
 
-### Alakazam - Depende
+```youtube
+id: ovX7LmYRiqY
+title: Crustle v Bolt 2
+```
+
+### Alakazam - Desfavorable
 
 Este matchup está bastante parejo si juegan dos Enhanced Hammer, o quizás ligeramente desfavorable. Si juegan más Ehanced Hammer, probablemente perdemos, y si juegan menos, ganamos fácilmente. Este matchup es desfavorable si tienen a Dedenne.
 
 - Nuestra condición de victoria tener en el activo a un atacante con Mist Energy y resistir sus Enhanced Hammer. Usa primero a Lillie y Morty para intentar encontrar una o dos Mist Energy iniciales, y luego usa a Hilda para encontrar una o dos más.
 - Los Crustles son recursos valiosos, ya que necesitarás poder amenazar con atacantes con Mist Energy. No evoluciones a ellos solo para ser noqueados de inmediato. Puedes sacrificar a Cornerstone Ogerpon para llegar a la situación ideal.
-- Usar a Cornerstone Ogerpon como el Pokémon final con Mist es la condición de victoria si tienen una estrategia como Dudunsparce ex o el Alakazam alterno, ya que puede durar más que ellos con Jumbo Ice Cream.
 - De igual manera, los Jumbo Ice Cream y Hero’s Cape también son recursos que necesitarás para la fase final del juego. Incluso si no usas Cornerstone Ogerpon y ellos no tienen tech, aún tendrás que enfrentarte a un Dudunsparce atacante, que pueden usar para derrotar a tu último Crustle en dos golpes.
 - Cuando no tengas Mist Energy disponible en ese turno, distribuye Energía aleatoria entre diferentes Dwebble/Crustle. Necesitarás poder responder a Dudunsparce en la fase final del juego. La Spiky Energy también puede ser útil, ya que el daño de Spiky Energy + 120 elimina a Dudunsparce de un solo golpe.
 
@@ -132,83 +132,42 @@ id: 0Cw8pFTfpZE
 title: Crustle v Zam 2
 ```
 
-### Lopunny - Auto Loss
+### Hydrapple - Desfavorable
 
-- Imposible de ganar.
-- Si juegas Mega Kangaskhan puedes intentar sacar triple cara dos veces.
-- si juegas Munkidori quizas una estrategia de Munkidori con Hero's Cape y Jumbo Ice Cream logre ganarles pero es poco probable.
+- Setea varios Crustle para tener siempre una respuesta a Tapu Bulu. Si es necesario, distribuye la Energía al principio de la partida.
+- Si consigues dos Spiky Energy en un Crustle, es muy efectivo contra Meganium.
 
-```youtube
-id: whq8qKAhgBg
-title: Lop v Crustle 1
-```
+### Slowking - Desfavorable
 
-### Meganium - Favorable
+Con Crispin:
+- Intenta cargar varios Crustle y atacar a su Slowking/Energía. Puedes usar Pokémon aleatorios como sacrificios mientras cargas a Crustle.
+- Munkidori puede ser útil si usan Trifrost. Intenta preparar jugadas con dos Munkidori para contrarrestar Trifrost. Sin embargo, si los pones en juego demasiado pronto, serán noqueados fácilmente. La Hero's Cape también puede hacer que un Pokémon sobreviva a varios Trifrost.
 
-- Tener dos Spiky Energy en Crustle (o una más un Munkidori) te permite derrotar a Meganium de un solo golpe.
-- Boss's Orders en las piezas de Meganium para atacarlos lo más pronto posible es extremadamente fuerte.
-- No olvides que Pokemon aleatorios como Noctowl y Dolliv pueden hacer algo de daño por una Energía.
-- Simplemente consigue tantos Crustle con Energía como sea posible y probablemente ganarás sin pensarlo demasiado.
+Con Mega Kangaskhan:
+- Necesitas un Mega Kangaskhan rápido con Hero's Cape. Puedes usar otros Pokémon como sacrificios. Atacar con Crustle probablemente nunca sucederá.
+- Xerosic y Hand Trimmer son bastante buenos si tienen muchas cartas en la mano. Eri es aún mejor para quitarles recursos importantes.
+- Intenta alinear la Bianca's Devotion. No sucederá a menudo, pero si ocurre, puede ser decisivo para ganar la partida.
 
 ```youtube
-id: ioVZ82Db7Gw
-title: Crustle v Meg 1
+id: 7K4rTEmfVbU
+título: King v Crust 1
 ```
 
-### Garchomp - Favorable
+### Zoroark - Favorable
 
-- No ataques a su Garchomp o te destrozarán con Spiritomb.
-- Intenta preparar Crustle sin daños. Si golpean con triple Roserade, usa dos Jumbo Ice Cream (o uno si tienes Hero’s Cape). Si solo tienes un Jumbo Ice Cream, podría ser un desperdicio usarlo dependiendo de los cálculos.
+- La Spiky Energy es increíble en este matchup. Con una, Crustle derrota de un solo golpe a un Zoroark, Darmanitan o Zekrom envenenado. Con dos, Crustle derrota de un solo golpe a un Zoroark no envenenado.
+- Cornerstone Ogerpon puede ser útil, pero yo priorizaría a Crustle, ya que puede derrotar a Zoroark de un solo golpe con la ayuda de Spiky Energy. Si acumulas demasiadas Energías Básicas en el descarte, Darmanitan puede convertirse en una amenaza, así que intenta evitarlo. Aun así, probablemente ganarás.
+- La Mist Energy es útil para detener posibles estrategias de Elgyem. No coloques Pokémon adicionales innecesarios o podrías ser castigado por cartas de control aleatorias.
+- Si tienen a Mega Lopunny, necesitas ponerle Hero's Cape a Crustle y también intentar atacarlo con Boss's Orders antes de que te ataquen.
 
-```youtube
-id: JxbWBGACztg
-title: Crustle v Garchomp 1
-```
+### Mirror de Crustle - Parejo
 
-### Raging Bolt - Muy Favorable
-
-- Este matchup es sencillo, como muchos otros. Simplemente setea varios Crustle como de costumbre.
-- Raging Bolt no ex es una amenaza real. Si lo tienen en la banca, usa Boss’s Orders para presionarlo si es posible. También pueden usar a Fan Rotom para presionar rápidamente. Necesitas preparar un Crustle sin daño (en la banca si es necesario).
-- La versión sin Noctowl a veces incluye a Passimian, que representa una amenaza. Intenta tener a tu Crustle principal con Hero's Cape para que pueda sobrevivir a un ataque de Passimian y noquearlo de regreso. No querrás invertir todas tus Energía en un solo Crustle para que luego Passimian te noquee, así que intenta distribuir tus Energías al principio (o simplemente usa Hero's Cape).
-
-```youtube
-id: BK_19n-ZiI0
-title: Crustle v Bolt 1
-```
-
-```youtube
-id: ovX7LmYRiqY
-title: Crustle v Bolt 2
-```
-
-### Festival Lead - Depende
-
-Si tienen a Rillaboom, es prácticamente imposible de ganar. Si no, este enfrentamiento es favorable.
-
-- Carga a Cornerstone Ogerpon en la banca lo más rápido posible. Si le cargan Energía a Thwackey, intenta noquearlo inmediatamente. No debilites nada que no represente una amenaza (como Dipplin, ya que es un problema para ellos). Si ponen a Rellor de forma preventiva, noquealo en cuanto lo veas. Lo mismo con Rillaboom.
-- Usar Boss's Orders a Thwackey puede ser útil, ya que detiene las búsquedas o los obliga a usar una carta de cambio.
-- Jumbo Ice Cream, Hero's Cape y Munkidori son muy útiles para ayudar a Cornerstone Ogerpon a sobrevivir. Si juegan Maximum Belt, necesitarás esa Hero's Cape en Cornerstone cuanto antes.
-
-```youtube
-id: s16Xk0eqB8c
-title: Festival v Crustle 1
-```
-
-### Kangaskhan Box - Muy Favorable
-
-- Este matchup puede perderse dependiendo de las tech que utilicen.
-- Si tienen Cornerstone Ogerpon pueden pegarle a tu Crustle, pero no es un problema siempre y cuando puedas atacar y derrotarlo de un solo golpe.
-- Si están usando una lista con Energía Oscura, prioriza Mist Energy para proteger a Crustle de la confusión de Mind Bend y de Terminal Period. Incluso si no tienen a Mega Absol, Mind Bend puede ser molesto.
-
-```youtube
-id: aUg9LG87Px8
-title: Crustle v Slop 1
-```
+Nunca he jugado un matchup contra un Crustle y no tengo intención de hacerlo. Con dos Munkidori y varios Crispin, podría ser ligeramente favorable dependiendo de su lista.
 
 ### Mewtwo - Ligeramente favorable
 
 - La condición de victoria es Cornerstone Ogerpon. Es posible que lo derroten, pero aúnque lo logren puedes recuperarlo con Night Stretcher. Lo mejor es guardar la energía de lucha para cuando estés listo para atacar. Si gastas la energía de lucha demasiado pronto y derrotan a Cornerstone Ogerpon de dos golpes, la pierdes sin motivo y necesitas ambas Night Stretcher. Si solo derrotan a Cornerstone antes de que ataque, solo necesitas una Night Stretcher para recuperarte y no hay problema.
-- Si la energía o Cornerstone Ogerpon estab premiados, intenta conseguir premios rapido con Crustle. Es prácticamente imposible ganar, así que si es una partida al mejor de tres, ríndete y pasa inmediatamente a la siguiente.
+- Si la energía Pelea o Cornerstone Ogerpon estab premiados, intenta conseguir premios rapido con Crustle. Es prácticamente imposible ganar, así que si es una partida al mejor de tres, ríndete y pasa inmediatamente a la siguiente.
 - Munkidori, Jumbo Ice Cream, Hero’s Cape y Spiky Energy son muy buenos en este matchup.
 - No noquees Pokemon al azar sin motivo. Archer podría castigarte.
 - Derrotar a Mimikyu es una prioridad porque representa una gran amenaza. Tarountula también es una amenaza porque puede infligir un daño masivo con Maximum Belt. Hay tantas Tarountula que intentar derrotarlas a todas o atacarlas individualmente es prácticamente inútil, así que solo preocúpate por ella si está atacando o si ya tiene una herramienta equipada.
@@ -224,23 +183,67 @@ id: 9R29o4idU1o
 title: Crustle v Mewtwo 2
 ```
 
-### Zoroark - favorable
-Si no tienen a Mega Lopunny, este matchup es muy favorable. Si la tienen, es más parejo, pero aún así es muy ganable.
+### Mega Kangaskhan Box - Auto Win
 
-- La Spiky Energy es increíble en este matchup. Con una, Crustle derrota de un solo golpe a un Zoroark, Darmanitan o Zekrom envenenado. Con dos, Crustle derrota de un solo golpe a un Zoroark no envenenado.
-- Cornerstone Ogerpon puede ser útil, pero yo priorizaría a Crustle, ya que puede derrotar a Zoroark de un solo golpe con la ayuda de Spiky Energy. Si acumulas demasiadas Energías Básicas en el descarte, Darmanitan puede convertirse en una amenaza, así que intenta evitarlo. Aun así, probablemente ganarás.
-- La Mist Energy es útil para detener posibles estrategias de Elgyem. No coloques Pokémon adicionales innecesarios o podrías ser castigado por cartas de control aleatorias.
-- Si tienen a Mega Lopunny, necesitas ponerle Hero's Cape a Crustle y también intentar atacarlo con Boss's Orders antes de que te ataquen.
+- Si no tienen techs específicas, este matchup es autowin.
+- En caso de una jugada sorpresa con Passimian, juega igual que contra Raging Bolt.
 
-### Mirror de Crustle - Parejo
+### Mega Lucario - Muy desfavorable
 
-Nunca he jugado un matchup contra un Crustle y no tengo intención de hacerlo. Con dos Munkidori y varios Crispin, podría ser ligeramente favorable dependiendo de su lista.
+- Intenta ponerle Hero’s Cape a Crustle y ataca a Makuhita/Hariyama con Boss's Orders siempre que sea posible, especialmente cuando usen Aura Jab sobre él.
+- No coloques un Dwebble a la vez, ya que será noqueado. Intenta colocar dos a la vez para que uno pueda convertirse en Crustle.
 
-### Ogerpon - Muy favorable
+```youtube
+id: qD3lvE40LAM
+title: Crustle v Lucario 1
+```
 
-- Algunos podrían jugar Passimian, lo cual representa una amenaza. Intenta tener a tu Crustle principal con Hero's Cape para que pueda sobrevivir a un ataque de Passimian y noquearlo de regreso. No querrás invertir todas tus Energía en un solo Crustle para que luego Passimian te noquee, así que intenta distribuir tus Energías al principio (o simplemente usa Hero's Cape).
-- Si no tienen Passimian, ganas fácilmente, así que intenta jugar alrededor de el. No querrás invertir todas tus Energía en un solo Crustle para que luego Passimian te noquee, así que intenta distribuir tus Energías al principio (o simplemente usa Hero's Cape).
+### Festival Lead - favorable
+
+Si tienen a Rillaboom, es prácticamente imposible de ganar. Si no, este enfrentamiento es favorable.
+
+- Carga a Cornerstone Ogerpon en la banca lo más rápido posible. Si le cargan Energía a Thwackey, intenta noquearlo inmediatamente. No debilites nada que no represente una amenaza (como Dipplin, ya que es un problema para ellos). Si ponen a Rellor de forma preventiva, noquealo en cuanto lo veas. Lo mismo con Rillaboom.
+- Usar Boss's Orders a Thwackey puede ser útil, ya que detiene las búsquedas o los obliga a usar una carta de cambio.
+- Jumbo Ice Cream, Hero's Cape y Munkidori son muy útiles para ayudar a Cornerstone Ogerpon a sobrevivir. Si juegan Maximum Belt, necesitarás esa Hero's Cape en Cornerstone cuanto antes.
+
+```youtube
+id: s16Xk0eqB8c
+title: Festival v Crustle 1
+```
+
+### Lopunny - Auto Loss
+
+- Imposible de ganar.
+- Si juegas Mega Kangaskhan puedes intentar sacar triple cara dos veces.
+- si juegas Munkidori quizas una estrategia de Munkidori con Hero's Cape y Jumbo Ice Cream logre ganarles pero es poco probable.
+
+```youtube
+id: whq8qKAhgBg
+title: Lop v Crustle 1
+```
+
+### Garchomp - Favorable
+
+- No ataques a su Garchomp o te destrozarán con Spiritomb.
+- Intenta preparar Crustle sin daños. Si golpean con triple Roserade, usa dos Jumbo Ice Cream (o uno si tienes Hero’s Cape). Si solo tienes un Jumbo Ice Cream, podría ser un desperdicio usarlo dependiendo de los cálculos.
+
+```youtube
+id: JxbWBGACztg
+title: Crustle v Garchomp 1
+```
+
+### Arboliva - Favorable
+
+- Tener dos Spiky Energy en Crustle (o una más un Munkidori) te permite derrotar a Meganium de un solo golpe.
+- Boss's Orders en las piezas de Meganium para atacarlos lo más pronto posible es extremadamente fuerte.
+- No olvides que Pokemon aleatorios como Noctowl y Dolliv pueden hacer algo de daño por una Energía.
+- Simplemente consigue tantos Crustle con Energía como sea posible y probablemente ganarás sin pensarlo demasiado.
+
+```youtube
+id: ioVZ82Db7Gw
+title: Crustle v Meg 1
+```
 
 ## Conclusión
 
-El abanico de matchups de este deck es demasiado bueno como para ignorarlo. Como no le fue bien en LA, espero que las techs en su contra bajen bastante. Sin embargo, pierde contra Dudunsparce ex. A pesar de ello, el deck sigue siendo muy bueno en general y tiene buenas posibilidades de éxito en el metajuego actual. La lista ganadora de LA que juega Dudunsparce sin ex también beneficia a Crustle.
+Este deck puede tener suerte con los matchups, pero pierde contra varios decks como Slowking, Hydrapple, Alakazam, Lucario y Dragapult si incluyen una carta de tech. Creo que es demasiado arriesgado de jugar y no permite demostrar mucha habilidad.

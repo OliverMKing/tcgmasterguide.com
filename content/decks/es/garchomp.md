@@ -1,7 +1,7 @@
 ---
 title: Garchomp
 pokemon: [445]
-tier: 2
+tier: 3
 format: Standard
 ---
 ## Decklist
