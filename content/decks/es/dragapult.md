@@ -39,112 +39,93 @@ Energy: 9
 <!-- PUBLIC -->
 ### Inclusiones
 
-- Meowth es demasiado bueno en este deck. Te permite buscar lo que quieras en cualquier momento para cualquier jugada que necesites y es útil durante cualquier parte del juego. Originalmente pensé que Meowth sería un riesgo muy grande por su bajo HP y que ocupa un espacio en banca pero es tan útil que ni notas eso. El único punto en contra de Meowth es que a veces inicias con esta carta, pero aun así vale la pena utilizar dos copias.
-- Cambié Rosa's Encouragement por un tercer Crispin porque creo que es mejor en el formato actual, especialmente con la mayor dependencia de Clefairy.
-- Special Red Card es un buen reemplazo para Petrel como una disrupción adicional de mano.
-- Moltres es bastante útil contra Hydrapple, que está ganando popularidad últimamente.
-- Risky Ruins es bueno en cualquier matchup y este combo reemplaza lo que se lograba anteriormente con Hawlucha. No tengo al segundo Munkidori porque no hay muchas oportunidades de usar ambos en un mismo turno y es realmente muy fácil encontrar al único que juegas y aunque a veces se premia, no te afecta tanto. La principal razón para jugar un segundo Munkidori sería el mirror. Risky Ruins suele ser mejor que Area Zero porque activa usos relevantes de Munkidori en la mayoría de los matchups. Sin el, Munkidori sigue siendo buena en los mirrors, pero prácticamente inútil en cualquier otro caso. El daño de Risky Ruins también es muy efectivo contra decks de tipo Lucha.
-- Latias y Ursaluna continúan siendo muy buenos y sería un grave error no incluirlos en la lista. Además del uso normal de Ursaluna, Crispin le abre las puertas a atacar antes de lo normal y tener un atacante que no es débil a Lillie’s Clefairy es muy importante en este formato.
-- Clefairy es demasiado fuerte en los mirror y contra Mega Lucario. Tener un atacante fácil de cargar que no sea Dragapult puede ser muy útil.
-- Este deck depende de Boss’s Orders en muchos turnos específicos y los necesitas en turnos seguidos, así es que estoy muy seguro que jugar 4 es necesario para compensar la pérdida de Counter Catcher. 
-- Brock’s Scouting también es muy bueno para agregar consistencia al deck, así como para encontrar Pokemon ex que ahora son un poco más complicados de buscar. 
+- Moltres me ha convencido y funciona bien en el metajuego actual. Es especialmente efectivo contra Hydrapple, además de ser una forma de responder a amenazas rápidas como Fezandipiti o Pokémon con Hero's Cape antes de que puedas establecer a Dragapult. También se usa ocasionalmente en otros matchups, como contra Raging Bolt y Slowking.
+- Boss's Orders es extremadamente importante en prácticamente todos los matchups. Muchas veces me veo obligado a descartar uno con Ultra Ball, pero con cuatro copias, no hay problema. Jugar cuatro te permite tenerla cuando la necesitas y te da más flexibilidad para ganarle a los decks de una sola carta de premio. También funciona bien en partidas largas, lo cual suele ser relevante. 
+- Crushing Hammer está bastante roto. Una o dos caras oportunas pueden ser decisivas, y si sale cruz, sigues siendo un poderoso deck de Dragapult. Las caras tempranas pueden ser particularmente devastadoras contra Mega Kangaskhan Box, Raging Bolt y Slowking. También te da la oportunidad de ganar contra Crustle o remontar en el mirror. 
+- Special Red Card es muy buena en este deck. Quizás pienses que nunca usarás dos en una partida, pero a veces terminas haciéndolo de todos modos, especialmente si consigues el Unfair Stamp al principio. Este deck suele jugar partidas largas, así que tener dos Special Red Card es muy útil. Incluso si solo necesitas una en una partida, es crucial tenerla en el momento justo y tiene una buena sinergia con el resto de las cartas de disrupción.
+- Unfair Stamp está increíblemente roto, especialmente con todas las demás cartas de disrupción y el esfuerzo que los oponentes tienen que hacer para lidiar con un Dragapult. En el mejor de los casos, puede ganar partidas al instante, pero al menos impide que los oponentes hagan combos y hagan lo que quieran. Creo que es el mejor Ace Spec, aunque a veces no lo tendrás cuando lo necesites.
+- Tres Rocket's Watchtower son muchas, pero con menos, no era tan consistente. Jugarla en el Turno 1 puede dejar a muchos otros decks con manos iniciales pésimas, como los mirrors y los de Mega Kangaskhan. Más adelante, lo necesitarás para combinarlo con la disrupción de mano, que tiene una alta probabilidad de dejar a los oponentes brickeados. Rocket's Watchtower es buena en el meta actual, y otros Estadios no son particularmente necesarios.
 
 ### Posibles Inclusiones
-- Dudunsparce ex puede ser muy útil contra Raging Bolt y Crustle. Viene con Run Away Draw Dudunsparce, que ofrece una gran utilidad. Es bastante fácil reemplazar cartas como Brock's Scouting, Ursaluna o el Moltres por el paquete de Dudunsparce. Azumarill y Mega Lopunny tienen aplicaciones similares a las de Dudunsparce ex.
-- Paldean Tauros puede ser un counter de una sola carta contra Crustle si surge la necesidad.
-- Crushing Hammers pueden ser muy buenos en matchups contra Dragapult y Garchomp.
-- Yveltal puede ayudar con el posicionamiento en el tablero, remontadas o condiciones de victoria alternativas. Dragapult puede aprovechar muy bien a Yveltal, pero la lista debe cambiar bastante para incluirlo (más Munkidori y Dark Energy, quizás Dudunsparce, Area Zero o Pecharunt ex).
-- Un segundo Budew ayuda a evitar empezar con desventajas de dos premios. Aunque Budew ya no es tan importante como antes, sigue siendo útil en la mayoría de las partidas.
-- Bronzong es algo que tengo que probar. Me destrozó en Los Ángeles y desde entonces me intriga.
-- Dusknoir es una carta muy fuerte, pero no necesariamente en este metajuego. Su relevancia radica principalmente contra decks de un solo premio, que ya deberían ser manejables. También puede usarse para inclinar la balanza a favor de Crustle o Mega Lopunny, por lo que puede ser útil dependiendo del metajuego.
+- Chi-Yu sería una buena opción para destruir a Crustle. Paldean Tarous también lo hace, pero creo que Chi-Yu es mejor para esta versión.
+- Rosa's Encouragement probablemente sería muy útil. Estoy considerando cambiar un Crispin por él. Tener a Crispin puede ser relevante al principio de la partida, pero este deck suele quedarse sin Energía, así que Rosa's Encouragement también puede ser relevante más adelante.
+- Judge podría jugarse en lugar de una Special Red Card. Creo que la Special Red Card es mejor en general, pero la diferencia es mínima. Xerosic's Machinations son una opción similar por las mismas razones.
 
 ### Exclusiones
+- Shaymin sería una opción a considerar si el matchup contra Slowking no fuera ya favorable. 
+- Un segundo Munkidori probablemente esté bien, pero nunca lo necesito realmente.
+- Yveltal es demasiado difícil de usar, especialmente con solo dos Energías Dark y un Munkidori.
+- Risky Ruins y Dudunsparce constituyen prácticamente una versión aparte, y el deck tendría que ajustarse bastante para incluirlas. Creo que la versión de Rocket's Watchtower tiene una distribución de matchups mucho mejor, aunque sea ligeramente menos consistente en general.
+- Dawn o Brock's Scouting ayudarían un poco con la consistencia, pero las cartas simplemente no son tan buenas.
 
-- Dusknoir simplemente no es tan bueno en el meta actual. No lo usaba frecuentemente y no resuelve ningún problema en particular. Además ahora es mucho menos efectivo ya que rotaron Counter Catcher y Iono del formato.
-- Noctowl era muy difícil de usar. Con solo 1-1, premiar una pieza, el espacio en deck y banca, asi como encontrarlos y no poder utilizarlo hasta que tienes a Dragapult en juego. Las ventajas de Noctowl son mucho menores cuando tienes manos masivas y normalmente puedes hacer cualquier jugada sin problema.
-- Shaymin me parece mucho mejor en la teoría que en la práctica. Claro que puede ser útil contra decks de Crispin Box que pueden usar a Wellspring Ogerpon o Fezandipiti, así como contra Meganium con Arboliva. 
-- Hasta ahora no le he encontrado ningún uso legítimo a Jamming Tower. No hay herramientas realmente buenas este formato y me pareció que Risky Ruins es mucho mejor.
-- Briar es casi imposible de utilizar ya que este deck se enfoca mucho en usar Crispin y Boss todo el tiempo.
-- Aun con Noctowl, no lograba utilizar Team Rocket’s Watchtower de manera efectiva y además puede perjudicarte quitándole la habilidad a tu propio Meowth ex.
-- Área Zero tiene alguna utilidad, pero es mucho menos útil e impactante que Risky Ruins. Si juegas Área Zero, también te recomiendo jugar Chien-Pao para asegurarte de aprovechar la ventaja de reacomodar tu banca.
-- Maractus no es tan bueno porque la mayoría de los decks pueden librarse de él o noquearlo con lo que quede atrapado. Lo intente utilizar contra Garchomp y no fue efectivo para nada.
-- Hero's Cape es muy fuerte, pero sigo pensando que Unfair Stamp es mejor. No tener Unfair Stamp deja al descubierto algunas vulnerabilidades y empeora mucho algunos matchups (decks de una sola carta de premio, Mewtwo, etc.).
-- El segundo Munkidori es bueno en el mirror pero con Clefairy en esta lista los mirror suelen ser mas rápidos y el segundo no me ha parecido necesario.
-- Rare Candy es una carta muy buena pero no creo que sea necesaria.
-- Dusknoir es una carta muy fuerte, pero no necesariamente en este metajuego. Suele ser relevante solo contra decks de un premio, que ya deberían ser manejables. Sin embargo, puede ser muy útil contra Crustle. Mega Lopunny tiene a Psyduck y Garchomp sigue siendo un matchup difícil.
-- Finalmente probé Moltres y no sirvió para nada contra Raging Bolt, así que no creo que merezca estar en el deck.
 <!-- /PUBLIC -->
-
-## Decklist 2
-
-![decklist for Dragapult](./images/dragapult/redcard.png)
-```decklist
-Pokémon: 17
-4 Dreepy TWM 128
-4 Drakloak TWM 129
-3 Dragapult ex TWM 130
-2 Munkidori TWM 95
-1 Moltres PFL 14
-1 Budew PRE 4
-1 Fezandipiti ex SFA 38
-1 Meowth ex POR 62
-
-Trainer: 34
-4 Lillie's Determination MEG 119
-3 Crispin SCR 133
-3 Boss's Orders MEG 114
-4 Buddy-Buddy Poffin TEF 144
-4 Ultra Ball MEG 131
-4 Poké Pad POR 81
-4 Crushing Hammer POR 71
-2 Night Stretcher ASC 196
-2 Special Red Card CRI 82
-1 Unfair Stamp TWM 165
-3 Team Rocket's Watchtower DRI 180
-
-Energy: 9
-4 Fire Energy MEE 2
-3 Psychic Energy MEE 5
-2 Darkness Energy MEE 7
-```
-La versión de disrupción es muy buena y la usé en Indianápolis de última hora. Solo logré llegar al Top 64 debido a una varianza terrible, pero el deck depende un poco de la suerte. Aun así, me pareció extremadamente fuerte. Jugar tres Rocket's Watchtower lo hace más viable y tiene muchas utilidades en el metajuego. Creo que Special Red Card es muy útil en este deck, reemplazando a Judge y al cuarto Boss's Orders. Dicho esto, es posible que vuelva a incluir un cuarto Boss. Probablemente añadiré una descripción más detallada de esta variante cuando la haya probado más a fondo.
 
 ## Gameplay
 
+- Elige ir primero contra todo.
 - La secuencia de jugadas con este deck depende de tu estrategia. Para realizar combos, maximiza la cantidad de cartas vistas comenzando con el Supporter de robo, luego Fezandipiti y, por último, habilidad de Drakloak. Si necesitas más Pokémon que cartas de búsqueda, roba primero. Si no, busca primero. Si necesitas evolucionar a Dragapult antes de jugar un Supporter de robo, usa primero al Drakloak que evolucionara, luego evoluciona y después sigue la secuencia anterior.
 - Planifica tu turno antes de empezar a jugar cartas. ¿Qué quieres lograr en este turno? Y lo más importante, ¿qué Supporter quieres jugar? Si usas a Crispin, lo mejor es empezar con él.
-- Este deck se basa en el uso eficiente del daño. Analiza cuidadosamente la mesa de tu oponente y planifica cómo conseguirás los seis premios. Pregúntate si necesitarás usar a Ursaluna en algún momento. Si es así, ten en cuenta que no tendrás un turno para hacer daño con Phantom Dive. A veces necesitas preparar el daño de Munkidori con varios turnos de anticipación.
 - Colocar Energías debajo del deck tiene buena sinergia con Crispin.
 - Con sólo dos Night Stretcher, ten mucho cuidado con lo que descartas con Ultra Ball. Si juegas con tres, puedes descartar Pokemon de forma más agresiva ya que podrás acceder a ellos fácilmente en otro momento.
 - Drakloak es un atacante viable, no lo olvides. Claro que su utilidad depende de la situación.
 - Puede que quieras cargar Energía a Drakloak automáticamente. Sin embargo, hay situaciones en las que sabes que tu oponente va a eliminar a tu Drakloak con Energía. En ese caso, no le cargues Energía o cargala a otro Pokémon.
 - Fezandipiti ex ahora es un atacante viable en el Turno 2. ¡No olvides esa opción! Munkidori también puede ser un atacante decente con más frecuencia ahora.
-- Algunos late-games requerirán varios espacios en la banca: Ursaluna, Latias, Meowth, Fezandipiti. No pongas Pokemon en la banca sin justificación.
-- No uses el Unfair Stamp en cuanto puedas sin analizarlo. Dependiendo de lo que puedas hacer o del estado del tablero del oponente, a veces es mejor tácticamente atrasar el Unfair Stamp un turno. Un buen ejemplo de cuándo no usarlo es si activarías su Fezandipiti este turno, pero si esperas puedes noquearlo en el siguiente turno junto con el Unfair Stamp. Otro ejemplo es si el tablero del oponente no está desarrollado, puede ser mejor usarlo en ese momento aunque no puedas atacar porque podrías hacerlos robar muerto. Pregúntate ¿El Unfair Stamp les impide hacer algo específico? Si no, quizás sea mejor conservarlo.
-- La mayoría de los decks solo tiene el Unfair Stamp para atacar tu mano, así que puedes acumular cartas en mano y no enfocarte en adelgazar tu deck. Sin embargo, decks como Lucario o Meganium pueden usar Judge, así que es mejor adelgazar cartas inútiles contra estos decks.
-- Risky Ruins se puede usar principalmente de tres maneras diferentes: de forma preventiva, reactiva o para obtener ventaja inmediata con Munkidori. La prioridad que se le dé dependerá del matchup.
-- Ve primero a ciegas contra todo. Elige segundo contra decks que pueden atacar en turno 1 como Raging Bolt o Mega Lucario.
+- En general, jugar Unfair Stamp de inmediato ahora es una buena opción porque tienes Special Red Card para más adelante. Unfair Stamp ahora tiene más valor si se juega pronto.
+- Por otro lado, a veces es mejor guardar los Crushing Hammer. Usarlos directamente no es tan malo, ya que normalmente querrás usarlo. Sin embargo, si puedes hacer una mejor jugada más adelante, como usar Crushing Hammer en la banca mientras noqueas al Activo para eliminar muchas Energías, o combinar todas las cartas disruptivas a la vez, a veces puede ser mejor guardarlos para eso.
+- Poner a Moltres en la banca anticipadamente suele ser una buena opción, a menos que sea un matchup donde Moltres sea claramente malo (como en el mirror o contra Alakazam).
+- Usar Rocket's Watchtower en el Turno 1 al empezar primero puede ser bastante bueno en matchups como el mirror o contra decks de Mega Kangaskhan. Normalmente no hay problema con eso a menos que tu mano esté muerta y estés buscando robar Ultra Ball para Meowth (en ese caso, mejor no jugarla). Solo en raras ocasiones debes preocuparte por bloquear a tu propio Meowth. Si tu oponente tiene una mano fuerte o crees que tiene una respuesta inmediata a la Rocket's Watchtower, quizás te convenga guardarla para combinarla con una jugada que interrumpa la mano del oponente. 
 
 ## Matchups
 
 ### Mirror de Dragapult - Parejo
 
-Si no juegan Clefairy y tu si, tendrás una ligera ventaja, pero jugar dos Munkidori también puede ser un factor de ventaja en ciertas situaciones.
+Ligeramente favorable contra Dusknoir, prácticamente igualado contra el resto. Posiblemente ligeramente desfavorable contra Blaziken.
 
 - Munkidori es muy fuerte. Intenta no quedarte sin espacio en banca para poder usarlo cuando lo encuentres. Por otro lado, si tienen un Munkidori con Dark, considera noquearlo para limitar sus opciones. Con Night Stretchers limitados, es posible que no puedan recuperarlo.
 - Queremos ser los primeros en atacar con Phantom Dive. Elige ir primero, ya que hay muchas maneras de encontrar a Dreepy. Ir primero también te da la opción de dejarlos fuera del juego por completo con Fezandipiti, dependiendo de tu mano.
 - Un Cruel Arrow rápido de Fezandipiti es MUY bueno en este matchup si se alinea con Crispin. Claro que no es muy bueno si juegan Shaymin. Si no tienes un Cruel Arrow rápido posible, generalmente no vale la pena poner a Fezandipiti en juego al principio.
-- Clefairy introduce un aspecto interesante porque puede debilitar a su Dragapult de un solo golpe, pero no necesariamente te da ventaja en el intercambio porque es fácilmente debilitado de regreso. La excepción es al principio si consiguen un Phantom Dive rápido, pero aún no están estabilizados. Lo mejor es debilitar a su Dragapult si no tienen Energía en el Drakloak en la banca, ya que podrían fallar la respuesta. Esto es especialmente efectivo con Unfair Stamp y suele ser la mejor manera de remontar. Por otro lado, no tienes que temer a su Clefairy si vas ganando y puedes responderles con otro atacante.
 - En el Turno 1, usa Items de forma anticipada para jugar alrededor de Budew. PokéPad para Drakloak, Ultra Ball para Meowth, lo que sea mejor en la situación. Simplemente no dejes que esos Items se atoren si tienes la oportunidad de usarlos.
+- Budew a veces es útil y a veces no. Si vas segundo, especialmente si tienes Unfair Stamp es una prioridad en el Turno 1. Si no tienes una razón para buscar a Budew, no es necesario. Usar una Energía para retraer puede resultar en una pérdida de tempo significativa, especialmente si Budew es noqueado o juegan alrededor de el con Boss's Orders. Incluso si no sucede, es una desventaja en el tablero para más adelante. También usaron sus Items en el Turno 1 al ir primero, así que solo importa si usan Lillie's Determination y roban Items de búsqueda. Budew puede proteger tu Energía de los Crushing Hammers del oponente, pero esto solo es relevante en ciertas situaciones. En otras palabras, no priorices a Budew sin pensar, pero puede ser útil si tienes una razón para hacerlo.
+- Cuando tus dos Drakloak tienen 30-30, la respuesta ideal es curar a uno con Adrena Brain y evolucionar al otro. En general, a menudo tendrás que evolucionar un Drakloak de forma preventiva para protegerlo.
 
 ```youtube
-id: SmX3t4Se6hk
-title: Blaziken v Pult 1
+id: AiNuvyA0Yrw
+title: Hammers v Noir 1
+```
+Estaba probando la versión de Dudunspace en estos juegos, pero creo que es lo suficientemente parecida para los propósitos del mirror. En los demás matchups usaré la versión de Watchtower.
+
+```youtube
+id: aUJFp8ykZHE
+title: Hammers v Noir 2
+´´´
+
+### Raging Bolt - Favorable
+
+- Poner a Moltres al principio de la partida puede ser ideal, sobre todo si amenazan con un ataque rápido antes de que puedas sacar a Dragapult. Puede ser una buena respuesta a un Fezandipiti rápido, pero no es tan buena si ya tienen a Wellspring Ogerpon con alguna Energía.
+- Sin embargo, si puedes usar Itchy Pollen + Crushing Hammer para evitar que ataquen, mucho mejor.
+- El mejor momento para jugar Rocket's Watchtower es al inicio de la partida, cuando tienen pocas cartas en la mano o cuando puedes combinarla con una carta que les interrumpa la mano. En otras palabras, no juegues Rocket's Watchtower cuando tengan muchas cartas en la mano o creas que pueden quitarlo fácilmente.
+- Depender de dejar mucho daño en juego para una jugada de varios premios es cuestionable porque pueden usar a Chien-Pao para eliminar el daño. Sin embargo, puede funcionar si ya usaron a Chien-Pao para quitar Rocket's Watchtower. Si tienen a Chien-Pao y a Mega Kangaskhan en juego, puedes atacar a esos dos para conseguir cuatro premios y posiblemente usar a Moltres para conseguir dos fácilmente.
+- Con Crushing Hammer, eliminar Energía de Agua o Energía Psíquica del tablero es muy bueno porque elimina posibles jugadas con Energy Switch.
+
+```youtube
+id: tauR3pT-QbY
+title: Pult v Bolt 1
+```
+Partido parejo, pero bastante normal. Los tres juegos siguientes fueron muy interesantes porque se desarrollan de maneras inesperadas.
+
+```youtube
+id: dcyAmSbMJFY
+title: Pult v Bolt 2
 ```
 
 ```youtube
-id: YbrejTOUFNI
-title: Blaziken v Pult 2
+id: 5mFaaXLnZEk
+title: Pult v Bolt 3
+```
+
+```youtube
+id: cYkI-nNI1OU
+title: Pult v Bolt 4
 ```
 
 ### Mega Lucario - Favorable
@@ -176,24 +157,149 @@ title: Pult v Lucario 3
 
 ### Alakazam - Favorable
 
-- Guarda Risky Ruins para quitar sus Battle Cage. También funciona bien con Munkidori más adelante. Intenta conseguir dos premios cada que ataques con Phantom Dive. Lo ideal es que puedas derrotar a Kadabra o Dunsparce con la ayuda de Munkidori, pero si no, derrotar a Abra también está bien.
-- Usa Unfair Stamp en un turno de Phantom Dive, idealmente en el primero, pero el segundo también está bien.
-- Usar Pokémon como Fezandipiti/Meowth suele ser una buena opción para mantener el ritmo. Intenta reservar un espacio para Munkidori en la fase intermedia o final del juego.
-- Elige ir primero.
+Este matchup es favorable o muy favorable con tres cartas de disrupción de mano. Debería ser prácticamente igual independientemente de si la segunda Special Red Card es un Judge o no. Con menos cartas de disrupción de mano, el matchup se vuelve mucho más parejo.
 
-### Mega Lopunny - Desfavorable
+- Guarda los Estadios para quitar los suyos. Si no puedes obtener un beneficio inmediato de quitar un Estadio (por ejemplo, si puedes atacar normalmente aún bajo Nighttime Mine), guarda el Estadio para combinarlo con disrupción de mano.
+- Contra la versión de Nighttime Mine de Alakazam, adelantarse en la carga de Energías es aún más importante, por lo que retraer a Budew tiene menos valor. Priorizar Itchy Pollen es bueno si tienes Unfair Stamp en la mano, ya que puedes dejar que lo noqueen y luego atacarlos con Unfair Stamp. Dado que asumes que pueden noquear de inmediato con Kadabra en la mayoría de los casos, Budew no es una prioridad.
+- Acumula tanta Energía en juego como sea posible contra la versión de Nighttime Mine. Incluso cargar Energía Dark a un Drakloak cualquiera es bueno.
+- Si atacan con Elgyem, noquealo inmediatamente.
 
-- La condición principal para ganar es Unfair Stamp. Intenta crear un turno en el que puedas noquear a Dudunsparce y usar Unfair Stamp al mismo tiempo. Lo ideal es noquear a su único Dudunsparce y que se queden sin opciones.
-- Si tienen dos Dudunsparce, prioriza noquearlos. Usar Unfair Stamp en el primer Dudunsparce o en el siguiente depende. Lo mejor es crear una situación en la que estés noqueando al único que tienen, pero si el juego va muy rápido, puede que tengas que usar Unfair Stamp antes de poder hacerlo.
-- Si tienes mucha Energía en juego, puedes retirar a Dragapult después de que lo golpeen por otro y empezar a atacar con él. Esto los obliga a usar Wally para que no puedan usar Boss, así que es bastante efectivo si logras hacerlo.
-- Noquea a Dudunsparce antes de que evolucione siempre que sea posible.
-- El daño adicional de Phantom Dive suele ser mejor en Buneary/Lopunny que Dudunsparce. Si acumulas suficiente daño, puedes amenazar a ambos Lopunny al mismo tiempo, lo que puede ser decisivo para ganar la partida. Generalmente, es mejor infligir daño al Buneary de reserva en lugar de noquearlo, pero depende de cada caso. También puede ser útil usar 10 de daño contra varios Dunsparce con 70 de HP para presionarlos, o 10 contra Fan Rotom para una opción de premio fácil más adelante.
-- Munkidori es muy bueno en general. Guarda Risky Ruins para quitar Battle Cage.
+```youtube
+id: 2pwoICz5MAs
+title: Zam v Pult 1
+```
+
+```youtube
+id: WqRUQWNB7HU
+title: Zam v Pult 2
+```
+Este es uno de los juegos mas interesantes confusos que he jugado.
+
+### Hydrapple
+
+- Un Budew temprano puede ser bueno para alentarlos, y su daño también es relevante. Si tienen a Applin o cualquier Pokémon de dos premios en su Activo, Moltres podría ser mejor. En general, Moltres es muy bueno y debería entrar en juego lo antes posible.
+- Hydrapple es una gran amenaza. Normalmente hay que noquearlo en dos turnos, pero si tienes una buena posición, puede ser posible jugar alrededor de el e ignorarlo por completo.
+- Si estás en una mala posición, puedes intentar atacar su mano y noquear a su Meganium, y es poco probable que lo recuperen. Noquear a su Meganium no es el plan ideal porque solo da un premio (y es malo si obtienen otro), pero puede ser un plan B funcional si las cosas van mal.
+- Aunque juegan muchos Estadios, jugar Rocket's Watchtower en el primer turno puede dejarlos con una mano inicial mala. De lo contrario, guardalo para combinar con la disrupción de mano y quitar su Estadio.
+- Ten en cuenta la habilidad curativa de Hydrapple. Por ello, a veces es mejor infligir 30 puntos de daño adicionales a lo que necesitarias con Phantom Dive.
+
+### Zoroark - Ligeramente Desfavorable
+
+- Moltres suele ser bueno para noquear a Zoroark. Jet Headbutt también es útil si no tienen fácil acceso a Munkidori, pero no es tan bueno si lo tienen.
+- A veces es aceptable usar Phantom Dive contra Zoroark sabiendo que pueden responder con una copia de Reshiram para noquearlo de un solo golpe. Esto depende del tablero y de la presión que puedas ejercer. A veces, el aumento de ritmo te beneficia, pero es situacional (por ejemplo, si no tienen mucha Energía en juego y tú sí).
+- Budew suele ser bueno al principio de la partida. El daño y el bloqueo de objetos son relevantes, pero a veces es mejor no usarlo, dependiendo de la situación.
+- Ejercer presión rápidamente suele ser bueno porque no queremos que consigan una mano enorme y un tablero perfecto.
+- Los 6 contadores de Phantom Dive casi siempre van dirigidos a su Zoroark de reserva.
+- Munkidori es muy bueno en este matchup, al igual que noquear a su Munkidori con Energía. Si te enfrentas a la version con Drapion, debes tener cuidado con el combo de Transformation Tome que lo lleva a Drapion. Esto suele ser muy predecible, ya que necesitan una mano enorme, varias Energías Dark en un Básico cualquiera y acceso a uno o dos Munkidori. Si juegas con Judge, puede ser muy útil en este enfrentamiento.
+
+### Slowking - Favorable
+
+- Después de muchas partidas, todavía me cuesta decidir si es mejor jugar Rocket's Watchtower de inmediato o guardarla. Es muy probable que una Watchtower temprana no les cause muchos problemas, y realmente necesitas tenerla cuando interrumpes su mano. Me inclino por guardarla, pero si todas las circunstancias parecen indicar que deberías jugarla (ninguna esta premiada, tienes una extra en la mano, empezaron con Mega Kangaskhan y tú empiezas primero, etc.), podría haber algunas excepciones.
+- Budew es increíble contra ellos y es una prioridad enorme. Les resulta mucho más difícil usar Kyurem cuando están bloqueados. De igual manera, Crushing Hammer también es increíblemente bueno al principio de la partida y ayuda a retrasar su ataque. Budew también es la respuesta ideal después de que usen Trifrost (si no tienes Phantom Dive, claro).
+- Normalmente intento que fallen Trifrost, pero ocasionalmente, puedes dejar que lo usen. Si tu tablero está formado por Fez y dos Dreepy, y no pueden debilitar a tres Pokémon con Trifrost, a veces puedes dejar que lo usen y responder con Budew y reorganizar tu estrategia. Esto suele ocurrir si usaron Smoochum o Ciphermaniac (o si Budew está premiado), y crees que no puedes evitar que usen Trifrost. En ese caso, lo mejor es minimizar el daño. De nuevo, normalmente es mejor intentar detenerlo desde el principio bloqueando sus Items, pero no es el fin del mundo si lo consiguen. Cabe destacar que, incluso si consiguen Smoochum o Ciphermaniac, es bastante probable que no tengan Trifrost listo si están bloqueados.
+- Moltres suele ser un Pokémon seguro para tener en juego y ocasionalmente puede infligir un buen daño a Pokémon como Clefairy. El único castigo por tener a Moltres en juego es si terminas necesitando que fallen un KO de Clefairy en Dragapult, lo cual es posible. 
+- Evita darles líneas de Trifrost fáciles para ganar la partida. Esto depende mucho de la situación en el tablero. A veces está bien poner Dreepy adicionales en la banca y otras cosas, y otras veces es una derrota asegurada.
+- Munkidori es extremadamente importante si terminan usando Trifrost en cualquier Pokémon de dos premios para menos de un KO.
+- No los respetes demasiado. Consigue los tres Dreepy y bloquéalos con objetos si puedes. Es poco probable que consigan lo que necesitan mientras están bloqueados, especialmente si tienes ayuda adicional de Crushing Hammer o Rocket's Watchtower.
+- Phantom Dive casi siempre pone seis en el Slowpoke/King de reserva que tiene menos probabilidades de atacar en el siguiente turno.
+
+```youtube
+id: lRVe5drKOyU
+title: Pult v King 1
+```
+Una buena cantidad de juegos de este matchup son juegos muy raros.
+
+```youtube
+id: wFXYpr6UAaA
+title: Pult v King 2
+```
+En este juego Dragapult premió todas sus Energías Psíquicas y aún así casi gana.
+
+### Crustle - Desfavorable
+
+Este matchup es basicamente auto win si techeas a Chi-Yu. techear es razonable pero tambie´n lo es no incluir anda para este deck.
+
+- Creo que empezar primero es mejor porque puedes usar Rocket's Watchtower y conseguir un Drakloak atacante en el turno 2. Usa un Drakloak rápido para presionar a su Crustle con Energía. Crushing Hammer puede impedirles usar Jumbo Ice Cream y permitirte noquearlo.
+- Atacar con Drakloak lo más rápido posible también es bueno porque activa Unfair Stamp, que se usa al instante. Rocket's Watchtower también se usa al instante.
+- Si no los usas para impedir que Jumbo Ice Cream te quite un KO crucial en Crustle, guarda los Crushing Hammers para eliminar Mist Energy, de modo que puedas usar Mind Bend para responder a un Crustle cargado. De igual manera, usa Boss's Orders para usar Mind Bend en un Crustle cargado antes de que obtenga Mist Energy si es posible.
+- Si ponen Spiky Energy en juego pero no pueden atacar, puedes usar varios atacantes (en particular Budew) para generar daño para Adrena Brain.
+- Dragapult solo se usa cuando necesitas debilitar a su Mega Kangaskhan, lo cual no es una prioridad a menos que empiecen a atacar con él o amenacen con hacerlo.
+- Todas las energías y las Night stretchers son recursos valiosos, al igual que los Boss's Orders.
+- Cuidado con Eri y Xerosic's Machinations. La conveniencia de usarlos depende mucho de la situación, pero tenlos en cuenta y juega alrededor de ellos lo más posible.
+
+```youtube
+id: WXh9piB2o4Q
+title: Pult v Crustle 1
+```
+
+```youtube
+id: hvIAKTD9SGA
+title: Pult v Crustle 2
+```
+
+### Mewtwo - Ligeramente Favorable
+
+- Budew es bueno al principio del juego. Atacar con Drakloak puede ser bueno en cualquier momento si puede noquear algo, especialmente si no tienes a Dragapult en la banca.
+- Moltres es excepcionalmente bueno contra su Mewtwo.
+- Usar Unfair Stamp tan pronto como puedas suele ser lo mejor.
+- Hay muchas ocasiones en las que Phantom Dive es el mejor ataque, pero también hay muchas en las que no lo es debido a la amenaza de Mimikyu. Solo pon a Dragapult en juego si necesitas usar Phantom Dive en ese turno, ya que puede ser una desventaja.
+- Si empiezas primero y ellos comienzan con Mimikyu o Tarountula, no dejes a Budew activo en el Turno 1 porque será noqueado.
+- Normalmente es mejor atacar a su atacante Psíquico que tenga Energía, especialmente porque tienes que noquear a Mewtwo de dos golpes de todas formas. Si atacas a Clefairy y dejas un atacante cargado, no les resultará difícil usar Night Stretcher para devolverlo. Crushing Hammer te permite lidiar con ambos a la vez y suele ser muy efectivo en este matchup, al igual que interrumpir la mano del oponente.
+- Suponiendo que tengan a Articuno en juego, cualquier daño de Munkidori debería ir dirigido a Spidops o Tarountula.
+- Rocket's Watchtower se usa mejor de forma reactiva para quitar su Estadio. Esto aumenta la probabilidad de que fallen algo en su turno. Idealmente, también tienes una carta para atacar la mano del oponente, pero aun así vale la pena quitar su Estadio inmediatamente.
+
+### Mega Kangaskhan Box - Ligeramente Favorable
+
+- Al final de la partida, querrás tener solo un Pokémon en la banca para que Clefairy no pueda noquear a Dragapult sin el Área Cero. Esto les dificultará noquearlo tras interrumpir su mano. Por lo tanto, debes tener cuidado al colocar Pokémon en banca. No coloques Pokémon adicionales como Munkidori o Moltres si no son necesarios. Guarda el combo de disrupción para cuando tengas pocos Pokémon en juego.
+- Fezandipiti y Meowth son una gran desventaja, así que no los pongas en juego a menos que sea absolutamente necesario.
+- Usa Crushing Hammer si tiene una probabilidad razonable de detener un ataque. De lo contrario, guardalos para un combo de disrupción. Usar Crushing Hammer dos veces en su Clefairy más Phantom Dive con Boss's Orders en Fezandipiti (junto con disrupción de mano y Rocket's Watchtower) es la jugada ideal, ya que tendrán que tener suerte para responder.
+- Es poco probable ganar un intercambio de premios, así que debemos depender de la disrupción de mano y Rocket's Watchtower. Estas cartas son recursos valiosos.
+- Moltres es una buena respuesta si amenazan con un ataque rápido de Fezandipiti. También puede ser muy útil si logras atacar a su Mega Kangaskhan. Esto permite que Phantom Dive los noquee y en el intercambio de premios ignoremos la Lillie's Pearl. Si no puedes sacarle provecho a Moltres, no lo juegues sin motivo para que podamos tener una banca con pocos Pokemon al final de la partida.
+- Tienen muchas maneras de contrarrestar el Rocket's Watchtower, así que guarda una o dos para un combo que interrumpa la mano del oponente.
+
+```youtube
+id: zvBAEEaoVNA
+title: Slop v Pult 1
+```
+
+```youtube
+id: sa8Ah2uxEz4
+title: Slop v Pult 2
+```
+
+### Mega Lucario - Ligeramente Favorable
+
+- 20 de daño sobre Riolu, Lucario y Makuhita suelen ser efectivos.
+- Mind Bend suele ser buena estrategia contra Mega Lucario, pero menos si acaban de usar Mega Brave en el turno anterior. Usar Phantom Dive también funciona.
+- Budew al principio de la partida es muy útil en este matchup para alentar su seteo.
+- Evita a Solrock al final de la partida no dejando Pokémon en la banca con potencial de ser noqueados. Si no consiguen un segundo Mega Lucario, no queremos que terminen la partida con Solrock.
+- Intenta jugar sin Fezandipiti ni Meowth. A menudo es necesario sacar uno para poder jugar, lo cual es aceptable, pero evítalo si puedes.
+- Los Crushing Hammer a veces pueden ser útiles para quitar Rocky Fighting Energy, pero no es algo frecuente y no forma parte de la estrategia principal.
+
+### Festival Lead - Ligeramente Favorable
+
+- Itchy Pollen temprano es muy bueno en este matchup. Ayuda a detener a Rabsca y a interrumpir su estrategia en general.
+- Pon en juego un Moltres o Munkidori rápido para usarlo como escudo y evitar un doble KO. Moltres también puede noquear a Applin, lo cual es relevante en ocasiones (y suele ser mejor que Itchy Pollen si se tiene la opción). Munkidori a veces es relevante más adelante en la partida.
+- KO a su Rabsca lo antes posible.
+- Guarda la Rocket's Watchtower para combinarla con la interrupción de mano (de todas formas tienen que jugar Festival Lead para atacar).
+- La interrupción de mano junto con Boss's Orders a Thwackey puede darte tiempo fácilmente si lo necesitas. Usa Unfair Stamp en cuanto la tengas.
+- Si no tienen una mano grande y solo dos Thwackey, puede ser mejor atacar a un Thwackey. Dependiendo del tablero, puede ser más probable que fallen un KO, pero a veces lo mejor es noquear a su atacante. Si solo tienen un Thwackey, generalmente lo mejor es noquearlo.
+
+### Mega Lopunny - Favorable
+
+- Si tienes muchas Energías en juego, puedes retirar a Dragapult después de que lo golpeen por otro y empezar a atacar con él. Esto los obliga a usar Wally, impidiendo que usen Boss's Orders, así que es bastante efectivo si logras hacerlo.
+- Noquea a Dunsparce siempre que sea posible.
+- El daño adicional de Phantom Dive suele ser mejor en Buneary o Mega Lopunny. Si acumulas suficiente daño, puedes amenazar a ambos Lopunny al mismo tiempo, lo cual es útil. También puede ser bueno usar 10 de daño a varios Dunsparce con 70 de HP para presionarlos o 10 a Fan Rotom para una opción de KO fácil más adelante.
+- Munkidori es muy bueno en general.
+- Usa Rocket's Watchtower repetidamente a menos que tengan una mano fuerte y no puedas interrumpirla (en ese caso, guárdala para el combo de interrupción). Si no tienes Watchtower, derrotar a Dunsparce con Boss e interrumpir su mano puede lograr el mismo efecto.
+- Usar Crushing Hammer temprano puede hacer que les resulte molesto atacar, de lo contrario, Crushing Hammer es mejor en Enriching Energy para que Wally ya no robe cartas.
 
 ```youtube
 id: kpIBOnfXjLE
 title: Lop v Hammers 1
 ```
+
+Estas partidas se jugaron con la versión de Risky Ruins.
 
 ```youtube
 id: bcg3aRUL5lg
@@ -210,18 +316,9 @@ id: btqClFVMizE
 title: Lop v Hammers 4
 ```
 
-```youtube
-id: gCResoCcZb8
-title: Lop v Pultnoir 1
-```
+### Garchomp - Ligeramente Favorable
 
-```youtube
-id: tjyW4TJ4Grg
-title: Lop v Pultnoir 2
-```
-
-### Garchomp - Desfavorable
-
+- Los Crushing Hammer son muy importantes en este matchup. Úsalos para evitar que noqueen a Dragapult de un solo golpe con el segundo ataque.
 - Encadena Dragapult tanto como sea posible. Si atacan a uno, intenta atacar con uno nuevo.
 - Es muy importante conseguir energía para Dreepy/Drakloak. A veces es mejor cargarlos al principio de la partida en lugar de retraer a Budew. Si vas segundo y no tienen a Gible, prioriza a Budew. De lo contrario, prioriza conseguir energía para Dreepy/Drakloak. Por supuesto, lo ideal es conseguir ambos.
 - Budew tampoco es tan bueno porque le da a Gabite cartas de premio tempranas. A veces vale la pena intentar conseguirlo si tienen un tablero débil, pero generalmente no es una prioridad.
@@ -232,192 +329,7 @@ title: Lop v Pultnoir 2
 - Unfair Stamp es mejor en turnos donde no tienen un KO fácil en la mesa. Si atacas con Dragapult y no quieren usar el primer ataque, o si puedes hacer que fallen un Boss’s Orders o una carga de energía relevante es cuando Unfair Stamp es mejor.
 - Dragon Headbutt de Drakloak en turno 2 es especialmente bueno cuando no tienen a Gabite en el tablero y menos de dos Roselia. Busca esta jugada cuando empieces primero.
 - Intenta jugar sin Fezandipiti/Meowth porque son una gran desventaja en este matchup.
-- Ve primero.
-
-### Kangaskhan Box - Ligeramente Desfavorable
-
-Mega Absol en sí es bastante irrelevante, así que este matchup generalmente se refiere a los decks tipo “Box” que atacan con Clefairy. Este matchup mejora mucho con Shaymin.
-
-- Los Pokémon de dos premios como Fezandipiti y Meowth son más una desventaja de lo normal, ya que suelen empezar con ventaja en el intercambio de premios y luego cierran con Ursaluna sobre las presas fáciles así es que intenta mantenerlos fuera de juego si puedes. Claro que si es necesario bajarlos para mantenerte en el juego, usalos. No es una derrota instantánea si los bajas simplemente determina cuando realmente son indispensables.
-- Budew se usa principalmente para evitar que encuentren a Fezandipiti o que usen Energy Switch sobre él. Si ya tienen un atacante, el bloqueo de Items no es tan prioritario. Ahora con Shaymin ya no es tan necesario bloquear los Items al inicio.
-- Guarda Risky Ruins para una jugada potente con Munkidori. Este combo es muy relevante. Puede usarse para derrotar de un solo golpe a Pokémon como Fezandipiti, o rematarlo después de un golpe de 200 en caso de que lo protejan con Mist Energy. Munkidori también es muy bueno para devolver el daño que te hayan infligido en el campo. Rosa’s Encouragement también puede ser muy relevante en este matchup al ser tan agresivos.
-- Usar Unfair Stamp en el momento preciso es más importante que usarlo a la primera oportunidad. ¿Quieres evitar que usen a Fezeandipiti o a Clefairy? Todo depende de la situación.
-- Ir tras Clefairy suele ser lo mejor. Hay muchas probabilidades de que no tengan respuesta para tu Dragapult, especialmente si usas Unfair Stamp en el mismo turno.
-- Si tienes Shaymin o Watchtower, este es el mejor matchup para ellos.
-- Elige ir segundo.
-
-```youtube
-id: mlxrooxjTrg
-title: Pult v Absol 1
-```
-
-```youtube
-id: xpa-XDUyuyk
-title: Pult v Absol 2
-```
-
-```youtube
-id: 3CKGTQowFjM
-title: Pult v Absol 3
-```
-
-### Meganium - Favorable
-
-Este matchup es mucho mejor ahora que jugamos Shaymin auynque aún depende mucho de la suerte.
-
-- Bloquear los Items al principio es fundamental, ya que tu única condición de perder es que consigan un Arboliva rápido. Esto es menos relevante con Shaymin.
-- La otra prioridad es conseguir tantos Drakloak como sea posible, aunque esto aplica a cualquier partida. Si tienes buena suerte y consigues muchos Drakloak, aún puedes ganar incluso contra un Arboliva rápido.
-- Si llegan rápido a Arboliva, normalmente necesitarás derrotarlo de dos golpes con Phantom Dive.
-- Ogerpon con cuatro energías noquea a Dragapult de un solo golpe, así que ten cuidado con cualquier Ogerpon con dos energías y colocale un contador de daño. El resto del daño debería ir dirigido a Meowth. Con la ayuda de Munkidori, no es muy difícil preparar a Meowth para ser noqueado eventualmente. Si no tienen a Meowth y ya tienes diez en cada Ogerpon/Fez, el daño en área debería presionar a su Pokémon de un premio con menos HP en juego.
-- Guarda Risky Ruins para quitar Vitality Forest siempre que puedas. Risky Ruins no es muy bueno de inicio y es probable que la quiten. Si ya tienen todos sus Pokémon de Fase 2 en juego, guarda Risky Ruins hasta que puedas sacarle provecho.
-
-```youtube
-id: q32sS-zVUb8
-title: Pult v Meganium 1
-```
-
-```youtube
-id: EiOSHaWnuqs
-title: Pult v Meganium 2
-```
-
-```youtube
-id: dt4M6CfciwA
-title: Pult v Meganium 3
-```
-
-```youtube
-id: QjIFFi2LNgI
-title: Pult v Meganium 4
-```
-
-### Raging Bolt - Ligeramente Desfavorable
-
-- Simplemente juega con normalidad. Manténlos bloqueados de Items hasta que empieces a atacar.
-- Unfair Stamp es muy poderosa a menos que tengan a Fezandipiti y a Hoothoot. Intenta usarla cuando no los tengan (aunque Noctowl ya no es común últimamente). Guarda Unfair Stamp para cuando empieces a atacar, a menos que puedas impedir que ataquen.
-- En orden de prioridad, el daño en la banca siempre debe ser de 10 en todos los Hoothoot (o 20 si es el Hoothoot de 80 de HP) y 40 en Raging Bolt si lo tienen. 10 suele ser bueno en Fan Rotom, Fezandipiti u otros Pokémon de 210 de HP. El daño adicional también puede preparar a Noctowl para ser debilitado por Phantom Dive. Debilitar premios individuales aleatorios que hayas preparado también es muy útil.
-- Crispin, Clefairy o Ursaluna pueden ser atacantes decentes en caso de necesidad. Si puedes tomar la delantera rápidamente con Clefairy, es bastante bueno, pero no suele ser muy frecuente. Responder a un Raging Bolt con Clefairy no es muy efectivo a menos que aún no tengas a Dragapult listo.
-- El matchup mejora con Shaymin pero aun asi es dificil.
-- Item lock al inicio puede alentarlos.
-
-```youtube
-id: iBgJKAXktFk
-title: Pult v Bolt 1
-```
-
-```youtube
-id: szk1791lO-s
-title: Pult v Bolt 2
-```
-
-### Festival Lead - Parejo
-
-La lista actual de Dragapult es una de las peores contra Festival Lead, junto con las versiones de Hero's Cape y Crushing Hammer, pero aún así no es tan mal matchup.
-- Poner a Munkidori en juego para usarlo como escudo es muy bueno. Se puede usar como sacrificio o para subirlo después de que usen su primer ataque y noquean algo. Más adelante en la partida, también será relevante para Adrena Brain.
-- Guarda Risky Ruins para cuando puedas sacarle provecho inmediato (o si puedes combinarlo con Unfair Stamp).
-- Unfair Stamp está muy rota. Úsala cuando empieces a atacar con Dragapult, o con Boss's Orders para alentarlos. Si subes a Thwackey y juegas Unfair Stamp, es poco probable que se libere de inmediato y así puedes ganar tiempo. Si juegan Genesect y no tienen la banca llena, usa Unfair Stamp lo antes posible e intenta hacer la jugada de Boss's Orders a Thwackey.
-- Noquea a Rabsca lo antes posible. Es prácticamente imposible ganar si permanece en juego demasiado tiempo. A veces lo noqueas con Drakloak, o con una sola Energía en Dragapult.
-- Si juegas Moltres, puede ser muy bueno para noquear Applin's.
-- Si jugeas Maractus o Yveltal, puede comprarte tiempo al inicio atrapando a un Thwackey, aunque claro esto no funciona si tienen Kiean ya en la mano.
-- Si no tienen muchas cartas en la mano y solo dos Thwackey, puede ser mejor atacar a uno de ellos. Dependiendo del tablero, es más probable que fallen un KO, pero a veces debilitar a su atacante sigue siendo la mejor opción. Si solo tienen un Thwackey, noquearlo suele ser lo mejor.
-
-```youtube
-id: tcf2S94_PRY
-title: Festival v Pult 1
-```
-
-```youtube
-id: ImXsejPjQFE
-title: Festival v Pult 2
-```
-
-```youtube
-id: ZwTtfOhLMS0
-title: Festival v Pult 3
-```
-
-### Mewtwo - Parejo
-
-Este enfrentamiento es extraño porque te ganaran si tienen un inicio fuerte, pero a menudo fallan o tienen manos iniciales malas.
-
-- Tu condición de victoria es hacer que algo les falle. Bloquearles los Items  es la máxima prioridad. Dejar que Tarountula noquee a Budew se siente mal, pero necesitas mantenerlos bloqueados hasta que empieces a atacar.
-- Normalmente necesitas usar Unfair Stamp tan pronto como empieces a atacar. Sin embargo, usarlo antes a veces puede ser bueno si tienen un campo malo y podrían quedar brickeados.
-- Creo que elegir empezar es lo mejor porque pueden usar Protón en el turno 1. Si empiezas tú, pueden usar a Lillie o Ariana en el turno 1, pero no es tan bueno eso sin usar Protón. Si empiezas tú y ellos empiezan con Mimikyu o Tarountula, no dejes a Budew en juego en el turno 1.
-- Normalmente es mejor atacar a su atacante Psíquico que tenga Energía, especialmente porque tienes que derrotar a Mewtwo de dos golpes de todas formas. Si atacas a Clefairy y dejas un atacante cargado, no les resultará difícil usar Night Stretcher para recuperarlo.
-- Si su único atacante cargado es Mimikyu, una buena estrategia es no tener a Dragapult en juego y atacar con otro Pokémon.
-- Suponiendo que tengan a Articuno en juego, el daño de Munkidori debería ir dirigido a Spidops o Tarountula. Si logras que Mewtwo esté al alcance de Ursaluna para un KO instantáneo sería ideal pero no es algo que suceda comúnmente.
-- Risky Ruins se usa mejor de forma reactiva para quitar su Estadio. Esto aumenta la probabilidad de que algo les falle en algún momento. Si juegas Risky Ruins de forma anticipada, pueden quitarlo fácilmente.
-
-```youtube
-id: EuEq39RGns8
-title: Pult v Mewtwo 1
-```
-
-```youtube
-id: fusMKkbOseU
-title: Pult v Mewtwo 2
-```
-
-```youtube
-id: osdV2FPSiDI
-title: Pult v Mewtwo 3
-```
-
-```youtube
-id: rKnuz-k3Qxw
-title: Pult v Mewtwo 4
-```
-
-### Zoroark - Favorable
-
-- Munkidori con Dark suele ser la mayor amenaza que quieres debilitar.
-- Atacar a Zoroark y permitir que te noqueen de regreso con el ataque de Reshiram está bien siempre y cuando tengas algo de respaldo para acabar con él.
-- El daño en banca suele ir dirigido a Zorua/Zoroark. Hay muchísimas formas de aprovechar el daño sobre Zoroark. A veces, hacer 20 puntos de daño a Darumaka también puede ser efectivo.
-- El Itchy Pollen para detener el N’s PP Up es muy bueno si no tienen mucha Energía en el campo. Esto es especialmente relevante después de que usen Flamebody Cannon de Darmanitan. Por supuesto, Budew también es muy bueno al principio, ya que puede impedir que evolucionen a Darmanitan al inicio.
-
-```youtube
-id: VJXxkFjhhtA
-title: Pult v Zoroark 1
-```
-
-```youtube
-id: VJXxkFjhhtA
-title: Pult v Zoroark 2
-```
-
-```youtube
-id: zG_aBiWOZDM
-title: Pult v Zoroark 3
-```
-
-### Crustle - Muy Desfavorable
-
-- Elimina cualquier Dwebble que veas antes de que evolucione a Crustle.
-- Presiona con un atacante rápido. Si aún no tienen a Crustle, Dragapult es la mejor opción. Si tienen a Crustle sin Mist Energy, Mind Bend es la mejor opción. De lo contrario, Drakloak. Presiona con lo que sea que tengas disponible, queremos obligarlos a reaccionar para poder usar Unfair Stamp y, con suerte, dejarlos brickeados.
-- Ve segundo y trata de alentarlos con un Itchy Pollen en el primer turno.
-
-### Ogerpon - Desfavorable
-
-- Itchy Pollen es una prioridad importante al principio del juego para alentarlos.
-- Intenta usar Unfair Stamp al noquear a Clefairy o Fezandipiti con Phantom Dive. De lo contrario, usa Unfair Stamp al final del juego al atacar con Ursaluna para intentar impedir que consigan lo que necesitan para ganar.
-- No dejes nada expuesto que no quieras que quede atrapado con Sob. Si lo hacen, Munkidori puede aprovechar ese daño.
-- Shaymin te protege de Fezandipiti y Wellspring Ogerpon.
-
-```youtube
-id: WjBDGAt49G8
-title: Ogerpon v Pult 1
-```
-
-```youtube
-id: EwB6s6nUu8A
-title: Ogerpon v Pult 2
-```
-
-```youtube
-id: K9E4AWBJng4
-title: Ogerpon v Pult 3
-```
 
 ## Conclusión
 
-Dragapult es claramente muy dominante y hay todo tipo de variantes diferentes circulando. No sé con certeza cuál es la mejor, pero mis resultados y razonamientos se presentan aquí, lo que me ha llevado a creer en una lista similar a esta, aunque aún se puede ajustar aquí y allá. No creo que Dudunsparce sea necesariamente tan bueno, ya que a este deck no le importa robar tres cartas al azar de vez en cuando. Lo que más me atrae es el potencial tech de Dudunspace ex, y resulta que viene con una opción de robo decente. Poder extraer constantemente valor de cartas de búsqueda adicionales durante la partida (sinergia con Run Away Draw) es genial.
+Este es el mejor deck del formato. Cuando juego con él, solo me preocupa Crustle, e incluso eso se puede ganar con un poco de suerte (o alguna carta tech). Esta versión tal vez no sea la más consistente para jugar Dragapult, pero la lista resuelve muchos problemas y cubre la mayoría de los matchups. La disrupción es extremadamente fuerte. Aunque depende un poco de la suerte, también es muy efectiva para castigar los errores del oponente.
