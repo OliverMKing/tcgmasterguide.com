@@ -266,10 +266,10 @@ id: RoK0ACF6r9E
 title: Slop v Bolt 2
 ```
 
-### Zoroark - Even
+### Zoroark - Slightly Favorable
 
 - Similar to the above two, but applying fast pressure is better than positioning because they don’t have to put a two-prize Pokemon in play in order to play the game. Don’t leave a two-prize Pokemon in the active unless you’re winning the prize trade. Fan Rotom can efficiently apply pressure. Whether you’re KO’ing Zorua or not, attacking with Fan Rotom early is generally good.
-- Sometimes they have no Energy on the bench, and you have a choice to KO their Zekrom/Fez or KO their active Zoroark with Energy. I think KO’ing their Zoroark with Energy is generally best (even though it may be harder) if they have no Energy on the bench. Sometimes they just whiff PP Up, especially if you Stamp them.
+- Sometimes they have no Energy on the bench, and you have a choice to KO their Fez or KO their active Zoroark with Energy. I think KO’ing their Zoroark with Energy is generally best (even though it may be harder) if they have no Energy on the bench. Sometimes they just whiff PP Up, especially if you Stamp them.
 - Try to get a Grass Energy on Ogerpon (or even better, two of them) quickly so that you’ll have that option to one-shot Zoroark.
 - Try not to leave too much Energy in the discard. Using cards like Retrieval, Stretcher, and Trumpet can help play around Darmanitan and not give them that option.
 
@@ -281,6 +281,11 @@ title: Bolt v Zoroark 1
 ```youtube
 id: iLIy5jBXhcw
 title: Bolt v Zoroark 2
+```
+
+```youtube
+id: 440pWXk5OLc
+title: Bolt v Zoroark 3
 ```
 
 ### Crustle - Very Unfavorable
