@@ -92,7 +92,7 @@ Slightly favorable against Dusknoir, about even against the rest. Possibly sligh
 id: AiNuvyA0Yrw
 title: Hammers v Noir 1
 ```
-These games I was testing with the Dudunspace version but I think that’s close enough for the purposes of the mirror. The other matchups will feature the Watchtower version.
+These games I was testing with the Dudunspace version but I think that’s close enough for the purposes of the mirror. Most of the other matchups will feature the Watchtower version.
 
 ```youtube
 id: aUJFp8ykZHE
@@ -156,7 +156,7 @@ This is one of the most interesting and confusing games I’ve ever played.
 - Even though they play lots of Stadiums, slamming Watchtower on Turn 1 going first can make them brick. Otherwise, save Watchtower to combo with hand disruption and/or bump their Stadium.
 - Stay aware of Hydrapple’s healing Ability. Because of this, sometimes it’s better to overdamage Pokemon with Phantom Dive’s snipe by 30 more than you’d otherwise need.
 
-### Zoroark - Slightly Unfavorable*
+### Zoroark - Slightly Unfavorable
 
 - Moltres is generally good for smacking Zoroark. Jet Headbutt is similarly good if they don’t have easy access to Munkidori, but not great if they do.
 - Sometimes it is acceptable to Phantom Dive into Zoroark knowing they can respond with Reshiram copy for a one-shot. This depends on the board and how much pressure you can apply. Sometimes the increased tempo works in your favor, but it is situational (such as if they don’t have much Energy in play and you do).
@@ -164,7 +164,11 @@ This is one of the most interesting and confusing games I’ve ever played.
 - Applying fast pressure is generally good because we don’t want to let them set up a massive hand and perfect board.
 - Phantom Dive six almost always goes onto their backup Zoroark.
 - Munkidori is very good in this matchup, as is KO’ing their Munkidori with Dark.
-- If you’re playing against the Drapion build, you’ll have to watch out for the Tome combo into Drapion. This is usually very foreseeable because they need a massive hand, several Dark Energy on a random Basic, and access to one or two Munkidori. If you play Judge, it can be very good in this matchup.
+
+```youtube
+id: eAgzMk0ev4Q
+title:  Zoro v Pult 1
+```
 
 ### Slowking - Favorable
 
@@ -289,7 +293,7 @@ id: btqClFVMizE
 title: Lop v Hammers 4
 ```
 
-### Garchomp - Slightly Favorable*
+### Garchomp - Slightly Favorable
 
 - Hammers are very important in this matchup. Use it to stop them from one-shotting Dragapult with the second attack.
 - Chain Dragapult as much as possible. If they smack into one, try to attack with a fresh one.

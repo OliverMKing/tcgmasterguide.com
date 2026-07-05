@@ -150,6 +150,25 @@ id: SfQtd8mZFbE
 title: Pultnoir v Hydrap 1
 ```
 
+### Zoroark - Slightly Unfavorable
+
+- Early Budew is good. If they have any two prize liabilities such as Pech or Meowth, you want to target them with your first Phantom Dive before they get Tome'd away.
+- Dusknoir can be good to go with your first Phantom Dive to one-shot a Zoroark. This isn't as relevant if they don't have Reshiram.
+- Applying fast pressure is generally good because we don’t want to let them set up a massive hand and perfect board.
+- Phantom Dive six almost always goes onto their backup Zoroark.
+- Munkidori is very good in this matchup, as is KO’ing their Munkidori with Dark.
+- In games where you want to use Dusknoir and Budew, be careful about the opponent's prize map as they might be able to win more easily.
+
+```youtube
+id: aCS_bCuLyEw
+title: Zoro v Pultnoir 1
+```
+
+```youtube
+id: MDcEZJCONKQ
+title: Zoro v Pultnoir 2
+```
+
 ### Slowking - Slightly Unfavorable
 
 - Dusknoir is usually very good if you can set it up, but it doesn’t get used in every game. It’s possible to win with Dusknoir and two Phantom Dives, depending on their board configuration. All random damage can potentially make a difference.
