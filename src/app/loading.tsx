@@ -3,16 +3,18 @@ export default function HomeLoading() {
     1: 'bg-amber-500',
     2: 'bg-slate-400',
     3: 'bg-amber-700',
+    4: 'bg-stone-500',
   }
 
   const tierLabels: Record<number, string> = {
     1: 'Tier 1',
     2: 'Tier 2',
     3: 'Tier 3',
+    4: 'Tier 4',
   }
 
   // Show 2 cards per tier for skeleton
-  const tiers = [1, 2, 3]
+  const tiers = [1, 2, 3, 4]
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800">

@@ -170,6 +170,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
     1: tHome('tier1'),
     2: tHome('tier2'),
     3: tHome('tier3'),
+    4: tHome('tier4'),
   }
 
   const formatLabelsTranslated: Record<DeckFormat, string> = {

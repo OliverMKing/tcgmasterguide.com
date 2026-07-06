@@ -123,6 +123,7 @@ export default async function Home({
     1: t('tier1'),
     2: t('tier2'),
     3: t('tier3'),
+    4: t('tier4'),
   }
 
   const formatLabelsTranslated: Record<DeckFormat, string> = {

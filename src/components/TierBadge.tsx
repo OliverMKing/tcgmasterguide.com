@@ -1,9 +1,10 @@
 import { Badge } from '@/components/ui'
 
-const tierVariants: Record<number, 'gold' | 'silver' | 'bronze'> = {
+const tierVariants: Record<number, 'gold' | 'silver' | 'bronze' | 'neutral'> = {
   1: 'gold',
   2: 'silver',
   3: 'bronze',
+  4: 'neutral',
 }
 
 function TierIcon({ tier }: { tier: number }) {
@@ -21,9 +22,16 @@ function TierIcon({ tier }: { tier: number }) {
       </svg>
     )
   }
+  if (tier === 3) {
+    return (
+      <svg className="w-3 h-3" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M12 2l8 7-8 13-8-13 8-7zm0 3.2L6.2 10 12 19.3 17.8 10 12 5.2z" />
+      </svg>
+    )
+  }
   return (
-    <svg className="w-3 h-3" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-      <path d="M12 2l8 7-8 13-8-13 8-7zm0 3.2L6.2 10 12 19.3 17.8 10 12 5.2z" />
+    <svg className="w-2.5 h-2.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" aria-hidden="true">
+      <path d="M4 7l8 8 8-8v4l-8 8-8-8z" />
     </svg>
   )
 }
