@@ -5,102 +5,199 @@ tier: 3
 format: Standard
 ---
 ## Decklist
-![Zoroark list](./images/zoroark/zorolist.png)
+![Zoroark list](./images/zoroark/dede.png)
 
 ```decklist
-Pokémon: 19
-4 N's Zorua JTG 97
-4 N's Zoroark ex JTG 98
-2 N's Darumaka JTG 26
-2 N's Darmanitan JTG 27
-2 Pecharunt ex SFA 39
-2 N's Zekrom ASC 155
+Pokémon: 17
+4 N's Zorua ASC 136
+4 N's Zoroark ex ASC 137
+1 Munkidori TWM 95
+1 N's Zekrom ASC 155
 1 N's Reshiram JTG 116
-1 Fezandipiti ex SFA 38
+1 Tatsugiri TWM 131
+1 Yveltal MEG 88
+1 Dedenne SSP 87
+1 Pecharunt ex SFA 39
+1 Fezandipiti ex ASC 142
 1 Meowth ex POR 62
 
-Trainer: 33
+Trainer: 36
 4 Lillie's Determination MEG 119
-4 Cyrano SSP 170
-4 Boss's Orders MEG 114
+3 Boss's Orders MEG 114
+2 Cyrano SSP 170
+1 Xerosic's Machinations SFA 64
 1 Black Belt's Training JTG 143
-4 Buddy-Buddy Poffin TEF 144
-4 N's PP Up JTG 153
+4 Buddy-Buddy Poffin ASC 184
+4 Transformation Tome CRI 83
+4 N's PP Up ASC 195
 3 Ultra Ball MEG 131
-2 Poké Pad ASC 198
 2 Night Stretcher ASC 196
-1 Unfair Stamp TWM 165
+2 Poké Pad POR 81
+1 Enhanced Hammer TWM 148
+1 Secret Box TWM 163
 2 Binding Mochi PRE 95
-1 Air Balloon BLK 79
-1 N's Castle JTG 152
+2 N's Castle JTG 152
 
-Energy: 8
-8 Darkness Energy MEE 7
+Energy: 7
+7 Darkness Energy MEE 7
 ```
 <!-- PUBLIC -->
 ### Inclusiones
 
-- Probé muchas versiones, como una con más cartas tech como Yveltal, Budew y Munkidori, además de la versión de Control. Creo que esta versión es la mejor, centrada en la velocidad y la consistencia. Su objetivo es ganar intercambios de premios o abrumar al oponente con agresión.
-- Tengo una línea evolutiva de Darmanitan bastante densa porque es importante para ganar la mayoría de los matchups, especialmente los desfavorables. Poder usar Flamebody Cannon en turno 2, sobre todo cuando empiezas primero, es extremadamente poderoso.
-- Reshiram no es tan bueno, pero ayuda contra Dragapult. Si no tienen a Shaymin, el matchup ya es favorable, pero como muchos sí lo tienen, Reshiram ayuda un poco. Munkidori también podría ir en este lugar, ya que ambos son Pokémon de apoyo que son buenos contra Dragapult, pero no muy útiles en otros casos. Simplemente creo que Reshiram es más fiable que Munkidori.
-- Me gustan dos Pecharunt ex porque normalmente necesitas uno en el tablero para mayor movilidad, y hace que las jugadas de Binding Mochi sean muy consistentes. Mochi no solo funciona bien con Zekrom, sino también con Darmanitan en varios Pokémon. Probablemente no habría problema en quitar un Pecharunt, pero entonces querría otra carta de movilidad como un N’s Castle, ya que este deck necesita cambiar de estrategia constantemente. Pecharunt es la mejor carta de movilidad, pero también es una desventaja.
-- Meowth ha tenido un rendimiento superior al esperado y es muy útil para la consistencia inicial de este deck. Suelo usar Night Stretcher por él al final para encontrar el último Boss’s Orders para ganar. Se incluyen tres Ultra Ball principalmente por su sinergia con Meowth.
-- Cuatro copias de Boss's Orders son necesarias, ya que este deck necesita usar Boss's Orders repetidamente para mantenerse competitivo en este formato. Hay muchos Pokémon de dos premios en la banca del oponente que Zoroark puede eliminar fácilmente con el ataque de Zekrom.
-- Los 4 N’s PP Up nos permiten encadenar a Zoroark en intercambios de premios. Consideraría jugar una Janine's Secret Art en lugar de una de ellas, pero es muy importante tener siempre N’s PP Up disponible en los turnos en que se necesita, y normalmente se necesitan muchas en cada partida.
-- Unfair Stamp se incluye principalmente para intentar obtener ventaja en matchups desfavorables, haciendo que el oponente tenga una mano mala o falle alguna jugada durante un turno. También puede robar partidas perdidas de vez en cuando. Secret Box ha perdido gran parte de su utilidad. Scoop Up Cyclone se adapta mejor a listas con más Pokémon diferentes, especialmente Munkidori. Prime Catcher podría ser útil.
+- Reshiram suele ser relevante contra Dragapult, ya que es otra opción para noquearlo de un solo golpe, algo que no te puedes permitir fallar. A veces es tan bueno como Zekrom de forma natural.
+- Tatsugiri es muy útil para la consistencia y no representa una gran desventaja gracias al Transformation Tome.
+- Meowth ha superado las expectativas y es muy bueno para la consistencia inicial de este deck. Suelo usar Night Stretcher para recuperarlo y buscar el Boss's Orders ganador. Se incluyen tres Ultra Ball principalmente por su sinergia con Meowth.
+- Yveltal es una muy buena solución cuando aún no tienes el combo completo que necesitas. Aunque las estrategias centradas en Yveltal no funcionan muy bien en el meta actual, a menudo te da uno o dos turnos que necesitas para realizar algunos Trades adicionales. atrapar a un Mega Kangaskhan también es muy fuerte, ya que se le puede noquear fácilmente en el siguiente ataque, pero de lo contrario es difícil noquearlo sin daño previo.
+- Dedenne y Enhanced Hammer están aquí para asegurar la victoria contra Crustle. Por supuesto, se pueden quitar si no te importa el matchup, lo cual es perfectamente válido. Creo que Crustle podría ser una buena opción para el Mundial, por eso los he incluido.
+- xerosic's Machinations con Dedenne a veces puede vencer a Alakazam y también es muy bueno en el mirror. De lo contrario no es muy bueno, así que definitivamente se puede quitar.
+- Blackbelt's Training es increíblemente bueno contra Dragapult, permitiendo noquearlo de un solo golpe con facilidad. Me pareció muy relevante. También puede ayudar contra otros Pokémon con mucho HP como Hydrapple o Mega Kangaskhan.
+- 4 N's Pp Up asegura que podamos encadenar a Zoroark en intercambios de premios. Consideraría jugar una Janine's Secret Art en lugar de una de ellas, pero es fundamental tener siempre PP Up en los turnos que lo necesites, y normalmente necesitas muchos de ellos en cada partida.
+- Secret Box es un Ace Spec bastante buena. Ayuda con la consistencia y a realizar combos.
+
+### Posibles Inclusiones
+
+- Darmanitan sigue siendo muy bueno. Si no te importa el paquete de Dedenne, definitivamente recomiendo a Darmanitan en esos espacios.
+- Budew es muy viable y suele ser efectivo contra Dragapult y Slowking. Definitivamente estoy considerando agregarlo. Sin embargo, puede ser una desventaja debido a su bajo HP.
+- Un segundo Munkidori también sería bueno. Con un Munkidori, a menudo deseaba tener un segundo, pero cuando lo probé, nunca lo usé.
+- Energy Switch también sería genial, especialmente con varios Munkidori.
+- Purrloin estaría bien en lugar de Tatsugiri, pero Tatsugiri es mucho más fácil de usar.
+- Janine's Secret Art es bastante bueno y podría facilitar los ataques de Pecharunt.
 
 ### Exclusiones
 
-- Este deck no tiene espacio libre en la banca. Cuando probé cartas como Yveltal y Budew, empezar con ellas fue muy problemático. Yveltal puede ser fuerte en este formato, pero no tenía espacio en la banca para incluirlo con Munkdori y Pecharunt. La mayoría de los decks contra los que Yveltal parecería efectivo (como Dragapult) ahora también pueden atacar con sus otros Pokemon mucho más fácilmente, así que no tuve mucho éxito con él.
-- Munkidori no es muy bueno fuera del matchup contra Dragapult y no hay espacio en la banca. Podrías incluirlo en lugar de Reshiram.
-- Janine’s Secret Art no está mal, puedes jugarlo si quieres. Simplemente es situacional y difícil de encontrar, pero suele ser buena cuando la tienes.
-- Hay muchas cartas que tienen sentido en la versión de Control, como Dedenne, Elgyem, Xerosic, etc., pero no son adecuadas para esta versión del deck.
-- Rocket’s Watchtower podría ser una buena opción para Alakazam, pero yo querría jugar dos copias además de otra carta de interrupción de mano como Judge para tener una probabilidad decente de que funcione. Con solo una copia y el Unfair Stamp, no se alineará tan a menudo y solo tendrán que escapar del bloqueo una vez. Sí puede sorprender a otros decks bloqueando a Meowth, Noctowl o Mega Kangaskhan, pero es muy situacional y no puedes garantizar cuando la robas. Creo que el deck tiene más éxito siendo rápido y agresivo. A veces la respuesta más simple es la mejor. Simplemente toma dos premios cada turno.
-- Mega Lopunny podría incluirse para counterear a Crustle y también es útil contra decks de dos premios que pueden resultar problemáticos.
-- Scoop Up cyclone tiene más sentido en decks con más Pokémon diferentes, ya que permite jugar con una variedad de opciones sin verse limitado por la falta de espacio en el tablero.
+- Drapion no es muy bueno y es imposible de setear. Además, nunca se usa contra Dragapult. Si te preocupa Hydrapple, podría ser útil contra él.
+- De igual manera, Dusknoir tampoco es muy bueno y nunca se usa contra Dragapult.
+- Lo mismo ocurre con Mega Absol. Aunque sería genial tener algunas posibilidades increíbles con el Transofrmation Tome, no le veo la utilidad a ninguna de estas cartas.
+- Ruffian no vence a Crustle, así que no tiene sentido jugarlo.
+- Special Red Card podría estar bien. No tengo una opinión muy definida al respecto. No creo que haga nada particularmente importante, y hay muchas otras cartas en las que preferiría usar ese espacio.
 <!-- /PUBLIC -->
 ## Gameplay
 
-- Debemos tener mucho cuidado con nuestra banca y nuestros recursos. El segundo Darumaka prácticamente nunca se pone en juego porque nos quedamos sin opciones. El tablero ideal es tres Zoroark, Darmanitan, Zekrom y Pecharunt. Podemos prescindir de Darmanitan contra Shaymin.
+- Incluso con los Transformation Tome en el deck, debes tener cuidado con tu banca. El espacio en la banca sigue siendo un recurso valioso y solo podrás usar Transformation Tome una o dos veces por partida.
 - Ve primero contra todo.
 - Al ir primero, empezar con Zorua y cargarle Energía suele ser una buena opción, excepto contra Lucario o cualquier deck que pueda noquearlo consistentemente en el turno 2.
 - Cuando el primer Zoroark/Zorua sea derrotado, intenta reemplazarlo con Fezandipiti en lugar de otro Zorua, siempre y cuando ya tengas dos Zoroark en el tablero. Hay algunas excepciones, como si el Zoroark pudiera ser eliminado por completo y no pudieras terminar con Pecharunt.
 - Intenta ser agresivo y tomar la delantera en el intercambio de premios. Si no puedes conseguir los dos primeros premios, no pongas en juego Pokémon que te cuesten dos premios. A veces, evolucionar a Zoroark desde la banca está bien, ya que es difícil noquearlo para la mayoría de los demás decks. Un Zoroark activo o un Pecharunt en la banca son más fáciles de noquear, pero eso no importa si estás ganando el intercambio de premios. En otras palabras, mantén un tablero con un solo premio (o ten un Zoroark en la banca difícil de noquear) hasta que estés listo para atacar.
-- Si te encuentras en un intercambio de premios perdedor, las únicas formas de darle la vuelta son usando un atacante de un solo premio (Back Draft de Darmanitan o Scratch de Zorua con Binding Mochi), o brickeandolos con Unfair Stamp.
+- Al usar Trade, considera si deseas desbloquear una jugada en particular con Transformation Tome. A veces necesitas descartar un Pokémon específico para tener acceso a eso.
 - Debes tener en cuenta que debes cargar Energía a Pecharunt en la fase final del juego. Sucede con más frecuencia de lo que esperaba.
 - Pecharunt es muy frágil pero prácticamente lo necesitas en juego todo el tiempo, así que simplemente intenta ganar la carrera de premios.
 - Contra Budew, usa Ultra Ball de forma preventiva.
-- Air Balloon suele ser la mejor opción para Zoroark o Fezandipiti debido a la sinergia con Pecharunt.
 - ¡El Scratch de Zorua con Binding Mochi puede noquear a varios Pokémon en el Turno 1 si vas segundo, incluyendo a Munkidori!
 
 ## Matchups
 
-Algunos de estos juegos los jugué con otras listas, pero eran lo suficientemente similares como para no cambiar ninguna de las estrategias fundamentales.
+### Dragapult - Ligeramente Favorable
 
-### Dragapult - Depende
+Contra la mayoría de las versiones de Dragapult, el matchup es muy parejo. Podría ser incluso parejo, pero no creo que sea peor que eso.
 
-Esta versión es ventajosa contra Dragapult si no tienen a Shaymin y desventajosa si lo tienen.
-
-- Intenta usar el ataque de Darmanitan lo más rápido posible. Esto implica buscar agresivamente a Darumaka o Darmanitan en el primer turno. Aunque no puedas debilitar a dos Dreepy/Drakloak, debilitar a Budew con él es perfectamente válido. Si debilitas a Budew y no consiguen otro, puedes recargar con N’s PP Up.
-- A veces, te pueden limpiar la mesa. Carga Energía anticipadamente a Pecharunt para terminar la partida. Esto depende mucho de la situación, pero ocurre con bastante frecuencia.
-Lo ideal es derrotar a Dragapult de un solo golpe. Si te ataca, Reshiram lo consigue. Si no, Zekrom con Black Belt y Binding Mochi también puede hacerlo. Sin embargo, esto no siempre se da.
-- Infligirles daño aleatorio es muy arriesgado, como con un Zoroark envenenado o golpeando a su Dragapult. Pueden aprovechar cualquier contador de daño. Normalmente prefiero usar Boss’s Orders alrededor del Dragapult, pero aun así prefiero golpearlo antes que pasar, así que a veces es inevitable.
-- Si logras atacar a su Dragapult, querrás tener el daño extra de Binding Mochi para poder noquearlo con Flamebody Cannon y noquear a algún Pokémon en la banca incluso después de que se curen con Adrena Brain. Claro que esto no es válido si tienen a Shaymin.
+- Jugar de forma pasiva al principio de la partida está bien si puedes acumular Energía en juego. Noquear a su Budew generalmente no es buena idea. Si quieres noquear algo, debilita otra cosa y deja su Budew como una desventaja en su campo.
+- A veces puedes ser agresivo al principio de la partida. Esto suele ser bueno si tu estás seteado y ellos no, lo cual es bastante raro.
+- Si juegas tu propio Budew, puedes noquear al Budew de tu oponente primero sin consecuencias. Un Itchy Pollen temprano es bastante bueno contra ellos, especialmente junto con Adrena Brain. Si juegas Darmanitan, también querrás ser agresivo con él si es posible. Budew y Darmanitan son buenos contra Dragapult si los juegas.
+- Consigue a Munkidori con Energía en juego tan pronto como puedas.
+- No dejes en juego cartas que otorguen dos premios, especialmente al principio de la partida. No queremos que empiecen la partida con un KO de dos premios. A veces necesitas a Meowth para jugar, lo cual es inevitable, y tal vez puedas quitarlo con Tome of Transformation.
+- Lo ideal es noquear a Dragapult de un solo golpe. Si te atacan, Reshiram lo consigue. Si no, Zekrom con Black Belt's Training y Binding Mochi también puede hacerlo. También puedes usar Adrena Brain como modificador de daño. Si no puedes noquear a su Dragapult de un solo golpe, derrotar a un Fezandipiti o Meowth con Boss's Orders también funciona.
+- Causarles daño aleatorio es muy arriesgado, como con un Zoroark envenenado o golpeando a su Dragapult sin noquearlo. Pueden aprovechar cualquier contador de daño. Normalmente prefiero jugar alrededor de Dragapult si no puedo noquearlo, pero aun así prefiero golpearlo antes que pasar, así que a veces es inevitable. 
+- Si atacas a su Dragapult, querrás tener el daño extra de Mochi para poder rematarlo con Adrena Brain.
+- Cargar a Pecharunt puede ser muy útil si les queda solo una carta de premio, lo cual ocurre con frecuencia.
+- Black Belt's Training es muy bueno en este matchup.
+- Si Zoroark tiene 60 de daño por Phantom Dive, intenta curarlo o no lo envenenes. No queremos que sea noqueado por veneno.
+- Lo ideal es conseguir un KO de dos premios con cada ataque. Si te encuentras con un número impar de premios (común contra Dusknoir), no hay problema si tienen a Budew en juego, ya que puedes noquearlo fácilmente con Adrena Brain.
 
 ```youtube
-id: tKXEObYVwes
+id: eAgzMk0ev4Q
 title:  Zoro v Pult 1
 ```
 
 ```youtube
-id: JKy_FJ4hJ60
-title: Zoro v Pult 2
+id: aCS_bCuLyEw
+title: Zoro v Pultnoir 1
 ```
 
 ```youtube
-id: TEOrq9hJz-A
-title: Zoro v Pult 3
+id: MDcEZJCONKQ
+title: Zoro v Pultnoir 2
 ```
+
+### Raging Bolt - Ligeramente Desfavorable
+
+- Este es un matchup sencillo de intercambio de premios. No pongas a Zoroark en juego si su tablero es amenazante y podrían conseguir el primer KO de dos premios. Claro que poner a Zoroark en juego está bien si llevas la delantera o si simplemente necesitas Trade para jugar. Si tienes que ponerlo en juego de forma preventiva, ¡no lo dejes activo a menos que estés ganando el intercambio de premios!
+- Usamos principalmente a Zekrom tres veces para ganar (también se puede rematar con Pecharunt). Boss's Orders suele ser muy bueno para entrar en la carrera de premios y mantener la ventaja. N's PP Up es un recurso extremadamente importante!
+- No se puede confiar en Yveltal, ya que pueden atacar fácilmente con cualquier Pokémon. Sin embargo, puede ser una buena solución temporal o útil para contrarrestar a su Mega Kangaskhan una vez.
+
+```youtube
+id: 440pWXk5OLc
+title: Bolt v Zoroark 1
+```
+
+### Alakazam - Ligeramente Desfavorable
+
+- Ganar normalmente es imposible. Tenemos que depender del paquete de Dedenne. Atácalos con Xerosic's Machinations, Enhanced Hammer y Boss0s Orders. Dedenne siempre debería recuperar a Xerosic o Enhanced Hammer. Necesitarás usar Xerosic's Machinations varias veces para ganar.
+- Conseguir un KO puede ser bueno después de un Xerosic, especialmente si tienen uno o ningún Dudunsparce en juego. Si crees que no pueden conseguir un KO de vuelta contra Zoroark, puedes conseguir un KO estratégicamente para eliminar algo de su tablero (como Energía). En otras palabras, Zoroark puede ser bueno porque no les resulta fácil de noquear. Atacar con Dedenne es básicamente darles una carta de premio.
+- Las opciones de recuperación y cambio son recursos valiosos para reutilizar a Dedenne.
+
+### Hydrapple - Desfavorable
+
+- Similar a Raging Bolt. Queremos ganar un intercambio 2-2-2. Podemos dejar un tablero con un solo premio hasta iniciar el intermcabio. Claro que, a veces, tenemos que poner Pokémon de dos premios en juego para poder jugar. Esto puede ser aceptable, ya que muchas veces no tendrán Boss's Orders. Desafortunadamente, tienen a Briar como mecanismo de remontada, contra lo cual no podemos hacer mucho.
+- Boss's Orders puede ser muy útil para conseguir KOs de dos premios, especialmente porque pueden atacar con Meganium para noquear a Zoroark. Black Belt's Training permite noquear a Hydrapple de un solo golpe.
+
+### Mirror de Zoroark - Parejo
+
+- Cuidado con Darmanitan si sacan a Darumaka pronto.
+- Aprovecha para tomar dos premios siempre que puedas e intenta adelantarte en la carrera de premios. Si no tienen a Darumaka en juego, tu tablero de un solo premio está a salvo (salvo que jueguen Transformation Tome) y puedes esperar a que saquen el primer Pokémon de dos premios.
+- Si tienes premios impares y solo te falta uno, Zorua o Zekrom pueden debilitar a su Zorua.
+- Si tienen a Dusknoir, tendrás que ser un poco más agresivo, ya que ser demasiado pasivo será contraproducente.
+
+### Slowking - Ligeramente Desfavorable
+
+- La mejor manera de contrarrestar Trifrost es poner en juego un par de Zoroark antes de que lo usen. No tienes mucho control sobre eso, pero la clave es no esforzarse demasiado por reducir el daño. Si consiguen un Trifrost rápido, pierdes de todas formas. Simplemente intenta ir rápido y no dejes objetivos para Trifrost más adelante en la partida.
+- Clutch puede ser útil para atrapar a un Mega Kangaskhan y dejarlo al alcance de un KO. También puede ser una buena estrategia de remontada si no tienen Switch. Incluso si consiguen un Switch, puedes noquear a Kangaskhan más tarde y conseguir un mapa de premios 3-2-1.
+- Darmanitan es increíblemente fuerte en este enfrentamiento si lo usas. Budew también puede ser una buena opción.
+- Munkidori no se usa mucho, pero ocasionalmente puede ser importante. Se usa principalmente con estrategias basadas en Yveltal o si consiguen usar Trifrost en un Pokémon de dos premios.
+
+```youtube
+id: rcxdgYn7PUY
+title: King v Zoro 1
+```
+
+```youtube
+id: vewPb1rXCkw
+title: King v Zoro 2
+```
+
+```youtube
+id: XJnQMqbMkXU
+title: King v Zoro 3
+```
+
+```youtube
+id: 0Fk7J6XC3RU
+title: Zoro v Slowking 4
+```
+
+### Mega Kanghaskan Box - Favorable
+
+- Limita tu banca para que no puedan noquear a Zoroark de un solo golpe con Clefairy. No dejes a Zoroark envenenado si tienes cuatro Pokémon en tu banca, ya que aún pueden noquearlo con Clefairy.
+- El Transformation Tome es extremadamente útil para lograr un campo perfecto y eliminar Pokémon que otorgan dos premios.
+- No hay problema en poner en juego un Pokémon que otorga dos premios, pero no pongas demasiados. Intenta eliminarlos con Transformation Tome lo antes posible.
+- Empieza atacando con Zoroark normalmente y simplemente noquea a los Pokémon de un solo golpe con el ataque de Zekrom. Probablemente no podrás noquear a su Mega Kangaskhan, así que no nos preocupa. Pero si amenazan con atacar con Mega Kangaskhan, quizás quieras usar Binding Mochi + Black Belt's Training para responder. Sin embargo, estas cartas no suelen ser importantes.
+- Intenta jugar con precaución contra Wellspring Ogerpon y evita que logren un doble KO con él. Al principio del juego, esto significa no dejar un Pokémon pequeño en la banca. Más adelante, significa no desplegar Zoruas innecesarios ni tener dos Pokémon pequeños en juego.
+
+```youtube
+id: Y9wQFCdEMII
+title: Slop v Zoro 1
+```
+
+### Crustle - Favorable
+
+- Usa a Dedenne y Enhanced Hammer para agotar su Energía. Si no tienes cartas en los premios la victoria es fácil.
+- Xerosic's Machinations asegura que se queden sin cartas en el deck primero, y Lillie's Determination puede mitigar el daño de su Xerosic's Machinations siempre que lo uses antes de tener demasiadas cartas en la mano.
+- Si tienes a Dedenne o al enhanced Hammer premiados, intenta noquear rápidamente a Mega Kangaskhan y arriesgarte a tomarlo de los premios. Idealmente, puedes hacerlo lo suficientemente rápido antes de que tengan un Crustle invencible con demasiadas Energías y aún así puedes impedirles un ataque con Dedenne.
+- Si tienen a Mega Kangaskhan y dos Dwebble/Crustle, aún puedes ganar incluso si establecen Crustle con muchas Energías. Noquea a Mega Kangaskhan para robar de los premios lo que necesites y luego usa Boss's Orders para atrapar al que no tiene Energía mientras usas Dedenne repetidamente. Si noqueas a Dwebble y luego a Mega Kangaskhan, podrán tener solo a un Crustle con un montón de Energía sin preocuparse por Dedenne.
+
+### Mewtwo - Muy desfavorable
+
+- Simplemente ataca rápido y espera que tengan mala suerte con las cartas. Zorua a veces puede lograr un KO rápido y suele ser bueno para intercambiar premios por Tarountula.
+- Si juegas con Darmanitan, es muy bueno, ya que puedes hacer que Zoroark copie el segundo ataque con Binding Mochi para debilitar a Spidops y Tarountula.
 
 ### Mega Lucario - Desfavorable
 
@@ -123,20 +220,7 @@ id: rSOCCo-ePY8
 title: Zoro v Lucario 3
 ```
 
-### Alakazam - Muy desfavorable
-
-Algunas de las techs que no utilizo pueden ser útiles en este matchup, pero al final, sigue siendo muy desfavorable de todas formas.
-
-- Intenta conseguir un Darmanitan rápido.
-- Usa Unfair Stamp cuando sea probable que brickeen, por ejemplo, si no tienen a Fezandipiti/Dudunsparce. Intenta noquearlos y luego usa Unfair Stamp cuando lo hagas. Si juegas Rocket’s Watchtower, intenta incorporarla también.
-- Si tienen a Shaymin y juegas con Yveltal, intenta tener un tablero con Zoroark, Yveltal, Munkidori, Darmanitan y Pecharunt. Usa a Yveltal para atrapar a Shaymin y redirigir el daño a los Pokémon que quieras atacar. Tras tres Agarres, debilita a Shaymin con Adrena Brain y haz que Zoroark use el ataque de Darmanitan para debilitar a dos Pokémon cualesquiera. Después de que respondan, usa Unfair Stamp.
-
-```youtube
-id: AAIh8BWElzA
-title: Zam v Zoroark 1
-```
-
-### Meganium - Desfavorable
+### Arboliva - Desfavorable
 
 - Este matchup se centra en ganar la carrera de premios 2-2-2. No dejes un Pokémon de dos premios en el campo hasta que tomes la delantera en el intercambio de premios. El ataque de Zekrom es muy bueno para conseguir KOs de dos premios.
 - Darmanitan no suele ser una prioridad al principio del juego. Sin embargo, a veces usarán a Budew y puedes conseguir un doble KO con su ataque, lo cual obviamente es muy bueno.
@@ -170,64 +254,9 @@ id: s3PdNIgy3AY
 title: Chomp v Zoro 2
 ```
 
-### Raging Bolt - Parejo
-
-- Este es un matchup de intercambio de premios sencillo. No sacrifiques a Zorua para que Fan Rotom lo ataque. No pongas a Zoroark en juego si su tablero es amenazante y podrían conseguir el primer KO de dos premios. Claro que poner a Zoroark en juego está bien si llevas la delantera o si simplemente necesitas usar Trade para jugar. Si tienes que ponerlo en juego de forma preventiva, ¡no lo dejes activo a menos que estés ganando el intercambio de premios!
-- Generalmente usamos a Zekrom tres veces para ganar (también podemos rematar con Pecharunt). Boss’s Orders suele ser muy bueno para entrar en la carrera de premios y mantener la ventaja. ¡El N’s PP Up es un recurso extremadamente importante!
-- Darmanitan a veces puede ser útil. Al principio del juego, copiar su ataque puede darte dos KOs y ponerte en ventaja en el intercambio de premios. Más adelante, Back Draft puede debilitar a Pokémon como Teal Mask Ogerpon. Esta es una forma potencial de cambiar el rumbo del intercambio de premios a tu favor.
-
-```youtube
-id: OHs-Mc5D3AU
-title: Bolt v Zoroark 1
-```
-
-```youtube
-id: iLIy5jBXhcw
-title: Bolt v Zoroark 2
-```
-
-### Festival Lead - Muy desfavorable
-- Este matchup es prácticamente imposible, pero tenemos dos condiciones de victoria. La primera es atacar rápido y presionarlos con Darmanitan. La otra es usar una estrategia alterna con Boss's Orders y bloquear su retirada.
-- Si logras sacar un Boss's Orders rápidamente, es posible que no hayan tenido la oportunidad de poner una carta de cambio en su mano. Esto es más efectivo si también tienes a Yveltal para que no puedan usar Air Balloon, pero aún es posible con solo subir a Thwackey con Boss's Orders. Necesitarás mucho espacio en la banca, ya que también necesitarás a Pecharunt y Munkidori para aprovechar el bloqueo. No pongas demasiados Zorua adicionales u otros Pokémon que no sean importantes para el bloqueo.
-- Zekrom puede ser útil como escudo mientras te preparas o para usar Shred en Thwackey y causar algo de daño (mediante el ataque de Zoroark) si no tienes a Yveltal.
-- Boss's Orders (y Night Strecther para Yveltal si la juegas) son recursos importantes para mantener el bloqueo incluso si se liberan una vez. La forma de aprovechar el bloqueo, si lo consigues, es noquear a su Shaymin con Adrena Brain durante tu turno y luego noquear dos Dipplin con Darmanitan. Si tienen tres , querrás noquearlas todas. Noquear a ambos Thwackey es otra posibilidad. Baja tu Estadio en el turno en que hagas todo eso.
-
-```youtube
-id: nqiBklziLiw
-title: Festival v Zoroark 1
-```
-
-### Kangaskhan Box - Parejo
-
-- Este es un matchup directo de intercambio de premios. Intenta mantener un tablero de Pokemon de un solo premio hasta que estés listo para atacar. Tener a Zoroark en la banca sin Energía puede ser útil dependiendo de cuánta Energía tenga su Teal Mask Ogerpon.
-- Si tienen un Pokémon de un solo premio en el tablero, como Munkidori, atacar a su Kang puede resultar en un turno de cuatro premios con Darmanitan. Si no puedes lograrlo con seguridad, intenta usar Boss’s Order alrededor de Kang para obtener dos premios. Si no vas a realizar esa jugada, no te molestes en poner a Darmanitan en juego y puedes usar el espacio de la banca para algo más útil.
-- Si vas perdiendo en el intercambio, intenta mantener a Pokémon como Meowth, Fezandipiti o Pecharunt fuera del campo, ya que podrían tener dificultades para debilitar a Zoroark. Si solo tienes cuatro Pokémon en la banca, no podrán derrotar a Zoroark de un solo golpe con Clefairy y el campo lleno, así que esa es otra forma de remontar. Si vas ganando el intercambio, realmente no importa cómo se vea tu banca mientras puedas continuar atacando.
-
-### Mewtwo - Desfavorable
-
-- Hay dos maneras de ganar. La más consistente es usar el segundo ataque de Darmanitan con Binding Mochi, lo que te permite debilitar a Spidops y Tarountula en un solo turno. Usar repetidamente el ataque de Darmanitan puede ser muy efectivo. Si bajan a Mewtwo, puedes derrotarlo fácilmente de un solo golpe con el ataque de Zekrom.
-- La otra forma de ganar es haciéndolos brickear con Unfair Stamp, así que intenta hacerlo lo antes posible.
-
-### Mirror de Zoroark - Parejo
-
-- Asegúrate de que tu banca nunca sea vulnerable a Darmanitan. Por el contrario, castígalos con Darmanitan si puedes.
-- Simplemente toma dos premios siempre que puedas e intenta adelantarte en la carrera de premios. Si no tienen ningún Darumaka en juego, tu tablero de un solo premio está a salvo y puedes esperar a que bajen el primer Pokémon de dos premios.
-- Si estás en premios impares y solo te falta un premio, Zorua o Zekrom pueden conseguir un KO en su Zorua.
-
-### Crustle - Muy desfavorable
-
-- Presiónalos con un Zoroark rápido. Noquea a cualquier Dwebble que veas. Contra Crustle, copia Shred de Zekrom. Oblígalos a responder y luego usa Unfair Stamp. Hacer que se queden brickeados con Unfair Stamp es tu única oportunidad.
-
-### Ogerpon - Desfavorable
-
-- Intenta ganar un intercambio de premios de forma normal. Necesitas un seteo bastante rápido para esto.
-- Si tienes la opción, lo mejor es dejar a Zekrom en el activo, ya que no es vulnerable a Wellspring Ogerpon. Si lo atacan con Sob, puedes usar a Pecharunt e iniciar la carrera de premios.
-- Darmanitan puede usarse como atacante de un solo premio para potencialmente cambiar el rumbo del intercambio. Juegan mucha Energía Básica, pero primero tendrás que noquear a uno o dos Pokémon para activar a Darmanitan.
-- Si vas perdiendo en la carrera de premios, intenta usar Unfair Stamp en el turno en que atacas con Darmanitan. Si lo tienes disponible pronto, también puedes usarlo en los primeros turnos para intentar que se queden sin opciones si aún no están estabilizados.
-
 ## Conclusión
 
-Este deck no me gusta mucho y no creo que sea muy relevante en el meta en estos momentos asi es que no creo que lo actualice hasta que no de más de que hablar en torneos competitivos.
+Lamentablemente, Zoroark sigue siendo un deck pésimo. A menudo no funciona al nivel de otros decks, lo que resulta en muchas partidas imposibles de ganar. Tiene muchos trucos que puede usar, pero son inconsistentes o simplemente malos. Zoroark no vence a nada, aunque al menos logra no perder estrepitosamente contra Dragapult.
 
 
 
