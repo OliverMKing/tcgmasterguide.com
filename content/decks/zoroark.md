@@ -210,6 +210,17 @@ title: Slop v Zoro 1
 - Just go fast and hope they draw bad. Zorua can sometimes get a fast KO and is generally good for prize trading into Tarountula.
 - If you play Darmanitan, it is very good as you can have Zoroark copy the second attack with Mochi to KO Spidops and Tarountula.
 
+### Excadrill - Unfavorable
+
+- Random Scratch or Clutch on Drilbur / Excadrill is very good because it sets up for the Black Belt Mochi one-shot.
+- Boss KO Genesect as soon as possible.
+- If you play Darmanitan, it is extremely strong and can punish various plays. Try to get 90 on Excadrill while taking a single-prize KO. If they have no easy targets, this is still possible with Boss Mochi on Metang.
+
+```youtube
+id: tJWxvGKRHtg
+title: Drill v Zoro 1
+```
+
 ### Lucario - Unfavorable
 
 - Darmanitan is very good if you play it. If they have two Lucario, hit them both for 90 and finish them off with Zekrom. If they have one Lucario, smack it for 90 and snipe KO a Riolu. This can potentially stop the second Lucario from coming in, and you can finish it off with Zekrom.

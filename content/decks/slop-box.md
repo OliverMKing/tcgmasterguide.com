@@ -200,6 +200,19 @@ id: 5vN-SSszLeg
 title: Slop v Mewtwo 1
 ```
 
+### Excadrill - Even
+
+- Go first.
+- Going fast and aggressive is the way to win. If you can get an Energy on Wellspring Turn 1, that can be very good. Torrential Pump is generally always good in this matchup if you’re able to power it up. Any spare Crispin or manual attachments should go onto Wellspring, while using Wondrous Patch to power up Clefairy.
+- Moltres is insane in this matchup. If you smack Excadrill for 220, you can even get a Torrential Pump with Boss or Prime Catcher to take four prizes.
+- Clefairy is still a useful and efficient attacker. Even better if you have the Pearl to go with it.
+- Try to remove Kang from play with Chien-Pao whenever you get the chance. It is a massive liability.
+
+```youtube
+id: yXZhZKazbs8
+title: Drill v Slop 1
+```
+
 ### Lucario - Unfavorable
 
 - Kangaskhan should be avoided if at all possible.

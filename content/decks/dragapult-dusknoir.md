@@ -227,6 +227,26 @@ title: Pultnoir v Crustle 2
 - If their only loaded attacker is Mimikyu, a good way to play around it is to not have Dragapult on the board and just attack with something else.
 - Watchtower is best used reactively to bump their Stadium. This improves the chance of them bricking/whiffing. If you play Watchtower preemptively, it does nothing and they can easily bump it.
 
+### Excadrill - Unfavorable
+
+- Go second.
+- Itchy Pollen is good if they don’t have their Basics in play, especially Genesect, since you can lock Trolley. However, if they already have the squad, the Item lock is useless. The 20 damage onto Drilbur can be relevant though.
+- Crushing Hammer is typically not that important. It can be useful but it’s not a resource you need to save or plan around.
+- Early Mind Bend is occasionally good. Sometimes you have a random Dark Energy with nothing better to do but attach to Munkidori, and sometimes they have not much Energy in play and struggle against Mind Bend. Can also use a Munkidori as an early-game meat shield because it does not die to the mill attack.
+- Dusknoir is very good, especially if you get Itchy Pollen onto Drilbur because it sets up a Cursed Blast + Phantom Dive KO.
+- 3-2-1 prize map is the most common because they will always have Genesect in play. Sometimes you can set this up to win in two Phantom Dives thanks to Dusknoir and Dusclops.
+- Crispin is even more important than normal because Dragapult gets one-shot and also to sometimes use Munkidorii. Load as much Energy in play as possible as soon as the game begins so that you can always have access to the best attack for the situation.
+
+```youtube
+id: gmyPPy-tr3w
+title: Drill v Pultnoir 1
+```
+
+```youtube
+id: sRuPcTQZjVc
+title: Drill v Pultnoir 2
+```
+
 ### Lucario - Even
 
 - 20 snipes on Riolu, Lucario, and Makuhita is generally good.

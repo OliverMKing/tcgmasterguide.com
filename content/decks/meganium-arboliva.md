@@ -1,7 +1,7 @@
 ---
 title: Meganium / Arboliva
 pokemon: [154, 930]
-tier: 3
+tier: 4
 format: Standard
 ---
 

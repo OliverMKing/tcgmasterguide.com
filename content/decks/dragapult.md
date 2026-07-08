@@ -245,6 +245,32 @@ id: sa8Ah2uxEz4
 title: Slop v Pult 2
 ```
 
+### Excadrill - Even
+
+- Go second.
+- Itchy Pollen is good if they don’t have their Basics in play, especially Genesect, since you can lock Trolley. However, if they already have the squad, the Item lock is useless. The 20 damage onto Drilbur can be relevant though.
+- Moltres is very important for dealing damage and also helping with the prize trade. Save Stretchers and Fire Energy so you can use Moltres multiple times. 
+- 3-2-1 prize map is the most common because they will always have Genesect in play. Moltres can one-shot Genesect if needed for two easy prizes, leaving you to just KO an Excadrill and random single-prize Pokemon
+- Early Mind Bend can be a good response to a fast Excadrill, especially if they don’t have much Energy established in play. Moltres is usually better if you can follow up with a Phantom Dive immediately. Mind Bend is not reliable as an overall gameplan because they play enough Energy to comfortably retreat Excadrill a couple times. Can also use a Munkidori as an early-game meat shield because it does not die to the mill attack.
+- Crushing Hammer is typically not that important. It can be useful but it’s not a resource you need to save or plan around.
+- Crispin is even more important than normal because Dragapult gets one-shot and also because you need to use alternative attackers such as Moltres and sometimes Munkidori. Load as much Energy in play as possible as soon as the game begins so that you can always have access to the best attack for the situation.
+- Moltres can help you reverse prize trade optimally. Be sure to keep a single prize board or at least disrupt their hand (when you have two-prize Pokemon in play) to keep them off Boss’s Orders on crucial turns, such as when they’re on even prize cards.
+
+```youtube
+id: Z4mtndt9xIk
+title: Drill v Pult 1
+```
+
+```youtube
+id: 9G-DkC9q-5o
+title: Drill v Pult 2
+```
+
+```youtube
+id: HnsxI7wf-Dg
+title: Drill v Pult 3
+```
+
 ### Lucario - Slightly Favorable
 
 - Phantom Dive spread should usually go on Riolu/Lucario. If you can KO Riolu, that is almost always best. 20 on Lucario sets it up for Mind Bend into Phantom Dive. Putting 20 damage on Makuhita can also be good. Any extra damage can still be useful on Solrock/Lunatone.

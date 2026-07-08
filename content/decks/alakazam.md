@@ -287,6 +287,12 @@ title: Crustle v Zam 2
 - This is obviously a horrible matchup because of Articuno, but if there is a way to win it’s by powering up Fez as fast as possible and taking out their Articuno. Use Boss’s Orders and Enhanced Hammer to slow them down. They do sometimes draw garbage, so it is possible to get lucky.
 - If they for some reason do not have Articuno in play, wreak as much havoc as possible with Alakazam during that window whenever possible. Also use Alakazam to KO Spidops.
 
+### Excadrill - Very Favorable
+
+- Draw cards as much as possible so you can quickly one-shot Excadrill. The one exception is sometimes Fez. Sometimes it’s fine to put down, but if they got a fast start and you’re behind several prizes, it might be too much of a risk. Of course, if Fez is the difference between KO’ing an Excadrill and not, then it’s usually worth it.
+- Boss is an important resource for when they start attacking with single-prize Pokemon.
+- Shaymin is sometimes good to stop their Fez. Don’t let them cheese you with Boss Fez strats.
+
 ### Lucario - Very Favorable
 
 - Your lose conditions involve Rocky Fighting Energy and Judge. Play around Judge the same way you would play around Stamp.

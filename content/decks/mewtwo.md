@@ -216,6 +216,16 @@ id: YT4891TzjBk
 title: Festival v Mewtwo 1
 ```
 
+### Excadrill - Slightly Unfavorable
+
+- Spidops is the go-to attacker since it doesn’t give up two-prizes. It’s also better early before Pokemon start getting KO’d and its damage gets diminished. You will eventually need Max Belt to two-shot Excadrill with Spidops. It’s also possible to follow up a Spidops smack on Excadrill with a Mewtwo KO if you don’t have Max Belt.
+- Get Energy on Mewtwo whenever possible. You’ll have to attack with it eventually in order to win. Mewtwo is good for finishing off Excadrill and getting the Giovanni snipe on Genesect since Spidops cannot KO that. 3-2-1 prize map is ideal.
+
+```youtube
+id: 1wwt0VOC4Rc
+title: Drill v Mewtwo 1
+```
+
 ### Lopunny - Very Unfavorable
 
 Without Maximum Belt, this matchup is terrible. With Maximum Belt, it's very favorable.

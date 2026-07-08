@@ -269,6 +269,13 @@ title: King v Crust 1
 - For the early- and mid-game, prioritize hitting Tarountula, Spidops, and Articuno with Trifrost. In the late-game, just close it out in whatever way is most efficient.
 - If they have Mewtwo active and you can’t get max value from a Triforst, then it’s ok to one-shot the Mewtwo with Metagross. Pinging Mewtwo for 110 with Trifrost is pretty much useless.
 
+### Excadrill - Favorable
+
+This matchup is favorable if they do not play Shaymin, and probably unfavorable if they do.
+
+- Don’t leave Kang in the active, especially once their board is established, as we do not want to feed Excadrill an easy three-prize KO.
+- Trifrost is obviously insane. Wipe out three Metang, smack the Excadrill for 300, and then Trifrost to finish it off wins in three attacks. If there are not three targets to KO, smack their Excadrill for 300 and win with two follow up Trifrosts. Trifrosting first in that scenario can be worse since they can retreat Excadrill and it is permanently safe.
+
 ## Personal Thoughts
 
 This deck is not that good due to its inconsistency and somewhat mediocre matchup spread. It is also quite difficult to play optimally. However, it is not complete trash, which is better than I expected.
