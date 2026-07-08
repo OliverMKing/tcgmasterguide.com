@@ -182,6 +182,18 @@ id: IZFz1CYLWvw
 Título: Blaziken v Slop 1
 ```
 
+### Mega Excadrill - Muy Favorable
+
+- Creo que ir primero es mejor, pero sinceramente no estoy seguro.
+- Prioriza preparar a Blaziken lo más rápido posible. Mejor aún si puedes conseguir un segundo eventualmente.
+- Itchy Pollen es útil si no están bien seteados. También inflige diez de daño relevantes a Fezandipiti si deciden atacar con él, para que puedas rematarlo con Phantom Dive. Mind Bend también puede ser una buena respuesta a Fezandipiti.
+- Si no tienen a Mega Excadrill en juego, simplemente ataca con Drakloak o Dragapult, guardando a Blaziken para responder a Mega Excadrill.
+
+```youtube
+id: 8pYQpK3xHAQ
+Título: Drill v PultBlaze 1
+```
+
 ### Mega Lucario - Favorable
 
 - Noquea a su Lucario de un solo golpe siempre que puedas con Clefairy. Quizá necesites una Energía extra o a Budew para tener un pivote. También podrías bajar a Clefairy antes de tiempo pero te arriesgas a que sea noqueado ya que tienen la opción de Boss's Orders o Hariyama.

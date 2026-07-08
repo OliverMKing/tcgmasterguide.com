@@ -192,6 +192,11 @@ Este es uno de los juegos mas interesantes confusos que he jugado.
 - Los 6 contadores de Phantom Dive casi siempre van dirigidos a su Zoroark de reserva.
 - Munkidori es muy bueno en este matchup, al igual que noquear a su Munkidori con Energía. Si te enfrentas a la version con Drapion, debes tener cuidado con el combo de Transformation Tome que lo lleva a Drapion. Esto suele ser muy predecible, ya que necesitan una mano enorme, varias Energías Dark en un Básico cualquiera y acceso a uno o dos Munkidori. Si juegas con Judge, puede ser muy útil en este enfrentamiento.
 
+```youtube
+id: eAgzMk0ev4Q
+title: Pult v Zoro 1
+```
+
 ### Slowking - Favorable
 
 - Después de muchas partidas, todavía me cuesta decidir si es mejor jugar Rocket's Watchtower de inmediato o guardarla. Es muy probable que una Watchtower temprana no les cause muchos problemas, y realmente necesitas tenerla cuando interrumpes su mano. Me inclino por guardarla, pero si todas las circunstancias parecen indicar que deberías jugarla (ninguna esta premiada, tienes una extra en la mano, empezaron con Mega Kangaskhan y tú empiezas primero, etc.), podría haber algunas excepciones.
@@ -267,6 +272,31 @@ id: sa8Ah2uxEz4
 title: Slop v Pult 2
 ```
 
+### Mega Excadrill - Parejo
+
+- Ve segundo.
+- Itchy Pollen es útil si no tienen sus Pokémon Básicos en juego, especialmente Genesect, ya que puedes bloquear su Precious Trolley. Sin embargo, si ya tienen la banca seteada, el bloqueo de items es inútil. El daño de 20 a Drilbur puede ser relevante.
+- Moltres es muy importante para infligir daño y también para facilitar el intercambio de premios. Guarda Night Stretcher y Energía Fuego para poder usar a Moltres varias veces.
+- El mapa de premios 3-2-1 es el más común porque siempre tendrán a Genesect en juego. Moltres puede debilitar a Genesect de un solo golpe si es necesario para obtener dos premios fácilmente, dejándote solo con debilitar a un Mega Excadrill y Pokémon aleatorios de un solo premio.
+- Usar Mind Bend al principio puede ser una buena respuesta a un Mega Excadrill rápido, especialmente si no tienen mucha Energía establecida en juego. Moltres suele ser mejor si puedes usar Phantom Dive inmediatamente después. Mind Bend no es una estrategia fiable en general porque juegan suficiente Energía como para retirar a Mega Excadrill cómodamente un par de veces. También puedes usar a Munkidori como escudo al principio del juego, ya que no es noqueado con el ataque de descarte.
+- Crushing Hammer no suele ser tan importante. Puede ser útil, pero no es un recurso que debas guardar o en torno al cual debas planificar.
+- Crispin es incluso más importante de lo normal porque Dragapult es noqueado de un solo golpe y también porque necesitas usar atacantes alternativos como Moltres y, a veces, Munkidori. Carga tanta Energía en juego como sea posible tan pronto como comience el juego para que siempre tengas acceso al mejor ataque para cada situación.
+- Moltres puede ayudarte a invertir el intercambio de premios de forma óptima. Asegúrate de mantener un tablero con un solo premio o al menos interrumpir su mano (cuando tengas Pokémon de dos premios en juego) para evitar que usen Boss's ORders en turnos cruciales, como cuando tienen premios pares.
+
+```youtube
+id: Z4mtndt9xIk
+title: Drill v Pult 1
+```
+
+```youtube
+id: 9G-DkC9q-5o
+title: Drill v Pult 2
+```
+
+```youtube
+id: HnsxI7wf-Dg
+title: Drill v Pult 3
+```
 ### Mega Lucario - Ligeramente Favorable
 
 - 20 de daño sobre Riolu, Lucario y Makuhita suelen ser efectivos.

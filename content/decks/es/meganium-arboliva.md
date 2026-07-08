@@ -1,7 +1,7 @@
 ---
 title: Meganium
 pokemon: [154]
-tier: 3
+tier: 4
 format: Standard
 ---
 
