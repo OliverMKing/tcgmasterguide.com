@@ -177,6 +177,18 @@ title: Blaziken v Mewtwo 2
 - Targeting the Clefairy is usually best. There’s a good chance they just won’t have the response to your Dragapult, especially if you Unfair Stamp them on the same turn.
 - If you have Shaymin or Watchtower, this is a good matchup for them.
 
+### Excadrill - Very Favorable
+
+- I think going first is better but honestly not sure.
+- Prioritize setting up Blaziken as fast as possible. Even better if you can get a second one eventually.
+- Itchy Pollen is good if their board isn’t set up yet. It also gets relevant ten damage onto Fez if they decide to start attacking with it, so that you can finish it off with Phantom Dive. Mind Bend can also be a decent response to Fez.
+- If they don’t have Excadrill in play, just attack with Drakloak or Dragapult, saving Blaziken to respond to Excadrill.
+
+```youtube
+id: 8pYQpK3xHAQ
+title: Drill v PultBlaze 1
+```
+
 ### Lucario - Favorable
 
 - One-shot their Lucario with Clefairy whenever possible. You may need to have extra Energy in play or Budew for a pivot. Crispin can also work. You could also put Clefairy in play preemptively, but that’s a dangerous game because it can be gusted and KO’d fairly easily. I would be more inclined to put it in play if they have no Makuhita on the board.

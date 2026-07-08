@@ -1,7 +1,7 @@
 ---
 title: Raging Bolt
 pokemon: [1021]
-tier: 2
+tier: 3
 format: Standard
 ---
 <!-- PUBLIC -->
@@ -308,6 +308,26 @@ title: Crustle v Bolt 2
 - Use Raging Bolt ex to one-shot Mewtwo whenever possible. Otherwise, attack with whatever the situation calls for. Baby Bolt is good but sometimes annoying to use since you’ll need some Fighting/Lightning for the ex. Fan Rotom is an extremely useful and efficient attacker when they have Tarountula/Mimikyu in the active, which is often. Otherwise, Clefairy or Terapagos are good neutrally. Terapagos is generally better because it does not get KO’d by a Bangle Spidops (but still dies to Max Belt). Mimikyu copying Tera attacks is completely irrelevant, unless you attack with Ogerpon for some reason, which is not recommended.
 - Putting random Energy in play is good whenever you get the chance. It’s hard for them to power up Mewtwo in one turn, so they’ll often put it on the bench and attach an Energy to it. That’s your cue to go for a Boss-KO on it with Bolt.
 - If they don’t have Mewtwo in play, KO’ing their Mimikyu (sometimes via Baby Bolt snipe) can be very good as it is hard for them to maneuver around. Without a pivot, it’s even more difficult for them to put together a Mewtwo play. That said, most Mewtwo-less boards are attacking with Spidops, so you may just want to KO that depending on the situation.
+
+### Excadrill - Slightly Unfavorable
+
+- Go first.
+- Wellspring Ogerpon is very strong. Try to get a fast Torrential Pump for two prizes before they get set up. If they push Genesect, KO it normally or Sob it if you can’t get the KO yet.
+- Raging Bolt and Glass Trumpet are very premium cards for one-shotting an Excadrill.
+- 3-2-1 map is on the table, though it typically requires both Boss and a big Raging Bolt one-shot. You’ll probably want both Boss in most games.
+- Clefairy might seem bad, but it’s actually a very strong and efficient attacker. Mostly good for getting the Boss one-shot on their Genesect / Fez.
+- YOLO Kangaskhan is sometimes the best option.
+- If you don’t have Clefairy in play, Sob’ing a Genesect can reliably buy one turn.
+
+```youtube
+id: dkbC_f9YsAc
+title: Drill v Bolt 1
+```
+
+```youtube
+id: hb0QJ851_EY
+title: Drill v Bolt 1
+```
 
 ### Lucario - Depends
 
