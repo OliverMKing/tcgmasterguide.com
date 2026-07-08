@@ -5,8 +5,8 @@ tier: 3
 format: Standard
 ---
 ## Decklist
-![Ogerpon list](./images/ogerpon/pech.png)
 
+![Ogerpon list](./images/ogerpon/pech.png)
 ```decklist
 Pokémon: 15
 4 Teal Mask Ogerpon ex TWM 25

@@ -6,8 +6,8 @@ format: Standard
 ---
 <!-- PUBLIC -->
 ## Decklist
-![Lopunny list](./images/lopunny/loplist.png)
 
+![Lopunny list](./images/lopunny/loplist.png)
 ```decklist
 Pokémon: 15
 4 Dunsparce JTG 120

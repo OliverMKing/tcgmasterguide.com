@@ -4,10 +4,9 @@ pokemon: [154, 930]
 tier: 4
 format: Standard
 ---
-
 ## Decklist
-![Meganium list](./images/meganium/noct.png)
 
+![Meganium list](./images/meganium/noct.png)
 ```decklist
 Pokémon: 22
 4 Teal Mask Ogerpon ex TWM 25

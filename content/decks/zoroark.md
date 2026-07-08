@@ -5,8 +5,8 @@ tier: 3
 format: Standard
 ---
 ## Decklist
-![Zoroark list](./images/zoroark/dede.png)
 
+![Zoroark list](./images/zoroark/dede.png)
 ```decklist
 Pokémon: 17
 4 N's Zorua ASC 136

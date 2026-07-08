@@ -6,8 +6,8 @@ format: Standard
 ---
 <!-- PUBLIC -->
 ## Decklist
-![Pultnoir list](./images/dragapult-dusknoir/noir.png)
 
+![Pultnoir list](./images/dragapult-dusknoir/noir.png)
 ```decklist
 Pokémon: 21
 4 Dreepy TWM 128
