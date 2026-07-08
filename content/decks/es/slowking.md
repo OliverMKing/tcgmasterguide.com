@@ -229,6 +229,13 @@ title: King v Crust 1
 - Al principio y a mitad de la partida, prioriza atacar a Tarountula, Spidops y Articuno con Trifrost. Al final de la partida, simplemente termina el juego de la forma más eficiente.
 - Si tienen a Mewtwo activo y no puedes sacarle el máximo provecho a Trifrost, entonces puedes noquear a Mewtwo de un solo golpe con Metagross. Infligir 110 de daño a Mewtwo con Trifrost es prácticamente inútil.
 
+### Mega Excadrill - Favorable
+
+Este matchup es favorable si no juegan Shaymin, y probablemente desfavorable si lo hacen.
+
+- No dejes a Mega Kangaskhan en el activo, especialmente una vez que su tablero esté establecido, ya que no queremos darle a Mega Excadrill un KO fácil de tres premios.
+- Trifrost es obviamente una locura. Elimina tres Metang, ataca a Mega Excadrill con 300 de daño y luego usa Trifrost para rematarlo; la victoria se consigue en tres ataques. Si no hay tres objetivos para KO, ataca a su Mega Excadrill con 300 de daño y gana con dos Trifrosts consecutivos. Usar Trifrost primero en ese escenario puede ser peor, ya que pueden retirar a Excadrill y este queda permanentemente a salvo.
+
 ## Conclusión
 
 Este deck no me pareció muy bueno debido a su inconsistencia y a su distribución de matchups algo mediocre. Además, es bastante difícil de jugar de forma óptima. Sin embargo, es mejor de lo que esperaba.

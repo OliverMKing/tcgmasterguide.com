@@ -147,6 +147,25 @@ id: SfQtd8mZFbE
 title: Pultnoir v Hydrap 1
 ```
 
+### Zoroark - Ligeramente Desfavorable
+
+- Un Budew temprano es bueno. Si tienen Pokémon que puedan ser vulnerables de dos premios como Pecharunt o Meowth, conviene atacarlos con tu primer Phantom dive antes de que los eliminen con Transformation Tome.
+- Dusknoir puede ser útil con tu primer Phantom Dive para noquear a un Zoroark de un solo golpe. Esto no es tan relevante si no tienen a Reshiram.
+- Ejercer presión rápidamente suele ser bueno, ya que no queremos que desarrollen una mano poderosa y una banca perfecta.
+- Los 6 contadores de Phantom Dive casi siempre van dirigidos a su Zoroark de reserva.
+- Munkidori es muy bueno en este matchup, al igual que debilitar a su Munkidori con Energía.
+- En partidas donde quieras usar a Dusknoir y Budew, ten cuidado con el mapa de premios del oponente, ya que podría ganar con mayor facilidad.
+
+```youtube
+id: aCS_bCuLyEw
+title: Pultnoir v Zoro 1
+```
+
+```youtube
+id: MDcEZJCONKQ
+title: Pultnoir v Zoro 2
+```
+
 ### Slowking - Ligeramente Desfavorable
 
 - Dusknoir suele ser muy bueno si logras setearlo, pero no se usa en todas las partidas. Es posible ganar con Dusknoir y dos Phantom Dive, dependiendo de como se ve su banca. Cualquier daño extra puede marcar la diferencia.
@@ -204,6 +223,26 @@ title: Pultnoir v Crustle 2
 - Normalmente, lo mejor es atacar a su atacante Psíquico que tenga Energía, especialmente porque tienes que debilitar a Mewtwo de dos golpes de todas formas. Si atacas a Clefairy y dejas un atacante cargado, no les será difícil simplemente usar Night Stretcher para recuperar a Clefairy.
 - Si su único atacante cargado es Mimikyu, una buena forma de contrarrestarlo es no tener a Dragapult en el campo y atacar con otro Pokémon.
 - La Rocket's Watchtower se usa mejor de forma reactiva para destruir su Estadio. Esto aumenta las probabilidades de que fallen. Si la juegas de forma preventiva, no tiene efecto y pueden quitarla fácilmente.
+
+### Mega Excadrill - Desfavorable
+
+- Empieza segundo.
+- Itchy Pollen es útil si no tienen sus Pokémon Básicos en juego, especialmente Genesect, ya que puedes bloquear Precious Trolley. Sin embargo, si ya tienen la banca seteada, el bloqueo de items es inútil. El daño de 20 a Drilbur puede ser relevante en algunos casos.
+- Crushing Hammer no suele ser tan importante. Puede ser útil, pero no es un recurso que debas guardar o en torno al cual debas planificar.
+- Mind Bend temprano es bueno ocasionalmente. A veces tienes una Energía Oscura aleatoria sin nada mejor que hacer que adjuntarla a Munkidori, y a veces no tienen mucha Energía en juego y tienen problemas contra Mind Bend. También puedes usar a Munkidori como escudo al principio del juego porque no muere con el ataque de descarte.
+- Dusknoir es muy bueno, especialmente si consigues Itchy Pollen en Drilbur porque prepara un KO con Crused Blast + Phantom Dive.
+- El mapa de premios 3-2-1 es el más común porque siempre tendrán a Genesect en juego. A veces, gracias a Dusknoir y Dusclops, puedes preparar la victoria con dos Phantom Dive.
+- Crispin es aún más importante de lo normal, ya que Dragapult es noqueado de un solo golpe y también para usar a Munkidorii. Carga tanta Energía como sea posible al inicio de la partida para tener siempre acceso al mejor ataque para cada situación.
+
+```youtube
+id: gmyPPy-tr3w
+title: Pultnoir v Drill 1
+```
+
+```youtube
+id: sRuPcTQZjVc
+title: Pultnoir v Drill 2
+```
 
 ### Mega Lucario - Parejo
 

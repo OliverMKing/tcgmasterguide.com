@@ -287,6 +287,12 @@ title: Crustle v Zam 2
 - Obviamente, este es un matchup terrible debido a Articuno, pero si hay alguna forma de ganar es cargando a Fezandipiti lo más rápido posible y eliminando a su Articuno. Usa Boss's Orders y Enhanced Hammer para alentarlos. A veces roban mal, así que es posible tener suerte.
 - Si por alguna razón no tienen a Articuno en juego, aprovecha cualquier oportunidad para causar el mayor daño posible con Alakazam. También usa a Alakazam para noquear a Spidops.
 
+### Mega Excadrill - Muy Favorable
+
+- Roba tantas cartas como puedas para poder noquear rápidamente a Mega Excadrill. La única excepción es a veces Fezandipiti. A veces está bien usarlo, pero si tienen un buen comienzo y estás por detrás varias cartas de premio, podría ser demasiado arriesgado. Claro que, si Fezandipiti marca la diferencia entre noquear a un Mega Excadrill o no, entonces suele valer la pena.
+- Boss's Orders es un recurso importante cuando empiezan a atacar con Pokémon de una sola carta de premio.
+- Shaymin a veces es útil para detener su Fezandipiti.
+
 ### Lucario - Muy Favorable
 
 - Tus condiciones de derrota involucran Rocky Fighting Energy y Jugde. Juega alrededor de Judge de la misma manera que jugarías con Unfair Stamp.

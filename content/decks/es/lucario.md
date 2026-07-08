@@ -133,29 +133,17 @@ Este matchup podría ser ligeramente desfavorable dependiendo de la lista del op
 
 ### Kangaskhan Box - Favorable
 
-Este matchup es favorable contra decks que no sean del tipo Noctowl Toolbox.
-
-- Hariyama es increíblemente poderoso para cambiar el rumbo del intercambio de premios, y lo más probable es que necesites atacar con él para ganar. Que Clefairy derrote a Lucario de un solo golpe no es un problema siempre y cuando tengas a Hariyama como respuesta.
+- Hariyama es increíblemente poderoso para cambiar el rumbo del intercambio de premios, y lo más probable es que necesites atacar con él para ganar. Que Clefairy noquee a Mega Lucario de un solo golpe no es un problema siempre y cuando tengas a Hariyama como respuesta.
 - Debes usar Aura Jab para preparar a Hariyama. Si caes en la trampa de un KO con Mega Brave sin un plan de seguimiento para cuando Lucario sea derrotado de un solo golpe, perderás.
-- Genesect también es bastante bueno aquí para detener Unfair Stamp.
+- Intenta usar aura Jab para noquear a Mega Kangaskhan lo cual hace que ir 3-2-1 en premios esté bien y no te perjudique la Lillie's Pearl
 - Quizás quieras aplazar al segundo Lucario para evitar que queden 3-3 y obligarlos a pasar por Hariyama.
 
 ```youtube
-id: bzvRSCnAT7U
-title: Lucario v Absol 1
+id: KRenxp2JaK0
+title: Lucario v Kang 1
 ```
 
-```youtube
-id: EKXF9j5d8KE
-title: Lucario v Absol 2
-```
-
-```youtube
-id: WiiZllhotKY
-title: Lucario v Absol 3
-```
-
-### Meganium - Favorable
+### Arboliva - Favorable
 
 - Ve primero aunque a veces tengan Budew.
 - Genesect también es útil aquí para detener Unfair Stamp.
