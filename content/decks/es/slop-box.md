@@ -1,5 +1,5 @@
 ---
-title: Kangskhan Box
+title: Mega Kangskhan Box
 pokemon: [10039]
 tier: 3
 format: Standard
