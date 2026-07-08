@@ -6,8 +6,8 @@ format: Standard
 ---
 <!-- PUBLIC -->
 ## Decklist 1
-![First Raging Bolt list](./images/raging-bolt/prime.png)
 
+![First Raging Bolt list](./images/raging-bolt/prime.png)
 ```decklist
 Pokémon: 19
 4 Mega Kangaskhan ex MEG 104
@@ -72,8 +72,8 @@ I still think this deck is not very good, and inferior to Noctowl or Prism/Lilli
 - This deck does not have much comeback potential so you want to be aggressive and get a prize lead. Sometimes you can hold a bunch of Pokemon until you're ready to go in, which can limit the opponent's available targets or their Clefairy damage.
 
 ## Decklist 2
-![Second Raging Bolt list](./images/raging-bolt/chien.png)
 
+![Second Raging Bolt list](./images/raging-bolt/chien.png)
 ```decklist
 Pokémon: 21
 4 Hoothoot SCR 114

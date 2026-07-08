@@ -5,8 +5,8 @@ tier: 2
 format: Standard
 ---
 ## Decklist
-![Crustle list](./images/crustle/crustlelist.png)
 
+![Crustle list](./images/crustle/crustlelist.png)
 ```decklist
 Pokémon: 11
 4 Dwebble DRI 11

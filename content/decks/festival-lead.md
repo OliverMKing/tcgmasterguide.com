@@ -5,8 +5,8 @@ tier: 2
 format: Standard
 ---
 ## Decklist
-![Festival list](./images/festival-lead/gladion.png)
 
+![Festival list](./images/festival-lead/gladion.png)
 ```decklist
 Pokémon: 22
 4 Grookey TWM 14

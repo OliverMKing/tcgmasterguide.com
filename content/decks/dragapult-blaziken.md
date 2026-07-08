@@ -5,8 +5,8 @@ tier: 1
 format: Standard
 ---
 ## Decklist
-![Blaziken list](./images/dragapult-blaziken/redcard.png)
 
+![Blaziken list](./images/dragapult-blaziken/redcard.png)
 ```decklist
 Pokémon: 21
 Pokémon: 21

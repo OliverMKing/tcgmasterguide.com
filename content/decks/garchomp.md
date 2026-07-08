@@ -5,8 +5,8 @@ tier: 4
 format: Standard
 ---
 ## Decklist
-![Garchomp list](./images/garchomp/chomplist.png)
 
+![Garchomp list](./images/garchomp/chomplist.png)
 ```decklist
 Pokémon: 20
 4 Cynthia's Gible DRI 102

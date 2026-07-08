@@ -5,8 +5,8 @@ tier: 3
 format: Standard
 ---
 ## Decklist
-![Mewtwo list](./images/mewtwo/tools.png)
 
+![Mewtwo list](./images/mewtwo/tools.png)
 ```decklist
 Pokémon: 15
 4 Team Rocket's Tarountula DRI 19
