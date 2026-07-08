@@ -1,7 +1,7 @@
 ---
 title: Ogerpon
 pokemon: [1017]
-tier: 2
+tier: 3
 format: Standard
 ---
 ## Decklist
