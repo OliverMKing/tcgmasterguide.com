@@ -177,6 +177,22 @@ title: Blaziken v Mewtwo 2
 - Targeting the Clefairy is usually best. There’s a good chance they just won’t have the response to your Dragapult, especially if you Unfair Stamp them on the same turn.
 - If you have Shaymin or Watchtower, this is a good matchup for them.
 
+### Hide n Sneak - Favorable
+
+- Set up multiple Blaziken and a Munkidori. Put them in the Blaziken spin cycle.
+- Attacking with Dragapult once in the early-game is not too bad since it forces Clefairy down. You can KO the Clefairy with Blaziken and just use Blaziken from there. The early-game can be played various different ways.
+- If you play Watchtower, save it to counter Patrat or use it alongside hand disruption.
+
+```youtube
+id: jBYBGKaGCxE
+title: Sneak v PultBlaze 1
+```
+
+```youtube
+id: SfY_1pp-vgs
+title: Sneak v PultBlaze 2
+```
+
 ### Excadrill - Very Favorable
 
 - I think going first is better but honestly not sure.

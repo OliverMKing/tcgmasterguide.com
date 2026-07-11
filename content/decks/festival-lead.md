@@ -200,6 +200,23 @@ title: Festival v Lucario 2
 - Switching cards are premium resources if you play any such damage sponges.
 - Ideal board is Goldeen, Seaking, two apple, and two Thwackey. Attack with Dipplin, use Seaking as a sponge, and use the Goldeen to immediately evolve into Seaking when it gets KO'd.
 
+### Hide n Sneak - Slightly Unfavorable
+
+- If they have an extra Energy in play or Air Balloon on their Flutter Mane (if they are capable of pivoting the Flutter Mane in any way), KO the Flutter Mane on sight. Otherwise, just go for the Gladion play and force them to promote Flutter with no pivot. Of course, the Gladion play is also insanely strong if they have no Flutter Mane in play.
+- Don’t forget to use all Boom Boom searches before Bossing the Flutter Mane!
+- Growing Energy on Dipplin is very good if they are attacking with Banette. It’s also possible to make the board safe from Banette-KO, which can be relevant.
+- Dipplin is generally the ideal attacker but sometimes you have to use Seaking for one reason or another. Make sure to always have the Gladion play available.
+
+```youtube
+id: MNVwYHWVNFI
+title: Sneak v Festival 1
+```
+
+```youtube
+id: nRwJ9R4LPNw
+title: Sneak v Festival 2
+```
+
 ### Excadrill - Favorable
 
 - Set up triple Thwackey and triple apple or double apple plus Seaking. Seaking is useful in this matchup because it can still one-shot anything with the right modifiers. It is similar to another Dipplin and Goldeen has Festival Lead. However, the draw effect of Seaking can be very bad if you need to use Gladion in the future!

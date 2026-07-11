@@ -245,6 +245,30 @@ id: sa8Ah2uxEz4
 title: Slop v Pult 2
 ```
 
+### Hide n Sneak - Favorable
+
+This build is favored against Sneak because of heavy hand disruption and Watchtower. Most lists will be closer to even or unfavorable depending on Watchtower count. Risky Ruins is also useful in this matchup but it’s not as strong as Watchtower.
+
+- Early Itchy Pollen is good, but it’s usually best on Turn 2 instead. If you hard retreat into it on Turn 1, it will easily get KO’d by Dhelmise or Banette, and then you’re still not ready to attack. This gives up an extra prize and Energy. If you can Itchy Pollen on Turn 2 (particularly after they use Banette) and follow it up with Stamp Phantom Dive it can be game-winning.
+- Munkidori can be a good sponge for Banette in the early-game. Otherwise Munkidori is not very useful. Occasionally you can use Mind Bend to stall a Dhelmise for time if necessary. Drakloak also works as an early-game Banette sponge if you can KO Clefairy as a response.
+- Hand disruption and Watchtower are the cards that win this matchup. Try to combo them together.
+- KO Clefairy on sight. Some rare exceptions exist.
+
+```youtube
+id: GPgmQZNwuUg
+title: Sneak v Pult 1
+```
+
+```youtube
+id: KrIuQQ5Y2Fc
+title: Sneak v Pult 2
+```
+
+```youtube
+id: O5GnPSfiIww
+title: Sneak v Pult 3
+```
+
 ### Excadrill - Even
 
 - Go second.
