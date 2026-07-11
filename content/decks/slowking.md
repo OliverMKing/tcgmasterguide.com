@@ -269,6 +269,22 @@ title: King v Crust 1
 - For the early- and mid-game, prioritize hitting Tarountula, Spidops, and Articuno with Trifrost. In the late-game, just close it out in whatever way is most efficient.
 - If they have Mewtwo active and you can’t get max value from a Triforst, then it’s ok to one-shot the Mewtwo with Metagross. Pinging Mewtwo for 110 with Trifrost is pretty much useless.
 
+### Hide n Sneak - Slightly Unfavorable
+
+- Even if their board isn’t particularly vulnerable to Trifrost, it’s still worth going for. KO’ing Dunsparce is the highest priority, otherwise put the damage onto Dhelmise and set them up to get wiped. This deck is capable of chaining Trifrost and that’s what you want to do. If they only have two Pokemon in play, it’s probably not worth using Trifrost in that instance.
+- Do not leave Kang in the active if there is any chance of it getting attacked! This will give them a free three prizes in two attacks, which must be avoided!
+- Be careful not to run out of gas. This requires some thoughtful use of resources, and sometimes you’ll need Clefairy as an efficient attacker to close out the game. However, if your opponent does not play the matchup correctly, you won’t have to think as hard.
+
+```youtube
+id: J96IFKJc8gg
+title: Sneak v King 1
+```
+
+```youtube
+id: it6-5D9h9vA
+title: Sneak v King 2
+```
+
 ### Excadrill - Favorable
 
 This matchup is favorable if they do not play Shaymin, and probably unfavorable if they do.

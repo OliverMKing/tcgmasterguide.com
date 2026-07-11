@@ -207,6 +207,18 @@ title: Drill v Slop 1
 id: 1wwt0VOC4Rc
 title: Drill v Mewtwo 1
 ```
+### Hide n Sneak - Unfavorable
+
+This is the main matchup where Ice Creams would be very good. If you have Ice Creams, the matchup is favorable.
+
+- Attacking with Excadrill is very bad if it’s going to get smacked by Dhelmise. Therefore, it’s best to attack with Excadrill before they get Dhelmise online, if at all.
+- Attacking with Metagross and Genesect is best. Use Night Stretcher for Metagross if they KO it. If they smack Genesect, retreat it. If Genesect is somehow untouched going into Ursaluna range, Protect Charge stops the Ursaluna KO.
+- Use Drilbur to KO Dunsparce.
+
+```youtube
+id: XcVEM5eOs8I
+title: Sneak v Drill 1
+```
 
 ## Personal Thoughts
 

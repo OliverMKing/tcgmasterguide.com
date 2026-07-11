@@ -309,6 +309,25 @@ title: Crustle v Bolt 2
 - Putting random Energy in play is good whenever you get the chance. It’s hard for them to power up Mewtwo in one turn, so they’ll often put it on the bench and attach an Energy to it. That’s your cue to go for a Boss-KO on it with Bolt.
 - If they don’t have Mewtwo in play, KO’ing their Mimikyu (sometimes via Baby Bolt snipe) can be very good as it is hard for them to maneuver around. Without a pivot, it’s even more difficult for them to put together a Mewtwo play. That said, most Mewtwo-less boards are attacking with Spidops, so you may just want to KO that depending on the situation.
 
+### Hide n Sneak - Even
+
+- Attack with whatever two-prizer you want to start the game. Clefairy is usually most efficient. Fez and Waterpon can be ok too. Once any attacker takes damage, retreat it for something else. Building up Teal Mask to attack is generally good.
+- Use Stamp when they have no Dudunsparce in play. Sometimes you need to set this up a turn or two in advance, and oftentimes need to Boss KO Dudunsparce on the same turn. This play is especially strong when they need to hit Boss on the next turn.
+- Chien-Pao is premium because it can remove damaged Pokemon off the bench. If you can remove two Pokemon that are in KO-range, it is game-winning. However, waiting can be punished, so just removing one Pokemon in KO-range is typically fine. If you’re far behind in the prize trade, perhaps being greedy becomes more necessary.
+- Don’t put down Raging Bolt unless you need it to KO Ursaluna.
+- Try to limit Meowth usage. Kang and Fez draw are best.
+- When you’re in Ursaluna range, make sure to attack with Kang to force them to also find Boss. Alternatively, Fez or Waterpon can snipe around the Dhelmise to strand it active, but that only works if they have a low-HP target such as Dunsparce.
+
+```youtube
+id: Fo118BBrdLY
+title: Sneak v Bolt 1
+```
+
+```youtube
+id: 33oUkHZ-5qE
+title: Sneak v Bolt 2
+```
+
 ### Excadrill - Slightly Unfavorable
 
 - Go first.

@@ -216,6 +216,23 @@ id: YT4891TzjBk
 title: Festival v Mewtwo 1
 ```
 
+### Hide n Sneak - Unfavorable
+
+- Spidops is a good fast attacker, but Mewtwo is better overall whenever possible.
+- Try to get both Mewtwo online and attack with them. Once a Mewtwo takes heavy damage, retreat it into something else. Never attack with a Mewtwo that’s in Dhelmise KO range.
+- Try not to feed them early Banette KO’s. In general, if they have Banette in play, try to make a board where it cannot KO anything.
+- KO’ing Dhelmise whenever possible is best as we would like them to run out of Dhelmise and therefore fail the prize trade.
+
+```youtube
+id: GhgZwgT1mEo
+title: Sneak v Mewtwo 1
+```
+
+```youtube
+id: _wQ-3u4MEpE
+title: Sneak v Mewtwo 2
+```
+
 ### Excadrill - Slightly Unfavorable
 
 - Spidops is the go-to attacker since it doesn’t give up two-prizes. It’s also better early before Pokemon start getting KO’d and its damage gets diminished. You will eventually need Max Belt to two-shot Excadrill with Spidops. It’s also possible to follow up a Spidops smack on Excadrill with a Mewtwo KO if you don’t have Max Belt.

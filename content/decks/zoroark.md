@@ -210,6 +210,20 @@ title: Slop v Zoro 1
 - Just go fast and hope they draw bad. Zorua can sometimes get a fast KO and is generally good for prize trading into Tarountula.
 - If you play Darmanitan, it is very good as you can have Zoroark copy the second attack with Mochi to KO Spidops and Tarountula.
 
+### Hide n Sneak - Favorable
+
+- Hammer / Ruffian is very good to bop their Legacy Energy. Try not to KO the Pokemon with Legacy until you can remove the Energy.
+- If you play Darmanitan, it’s very good in this matchup to take two-prize turns.
+- Try not to use Meowth or Tome it out asap.
+- Fez and Pech are useful, but when you get in range of Ursaluna, Tome them out.
+- After Zoroark takes damage, retreat it to a fresh one so they have to find Boss.
+- In general, target down Dudunsparce to make them eventually whiff something.
+
+```youtube
+id: CgJXA_BAEVg
+title: Sneak v Zoro 1
+```
+
 ### Excadrill - Unfavorable
 
 - Random Scratch or Clutch on Drilbur / Excadrill is very good because it sets up for the Black Belt Mochi one-shot.

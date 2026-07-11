@@ -189,6 +189,12 @@ If they have no techs this matchup is an auto-win.
 
 - In case of a surprise Passimian, play the same was as against Raging Bolt.
 
+### Hide n Sneak - Unfavorable
+
+- Power up a Kang on the bench and try to make it invincible with healing and Cape. Target Dhelmise once you start attacking.
+- Sacrifice Dwebble / Crustle while setting up. Once the first Kang is ready to go, start powering up a second Kang. 
+- If the first Kang takes heavy damage before it is set up, it may be better to abandon it and start powering up the second one right away, but it depends on the situation.
+
 ### Lucario - Very Unfavorable
 
 - Try to get Cape on Crustle and Boss smack Makuhita/Hariyama whenever possible, especially when they Aura Jab onto it.

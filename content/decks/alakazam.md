@@ -287,6 +287,24 @@ title: Crustle v Zam 2
 - This is obviously a horrible matchup because of Articuno, but if there is a way to win it’s by powering up Fez as fast as possible and taking out their Articuno. Use Boss’s Orders and Enhanced Hammer to slow them down. They do sometimes draw garbage, so it is possible to get lucky.
 - If they for some reason do not have Articuno in play, wreak as much havoc as possible with Alakazam during that window whenever possible. Also use Alakazam to KO Spidops.
 
+### Hide n Sneak - Unfavorable
+
+- Get Fez and start attaching to it immediately. Use it to KO Banette. Ideally two.
+- If they have a non Sneak guy active, aggressively use Alakazam to KO it. Also use Boss to get Alakazam KO’s. Getting Alakazam KO’s first is ideal since Fez KO’ing Banette charges up their Dhelmise.
+- You also need to start powering up Dudunsparce to attack later in the game (after Fez goes down).
+- This matchup requires very careful use of Energy (and Balloon if you play it). All recovery cards need to be used on Psychic Energy. All Energy (including Enriching) will need to be used for attacking purposes.
+- Draw cards as much as possible.
+
+```youtube
+id: rlDTFg8czno
+title: Sneak v Zam 1
+```
+
+```youtube
+id: g6O65XUmUxM
+title: Sneak v Zam 2
+```
+
 ### Excadrill - Very Favorable
 
 - Draw cards as much as possible so you can quickly one-shot Excadrill. The one exception is sometimes Fez. Sometimes it’s fine to put down, but if they got a fast start and you’re behind several prizes, it might be too much of a risk. Of course, if Fez is the difference between KO’ing an Excadrill and not, then it’s usually worth it.
