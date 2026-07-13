@@ -6,7 +6,7 @@ format: Standard
 ---
 ## Decklist
 
-![Meganium list](./images/meganium/noct.png)
+![Meganium list](./images/meganium-arboliva/noct2.png)
 ```decklist
 Pokémon: 22
 4 Teal Mask Ogerpon ex TWM 25
@@ -23,13 +23,13 @@ Pokémon: 22
 
 Trainer: 26
 4 Lillie's Determination MEG 119
-3 Dawn PFL 87
+2 Dawn PFL 87
 2 Boss's Orders MEG 114
-1 Judge POR 76
 4 Bug Catching Set TWM 143
 4 Ultra Ball MEG 131
-2 Poké Pad ASC 198
+3 Poké Pad ASC 198
 1 Night Stretcher ASC 196
+1 Special Red Card CRI 82
 1 Unfair Stamp TWM 165
 4 Forest of Vitality MEG 117
 
@@ -41,7 +41,7 @@ Energy: 12
 
 - You usually won’t need the third or fourth Ogerpon, but they are important to find early. They get the deck going and you want to start loading Energy on Ogerpon quickly so that they can one-shot anything.
 - Noctowl greatly improves the performance of this deck. I don't think one is reliable enough, and I always want to have it, so I like the 2-2 line.
-- The one of Judge looks bad but it actually is very strong in some situations. It can break opponent’s combos if they are building a large hand, which ends up being relevant a lot more often than I expected. Stamp is useful for the same reason, and both can be searched with Noctowl.
+- I swapped the Judge for Special Red Card because drawing off Judge is not the important part, and you usually use it for disruption later anyway. Therefore, I think Special Red Card is better for breaking up opponent's combos and stopping them from amassing a huge hand.
 - Even with Noctowl, Forest and Dawn are kind of hard to find and I always want to have them. I tried with 3 Forest and really think 4 is necessary. Dawn is even better with Noctowl.
 
 ### Exclusions
@@ -65,7 +65,9 @@ Energy: 12
 
 ## Matchups
 
-### Dragapult - Unfavorable
+### Dragapult - Depends
+
+Against versions with Moltres or Blaziken, the matchup is unfavorable. Against other builds, it's much closer.
 
 - Prioritize getting a fast Arboliva and try to get max value from Items before getting Item-locked. When using Arboliva’s attack, KO Drakloak and put 20 on the next Drakloak/Dreepy. On the next attack, you can KO that Drakloak/Dreepy and Budew.
 - It’s also possible to do a similar thing but with Fezandipiti and Meganium instead of Arboliva. Of course, getting the Arboliva is easier and better, but if your hand lines up for the fast Fez instead, that’s nearly as good. Keep your eyes peeled for that option.
@@ -104,7 +106,7 @@ title: Blaziken v Meg 2
 
 ### Raging Bolt - Favorable
 
-- Arboliva is actually decent for sniping Hoothoot and it’s hard for them to KO if they don’t already have a lot of Energy in play. If they already have a few Energy as well as an extra Hoothoot (or a large hand), using Arboliva is not as good as they may nuke it with Raging Bolt ex.
+- Arboliva is not very good in this matchup unless you're against the Noctowl version of Bolt, which is not seen much these days.
 - Similar to other prize trade matchups, try to get an even-prize lead and win normally from there. There is not much depth here, this deck just matches up well since it’s easier for us to chain KO’s than it is for them.
 - Staying at four Pokemon on the bench makes it harder for them to win since they cannot KO Ogerpon with Clefairy (unless they also get Area Zero).
 - Stamp + KO’ing support Pokemon can be very strong depending on the situation. If they don’t have Latias, Boss stall plus Arboliva snipe can also be effective since it’s annoying for them to find it.
@@ -118,6 +120,94 @@ title: Bolt v Meganium 1
 id: lvVut6hOcNI
 title: Bolt v Meganium 2
 ```
+
+### Zoroark - Favorable
+
+- Treat this the same as other prize-trade matchups. Don’t initiate with Ogerpon unless you’re getting two prizes. Opening with a single-prizer or Arboliva is best. With a single-prizer, you have to be a little careful if they are threatening Darmanitan, so sometimes you want a chunkier one like Bayleef or Meganium. Leaving up a lower-HP Pokemon is fine if you don’t have something else in play that Darmanitan can snipe, or if they don’t have Darumaka in play yet.
+- As always, fast Arboliva is very good since it’s hard for them to KO it early. Getting the two-prize lead straight-up is best if you have the option (such as Ogerpon Boss on Zoroark).
+- Yveltal is basically a non-issue since everything can attack with two attachments, so don’t worry about it.
+- Using an extra Energy attachment on Meganium is very good, as it can one-shot Zoroark for just two Energy. This is relatively easy to do since you don’t really need to prioritize loading up Ogerpon with a bunch of Energy. This can be a solid way to make a comeback if they do get the initial lead, especially combined with Stamp or Red Card to make them whiff gusts.
+
+```youtube
+id: rft0Tohghl4
+title: Zoroark v Meganium 1
+```
+
+```youtube
+id: VESe6pnhDkk
+title: Zoroark v Meganium 2
+```
+
+### Festival Lead - Slightly Unfavorable
+
+- Arboliva is the ideal attacker, even if they have Shaymin in play. Meganium isn’t very important. All Arboliva pieces are resources as you will ideally make two Arboliva each game.
+- Usually it’s best to bump their Stadium. One exception is if they have two Dipplin and no Applin, and you can Stamp next turn. You can KO their Dipplin, and then next turn hit them with Stamp + KO, withholding Forest so they cannot get a backup Dipplin, and then playing the Forest on the Stamp turn. The same concept applies with Special Red Card. If they have no backup Dipplin, just disrupt + KO right away!
+
+```youtube
+id: hCIQ25JKocE
+title: Festival v Meganium 1
+```
+
+```youtube
+id: 6Xz91WQNidc
+title: Festival v Meganium 2
+```
+
+### Slowking - Favorable
+
+- Forest allows us to play around Trifrost to some extent. If there is a threat of an incoming Trifrost, do not put down Chikorita / Smolliv until you can fully evolve them up in the same turn! Meganium isn't important early-game if you're able to get a fast Arboliva, but will eventually be good for allowing Ogerpon to one-shot their big guys.
+- Arboliva is insane in this matchup. It can snipe down Slowpoke and Slowking and put a lot of pressure on their Energy attachments. Try to get a fast Arboliva and KO whatever they have Energy on.
+- You'll want to be able to make a second Arboliva at some point. Even if they play Bangle, they can probably only get one one-shot on Arboliva with no way to one-shot the second one.
+- If you end up attacking with Ogerpon or Fez, you may need to keep it out of Clefairy one-shot range by keeping just four Pokemon on your bench.
+
+### Alakazam - Unfavorable
+
+- Try to get a fast Arboliva. If you can’t, attack with whatever you can as fast as possible.
+- Hand disruption is your win condition. Red Card/Stamp when you’re attacking with Arboliva to try and make them whiff. KO two Abra with Arboliva if possible.
+- Try to get a second Arboliva as well.
+- If they don’t have Shaymin in play, you can Boss stall something and try to set up a board wipe with multiple Arboliva attacks. This only realistically works alongside Stamp.
+- If they only have one Dudunsparce/Fez in play, KO it on the Stamp turn, and they might brick.
+
+```youtube
+id: iD7-LXurpaQ
+title: Zam v Meganium 1
+```
+
+```youtube
+id: mfO2VViBono
+title: Zam v Meganium 2
+```
+
+### Hydrapple - Slighty Unfavorable
+
+- This is another 2-2-2 prize race matchup. Try not to give up the first two prizes.
+- Arboliva is mostly bad unless a perfect opportunity to use it early lines up. It's possible they won't be able to KO it right away.
+- Ogerpon is the main attacker to rely on for collecting prizes and you need Meganium in play at all times.
+- Watch out for Briar. Try to save hand disruption to use on their potential Briar turn. If you play Briar, keep it around if you're on odd prizes.
+
+### Slop Box - Slightly Unfavorable
+
+- Arboliva is not very good in this matchup.
+- Attack with Ogerpon and only keep four Pokemon on bench at all times. Bump their Stadiums on sight.
+- Boss KO their Kang with a big Ogerpon as soon as possible. It's a valuable source of three prize cards and they will remove it with Chien-Pao eventually.
+- Hand disruption is best when they have no Fez in play, or when you're KO'ing their Fez. Can also be used to buy a turn if you aren't taking a KO, which is less than ideal but viable if you can use something to tank a hit.
+
+### Crustle - Unfavorable
+
+- Fast Arboliva is very good for sniping off Dwebble, and they can't easily KO it.
+- Try to target their Energy. If they are loading Crustle on the bench, try to smack it with Meganium or even Noctowl as quickly as possible. 
+- Extra attachments should go onto Meganium since that’s the only thing that can take out a Crustle. Ideally you’ll also use Stamp when going in with Meganium, although those cards are also good at pretty much any time. Hand disruption is the best way to realistically win this matchup.
+
+```youtube
+id: ioVZ82Db7Gw
+title: Crustle v Meg 1
+```
+
+### Hide n Sneak - Unfavorable
+
+- This matchup is a very bad in terms of the prize trade, so we want to be fast and shut them down. Arboliva can snipe down Dunsparce. With extra snipe damage, try to get 20 on each extra Dunsparce / Dudunsparce so that you can follow up by KO'ing Dudunsparce. If they heal the Dunsparce by escaping with Run Away Draw, they lose their protection from hand disruption and you can continue KO'ing Dunsparce. If they keep Dudunsparce with 20 damage in play, just KO it. You'll probably want a second Arboliva and / or a Fez.
+- Cycling attackers once they take damage is generally a good idea (especially if it's Ogerpon or Fez, less true for Arboliva). If you need to continue sniping Dunsparce, it may be more efficient to leave a damaged attacker active (commonly the case with Arboliva).
+- Try to never put Meowth down because their Dhelmise can easily one-shot it.
 
 ### Mewtwo - Favorable
 
@@ -135,44 +225,16 @@ id: Txu0iMcxAKA
 title: Mewtwo v Meganium 2
 ```
 
-### Festival Lead - Slightly Unfavorable
+### Excadrill - Slightly Favorable
 
-- Arboliva is the ideal attacker, even if they have Shaymin in play. Meganium isn’t very important. All Arboliva pieces are resources as you will ideally make two Arboliva each game.
-- Usually it’s best to bump their Stadium. One exception is if they have two Dipplin and no Applin, and you can Stamp next turn. You can KO their Dipplin and next turn hit them with Stamp + KO, withholding Forest so they cannot get a backup Dipplin, and then playing the Forest on the Stamp turn. The same concept applies with Judge as well, but it works less often. If they have no backup Dipplin, just disrupt + KO right away!
-
-```youtube
-id: hCIQ25JKocE
-title: Festival v Meganium 1
-```
-
-```youtube
-id: 6Xz91WQNidc
-title: Festival v Meganium 2
-```
-
-### Alakazam - Very Unfavorable
-
-- Try to get a fast Arboliva. If you can’t, attack with whatever you can as fast as possible.
-- Hand disruption is your win condition. Judge/Stamp when you’re attacking with Arboliva to try and make them whiff. KO two Abra with Arboliva if possible.
-- Try to get a second Arboliva as well.
-- If they don’t have Shaymin in play, you can Boss stall something and try to set up a board wipe with multiple Arboliva attacks. This only realistically works alongside Stamp.
-- If they only have one Dudunsparce/Fez in play, KO it on the Stamp turn, and they might brick.
-
-```youtube
-id: iD7-LXurpaQ
-title: Zam v Meganium 1
-```
-
-```youtube
-id: mfO2VViBono
-title: Zam v Meganium 2
-```
+- Arboliva can be good for fast sniping, but keep in mind that it does prize trade badly once they're set up. It also won't be needed in some games since you're looking for a 3-2-1 map most of the time, and Arboliva is sometimes just a high-effort way of getting that one. Of course, an alternative way to win is by shutting them down completely, which Arboliva can do, but it's highly situational. In other words, Arboliva can be good to stop them from getting a 5-Energy Excadrill, but is basically useless if they're able to do so.
+- Load Energy on multiple Ogerpon so that you can win by one-shotting Excadrill and then Boss-KO'ing their Genesect. Ogerpon is generally the best attacker.
 
 ### Lucario - Unfavorable
 
 - Hitting Riolu for 10 with a random guy or pinging it for 20 with Arboliva is relevant for the Ogerpon breakpoint.
 - Arboliva is very good. Try to get it early, and sometimes you’ll want a second one. Sometimes it’s best to KO Lunatona or Solrock if their board isn’t developed. Otherwise, KO’ing Makuhita while pinging Riolu/Lucario is also very good.
-- Meowth/Fez are big liabilities but it’s hard to go without them. Try to use Arboliva to snipe off Makuhita and Judge to disrupt them when they have a big hand. If they whiff a response to an Arboliva, it’s possible to win as a result.
+- Meowth/Fez are big liabilities but it’s hard to go without them. Try to use Arboliva to snipe off Makuhita and disrupt them when they have a big hand. If they whiff a response to an Arboliva, it’s possible to win as a result.
 - Getting tons of Energy on Ogerpon quickly is another win condition. If you can one-shot their Lucario as soon as they attack with it, you’ll be in great shape. Since that sometimes isn’t possible, you may need to save an Energy for Arboliva instead.
 
 ```youtube
@@ -206,40 +268,13 @@ id: A0I3I8FeHYw
 title: Chomp v Meg 3
 ```
 
-### Meganium mirror - Even
+### Arboliva mirror - Even
 
 - If you play Budew, it can be both good and bad. It can be good for its normal purpose, but bad because they can punish it with Arboliva. If you have another small single-prize Pokemon on the board, it may be better to not put Budew down so they cannot get two prizes with Arboliva. If that looks like an issue, you can push a different single-prize Pokemon as a sacrifice before you’re ready to go in.
 - Even if you aren’t getting two prizes, Arboliva can be useful to KO Chikorita/Bayleef and potentially deny a Meganium. Boss stalling can also stress their Energy so they can’t load up Ogerpon as quickly.
 - Ideally, you’ll simply get the first two prizes and win from there. If you’re behind, you’ll have to rely on Arboliva and disruption tactics to try and make them whiff something.
 - If you have extra ping damage, think about what you might want to go for. 20 on Meowth puts it in range of Arboliva’s second attack, while 60 puts it in range of another snipe. 40 on Meganium puts it in range of another snipe, and damage on their Arboliva can make it easier for Ogerpon to KO it.
 - Your Meganium boosts their Ogerpon’s damage. It’s possible to delay Meganium to make it harder for them to one-shot your Arboliva.
-
-### Crustle - Unfavorable
-
-- Fast Arboliva is very good for sniping off Dwebble (or Munkidori).
-- Extra attachments should go onto Meganium since that’s the only thing that can take out a Crustle. Ideally you’ll also use Judge or Stamp when going in with Meganium, although those cards are also good at pretty much any time. Hand disruption is the best way to realistically win this matchup.
-
-```youtube
-id: ioVZ82Db7Gw
-title: Crustle v Meg 1
-```
-
-### Zoroark - Favorable
-
-- Treat this the same as other prize-trade matchups. Don’t initiate with Ogerpon unless you’re getting two prizes. Opening with a single-prizer or Arboliva is best. With a single-prizer, you have to be a little careful if they are threatening Darmanitan, so sometimes you want a chunkier one like Bayleef or Meganium. Leaving up a lower-HP Pokemon is fine if you don’t have something else that Darmanitan can snipe, or if they don’t have Darumaka yet.
-- As always, fast Arboliva is very good since it’s hard for them to KO it early. Getting the two-prize lead straight-up is best if you have the option (such as Ogerpon Boss on Zoroark).
-- Yveltal is basically a non-issue since everything can attack with two attachments, so don’t worry about it.
-- Using an extra Energy attachment on Meganium is very good, as it can one-shot Zoroark for just two Energy. This is relatively easy to do since you don’t really need to prioritize loading up Ogerpon with a bunch of Energy. This can be a solid way to make a comeback if they do get the initial lead, especially combined with Stamp or Judge to make them whiff gusts.
-
-```youtube
-id: rft0Tohghl4
-title: Zoroark v Meganium 1
-```
-
-```youtube
-id: VESe6pnhDkk
-title: Zoroark v Meganium 2
-```
 
 ### Ogerpon - Depends
 
@@ -259,23 +294,6 @@ id: OILBoOI06cM
 title: Ogerpon v Meganium 2
 ```
 
-### Slop Box - Even
-
-- If they have Munkidori and a Mega in play, use Arboliva to KO the Munki, which sets up a very nice 1-3-2 prize map.
-- If you can nuke their active with Ogerpon and take the lead in the prize race (or use Boss to do so), that is an easy way to win. If you can’t, leave a single-prizer up instead and wait until you can. Budew is generally good if you play it, but you do have to be somewhat careful with it. If you Itchy Pollen three times, they can KO it with Adrenabrain and open aggression with the lead.
-- This matchup is a very straightforward prize race where each side tries to position themselves to get the lead at the beginning, as it is very hard to make a comeback if you’re behind. Loading Energy on multiple Ogerpon is generally good as you need to chain them for one-shots. This is one matchup where the third Ogerpon can potentially be good, especially if they don’t put down Munkidori since Arboliva will have less value in that case.
-- Staying at four Pokemon on the bench makes it harder for them to win since they cannot KO Ogerpon with Clefairy (unless they also get Area Zero).
-
-```youtube
-id: PvhArUmgbJ4
-title: Absol v Meganium 1
-```
-
-```youtube
-id: ImYPuD7Y3_Y
-title: Absol v Meganium 2
-```
-
 ## Personal Thoughts
 
-This deck is not very good or relevant in the meta right now. I probably won't add as many updates for it until it becomes better or more relevant.
+This deck is not very good or relevant in the meta right now so I won't keep up with updates as much as other decks.
