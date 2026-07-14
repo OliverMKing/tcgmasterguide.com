@@ -188,6 +188,12 @@ title: Crustle v Mewtwo 2
 - Si no tienen techs específicas, este matchup es autowin.
 - En caso de una jugada sorpresa con Passimian, juega igual que contra Raging Bolt.
 
+### Hide n Sneak - Desfavorable
+
+- Carga a un Kang en la banca e intenta hacerlo invencible con curación y la capa. Ataca a Dhelmise una vez que comiences a atacar.
+- Sacrifica a Dwebble o Crustle mientras te preparas. Una vez que el primer Kang esté listo, comienza a cargar un segundo Kang.
+- Si el primer Kang recibe mucho daño antes de estar seteado, puede ser mejor abandonarlo y comenzar a cargar el segundo de inmediato, pero depende de la situación.
+
 ### Mega Lucario - Muy desfavorable
 
 - Intenta ponerle Hero’s Cape a Crustle y ataca a Makuhita/Hariyama con Boss's Orders siempre que sea posible, especialmente cuando usen Aura Jab sobre él.

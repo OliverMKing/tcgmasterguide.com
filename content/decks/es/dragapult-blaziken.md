@@ -182,6 +182,22 @@ id: IZFz1CYLWvw
 Título: Blaziken v Slop 1
 ```
 
+### Hide n Sneak - Favorable
+
+- Prepara varios Blaziken y un Munkidori. Rota entre los Blaziken para atacar.
+- Atacar con Dragapult una vez al principio de la partida no está mal, ya que obliga a Clefairy a bajar. Puedes noquear a Clefairy con Blaziken y seguir usando a Blaziken. La fase inicial de la partida se puede jugar de varias maneras.
+- Si juegas Watchtower, guárdala para contrarrestar a Patrat o úsala junto con cartas que interrumpan la mano del oponente.
+
+```youtube
+id: jBYBGKaGCxE
+title: Sneak v PultBlaze 1
+```
+
+```youtube
+id: SfY_1pp-vgs
+title: Sneak v PultBlaze 2
+```
+
 ### Mega Excadrill - Muy Favorable
 
 - Creo que ir primero es mejor, pero sinceramente no estoy seguro.

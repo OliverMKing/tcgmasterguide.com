@@ -287,6 +287,24 @@ title: Crustle v Zam 2
 - Obviamente, este es un matchup terrible debido a Articuno, pero si hay alguna forma de ganar es cargando a Fezandipiti lo más rápido posible y eliminando a su Articuno. Usa Boss's Orders y Enhanced Hammer para alentarlos. A veces roban mal, así que es posible tener suerte.
 - Si por alguna razón no tienen a Articuno en juego, aprovecha cualquier oportunidad para causar el mayor daño posible con Alakazam. También usa a Alakazam para noquear a Spidops.
 
+### Hide n Sneak - Desfavorable
+
+- Consigue a Fez y empieza a cargarlo inmediatamente. Úsalo para noquear a Banette. Idealmente, dos Banette.
+- Si tienen un Pokémon que no sea de Hide-n-Sneak activo, usa agresivamente a Alakazam para noquearlo. También usa a Boss para conseguir noqueos con Alakazam. Conseguir noqueos con Alakazam primero es ideal, ya que cuando Fez noquea a Banette, habilita a su Dhelmise.
+- También necesitas empezar a cargar a Dudunsparce para atacar más adelante en la partida (después de que Fez sea noqueado).
+- Este matchup requiere un uso muy cuidadoso de las Energías (y del Air Balloon si lo juegas). Todas las cartas de recuperación deben usarse en Energía Psíquica. Toda la Energía (incluida la de Enriquecimiento) deberá usarse para atacar.
+- Roba cartas tanto como sea posible.
+
+```youtube
+id: rlDTFg8czno
+title: Sneak v Zam 1
+```
+
+```youtube
+id: g6O65XUmUxM
+title: Sneak v Zam 2
+```
+
 ### Mega Excadrill - Muy Favorable
 
 - Roba tantas cartas como puedas para poder noquear rápidamente a Mega Excadrill. La única excepción es a veces Fezandipiti. A veces está bien usarlo, pero si tienen un buen comienzo y estás por detrás varias cartas de premio, podría ser demasiado arriesgado. Claro que, si Fezandipiti marca la diferencia entre noquear a un Mega Excadrill o no, entonces suele valer la pena.

@@ -208,6 +208,19 @@ id: 1wwt0VOC4Rc
 title: Drill v Mewtwo 1
 ```
 
+### Hide n Sneak - Desfavorable
+
+Este es el matchup principal donde los Helados serían muy útiles. Si tienes Helados, el matchup es favorable.
+
+- Atacar con Excadrill es muy malo si Dhelmise lo va a noquear. Por lo tanto, es mejor atacar con Excadrill antes de que Dhelmise entre en juego, si es que llega a entrar.
+- Atacar con Metagross y Genesect es lo mejor. Usa Night Stretcher para Metagross si lo noquean. Si atacan a Genesect, retíralo. Si Genesect permanece ileso al entrar en el rango de Ursaluna, Carga Protectora evita que Ursaluna lo noquee.
+- Usa Drilbur para noquear a Dunsparce.
+
+```youtube
+id: XcVEM5eOs8I
+title: Sneak v Drill 1
+```
+
 ## Conclusión
 
 Este deck es muy sencillo y consistente. En general, no está mal, pero tampoco es excepcional. Derrota a algunos decks relevantes, pero también tiene enfrentamientos bastante difíciles. Un aspecto molesto es que Genesect representa una gran desventaja, junto con un Mega Pokémon y el hecho de tener siempre a Metang en juego. El mapa de premios 3-2-1 está prácticamente siempre disponible para los oponentes, lo cual es una gran desventaja del deck. No me sorprendería que tuviera un buen desempeño si se enfrentara a los matchups adecuados.
