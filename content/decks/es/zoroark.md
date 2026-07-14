@@ -220,6 +220,31 @@ id: rSOCCo-ePY8
 title: Zoro v Lucario 3
 ```
 
+### Hide n Sneak - Favorable
+
+- Hammer/Ruffian es muy bueno para quitar su Energía Legacy. Intenta no noquear al Pokémon con Legado hasta que puedas eliminar la Energía.
+- Si juegas con Darmanitan, es muy útil en este matchup para conseguir turnos de dos premios.
+- Intenta no usar a Meowth o quitalo con Tomo lo antes posible.
+- Fez y Pech son útiles, pero cuando estés al alcance de Ursaluna, quitalos con Tomo.
+- Después de que Zoroark reciba daño, retíralo a un Pokémon fresco para que tengan que buscar Boss.
+- En general, ataca a Dudunsparce para que eventualmente fallen algún ataque.
+
+```youtube
+id: CgJXA_BAEVg
+title: Sneak v Zoro 1
+```
+
+### Excadrill - Desfavorable
+
+- Usar Scratch o Clutch en Drilbur/Excadrill es muy efectivo, ya que prepara el terreno para el KO instantáneo de Mochi y Black Belt.
+- Noquea a Genesect con Boss lo antes posible.
+- Si juegas con Darmanitan, es extremadamente fuerte y puede castigar diversas jugadas. Intenta hacer 90 de daño en Excadrill mientras consigues un KO de un premio. Si no tienen objetivos fáciles, aún es posible lograrlo con Mochi y Boss en Metang.
+
+```youtube
+id: tJWxvGKRHtg
+title: Drill v Zoro 1
+```
+
 ### Arboliva - Desfavorable
 
 - Este matchup se centra en ganar la carrera de premios 2-2-2. No dejes un Pokémon de dos premios en el campo hasta que tomes la delantera en el intercambio de premios. El ataque de Zekrom es muy bueno para conseguir KOs de dos premios.

@@ -272,6 +272,30 @@ id: sa8Ah2uxEz4
 title: Slop v Pult 2
 ```
 
+### Hide n Sneak - Favorable
+
+Esta versión es favorable contra Sneak debido a la gran cantidad de interrupciones en la mano y a Watchtower. La mayoría de las listas estarán más parejas o desfavorables dependiendo de la cantidad de Watchtower. Risky Ruins también es útil en este matchup, pero no es tan fuerte como Watchtower.
+
+- Usar Itchy Pollen al principio es bueno, pero generalmente es mejor en el turno 2. Si te retiras rápidamente en el turno 1, Dhelmise o Banette lo debilitarán fácilmente, y aún no estarás listo para atacar. Esto te hace perder una carta de premio y energía adicionales. Si puedes usar Itchy Pollen en el turno 2 (especialmente después de que usen a Banette) y luego usar Stamp Phantom Dive, puede ser decisivo para ganar la partida.
+- Munkidori puede ser un buen tanque para Banette al principio de la partida. De lo contrario, Munkidori no es muy útil. Ocasionalmente puedes usar Mind Bend para ganar tiempo a Dhelmise si es necesario. Drakloak también funciona como tanque para Banette al principio de la partida si puedes debilitar a Clefairy como respuesta.
+- La interrupción de mano y la Watchtower son las cartas que ganan este enfrentamiento. Intenta combinarlas.
+- Noquea a Clefairy en cuanto lo veas. Existen algunas excepciones.
+
+```youtube
+id: GPgmQZNwuUg
+title: Sneak v Pult 1
+```
+
+```youtube
+id: KrIuQQ5Y2Fc
+title: Sneak v Pult 2
+```
+
+```youtube
+id: O5GnPSfiIww
+title: Sneak v Pult 3
+```
+
 ### Mega Excadrill - Parejo
 
 - Ve segundo.

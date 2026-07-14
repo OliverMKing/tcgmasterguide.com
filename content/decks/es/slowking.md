@@ -229,6 +229,22 @@ title: King v Crust 1
 - Al principio y a mitad de la partida, prioriza atacar a Tarountula, Spidops y Articuno con Trifrost. Al final de la partida, simplemente termina el juego de la forma más eficiente.
 - Si tienen a Mewtwo activo y no puedes sacarle el máximo provecho a Trifrost, entonces puedes noquear a Mewtwo de un solo golpe con Metagross. Infligir 110 de daño a Mewtwo con Trifrost es prácticamente inútil.
 
+### Hide n Sneak - Ligeramente Desfavorable
+
+- Incluso si su tablero no es particularmente vulnerable a Trifrost, vale la pena intentarlo. Noquear a Dunsparce es la máxima prioridad; de lo contrario, inflige daño a Dhelmise y prepáralo para ser noqueado. Este deck es capaz de encadenar Trifrost, y eso es lo que quieres hacer. Si solo tienen dos Pokémon en juego, probablemente no valga la pena usar Trifrost en ese caso.
+- No dejes a Mega Kang en el activo si hay alguna posibilidad de que sea atacado. Esto les dará tres premios en dos ataques lo cual debe evitarse.
+- Ten cuidado de no quedarte sin recursos. Esto requiere un uso inteligente de los mismos, y a veces necesitarás a Clefairy como atacante eficiente para cerrar la partida. 
+
+```youtube
+id: J96IFKJc8gg
+title: Sneak v King 1
+```
+
+```youtube
+id: it6-5D9h9vA
+title: Sneak v King 2
+```
+
 ### Mega Excadrill - Favorable
 
 Este matchup es favorable si no juegan Shaymin, y probablemente desfavorable si lo hacen.

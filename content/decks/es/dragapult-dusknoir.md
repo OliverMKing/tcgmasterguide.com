@@ -224,6 +224,26 @@ title: Pultnoir v Crustle 2
 - Si su único atacante cargado es Mimikyu, una buena forma de contrarrestarlo es no tener a Dragapult en el campo y atacar con otro Pokémon.
 - La Rocket's Watchtower se usa mejor de forma reactiva para destruir su Estadio. Esto aumenta las probabilidades de que fallen. Si la juegas de forma preventiva, no tiene efecto y pueden quitarla fácilmente.
 
+### Hide n Sneak - Favorable
+
+Esta versión es favorable contra Sneak debido a la gran cantidad de interrupciones de mano y a Watchtower. La mayoría de las listas estarán más equilibradas.
+
+- Usar Itchy Pollen al principio es bueno, pero suele ser mejor en el turno 2. Si te retiras rápidamente en el turno 1, Dhelmise o Banette lo debilitarán fácilmente, y aún no estarás listo para atacar. Esto te hace perder una carta de premio y energía adicionales. Si puedes usar Itchy Pollen en el turno 2 (especialmente después de que usen a Banette) y luego combinarlo con Unfair Stamp Phantom Dive, puede ser decisivo para ganar la partida.
+- Munkidori puede ser un buen tanque para Banette al principio del juego. De lo contrario, Munkidori no es muy útil. Ocasionalmente puedes usar Mind Bend para ganar tiempo contra Dhelmise si es necesario. Drakloak también funciona como tanque para Banette al principio del juego si puedes noquear a Clefairy como respuesta.
+- Las interrupciones de mano y Watchtower son las cartas que ganan este matchup. Intenta combinarlas.
+- Noquea a Clefairy en cuanto lo veas. Existen algunas excepciones poco comunes.
+- Dusknoir suele usarse mejor con Clefairy, permitiéndote usar Phantom Dive para noquear al atacante enemigo y a su Clefairy, lo cual es muy efectivo. Existen algunas excepciones, como si puedes eliminar a ambos Dhelmise y dejarlos sin un pivote.
+
+```youtube
+id: OCWjClJUqlc
+title: Sneak v Pultnoir 1
+```
+
+```youtube
+id: N8Xy_vhzbnI
+title: Sneak v Pultnoir 2
+```
+
 ### Mega Excadrill - Desfavorable
 
 - Empieza segundo.
