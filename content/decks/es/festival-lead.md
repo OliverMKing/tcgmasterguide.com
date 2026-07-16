@@ -5,73 +5,72 @@ tier: 2
 format: Standard
 ---
 ## Decklist
-![Festival list](./images/festival-lead/growing.png)
 
+![Festival list](./images/festival-lead/gladion.png)
 ```decklist
-Pokémon: 20
-4 Applin TWM 17
-4 Dipplin TWM 18
+Pokémon: 22
 4 Grookey TWM 14
 4 Thwackey TWM 15
+4 Applin TWM 17
+4 Dipplin TWM 18
+2 Goldeen TWM 44
+1 Seaking PRE 21
 1 Rellor TEF 23
 1 Rabsca TEF 24
 1 Shaymin DRI 10
-1 Goldeen TWM 44
 
-Trainer: 35
+Trainer: 32
 4 Lillie's Determination MEG 119
-2 Dawn PFL 87
-2 Black Belt's Training PRE 96
-2 Boss's Orders PAL 172
+2 Boss's Orders MEG 114
+2 Gladion's Final Battle M5 76
 1 Kieran TWM 154
-1 Lana's Aid TWM 155
 4 Buddy-Buddy Poffin TEF 144
-4 Poké Pad ASC 198
-4 Bug Catching Set TWM 143
+4 Poké Pad POR 81
+2 Ultra Ball MEG 131
+2 Bug Catching Set TWM 143
 2 Night Stretcher ASC 196
 1 Switch MEG 130
 1 Secret Box TWM 163
 2 Brave Bangle WHT 80
-1 Air Balloon BLK 79
+1 Air Balloon ASC 181
 4 Festival Grounds TWM 149
 
-Energy: 5
-4 Grass Energy MEE 1
-1 Growing Grass Energy POR 86
+Energy: 6
+4 Growing Grass Energy POR 86
+2 Grass Energy MEE 1
 ```
 <!-- PUBLIC -->
 ### Inclusiones
 
-- Me gusta jugar con cuatro copias de Thwackey porque el deck necesita verlo al inicio para funcionar, siempre necesita dos en juego, y a veces incluso tres.
+- Me gusta jugar con cuatro copias de Thwackey porque el deck necesita verlo al inicio para funcionar, siempre necesita dos en juego, y a veces incluso tres. Esto es aún más importante ahora con Gladion.
 - Rabsca es una tech necesaria para Dragapult y funciona bien.
-- Shaymin cambia el rumbo del matchup contra decks que incluyen Wellspring Ogerpon, Arboliva o Darmanitan. Es bastante eficiente ocupando solo un espacio en el deck.
-- Goldeen ayuda a mantener la consistencia al principio de la partida. Este deck tiene una excelente distribución de matchups, pero a veces puede tener manos iniciales malas, y Goldeen ayuda a reducir eso. En teoría, se puede usar como pivote en la banca para contrarrestar la disrupción de mano, pero no me ocurrió muy a menudo.
-- Dawn es igual de buena independientemente de si Rillaboom está en el deck o no. Su función es simplemente proporcionar consistencia al principio de la partida y suele ser mejor que Brock's Scouting, ya que este deck necesita dos Pokémon de Fase 1 diferentes en juego para funcionar.
-- Black Belt’s Training permite alcanzar números de daño clave contra Mega Lucario y Mega Lopunny. Contra otros decks, se sigue utilizando como un modificador de daño genérico, mientras que Kieran puede reservarse como carta de cambio en una emergencia.
-- Lana’s Aid tiene una excelente sinergia con este deck y querrás usarla cuando no necesites otro Partidario en ese turno. Sin embargo, dado que este deck generalmente necesita usar un Partidario diferente, solo jugamos una Lana’s Aid para no depender demasiado de ella.
+- Shaymin cambia el rumbo del matchup contra decks que incluyen Wellspring Ogerpon, Slowking o Darmanitan. Es bastante eficiente ocupando solo un espacio en el deck.
+- Seaking es mucho mejor ahora, especialmente con Goldeen que aumenta la consistencia de forma natural. Con Brave Bangle y Gladion, Seaking puede noquear prácticamente a cualquier Pokémon. Además, roba algunas cartas para refrescar la mano después de vaciarla para Gladion, aunque esto a veces dificulta el uso de otro Gladion.
+- Gladion es un modificador de daño muy potente e incluso hace que Seaking sea peligroso. También permite noquear de un solo golpe a Excadrill y Metagross.
+- Se necesita Ultra Ball para Gladion y no afecta tanto a la consistencia como esperaba.
 - Secret Box es sin duda la mejor carta para este deck. Permite obtener cuatro piezas de cualquier combo por el precio de una búsqueda, lo que nos permite estabilizar el juego o lograr un gran KO incluso con un campo débil, al principio de la partida o después de una Unfair Stamp. Es la carta definitiva para la consistencia.
-- Growing Energy es simplemente una quinta Energía donde el HP adicional puede ser útil ocasionalmente. Sin embargo, dado que no funciona con el Set de Captura de Bichos, podría ser simplemente otra Energía Planta. No creo que la quinta Energía sea particularmente necesaria en general, pero el mazo tiene algo de espacio para trabajar.
+- Growing Energy evita que Excadrill noqueen a Dipplin con el primer ataque, también crea puntos de ruptura relevantes contra Dragapult. Además, permite que Rellor sobreviva a Dusclops o al ataque de Phantom Dive. La única desventaja real es que no se puede encontrar en el set de Captura de Bichos, que de todas formas reducimos para agregar Seaking y Ultra Ball.
 
 ### Posibles inclusiones
 - Más Rellor y Rabsca podrían ayudar contra Dragapult, lo cual podría valer la pena.
 - Se podrían jugar dos Switch o dos Air Balloon en lugar de uno de cada. Si quitas a Goldeen, juega dos Switch y ningún Air Balloon.
 - Tool Scrapper puede ser decente para contrarrestar los Handheld Fans aleatorios de Mewtwo o Alakazam.
+- Dawn, Lana's Aid o más Bug Catching Set le vendrían bien.
 
 ### Exclusiones
 
-- Seaking puede ser una buena respuesta a una tech de Chi-Yu del oponente, pero no quiero poner a Goldeen en juego sin razón, así que requiere conocer de antemano la lista del oponente para ser completamente efectivo. Robar cartas en el Turno 2 suena bien, pero requiere varias búsquedas para ponerlo en juego, Energía y un Estadio. Si tienes todos esos requisitos, ya estás seteado y probablemente no necesitas robar cartas.
-- Genesect es otra carta útil para Dragapult. Es muy efectiva contra decks de Dragapult con Hero’s Cape especialmente y contra decks con Unfair Stamp.
-- Rillaboom solo vale la pena cuando Crustle con Cornerstone Ogerpon ex es muy jugado.
-- Lilligant requiere demasiado espacio y eso me preocupa. El efecto no está mal. La jugaría si fuera un básico.
+- Genesect es otra carta útil para Dragapult y el mirror pero ahora que Dragapult tiene Special Red Card, es menos útil.
+- Rillaboom ya no es relevante ya que Gladion permite que Rellor noquee a Cornerstone Ogerpon.
+- Lilligant requiere demasiado espacio y ya no importa con Gladion.
 - Psyduck no funciona realmente en contra de Dragapult/Dusknoir, ya que el matchup es desfavorable aún con el.
-- Brock’s Exploration es peor que la de Dawn. Claro que hay situaciones en las que desearías tener a Brock en su lugar, pero lo mismo podría decirse de cualquier otra carta específica
+- Brock’s Scouting es peor que Dawn. Claro que hay situaciones en las que desearías tener a Brock en su lugar, pero lo mismo podría decirse de cualquier otra carta específica
 - Otras cartas Ace Specs son muy inferiores a Secret Box. Mención especial para Maximum Belt por ahorrar dos espacios en el deck.
 - Otras cartas como Sacred Ash, Judge o Forest of Vitality son simplemente malas e inútiles.
 <!-- /PUBLIC -->
 ## Gameplay
 
 - Lo más importante al jugar con este deck es asegurarte de siempre tener una forma de usar la habilidad Boom Boom Groove de Thwackey. Idealmente, tendrás un Dipplin de reserva en la banca por si tu atacante es noqueado y te aplican Unfair Stamp. Si solo tienes a Applin, asegúrate de tener al menos una forma de buscar a Dipplin en la mano. Guardar cartas como Bug Catching Set puede ayudarte a recuperarte de Unfair Stamp. También puedes tener a Genesect o Goldeen en la banca con Air Balloon como otras formas de contrarrestar Unfair Stamp.
-- Si tienes todo en orden, intenta buscar Air Balloon de forma preventiva. Si tu Thwackey es subido por un Boss’s Orders, podría quedarse atascado durante mucho tiempo. Si el deck de tu oponente incluye bloqueo de retirada, busca a Kieran de forma preventiva en lugar de Globo Aerostático (tener ambos es ideal).
+- Si tienes todo en orden, intenta buscar Air Balloon o Switch de forma preventiva. Si tu Thwackey es subido por un Boss’s Orders.
 - En general, tener tres Thwackey en banca es mejor que tener tres manzanas, pero existen muchas excepciones.
 - La Secret Box es un recurso valioso. No la uses a menos que sea necesario para conseguir el KO (o para setearte/jugar la partida).
 - Dado que este deck ofrece intercambios de premios muy favorables en la mayoría de los matchups, no hay problema en dedicar un turno a setearte y "no hacer nada" mientras logres estabilizarte y convertir ese turno en un intercambio de premios favorable. Esto requiere cierto conocimiento del matchup y de la situación.
@@ -92,7 +91,7 @@ Este matchup es favorable contra listas sin Rare Candy o Dusknoir. Cuantos más 
 - La mesa ideal son dos Thwackey, tres Dipplin y Rabsca. Cuando noqueen a Barsca necesitaras tener la mayor cantidad de Dipplin en juego posible.
 - Dejar daño en su lado de la mesa suele ser malo. Normalmente no uso el doble ataque contra Munkidori si no puedo noquearlo, pero si su tablero es débil o no están teniendo mucho éxito con las cargas de Energía, puedo atacarlo para preparar un turno más fuerte. Atacar a Dragapult es un gran error. Siempre queremos noquear a Dragapult de un solo golpe.
 - Si aún no tienes a Kieran en mano, primero usa Black Belt’s Training para conseguir noqueo. Esto nos permite guardar a Kieran por si necesitamos cambiar pero claro usarlo es perfectamente válido si resulta más conveniente en esa situación. Esto se aplica a la mayoría de los matchups.
-- Rabsca morirá inevitablemente. Probablemente no vale la pena intentar recuperarla pero podría haber excepciones muy raras.
+- Rabsca morirá inevitablemente. Con todas estas Energía Crecientes y ambas Night Stretcher disponibles, recuperarla no es imposible. Es posible recuperar a Rellor con una Energía Creciente, lo que los obliga a sacar cara con Crushing Hammer o usar otro Boss. Dicho esto, no es la jugada ideal, pero es una opción.
 
 ```youtube
 id: tcf2S94_PRY
@@ -108,7 +107,7 @@ title: Festival v Pult 2
 id: ZwTtfOhLMS0
 title: Festival v Pult 3
 ```
-### Raging Bolt y Kangaskhan Box - Muy Favorable
+### Raging Bolt - Muy Favorable
 
 - Consigue a Shaymin cuanto antes, ya que muchos jugadores están usando Wellspring Ogerpon. Incluso si no lo hacen, podrían tener a Raging Bolt no ex y usar la estrategia de Boss’s Orders + Unfair Stamp, así que Shaymin sigue siendo efectivo contra eso. Asumo que tienen Wellspring hasta que se demuestre lo contrario.
 - El tablero ideal es Shaymin, dos Thwackey y tres Dipplin para contrarrestar Unfair Stamp (o dos Dipplin y Genesect/Goldeen). Si no usan Unfair Stamp o ya lo han usado, el tercer Thwackey tiene prioridad sobre el tercer Dipplin o Genesect.
@@ -150,9 +149,7 @@ id: nqiBklziLiw
 title: Festival v Zoroark 1
 ```
 
-### Crustle - Depende
-
-Asumiendo que no juegan Cornerstone Ogerpon, este matchup es favorable. si lo tienen, es desfavorable.
+### Crustle - Favorable
 
 - Intenta jugar alrededor de Xerosic's Machinations y Eri.
 - Las cartas para cambiar son recursos premium para que no quedes con un Thwackey atrapado.
@@ -160,7 +157,7 @@ Asumiendo que no juegan Cornerstone Ogerpon, este matchup es favorable. si lo ti
 
 Contra Cornerstone Ogerpon:
 
-- Sin Rillaboom, la mejor forma de noquear a Cornerstone Ogerpon es con Rellor. Si tienen a Mega Kangaskhan, podrías sentir la tentación de noquearlo de un solo golpe con dos modificadores de daño. Yo lo hice y siempre perdí. Sin embargo, si aún no tienen Cornerstone Ogerpon, no hay problema en noquear a Mega Kangaskhan de un solo golpe. Si tienen Cornerstone Ogerpon, guarda todos los modificadores de daño para eso y derrota a Mega Kangaskhan de dos golpes. Ponerle Brave Bangle a Dipplin también le impide usar Air Balloon, lo cual es muy molesto.
+- La mejor forma de noquear a Cornerstone Ogerpon es con Rellor. Si tienen a Mega Kangaskhan, podrías sentir la tentación de noquearlo de un solo golpe con dos modificadores de daño. Yo lo hice y siempre perdí. Sin embargo, si aún no tienen Cornerstone Ogerpon, no hay problema en noquear a Mega Kangaskhan de un solo golpe. Si tienen Cornerstone Ogerpon, guarda todos los modificadores de daño para eso y derrota a Mega Kangaskhan de dos golpes. Ponerle Brave Bangle a Dipplin también le impide usar Air Balloon, lo cual es muy molesto.
 - La recuperación, cartas para cambiar, los modificadores de daño y las energías son recursos de primera calidad para lograr múltiples ataques potentes de Rellor en su Cornerstone Ogerpon.
 - Si te quedas sin Rellor o lo premias, sacar cara con Applin consigue el mismo resultado.
 
@@ -172,7 +169,6 @@ title: Festival v Crustle 1
 ### Mewtwo - Favorable
 
 - Tienen fácil acceso a Archer, que básicamente es un Unfair Stamp que no puedes bloquear con Genesect. En este matchup, lo principal es jugar con precaución contra Archer. Intenta conseguir un Dipplin de reserva cuanto antes. Si no puedes, Goldeen con Air Balloon puede ser una buena opción para contrarrestar a Archer (o puede ayudarte a setearte). El tablero ideal es con tres manzanas y 2 o 3 Thwackey, dependiendo de si necesitas a Goldeen.
-- Todas las tech son inútiles. Simplemente ataca normalmente en cada turno. Black Belt’s Training (o Kieran + Brave Bangle) puede noquear a Mewtwo si atacan con él.
 
 ```youtube
 id: YT4891TzjBk
@@ -183,7 +179,7 @@ title: Festival v Mewtwo 1
 
 - Prioriza conseguir tres Thwackey. Son necesarios para recuperarte de Judge y derrotar a Mega Lucario de un solo golpe. Idealmente, también conseguirás tres Dipplin. Goldeen puede ayudarte a setearte y estabilizar te si es necesario.
 - Boss's Orders es un buen recurso en la fase final del juego para terminar la partida.
-- Black Belt’s Training + Brave Bangle te permite noquear a Mega Lucario de un solo golpe. Si no puedes ganar esquivando a su segundo Mega Lucario, tendrás que noquearlo de dos golpes.
+- Gladion te permite noquear a Mega Lucario de un solo golpe. Si no puedes ganar esquivando a su segundo Mega Lucario, usa otro Gladion.
 - Por lo general juegan Judge pero no Unfair Stamp. Ser rápido y agresivo es bueno porque no juegan Unfair Stamp ni Fezandipiti.
 
 ```youtube
@@ -199,6 +195,35 @@ title: Festival v Lucario 2
 ### Mirror de Festival Lead - Parejo
 
 Este matchup depende completamente de cuantos Pokémon “esponja” tengan que absorben daño. Tenemos a Genesect pero no a Seaking así es que quizá perdamos contra listas que tengan dos "esponjas". Rillaboom ya no es tan popular pero también puede servir para este proposito. Maximum Belt más Tool Scrapper es otra buena manera de contrarrestar a Cornerstone Ogerpon pero prefiero jugar Secret Box.
+
+### Hide n Sneak - Ligeramente Desfavorable
+
+- Si tienen una Energía extra en juego o un Air Balloon en su Flutter Mane (si pueden rotar el Flutter Mane de alguna manera), elimínalo en cuanto lo veas. De lo contrario, usa a Gladion y oblígalos a subir Flutter sin pivote. Por supuesto, la jugada con Gladion también es increíblemente fuerte si no tienen ningún Flutter Mane en juego.
+- No olvides usar todas las búsquedas de Boom Boom antes de usar Boss en el Flutter Mane.
+- Growing Energy en Dipplin es muy útil si atacan con Banette. También es posible proteger la banca de un KO de Banette, lo cual puede ser relevante.
+- Dipplin suele ser el atacante ideal, pero a veces hay que usar a Seaking por alguna razón. Asegúrate de tener siempre disponible la jugada con Gladion.
+
+```youtube
+id: MNVwYHWVNFI
+title: Sneak v Festival 1
+```
+
+```youtube
+id: nRwJ9R4LPNw
+title: Sneak v Festival 2
+```
+
+### Excadrill - Favorable
+
+- Setea tres Thwackey y tres Dipplin, o dos con Seaking. Seaking es útil en este matchup porque puede noquear a cualquier Pokémon de un solo golpe con los modificadores adecuados. Es similar a otro Dipplin y Goldeen tiene Festival Lead. Sin embargo, el efecto de robo de Seaking puede ser muy malo si necesitas usar a Gladion más adelante.
+- No hay problema en noquear a un Excadrill al principio si no puedes noquearlo de un solo golpe y no tienes nada mejor que hacer.
+- Los modificadores de daño y Boss son recursos esenciales que necesitarás para conseguir KOs. Una vez que tengas todo listo, cada turno debería ser un Gladion o un Boss para noquear a un Pokémon de un solo golpe.
+- Excadrill no suele jugar muchos Estadios, pero puede conseguirlos fácilmente con Petrel. Si descartan un Estadio con el primer ataque, tendrás que tener cuidado. De lo contrario, probablemente puedas descartar uno o dos Estadios. Si sabes que no juegan ningún Estadio, solo necesitas un Festival Grounds para toda la partida.
+
+```youtube
+id: llimXRrSMbA
+title: Drill v Festival 1
+```
 
 ### Mega Lopunny - Muy Favorable
 
@@ -253,4 +278,4 @@ title: Festival v Meganium 2
 
 ## Conclusión
 
-En realidad, sigo pensando que este deck es bastante bueno ahora mismo. Puede competir con la mayoría de los decks de Dragapult que no tengan Dusknoir y tiene un buen desempeño general. 
+En realidad, sigo pensando que este deck es bastante bueno ahora mismo. Puede competir con la mayoría de los decks de Dragapult que no tengan Dusknoir y tiene un buen desempeño general. Gladion lo mejora bastante.
