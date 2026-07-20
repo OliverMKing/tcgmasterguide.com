@@ -49,6 +49,7 @@ Energy: 9
 ### Possible Inclusions
 
 - Chi-Yu would be a good tech to destroy Crustle. Paldean Tarous also does this, but I think Chi-Yu is better for this build.
+- Dark Bell seems pretty good. I might add it.
 - Rosa’s Encouragement would probably be really good. I am considering swapping a Crispin for it. Having Crispin can be relevant in the early-game, but this deck somehow runs out of Energy often, so Rosa’s can also be relevant later.
 - Judge could be played over a Red Card. I think Red Card is better overall, but it’s pretty close. Xerosic’s Machinations is a similar consideration for the same reasons.
 
