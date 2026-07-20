@@ -6,7 +6,7 @@ format: Standard
 ---
 ## Decklist
 
-![Festival list](./images/festival-lead/gladion.png)
+![Festival list](./images/festival-lead/enggladion.png)
 ```decklist
 Pokémon: 22
 4 Grookey TWM 14
@@ -22,7 +22,7 @@ Pokémon: 22
 Trainer: 32
 4 Lillie's Determination MEG 119
 2 Boss's Orders MEG 114
-2 Gladion's Final Battle M5 76
+2 Gladion's Final Battle PBL 77
 1 Kieran TWM 154
 4 Buddy-Buddy Poffin TEF 144
 4 Poké Pad POR 81

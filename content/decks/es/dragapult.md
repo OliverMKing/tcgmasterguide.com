@@ -50,6 +50,7 @@ Energy: 9
 - Chi-Yu sería una buena opción para destruir a Crustle. Paldean Tarous también lo hace, pero creo que Chi-Yu es mejor para esta versión.
 - Rosa's Encouragement probablemente sería muy útil. Estoy considerando cambiar un Crispin por él. Tener a Crispin puede ser relevante al principio de la partida, pero este deck suele quedarse sin Energía, así que Rosa's Encouragement también puede ser relevante más adelante.
 - Judge podría jugarse en lugar de una Special Red Card. Creo que la Special Red Card es mejor en general, pero la diferencia es mínima. Xerosic's Machinations son una opción similar por las mismas razones.
+- Dark Bell parece muy buena, podría ser agregada.
 
 ### Exclusiones
 - Shaymin sería una opción a considerar si el matchup contra Slowking no fuera ya favorable. 
