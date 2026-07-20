@@ -6,11 +6,11 @@ format: Standard
 ---
 ## Decklist
 
-![excadrill list](./images/excadrill/drill.png)
+![excadrill list](./images/excadrill/engdrill.png)
 ```decklist
 Pokémon: 19
-4 Drilbur M5 44
-3 Mega Excadrill ex M5 63
+4 Drilbur PBL 46
+3 Mega Excadrill ex PBL 65
 4 Beldum TEF 113
 4 Metang TEF 114
 1 Metagross CRI 61

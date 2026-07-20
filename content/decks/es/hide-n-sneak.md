@@ -6,14 +6,14 @@ format: Standard
 ---
 ## Decklist
 
-![sneak list](./images/hide-n-sneak/sneak.png)
+![sneak list](./images/hide-n-sneak/engsneak.png)
 ```decklist
 Pokémon: 25
-4 Shuppet M5 31
-4 Banette M5 32
+4 Shuppet PBL 33
+4 Banette PBL 34
 4 Dunsparce JTG 120
 3 Dudunsparce TEF 129
-4 Dhelmise M5 37
+4 Dhelmise PBL 39
 2 Lillie's Clefairy ex JTG 56
 1 Bloodmoon Ursaluna ex TWM 141
 1 Flutter Mane TEF 78
