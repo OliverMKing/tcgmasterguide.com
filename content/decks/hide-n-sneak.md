@@ -62,12 +62,13 @@ Energy: 7
 ### Exclusions
 
 - Sinischa is redundant. It can only be used if you’re drawing well, in which case the game should be winning anyway. Getting six in the discard is a massive chore. It can also be played around fairly easily. Seeing Sneak cards more often in the early-game would be nice, but I don’t think it’s worth playing cards that do absolutely nothing.
-- Gwynn is just bad and useless and unnecessary. Do not play it. Same with other random bad cards like Naveen. It makes a little more sense if you’re playing heavier counts of Sneak cards.
+- Gwynn is terribly inconsistent. It works best when your hand is already large and you have extra Pokemon to discard, but we need the draw Supporter to get to that point, which makes the card a bit illogical.  Same with other random bad cards like Naveen. It makes a little more sense if you’re playing heavier counts of Sneak cards.
 - Patrat is atrocious. It is a huge liability in the matchups where it’s supposed to be good. The one matchup where it is actually relevant is Dragapult / Blaziken, but that one is bad either way. It’s not as relevant against normal Dragapult or Zoroark as it would seem in theory.
 - I don’t see the point of Kieran. It does allow for a one-shot on Clefairy but that is not a good reason to play it. Kieran plus Bangle would hit some breakpoints but you don’t get to Boss the targets where the damage would be relevant.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
+- Go first against everything. The Turn 1 170 is super rare so it's better to be consistent and get potential Turn 2 Banette, extra Prism Tower use, etc.
 - Banette isn’t needed every game. Ideally, I would prefer to never even put Shuppet in play, but it is often necessary. If your hand is good and you’re in a matchup where Banette isn’t that useful, you can just start with Dhelmise and never put Shuppet in play. Otherwise, go for a Turn 2 KO with Banette. I almost never put a second Shuppet in play, except against Alakazam.
 - The ideal board is as many Dhelmise and Dunsparce as possible. If you ever need to put something else down, Dudunsparce can easily make room for it.
 - I prefer to save Air Balloon in most games because there are occasionally odd spots later on where you need to retreat a Dhelmise or Ursaluna (or go into Ursaluna). Of course, if you can ever get value from Air Balloon at any point in the game, even early, it’s fine to just slam it and you probably won’t get punished. If you foresee yourself needing Ursaluna, attaching an extra Energy to Dhelmise is totally reasonable so that it can hard retreat if needed.
