@@ -6,14 +6,14 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for Lucario](./images/lucario/lucario.png)
+![decklist for Lucario](./images/lucario/nojudge.png)
 ```decklist
 Pokémon: 17
 4 Riolu MEG 76
 3 Mega Lucario ex MEG 77
 2 Makuhita MEG 72
 2 Hariyama MEG 73
-2 Solrock MEG 75
+3 Solrock MEG 75
 2 Lunatone MEG 74
 1 Genesect SFA 40
 1 Meowth ex POR 62
@@ -21,7 +21,6 @@ Pokémon: 17
 Trainer: 32
 4 Lillie's Determination MEG 119
 3 Boss's Orders MEG 114
-1 Judge DRI 167
 4 Ultra Ball MEG 131
 4 Fighting Gong MEG 116
 4 Premium Power Pro MEG 124
@@ -40,22 +39,21 @@ Energy: 11
 - Genesect is actually very good. One of this deck’s most common lose conditions is bricking off Stamp. Genesect gives us protection from this. It isn’t hard to find or use, and usually you can afford having it on your bench. It actually performed well in testing, even though it didn’t when I tried it in other decks.
 - Meowth is insanely broken. Yes, it can be a liability, but I use it for value way too often to not play it.
 - I tried with three Riolu and wanted a fourth one because they are important to swarm into play in some matchups, and you want the second one quickly.
+- I finally added the third Solrock to start with it ten percent more often. It is still cuttable though.
 - Even with Hariyama, this deck still likes to use Boss’s Orders a lot. In fact, I would even like to play a fourth Boss if space allowed.
-- Judge is overall not very good but sometimes it actually is the card you need to stop the opponent from getting a big combo. Meowth makes it somewhat consistent at least.
 - The Ace Spec question is an interesting one. For this build, I think the best option is Secret Box followed by Maximum Belt. If you build the deck a bit differently, perhaps something like Hero’s Cape or Scoop Up Cyclone could work as well. Secret Box is better than Maximum Belt when it comes to reaching big KO’s on the likes of Arboliva or Dragapult, since it can grab Premium Power and Gravity Mountain while also doing other things. Of course, Secret Box has infinite versatility and use cases, while also boosting the consistency of the deck.
-- There’s a lot of switching cards in this deck. I want this many Air Balloon to consistently be able to use Genesect. With three Air Balloon and no Switch, I found myself sometimes wanting Switch. This is mostly relevant against decks that do not instantly KO your Lucario after you use Mega Brave. In general, preserving Energy drops on the board is also quite important. Although the switching cards aren’t the most integral part of the deck, it is nice to have them.
-- Gravity Mountain is important against Dragapult and Arboliva for both the damage modification as well as the Stadium removal.
+- There’s a lot of switching cards in this deck. I want this many Air Balloon to consistently be able to use Genesect. With three Air Balloon and no Switch, I found myself sometimes wanting Switch. This is mostly relevant against decks that do not instantly KO your Lucario after you use Mega Brave. In general, preserving Energy drops on the board is also quite important. They are also very important against Dragapult now that they have Crushing Hammer (and Mind Bend).
+- Gravity Mountain is important against Dragapult and Hydrapple for both the damage modification as well as the Stadium removal.
 - 11 Fighting Energy is good. I tried 10 and wanted more. I could even add 12th one, though I don’t think I would go above that.
 
 ### Possible Inclusions
 
 - Maximum Belt still seems very good. It allows you to more easily Aura Jab KO the likes of Teal Mask Ogerpon and such, which can be very relevant. It also allows for occasional Riolu KO’s on the likes of Fez/Meowth on Turn 1, as well as a better mirror match, so it isn’t bad to play Max Belt.
-- Ciphermaniac's Codebreaking could be good. I have not tried it yet, but I don't know what is cuttable besides maybe a Switch.
+- Judge is overall not very good but sometimes it actually is the card you need to stop the opponent from getting a big combo. Meowth makes it somewhat consistent at least.
 
 ### Exclusions
 
-- Tried the third Solrock and found it to be dead weight. This deck does not attack with Solrock as much as I expected. Using Aura Jab is usually preferred. You still attack with Solrock some, but not enough to warrant a third copy of it.
-- Also tried the second Judge and just hate the card. I am only playing one reluctantly because there are occasionally situations where you need it. I don’t see the need for a second one. Between Lunar Cycle, Meowth, and Secret Box, it’s not too hard to find the single copy. Using Judge for draw is just terrible so it’s mostly for disruption.
+- Accompanying Flute is a terrible waste of space and actually does nothing.
 - I tried Wally’s Compassion and just never got value from it. Using it on Lucario means you can’t use Mega Brave or Boss’s Orders that turn, which sucks. Wally’s seems good in theory but is just bad. Scoop Up Cyclone has similar issues. Being an Item is nice but I don't think it's that good.
 - Rocky Energy is bad. I always get punished for having it over Fighting Energy as there are too many interactions with Basic Fighting Energy each game. Sure, Rocky has use cases against Dragapult and Alakazam, but it doesn’t really impact win-rate that much.
 <!-- /PUBLIC -->
@@ -72,13 +70,13 @@ Energy: 11
 - Using Aura Jab to KO Pokemon like Meowth/Fez to accelerate Energy while prize trading is a major part of this deck’s win condition/prize mapping. It’s best to do so when you have 2-3 Energy in your discard. If you do it without accelerating Energy, you may get punished and stuck later.
 - If you have a very small bench against Clefairy decks, it’s possible that Clefairy won’t be able to one-shot Lucario. This is pretty difficult to play around but can be game-winning if you have the opportunity.
 - It is okay to evolve into Hariyama without using the Ability, so long as the following conditions are met: 1) you’re getting Stamped OR they can easily snipe off the Makuhita 2) you are going to need to attack with the Hariyama, and 3) you won’t necessarily need the gust effect from the Ability.
-- Going first is usually best. Go second against decks with Budew or some evolution decks, particularly Dragapult. Also go second against unfavorable matchups such as Alakazam or Garchomp to cheese them with fast KO's.
+- Going first is usually best. I now think going first against Dragapult is best despite the annoying Budew potential. Getting the Turn 1 Solrock KO is especially difficult if they get Munkidori in the active Turn 1. Go second against some unfavorable matchups such as Alakazam or Festival Lead to cheese them with fast KO's.
 
 ## Matchups
 
-### Dragapult - Depends
+### Dragapult - Slightly Favorable
 
-This matchup is about even, but it can vary based on their list.
+This is slightly favorable here due to Genesect, and favorable for Dragapult on their pages because most Lucario do not play Genesect. It is possible I'm overestimating Genesect's impact because Special Red Card is still a threat (but not nearly as scary as Stamp).
 
 - Solrock and Riolu are good early attackers that can apply fast pressure. If you can get some Energy in the discard, go for Lucario’s Aura Jab as soon as possible to set up a backup Riolu/Lucario (and / or Hariyama).
 - Overloading your attackers to play around Crushing Hammer is perfectly viable. Having lots of Energy in play is generally very good.
@@ -86,7 +84,8 @@ This matchup is about even, but it can vary based on their list.
 - Preemptively using Ultra Ball for Lucario is VERY GOOD. Try to do this before they Item lock you, such as on Turn 1 if you don’t already have Lucario in hand.
 - Two-shotting Dragapult is bad. Try to one-shot it or gust around it if necessary. Damage modifiers are important resources for one-shotting Dragapult. Save Gravity Mountain for a big play or else it will just get bumped.
 - Need to swarm Riolu and get them evolved asap because they drop like flies.
-- Try to get Genesect before they get Stamp, even though this is somewhat hard in this matchup and entirely up to luck.
+- Try to get Genesect before they get Stamp, even though this is somewhat hard in this matchup and entirely up to luck. Sometimes you won't get it, and that's fine.
+- Random Air Balloon is generally best on Lucario to play around potential Hammer or Mind Bend.
 
 ```youtube
 id: ES4sVc3cpL0
@@ -297,4 +296,4 @@ title: Ogerpon v Lucario 2
 
 ## Personal Thoughts
 
-Lucario is just an okay deck. It's not bad, but it does have a lot of bad matchups.
+Lucario is a decent deck. I think it's actually a solid play for Worlds if the metagame is mostly Dragapult, Zoroark, and Crustle. Of course, Lucario is still terrible against the single-prize decks, so that's the risk of playing it
