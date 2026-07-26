@@ -97,13 +97,14 @@ This is the more standard build with Genesect and Stadiums instead of Rabsca and
 
 ### Inclusions
 
-- Genesect helps against Dragapult primarily and gives us an excuse to play Lucky Helmet, which is very helpful against hand disruption. Lucky Helmet is the best Tool for this reason, so I think it's best to play three of those instead of any other Tools.
+- Genesect helps against Dragapult primarily and gives us an excuse to play Lucky Helmet, which is very helpful against hand disruption. Lucky Helmet is the best Tool for this reason, so I think it's best to play three of those instead of any other Tools. Genesect is also good against Festival to stop Secret Box, making it a little more difficult for them to play Gladion's Final Battle.
 - Shaymin is for Wellspring and Slowking.
 - Four Rare Candy for same reasons as above, same with three Hammer.
 - Nighttime Mine is very nice against Dragapult and gives us an easy answer to Team Rocket's Watchtower.
 
 ### Possible Inclusions
 
+- Handheld Fan could make a comeback if Festival Lead becomes more popular.
 - Fourth Hilda and/or fourth Alakazam would be nice.
 - Battle Cage over Nighttime Mine would probably be fine.
 - Special Red Card would probably be good.
@@ -115,7 +116,6 @@ This is the more standard build with Genesect and Stadiums instead of Rabsca and
 - Dedenne is a bad Pokemon to start with and doesn't get used much. I think three Hammer is enough to naturally win the game quick enough against decks like Crustle and Lopunny. I'd rather have the third Hammer over the Dedenne. Makes them easier to find too which is relevant.
 - Elgyem did not prove to be very relevant against Dragapult so I cut it.
 - I think Night Stretcher is better than Lana's Aid.
-- Handheld Fan isn't that good against Dragapult and Festival Lead isn't as relevant for the time being. Air Balloon isn't necessary either. The main issues with these Tools is that they aren't Lucky Helmet.
 
 <!-- /PUBLIC -->
 ## Gameplay Tips
@@ -323,18 +323,19 @@ id: tQgDTTJcgC0
 title: Zam v Lucario 1
 ```
 
-### Festival Lead - Even
+### Festival Lead - Unfavorable
 
 - Rare Candy is a very important resource. Try to get as many Abra and Kadabra in play as soon as possible so that you won’t stress the Candies as much.
-- Try to get a Dudunsparce in play to use as a sponge as soon as possible to deny them the two-prize turn.
+- Try to get a Dudunsparce in play to use as a sponge as soon as possible to deny them the two-prize KO on Turn 2. Unfortunately, there's not much you can do about Gladion's Final Battle taking a double KO later in the game, so the best chance is to rush them down and hope they draw bad.
 - KO Dipplin every turn. This stresses their resources the most. One time I got baited by KO’ing their only Thwackey and it was actually the difference between winning and losing.
-- If you play Battle Cage, try to bump their Stadium every turn. You can create a board in the end-game full of Pokemon with more than 100 HP to potentially win if they run out of Stadiums.
-- If you play Fan, using it on Alakazam is usually best. There can be some cheeky Dudunsparce plays with Fan but they are very involved and situational.
+- If you play lots of Stadiums, try to bump their Stadium every turn. You can create a board in the end-game full of Pokemon with more than 100 HP to potentially win if they run out of Stadiums. This is less common now with Gladion but still possible.
+- If you play Fan, using it on Alakazam when they are likely to get a Gladion play is usually best. 
 
 ```youtube
 id: g5-pKFaJc_Y
 title: Festival v Zam 1
 ```
+These games are pre-Gladion. Some of the same principles still apply, but the matchup is now a bit more lopsided in Festival's favor.
 
 ```youtube
 id: X3YpsKBoBBI
@@ -396,4 +397,4 @@ title: Zam v Meganium 2
 
 ## Personal Thoughts
 
-This deck is quite good now with Rabsca allowing it to beat some Dragapult decks such as the Hammers / Risky Ruins build. However it's still playing matchup roulette since it hard loses to Mewtwo and some other Dragapult lists. This deck is also a bit worse when more Dragapult are playing Watchtower, so it depends on current meta trends.
+This deck is quite good now with Rabsca allowing it to beat some Dragapult decks such as the Hammers / Risky Ruins build. However it's still playing matchup roulette since it hard loses to Mewtwo and some other Dragapult lists. This deck is also a bit worse when more Dragapult are playing Watchtower, as well as metas where Festival Lead is more popular.
