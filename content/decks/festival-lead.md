@@ -120,19 +120,21 @@ id: X6nTeKlYEVE
 title: Festival v Bolt 1
 ```
 
-### Alakazam - Even
+### Alakazam - Favorable
 
-This matchup is about even if they don't play Fan or slightly unfavorable if they do.
+This matchup is a lot more favorable now with Gladion's Final Battle.
 
 - Festival Grounds is a resource since they often play four Stadiums. Don’t put it in play until you’re ready to attack.
 - They don’t play hand disruption. Be as fast and aggressive as possible.
 - If they bump your Stadium, consider using Boss to KO something small while saving a Stadium. If you play all the Stadiums early, you might run out, and they can create an endgame board that cannot be KO’d by a single-attack Dipplin. If they don’t have Kadabra in play, KO’ing their active Alakazam is still best to force them to find Rare Candy.
 - If you ever have an extra Energy attachment, attaching to a backup apple is generally good. When you have two apples each with Energy, you can get through the Handheld Fan because you can attach another Energy when you need to. If you didn’t get the initial two-prize lead, saving Energy for Dipplin is usually better since you may run low on Energy. They may or may not play Handheld Fan, so it's best to play around it if you get the opportunity to.
+- Use Gladion's Final Battle whenever is most convenient to get an easy double KO. If they have Fez in play, you will want to KO that first before using Gladion.
 
 ```youtube
 id: g5-pKFaJc_Y
 title: Festival v Zam 1
 ```
+These games are pre-Gladion. Some of the same principles still apply, but the matchup is now a bit more lopsided in Festival's favor.
 
 ```youtube
 id: X3YpsKBoBBI
