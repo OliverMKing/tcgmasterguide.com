@@ -4,7 +4,7 @@ pokemon: [558]
 tier: 2
 format: Standard
 ---
-## Decklist
+## Decklist 1
 ![Crustle list](./images/crustle/crustlelist.png)
 
 ```decklist
