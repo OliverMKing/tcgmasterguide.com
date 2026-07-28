@@ -40,7 +40,7 @@ Energy: 15
 <!-- PUBLIC -->
 ### Inclusiones
 
-- Munkidori es muy fuerte contra cualquier Pokémon que no pueda derrotar fácilmente a tu atacante de un solo golpe. En particular, Dragapult, Mewtwo o cualquier Pokémon que tenga su propio Munkidori. Tiene una sinergia natural con Crispin y Crustle, ayudándolos a mantenerse con vida.
+- Munkidori es muy fuerte contra cualquier Pokémon que no pueda derrotar fácilmente a tu atacante de un solo golpe como Dragapult, Mewtwo o cualquier Pokémon que tenga su propio Munkidori. Tiene una sinergia natural con Crispin y Crustle, ayudándolos a mantenerse con vida.
 - Psyduck es necesario para Dusknoir.
 - Cornerstone Ogerpon salva por sí solo el matchup contra Mewtwo y Festival Lead.
 - Boss’s Orders es muy útil en este deck porque la mayoría de los decks solo tienen unas pocas respuestas para Crustle. Boss’s Orders nos permite eliminarlos antes de que puedan obtener ventaja, facilitando así las victorias. Hay muchos ejemplos donde Boss es realmente relevante para ganar la partida: Duskull, Meganium, Mimikyu del Team Rocket, etc. No jugaría con menos de cuatro.
