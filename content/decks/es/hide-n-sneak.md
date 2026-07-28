@@ -15,9 +15,6 @@ Pokémon: 25
 3 Dudunsparce TEF 129
 4 Dhelmise PBL 39
 2 Lillie's Clefairy ex JTG 56
-1 Bloodmoon Ursaluna ex TWM 141
-1 Flutter Mane TEF 78
-1 Fan Rotom SCR 118
 1 Chien-Pao SSP 56
 
 Trainer: 28
@@ -62,7 +59,7 @@ Energy: 7
 ### Exclusiones
 
 - Sinischa es redundante. Solo se puede usar si estás robando bien, en cuyo caso deberías ganar de todos modos. Conseguir seis en el descarte es una tarea titánica. Además, se puede contrarrestar con bastante facilidad. Sería bueno ver cartas de Hide-n-Sneak más a menudo al principio de la partida, pero no creo que valga la pena jugar cartas que no hacen absolutamente nada.
-- Gwynn es simplemente mala, inútil e innecesaria. No la juegues. Lo mismo ocurre con otras cartas malas aleatorias como Naveen. Tiene un poco más de sentido si juegas con una mayor cantidad de cartas de Hide-n-Sneak.
+- Gwynn es muy inconsistente. Funciona mejor cuando tu mano ya es bastante grande y tienes Pokemon extra para descartar but necesitamos el Supporter en si para llegar a ese punto, lo cual hace a la carta un poco ilógica. Lo mismo ocurre con otras cartas malas aleatorias como Naveen. Tiene un poco más de sentido si juegas con una mayor cantidad de cartas de Hide-n-Sneak.
 - Patrat es atroz. Es una gran desventaja en los enfrentamientos donde se supone que es buena. El único enfrentamiento donde es realmente relevante es Dragapult/Blaziken, pero ese enfrentamiento es malo de todas formas. No es tan relevante contra Dragapult o Zoroark normales como parecería en teoría.
 - No le veo el sentido a Kieran. Permite derrotar a Clefairy de un solo golpe, pero esa no es una buena razón para jugarlo. Kieran junto con Brave Bangle alcanzarían ciertos umbrales de daño, pero no se llega a derrotar a los objetivos donde el daño sería relevante.
 <!-- /PUBLIC -->
@@ -75,6 +72,7 @@ Energy: 7
 - Prism Tower puede adelgazar mucho el deck en partidas largas, lo cual es ideal. Esto permite deshacerte de cartas basura como Pokémon adicionales o Prism Tower, y también asegura encontrar los Boss para cerrar las partidas.
 - Muchas partidas implican usar los cuatro Dhelmise, Ursaluna y ambos Stretcher (normalmente para Dhelmise). Intenta no descartar estos recursos importantes y ten en cuenta que Legacy Energy prolonga la partida. Legacy en Ursaluna puede permitir una cadena de Ursaluna, pero eso es principalmente para situaciones de remontada muy específicas. Normalmente, uso Legacy en Dhelmise en cuanto tengo la oportunidad.
 - El ataque de 30 de daño de Dhelmise suele ser útil, sobre todo contra Clefairy o Budew. ¡Dos ataques de 30 permiten noquear a Mega Kang con Ursaluna! Claro que no es la mejor opción, pero a veces no hay nada mejor que hacer en los primeros dos turnos.
+-Decide iniciar contra todo. Turn 1 170 es muy raro asi es que es mejor intentar ir por el turno 2 Banette y carga extra de energía, uso extra de Prism Tower, etc.
 
 ## Matchups
 
