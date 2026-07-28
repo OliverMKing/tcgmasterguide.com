@@ -118,9 +118,11 @@ id: X6nTeKlYEVE
 title: Festival v Bolt 1
 ```
 
-### Alakazam - Parejo
+### Alakazam - Favorable
 
-Este matchup está bastante parejo. Sin embargo, si ellos tienen Handheld Fan es muy desfavorable.
+Este matchup es mucho más favorable ahora con la Batalla Final de Gladion.
+
+- Usa Gladion cuando te resulte más conveniente para conseguir un doble KO fácil. Si tienen a Fezandipiti en juego, te conviene noquearlo primero antes de usar a Gladion.
 
 - Festival Grounds es un recurso, ya que suelen jugar cuatro Battle Cage. No lo pongas en juego hasta que estés listo para atacar.
 - No juegan disrupción de mano así es que sé lo más rápido y agresivo que puedas.
@@ -131,6 +133,8 @@ Este matchup está bastante parejo. Sin embargo, si ellos tienen Handheld Fan es
 id: g5-pKFaJc_Y
 title: Festival v Zam 1
 ```
+
+Estas partidas son anteriores a la llegada de Gladion. Algunos de los mismos principios siguen vigentes, pero el matchup ahora está un poco más a favor de Festival.
 
 ```youtube
 id: X3YpsKBoBBI

@@ -4,7 +4,7 @@ pokemon: [558]
 tier: 2
 format: Standard
 ---
-## Decklist
+## Decklist 1
 ![Crustle list](./images/crustle/crustlelist.png)
 
 ```decklist
@@ -68,6 +68,83 @@ Energy: 15
 - Bosque de Vitalidad podría ser una buena inclusión. No parece lo suficientemente poderoso como para justificar el espacio, pero no lo he probado.
 - No creo que Maquinaciones de Xerosic ni Eri aporten nada que necesitemos.
 <!-- /PUBLIC -->
+## Decklist 2
+
+![CrustBouff list](./images/crustle/bouffcrust.png)
+```decklist
+Pokémon: 12
+4 Mega Kangaskhan ex MEG 104
+3 Dwebble DRI 11
+3 Crustle DRI 12
+1 Bouffalant SCR 119
+1 Bouffalant SSP 151
+
+Trainer: 35
+4 Lillie's Determination MEG 119
+4 Boss's Orders MEG 114
+4 Team Rocket's Petrel DRI 176
+2 Hilda WHT 84
+2 Eri TEF 146
+1 Xerosic's Machinations SFA 64
+1 Pokémon Center Lady MEG 123
+4 Jumbo Ice Cream PFL 91
+4 Pokégear 3.0 SVI 186
+2 Poké Pad POR 81
+1 Buddy-Buddy Poffin TEF 144
+1 Ultra Ball MEG 131
+1 Switch MEG 130
+1 Night Stretcher ASC 196
+1 Hero's Cape TEF 152
+1 Team Rocket's Factory DRI 173
+1 Festival Grounds TWM 149
+
+Energy: 13
+4 Spiky Energy JTG 159
+4 Growing Grass Energy POR 86
+4 Mist Energy TEF 161
+1 Grass Energy MEE 1
+```
+
+### Inclusiones
+
+- Bouffalant es una excelente incorporación, ya que ayuda significativamente contra matchups desfavorables como Slowking, Festival Lead y Hide n Sneak. También se suponía que ayudaría contra Dragapult con la estrategia anti-Crustle, pero lamentablemente ese matchup sigue siendo malo. Bouffalant tiene algunas desventajas y requiere ajustes en la lista, como la adición de Stretcher y Poke Pad. Dicho esto, los matchups favorables de Crustle siguen siendo buenos y Bouffalant compensa algunos desfavorables, lo cual es muy bueno para Crustle.
+
+- Aunque esta lista es un poco menos agresiva que la de Crispin, Boss sigue siendo muy bueno para presionar a las amenazas relevantes (a veces con Mega Kangaskhan atacando). Boss también tiene la utilidad adicional de agotar los recursos del oponente, lo cual también es muy bueno para este deck.
+
+- Que Hilda encuentre Energía es muy útil y también nos permite evolucionar a Crustle desde la seguridad de la banca sin necesidad de Ascension. Sin embargo, podría eliminarlas si se necesita espacio.
+
+- Eri es muy buena para los matchups contra Dragapult y Alakazam. De hecho, le da al deck la posibilidad de vencer a Alakazam, incluso si tienen a Dedenne. Se necesitan dos copias para que sea relevante; de ​​lo contrario, se robaría con muy poca frecuencia con una sola copia.
+
+- Pokemon Center Lady es como otro Helado Gigante y también cura la confusión de Mind Bend, lo cual es mucho más relevante ahora que la mayoría de los decks de Dragapult usan Crushing Hammer.
+
+- Se necesita Poke Pad para encontrar a Bouffalant, junto con Night Strecthero para recuperar a un Bouffalant si es noqueado.
+
+- La Ultra Ball es necesaria para encontrar a Mega Kangaskhan si no empiezas con él. Todas estas cartas de Entrenador combinan muy bien con Petrel del Team Rocket.
+
+- No estoy seguro si la Fábrica del Team Rocket es la mejor opción de Estadio, pero necesitamos Estadios para quitar Watchtower y robar cartas es bueno. Festival Grounds también resulta muy útil para eliminar la confusión de Mind Bend. A diferencia de Pokemon Center Lady, se puede usar instantáneamente con un Petrel.
+
+- La Energía Planta asegura que Dragapult no pueda quitar todas las Growing Energy con los Crushing Hammer y evitar que Crustle ataque por completo. Incluso si premias una, el riesgo contra Martillo es significativamente menor. Tener más Energía suele ser beneficioso, ya que queremos cargar Energía en cada turno.
+
+### Posibles Inclusiones
+
+- Psyduck podría ser útil contra Dragapult/Dusknoir.
+
+- Brock's Scouting sería muy útil para encontrar a Bouffalant y/o Kangaskhan al principio de la partida.
+
+- Handheld Fan es una carta de interrupción bastante potente, aunque normalmente el activo preferiría Hero's Cape.
+
+- Lumiose City probablemente podría ser buena.
+
+### Exclusiones
+
+- Las tech aleatorias hipersituacionales como Hand Trimmer, Bianca's Devotion y Lisia's Appeal son simplemente malas. No las uses.
+
+- Cornerstone Ogerpon resuelve el matchup contra Mewtwo del Team Rocket, pero no es tan bueno contra Festival Lead ahora que tienen Gladion. Incluso contra esos matchups, la estrategia de Mega Kangaskhan Bouffalant (ignorando a Crustle) es lo suficientemente fuerte como para ganar.
+
+- Crushing Hammer ocupa demasiado espacio y es bueno principalmente contra Dragapult, que ya es favorable (o desfavorable con alguna tech).
+
+- Community Center es mucho peor que las otras opciones de Estadio.
+
 ## Gameplay
 
 - Gran parte de la habilidad con el deck de Crustle reside en comprender el posicionamiento en el tablero y las capacidades de los decks del oponente. El deck es mucho más débil sin Luxurious Cape, por lo que es posible perder incluso contra decks favorables. Algo que he observado consistentemente es que se necesita distribuir la Energía y realizar sacrificios estratégicos para lograr una posición de jaque mate.
@@ -76,17 +153,34 @@ Energy: 15
 - Si tienen un Pokémon grande como Dragapult o Garchomp, no tienes obligación de atacarlo. Infligir daño al tablero de tu oponente no sirve de mucho a menos que estés en un punto muerto. Pueden castigarte con Munkidori, Unfair Stamp si los noqueas, o Spiritomb en el caso de Garchomp. Hablando de Unfair Stamp, no debilites a ningún Pokémon que no represente una amenaza sin motivo, ya que Unfair Stamp es una gran amenaza. Dicho esto, la mayoría de los Pokémon son amenazantes de alguna manera, así que a menudo es bueno debilitarlos.
 - A veces, un solo Jumbo Ice Cream es irrelevante (contra atacantes como Meganium o Raging Bolt no ex). Hay muchas ocasiones en las que usar Jumbo Ice Cream es inútil, necesitas dos o ninguno, y usar uno solo es un desperdicio debido a cómo funcionan los cálculos. Piensa en la utilidad de Jumbo Ice Cream antes de usarlo.
 - Ve segundo a ciegas. Ve segundo contra cualquier deck que pueda lograr un KO en el Turno 1 o que pueda usar Itchy Pollen. Necesitamos minimizar el riesgo de que no nos permitan jugar el juego normal.
+- Si tienen un Pokémon ex poderoso como Dragapult o Garchomp, no tienes obligación de atacarlo. Infligir daño al tablero del oponente no sirve de mucho a menos que estés robando muerto. Pueden castigarte con Adrena Brain, Unfair Stamp o Special Red Card. Hablando de Unfair Stamp, no noquees a ningún Pokémon que no represente una amenaza sin motivo, ya que es una gran amenaza. Dicho esto, la mayoría de los Pokémon representan una amenaza de alguna manera, por lo que suele ser bueno noquearlos.
+
+- Ve segundo a ciegas. Ve segundo contra cualquier deck que pueda lograr un KO en el primer turno o que pueda usar Itchy Pollen. Necesitamos minimizar el riesgo de que nos donkeen. Con la versión de Mega Kangaskhan, creo que ir primero a ciegas es mejor porque tiene más ventajas y menos desventajas, pero aun así ve segundo contra los mismos decks cuando tengas la opción.
+
+- No pongas en la banca Pokémon adicionales innecesarios. Ten en cuenta que los oponentes normalmente obtendrán tres premios fáciles de Mega Kangaskhan, y aún así queremos obligarlos a pasar por un Crustle cargado.
 
 ## Matchups
 
 ### Dragapult - Depende
 
-La mayoría de los decks de Dragapult probablemente no techeen contra Crustle en este momento, así que realmente depende de la lista a la que nos enfrentemos. Si tienen a Dudunsparce ex, estamos perdidos. Si juegan con Dusknoir, el matchup es bastante parejo (o ligeramente desfavorable). Contra cualquier otra versión, el matchup es muy favorable. Por supuesto, si tienen una carta como Paldean Tauros, prácticamente no tenemos ninguna posibilidad.
+La mayoría de los decks de Dragapult probablemente no techeen contra Crustle en este momento, así que realmente depende de la lista a la que nos enfrentemos. Si tienen a Dudunsparce ex o Chi-Yu, estamos perdidos. Si juegan con Dusknoir, el matchup es bastante parejo (o ligeramente desfavorable). Contra cualquier otra versión, el matchup es muy favorable. Por supuesto, si tienen una carta como Paldean Tauros, prácticamente no tenemos ninguna posibilidad.
 
 - Psyduck de inmediato en cuanot veas a Duskull e intenta mantener a Psyduck en juego usando Night Stretcher si es noqueado y protegiéndolo con Mist Energy.
 - Munkidori es muy bueno debido al daño residual que se acumula. Se usa a menudo para curar a Psyduck y puede presionar a Duskull.
 - Mist Energy también puede ser útil en Crustle porque podrían intentar usar Mind Bend sobre él. Si no tienes a Psyduck, también pueden usar Dusknoir junto con Phantom Dive para debilitar a Crustle si no tiene Mist Energy.
 - Intenta noquear a Duskull, Dusclops o Dusknoir siempre que sea posible. Noquear a Munkidori también es una buena opción, ya que puede usar Risky Ruins y Adrena Brain para atacar a Psyduck. Aunque jugamos con Psyduck, Dusknoir sigue siendo una amenaza porque puede atacar. Además, puede noquear a nuestro Psyduck varias veces.
+
+- En la versión de Mega Kangaskhan, el objetivo es simplemente crear un Crustle invencible. La Energía Mist previene Mind Bend. Si usan Crushing Hammer contra la Energía Mist y después Mind Bend, aún podemos encontrar Festival Ground con relativa facilidad.
+
+- Atacar a sus Pokémon grandes generalmente no es buena idea, ya que les otorga daño para Adrena Brain. A veces es necesario si tienes poco tiempo.
+
+- Guarda Estadios para contrarrestar la Rocket's Watchtower.
+
+- Si no sabes si tienen un counter para Crustle (o si sabes que no lo tienen), usa la estrategia habitual de Crustle. Si sabes que sí tienen un counter, opta por un Mega Kangaskhan de ataque rápido y pon en juego a los dos Bouffalant. Luego, juega como un deck de Kang Bouff normal.
+
+- No pongas a Bouffalant en juego cuando uses la estrategia de Crustle (cuando no tengan una tech para Crustle).
+
+- Prioriza noquear con Energía a los Pokémon que puedan amenazar a Crustle, como Munkidori o Drakloak. En general, es buena idea cargar más de 3 energías a Crustle por los Crushing Hammer.
 
 ```youtube
 id: qLvUVRSdQzM
@@ -204,9 +298,9 @@ id: qD3lvE40LAM
 title: Crustle v Lucario 1
 ```
 
-### Festival Lead - favorable
+### Festival Lead - Ligeramente Favorable
 
-Si tienen a Rillaboom, es prácticamente imposible de ganar. Si no, este enfrentamiento es favorable.
+Este matchup es un poco más parejo con Gladion contra la versión de Cornerstone. Para la versión de Mega Kangaskhan, es ligeramente favorable. Sin embargo, si juegan Tool Scrapper el matchup se vuelve muy desfavorable.
 
 - Carga a Cornerstone Ogerpon en la banca lo más rápido posible. Si le cargan Energía a Thwackey, intenta noquearlo inmediatamente. No debilites nada que no represente una amenaza (como Dipplin, ya que es un problema para ellos). Si ponen a Rellor de forma preventiva, noquealo en cuanto lo veas. Lo mismo con Rillaboom.
 - Usar Boss's Orders a Thwackey puede ser útil, ya que detiene las búsquedas o los obliga a usar una carta de cambio.

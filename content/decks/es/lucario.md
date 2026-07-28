@@ -6,14 +6,14 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for Lucario](./images/lucario/lucario.png)
+![decklist for Lucario](./images/lucario/nojudge.png)
 ```decklist
 Pokémon: 17
 4 Riolu MEG 76
 3 Mega Lucario ex MEG 77
 2 Makuhita MEG 72
 2 Hariyama MEG 73
-2 Solrock MEG 75
+3 Solrock MEG 75
 2 Lunatone MEG 74
 1 Genesect SFA 40
 1 Meowth ex POR 62
@@ -21,7 +21,6 @@ Pokémon: 17
 Trainer: 32
 4 Lillie's Determination MEG 119
 3 Boss's Orders MEG 114
-1 Judge DRI 167
 4 Ultra Ball MEG 131
 4 Fighting Gong MEG 116
 4 Premium Power Pro MEG 124
@@ -38,24 +37,23 @@ Energy: 11
 ### Inclusiones
 
 - Genesect es realmente muy bueno. Una de las condiciones de derrota más comunes de este deck es quedarse sin opciones en la mano después de Unfair Stamp. Genesect nos protege de esto. No es difícil de encontrar ni de usar, y normalmente puedes permitirte tenerlo en tu banca. Tuvo un buen rendimiento en los juegos, aunque no lo tuvo cuando lo probé en otros decks.
+- Por fin agregue el tercer Solrock para aumentar la posibilidad de iniciar con el en un 10%, pero igual se puede quitar.
 - Meowth está increíblemente roto. Sí, puede ser noqueado fácilmente, pero lo uso con demasiada frecuencia como para no jugarlo.
 - Probé con tres Riolu y quería un cuarto porque es importante poner varios en juego en algunos matchups, y necesitas el segundo rápidamente.
 - Incluso con Hariyama, este deck sigue recurriendo mucho a Boss’s Orders. De hecho, me gustaría incluir un cuarto si el espacio lo permitiera.
 - En general, Judge no es muy bueno, pero a veces es la carta que necesitas para evitar que el oponente haga un combo poderoso. Meowth al menos la hace algo consistente.
 - La pregunta sobre cuál Ace Spec usar es interesante. Para esta lista, creo que la mejor opción es Secret Box seguido de Maximum Belt. Si construyes el deck de forma un poco diferente, tal vez algo como Hero’s Cape o Scoop Up Cyclone también podría funcionar. Secret Box es mejor que Maximum Belt cuando se trata de lograr grandes KOs en Pokémon como Arboliva o Dragapult, ya que puede obtener Premium Power Pro y Gravity Mountain además de hacer otras cosas. Por supuesto, Secret Box tiene mucha versatilidad y casos de uso infinitos, además de aumentar la consistencia del deck. 
-- Este deck tiene dos Switch. Necesito esta cantidad de Air Balloon para poder usar a Genesect con frecuencia. Con tres Air Balloon y sin Switch, a veces echaba de menos esta carta. Esto es especialmente importante contra decks que no debilitan instantáneamente a Lucario tras usar Mega Brave. En general, conservar las Energías en el tablero también es fundamental. Aunque los Switch no son la parte más esencial del deck, es útil tenerlos.
-- Gravity Mountain es importante contra Dragapult y Arboliva tanto por la modificación del daño como por la eliminación del Estadio.
+- Este deck tiene dos Switch. Necesito esta cantidad de Air Balloon para poder usar a Genesect con frecuencia. Con tres Air Balloon y sin Switch, a veces echaba de menos esta carta. Esto es especialmente importante contra decks que no debilitan instantáneamente a Lucario tras usar Mega Brave. En general, conservar las Energías en el tablero también es fundamental. También son muy importantes contra Dragapult ahora que tienen Crushing Hammer (y Mind Bend). 
+- Gravity Mountain es importante contra Dragapult y Hydrapple tanto por la modificación del daño como por la eliminación del Estadio.
 - 11 Energías Lucha es la cantidad ideal. Probé 10 y quería más. Incluso podría añadir 12, aunque no creo que lo haga.
 
 ### Posibles inclusiones
 
 - Maximum Belt me sigue pareciendo muy bueno. Permite noquear con mayor facilidad a Pokémon como Teal Mask Ogerpon con Aura Jab, lo cual puede ser muy relevante. También permite noquear ocasionalmente a Pokémon como Fezandipiti/Meowth en el primer turno con Riolu, además de mejorar los mirrors.
-- Ciphermaniac's Codebreaking podría ser útil. Aún no la he probado, pero no sé qué se podría quitar, aparte de quizás un Switch.
 
 ### Exclusiones
 
-- Probé el tercer Solrock y resultó ser un estorbo. Este deck no ataca con Solrock tanto como esperaba. Generalmente se prefiere usar Aura Jab. Aún se ataca con Solrock en algunas ocasiones, pero no lo suficiente como para justificar una tercera copia.
-- También probé el segundo Judge y simplemente odio la carta. Solo juego una a regañadientes porque hay situaciones en las que se necesita. No veo la necesidad de una segunda. Entre Lunar Cycle, Meowth y Caja Secreta, no es muy difícil encontrar una sola copia. Usar a Judge para robar cartas es terrible, así que es principalmente para atacar la mano del oponente.
+- Accompanying Flute es una perdida de espacio y realmente no hace nada.
 - Probé Wally’s Compassion y no le encontré ningún sentido. Usarla en Lucario impide usar Mega Brave o Boss’s Orders en ese turno, lo cual no es ideal. Wally’s Compassion parece buena en teoría, pero no lo es en la práctica.
 - La Fighting Rocky Energy es mala. Siempre quisiera que fuera una Energía Básica cuando la tengo, ya que hay demasiadas interacciones con la Energía Básica en cada partida. Claro, la Fighting Rocky Energy tiene sus ventajas contra Dragapult y Alakazam, pero no influye mucho en el porcentaje de victorias.
 <!-- /PUBLIC -->
@@ -72,13 +70,14 @@ Energy: 11
 - Usar Aura Jab para debilitar Pokémon como Meowth o Fezandipiti y acelerar la obtención de Energía durante el intercambio de premios es fundamental para la condición de victoria y la obtención de premios de este deck. Lo ideal es hacerlo cuando tengas 2 o 3 Energías en tu pila de descartes. Si lo haces sin acelerar Energía, podrías sufrir y quedarte atascado más adelante sin atacantes suficientes
 - Si tienes una banca muy pequeña contra decks de Clefairy, es posible que Clefairy no pueda derrotar a Lucario de un solo golpe. Esto es bastante difícil de contrarrestar, pero puede ser decisivo para ganar la partida si tienes la oportunidad.
 - Está bien evolucionar a Hariyama sin usar la Habilidad, siempre y cuando se cumplan las siguientes condiciones: 1) tcrees que usaran Unfair Stamp O pueden fácilmente noquear a Makuhita, 2) vas a necesitar atacar con Hariyama, y ​​3) no necesariamente necesitarás el efecto de gusteo de la Habilidad.
-- Ir primero suele ser lo mejor. Ve segundo contra decks con Budew o algunos decks de evolución, en particular Dragapult. También ve segundo contra matchups desfavorables como Alakazam o Garchomp para presionarlos con KOs rápidos.
+- Ir primero suele ser lo mejor. Aun contra Dragapult a pesar del potencial del molesto Budew. Solrock KO turno 1 es especialmente dificil si inician con Munkidori. También ve segundo contra matchups desfavorables como Alakazam o Garchomp para presionarlos con KOs rápidos.
 
 ## Matchups
 
 ### Dragapult - Ligeramente Favorable
 
-Ahora que la mayoría de los decks no incluyen a Latias ni a Clefairy, este matchup es bastante favorable. Si tienen a Latias, la situación es bastante equilibrada. Si juegan con Clefairy, el matchup se vuelve desfavorable porque les resulta mucho más fácil responder a Mega Lucario.
+Este matchup es ligeramente favorable aquí debido a Genesect, y también para Dragapult en el meta general porque la mayoría de los Mega Lucario no juegan con Genesect. Es posible que esté sobreestimando el impacto de Genesect, puesto que la Special Red Card sigue siendo una amenaza (aunque no tan temible como Unfair Stamp).
+
 - Es necesario tener alguna respuesta para sus atacantes psíquicos si juegan alguno (normalmente Hariyama o el segundo ataque de Lucario). El primer ataque de Lucario también puede derrotar a Clefairy con dos modificadores de daño. Tener mucha Energía en juego suele ser muy importante.
 - Solrock y Riolu son buenos atacantes al principio del juego, especialmente si amenazan con Latias. Si no representan una amenaza con Latias (e incluso a veces si lo hacen), el Aura Jab de Lucario es el mejor ataque inicial para generar Energía en juego en Riolu o Hariyama.
 - Necesitas tener alguna forma de responder a sus atacantes psíquicos (normalmente Hariyama o el segundo ataque de Lucario). El primer ataque de Lucario también puede derrotar a Clefairy con dos modificadores de daño. Tener mucha Energía en juego suele ser muy importante.
@@ -86,7 +85,8 @@ Ahora que la mayoría de los decks no incluyen a Latias ni a Clefairy, este matc
 - Usar Ultra Ball de forma anticipada es muy importante. Intenta hacerlo antes de que te bloqueen el uso de Items, por ejemplo, en el turno 1 si aún no tienes a Lucario en la mano.
 - Intentar derrotar a Dragapult de dos ataques es una mala estrategia. Intenta derrotarlo de un solo golpe o noquear algo diferente con Boss’s Orders si es necesario.
 - Hay que conseguir muchos Riolu y hacerlos evolucionar cuanto antes porque caen como moscas.
-- Intenta conseguir a Genesect en juego antes de que ellos consigan Unfair Stamp, aunque esto es algo difícil en este matchup y depende totalmente de la suerte.
+- Intenta conseguir a Genesect antes de que ellos consigan Unfair Stamp, aunque esto es algo difícil en este enfrentamiento y depende completamente de la suerte. A veces no lo conseguirás, y no pasa nada.
+- Air Balloon de sobra suele ser la mejor opción para Lucario para contrarrestar posibles Crushing Hammer o Mind Bend.
 
 ```youtube
 id: KrC_xNmpJrg
@@ -291,6 +291,6 @@ title: Ogerpon v Lucario 2
 
 ## Conclusión
 
-Este deck es bastante bueno, mejor de lo que esperaba. Ahora que los decks de Dragapult no estan jugando atacantes tipo Psiquicos, Mega Lucario se vuelve bastante mejor.
+Lucario es un deck decente. Creo que es una opción sólida para el Mundial si el metajuego se basa principalmente en Dragapult, Zoroark y Crustle. Claro que Lucario sigue siendo terrible contra los decks de una sola carta de premio, así que ese es el riesgo de jugarlo.
 
 

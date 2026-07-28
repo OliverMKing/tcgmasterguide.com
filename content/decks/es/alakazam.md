@@ -96,7 +96,7 @@ Esta es la versión más estándar, con Genesect y Estadios en lugar de Rabsca y
 
 ### Inclusiones
 
-- Genesect es útil principalmente contra Dragapult y nos da una excusa para usar Lucky Helmet, que es muy útil contra la interrupción de la mano. Lucky Helmet es la mejor herramienta por esta razón, así que creo que es mejor usar tres en lugar de cualquier otra.
+- Genesect es útil principalmente contra Dragapult y nos da una excusa para usar Lucky Helmet, que es muy útil contra la interrupción de la mano. Lucky Helmet es la mejor herramienta por esta razón, así que creo que es mejor usar tres en lugar de cualquier otra. Genesect también es bueno contra Festival para detener Secret Box, lo que les dificulta un poco jugar Gladion.
 - Shaymin sirve contra Wellspring Ogerpon y Slowking.
 - Cuatro Rare Candy por las mismas razones que las anteriores, igual que tres Enhanced Hammer.
 - Nighttime Mine es muy útil contra Dragapult y nos da una respuesta fácil a Rocket's Watchtower.
@@ -108,6 +108,7 @@ Esta es la versión más estándar, con Genesect y Estadios en lugar de Rabsca y
 - Special Red Card probablemente sería útil.
 - Jugar el paquete de Wondrous Patch en lugar del paquete Genesect podría ser una opción.
 - Psyduck ayuda poco contra Dragapult/Dusknoir, pero el matchup sigue siendo difícil incluso con él, así que no creo que valga la pena.
+- Handheld Fan podría volver a popularizarse si Festival Lead se vuelve más popular.
 
 ### Exclusiones
 
@@ -323,18 +324,20 @@ id: tQgDTTJcgC0
 title: Zam v Lucario 1
 ```
 
-### Festival Lead - Even
+### Festival Lead - Desfavorable
 
 - Los Rare Candy son un recurso muy importante. Intenta poner en juego tantos Abra y Kadabra como sea posible cuanto antes.
-- Intenta poner un Dudunsparce en juego cuanto antes para usarlo como escudo y evitar que consigan dos premios.
+- Intenta poner un Dudunsparce en juego cuanto antes para usarlo como escudo y evitar que consigan dos premios. Desafortunadamente no hay mucho que puedas hacer para evitar un doble KO con Gladion, así es que hay que ser agresivo para tener chance contra ellos.
 - Noquea a Dipplin en cada turno. Esto agota sus recursos al máximo. Una vez caí en la trampa al noquear a su único Thwackey, y eso marcó la diferencia entre ganar y perder.
-- Si juegas Battle Cage o Nightime Mine intenta quitar su Estadio en cada turno. Puedes crear un tablero al final de la partida lleno de Pokémon con más de 100 de HP para potencialmente ganar si se quedan sin Estadios.
+- Si juegas muchos Estadios intenta quitar su Estadio en cada turno. Puedes crear un tablero al final de la partida lleno de Pokémon con más de 100 de HP para potencialmente ganar si se quedan sin Estadios.
 - Si juegas Handheld Fan, usarlo en Alakazam suele ser la mejor opción. Se pueden hacer algunas jugadas ingeniosas con Dudunsparce y Handheld Fan, pero son muy complejas y dependen de la situación.
 
 ```youtube
 id: g5-pKFaJc_Y
 title: Festival v Zam 1
 ```
+
+Estos juegos son pre-Gladion. Aplican los mismos principios pero el matchup es más favorable para Festival Lead ahora.
 
 ```youtube
 id: X3YpsKBoBBI
@@ -396,4 +399,4 @@ title: Zam v Meganium 2
 
 ## Conclusión
 
-Este deck es bastante bueno ahora con Rabsca, lo que le permite vencer a algunos decks de Dragapult, como la versión Crushing Hammers/Risky Ruins. Sin embargo, sigue siendo una lotería en cuanto a matchups, ya que pierde fácilmente contra Mewtwo y otras listas de Dragapult. Este deck también se debilita un poco cuando hay más Dragapult jugando Rocket's Watchtower, por lo que depende de las tendencias del metajuego actual.
+Este deck es bastante bueno ahora con Rabsca, lo que le permite vencer a algunos decks de Dragapult, como la versión Crushing Hammers/Risky Ruins. Sin embargo, sigue siendo una lotería en cuanto a matchups, ya que pierde fácilmente contra Mewtwo y otras listas de Dragapult. Este deck también se debilita un poco cuando hay más Dragapult jugando Rocket's Watchtower y metas llenos de Festival Lead.
