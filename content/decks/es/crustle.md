@@ -300,7 +300,7 @@ title: Crustle v Lucario 1
 
 ### Festival Lead - Ligeramente Favorable
 
-Este matchup es un poco más parejo con Gladion contra la versión de Cornerstone. Para la versión de Mega Kangaskhan, es ligeramente favorable. Sin embargo, si juegan Tool Scrapper, el matchup se vuelve muy desfavorable.
+Este matchup es un poco más parejo con Gladion contra la versión de Cornerstone. Para la versión de Mega Kangaskhan, es ligeramente favorable. Sin embargo, si juegan Tool Scrapper el matchup se vuelve muy desfavorable.
 
 - Carga a Cornerstone Ogerpon en la banca lo más rápido posible. Si le cargan Energía a Thwackey, intenta noquearlo inmediatamente. No debilites nada que no represente una amenaza (como Dipplin, ya que es un problema para ellos). Si ponen a Rellor de forma preventiva, noquealo en cuanto lo veas. Lo mismo con Rillaboom.
 - Usar Boss's Orders a Thwackey puede ser útil, ya que detiene las búsquedas o los obliga a usar una carta de cambio.
