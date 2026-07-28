@@ -210,7 +210,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
     async (page = 1, sort: SortField = 'createdAt', order: SortOrder = 'desc') => {
       try {
         const response = await fetchWithRetryRef.current(
-          `/api/comments?deckSlug=${deckSlug}&page=${page}&sortBy=${sort}&sortOrder=${order}`,
+          `/api/comments?deckSlug=${deckSlug}&locale=${locale}&page=${page}&sortBy=${sort}&sortOrder=${order}`,
           { forceRefresh: true }
         )
         if (!response.ok) throw new Error('Failed to fetch comments')
@@ -223,7 +223,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
         setIsLoading(false)
       }
     },
-    [deckSlug]
+    [deckSlug, locale]
   )
 
   useEffect(() => {
@@ -257,7 +257,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
       const response = await fetchWithRetryRef.current('/api/comments', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ deckSlug, deckTitle, content: newComment }),
+        body: JSON.stringify({ deckSlug, deckTitle, content: newComment, locale }),
       })
 
       if (!response.ok) {
@@ -290,6 +290,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
           parentId,
           deckSlug,
           deckTitle,
+          locale,
         }),
       })
 

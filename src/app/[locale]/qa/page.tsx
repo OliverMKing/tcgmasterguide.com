@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { useUser, SignInButton } from '@clerk/nextjs'
-import { useTranslations } from 'next-intl'
+import { useTranslations, useLocale } from 'next-intl'
 import { useCurrentUser } from '@/hooks/useCurrentUser'
 import { useFetchWithRetry } from '@/lib/fetch-with-retry'
 import { Link } from '@/i18n/navigation'
@@ -45,6 +45,7 @@ type SortOrder = 'asc' | 'desc'
 
 export default function QAPage() {
   const t = useTranslations('qa')
+  const locale = useLocale()
   const { isSignedIn, isLoaded } = useUser()
   const { isAdmin, hasSubscriberAccess, isLoaded: userLoaded } = useCurrentUser()
   const fetchWithRetry = useFetchWithRetry()
@@ -69,6 +70,7 @@ export default function QAPage() {
         page: String(page),
         sortBy: sort,
         sortOrder: order,
+        locale,
       })
       if (deckFilter === 'other') {
         params.set('deckSlug', '')
@@ -85,7 +87,7 @@ export default function QAPage() {
     } finally {
       setIsLoading(false)
     }
-  }, [fetchWithRetry, t])
+  }, [fetchWithRetry, t, locale])
 
   const fetchDecks = useCallback(async () => {
     try {
@@ -142,6 +144,7 @@ export default function QAPage() {
           content: newQuestion,
           deckSlug: selectedDeck || null,
           deckTitle: selectedDeckData?.title || null,
+          locale,
         }),
       })
 
@@ -178,6 +181,7 @@ export default function QAPage() {
           parentId,
           deckSlug: parentComment?.deckSlug || null,
           deckTitle: parentComment?.deckTitle || null,
+          locale,
         }),
       })
 
