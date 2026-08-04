@@ -47,6 +47,7 @@ Energy: 7
 
 ### Possible Inclusions
 
+- I don't think Toucannon is needed, but it can solve some problems in specific metas. For example, it makes it a lot more possible to beat decks such as Hide n Sneak or Rocket's Articuno. For the time being, I don't think those decks are that big of a deal.
 - Shaymin would be ok but it's a bit redudant with heavy Rabsca.
 - Special Red Card would probably be good.
 - Morty’s Conviction is very nice as a draw card that can add a lot of cards to hand. Sometimes Hilda or Dawn nets more cards by extending into Alakazam/Dudunsparce, but in other situations, Morty is a more powerful draw Supporter. The reason I prefer Morty to other options is because it’s the only way for this deck to discard Psychic Energy, which is very relevant when you want to use the Wondrous Patch/Enriching Energy combo. I ended up cutting the Mortys for space for Rabsca but it's still not bad.
@@ -93,7 +94,7 @@ Energy: 6
 1 Enriching Energy SSP 191
 ```
 
-This is the more standard build with Genesect and Stadiums instead of Rabsca and Wondrous Patches. Which build is better kind of depends on the meta. With more Watchtowers, the Stadiums are better. Otherwise, Rabsca is better.
+This is the more standard build with Genesect and Stadiums instead of Rabsca and Wondrous Patches. Which build is better kind of depends on the meta. With more Watchtowers around, the Stadiums are better. Otherwise, Rabsca is better.
 
 ### Inclusions
 
@@ -110,6 +111,7 @@ This is the more standard build with Genesect and Stadiums instead of Rabsca and
 - Special Red Card would probably be good.
 - Playing the Wondrous Patch package over the Genesect package could be possible.
 - Psyduck helps a little against Dragapult / Dusknoir but the matchup is still tough even with it, so I don't think it's worth it. Having random bad Pokemon to start with can be a big liability too.
+- The same logic for Toucannon applies for this list as well.  
 
 ### Exclusions
 
@@ -132,13 +134,13 @@ This is the more standard build with Genesect and Stadiums instead of Rabsca and
 - Understanding the card values of draw cards can help with Alakzam specifically. Dudunsparce in hand is +2, Dudunsparce on board is +3, Candy Alakazam is only +1, as is Kadabra. In the best case, Hilda can be +6, while Dawn can be a whopping +8! Morty’s Conviction is only +3 if your opponent has a full bench (or +6 with Area Zero), but it is less conditional based on what you have on the board. In other words, Morty is better draw power if your Pokemon are already evolved.
 - Playing around Watchtower with the no-Stadium build often involves leaving Enriching Energy in the deck and having access to Fez. Most Dragapult play 0-1 Watchtower, which is fine. If they play more, it can be tough. Make sure not to leave too many Dunsparce / Dudunsparce in play when you're likely to get hit with the full disruption combo, as those board spots become completely dead.
 - Lucky Helmet is best when going into Red Card range or are particularly worried about Judge/Stamp at a particular moment. Of course it can also just get slammed on Genesect early if possible. If you're worried about Fez getting smacked/trapped against Dragapult, it's reasonable to put it on Fez.
-- Playing around random Xerosic's is generally good to keep in mind.
+- Playing around random Xerosic's is generally good to keep in mind. You don't have to draw as much as you can all the time, as you end up with diminishing returns at some point. That said, if you're going to need to find a specific card like Boss's Orders within the next turn or two, that's when it's best to draw as many cards as possible.
 
 ## Matchups
 
 ### Dragapult - Depends
 
-With the addition of Rabsca, non-Dusknoir and non-Yveltal builds are now favorable for Alakazam! Dragapult / Dusknoir is still unfavorable for all builds. If you play Battle Cage instead of Rabsca, all Dragapult matchups are still unfavorable. How you play against Dragapult with and without Rabsca is quite different. With the Nighttime Mine build, it's close to even against Dragapult decks with fewer than three hand disruption cards.
+With the addition of Rabsca, some Dragapult builds are now favorable for Alakazam! Dragapult / Dusknoir is still unfavorable for all builds. If you play Battle Cage instead of Rabsca, all Dragapult matchups are still unfavorable. How you play against Dragapult with and without Rabsca is quite different. With the Nighttime Mine build, it's close to even against Dragapult decks with fewer than three hand disruption cards. Most of them just play a Stamp and a Red Card, which is good, but sometimes they also have Judge.
 
 With Rabsca:
 
@@ -146,14 +148,14 @@ With Rabsca:
 - The ideal board is both Rabsca, attacking Alakazam, Kadabra, and then some combination of Abra, Fezandipiti, and Dudunsparce. If they play Watchtower, you can ignore Dudunsparce completely.
 - If Rabsca or a Rellor is prized, you may need to be more aggressive as you won't be able to set up the unbeatable board. Same if you're against Dusknoir since their setup beats yours.
 - Fezandipiti is very good in this matchup, especially to preemptively bench it to play around Stamp. Rabsca protects the Fezandipiti so it's not much of a liability like it would be without Rabsca.
-- Passing instead of swinging into Dragapult for less than a KO is often best, but there are some exceptions depending on the board (such as if you think you won't be able to get the KO next turn). In general, don't give them free damage. If they already have plenty of damage from Risky Ruins, this is less of a concern.
+- Passing instead of swinging into Dragapult for less than a KO is often best, but there are some exceptions depending on the board (such as if you think you won't be able to get the KO next turn). In general, don't give them free damage to use Adrenabrain with. If they already have plenty of damage from Risky Ruins, this is less of a concern.
 
 Without Rabsca:
 
 - Prioritize getting lots of Abra down and evolved quickly. All four Abra would be ideal.
 - Kadabra one-shots Budew. Just go for it if you're Item-locked. Bonus points if you have Genesect with a Tool. Genesect is very good early if you can get it before they get Stamp.
 - Boss’s Orders can let us KO Drakloak with Energy to hopefully slow them down by a turn. KO’ing two-prize liabilities can also be quite good.
-- Leave 1-2 Dudunsparce in play if you can in order to play around Stamp.
+- Leave 1-2 Dudunsparce in play if you can in order to play around Stamp and Red Card.
 - Fez can be a big liability but often needs to get used anyway. If you can play around hand disruption with Helmet and Dudunsparce instead, that would be ideal.
 - Slam Nighttime Mine on sight.
 
@@ -211,7 +213,7 @@ title: Zam v Bolt 2
 ### Alakazam Mirror - Even
 
 - Do everything you can to get the first attack. Use Sacred Ash for Alakazam pieces as needed.
-- Play around Enhanced Hammer.
+- Don't give them free Enhanced Hammer value by attaching extra Telepathic Energy for no reason.
 - Don't put Fez in play.
 
 ### Slowking - Very Favorable
@@ -257,7 +259,7 @@ title: Slop v Zam 2
 ### Zoroark - Favorable
 
 - If they have Darmanitan/Darumaka, Shaymin / Rabsca is a huge priority.
-- Play around Stamp as normal. Also be aware of possible Xerosic's and try to play around it.
+- A lot of them play Secret Box now, but you still want to play around Stamp as normal because some of them still play it. Also be aware of possible Xerosic's and try to play around it.
 - Don’t worry about the Yveltal trap. It will often happen, but it is not a real threat. If they trap Fez, power it up asap to make it a threat. If they trap Shaymin, just let it go down in four hits and don’t bother powering it up. If they have the board of Pech, Munki, Darm, Yveltal, and Zoroark, they can get a triple-KO play by trapping Shaymin, KO’ing it with Adrenabrain, and then using Darm. You’ll probably still win even if they do this, and it’s unlikely to happen in the first place since they need board spots for draw power. If that actually does happen, make sure to have a third Alakazam line in play so they cannot wipe all attackers.
 
 ```youtube
@@ -267,10 +269,10 @@ title: Zam v Zoroark 1
 
 ### Crustle - Favorable
 
-- Get a fast Alakazam and draw cards aggressively to find Hammers and Bosses. 
+- Get a fast Alakazam and draw cards aggressively to find Hammers and Bosses. Hammers always get used on Mist Energy.
 - Boss is good specifically to target Spiky Energy, Hero’s Cape, or anything that accumulates too much Energy.
 - Start powering up Dudunsparce right away! This is how you can deal with a Crustle with Mist once you run out of Hammers. This is actually relevant in most games. If they ever leave a Dwebble with Mist Energy and you can KO it with Dudunsparce, do that and it’s basically game over.
-- If they have more prizes left than Bosses, you can even loop Dudunsparce into each other in the end-game. You have to be a bit careful with managing cards to not accidentally deck out, but Dudunsparce can infinitely heal itself while Crustle cannot KO it in one shot.
+- If they have more prizes left than Bosses, you can even loop Dudunsparce into each other in the end-game. You have to be a bit careful with managing cards to not accidentally deck out, but Dudunsparce can infinitely heal itself while Crustle cannot KO it in one shot. This is very situational.
 
 ```youtube
 id: KfDqsPaSWZo
@@ -284,16 +286,22 @@ title: Crustle v Zam 2
 
 ### Mewtwo - Auto Loss
 
+This matchup is still unfavorable even if you play Toucannon, but it's a little less terrible.
+
 - This is obviously a horrible matchup because of Articuno, but if there is a way to win it’s by powering up Fez as fast as possible and taking out their Articuno. Use Boss’s Orders and Enhanced Hammer to slow them down. They do sometimes draw garbage, so it is possible to get lucky.
 - If they for some reason do not have Articuno in play, wreak as much havoc as possible with Alakazam during that window whenever possible. Also use Alakazam to KO Spidops.
+- If you play Toucannon, try to set it up quickly (so they can't KO it first) and use it along with Boss to KO Articuno. Whenever they don't have Articuno in play, use Alakazam as normal.
 
 ### Hide n Sneak - Unfavorable
+
+This matchup becomes favorable or slightly favorable if you play Toucannon.
 
 - Get Fez and start attaching to it immediately. Use it to KO Banette. Ideally two.
 - If they have a non Sneak guy active, aggressively use Alakazam to KO it. Also use Boss to get Alakazam KO’s. Getting Alakazam KO’s first is ideal since Fez KO’ing Banette charges up their Dhelmise.
 - You also need to start powering up Dudunsparce to attack later in the game (after Fez goes down).
 - This matchup requires very careful use of Energy (and Balloon if you play it). All recovery cards need to be used on Psychic Energy. All Energy (including Enriching) will need to be used for attacking purposes.
 - Draw cards as much as possible.
+- If you have Toucannon, try to set it up on the bench as fast as possible. Unlike against Mewtwo, going out of your way to attack with Toucannon and Boss isn't the way to go. Use Toucannon as a reserve on the bench while powering up Fezandipiti. This way, you can respond to a Hide n Sneak Pokemon no matter what your opponent does, while using Alakazam to KO Dhelmise as normal.
 
 ```youtube
 id: rlDTFg8czno
@@ -310,12 +318,13 @@ title: Sneak v Zam 2
 - Draw cards as much as possible so you can quickly one-shot Excadrill. The one exception is sometimes Fez. Sometimes it’s fine to put down, but if they got a fast start and you’re behind several prizes, it might be too much of a risk. Of course, if Fez is the difference between KO’ing an Excadrill and not, then it’s usually worth it.
 - Boss is an important resource for when they start attacking with single-prize Pokemon.
 - Shaymin is sometimes good to stop their Fez. Don’t let them cheese you with Boss Fez strats.
+- Try to not two-shot their non-Caped Excadrill if you have any better option (such as Boss or extending for a one-shot). If they have Cape, you'll probably need to two-shot it, which is fine. Dealing lots of damage on the first hit can be relevent if they play Jumbo Ice Cream.
 
 ### Lucario - Very Favorable
 
 - Your lose conditions involve Rocky Fighting Energy and Judge. Play around Judge the same way you would play around Stamp.
 - Save Enhanced Hammers for Rocky Energy on Lucario. If they are attacking with Rocky Energy on Solrock, try to Boss around it instead so you’ll have Hammer for the Lucario/Hariyama. If you can’t Boss around, it’s fine to use the Hammer on it to get the KO.
-- Benching Fez preemptively is fine to play around Judge, as long as you’re ahead in the prize race and won’t lose by giving it to them. They can get an easy two prizes on it, but they cannot do any real snipe or trap shenanigans like Dragapult.
+- Benching Fez preemptively is fine to play around Judge, as long as you’re ahead in the prize race and won’t lose by giving it to them. They can get an easy two prizes on it, but they cannot do any real snipe or trap shenanigans like Dragapult can.
 - I think going second is best to avoid the unnecessary risk of getting donked by Solrock.
 
 ```youtube
@@ -361,7 +370,7 @@ title: Lop v Zam 1
 
 - Draw tons of cards aggressively to find Hammers and Bosses.
 - Use any spare Energy attachments to power up Fezandipiti. You may need it to KO a Gabite with Rocky Energy. Get one Energy on Alakazam first, then power up Fez asap. Use Fez to KO a Rocky Energy at any opportunity! This play is basically an instant-win if you get it.
-- If they have Garchomp in play, try to KO it. If not, Gabite is the ideal target. However, if they have lots of Pokemon in play, it can be better to save Boss to get around Rocky which can close out the game if the opponent is not careful.
+- If they have Garchomp in play, try to KO it. Otherwise, Gabite is the ideal target. However, if they have lots of Pokemon in play, it can be better to save Boss to get around Rocky which can close out the game if the opponent is not careful.
 
 ```youtube
 id: 8q94dnhtquM
@@ -375,8 +384,8 @@ title: Chomp v Zam 2
 
 ### Arboliva - Very Favorable
 
-- Lose conditions are Stamp/Judge bricking as well as Arboliva shenanigans. Fez is very good in this matchup for the hand disruption, but it can get trapped and sniped around by Arboliva. It’s still worth playing around hand disruption as much as possible. Try to always have a Dudunsparce on the board.
-- Shaymin is good by default because they are always threatening a fast Arboliva. However, depending on the board state, Shaymin may not be a priority. Do not let Arboliva KO two Abra at once. Later, Shaymin is better with Fez also on the board in case it gets stuck, but you sometimes don’t have space for both.
+- Lose conditions are Stamp/Judge bricking as well as Arboliva shenanigans. Fez is very good in this matchup to recover off hand disruption, but it can get trapped and sniped around by Arboliva. It’s still worth playing around hand disruption as much as possible. Try to always have a Dudunsparce on the board.
+- Shaymin is good by default because they are always threatening a fast Arboliva. However, depending on the board state, Shaymin may not be a priority. Do not let Arboliva KO two Abra at once. Later, Shaymin is better if you also have Fez on the board in case it gets stuck, but you sometimes don’t have space for both.
 - Play around Briar (usually with Boss's Orders at some point).
 
 ```youtube
@@ -391,10 +400,10 @@ title: Zam v Meganium 2
 
 ### Ogerpon - Very Favorable
 
-- Prioritize getting Shaymin. If you can’t get Shaymin fast but you do get set up without going too far behind, you won’t even need Shaymin anymore.
+- Prioritize getting Shaymin. If you can’t get Shaymin fast but you do get set up without going too far behind, you won’t even need Shaymin anymore after the game starts progressing.
 - Play around Stamp as usual unless you know they play a different Ace Spec.
 - If you end up putting Fez in play, attach an extra Energy or two to it in case they go for the Sob into three-prize play.
 
 ## Personal Thoughts
 
-This deck is quite good now with Rabsca allowing it to beat some Dragapult decks such as the Hammers / Risky Ruins build. However it's still playing matchup roulette since it hard loses to Mewtwo and some other Dragapult lists. This deck is also a bit worse when more Dragapult are playing Watchtower, as well as metas where Festival Lead is more popular.
+This deck is still alright but it has gotten downgraded recently. The Dragapult matchup is always going to be tough, some builds more than others. Now that Festival Lead has Gladion, it is a big obstacle. Hide n Sneak is also a threat, and Rocket's is still an auto-loss. However, it's possible that those decks won't become too popular, so Alakazam still has potential. Alakazam has lots of good matchups, so it has that going for it. I don't think it's a good play for Worlds, and the deck is just okay overall.
