@@ -6,7 +6,7 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for Dragapult](./images/dragapult/2card.png)
+![decklist for Dragapult](./images/dragapult/rosa.png)
 ```decklist
 Pokémon: 16
 4 Dreepy TWM 128
@@ -21,7 +21,8 @@ Pokémon: 16
 Trainer: 35
 4 Lillie's Determination MEG 119
 4 Boss's Orders MEG 114
-3 Crispin SCR 133
+2 Crispin SCR 133
+1 Rosa's Encouragement POR 84
 4 Buddy-Buddy Poffin TEF 144
 4 Ultra Ball MEG 131
 4 Poké Pad POR 81
@@ -41,6 +42,7 @@ Energy: 9
 
 - Moltres has really grown on me and works well in the current meta. It is mostly good against Hydrapple as well as a way to respond to fast threats such as Fezandipiti or random Caped Pokemon before you have a chance to establish Dragapult. It also occasionally gets used in other matchups such as Raging Bolt and Slowking.
 - Boss’s Orders is extremely important in literally every matchup. Lots of times I’m forced to discard one off Ultra Ball, but with four copies, that’s fine. Playing four lets you have it when you need it, and gives more flexibility to outmaneuver single-prize decks. Also works well in prolonged games, which is often relevant. Four Boss is definitely a good play.
+- I added Rosa's Encouragement because it is often relevant and good. Crispin is sometimes hard to use in the late-game, and Rosa can also make it easier to activate Munkidori since it accelerates more Energy than Crispin.
 - Crushing Hammer is pretty broken. One or two timely heads can be game-winning, and if you flip tails, you’re still a powerful Dragapult deck. Early heads can be particularly devastating against Slop Box/Raging Bolt and Slowking. Also gives a chance to win against Crustle or come back in the mirror.
 - Special Red Card is very good in this deck. You may think that you’ll never use two in a game, but sometimes you end up doing so anyway, especially if you hit the Stamp early. This deck ends up in lots of longer games, so having two Red Card is very nice. Even if you only need one in a game, it’s very important to have at the right time and has nice synergy with all of the other disruption.
 - Stamp is absurdly broken, especially with all of the other disruption and how much effort opponents have to put in to deal with a Dragapult. At best, it can instantly win games, but at least it stops opponents from hitting combos and doing what they want. I think it’s the best Ace Spec, even though you sometimes won’t have it when you want it.
@@ -49,8 +51,7 @@ Energy: 9
 ### Possible Inclusions
 
 - Chi-Yu would be a good tech to destroy Crustle. Paldean Tarous also does this, but I think Chi-Yu is better for this build.
-- Dark Bell seems pretty good. I might add it.
-- Rosa’s Encouragement would probably be really good. I am considering swapping a Crispin for it. Having Crispin can be relevant in the early-game, but this deck somehow runs out of Energy often, so Rosa’s can also be relevant later.
+- Dark Bell was ok when I tried it out. Free confusion is good, but the card is a bit more situational than I expected. I'm still not sure if it needs to be in the deck.
 - Judge could be played over a Red Card. I think Red Card is better overall, but it’s pretty close. Xerosic’s Machinations is a similar consideration for the same reasons.
 
 ### Exclusions
@@ -80,7 +81,7 @@ Energy: 9
 
 ### Dragapult Mirror - Even
 
-Slightly favorable against Dusknoir, about even against the rest. Possibly slightly unfavorable against Blaziken.
+Slightly favorable against Dusknoir, about even against the rest.
 
 - Munkidori is very strong. Try not to boardlock yourself out of it so that you can utilize it whenever you find it. Conversely, if they have Munkidori with Dark, consider KO’ing it to limit their options. With limited Stretchers, they might not be able to get it back.
 - We want to be the first one to attack with Phantom Dive. Choose to go first as there are plenty enough outs to Dreepy. Going first also opens up the option to shut them out of the game with Watchtower or Fez.
@@ -359,4 +360,4 @@ title: Lop v Hammers 4
 
 ## Personal Thoughts
 
-This is the best deck. When I’m playing this deck I’m only scared of Crustle, and even that is winnable with a bit of luck (or a tech). This build might not be the most consistent way to play Dragapult, but the list solves a lot of problems and covers most matchups. The disruption is extremely strong. Although somewhat luck-based, the disruption is also good at punishing opponent’s mistakes.
+Dragapult is the best deck. When I’m playing this deck I’m only scared of Crustle, and even that is winnable with a bit of luck (or a tech). This build might not be the most consistent way to play Dragapult, but the list solves a lot of problems and covers most matchups. The disruption is extremely strong. Although somewhat luck-based, the disruption is also good at punishing opponent’s mistakes.

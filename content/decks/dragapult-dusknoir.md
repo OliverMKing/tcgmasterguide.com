@@ -250,7 +250,7 @@ title: Sneak v Pultnoir 2
 ### Excadrill - Unfavorable
 
 - Go second.
-- Itchy Pollen is good if they don’t have their Basics in play, especially Genesect, since you can lock Trolley. However, if they already have the squad, the Item lock is useless. The 20 damage onto Drilbur can be relevant though.
+- Itchy Pollen is good if they don’t have their Basics in play, especially Genesect, since you can lock Trolley. However, if they already have the squad, the Item lock is useless. The 20 damage onto Drilbur is very good if it lines up.
 - Crushing Hammer is typically not that important. It can be useful but it’s not a resource you need to save or plan around.
 - Early Mind Bend is occasionally good. Sometimes you have a random Dark Energy with nothing better to do but attach to Munkidori, and sometimes they have not much Energy in play and struggle against Mind Bend. Can also use a Munkidori as an early-game meat shield because it does not die to the mill attack.
 - Dusknoir is very good, especially if you get Itchy Pollen onto Drilbur because it sets up a Cursed Blast + Phantom Dive KO.

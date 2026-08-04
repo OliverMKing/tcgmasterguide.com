@@ -48,12 +48,11 @@ Energy: 8
 - Dawn is better than expected. I would like to add the second one back in but not sure where the space is since I also want second Crispin.
 - Rare Candy is a card that is either useless or extremely impactful. There are some games where you don’t need it, but it’s very powerful and important to have on specific turns in various situations. I tried with two and three and found it to be strong enough to warrant the third.
 - Crispin is extremely strong. I found myself using it a ton, despite the deck also playing Blaziken. A very underrated aspect of it is actually finding the Energy, which can sometimes be inconsistent otherwise.
-- Petrel is out for Special Red Card since it's similar to Unfair Stamp. Although it would be nice to have Petrel to find Candy, it's ultimately not that strong of a card.
+- Special Red Card replaces Petrel since it's similar to Unfair Stamp. Although it would be nice to have Petrel to find Candy, it's ultimately not that strong of a card.
 - Just like regular Dragapult, Risky Ruins is very useful and impactful. I think it’s the best Stadium for this build. I'm not sure if this deck actually needs Stadiums, but they can be useful in any matchup and are particularly important against Alakazam.
 
 ### Possible Inclusions
 
-- Two Budew would be nice but it is sometimes a liability and the board space is a little tighter with the Blaziken line. The second would be good when one is prized, or sometimes to be used as a pivot. I’m also not sure what I would cut for it or if it's really needed.
 - Second Dawn would be nice to have.
 - Dudunsparce ex, Chi-Yu, or Paldean Tauros could be good techs for Crustle should the need arise.
 - Team Rocket’s Watchtower is decent in the current meta, and gets better with the addition of Special Red Card.
@@ -64,22 +63,22 @@ Energy: 8
 - Shaymin isn't as necessary with the deck packing three Rare Candy.
 - I think Judge and Harlequin are bad cards so I am not going to play them unless I find a good reason to do so.
 - I tried four Boss because the card is broken, but didn’t find that to be necessary in testing.
-- Area Zero is one of the worse Stadium options. It doesn't do enough.
+- Area Zero is one of the worse Stadium options. It doesn't do enough. However, if you also played Chien-Pao, it could remove liabilities from the board.
 
 <!-- /PUBLIC -->
 ## Gameplay Tips
-
-For this sections and for the matchups, a lot of the stuff is going to be the same as with the Dragapult guide since this is just a Dragapult deck. I’ll put the information relevant to Blaziken first, and then copy over the parts from the Dragapult page afterwards just to be thorough.
 
 - Go first against everything.
 - For setting up, I usually prioritize two Dreepy and a Torchic on Turn 1. Blaziken is useful in most games, and I can get the third Dreepy later. However, if I think I’m likely going to get three Drakloak on the next turn, I’ll take the third Dreepy over the Torchic.
 - I usually like to leave an extra board spot for Risky Ruins, Munkidori, or a support Pokemon, since I may need the flexibility. This is less true if the opponent is going to definitely get a KO on their next turn.
 - If Torchic is in danger and you won’t be able to attack without Blaziken next turn, get the second Torchic. Otherwise, don’t bother with the second Torchic.
 - Putting any random extra Energy in play is good so you can have a pivot. This is especially relevant in matchups where you need Clefairy.
-- Budew isn’t as much of a priority in this build. It’s difficult to pivot in and out of, and the board space is also more of an issue. It can be situationally good in any matchup, but it really just depends.
+- Budew isn’t as much of a priority in this build. It’s difficult to pivot into, and the board space is also more of an issue. It can be situationally good in any matchup, but it really just depends.
 - I lean towards opening with Dreepy (compared to Torchic or Munkidori) when going first for the Turn 2 Dragon Headbutt (or even Phantom Dive) possibility. Turn 2 Blaziken can still happen even if you choose not to start with Torchic thanks to its Ability, but the inverse is not true for Dreepy. Going second, I often start with Torchic due to its Collect attack. You won’t use Collect that often, but it’s strictly better than Dreepy or Munkidori when going second due to the flexibility. Torchic is generally a better sacrifice than Dreepy as well, but it can still retreat into something like Budew or Munkidori if necessary.
 - Opposite from regular Dragapult, stockpiling Energy in hand is actually quite good so you’ll have the attachment every turn. Furthermore, I occasionally use Ultra Ball to throw away Energy and combo with Blaziken’s Ability.
 - Another difference is the Drakloak with Energy + Torchic board. If you know your Drakloak with Energy would get sniped, you wouldn’t want to bother attaching to it. But with Torchic/Blaziken on the board, the opposite is true. They cover for each other so that no matter what your opponent decides to take out, you’ll have a way to attack.
+
+For Dragapult in general:
 
 - The sequencing with this deck depends on what you’re trying to do. When reaching for combos, maximize the number of cards seen by starting with Lillie/Stamp, then Fezandipiti, and Recon Directives last. If you need more Pokemon than search cards you have, draw first. If not, search first. If you need to evolve into Dragapult before playing a shuffle-draw (like Lillie or Stamp), use the evolving Drakloak’s Recon first, then evolve, then go into the above sequence.
 - Plan out your turn before you start playing cards. What are you trying to get done this turn? Most importantly, what Supporter to you want to play? If you’re using Crispin, best to start with that.
@@ -113,7 +112,7 @@ title: Blaziken v Pult 2
 
 - This is another matchup where Blaziken is very good. You don’t need to get the second Torchic right away, and a lot of times you don’t need it at all.
 - Blaziken is best used to attack pretty much any time it can get a KO. Ideally they don’t have a lot of Energy / Raging Bolt ex with Energy in play. It is possible for them to one-shot Blaziken with Raging Bolt. If they do that, respond with Unfair Stamp and Phantom Dive. If they have Fezandipiti, don’t take a KO right away and try to make them brick for a turn. Although Blaziken is good to attack with, you may not even attack with it more than once. It’s mostly just used to halt their tempo and deny a free Clefairy KO.
-- Spread damage should go 40 to Raging Bolt, and sometimes 10 to 210 HP Pokemon. Having the option to KO their Fez is good, but there are some occasions where smacking it for 200 and not taking the KO is better, so it just depends. If you're behind on the prize trade, you might need to go for the delay KO into double KO.
+- Spread damage should go 40 to Raging Bolt, and sometimes 10 to 210 HP Pokemon. Having the option to KO their Fez is good, but there are some occasions where smacking it for 200 and not taking the KO is better, so it just depends. If you're behind on the prize trade, you might need to go for the delay into double-KO.
 
 ```youtube
 id: b_n36dgxdPo
@@ -175,7 +174,7 @@ title: Blaziken v Mewtwo 2
 - Budew is mostly used to stop them from making an attacker. If they already have an attacker, Item-lock is not as much of a priority.
 - Save Risky Ruins for a strong play with Munkidori. This combo is very relevant. Can be used to one-shot the likes of Fez, or finish it off after a 200 hit.
 - Targeting the Clefairy is usually best. There’s a good chance they just won’t have the response to your Dragapult, especially if you Unfair Stamp them on the same turn.
-- If you have Shaymin or Watchtower, this is a good matchup for them.
+- If you have Shaymin or Watchtower, this is a good matchup to use them in.
 
 ### Hide n Sneak - Favorable
 
