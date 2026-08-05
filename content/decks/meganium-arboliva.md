@@ -67,7 +67,7 @@ Energy: 12
 
 ### Dragapult - Depends
 
-Against versions with Moltres or Blaziken, the matchup is unfavorable. Against other builds, it's much closer.
+Against versions with Moltres, Shaymin, or Blaziken, the matchup is unfavorable. Against other builds, it's much closer.
 
 - Prioritize getting a fast Arboliva and try to get max value from Items before getting Item-locked. When using Arboliva’s attack, KO Drakloak and put 20 on the next Drakloak/Dreepy. On the next attack, you can KO that Drakloak/Dreepy and Budew.
 - It’s also possible to do a similar thing but with Fezandipiti and Meganium instead of Arboliva. Of course, getting the Arboliva is easier and better, but if your hand lines up for the fast Fez instead, that’s nearly as good. Keep your eyes peeled for that option.

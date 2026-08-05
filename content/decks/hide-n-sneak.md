@@ -62,7 +62,7 @@ Energy: 7
 ### Exclusions
 
 - Sinischa is redundant. It can only be used if you’re drawing well, in which case the game should be winning anyway. Getting six in the discard is a massive chore. It can also be played around fairly easily. Seeing Sneak cards more often in the early-game would be nice, but I don’t think it’s worth playing cards that do absolutely nothing.
-- Gwynn is terribly inconsistent. It works best when your hand is already large and you have extra Pokemon to discard, but we need the draw Supporter to get to that point, which makes the card a bit illogical.  Same with other random bad cards like Naveen. It makes a little more sense if you’re playing heavier counts of Sneak cards.
+- Gwynn is terribly inconsistent. It works best when your hand is already large and you have extra Pokemon to discard, but we need the draw Supporter to get to that point, which makes the card a bit illogical.  Same with other random bad cards like Naveen. It makes a little more sense if you’re playing heavier counts of Sneak cards. I might consider adding one copy of Gwynn since it can be a nice option off Banette's attack.
 - Patrat is atrocious. It is a huge liability in the matchups where it’s supposed to be good. The one matchup where it is actually relevant is Dragapult / Blaziken, but that one is bad either way. It’s not as relevant against normal Dragapult or Zoroark as it would seem in theory.
 - I don’t see the point of Kieran. It does allow for a one-shot on Clefairy but that is not a good reason to play it. Kieran plus Bangle would hit some breakpoints but you don’t get to Boss the targets where the damage would be relevant.
 <!-- /PUBLIC -->

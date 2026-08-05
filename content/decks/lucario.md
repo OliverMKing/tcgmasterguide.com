@@ -38,17 +38,17 @@ Energy: 11
 
 - Genesect is actually very good. One of this deck’s most common lose conditions is bricking off Stamp. Genesect gives us protection from this. It isn’t hard to find or use, and usually you can afford having it on your bench. It actually performed well in testing, even though it didn’t when I tried it in other decks.
 - Meowth is insanely broken. Yes, it can be a liability, but I use it for value way too often to not play it.
-- I tried with three Riolu and wanted a fourth one because they are important to swarm into play in some matchups, and you want the second one quickly.
+- I tried with three Riolu and wanted a fourth one because they are important to swarm into play in some matchups (especially Dragapult), and you want the second one quickly.
 - I finally added the third Solrock to start with it ten percent more often. It is still cuttable though.
 - Even with Hariyama, this deck still likes to use Boss’s Orders a lot. In fact, I would even like to play a fourth Boss if space allowed.
-- The Ace Spec question is an interesting one. For this build, I think the best option is Secret Box followed by Maximum Belt. If you build the deck a bit differently, perhaps something like Hero’s Cape or Scoop Up Cyclone could work as well. Secret Box is better than Maximum Belt when it comes to reaching big KO’s on the likes of Arboliva or Dragapult, since it can grab Premium Power and Gravity Mountain while also doing other things. Of course, Secret Box has infinite versatility and use cases, while also boosting the consistency of the deck.
+- The Ace Spec question is an interesting one. For this build, I think the best option is Secret Box followed by Maximum Belt. If you build the deck a bit differently, perhaps something like Hero’s Cape or Scoop Up Cyclone could work as well. Secret Box is better than Maximum Belt when it comes to reaching big KO’s on the likes of Dragapult, since it can grab Premium Power and Gravity Mountain while also doing other things. Of course, Secret Box has infinite versatility and use cases, while also boosting the consistency of the deck.
 - There’s a lot of switching cards in this deck. I want this many Air Balloon to consistently be able to use Genesect. With three Air Balloon and no Switch, I found myself sometimes wanting Switch. This is mostly relevant against decks that do not instantly KO your Lucario after you use Mega Brave. In general, preserving Energy drops on the board is also quite important. They are also very important against Dragapult now that they have Crushing Hammer (and Mind Bend).
 - Gravity Mountain is important against Dragapult and Hydrapple for both the damage modification as well as the Stadium removal.
 - 11 Fighting Energy is good. I tried 10 and wanted more. I could even add 12th one, though I don’t think I would go above that.
 
 ### Possible Inclusions
 
-- Maximum Belt still seems very good. It allows you to more easily Aura Jab KO the likes of Teal Mask Ogerpon and such, which can be very relevant. It also allows for occasional Riolu KO’s on the likes of Fez/Meowth on Turn 1, as well as a better mirror match, so it isn’t bad to play Max Belt.
+- Maximum Belt still seems very good. It allows you to more easily Aura Jab KO the likes of Teal Mask Ogerpon and such, which can be very relevant. It also allows for occasional Riolu KO’s on the likes of Fez/Meowth on Turn 1, and it's still good against Dragapult.
 - Judge is overall not very good but sometimes it actually is the card you need to stop the opponent from getting a big combo. Meowth makes it somewhat consistent at least.
 
 ### Exclusions
@@ -60,7 +60,7 @@ Energy: 11
 ## Gameplay Tips
 
 - Hariyama is a very good attacker! It often swings prize trades. You’ll almost never power it up manually, but it’s great to power up with Aura Jab in some matchups. In the matchups where Hariyama is good, I usually Aura Jab two to it while putting one on Riolu/Lucario. That way, I can be flexible and use the manual attachment next turn on whichever one I want to use.
-- Lunar Cycling your only Fighting Energy for turn may be tempting, but don’t fall for it! I always get punished when I greed the Lunar Cycle! Only greed it when you are desperate, otherwise don’t sacrifice your manual attachment for the turn if you need it for a relevant attack. If you’re already able to use the attack you want (or if you can’t attack anyway), of course Lunar Cycle away. In other words, if you aren’t sure if you should Lunar Cycle or not, just don’t!
+- Lunar Cycling your only Fighting Energy for turn may be tempting, but don’t fall for it! I always get punished when I greed the Lunar Cycle! Only greed it when you are desperate, otherwise don’t sacrifice your manual attachment for the turn if you need it for a relevant attack. If you’re already able to use the attack you want (or if you can’t attack anyway), of course Lunar Cycle away. In other words, if you aren’t sure if you should Lunar Cycle or not, just don’t! If you are debating Cycling your only Energy and need to hit another one, your odds to hit one are slightly below 70% on average if you haven't used your Supporter yet (counting Lillie as an out), but there's a lot of relevant factors.
 - Riolu or Solrock can get some pretty nasty quick KO’s thanks to Premium Power Pro.
 - Keep your eyes peeled for situations where you may need to keep an open bench spot for Meowth.
 - Keeping Energy in play is extremely important. Sometimes it’s even better to use Aura Jab over getting a big Mega Brave KO. This is mostly applicable if your opponent will be able to KO your Lucario and leave you without a big attacker. Of course, if you can close out the game with Solrock or another Aura Jab, it’s no problem. Try to always have one or two Riolu/Lucario with at least one Energy, as well as Hariyama with 2-3 Energy if you have the option off Aura Jab. Keeping every attacker within one Energy of attacking is generally a good idea, so you don’t really need to Aura Jab or preemptively attach Energy to Solrock.
@@ -69,7 +69,7 @@ Energy: 11
 - I usually prefer to Lunar Cycle after Lillie given the option. The odds of whiffing a Fighting off Lillie are slim, and it’s optimal to sequence that way.
 - Using Aura Jab to KO Pokemon like Meowth/Fez to accelerate Energy while prize trading is a major part of this deck’s win condition/prize mapping. It’s best to do so when you have 2-3 Energy in your discard. If you do it without accelerating Energy, you may get punished and stuck later.
 - If you have a very small bench against Clefairy decks, it’s possible that Clefairy won’t be able to one-shot Lucario. This is pretty difficult to play around but can be game-winning if you have the opportunity.
-- It is okay to evolve into Hariyama without using the Ability, so long as the following conditions are met: 1) you’re getting Stamped OR they can easily snipe off the Makuhita 2) you are going to need to attack with the Hariyama, and 3) you won’t necessarily need the gust effect from the Ability.
+- It is okay to evolve into Hariyama without using the Ability, so long as the following conditions are met: 1) you’re getting Stamped OR they can easily snipe off the Makuhita 2) you are going to need to attack with the Hariyama, and 3) you won’t necessarily need the gust effect from the Ability later.
 - Going first is usually best. I now think going first against Dragapult is best despite the annoying Budew potential. Getting the Turn 1 Solrock KO is especially difficult if they get Munkidori in the active Turn 1. Go second against some unfavorable matchups such as Alakazam or Festival Lead to cheese them with fast KO's.
 
 ## Matchups
@@ -112,7 +112,7 @@ title: Blaziken v Lucario 2
 - Don’t let them go 3-3 by feeding them two Lucario. It’s not hard for them to one-shot Lucario.
 - Hariyama is very important in this matchup. Try to power it up with Aura Jab as soon as possible and use it when the first Lucario goes down.
 - Not sure if I should keep mentioning Genesect since it’s good against literally every deck that has Unfair Stamp, which is most decks. You get the idea.
-- If you have a slim board, you can go Judge plus Stadium bump to stop Clefairy from KO'ing Lucario. This goes for every matchup with Clefairy, but it's pretty hard to line it up.
+- If you have a slim board, you can bump Area Zero to potentially stop Clefairy from KO'ing Lucario. This goes for every matchup with Clefairy, but it's pretty hard to line it up. It also works better if you play Judge.
 - Against the Noctowl version, Solrock is often useful in the prize trade since it can one-shot 70 HP Hoothoot.
 
 ```youtube
@@ -127,10 +127,10 @@ title: Lucario v Bolt 2
 
 ### Alakazam - Very Unfavorable
 
-- Use Judge on a turn where you’re attacking with Lucario and they have a large hand, ideally in the late-game. This can be particularly good alongside a Hariyama gust on Fez/Dudunsparce.
+- If you play Judge, use it on a turn where you’re attacking with Lucario and they have a large hand, ideally in the late-game. This can be particularly good alongside a Hariyama gust on Fez/Dudunsparce.
 - Solrock can be useful for speed, but also try to get a fast Aura Jab. If their start isn’t great, it’s possible to get Aura Jab off before they’re ready to one-shot a Lucario, thus getting a free KO or two with the Lucario.
 - Hariyama can be a useful attacker in between Lucario.
-- The second Lucario is generally best when they’re on 2 prizes left. If used when they’re on 3, they can just go 3-3. If they’re on 1, they can simply gust KO a one-prizer for game.
+- The second Lucario is generally best when they’re on 2 prizes left. If used when they’re on 3, they can just go 3-3. If they’re on 1, they can simply Boss-KO a one-prizer for game.
 - Save Gravity Mountain for when they have Alakazam set up. It makes breakpoints with Premium Power Pro for Lucario and Solrock.
 
 ```youtube
@@ -141,7 +141,7 @@ title: Zam v Lucario 1
 ### Zoroark - Favorable
 
 - Target their Energy or easy prize cards. Solrock can be good for this as it one-shots Zorua. Aura Jab for acceleration vs Fez/Meowth/Pech, etc.
-- Try to get three Riolu (or two plus a Lucario) so they cannot spawn trap you with Darmanitan. If they don’t have Darmanitan, ignore this.
+- Try to get three Riolu (or two plus a Lucario) so they cannot spawn trap you with Darmanitan. If they don’t play Darmanitan, ignore this.
 - Make sure to get Genesect so they can’t cheese you with Stamp. Usually the third Riolu and Genesect take priority over Makuhita.
 - Delay the second Lucario so they cannot win in three attacks by hitting both Lucario for 90 followed by 250 on each. If they don’t have Darmanitan, ignore this.
 - Aura Jabbing into a Zoroark is not advisable, especially if it’s poisoned or they have a large hand.
@@ -165,7 +165,7 @@ title: Lucario v Zoroark 3
 
 - KO any Dwebble on sight, ideally with Aura Jab.
 - Fast Solrock is usually good and can pressure Crustle.
-- Evolving into Hariyama is best when you’re Aura Jabbing Energy onto it. Even if you can’t use the Ability, it’s still worth doing to protect it from a Boss KO.
+- Evolving into Hariyama is best when you’re Aura Jabbing Energy onto it. Even if you can’t use the Ability, it’s still worth doing to protect it from a Boss KO (if they are threatening that possibility).
 - Save Premium Powers to KO Crustles. This is particularly relevant when they get the Cape and you need two Premiums to one-shot it with Hariyama.
 - Prioritize getting both Makuhita/Hariyama in play.
 
@@ -212,13 +212,13 @@ This matchup may be slightly unfavored depending on the opponent’s list, as we
 - If you get an early single prize KO, go for a 1-1-1-3 map and try to one-shot their Mega Lucario. If you can’t, gust around it until you can get the one-shot. Save Premium Power Pros so that you can get the triple Premium Power to one-shot their Lucario.
 - If they get two Lucario in play early, you can ignore single-prizers and try to win by KO’ing both of them. Two-shot one and one-shot the other. If this map is available to your opponent, you may want to delay your second Lucario from coming into play.
 - Judge is best used to stop them from one-shotting your Lucario. For example, if you’re attacking with an undamaged Lucario and they have a large hand, Judge can be good to potentially make them whiff the KO.
-- Genesect is very strong alongside an undamaged Lucario, as it makes it very hard for them to KO it.
+- Genesect is very strong alongside an undamaged Lucario, as it makes it very hard for them to KO it. If they don't play Max Belt, Genesect is obviously not as useful.
 
 ### Festival Lead - Unfavorable
 
 - Get as many fast Solrock KO’s as possible. This is the main way to get a prize lead and win.
 - Hariyama is valuable as a sponge. Evolve into it as soon as possible, even if you don’t want to use the ability. Don’t attack with it, as the self-damage removes its viability as a sponge.
-- If they one-shot the first Lucario, they probably can’t one-shot the second one, so it can be useful to throw off their prize map. This is even better if you play Scoop Up Cyclone or Wally’s Compassion.
+- We just have to hope they don't get the one-shot on both Lucario. This is optimistic but there's nothing you can really do about it if they get the Gladion play twice.
 - Judge can possibly make them brick if they do not have a backup Dipplin.
 
 ```youtube
@@ -296,4 +296,4 @@ title: Ogerpon v Lucario 2
 
 ## Personal Thoughts
 
-Lucario is a decent deck. I think it's actually a solid play for Worlds if the metagame is mostly Dragapult, Zoroark, and Crustle. Of course, Lucario is still terrible against the single-prize decks, so that's the risk of playing it
+Lucario is a decent deck. I think it's actually a solid play for Worlds if the metagame is mostly Dragapult, Zoroark, and Crustle. Of course, Lucario is still terrible against the single-prize decks, so that's the risk of playing it.

@@ -44,11 +44,11 @@ Energy: 9
 - Stretcher is fairly weak but helps us maintain our optimal board. It is mostly used to cover for bad prize cards or early KO’s. Use it whenever you can get value, as it’s not a premium resource like it is in other decks.
 - I wasn’t sure about four Power Weight at first, but now I’m certain that all four are necessary. This card is broken. It’s important to draw early to protect the little ones, and some matchups require them to be on all of your Garchomp.
 - Rocky Energy is very relevant against Dragapult and Alakazam, but best of all, there’s basically no downside to playing them.
-- I think Neo Upper is the best Ace Spec because it allows us to do powerful plays that would otherwise be impossible. It has great synergy with the deck and none of the other Ace Specs are all that enticing. However, it is possible to play another Ace Spec if you can find a good reason to, as Neo Upper isn’t completely integral for the deck to function.
+- I think Neo Upper is the best Ace Spec because it allows us to do powerful plays that would otherwise be impossible. It has great synergy with the deck and none of the other Ace Specs are all that enticing. It's also good against Dragapult because it allows for a big attack even if they used Crushing Hammer.
 
 ### Possible Inclusions
 
-- I am starting to come around on Premium Power Pro since it's very good against Dragapult, though that matchup is generally fine anyway.
+- I am starting to come around on Premium Power Pro since it's very good against Dragapult, so it would probably be fine to include.
 - Prime Catcher actually seems pretty good but I haven’t tried it. It’s the only Ace Spec I’d seriously consider over Neo Upper right now. Unfair Stamp is a great card but this deck really doesn’t care about hand disruption or lack draw power.
 - If you are playing the Petrel Stamp build, one Switch and one Rare Candy seems good.
 
@@ -56,7 +56,7 @@ Energy: 9
 
 - I tried Budew and was not getting a lot of value from it. I also find that I need to fill up the entire board with useful Pokemon, so if Budew doesn't get KO'd (or even sometimes if it does), the board spot it occupies is troublesome. Finally, using an Energy to retreat into it was also very annoying.
 - Surfer, Judge, and other Supporters are bad and useless. Surfer does basically nothing and I don’t care about retreat lock for the time being because it has to be an extremely specific situation for you to actually lose to it. Even if that does happen, there’s a good chance you won’t actually have the Surfer anyway. You can also play around retreat lock to some extent by not evolving into Roserade. Judge actually does nothing.
-- Stadiums are bad and useless too. Having counter Stadiums against Dragapult is good but since that matchup is favored anyway I don’t see the point. Watchtower could be good if Raging Bolt becomes popular, but that is not the case right now. Watchtower plus Judge could theoretically scam some wins against Alakazam but that would require playing both of them and drawing them at the right time, and hoping they whiff a Battle Cage. Not worth playing. Forest of Vitality actually does have a use case. There are some games where you’re slow to get Roserade out or they get snpied off, so it could be good then, but ultimately still not worth the space in my opinion.
+- Stadiums are difficult to make use of unless you're playing the Petrel version. They would be useful against Jamming Tower, which is occasionally found in Dragapult, but it's still one of the more uncommon Stadiums to see. Forest of Vitality actually does have a use case. There are some games where you’re slow to get Roserade out or they get snpied off, so it could be good then, but ultimately still not worth the space in my opinion.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
@@ -69,15 +69,17 @@ Energy: 9
 - Once your board is fully set up, consider evolving extra Gabite into Garchomp. If Gabite can get sniped off (especially with Energy), evolving them can be good for protection. If there is no apparent risk to leaving Gabite unevolved, then you can leave them unevolved for the potential flexibility of a single-prize board. If your opponent can take advantage of extra Garchomp in play for their prize map, that is another reason to leave them unevolved. This is all situation dependent but often relevant.
 - Boss KO on Meowth/Fez with the first attack is extremely strong and should mostly be used when you cannot get two prizes on their active. This is an important part of prize racing with this deck.
 - In matchups where Fighting and Rocky are the same, usually attach Fighting Energy first (especially when you need to retreat). I’ve had enough situations where I need to Stretcher for a retreated Fighting Energy that I’ve been conditioned to default attach Fighting before Rocky.
-- Go first unless except against Lucario or other favorable matchups that can get a KO on Turn 1.
+- Go first except against Lucario or other favorable matchups that can get a KO on Turn 1.
 
 ## Matchups
 
-### Dragapult - Favorable
+### Dragapult - Slightly Unfavorable
+
+Against any build with Crushing Hammer, the matchup is slightly unfavorable. Otherwise, it's favorable.
 
 - Go for triple Gabite and double Roserade. I sometimes like to leave a spot open for Spiritomb if it isn’t prized, but this does become awkward because if they target down Roserade you won’t be able to get the KO. This is generally fine though since you can Boss around their Dragapult if that happens. Sometimes it is better to prioritize the third Roserade instead of the open spot for Spiritomb, such as if they have a superior start or they have no two-prize liabilities that Garchomp’s first attack can pick off.
 - Attacking with an undamaged Garchomp is usually best whenever possible. If you can get a big one-shot with Spiritomb, that’s usually good to go for.
-- Try to get Energy drops every turn. Rocky Energy is very good on Gabite/Gible as it is basically invincible and can keep searching stuff out. They won’t use a Boss on it because there are better things for them to be doing.
+- Try to get Energy drops every turn. Rocky Energy is very good on Gabite/Gible for some snipe protection, and it can still be utilized for an attack when you need to evolve. They won’t use a Boss on it because there are better things for them to be doing.
 - Dusclops (or lone Duskull if they’re likely to have Candy Dusknoir) can be good to target down, as Dusknoir is a big threat. However, if you already have a good prize map, you can leave it be since it gives you a prize card. This is easier to evaluate later in the game and is very situational.
 - If you cannot one-shot their Dragapult, try to Boss around it. If you cannot do that either, sometimes it’s better to pass. Smacking into their Dragapult for less than a KO can be a good way to pressure them if their board/hand is not fully stabilized (or if they’re board locked out of Munkidori). Otherwise, you’re giving them a damage bank for Adrenabrain and they can punish you for it. It’s important to evaluate the situation when deciding. Another thing is that sometimes you just need to use the first attack to draw cards.
 
@@ -108,11 +110,9 @@ id: UqhNx2eGSQg
 title: Blaziken v Chomp 2
 ```
 
-### Raging Bolt - Depends
+### Raging Bolt - Slightly Favorable
 
-This matchup is pretty bad if they play the Iron Leaves plus Jamming Tower combo, which can be possible in Noctowl builds. Since most builds don't play Noctowl now, this is a huge benefit for Garchomp, but the matchup can still be close.
-
-- Early Power Weight on your active is very good to make it annoying to KO. As usual, you’ll also need them on Garchomp. Even if they play Jamming Tower, they won’t always have it in play.
+- Early Power Weight on your active is very good to make it annoying to KO. As usual, you’ll also need them on Garchomp.
 - Like with Meganium, it’s possible to win a prize trade outright, and that’s the ideal game plan.
 - If they put down Fez, using Gabite with three Roserade to KO it is a very strong play that can swing the prize trade back.
 - Targeting their Energy or support is generally good. They can one-shot Garchomp with either Ogerpon or Raging Bolt, but either option requires a lot of Energy.
@@ -167,6 +167,7 @@ title: Festival v Chomp 1
 Assuming they play two Enhanced Hammer, this matchup is about even, or slightly favorable. If they play fewer Hammer, it’s a free win, and if they play more or Dedenne, it’s basically unwinnable.
 
 - Your win condition is getting N + 1 Rocky Energy in play, where N is the number of Enhanced Hammer they play. Fighting Energy is bad because it isn’t Rocky Energy, so only attach it if you definitely can’t get a Rocky for the turn.
+- If they are playing the version with Dedenne, it might be better to go fast and aggressive and try to cheese a win. Gabite can get a fast KO if you're lucky, and a Weighted Garchomp might be able to tank a hit. If they don't have close to 20 cards in hand, try KO'ing Dudunsparce to limit their draw power.
 - Garchomp is generally bad to get into play before you’ve achieved your win condition. It speeds up the game and gives them a two-prize KO, which is more lose conditions. Only use it if your hand is dead and you need to draw cards to stay in the game.
 - Playing Lillie instead of Hilda is better for finding the first Rocky or two. Hilda is better when you only need one or two more Rocky to win the game.
 - Benching a few random Pokemon to thin is fine, but don’t give up too many. Be mindful of how many Boss they have left and don’t let them win by using Boss. How many Pokemon you can put down depends on how many prizes and how many Bosses they have left. You also need to account for them getting one or two free KO’s with Enhanced Hammer.
@@ -249,8 +250,8 @@ title: Crustle v Garchomp 1
 
 ### Zoroark - Favorable
 
-- Early Power Weight on your active is very good to protect from Darmanitan. Try to not let them get value from Darmanitan as it is a way to actually lose. In the mid- or late-game, put Power Weight on benched Pokemon that are within Darmanitan range. Power Weight is also useful on Garchomp because they can one-shot it with Mochi plus Black Belt. However, since this combo is kind of hard for them to pull off, I prioritize using Weight for protecting Pokemon from Darmanitan if they are threatening it.
-- Load up as much Energy in play as possible and try to protect them so that you can chain the second attack. If they have Pech or Meowth, Boss KO it when you can’t one-shot Zoroark. For the most part, you should be one-shotting Zoroark.
+- Early Power Weight on your active is very good to protect from Darmanitan. Try to not let them get value from Darmanitan as it is a way to actually lose. In the mid- or late-game, put Power Weight on benched Pokemon that are within Darmanitan range. Power Weight is also useful on Garchomp because they can one-shot it with Mochi plus Black Belt. However, since this combo is kind of hard for them to pull off, I would prioritize using Weight for protecting Pokemon from Darmanitan if they are threatening it.
+- Load up as much Energy in play as possible and try to protect them so that you can chain the second attack. If they have Pech or Meowth, Boss KO it before they get a chance to use Tome. For the most part, you should be one-shotting Zoroark.
 - Later in the game, don’t put down extra Pokemon that you don’t need, as Darmanitan can punish them. You only need two Roserade. One to one-shot Zoroark, and the second in case the first gets KO’d. If they are threatening retreat lock, only get the one Roserade and two Roselia.
 
 ```youtube
@@ -282,25 +283,9 @@ title: Ogerpon v Garchomp 2
 
 ### Slop Box - Favorable
 
-- Weights can be good in the early-game to protect Gabite and Energy drops from a fast Fezandipiti.
-- If they play Absol, be wary of Terminal Period. If you have to smack into it to draw cards, that’s one thing, but if you don’t, better to Boss or wait for a one-shot.
+- Weights can be good in the early-game to protect Gabite and Energy drops from a fast Fezandipiti or Wellspring.
 - Triple Roserade allows Garchomp to one-shot Clefairy with its first attack, which is relevant.
-
-```youtube
-id: MNNf2n41tB0
-title: Chomp v Slop 1
-```
-
-```youtube
-id: aGzRod7FXUs
-title: Chomp v Slop 2
-```
-
-```youtube
-id: YhIOn0kE4ko
-title: Chomp v Slop 3
-```
 
 ## Personal Thoughts
 
-This deck is much weaker now that most Dragapult decks play Crushing Hammer. Its other matchups are sketcy, and dominating Dragapult was the main thing it had going for it before. Garchomp isn't terrible but it's not in a very good place in the metagame.
+This deck is much weaker now that most Dragapult decks play Crushing Hammer. Its other matchups are sketchy, and dominating Dragapult was the main thing it had going for it before. Garchomp isn't terrible but it's not in a very good place in the metagame.

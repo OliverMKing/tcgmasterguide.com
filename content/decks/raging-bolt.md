@@ -392,6 +392,8 @@ title: Lop v Bolt 2
 
 ### Garchomp - Favorable
 
+This matchup is favorable for the Noctowl version and slightly unfavorable for the normal version.
+
 - Get a fast Fan Rotom KO if you can. If not, attacking with Raging Bolt ex can be fine for a fast attacking option. Baby Bolt can also be fine if you happen to get an Energy on it going first.
 - Load as much Energy in play as possible, and have both Raging Bolt and Ogerpon as threats that can one-shot a Garchomp. Try to preload at least one Grass Energy onto one or two Ogerpon. Loading extra random Energy types on it can also be good since you’ll often need four or even five Energy for a KO anyway..
 - Glass Trumpet and Energy Switch are very important resources in this matchup, as they can be used to reach for a big KO on a Garchomp.
