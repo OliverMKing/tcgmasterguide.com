@@ -53,8 +53,7 @@ Energy: 6
 
 ### Posibles inclusiones
 - Más Rellor y Rabsca podrían ayudar contra Dragapult, lo cual podría valer la pena.
-- Se podrían jugar dos Switch o dos Air Balloon en lugar de uno de cada. Si quitas a Goldeen, juega dos Switch y ningún Air Balloon.
-- Tool Scrapper puede ser decente para contrarrestar los Handheld Fans aleatorios de Mewtwo o Alakazam.
+- Tool Scrapper puede ser decente para contrarrestar los Handheld Fans aleatorios.
 - Dawn, Lana's Aid o más Bug Catching Set le vendrían bien.
 
 ### Exclusiones
@@ -78,7 +77,7 @@ Energy: 6
 - Decidir si usar o no el doble ataque tiene algunas implicaciones. Contra cualquier deck sin Munkidori, casi siempre lo usarás. Si tienen Munkidori y lo usan (u otro Pokémon de una sola carta de premio) como escudo, a veces es mejor cancelar el segundo ataque para no dejar daño en su tablero. Sin embargo, si prevés que puedes sacar provecho de ese daño usándolo para un KO en el siguiente turno, aún puede ser aceptable atacar. Esto depende de la probabilidad/facilidad de acceso de Adrena Brain (quizás tengan que cargar a Dragapult en lugar de Munkidori por ejemplo), el valor que Adrena Brain tendría el siguiente turno para tu oponente (podrían retraerlo y obtener mucho daño disponible para futuros turnos) y que tan débil/fuerte es el estado general del tablero del oponente.
 - Como extensión de esto, también puedes conservar Festival Grounds durante un turno si no obtienes ningún beneficio del doble ataque y te preocupa que el Estadio sea reemplazado (por ejemplo quizás hayas premiado dos Festival Grounds). Un aspecto importante es que obligar al oponente a subir un Pokemon a absorber un golpe tiene un valor intrínseco, ya que tendrá que gastar más recursos para moverlo del activo. El ejemplo más común es contra Dragapult cuando noqueas a Drakloak y suben a Munkidori como carta de defensa.
 - A veces, es necesario jugar alrededor de Xerosic's Machinations. Si tienes lo que necesitas para el siguiente turno y una mano relativamente grande, no busques más recursos valiosos.
-- Asume que nunca atacarás con Goldeen o Rabsca.
+- Casi nunca atacarás con Goldeen o Rabsca.
 - Ve primero contra todos los decks excepto aquellos que pueden debilitar a Grookey en el primer turno (Mega Lucario, Raging Bolt u otros decks de Crispin). Aunque Garchomp técnicamente puede debilitarlo en el primer turno, ve primero contra él de todos modos. Considera comenzar con Pokémon que no sean Applin cuando vayas primero contra decks como Garchomp o Dragapult (esto puede depender de tu mano). Pueden debilitar a Applin facilmente, pero es poco probable que debiliten a cualquier otro Pokémon en el primer turno.
 
 ## Matchups
@@ -204,6 +203,7 @@ Este matchup depende completamente de cuantos Pokémon “esponja” tengan que 
 
 - Si tienen una Energía extra en juego o un Air Balloon en su Flutter Mane (si pueden rotar el Flutter Mane de alguna manera), elimínalo en cuanto lo veas. De lo contrario, usa a Gladion y oblígalos a subir Flutter sin pivote. Por supuesto, la jugada con Gladion también es increíblemente fuerte si no tienen ningún Flutter Mane en juego.
 - No olvides usar todas las búsquedas de Boom Boom antes de usar Boss en el Flutter Mane.
+- Si no tienen Flutter MAne este matchup es favorable.
 - Growing Energy en Dipplin es muy útil si atacan con Banette. También es posible proteger la banca de un KO de Banette, lo cual puede ser relevante.
 - Dipplin suele ser el atacante ideal, pero a veces hay que usar a Seaking por alguna razón. Asegúrate de tener siempre disponible la jugada con Gladion.
 

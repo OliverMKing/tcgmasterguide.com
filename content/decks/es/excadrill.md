@@ -60,6 +60,8 @@ Energy: 15
 - Los números clave de Jumbo Ice Cream son pésimos porque es muy difícil tener varios a la vez. Por ejemplo, Moltres + Phantom Dive sigue noqueando después de usar Ice Cream. Este deck no roba muchas cartas, así que no tendrá varios Ice Creams con frecuencia, especialmente contra estrategias que interrumpen la mano del oponente. Además, no son relevantes en muchos matchups, aunque pueden ser útiles en otros. En general, si no noquean a Mega Excadrill de un solo golpe, ya nos lo estamos pasando bien.
 - Los estadios no funcionan bien con este deck. Gravity Mountain podría parecer útil para que Metagross alcance ciertos puntos de ruptura, como Blaziken ex, pero no creo que sirva de mucho para salvar ese matchup.
 - Poke Pad simplemente no es útil aquí.
+- Mega Skarmory es dificil de usar y realmente no resuelve nada para este deck.
+- Hero's Cape es una carta muy buena pero el deck suele desmoronarse si no tienes Precious Trolley al inicio y el deck se vuelve menos consistente.
 <!-- /PUBLIC -->
 ## Gameplay
 

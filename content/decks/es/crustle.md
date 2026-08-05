@@ -44,7 +44,7 @@ Energy: 15
 - Psyduck es necesario para Dusknoir.
 - Cornerstone Ogerpon salva por sí solo el matchup contra Mewtwo y Festival Lead.
 - Boss’s Orders es muy útil en este deck porque la mayoría de los decks solo tienen unas pocas respuestas para Crustle. Boss’s Orders nos permite eliminarlos antes de que puedan obtener ventaja, facilitando así las victorias. Hay muchos ejemplos donde Boss es realmente relevante para ganar la partida: Duskull, Meganium, Mimikyu del Team Rocket, etc. No jugaría con menos de cuatro.
-- Crispin está incluido porque este deck es demasiado lento con las Energías y necesita toda la ayuda posible.
+- Crispin está incluido porque este deck es demasiado lento con las Energías y necesita toda la ayuda posible. Sin Crispin algunos decks que son casi autowin podrían explotar la lentitud de cargar a Crustle y ganarle.
 - Morty’s Conviction es un partidario mediocre, pero realmente no hay mejores opciones y Crustle necesita mucha ayuda para ver cartas.
 - Hilda suele ser bastante débil, pero puede ser útil para encontrar tipos de energía específicos. Se incluye principalmente porque mejora el matchup contra Alakazam, además de ser una carta bastante funcional en general.
 - Petrel es bastante débil, pero resulta crucial en las situaciones en las que se necesita. Buscar Hero’s Cape, Jumbo Ice Cream o Night Stretcher en momentos clave es decisivo para ganar. También es fundamental para el matchup contra Mewtwo, ya que permite encontrar a Cornerstone Ogerpon mediante Ultra Ball, y buscar Buddy Buddy Poffin al principio de la partida también es una buena opción.
@@ -58,12 +58,12 @@ Energy: 15
 
 - Sacred Charm es una opción a considerar, ya que ayudaría en matchups ajustados al reducir el daño relevante de Drakloak, Dusknoir o Dudunsparce.
 - Forest of Vitality podría ser una buena adición. No parece lo suficientemente poderoso como para justificar su inclusión, pero no lo he probado.
+- Explorer's Guidance podría ser considerado sobre Morty.
 
 ### Exclusiones
 
 - Creo que Mega Kangaskhan es una desventaja innecesaria. Es demasiado difícil de aprovecharse, y renunciar a esos 3 premios es una buena forma de perder instantáneamente matchups como el de Alakazam.
 - Jugar la versión sin Crispin hace que el deck sea innecesariamente vulnerable a matchups aleatorios (Garchomp, Mewtwo, etc.) que pueden presionar tus Energías. Es demasiado lento y puedes perder matchups que deberían ser victorias fáciles.
-- Algunos decks usan a Fezandipiti no ex para contrarrestar a Hariyama. Dudo que funcione, pero no lo he probado. Creo que preferiría usar Energía Psíquica y noquear a Hariyama con Mind Bend, pero probablemente el matchup sea desfavorable de todas formas.
 - Growing Energy y cartas de curación adicionales no son necesarias, pero mejoran el mazo en el enfrentamiento espejo.
 - Bosque de Vitalidad podría ser una buena inclusión. No parece lo suficientemente poderoso como para justificar el espacio, pero no lo he probado.
 - No creo que Maquinaciones de Xerosic ni Eri aporten nada que necesitemos.
@@ -305,6 +305,7 @@ Este matchup es un poco más parejo con Gladion contra la versión de Cornerston
 - Carga a Cornerstone Ogerpon en la banca lo más rápido posible. Si le cargan Energía a Thwackey, intenta noquearlo inmediatamente. No debilites nada que no represente una amenaza (como Dipplin, ya que es un problema para ellos). Si ponen a Rellor de forma preventiva, noquealo en cuanto lo veas. Lo mismo con Rillaboom.
 - Usar Boss's Orders a Thwackey puede ser útil, ya que detiene las búsquedas o los obliga a usar una carta de cambio.
 - Jumbo Ice Cream, Hero's Cape y Munkidori son muy útiles para ayudar a Cornerstone Ogerpon a sobrevivir. Si juegan Maximum Belt, necesitarás esa Hero's Cape en Cornerstone cuanto antes.
+- Spiky Energy en Bouffalant puede ser muy efectiva asi como Handheld Fan si lo juegas.
 
 ```youtube
 id: s16Xk0eqB8c
@@ -346,4 +347,4 @@ title: Crustle v Meg 1
 
 ## Conclusión
 
-Este deck puede tener suerte con los matchups, pero pierde contra varios decks como Slowking, Hydrapple, Alakazam, Lucario y Dragapult si incluyen una carta de tech. Creo que es demasiado arriesgado de jugar y no permite demostrar mucha habilidad.
+Crustle siempre conlleva cierto riesgo en cuanto a los matchups, lo que lo hace potencialmente más fuerte en metajuegos más predecibles. También tiene la desventaja de que Dragapult puede incorporar una tech específica contra él en cualquier momento, aunque es muy eficaz frente a Dragapult si el rival no cuenta con dicha tech. Entre la versión con Crispin y la versión con Bouffalant, actualmente me inclino por la de Bouffalant, pero ambas parecen opciones válidas para el Mundial.
