@@ -47,12 +47,11 @@ Energy: 8
 - Dawn es mejor de lo que esperaba. Me gustaría volver a incluir la segunda copia, pero no sé dónde está el espacio, ya que también quiero un segundo Crispin.
 - Rare Candy es una carta que puede ser inútil o extremadamente impactante. Hay partidas en las que no la necesitas, pero es muy poderosa e importante tenerla en turnos específicos en diversas situaciones. La probé con dos y tres copias y me pareció lo suficientemente fuerte como para justificar la tercera.
 - Crispin es extremadamente fuerte. Lo usé muchísimo, a pesar de que el deck también incluye a Blaziken. Un aspecto muy subestimado es la facilidad para encontrar la Energía, algo que a veces puede ser inconsistente.
-- Petrel queda fuera por Special Red Card, ya que es similar a Unfair Stamp. Aunque sería bueno tener a Petrel para encontrar Rare Candy, en definitiva no es una carta tan fuerte.
+- Special Red Card reemplaza a Petrel ya que es similar a Unfair Stamp. Aunque sería bueno tener a Petrel para encontrar Rare Candy, en definitiva no es una carta tan fuerte.
 - Al igual que Dragapult, Risky Ruins es muy útil e impactante. Creo que es el mejor Estadio por mucho. No estoy seguro si este deck realmente necesita Estadios, pero pueden ser útiles en cualquier matchup y son particularmente importantes contra Alakazam.
 
 ### Posibles Inclusiones
 
-- Tener dos Budew sería ideal, pero a veces resulta contraproducente y el espacio en banca es más limitado con la línea evolutiva de Blaziken. El segundo sería útil cuando uno está premiado, o a veces para usarlo como pivote. Tampoco estoy seguro de qué carta quitaría para incluirlo o si realmente es necesario.
 - Una segunda Dawn sería útil.
 - Dudunsparce ex, Chi-Yu o Paldean Tauros podrían ser buenas opciones para Crustle si surgiera la necesidad.
 - Team Rocket's Watchtower es bueno en el meta actual y se volvió aún mejor con Special Red Card.
@@ -63,12 +62,12 @@ Energy: 8
 - Shaymin no es necesario con el deck utilizando 3 Rare Candy.
 - Creo que Judge y Harlequin son malas cartas, así que no las voy a jugar a menos que encuentre una buena razón para hacerlo.
 - Probé con cuatro Boss’s Orders porque la carta está rota, pero no me pareció necesario en las pruebas.
-- El principal problema de Area Zero es que no es Risky Ruins. 
+- Area Zero no vale la pena sin jugar Chien-Pao para remover Pokemon de juego. 
 
 <!-- /PUBLIC -->
 ## Gameplay
 
-En esta sección y en los matchups, gran parte del contenido será el mismo que en la guía de Dragapult, ya que se trata de un deck de Dragapult. Primero pondré la información relevante para Blaziken y luego copiaré las partes de la página de Dragapult para mayor exhaustividad.
+Para Dragapult en general:
 
 - Elige iniciar contra todo.
 - Para el set up, suelo priorizar dos Dreepy y un Torchic en el primer turno. Blaziken es útil en la mayoría de las partidas, y puedo conseguir el tercer Dreepy más adelante. Sin embargo, si creo que es probable que consiga tres Drakloak en el siguiente turno, elegiré el tercer Dreepy en lugar del Torchic.
@@ -113,7 +112,7 @@ Título: Blaziken v Pult 2
 
 - Este es otro matchup donde Blaziken es muy bueno. No necesitas conseguir el segundo Torchic de inmediato, y muchas veces ni siquiera lo necesitas.
 - Blaziken se usa mejor para atacar prácticamente siempre que pueda conseguir un KO. Idealmente, no tienen muchas Energías o un Raging Bolt ex con Energía en juego. Es posible que derroten a Blaziken de un solo golpe con Raging Bolt ex. Si lo hacen, responde con Unfair Stamp y Phantom Dive. Si tienen a Fezandipiti, no tomes un KO de inmediato e intenta que pierdan turnos en el juego. Aunque Blaziken es bueno para atacar, puede que ni siquiera ataques con él más de una vez. Se usa principalmente para frenar su ritmo y evitar un KO fácil de Clefairy.
-- En orden de prioridad, el daño en la banca siempre debe ser de 10 en todos los Hoothoot (o 20 si es el Hoothoot de 80 de HP) y 40 en Raging Bolt si lo tienen. 10 suele ser bueno en Fan Rotom, Fezandipiti u otros Pokémon de 210 de HP. El daño adicional también puede preparar a Noctowl para ser debilitado por Phantom Dive. Debilitar premios individuales aleatorios que hayas preparado también es muy útil.
+- En orden de prioridad, el daño en la banca siempre debe ser 40 en Raging Bolt si lo tienen y 10 a los Pokemon con 210. Poder noqeuar a Fezandipiti es bueno pero aveces es aun mejor pegarle 200 y no noquearlo, para que en el siguiente turno puedas obtener una mayor ventaja sin darles robo extra.
 
 ```youtube
 id: b_n36dgxdPo
@@ -167,7 +166,7 @@ id: bwkleD_as9E
 Título: Blaziken v Mewtwo 2
 ```
 
-### Mega Kangaskhan Box - Desfavorable
+### Mega Kangaskhan Box - Ligeramente Desfavorable
 
 - Intenta conseguir un Blaziken rápido. Si amenazan un ataque con Fezandipiti (o Wellspring Ogerpon), consigue ambos Torchic de inmediato. Si no, consíguelos relativamente pronto. Blaziken puede derrotar a la mayoría de los Pokémon que dan dos premios (a veces con la ayuda de Adrena Brain) y no se preocupa por Clefairy.
 - Atacar con Dragapult sigue siendo una buena opción, y de todas formas lo harás con bastante frecuencia. Es mejor combinarlo con Unfair Stamp, ya que así es menos probable que tengan una respuesta.

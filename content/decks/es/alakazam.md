@@ -50,6 +50,7 @@ Energy: 7
 - Special Red Card probablemente sería buena.
 - Morty's Conviction es muy útil como carta de robo que puede añadir muchas cartas a la mano. A veces, Hilda o Dawn consiguen más cartas al abrir opciones de Alakazam/Dudunsparce, pero en otras situaciones, Morty es un Partidario de robo más poderoso. La razón por la que prefiero Morty's Conviction que otras opciones es porque es la única forma que tiene este deck de descartar Energía Psíquica, lo cual es muy relevante cuando quieres usar el combo de Wondrous Patch/Enriching Energy. Terminé quitando los Morty's Conviction para hacer espacio para Rabsca, pero aún así no está mal.
 - Tal vez alguna opción de cambio sería útil. Realmente solo es relevante contra Dragapult con Yveltal que no es tan común. Otras opciones de bloqueo de retirada no son tán comunes.
+- No creo que Toucannon sea necesario pero puede resolver algunos problemas en metas especificos, por ejemplo si hay mucho Hide n Sneak o decks con Rocket's Articuno. 
 
 ### Exclusiones
 
@@ -109,6 +110,7 @@ Esta es la versión más estándar, con Genesect y Estadios en lugar de Rabsca y
 - Jugar el paquete de Wondrous Patch en lugar del paquete Genesect podría ser una opción.
 - Psyduck ayuda poco contra Dragapult/Dusknoir, pero el matchup sigue siendo difícil incluso con él, así que no creo que valga la pena.
 - Handheld Fan podría volver a popularizarse si Festival Lead se vuelve más popular.
+- No creo que Toucannon sea necesario pero puede resolver algunos problemas en metas especificos, por ejemplo si hay mucho Hide n Sneak o decks con Rocket's Articuno. 
 
 ### Exclusiones
 
@@ -133,7 +135,7 @@ Esta es la versión más estándar, con Genesect y Estadios en lugar de Rabsca y
 - Entender el valor de las cartas de robo puede ser útil, especialmente con Alakazam. Dudunsparce en la mano es +2, Dudunsparce en el campo es +3, Rare Candy + Alakazam es solo +1, al igual que Kadabra. En el mejor de los casos, Hilda puede ser +6, mientras que Dawn puede ser un impresionante +8. Morty's Conviction es solo +3 si tu oponente tiene la banca llena (o +6 con Area Zero), pero es menos condicional según lo que tengas en el campo. En otras palabras, Morty es mejor para robar cartas si tus Pokémon ya están evolucionados.
 - Jugar alrededor de Rocket's Watchtower en una versión sin estadio suele implicar dejar Enriching Energy en el deck y tener acceso a Fezandipiti. La mayoría de los Dragapult juegan 0-1 Watchtower, lo cual está bien. Si juegan más, puede ser complicado. Asegúrate de no dejar demasiados Dunsparce/Dudunsparce en juego cuando sea probable que te golpeen con el combo de interrupción completo, ya que esos espacios en el tablero quedan completamente inutilizados.
 - Lucky Helmet es mejor cuando te acercas al rango de Special Red Card o te preocupa especialmente Judge o Unfair Stamp en un momento dado. Por supuesto, también se puede usar en Genesect al principio si es posible. Si te preocupa que Fez sea golpeado/atrapado contra Dragapult, es razonable usarlo en Fezandipiti.
-- Jugar alrededor de Xerosic's Machinations es generalmente una buena idea a tener en cuenta.
+- Jugar alrededor de Xerosic's Machinations es generalmente una buena idea a tener en cuenta. No tienes que robar la mayor cantidad de cartas posibles cada turno a menos que sepas que vas a necesitar algo especifico como Boss's Orders en un turno a futuro.
 
 ## Matchups
 
@@ -287,6 +289,7 @@ title: Crustle v Zam 2
 
 - Obviamente, este es un matchup terrible debido a Articuno, pero si hay alguna forma de ganar es cargando a Fezandipiti lo más rápido posible y eliminando a su Articuno. Usa Boss's Orders y Enhanced Hammer para alentarlos. A veces roban mal, así que es posible tener suerte.
 - Si por alguna razón no tienen a Articuno en juego, aprovecha cualquier oportunidad para causar el mayor daño posible con Alakazam. También usa a Alakazam para noquear a Spidops.
+- Aun jugando Toucannon el matchup es casi imposible. Intenta setearlo al inicio y noquear a su Articuno y cuando no tengan a Articuno atacas normal con Alakazam.
 
 ### Hide n Sneak - Desfavorable
 
@@ -295,6 +298,8 @@ title: Crustle v Zam 2
 - También necesitas empezar a cargar a Dudunsparce para atacar más adelante en la partida (después de que Fez sea noqueado).
 - Este matchup requiere un uso muy cuidadoso de las Energías (y del Air Balloon si lo juegas). Todas las cartas de recuperación deben usarse en Energía Psíquica. Toda la Energía (incluida la de Enriquecimiento) deberá usarse para atacar.
 - Roba cartas tanto como sea posible.
+- Este matchup se vuelve ligeramente favorable si juegas Toucannon.
+- Si tienes Toucannon intenta setearlo lo más rápido posible, así tienes a Toucannon de respaldo mientras cargas a Fezandipiti y puedes usar a Alakazam para lidear con Dhelmise.
 
 ```youtube
 id: rlDTFg8czno
@@ -311,6 +316,7 @@ title: Sneak v Zam 2
 - Roba tantas cartas como puedas para poder noquear rápidamente a Mega Excadrill. La única excepción es a veces Fezandipiti. A veces está bien usarlo, pero si tienen un buen comienzo y estás por detrás varias cartas de premio, podría ser demasiado arriesgado. Claro que, si Fezandipiti marca la diferencia entre noquear a un Mega Excadrill o no, entonces suele valer la pena.
 - Boss's Orders es un recurso importante cuando empiezan a atacar con Pokémon de una sola carta de premio.
 - Shaymin a veces es útil para detener su Fezandipiti.
+- Intenta siempre dar OHKO a Mega Excadrill, porque podrían tener Jumbo Ice Cream si tienes que hacer un 2HKO.
 
 ### Lucario - Muy Favorable
 
@@ -399,4 +405,4 @@ title: Zam v Meganium 2
 
 ## Conclusión
 
-Este deck es bastante bueno ahora con Rabsca, lo que le permite vencer a algunos decks de Dragapult, como la versión Crushing Hammers/Risky Ruins. Sin embargo, sigue siendo una lotería en cuanto a matchups, ya que pierde fácilmente contra Mewtwo y otras listas de Dragapult. Este deck también se debilita un poco cuando hay más Dragapult jugando Rocket's Watchtower y metas llenos de Festival Lead.
+Este deck es sigue siendo bueno peor ha perdido un poco de poder recientemente. El match contra Dragapult sigue siendo dificil. Festival LEad ahora tiene Gladion lo cual es un obstaculo. Hide n Sneak también es una amenaza y Rocket's sigue siendo un auto-loss. Sin embargo es posible que estos decks no sean muy populares asi es que Alakazam aun tiene potencial. 

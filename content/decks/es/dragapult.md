@@ -6,7 +6,7 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for Dragapult](./images/dragapult/2card.png)
+![decklist for Dragapult](./images/dragapult/rosa.png)
 ```decklist
 Pokémon: 16
 4 Dreepy TWM 128
@@ -21,7 +21,8 @@ Pokémon: 16
 Trainer: 35
 4 Lillie's Determination MEG 119
 4 Boss's Orders MEG 114
-3 Crispin SCR 133
+2 Crispin SCR 133
+1 Rosa's Encouragement POR 84
 4 Buddy-Buddy Poffin TEF 144
 4 Ultra Ball MEG 131
 4 Poké Pad POR 81
@@ -45,12 +46,12 @@ Energy: 9
 - Special Red Card es muy buena en este deck. Quizás pienses que nunca usarás dos en una partida, pero a veces terminas haciéndolo de todos modos, especialmente si consigues el Unfair Stamp al principio. Este deck suele jugar partidas largas, así que tener dos Special Red Card es muy útil. Incluso si solo necesitas una en una partida, es crucial tenerla en el momento justo y tiene una buena sinergia con el resto de las cartas de disrupción.
 - Unfair Stamp está increíblemente roto, especialmente con todas las demás cartas de disrupción y el esfuerzo que los oponentes tienen que hacer para lidiar con un Dragapult. En el mejor de los casos, puede ganar partidas al instante, pero al menos impide que los oponentes hagan combos y hagan lo que quieran. Creo que es el mejor Ace Spec, aunque a veces no lo tendrás cuando lo necesites.
 - Tres Rocket's Watchtower son muchas, pero con menos, no era tan consistente. Jugarla en el Turno 1 puede dejar a muchos otros decks con manos iniciales pésimas, como los mirrors y los de Mega Kangaskhan. Más adelante, lo necesitarás para combinarlo con la disrupción de mano, que tiene una alta probabilidad de dejar a los oponentes brickeados. Rocket's Watchtower es buena en el meta actual, y otros Estadios no son particularmente necesarios.
+- Añadí Rosa's Encouragement porque suele ser important y a veces es dificil usar Crispin al final del juego. También te permite usar a Munkidori más facilmente ya que puedes tener a dRagapult listo y aun así cargarle la Dark a Munkidori.
 
 ### Posibles Inclusiones
 - Chi-Yu sería una buena opción para destruir a Crustle. Paldean Tarous también lo hace, pero creo que Chi-Yu es mejor para esta versión.
-- Rosa's Encouragement probablemente sería muy útil. Estoy considerando cambiar un Crispin por él. Tener a Crispin puede ser relevante al principio de la partida, pero este deck suele quedarse sin Energía, así que Rosa's Encouragement también puede ser relevante más adelante.
 - Judge podría jugarse en lugar de una Special Red Card. Creo que la Special Red Card es mejor en general, pero la diferencia es mínima. Xerosic's Machinations son una opción similar por las mismas razones.
-- Dark Bell parece muy buena, podría ser agregada.
+- Dark Bell no fue nada especial cuando la agregue. La confusión es buena pero la carta es mucho más situacional de lo que pense y no estoy seguro si debe ir en el deck.
 
 ### Exclusiones
 - Shaymin sería una opción a considerar si el matchup contra Slowking no fuera ya favorable. 
@@ -80,7 +81,7 @@ Energy: 9
 
 ### Mirror de Dragapult - Parejo
 
-Ligeramente favorable contra Dusknoir, prácticamente igualado contra el resto. Posiblemente ligeramente desfavorable contra Blaziken.
+Ligeramente favorable contra Dusknoir, prácticamente igualado contra el resto.
 
 - Munkidori es muy fuerte. Intenta no quedarte sin espacio en banca para poder usarlo cuando lo encuentres. Por otro lado, si tienen un Munkidori con Dark, considera noquearlo para limitar sus opciones. Con Night Stretchers limitados, es posible que no puedan recuperarlo.
 - Queremos ser los primeros en atacar con Phantom Dive. Elige ir primero, ya que hay muchas maneras de encontrar a Dreepy. Ir primero también te da la opción de dejarlos fuera del juego por completo con Fezandipiti, dependiendo de tu mano.

@@ -47,7 +47,7 @@ Energy: 9
 - Rosa's Encouragement suele ser justo lo que necesitas en un turno específico, especialmente en la fase final de la partida. No lo uso mucho para atacar con Dusknoir, pero es una opción viable, sobre todo contra decks como Mega Lucario. Sin embargo, se usa principalmente con Dragapult.
 - Añadí una segunda Special Red Card porque a menudo la necesitaba y una no era suficiente. Este es el mejor deck para usar Special Red Card ya que necesita remontar y desestabilizar al oponente. Special Red Card también tiene buenas sinergias con Dusknoir y Watchtower.
 - Creo que Unfair Stamp sigue siendo la mejor Ace Spec porque está completamente rota y no necesitas otra.
-- Rocket's Watchtower es muy buena en el meta actual, especialmente contra decks como Raging Bolt o cualquiera con Dudunsparce. Combina bien con toda la disrupción y resuelve muchos problemas. Probé con dos Watchtower y no fue suficiente porque es difícil encontrarla en el momento justo, así que añadí una tercera.
+- Rocket's Watchtower es muy buena en el meta actual, especialmente contra decks con MEga Kangaskhan o con Dudunsparce. Combina bien con toda la disrupción y resuelve muchos problemas. Probé con dos Watchtower y no fue suficiente porque es difícil encontrarla en el momento justo, así que añadí una tercera.
 
 ### Posibles inclusiones
 
@@ -81,7 +81,7 @@ Esto es aún más común con la lista de Blaziken.
 
 ## Matchups
 
-### Dragapult Mirror - Desfavorable
+### Dragapult Mirror - Ligeramente Desfavorable
 
 El matchup entre Dusknoirs es bastante parejo, pero contra otras estrategias como Blaziken o decks de Martillos puros, es desfavorable o ligeramente desfavorable.
 
@@ -101,7 +101,7 @@ id: aUJFp8ykZHE
 title: Hammers v Noir 2
 ```
 
-### Raging Bolt - Desfavorable
+### Raging Bolt - Ligeramente Desfavorable
 
 - Los mejores momentos para jugar Rocket's Watchtower son al inicio de la partida, cuando el oponente tiene una mano débil o cuando puedes combinarla con cartas que interrumpan su mano. En otras palabras, no juegues Watchtower cuando tenga una mano fuerte o creas que puede contrarrestarla fácilmente.
 - Dusknoir es muy bueno en este matchup, sobre todo si tiene a Meowth en juego. Si usas Cursed Blast contra Meowth, puedes ganar con solo dos ataques de Phantom Dive. Si logras esta combinación, puedes robar varias cartas de premio para preparar esta jugada. Ten cuidado con que Chien-Pao elimine las opciones. Evita dejar Pokemon dañados si puedes, y si lo haces, usa cartas que interrumpan su mano constantemente para minimizar el riesgo de que Chien-Pao los salve. El daño aleatorio de Budew también puede ser relevante, y muchas veces necesitarás un ataque adicional, así que no te centres demasiado en una sola línea de ataque.
@@ -121,7 +121,7 @@ title: Pultnoir v Bolt 2
 
 - Guarda Estadios para quitar los suyos. Si no puedes obtener ventaja inmediata eliminando su Estadio, puede ser viable guardar uno para combinarlo con interrupción de mano.
 - En este enfrentamiento, conviene noquear a Dusclops inmediatamente, ya que será difícil sacarle provecho una vez que Psyduck entre en juego.
-- No demores en usar a Dusclops/Dusknoir, porque si consiguen a Psyduck con Boss's Orders y Elgyem, la partida termina. Incluso solo Psyduck + Boss's Orders puede ser problemático.
+- No demores en usar a Dusclops/Dusknoir, porque si consiguen a Psyduck con Boss's Orders y Elgyem, la partida termina. Incluso solo Psyduck + Boss's Orders puede ser problemático. Claro que si no juegan Psyduck esto no aplica y no simepre lo juegan.
 - Contra la estrategia de Alakazam Control, adelantarse en la colocación de Energías es aún más importante, por lo que recurrir a Budew tiene menos valor. Priorizar Itchy Pollen es una buena opción si tienes Unfair Stamp en la mano, ya que puedes dejar que lo noqueen y luego atacar con Unfair Stamp. Por supuesto, Itchy Pollen siempre es beneficioso si no pueden amenazar con un KO inmediato, pero normalmente pueden hacerlo fácilmente con Kadabra.
 - Si atacan con Elgyem, noquealo inmediatamente.
 
