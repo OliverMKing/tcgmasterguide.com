@@ -57,6 +57,8 @@ Energy: 15
 
 ### Exclusions
 
+- Mega Skarmory is difficult to accomodate and use effectively. It's not terrible but also not necessary for this deck, nor does it solve a particular problem.
+- Hero's Cape is a strong card, but the deck starts to fall apart when it can't Petrel for Trolley to easily set up the entire board. The engine becomes weaker and the deck becomes less consistent. This deck's consistency is one of its selling points.
 - Jumbo Ice Cream’s breakpoints are atrocious because it’s very hard to have multiple of them at once. Moltres + Phantom Dive still KO’s after an Ice Cream, for example. This deck does not draw cards very well so it won’t have multiple Ice Creams very often, especially against hand disruption. They also aren’t relevant in lots of matchups, although they can be good in some others. In general, if they aren’t one-shotting Excadrill, we’re already having a good time anyway.
 - Stadiums don’t work well with this deck. Gravity Mountain might seem ok to allow Metagross to hit some breakpoints such as Blaziken ex, but I don’t think it would really do much to save that matchup anyway.
 - Poke Pad is just not good in this deck.
@@ -152,7 +154,7 @@ title: Drill v Festival 1
 
 ### Zoroark - Favorable
 
-- If they play Darmanitan do not put down the second Drilbur right away as that is a good way to instantly lose and feed them an easy prize map. Sometimes you need to wait awhile for the second Drilbur.
+- If they play Darmanitan, do not put down the second Drilbur right away as that is a good way to instantly lose and feed them an easy prize map. Sometimes you need to wait awhile for the second Drilbur.
 - Darmanitan allows for nasty prize maps that you need to be aware of. Get three Beldum in play and evolved as soon as possible along with the initial Excadrill. Do not let them use Darmanitan’s attack for 90 on Excadrill and a single-prize KO. If they smack Excadrill for 250, don’t put down a single-prize Pokemon just yet. Also do not let them go 90-90 on two Excadrill (the second Excadrill should not even be in play).
 - Metagross is very important as it allows you to play without Excadrill and mess with their prize map.
 - Recycler can easily play around Darmanitan’s first attack.

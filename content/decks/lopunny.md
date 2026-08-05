@@ -7,15 +7,15 @@ format: Standard
 <!-- PUBLIC -->
 ## Decklist
 
-![Lopunny list](./images/lopunny/loplist.png)
+![Lopunny list](./images/lopunny/chien.png)
 ```decklist
 Pokémon: 15
 4 Dunsparce JTG 120
 3 Dudunsparce TEF 129
-1 Dudunsparce ex JTG 121
 3 Buneary PFL 83
 3 Mega Lopunny ex PFL 84
 1 Fan Rotom SCR 118
+1 Chien-Pao SSP 56
 
 Trainer: 38
 4 Hilda WHT 84
@@ -38,7 +38,7 @@ Energy: 7
 ### Inclusions
 
 - I think the 70 HP Dunsparce is superior. The option to get a Turn 1 Fan Rotom attack via the free retreat Dunsparce is tempting, but I don’t think it is that relevant. The 60 HP is a pretty big liability in the current format.
-- Dudunsparce ex offers meaningful help in the Raging Bolt matchup. It’s still tough, but not nearly as bad as it is without Dudunsparce ex.
+- Chien-Pao for Watchtower.
 - I maxed out all of the consistency (four Poffin, four Lillie, etc.) just because I found the techs were not that good and so there is a lot of space to play with.
 - Third Air Balloon is necessary for the deck’s functionality. Not having Air Balloon at any given time is a huge pain.
 - Battle Cage is very good against Dragapult and can counter various annoying Stadiums.
@@ -46,7 +46,7 @@ Energy: 7
 
 ### Possible Inclusions
 
-- Chien-Pao could be a decent tech if Watchtower ends up becoming big. I still think Watchtower is bad and inconsistent, but if people play it, Chien-Pao can be a good response.
+- Dudunsparce ex offers meaningful help in the Raging Bolt matchup. It’s still tough, but not nearly as bad as it is without Dudunsparce ex.
 - Second Fan Rotom could be included over a different consistency card like Poffin or Lillie. Prizing it is sad, but not necessarily game-losing.
 - It’s possible to play some amount of Nighttime Mine over Battle Cage. I think Battle Cage is better, but maybe they’re about the same. Nighttime Mine could be good against Wellspring Ogerpon, I suppose.
 
@@ -72,7 +72,7 @@ Energy: 7
 
 ### Dragapult - Depends
 
-Against most Dragapult builds, the matchup is favorable. However, against Dusknoir, it’s unfavorable.
+Against Dusknoir, it's unfavorable. I think it is also unfavorable against builds with two Watchtower. Against Blaziken or builds with no Watchtower, it's favorable.
 
 Against non-Dusknoir
 - Second Buneary isn’t a priority.
@@ -120,7 +120,7 @@ title: Lop v Pultnoir 2
 
 - Getting fast Boss KO’s on two-prize Pokemon is the win condition. Boss is the most important card in this matchup.
 - Having Spiky Energy on your active at any given time is good because it puts Raging Bolt in Lopunny range. Raging Bolt is their most reliable attacker.
-- Dudunsparce ex is very strong in this matchup. Use it to get a one-shot when you otherwise couldn’t, or when putting Lopunny in play would lose you the game.
+- Dudunsparce ex is very strong in this matchup, if you play it. Use it to get a one-shot when you otherwise couldn’t, or when putting Lopunny in play would lose you the game.
 - Watch out for Wellspring Ogerpon. Oftentimes there isn’t anything you can do about it, but it’s a big threat. Leaving anything with more than 100 HP in the active or getting extra Buneary are some ways to play around it.
 - Fast Fan Rotom smack can be good against Kang or Bolt if you have nothing better to do.
 
@@ -153,14 +153,13 @@ id: O306NKKdc3Y
 title: Lop v Mewtwo 2
 ```
 
-### Festival Lead - Depends
+### Festival Lead - Unfavorable
 
-If they have just one Black Belt, this matchup is slightly favorable. If they have two ways to KO Lopunny (such as two Black Belt or Black Belt + Max Belt), the matchup is very unfavorable.
-
-- We have to play as if they will get one big KO on a Lopunny and can’t get through the next one.
+- We have to play as if they will get one big KO on a Lopunny and can’t get through the next one. Of course this is extremely optimistic and requires a lot of luck, but there aren't any good options.
 - Draw as many cards as possible to set up for an inevitable Wally chain. 
 - Save one Spiky Energy for your second Lopunny. They’ll one-shot the first one, and you will often need Spiky for the next one.
 - If they go first and get the double-KO on Turn 2, don’t panic. Sacrifice Fan Rotom to the second hit if you have it in play. Set up two Lopunny, and use Run Away Draw to clear all other Pokemon off your bench. If you leave a single-prize Pokemon in play, they’ll Boss it and then one-shot Lopunny for game. If we only have two Lopunny, they’ll one-shot one and may not be able to KO the other. After they get down to one-prize, make sure you have Spiky Energy and start chaining Wally. Spiky Energy allows the 60 hit to KO their Dipplin, making the Wally chain functional with only one Pokemon in play.
+- Try to not let them get extra Growing Energy in play, since double Growing on Dipplin stops double hit Spiky + 60 from KO'ing.
 
 ```youtube
 id: UMCYykyzajc
@@ -186,7 +185,7 @@ If they have Dedenne and two Hammer, this matchup is very unfavorable. If not, i
 - If they have Dedenne, you have to be aggressive. Being slow will simply let them Hammer off all of your Mists. If they do not have Dedenne, going slow is better.
 - Don’t evolve the Buneary until you need to start attacking OR if they are threatening a Fez KO on it.
 - If you prize Mist, start being aggressive after getting two or three Mists on your Lopunny since you’ll need to find that fourth one.
-- Having extra Buneary/Fan Rotom in play is generally bad because they hamper your ability to play around Handheld Fan. Try to sacrifice those Pokemon while building up your main Buneary with Mists. If your opponent KO’s your fodder, you can use Run Away Draw to leave only Lopunny in play, which is very good against Handheld Fan.
+- Having extra Buneary/Fan Rotom in play is generally bad if they play Handheld Fan. Try to sacrifice those Pokemon while building up your main Buneary with Mists. If your opponent KO’s your fodder, you can use Run Away Draw to leave only Lopunny in play, which is very good against Handheld Fan.
 - Boss is a very good resource for getting around Handheld Fan. Using all four Boss allows you to beat Handheld Fan without necessarily needing to have an empty bench.
 
 ```youtube
@@ -217,13 +216,13 @@ id: whq8qKAhgBg
 title: Lop v Crustle 1
 ```
 
-### Zoroark - Favorable
+### Zoroark - Slightly Favorable
 
 - If they are playing Punk Helmet, it’s very important to play around it. Do not attack into Punk Helmet with a full HP Lopunny.
 - Feeding them a Reshiram KO one time is generally fine if you have to. Ideally you’ll smack Zoroark for 160 and force them to get a damage modifier along with Reshiram, making it difficult for them to get a subsequent Mochi + Black Belt play.
 - Boss is a premium resource, especially for getting around Punk Helmet or Zoroark in general.
-- If they are board-locked out of Munkidori, using Fan Rotom to smack a Zoroark can be very good. However, it’s still risky if they have Scoop Up Cyclone.
-- KO any two-prize liabilities on sight such as Pecarunt, Meowth, or Fez. This plays around Reshiram and Scoop Up Cyclone.
+- If they are board-locked out of Munkidori, using Fan Rotom to smack a Zoroark can be very good. However, it’s very risky if they have a large hand as they can go Tome plus Adrenabrain.
+- KO any two-prize liabilities on sight such as Pecarunt, Meowth, or Fez. This plays around Reshiram and Tome.
 - KO’ing anything on the bench (especially dangerous Munkidori) is generally better than smacking into Zoroark. Passing is occasionally better than smacking into Zoroark. This is typically accompanied by sacking a single-prize Pokemon so you can find Boss next turn and not have to Wally. If you’re going to leave Lopunny in the active, may as well just smack them.
 - If you can’t heal your damaged Lopunny, use that turn to smack a Zoroark with it.
 

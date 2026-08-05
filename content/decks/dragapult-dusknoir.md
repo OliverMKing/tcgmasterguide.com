@@ -47,7 +47,7 @@ Energy: 9
 - Rosa’s Encouragement is oftentimes just what you need on a specific turn, especially in the late-game. I don’t end up using it for attacking with Dusknoir very often, but that is a viable option, especially against decks like Lucario. It’s mostly still used on Dragapult though.
 - I added a second Special Red Card because I often found myself needing it, and one wasn’t enough. This is the best deck to utilize Red Card, as it needs to make comebacks and disrupt the opponent. Red Card also has nice synergies with Dusknoir and Watchtower.
 - I think Unfair Stamp is still the best Ace Spec because the card is completely broken and you don’t really need another Ace Spec.
-- Watchtower is very good in the current meta, especially against decks like Raging Bolt or anything with Dudunsparce. It goes well with all of the disruption in this deck and solves lots of problems. I tried with two Watchtower and it was not enough because it’s hard to find at the right time, so I added a third one.
+- Watchtower is very good in the current meta, especially against decks with Mega Kangaskhan or Dudunsparce. It goes well with all of the disruption in this deck and solves lots of problems. I tried with two Watchtower and it was not enough because it’s hard to find at the right time, so I added a third one.
 
 ### Possible Inclusions
 
@@ -83,12 +83,12 @@ For Dragapult in general:
 
 ## Matchups
 
-### Dragapult Mirror - Unfavorable
+### Dragapult Mirror - Slightly Unfavorable
 
 Of course, the mirror against Dusknoir is about even, but against other builds such as Blaziken or straight Hammers, it’s unfavorable or slightly unfavorable.
 
 - Try to establish Munkidori with Dark Energy. It is very strong in the mirror.
-- Prioritize getting a Duskull early, even over third or sometimes second Dreepy. Dusclops can be good for various reasons, such as clearing off two Drakloak with one Phantom Dive, or Dusknoir enabling a one-shot on their Dragapult. You want to get a Duskull down quickly so that it can evolve before they can spawn trap it.
+- Prioritize getting a Duskull early, even over third or sometimes second Dreepy. Dusclops can be good for various reasons, such as clearing off two Drakloak with one Phantom Dive, or Dusknoir enabling a one-shot on their Dragapult. You want to get a Duskull down quickly so that it can evolve before they can spawn trap it with their Phantom Dive.
 - Budew is particularly good early-game if the aren’t threatening an immediate KO on it. Retreating into it can be risky because if they do KO it you’re at a big tempo loss and behind on Energy attachments, so it just depends on the situation. Of course, naturally starting with Budew is ideal, which is one reason why playing two could be viable.
 - Go first and try to get the first Phantom Dive.
 - On Turn 1, use Items preemptively to play around Budew. PokePad for Drakloak, Ultra Ball for Meowth, whatever is best in the situation. Just don’t let those Items get locked if you have the chance to play them. If you need Meowth, using it preemptively can also be good since a lot of lists play Watchtower now. This could also let you play your own Watchtower on the same turn to potentially brick them.
@@ -103,7 +103,7 @@ id: aUJFp8ykZHE
 title: Hammers v Noir 2
 ```
 
-### Raging Bolt - Unfavorable
+### Raging Bolt - Slightly Unfavorable
 
 - The best times to play Watchtower are at the very start of the game, when they have a low hand, or when you can pair it with hand disruption. In other words, don’t slam Watchtower when they have a big hand or you think they can easily bump it.
 - Dusknoir is very good in this matchup, primarily if they have Meowth in play. If you Cursed Blast a Meowth, you can win with just two Phantom Dive attacks. If you’re able to line this up, you can go behind quite a few prize cards in order to set up this play. You do have to be careful about Chien-Pao clearing off liabilities. Don’t leave damage in play if you can avoid it, and if you do, and spam hand disruption to minimize the risk of Chien-Pao. Random Budew damage can also be relevant, and lots of times you’ll need an additional attack anyway, so don’t tunnel too hard on one particular line.
@@ -124,7 +124,7 @@ title: Pultnoir v Bolt 2
 
 - Save Stadiums to bump their Stadiums. If you can’t get immediate value by removing their Stadium, it can be viable to save a Stadium to combo it with hand disruption.
 - This is one matchup where you want to pop Dusclops immediately because it will be hard to get value from them once Psyduck hits the board.
-- Don’t delay Dusclops/Dusknoir pops because if they get Psyduck with Boss and Elgyem on the Clops/Noir, the game is over. Even just Psyduck Boss can be troublesome.
+- Don’t delay Dusclops/Dusknoir pops because if they get Psyduck with Boss and Elgyem on the Clops/Noir, the game is over. Even just Psyduck Boss can be troublesome. Of course, if they don't play Psyduck, these points don't apply. Sometimes they play Psyduck and sometimes they don't.
 - Against the disruption build of Alakazam, getting ahead on Energy attachments is even more important, so retreating into Budew has less value. Prioritizing Itchy Pollen is good if you have Unfair Stamp in hand, as you can let it get KO’d and then body them with Stamp. Of course, Itchy Pollen is always a net positive if they can’t threaten an immediate KO on it, but usually they can easily KO it with Kadabra.
 - If they ever attack with Elgyem, KO it immediately.
 
@@ -157,7 +157,7 @@ title: Pultnoir v Hydrap 1
 - Applying fast pressure is generally good because we don’t want to let them set up a massive hand and perfect board.
 - Phantom Dive six almost always goes onto their backup Zoroark.
 - Munkidori is very good in this matchup, as is KO’ing their Munkidori with Dark.
-- In games where you want to use Dusknoir and Budew, be careful about the opponent's prize map as they might be able to win more easily.
+- In games where you want to use Dusknoir and Budew both, be careful about the opponent's prize map as they might be able to win more easily.
 
 ```youtube
 id: aCS_bCuLyEw
@@ -220,7 +220,7 @@ title: Pultnoir v Crustle 2
 
 ### Mewtwo - Even
 
-- Your win condition is to make them whiff. Item-lock is the highest priority. Feeding Budew to Tarountula feels bad, but you need to keep them Item-locked until you start attacking.
+- Your win condition is to make them whiff something at some point.. Item-lock is the highest priority. Feeding Budew to Tarountula feels bad, but you need to keep them Item-locked until you start attacking.
 - Slamming Unfair Stamp whenever you can is generally good. Sometimes you might save it for when you start attacking.
 - Dusknoir is very good because it opens various plays. Sniping Clefairy is probably best, but you can also one-shot Mewtwo or remove Articuno to open up snipe KO’s on the likes of Mimikyu.
 - It is usually best to target their Psychic attacker that has Energy, especially since you have to two-shot Mewtwo regardless. If you go after Clefairy and leave a loaded attacker, it’s not hard for them to simply Stretcher the Clefairy back.
@@ -255,7 +255,7 @@ title: Sneak v Pultnoir 2
 - Early Mind Bend is occasionally good. Sometimes you have a random Dark Energy with nothing better to do but attach to Munkidori, and sometimes they have not much Energy in play and struggle against Mind Bend. Can also use a Munkidori as an early-game meat shield because it does not die to the mill attack.
 - Dusknoir is very good, especially if you get Itchy Pollen onto Drilbur because it sets up a Cursed Blast + Phantom Dive KO.
 - 3-2-1 prize map is the most common because they will always have Genesect in play. Sometimes you can set this up to win in two Phantom Dives thanks to Dusknoir and Dusclops.
-- Crispin is even more important than normal because Dragapult gets one-shot and also to sometimes use Munkidorii. Load as much Energy in play as possible as soon as the game begins so that you can always have access to the best attack for the situation.
+- Crispin is even more important than normal because Dragapult gets one-shot and also to sometimes use Munkidori. Load as much Energy in play as possible as soon as the game begins so that you can always have access to the best attack for the situation.
 
 ```youtube
 id: gmyPPy-tr3w
