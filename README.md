@@ -1,6 +1,6 @@
 # TCG Master Guide
 
-A comprehensive guide for trading card game players, built with Next.js.
+A comprehensive guide for Pokemon trading card game players, built with Next.js.
 
 ## Content Editing
 
