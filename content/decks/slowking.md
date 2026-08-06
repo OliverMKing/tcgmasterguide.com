@@ -6,19 +6,20 @@ format: Standard
 ---
 ## Decklist
 
-![slowking list](./images/slowking/slowking.png)
+![slowking list](./images/slowking/megabro.png)
 ```decklist
-Pokémon: 19
+Pokémon: 20
 4 Slowpoke SCR 57
 3 Slowking SCR 58
+1 Mega Slowbro ex PBL 31
 2 Mega Kangaskhan ex MEG 104
 2 Latias ex SSP 76
 2 Kyurem SFA 47
 2 Metagross CRI 61
 1 Fezandipiti ex ASC 142
 1 Meowth ex POR 62
-1 Smoochum SSP 75
 1 Lillie's Clefairy ex ASC 76
+1 Smoochum SSP 75
 
 Trainer: 31
 4 Lillie's Determination MEG 119
@@ -34,14 +35,15 @@ Trainer: 31
 1 Brave Bangle WHT 80
 4 Academy at Night SFA 54
 
-Energy: 10
+Energy: 9
 4 Telepathic Psychic Energy POR 88
-3 Boomerang Energy TWM 166
 3 Psychic Energy MEE 5
+2 Boomerang Energy TWM 166
 ```
 <!-- PUBLIC -->
 ### Inclusions
 
+- Added Mega Slowbro for the Festival Lead matchup. I was skeptical of it working, but when I tried it out, it performed very well. It isn't very useful against other decks though, so it can be cut if Festival Lead isn't as popular.
 - Smoochum is too valuable, especially against Dragapult. It's also very consistent 
 and easy to use.
 - Switch is needed in a variety of situations, such as after using Kyurem, getting 
@@ -61,7 +63,7 @@ you do have to play Munkidori to go along with it, which is very high-maintenanc
 all the fancy techs in order to play it. Secret Box is definitely good, but I don't 
 think it's 100% necessary.
 - More Kangaskhan would always be nice.
-- I am considering swapping a Boomering for another Psychic.
+- Another Psychic Energy would be nice.
 
 ### Exclusions
 
@@ -150,6 +152,15 @@ title: King v Pultnoir 1
 id: DuCHkNj08Rw
 title: King v Pultnoir 2
 ```
+
+### Festival Lead - Favorable
+
+With Mega Slowbro, the matchup is favorable. Without it, the matchup is very unfavorable.
+
+- If they ever neglect to have Shaymin in play, Trifrost is an easy win. Play with the assumption that they'll get Shaymin, and if they don't, punish them.
+- Mega Slowbro is the main attacker since they'll usually have Shaymin (or Rabsca) in play. Smoochum and Wondrous Patch are key resources for powering up Slowbro. It's possible that Slowbro will get KO'd. If that happens, recover it with Stretcher and set it back up with Patches.
+- Get multiple Slowpoke in play and attach Energy to them aggressively so that you'll be able to use Slowbro. Evolving into Slowbro preemptively is usually fine as well. Just make sure you don't end up with one Slowpoke with two Energy and it just gets KO'd. Sometimes it can be better to split Energy in the early-game.
+- Don't evolve Slowpoke into Slowking unless you need Slowking to attack that turn. They probably won't disrupt your hand so you can hoard resources.
 
 ### Raging Bolt - Slightly Unfavorable
 
