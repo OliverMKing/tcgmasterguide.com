@@ -6,19 +6,20 @@ format: Standard
 ---
 ## Decklist
 
-![slowking list](./images/slowking/slowking.png)
+![slowking list](./images/slowking/megabro.png)
 ```decklist
-Pokémon: 19
+Pokémon: 20
 4 Slowpoke SCR 57
 3 Slowking SCR 58
+1 Mega Slowbro ex PBL 31
 2 Mega Kangaskhan ex MEG 104
 2 Latias ex SSP 76
 2 Kyurem SFA 47
 2 Metagross CRI 61
 1 Fezandipiti ex ASC 142
 1 Meowth ex POR 62
-1 Smoochum SSP 75
 1 Lillie's Clefairy ex ASC 76
+1 Smoochum SSP 75
 
 Trainer: 31
 4 Lillie's Determination MEG 119
@@ -34,10 +35,10 @@ Trainer: 31
 1 Brave Bangle WHT 80
 4 Academy at Night SFA 54
 
-Energy: 10
+Energy: 9
 4 Telepathic Psychic Energy POR 88
-3 Boomerang Energy TWM 166
 3 Psychic Energy MEE 5
+2 Boomerang Energy TWM 166
 ```
 <!-- PUBLIC -->
 ### Inclusiones
@@ -47,13 +48,14 @@ Energy: 10
 - Boomerang Energy no es tan importante, pero es muy potente cuando la tienes disponible junto con un ataque de Kyurem.
 - Ciphermanaic es demasiado bueno en este deck como para jugar menos de cuatro copias.
 - Lana's Aid es generalmente buena y útil, pero sinceramente no estoy seguro de que sea necesaria.
+- Agregué a Mega Slowbro para el matchup contra Festival Lead. Tenía dudas de que funcionara, pero al probarlo ofreció un rendimiento excelente. Sin embargo, no es muy útil contra otros decks, por lo que se puede prescindir de él si Festival Lead deja de ser tan popular.
 
 ### Posibles Inclusiones
 
 - La versión de Ian Robb con Crispin, Munkidori, Drapion y Zoroark es interesante. Aún no la he probado. Drapion, en particular, podría ser muy útil contra decks de dos premios, pero es necesario jugar a Munkidori para que funcione, lo cual requiere muchos recursos.
 - En esa misma línea, Prime Catcher también podría ser buena. Secret Box es sin duda buena, pero no creo que sea 100% necesaria.
 - Siempre se podría tener más Mega Kangaskhan.
-- Estoy considerando cambiar una Boomerang por otra Psíquica.
+- Otra Energía Psíquica estaría bien.
 
 ### Exclusiones
 
@@ -110,6 +112,15 @@ title: King v Pultnoir 1
 id: DuCHkNj08Rw
 title: King v Pultnoir 2
 ```
+
+### Festival Lead - Favorable
+
+Con Mega Slowbro, el matchup es favorable. Sin él, es muy desfavorable.
+
+- Si en algún momento no logran tener a Shaymin en juego, Trifrost garantiza una victoria fácil. Juega asumiendo que sacarán a Shaymin; si no lo hacen, castígalos.
+- Mega Slowbro es el atacante principal, ya que normalmente tendrán a Shaymin (o Rabsca) en juego. Smoochum y Wondrous Patch son recursos clave para cargar a Mega Slowbro. Es posible que Slowbro sea noqueado; si eso sucede, recupéralo con Night Stretcher y vuelve a prepararlo usando los Patches.
+- Pon varios Slowpoke en juego y cargales Energía de forma agresiva para poder usar a Mega Slowbro. Evolucionar a Slowbro de forma preventiva también suele ser una buena opción. Eso sí, asegúrate de no dejar un Slowpoke con dos Energías expuesto a ser noqueado fácilmente; a veces es mejor repartir las Energías durante los primeros turnos de la partida.
+- No evoluciones a Slowpoke en Slowking a menos que necesites que Slowking ataque en ese mismo turno. Es probable que no ataquen con tu mano, por lo que puedes acumular recursos.
 
 ### Raging Bolt - Ligeramente Desfavorable
 
