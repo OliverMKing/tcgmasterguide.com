@@ -69,30 +69,30 @@ Energy: 15
 <!-- /PUBLIC -->
 ## Decklist 2
 
-![CrustBouff list](./images/crustle/bouffcrust.png)
+![CrustBouff list](./images/crustle/bouffbrock.png)
 ```decklist
-Pokémon: 12
+Pokémon: 11
 4 Mega Kangaskhan ex MEG 104
 3 Dwebble DRI 11
-3 Crustle DRI 12
+2 Crustle DRI 12
 1 Bouffalant SCR 119
 1 Bouffalant SSP 151
 
-Trainer: 35
+Trainer: 36
 4 Lillie's Determination MEG 119
 4 Boss's Orders MEG 114
 4 Team Rocket's Petrel DRI 176
-2 Hilda WHT 84
 2 Eri TEF 146
+2 Brock's Scouting JTG 146
 1 Xerosic's Machinations SFA 64
 1 Pokémon Center Lady MEG 123
 4 Jumbo Ice Cream PFL 91
 4 Pokégear 3.0 SVI 186
 2 Poké Pad POR 81
+2 Night Stretcher ASC 196
 1 Buddy-Buddy Poffin TEF 144
 1 Ultra Ball MEG 131
 1 Switch MEG 130
-1 Night Stretcher ASC 196
 1 Hero's Cape TEF 152
 1 Team Rocket's Factory DRI 173
 1 Festival Grounds TWM 149
@@ -108,7 +108,7 @@ Energy: 13
 
 - Bouffalant is a very nice addition because it significantly helps against otherwise bad matchups such as Slowking, Festival Lead, and Hide n Sneak. It was also supposed to help against Dragapult with anti-Crustle tech, but unfortunately that matchup is still bad. There are some downsides to Bouffalant and requires some accomodation with the list, such as the addition of Stretcher and Poke Pad. That said, Crustle's good matchups are still good and Bouffalant saves a few bad ones, which is very good for Crustle.
 - Although this list is a little less aggressive than the Crispin one, Boss is still very good for applying pressure to the relevant threats (sometimes with Kang attacking). Boss also has the added utilty of straining opponent's resources / stalling, which is also quite nice for this deck.
-- Hilda finding Energy is very nice and also allows us to evolve into Crustle from the safety of the bench without necessarily needing Ascension. However I could see the possibility of cutting them if space is needed.
+- I swapped Hilda out for Brock's Scouting to make the deck more consistent. Like Hilda, it can still find Crustle when needed, but it's a bit harder to find specific Energy now.
 - Eri is very good for the mirror, Dragapult, and Alakazam matchups. It actually gives the deck a chance of beating Alakazam, even if they have Dedenne. Two is needed to make it relevant, otherwise it would be drawn too infrequently as a one-of.
 - Pokemon Center Lady is like another Jumbo Ice Cream and also heals Mind Bend confusion, which is a lot more relevant now that most Dragapult decks play Crushing Hammer.
 - Poke Pad is needed to find Bouffalant, along with Night Stretcher to recover a Bouffalant if it gets targeted down.
@@ -119,9 +119,10 @@ Energy: 13
 ### Possible Inclusions
 
 - Psyduck could be good to help against Dragapult / Dusknoir.
-- Brock's Scouting would be very nice to help find Bouffalant and / or Kangaskhan in the early-game.
+- Hilda would still be nice to find specific Energy cards consistently.
 - Handheld Fan is a fairly strong disruption card, though usually the attacker would rather have Hero's Cape.
 - Lumiose City is probably fine.
+- Another Crustle or Switch would be nice to have.
 
 ### Exclusions
 
