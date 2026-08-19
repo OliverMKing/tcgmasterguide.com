@@ -1,6 +1,6 @@
 ---
 title: Hydrapple
-pokemon: 1019
+pokemon: [1019]
 tier: 2
 format: Standard
 ---
