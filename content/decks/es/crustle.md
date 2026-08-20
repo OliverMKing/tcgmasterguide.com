@@ -72,28 +72,28 @@ Energy: 15
 
 ![CrustBouff list](./images/crustle/bouffcrust.png)
 ```decklist
-Pokémon: 12
+Pokémon: 11
 4 Mega Kangaskhan ex MEG 104
 3 Dwebble DRI 11
-3 Crustle DRI 12
+2 Crustle DRI 12
 1 Bouffalant SCR 119
 1 Bouffalant SSP 151
 
-Trainer: 35
+Trainer: 36
 4 Lillie's Determination MEG 119
 4 Boss's Orders MEG 114
 4 Team Rocket's Petrel DRI 176
-2 Hilda WHT 84
 2 Eri TEF 146
+2 Brock's Scouting JTG 146
 1 Xerosic's Machinations SFA 64
 1 Pokémon Center Lady MEG 123
 4 Jumbo Ice Cream PFL 91
 4 Pokégear 3.0 SVI 186
 2 Poké Pad POR 81
+2 Night Stretcher ASC 196
 1 Buddy-Buddy Poffin TEF 144
 1 Ultra Ball MEG 131
 1 Switch MEG 130
-1 Night Stretcher ASC 196
 1 Hero's Cape TEF 152
 1 Team Rocket's Factory DRI 173
 1 Festival Grounds TWM 149
@@ -111,7 +111,7 @@ Energy: 13
 
 - Aunque esta lista es un poco menos agresiva que la de Crispin, Boss sigue siendo muy bueno para presionar a las amenazas relevantes (a veces con Mega Kangaskhan atacando). Boss también tiene la utilidad adicional de agotar los recursos del oponente, lo cual también es muy bueno para este deck.
 
-- Que Hilda encuentre Energía es muy útil y también nos permite evolucionar a Crustle desde la seguridad de la banca sin necesidad de Ascension. Sin embargo, podría eliminarlas si se necesita espacio.
+- Cambie Hilda por Brock's Scouting para hacer el deck más consistente. Aún podemos buscar Crustle u otros básicos pero es un poco más dificil buscar Enegías específicas.
 
 - Eri es muy buena para los matchups contra Dragapult y Alakazam. De hecho, le da al deck la posibilidad de vencer a Alakazam, incluso si tienen a Dedenne. Se necesitan dos copias para que sea relevante; de ​​lo contrario, se robaría con muy poca frecuencia con una sola copia.
 
@@ -134,6 +134,10 @@ Energy: 13
 - Handheld Fan es una carta de interrupción bastante potente, aunque normalmente el activo preferiría Hero's Cape.
 
 - Lumiose City probablemente podría ser buena.
+
+- Hilda aún sería buena para buscar energías específicas.
+
+- Otro Crustle o Switch estarían bien.
 
 ### Exclusiones
 
