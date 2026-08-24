@@ -43,7 +43,7 @@ Energy: 15
 - Three Poffin helps make the deck consistent. Sometimes Trolley is prized or you only have Lillie in the early-game instead of Petrel, or you are forced to go first against a deck with Budew and can’t Trolley.
 - Energy Recycler is needed in basically every game, especially since sometimes the need arises to retreat Excadrill. I tried with one, and you can certainly get away with it, but I found the card to be too important that I wanted a second one make sure I always get value from it. It’s also possible to use both every once in awhile.
 - Night Stretcher is nice utility, usually used for Drilbur or Beldum if KO’d early, Genesect, or Metagross.
-- Precious Trolley makes the deck very smooth and consistent. I didn’t try other Ace Specs but I can’t really imagine myself doing so. This deck needs to quickly find lots of Basics and Evolutions, and Trolley does everything at once. It’s so insane with Genesect.
+- Precious Trolley makes the deck very fast and consistent. This deck needs to quickly find lots of Basics and Evolutions, and Trolley does everything at once. It’s so insane with Genesect ex.
 - Air Balloon is especially valuable for early-game mobility. Switch can be good against early-game Sob which allows us to sometimes play around Torrential Pump by leaving Genesect active. This isn’t necessarily the go-to if you think they can just KO the Genesect though.
 
 ### Possible Inclusions
@@ -58,14 +58,14 @@ Energy: 15
 ### Exclusions
 
 - Mega Skarmory is difficult to accomodate and use effectively. It's not terrible but also not necessary for this deck, nor does it solve a particular problem.
-- Hero's Cape is a strong card, but the deck starts to fall apart when it can't Petrel for Trolley to easily set up the entire board. The engine becomes weaker and the deck becomes less consistent. This deck's consistency is one of its selling points.
+- Hero's Cape is a strong card, but the deck starts to fall apart when it can't Petrel for Trolley to easily set up the entire board. The engine becomes weaker and the deck becomes less consistent. This deck's consistency is one of its selling points. After testing a bit with Cape, the deck becomes noticeably slower, and it doesn't seem like the Cape does all that much.
 - Jumbo Ice Cream’s breakpoints are atrocious because it’s very hard to have multiple of them at once. Moltres + Phantom Dive still KO’s after an Ice Cream, for example. This deck does not draw cards very well so it won’t have multiple Ice Creams very often, especially against hand disruption. They also aren’t relevant in lots of matchups, although they can be good in some others. In general, if they aren’t one-shotting Excadrill, we’re already having a good time anyway.
-- Stadiums don’t work well with this deck. Gravity Mountain might seem ok to allow Metagross to hit some breakpoints such as Blaziken ex, but I don’t think it would really do much to save that matchup anyway.
 - Poke Pad is just not good in this deck.
+- Gravity Mountain sounds good to make Metagross get some KO's, but Dragapult is a good matchup regardless, except for Blaziken (which is still unfavorable anyway).
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
-- Go second against anything that can attack Turn 1 or use Itchy Pollen. The exception is decks that have Wellspring Ogerpon. Go first against those.
+- Go second against anything that can attack Turn 1 or use Itchy Pollen. The exception is decks that have Wellspring Ogerpon. Go first against those. Go second blind since Dragapult is so popular.
 - Pay attention to your opponents prize map and make it as difficult as possible for them to take six prizes. Metagross and Genesect can help with this. Although Genesect is a liability, it’s also a viable attacker. Attacking with Excadrill when your opponent is on two prizes is generally good. If you let them go to one prize, they can easily win with Boss on Metang since it’s basically impossible for you to not have any Metang in play. Excadrill -> Metagross -> Excadrill is pretty standard but many exceptions exist.
 - I would always prioritize getting three Beldum on the board. The second Drilbur isn’t all that important if the first one isn’t in danger of getting KO’d, but usually you just grab it for free off the Trolley anyway.
 - Evolving into the backup Excadrill can sometimes be punished, so whether you want to immediately evolve it depends on the situation and matchup. Against Dragapult, instantly evolve it so it doesn’t get sniped. Against other decks, it is often better to wait.
