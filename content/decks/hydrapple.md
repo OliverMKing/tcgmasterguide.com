@@ -62,6 +62,7 @@ Energy: 14
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
+- Go first.
 - Looking for a 2-2-2 (or 1-1-2-2) prize map from the start of the game is fairly common. This is a straightforward prize trade deck. Single-prize attackers such as Meganium, Dipplin, or Tapu Bulu are commonly good options for swinging the prize trade back into your favor. Try to line this up with Unfair Stamp so the opponent can’t gust around your single-prize attacker!
 - Fezandipiti can be a useful attacker in some occasions. I wouldn’t say it’s frequent, but it’s not particularly rare either.
 - Unlike Arboliva, this deck needs both Stage 2’s in play at once in order to achieve peak output. This means there’s a higher reliance on Dawn and Celebi to set up, so that sometimes takes priority over attacking right away. That said, Hydrapple is powerful enough to get big one-shots even without Meganium in play, so keep that in mind.
