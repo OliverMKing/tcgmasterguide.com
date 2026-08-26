@@ -6,28 +6,29 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for Lucario](./images/lucario/nojudge.png)
+![decklist for Lucario](./images/lucario/shaymin.png)
 ```decklist
-Pokémon: 17
+Pokémon: 18
 4 Riolu MEG 76
 3 Mega Lucario ex MEG 77
 2 Makuhita MEG 72
 2 Hariyama MEG 73
-3 Solrock MEG 75
+2 Solrock MEG 75
 2 Lunatone MEG 74
 1 Genesect SFA 40
+1 Shaymin DRI 10
 1 Meowth ex POR 62
 
-Trainer: 32
+Trainer: 31
 4 Lillie's Determination MEG 119
 3 Boss's Orders MEG 114
 4 Ultra Ball MEG 131
 4 Fighting Gong MEG 116
-4 Premium Power Pro MEG 124
 4 Poké Pad ASC 198
+4 Premium Power Pro MEG 124
+2 Switch SVI 194
 1 Secret Box TWM 163
 3 Air Balloon ASC 181
-2 Switch SVI 194
 2 Gravity Mountain SSP 177
 
 Energy: 11
@@ -39,17 +40,18 @@ Energy: 11
 - Genesect is actually very good. One of this deck’s most common lose conditions is bricking off Stamp. Genesect gives us protection from this. It isn’t hard to find or use, and usually you can afford having it on your bench. It actually performed well in testing, even though it didn’t when I tried it in other decks.
 - Meowth is insanely broken. Yes, it can be a liability, but I use it for value way too often to not play it.
 - I tried with three Riolu and wanted a fourth one because they are important to swarm into play in some matchups (especially Dragapult), and you want the second one quickly.
-- I finally added the third Solrock to start with it ten percent more often. It is still cuttable though.
+- I added Shaymin because the Slowking matchup was worse than expected. After testing Shaymin, it actually produced insane results against Slowking.
 - Even with Hariyama, this deck still likes to use Boss’s Orders a lot. In fact, I would even like to play a fourth Boss if space allowed.
 - The Ace Spec question is an interesting one. For this build, I think the best option is Secret Box followed by Maximum Belt. If you build the deck a bit differently, perhaps something like Hero’s Cape or Scoop Up Cyclone could work as well. Secret Box is better than Maximum Belt when it comes to reaching big KO’s on the likes of Dragapult, since it can grab Premium Power and Gravity Mountain while also doing other things. Of course, Secret Box has infinite versatility and use cases, while also boosting the consistency of the deck.
 - There’s a lot of switching cards in this deck. I want this many Air Balloon to consistently be able to use Genesect. With three Air Balloon and no Switch, I found myself sometimes wanting Switch. This is mostly relevant against decks that do not instantly KO your Lucario after you use Mega Brave. In general, preserving Energy drops on the board is also quite important. They are also very important against Dragapult now that they have Crushing Hammer (and Mind Bend).
 - Gravity Mountain is important against Dragapult and Hydrapple for both the damage modification as well as the Stadium removal.
-- 11 Fighting Energy is good. I tried 10 and wanted more. I could even add 12th one, though I don’t think I would go above that.
 
 ### Possible Inclusions
 
+- Third Solrock would be nice for consistency, especially early-game. I cut it to make space for Shaymin.
 - Maximum Belt still seems very good. It allows you to more easily Aura Jab KO the likes of Teal Mask Ogerpon and such, which can be very relevant. It also allows for occasional Riolu KO’s on the likes of Fez/Meowth on Turn 1, and it's still good against Dragapult.
 - Judge is overall not very good but sometimes it actually is the card you need to stop the opponent from getting a big combo. Meowth makes it somewhat consistent at least.
+- Another Fighting Energy would be nice.
 
 ### Exclusions
 
@@ -137,6 +139,16 @@ title: Lucario v Bolt 2
 id: tQgDTTJcgC0
 title: Zam v Lucario 1
 ```
+
+### Slowking - Favorable
+
+This matchup is favorable or slightly favorable with Shaymin. Without Shaymin, it's very unfavorable.
+
+- Try to get Shaymin before they have a chance to use Trifrost.
+- Genesect can be useful, but it's not a priority. It's hard to set up Genesect since you need to get lots of other Pokemon first.
+- Hariyama is CRUCIAL for the prize map. Oftentimes your prize map is take one with Solrock (especially if they use Smoochum), one with Aura Jab, two with Hariyama, and finally two with the second Lucario. This makes it extremely difficult for them to take six prizes.
+- Of course, if they put Kangaskhan in play, go for an easy 3-2-1 prize map.
+- Delaying evolving into Lucario until you need it is good if they play a gust effect or Zeraora.
 
 ### Zoroark - Favorable
 
@@ -296,4 +308,4 @@ title: Ogerpon v Lucario 2
 
 ## Personal Thoughts
 
-Lucario is a decent deck. I think it's actually a solid play for Worlds if the metagame is mostly Dragapult, Zoroark, and Crustle. Of course, Lucario is still terrible against the single-prize decks, so that's the risk of playing it.
+Lucario is a decent deck. I think it's actually a solid play for Worlds. Of course, Lucario is still terrible against the single-prize decks, so that's the risk of playing it.
