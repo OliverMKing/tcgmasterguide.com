@@ -66,6 +66,53 @@ Energy: 8
 - Area Zero is one of the worse Stadium options. It doesn't do enough. However, if you also played Chien-Pao, it could remove liabilities from the board.
 
 <!-- /PUBLIC -->
+
+## Decklist 2
+
+![with Milotic](./images/dragapult-blaziken/milotic.png)
+```decklist
+Pokémon: 21
+4 Dreepy ASC 158
+4 Drakloak ASC 159
+2 Dragapult ex ASC 160
+2 Torchic DRI 40
+1 Combusken DRI 41
+2 Blaziken ex JTG 24
+1 Feebas SSP 41
+1 Milotic ex SSP 42
+1 Munkidori ASC 99
+1 Fezandipiti ex ASC 142
+1 Meowth ex POR 62
+1 Budew ASC 16
+
+Trainer: 31
+4 Lillie's Determination MEG 119
+3 Boss's Orders MEG 114
+2 Crispin SCR 133
+2 Dawn PFL 87
+1 Team Rocket's Petrel DRI 176
+4 Buddy-Buddy Poffin ASC 184
+4 Ultra Ball MEG 131
+4 Poké Pad POR 81
+2 Rare Candy MEG 125
+2 Night Stretcher ASC 196
+1 Special Red Card CRI 82
+1 Unfair Stamp TWM 165
+1 Risky Ruins MEG 127
+
+Energy: 8
+3 Fire Energy MEE 2
+3 Psychic Energy MEE 5
+1 Darkness Energy MEE 7
+1 Water Energy MEE 3
+```
+
+This is just an idea I came up with right before Worlds, so I still need to test it some. The idea is that the mirror is the only annoying matchup, which Milotic solves. Milotic is invincible to Dragapult, and it can be found under Item lock with Dawn, which is why I've added the second Dawn. It also makes Clefairy unnecessary.
+
+Petrel is good because the opposing Dragapult player is forced to KO Feebas immediately (such as a Dusclops pop or Boss Drakloak/Dreepy attack). This activates Stamp before they're ready for it, which is more consistently available via Petrel. Petrel's presence also makes it ok to play one fewer Candy and Stadium.
+
+The matchup section won't be reflected with Milotic until I test it. It might just be bad, but I figured I would put it here before I left for Worlds in case I end up playing it.
+
 ## Gameplay Tips
 
 - Go first against everything.
@@ -89,7 +136,7 @@ For Dragapult in general:
 
 ## Matchups
 
-### Dragapult mirrors - Slightly Favorable
+### Dragapult mirrors - Even
 
 - If they go first and get Turn 2 Dragon Headbutt with Drakloak, you can punish them hard with a Rare Candy KO.
 - Ideal board is Blaziken, two Munkidori (if you can get both Darks), and the rest Drakloak or Dragapult. Evolving into extra Dragapult preemptively is sometimes necessary to stop them from getting a snipe KO on Drakloak with their Munkidori + Phantom Dive. If you’re getting a KO, try not to leave 30 damage increments on their board so they cannot snipe Drakloak.
