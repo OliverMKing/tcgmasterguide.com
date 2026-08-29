@@ -52,7 +52,7 @@ function getAllDecks(locale: Locale): Deck[] {
       return {
         id: slug,
         title: data.title || slug,
-        pokemon: (data.pokemon as number[]) || [],
+        pokemon: Array.isArray(data.pokemon) ? data.pokemon : [],
         tier: (data.tier as number) || 3,
         format: (data.format as DeckFormat) || 'Standard',
       }
