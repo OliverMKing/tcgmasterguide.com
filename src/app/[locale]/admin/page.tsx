@@ -19,6 +19,8 @@ interface User {
   email: string | null
   name: string | null
   role: string
+  stripeSubscriptionStatus: string | null
+  stripeSubscriptionStatusEs: string | null
   createdAt: string
 }
 
@@ -53,6 +55,46 @@ interface Stats {
 
 type CommentSortField = 'createdAt' | 'userName' | 'deckTitle'
 type SortOrder = 'asc' | 'desc'
+
+const ACTIVE_STATUSES = ['active', 'trialing']
+
+function SubscriptionBadges({ user }: { user: User }) {
+  const enActive = ACTIVE_STATUSES.includes(user.stripeSubscriptionStatus || '')
+  const esActive = ACTIVE_STATUSES.includes(user.stripeSubscriptionStatusEs || '')
+
+  // Manually-assigned subscriber with no Stripe subscription on either locale gets all content
+  const isManual =
+    user.role === UserRole.SUBSCRIBER &&
+    !user.stripeSubscriptionStatus &&
+    !user.stripeSubscriptionStatusEs
+
+  if (isManual) {
+    return (
+      <span className="inline-flex px-2 py-1 text-xs font-semibold rounded-full bg-green-100 text-green-700 dark:bg-green-900/50 dark:text-green-300">
+        Manual (all)
+      </span>
+    )
+  }
+
+  if (!enActive && !esActive) {
+    return <span className="text-sm text-slate-400 dark:text-slate-500">—</span>
+  }
+
+  return (
+    <div className="flex gap-1.5">
+      {enActive && (
+        <span className="inline-flex px-2 py-1 text-xs font-semibold rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900/50 dark:text-blue-300">
+          EN
+        </span>
+      )}
+      {esActive && (
+        <span className="inline-flex px-2 py-1 text-xs font-semibold rounded-full bg-orange-100 text-orange-700 dark:bg-orange-900/50 dark:text-orange-300">
+          ES
+        </span>
+      )}
+    </div>
+  )
+}
 
 export default function AdminPage() {
   const { isLoaded, isSignedIn } = useUser()
@@ -734,6 +776,9 @@ export default function AdminPage() {
                     Role
                   </th>
                   <th className="px-4 py-3 text-left text-sm font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">
+                    Subscription
+                  </th>
+                  <th className="px-4 py-3 text-left text-sm font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">
                     Actions
                   </th>
                 </tr>
@@ -761,6 +806,9 @@ export default function AdminPage() {
                       </span>
                     </td>
                     <td className="px-4 py-4 whitespace-nowrap">
+                      <SubscriptionBadges user={user} />
+                    </td>
+                    <td className="px-4 py-4 whitespace-nowrap">
                       <select
                         value={user.role}
                         onChange={(e) => updateUserRole(user.id, e.target.value, user.name)}
@@ -777,7 +825,7 @@ export default function AdminPage() {
                 {users.length === 0 && (
                   <tr>
                     <td
-                      colSpan={4}
+                      colSpan={5}
                       className="px-4 py-8 text-center text-slate-500 dark:text-slate-400"
                     >
                       No users found
