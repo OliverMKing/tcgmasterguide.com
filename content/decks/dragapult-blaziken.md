@@ -44,7 +44,7 @@ Energy: 8
 <!-- PUBLIC -->
 ### Inclusions
 
-- Clefairy is very good against other Dragapult.
+- Clefairy is very good against other Dragapult since it gives you a way back into the game with a worse start. However, it is probably cuttable.
 - Dawn is better than expected. I would like to add the second one back in but not sure where the space is since I also want second Crispin.
 - Rare Candy is a card that is either useless or extremely impactful. There are some games where you don’t need it, but it’s very powerful and important to have on specific turns in various situations. I tried with two and three and found it to be strong enough to warrant the third.
 - Crispin is extremely strong. I found myself using it a ton, despite the deck also playing Blaziken. A very underrated aspect of it is actually finding the Energy, which can sometimes be inconsistent otherwise.
@@ -64,55 +64,9 @@ Energy: 8
 - I think Judge and Harlequin are bad cards so I am not going to play them unless I find a good reason to do so.
 - I tried four Boss because the card is broken, but didn’t find that to be necessary in testing.
 - Area Zero is one of the worse Stadium options. It doesn't do enough. However, if you also played Chien-Pao, it could remove liabilities from the board.
+- The Milotic build is sadly a failed experiment.
 
 <!-- /PUBLIC -->
-
-## Decklist 2
-
-![with Milotic](./images/dragapult-blaziken/milotic.png)
-```decklist
-Pokémon: 21
-4 Dreepy ASC 158
-4 Drakloak ASC 159
-2 Dragapult ex ASC 160
-2 Torchic DRI 40
-1 Combusken DRI 41
-2 Blaziken ex JTG 24
-1 Feebas SSP 41
-1 Milotic ex SSP 42
-1 Munkidori ASC 99
-1 Fezandipiti ex ASC 142
-1 Meowth ex POR 62
-1 Budew ASC 16
-
-Trainer: 31
-4 Lillie's Determination MEG 119
-3 Boss's Orders MEG 114
-2 Crispin SCR 133
-2 Dawn PFL 87
-1 Team Rocket's Petrel DRI 176
-4 Buddy-Buddy Poffin ASC 184
-4 Ultra Ball MEG 131
-4 Poké Pad POR 81
-2 Rare Candy MEG 125
-2 Night Stretcher ASC 196
-1 Special Red Card CRI 82
-1 Unfair Stamp TWM 165
-1 Risky Ruins MEG 127
-
-Energy: 8
-3 Fire Energy MEE 2
-3 Psychic Energy MEE 5
-1 Darkness Energy MEE 7
-1 Water Energy MEE 3
-```
-
-This is just an idea I came up with right before Worlds, so I still need to test it some. The idea is that the mirror is the only annoying matchup, which Milotic solves. Milotic is invincible to Dragapult, and it can be found under Item lock with Dawn, which is why I've added the second Dawn. It also makes Clefairy unnecessary.
-
-Petrel is good because the opposing Dragapult player is forced to KO Feebas immediately (such as a Dusclops pop or Boss Drakloak/Dreepy attack). This activates Stamp before they're ready for it, which is more consistently available via Petrel. Petrel's presence also makes it ok to play one fewer Candy and Stadium.
-
-The matchup section won't be reflected with Milotic until I test it. It might just be bad, but I figured I would put it here before I left for Worlds in case I end up playing it.
-
 ## Gameplay Tips
 
 - Go first against everything.
@@ -155,21 +109,22 @@ id: YbrejTOUFNI
 title: Blaziken v Pult 2
 ```
 
-### Raging Bolt - Favorable
+### Slop Box - Slightly Unfavorable
 
-- This is another matchup where Blaziken is very good. You don’t need to get the second Torchic right away, and a lot of times you don’t need it at all.
-- Blaziken is best used to attack pretty much any time it can get a KO. Ideally they don’t have a lot of Energy / Raging Bolt ex with Energy in play. It is possible for them to one-shot Blaziken with Raging Bolt. If they do that, respond with Unfair Stamp and Phantom Dive. If they have Fezandipiti, don’t take a KO right away and try to make them brick for a turn. Although Blaziken is good to attack with, you may not even attack with it more than once. It’s mostly just used to halt their tempo and deny a free Clefairy KO.
-- Spread damage should go 40 to Raging Bolt, and sometimes 10 to 210 HP Pokemon. Having the option to KO their Fez is good, but there are some occasions where smacking it for 200 and not taking the KO is better, so it just depends. If you're behind on the prize trade, you might need to go for the delay into double-KO.
+- Try to get a fast Blaziken. If they are threatening attacking Fezandipiti (or Wellspring), get both Torchic right away. If not, still get it relatively soon. Blaziken can take most two-prize KO’s (sometimes with Adrenabrain’s help) and does not worry about Clefairy.
+- Attacking with Dragapult is still not terrible, and you’ll be doing it a decent amount anyway. It’s best along with Unfair Stamp as it’s less likely they’ll have the response.
+- Two-prize Pokemon such as Fez and Meowth are more liabilities than normal since the opponent can commonly start ahead in the trade and then finish Clefairy on the liabilities. Try to keep them out of play if you can! Of course, if you need them to play the game, so be it. It’s not an instant-loss, just don’t use them as liberally as normal.
+- Budew is mostly used to stop them from making an attacker. If they already have an attacker, Item-lock is not as much of a priority.
+- Save Risky Ruins for a strong play with Munkidori. This combo is very relevant. Can be used to one-shot the likes of Fez, or finish it off after a 200 hit.
+- Targeting the Clefairy is usually best. There’s a good chance they just won’t have the response to your Dragapult, especially if you Unfair Stamp them on the same turn.
+- If you have Shaymin or Watchtower, this is a good matchup to use them in.
 
-```youtube
-id: b_n36dgxdPo
-title: Blaziken v Bolt 1
-```
+### Zoroark - Slightly Unfavorable
 
-```youtube
-id: v568uuMMVyM
-title: Blaziken v Bolt 2
-```
+- Munkidori is very good in this matchup. If you have board space for two along with Blaziken, that's great. Sometimes you'll only have space for one, which is fine.
+- If they might play Reshiram and have an open board spot, try to play around Reshiram (Boss, Jet Headbutt, Mind Bend, Itchy Pollen). If they don't have an open board spot, keep in mind that it's hard for them to get a Tome play early, and some of them don't even play Tome to begin with.
+- If you are able to make a winning prize trade, sometimes it's fine to play into Reshiram for tempo, depending on the situation. Other times, it's inevitable anyway.
+- 60 damage snipes almost always go on Zoroark and / or Zorua.
 
 ### Alakazam - Favorable
 
@@ -188,40 +143,60 @@ id: 3oqKTcPvTRs
 title: Blaziken v Zam 2
 ```
 
+### Slowking - Slightly Unfavorable
+
+- Rare Candy can help with making fast Stage 2's or recovering off Trifrost. Ideally, you'll get a Turn 2 Phantom Dive or Blaziken, but of course that won't always happen.
+- Fezandipiti can be a useful attacker or wall, especially early in the game. If you force them to Trifrost into Fez (by only having three Pokemon in play), Munkidori can use it to farm damage later.
+- Blaziken can be a great attacker later in the game since they cannot easily one-shot it (it's not weak to Clefairy). They would need either Annihilape or Brave Bangle, which many lists don't play.
+
+### Excadrill - Very Favorable
+
+- I think going first is better but honestly not sure.
+- Prioritize setting up Blaziken as fast as possible. Even better if you can get a second one eventually.
+- Itchy Pollen is good if their board isn’t set up yet. It also gets relevant ten damage onto Fez if they decide to start attacking with it, so that you can finish it off with Phantom Dive. Mind Bend can also be a decent response to Fez.
+- If they don’t have Excadrill in play, just attack with Drakloak or Dragapult, saving Blaziken to respond to Excadrill.
+
+```youtube
+id: 8pYQpK3xHAQ
+title: Drill v PultBlaze 1
+```
+
+### Raging Bolt - Favorable
+
+- This is another matchup where Blaziken is very good. You don’t need to get the second Torchic right away, and a lot of times you don’t need it at all.
+- Blaziken is best used to attack pretty much any time it can get a KO. Ideally they don’t have a lot of Energy / Raging Bolt ex with Energy in play. It is possible for them to one-shot Blaziken with Raging Bolt. If they do that, respond with Unfair Stamp and Phantom Dive. If they have Fezandipiti, don’t take a KO right away and try to make them brick for a turn. Although Blaziken is good to attack with, you may not even attack with it more than once. It’s mostly just used to halt their tempo and deny a free Clefairy KO.
+- Spread damage should go 40 to Raging Bolt, and sometimes 10 to 210 HP Pokemon. Having the option to KO their Fez is good, but there are some occasions where smacking it for 200 and not taking the KO is better, so it just depends. If you're behind on the prize trade, you might need to go for the delay into double-KO.
+
+```youtube
+id: b_n36dgxdPo
+title: Blaziken v Bolt 1
+```
+
+```youtube
+id: v568uuMMVyM
+title: Blaziken v Bolt 2
+```
+
+### Festival Lead - Slightly Favorable
+
+- Rare Candy is a very strong resource, as is Blaziken for accelerating the Energy.
+- Getting Munkidori in play to use as a sponge is very good. It can be used as a sacrifice or as a promote after they use their first attack to get a KO. Later in the game, it will also be relevant for Adrenabrain.
+- Save Risky Ruins for when you can get immediate value from it (or if you can combo it with Stamp).
+- Stamp is very broken. Use it when you start attacking with Dragapult, or with Boss to slow them down. If you Boss up Thwackey and Stamp them, they are unlikely to get out of it and you can buy time that way. If they play Genesect and aren’t board locked, just use Stamp as soon as possible and try to do the Boss play.
+- KO Rabsca as soon as possible. It’s basically impossible to win if that thing stays in play for too long. Sometimes you KO it with Drakloak, or with just one Energy on Dragapult.
+- If they don’t have a large hand and only two Thwackey, it may be better to target a Thwackey. Depending on the board, it may be more likely to get them to whiff a KO, but sometimes KO’ing their attacker is still best. If they have only one Thwackey, KO’ing it is usually best.
+
 ### Crustle - Very Unfavorable
 
 - Combusken can one-shot Crustle if you flip double heads. Use Stretchers for Torchic and Combusken. You may need Blaziken for Energy acceleration despite the opportunity cost of Combusken. Even one heads on Combusken sets up Crustle for a Dragon Headbutt. Combusken is best used on Crustle with multiple Energy and full HP.
 - Pressure them with a fast attacker. If they don’t have Crustle yet, Dragapult is best. If they have Crustle without Mist, Mind Bend is best. Otherwise, Drakloak. Sometimes it is just a matter of whatever you have easy access to, and that’s fine. We want to force them to respond so that we can use Stamp and hopefully make them brick.
 - If you want to tech something to make this matchup free, that would be reasonable.
 
-### Mewtwo - Favorable
+### Hydrapple - Favorable
 
-- Blaziken is a good attacker to KO their attacking Spidops. When Blaziken needs to recharge after it attacks, use Drakloak to KO Mimikyu or Tarountula. Attacking with Drakloak is also good if they have either of those in their active.
-- If they have Mewtwo active, try to Itchy Pollen it on Turn 1, Dragon Headbutt it Turn 2, and then KO it Turn 3. Otherwise, just two-shot it normally. Attacking into it with Blaziken is generally good and then you can finish it off with Dragon Headbutt plus Adrenabrain or another Blaziken.
-- Dragapult is not that great in this matchup but still gets used a decent amount.
-- If you’re going first and they open with Mimikyu or Tarountula, don’t leave Budew in the active on Turn 1.
-- Assuming they have Articuno in play, the Munkidori damage should go on Mewtwo. Once you get that relevant 10 or so damage on Mewtwo, start using Adrenabrain on Spidops or Tarountula.
-- Risky Ruins is best used reactively to bump their Stadium. This improves the chance of them bricking/whiffing. If you play Ruins preemptively, they can easily bump it.
-
-```youtube
-id: _g3NT0sbFGo
-title: Blaziken v Mewtwo 1
-```
-
-```youtube
-id: bwkleD_as9E
-title: Blaziken v Mewtwo 2
-```
-
-### Slop Box - Slightly Unfavorable
-
-- Try to get a fast Blaziken. If they are threatening attacking Fezandipiti (or Wellspring), get both Torchic right away. If not, still get it relatively soon. Blaziken can take most two-prize KO’s (sometimes with Adrenabrain’s help) and does not worry about Clefairy.
-- Attacking with Dragapult is still not terrible, and you’ll be doing it a decent amount anyway. It’s best along with Unfair Stamp as it’s less likely they’ll have the response.
-- Two-prize Pokemon such as Fez and Meowth are more liabilities than normal since the opponent can commonly start ahead in the trade and then finish Clefairy on the liabilities. Try to keep them out of play if you can! Of course, if you need them to play the game, so be it. It’s not an instant-loss, just don’t use them as liberally as normal.
-- Budew is mostly used to stop them from making an attacker. If they already have an attacker, Item-lock is not as much of a priority.
-- Save Risky Ruins for a strong play with Munkidori. This combo is very relevant. Can be used to one-shot the likes of Fez, or finish it off after a 200 hit.
-- Targeting the Clefairy is usually best. There’s a good chance they just won’t have the response to your Dragapult, especially if you Unfair Stamp them on the same turn.
-- If you have Shaymin or Watchtower, this is a good matchup to use them in.
+- Prioritize multiple Blaziken and run them over.
+- If you find yourself in a losing prize trade, you may need to rely on disruption and KO'ing their Meganium.
+- Watch out for Briar. That doesn't necessarily mean to stay on odd prizes, as they also need Meganium and the Briar itself (and a big Ogerpon). Disrupting their hand or board are other ways to play around Briar.
 
 ### Hide n Sneak - Favorable
 
@@ -237,18 +212,6 @@ title: Sneak v PultBlaze 1
 ```youtube
 id: SfY_1pp-vgs
 title: Sneak v PultBlaze 2
-```
-
-### Excadrill - Very Favorable
-
-- I think going first is better but honestly not sure.
-- Prioritize setting up Blaziken as fast as possible. Even better if you can get a second one eventually.
-- Itchy Pollen is good if their board isn’t set up yet. It also gets relevant ten damage onto Fez if they decide to start attacking with it, so that you can finish it off with Phantom Dive. Mind Bend can also be a decent response to Fez.
-- If they don’t have Excadrill in play, just attack with Drakloak or Dragapult, saving Blaziken to respond to Excadrill.
-
-```youtube
-id: 8pYQpK3xHAQ
-title: Drill v PultBlaze 1
 ```
 
 ### Lucario - Favorable
@@ -270,14 +233,24 @@ id: 4Nk425YlP_8
 title: Blaziken v Lucario 2
 ```
 
-### Festival Lead - Slightly Favorable
+### Mewtwo - Favorable
 
-- Rare Candy is a very strong resource, as is Blaziken for accelerating the Energy.
-- Getting Munkidori in play to use as a sponge is very good. It can be used as a sacrifice or as a promote after they use their first attack to get a KO. Later in the game, it will also be relevant for Adrenabrain.
-- Save Risky Ruins for when you can get immediate value from it (or if you can combo it with Stamp).
-- Stamp is very broken. Use it when you start attacking with Dragapult, or with Boss to slow them down. If you Boss up Thwackey and Stamp them, they are unlikely to get out of it and you can buy time that way. If they play Genesect and aren’t board locked, just use Stamp as soon as possible and try to do the Boss play.
-- KO Rabsca as soon as possible. It’s basically impossible to win if that thing stays in play for too long. Sometimes you KO it with Drakloak, or with just one Energy on Dragapult.
-- If they don’t have a large hand and only two Thwackey, it may be better to target a Thwackey. Depending on the board, it may be more likely to get them to whiff a KO, but sometimes KO’ing their attacker is still best. If they have only one Thwackey, KO’ing it is usually best.
+- Blaziken is a good attacker to KO their attacking Spidops. When Blaziken needs to recharge after it attacks, use Drakloak to KO Mimikyu or Tarountula. Attacking with Drakloak is also good if they have either of those in their active.
+- If they have Mewtwo active, try to Itchy Pollen it on Turn 1, Dragon Headbutt it Turn 2, and then KO it Turn 3. Otherwise, just two-shot it normally. Attacking into it with Blaziken is generally good and then you can finish it off with Dragon Headbutt plus Adrenabrain or another Blaziken.
+- Dragapult is not that great in this matchup but still gets used a decent amount.
+- If you’re going first and they open with Mimikyu or Tarountula, don’t leave Budew in the active on Turn 1.
+- Assuming they have Articuno in play, the Munkidori damage should go on Mewtwo. Once you get that relevant 10 or so damage on Mewtwo, start using Adrenabrain on Spidops or Tarountula.
+- Risky Ruins is best used reactively to bump their Stadium. This improves the chance of them bricking/whiffing. If you play Ruins preemptively, they can easily bump it.
+
+```youtube
+id: _g3NT0sbFGo
+title: Blaziken v Mewtwo 1
+```
+
+```youtube
+id: bwkleD_as9E
+title: Blaziken v Mewtwo 2
+```
 
 ### Lopunny - Unfavorable
 
@@ -341,4 +314,4 @@ title: Blaziken v Meg 2
 
 ## Personal Thoughts
 
-I think Blaziken is actually quite good in the current meta. It is good at dealing with stuff like Clefairy, Hydrapple, and Crushing Hammer. It's still a Dragapult deck, which is good, and it fares well into other Dragapults and has a decent matchup spread.
+I think Blaziken is actually quite good in the current meta. It is good at dealing with stuff like Clefairy, Hydrapple, and Crushing Hammer. It's still a Dragapult deck, which is good. It has a solid matchup spread overall and does fine into other Dragapult.

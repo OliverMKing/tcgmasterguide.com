@@ -169,46 +169,23 @@ id: NvqJhv7tq-Y
 title: Crustle v Pultnoir 2
 ```
 
-### Raging Bolt - Very Favorable
+### Slop Box - Auto Win
 
-- Set up multiple Crustle as normal.
-- They often have Passimian, which can be a threat. Try to get Hero's Cape on your main attacking Crustle so that it can survive a Passimian hit and one-shot in return. You don't want to commit all of your Energy to one Crustle only to be swept by a Passimian, so try to spread out your Energy at the start (or use Hero's Cape for protection if you have it).
+If they have no techs, this matchup is an auto-win. If they have Paldean Tauros and Koraidon ex, it's unfavorable.
 
-```youtube
-id: BK_19n-ZiI0
-title: Crustle v Bolt 1
-```
+- In case of a surprise Passimian, play the same was as against Raging Bolt.
+- If they have Paldean Tauros, try to build up a Kang as fast as possible and go with the Kang Bouff strat. With Bouff or Cape, Kang even survives Koraidon's first attack. With both, it survives Koraidon's second attack.
 
-```youtube
-id: ovX7LmYRiqY
-title: Crustle v Bolt 2
-```
+### Zoroark - Favorable
 
-### Festival Lead - Slightly Favorable
-
-This matchup is a bit closer with Gladion against the Cornerstone build. For the Kang build, it is slightly favorable. However, if they play Tool Scrapper, the matchup becomes very unfavorable.
-
-- Load up Cornerstone on the bench as fast as possible. Do not KO anything that is not a threat (such as Dipplin, as it is a liability for them). If they put Rellor down preemptively, KO that on sight. Now that they have Gladion, you need Cape on Cornerstone to survive it. Applin is also an attacking threat.
-- Bossing Thwackey randomly can be good as it stops the searches or forces them to use a switching card.
-- Ice Cream, Cape, and Munkidori are all very good to help Cornerstone survive.
-
-- For the Kang build, go with the normal Kang Bouff gameplan. You need Cape on Kang to survive the big hit. Once you stave off two Gladion hits, the matchup becomes much easier. Make sure to heal out of range of the Gladion hit but don't heal inefficiently.
-- Unlike with Cornerstone, we typically do want to KO whatever is in front of us.
-- Spiky Energy on Bouffalant can be an effective wall. The same goes for Handheld Fan if you play it. However, we don't want to risk losing a Bouffalant if we don't have access to Night Stretcher to get it back.
-
-```youtube
-id: cEhB4v6KMN4
-title: CrustBouff v Festival 1
-```
-
-```youtube
-id: s16Xk0eqB8c
-title: Festival v Crustle 1
-```
+- Spiky Energy is insane in this matchup. With one Spiky, Crustle effectively one-shots a poisoned Zoroark, Darmanitan, or Zekrom. With two, Crustle one-shots a non-poisoned Zoroark.
+- Cornerstone can be good, but I would still prioritize Crustle because it can one-shot Zoroark with help from Spiky. If you end up with too much Basic Energy in the discard, Darmanitan can become a threat, so try not to let that happen. Even if it does, you’ll still probably win.
+- Mist Energy is good to stop potential Drapion shenanigans. Don’t put down unnecessary extra Pokemon or you could get punished by random control cards.
+- If they have Lopunny, you need to get Cape on Crustle and also try to target it down with Boss before it becomes active. Lopunny is pretty rare nowadays though.
 
 ### Alakazam - Unfavorable
 
-This matchup is about even if they play two Enhanched Hammer, or maybe slightly unfavorable. Any more Hammers than that is probably a loss and fewer is a free win. This matchup is also unfavorable if they have Dedenne.
+This matchup is bad if they have Dedenne, and generally good if they don't.
 
 - Our win condition is to stick an attacker with Mist Energy and outlast their Enhanced Hammers. Use Lillie and Morty first to try and find the initial Mist Energy or two, and then use Hilda to find one or two after that.
 - Crustles are actually resources because you’ll need to be able to threaten attackers with Mist. Don’t evolve into them just to send them to the slaughter. Cornerstone Ogerpon can also be used for this purpose. 
@@ -240,11 +217,6 @@ id: 0Cw8pFTfpZE
 title: Crustle v Zam 2
 ```
 
-### Hydrapple - Unfavorable
-
-- Set up multiple Crustle so that you can always have a response to Bulu. Spread out Energy in the early-game if necessary.
-- If you can get two Spikys on a Crustle, it's very good against Meganium.
-
 ### Slowking - Depends
 
 Normally this matchup is unfavorable, but with Bouffalant it's even or slightly favorable.
@@ -269,17 +241,77 @@ id: 7K4rTEmfVbU
 title: King v Crust 1
 ```
 
-### Zoroark - Favorable
+### Excadrill - Auto-Loss
 
-- Spiky Energy is insane in this matchup. With one Spiky, Crustle effectively one-shots a poisoned Zoroark, Darmanitan, or Zekrom. With two, Crustle one-shots a non-poisoned Zoroark.
-- Cornerstone can be good, but I would still prioritize Crustle because it can one-shot Zoroark with help from Spiky. If you end up with too much Basic Energy in the discard, Darmanitan can become a threat, so try not to let that happen. Even if it does, you’ll still probably win.
-- Mist Energy is good to stop potential Drapion shenanigans. Don’t put down unnecessary extra Pokemon or you could get punished by random control cards.
-- If they have Lopunny, you need to get Cape on Crustle and also try to target it down with Boss before it becomes active. Lopunny is pretty rare nowadays though.
+I don't think it's possible to win. One idea is to go aggro Kang and hope for the best. Another is to go Crustle and hope they prized Metagross (but they sometimes play two).
+
+### Raging Bolt - Very Favorable
+
+- Set up multiple Crustle as normal.
+- They sometimes have Passimian, which can be a threat. Try to get Hero's Cape on your main attacking Crustle so that it can survive a Passimian hit and one-shot in return. You don't want to commit all of your Energy to one Crustle only to be swept by a Passimian, so try to spread out your Energy at the start (or use Hero's Cape for protection if you have it).
+
+```youtube
+id: BK_19n-ZiI0
+title: Crustle v Bolt 1
+```
+
+```youtube
+id: ovX7LmYRiqY
+title: Crustle v Bolt 2
+```
+
+### Festival Lead - Slightly Favorable
+
+This matchup is a bit closer with Gladion against the Cornerstone build. For the Kang build, it is slightly favorable.
+
+- Load up Cornerstone on the bench as fast as possible. Do not KO anything that is not a threat (such as Dipplin, as it is a liability for them). If they put Rellor down preemptively, KO that on sight. Now that they have Gladion, you need Cape on Cornerstone to survive it. Applin is also an attacking threat.
+- Bossing Thwackey randomly can be good as it stops the searches or forces them to use a switching card.
+- Ice Cream, Cape, and Munkidori are all very good to help Cornerstone survive.
+
+- For the Kang build, prioritize getting both Bouffalant. Load them up with as much Energy as possible while using Kang to draw. Sacrifice the Kang to their initial Gladion play, and then go in with Ready to Ram Bouffalant. Make sure that you can get it back with Night Sretcher if they KO it. Spiky Energy here is particularly strong.
+- Use the Bouffalant and keep them alive to the best of your ability.
+- Eri can be very strong at the right time. If you save one for later and hit the Scrapper, Hero's Cape is an instant win.
+
+```youtube
+id: cEhB4v6KMN4
+title: CrustBouff v Festival 1
+```
+
+I did not really know what I was doing but won anyway.
+
+```youtube
+id: s16Xk0eqB8c
+title: Festival v Crustle 1
+```
 
 ### Crustle Mirror - Even
 
 - For the Crispin build, Crispin and Munkidori are very strong.
 - For the Kang build, try to make an invincible Crustle and use Eri before attacking to hopefully get rid of Ice Creams.
+- One possible way to win is by decking them out by sticking their Kang in the active. If they put down an extra Dwebble, KO it so that your Lillie only draws six. Then repeatedly use Boss to strand up their Kang while it cannot do anything to your Crustle. Keeping your main Crustle alive is important. Of course, you'll also need to carefully calculate each players' card situation so that your opponent will be the one to deck out after you both Xerosic each other.
+
+### Hydrapple - Unfavorable
+
+- Set up multiple Crustle so that you can always have a response to Bulu. Spread out Energy in the early-game if necessary.
+- If you can get two Spikys on a Crustle, it's very good against Meganium.
+
+### Hide n Sneak - Depends
+
+For the Crispin build, this matchup is very unfavorable. For Kang, it is favorable.
+
+- Power up a Kang try to make it invincible with healing and Cape. Target Dhelmise once you start attacking.
+- Get the Bouffalant online as soon as possible. Go with normal Kang Bouff gameplan.
+- If the first Kang takes heavy damage before it is set up, it may be better to abandon it and start powering up the second one right away, but it depends on the situation.
+
+### Lucario - Very Unfavorable
+
+- Try to get Cape on Crustle and Boss smack Makuhita/Hariyama whenever possible, especially when they Aura Jab onto it.
+- Don’t put down one Dwebble at a time as it will just get KO’d. Try to put down two at once so that one can become a Crustle.
+
+```youtube
+id: qD3lvE40LAM
+title: Crustle v Lucario 1
+```
 
 ### Mewtwo - Slightly Favorable
 
@@ -300,30 +332,6 @@ title: Crustle v Mewtwo 1
 ```youtube
 id: 9R29o4idU1o
 title: Crustle v Mewtwo 2
-```
-
-### Slop Box - Auto Win
-
-If they have no techs, this matchup is an auto-win.
-
-- In case of a surprise Passimian, play the same was as against Raging Bolt.
-
-### Hide n Sneak - Depends
-
-For the Crispin build, this matchup is very unfavorable. For Kang, it is favorable.
-
-- Power up a Kang try to make it invincible with healing and Cape. Target Dhelmise once you start attacking.
-- Get the Bouffalant online as soon as possible. Go with normal Kang Bouff gameplan.
-- If the first Kang takes heavy damage before it is set up, it may be better to abandon it and start powering up the second one right away, but it depends on the situation.
-
-### Lucario - Very Unfavorable
-
-- Try to get Cape on Crustle and Boss smack Makuhita/Hariyama whenever possible, especially when they Aura Jab onto it.
-- Don’t put down one Dwebble at a time as it will just get KO’d. Try to put down two at once so that one can become a Crustle.
-
-```youtube
-id: qD3lvE40LAM
-title: Crustle v Lucario 1
 ```
 
 ### Lopunny - Auto Loss
@@ -359,4 +367,4 @@ title: Crustle v Meg 1
 
 ## Personal Thoughts
 
-Crustle always carries a bit of risk with matchups, making it potentially stronger in more predictable metagames. It also has the downside that Dragapult can always tech for it at any given time, though it is very good against Dragapult if they don't tech for it. Between the Crispin build and the Bouffalant build, I'm currently favoring the Bouffalant, but they both seem like decent plays for Worlds.
+Crustle always carries a bit of risk with matchups, making it potentially stronger in more predictable metagames. It also has the downside that Dragapult can always tech for it at any given time, though it is very good against Dragapult if they don't tech for it. Between the Crispin build and the Bouffalant build, I'm currently favoring the Bouffalant, but they both seem good.

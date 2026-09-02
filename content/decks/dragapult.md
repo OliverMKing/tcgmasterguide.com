@@ -50,16 +50,17 @@ Energy: 9
 
 ### Possible Inclusions
 
+- The Risky Ruins plus Dudunsparce version is obviously good since it won Worlds. That build is perhaps a bit more consistent throughout the game due to Dudunsparce, but its matchup spread is a bit worse.
 - Chi-Yu would be a good tech to destroy Crustle. Paldean Tarous also does this, but I think Chi-Yu is better for this build.
 - Dark Bell was ok when I tried it out. Free confusion is good, but the card is a bit more situational than I expected. I'm still not sure if it needs to be in the deck.
 - Judge could be played over a Red Card. I think Red Card is better overall, but it’s pretty close. Xerosic’s Machinations is a similar consideration for the same reasons.
+- Patrat instead of Munkidori could potentially be ok, since Munkidori is mostly used in the mirror. In the Risky Ruins build, Munkidori is clearly better.
 
 ### Exclusions
 
 - Shaymin would be considerable if the Slowking matchup wasn’t already good. Against other fast snipers, Moltres helps cover for them.
 - Second Munkidori is probably fine but I never really need it.
 - Yveltal is too hard to use, especially with just two Dark and one Munki.
-- Risky Ruins and Dudunsparce is basically a separate version, and the deck would have to be adjusted quite a bit for them. I think the Watchtower version has a much better matchup spread, even if it’s slightly less efficient overall.
 - Dawn or Brock’s Scouting would help a bit with consistency but the cards just aren’t that good.
 <!-- /PUBLIC -->
 ## Gameplay Tips
@@ -81,8 +82,6 @@ Energy: 9
 
 ### Dragapult Mirror - Even
 
-Slightly favorable against Dusknoir, about even against the rest.
-
 - Munkidori is very strong. Try not to boardlock yourself out of it so that you can utilize it whenever you find it. Conversely, if they have Munkidori with Dark, consider KO’ing it to limit their options. With limited Stretchers, they might not be able to get it back.
 - We want to be the first one to attack with Phantom Dive. Choose to go first as there are plenty enough outs to Dreepy. Going first also opens up the option to shut them out of the game with Watchtower or Fez.
 - Fast Fezandipiti Cruel Arrow is good in this matchup if it lines up with Crispin. Of course, it’s not very good if they play Shaymin. If you don’t have a likely fast Cruel Arrow, it’s generally not worth putting Fez in play early. Going for Fez is slightly less good now since everyone plays Hammer. Look for the play, but don’t rely on it.
@@ -99,6 +98,108 @@ These games I was testing with the Dudunspace version but I think that’s close
 ```youtube
 id: aUJFp8ykZHE
 title: Hammers v Noir 2
+```
+
+### Slop Box - Slightly Favorable
+
+- At the end of the game, you would like to only have one benched Pokemon so that Clefairy cannot KO Dragapult without the Area Zero. This is makes it difficult for them to get the KO after disrupting them. This means you need to be careful about putting Pokemon down. Don't put down extra stuff like Munkidori or Moltres if you don't need to. Hoard the disruption combo for when you have slim board.
+- Fez and Meowth are huge liabilities so don't put them into play unless absolutely necessary.
+- Use Hammer if it has a reasonable chance of stopping an attack. Otherwise, save for a disruptive combo. Double Hammer on their Clefairy plus Boss Phantom Dive on Fez (along with hand disruption and Watchtower) is the ideal play as they have to get lucky in order to respond.
+- It’s unlikely to win a trade, so we have to rely on hand disruption plus Watchtower. These cards are premium resources.
+- Moltres is a good response if they’re threatening a fast Fez attack. It can also be very good if you can get the smack on their Kang. This lets Phantom Dive KO and prize trade ignoring Lillie’s Pearl. If you aren’t getting value from Moltres, don’t put it down for no reason so we can have a slim board in the late-game.
+- They have plenty of outs to Watchtower, so save one or two for a combo with hand disruption.
+
+```youtube
+id: zvBAEEaoVNA
+title: Slop v Pult 1
+```
+
+```youtube
+id: sa8Ah2uxEz4
+title: Slop v Pult 2
+```
+
+### Zoroark - Slightly Unfavorable
+
+- Moltres is generally good for smacking Zoroark. Jet Headbutt is similarly good if they don’t have easy access to Munkidori, but not great if they do.
+- Sometimes it is acceptable to Phantom Dive into Zoroark knowing they can respond with Reshiram copy for a one-shot. This depends on the board and how much pressure you can apply. Sometimes the increased tempo works in your favor, but it is situational (such as if they don’t have much Energy in play and you do).
+- Budew is often good in the early-game. The damage and Item lock are both relevant, but sometimes it’s better not to go for it, depending on the situation.
+- Applying fast pressure is generally good because we don’t want to let them set up a massive hand and perfect board.
+- Phantom Dive six almost always goes onto their backup Zoroark.
+- Munkidori is very good in this matchup, as is KO’ing their Munkidori with Dark.
+
+```youtube
+id: eAgzMk0ev4Q
+title:  Zoro v Pult 1
+```
+
+### Alakazam - Favorable
+
+This matchup is favorable or very favorable with three hand disruption cards. It should be roughly the same whether the second Red Card is a Judge or not. With fewer hand disruption cards, the matchup becomes much closer.
+
+- Save Stadiums to bump their Stadiums. If you can’t get immediate value from a Stadium bump (such as if you can attack normally under Nighttime Mine), save the Stadium to combo it with hand disruption.
+- Against the Nighttime Mine build of Alakazam, getting ahead on Energy attachments is even more important, so retreating into Budew has less value. Prioritizing Itchy Pollen is good if you have Unfair Stamp in hand, as you can let it get KO’d and then body them with Stamp. Since you assume they can get the immediate Kadabra KO in most scenarios, Budew is not a priority unless you have Stamp to go with it.
+- Build up as much Energy in play against the Mine build. Even attaching Dark Energy to random Drakloak is good.
+- If they ever attack with Elgyem, KO it immediately.
+
+```youtube
+id: 2pwoICz5MAs
+title: Zam v Pult 1
+```
+
+```youtube
+id: WqRUQWNB7HU
+title: Zam v Pult 2
+```
+This is one of the most interesting and confusing games I’ve ever played.
+
+### Slowking - Favorable
+
+- After a lot of games, I still find it hard to tell if it’s better to slam or save Watchtower. It’s quite likely that an early Watchtower will not trouble them much, and you really need to have Watchtower when you disrupt their hand. I lean towards saving Watchtower, but if all of the circumstances seem like you should play it (none are prized, you have an extra in hand, they started Kang and you’re going first, etc.), there could be some exceptions.
+- Budew is insane against them and it’s a huge priority. It’s much harder for them to get the Kyurem play while Item locked. Similarly, Hammer is also insanely good in the early-game, and helps delay their attack. Budew is also the ideal response after they use Trifrost (if you don’t have Phantom Dive, of course).
+- I usually try to make them whiff Trifrost, but occasionally, you can let them have it. If your board is something like Fez and two Dreepy, and they cannot KO three Pokemon with Trifrost, sometimes you can let them have it and respond with Budew + re-setup. This is most likely if they used Smoochum or Ciphermaniac (or if Budew is prized), and you don’t think you can realistically stop them from using Trifrost anyway. If that’s the scenario, best to minimize the damage. Again, usually it’s best to try and stop it in the first place by Item-locking them, but it’s not the end of the world if they do get it. It’s worth noting that even if they do get the Smoochum or Cipher, it’s still fairly likely they won’t have the Trifrost play ready if Item locked.
+- Moltres is generally a safe Pokemon to have in play and can occasionally get a good hit on something like Clefairy. The only punish to having Moltres in play is if you end up needing to make them whiff a Clefairy KO on Dragapult, which is possible. I didn’t find that to be as common as you might expect, since you usually have two benched Pokemon anyway. Getting some value from Moltres is actually more common than getting punished for having it.
+- Avoid giving them easy Trifrost lines to win the game. This is very situational based on the board. Sometimes it’s fine to bench extra Dreepy and stuff, and sometimes it’s game-losing.
+- Munkidori is extremely important if they end up Trifrosting any two-prizer for less than a KO.
+- Do not overly respect them. Get the three Dreepy and Item lock them if you can. They are unlikely to get what they need while Item-locked, especially if you have some additional help from Hammer or Watchtower.
+- Phantom Dive almost always puts six on the backup Slowpoke/King that is least likely to attack next turn.
+
+```youtube
+id: lRVe5drKOyU
+title: Pult v King 1
+```
+A good portion of games of this matchup are jank spaghetti-fests.
+
+```youtube
+id: wFXYpr6UAaA
+title: Pult v King 2
+```
+This game was funny because Pult prized all of its Psychics and still nearly won.
+
+### Excadrill - Even
+
+- Go second.
+- Itchy Pollen is good if they don’t have their Basics in play, especially Genesect, since you can lock Trolley. However, if they already have the squad, the Item lock is useless. The 20 damage onto Drilbur can be relevant though.
+- Moltres is very important for dealing damage and also helping with the prize trade. Save Stretchers and Fire Energy so you can use Moltres multiple times. 
+- 3-2-1 prize map is the most common because they will always have Genesect in play. Moltres can one-shot Genesect if needed for two easy prizes, leaving you to just KO an Excadrill and random single-prize Pokemon
+- Early Mind Bend can be a good response to a fast Excadrill, especially if they don’t have much Energy established in play. Moltres is usually better if you can follow up with a Phantom Dive immediately. Mind Bend is not reliable as an overall gameplan because they play enough Energy to comfortably retreat Excadrill a couple times. Can also use a Munkidori as an early-game meat shield because it does not die to the mill attack.
+- Crushing Hammer is typically not that important. It can be useful but it’s not a resource you need to save or plan around.
+- Crispin is even more important than normal because Dragapult gets one-shot and also because you need to use alternative attackers such as Moltres and sometimes Munkidori. Load as much Energy in play as possible as soon as the game begins so that you can always have access to the best attack for the situation.
+- Moltres can help you reverse prize trade optimally. Be sure to keep a single prize board or at least disrupt their hand (when you have two-prize Pokemon in play) to keep them off Boss’s Orders on crucial turns, such as when they’re on even prize cards.
+
+```youtube
+id: Z4mtndt9xIk
+title: Drill v Pult 1
+```
+
+```youtube
+id: 9G-DkC9q-5o
+title: Drill v Pult 2
+```
+
+```youtube
+id: HnsxI7wf-Dg
+title: Drill v Pult 3
 ```
 
 ### Raging Bolt - Favorable
@@ -130,70 +231,15 @@ id: cYkI-nNI1OU
 title: Pult v Bolt 4
 ```
 
-### Alakazam - Favorable
+### Festival Lead - Slightly Favorable
 
-This matchup is favorable or very favorable with three hand disruption cards. It should be roughly the same whether the second Red Card is a Judge or not. With fewer hand disruption cards, the matchup becomes much closer.
-
-- Save Stadiums to bump their Stadiums. If you can’t get immediate value from a Stadium bump (such as if you can attack normally under Nighttime Mine), save the Stadium to combo it with hand disruption.
-- Against the Nighttime Mine build of Alakazam, getting ahead on Energy attachments is even more important, so retreating into Budew has less value. Prioritizing Itchy Pollen is good if you have Unfair Stamp in hand, as you can let it get KO’d and then body them with Stamp. Since you assume they can get the immediate Kadabra KO in most scenarios, Budew is not a priority unless you have Stamp to go with it.
-- Build up as much Energy in play against the Mine build. Even attaching Dark Energy to random Drakloak is good.
-- If they ever attack with Elgyem, KO it immediately.
-
-```youtube
-id: 2pwoICz5MAs
-title: Zam v Pult 1
-```
-
-```youtube
-id: WqRUQWNB7HU
-title: Zam v Pult 2
-```
-This is one of the most interesting and confusing games I’ve ever played.
-
-### Hydrapple - Even
-
-- Early Budew can be good to slow them down, and its damage is relevant as well. If they have Applin or any two-prize Pokemon in their Active, Moltres might be better. In general, Moltres is very good and should be slammed on the board as soon as possible.
-- Hydrapple is a big threat. Usually you have to two-shot it, but if you have a good position, it may be possible to go around it multiple times and ignore it entirely.
-- If you’re in a bad position, you can try to hand disrupt + KO their Meganium, and it’s unlikely they’ll get Meganium back. KO’ing their Meganium isn’t the ideal plan because it only gives up one prize (and it’s bad if they get another), but it can be a functional backup plan if things are going poorly.
-- Even though they play lots of Stadiums, slamming Watchtower on Turn 1 going first can make them brick. Otherwise, save Watchtower to combo with hand disruption and/or bump their Stadium.
-- Stay aware of Hydrapple’s healing Ability. Because of this, sometimes it’s better to overdamage Pokemon with Phantom Dive’s snipe by 30 more than you’d otherwise need.
-
-### Zoroark - Slightly Unfavorable
-
-- Moltres is generally good for smacking Zoroark. Jet Headbutt is similarly good if they don’t have easy access to Munkidori, but not great if they do.
-- Sometimes it is acceptable to Phantom Dive into Zoroark knowing they can respond with Reshiram copy for a one-shot. This depends on the board and how much pressure you can apply. Sometimes the increased tempo works in your favor, but it is situational (such as if they don’t have much Energy in play and you do).
-- Budew is often good in the early-game. The damage and Item lock are both relevant, but sometimes it’s better not to go for it, depending on the situation.
-- Applying fast pressure is generally good because we don’t want to let them set up a massive hand and perfect board.
-- Phantom Dive six almost always goes onto their backup Zoroark.
-- Munkidori is very good in this matchup, as is KO’ing their Munkidori with Dark.
-
-```youtube
-id: eAgzMk0ev4Q
-title:  Zoro v Pult 1
-```
-
-### Slowking - Favorable
-
-- After a lot of games, I still find it hard to tell if it’s better to slam or save Watchtower. It’s quite likely that an early Watchtower will not trouble them much, and you really need to have Watchtower when you disrupt their hand. I lean towards saving Watchtower, but if all of the circumstances seem like you should play it (none are prized, you have an extra in hand, they started Kang and you’re going first, etc.), there could be some exceptions.
-- Budew is insane against them and it’s a huge priority. It’s much harder for them to get the Kyurem play while Item locked. Similarly, Hammer is also insanely good in the early-game, and helps delay their attack. Budew is also the ideal response after they use Trifrost (if you don’t have Phantom Dive, of course).
-- I usually try to make them whiff Trifrost, but occasionally, you can let them have it. If your board is something like Fez and two Dreepy, and they cannot KO three Pokemon with Trifrost, sometimes you can let them have it and respond with Budew + re-setup. This is most likely if they used Smoochum or Ciphermaniac (or if Budew is prized), and you don’t think you can realistically stop them from using Trifrost anyway. If that’s the scenario, best to minimize the damage. Again, usually it’s best to try and stop it in the first place by Item-locking them, but it’s not the end of the world if they do get it. It’s worth noting that even if they do get the Smoochum or Cipher, it’s still fairly likely they won’t have the Trifrost play ready if Item locked.
-- Moltres is generally a safe Pokemon to have in play and can occasionally get a good hit on something like Clefairy. The only punish to having Moltres in play is if you end up needing to make them whiff a Clefairy KO on Dragapult, which is possible. I didn’t find that to be as common as you might expect, since you usually have two benched Pokemon anyway. Getting some value from Moltres is actually more common than getting punished for having it.
-- Avoid giving them easy Trifrost lines to win the game. This is very situational based on the board. Sometimes it’s fine to bench extra Dreepy and stuff, and sometimes it’s game-losing.
-- Munkidori is extremely important if they end up Trifrosting any two-prizer for less than a KO.
-- Do not overly respect them. Get the three Dreepy and Item lock them if you can. They are unlikely to get what they need while Item-locked, especially if you have some additional help from Hammer or Watchtower.
-- Phantom Dive almost always puts six on the backup Slowpoke/King that is least likely to attack next turn.
-
-```youtube
-id: lRVe5drKOyU
-title: Pult v King 1
-```
-A good portion of games of this matchup are jank spaghetti-fests.
-
-```youtube
-id: wFXYpr6UAaA
-title: Pult v King 2
-```
-This game was funny because Pult prized all of its Psychics and still nearly won.
+- Early Itchy Pollen is very good in this matchup. It helps stop Rabsca and disrupts their setup in general.
+- Get a fast Moltres or Munkidori into play to use as a sponge to deny a double KO. Moltres can also KO Applin, which is occasionally relevant (and usually better than Itchy Pollen, given the option). Munkidori’s Adrenabrain is sometimes relevant later in the game. Mind Bend is fairly rare in this matchup.
+- KO their Rabsca as soon as possible.
+- Save Watchtower to combo with hand disruption (they have to play Festival Grounds to attack anyway).
+- Hand disruption plus Boss Thwackey can easily buy time if you need to. Converting off of it isn’t easy though. Slam Stamp on sight. It is broken.
+- If they don’t have a large hand and only two Thwackey, it may be better to target a Thwackey. Depending on the board, it may be more likely to get them to whiff a KO, but sometimes KO’ing their attacker is still best. If they have only one Thwackey, KO’ing it is usually best.
+- If you're playing Risky Ruins, it's possible to do some diabolical setups. Boss on Thwackey plus hand disruption leads to better conversions. Jet Headbutt the Thwackey and Adrenabrain it, then finish with Adrenabrain and KO whatever you want.
 
 ### Crustle - Unfavorable
 
@@ -217,35 +263,13 @@ id: hvIAKTD9SGA
 title: Pult v Crustle 2
 ```
 
-### Mewtwo - Slightly Favorable
+### Hydrapple - Even
 
-- Early-game Budew is good. Attacking Drakloak can be good at any time if it can get a KO, especially if you don’t have Dragapult on the board.
-- Moltres is exceptionally good into their Mewtwo.
-- Slamming Unfair Stamp as soon as you can is generally best.
-- There are lots of times where Phantom Dive is the best attack, but there’s also lots of times where it isn’t due to the threat of Mimikyu. Only put Dragapult in play if you need to use Phantom Dive for the turn, as it can be a liability.
-- If you’re going first and they open with Mimikyu or Tarountula, don’t leave Budew in the active on Turn 1 because it will just get KO’d.
-- It is usually best to target their Psychic attacker that has Energy, especially since you have to two-shot Mewtwo regardless. If you go after Clefairy and leave a loaded attacker, it’s not hard for them to simply Stretcher the Clefairy back. Hammer can enable you to handle both at once. Hammers are generally very strong in this matchup, as is hand disruption.
-- Assuming they have Articuno in play, any Munkidori damage should go on Spidops or Tarountula.
-- Watchtower is best used reactively to bump their Stadium. This improves the chance of them bricking/whiffing. Ideally you have hand disruption too, but still worth bumping their Stadium immediately either way.
-
-### Slop Box - Slightly Favorable
-
-- At the end of the game, you would like to only have one benched Pokemon so that Clefairy cannot KO Dragapult without the Area Zero. This is makes it difficult for them to get the KO after disrupting them. This means you need to be careful about putting Pokemon down. Don't put down extra stuff like Munkidori or Moltres if you don't need to. Hoard the disruption combo for when you have slim board.
-- Fez and Meowth are huge liabilities so don't put them into play unless absolutely necessary.
-- Use Hammer if it has a reasonable chance of stopping an attack. Otherwise, save for a disruptive combo. Double Hammer on their Clefairy plus Boss Phantom Dive on Fez (along with hand disruption and Watchtower) is the ideal play as they have to get lucky in order to respond.
-- It’s unlikely to win a trade, so we have to rely on hand disruption plus Watchtower. These cards are premium resources.
-- Moltres is a good response if they’re threatening a fast Fez attack. It can also be very good if you can get the smack on their Kang. This lets Phantom Dive KO and prize trade ignoring Lillie’s Pearl. If you aren’t getting value from Moltres, don’t put it down for no reason so we can have a slim board in the late-game.
-- They have plenty of outs to Watchtower, so save one or two for a combo with hand disruption.
-
-```youtube
-id: zvBAEEaoVNA
-title: Slop v Pult 1
-```
-
-```youtube
-id: sa8Ah2uxEz4
-title: Slop v Pult 2
-```
+- Early Budew can be good to slow them down, and its damage is relevant as well. If they have Applin or any two-prize Pokemon in their Active, Moltres might be better. In general, Moltres is very good and should be slammed on the board as soon as possible.
+- Hydrapple is a big threat. Usually you have to two-shot it, but if you have a good position, it may be possible to go around it multiple times and ignore it entirely.
+- If you’re in a bad position, you can try to hand disrupt + KO their Meganium, and it’s unlikely they’ll get Meganium back. KO’ing their Meganium isn’t the ideal plan because it only gives up one prize (and it’s bad if they get another), but it can be a functional backup plan if things are going poorly.
+- Even though they play lots of Stadiums, slamming Watchtower on Turn 1 going first can make them brick. Otherwise, save Watchtower to combo with hand disruption and/or bump their Stadium.
+- Stay aware of Hydrapple’s healing Ability. Because of this, sometimes it’s better to overdamage Pokemon with Phantom Dive’s snipe by 30 more than you’d otherwise need.
 
 ### Hide n Sneak - Favorable
 
@@ -271,32 +295,6 @@ id: O5GnPSfiIww
 title: Sneak v Pult 3
 ```
 
-### Excadrill - Even
-
-- Go second.
-- Itchy Pollen is good if they don’t have their Basics in play, especially Genesect, since you can lock Trolley. However, if they already have the squad, the Item lock is useless. The 20 damage onto Drilbur can be relevant though.
-- Moltres is very important for dealing damage and also helping with the prize trade. Save Stretchers and Fire Energy so you can use Moltres multiple times. 
-- 3-2-1 prize map is the most common because they will always have Genesect in play. Moltres can one-shot Genesect if needed for two easy prizes, leaving you to just KO an Excadrill and random single-prize Pokemon
-- Early Mind Bend can be a good response to a fast Excadrill, especially if they don’t have much Energy established in play. Moltres is usually better if you can follow up with a Phantom Dive immediately. Mind Bend is not reliable as an overall gameplan because they play enough Energy to comfortably retreat Excadrill a couple times. Can also use a Munkidori as an early-game meat shield because it does not die to the mill attack.
-- Crushing Hammer is typically not that important. It can be useful but it’s not a resource you need to save or plan around.
-- Crispin is even more important than normal because Dragapult gets one-shot and also because you need to use alternative attackers such as Moltres and sometimes Munkidori. Load as much Energy in play as possible as soon as the game begins so that you can always have access to the best attack for the situation.
-- Moltres can help you reverse prize trade optimally. Be sure to keep a single prize board or at least disrupt their hand (when you have two-prize Pokemon in play) to keep them off Boss’s Orders on crucial turns, such as when they’re on even prize cards.
-
-```youtube
-id: Z4mtndt9xIk
-title: Drill v Pult 1
-```
-
-```youtube
-id: 9G-DkC9q-5o
-title: Drill v Pult 2
-```
-
-```youtube
-id: HnsxI7wf-Dg
-title: Drill v Pult 3
-```
-
 ### Lucario - Slightly Favorable
 
 - Phantom Dive spread should usually go on Riolu/Lucario. If you can KO Riolu, that is almost always best. 20 on Lucario sets it up for Mind Bend into Phantom Dive. Putting 20 damage on Makuhita can also be good. Any extra damage can still be useful on Solrock/Lunatone.
@@ -306,14 +304,16 @@ title: Drill v Pult 3
 - When they have Lucario active, smack it with Phantom Dive or Mind Bend.
 - Hammers can sometimes be relevant for Rocky Fighting Energy, but it doesn’t come up too often and isn’t part of the main game plan.
 
-### Festival Lead - Slightly Favorable
+### Mewtwo - Slightly Favorable
 
-- Early Itchy Pollen is very good in this matchup. It helps stop Rabsca and disrupts their setup in general.
-- Get a fast Moltres or Munkidori into play to use as a sponge to deny a double KO. Moltres can also KO Applin, which is occasionally relevant (and usually better than Itchy Pollen, given the option). Munkidori’s Adrenabrain is sometimes relevant later in the game. Mind Bend is fairly rare in this matchup.
-- KO their Rabsca as soon as possible.
-- Save Watchtower to combo with hand disruption (they have to play Festival Grounds to attack anyway).
-- Hand disruption plus Boss Thwackey can easily buy time if you need to. Converting off of it isn’t easy though. Slam Stamp on sight. It is broken.
-- If they don’t have a large hand and only two Thwackey, it may be better to target a Thwackey. Depending on the board, it may be more likely to get them to whiff a KO, but sometimes KO’ing their attacker is still best. If they have only one Thwackey, KO’ing it is usually best.
+- Early-game Budew is good. Attacking Drakloak can be good at any time if it can get a KO, especially if you don’t have Dragapult on the board.
+- Moltres is exceptionally good into their Mewtwo.
+- Slamming Unfair Stamp as soon as you can is generally best.
+- There are lots of times where Phantom Dive is the best attack, but there’s also lots of times where it isn’t due to the threat of Mimikyu. Only put Dragapult in play if you need to use Phantom Dive for the turn, as it can be a liability.
+- If you’re going first and they open with Mimikyu or Tarountula, don’t leave Budew in the active on Turn 1 because it will just get KO’d.
+- It is usually best to target their Psychic attacker that has Energy, especially since you have to two-shot Mewtwo regardless. If you go after Clefairy and leave a loaded attacker, it’s not hard for them to simply Stretcher the Clefairy back. Hammer can enable you to handle both at once. Hammers are generally very strong in this matchup, as is hand disruption.
+- Assuming they have Articuno in play, any Munkidori damage should go on Spidops or Tarountula.
+- Watchtower is best used reactively to bump their Stadium. This improves the chance of them bricking/whiffing. Ideally you have hand disruption too, but still worth bumping their Stadium immediately either way.
 
 ### Lopunny - Favorable
 

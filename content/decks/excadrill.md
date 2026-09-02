@@ -6,28 +6,31 @@ format: Standard
 ---
 ## Decklist
 
-![excadrill list](./images/excadrill/engdrill.png)
+![excadrill list](./images/excadrill/empo.png)
 ```decklist
-Pokémon: 19
+Pokémon: 20
 4 Drilbur PBL 46
-3 Mega Excadrill ex PBL 65
+2 Mega Excadrill ex PBL 65
 4 Beldum TEF 113
 4 Metang TEF 114
 1 Metagross CRI 61
 2 Genesect ex BLK 67
+1 Piplup PFL 27
+1 Empoleon ex PFL 70
 1 Fezandipiti ex SFA 38
 
-Trainer: 26
+Trainer: 25
 4 Lillie's Determination MEG 119
 4 Boss's Orders PAL 172
 4 Team Rocket's Petrel DRI 176
 4 Team Rocket's Transceiver DRI 178
 3 Buddy-Buddy Poffin TEF 144
-2 Energy Recycler DRI 164
+1 Energy Recycler DRI 164
 1 Night Stretcher ASC 196
 1 Switch MEG 130
+1 Ultra Ball SVI 196
+1 Rare Candy SVI 191
 1 Precious Trolley SSP 185
-2 Air Balloon BLK 79
 
 Energy: 15
 15 Metal Energy MEE 8
@@ -38,26 +41,26 @@ Energy: 15
 - Four Drilbur is nice to have it early and easy access to Call for Family, but it would probably be fine to play three. The Call for Family is a relevant buff to consistency.
 - Metagross is insane but you never need more than one.
 - Fezandipiti is hard to find but sometimes you get it early and it can help get Boss. It can also be a decent fast attacker in some situations.
+- Empoleon ex is a cheeky tech for heavy-Alakazam metas. Right after Worlds, Alakazam is seeing a lot of hype due to its incredibly strong showing. The Rare Candy also enables fast Metagross, which is good for prize trades and some misc matchups such as Festival Lead (if it lines up).
 - Lillie’s Determination is not as important in this deck as some others, but the card is still very good and helps a lot with overall consistency.
 - Four Boss’s Orders is necessary with how often this deck wants to have Boss at the right time. Without four I would never have it when I needed it. It can also help with reverse prize mapping. Sometimes you don’t want to attack with Excadrill since it’s good for your opponent’s prize map, but Excadrill is the only thing that gets a big KO, so you can use Boss to get value from a different attacker on that turn.
 - Three Poffin helps make the deck consistent. Sometimes Trolley is prized or you only have Lillie in the early-game instead of Petrel, or you are forced to go first against a deck with Budew and can’t Trolley.
-- Energy Recycler is needed in basically every game, especially since sometimes the need arises to retreat Excadrill. I tried with one, and you can certainly get away with it, but I found the card to be too important that I wanted a second one make sure I always get value from it. It’s also possible to use both every once in awhile.
 - Night Stretcher is nice utility, usually used for Drilbur or Beldum if KO’d early, Genesect, or Metagross.
 - Precious Trolley makes the deck very fast and consistent. This deck needs to quickly find lots of Basics and Evolutions, and Trolley does everything at once. It’s so insane with Genesect ex.
-- Air Balloon is especially valuable for early-game mobility. Switch can be good against early-game Sob which allows us to sometimes play around Torrential Pump by leaving Genesect active. This isn’t necessarily the go-to if you think they can just KO the Genesect though.
+- Switch can be good against early-game Sob which allows us to sometimes play around Torrential Pump by leaving Genesect active. This isn’t necessarily the go-to if you think they can just KO the Genesect though. Switch can be generally good in other spots such as Mind Bend.
+- Ultra Ball is solid utility and consistency.
 
 ### Possible Inclusions
 
-- Ultra Ball could be decent utility, but when I tried it, it was not very relevant.
 - Lana’s Aid would sometimes be nice but it’s difficult to pull off.
 - Pokegear would be very good to have Boss at the right time (and also increase the rate of finding early Trolley).
 - Special Red Card might occasionally be useful, though it didn’t get used much against Dragapult.
 - Shaymin might be a decent tech for Slowking. You’d have to delay evolving into the backup Excadrill.
-- Transformation Tome sounds awful in this deck but Genesect is such a big liability that gives opponents an easy prize map, so it could be worth trying out. It would also allow us to benefit from Fez without the downside. However, that could be exploitable since there is no way to discard cards to activate Tome, so you’d be relying on the opponent to KO something else first and then Tome out the Genesect. It would also be hard to piece together the Tome play.
+- Second Energy Recycler would be nice.
 
 ### Exclusions
 
-- Mega Skarmory is difficult to accomodate and use effectively. It's not terrible but also not necessary for this deck, nor does it solve a particular problem.
+- Mega Skarmory is difficult to accomodate and use effectively. It's not terrible but also not necessary for this deck, nor does it solve a particular problem. It makes more sense to play it in the no-Boss list.
 - Hero's Cape is a strong card, but the deck starts to fall apart when it can't Petrel for Trolley to easily set up the entire board. The engine becomes weaker and the deck becomes less consistent. This deck's consistency is one of its selling points. After testing a bit with Cape, the deck becomes noticeably slower, and it doesn't seem like the Cape does all that much.
 - Jumbo Ice Cream’s breakpoints are atrocious because it’s very hard to have multiple of them at once. Moltres + Phantom Dive still KO’s after an Ice Cream, for example. This deck does not draw cards very well so it won’t have multiple Ice Creams very often, especially against hand disruption. They also aren’t relevant in lots of matchups, although they can be good in some others. In general, if they aren’t one-shotting Excadrill, we’re already having a good time anyway.
 - Poke Pad is just not good in this deck.
@@ -119,6 +122,47 @@ id: 8pYQpK3xHAQ
 title: Drill v PultBlaze 1
 ```
 
+### Slop Box - Even
+
+- Boss is very important to take an efficient prize map. Try to KO their Kang before they remove it from the board with Chien-Pao.
+- Metagross is great in this matchup. Genesect can also sometimes attack for similar reasons as against Raging Bolt.
+- Wellspring Ogerpon is a huge threat! If they attached an Energy to Wellspring, you may want to send up Genesect and not put a fifth Pokemon on your bench in order to play around Clefairy. If they Sob, you can Petrel for Switch and get out. If they don’t already have Energy on Wellspring, no need to worry about it.
+
+```youtube
+id: yXZhZKazbs8
+title: Drill v Slop 1
+```
+
+### Zoroark - Favorable
+
+- If they play Darmanitan, do not put down the second Drilbur right away as that is a good way to instantly lose and feed them an easy prize map. Sometimes you need to wait awhile for the second Drilbur.
+- Darmanitan allows for nasty prize maps that you need to be aware of. Get three Beldum in play and evolved as soon as possible along with the initial Excadrill. Do not let them use Darmanitan’s attack for 90 on Excadrill and a single-prize KO. If they smack Excadrill for 250, don’t put down a single-prize Pokemon just yet. Also do not let them go 90-90 on two Excadrill (the second Excadrill should not even be in play).
+- Metagross is very important as it allows you to play without Excadrill and mess with their prize map.
+- Recycler can easily play around Darmanitan’s first attack.
+- If they don’t play Darmanitan, you can ignore everything I just said and play normally. If you don’t know their list, you still need to be careful since Darmanitan can come out of nowhere via Transformation Tome.
+
+```youtube
+id: tJWxvGKRHtg
+title: Drill v Zoro 1
+```
+
+### Alakazam - Depends
+
+With Empoleon, it's very favorable. Without it, it's very unfavorable.
+
+With Empoleon:
+- Set it up and win. Easy game.
+- Don't search out Rare Candy until you're ready to use it. You'll get punished by Eri.
+
+Without Empoleon:
+- If they start with a random bad Pokemon like Dedenne or Genesect, it’s possible to cheese them by sniping around it with Fez and Boss stalling.
+- Another possible win con is milling important cards (recovery or Boss) while taking early KO’s with Excadrill, and then pivoting to Metagross -> Stretcher Metagross. Even Metang can KO Abra if you must attack with a single-prizer, but KO’ing their Alakazam is usually ideal.
+
+### Slowking - Unfavorable
+
+- Don’t bother trying to tiptoe around Trifrost. Our best chance is to go fast and aggressive, and hope they don’t draw great. Play normally and try to prize race them by going 3-2-1.
+- Boss is very important as you’ll need to snipe down Kang and Latias to rush prize cards.
+
 ### Raging Bolt - Slightly Favorable
 
 - Metagross is insane in this matchup. You’ll want to start attacking with it pretty much whenever you get the chance. Of course, early Excadrill is still the go-to main attacker for the matchup since Metagross is a bit slow.
@@ -135,11 +179,6 @@ id: hb0QJ851_EY
 title: Drill v Bolt 1
 ```
 
-### Alakazam - Very Unfavorable
-
-- If they start with a random bad Pokemon like Dedenne or Genesect, it’s possible to cheese them by sniping around it with Fez and Boss stalling.
-- Another possible win con is milling important cards (recovery or Boss) while taking early KO’s with Excadrill, and then pivoting to Metagross -> Stretcher Metagross. Even Metang can KO Abra if you must attack with a single-prizer, but KO’ing their Alakazam is usually ideal.
-
 ### Festival Lead - Unfavorable
 
 - The ideal attacking lineup is Genesect -> Metagross -> Metagross -> Excadrill. They have to Boss around at some point, so make them get through the Metagross. There are many exceptions. Sometimes they get the first attack or you have an easy Excadrill attack instead. Getting some mills isn’t bad. If you mill a Gladion you basically win on the spot.
@@ -152,19 +191,6 @@ id: llimXRrSMbA
 title: Drill v Festival 1
 ```
 
-### Zoroark - Favorable
-
-- If they play Darmanitan, do not put down the second Drilbur right away as that is a good way to instantly lose and feed them an easy prize map. Sometimes you need to wait awhile for the second Drilbur.
-- Darmanitan allows for nasty prize maps that you need to be aware of. Get three Beldum in play and evolved as soon as possible along with the initial Excadrill. Do not let them use Darmanitan’s attack for 90 on Excadrill and a single-prize KO. If they smack Excadrill for 250, don’t put down a single-prize Pokemon just yet. Also do not let them go 90-90 on two Excadrill (the second Excadrill should not even be in play).
-- Metagross is very important as it allows you to play without Excadrill and mess with their prize map.
-- Recycler can easily play around Darmanitan’s first attack.
-- If they don’t play Darmanitan, you can ignore everything I just said and play normally. If you don’t know their list, you still need to be careful since Darmanitan can come out of nowhere via Transformation Tome.
-
-```youtube
-id: tJWxvGKRHtg
-title: Drill v Zoro 1
-```
-
 ### Hydrapple - Slightly Unfavorable
 
 - This is another matchup where Metagross is extremely important. Use it whenever possible.
@@ -175,22 +201,6 @@ title: Drill v Zoro 1
 ```youtube
 id: jvtO0P-BdgY
 title: Drill v Hydrap 1
-```
-
-### Slowking - Unfavorable
-
-- Don’t bother trying to tiptoe around Trifrost. Our best chance is to go fast and aggressive, and hope they don’t draw great. Play normally and try to prize race them by going 3-2-1.
-- Boss is very important as you’ll need to snipe down Kang and Latias to rush prize cards.
-
-### Slop Box - Even
-
-- Boss is very important to take an efficient prize map. Try to KO their Kang before they remove it from the board with Chien-Pao.
-- Metagross is great in this matchup. Genesect can also sometimes attack for similar reasons as against Raging Bolt.
-- Wellspring Ogerpon is a huge threat! If they attached an Energy to Wellspring, you may want to send up Genesect and not put a fifth Pokemon on your bench in order to play around Clefairy. If they Sob, you can Petrel for Switch and get out. If they don’t already have Energy on Wellspring, no need to worry about it.
-
-```youtube
-id: yXZhZKazbs8
-title: Drill v Slop 1
 ```
 
 ### Crustle - Very Favorable

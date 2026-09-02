@@ -54,13 +54,13 @@ Energy: 9
 - Second Budew is ok but wasn’t doing much for me in testing so I think it’s fine to not have it.
 - Dawn is a fine consistency card, but just like many of the other cards in this section, it wasn’t impressing me in testing so I ended up cutting it.
 - Risky Ruins is still a pretty good card, and it makes Dragapult overall stronger. However, the absence of Watchtower opens up some concerning vulnerabilities and makes the hand disruption less effective.
-- Crushing Hammer is a very good card and works well alongside the other disruption. However it is awkward to fit them in, and playing three instead of four isn’t very consistent. When I tested with them, they weren’t helping as much as I’d hoped, and the matchup against the Hammer build is still tough with or without them.
+- Crushing Hammer is a very good card and works well alongside the other disruption. However it is awkward to fit them in, and playing three instead of four isn’t very consistent. When I tested with them, they weren’t helping as much as I’d hoped, and the matchup against the Hammer build does not seem to change that much.
 
 ### Exclusions
 
 - Moltres wasn’t doing anything against Raging Bolt, and Dusknoir helps enough against Hydrapple.
 - Rare Candy isn’t necessary although it isn’t bad either.
-- Jamming Tower is just bad in the current meta, by far the worst of the main Stadium options.
+- Jamming Tower not that good in the current meta. I think it's the worst of the main Stadium options.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
@@ -83,9 +83,7 @@ For Dragapult in general:
 
 ## Matchups
 
-### Dragapult Mirror - Slightly Unfavorable
-
-Of course, the mirror against Dusknoir is about even, but against other builds such as Blaziken or straight Hammers, it’s unfavorable or slightly unfavorable.
+### Dragapult Mirror - Even
 
 - Try to establish Munkidori with Dark Energy. It is very strong in the mirror.
 - Prioritize getting a Duskull early, even over third or sometimes second Dreepy. Dusclops can be good for various reasons, such as clearing off two Drakloak with one Phantom Dive, or Dusknoir enabling a one-shot on their Dragapult. You want to get a Duskull down quickly so that it can evolve before they can spawn trap it with their Phantom Dive.
@@ -103,51 +101,17 @@ id: aUJFp8ykZHE
 title: Hammers v Noir 2
 ```
 
-### Raging Bolt - Slightly Unfavorable
+### Slop Box - Favorable
 
-- The best times to play Watchtower are at the very start of the game, when they have a low hand, or when you can pair it with hand disruption. In other words, don’t slam Watchtower when they have a big hand or you think they can easily bump it.
-- Dusknoir is very good in this matchup, primarily if they have Meowth in play. If you Cursed Blast a Meowth, you can win with just two Phantom Dive attacks. If you’re able to line this up, you can go behind quite a few prize cards in order to set up this play. You do have to be careful about Chien-Pao clearing off liabilities. Don’t leave damage in play if you can avoid it, and if you do, and spam hand disruption to minimize the risk of Chien-Pao. Random Budew damage can also be relevant, and lots of times you’ll need an additional attack anyway, so don’t tunnel too hard on one particular line.
-- Shaymin is very good to protect from Fez or Wellspring, but if you’re Item locking them and they don’t have a threat established, you don’t necessarily need it right away.
-
-```youtube
-id: xtyhdTqg5eI
-title: Pultnoir v Bolt 1
-```
-These games were before I added Shaymin.
+- Budew and Munkidori are usually not good in this matchup. Shaymin is sometimes good if they’re threatening Fez / Wellspring, but not always since you want a slim board later.
+- Fez and Meowth are massive liabilities. Do not put them down unless absolutely necessary.
+- Play to have a slim board at the end of the game. Save a Stadium and hand disruption card for when you have only one benched Pokemon and an attacking Dragapult. Bump their Stadium and disrupt their hand. This makes it hard for them to get the KO on a Dragapult.
+- If you play Crushing Hammer, it is generally best on their backup attacker to prevent them from building up too much Energy in play.
+- Dusknoir is generally good. It can bypass Pearl along with Phantom Dive snipe. Dusclops can be good if you end up having to smack a Kang for 200 and then finish it with Dusclops + Phantom Dive snipe.
 
 ```youtube
-id: NolNmY62jDY
-title: Pultnoir v Bolt 2
-```
-
-### Alakazam - Favorable
-
-- Save Stadiums to bump their Stadiums. If you can’t get immediate value by removing their Stadium, it can be viable to save a Stadium to combo it with hand disruption.
-- This is one matchup where you want to pop Dusclops immediately because it will be hard to get value from them once Psyduck hits the board.
-- Don’t delay Dusclops/Dusknoir pops because if they get Psyduck with Boss and Elgyem on the Clops/Noir, the game is over. Even just Psyduck Boss can be troublesome. Of course, if they don't play Psyduck, these points don't apply. Sometimes they play Psyduck and sometimes they don't.
-- Against the disruption build of Alakazam, getting ahead on Energy attachments is even more important, so retreating into Budew has less value. Prioritizing Itchy Pollen is good if you have Unfair Stamp in hand, as you can let it get KO’d and then body them with Stamp. Of course, Itchy Pollen is always a net positive if they can’t threaten an immediate KO on it, but usually they can easily KO it with Kadabra.
-- If they ever attack with Elgyem, KO it immediately.
-
-```youtube
-id: VL0a9wzxKwI
-title: Pultnoir v Zam 1
-```
-
-```youtube
-id: KKp9jEXXOdI
-title: Pultnoir v Zam 2
-```
-
-### Hydrapple - Favorable
-
-- Dusknoir is important in this matchup. Random spread damage can be good on two-prize Pokemon such as Ogerpon and Meowth. Dusknoir can be used to KO those Pokemon or to one-shot Hydrapple, depending on the situation.
-- Itchy Pollen in the early-game is extremely strong. The Item-lock and damage are both relevant.
-- If you’re in a bad spot, you can always go for KO on Meganium plus hand disruption. They might not be able to reestablish Meganium, which makes it hard for them to one-shot Dragapult. Prioritizing KO’ing Meganium isn’t the go-to plan because it only gives up one prize, and you’re in big trouble if they get it back immediately or have a second one. However, it works well as a backup plan if things aren’t going smoothly.
-- Stay aware of Hydrapple’s healing Ability. Because of this, sometimes it’s better to overdamage Pokemon with Phantom Dive’s snipe.
-
-```youtube
-id: SfQtd8mZFbE
-title: Pultnoir v Hydrap 1
+id: PADRK5BOGhQ
+title: Slop v Pultnoir 1
 ```
 
 ### Zoroark - Slightly Unfavorable
@@ -169,6 +133,24 @@ id: MDcEZJCONKQ
 title: Zoro v Pultnoir 2
 ```
 
+### Alakazam - Favorable
+
+- Save Stadiums to bump their Stadiums. If you can’t get immediate value by removing their Stadium, it can be viable to save a Stadium to combo it with hand disruption.
+- This is one matchup where you want to pop Dusclops immediately because it will be hard to get value from them once Psyduck hits the board.
+- Don’t delay Dusclops/Dusknoir pops because if they get Psyduck with Boss and Elgyem on the Clops/Noir, the game is over. Even just Psyduck Boss can be troublesome. Of course, if they don't play Psyduck, these points don't apply. Sometimes they play Psyduck and sometimes they don't.
+- Against the disruption build of Alakazam, getting ahead on Energy attachments is even more important, so retreating into Budew has less value. Prioritizing Itchy Pollen is good if you have Unfair Stamp in hand, as you can let it get KO’d and then body them with Stamp. Of course, Itchy Pollen is always a net positive if they can’t threaten an immediate KO on it, but usually they can easily KO it with Kadabra.
+- If they ever attack with Elgyem, KO it immediately.
+
+```youtube
+id: VL0a9wzxKwI
+title: Pultnoir v Zam 1
+```
+
+```youtube
+id: KKp9jEXXOdI
+title: Pultnoir v Zam 2
+```
+
 ### Slowking - Slightly Unfavorable
 
 - Dusknoir is usually very good if you can set it up, but it doesn’t get used in every game. It’s possible to win with Dusknoir and two Phantom Dives, depending on their board configuration. All random damage can potentially make a difference.
@@ -184,67 +166,6 @@ title: King v Pultnoir 1
 ```youtube
 id: DuCHkNj08Rw
 title: King v Pultnoir 2
-```
-
-### Slop Box - Favorable
-
-- Budew and Munkidori are usually not good in this matchup. Shaymin is sometimes good if they’re threatening Fez / Wellspring, but not always since you want a slim board later.
-- Fez and Meowth are massive liabilities. Do not put them down unless absolutely necessary.
-- Play to have a slim board at the end of the game. Save a Stadium and hand disruption card for when you have only one benched Pokemon and an attacking Dragapult. Bump their Stadium and disrupt their hand. This makes it hard for them to get the KO on a Dragapult.
-- If you play Crushing Hammer, it is generally best on their backup attacker to prevent them from building up too much Energy in play.
-- Dusknoir is generally good. It can bypass Pearl along with Phantom Dive snipe. Dusclops can be good if you end up having to smack a Kang for 200 and then finish it with Dusclops + Phantom Dive snipe.
-
-```youtube
-id: PADRK5BOGhQ
-title: Slop v Pultnoir 1
-```
-
-### Crustle - Slightly Favorable
-
-- Dusknoir pieces, Night Stretchers, and Energy are the most premium resources.
-- If you can KO Dwebble before they evolve, do that. Otherwise, use Drakloak or Munkidori to pressure Crustle before they have enough Energy in play. Mind Bend is very good if they don’t have Mist Energy yet.
-- Slam Watchtower instantly every time.
-- Eventually will want to KO Psyduck and Kang, but not necessarily a priority. Just make sure Dusclops/Dusknoir doesn’t get stuck.
-- Sometimes you’ll use Dusknoir to attack and sometimes you won’t. If you have two Dusclops, evolve the one without Energy to blow up and then use Stretcher to make an attacking Dusknoir with the second one. In some scenarios, you’ll want to blow up both Dusknoir and attack with Drakloak/Munkidori.
-- Using Dragapult to apply fast pressure is allowed, but whether or not you want to depends on the situation (sometimes using Drakloak/Munki to swing into their Crustle with Energy is better). Going fast is actually more important than it might seem.
-
-```youtube
-id: B9PD3eYk2jo
-title: Pultnoir v Crustle 1
-```
-
-```youtube
-id: fCWrj9O2oiw
-title: Pultnoir v Crustle 2
-```
-
-### Mewtwo - Even
-
-- Your win condition is to make them whiff something at some point.. Item-lock is the highest priority. Feeding Budew to Tarountula feels bad, but you need to keep them Item-locked until you start attacking.
-- Slamming Unfair Stamp whenever you can is generally good. Sometimes you might save it for when you start attacking.
-- Dusknoir is very good because it opens various plays. Sniping Clefairy is probably best, but you can also one-shot Mewtwo or remove Articuno to open up snipe KO’s on the likes of Mimikyu.
-- It is usually best to target their Psychic attacker that has Energy, especially since you have to two-shot Mewtwo regardless. If you go after Clefairy and leave a loaded attacker, it’s not hard for them to simply Stretcher the Clefairy back.
-- If their only loaded attacker is Mimikyu, a good way to play around it is to not have Dragapult on the board and just attack with something else.
-- Watchtower is best used reactively to bump their Stadium. This improves the chance of them bricking/whiffing. If you play Watchtower preemptively, it does nothing and they can easily bump it.
-
-### Hide n Sneak - Favorable
-
-This build is favored against Sneak because of heavy hand disruption and Watchtower. Most lists will be closer to even.
-
-- Early Itchy Pollen is good, but it’s usually best on Turn 2 instead. If you hard retreat into it on Turn 1, it will easily get KO’d by Dhelmise or Banette, and then you’re still not ready to attack. This gives up an extra prize and Energy. If you can Itchy Pollen on Turn 2 (particularly after they use Banette) and follow it up with Stamp Phantom Dive it can be game-winning.
-- Munkidori can be a good sponge for Banette in the early-game. Otherwise Munkidori is not very useful. Occasionally you can use Mind Bend to stall a Dhelmise for time if necessary. Drakloak also works as an early-game Banette sponge if you can KO Clefairy as a response.
-- Hand disruption and Watchtower are the cards that win this matchup. Try to combo them together.
-- KO Clefairy on sight. Some rare exceptions exist.
-- Dusknoir is typically best used on Clefairy, allowing you to Phantom Dive to KO their attacker and their Clefairy, which is very strong. Some exceptions exist, such as if you can wipe both Dhelmise and leave them without a pivot.
-
-```youtube
-id: OCWjClJUqlc
-title: Sneak v Pultnoir 1
-```
-
-```youtube
-id: N8Xy_vhzbnI
-title: Sneak v Pultnoir 2
 ```
 
 ### Excadrill - Unfavorable
@@ -267,6 +188,80 @@ id: sRuPcTQZjVc
 title: Drill v Pultnoir 2
 ```
 
+### Raging Bolt - Slightly Unfavorable
+
+- The best times to play Watchtower are at the very start of the game, when they have a low hand, or when you can pair it with hand disruption. In other words, don’t slam Watchtower when they have a big hand or you think they can easily bump it.
+- Dusknoir is very good in this matchup, primarily if they have Meowth in play. If you Cursed Blast a Meowth, you can win with just two Phantom Dive attacks. If you’re able to line this up, you can go behind quite a few prize cards in order to set up this play. You do have to be careful about Chien-Pao clearing off liabilities. Don’t leave damage in play if you can avoid it, and if you do, and spam hand disruption to minimize the risk of Chien-Pao. Random Budew damage can also be relevant, and lots of times you’ll need an additional attack anyway, so don’t tunnel too hard on one particular line.
+- Shaymin is very good to protect from Fez or Wellspring, but if you’re Item locking them and they don’t have a threat established, you don’t necessarily need it right away.
+
+```youtube
+id: xtyhdTqg5eI
+title: Pultnoir v Bolt 1
+```
+These games were before I added Shaymin.
+
+```youtube
+id: NolNmY62jDY
+title: Pultnoir v Bolt 2
+```
+
+### Festival Lead - Favorable
+
+- Set up Dusknoir as soon as possible and use it to blow up Rabsca. Dusclops on Rellor also works. If you can’t, at least KO Rabsca normally. Then you can use Dusclops/Noir to wipe out all of the Dipplin/Applin, which is game over.
+- Getting Munkidori in play to use as a sponge is very good. It can be used as a sacrifice or as a promote after they use their first attack to get a KO. Later in the game, it will also be relevant for Adrenabrain.
+- Hand disruption is very broken. Use it when you get to start attacking with Dragapult, or with Boss to slow them down. If you Boss up Thwackey and reset their hand, they are unlikely to get out of it and you can buy time that way.
+
+### Crustle - Slightly Favorable
+
+- Dusknoir pieces, Night Stretchers, and Energy are the most premium resources.
+- If you can KO Dwebble before they evolve, do that. Otherwise, use Drakloak or Munkidori to pressure Crustle before they have enough Energy in play. Mind Bend is very good if they don’t have Mist Energy yet.
+- Slam Watchtower instantly every time.
+- Eventually will want to KO Psyduck and Kang, but not necessarily a priority. Just make sure Dusclops/Dusknoir doesn’t get stuck.
+- Sometimes you’ll use Dusknoir to attack and sometimes you won’t. If you have two Dusclops, evolve the one without Energy to blow up and then use Stretcher to make an attacking Dusknoir with the second one. In some scenarios, you’ll want to blow up both Dusknoir and attack with Drakloak/Munkidori.
+- Using Dragapult to apply fast pressure is allowed, but whether or not you want to depends on the situation (sometimes using Drakloak/Munki to swing into their Crustle with Energy is better). Going fast is actually more important than it might seem.
+
+```youtube
+id: B9PD3eYk2jo
+title: Pultnoir v Crustle 1
+```
+
+```youtube
+id: fCWrj9O2oiw
+title: Pultnoir v Crustle 2
+```
+
+### Hydrapple - Favorable
+
+- Dusknoir is important in this matchup. Random spread damage can be good on two-prize Pokemon such as Ogerpon and Meowth. Dusknoir can be used to KO those Pokemon or to one-shot Hydrapple, depending on the situation.
+- Itchy Pollen in the early-game is extremely strong. The Item-lock and damage are both relevant.
+- If you’re in a bad spot, you can always go for KO on Meganium plus hand disruption. They might not be able to reestablish Meganium, which makes it hard for them to one-shot Dragapult. Prioritizing KO’ing Meganium isn’t the go-to plan because it only gives up one prize, and you’re in big trouble if they get it back immediately or have a second one. However, it works well as a backup plan if things aren’t going smoothly.
+- Stay aware of Hydrapple’s healing Ability. Because of this, sometimes it’s better to overdamage Pokemon with Phantom Dive’s snipe.
+
+```youtube
+id: SfQtd8mZFbE
+title: Pultnoir v Hydrap 1
+```
+
+### Hide n Sneak - Favorable
+
+This build is favored against Sneak because of heavy hand disruption and Watchtower. Most lists will be closer to even.
+
+- Early Itchy Pollen is good, but it’s usually best on Turn 2 instead. If you hard retreat into it on Turn 1, it will easily get KO’d by Dhelmise or Banette, and then you’re still not ready to attack. This gives up an extra prize and Energy. If you can Itchy Pollen on Turn 2 (particularly after they use Banette) and follow it up with Stamp Phantom Dive it can be game-winning.
+- Munkidori can be a good sponge for Banette in the early-game. Otherwise Munkidori is not very useful. Occasionally you can use Mind Bend to stall a Dhelmise for time if necessary. Drakloak also works as an early-game Banette sponge if you can KO Clefairy as a response.
+- Hand disruption and Watchtower are the cards that win this matchup. Try to combo them together.
+- KO Clefairy on sight. Some rare exceptions exist.
+- Dusknoir is typically best used on Clefairy, allowing you to Phantom Dive to KO their attacker and their Clefairy, which is very strong. Some exceptions exist, such as if you can wipe both Dhelmise and leave them without a pivot.
+
+```youtube
+id: OCWjClJUqlc
+title: Sneak v Pultnoir 1
+```
+
+```youtube
+id: N8Xy_vhzbnI
+title: Sneak v Pultnoir 2
+```
+
 ### Lucario - Even
 
 - 20 snipes on Riolu, Lucario, and Makuhita is generally good.
@@ -285,11 +280,14 @@ id: tX125zkIRpw
 title: Pultnoir v Lucario 2
 ```
 
-### Festival Lead - Favorable
+### Mewtwo - Even
 
-- Set up Dusknoir as soon as possible and use it to blow up Rabsca. Dusclops on Rellor also works. If you can’t, at least KO Rabsca normally. Then you can use Dusclops/Noir to wipe out all of the Dipplin/Applin, which is game over.
-- Getting Munkidori in play to use as a sponge is very good. It can be used as a sacrifice or as a promote after they use their first attack to get a KO. Later in the game, it will also be relevant for Adrenabrain.
-- Hand disruption is very broken. Use it when you get to start attacking with Dragapult, or with Boss to slow them down. If you Boss up Thwackey and reset their hand, they are unlikely to get out of it and you can buy time that way.
+- Your win condition is to make them whiff something at some point.. Item-lock is the highest priority. Feeding Budew to Tarountula feels bad, but you need to keep them Item-locked until you start attacking.
+- Slamming Unfair Stamp whenever you can is generally good. Sometimes you might save it for when you start attacking.
+- Dusknoir is very good because it opens various plays. Sniping Clefairy is probably best, but you can also one-shot Mewtwo or remove Articuno to open up snipe KO’s on the likes of Mimikyu.
+- It is usually best to target their Psychic attacker that has Energy, especially since you have to two-shot Mewtwo regardless. If you go after Clefairy and leave a loaded attacker, it’s not hard for them to simply Stretcher the Clefairy back.
+- If their only loaded attacker is Mimikyu, a good way to play around it is to not have Dragapult on the board and just attack with something else.
+- Watchtower is best used reactively to bump their Stadium. This improves the chance of them bricking/whiffing. If you play Watchtower preemptively, it does nothing and they can easily bump it.
 
 ### Lopunny - Favorable
 
@@ -309,4 +307,4 @@ title: Pultnoir v Lucario 2
 
 ## Personal Thoughts
 
-In the current meta, I think Dusknoir is the worst of the main Dragapult variants. However, it is still a Dragapult deck, which is very good. The only thing Dusknoir really does that is lacking in the straight disruption build is covering for the Crustle matchup, which isn’t that big of a deal. Being worse against mirrors is also concerning.
+In the current meta, I think Dusknoir is the worst of the main Dragapult variants. However, it is still a Dragapult deck, which is very good. The only thing Dusknoir really does that is lacking in the straight disruption build is covering for the Crustle matchup, which isn’t that big of a deal.

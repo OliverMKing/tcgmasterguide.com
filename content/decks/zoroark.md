@@ -65,6 +65,7 @@ Energy: 7
 
 ### Exclusions
 
+- I don't think playing lots of Judge and Watchtower is a good way to use this deck. At that point, you're just prize trading every time and hoping the opponent whiffs something.
 - Drapion is not very good and impossible to set up. It also never gets used against Dragapult. If you’re worried about Hydrapple, it might be good against that.
 - Similarly, Dusknoir is also not that good and never used against Dragapult.
 - Same with Mega Absol. Although it would be nice to have some insane Transformation Tome possibilities, I just don’t see the point of any of these cards.
