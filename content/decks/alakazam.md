@@ -50,8 +50,7 @@ Energy: 7
 - I don't think Toucannon is needed, but it can solve some problems in specific metas. For example, it makes it a lot more possible to beat decks such as Hide n Sneak or Rocket's Articuno. For the time being, I don't think those decks are that big of a deal.
 - Shaymin would be ok but it's a bit redudant with heavy Rabsca.
 - Special Red Card would probably be good.
-- Morty’s Conviction is very nice as a draw card that can add a lot of cards to hand. Sometimes Hilda or Dawn nets more cards by extending into Alakazam/Dudunsparce, but in other situations, Morty is a more powerful draw Supporter. The reason I prefer Morty to other options is because it’s the only way for this deck to discard Psychic Energy, which is very relevant when you want to use the Wondrous Patch/Enriching Energy combo. I ended up cutting the Mortys for space for Rabsca but it's still not bad.
-- Perhaps some sort of switching option could be ok. This is mostly relevant against Dragapult with Yveltal, which is not as common as it used to be. Other random retreat locks aren't as problematic.
+- Lillie's Clefairy enables some interesting setups and also provides a way to circumvent hard counters. It could be worth looking into.
 
 ### Exclusions
 
@@ -63,7 +62,7 @@ Energy: 7
 
 ## Decklist 2
 
-![decklist2 for Alakazam](./images/alakazam/mines.png)
+![decklist2 for Alakazam](./images/alakazam/cages.png)
 ```decklist
 Pokémon: 20
 4 Abra MEG 54
@@ -71,8 +70,8 @@ Pokémon: 20
 3 Alakazam MEG 56
 3 Dunsparce JTG 120
 3 Dudunsparce TEF 129
-1 Genesect SFA 40
 1 Fezandipiti ex ASC 142
+1 Genesect SFA 40
 1 Shaymin DRI 10
 
 Trainer: 34
@@ -85,8 +84,9 @@ Trainer: 34
 3 Enhanced Hammer TWM 148
 2 Night Stretcher ASC 196
 1 Sacred Ash DRI 168
-3 Lucky Helmet TWM 158
-4 Nighttime Mine ASC 197
+2 Air Balloon ASC 181
+1 Lucky Helmet TWM 158
+4 Battle Cage PFL 85
 
 Energy: 6
 4 Telepathic Psychic Energy POR 88
@@ -98,16 +98,16 @@ This is the more standard build with Genesect and Stadiums instead of Rabsca and
 
 ### Inclusions
 
-- Genesect helps against Dragapult primarily and gives us an excuse to play Lucky Helmet, which is very helpful against hand disruption. Lucky Helmet is the best Tool for this reason, so I think it's best to play three of those instead of any other Tools. Genesect is also good against Festival to stop Secret Box, making it a little more difficult for them to play Gladion's Final Battle.
+- Genesect helps against Dragapult primarily and gives us an excuse to play Lucky Helmet, which is very helpful against hand disruption. Genesect is also good against Festival to stop Secret Box, making it a little more difficult for them to play Gladion's Final Battle.
+- Air Balloon is fairly good as a Tool option for Genesect because of Dragapult's Crushing Hammer. If we did not play Balloon, they could Hammer and then set up damage on Fez or Genesect. 
 - Shaymin is for Wellspring and Slowking.
 - Four Rare Candy for same reasons as above, same with three Hammer.
-- Nighttime Mine is very nice against Dragapult and gives us an easy answer to Team Rocket's Watchtower.
+- I actually think Battle Cage is better than other Stadiums because it stops Dusknoir and Munkidori in addition to Dragapult's snipe damage.
 
 ### Possible Inclusions
 
-- Handheld Fan could make a comeback if Festival Lead becomes more popular.
+- Eri is also good. I don't think it's super necessary since Dragapult players should be playing around it to the best of their ability.
 - Fourth Hilda and/or fourth Alakazam would be nice.
-- Battle Cage over Nighttime Mine would probably be fine.
 - Special Red Card would probably be good.
 - Playing the Wondrous Patch package over the Genesect package could be possible.
 - Psyduck helps a little against Dragapult / Dusknoir but the matchup is still tough even with it, so I don't think it's worth it. Having random bad Pokemon to start with can be a big liability too.
@@ -118,6 +118,8 @@ This is the more standard build with Genesect and Stadiums instead of Rabsca and
 - Dedenne is a bad Pokemon to start with and doesn't get used much. I think three Hammer is enough to naturally win the game quick enough against decks like Crustle and Lopunny. I'd rather have the third Hammer over the Dedenne. Makes them easier to find too which is relevant.
 - Elgyem did not prove to be very relevant against Dragapult so I cut it.
 - I think Night Stretcher is better than Lana's Aid.
+- Handheld Fan is bad because you still lose to Festival Lead anyway.
+- At this point I just think that Nighttime Mine is worse than Battle Cage.
 
 <!-- /PUBLIC -->
 ## Gameplay Tips
@@ -195,19 +197,31 @@ id: 3oqKTcPvTRs
 title: Blaziken v Zam 2
 ```
 
-### Raging Bolt - Very Favorable
+### Slop Box - Very Favorable
 
-- Shaymin / Rabsca is very good to protect against Waterpon.
-- Watch out for Stamp. Don't risk losing to it with no protection. Since the prize trade is so favorable, it's ok to wait and stabilize your board before going in.
+- Prioritize stabilizing by getting as many Abra and Kadabra as possible. Shaymin / Rabsca can be very good for protecting against Wellspring.
+- If they get a significant fast lead, you may need to avoid benching Fezandipiti in order to win the prize trade.
+- Play normally for the most part. It’s impossible to lose if you get set up.
 
 ```youtube
-id: jghIvgnkBmg
-title: Zam v Bolt 1
+id: UMXM2VXsxeo
+title: Slop v Zam 1
 ```
 
 ```youtube
-id: nqv7CF4-1NI
-title: Zam v Bolt 2
+id: OABzOSwJJ3c
+title: Slop v Zam 2
+```
+
+### Zoroark - Favorable
+
+- If they have Darmanitan/Darumaka, Shaymin / Rabsca is a huge priority.
+- A lot of them play Secret Box now, but you still want to play around Stamp as normal because some of them still play it. Also be aware of possible Xerosic's and try to play around it.
+- Don’t worry about the Yveltal trap. It will often happen, but it is not a real threat. If they trap Fez, power it up asap to make it a threat. If they trap Shaymin, just let it go down in four hits and don’t bother powering it up. If they have the board of Pech, Munki, Darm, Yveltal, and Zoroark, they can get a triple-KO play by trapping Shaymin, KO’ing it with Adrenabrain, and then using Darm. You’ll probably still win even if they do this, and it’s unlikely to happen in the first place since they need board spots for draw power. If that actually does happen, make sure to have a third Alakazam line in play so they cannot wipe all attackers.
+
+```youtube
+id: AAIh8BWElzA
+title: Zam v Zoroark 1
 ```
 
 ### Alakazam Mirror - Even
@@ -240,31 +254,45 @@ id: OkwXG4DViHE
 title: King v Zam 3
 ```
 
-### Slop Box - Very Favorable
+### Excadrill - Very Favorable
 
-- Prioritize stabilizing by getting as many Abra and Kadabra as possible. Shaymin / Rabsca can be very good for protecting against Wellspring.
-- If they get a significant fast lead, you may need to avoid benching Fezandipiti in order to win the prize trade.
-- Play normally for the most part. It’s impossible to lose if you get set up.
+- Draw cards as much as possible so you can quickly one-shot Excadrill. The one exception is sometimes Fez. Sometimes it’s fine to put down, but if they got a fast start and you’re behind several prizes, it might be too much of a risk. Of course, if Fez is the difference between KO’ing an Excadrill and not, then it’s usually worth it.
+- Boss is an important resource for when they start attacking with single-prize Pokemon.
+- Shaymin is sometimes good to stop their Fez. Don’t let them cheese you with Boss Fez strats.
+- Try to not two-shot their non-Caped Excadrill if you have any better option (such as Boss or extending for a one-shot). If they have Cape, you'll probably need to two-shot it, which is fine. Dealing lots of damage on the first hit can be relevent if they play Jumbo Ice Cream.
+
+### Raging Bolt - Very Favorable
+
+- Shaymin / Rabsca is very good to protect against Waterpon.
+- Watch out for Stamp. Don't risk losing to it with no protection. Since the prize trade is so favorable, it's ok to wait and stabilize your board before going in.
 
 ```youtube
-id: UMXM2VXsxeo
-title: Slop v Zam 1
+id: jghIvgnkBmg
+title: Zam v Bolt 1
 ```
 
 ```youtube
-id: OABzOSwJJ3c
-title: Slop v Zam 2
+id: nqv7CF4-1NI
+title: Zam v Bolt 2
 ```
 
-### Zoroark - Favorable
+### Festival Lead - Unfavorable
 
-- If they have Darmanitan/Darumaka, Shaymin / Rabsca is a huge priority.
-- A lot of them play Secret Box now, but you still want to play around Stamp as normal because some of them still play it. Also be aware of possible Xerosic's and try to play around it.
-- Don’t worry about the Yveltal trap. It will often happen, but it is not a real threat. If they trap Fez, power it up asap to make it a threat. If they trap Shaymin, just let it go down in four hits and don’t bother powering it up. If they have the board of Pech, Munki, Darm, Yveltal, and Zoroark, they can get a triple-KO play by trapping Shaymin, KO’ing it with Adrenabrain, and then using Darm. You’ll probably still win even if they do this, and it’s unlikely to happen in the first place since they need board spots for draw power. If that actually does happen, make sure to have a third Alakazam line in play so they cannot wipe all attackers.
+- Rare Candy is a very important resource. Try to get as many Abra and Kadabra in play as soon as possible so that you won’t stress the Candies as much.
+- Try to get a Dudunsparce in play to use as a sponge as soon as possible to deny them the two-prize KO on Turn 2. Unfortunately, there's not much you can do about Gladion's Final Battle taking a double KO later in the game, so the best chance is to rush them down and hope they draw bad.
+- KO Dipplin every turn. This stresses their resources the most. One time I got baited by KO’ing their only Thwackey and it was actually the difference between winning and losing.
+- If you play lots of Stadiums, try to bump their Stadium every turn. You can create a board in the end-game full of Pokemon with more than 100 HP to potentially win if they run out of Stadiums. This is less common now with Gladion but still possible.
+- If you play Fan, using it on Alakazam when they are likely to get a Gladion play is usually best. 
 
 ```youtube
-id: AAIh8BWElzA
-title: Zam v Zoroark 1
+id: g5-pKFaJc_Y
+title: Festival v Zam 1
+```
+These games are pre-Gladion. Some of the same principles still apply, but the matchup is now a bit more lopsided in Festival's favor.
+
+```youtube
+id: X3YpsKBoBBI
+title: Festival v Zam 2
 ```
 
 ### Crustle - Favorable
@@ -284,13 +312,11 @@ id: 0Cw8pFTfpZE
 title: Crustle v Zam 2
 ```
 
-### Mewtwo - Auto Loss
+### Hydrapple - Favorable
 
-This matchup is still unfavorable even if you play Toucannon, but it's a little less terrible.
-
-- This is obviously a horrible matchup because of Articuno, but if there is a way to win it’s by powering up Fez as fast as possible and taking out their Articuno. Use Boss’s Orders and Enhanced Hammer to slow them down. They do sometimes draw garbage, so it is possible to get lucky.
-- If they for some reason do not have Articuno in play, wreak as much havoc as possible with Alakazam during that window whenever possible. Also use Alakazam to KO Spidops.
-- If you play Toucannon, try to set it up quickly (so they can't KO it first) and use it along with Boss to KO Articuno. Whenever they don't have Articuno in play, use Alakazam as normal.
+- Play around Unfair Stamp as normal. Some of them have Special Red Card and some don't.
+- Watch out for Briar.
+- For the most part, play normally and you'll win more often than not.
 
 ### Hide n Sneak - Unfavorable
 
@@ -313,13 +339,6 @@ id: g6O65XUmUxM
 title: Sneak v Zam 2
 ```
 
-### Excadrill - Very Favorable
-
-- Draw cards as much as possible so you can quickly one-shot Excadrill. The one exception is sometimes Fez. Sometimes it’s fine to put down, but if they got a fast start and you’re behind several prizes, it might be too much of a risk. Of course, if Fez is the difference between KO’ing an Excadrill and not, then it’s usually worth it.
-- Boss is an important resource for when they start attacking with single-prize Pokemon.
-- Shaymin is sometimes good to stop their Fez. Don’t let them cheese you with Boss Fez strats.
-- Try to not two-shot their non-Caped Excadrill if you have any better option (such as Boss or extending for a one-shot). If they have Cape, you'll probably need to two-shot it, which is fine. Dealing lots of damage on the first hit can be relevent if they play Jumbo Ice Cream.
-
 ### Lucario - Very Favorable
 
 - Your lose conditions involve Rocky Fighting Energy and Judge. Play around Judge the same way you would play around Stamp.
@@ -332,24 +351,13 @@ id: tQgDTTJcgC0
 title: Zam v Lucario 1
 ```
 
-### Festival Lead - Unfavorable
+### Mewtwo - Auto Loss
 
-- Rare Candy is a very important resource. Try to get as many Abra and Kadabra in play as soon as possible so that you won’t stress the Candies as much.
-- Try to get a Dudunsparce in play to use as a sponge as soon as possible to deny them the two-prize KO on Turn 2. Unfortunately, there's not much you can do about Gladion's Final Battle taking a double KO later in the game, so the best chance is to rush them down and hope they draw bad.
-- KO Dipplin every turn. This stresses their resources the most. One time I got baited by KO’ing their only Thwackey and it was actually the difference between winning and losing.
-- If you play lots of Stadiums, try to bump their Stadium every turn. You can create a board in the end-game full of Pokemon with more than 100 HP to potentially win if they run out of Stadiums. This is less common now with Gladion but still possible.
-- If you play Fan, using it on Alakazam when they are likely to get a Gladion play is usually best. 
+This matchup is still unfavorable even if you play Toucannon, but it's a little less terrible.
 
-```youtube
-id: g5-pKFaJc_Y
-title: Festival v Zam 1
-```
-These games are pre-Gladion. Some of the same principles still apply, but the matchup is now a bit more lopsided in Festival's favor.
-
-```youtube
-id: X3YpsKBoBBI
-title: Festival v Zam 2
-```
+- This is obviously a horrible matchup because of Articuno, but if there is a way to win it’s by powering up Fez as fast as possible and taking out their Articuno. Use Boss’s Orders and Enhanced Hammer to slow them down. They do sometimes draw garbage, so it is possible to get lucky.
+- If they for some reason do not have Articuno in play, wreak as much havoc as possible with Alakazam during that window whenever possible. Also use Alakazam to KO Spidops.
+- If you play Toucannon, try to set it up quickly (so they can't KO it first) and use it along with Boss to KO Articuno. Whenever they don't have Articuno in play, use Alakazam as normal.
 
 ### Lopunny - Slightly Favorable
 
@@ -406,4 +414,4 @@ title: Zam v Meganium 2
 
 ## Personal Thoughts
 
-This deck is still alright but it has gotten downgraded recently. The Dragapult matchup is always going to be tough, some builds more than others. Now that Festival Lead has Gladion, it is a big obstacle. Hide n Sneak is also a threat, and Rocket's is still an auto-loss. However, it's possible that those decks won't become too popular, so Alakazam still has potential. Alakazam has lots of good matchups, so it has that going for it. I don't think it's a good play for Worlds, and the deck is just okay overall.
+This deck is fundamentally very powerful, but the Dragapult matchup is always going to be tough. There are also quite a few random other bad matchups. However, it's possible that those decks won't become too popular, so Alakazam still has potential. Alakazam has lots of good matchups, so it has that going for it. Overall, I think it is just ok.
