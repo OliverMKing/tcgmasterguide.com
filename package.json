@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "prisma generate && node scripts/generate-dates.js && node scripts/generate-history.js",
-    "build": "next build --webpack",
+    "build": "next build --webpack && cp -r .next/static .next/standalone/.next/ && cp -r public .next/standalone/",
     "postinstall": "prisma generate",
     "start": "next start",
     "lint": "echo 'Linting skipped - ESLint v9 compatibility pending'",
