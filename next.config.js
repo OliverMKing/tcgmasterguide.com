@@ -6,6 +6,9 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts')
 const nextConfig = {
   output: 'standalone',
   outputFileTracingRoot: __dirname,
+  outputFileTracingIncludes: {
+    '/**': ['./src/generated/prisma/**/*'],
+  },
   reactStrictMode: true,
   images: {
     remotePatterns: [
