@@ -52,12 +52,12 @@ Energy: 9
 - Chi-Yu sería una buena opción para destruir a Crustle. Paldean Tarous también lo hace, pero creo que Chi-Yu es mejor para esta versión.
 - Judge podría jugarse en lugar de una Special Red Card. Creo que la Special Red Card es mejor en general, pero la diferencia es mínima. Xerosic's Machinations son una opción similar por las mismas razones.
 - Dark Bell no fue nada especial cuando la agregue. La confusión es buena pero la carta es mucho más situacional de lo que pense y no estoy seguro si debe ir en el deck.
+- Risky Ruins y Dudnsparce acaban de ganar el Mundial 2026 y Dudunsparce hace esa versión un poco más consistente.
 
 ### Exclusiones
 - Shaymin sería una opción a considerar si el matchup contra Slowking no fuera ya favorable. 
 - Un segundo Munkidori probablemente esté bien, pero nunca lo necesito realmente.
 - Yveltal es demasiado difícil de usar, especialmente con solo dos Energías Dark y un Munkidori.
-- Risky Ruins y Dudunsparce constituyen prácticamente una versión aparte, y el deck tendría que ajustarse bastante para incluirlas. Creo que la versión de Rocket's Watchtower tiene una distribución de matchups mucho mejor, aunque sea ligeramente menos consistente en general.
 - Dawn o Brock's Scouting ayudarían un poco con la consistencia, pero las cartas simplemente no son tan buenas.
 
 <!-- /PUBLIC -->
@@ -80,8 +80,6 @@ Energy: 9
 ## Matchups
 
 ### Mirror de Dragapult - Parejo
-
-Ligeramente favorable contra Dusknoir, prácticamente igualado contra el resto.
 
 - Munkidori es muy fuerte. Intenta no quedarte sin espacio en banca para poder usarlo cuando lo encuentres. Por otro lado, si tienen un Munkidori con Dark, considera noquearlo para limitar sus opciones. Con Night Stretchers limitados, es posible que no puedan recuperarlo.
 - Queremos ser los primeros en atacar con Phantom Dive. Elige ir primero, ya que hay muchas maneras de encontrar a Dreepy. Ir primero también te da la opción de dejarlos fuera del juego por completo con Fezandipiti, dependiendo de tu mano.
@@ -340,6 +338,7 @@ title: Drill v Pult 3
 - Guarda la Rocket's Watchtower para combinarla con la interrupción de mano (de todas formas tienen que jugar Festival Lead para atacar).
 - La interrupción de mano junto con Boss's Orders a Thwackey puede darte tiempo fácilmente si lo necesitas. Usa Unfair Stamp en cuanto la tengas.
 - Si no tienen una mano grande y solo dos Thwackey, puede ser mejor atacar a un Thwackey. Dependiendo del tablero, puede ser más probable que fallen un KO, pero a veces lo mejor es noquear a su atacante. Si solo tienen un Thwackey, generalmente lo mejor es noquearlo.
+- Si estás jugando Risky Ruins es posible hacer unos set ups muy buenos. Boss a Thawckey más disrupción lleva a mejores resultados junto con el estadio.
 
 ### Mega Lopunny - Favorable
 

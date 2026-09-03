@@ -5,9 +5,10 @@ tier: 1
 format: Standard
 ---
 ## Decklist
-![Blaziken list](./images/dragapult-blaziken/redcard.png)
 
+![Blaziken list](./images/dragapult-blaziken/redcard.png)
 ```decklist
+Pokémon: 21
 Pokémon: 21
 4 Dreepy TWM 128
 4 Drakloak TWM 129
@@ -43,7 +44,7 @@ Energy: 8
 <!-- PUBLIC -->
 ### Inclusiones
 
-- Clefairy es una muy buena opción contra Dragapult y Lucario.
+- Clefairy es una muy buena opción contra otros Dragapult ya que te da posibilidades de revertir un mal inicio. Sin embargo también podría quitarse facilmente.
 - Dawn es mejor de lo que esperaba. Me gustaría volver a incluir la segunda copia, pero no sé dónde está el espacio, ya que también quiero un segundo Crispin.
 - Rare Candy es una carta que puede ser inútil o extremadamente impactante. Hay partidas en las que no la necesitas, pero es muy poderosa e importante tenerla en turnos específicos en diversas situaciones. La probé con dos y tres copias y me pareció lo suficientemente fuerte como para justificar la tercera.
 - Crispin es extremadamente fuerte. Lo usé muchísimo, a pesar de que el deck también incluye a Blaziken. Un aspecto muy subestimado es la facilidad para encontrar la Energía, algo que a veces puede ser inconsistente.
@@ -197,6 +198,12 @@ id: SfY_1pp-vgs
 title: Sneak v PultBlaze 2
 ```
 
+### Hydrapple - Favorable
+
+- Prioriza atacar con múltiples Blaziken.
+- Si te ves en desventaja en el intercambio de premios, es posible que debas recurrir a estrategias de disrupción y a dejar fuera de combate a su Meganium.
+- Ten cuidado con Briar. Esto no significa necesariamente que debas mantenerte siempre con un número impar de cartas de premio, ya que el rival también necesita a Meganium y la propia carta de Briar (además de un Ogerpon potente). Alterar su mano o su mesa son otras formas de contrarrestar la amenaza de Briar.
+
 ### Mega Excadrill - Muy Favorable
 
 - Creo que ir primero es mejor, pero sinceramente no estoy seguro.
@@ -208,6 +215,12 @@ title: Sneak v PultBlaze 2
 id: 8pYQpK3xHAQ
 Título: Drill v PultBlaze 1
 ```
+
+### Slowking - Ligeramente Desfavorable
+
+- Caramelo Raro puede ayudar a acelerar la evolución a Dragapult o a recuperarte tras un ataque Trifrost. Lo ideal es conseguir un Phantom Dive o sacar a Blaziken en el segundo turno, aunque, por supuesto, no siempre ocurrirá así.
+- Fezandipiti puede ser un atacante o un muro útil, especialmente al principio de la partida. Si obligas al rival a usar Trifrost contra Fezandipiti (al tener solo tres Pokémon en juego), Munkidori podrá aprovecharlo más adelante para acumular daño.
+- Blaziken puede ser un gran atacante en las fases avanzadas de la partida, ya que al rival le resulta difícil noquearlo de un solo golpe (no es débil frente a Clefairy). Para lograrlo, necesitarían a Annihilape o un Brave Bangle, cartas que no se incluyen en muchas listas.
 
 ### Mega Lucario - Favorable
 
@@ -290,20 +303,22 @@ id: 1pSNLuWc6y8
 Título: Blaziken v Meg 2
 ```
 
-### Ogerpon - Ligeramente desfavorable
+### Ogerpon - Ligeramente Desfavorable
 
-- Itchy Pollen es muy fuerte al principio de la partida para alentarlos. Doble Torchic también es buena opción, ya que querrás atacar rápidamente con Blaziken.
-- Blaziken suele ser mejor para atacar que Dragapult, ya que Clefairy no lo derrota de un solo golpe. Si usan Sob contra Blaziken (o cualquier otro Pokémon), usa Adrena Brain para contrarrestar el daño.
-- Unfair Stamp es ideal cuando además derrotas a su Fezandipiti (o si no lo tienen en juego).
-- RRisky Ruins es ideal para quitar su Área Zero y deshacerte de cualquier Pokémon que te otorgue dos premios. Claro que, si necesitas daño en su banca para Dragapult, quizás sea mejor no usarla.
+- Intenta conseguir un Blaziken rápido. Si amenazan con atacar con Fezandipiti (o Wellspring), busca ambos Torchic de inmediato. Blaziken puede lograr la mayoría de los K.O. de dos premios (a veces con la ayuda de Adrena Brain) y no le preocupa Clefairy.
+- Atacar con Dragapult sigue siendo una opción válida, y lo harás con bastante frecuencia de todos modos. Funciona mejor junto con Unfair Stamp, ya que es menos probable que el rival tenga una respuesta adecuada.
+- Los Pokémon que otorgan dos premios, como Fez y Meowth, suponen un riesgo mayor de lo habitual, ya que el oponente puede tomar ventaja en el intercambio de premios y luego rematar la partida noqueando a Clefairy tras haber cobrado esos premios fáciles. Intenta mantenerlos fuera de juego si puedes. Claro que si los necesitas para desarrollar tu estrategia, úsalos. No implican una derrota automática, simplemente evita usarlos con tanta libertad como de costumbre.
+- Budew se utiliza principalmente para impedir que el rival prepare un atacante. Si ya tienen un atacante en juego, el bloqueo de objetos deja de ser una prioridad.
+- Reserva Risky Ruins para una jugada potente con Munkidori. Esta combinación es muy relevante; puede usarse para noquear de un solo golpe a Pokémon como Fez, o para rematarlos tras haberles infligido 200 puntos de daño.
+- Por lo general, lo mejor es centrar los ataques en Clefairy. Es muy probable que el rival no tenga respuesta ante tu Dragapult, especialmente si juegas Unfair Stamp en el mismo turno.
+- Si llevas Shaymin o Watchtower, este es un buen matchup para utilizarlos.
 
-### Zoroark - Favorable
+### Zoroark - Ligeramente Desfavorable
 
-- Munkidori con Dark suele ser la mayor amenaza que quieres debilitar.
-- Atacar a Zoroark y permitir que te noqueen de regreso con el ataque de Reshiram está bien siempre y cuando tengas algo de respaldo para acabar con él.
-- El daño en banca suele ir dirigido a Zorua/Zoroark. Hay muchísimas formas de aprovechar el daño sobre Zoroark. A veces, hacer 20 puntos de daño a Darumaka también puede ser efectivo.
-- El Itchy Pollen para detener el N’s PP Up es muy bueno si no tienen mucha Energía en el campo. Esto es especialmente relevante después de que usen Flamebody Cannon de Darmanitan. Por supuesto, Budew también es muy bueno al principio, ya que puede impedir que evolucionen a Darmanitan al inicio.
-- Ve segundo.
+- Munkidori es muy bueno en este matchup. Si tienes espacio en la banca para dos junto a Blaziken, genial; si solo tienes espacio para uno, también está bien.
+- Si existe la posibilidad de que jueguen Reshiram y tengan un hueco libre en la banca, intenta jugar teniendo en cuenta esa amenaza (usando Boss, Jet Headbutt, Mind Bend o Itchy Pollen). Si no tienen espacio libre, ten en cuenta que les resultará difícil realizar una jugada con Tome al principio de la partida; de hecho, algunos ni siquiera llevan Tome en su deck ultimamente.
+- Si puedes lograr un intercambio de premios favorable, a veces vale la pena exponerse a Reshiram para ganar tempo, dependiendo de la situación. Otras veces, el noqueo es inevitable de todos modos.
+- Los 6 contadores de daño suelen dirigirse casi siempre a Zoroark y/o Zorua.
 
 ## Conclusión
 

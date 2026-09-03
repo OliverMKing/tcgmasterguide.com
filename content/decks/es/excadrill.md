@@ -6,28 +6,31 @@ format: Standard
 ---
 ## Decklist
 
-![excadrill list](./images/excadrill/engdrill.png)
+![excadrill list](./images/excadrill/empo.png)
 ```decklist
-Pokémon: 19
+Pokémon: 20
 4 Drilbur PBL 46
-3 Mega Excadrill ex PBL 65
+2 Mega Excadrill ex PBL 65
 4 Beldum TEF 113
 4 Metang TEF 114
 1 Metagross CRI 61
 2 Genesect ex BLK 67
+1 Piplup PFL 27
+1 Empoleon ex PFL 70
 1 Fezandipiti ex SFA 38
 
-Trainer: 26
+Trainer: 25
 4 Lillie's Determination MEG 119
 4 Boss's Orders PAL 172
 4 Team Rocket's Petrel DRI 176
 4 Team Rocket's Transceiver DRI 178
 3 Buddy-Buddy Poffin TEF 144
-2 Energy Recycler DRI 164
+1 Energy Recycler DRI 164
 1 Night Stretcher ASC 196
 1 Switch MEG 130
+1 Ultra Ball SVI 196
+1 Rare Candy SVI 191
 1 Precious Trolley SSP 185
-2 Air Balloon BLK 79
 
 Energy: 15
 15 Metal Energy MEE 8
@@ -41,26 +44,26 @@ Energy: 15
 - Lillie's Determination no es tan importante en este deck como en otros, pero la carta sigue siendo muy buena y ayuda mucho con la consistencia general.
 - Cuatro Boss's Orders son necesarias dada la frecuencia con la que este deck lo necesita en el momento justo. Sin cuatro, nunca lo tendría cuando lo necesitara. También puede ayudar con el mapeo inverso de premios. A veces no quieres atacar con Mega Excadrill, ya que beneficia el mapa de premios de tu oponente, pero Mega Excadrill es el único que consigue un KO grande, así que puedes usarlo para obtener valor de otro atacante en ese turno.
 - Tres Buddy Buddy Poffin ayudan a que el deck sea consistente. A veces Precious Trolley esta premiada, o solo tienes a Lillie's Determination al principio de la partida en lugar de Petrel, o te ves obligado a empezar primero contra un deck con Budew y no puedes usar Trolley.
-- Energy Recycler es necesaria prácticamente en todas las partidas, sobre todo porque a veces surge la necesidad de retirar a Mega Excadrill. Probé con una, y sin duda funciona, pero me pareció una carta tan importante que quería una segunda para asegurarme de sacarle el máximo partido siempre. También es posible usar ambas de vez en cuando.
 - Night Stretcher es una buena carta de utilidad, que se suele usar por Drilbur o Beldum si son noqueados al principio, Genesect o Metagross.
 - El Precious Trolley hace que el deck sea muy fluido y consistente. No probé otras Ace Specs, pero no me imagino haciéndolo. Este deck necesita encontrar rápidamente muchos Pokémon Básicos y Evoluciones, y Precious Trolley lo hace todo a la vez. Es una locura con Genesect.
-- Air Balloon es especialmente valioso para la movilidad al inicio. Switch puede ser útil contra un Sob al principio de la partida, lo que nos permite a veces contrarrestar Torrential Pump dejando a Genesect activo. Sin embargo, esta no es necesariamente la mejor opción si crees que pueden noquear fácilmente a Genesect.
+- Empoleon ex es una opción estratégica para Alakazam que abundaran en el meta tras el Mundial, Alakazam está generando mucha expectativa debido a su extraordinario desempeño. El Caramelo Raro también permite desplegar rápidamente a Metagross, lo cual es ventajoso para el intercambio de cartas de premio y para ciertos matchups específicos, como contra Festival Lead (si se dan las condiciones adecuadas).
+- La carta Cambio puede resultar útil frente a Sob en los primeros compases de la partida, permitiéndonos a veces eludir el efecto de Torrential Pump al mantener a Genesect en el puesto activo. No obstante, esta no es necesariamente la mejor opción si prevemos que el rival puede noquear a Genesect fácilmente. En general, Cambio también puede ser valioso en otras situaciones, como frente a Mind Bend.
+- Ultra Ball aporta una gran utilidad y mejora la consistencia del deck.
 
 ### Posibles Inclusiones
 
-- Ultra Ball podría ser útil, pero cuando la probé, no resultó muy relevante.
 - Lana's Aid a veces sería útil, pero es difícil de usar.
 - Pokegear sería muy bueno para ayudar a tener Boss's Orders en el momento adecuado (y también aumentaría la probabilidad de encontrar Precious Trolley al principio de la partida).
 - La Special Red Card podría ser útil ocasionalmente, aunque no se usó mucho contra Dragapult.
 - Shaymin podría ser una buena opción para Slowking. Habría que retrasar la evolución al segundo Mega Excadrill.
-- El Transformation Tome suena fatal en este deck, pero Genesect es una gran desventaja que facilita la obtención de premios para los oponentes, así que podría valer la pena probarlo. También nos permitiría beneficiarnos de Fezandipiti sin la desventaja. Sin embargo, esto podría ser explotable, ya que no hay forma de descartar cartas para activarlo, por lo que dependerías de que el oponente noqueara a otro Pokémon primero y luego usaralo en Genesect. Además, sería difícil armar la jugada con todo en mano.
+- Segundo Energy Recycler podría ser bueno.
 
 ### Exclusiones
 
 - Los números clave de Jumbo Ice Cream son pésimos porque es muy difícil tener varios a la vez. Por ejemplo, Moltres + Phantom Dive sigue noqueando después de usar Ice Cream. Este deck no roba muchas cartas, así que no tendrá varios Ice Creams con frecuencia, especialmente contra estrategias que interrumpen la mano del oponente. Además, no son relevantes en muchos matchups, aunque pueden ser útiles en otros. En general, si no noquean a Mega Excadrill de un solo golpe, ya nos lo estamos pasando bien.
 - Los estadios no funcionan bien con este deck. Gravity Mountain podría parecer útil para que Metagross alcance ciertos puntos de ruptura, como Blaziken ex, pero no creo que sirva de mucho para salvar ese matchup.
 - Poke Pad simplemente no es útil aquí.
-- Mega Skarmory es dificil de usar y realmente no resuelve nada para este deck.
+- Mega Skarmory es dificil de usar de manera efectiva, y solo tiene sentido en una lista sin Boss's Orders.
 - Hero's Cape es una carta muy buena pero el deck suele desmoronarse si no tienes Precious Trolley al inicio y el deck se vuelve menos consistente.
 <!-- /PUBLIC -->
 ## Gameplay
@@ -135,8 +138,15 @@ id: hb0QJ851_EY
 title: Drill v Bolt 1
 ```
 
-### Alakazam - Muy Desfavorable
+### Alakazam - Depende
 
+Con Empoleon es muy favorable, sin Empoleon es muy desfavorable.
+
+Con Empoleon:
+- Setealo y gana fácil.
+- No busques Rare Candy hasta que lo vayas a utilizar para que no lo descarten con Eri.
+
+Sin Empoleon:
 - Si empiezan con un Pokémon malo al azar como Dedenne o Genesect, es posible noquear Pokemon atacando a su alrededor con Fezandipiti y Boss para ganar tiempo.
 - Otra posible condición de victoria es descartar cartas importantes (de recuperación o Boss) mientras se consiguen KOs tempranos con Excadrill, y luego cambiar a Metagross -> Metagross con Night Stretcher. Incluso Metang puede noquear a Abra si necesitas atacar con un solo premio, pero KO a su Alakazam suele ser lo ideal.
 

@@ -199,7 +199,7 @@ title: Crustle v Pultnoir 2
 ### Raging Bolt - Muy Favorable
 
 - Setea varios Crustle como de costumbre.
-- Suelen tener a Passimian, que puede ser una amenaza. Intenta equipar a tu Crustle principal con la Hero's Cape para que pueda sobrevivir a un ataque de Passimian y noquearlo de regreso. No querrás concentrar toda tu Energía en un solo Crustle para que luego Passimian te noquee, así que intenta distribuir tus Energías al principio (o simplemente usa la Hero's Cape).
+- A veces tienen a Passimian, que puede ser una amenaza. Intenta equipar a tu Crustle principal con la Hero's Cape para que pueda sobrevivir a un ataque de Passimian y noquearlo de regreso. No querrás concentrar toda tu Energía en un solo Crustle para que luego Passimian te noquee, así que intenta distribuir tus Energías al principio (o simplemente usa la Hero's Cape).
 
 ```youtube
 id: BK_19n-ZiI0
@@ -213,7 +213,7 @@ title: Crustle v Bolt 2
 
 ### Alakazam - Desfavorable
 
-Este matchup está bastante parejo si juegan dos Enhanced Hammer, o quizás ligeramente desfavorable. Si juegan más Ehanced Hammer, probablemente perdemos, y si juegan menos, ganamos fácilmente. Este matchup es desfavorable si tienen a Dedenne.
+Este matchup es malo si tienen Dedenne y bueno si no lo tienen.
 
 - Nuestra condición de victoria tener en el activo a un atacante con Mist Energy y resistir sus Enhanced Hammer. Usa primero a Lillie y Morty para intentar encontrar una o dos Mist Energy iniciales, y luego usa a Hilda para encontrar una o dos más.
 - Los Crustles son recursos valiosos, ya que necesitarás poder amenazar con atacantes con Mist Energy. No evoluciones a ellos solo para ser noqueados de inmediato. Puedes sacrificar a Cornerstone Ogerpon para llegar a la situación ideal.
@@ -262,6 +262,8 @@ título: King v Crust 1
 
 Nunca he jugado un matchup contra un Crustle y no tengo intención de hacerlo. Con dos Munkidori y varios Crispin, podría ser ligeramente favorable dependiendo de su lista.
 
+- Una posible forma de ganar es provocar que el rival se quede sin cartas dejando a su Kang en el Puesto Activo. Si juega un Dwebble adicional, noquealo para que tu Lillie solo robe seis cartas. Luego, usa repetidamente a Boss para dejar atrapado a su Kang, ya que no podrá hacerle nada a tu Crustle. Es importante mantener con vida a tu Crustle principal. Por supuesto, también deberás calcular cuidadosamente la situación de las cartas de cada jugador para asegurarte de que sea tu oponente quien se quede sin cartas después de que ambos usen Xerosic el uno contra el otro.
+
 ### Mewtwo - Ligeramente favorable
 
 - La condición de victoria es Cornerstone Ogerpon. Es posible que lo derroten, pero aúnque lo logren puedes recuperarlo con Night Stretcher. Lo mejor es guardar la energía de lucha para cuando estés listo para atacar. Si gastas la energía de lucha demasiado pronto y derrotan a Cornerstone Ogerpon de dos golpes, la pierdes sin motivo y necesitas ambas Night Stretcher. Si solo derrotan a Cornerstone antes de que ataque, solo necesitas una Night Stretcher para recuperarte y no hay problema.
@@ -283,7 +285,8 @@ title: Crustle v Mewtwo 2
 
 ### Mega Kangaskhan Box - Auto Win
 
-- Si no tienen techs específicas, este matchup es autowin.
+- Si no tienen techs específicas, este matchup es autowin. Si tienen a Paldean Tauros y Koraidon ex, es desfavorable.
+- Si tienen a Paldean Tauros, intenta armar a Mega Kangaskhan lo más rápido posible y enfocate en la estrategia de Bouffalant. Con Bouffalant o Hero's Cape, Mega Kangaskhan sobrevive al primer ataque de Koraidon ex. Con ambos sobrevive al segundo ataque también.
 - En caso de una jugada sorpresa con Passimian, juega igual que contra Raging Bolt.
 
 ### Hide n Sneak - Desfavorable
@@ -302,14 +305,20 @@ id: qD3lvE40LAM
 title: Crustle v Lucario 1
 ```
 
+### Excadrill - Auto Loss
+No creo que sea posible ganar. Una opción es jugar de forma agresiva con Mega Kangaskhan y esperar tener suerte. Otra es usar a Crustle y confiar en que hayan enviado a Metagross a los premios (aunque a veces llevan dos).
+
 ### Festival Lead - Ligeramente Favorable
 
-Este matchup es un poco más parejo con Gladion contra la versión de Cornerstone. Para la versión de Mega Kangaskhan, es ligeramente favorable. Sin embargo, si juegan Tool Scrapper el matchup se vuelve muy desfavorable.
+Este matchup es un poco más parejo con Gladion contra la versión de Cornerstone. Para la versión de Mega Kangaskhan, es ligeramente favorable. 
 
 - Carga a Cornerstone Ogerpon en la banca lo más rápido posible. Si le cargan Energía a Thwackey, intenta noquearlo inmediatamente. No debilites nada que no represente una amenaza (como Dipplin, ya que es un problema para ellos). Si ponen a Rellor de forma preventiva, noquealo en cuanto lo veas. Lo mismo con Rillaboom.
 - Usar Boss's Orders a Thwackey puede ser útil, ya que detiene las búsquedas o los obliga a usar una carta de cambio.
 - Jumbo Ice Cream, Hero's Cape y Munkidori son muy útiles para ayudar a Cornerstone Ogerpon a sobrevivir. Si juegan Maximum Belt, necesitarás esa Hero's Cape en Cornerstone cuanto antes.
 - Spiky Energy en Bouffalant puede ser muy efectiva asi como Handheld Fan si lo juegas.
+- Para la versión de Mega Kangaskhan, prioriza conseguir ambos Bouffalant. Cárgalos con tantas Energías como sea posible mientras robas cartas. Sacrifica a Kang ante su jugada inicial de Gladion y luego pasa al ataque con el Bouffalant que tenga el ataque Ready to Ram. Asegúrate de poder recuperarlo con Night Stretcher si lo dejan fuera de combate. Aquí, la carta Spiky Energy resulta especialmente potente.
+- Usa a los Bouffalant y trata de mantenerlos con vida tanto como puedas.
+- Eri puede ser muy fuerte en el momento oportuno. Si guardas una para más adelante y golpeas al Scrapper, la Hero's Cape te asegura la victoria inmediata.
 
 ```youtube
 id: s16Xk0eqB8c
@@ -351,4 +360,4 @@ title: Crustle v Meg 1
 
 ## Conclusión
 
-Crustle siempre conlleva cierto riesgo en cuanto a los matchups, lo que lo hace potencialmente más fuerte en metajuegos más predecibles. También tiene la desventaja de que Dragapult puede incorporar una tech específica contra él en cualquier momento, aunque es muy eficaz frente a Dragapult si el rival no cuenta con dicha tech. Entre la versión con Crispin y la versión con Bouffalant, actualmente me inclino por la de Bouffalant, pero ambas parecen opciones válidas para el Mundial.
+Crustle siempre conlleva cierto riesgo en cuanto a los matchups, lo que lo hace potencialmente más fuerte en metajuegos más predecibles. También tiene la desventaja de que Dragapult puede incorporar una tech específica contra él en cualquier momento, aunque es muy eficaz frente a Dragapult si el rival no cuenta con dicha tech. Entre la versión con Crispin y la versión con Bouffalant, actualmente me inclino por la de Bouffalant, pero ambas parecen opciones válidas.

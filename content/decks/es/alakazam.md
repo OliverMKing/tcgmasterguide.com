@@ -48,9 +48,9 @@ Energy: 7
 ### Posibles Inclusiones
 - Shaymin podría incluirse pero es redundante cuando tenemos a Rabsca.
 - Special Red Card probablemente sería buena.
-- Morty's Conviction es muy útil como carta de robo que puede añadir muchas cartas a la mano. A veces, Hilda o Dawn consiguen más cartas al abrir opciones de Alakazam/Dudunsparce, pero en otras situaciones, Morty es un Partidario de robo más poderoso. La razón por la que prefiero Morty's Conviction que otras opciones es porque es la única forma que tiene este deck de descartar Energía Psíquica, lo cual es muy relevante cuando quieres usar el combo de Wondrous Patch/Enriching Energy. Terminé quitando los Morty's Conviction para hacer espacio para Rabsca, pero aún así no está mal.
-- Tal vez alguna opción de cambio sería útil. Realmente solo es relevante contra Dragapult con Yveltal que no es tan común. Otras opciones de bloqueo de retirada no son tán comunes.
 - No creo que Toucannon sea necesario pero puede resolver algunos problemas en metas especificos, por ejemplo si hay mucho Hide n Sneak o decks con Rocket's Articuno. 
+- Lillie's Clefairy abre algunas opciones interesantes y otorga una manera de jugar alrededor de algunos counters.
+- Eri podría ser buena para intentar atacar Unfair Stamp y Special Red card en turnos clave.
 
 ### Exclusiones
 
@@ -62,7 +62,7 @@ Energy: 7
 
 ## Decklist 2
 
-![decklist2 for Alakazam](./images/alakazam/mines.png)
+![decklist2 for Alakazam](./images/alakazam/cages.png)
 ```decklist
 Pokémon: 20
 4 Abra MEG 54
@@ -70,8 +70,8 @@ Pokémon: 20
 3 Alakazam MEG 56
 3 Dunsparce JTG 120
 3 Dudunsparce TEF 129
-1 Genesect SFA 40
 1 Fezandipiti ex ASC 142
+1 Genesect SFA 40
 1 Shaymin DRI 10
 
 Trainer: 34
@@ -84,8 +84,9 @@ Trainer: 34
 3 Enhanced Hammer TWM 148
 2 Night Stretcher ASC 196
 1 Sacred Ash DRI 168
-3 Lucky Helmet TWM 158
-4 Nighttime Mine ASC 197
+2 Air Balloon ASC 181
+1 Lucky Helmet TWM 158
+4 Battle Cage PFL 85
 
 Energy: 6
 4 Telepathic Psychic Energy POR 88
@@ -97,19 +98,19 @@ Esta es la versión más estándar, con Genesect y Estadios en lugar de Rabsca y
 
 ### Inclusiones
 
-- Genesect es útil principalmente contra Dragapult y nos da una excusa para usar Lucky Helmet, que es muy útil contra la interrupción de la mano. Lucky Helmet es la mejor herramienta por esta razón, así que creo que es mejor usar tres en lugar de cualquier otra. Genesect también es bueno contra Festival para detener Secret Box, lo que les dificulta un poco jugar Gladion.
+- Genesect es útil principalmente contra Dragapult y nos da una excusa para usar Lucky Helmet, que es muy útil contra la interrupción de la mano. Genesect también es bueno contra Festival para detener Secret Box, lo que les dificulta un poco jugar Gladion.
 - Shaymin sirve contra Wellspring Ogerpon y Slowking.
 - Cuatro Rare Candy por las mismas razones que las anteriores, igual que tres Enhanced Hammer.
 - Nighttime Mine es muy útil contra Dragapult y nos da una respuesta fácil a Rocket's Watchtower.
+- Air Balloon es muy buena opcion para Genesect y además para contrarrestar los Crushing Hammer de Dragapult para evitar un gusteo a Fez o Genesect y no poder atacar el mismo turno.
+- Battle Cage es mejor que otros estadios porque frena a Dusknoir y a Munkidori, además del daño de Dragapult.
 
 ### Posibles Inclusiones
 
 - Una cuarta Hilda y/o un cuarto Alakazam serían ideales.
-- Battle Cage en lugar de Nighttime Mine podría considerarse.
 - Special Red Card probablemente sería útil.
 - Jugar el paquete de Wondrous Patch en lugar del paquete Genesect podría ser una opción.
 - Psyduck ayuda poco contra Dragapult/Dusknoir, pero el matchup sigue siendo difícil incluso con él, así que no creo que valga la pena.
-- Handheld Fan podría volver a popularizarse si Festival Lead se vuelve más popular.
 - No creo que Toucannon sea necesario pero puede resolver algunos problemas en metas especificos, por ejemplo si hay mucho Hide n Sneak o decks con Rocket's Articuno. 
 
 ### Exclusiones
@@ -117,7 +118,8 @@ Esta es la versión más estándar, con Genesect y Estadios en lugar de Rabsca y
 - Dedenne es un Pokémon malo para empezar y no se usa mucho. Creo que tres Enhanced Hammer son suficientes para ganar la partida rápidamente contra decks como Crustle y Lopunny. Prefiero tener el tercer Enhanced Hammer antes que a Dedenne. Además, así es más fácil encontrarlos, lo cual es importante.
 - Elgyem no resultó ser muy útil contra Dragapult, así que lo quité.
 - Creo que Night Stretcher es mejor que Lana's Aid.
-- Handheld Fan no es muy bueno contra Dragapult y Festival Lead no es tan relevante por ahora. Air Balloon tampoco es necesario. El principal problema con estas Herramientas es que no son Lucky Helmet.
+- Handheld Fan no es muy bueno porque pierdes contra Festival Lead de todas formas.
+- Nighttime Mine es mucho peor que Battle Cage en estos momentos.
 
 <!-- /PUBLIC -->
 
@@ -210,6 +212,12 @@ title: Zam v Bolt 1
 id: nqv7CF4-1NI
 title: Zam v Bolt 2
 ```
+
+### Hydrapple - Favorable
+
+- Juega teniendo en cuenta Unfair Stamp como de costumbre. Algunos llevan Special Red Card y otros no.
+- Ten cuidado con Briar.
+- Por lo general, juega con normalidad y ganarás la mayoría de las veces.
 
 ### Alakazam Mirror - Parejo
 
@@ -405,4 +413,4 @@ title: Zam v Meganium 2
 
 ## Conclusión
 
-Este deck es sigue siendo bueno peor ha perdido un poco de poder recientemente. El match contra Dragapult sigue siendo dificil. Festival LEad ahora tiene Gladion lo cual es un obstaculo. Hide n Sneak también es una amenaza y Rocket's sigue siendo un auto-loss. Sin embargo es posible que estos decks no sean muy populares asi es que Alakazam aun tiene potencial. 
+Este deck es fundamentalmente muy potente, pero el matchup contra Dragapult siempre será difícil. También existen otros matchups desfavorables, aunque sean menos comunes. Sin embargo, es posible que esos decks no lleguen a ser demasiado populares, por lo que Alakazam sigue teniendo potencial. Alakazam cuenta con muchos matchups favorables, lo cual juega a su favor. En general, creo que es un deck bueno.
