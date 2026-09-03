@@ -1,7 +1,7 @@
 ---
 title: Zoroark
 pokemon: [571]
-tier: 3
+tier: 2
 format: Standard
 ---
 ## Decklist
@@ -70,6 +70,7 @@ Energy: 7
 - Lo mismo ocurre con Mega Absol. Aunque sería genial tener algunas posibilidades increíbles con el Transofrmation Tome, no le veo la utilidad a ninguna de estas cartas.
 - Ruffian no vence a Crustle, así que no tiene sentido jugarlo.
 - Special Red Card podría estar bien. No tengo una opinión muy definida al respecto. No creo que haga nada particularmente importante, y hay muchas otras cartas en las que preferiría usar ese espacio.
+- No creo que usar Judge y muchos Watchtower sea la mejor idea con este deck. En ese punto solo estas esperando intercambiar atacantes y que a tu oponente le falle algo en algún turno.
 <!-- /PUBLIC -->
 ## Gameplay
 

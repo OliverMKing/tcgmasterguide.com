@@ -81,7 +81,7 @@ Esto es aún más común con la lista de Blaziken.
 
 ## Matchups
 
-### Dragapult Mirror - Ligeramente Desfavorable
+### Dragapult Mirror - Parejo
 
 El matchup entre Dusknoirs es bastante parejo, pero contra otras estrategias como Blaziken o decks de Martillos puros, es desfavorable o ligeramente desfavorable.
 
@@ -308,4 +308,4 @@ title: Pultnoir v Lucario 2
 
 ## Conclusión
 
-En el meta actual, creo que Dusknoir es la peor de las variantes de Dragapult. sin embargo sigue siendo un deck de Dragapult lo cual inevitablemente lo hace bueno. Lo único que Dusknoir realmente hace y que le falta a la versión de interrupción directa es cubrir el matchup contra Crustle, lo cual no es tan grave. Ser peor contra el mirror match también es preocupante.
+En el meta actual, creo que Dusknoir es la peor de las variantes de Dragapult. sin embargo sigue siendo un deck de Dragapult lo cual inevitablemente lo hace bueno. Lo único que Dusknoir realmente hace y que le falta a la versión de interrupción directa es cubrir el matchup contra Crustle, lo cual no es tan grave.
