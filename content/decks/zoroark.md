@@ -49,7 +49,7 @@ Energy: 7
 - Meowth has overperformed and is very good for helping with this deck’s early-game consistency. I often use Stretcher for it to end the game by getting Boss as well. Three Ultra Ball are included mostly due to synergy with Meowth.
 - Yveltal is a very nice stopgap for when you don’t have the full combo you need yet. Although dedicated Yveltal gameplans don’t work too well in the current meta, it often buys you a turn or two that you need for some extra Trades. Clutching a Mega Kang is also very strong as it can easily be KO’d on the follow up, but it’s otherwise difficult to KO without any prior damage.
 - Dedenne and Enhanced Hammer are here to ensure a win against Crustle. Of course they are cuttable if you don’t care about the Crustle matchup, which is perfectly fine. I think Crustle might be a decent play for Worlds which is why I’ve included them.
-- Xerosic’s Machinations with Dedenne can sometimes beat Alakazam and is also very good in the mirror. Otherwise it’s not very good so it is definitely cuttable.
+- Xerosic’s Machinations with Dedenne can sometimes beat Alakazam and is also very good in the mirror.
 - Black Belt’s Training is incredibly good against Dragapult allowing for easier one-shots. I found it to be very relevant. It can also help against other high HP Pokemon such as Hydrapple or Mega Kang.
 - Four N’s PP Up ensures that we can chain Zoroark in prize trades. I would consider playing a Janine’s Secret Art over one of them, but it’s really important to always have PP Up on the turns you need it, and you usually need many of them each game.
 - Secret Box is a neutrally good Ace Spec. It helps with consistency and hitting combos.
@@ -65,7 +65,7 @@ Energy: 7
 
 ### Exclusions
 
-- I don't think playing lots of Judge and Watchtower is a good way to use this deck. At that point, you're just prize trading every time and hoping the opponent whiffs something.
+- I don't think playing lots of Judge and Watchtower is a good way to use this deck. At that point, you're just prize trading every time and hoping the opponent whiffs something. That said, it is the best chance of the deck beating Alakazam, which is noteworthy.
 - Drapion is not very good and impossible to set up. It also never gets used against Dragapult. If you’re worried about Hydrapple, it might be good against that.
 - Similarly, Dusknoir is also not that good and never used against Dragapult.
 - Same with Mega Absol. Although it would be nice to have some insane Transformation Tome possibilities, I just don’t see the point of any of these cards.
