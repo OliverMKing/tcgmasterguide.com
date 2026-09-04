@@ -6,7 +6,7 @@ format: Standard
 ---
 ## Decklist
 
-![Festival list](./images/festival-lead/enggladion.png)
+![Festival list](./images/festival-lead/scrap2.png)
 ```decklist
 Pokémon: 22
 4 Grookey TWM 14
@@ -21,18 +21,17 @@ Pokémon: 22
 
 Trainer: 32
 4 Lillie's Determination MEG 119
+3 Gladion's Final Battle PBL 77
 2 Boss's Orders MEG 114
-2 Gladion's Final Battle PBL 77
-1 Kieran TWM 154
 4 Buddy-Buddy Poffin TEF 144
 4 Poké Pad POR 81
 2 Ultra Ball MEG 131
-2 Bug Catching Set TWM 143
 2 Night Stretcher ASC 196
 1 Switch MEG 130
+1 Tool Scrapper WHT 85
 1 Secret Box TWM 163
 2 Brave Bangle WHT 80
-1 Air Balloon ASC 181
+2 Air Balloon ASC 181
 4 Festival Grounds TWM 149
 
 Energy: 6
@@ -45,17 +44,17 @@ Energy: 6
 - I like playing four Thwackey because the deck needs to see it early to function, always needs two in play, and sometimes even needs three. This is even more important now with Gladion.
 - Rabsca is a necessary tech for Dragapult and it works well.
 - Shaymin flips the matchup against decks that have Wellspring Ogerpon, Slowking, or Darmanitan. It is quite efficient for only one deck spot.
-- Seaking is much better now, especially with Goldeen naturally boosting consistency. With Bangle and Gladion, Seaking can now KO basically everything. It also draws some cards to refresh the hand after emptying it for Gladion, though this can sometimes make a subsequent Gladion harder to use.
+- Seaking is a bit better now, especially with Goldeen naturally boosting consistency. With Bangle and Gladion, Seaking can now KO basically everything. It also draws some cards to refresh the hand after emptying it for Gladion, though this can sometimes make a subsequent Gladion harder to use. Some lists focus more on Seaking, but in my experience, focusing on Dipplin is still better.
 - Gladion is a very strong damage modifier and even makes Seaking dangerous. Also allows for one-shots on Excadrill and Metagross.
 - Ultra Ball is needed for Gladion and is not as invasive for consistency as I expected.
+- Tool Scrapper is useful for Handheld Fan or Hero's Cape, which are occasionally seen in various decks.
 - Secret Box is definitely the best Ace Spec for this deck. It grabs four combo pieces for the price of one search, which allows us to stabilize or reach for a big KO even with a weaker board, early in the game, or after getting Stamped. It is the ultimate consistency card.
 - Growing Energy stops KO's from Banette or Excadrill's first attack, and also sometimes makes relevant breakpoints against Dragapult. It allows Rellor to survive Dusclops or Phantom Dive snipe. The only real downside of Growing is that it cannot be found off Bug Catching Set, which we cut back on anyway for Seaking and Ultra Ball.
 
 ### Possible Inclusions
 
 - More Rellor and Rabsca could help against Dragapult, which may be worthwhile.
-- Tool Scrapper is better when Handheld Fan is more popular, which could come up.
-- Dawn, Lana's Aid, or more Bug Catching Set would still be nice.
+- Dawn, Lana's Aid, or Bug Catching Set would still be nice.
 
 ### Exclusions
 
@@ -64,6 +63,7 @@ Energy: 6
 - Lilligant is also nonsense now with access to Gladion.
 - Psyduck does not really work against Dragapult / Dusknoir since the matchup is still unfavorable even with it.
 - Brock’s Scouting is worse than Dawn. Of course, there are some situations where you’d wish that you had Brock instead, but the same could be said for any random card.
+- Kieran isn't really necessary anymore.
 - Other Ace Specs are far inferior to Secret Box. Honorable mention to Maximum Belt for saving two deck spots, which is pretty cool.
 - Other random cards such as Sacred Ash, Judge, or Forest of Vitality are just bad and pointless.
 <!-- /PUBLIC -->
@@ -119,27 +119,6 @@ id: X6nTeKlYEVE
 title: Festival v Bolt 1
 ```
 
-### Alakazam - Favorable
-
-This matchup is a lot more favorable now with Gladion's Final Battle.
-
-- Festival Grounds is a resource since they often play four Stadiums. Don’t put it in play until you’re ready to attack.
-- They don’t play hand disruption. Be as fast and aggressive as possible.
-- If they bump your Stadium, consider using Boss to KO something small while saving a Stadium. If you play all the Stadiums early, you might run out, and they can create an endgame board that cannot be KO’d by a single-attack Dipplin. If they don’t have Kadabra in play, KO’ing their active Alakazam is still best to force them to find Rare Candy.
-- If you ever have an extra Energy attachment, attaching to a backup apple is generally good. When you have two apples each with Energy, you can get through the Handheld Fan because you can attach another Energy when you need to. They may or may not play Handheld Fan, so it's best to play around it if you get the opportunity to.
-- Use Gladion's Final Battle whenever is most convenient to get an easy double KO. If they have Fez in play, you will want to KO that first before using Gladion.
-
-```youtube
-id: g5-pKFaJc_Y
-title: Festival v Zam 1
-```
-These games are pre-Gladion. Some of the same principles still apply, but the matchup is now a bit more lopsided in Festival's favor.
-
-```youtube
-id: X3YpsKBoBBI
-title: Festival v Zam 2
-```
-
 ### Zoroark - Very Favorable
 
 - Shaymin is very good against the version with Darmanitan.
@@ -150,6 +129,47 @@ title: Festival v Zam 2
 id: nqiBklziLiw
 title: Festival v Zoroark 1
 ```
+
+### Alakazam - Favorable
+
+- Festival Grounds is a resource since they often play four Stadiums. Don’t put it in play until you’re ready to attack.
+- They don’t usually play hand disruption. Be as fast and aggressive as possible.
+- If they bump your Stadium, consider using Boss to KO something small while saving a Stadium. If you play all the Stadiums early, you might run out, and they can create an endgame board that cannot be KO’d by a single-attack Dipplin. If they don’t have Kadabra in play, KO’ing their active Alakazam is still best to force them to find Rare Candy.
+- If you ever have an extra Energy attachment, attaching to a backup apple is generally good. When you have two apples each with Energy, you can get through the Handheld Fan because you can attach another Energy when you need to. They may or may not play Handheld Fan, so it's best to play around it if you get the opportunity to. Scrapper can get through one Fan, and preattaching an Energy can get through another.
+- Use Gladion's Final Battle whenever is most convenient to get an easy double KO. If they have Fez in play, you will want to KO that first before using Gladion.
+
+```youtube
+id: g5-pKFaJc_Y
+title: Festival v Zam 1
+```
+The games I have recorded are pre-Gladion. Some of the same principles still apply, but the matchup is now a bit more lopsided in Festival's favor.
+
+```youtube
+id: X3YpsKBoBBI
+title: Festival v Zam 2
+```
+
+### Slowking - Favorable
+
+- Shaymin is the biggest priority if they are threatening a Trifrost. If Shaymin is prized, it's still possible to get Rabsca out quickly for protection. Make sure you always have some form of protection from Trifrost.
+
+### Excadrill - Favorable
+
+- Set up triple Thwackey and triple apple (or double apple plus Seaking). Seaking is useful in this matchup because it can still one-shot anything with the right modifiers. It is similar to another Dipplin and Goldeen has Festival Lead. However, the draw effect of Seaking can be very bad if you need to use Gladion in the future!
+- It’s fine to chip an Excadrill early if you can’t get a one-shot on it and have nothing better to do.
+- Damage modifiers and Boss are premium resources that you’ll need in order to get KO’s. Once you’re set up, every turn should be a Gladion or Boss one-shot.
+- Excadrill doesn’t play many Stadiums, but they can easily Petrel for them. If they mill a Stadium, you might need to be careful. Otherwise, you can probably toss one or two Stadiums. If you know they don’t play any Stadiums, then you only need one Festival Grounds for the whole game.
+
+```youtube
+id: llimXRrSMbA
+title: Drill v Festival 1
+```
+
+### Festival Lead Mirror - Even
+
+- This matchup relies entirely on sponges. If you play anything with more than 100 HP, it is a huge priority. When they take a KO, promote it. Rinse and repeat. When it gets KO’d, get it back. The current list has Seaking for this. If they use the Gladion, just promote some random sacrifice and save the Seaking for when they don't use Gladion.
+- Switching cards are premium resources if you play any such damage sponges.
+- Ideal board is Goldeen, Seaking, two apple, and two Thwackey. Attack with Dipplin, use Seaking as a sponge, and use the Goldeen to immediately evolve into Seaking when it gets KO'd.
 
 ### Crustle - Favorable
 
@@ -167,6 +187,11 @@ Against Cornerstone:
 id: s16Xk0eqB8c
 title: Festival v Crustle 1
 ```
+
+### Hydrapple - Slightly Favorable
+
+- Just like in the mirror, they can take a double KO with Dipplin. For that reason, try to keep Seaking on the bench to use as a sponge.
+- Shaymin can be useful as protection from their Boss + Stamp + Fez play, which could otherwise be devastating. I wouldn't use the Shaymin early, as you'll need the board space for other stuff, but it could be good to put down later when they're more likely to get that play.
 
 ### Mewtwo - Favorable
 
@@ -195,12 +220,6 @@ id: BQW03QYb1X0
 title: Festival v Lucario 2
 ```
 
-### Festival Lead Mirror - Even
-
-- This matchup relies entirely on sponges. If you play anything with more than 100 HP, it is a huge priority. When they take a KO, promote it. Rinse and repeat. When it gets KO’d, get it back. The current list has Seaking for this. If they use the Gladion, just promote some random sacrifice and save the Seaking for when they don't use Gladion.
-- Switching cards are premium resources if you play any such damage sponges.
-- Ideal board is Goldeen, Seaking, two apple, and two Thwackey. Attack with Dipplin, use Seaking as a sponge, and use the Goldeen to immediately evolve into Seaking when it gets KO'd.
-
 ### Hide n Sneak - Slightly Unfavorable
 
 If they do not have Flutter Mane, the matchup is favorable.
@@ -218,18 +237,6 @@ title: Sneak v Festival 1
 ```youtube
 id: nRwJ9R4LPNw
 title: Sneak v Festival 2
-```
-
-### Excadrill - Favorable
-
-- Set up triple Thwackey and triple apple (or double apple plus Seaking). Seaking is useful in this matchup because it can still one-shot anything with the right modifiers. It is similar to another Dipplin and Goldeen has Festival Lead. However, the draw effect of Seaking can be very bad if you need to use Gladion in the future!
-- It’s fine to chip an Excadrill early if you can’t get a one-shot on it and have nothing better to do.
-- Damage modifiers and Boss are premium resources that you’ll need in order to get KO’s. Once you’re set up, every turn should be a Gladion or Boss one-shot.
-- Excadrill doesn’t play many Stadiums, but they can easily Petrel for them. If they mill a Stadium, you might need to be careful. Otherwise, you can probably toss one or two Stadiums. If you know they don’t play any Stadiums, then you only need one Festival Grounds for the whole game.
-
-```youtube
-id: llimXRrSMbA
-title: Drill v Festival 1
 ```
 
 ### Lopunny - Very Favorable
