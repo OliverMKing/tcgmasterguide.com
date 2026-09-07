@@ -100,23 +100,33 @@ id: aUJFp8ykZHE
 title: Hammers v Noir 2
 ```
 
-### Slop Box - Slightly Favorable
+### Raging Bolt - Favorable
 
-- At the end of the game, you would like to only have one benched Pokemon so that Clefairy cannot KO Dragapult without the Area Zero. This is makes it difficult for them to get the KO after disrupting them. This means you need to be careful about putting Pokemon down. Don't put down extra stuff like Munkidori or Moltres if you don't need to. Hoard the disruption combo for when you have slim board.
-- Fez and Meowth are huge liabilities so don't put them into play unless absolutely necessary.
-- Use Hammer if it has a reasonable chance of stopping an attack. Otherwise, save for a disruptive combo. Double Hammer on their Clefairy plus Boss Phantom Dive on Fez (along with hand disruption and Watchtower) is the ideal play as they have to get lucky in order to respond.
-- It’s unlikely to win a trade, so we have to rely on hand disruption plus Watchtower. These cards are premium resources.
-- Moltres is a good response if they’re threatening a fast Fez attack. It can also be very good if you can get the smack on their Kang. This lets Phantom Dive KO and prize trade ignoring Lillie’s Pearl. If you aren’t getting value from Moltres, don’t put it down for no reason so we can have a slim board in the late-game.
-- They have plenty of outs to Watchtower, so save one or two for a combo with hand disruption.
+- Putting Moltres down early can be great, especially if they’re threatening a fast attack before you can get Dragapult. It can be a good response to a fast Fez, but it’s not as good if they have Waterpon with any Energy already.
+- However, if you can use Itchy Pollen + Hammer to stop them from attacking in the first place, that’s even better.
+- The best times to play Watchtower are at the very start of the game, when they have a low hand, or when you can pair it with hand disruption. In other words, don’t slam Watchtower when they have a big hand or you think they can easily bump it.
+- Reyling on a big damage setup play is questionable because they can use Chien-Pao to clear off damage. However, it can be fine if they already used Chien-Pao to bump Watchtower. If they have Chien-Pao and Kang in play, you can target those two for four prizes and possibly use Moltres for an easy two.
+- With extra Crushing Hammers, removing random Water or Psychic Energy from the board is very good because it takes away possible Energy Switch plays.
 
 ```youtube
-id: zvBAEEaoVNA
-title: Slop v Pult 1
+id: tauR3pT-QbY
+title: Pult v Bolt 1
+```
+Close game but pretty standard. The next three are some interesting games that go in ways you might not expect.
+
+```youtube
+id: dcyAmSbMJFY
+title: Pult v Bolt 2
 ```
 
 ```youtube
-id: sa8Ah2uxEz4
-title: Slop v Pult 2
+id: 5mFaaXLnZEk
+title: Pult v Bolt 3
+```
+
+```youtube
+id: cYkI-nNI1OU
+title: Pult v Bolt 4
 ```
 
 ### Zoroark - Slightly Unfavorable
@@ -202,35 +212,6 @@ id: HnsxI7wf-Dg
 title: Drill v Pult 3
 ```
 
-### Raging Bolt - Favorable
-
-- Putting Moltres down early can be great, especially if they’re threatening a fast attack before you can get Dragapult. It can be a good response to a fast Fez, but it’s not as good if they have Waterpon with any Energy already.
-- However, if you can use Itchy Pollen + Hammer to stop them from attacking in the first place, that’s even better.
-- The best times to play Watchtower are at the very start of the game, when they have a low hand, or when you can pair it with hand disruption. In other words, don’t slam Watchtower when they have a big hand or you think they can easily bump it.
-- Reyling on a big damage setup play is questionable because they can use Chien-Pao to clear off damage. However, it can be fine if they already used Chien-Pao to bump Watchtower. If they have Chien-Pao and Kang in play, you can target those two for four prizes and possibly use Moltres for an easy two.
-- With extra Crushing Hammers, removing random Water or Psychic Energy from the board is very good because it takes away possible Energy Switch plays.
-
-```youtube
-id: tauR3pT-QbY
-title: Pult v Bolt 1
-```
-Close game but pretty standard. The next three are some interesting games that go in ways you might not expect.
-
-```youtube
-id: dcyAmSbMJFY
-title: Pult v Bolt 2
-```
-
-```youtube
-id: 5mFaaXLnZEk
-title: Pult v Bolt 3
-```
-
-```youtube
-id: cYkI-nNI1OU
-title: Pult v Bolt 4
-```
-
 ### Festival Lead - Slightly Favorable
 
 - Early Itchy Pollen is very good in this matchup. It helps stop Rabsca and disrupts their setup in general.
@@ -261,6 +242,25 @@ title: Pult v Crustle 1
 ```youtube
 id: hvIAKTD9SGA
 title: Pult v Crustle 2
+```
+
+### Slop Box - Slightly Favorable
+
+- At the end of the game, you would like to only have one benched Pokemon so that Clefairy cannot KO Dragapult without the Area Zero. This is makes it difficult for them to get the KO after disrupting them. This means you need to be careful about putting Pokemon down. Don't put down extra stuff like Munkidori or Moltres if you don't need to. Hoard the disruption combo for when you have slim board.
+- Fez and Meowth are huge liabilities so don't put them into play unless absolutely necessary.
+- Use Hammer if it has a reasonable chance of stopping an attack. Otherwise, save for a disruptive combo. Double Hammer on their Clefairy plus Boss Phantom Dive on Fez (along with hand disruption and Watchtower) is the ideal play as they have to get lucky in order to respond.
+- It’s unlikely to win a trade, so we have to rely on hand disruption plus Watchtower. These cards are premium resources.
+- Moltres is a good response if they’re threatening a fast Fez attack. It can also be very good if you can get the smack on their Kang. This lets Phantom Dive KO and prize trade ignoring Lillie’s Pearl. If you aren’t getting value from Moltres, don’t put it down for no reason so we can have a slim board in the late-game.
+- They have plenty of outs to Watchtower, so save one or two for a combo with hand disruption.
+
+```youtube
+id: zvBAEEaoVNA
+title: Slop v Pult 1
+```
+
+```youtube
+id: sa8Ah2uxEz4
+title: Slop v Pult 2
 ```
 
 ### Hydrapple - Even

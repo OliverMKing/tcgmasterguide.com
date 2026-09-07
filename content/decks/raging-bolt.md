@@ -7,63 +7,68 @@ format: Standard
 <!-- PUBLIC -->
 ## Decklist 1
 
-![First Raging Bolt list](./images/raging-bolt/prime.png)
+![First Raging Bolt list](./images/raging-bolt/enam.png)
 ```decklist
 Pokémon: 19
 4 Mega Kangaskhan ex MEG 104
-3 Teal Mask Ogerpon ex TWM 25
 3 Meowth ex POR 62
+2 Teal Mask Ogerpon ex TWM 25
 2 Latias ex SSP 76
 2 Lillie's Clefairy ex JTG 56
-2 Fezandipiti ex ASC 142
 1 Raging Bolt ex TEF 123
 1 Wellspring Mask Ogerpon ex TWM 64
+1 Fezandipiti ex ASC 142
+1 Bloodmoon Ursaluna ex TWM 141
+1 Enamorus TWM 93
 1 Chien-Pao SSP 56
 
-Trainer: 26
+Trainer: 27
 4 Crispin SCR 133
-2 Boss's Orders MEG 114
 2 Cyrano SSP 170
-1 Ciphermaniac's Codebreaking TEF 145
-1 Lillie's Determination MEG 119
+2 Boss's Orders MEG 114
+2 Ciphermaniac's Codebreaking TEF 145
 4 Ultra Ball MEG 131
 4 Energy Switch MEG 115
 2 Night Stretcher ASC 196
-1 Glass Trumpet SCR 135
+2 Glass Trumpet SCR 135
 1 Prime Catcher TEF 157
-4 Area Zero Underdepths SCR 131
+3 Area Zero Underdepths SCR 131
+1 Jamming Tower TWM 153
 
-Energy: 15
-7 Grass Energy MEE 1
+Energy: 14
+6 Grass Energy MEE 1
 3 Psychic Energy MEE 5
 2 Lightning Energy MEE 4
 2 Fighting Energy MEE 6
 1 Water Energy MEE 3
 ```
 
-I still think this deck is not very good, and inferior to Noctowl or Prism/Lillie builds. However, since this is the build that most people play, I thought it would be good to include for relevance.
-
 ### Inclusions
 
 - Each Mega Kangaskhan is roughly an additional ten percent chance to start with it. This is particularly important because the deck highly relies on Run Errand to draw cards and function, so playing four makes sense.
 - Double Latias has become standard because it's crucial for the deck to function and find early.
-- Fezandipiti is far too good to play only one. It's always good on the board, strong early attacker in some matchups, and great to have if the other is prized or KO'd.
+- Bloodmoon Ursaluna is a very efficient closer and takes the spot of the second Fez. Although two Fez it's great, it's not as necessary when Ursaluna can close out games in a low-maintenance way.
 - Wellspring Ogerpon provides good utility. It can be a fast attacker or buy time with Sob in the late-game to piece together a win.
 - Chien-Pao is fantastic against Dragapult for clearing off damage or countering Watchtower. Four Stadiums are similarly included to easily deal with Watchtower since the deck highly relies on Kang and Meowth. Area Zero is also important for buffing Clefairy's damage or synergy with Chien-Pao.
+- Enamorus is a solid single-prize attacker that primarily counters Crustle. It can also one-shot Dragapult, though it would need Clefairy and sometimes Raging Bolt to do so.
+- Jamming Tower is mostly for Cape decks, such as Crustle and Excadrill. Bumping your own Pokemon is also very good if Chien-Pao is not available.
+- Second Glass Trumpet over third Teal Mask Ogerpon is what I'm currently liking, but I could change my mind about that. It's also a bit better with Ursaluna.
 - Ciphermaniac is very handy for making combos, but not overly relied on.
-- Lillie's is a good consistency card and another solid option off Meowth.
 - Prime Catcher is a powerful card for both the gust and switching options. It allows Crispin plus gust in the same turn, and is also the only way out of retreat lock. I think this deck greatly benefits from a third gust effect, so if you play a different Ace Spec like Stamp, I would recommend a third Boss's Orders as well.
 
 ### Possible Inclusions
 
+- Iron Crown plus Special Red Card is quite strong against Festival Lead. This combo also helps against Alakazam, though that matchup is still pretty bad.
 - Unfair Stamp is still very good. I just don't think it synergizes very well with the deck. The same can be said for Special Red Card. Alone, those cards aren't enough to salvage bad matchups, but they're still generally good cards.
-- Lillie's Pearl would probably be ok.
+- Lillie's Determination is still good.
+- An additional Fez, Ogerpon, Area Zero, Cyrano, or Grass Energy would all be fine.
 
 ### Exclusions
 
 - The second Raging Bolt isn't very important.
+- Iron Leaves is bad and useless. Retreat lock is no problem since every Pokemon (besides Chien Pao) can attack, and we also have Prime Catcher.
 - Passimian is not very good. It can help slightly against Crustle, but that matchup is still bad anyway. If you did play Passimian, it would probably be best to add Stamp back in.
-<!-- /PUBLIC -->
+
 ## Gameplay Tips
 
 - Attaching and storing random Energy types in play is generally very good. It opens up powerful Energy Switch plays out of nowhere for later.
@@ -110,7 +115,7 @@ Energy: 11
 2 Fighting Energy MEE 6
 2 Psychic Energy MEE 5
 ```
-<!-- PUBLIC -->
+
 ### Inclusions
 
 - I think the fourth Noctowl line is very beneficial since this deck has a lot more trouble with drawing without Sada, so it relies on Noctowl even more. When playing with the 3-3 line I always wanted more.
@@ -209,6 +214,28 @@ title: Blaziken v Bolt 2
 - If you’re stuck in a losing prize trade, you’ll have to rely on Stamp scam. Taking out their Fez and Stamping them can make them brick, but then you still have the attacker to deal with that can probably one-shot you. Therefore, you may need to KO their attacker and Stamp, giving them Fez, and hope they whiff.
 - Sob can randomly be good, especially in the early-game.
 
+## Zoroark - Slightly Favorable
+
+- Similar to the above two, but applying fast pressure is better than positioning because they don’t have to put a two-prize Pokemon in play in order to play the game. Don’t leave a two-prize Pokemon in the active unless you’re winning the prize trade. Fan Rotom can efficiently apply pressure. Whether you’re KO’ing Zorua or not, attacking with Fan Rotom early is generally good.
+- Sometimes they have no Energy on the bench, and you have a choice to KO their Fez or KO their active Zoroark with Energy. I think KO’ing their Zoroark with Energy is generally best (even though it may be harder) if they have no Energy on the bench. Sometimes they just whiff PP Up, especially if you Stamp them.
+- Try to get a Grass Energy on Ogerpon (or even better, two of them) quickly so that you’ll have that option to one-shot Zoroark.
+- Try not to leave too much Energy in the discard. Using cards like Retrieval, Stretcher, and Trumpet can help play around Darmanitan and not give them that option.
+
+```youtube
+id: OHs-Mc5D3AU
+title: Bolt v Zoroark 1
+```
+
+```youtube
+id: iLIy5jBXhcw
+title: Bolt v Zoroark 2
+```
+
+```youtube
+id: 440pWXk5OLc
+title: Bolt v Zoroark 3
+```
+
 ### Alakazam - Very Unfavorable
 
 - Baby Raging Bolt is very good, prioritize attacking with it early. If you can’t, Fan Rotom is also a good fast attacker. Otherwise, just attack with whatever you can for fast pressure. Baby Raging Bolt can also be useful throughout the game.
@@ -246,6 +273,56 @@ id: hnu2VK19vmk
 title: King v Bolt 2
 ```
 
+### Excadrill - Slightly Unfavorable
+
+- Go first.
+- Wellspring Ogerpon is very strong. Try to get a fast Torrential Pump for two prizes before they get set up. If they push Genesect, KO it normally or Sob it if you can’t get the KO yet.
+- Raging Bolt and Glass Trumpet are very premium cards for one-shotting an Excadrill.
+- 3-2-1 map is on the table, though it typically requires both Boss and a big Raging Bolt one-shot. You’ll probably want both Boss in most games.
+- Clefairy might seem bad, but it’s actually a very strong and efficient attacker. Mostly good for getting the Boss one-shot on their Genesect / Fez.
+- YOLO Kangaskhan is sometimes the best option.
+- If you don’t have Clefairy in play, Sob’ing a Genesect can reliably buy one turn.
+
+```youtube
+id: dkbC_f9YsAc
+title: Drill v Bolt 1
+```
+
+```youtube
+id: hb0QJ851_EY
+title: Drill v Bolt 1
+```
+
+### Festival Lead - Unfavorable
+
+- Try to be very fast and aggressive with a single-prize attacker. Baby Raging Bolt is ideal, but Fan Rotom is much easier to use.
+- Stamp + Boss Thwackey is very effective if they don't have Shaymin in play. You can get Thwackey stuck and then snipe around it.
+
+### Crustle - Depends
+
+With Enamorus and Jamming Tower, the matchup becomes favorable. Otherwise, it's very unfavorable.
+
+- Pressure their Energy whenever possible.
+
+With Enamorus:
+- Use Enamorus to one-shot a Crustle out of nowhere. Make sure you don't give them the chance to KO it, so you can't give them too much time to load up two Crustle. If Enamorus does go down, at least it can be recovered with Stretcher. Same Jamming Tower for the turn you KO through their Cape.
+
+With Noctowl:
+- Fan Rotom can be used for fast pressure, but most of the time you’ll be trying to power up baby Bolt as fast as possible. It’s possible to win with baby Bolt. Use Boss to stall and snipe to pressure their Energy. Stamp is also very good to make them brick. If they KO baby Bolt, get it back and power it up with Energy Switch / Crispin.
+
+With Passimian:
+- If you're playing the non-Noctowl build with Passimian, save Passimian in hand and make a fast Kang to KO their Kang. Set up a Passimian play in your hand for when they are forced to go in with Crustle. If they don't have Cape, one-shot it with Passimian. If they do have Cape, deal as much damage as possible. You'll need both Stretchers for Passimian as well as Glass Trumpet for the Fighting Energy. Ideally you'll also Stamp them after they KO your first Passimian.
+
+```youtube
+id: BK_19n-ZiI0
+title: Crustle v Bolt 1
+```
+
+```youtube
+id: ovX7LmYRiqY
+title: Crustle v Bolt 2
+```
+
 ### Slop Box - Even
 
 - KO their Kang whenever possible.
@@ -264,43 +341,6 @@ These games are actually surprisingly interesting.
 ```youtube
 id: RoK0ACF6r9E
 title: Slop v Bolt 2
-```
-
-### Zoroark - Slightly Favorable
-
-- Similar to the above two, but applying fast pressure is better than positioning because they don’t have to put a two-prize Pokemon in play in order to play the game. Don’t leave a two-prize Pokemon in the active unless you’re winning the prize trade. Fan Rotom can efficiently apply pressure. Whether you’re KO’ing Zorua or not, attacking with Fan Rotom early is generally good.
-- Sometimes they have no Energy on the bench, and you have a choice to KO their Fez or KO their active Zoroark with Energy. I think KO’ing their Zoroark with Energy is generally best (even though it may be harder) if they have no Energy on the bench. Sometimes they just whiff PP Up, especially if you Stamp them.
-- Try to get a Grass Energy on Ogerpon (or even better, two of them) quickly so that you’ll have that option to one-shot Zoroark.
-- Try not to leave too much Energy in the discard. Using cards like Retrieval, Stretcher, and Trumpet can help play around Darmanitan and not give them that option.
-
-```youtube
-id: OHs-Mc5D3AU
-title: Bolt v Zoroark 1
-```
-
-```youtube
-id: iLIy5jBXhcw
-title: Bolt v Zoroark 2
-```
-
-```youtube
-id: 440pWXk5OLc
-title: Bolt v Zoroark 3
-```
-
-### Crustle - Very Unfavorable
-
-- Fan Rotom can be used for fast pressure, but most of the time you’ll be trying to power up baby Bolt as fast as possible. It’s possible to win with baby Bolt. Use Boss to stall and snipe to pressure their Energy. Stamp is also very good to make them brick. If they KO baby Bolt, get it back and power it up with Energy Switch / Crispin.
-- If you're playing the non-Noctowl build with Passimian, save Passimian in hand and make a fast Kang to KO their Kang. Set up a Passimian play in your hand for when they are forced to go in with Crustle. If they don't have Cape, one-shot it with Passimian. If they do have Cape, deal as much damage as possible. You'll need both Stretchers for Passimian as well as Glass Trumpet for the Fighting Energy. Ideally you'll also Stamp them after they KO your first Passimian.
-
-```youtube
-id: BK_19n-ZiI0
-title: Crustle v Bolt 1
-```
-
-```youtube
-id: ovX7LmYRiqY
-title: Crustle v Bolt 2
 ```
 
 ### Mewtwo - Favorable
@@ -328,26 +368,6 @@ id: 33oUkHZ-5qE
 title: Sneak v Bolt 2
 ```
 
-### Excadrill - Slightly Unfavorable
-
-- Go first.
-- Wellspring Ogerpon is very strong. Try to get a fast Torrential Pump for two prizes before they get set up. If they push Genesect, KO it normally or Sob it if you can’t get the KO yet.
-- Raging Bolt and Glass Trumpet are very premium cards for one-shotting an Excadrill.
-- 3-2-1 map is on the table, though it typically requires both Boss and a big Raging Bolt one-shot. You’ll probably want both Boss in most games.
-- Clefairy might seem bad, but it’s actually a very strong and efficient attacker. Mostly good for getting the Boss one-shot on their Genesect / Fez.
-- YOLO Kangaskhan is sometimes the best option.
-- If you don’t have Clefairy in play, Sob’ing a Genesect can reliably buy one turn.
-
-```youtube
-id: dkbC_f9YsAc
-title: Drill v Bolt 1
-```
-
-```youtube
-id: hb0QJ851_EY
-title: Drill v Bolt 1
-```
-
 ### Lucario - Depends
 
 This matchup is favorable for the Noctowl build, but unfavorable for the normal build.
@@ -367,11 +387,6 @@ title: Lucario v Bolt 1
 id: 3gGYgkVt9Qs
 title: Lucario v Bolt 2
 ```
-
-### Festival Lead - Unfavorable
-
-- Try to be very fast and aggressive with a single-prize attacker. Baby Raging Bolt is ideal, but Fan Rotom is much easier to use.
-- Stamp + Boss Thwackey is very effective if they don't have Shaymin in play. You can get Thwackey stuck and then snipe around it.
 
 ### Lopunny - Favorable
 

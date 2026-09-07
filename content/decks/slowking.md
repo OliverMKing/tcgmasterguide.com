@@ -43,7 +43,7 @@ Energy: 9
 <!-- PUBLIC -->
 ### Inclusions
 
-- Added Mega Slowbro for the Festival Lead matchup. I was skeptical of it working, but when I tried it out, it performed very well. It isn't very useful against other decks though, so it can be cut if Festival Lead isn't as popular.
+- Added Mega Slowbro for the Festival Lead matchup. I was skeptical of it working, but when I tried it out, it performed very well. It isn't very useful against other decks though, so it can be cut if Festival Lead isn't as popular. It also doesn't work well against the Seaking with Mist version, but that one is worse and less popular.
 - Smoochum is too valuable, especially against Dragapult. It's also very consistent 
 and easy to use.
 - Switch is needed in a variety of situations, such as after using Kyurem, getting 
@@ -53,23 +53,23 @@ even consider adding a third one.
 it with a Kyurem attack.
 - Ciphermanaic is too good in this deck to play less than four.
 - Lana's Aid is generally good and useful but I'm honestly not sure if it's necessary.
+- Brave Bangle is still very good, especially for Pokemon such as Blaziken ex and Hydrapple ex.
 
 ### Possible Inclusions
 
-- The Ian Robb version with Crispin, Munkidori, Drapion, and Zoroark is interesting. I
-haven't tried it yet. Drapion in particular could help a lot with two-prize decks, but
-you do have to play Munkidori to go along with it, which is very high-maintenance.
-- Along those lines, Prime Catcher could also be good, though you don't necessarily need
-all the fancy techs in order to play it. Secret Box is definitely good, but I don't 
-think it's 100% necessary.
+- Drapion can be useful against Dragapult or mirror. I think it's a little better than Pawmot due the poison breakpoint in mirror.
+- Prime Catcher is a decent option.
 - More Kangaskhan would always be nice.
 - Another Psychic Energy would be nice.
 
 ### Exclusions
 
-- Powerglass isn't good enough for how hard it is to pull off at a relevant time.
+- I don't think Zeraora is necessary and it can be a liability.
+- Both Annihilape are bad. The Psychic one does not let you win the matchups it's supposed to, and the Fighting one is just useless.
+- Powerglass isn't good enough for how hard it is to pull off at a relevant time, but when it does line up, it's very strong.
 - Surfer is worse than Switch. Although you can use it while Item locked, you won't have
 it at the right time.
+- Unfair Stamp and Special Red Card aren't as good for this deck since we cannot gust, which means that the gust + hand disrupt + snipe play is not an option.
 - Dawn seems good in theory but was not that useful in testing. Finding Slowking or 
 Metagross is not that hard normally as the deck often has extra Poke Pads anyway.
 <!-- /PUBLIC -->
@@ -153,18 +153,9 @@ id: DuCHkNj08Rw
 title: King v Pultnoir 2
 ```
 
-### Festival Lead - Favorable
-
-With Mega Slowbro, the matchup is favorable. Without it, the matchup is very unfavorable.
-
-- If they ever neglect to have Shaymin in play, Trifrost is an easy win. Play with the assumption that they'll get Shaymin, and if they don't, punish them.
-- Mega Slowbro is the main attacker since they'll usually have Shaymin (or Rabsca) in play. Smoochum and Wondrous Patch are key resources for powering up Slowbro. It's possible that Slowbro will get KO'd. If that happens, recover it with Stretcher and set it back up with Patches.
-- Get multiple Slowpoke in play and attach Energy to them aggressively so that you'll be able to use Slowbro. Evolving into Slowbro preemptively is usually fine as well. Just make sure you don't end up with one Slowpoke with two Energy and it just gets KO'd. Sometimes it can be better to split Energy in the early-game.
-- Don't evolve Slowpoke into Slowking unless you need Slowking to attack that turn. They probably won't disrupt your hand so you can hoard resources.
-
 ### Raging Bolt - Slightly Unfavorable
 
-- Sometimes Kang is needed to play the game, but putting it in play is very risky because it can give the opponent a good prize map. If you’re at 5 or 3 prizes and the opponent has plenty of Energy on the board, Kang is a lot worse to put in play. If you think they can’t punish it then it can be fine.
+- Sometimes Kang is needed to play the game, but putting it in play is very risky because it can give the opponent a good prize map. If they're at 5 or 3 prizes and the opponent has plenty of Energy on the board, Kang is a lot worse to put in play. If you think they can’t punish it then it can be fine.
 - Try to get Fez and/or Lucky Helmet in play when you’re taking a KO so you can get out of Stamp. Sometimes you need Kang for this reason as well.
 - Kyurem is generally not used much in this matchup but sometimes you need it in some fringe scenarios. Most of the time you just want to spam Metagross as quickly as possible.
 - Clefairy can be an efficient way to take a KO if they overbench or attack with Raging Bolt.
@@ -178,6 +169,28 @@ title: King v Bolt 1
 ```youtube
 id: hnu2VK19vmk
 title: King v Bolt 2
+```
+
+### Zoroark - Even
+
+- Fast Clefairy can sometimes be viable. Of course, Trifrost is preferred if possible.
+- Switch is an important resource for escaping Yveltal / Drapion.
+- Need space for triple Slowpoke, as Darmanitan can easily wipe them out.
+- General rule of thumb: if they have a single-prize Pokemon active, attack with Kyurem or Clefairy. If they have a two-prizer, KO with Metagross.
+
+```youtube
+id: rcxdgYn7PUY
+title: King v Zoro 1
+```
+
+```youtube
+id: vewPb1rXCkw
+title: King v Zoro 2
+```
+
+```youtube
+id: XJnQMqbMkXU
+title: King v Zoro 3
 ```
 
 ### Alakazam - Depends
@@ -205,6 +218,38 @@ id: OkwXG4DViHE
 title: King v Zam 3
 ```
 
+### Slowking Mirror - Even
+
+- Don’t leave Kang active if an incoming Metagross attack is likely. This goes for any two-prize Pokemon as well.
+- Get at least two Slowpoke evolved as soon as possible. Swarming all four Slowpoke can be viable in the early- or mid-game.
+- Spam Trifrost unless they have Kang in the active that you can KO with Metagross. Trifrost on their Slowking is still good because you can wipe out all their Pokes/Kings with two Trifrosts. Of course, the same can also be done to you and there’s nothing you can do about it. Sniping two-prize Pokemon with Trifrost can also be very good for the prize map. If they have Munkidori, sniping Meowth/Clefairy is still good, but sniping Latias/Fez is not as good (but can still be viable if you’re KO’ing Munkidori and don’t think they can replace it).
+
+### Excadrill - Favorable
+
+- Don’t leave Kang in the active, especially once their board is established, as we do not want to feed Excadrill an easy three-prize KO.
+- Trifrost is obviously insane. Wipe out three Metang, smack the Excadrill for 300, and then Trifrost to finish it off wins in three attacks. If there are not three targets to KO, smack their Excadrill for 300 and win with two follow up Trifrosts. Trifrosting first in that scenario can be worse since they can retreat Excadrill and it is permanently safe.
+
+### Festival Lead - Favorable
+
+With Mega Slowbro, the matchup is favorable. Without it, the matchup is very unfavorable.
+
+- If they ever neglect to have Shaymin in play, Trifrost is an easy win. Play with the assumption that they'll get Shaymin, and if they don't, punish them.
+- Mega Slowbro is the main attacker since they'll usually have Shaymin (or Rabsca) in play. Smoochum and Wondrous Patch are key resources for powering up Slowbro. It's possible that Slowbro will get KO'd. If that happens, recover it with Stretcher and set it back up with Patches.
+- Get multiple Slowpoke in play and attach Energy to them aggressively so that you'll be able to use Slowbro. Evolving into Slowbro preemptively is usually fine as well. Just make sure you don't end up with one Slowpoke with two Energy and it just gets KO'd. Sometimes it can be better to split Energy in the early-game.
+- Don't evolve Slowpoke into Slowking unless you need Slowking to attack that turn. They probably won't disrupt your hand so you can hoard resources.
+
+### Crustle - Favorable
+
+- Need to be careful with resources and try to play around Xerosic’s and Eri to some extent. You’ll probably need every last recovery card to get enough attacks through.
+- If you’re running low on attackers to copy, consider using Slowking’s second attack. It can get through Crustle, although slowly.
+- Trifrost is actually very good if they have Crustle/Dwebble in the active (unless they’re attacking with it, in which case just KO with Metagross). Sniping their Kang for 110 is very relevant. If they have Kang active, Metagross is usually best.
+- Make sure not to play into Bianca’s Devotion (on their Caped Kang) as that would be a catastrophe. Bangle can be useful for playing around it. If they heal to a number where 300 puts their Kang into Bianca range, Bangle can get the KO. Getting the extra damage from Bangle upfront can also be good sometimes.
+
+```youtube
+id: 7K4rTEmfVbU
+title: King v Crust 1
+```
+
 ### Hydrapple - Unfavorable
 
 - Trifrost is usually good, but if the opponent is careful they might have a board composition where it isn’t. If that’s the case, just use Metagross. If they have more than one single-prize Pokemon in play and / or Meowth, Trifrost is usually good. It can also be good if they have Fez and no Hydrapple, but if you smack Fez for 110, there is still a risk of Hydrapple healing it for 30. 
@@ -224,34 +269,6 @@ id: IAtSXBDV-Hc
 title: King v Hydrap 2
 ```
 
-### Slowking Mirror - Even
-
-- Don’t leave Kang active if an incoming Metagross attack is likely. This goes for any two-prize Pokemon as well.
-- Get at least two Slowpoke evolved as soon as possible. Swarming all four Slowpoke can be viable in the early- or mid-game.
-- Spam Trifrost unless they have Kang in the active that you can KO with Metagross. Trifrost on their Slowking is still good because you can wipe out all their Pokes/Kings with two Trifrosts. Of course, the same can also be done to you and there’s nothing you can do about it. Sniping two-prize Pokemon with Trifrost can also be very good for the prize map. If they have Munkidori, sniping Meowth/Clefairy is still good, but sniping Latias/Fez is not as good (but can still be viable if you’re KO’ing Munkidori and don’t think they can replace it).
-
-### Zoroark - Even
-
-- Fast Clefairy can sometimes be viable. Of course, Trifrost is preferred if possible.
-- Switch is an important resource for escaping Yveltal / Drapion.
-- Need space for triple Slowpoke, as Darmanitan can easily wipe them out.
-- General rule of thumb: if they have a single-prize Pokemon active, attack with Kyurem or Clefairy. If they have a two-prizer, KO with Metagross.
-
-```youtube
-id: rcxdgYn7PUY
-title: King v Zoro 1
-```
-
-```youtube
-id: vewPb1rXCkw
-title: King v Zoro 2
-```
-
-```youtube
-id: XJnQMqbMkXU
-title: King v Zoro 3
-```
-
 ### Slop Box - Unfavorable
 
 - Sometimes you may be tempted to go for Trifrost because they have a Pearl Clefairy active that doesn’t look very appetizing. Trifrost seems appealing because you can win in two attacks. However, if they have the Chien-Pao play available, it is a game-deciding punish. If it seems reasonable that they can have that play, just settle for a humble Metagross attack and chain Metagross (Clefairy can sometimes get in there too). That is the more reliable line and it also constantly forces them to find attackers (which makes it harder for them to gust). All they need for the Chien-Pao play is Meowth and Area Zero → Meowth for Ciphermaniac for Chien-Pao and Prime Catcher → Run Errand. 
@@ -261,18 +278,6 @@ title: King v Zoro 3
 ```youtube
 id: m42C_e2OwqU
 title: King v Slop 1
-```
-
-### Crustle - Favorable
-
-- Need to be careful with resources and try to play around Xerosic’s and Eri to some extent. You’ll probably need every last recovery card to get enough attacks through.
-- If you’re running low on attackers to copy, consider using Slowking’s second attack. It can get through Crustle, although slowly.
-- Trifrost is actually very good if they have Crustle/Dwebble in the active (unless they’re attacking with it, in which case just KO with Metagross). Sniping their Kang for 110 is very relevant. If they have Kang active, Metagross is usually best.
-- Make sure not to play into Bianca’s Devotion (on their Caped Kang) as that would be a catastrophe. Bangle can be useful for playing around it. If they heal to a number where 300 puts their Kang into Bianca range, Bangle can get the KO. Getting the extra damage from Bangle upfront can also be good sometimes.
-
-```youtube
-id: 7K4rTEmfVbU
-title: King v Crust 1
 ```
 
 ### Mewtwo - Favorable
@@ -296,12 +301,13 @@ id: it6-5D9h9vA
 title: Sneak v King 2
 ```
 
-### Excadrill - Favorable
+### Lucario - Favorable
 
-This matchup is favorable if they do not play Shaymin, and probably unfavorable if they do.
+The Lucario matchup is favorable if they do not have Shaymin, but unfavorable if they do have Shaymin.
 
-- Don’t leave Kang in the active, especially once their board is established, as we do not want to feed Excadrill an easy three-prize KO.
-- Trifrost is obviously insane. Wipe out three Metang, smack the Excadrill for 300, and then Trifrost to finish it off wins in three attacks. If there are not three targets to KO, smack their Excadrill for 300 and win with two follow up Trifrosts. Trifrosting first in that scenario can be worse since they can retreat Excadrill and it is permanently safe.
+- Early Trifrost is the go-to option. If you can ever Trifrost for three prizes, it's easy to get the other three on a Lucario. Therefore, 3-3 is the easiest prize map most of the time.
+- If you're able to get the Trifrost off, it's fine to put liabilities in play such as Kang and Fez to ensure that the deck works, since you'll win the prize trade anyway. If things aren't going smoothly, you ideally want to avoid putting Kang in play since you could quickly lose to a 1-2-3 reverse prize map.
+- Clefairy can be a useful attacker that can one-shot Lucario, but since you ideally want to Trifrost first (which makes there be less Pokemon in play for Clefairy), it doesn't actually come up that often.
 
 ## Personal Thoughts
 
