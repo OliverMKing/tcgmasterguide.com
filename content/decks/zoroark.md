@@ -72,6 +72,45 @@ Energy: 7
 - Ruffian does not beat Crustle so there’s no point in playing it.
 - Special Red Card could be ok. I don’t have much of an opinion on it. I don’t think it does anything particularly important, and there’s a lot of other cards I’d rather use the space on.
 
+## Standard List
+
+![normieZoroark list](./images/zoroark/ojvind.png)
+```decklist
+Pokémon: 19
+4 N's Zorua ASC 136
+4 N's Zoroark ex ASC 137
+2 N's Zekrom ASC 155
+1 N's Darumaka ASC 32
+1 N's Darmanitan ASC 33
+1 Budew ASC 16
+1 Yveltal MEG 88
+1 Tatsugiri TWM 131
+1 Munkidori ASC 99
+1 Pecharunt ex SFA 39
+1 Meowth ex POR 62
+1 Fezandipiti ex ASC 142
+
+Trainer: 33
+4 Lillie's Determination MEG 119
+3 Boss's Orders MEG 114
+2 Cyrano SSP 170
+1 Black Belt's Training JTG 143
+4 Buddy-Buddy Poffin ASC 184
+4 Transformation Tome CRI 83
+3 N's PP Up ASC 195
+3 Ultra Ball MEG 131
+2 Poké Pad POR 81
+1 Night Stretcher ASC 196
+1 Special Red Card CRI 82
+1 Secret Box TWM 163
+2 Binding Mochi PRE 95
+2 N's Castle JTG 152
+
+Energy: 8
+8 Darkness Energy MEE 7
+```
+
+There are a few ways people play Zoroark. This is the one that made Top 8 at Worlds featuring Darmanitan and Transformation Tome. This build is very solid but still has all of the normal Zoroark issues (such as matchup spread). Other verions are the Liam / Tord build of heavy Judge and Watchtower or the straightforward version with no Darmanitan and random other techs instead.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 

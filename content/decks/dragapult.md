@@ -50,7 +50,7 @@ Energy: 9
 
 ### Possible Inclusions
 
-- The Risky Ruins plus Dudunsparce version is obviously good since it won Worlds. That build is perhaps a bit more consistent throughout the game due to Dudunsparce, but its matchup spread is a bit worse.
+- The Risky Ruins plus Dudunsparce version is obviously good since it won Worlds. That build is perhaps a bit more consistent throughout the game due to Dudunsparce, but its matchup spread is a bit worse. Dudunsparce also doesn't help early-game consistency, moreso mid- and late-game, but that's when Dragapult is already good either way.
 - Chi-Yu would be a good tech to destroy Crustle. Paldean Tarous also does this, but I think Chi-Yu is better for this build.
 - Dark Bell was ok when I tried it out. Free confusion is good, but the card is a bit more situational than I expected. I'm still not sure if it needs to be in the deck.
 - Judge could be played over a Red Card. I think Red Card is better overall, but it’s pretty close. Xerosic’s Machinations is a similar consideration for the same reasons.
@@ -62,6 +62,44 @@ Energy: 9
 - Second Munkidori is probably fine but I never really need it.
 - Yveltal is too hard to use, especially with just two Dark and one Munki.
 - Dawn or Brock’s Scouting would help a bit with consistency but the cards just aren’t that good.
+
+## Standard List
+
+![decklist for normieDragapult](./images/dragapult/worldswin.png)
+```decklist
+Pokémon: 19
+4 Dreepy TWM 128
+4 Drakloak TWM 129
+3 Dragapult ex TWM 130
+2 Munkidori TWM 95
+2 Budew ASC 16
+1 Dunsparce JTG 120
+1 Dudunsparce TEF 129
+1 Meowth ex POR 62
+1 Fezandipiti ex ASC 142
+
+Trainer: 32
+4 Lillie's Determination MEG 119
+3 Boss's Orders MEG 114
+2 Crispin SCR 133
+1 Rosa's Encouragement POR 84
+4 Poké Pad POR 81
+4 Buddy-Buddy Poffin TEF 144
+4 Crushing Hammer POR 71
+3 Ultra Ball MEG 131
+3 Night Stretcher ASC 196
+1 Special Red Card CRI 82
+1 Unfair Stamp TWM 165
+2 Risky Ruins MEG 127
+
+Energy: 9
+3 Psychic Energy MEE 5
+3 Fire Energy MEE 2
+3 Darkness Energy MEE 7
+```
+
+This is the list that won Worlds. It is fundamentally good and focuses more on Munkidori. Dudunsparce also helps with some mid- and late-game consistency. Without Watchtowers, the matchup spread is slightly worse (such as slop decks and Slowking).
+
 <!-- /PUBLIC -->
 ## Gameplay Tips
 

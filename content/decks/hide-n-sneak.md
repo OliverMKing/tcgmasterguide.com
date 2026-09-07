@@ -6,9 +6,9 @@ format: Standard
 ---
 ## Decklist
 
-![sneak list](./images/hide-n-sneak/engsneak.png)
+![sneak list](./images/hide-n-sneak/explorer.png)
 ```decklist
-Pokémon: 25
+Pokémon: 24
 4 Shuppet PBL 33
 4 Banette PBL 34
 4 Dunsparce JTG 120
@@ -18,12 +18,12 @@ Pokémon: 25
 1 Bloodmoon Ursaluna ex TWM 141
 1 Flutter Mane TEF 78
 1 Fan Rotom SCR 118
-1 Chien-Pao SSP 56
 
-Trainer: 28
+Trainer: 29
 4 Lillie's Determination MEG 119
 4 Boss's Orders MEG 114
 1 Hilda WHT 84
+1 Explorer's Guidance TEF 147
 4 Ultra Ball MEG 131
 4 Poké Pad POR 81
 2 Buddy-Buddy Poffin TEF 144
@@ -45,7 +45,7 @@ Energy: 7
 - Ursaluna is absolutely required for closing out games. It is very good.
 - Flutter Mane is a very good tech for the Festival Lead matchup, which is getting some hype due to Gladion. Of course, if Festival Lead ends up not being very popular, Flutter is an easy cut. It’s basically useless against everything else aside for some fringe scenarios against Latias ex.
 - Fan Rotom is surprisingly good. I didn’t have it at first but ended up needing it. With the lower Poffin count, searching for individual Dunsparce is a huge strain on resources. Fan Rotom can also attack on Turn 1 fairly often when you happen to start with it.
-- Chien-Pao is solely a tech for Watchtower. It can occasionally be good against Festival Lead too. If you don’t fear Watchtower in any given metagame, Chien-Pao can be an easy cut.
+- Explorer's Guidance is a bit of consistency and is included because it is sometimes the best option off Banette's attack.
 - Hilda is a way to find Legacy Energy, which is very nice. Without Hilda, I often had games where I would never even see the Legacy. Aside from that, generally searching for evolutions and Energy is still good on its own anyway.
 - Four Boss is absolutely required. Dhelmise needs to get consistent two-shots since it doesn’t one-shot most things, and Ursaluna Boss is a very common way to close out games.
 - Pokegear is good consistency and helps access Boss on key turns.
@@ -55,6 +55,7 @@ Energy: 7
 
 ### Possible Inclusions
 
+- Chien-Pao is a good tech for Watchtower. It can occasionally be good against Festival Lead too. If Watchtower is more popular, Chien-Pao is better.
 - I would really like a third Night Stretcher. It would be good in basically every game and I feel like I’m always cutting it close with just two. I don’t know what to cut though.
 - Prism Energy over basic Psychic would enable some toolbox options such as Moltres, and it’s completely non-invasive.
 - Special Red Card would probably be fine but it doesn’t make that much sense in this deck.

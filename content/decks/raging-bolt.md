@@ -142,6 +142,46 @@ Energy: 11
 - Trimming any extra Pokemon such as the fourth Ogerpon, Iron Leaves, and second Fan Rotom makes the deck less clunky and works pretty well. However, this does make the opening turns a little less consistent. As for Iron Leaves, it’s just not very good.
 - I considered Wellspring Ogerpon and Water Energy but I think that’s doing too much, and at that point just play Tera Box. Wellspring is not as good in this format as it was pre-rotation, I think.
 - Jamming Tower / other Stadiums seem useless. Bumping Area Zero is not very important and usually strictly harmful except against Dragapult, but I'd rather have Chien-Pao for that. I’m not even sure if the third Area Zero is necessary.
+
+## Standard List
+
+![normie Raging Bolt list](./images/raging-bolt/irontwins.png)
+```decklist
+Pokémon: 20
+4 Mega Kangaskhan ex MEG 104
+3 Teal Mask Ogerpon ex TWM 25
+3 Meowth ex POR 62
+2 Latias ex SSP 76
+2 Lillie's Clefairy ex JTG 56
+1 Raging Bolt ex TEF 123
+1 Chien-Pao SSP 56
+1 Wellspring Mask Ogerpon ex TWM 64
+1 Fezandipiti ex ASC 142
+1 Iron Leaves ex TEF 25
+1 Iron Crown ex TEF 81
+
+Trainer: 25
+4 Crispin SCR 133
+2 Boss's Orders MEG 114
+2 Cyrano SSP 170
+2 Ciphermaniac's Codebreaking TEF 145
+4 Ultra Ball MEG 131
+4 Energy Switch MEG 115
+2 Night Stretcher ASC 196
+1 Glass Trumpet SCR 135
+1 Unfair Stamp TWM 165
+3 Area Zero Underdepths SCR 131
+
+Energy: 15
+7 Grass Energy MEE 1
+3 Psychic Energy MEE 5
+2 Lightning Energy MEE 4
+2 Fighting Energy MEE 6
+1 Water Energy MEE 3
+```
+
+Techs such as Iron Leaves and Iron Crown are quite popular at the moment. Stamp is also a common Ace Spec, though Prime Catcher is seeing a little more play than it has been. Sometimes this deck includes a Crustle tech such as Enamorus or Passimian, other times not.
+
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
