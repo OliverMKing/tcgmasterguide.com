@@ -131,6 +131,45 @@ Energy: 13
 - Crushing Hammer takes up too much space and is mostly good against Dragapult, which is already favorable (or still unfavorable with a tech).
 - Community Center is much worse than the other Stadium options.
 
+## Standard List
+
+![normieCrust list](./images/crustle/worldst8.png)
+```decklist
+Pokémon: 10
+4 Mega Kangaskhan ex MEG 104
+3 Dwebble DRI 11
+3 Crustle DRI 12
+
+Trainer: 37
+4 Team Rocket's Petrel ASC 207
+4 Lillie's Determination MEG 119
+4 Boss's Orders MEG 114
+3 Eri TEF 146
+2 Hilda WHT 84
+1 Xerosic's Machinations SFA 64
+1 Pokémon Center Lady MEG 123
+4 Jumbo Ice Cream PFL 91
+3 Pokégear 3.0 SVI 186
+2 Buddy-Buddy Poffin ASC 184
+1 Special Red Card CRI 82
+1 Switch MEG 130
+1 Ultra Ball MEG 131
+1 Enhanced Hammer TWM 148
+1 Handheld Fan TWM 150
+1 Hero's Cape TEF 152
+1 Lumiose City POR 77
+1 Festival Grounds TWM 149
+1 Team Rocket's Factory ASC 203
+
+Energy: 13
+4 Growing Grass Energy POR 86
+4 Mist Energy TEF 161
+4 Spiky Energy JTG 159
+1 Grass Energy MEE 1
+```
+
+This is the list that had two Top 8's at Worlds. Without Bouffalant, it's worse against Slowking, Festival Lead, and random Tauros in slop decks. In exchange, the deck is fundamentally better overall.
+
 ## Gameplay Tips
 
 - A lot of the skill expression with Crustle is understanding board positioning as well as the capabilities of opponent’s decks. The deck is a lot weaker without Luxurious Cape, so it is actually possible to lose against favorable matchups. One consistent thing I’ve found is that you need to spread out Energy and make strategic sacrifices in order to set up a checkmate position.

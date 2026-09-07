@@ -65,6 +65,47 @@ Energy: 8
 - Area Zero is one of the worse Stadium options. It doesn't do enough. However, if you also played Chien-Pao, it could remove liabilities from the board.
 - The Milotic build is sadly a failed experiment.
 
+## Standard List
+
+![normieBlaziken list](./images/dragapult-blaziken/normieblaze.png)
+```decklist
+Pokémon: 22
+4 Dreepy ASC 158
+4 Drakloak ASC 159
+2 Dragapult ex ASC 160
+2 Torchic DRI 40
+1 Combusken DRI 41
+2 Blaziken ex JTG 24
+2 Munkidori ASC 99
+1 Lillie's Clefairy ex ASC 76
+1 Fezandipiti ex ASC 142
+1 Meowth ex POR 62
+1 Budew ASC 16
+1 Chi-Yu TWM 39
+
+Trainer: 30
+4 Lillie's Determination MEG 119
+3 Boss's Orders MEG 114
+2 Crispin SCR 133
+1 Dawn PFL 87
+4 Buddy-Buddy Poffin ASC 184
+4 Ultra Ball MEG 131
+4 Poké Pad POR 81
+2 Night Stretcher ASC 196
+2 Rare Candy MEG 125
+1 Special Red Card CRI 82
+1 Unfair Stamp TWM 165
+1 Area Zero Underdepths SCR 131
+1 Team Rocket's Watchtower ASC 210
+
+Energy: 8
+3 Fire Energy MEE 2
+3 Psychic Energy MEE 5
+2 Darkness Energy MEE 7
+```
+
+Most Blaziken lists have Area Zero and / or Watchtower. Shaymin is also a fairly common tech, although it's also common for them to not have it.
+
 <!-- /PUBLIC -->
 ## Gameplay Tips
 

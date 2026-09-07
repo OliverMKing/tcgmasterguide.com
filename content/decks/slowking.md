@@ -72,6 +72,44 @@ it at the right time.
 - Unfair Stamp and Special Red Card aren't as good for this deck since we cannot gust, which means that the gust + hand disrupt + snipe play is not an option.
 - Dawn seems good in theory but was not that useful in testing. Finding Slowking or 
 Metagross is not that hard normally as the deck often has extra Poke Pads anyway.
+
+## Standard List
+
+![normieslowking list](./images/slowking/zera.png)
+```decklist
+Pokémon: 21
+4 Slowpoke SCR 57
+3 Slowking SCR 58
+3 Mega Kangaskhan ex MEG 104
+2 Latias ex SSP 76
+2 Kyurem SFA 47
+2 Metagross CRI 61
+1 Fezandipiti ex ASC 142
+1 Meowth ex POR 62
+1 Smoochum SSP 75
+1 Lillie's Clefairy ex ASC 76
+1 Zeraora DRI 78
+
+Trainer: 29
+4 Lillie's Determination MEG 119
+4 Ciphermaniac's Codebreaking TEF 145
+1 Surfer ASC 200
+4 Poké Pad POR 81
+4 Ultra Ball MEG 131
+3 Wondrous Patch PFL 94
+2 Night Stretcher ASC 196
+1 Switch MEG 130
+1 Secret Box TWM 163
+1 Lucky Helmet TWM 158
+4 Academy at Night SFA 54
+
+Energy: 10
+4 Telepathic Psychic Energy POR 88
+4 Psychic Energy MEE 5
+2 Boomerang Energy TWM 166
+```
+
+This is fairly similar to my list. Zeraora has become very common now. Sometimes the deck also contains either Annihilape or Pawmot / Drapion as additional techs. Brave Bangle has dropped off in popularity, and basically everyone plays Surfer. Many lists also do not play Smoochum, though many still do as well. Powerglass is another occasional tech.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
@@ -224,7 +262,9 @@ title: King v Zam 3
 - Get at least two Slowpoke evolved as soon as possible. Swarming all four Slowpoke can be viable in the early- or mid-game.
 - Spam Trifrost unless they have Kang in the active that you can KO with Metagross. Trifrost on their Slowking is still good because you can wipe out all their Pokes/Kings with two Trifrosts. Of course, the same can also be done to you and there’s nothing you can do about it. Sniping two-prize Pokemon with Trifrost can also be very good for the prize map. If they have Munkidori, sniping Meowth/Clefairy is still good, but sniping Latias/Fez is not as good (but can still be viable if you’re KO’ing Munkidori and don’t think they can replace it).
 
-### Excadrill - Favorable
+### Excadrill - Depends
+
+This matchup depends on if they have Shaymin. If they do, it's unfavorable. If they don't, it's favorable.
 
 - Don’t leave Kang in the active, especially once their board is established, as we do not want to feed Excadrill an easy three-prize KO.
 - Trifrost is obviously insane. Wipe out three Metang, smack the Excadrill for 300, and then Trifrost to finish it off wins in three attacks. If there are not three targets to KO, smack their Excadrill for 300 and win with two follow up Trifrosts. Trifrosting first in that scenario can be worse since they can retreat Excadrill and it is permanently safe.

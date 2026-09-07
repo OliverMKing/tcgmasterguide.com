@@ -65,6 +65,40 @@ Energy: 15
 - Jumbo Ice Cream’s breakpoints are atrocious because it’s very hard to have multiple of them at once. Moltres + Phantom Dive still KO’s after an Ice Cream, for example. This deck does not draw cards very well so it won’t have multiple Ice Creams very often, especially against hand disruption. They also aren’t relevant in lots of matchups, although they can be good in some others. In general, if they aren’t one-shotting Excadrill, we’re already having a good time anyway.
 - Poke Pad is just not good in this deck.
 - Gravity Mountain sounds good to make Metagross get some KO's, but Dragapult is a good matchup regardless, except for Blaziken (which is still unfavorable anyway).
+
+## Standard List
+
+![normieexcadrill list](./images/excadrill/worldsbest.png)
+```decklist
+Pokémon: 20
+4 Beldum TEF 113
+4 Metang TEF 114
+1 Metagross CRI 61
+4 Drilbur PBL 46
+2 Mega Excadrill ex PBL 65
+2 Genesect ex BLK 67
+1 Mega Skarmory ex POR 55
+1 Fezandipiti ex ASC 142
+1 Shaymin DRI 10
+
+Trainer: 23
+4 Lillie's Determination MEG 119
+4 Team Rocket's Petrel DRI 176
+1 Kieran TWM 154
+1 Boss's Orders MEG 114
+4 Buddy-Buddy Poffin TEF 144
+4 Jumbo Ice Cream PFL 91
+2 Pokégear 3.0 SVI 186
+1 Switch MEG 130
+1 Ultra Ball MEG 131
+1 Hero's Cape TEF 152
+
+Energy: 17
+17 Metal Energy MEE 8
+```
+
+There isn't a definitive standard list for Excadrill yet, since the deck is still fairly new. This is the list that did best at Worlds. The top Excadrill lists from Worlds focused on Lillie's instead of the hyped Brock's version, though you'll still see some of those around. Without Trolley, the deck is considerably slower, but with the upside of Hero's Cape and Jumbo Ice Cream in return.
+
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
