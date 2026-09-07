@@ -72,7 +72,7 @@ Energy: 11
 - Using Aura Jab to KO Pokemon like Meowth/Fez to accelerate Energy while prize trading is a major part of this deck’s win condition/prize mapping. It’s best to do so when you have 2-3 Energy in your discard. If you do it without accelerating Energy, you may get punished and stuck later.
 - If you have a very small bench against Clefairy decks, it’s possible that Clefairy won’t be able to one-shot Lucario. This is pretty difficult to play around but can be game-winning if you have the opportunity.
 - It is okay to evolve into Hariyama without using the Ability, so long as the following conditions are met: 1) you’re getting Stamped OR they can easily snipe off the Makuhita 2) you are going to need to attack with the Hariyama, and 3) you won’t necessarily need the gust effect from the Ability later.
-- Going first is usually best. I now think going first against Dragapult is best despite the annoying Budew potential. Getting the Turn 1 Solrock KO is especially difficult if they get Munkidori in the active Turn 1. Go second against some unfavorable matchups such as Alakazam or Festival Lead to cheese them with fast KO's.
+- Going first is usually best. I now think going first against Dragapult is best despite the annoying Budew potential. Getting the Turn 1 Solrock KO is especially difficult if they get Munkidori in the active Turn 1. It would be reasonable to go second against some unfavorable matchups such as Alakazam or Festival Lead to cheese them with fast KO's.
 
 ## Matchups
 
@@ -172,6 +172,14 @@ title: Lucario v Zoroark 2
 id: nU1gG12catQ
 title: Lucario v Zoroark 3
 ```
+
+### Excadrill - Favorable
+
+- This is the main matchup where going second is best. Try to get a fast KO or two with Solrock. Getting an early KO on Beldum or Metang can be good if they don't have Excadrill set up yet, but it's usually not worth using a Premium Power Pro to do KO Metang with Solrock (just do it with Aura Jab instead).
+- Try to set up for a triple Premium Power play to one-shot their Excadrill with Mega Brave. If they have Cape, you'll have to two-shot, which is fine. If you do have to two-shot, you still want to deal lots of damage with the first hit (Mega Brave) to play around Jumbo Ice Cream. Genesect can also be handy to stop Cape if you are able to get it fast enough.
+- 1-2-3 prize map is fairly convenient since they always have to put Genesect ex in play.
+- Hariyama can be a good attacker, especially if they Petrel for Kieran to threaten a one-shot.
+- Try not to let Riolu get poked for 10 damage in the early-game. If that happens, try to set up a fresh Lucario because that 10 damage matters a lot!
 
 ### Crustle - Very Favorable
 
