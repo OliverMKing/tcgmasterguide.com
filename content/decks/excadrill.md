@@ -122,15 +122,20 @@ id: 8pYQpK3xHAQ
 title: Drill v PultBlaze 1
 ```
 
-### Slop Box - Even
+### Raging Bolt - Slightly Favorable
 
-- Boss is very important to take an efficient prize map. Try to KO their Kang before they remove it from the board with Chien-Pao.
-- Metagross is great in this matchup. Genesect can also sometimes attack for similar reasons as against Raging Bolt.
-- Wellspring Ogerpon is a huge threat! If they attached an Energy to Wellspring, you may want to send up Genesect and not put a fifth Pokemon on your bench in order to play around Clefairy. If they Sob, you can Petrel for Switch and get out. If they don’t already have Energy on Wellspring, no need to worry about it.
+- Metagross is insane in this matchup. You’ll want to start attacking with it pretty much whenever you get the chance. Of course, early Excadrill is still the go-to main attacker for the matchup since Metagross is a bit slow.
+- Genesect can one-shot Clefairy. This is mostly relevant if the opponent is on three prize cards and you don’t have access to Metagross, or if they Sob trap Genesect. If they have Clefairy in their active, Boss’ing around it leaves the attacking Genesect plays open. Of course, this is all very situational.
+- Wellspring Ogerpon is a huge threat! If they attached an Energy to Wellspring, you may want to send up Genesect and not put a fifth Pokemon on your bench in order to play around Clefairy. If they Sob, you can Petrel for Switch and get out. If they don’t already have Energy on Wellspring, it might be best to just leave Drilbur active, fill the board, and hope they don’t get the Pump off from nowhere, as it is harder to pull off than one might think.
 
 ```youtube
-id: yXZhZKazbs8
-title: Drill v Slop 1
+id: dkbC_f9YsAc
+title: Drill v Bolt 1
+```
+
+```youtube
+id: hb0QJ851_EY
+title: Drill v Bolt 1
 ```
 
 ### Zoroark - Favorable
@@ -163,22 +168,6 @@ Without Empoleon:
 - Don’t bother trying to tiptoe around Trifrost. Our best chance is to go fast and aggressive, and hope they don’t draw great. Play normally and try to prize race them by going 3-2-1.
 - Boss is very important as you’ll need to snipe down Kang and Latias to rush prize cards.
 
-### Raging Bolt - Slightly Favorable
-
-- Metagross is insane in this matchup. You’ll want to start attacking with it pretty much whenever you get the chance. Of course, early Excadrill is still the go-to main attacker for the matchup since Metagross is a bit slow.
-- Genesect can one-shot Clefairy. This is mostly relevant if the opponent is on three prize cards and you don’t have access to Metagross, or if they Sob trap Genesect. If they have Clefairy in their active, Boss’ing around it leaves the attacking Genesect plays open. Of course, this is all very situational.
-- Wellspring Ogerpon is a huge threat! If they attached an Energy to Wellspring, you may want to send up Genesect and not put a fifth Pokemon on your bench in order to play around Clefairy. If they Sob, you can Petrel for Switch and get out. If they don’t already have Energy on Wellspring, it might be best to just leave Drilbur active, fill the board, and hope they don’t get the Pump off from nowhere, as it is harder to pull off than one might think.
-
-```youtube
-id: dkbC_f9YsAc
-title: Drill v Bolt 1
-```
-
-```youtube
-id: hb0QJ851_EY
-title: Drill v Bolt 1
-```
-
 ### Festival Lead - Unfavorable
 
 - The ideal attacking lineup is Genesect -> Metagross -> Metagross -> Excadrill. They have to Boss around at some point, so make them get through the Metagross. There are many exceptions. Sometimes they get the first attack or you have an easy Excadrill attack instead. Getting some mills isn’t bad. If you mill a Gladion you basically win on the spot.
@@ -207,6 +196,17 @@ title: Drill v Hydrap 1
 
 - Use Excadrill to remove their Kang, and then use Metagross to run through Crustle. Target down their Energy and make sure you do not somehow lose the Metagross!
 
+### Slop Box - Even
+
+- Boss is very important to take an efficient prize map. Try to KO their Kang before they remove it from the board with Chien-Pao.
+- Metagross is great in this matchup. Genesect can also sometimes attack for similar reasons as against Raging Bolt.
+- Wellspring Ogerpon is a huge threat! If they attached an Energy to Wellspring, you may want to send up Genesect and not put a fifth Pokemon on your bench in order to play around Clefairy. If they Sob, you can Petrel for Switch and get out. If they don’t already have Energy on Wellspring, no need to worry about it.
+
+```youtube
+id: yXZhZKazbs8
+title: Drill v Slop 1
+```
+
 ### Mewtwo - Slightly Favorable
 
 - Start attacking with Excadrill. If they smack Excadrill, retreat it for a fresh one. Make them work hard for every KO.
@@ -231,6 +231,12 @@ This is the main matchup where Ice Creams would be very good. If you have Ice Cr
 id: XcVEM5eOs8I
 title: Sneak v Drill 1
 ```
+
+### Lucario - Unfavorable
+
+- Speed is the name of the game. If you can avoid giving up free Solrock KO's, that's great. Fast Excadrill also makes it less likely they have triple Premium Power Pro right away.
+- Poking Lucario or Riolu for ten damage is very good if you have nothing better to do. Otherwise, you'll have to settle for two-shotting Lucario.
+- Early Boss + Fez attack can sometimes stop them from getting Lucario online.
 
 ## Personal Thoughts
 

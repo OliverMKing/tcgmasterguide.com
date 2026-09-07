@@ -101,17 +101,21 @@ id: aUJFp8ykZHE
 title: Hammers v Noir 2
 ```
 
-### Slop Box - Favorable
+### Raging Bolt - Slightly Unfavorable
 
-- Budew and Munkidori are usually not good in this matchup. Shaymin is sometimes good if they’re threatening Fez / Wellspring, but not always since you want a slim board later.
-- Fez and Meowth are massive liabilities. Do not put them down unless absolutely necessary.
-- Play to have a slim board at the end of the game. Save a Stadium and hand disruption card for when you have only one benched Pokemon and an attacking Dragapult. Bump their Stadium and disrupt their hand. This makes it hard for them to get the KO on a Dragapult.
-- If you play Crushing Hammer, it is generally best on their backup attacker to prevent them from building up too much Energy in play.
-- Dusknoir is generally good. It can bypass Pearl along with Phantom Dive snipe. Dusclops can be good if you end up having to smack a Kang for 200 and then finish it with Dusclops + Phantom Dive snipe.
+- The best times to play Watchtower are at the very start of the game, when they have a low hand, or when you can pair it with hand disruption. In other words, don’t slam Watchtower when they have a big hand or you think they can easily bump it.
+- Dusknoir is very good in this matchup, primarily if they have Meowth in play. If you Cursed Blast a Meowth, you can win with just two Phantom Dive attacks. If you’re able to line this up, you can go behind quite a few prize cards in order to set up this play. You do have to be careful about Chien-Pao clearing off liabilities. Don’t leave damage in play if you can avoid it, and if you do, and spam hand disruption to minimize the risk of Chien-Pao. Random Budew damage can also be relevant, and lots of times you’ll need an additional attack anyway, so don’t tunnel too hard on one particular line.
+- Shaymin is very good to protect from Fez or Wellspring, but if you’re Item locking them and they don’t have a threat established, you don’t necessarily need it right away.
 
 ```youtube
-id: PADRK5BOGhQ
-title: Slop v Pultnoir 1
+id: xtyhdTqg5eI
+title: Pultnoir v Bolt 1
+```
+These games were before I added Shaymin.
+
+```youtube
+id: NolNmY62jDY
+title: Pultnoir v Bolt 2
 ```
 
 ### Zoroark - Slightly Unfavorable
@@ -188,23 +192,6 @@ id: sRuPcTQZjVc
 title: Drill v Pultnoir 2
 ```
 
-### Raging Bolt - Slightly Unfavorable
-
-- The best times to play Watchtower are at the very start of the game, when they have a low hand, or when you can pair it with hand disruption. In other words, don’t slam Watchtower when they have a big hand or you think they can easily bump it.
-- Dusknoir is very good in this matchup, primarily if they have Meowth in play. If you Cursed Blast a Meowth, you can win with just two Phantom Dive attacks. If you’re able to line this up, you can go behind quite a few prize cards in order to set up this play. You do have to be careful about Chien-Pao clearing off liabilities. Don’t leave damage in play if you can avoid it, and if you do, and spam hand disruption to minimize the risk of Chien-Pao. Random Budew damage can also be relevant, and lots of times you’ll need an additional attack anyway, so don’t tunnel too hard on one particular line.
-- Shaymin is very good to protect from Fez or Wellspring, but if you’re Item locking them and they don’t have a threat established, you don’t necessarily need it right away.
-
-```youtube
-id: xtyhdTqg5eI
-title: Pultnoir v Bolt 1
-```
-These games were before I added Shaymin.
-
-```youtube
-id: NolNmY62jDY
-title: Pultnoir v Bolt 2
-```
-
 ### Festival Lead - Favorable
 
 - Set up Dusknoir as soon as possible and use it to blow up Rabsca. Dusclops on Rellor also works. If you can’t, at least KO Rabsca normally. Then you can use Dusclops/Noir to wipe out all of the Dipplin/Applin, which is game over.
@@ -228,6 +215,19 @@ title: Pultnoir v Crustle 1
 ```youtube
 id: fCWrj9O2oiw
 title: Pultnoir v Crustle 2
+```
+
+### Slop Box - Favorable
+
+- Budew and Munkidori are usually not good in this matchup. Shaymin is sometimes good if they’re threatening Fez / Wellspring, but not always since you want a slim board later.
+- Fez and Meowth are massive liabilities. Do not put them down unless absolutely necessary.
+- Play to have a slim board at the end of the game. Save a Stadium and hand disruption card for when you have only one benched Pokemon and an attacking Dragapult. Bump their Stadium and disrupt their hand. This makes it hard for them to get the KO on a Dragapult.
+- If you play Crushing Hammer, it is generally best on their backup attacker to prevent them from building up too much Energy in play.
+- Dusknoir is generally good. It can bypass Pearl along with Phantom Dive snipe. Dusclops can be good if you end up having to smack a Kang for 200 and then finish it with Dusclops + Phantom Dive snipe.
+
+```youtube
+id: PADRK5BOGhQ
+title: Slop v Pultnoir 1
 ```
 
 ### Hydrapple - Favorable

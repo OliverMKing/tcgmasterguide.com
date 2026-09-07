@@ -197,20 +197,19 @@ id: 3oqKTcPvTRs
 title: Blaziken v Zam 2
 ```
 
-### Slop Box - Very Favorable
+### Raging Bolt - Very Favorable
 
-- Prioritize stabilizing by getting as many Abra and Kadabra as possible. Shaymin / Rabsca can be very good for protecting against Wellspring.
-- If they get a significant fast lead, you may need to avoid benching Fezandipiti in order to win the prize trade.
-- Play normally for the most part. It’s impossible to lose if you get set up.
+- Shaymin / Rabsca is very good to protect against Waterpon.
+- Watch out for Stamp. Don't risk losing to it with no protection. Since the prize trade is so favorable, it's ok to wait and stabilize your board before going in.
 
 ```youtube
-id: UMXM2VXsxeo
-title: Slop v Zam 1
+id: jghIvgnkBmg
+title: Zam v Bolt 1
 ```
 
 ```youtube
-id: OABzOSwJJ3c
-title: Slop v Zam 2
+id: nqv7CF4-1NI
+title: Zam v Bolt 2
 ```
 
 ### Zoroark - Favorable
@@ -261,21 +260,6 @@ title: King v Zam 3
 - Shaymin is sometimes good to stop their Fez. Don’t let them cheese you with Boss Fez strats.
 - Try to not two-shot their non-Caped Excadrill if you have any better option (such as Boss or extending for a one-shot). If they have Cape, you'll probably need to two-shot it, which is fine. Dealing lots of damage on the first hit can be relevent if they play Jumbo Ice Cream.
 
-### Raging Bolt - Very Favorable
-
-- Shaymin / Rabsca is very good to protect against Waterpon.
-- Watch out for Stamp. Don't risk losing to it with no protection. Since the prize trade is so favorable, it's ok to wait and stabilize your board before going in.
-
-```youtube
-id: jghIvgnkBmg
-title: Zam v Bolt 1
-```
-
-```youtube
-id: nqv7CF4-1NI
-title: Zam v Bolt 2
-```
-
 ### Festival Lead - Unfavorable
 
 - Rare Candy is a very important resource. Try to get as many Abra and Kadabra in play as soon as possible so that you won’t stress the Candies as much.
@@ -310,6 +294,22 @@ title: Crustle v Zam 1
 ```youtube
 id: 0Cw8pFTfpZE
 title: Crustle v Zam 2
+```
+
+### Slop Box - Very Favorable
+
+- Prioritize stabilizing by getting as many Abra and Kadabra as possible. Shaymin / Rabsca can be very good for protecting against Wellspring.
+- If they get a significant fast lead, you may need to avoid benching Fezandipiti in order to win the prize trade.
+- Play normally for the most part. It’s impossible to lose if you get set up.
+
+```youtube
+id: UMXM2VXsxeo
+title: Slop v Zam 1
+```
+
+```youtube
+id: OABzOSwJJ3c
+title: Slop v Zam 2
 ```
 
 ### Hydrapple - Favorable

@@ -6,28 +6,27 @@ format: Standard
 ---
 ## Decklist
 
-![Blaziken list](./images/dragapult-blaziken/redcard.png)
+![Blaziken list](./images/dragapult-blaziken/chi.png)
 ```decklist
 Pokémon: 21
-Pokémon: 21
-4 Dreepy TWM 128
-4 Drakloak TWM 129
-2 Dragapult ex TWM 130
+4 Dreepy ASC 158
+4 Drakloak ASC 159
+2 Dragapult ex ASC 160
 2 Torchic DRI 40
 1 Combusken DRI 41
 2 Blaziken ex JTG 24
-2 Munkidori TWM 95
-1 Budew ASC 16
+2 Munkidori ASC 99
 1 Fezandipiti ex ASC 142
 1 Meowth ex POR 62
-1 Lillie's Clefairy ex JTG 56
+1 Budew ASC 16
+1 Chi-Yu TWM 39
 
 Trainer: 31
 4 Lillie's Determination MEG 119
 3 Boss's Orders MEG 114
 2 Crispin SCR 133
 1 Dawn PFL 87
-4 Buddy-Buddy Poffin TEF 144
+4 Buddy-Buddy Poffin ASC 184
 4 Ultra Ball MEG 131
 4 Poké Pad POR 81
 3 Rare Candy MEG 125
@@ -44,7 +43,7 @@ Energy: 8
 <!-- PUBLIC -->
 ### Inclusions
 
-- Clefairy is very good against other Dragapult since it gives you a way back into the game with a worse start. However, it is probably cuttable.
+- Added Chi-Yu to counter Crustle for now.
 - Dawn is better than expected. I would like to add the second one back in but not sure where the space is since I also want second Crispin.
 - Rare Candy is a card that is either useless or extremely impactful. There are some games where you don’t need it, but it’s very powerful and important to have on specific turns in various situations. I tried with two and three and found it to be strong enough to warrant the third.
 - Crispin is extremely strong. I found myself using it a ton, despite the deck also playing Blaziken. A very underrated aspect of it is actually finding the Energy, which can sometimes be inconsistent otherwise.
@@ -54,7 +53,7 @@ Energy: 8
 ### Possible Inclusions
 
 - Second Dawn would be nice to have.
-- Dudunsparce ex, Chi-Yu, or Paldean Tauros could be good techs for Crustle should the need arise.
+- Clefairy is still good but I felt it was the most cuttable card for Chi-Yu. It doesn't increase the winrate in mirror that much and is terrible to start with. It's a bit better in the Area Zero lists anyway.
 - Team Rocket’s Watchtower is decent in the current meta, and gets better with the addition of Special Red Card.
 
 ### Exclusions
@@ -109,15 +108,21 @@ id: YbrejTOUFNI
 title: Blaziken v Pult 2
 ```
 
-### Slop Box - Slightly Unfavorable
+### Raging Bolt - Favorable
 
-- Try to get a fast Blaziken. If they are threatening attacking Fezandipiti (or Wellspring), get both Torchic right away. If not, still get it relatively soon. Blaziken can take most two-prize KO’s (sometimes with Adrenabrain’s help) and does not worry about Clefairy.
-- Attacking with Dragapult is still not terrible, and you’ll be doing it a decent amount anyway. It’s best along with Unfair Stamp as it’s less likely they’ll have the response.
-- Two-prize Pokemon such as Fez and Meowth are more liabilities than normal since the opponent can commonly start ahead in the trade and then finish Clefairy on the liabilities. Try to keep them out of play if you can! Of course, if you need them to play the game, so be it. It’s not an instant-loss, just don’t use them as liberally as normal.
-- Budew is mostly used to stop them from making an attacker. If they already have an attacker, Item-lock is not as much of a priority.
-- Save Risky Ruins for a strong play with Munkidori. This combo is very relevant. Can be used to one-shot the likes of Fez, or finish it off after a 200 hit.
-- Targeting the Clefairy is usually best. There’s a good chance they just won’t have the response to your Dragapult, especially if you Unfair Stamp them on the same turn.
-- If you have Shaymin or Watchtower, this is a good matchup to use them in.
+- This is another matchup where Blaziken is very good. You don’t need to get the second Torchic right away, and a lot of times you don’t need it at all.
+- Blaziken is best used to attack pretty much any time it can get a KO. Ideally they don’t have a lot of Energy / Raging Bolt ex with Energy in play. It is possible for them to one-shot Blaziken with Raging Bolt. If they do that, respond with Unfair Stamp and Phantom Dive. If they have Fezandipiti, don’t take a KO right away and try to make them brick for a turn. Although Blaziken is good to attack with, you may not even attack with it more than once. It’s mostly just used to halt their tempo and deny a free Clefairy KO.
+- Spread damage should go 40 to Raging Bolt, and sometimes 10 to 210 HP Pokemon. Having the option to KO their Fez is good, but there are some occasions where smacking it for 200 and not taking the KO is better, so it just depends. If you're behind on the prize trade, you might need to go for the delay into double-KO.
+
+```youtube
+id: b_n36dgxdPo
+title: Blaziken v Bolt 1
+```
+
+```youtube
+id: v568uuMMVyM
+title: Blaziken v Bolt 2
+```
 
 ### Zoroark - Slightly Unfavorable
 
@@ -161,21 +166,15 @@ id: 8pYQpK3xHAQ
 title: Drill v PultBlaze 1
 ```
 
-### Raging Bolt - Favorable
+### Slop Box - Slightly Unfavorable
 
-- This is another matchup where Blaziken is very good. You don’t need to get the second Torchic right away, and a lot of times you don’t need it at all.
-- Blaziken is best used to attack pretty much any time it can get a KO. Ideally they don’t have a lot of Energy / Raging Bolt ex with Energy in play. It is possible for them to one-shot Blaziken with Raging Bolt. If they do that, respond with Unfair Stamp and Phantom Dive. If they have Fezandipiti, don’t take a KO right away and try to make them brick for a turn. Although Blaziken is good to attack with, you may not even attack with it more than once. It’s mostly just used to halt their tempo and deny a free Clefairy KO.
-- Spread damage should go 40 to Raging Bolt, and sometimes 10 to 210 HP Pokemon. Having the option to KO their Fez is good, but there are some occasions where smacking it for 200 and not taking the KO is better, so it just depends. If you're behind on the prize trade, you might need to go for the delay into double-KO.
-
-```youtube
-id: b_n36dgxdPo
-title: Blaziken v Bolt 1
-```
-
-```youtube
-id: v568uuMMVyM
-title: Blaziken v Bolt 2
-```
+- Try to get a fast Blaziken. If they are threatening attacking Fezandipiti (or Wellspring), get both Torchic right away. If not, still get it relatively soon. Blaziken can take most two-prize KO’s (sometimes with Adrenabrain’s help) and does not worry about Clefairy.
+- Attacking with Dragapult is still not terrible, and you’ll be doing it a decent amount anyway. It’s best along with Unfair Stamp as it’s less likely they’ll have the response.
+- Two-prize Pokemon such as Fez and Meowth are more liabilities than normal since the opponent can commonly start ahead in the trade and then finish Clefairy on the liabilities. Try to keep them out of play if you can! Of course, if you need them to play the game, so be it. It’s not an instant-loss, just don’t use them as liberally as normal.
+- Budew is mostly used to stop them from making an attacker. If they already have an attacker, Item-lock is not as much of a priority.
+- Save Risky Ruins for a strong play with Munkidori. This combo is very relevant. Can be used to one-shot the likes of Fez, or finish it off after a 200 hit.
+- Targeting the Clefairy is usually best. There’s a good chance they just won’t have the response to your Dragapult, especially if you Unfair Stamp them on the same turn.
+- If you have Shaymin or Watchtower, this is a good matchup to use them in.
 
 ### Festival Lead - Slightly Favorable
 

@@ -169,12 +169,20 @@ id: NvqJhv7tq-Y
 title: Crustle v Pultnoir 2
 ```
 
-### Slop Box - Auto Win
+### Raging Bolt - Very Favorable
 
-If they have no techs, this matchup is an auto-win. If they have Paldean Tauros and Koraidon ex, it's unfavorable.
+- Set up multiple Crustle as normal.
+- They sometimes have Passimian, which can be a threat. Try to get Hero's Cape on your main attacking Crustle so that it can survive a Passimian hit and one-shot in return. You don't want to commit all of your Energy to one Crustle only to be swept by a Passimian, so try to spread out your Energy at the start (or use Hero's Cape for protection if you have it). The same applies against Enamorus.
 
-- In case of a surprise Passimian, play the same was as against Raging Bolt.
-- If they have Paldean Tauros, try to build up a Kang as fast as possible and go with the Kang Bouff strat. With Bouff or Cape, Kang even survives Koraidon's first attack. With both, it survives Koraidon's second attack.
+```youtube
+id: BK_19n-ZiI0
+title: Crustle v Bolt 1
+```
+
+```youtube
+id: ovX7LmYRiqY
+title: Crustle v Bolt 2
+```
 
 ### Zoroark - Favorable
 
@@ -245,21 +253,6 @@ title: King v Crust 1
 
 I don't think it's possible to win. One idea is to go aggro Kang and hope for the best. Another is to go Crustle and hope they prized Metagross (but they sometimes play two).
 
-### Raging Bolt - Very Favorable
-
-- Set up multiple Crustle as normal.
-- They sometimes have Passimian, which can be a threat. Try to get Hero's Cape on your main attacking Crustle so that it can survive a Passimian hit and one-shot in return. You don't want to commit all of your Energy to one Crustle only to be swept by a Passimian, so try to spread out your Energy at the start (or use Hero's Cape for protection if you have it).
-
-```youtube
-id: BK_19n-ZiI0
-title: Crustle v Bolt 1
-```
-
-```youtube
-id: ovX7LmYRiqY
-title: Crustle v Bolt 2
-```
-
 ### Festival Lead - Slightly Favorable
 
 This matchup is a bit closer with Gladion against the Cornerstone build. For the Kang build, it is slightly favorable.
@@ -289,6 +282,13 @@ title: Festival v Crustle 1
 - For the Crispin build, Crispin and Munkidori are very strong.
 - For the Kang build, try to make an invincible Crustle and use Eri before attacking to hopefully get rid of Ice Creams.
 - One possible way to win is by decking them out by sticking their Kang in the active. If they put down an extra Dwebble, KO it so that your Lillie only draws six. Then repeatedly use Boss to strand up their Kang while it cannot do anything to your Crustle. Keeping your main Crustle alive is important. Of course, you'll also need to carefully calculate each players' card situation so that your opponent will be the one to deck out after you both Xerosic each other.
+
+### Slop Box - Auto Win
+
+If they have no techs, this matchup is an auto-win. If they have Paldean Tauros and Koraidon ex, it's unfavorable.
+
+- In case of a surprise Passimian, play the same was as against Raging Bolt.
+- If they have Paldean Tauros, try to build up a Kang as fast as possible and go with the Kang Bouff strat. With Bouff or Cape, Kang even survives Koraidon's first attack. With both, it survives Koraidon's second attack.
 
 ### Hydrapple - Unfavorable
 
