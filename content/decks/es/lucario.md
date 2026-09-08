@@ -6,28 +6,29 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for Lucario](./images/lucario/nojudge.png)
+![decklist for Lucario](./images/lucario/shaymin.png)
 ```decklist
-Pokémon: 17
+Pokémon: 18
 4 Riolu MEG 76
 3 Mega Lucario ex MEG 77
 2 Makuhita MEG 72
 2 Hariyama MEG 73
-3 Solrock MEG 75
+2 Solrock MEG 75
 2 Lunatone MEG 74
 1 Genesect SFA 40
+1 Shaymin DRI 10
 1 Meowth ex POR 62
 
-Trainer: 32
+Trainer: 31
 4 Lillie's Determination MEG 119
 3 Boss's Orders MEG 114
 4 Ultra Ball MEG 131
 4 Fighting Gong MEG 116
-4 Premium Power Pro MEG 124
 4 Poké Pad ASC 198
+4 Premium Power Pro MEG 124
+2 Switch SVI 194
 1 Secret Box TWM 163
 3 Air Balloon ASC 181
-2 Switch SVI 194
 2 Gravity Mountain SSP 177
 
 Energy: 11
@@ -122,6 +123,14 @@ Este matchup podría ser ligeramente desfavorable dependiendo de la lista del op
 - Si consiguen poner dos Lucario en juego al principio, puedes ignorar los Pokémon que solo dan un premio e intentar ganar debilitándolos a ambos. Derrota a uno de dos golpes y al otro de uno. Intenta evitar que tu oponente tenga acceso a este mapeo de premios tambíen, bale la pena retrasar la entrada de tu segundo Lucario en juego.
 - Judge es ideal para evitar que derroten a tu Lucario de un solo golpe. Por ejemplo, si atacas con un Lucario intacto y tienen una mano grande, Judge puede ser útil para que fallen el KO.
 - Genesect es muy fuerte junto a un Lucario intacto, ya que les dificulta mucho debilitarlo.
+
+### Mega Excadrill - Desfavorable
+
+- Este es el matchup principal en el que conviene atacar en segundo lugar. Intenta conseguir uno o dos KOs rápidos con Solrock. Lograr un KO temprano contra Beldum o Metang puede ser útil si aún no han seteado a Excadrill, pero por lo general no vale la pena gastar un Premium Power Pro para noquear a Metang con Solrock (es mejor usar Aura Jab).
+- Intenta preparar una jugada de triple Premium Power Pro para noquear a su Excadrill de un solo golpe con Mega Brave. Si llevan equipada la Hero's Cape, necesitarás dos golpes, lo cual es aceptable. Si te ves obligado a dar dos golpes, procura infligir mucho daño con el primero (Mega Brave) para contrarrestar el efecto de Jumbo Ice Cream. Genesect también puede ser útil para anular la Hero's Cape si logras ponerlo en juego lo suficientemente rápido.
+- La distribución de premios 1-2-3 es bastante ventajosa, ya que ellos siempre están obligados a poner a Genesect ex en juego.
+- Hariyama puede ser un buen atacante, especialmente si usan Petrel para buscar a Kieran y amenazar con un KO de un solo golpe.
+- Intenta evitar que Riolu reciba 10 de daño en los primeros compases de la partida. Si eso ocurre, trata de preparar un Lucario nuevo pues esos 10 de daño son cruciales.
 
 ### Garchomp - Desfavorable
 

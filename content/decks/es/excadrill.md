@@ -65,6 +65,39 @@ Energy: 15
 - Poke Pad simplemente no es útil aquí.
 - Mega Skarmory es dificil de usar de manera efectiva, y solo tiene sentido en una lista sin Boss's Orders.
 - Hero's Cape es una carta muy buena pero el deck suele desmoronarse si no tienes Precious Trolley al inicio y el deck se vuelve menos consistente.
+
+## Standard List
+
+![normieexcadrill list](./images/excadrill/worldsbest.png)
+```decklist
+Pokémon: 20
+4 Beldum TEF 113
+4 Metang TEF 114
+1 Metagross CRI 61
+4 Drilbur PBL 46
+2 Mega Excadrill ex PBL 65
+2 Genesect ex BLK 67
+1 Mega Skarmory ex POR 55
+1 Fezandipiti ex ASC 142
+1 Shaymin DRI 10
+
+Trainer: 23
+4 Lillie's Determination MEG 119
+4 Team Rocket's Petrel DRI 176
+1 Kieran TWM 154
+1 Boss's Orders MEG 114
+4 Buddy-Buddy Poffin TEF 144
+4 Jumbo Ice Cream PFL 91
+2 Pokégear 3.0 SVI 186
+1 Switch MEG 130
+1 Ultra Ball MEG 131
+1 Hero's Cape TEF 152
+
+Energy: 17
+17 Metal Energy MEE 8
+```
+Todavía no existe una lista estándar definitiva para Excadrill, ya que el deck es bastante reciente. Esta es la lista que obtuvo mejores resultados en el Mundial. Las mejores listas de Excadrill apostaron por Lillie en lugar de la versión de Brock que tanto se había promocionado, aunque todavía se ven algunas de estas últimas. Sin Trolley, el mazo es considerablemente más lento, pero a cambio cuenta con la ventaja de incluir Hero's Cape y Jumbo Ice Cream.
+
 <!-- /PUBLIC -->
 ## Gameplay
 
@@ -149,6 +182,12 @@ Con Empoleon:
 Sin Empoleon:
 - Si empiezan con un Pokémon malo al azar como Dedenne o Genesect, es posible noquear Pokemon atacando a su alrededor con Fezandipiti y Boss para ganar tiempo.
 - Otra posible condición de victoria es descartar cartas importantes (de recuperación o Boss) mientras se consiguen KOs tempranos con Excadrill, y luego cambiar a Metagross -> Metagross con Night Stretcher. Incluso Metang puede noquear a Abra si necesitas atacar con un solo premio, pero KO a su Alakazam suele ser lo ideal.
+
+### Mega Lucario - Desfavorable
+
+- La velocidad es clave. Si logras evitar que Solrock consiga noquear a tus Pokémon gratis, será una gran ventaja. Además, contar con un Excadrill rápido reduce la probabilidad de que el rival tenga de inmediato de tres copias de Premium Power Pro.
+- Infligir 10 puntos de daño a Lucario o Riolu es una buena opción ya que si no tendrás que conformarte con noquear a Lucario en dos turnos.
+- Una combinación de Boss y Fezandipiti al inicio de la partida puede impedir en ocasiones que el rival logre poner a Lucario en juego.
 
 ### Festival Lead - Desfavorable
 

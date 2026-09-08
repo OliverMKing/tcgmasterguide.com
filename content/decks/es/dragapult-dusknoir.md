@@ -61,6 +61,46 @@ Energy: 9
 - Moltres no era efectivo contra Raging Bolt, y Dusknoir ayuda bastante contra Hydrapple.
 - Rare Candy no es necesario, aunque tampoco es malo.
 - Jamming Tower es simplemente mala en el meta actual; es por mucho la peor opción de Estadio popular.
+
+## Standard List
+
+![normiePultnoir list](./images/dragapult-dusknoir/normienoir.png)
+```decklist
+Pokémon: 20
+4 Dreepy TWM 128
+4 Drakloak TWM 129
+3 Dragapult ex TWM 130
+2 Duskull PRE 35
+2 Dusclops PRE 36
+1 Dusknoir PRE 37
+1 Budew ASC 16
+1 Munkidori TWM 95
+1 Fezandipiti ex ASC 142
+1 Meowth ex POR 62
+
+Trainer: 32
+4 Lillie's Determination MEG 119
+3 Boss's Orders MEG 114
+2 Crispin SCR 133
+1 Rosa's Encouragement POR 84
+1 Judge DRI 167
+4 Ultra Ball MEG 131
+4 Poké Pad POR 81
+4 Buddy-Buddy Poffin TEF 144
+3 Crushing Hammer SVI 168
+2 Night Stretcher ASC 196
+1 Special Red Card CRI 82
+1 Unfair Stamp TWM 165
+1 Team Rocket's Watchtower DRI 180
+1 Jamming Tower TWM 153
+
+Energy: 8
+3 Fire Energy MEE 2
+3 Psychic Energy MEE 5
+2 Darkness Energy MEE 7
+```
+
+La lista normal normalmente incluye Jamming Tower y/o Rocket's Watchtower. Juez y el cuarto Crushing Hammer también son comunes.
 <!-- /PUBLIC -->
 ## Gameplay
 

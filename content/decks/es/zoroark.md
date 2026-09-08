@@ -49,7 +49,7 @@ Energy: 7
 - Meowth ha superado las expectativas y es muy bueno para la consistencia inicial de este deck. Suelo usar Night Stretcher para recuperarlo y buscar el Boss's Orders ganador. Se incluyen tres Ultra Ball principalmente por su sinergia con Meowth.
 - Yveltal es una muy buena solución cuando aún no tienes el combo completo que necesitas. Aunque las estrategias centradas en Yveltal no funcionan muy bien en el meta actual, a menudo te da uno o dos turnos que necesitas para realizar algunos Trades adicionales. atrapar a un Mega Kangaskhan también es muy fuerte, ya que se le puede noquear fácilmente en el siguiente ataque, pero de lo contrario es difícil noquearlo sin daño previo.
 - Dedenne y Enhanced Hammer están aquí para asegurar la victoria contra Crustle. Por supuesto, se pueden quitar si no te importa el matchup, lo cual es perfectamente válido. Creo que Crustle podría ser una buena opción para el Mundial, por eso los he incluido.
-- xerosic's Machinations con Dedenne a veces puede vencer a Alakazam y también es muy bueno en el mirror. De lo contrario no es muy bueno, así que definitivamente se puede quitar.
+- Xerosic's Machinations con Dedenne a veces puede vencer a Alakazam y también es muy bueno en el mirror.
 - Blackbelt's Training es increíblemente bueno contra Dragapult, permitiendo noquearlo de un solo golpe con facilidad. Me pareció muy relevante. También puede ayudar contra otros Pokémon con mucho HP como Hydrapple o Mega Kangaskhan.
 - 4 N's Pp Up asegura que podamos encadenar a Zoroark en intercambios de premios. Consideraría jugar una Janine's Secret Art en lugar de una de ellas, pero es fundamental tener siempre PP Up en los turnos que lo necesites, y normalmente necesitas muchos de ellos en cada partida.
 - Secret Box es un Ace Spec bastante buena. Ayuda con la consistencia y a realizar combos.
@@ -70,7 +70,47 @@ Energy: 7
 - Lo mismo ocurre con Mega Absol. Aunque sería genial tener algunas posibilidades increíbles con el Transofrmation Tome, no le veo la utilidad a ninguna de estas cartas.
 - Ruffian no vence a Crustle, así que no tiene sentido jugarlo.
 - Special Red Card podría estar bien. No tengo una opinión muy definida al respecto. No creo que haga nada particularmente importante, y hay muchas otras cartas en las que preferiría usar ese espacio.
-- No creo que usar Judge y muchos Watchtower sea la mejor idea con este deck. En ese punto solo estas esperando intercambiar atacantes y que a tu oponente le falle algo en algún turno.
+- No creo que usar Judge y muchos Watchtower sea la mejor idea con este deck. En ese punto solo estas esperando intercambiar atacantes y que a tu oponente le falle algo en algún turno. Dicho esto, es el mejor chance que tiene el deck de ganarle a Alakazam lo cual es importante a considerar.
+
+## Standard List
+
+![normieZoroark list](./images/zoroark/ojvind.png)
+```decklist
+Pokémon: 19
+4 N's Zorua ASC 136
+4 N's Zoroark ex ASC 137
+2 N's Zekrom ASC 155
+1 N's Darumaka ASC 32
+1 N's Darmanitan ASC 33
+1 Budew ASC 16
+1 Yveltal MEG 88
+1 Tatsugiri TWM 131
+1 Munkidori ASC 99
+1 Pecharunt ex SFA 39
+1 Meowth ex POR 62
+1 Fezandipiti ex ASC 142
+
+Trainer: 33
+4 Lillie's Determination MEG 119
+3 Boss's Orders MEG 114
+2 Cyrano SSP 170
+1 Black Belt's Training JTG 143
+4 Buddy-Buddy Poffin ASC 184
+4 Transformation Tome CRI 83
+3 N's PP Up ASC 195
+3 Ultra Ball MEG 131
+2 Poké Pad POR 81
+1 Night Stretcher ASC 196
+1 Special Red Card CRI 82
+1 Secret Box TWM 163
+2 Binding Mochi PRE 95
+2 N's Castle JTG 152
+
+Energy: 8
+8 Darkness Energy MEE 7
+```
+
+Existen varias formas de jugar con Zoroark. Esta es la versión que logró llegar al Top 8 en el Mundial, incluyendo a Darmanitan y Transformation Tome. Es una versión muy sólida, aunque sigue presentando los problemas habituales de Zoroark. Otras versiones incluyen la de Liam y Tord que apuesta fuertemente por Judge y Watchtower o la versión más directa, sin Darmanitan y con otras cartas tech variadas.
 <!-- /PUBLIC -->
 ## Gameplay
 

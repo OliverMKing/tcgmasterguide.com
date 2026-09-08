@@ -6,21 +6,24 @@ format: Standard
 ---
 ## Decklist
 
-![sneak list](./images/hide-n-sneak/engsneak.png)
+![sneak list](./images/hide-n-sneak/explorer.png)
 ```decklist
-Pokémon: 25
+Pokémon: 24
 4 Shuppet PBL 33
 4 Banette PBL 34
 4 Dunsparce JTG 120
 3 Dudunsparce TEF 129
 4 Dhelmise PBL 39
 2 Lillie's Clefairy ex JTG 56
-1 Chien-Pao SSP 56
+1 Bloodmoon Ursaluna ex TWM 141
+1 Flutter Mane TEF 78
+1 Fan Rotom SCR 118
 
-Trainer: 28
+Trainer: 29
 4 Lillie's Determination MEG 119
 4 Boss's Orders MEG 114
 1 Hilda WHT 84
+1 Explorer's Guidance TEF 147
 4 Ultra Ball MEG 131
 4 Poké Pad POR 81
 2 Buddy-Buddy Poffin TEF 144
@@ -42,12 +45,12 @@ Energy: 7
 - Ursaluna es absolutamente necesario para cerrar partidas. Es muy bueno.
 - Flutter Mane es una muy buena opción para el matchup contra Festival Lead, que está generando bastante interés debido a Gladion. Por supuesto, si Festival Lead no resulta ser muy popular, Flutter se puede quitar fácilmente. Es prácticamente inútil contra todo lo demás, excepto en algunos escenarios marginales contra Latias ex.
 - Fan Rotom es sorprendentemente bueno. No lo tenía al principio, pero terminé necesitándolo. Con la menor cantidad de Poffin, buscar Dunsparce individuales supone una gran carga de recursos. Fan Rotom también puede atacar en el primer turno con bastante frecuencia si empiezas con él.
-- Chien-Pao es exclusivamente para la Watchtower. Ocasionalmente también puede ser útil contra Festival Lead. Si no temes a Rocket's Watchtower, puedes quitar fácilmente a Chien-Pao.
 - Hilda es una forma de encontrar Legacy Energy, lo cual es muy útil. Sin Hilda, a menudo tenía partidas en las que ni siquiera veía la Energía Legacy. Aparte de eso, buscar evoluciones y Energía sigue siendo útil por sí solo.
 - Cuatro Boss son absolutamente necesarios. Dhelmise necesita conseguir KOs consistentes de dos golpes, ya que no suele derrotar a la mayoría de los Pokémon de un solo golpe, y Ursaluna Boss es una forma muy común de terminar las partidas.
 - Pokégear ofrece buena consistencia y ayuda a acceder a Boss en turnos clave.
 - Air Balloon es una buena carta de utilidad general. Es útil para cambiar a Ursaluna, especialmente si el oponente deja a Dhelmise activo. Extremadamente útil si alguna vez necesitas sacar a Ursaluna del activo, lo cual no ocurre a menudo, pero puede ser decisivo cuando sucede. También es particularmente útil con Flutter Mane en el matchup contra Festival, aunque no siempre es necesario.
 - Prism Tower y Ultra Ball son cartas imprescindibles (cuatro copias) para que el deck funcione correctamente. Prism Tower también te permite ganar batallas de estadios, lo que a veces marca la diferencia.
+- Explorer's Guidance agrega un poco de consistencia y es usualmente de las mejores opciones para elegir con el ataque de Banette.
 - Legacy Energy es una carta de ataque especial muy poderosa. Dhelmise no suele tener muchos Pokémon que puedan derrotarlo de un solo golpe, por lo que las partidas pueden alargarse y puede que no puedas terminarlas rápidamente. Legacy Energy también te da una gran ventaja contra otros decks de una sola carta de premio.
 
 ### Posibles Inclusiones
@@ -55,6 +58,7 @@ Energy: 7
 - Me gustaría tener un tercer Night Stretcher. Sería útil en prácticamente todas las partidas y siento que siempre voy justo con solo dos. No sé qué quitar.
 - Prism Energy en lugar de Psychic permitiría algunas opciones más versátiles, como Moltres, y no es invasiva.
 - Special Red Card probablemente estaría bien, pero no tiene mucho sentido en este deck.
+- Chien-Pao es exclusivamente para la Watchtower. Ocasionalmente también puede ser útil contra Festival Lead. Si no temes a Rocket's Watchtower, no lo incluyas.
 
 ### Exclusiones
 

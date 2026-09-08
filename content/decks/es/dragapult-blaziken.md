@@ -6,28 +6,27 @@ format: Standard
 ---
 ## Decklist
 
-![Blaziken list](./images/dragapult-blaziken/redcard.png)
+![Blaziken list](./images/dragapult-blaziken/chi.png)
 ```decklist
 Pokémon: 21
-Pokémon: 21
-4 Dreepy TWM 128
-4 Drakloak TWM 129
-2 Dragapult ex TWM 130
+4 Dreepy ASC 158
+4 Drakloak ASC 159
+2 Dragapult ex ASC 160
 2 Torchic DRI 40
 1 Combusken DRI 41
 2 Blaziken ex JTG 24
-2 Munkidori TWM 95
-1 Budew ASC 16
+2 Munkidori ASC 99
 1 Fezandipiti ex ASC 142
 1 Meowth ex POR 62
-1 Lillie's Clefairy ex JTG 56
+1 Budew ASC 16
+1 Chi-Yu TWM 39
 
 Trainer: 31
 4 Lillie's Determination MEG 119
 3 Boss's Orders MEG 114
 2 Crispin SCR 133
 1 Dawn PFL 87
-4 Buddy-Buddy Poffin TEF 144
+4 Buddy-Buddy Poffin ASC 184
 4 Ultra Ball MEG 131
 4 Poké Pad POR 81
 3 Rare Candy MEG 125
@@ -44,7 +43,7 @@ Energy: 8
 <!-- PUBLIC -->
 ### Inclusiones
 
-- Clefairy es una muy buena opción contra otros Dragapult ya que te da posibilidades de revertir un mal inicio. Sin embargo también podría quitarse facilmente.
+- Agregue a Chi-Yu para counterear a Crustle por ahora.
 - Dawn es mejor de lo que esperaba. Me gustaría volver a incluir la segunda copia, pero no sé dónde está el espacio, ya que también quiero un segundo Crispin.
 - Rare Candy es una carta que puede ser inútil o extremadamente impactante. Hay partidas en las que no la necesitas, pero es muy poderosa e importante tenerla en turnos específicos en diversas situaciones. La probé con dos y tres copias y me pareció lo suficientemente fuerte como para justificar la tercera.
 - Crispin es extremadamente fuerte. Lo usé muchísimo, a pesar de que el deck también incluye a Blaziken. Un aspecto muy subestimado es la facilidad para encontrar la Energía, algo que a veces puede ser inconsistente.
@@ -54,7 +53,7 @@ Energy: 8
 ### Posibles Inclusiones
 
 - Una segunda Dawn sería útil.
-- Dudunsparce ex, Chi-Yu o Paldean Tauros podrían ser buenas opciones para Crustle si surgiera la necesidad.
+- Clefairy ex podría ser útil para los mirror pero por ahora me parece más importante tener una respuesta contra Crustle.
 - Team Rocket's Watchtower es bueno en el meta actual y se volvió aún mejor con Special Red Card.
 
 ### Exclusiones
@@ -64,6 +63,47 @@ Energy: 8
 - Creo que Judge y Harlequin son malas cartas, así que no las voy a jugar a menos que encuentre una buena razón para hacerlo.
 - Probé con cuatro Boss’s Orders porque la carta está rota, pero no me pareció necesario en las pruebas.
 - Area Zero no vale la pena sin jugar Chien-Pao para remover Pokemon de juego. 
+
+## Lista Común
+
+![normieBlaziken list](./images/dragapult-blaziken/normieblaze.png)
+```decklist
+Pokémon: 22
+4 Dreepy ASC 158
+4 Drakloak ASC 159
+2 Dragapult ex ASC 160
+2 Torchic DRI 40
+1 Combusken DRI 41
+2 Blaziken ex JTG 24
+2 Munkidori ASC 99
+1 Lillie's Clefairy ex ASC 76
+1 Fezandipiti ex ASC 142
+1 Meowth ex POR 62
+1 Budew ASC 16
+1 Chi-Yu TWM 39
+
+Trainer: 30
+4 Lillie's Determination MEG 119
+3 Boss's Orders MEG 114
+2 Crispin SCR 133
+1 Dawn PFL 87
+4 Buddy-Buddy Poffin ASC 184
+4 Ultra Ball MEG 131
+4 Poké Pad POR 81
+2 Night Stretcher ASC 196
+2 Rare Candy MEG 125
+1 Special Red Card CRI 82
+1 Unfair Stamp TWM 165
+1 Area Zero Underdepths SCR 131
+1 Team Rocket's Watchtower ASC 210
+
+Energy: 8
+3 Fire Energy MEE 2
+3 Psychic Energy MEE 5
+2 Darkness Energy MEE 7
+```
+
+La mayoría de las listas de Blaziken tienen Area Zero o Rocket's Watchtower. shaymin también es bastante común como tech.
 
 <!-- /PUBLIC -->
 ## Gameplay
