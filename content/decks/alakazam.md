@@ -140,9 +140,9 @@ This is the more standard build with Genesect and Stadiums instead of Rabsca and
 
 ## Matchups
 
-### Dragapult - Depends
+### Dragapult - Unfavorable
 
-With the addition of Rabsca, some Dragapult builds are now favorable for Alakazam! Dragapult / Dusknoir is still unfavorable for all builds. If you play Battle Cage instead of Rabsca, all Dragapult matchups are still unfavorable. How you play against Dragapult with and without Rabsca is quite different. With the Nighttime Mine build, it's close to even against Dragapult decks with fewer than three hand disruption cards. Most of them just play a Stamp and a Red Card, which is good, but sometimes they also have Judge.
+Depending on the builds, the matchup is usually unfavorable or slightly unfavorable. The Rabsca version does better against non-Watchtower builds, but struggles more against Watchtower than the Battle Cage version.
 
 With Rabsca:
 
@@ -225,7 +225,8 @@ title: Zam v Zoroark 1
 
 ### Alakazam Mirror - Even
 
-- Do everything you can to get the first attack. Use Sacred Ash for Alakazam pieces as needed.
+- Play around Eri by using Stretcher and Sacred Ash for value as soon as possible. If you let those cards get Eri'd, you may run out of attackers.
+- Do everything you can to get the first KO.
 - Don't give them free Enhanced Hammer value by attaching extra Telepathic Energy for no reason.
 - Don't put Fez in play.
 
@@ -282,6 +283,7 @@ title: Festival v Zam 2
 ### Crustle - Favorable
 
 - Get a fast Alakazam and draw cards aggressively to find Hammers and Bosses. Hammers always get used on Mist Energy.
+- If you don't have Hammer and they don't have Mist, don't draw extra cards if you don't have to. We want to play around Eri. The popular Crustle list plays a lot of Eri, so try not to let them snipe Enhanced Hammers for free. Slam Hammers on Mist Energy whenever possible. If they don't have Mist, don't use Hammer.
 - Boss is good specifically to target Spiky Energy, Hero’s Cape, or anything that accumulates too much Energy.
 - Start powering up Dudunsparce right away! This is how you can deal with a Crustle with Mist once you run out of Hammers. This is actually relevant in most games. If they ever leave a Dwebble with Mist Energy and you can KO it with Dudunsparce, do that and it’s basically game over.
 - If they have more prizes left than Bosses, you can even loop Dudunsparce into each other in the end-game. You have to be a bit careful with managing cards to not accidentally deck out, but Dudunsparce can infinitely heal itself while Crustle cannot KO it in one shot. This is very situational.
