@@ -183,8 +183,7 @@ title:  Zoro v Pult 1
 
 ### Alakazam - Favorable
 
-This matchup is favorable or very favorable with three hand disruption cards. It should be roughly the same whether the second Red Card is a Judge or not. With fewer hand disruption cards, the matchup becomes much closer.
-
+- Play around Eri by not grabbing important Items with early Recon Directives. Now that many Alakazam decks have Eri, carefully consider the board state before deciding which Items to hang on to. Early Stamp can still be good because they are more likely to use a setup Supporter instead of Eri, and you can punish them if they don't get Genesect fast enough. Of course, once Eri has been used, you don't need to play around it anymore.
 - Save Stadiums to bump their Stadiums. If you can’t get immediate value from a Stadium bump (such as if you can attack normally under Nighttime Mine), save the Stadium to combo it with hand disruption.
 - Against the Nighttime Mine build of Alakazam, getting ahead on Energy attachments is even more important, so retreating into Budew has less value. Prioritizing Itchy Pollen is good if you have Unfair Stamp in hand, as you can let it get KO’d and then body them with Stamp. Since you assume they can get the immediate Kadabra KO in most scenarios, Budew is not a priority unless you have Stamp to go with it.
 - Build up as much Energy in play against the Mine build. Even attaching Dark Energy to random Drakloak is good.
