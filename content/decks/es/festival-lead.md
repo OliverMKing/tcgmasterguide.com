@@ -6,7 +6,7 @@ format: Standard
 ---
 ## Decklist
 
-![Festival list](./images/festival-lead/enggladion.png)
+![Festival list](./images/festival-lead/scrap2.png)
 ```decklist
 Pokémon: 22
 4 Grookey TWM 14
@@ -21,18 +21,17 @@ Pokémon: 22
 
 Trainer: 32
 4 Lillie's Determination MEG 119
+3 Gladion's Final Battle PBL 77
 2 Boss's Orders MEG 114
-2 Gladion's Final Battle PBL 77
-1 Kieran TWM 154
 4 Buddy-Buddy Poffin TEF 144
 4 Poké Pad POR 81
 2 Ultra Ball MEG 131
-2 Bug Catching Set TWM 143
 2 Night Stretcher ASC 196
 1 Switch MEG 130
+1 Tool Scrapper WHT 85
 1 Secret Box TWM 163
 2 Brave Bangle WHT 80
-1 Air Balloon ASC 181
+2 Air Balloon ASC 181
 4 Festival Grounds TWM 149
 
 Energy: 6
@@ -50,11 +49,12 @@ Energy: 6
 - Se necesita Ultra Ball para Gladion y no afecta tanto a la consistencia como esperaba.
 - Secret Box es sin duda la mejor carta para este deck. Permite obtener cuatro piezas de cualquier combo por el precio de una búsqueda, lo que nos permite estabilizar el juego o lograr un gran KO incluso con un campo débil, al principio de la partida o después de una Unfair Stamp. Es la carta definitiva para la consistencia.
 - Growing Energy evita que Excadrill noqueen a Dipplin con el primer ataque, también crea puntos de ruptura relevantes contra Dragapult. Además, permite que Rellor sobreviva a Dusclops o al ataque de Phantom Dive. La única desventaja real es que no se puede encontrar en el set de Captura de Bichos, que de todas formas reducimos para agregar Seaking y Ultra Ball.
+- Tool Scrapper es útil para Handheld Fan y Hero's Cape que son comunes en algunos decks meta.
 
 ### Posibles inclusiones
+
 - Más Rellor y Rabsca podrían ayudar contra Dragapult, lo cual podría valer la pena.
-- Tool Scrapper puede ser decente para contrarrestar los Handheld Fans aleatorios.
-- Dawn, Lana's Aid o más Bug Catching Set le vendrían bien.
+- Dawn, Lana's Aid o Bug Catching Set le vendrían bien.
 
 ### Exclusiones
 
@@ -65,6 +65,8 @@ Energy: 6
 - Brock’s Scouting es peor que Dawn. Claro que hay situaciones en las que desearías tener a Brock en su lugar, pero lo mismo podría decirse de cualquier otra carta específica
 - Otras cartas Ace Specs son muy inferiores a Secret Box. Mención especial para Maximum Belt por ahorrar dos espacios en el deck.
 - Otras cartas como Sacred Ash, Judge o Forest of Vitality son simplemente malas e inútiles.
+- Kieran ya no es necesario.
+
 <!-- /PUBLIC -->
 ## Gameplay
 
@@ -118,8 +120,6 @@ title: Festival v Bolt 1
 ```
 
 ### Alakazam - Favorable
-
-Este matchup es mucho más favorable ahora con la Batalla Final de Gladion.
 
 - Usa Gladion cuando te resulte más conveniente para conseguir un doble KO fácil. Si tienen a Fezandipiti en juego, te conviene noquearlo primero antes de usar a Gladion.
 

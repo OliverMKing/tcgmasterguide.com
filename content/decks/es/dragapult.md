@@ -60,6 +60,42 @@ Energy: 9
 - Yveltal es demasiado difícil de usar, especialmente con solo dos Energías Dark y un Munkidori.
 - Dawn o Brock's Scouting ayudarían un poco con la consistencia, pero las cartas simplemente no son tan buenas.
 
+## Standard List
+
+![decklist for normieDragapult](./images/dragapult/worldswin.png)
+```decklist
+Pokémon: 19
+4 Dreepy TWM 128
+4 Drakloak TWM 129
+3 Dragapult ex TWM 130
+2 Munkidori TWM 95
+2 Budew ASC 16
+1 Dunsparce JTG 120
+1 Dudunsparce TEF 129
+1 Meowth ex POR 62
+1 Fezandipiti ex ASC 142
+
+Trainer: 32
+4 Lillie's Determination MEG 119
+3 Boss's Orders MEG 114
+2 Crispin SCR 133
+1 Rosa's Encouragement POR 84
+4 Poké Pad POR 81
+4 Buddy-Buddy Poffin TEF 144
+4 Crushing Hammer POR 71
+3 Ultra Ball MEG 131
+3 Night Stretcher ASC 196
+1 Special Red Card CRI 82
+1 Unfair Stamp TWM 165
+2 Risky Ruins MEG 127
+
+Energy: 9
+3 Psychic Energy MEE 5
+3 Fire Energy MEE 2
+3 Darkness Energy MEE 7
+```
+
+Esta es la lista que gano el Mundial. Fundamentalmente es excelente y se enfoca más en Munkidori. Dudunsparce ayuda con la consistencia hacia el final del juego pero sin Rocket's Watchtower sus matchups contra algunos decks que usan Mega Kangaskhan como Slowking or Basico Box son un poco peores.
 <!-- /PUBLIC -->
 
 ## Gameplay

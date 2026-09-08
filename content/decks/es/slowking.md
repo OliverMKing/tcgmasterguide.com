@@ -48,18 +48,20 @@ Energy: 9
 - Boomerang Energy no es tan importante, pero es muy potente cuando la tienes disponible junto con un ataque de Kyurem.
 - Ciphermanaic es demasiado bueno en este deck como para jugar menos de cuatro copias.
 - Lana's Aid es generalmente buena y útil, pero sinceramente no estoy seguro de que sea necesaria.
-- Agregué a Mega Slowbro para el matchup contra Festival Lead. Tenía dudas de que funcionara, pero al probarlo ofreció un rendimiento excelente. Sin embargo, no es muy útil contra otros decks, por lo que se puede prescindir de él si Festival Lead deja de ser tan popular.
+- Agregué a Mega Slowbro para el matchup contra Festival Lead. Tenía dudas de que funcionara, pero al probarlo ofreció un rendimiento excelente. Sin embargo, no es muy útil contra otros decks, por lo que se puede prescindir de él si Festival Lead deja de ser tan popular. No es tan bueno contra la versión de Seaking pero con Energía Mist pero esa no es tan buena ni tan popular.
+- Brave Bangle sigue siendo muy bueno para Pokemon como Blaziken ex o Hydrapple ex.
 
 ### Posibles Inclusiones
 
-- La versión de Ian Robb con Crispin, Munkidori, Drapion y Zoroark es interesante. Aún no la he probado. Drapion, en particular, podría ser muy útil contra decks de dos premios, pero es necesario jugar a Munkidori para que funcione, lo cual requiere muchos recursos.
-- En esa misma línea, Prime Catcher también podría ser buena. Secret Box es sin duda buena, pero no creo que sea 100% necesaria.
-- Siempre se podría tener más Mega Kangaskhan.
-- Otra Energía Psíquica estaría bien.
+- Prime Catcher es una opción decente.
+- Drapion puede ser útil contra Dragapult o el mirror y creo que es mejor que Pawmot por el veneno.
 
 ### Exclusiones
 
-- Powerglass no es lo suficientemente bueno para lo difícil que es usarlo en el momento oportuno.
+- Zeraora no me encanta y me parece que puede usarse ese espacio en algo mejor.
+- Los dos Annihilape son malos. El Psiquico no te ayuda a ganar los matchups que se supone que te ayuda y el Peleador es igual de malo.
+- Powerglass no es tan bueno porque es dificil que sea util pero cuando si lo es llega a ser muy poderoso.
+- Unfair Stamp y Special Red CArd no son tan buenos para este deck porque no puedes combinarlo con Boss's Orders.
 - Surfer es peor que Switch. Aunque puedes usarlo cuando estas bajo Item Lock, no lo tendrás disponible en el momento adecuado.
 - Dawn parece buena en teoría, pero no fue muy útil en las pruebas. Encontrar a Slowking o Metagross no suele ser tan difícil, ya que el deck a menudo tiene Poké Pads extras de sobra.
 <!-- /PUBLIC -->
@@ -240,6 +242,14 @@ title: King v Crust 1
 - Al principio y a mitad de la partida, prioriza atacar a Tarountula, Spidops y Articuno con Trifrost. Al final de la partida, simplemente termina el juego de la forma más eficiente.
 - Si tienen a Mewtwo activo y no puedes sacarle el máximo provecho a Trifrost, entonces puedes noquear a Mewtwo de un solo golpe con Metagross. Infligir 110 de daño a Mewtwo con Trifrost es prácticamente inútil.
 
+### Mega Lucario - Favorable
+
+El matchup contra Lucario es favorable si el rival no cuenta con Shaymin, pero desfavorable si sí lo tiene.
+
+- Realizar un Trifrost al inicio de la partida es la estrategia ideal. Si logras conseguir tres cartas de premio con un Trifrost, es sencillo obtener las otras tres derrotando a un Lucario; por tanto, la secuencia de premios 3-3 suele ser la más fácil de completar.
+- Si consigues ejecutar el Trifrost, no hay problema en poner en juego Pokémon que supongan un riesgo (como Kang y Fez) para asegurar el funcionamiento del deck, ya que ganarás el intercambio de premios de todos modos. Sin embargo, si la partida no marcha bien, lo ideal es evitar poner a Kang en juego, pues podrías perder rápidamente ante una secuencia de premios inversa de 1-2-3.
+- Clefairy puede ser un atacante útil capaz de noquear a Lucario de un solo golpe; no obstante, dado que lo ideal es usar Trifrost primero (lo que reduce el número de Pokémon en juego para Clefairy), esta situación no suele darse con frecuencia.
+
 ### Hide n Sneak - Ligeramente Desfavorable
 
 - Incluso si su tablero no es particularmente vulnerable a Trifrost, vale la pena intentarlo. Noquear a Dunsparce es la máxima prioridad; de lo contrario, inflige daño a Dhelmise y prepáralo para ser noqueado. Este deck es capaz de encadenar Trifrost, y eso es lo que quieres hacer. Si solo tienen dos Pokémon en juego, probablemente no valga la pena usar Trifrost en ese caso.
@@ -257,8 +267,6 @@ title: Sneak v King 2
 ```
 
 ### Mega Excadrill - Favorable
-
-Este matchup es favorable si no juegan Shaymin, y probablemente desfavorable si lo hacen.
 
 - No dejes a Mega Kangaskhan en el activo, especialmente una vez que su tablero esté establecido, ya que no queremos darle a Mega Excadrill un KO fácil de tres premios.
 - Trifrost es obviamente una locura. Elimina tres Metang, ataca a Mega Excadrill con 300 de daño y luego usa Trifrost para rematarlo; la victoria se consigue en tres ataques. Si no hay tres objetivos para KO, ataca a su Mega Excadrill con 300 de daño y gana con dos Trifrosts consecutivos. Usar Trifrost primero en ese escenario puede ser peor, ya que pueden retirar a Excadrill y este queda permanentemente a salvo.
