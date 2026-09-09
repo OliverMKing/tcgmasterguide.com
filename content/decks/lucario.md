@@ -316,4 +316,4 @@ title: Ogerpon v Lucario 2
 
 ## Personal Thoughts
 
-Lucario is a decent deck. I think it's actually a solid play for Worlds. Of course, Lucario is still terrible against the single-prize decks, so that's the risk of playing it.
+Lucario is a decent deck, but terrible against single-prize decks like Alakazam, which is currently its main downside.
