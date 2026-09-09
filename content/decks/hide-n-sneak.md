@@ -280,4 +280,4 @@ title: Sneak v Drill 1
 
 ## Personal Thoughts
 
-This deck is a bit inconsistent and very linear. Its matchup spread is actually not too bad. It struggles with Unfair Stamp despite having lots of Dudunsparce. My opinion on the deck goes up the more I play it. At first I thought it was literal garbage. I think it would be better in less-competitive environments because it’s bad against good Dragapult and Zoroark players, but beats most of the random other decks. So I think it’s a terrible play for Worlds but could do well elsewhere.
+I actually think this deck is somewhat ok right now. It's very bad against Zoroark and Blaziken, but otherwise has a decent matchup spread. I also think this list is pretty solid and refined.
