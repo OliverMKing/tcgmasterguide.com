@@ -54,7 +54,7 @@ Energy: 8
 
 - Second Dawn would be nice to have.
 - Clefairy is still good but I felt it was the most cuttable card for Chi-Yu. It doesn't increase the winrate in mirror that much and is terrible to start with. It's a bit better in the Area Zero lists anyway.
-- Team Rocket’s Watchtower is decent in the current meta, and gets better with the addition of Special Red Card.
+- Team Rocket’s Watchtower is decent in the current meta. I am considering it more to deal with annoying Patrat in other Dragapult decks.
 
 ### Exclusions
 

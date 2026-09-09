@@ -6,7 +6,7 @@ format: Standard
 ---
 ## Decklist
 
-![excadrill list](./images/excadrill/empo.png)
+![excadrill list](./images/excadrill/balloonback.png)
 ```decklist
 Pokémon: 20
 4 Drilbur PBL 46
@@ -20,9 +20,9 @@ Pokémon: 20
 1 Fezandipiti ex SFA 38
 
 Trainer: 25
-4 Lillie's Determination MEG 119
 4 Boss's Orders PAL 172
 4 Team Rocket's Petrel DRI 176
+3 Lillie's Determination MEG 119
 4 Team Rocket's Transceiver DRI 178
 3 Buddy-Buddy Poffin TEF 144
 1 Energy Recycler DRI 164
@@ -31,6 +31,7 @@ Trainer: 25
 1 Ultra Ball SVI 196
 1 Rare Candy SVI 191
 1 Precious Trolley SSP 185
+1 Air Balloon BLK 79
 
 Energy: 15
 15 Metal Energy MEE 8
@@ -49,6 +50,7 @@ Energy: 15
 - Precious Trolley makes the deck very fast and consistent. This deck needs to quickly find lots of Basics and Evolutions, and Trolley does everything at once. It’s so insane with Genesect ex.
 - Switch can be good against early-game Sob which allows us to sometimes play around Torrential Pump by leaving Genesect active. This isn’t necessarily the go-to if you think they can just KO the Genesect though. Switch can be generally good in other spots such as Mind Bend.
 - Ultra Ball is solid utility and consistency.
+- Air Balloon is helpful for getting into Call for Family or when getting Boss stalled early. It can be particularly useful against Dragapult.
 
 ### Possible Inclusions
 
@@ -61,6 +63,8 @@ Energy: 15
 ### Exclusions
 
 - Mega Skarmory is difficult to accomodate and use effectively. It's not terrible but also not necessary for this deck, nor does it solve a particular problem. It makes more sense to play it in the no-Boss list.
+- Brock's Scouting isn't needed in the Trolley build. Trolley makes the deck fast and consistent. If you're Item-locked against Dragapult, manually attaching and getting Turn 2 Undermine is fine. You don't need a fully developed board as fast against it.
+- Kieran is mostly useful against a non-Caped Mega Excadrill, which I think is too specific of a use case. It's also very hard to find and often telegraphed via Petrel.
 - Hero's Cape is a strong card, but the deck starts to fall apart when it can't Petrel for Trolley to easily set up the entire board. The engine becomes weaker and the deck becomes less consistent. This deck's consistency is one of its selling points. After testing a bit with Cape, the deck becomes noticeably slower, and it doesn't seem like the Cape does all that much.
 - Jumbo Ice Cream’s breakpoints are atrocious because it’s very hard to have multiple of them at once. Moltres + Phantom Dive still KO’s after an Ice Cream, for example. This deck does not draw cards very well so it won’t have multiple Ice Creams very often, especially against hand disruption. They also aren’t relevant in lots of matchups, although they can be good in some others. In general, if they aren’t one-shotting Excadrill, we’re already having a good time anyway.
 - Poke Pad is just not good in this deck.
