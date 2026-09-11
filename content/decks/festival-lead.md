@@ -83,9 +83,9 @@ Energy: 6
 
 ## Matchups
 
-### Dragapult - Depends
+### Dragapult - Unfavorable
 
-This matchup is slightly favorable against lists without Rare Candy or Dusknoir. The more Rare Candy they have, the more difficult it gets. Against Dusknoir (even with no Candy), it is unfavorable.
+This matchup is closer against lists without Rare Candy or Dusknoir. The more Rare Candy they have, the more difficult it gets. Against Dusknoir (even with no Candy), it is very unfavorable.
 
 - Rabsca is absolutely imperative to get quickly. Of course, you also need Dipplin and Thwackey first in order to play the game, but Rabsca is also a priority. It can be annoying to get under Item lock, so try to get the Rellor right away. Rellor takes priority even over the second Applin or second Grookey. It takes priority even over the first Applin if you happen to start with Goldeen or have to use it to set up.
 - Ideal board is two Thwackey, three apples, and Rabsca. Once they KO Rabsca, you’ll want to have as many Dipplin in play as possible.
@@ -289,4 +289,4 @@ title: Festival v Meganium 2
 
 ## Personal Thoughts
 
-I actually still think this deck is pretty good right now. It can hang with most non-Dusknoir Dragapult decks and has a good matchup spread overall. The only real issue with it is being very shaky against Dragapult overall.
+This deck is alright. The only real issue with it is being very shaky against Dragapult overall.
