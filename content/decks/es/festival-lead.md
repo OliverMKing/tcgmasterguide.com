@@ -84,9 +84,9 @@ Energy: 6
 
 ## Matchups
 
-### Dragapult - Depende
+### Dragapult - Desfavorable
 
-Este matchup es favorable contra listas sin Rare Candy o Dusknoir. Cuantos más Rare Candy tengan, más difícil se vuelve. Contra la lista de Tord (tres Rare Candy), sigue siendo bastante parejo o ligeramente desfavorable. Contra Dusknoir, es desfavorable.
+Este matchup es más cerrado contra listas sin Rare Candy o Dusknoir. Cuantos más Rare Candy tengan, más difícil se vuelve. Contra la lista de Tord (tres Rare Candy), sigue siendo bastante parejo o ligeramente desfavorable. Contra Dusknoir, es desfavorable.
 
 - Es absolutamente imprescindible evolucionar a Rabsca rápidamente. Claro que también necesitas a Dipplin y Thwackey para poder jugar, pero Rabsca también es una prioridad. Puede ser molesto quedarse sin Items, así que intenta conseguir a Rellor cuanto antes. Rellor tiene prioridad incluso sobre el segundo Applin o el segundo Grookey. Incluso tiene prioridad sobre el primer Applin si empiezas con Goldeen o tienes que usarlo para setearte, aunque Goldeen es bastante malo en este matchup en general, así que lo evitaría si fuera posible.
 - La mesa ideal son dos Thwackey, tres Dipplin y Rabsca. Cuando noqueen a Barsca necesitaras tener la mayor cantidad de Dipplin en juego posible.
@@ -282,4 +282,4 @@ title: Festival v Meganium 2
 
 ## Conclusión
 
-En realidad, sigo pensando que este deck es bastante bueno ahora mismo. Puede competir con la mayoría de los decks de Dragapult que no tengan Dusknoir y tiene un buen desempeño general. Gladion lo mejora bastante.
+Este deck es bueno, su problema mayor sigue siendo que le va mal contra Dragapult.

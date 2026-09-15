@@ -6,7 +6,7 @@ format: Standard
 ---
 ## Decklist
 
-![excadrill list](./images/excadrill/empo.png)
+![excadrill list](./images/excadrill/balloonback.png)
 ```decklist
 Pokémon: 20
 4 Drilbur PBL 46
@@ -20,9 +20,9 @@ Pokémon: 20
 1 Fezandipiti ex SFA 38
 
 Trainer: 25
-4 Lillie's Determination MEG 119
 4 Boss's Orders PAL 172
 4 Team Rocket's Petrel DRI 176
+3 Lillie's Determination MEG 119
 4 Team Rocket's Transceiver DRI 178
 3 Buddy-Buddy Poffin TEF 144
 1 Energy Recycler DRI 164
@@ -31,6 +31,7 @@ Trainer: 25
 1 Ultra Ball SVI 196
 1 Rare Candy SVI 191
 1 Precious Trolley SSP 185
+1 Air Balloon BLK 79
 
 Energy: 15
 15 Metal Energy MEE 8
@@ -49,6 +50,7 @@ Energy: 15
 - Empoleon ex es una opción estratégica para Alakazam que abundaran en el meta tras el Mundial, Alakazam está generando mucha expectativa debido a su extraordinario desempeño. El Caramelo Raro también permite desplegar rápidamente a Metagross, lo cual es ventajoso para el intercambio de cartas de premio y para ciertos matchups específicos, como contra Festival Lead (si se dan las condiciones adecuadas).
 - La carta Cambio puede resultar útil frente a Sob en los primeros compases de la partida, permitiéndonos a veces eludir el efecto de Torrential Pump al mantener a Genesect en el puesto activo. No obstante, esta no es necesariamente la mejor opción si prevemos que el rival puede noquear a Genesect fácilmente. En general, Cambio también puede ser valioso en otras situaciones, como frente a Mind Bend.
 - Ultra Ball aporta una gran utilidad y mejora la consistencia del deck.
+- Air Ballon resulta útil para Call For Family o cuando usan Boss para frenarte. Puede ser especialmente útil contra Dragapult.
 
 ### Posibles Inclusiones
 
@@ -65,6 +67,8 @@ Energy: 15
 - Poke Pad simplemente no es útil aquí.
 - Mega Skarmory es dificil de usar de manera efectiva, y solo tiene sentido en una lista sin Boss's Orders.
 - Hero's Cape es una carta muy buena pero el deck suele desmoronarse si no tienes Precious Trolley al inicio y el deck se vuelve menos consistente.
+- Brock's Scouting no es necesaria en la versión del deck con Trolley. Si te bloquean el uso de objetos contra Dragapult, unir energía manualmente y lograr usar Undermine en el segundo turno es suficiente; no necesitas tener una mesa completamente preparada tan rápido contra ese deck.
+- Kieran resulta útil principalmente contra un Mega Excadrill que no lleve equipada la Hero's Cape, un escenario que considero demasiado específico. Además, es una carta difícil de encontrar y su uso suele quedar en evidencia debido a Petrel.
 
 ## Standard List
 

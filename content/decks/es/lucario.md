@@ -300,6 +300,5 @@ title: Ogerpon v Lucario 2
 
 ## Conclusión
 
-Lucario es un deck decente. Creo que es una opción sólida para el Mundial si el metajuego se basa principalmente en Dragapult, Zoroark y Crustle. Claro que Lucario sigue siendo terrible contra los decks de una sola carta de premio, así que ese es el riesgo de jugarlo.
-
+Lucario es un deck decente, pero muy malo contra decks de un premio como Alakazam. Eso es su mayor problema actualmente.
 
