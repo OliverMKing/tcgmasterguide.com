@@ -141,9 +141,9 @@ Esta es la versión más estándar, con Genesect y Estadios en lugar de Rabsca y
 
 ## Matchups
 
-### Dragapult - Depende
+### Dragapult - Desfavorable
 
-Con la incorporación de Rabsca, las versiones sin Dusknoir ni Yveltal ahora son favorables para Alakazam. Dragapult/Dusknoir sigue siendo desfavorable para todas las versiones. Si juegas Battle Cage en lugar de Rabsca, todos los matchups contra Dragapult siguen siendo desfavorables. La forma de jugar contra Dragapult con y sin Rabsca es bastante diferente. Con la versión de Nightime Mine, el matchuo es muy parejo contra decks de Dragapult con menos de tres cartas de interrupción de mano.
+Dependiendo de la versión, este matchup es desfavorable o ligeramente desfavorable. La versión de Rabsca funciona mejor contra decks que no usan Watchtower pero sufre más contra ese Estadio que las versiones de Battle Cage.
 
 Con Rabsca:
 
@@ -221,7 +221,8 @@ title: Zam v Bolt 2
 
 ### Alakazam Mirror - Parejo
 
-- Haz todo lo posible por atacar primero. Usa Sacred Ash para obtener piezas de Alakazam según sea necesario.
+- Juega alrededor de Eri usando Night Stretcher y Sacred Ash por recursos valiosos lo más pronto posible. Si los pillan con Eri, podrías quedarte sin atacantes en algún momento.
+- Haz todo lo posible por tomar el primer KO.
 - Juega teniendo en cuenta los Enhanced Hammer.
 - No pongas a Fezandipiti en juego.
 
@@ -282,6 +283,8 @@ title: Zam v Zoroark 1
 - Boss's Orders es especialmente útil para eliminar Spiky Energy, Hero's Cape o cualquier cosa que acumule demasiada Energía.
 - Empieza a cargar a Dudunsparce de inmediato. Así podrás lidiar con un Crustle con Mist Energy cuando te quedes sin Enhanced Hammer. Esto es relevante en la mayoría de las partidas. Si dejan un Dwebble con Mist Energy y puedes noquearlo con Dudunsparce, hazlo y prácticamente se acaba la partida.
 - Si les quedan más premios que Boss's Orders, incluso puedes encadenar Dudunsparce en la fase final. Debes tener cuidado al gestionar las cartas para no quedarte sin cartas, pero Dudunsparce puede curarse infinitamente, mientras que Crustle no puede noquearlo de un solo golpe.
+- Si no tienes Enhanced Hammer en mano y no tienen Mist Energy en su activo, no robes cartas extra si no lo necesitas para jugar alrededor de Eri. La lista más popular de Crustle juega 3 Eri asi es que queremos evitar que nos los descarten de a gratis.
+- Usa los Enhanced Hammers de inmediato en contra en las Mist y solo las Mist.
 
 ```youtube
 id: KfDqsPaSWZo

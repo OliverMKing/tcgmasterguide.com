@@ -6,35 +6,37 @@ format: Standard
 ---
 <!-- PUBLIC -->
 ## Decklist 1
-![Raging Bolt lista 1](./images/raging-bolt/prime.png)
 
+![First Raging Bolt list](./images/raging-bolt/enam.png)
 ```decklist
 Pokémon: 19
 4 Mega Kangaskhan ex MEG 104
-3 Teal Mask Ogerpon ex TWM 25
 3 Meowth ex POR 62
+2 Teal Mask Ogerpon ex TWM 25
 2 Latias ex SSP 76
 2 Lillie's Clefairy ex JTG 56
-2 Fezandipiti ex ASC 142
 1 Raging Bolt ex TEF 123
 1 Wellspring Mask Ogerpon ex TWM 64
+1 Fezandipiti ex ASC 142
+1 Bloodmoon Ursaluna ex TWM 141
+1 Enamorus TWM 93
 1 Chien-Pao SSP 56
 
-Trainer: 26
+Trainer: 27
 4 Crispin SCR 133
-2 Boss's Orders MEG 114
 2 Cyrano SSP 170
-1 Ciphermaniac's Codebreaking TEF 145
-1 Lillie's Determination MEG 119
+2 Boss's Orders MEG 114
+2 Ciphermaniac's Codebreaking TEF 145
 4 Ultra Ball MEG 131
 4 Energy Switch MEG 115
 2 Night Stretcher ASC 196
-1 Glass Trumpet SCR 135
+2 Glass Trumpet SCR 135
 1 Prime Catcher TEF 157
-4 Area Zero Underdepths SCR 131
+3 Area Zero Underdepths SCR 131
+1 Jamming Tower TWM 153
 
-Energy: 15
-7 Grass Energy MEE 1
+Energy: 14
+6 Grass Energy MEE 1
 3 Psychic Energy MEE 5
 2 Lightning Energy MEE 4
 2 Fighting Energy MEE 6
@@ -47,22 +49,27 @@ Sigo pensando que este deck no es muy bueno, e inferior a las versiones de Nocto
 
 - Cada Mega Kangaskhan aumenta aproximadamente un 10% la probabilidad de empezar con él. Esto es especialmente importante porque el deck depende en gran medida de Run Errand para robar cartas y funcionar, por lo que jugar cuatro copias tiene sentido.
 - Dos Latias se han convertido en estándar porque son cruciales para el funcionamiento del deck y para encontrarlas al principio de la partida.
-- Fezandipiti es demasiado bueno como para jugar solo uno. Siempre es útil en el tablero, un atacante fuerte al principio de la partida en algunos matchups, y es genial tenerlo si el otro es una carta de premio o es debilitado.
 - Weelspring Ogerpon ofrece una buena utilidad. Puede ser un atacante rápido o ganar tiempo con Sob en la fase final de la partida para asegurar la victoria.
 - Chien-Pao es fantástico contra Dragapult para eliminar daño o contrarrestar a Rocket's Watchtower. Cuatro Estadios también se incluyen para lidiar fácilmente con Watchtower, ya que el deck depende en gran medida de Mega Kangaskhan y Meowth. Área Cero también es importante para potenciar el daño de Clefairy o para crear sinergia con Chien-Pao. 
 - Ciphermaniac es muy útil para hacer combos, pero no se debe depender demasiado de ella.
-- Lillie's es una buena carta para mantener la consistencia y otra opción sólida con Meowth.
 - Prime Catcher es una carta poderosa tanto por su efecto de gusteo como por sus opciones de cambio. Permite usar Crispin y gustear en el mismo turno, y también es la única forma de evitar el bloqueo de retirada. Creo que este deck se beneficia enormemente de un tercer efecto de gusteo, así que si juegas con otro Ace Spec como Unfair Stamp, te recomendaría también un tercer Boss's Orders.
+- Blood Moon Ursaluna es un rematador muy eficiente y ocupa el lugar del segundo Fez. Aunque llevar dos Fezandipiti es genial, no resulta tan necesario cuando Ursaluna puede cerrar partidas sin requerir demasiados recursos.
+- Enamorus es un atacante sólido que otorga un solo premio y sirve principalmente para contrarrestar a Crustle. También puede debilitar a Dragapult de un solo golpe, aunque para ello necesitaría a Clefairy y a veces a Raging Bolt.
+- Jamming Tower está pensada sobre todo para decks que usan Hero's Cape, como los de Crustle y Excadrill. Descartar tu propia banca también es una opción muy buena si no dispones de Chien-Pao.
+- Actualmente prefiero llevar una segunda Glass Trumpet en lugar de una tercera copia de Ogerpon Teal Mask, aunque podría cambiar de opinión al respecto. Además, esto se vuelve más viable con Ursaluna.
 
 ### Posibles inclusiones
 
 - Unfair Stamp sigue siendo muy buena. Simplemente no creo que tenga buena sinergia con el deck. Lo mismo ocurre con Special Red Card. Por sí solas, estas cartas no bastan para salvar matchups desfavorables, pero en general siguen siendo buenas.
-- Lillie's Pearl probablemente estaría bien.
+- Iron Crown junto con la Tarjeta Roja Especial es una combinación bastante fuerte contra Festival Lead. Este combo también ayuda contra Alakazam, aunque ese matchup sigue siendo bastante desfavorable.
+- LLillie's Determination sigue siendo una buena opción.
+- Incluir una copia adicional de Fezandipiti, Ogerpon, Área Cero, Cyrano o Energía Planta sería una buena idea.
 
 ### Exclusiones
 
 - El segundo Raging Bolt no es muy importante.
 - Passimian no es muy bueno. Puede ayudar un poco contra Crustle, pero ese matchup sigue siendo desfavorable de todas formas. Si juegas con Passimian, probablemente sea mejor volver a incluir Unfair Stamp.
+- Iron Leaves no es muy bueno. El lock de retreat no es problema ya que todos los Pokemon menos Chien-Pao pueden atacar y además tenemos Prime Catcher.
 
 <!-- /PUBLIC -->
 ## Gameplay
@@ -266,7 +273,7 @@ id: RoK0ACF6r9E
 title: Slop v Bolt 2
 ```
 
-### Zoroark - Parejo
+## Zoroark - Ligeramente Favorable
 
 - Similar a los dos anteriores, pero ejercer presión rápidamente es mejor que posicionarse, ya que no necesitan poner un Pokémon de dos premios en juego para poder jugar. No dejes un Pokémon de dos premios en el activo a menos que vayas a ganar el intercambio de premios. Fan Rotom puede ejercer presión de manera eficiente. Ya sea que estés debilitando a Zorua o no, atacar con Fan Rotom al principio suele ser una buena estrategia.
 - A veces no tienen Energía en la banca, y tienes la opción de debilitar a su Zekrom/Fezandipiti o debilitar a su Zoroark activo con Energía. Creo que debilitar a su Zoroark con Energía suele ser la mejor opción (aunque puede ser más difícil) si no tienen Energía en la banca. A veces, simplemente no consiguen el N’s PP Up, especialmente si utilizas Unfair Stamp.
@@ -288,9 +295,17 @@ id: 440pWXk5OLc
 title: Bolt v Zoroark 3
 ```
 
-### Crustle - Muy desfavorable
+### Crustle - Depende
 
-- Fan Rotom puede usarse para ejercer presión rápidamente, pero la mayoría de las veces intentarás cargar a Raging Bolt no ex lo más rápido posible. Es posible ganar con él. Usa Boss’s Orders para ganar tiempo y ataca su banca para presionar su Energía. Unfair Stamp también es muy bueno para dejarlos indefensos. Si debilitan a Raging Bolt no ex, recupéralo y cargalo de nuevo con Energy Switch / Crispin.
+Con Enamorus y Jamming Tower, el matchup se vuelve favorable. Sin ellos, es desfavorable.
+
+- Presiona sus energías cuando sea posible.
+
+Con Enamorus:
+- Usa a Enamorus para noquear a Crustle de la nada. Asegurate de no drles oportunidad de noquearlo asi es que no les des mucho tiempo de cargar dos Crustle. Si Enamorus es noqueado, asegurate de recuperarlo con Night Stretcher.
+- Guarda Jamming Tower para el turno que vas a noquear a Crustle con Hero's Cape.
+
+Con Passimian:
 - Si juegas con la versión sin Noctowl y con Passimian, guarda Passimian en tu mano y crea un Mega Kangaskhan rápidamente para noquear al Mega Kangaskhan enemigo. Prepara una jugada con Passimian en tu mano para cuando se vean obligados a usar Crustle. Si no tienen Hero's Cape, noquealo de un solo golpe con Passimian. Si tienen Hero's Cape, inflige el mayor daño posible. Necesitarás tanto Night Stretchers para Passimian como Glass Trumpet para la energía de lucha. Idealmente, también los atacarás con Unfair Stamp después de que noqueen a tu primer Passimian.
 
 ```youtube

@@ -64,6 +64,44 @@ Energy: 9
 - Unfair Stamp y Special Red CArd no son tan buenos para este deck porque no puedes combinarlo con Boss's Orders.
 - Surfer es peor que Switch. Aunque puedes usarlo cuando estas bajo Item Lock, no lo tendrás disponible en el momento adecuado.
 - Dawn parece buena en teoría, pero no fue muy útil en las pruebas. Encontrar a Slowking o Metagross no suele ser tan difícil, ya que el deck a menudo tiene Poké Pads extras de sobra.
+
+## Lista Estandár
+
+![normieslowking list](./images/slowking/zera.png)
+```decklist
+Pokémon: 21
+4 Slowpoke SCR 57
+3 Slowking SCR 58
+3 Mega Kangaskhan ex MEG 104
+2 Latias ex SSP 76
+2 Kyurem SFA 47
+2 Metagross CRI 61
+1 Fezandipiti ex ASC 142
+1 Meowth ex POR 62
+1 Smoochum SSP 75
+1 Lillie's Clefairy ex ASC 76
+1 Zeraora DRI 78
+
+Trainer: 29
+4 Lillie's Determination MEG 119
+4 Ciphermaniac's Codebreaking TEF 145
+1 Surfer ASC 200
+4 Poké Pad POR 81
+4 Ultra Ball MEG 131
+3 Wondrous Patch PFL 94
+2 Night Stretcher ASC 196
+1 Switch MEG 130
+1 Secret Box TWM 163
+1 Lucky Helmet TWM 158
+4 Academy at Night SFA 54
+
+Energy: 10
+4 Telepathic Psychic Energy POR 88
+4 Psychic Energy MEE 5
+2 Boomerang Energy TWM 166
+```
+
+Esto es bastante parecido a mi lista. Zeraora se ha vuelto muy común últimamente. A veces el deck también incluye a Annihilape o a Pawmot/Drapion como tech adicionales. El Brave Bangle ha perdido popularidad y prácticamente todo el mundo juega Surfer. Muchas listas tampoco llevan a Smoochum, aunque otras muchas sí lo hacen. Powerglass es otra carta de apoyo ocasional.
 <!-- /PUBLIC -->
 ## Gameplay
 
@@ -266,8 +304,9 @@ id: it6-5D9h9vA
 title: Sneak v King 2
 ```
 
-### Mega Excadrill - Favorable
+### Mega Excadrill - Depende
 
+- Este matchup depende de si tienen a Shaymin. Si lo tienen es desfavorable, si no, es favorable.
 - No dejes a Mega Kangaskhan en el activo, especialmente una vez que su tablero esté establecido, ya que no queremos darle a Mega Excadrill un KO fácil de tres premios.
 - Trifrost es obviamente una locura. Elimina tres Metang, ataca a Mega Excadrill con 300 de daño y luego usa Trifrost para rematarlo; la victoria se consigue en tres ataques. Si no hay tres objetivos para KO, ataca a su Mega Excadrill con 300 de daño y gana con dos Trifrosts consecutivos. Usar Trifrost primero en ese escenario puede ser peor, ya que pueden retirar a Excadrill y este queda permanentemente a salvo.
 

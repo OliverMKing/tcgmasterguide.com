@@ -193,8 +193,7 @@ title: Pult v Lucario 3
 
 ### Alakazam - Favorable
 
-Este matchup es favorable o muy favorable con tres cartas de disrupción de mano. Debería ser prácticamente igual independientemente de si la segunda Special Red Card es un Judge o no. Con menos cartas de disrupción de mano, el matchup se vuelve mucho más parejo.
-
+- Juega alrededor de Eri al no elegir Items importantes al inicio con Recon Directive. Ahora que muchos Alakazam juegan Erin, considera muy bien con que Items decides quedarte. Unfair Stamp puede ser la excepcion ya que probablemente usaran un Supporter para su seteo y los puedes castigar. Ya que hayan usado Eri ya no tienes que jugar alrededor de una segunda.
 - Guarda los Estadios para quitar los suyos. Si no puedes obtener un beneficio inmediato de quitar un Estadio (por ejemplo, si puedes atacar normalmente aún bajo Nighttime Mine), guarda el Estadio para combinarlo con disrupción de mano.
 - Contra la versión de Nighttime Mine de Alakazam, adelantarse en la carga de Energías es aún más importante, por lo que retraer a Budew tiene menos valor. Priorizar Itchy Pollen es bueno si tienes Unfair Stamp en la mano, ya que puedes dejar que lo noqueen y luego atacarlos con Unfair Stamp. Dado que asumes que pueden noquear de inmediato con Kadabra en la mayoría de los casos, Budew no es una prioridad.
 - Acumula tanta Energía en juego como sea posible contra la versión de Nighttime Mine. Incluso cargar Energía Dark a un Drakloak cualquiera es bueno.

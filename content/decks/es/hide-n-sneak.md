@@ -6,9 +6,10 @@ format: Standard
 ---
 ## Decklist
 
-![sneak list](./images/hide-n-sneak/explorer.png)
+![sneak list](./images/hide-n-sneak/latias.png)
 ```decklist
 Pokémon: 24
+Pokémon: 25
 4 Shuppet PBL 33
 4 Banette PBL 34
 4 Dunsparce JTG 120
@@ -18,8 +19,9 @@ Pokémon: 24
 1 Bloodmoon Ursaluna ex TWM 141
 1 Flutter Mane TEF 78
 1 Fan Rotom SCR 118
+1 Latias ex SSP 76
 
-Trainer: 29
+Trainer: 28
 4 Lillie's Determination MEG 119
 4 Boss's Orders MEG 114
 1 Hilda WHT 84
@@ -29,7 +31,6 @@ Trainer: 29
 2 Buddy-Buddy Poffin TEF 144
 2 Pokégear 3.0 SVI 186
 2 Night Stretcher ASC 196
-1 Air Balloon ASC 181
 4 Prism Tower CRI 80
 
 Energy: 7
@@ -48,7 +49,7 @@ Energy: 7
 - Hilda es una forma de encontrar Legacy Energy, lo cual es muy útil. Sin Hilda, a menudo tenía partidas en las que ni siquiera veía la Energía Legacy. Aparte de eso, buscar evoluciones y Energía sigue siendo útil por sí solo.
 - Cuatro Boss son absolutamente necesarios. Dhelmise necesita conseguir KOs consistentes de dos golpes, ya que no suele derrotar a la mayoría de los Pokémon de un solo golpe, y Ursaluna Boss es una forma muy común de terminar las partidas.
 - Pokégear ofrece buena consistencia y ayuda a acceder a Boss en turnos clave.
-- Air Balloon es una buena carta de utilidad general. Es útil para cambiar a Ursaluna, especialmente si el oponente deja a Dhelmise activo. Extremadamente útil si alguna vez necesitas sacar a Ursaluna del activo, lo cual no ocurre a menudo, pero puede ser decisivo cuando sucede. También es particularmente útil con Flutter Mane en el matchup contra Festival, aunque no siempre es necesario.
+- Latias es muy buena para más movilidad al inicio del juego y lidear con Mind Bend de Dragapult. Me parece que es mejor que Air Balloon.
 - Prism Tower y Ultra Ball son cartas imprescindibles (cuatro copias) para que el deck funcione correctamente. Prism Tower también te permite ganar batallas de estadios, lo que a veces marca la diferencia.
 - Explorer's Guidance agrega un poco de consistencia y es usualmente de las mejores opciones para elegir con el ataque de Banette.
 - Legacy Energy es una carta de ataque especial muy poderosa. Dhelmise no suele tener muchos Pokémon que puedan derrotarlo de un solo golpe, por lo que las partidas pueden alargarse y puede que no puedas terminarlas rápidamente. Legacy Energy también te da una gran ventaja contra otros decks de una sola carta de premio.
@@ -59,6 +60,7 @@ Energy: 7
 - Prism Energy en lugar de Psychic permitiría algunas opciones más versátiles, como Moltres, y no es invasiva.
 - Special Red Card probablemente estaría bien, pero no tiene mucho sentido en este deck.
 - Chien-Pao es exclusivamente para la Watchtower. Ocasionalmente también puede ser útil contra Festival Lead. Si no temes a Rocket's Watchtower, no lo incluyas.
+- Más Hilda podrían ser buenas.
 
 ### Exclusiones
 
