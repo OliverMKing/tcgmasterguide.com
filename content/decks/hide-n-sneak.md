@@ -6,9 +6,10 @@ format: Standard
 ---
 ## Decklist
 
-![sneak list](./images/hide-n-sneak/explorer.png)
+![sneak list](./images/hide-n-sneak/latias.png)
 ```decklist
 Pokémon: 24
+Pokémon: 25
 4 Shuppet PBL 33
 4 Banette PBL 34
 4 Dunsparce JTG 120
@@ -18,8 +19,9 @@ Pokémon: 24
 1 Bloodmoon Ursaluna ex TWM 141
 1 Flutter Mane TEF 78
 1 Fan Rotom SCR 118
+1 Latias ex SSP 76
 
-Trainer: 29
+Trainer: 28
 4 Lillie's Determination MEG 119
 4 Boss's Orders MEG 114
 1 Hilda WHT 84
@@ -29,7 +31,6 @@ Trainer: 29
 2 Buddy-Buddy Poffin TEF 144
 2 Pokégear 3.0 SVI 186
 2 Night Stretcher ASC 196
-1 Air Balloon ASC 181
 4 Prism Tower CRI 80
 
 Energy: 7
@@ -49,7 +50,7 @@ Energy: 7
 - Hilda is a way to find Legacy Energy, which is very nice. Without Hilda, I often had games where I would never even see the Legacy. Aside from that, generally searching for evolutions and Energy is still good on its own anyway.
 - Four Boss is absolutely required. Dhelmise needs to get consistent two-shots since it doesn’t one-shot most things, and Ursaluna Boss is a very common way to close out games.
 - Pokegear is good consistency and helps access Boss on key turns.
-- Air Balloon is good general utility. Useful for pivoting into Ursaluna especially if the opponent leaves Dhelmise active. Extremely handy if you ever need to move Ursaluna from the active, which doesn’t happen often but game-winning when it does. Also particularly nice with Flutter Mane in the Festival matchup, although not always required.
+- Latias is very nice for early-game maneuverability and dealing with Mind Bend from Dragapult. I realized it's better than Air Balloon.
 - Prism Tower and Ultra Ball are mandatory four-ofs to make the deck start functioning. Prism Tower also lets you win Stadium wars which occasionally makes a difference.
 - Legacy Energy is a very powerful Ace Spec. Dhelmise does not get many one-shots, so games can become longer and you might not be able to close them out quickly. Legacy gives a massive advantage against other single-prize decks too.
 
@@ -58,6 +59,7 @@ Energy: 7
 - Chien-Pao is a good tech for Watchtower. It can occasionally be good against Festival Lead too. If Watchtower is more popular, Chien-Pao is better.
 - I would really like a third Night Stretcher. It would be good in basically every game and I feel like I’m always cutting it close with just two. I don’t know what to cut though.
 - Prism Energy over basic Psychic would enable some toolbox options such as Moltres, and it’s completely non-invasive.
+- More Hilda would be nice.
 - Special Red Card would probably be fine but it doesn’t make that much sense in this deck.
 
 ### Exclusions
