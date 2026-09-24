@@ -63,9 +63,58 @@ Energy: 9
 - Yveltal is too hard to use, especially with just two Dark and one Munki.
 - Dawn or Brock’s Scouting would help a bit with consistency but the cards just aren’t that good.
 
+## Decklist 2
+
+![No hammer list](./images/dragapult/nohammer.png)
+```decklist
+Pokémon: 20
+4 Dreepy TWM 128
+4 Drakloak TWM 129
+3 Dragapult ex TWM 130
+2 Munkidori TWM 95
+2 Budew ASC 16
+1 Dunsparce JTG 120
+1 Dudunsparce TEF 129
+1 Dudunsparce ex JTG 121
+1 Meowth ex POR 62
+1 Fezandipiti ex ASC 142
+
+Trainer: 31
+4 Lillie's Determination MEG 119
+3 Boss's Orders MEG 114
+2 Crispin SCR 133
+1 Rosa's Encouragement POR 84
+1 Dawn PFL 87
+1 Judge DRI 167
+4 Ultra Ball MEG 131
+4 Poké Pad POR 81
+4 Buddy-Buddy Poffin TEF 144
+3 Night Stretcher ASC 196
+1 Special Red Card CRI 82
+1 Unfair Stamp TWM 165
+2 Risky Ruins MEG 127
+
+Energy: 9
+3 Psychic Energy MEE 5
+3 Fire Energy MEE 2
+3 Darkness Energy MEE 7
+```
+
+### Inclusions
+
+- Dudunsparce ex is extremely good in the current meta. It is an efficient, one-card answer to Slop / Raging Bolt and also deals with Crustle. It can also be useful in other situations against annoying board-wipe decks such as Slowking and Bronzong. Finally, it comes with the benefit of already having regular Dudunsparce, which is very good.
+- Dawn is a nice consistency card and very good in the mirror or other slower games.
+- Judge helps make up for a lack of Hammers as it can slow down troublesome decks like Slowking or mirror combined with Itchy Pollen in the early-game. Also very good against Alakazam. Generally good in slower games when the opponent builds up their hand. Can also be used on the turn you decide to break the Item lock.
+- I still think third Dark is better than fourth Psychic for the Ruins build. Don't need fourth Psychic that often and this deck has a high reliance on Munkidori.
+
+### Possible Inclusions
+
+- Crushing Hammer is obviously very good, but hard to find space for all of them.
+- I find myself sometimes wanting a copy of Team Rocket's Watchtower despite playing Dudunsparce in the deck!
+
 ## Standard List
 
-![decklist for normieDragapult](./images/dragapult/worldswin.png)
+![decklist for normieDragapult](./images/dragapult/newdrix.png)
 ```decklist
 Pokémon: 19
 4 Dreepy TWM 128
@@ -83,22 +132,22 @@ Trainer: 32
 3 Boss's Orders MEG 114
 2 Crispin SCR 133
 1 Rosa's Encouragement POR 84
+1 Judge DRI 167
 4 Poké Pad POR 81
 4 Buddy-Buddy Poffin TEF 144
 4 Crushing Hammer POR 71
 3 Ultra Ball MEG 131
 3 Night Stretcher ASC 196
-1 Special Red Card CRI 82
 1 Unfair Stamp TWM 165
 2 Risky Ruins MEG 127
 
 Energy: 9
-3 Psychic Energy MEE 5
+4 Psychic Energy MEE 5
 3 Fire Energy MEE 2
-3 Darkness Energy MEE 7
+2 Darkness Energy MEE 7
 ```
 
-This is the list that won Worlds. It is fundamentally good and focuses more on Munkidori. Dudunsparce also helps with some mid- and late-game consistency. Without Watchtowers, the matchup spread is slightly worse (such as slop decks and Slowking).
+This is the most common list that is close to the one that won Worlds. It is fundamentally good and focuses more on Munkidori. Dudunsparce also helps with some mid- and late-game consistency. Without Watchtowers, the matchup spread is slightly worse (such as slop decks and Slowking). Special Red Card is sometimes present in the list and sometimes not.
 
 <!-- /PUBLIC -->
 ## Gameplay Tips
