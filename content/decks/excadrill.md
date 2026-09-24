@@ -6,43 +6,42 @@ format: Standard
 ---
 ## Decklist
 
-![excadrill list](./images/excadrill/balloonback.png)
+![excadrill list](./images/excadrill/shaymin.png)
 ```decklist
 Pokémon: 20
+Pokémon: 19
 4 Drilbur PBL 46
 2 Mega Excadrill ex PBL 65
 4 Beldum TEF 113
 4 Metang TEF 114
 1 Metagross CRI 61
 2 Genesect ex BLK 67
-1 Piplup PFL 27
-1 Empoleon ex PFL 70
 1 Fezandipiti ex SFA 38
+1 Shaymin DRI 10
 
 Trainer: 25
 4 Boss's Orders PAL 172
 4 Team Rocket's Petrel DRI 176
-3 Lillie's Determination MEG 119
+4 Lillie's Determination MEG 119
 4 Team Rocket's Transceiver DRI 178
 3 Buddy-Buddy Poffin TEF 144
 1 Energy Recycler DRI 164
 1 Night Stretcher ASC 196
 1 Switch MEG 130
 1 Ultra Ball SVI 196
-1 Rare Candy SVI 191
 1 Precious Trolley SSP 185
 1 Air Balloon BLK 79
 
-Energy: 15
-15 Metal Energy MEE 8
+Energy: 16
+16 Metal Energy MEE 8
 ```
 <!-- PUBLIC -->
 ### Inclusions
 
 - Four Drilbur is nice to have it early and easy access to Call for Family, but it would probably be fine to play three. The Call for Family is a relevant buff to consistency.
-- Metagross is insane but you never need more than one.
+- Metagross is insanely good but you never need more than one.
 - Fezandipiti is hard to find but sometimes you get it early and it can help get Boss. It can also be a decent fast attacker in some situations.
-- Empoleon ex is a cheeky tech for heavy-Alakazam metas. Right after Worlds, Alakazam is seeing a lot of hype due to its incredibly strong showing. The Rare Candy also enables fast Metagross, which is good for prize trades and some misc matchups such as Festival Lead (if it lines up).
+- I added Shaymin as a tech for Slowking since the matchup is otherwise very difficult. With the techs against Alakazam sometimes being ineffective, I chose to simply tech for a different matchup instead. Can also be good against Waterpon or other snipers.
 - Lillie’s Determination is not as important in this deck as some others, but the card is still very good and helps a lot with overall consistency.
 - Four Boss’s Orders is necessary with how often this deck wants to have Boss at the right time. Without four I would never have it when I needed it. It can also help with reverse prize mapping. Sometimes you don’t want to attack with Excadrill since it’s good for your opponent’s prize map, but Excadrill is the only thing that gets a big KO, so you can use Boss to get value from a different attacker on that turn.
 - Three Poffin helps make the deck consistent. Sometimes Trolley is prized or you only have Lillie in the early-game instead of Petrel, or you are forced to go first against a deck with Budew and can’t Trolley.
@@ -57,7 +56,7 @@ Energy: 15
 - Lana’s Aid would sometimes be nice but it’s difficult to pull off.
 - Pokegear would be very good to have Boss at the right time (and also increase the rate of finding early Trolley).
 - Special Red Card might occasionally be useful, though it didn’t get used much against Dragapult.
-- Shaymin might be a decent tech for Slowking. You’d have to delay evolving into the backup Excadrill.
+- I cut Empoleon because lots of Alakazam lists now play Clefairy and / or bad Zam, rendering the Empoleon ineffective.
 - Second Energy Recycler would be nice.
 
 ### Exclusions
@@ -189,20 +188,21 @@ id: tJWxvGKRHtg
 title: Drill v Zoro 1
 ```
 
-### Alakazam - Depends
+### Alakazam - Very Unfavorable
 
-With Empoleon, it's very favorable. Without it, it's very unfavorable.
-
-With Empoleon:
-- Set it up and win. Easy game.
-- Don't search out Rare Candy until you're ready to use it. You'll get punished by Eri.
-
-Without Empoleon:
 - If they start with a random bad Pokemon like Dedenne or Genesect, it’s possible to cheese them by sniping around it with Fez and Boss stalling.
 - Another possible win con is milling important cards (recovery or Boss) while taking early KO’s with Excadrill, and then pivoting to Metagross -> Stretcher Metagross. Even Metang can KO Abra if you must attack with a single-prizer, but KO’ing their Alakazam is usually ideal.
 
-### Slowking - Unfavorable
+### Slowking - Depends
 
+With Shaymin, this matchup becomes favorable. Without Shaymin, it's unfavorable.
+
+With Shaymin:
+- Get the Shaymin out as soon as possible and play normally. If you it's prized, see below. If it's in the deck, try to tiptoe around Trifrost by underbenching Pokemon until you can get the Shaymin.
+- If they get a fast Trifrost before Shaymin comes out, Genesect's Protect Charge can protect it from a follow up Trifrost.
+- Their only way to one-shot Excadrill is with the Fighting Annilihape, which is somewhat uncommon but not out of the realm of possibility, so be aware of that.
+
+Without Shaymin:
 - Don’t bother trying to tiptoe around Trifrost. Our best chance is to go fast and aggressive, and hope they don’t draw great. Play normally and try to prize race them by going 3-2-1.
 - Boss is very important as you’ll need to snipe down Kang and Latias to rush prize cards.
 
