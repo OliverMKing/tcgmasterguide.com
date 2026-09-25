@@ -258,7 +258,7 @@ With Shaymin, this matchup is trivially easy. With Hammers, it's around slightly
 - Try to play around Trifrost especially in the mid- and late-game. Usually you have to go for basics early and just hope they don’t get it. If you play Shaymin, just slam it.
 - Budew and Hammer (if you play it) are extremely effective at delaying Trifrost, as well as enabling a recovery if you do get hit by a fast Trifrost.
 - Watchtower + hand disruption is a very strong combo that will likely make them brick. If they have Fez in play and you’re using Phantom Dive, try not to take a KO unless it’s necessary or severely cripples them. Setting up the board with multiple KO’s at once is one of the main ways to win.
-- - Phantom Dive almost always puts six on the backup Slowpoke/King that is least likely to attack next turn. Alternatively, if you have Dusknoir lined up, you can plan around that instead.
+- Phantom Dive almost always puts six on the backup Slowpoke/King that is least likely to attack next turn. Alternatively, if you have Dusknoir lined up, you can plan around that instead.
 - Judge is very good early-game or whenever they have a big hand, or when they use Cipher to set up their next turn.
 
 ```youtube
