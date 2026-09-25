@@ -1,39 +1,39 @@
 ---
-title: Slop Box
+title: Clefairy Box
 pokemon: [35]
 tier: 3
 format: Standard
 ---
 ## Decklist
 
-![slop list](./images/slop-box/blitzle.png)
+![slop list](./images/clefairy-box/mewblitz.png)
 ```decklist
 Pokémon: 22
 4 Mega Kangaskhan ex MEG 104
 4 Meowth ex POR 62
-4 Lillie's Clefairy ex ASC 76
-3 Latias ex SSP 76
+3 Lillie's Clefairy ex ASC 76
+2 Latias ex SSP 76
+2 Mew ex 30C 66
 2 Wellspring Mask Ogerpon ex TWM 64
 2 Fezandipiti ex ASC 142
 1 Moltres PFL 14
 1 Chien-Pao SSP 56
 1 Koraidon ex ASC 121
 
-Trainer: 28
+Trainer: 27
 4 Crispin SCR 133
 3 Boss's Orders MEG 114
 2 Cyrano SSP 170
 2 Ciphermaniac's Codebreaking TEF 145
 1 Lillie's Determination MEG 119
 4 Ultra Ball MEG 131
-3 Wondrous Patch PFL 94
-2 Dusk Ball SSP 175
+4 Wondrous Patch PFL 94
 1 Prime Catcher TEF 157
 2 Lillie's Pearl JTG 151
 4 Area Zero Underdepths SCR 131
 
-Energy: 10
-4 Psychic Energy MEE 5
+Energy: 11
+5 Psychic Energy MEE 5
 2 Water Energy MEE 3
 2 Fighting Energy MEE 6
 2 Fire Energy MEE 2
@@ -43,24 +43,26 @@ Energy: 10
 
 - This deck plays high counts of all the Pokemon primarily for consistency and to have enough Pokemon to bump liabilities with Chien-Pao whenever necessary. We also want to start with Kangaskhan as much as possible. This deck also uses many copies of Clefairy and Meowth every game, so it’s not as overkill as you might think.
 - Wellspring Ogerpon is a useful tech. Sob can buy time to build up Energy in play or find a specific combo. Torrential Pump can be very strong in early games against Dragapult or other evolving decks, though sometimes you still just use Clefairy instead. Crucially it also opens up Area Zero which powers up Clefairy and enables Chien-Pao.
+- Mew ex is good with Wondrous Patch and Crispin, and sometimes it's nice to not lose a Clefairy (though it can't use Pearl). Mew also makes it a bit easier to use Wellspring's attacks because now you can effectively Patch to Wellspring. Another use case for Mew is against Dragapult to copy Koraidon, as their win condition is often to have only one Pokemon on board at the end of the game, keeping Clefairy out of range (and using hand disruption to make it hard to get Area Zero).
 - Moltres helps prize trade against decks with Teal Mask Ogerpon. It can also be useful to smack big Pokemon like opposing Mega Kangaskhan or to open fast aggression against other two-prize decks.
 - Koraidon is surprisingly helpful because of how many decks play Kangaskhan. It enables 3-2-1 prize maps as a way to one-shot other Kangs, and also provides a Tera in play for Area Zero. Its second attack gets used on occasion too.
 - Chien-Pao is extremely relevant. Aside from the Dragapult matchup, removing Mega Kangaskhan from play is very strong against any deck that can one-shot it. This helps us utilize Lillie’s Pearl for a better prize trade.
-- I found Cyrano to be much better than Dusk Ball, so I added a Cyrano and cut a couple of Dusk Balls from the original list. Dusk Ball can still help with consistency, especially in the early-game, though I often still want to use Cyrano in most games.
+- I found Cyrano to be much better than Dusk Ball, so I added a Cyrano and cut Dusk Balls from the original list. Dusk Ball can still help with consistency, especially in the early-game, though I often still want to use Cyrano in most games.
 - Lillie’s Determination is a solid option in a deck with four Meowth. Sometimes your hand is small or bad and you just want a new one.
 - Prime Catcher has great synergy with the deck. It enables Ciphermaniac + Run Errand even if you don’t already have Kang in the active. It escapes retreat lock. And of course, gust + Crispin is incredibly strong.
 
 ### Possible Inclusions
 
-- A tech for Crustle could be considered, such as Chi-Yu or Passimian. However, if they have Fan or Crushing Hammer, it might not be reliable. If you do play a tech, it might be worth also adding a Night Stretcher for it.
+- A tech for Crustle could be considered, such as Chi-Yu or Paldean Tauros.
+- Telepathic Energy might be a bit better now with Mew in the deck.
 - Second Moltres or Chien-Pao would be nice.
-- More Cyrano, Lillie’s, or Dusk Balls would increase consistency, which is never bad. I did not find the Dusk Balls to be that great when playing with four, which is why I trimmed them down.
+- More Cyrano, Lillie’s, or Dusk Balls would increase consistency, which is never bad. I did not find the Dusk Balls to be that great overall.
 - A tech Energy Switch or two could still be good. There are some times where you use Crispin in the early-game but want to repurpose the Energy later. It also works well with Wondrous Patch.
 - This deck has some space to work with, so I’m sure some other ideas that I haven’t thought of could be good.
 
 ### Exclusions
 
-- I did not find the Telepathic Energy to be very useful.
+- Stunfisk was underwhelming in testing since most decks have ways around it.
 - Hand disruption cards are good and could be nice on occasion, but usually they won’t swing any matchups and don’t work well with the deck overall.
 <!-- /PUBLIC -->
 ## Gameplay Tips
@@ -80,8 +82,8 @@ Energy: 10
 Some builds of Dragapult might be closer to even.
 
 - Save Area Zero for bumping their Stadium, making a Chien-Pao play, or reaching for the KO when they have a slim board. Chien-Pao can bump Watchtower if necessary, but ideally you’ll have an Area Zero for that instead.
-- Latias can one-shot Dragapult even if they have too slim of a board for Clefairy. This is mostly relevant in the end-game. If you manage to get extra Energy on Latias at some point throughout the game, it can be a good closer.
-- Attaching Energy to Wellspring or Fez on Turn 1 can be good to present the threat. Even if it gets Hammered, you can still Crispin Clefairy. While attacking with Wellspring/Fez can be very strong in the early-game, attacking with Clefairy instead is still fine. It just depends on the situation and what lines up easier. If you’re going second, try to get the Turn 1 KO with Clefairy.
+- Latias can one-shot Dragapult even if they have too slim of a board for Clefairy. This is mostly relevant in the end-game. If you manage to get extra Energy on Latias at some point throughout the game, it can be a good closer. Now with Mew, it's easier to simply have Koraidon on the board and then Mew can win with just a Crispin after they disrupt you with a slim board.
+- Attaching Energy to Wellspring or Fez on Turn 1 can be good to present the threat. If you have Mew, attach to that instead. Even if it gets Hammered, you can still Crispin Clefairy. While attacking with Wellspring/Fez (or Mew copy) can be very strong in the early-game, attacking with Clefairy instead is still fine. It just depends on the situation and what lines up easier. If you’re going second, try to get the Turn 1 KO with Clefairy.
 - Prepare for hand disruption and play around it to the best of your ability.
 - If they have Meowth or Fez in play, they are massive liabilities for them. Don’t go out of your way to KO them. Instead, keep them around as easy Sob or KO targets for later. Of course, if they are threatening to attack with them after you use Sob, you have to take the KO.
 - Against the Dusknoir version, if you have too many Meowth and Clefairy in play, they can possibly win with just two Phantom Dives + one Dusknoir. Watch out for that and try to play around it. Snipes from Phantom Dive or Dusknoir also bypasses Lillie’s Pearl.

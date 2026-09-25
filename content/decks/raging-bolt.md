@@ -1,7 +1,7 @@
 ---
 title: Raging Bolt
 pokemon: [1021]
-tier: 3
+tier: 2
 format: Standard
 ---
 <!-- PUBLIC -->

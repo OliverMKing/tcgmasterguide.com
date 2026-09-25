@@ -48,7 +48,7 @@ Energy: 8
 - Rare Candy is a card that is either useless or extremely impactful. There are some games where you don’t need it, but it’s very powerful and important to have on specific turns in various situations. I tried with two and three and found it to be strong enough to warrant the third.
 - Crispin is extremely strong. I found myself using it a ton, despite the deck also playing Blaziken. A very underrated aspect of it is actually finding the Energy, which can sometimes be inconsistent otherwise.
 - Special Red Card replaces Petrel since it's similar to Unfair Stamp. Although it would be nice to have Petrel to find Candy, it's ultimately not that strong of a card.
-- Just like regular Dragapult, Risky Ruins is very useful and impactful. I think it’s the best Stadium for this build. I'm not sure if this deck actually needs Stadiums, but they can be useful in any matchup and are particularly important against Alakazam.
+- Just like regular Dragapult, Risky Ruins is very useful and impactful. I think it’s the best Stadium for this build. They can be useful in any matchup and are particularly important against Alakazam. One Ruins could be a Watchtower.
 
 ### Possible Inclusions
 
@@ -67,9 +67,10 @@ Energy: 8
 
 ## Standard List
 
-![normieBlaziken list](./images/dragapult-blaziken/normieblaze.png)
+![normieBlaziken list](./images/dragapult-blaziken/judge.png)
 ```decklist
 Pokémon: 22
+Pokémon: 21
 4 Dreepy ASC 158
 4 Drakloak ASC 159
 2 Dragapult ex ASC 160
@@ -77,17 +78,17 @@ Pokémon: 22
 1 Combusken DRI 41
 2 Blaziken ex JTG 24
 2 Munkidori ASC 99
-1 Lillie's Clefairy ex ASC 76
 1 Fezandipiti ex ASC 142
 1 Meowth ex POR 62
 1 Budew ASC 16
 1 Chi-Yu TWM 39
 
-Trainer: 30
+Trainer: 31
 4 Lillie's Determination MEG 119
 3 Boss's Orders MEG 114
 2 Crispin SCR 133
 1 Dawn PFL 87
+1 Judge DRI 167
 4 Buddy-Buddy Poffin ASC 184
 4 Ultra Ball MEG 131
 4 Poké Pad POR 81
@@ -104,7 +105,7 @@ Energy: 8
 2 Darkness Energy MEE 7
 ```
 
-Most Blaziken lists have Area Zero and / or Watchtower. Shaymin is also a fairly common tech, although it's also common for them to not have it.
+Most Blaziken lists have Area Zero and / or Watchtower, as well as Judge. Shaymin is also a fairly common tech, although it's also common for them to not have it.
 
 <!-- /PUBLIC -->
 ## Gameplay Tips
