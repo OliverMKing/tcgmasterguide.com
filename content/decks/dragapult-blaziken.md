@@ -135,9 +135,18 @@ For Dragapult in general:
 
 - If they go first and get Turn 2 Dragon Headbutt with Drakloak, you can punish them hard with a Rare Candy KO.
 - Ideal board is Blaziken, two Munkidori (if you can get both Darks), and the rest Drakloak or Dragapult. Evolving into extra Dragapult preemptively is sometimes necessary to stop them from getting a snipe KO on Drakloak with their Munkidori + Phantom Dive. If you’re getting a KO, try not to leave 30 damage increments on their board so they cannot snipe Drakloak.
-- Munkidori can be a decent fast attacker for KO’ing Budew and getting a prize lead. It’s not as important to keep safe as an attacking Drakloak, but Drakloak can be a safe attacker if they have no Drakloak and don’t play Rare Candy.
-- Clefairy is very good to one-shot their Dragapult, especially if they don't have Energy on the bench to get an easy response.
-- On Turn 1, use Items preemptively to play around Budew. PokePad for Drakloak, Ultra Ball for Meowth, whatever is best in the situation. Just don’t let those Items get locked if you have the chance to play them.
+- When deciding whether to be aggressive mostly depends on which player is outscaling the other. If your setup is outscaling the opponent's, there's no reason to make yourself vulnerable to Hammers and Stamp. Set up a strong board before going in, ideally stalling them with Itchy Pollen. If your opponent is outscaling you, you have to go in as fast as possible and apply pressure (hoping they whiff something such as not finding Stamp or tails on Hammer). Against non-Hammer builds, you have more incentive to go in as long as you aren't particularly vulnerable to Stamp. There can be multiple metrics of scaling and it's not always immediately obvious, including but not limited to: number of Drakloak, Munkidori / overall Energy situation, optimal board setup (Meowth situation), and cards in hand / resources available.
+- Opening aggression by KO'ing their Drakloak with Energy is ideal, especially with the Hammer build. If you have to KO Budew, best to do it with your Budew. If they have Munkidori established, Jet Headbutt or Dragon Headbutt is sometimes better than Phantom Dive to KO single-prizers (this doesn't apply if Patrat is in play).
+- Munkidori is very strong. Try not to boardlock yourself out of it so that you can utilize it whenever you find it. Conversely, if they have Munkidori with Dark, consider KO’ing it to limit their options. With limited Stretchers, they might not be able to get it back. Munkidori can be a decent fast attacker for KO’ing Budew and getting a prize lead. It’s not as important to keep safe as an attacking Drakloak, but Drakloak can be a safe attacker if they have no Drakloak and don’t play Rare Candy.
+- I still think going first is better because it opens up more options and allows you to get the first Phantom Dive, or just Itchy Pollen ten damage into their Budew first. KO'ing their Budew with your Budew is a very desirable situation, and therefore the opposite should also be avoided. Going second isn't bad, and it does feel better if you have Lillie into Items, but I'm still choosing first. Sometimes you choose not to attach Energy on Turn 1 going first in order to play around Crushing Hammer, but it's very situation-dependent.
+- Fast Cruel Arrow can be good if it lines up, so sometimes it can be optimal to start with Fez. However, since this play is easily thwarted by Crushing Hammer, it shouldn't be relied on. If they are threatening a fast Fez attack, respond with Hammer, Mind Bend, or Boss.
+- On Turn 1, use Items preemptively to play around Budew. PokePad for Drakloak, Ultra Ball for Meowth, whatever is best in the situation. Just don’t let those Items get locked if you have the chance to play them. If they might play Watchtower, consider using Meowth preemptively. I'd prefer not to, but it's better than dead drawing to a Watchtower. Conversely, you should slam Watchtower on Turn 1 because it can sometimes make the opponent brick.
+- Budew is not necessarily ALWAYS needed. If you’re going second, especially if you have Stamp (or if they don’t have any Energy), it is a priority on Turn 1. If you don’t have some reason to go for Budew, it’s not necessarily needed. Using an Energy to retreat into it can result in significant tempo loss, especially if Budew gets immediately KO’d or Bossed around. Even if it doesn’t, it is a liability on the board for later. They also used their Items on Turn 1 going first, so it only matters if they use Lillie and draw search Items. Budew can protect your Energy from opposing Hammers, but this is only situationally relevant. In other words, don’t mindlessly prioritize Budew, but it can be useful if you have a reason to do so.
+- When they 30-30 your two Drakloak, the ideal response is to heal one with Adrenabrain and evolve the other. In general, you’ll often have to preemptively evolve a Drakloak in order to protect it. Going 30-30 on their Drakloak is generally good because it pressures them to find a lot of cards as a response, and if they evolve Drakloak, that's less draw they have to recover from hand disruption. If you think they can protect both Drakloak and you need a guaranteed snipe target, it's sometimes fine to dump damage onto their Dreepy instead.
+- Since most play Judge now, try to play around that to the best of your ability (using cards for value that you would otherwise hold). There are also times where it's best to delay taking prize cards. This is especially true if they don't have Munkidori and you can spread damage. Be careful to play around cards such as Rosa's and Stamp.
+- Do NOT evolve into Blaziken if there's a risk of it getting stuck and smacked for 200. Blaziken is very good in this matchup, but make sure it's not a liability before putting it into play. If they Boss Blaziken, you want to be able to retreat it and attack with something else. Sometimes you have no choice but to attack with it, which is still better than it getting stuck.
+- Against Patrat, it can be a convenient snipe target, but it's not a priority to Boss up since they play lots of Night Stretchers.
+- Against Dusknoir, you have additional incentive to go for a fast Phantom Dive since you can snipe down Duskull before they evolve. If they don't have a threat of Dusknoir, it's fine to play a slower game and go for a better setup. Of course, if they already evolved Duskull into Dusclops, the incentive to go fast is no longer there. The opposite is true because you don't want to walk into Dusknoir + Phantom Dive on your only Dragapult.
 
 ```youtube
 id: SmX3t4Se6hk
@@ -150,11 +159,14 @@ id: YbrejTOUFNI
 title: Blaziken v Pult 2
 ```
 
-### Raging Bolt - Favorable
+### Raging Bolt - Slightly Favorable
 
-- This is another matchup where Blaziken is very good. You don’t need to get the second Torchic right away, and a lot of times you don’t need it at all.
+- This is another matchup where Blaziken is very good. You don’t always need the second Torchic though.
+- Early-game Mind Bend is sometimes good. Having Munkidori in the active is ok since it tanks a Waterpon attack.
 - Blaziken is best used to attack pretty much any time it can get a KO. Ideally they don’t have a lot of Energy / Raging Bolt ex with Energy in play. It is possible for them to one-shot Blaziken with Raging Bolt. If they do that, respond with Unfair Stamp and Phantom Dive. If they have Fezandipiti, don’t take a KO right away and try to make them brick for a turn. Although Blaziken is good to attack with, you may not even attack with it more than once. It’s mostly just used to halt their tempo and deny a free Clefairy KO.
 - Spread damage should go 40 to Raging Bolt, and sometimes 10 to 210 HP Pokemon. Having the option to KO their Fez is good, but there are some occasions where smacking it for 200 and not taking the KO is better, so it just depends. If you're behind on the prize trade, you might need to go for the delay into double-KO.
+- The best times to play Watchtower are at the very start of the game, when they have a low hand, or when you can pair it with hand disruption. In other words, don’t slam Watchtower when they have a big hand or you think they can easily bump it.
+- Reyling on a big damage setup play is questionable because they can use Chien-Pao to clear off damage. However, it can be fine if they already used Chien-Pao to bump Watchtower. Another time it can be ok is if you can make them whiff something (or if you need them to whiff something), since delaying a KO limits their draw with Kang / Fez. If you disrupt their hand, they might not be able to get Chien-Pao, so going for a damage setup can be fine. In general, it just depends on the situation (you also might be forced to KO Clefairy since it's a big threat).
 
 ```youtube
 id: b_n36dgxdPo
@@ -172,13 +184,18 @@ title: Blaziken v Bolt 2
 - If they might play Reshiram and have an open board spot, try to play around Reshiram (Boss, Jet Headbutt, Mind Bend, Itchy Pollen). If they don't have an open board spot, keep in mind that it's hard for them to get a Tome play early, and some of them don't even play Tome to begin with.
 - If you are able to make a winning prize trade, sometimes it's fine to play into Reshiram for tempo, depending on the situation. Other times, it's inevitable anyway.
 - 60 damage snipes almost always go on Zoroark and / or Zorua.
+- If they might play Tome, target down their weak two-prize liabilities before they get Tome'd away.
 
 ### Alakazam - Favorable
 
-- Save Risky Ruins to bump their Stadiums. Also good with Munkidori later. Try to get two prizes per Phantom Dive. Ideally you can snipe Kadabra or Dunsparce with Munkidori’s help, but if not, sniping Abra is also fine.
+- Save Risky Ruins to bump their Stadiums and combo with hand disruption. Also good with Munkidori later. Try to get two prizes per Phantom Dive. Ideally you can snipe Kadabra or Dunsparce with Munkidori’s help, but if not, sniping Abra is also fine.
 - Hand disruption is best when attacking with a big two-prize Pokemon because they probably won't be able to get the response KO. Hand disruption cards are premium in this matchup.
-- Blaziken is a good option if you need it to attack through Nighttime Mine.
+- Blaziken is a good option if you need it to attack through Nighttime Mine or are worried about Clefairy after disrupting their hand. I definitely don't attack with it every game, as it is quite situational.
 - Using Pokemon like Fez/Meowth is generally fine in order to maintain tempo. Try to leave a spot for Munkidori in the mid- or late-game.
+- Play around Eri by not grabbing important Items with early Recon Directives (namely Special Red Card) and by using Items as soon as you can get value. Now that many Alakazam decks have Eri, carefully consider the board state before deciding which Items to hang on to. Early Stamp is one that's usually fine to grab because they are more likely to use a setup Supporter instead of Eri, and you can punish them if they don't get Genesect fast enough. If you save the Stamp for later, they will just have Genesect by then. Of course, once Eri has been used, you don't need to play around it anymore. Some play two Eri, but it's fairly rare.
+- Some of them also play Special Red Card now, which is important to play around by thinning as much as possible.
+- If they ever attack with Elgyem, KO it immediately. You don't need to play around it particularly hard. Elgyem is bad and useless as long as you don't let it attack multiple times.
+- Snipe damage should usually KO Abra whenever possible. Spreading 2 to multiple Kadabra is fine if possible. Otherwise, 5 to Genesect and / or 1 to Fez is generally good to set it up for another snipe.
 
 ```youtube
 id: bdMztyglVF4
@@ -192,23 +209,55 @@ title: Blaziken v Zam 2
 
 ### Slowking - Slightly Unfavorable
 
+- If you're expecting Trifrost, the ideal board is Budew, Dreepy, Fez (or just Budew Fez).
 - Rare Candy can help with making fast Stage 2's or recovering off Trifrost. Ideally, you'll get a Turn 2 Phantom Dive or Blaziken, but of course that won't always happen.
 - Fezandipiti can be a useful attacker or wall, especially early in the game. If you force them to Trifrost into Fez (by only having three Pokemon in play), Munkidori can use it to farm damage later.
 - Blaziken can be a great attacker later in the game since they cannot easily one-shot it (it's not weak to Clefairy). They would need either Annihilape or Brave Bangle, which many lists don't play.
+- Avoid giving them easy Trifrost lines to win the game. This is very situational based on the board. Sometimes it’s fine to bench extra Dreepy and stuff, and sometimes it’s game-losing.
+- Munkidori is extremely important if they end up Trifrosting any two-prizer for less than a KO.
+- Phantom Dive almost always puts six on the backup Slowpoke/King that is least likely to attack next turn unless you're setting up to win the game another way.
+- Judge is very good early-game or whenever they have a big hand, or when they use Cipher to set up their next turn.
+- If they play Zeraora, you have to constantly try to get Drakloak and Dragapult into play. They can punish you for sitting behind Budew with Fez and no Drakloak by sniping Fez. Zeraora is somewhat rare and bad, so I wouldn't play around it super hard unless you know they have it.
 
-### Excadrill - Very Favorable
+### Excadrill - Favorable
 
 - I think going first is better but honestly not sure.
 - Prioritize setting up Blaziken as fast as possible. Even better if you can get a second one eventually.
 - Itchy Pollen is good if their board isn’t set up yet. It also gets relevant ten damage onto Fez if they decide to start attacking with it, so that you can finish it off with Phantom Dive. Mind Bend can also be a decent response to Fez.
 - If they don’t have Excadrill in play, just attack with Drakloak or Dragapult, saving Blaziken to respond to Excadrill.
+- Slam Ruins instantly.
 
 ```youtube
 id: 8pYQpK3xHAQ
 title: Drill v PultBlaze 1
 ```
 
-### Slop Box - Slightly Unfavorable
+### Crustle - Depends on Tech
+
+With a tech such as Chi-Yu, this matchup is very favorable. Without it, it's very unfavorable.
+
+With Chi-Yu:
+- Save Chi-Yu to respond to a loaded Crustle.
+- Munkidori is still good in this matchup.
+- Attack with Dragapult normally to check their Kang and spread damage.
+- Pressure their Energy with Boss or snipes whenever possible.
+
+Without a tech:
+- Combusken can one-shot Crustle if you flip double heads. Use Stretchers for Torchic and Combusken. You may need Blaziken for Energy acceleration despite the opportunity cost of Combusken. Even one heads on Combusken sets up Crustle for a Dragon Headbutt. Combusken is best used on Crustle with multiple Energy and full HP.
+- Pressure them with a fast attacker. If they don’t have Crustle yet, Dragapult is best. If they have Crustle without Mist, Mind Bend is best. Otherwise, Drakloak. Sometimes it is just a matter of whatever you have easy access to, and that’s fine. We want to force them to respond so that we can use Stamp and hopefully make them brick.
+
+### Hydrapple - Favorable
+
+- Prioritize multiple Blaziken and run them over. Sometimes Phantom Dive is still better, depending on the situation.
+- Early Budew can be good to slow them down, and its damage is relevant as well.
+- If you find yourself in a losing prize trade, you may need to rely on disruption and KO'ing their Meganium.
+- Watch out for Briar. That doesn't necessarily mean to stay on odd prizes, as they also need Meganium and the Briar itself (and a big Ogerpon). Disrupting their hand or board are other ways to play around Briar.
+- Even though they play lots of Stadiums, slamming Watchtower on Turn 1 going first can make them brick. Otherwise, save Stadiums to combo with hand disruption and/or bump their Stadium.
+- Stay aware of Hydrapple’s healing Ability. Because of this, sometimes it’s better to overdamage Pokemon with Phantom Dive’s snipe by 30 more than you’d otherwise need. For example, sniping Teal Mask for 40 instead of 10 can be relevant.
+- If you ever get the chance to snipe down Applin or Chikorita before they evolve, that's very good.
+- Judge can be very strong in the early-game, especially combined with Item-lock. If you're using Judge in response to a Celebi setup attack, it's ideal (but not necessarily required) to KO the Celebi that turn.
+
+### Clefairy Box - Slightly Unfavorable
 
 - Try to get a fast Blaziken. If they are threatening attacking Fezandipiti (or Wellspring), get both Torchic right away. If not, still get it relatively soon. Blaziken can take most two-prize KO’s (sometimes with Adrenabrain’s help) and does not worry about Clefairy.
 - Attacking with Dragapult is still not terrible, and you’ll be doing it a decent amount anyway. It’s best along with Unfair Stamp as it’s less likely they’ll have the response.
@@ -218,26 +267,17 @@ title: Drill v PultBlaze 1
 - Targeting the Clefairy is usually best. There’s a good chance they just won’t have the response to your Dragapult, especially if you Unfair Stamp them on the same turn.
 - If you have Shaymin or Watchtower, this is a good matchup to use them in.
 
-### Festival Lead - Slightly Favorable
+### Festival Lead - Favorable
 
+- Early Itchy Pollen is very good in this matchup. It helps stop Rabsca and disrupts their setup in general.
+- KO Rabsca as soon as possible.
 - Rare Candy is a very strong resource, as is Blaziken for accelerating the Energy.
 - Getting Munkidori in play to use as a sponge is very good. It can be used as a sacrifice or as a promote after they use their first attack to get a KO. Later in the game, it will also be relevant for Adrenabrain.
-- Save Risky Ruins for when you can get immediate value from it (or if you can combo it with Stamp).
-- Stamp is very broken. Use it when you start attacking with Dragapult, or with Boss to slow them down. If you Boss up Thwackey and Stamp them, they are unlikely to get out of it and you can buy time that way. If they play Genesect and aren’t board locked, just use Stamp as soon as possible and try to do the Boss play.
-- KO Rabsca as soon as possible. It’s basically impossible to win if that thing stays in play for too long. Sometimes you KO it with Drakloak, or with just one Energy on Dragapult.
+- Save Risky Ruins for when you can get immediate value from it.
+- Stamp is broken along with Boss Thwackey.
+- If you're playing Risky Ruins, it's possible to do some diabolical setups. Boss on Thwackey plus hand disruption leads to better conversions. Jet Headbutt the Thwackey and Adrenabrain it, then finish with Adrenabrain and KO whatever you want. The best part is that this play can be done even if they have Rabsca in play. Therefore, Boss is a very important resource.
 - If they don’t have a large hand and only two Thwackey, it may be better to target a Thwackey. Depending on the board, it may be more likely to get them to whiff a KO, but sometimes KO’ing their attacker is still best. If they have only one Thwackey, KO’ing it is usually best.
-
-### Crustle - Very Unfavorable
-
-- Combusken can one-shot Crustle if you flip double heads. Use Stretchers for Torchic and Combusken. You may need Blaziken for Energy acceleration despite the opportunity cost of Combusken. Even one heads on Combusken sets up Crustle for a Dragon Headbutt. Combusken is best used on Crustle with multiple Energy and full HP.
-- Pressure them with a fast attacker. If they don’t have Crustle yet, Dragapult is best. If they have Crustle without Mist, Mind Bend is best. Otherwise, Drakloak. Sometimes it is just a matter of whatever you have easy access to, and that’s fine. We want to force them to respond so that we can use Stamp and hopefully make them brick.
-- If you want to tech something to make this matchup free, that would be reasonable.
-
-### Hydrapple - Favorable
-
-- Prioritize multiple Blaziken and run them over.
-- If you find yourself in a losing prize trade, you may need to rely on disruption and KO'ing their Meganium.
-- Watch out for Briar. That doesn't necessarily mean to stay on odd prizes, as they also need Meganium and the Briar itself (and a big Ogerpon). Disrupting their hand or board are other ways to play around Briar.
+- If they don't have Shaymin or Rabsca in play, Boss + Stamp / Red Card + Cruel Arrow can be a win condition.
 
 ### Hide n Sneak - Favorable
 
@@ -255,14 +295,14 @@ id: SfY_1pp-vgs
 title: Sneak v PultBlaze 2
 ```
 
-### Lucario - Favorable
+### Lucario - Slightly Favorable
 
-- One-shot their Lucario with Clefairy whenever possible. You may need to have extra Energy in play or Budew for a pivot. Crispin can also work. You could also put Clefairy in play preemptively, but that’s a dangerous game because it can be gusted and KO’d fairly easily. I would be more inclined to put it in play if they have no Makuhita on the board.
 - Play Risky Ruins ASAP. The 20 pings are extremely relevant. If they use Gravity Mountain too early for defense, you can bump it with your second Stadium so they don’t have it for offense. More likely they just won’t have the Gravity Mountain and have to eat the damage.
 - Phantom Dive spread should usually go on Riolu/Lucario. If you can KO Riolu, that is almost always best. Putting 20 damage on Makuhita can also be good. Any extra damage can still be useful on Solrock/Lunatone.
 - Play around late-game Solrock by not benching unnecessary small Pokemon. This is only relevant if they have no other attackers ready to go.
 - Early Budew can be good in this matchup.
-- If you don’t have the one-shot on Lucario, smacking it with Phantom Dive is still very good!
+- If you don’t play Clefairy, smacking Lucario with Phantom Dive or Mind Bend is still very good!
+- If you play Clefairy, one-shot their Lucario with it whenever possible. You may need to have extra Energy in play or Budew for a pivot. Crispin can also work. You could also put Clefairy in play preemptively, but that’s a dangerous game because it can be gusted and KO’d fairly easily. I would be more inclined to put it in play if they have no Makuhita on the board.
 
 ```youtube
 id: yxInJvRcl4Q
