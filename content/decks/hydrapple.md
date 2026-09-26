@@ -176,4 +176,4 @@ title: Sneak v Hydrap 2
 
 ## Personal Thoughts
 
-Hydrapple is a mid deck, but definitely not bad. Its matchup spread is alright, but the deck is not great into most Dragapult variants as well as Festival Lead, which is a bit too suspect for my liking.
+Hydrapple is a mid deck, but definitely not bad. Its matchup spread is alright, but the deck is not great into Dragapult, which is a major pain point in the current metagame.
