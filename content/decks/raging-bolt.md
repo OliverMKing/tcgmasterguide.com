@@ -50,7 +50,7 @@ Energy: 14
 - Bloodmoon Ursaluna is a very efficient closer and takes the spot of the second Fez. Although two Fez it's great, it's not as necessary when Ursaluna can close out games in a low-maintenance way.
 - Wellspring Ogerpon provides good utility. It can be a fast attacker or buy time with Sob in the late-game to piece together a win.
 - Chien-Pao is fantastic against Dragapult for clearing off damage or countering Watchtower. Four Stadiums are similarly included to easily deal with Watchtower since the deck highly relies on Kang and Meowth. Area Zero is also important for buffing Clefairy's damage or synergy with Chien-Pao.
-- Enamorus is a solid single-prize attacker that primarily counters Crustle. It can also one-shot Dragapult, though it would need Clefairy and sometimes Raging Bolt to do so.
+- Enamorus is a solid single-prize attacker that primarily counters Crustle. It can also one-shot Dragapult, though it would need Clefairy and sometimes Raging Bolt to do so. Worth noting that you need either Jamming Tower or Hero's Cape along with Enamorus to reliably beat Crustle.
 - Jamming Tower is mostly for Cape decks, such as Crustle and Excadrill. Bumping your own Pokemon is also very good if Chien-Pao is not available.
 - Second Glass Trumpet over third Teal Mask Ogerpon is what I'm currently liking, but I could change my mind about that. It's also a bit better with Ursaluna.
 - Ciphermaniac is very handy for making combos, but not overly relied on.
@@ -59,7 +59,9 @@ Energy: 14
 ### Possible Inclusions
 
 - Iron Crown plus Special Red Card is quite strong against Festival Lead. This combo also helps against Alakazam, though that matchup is still pretty bad.
+- Mew ex is probably fine but I don't think it's as good as all the hype. With four Energy Switch, Mew's versatility isn't necessarily required for this deck.
 - Unfair Stamp is still very good. I just don't think it synergizes very well with the deck. The same can be said for Special Red Card. Alone, those cards aren't enough to salvage bad matchups, but they're still generally good cards.
+- Hero's Cape is good against Dragapult decks that don't have Jamming Tower. It's a neutrally strong card, but sometimes ineffective against decks that can easily target the bench since this deck will always have liabilities in play. Therefore, some decks can just ignore the Cape entirely.
 - Lillie's Determination is still good.
 - An additional Fez, Ogerpon, Area Zero, Cyrano, or Grass Energy would all be fine.
 
@@ -67,6 +69,7 @@ Energy: 14
 
 - The second Raging Bolt isn't very important.
 - Iron Leaves is bad and useless. Retreat lock is no problem since every Pokemon (besides Chien Pao) can attack, and we also have Prime Catcher.
+- I think Paldean Tauros is bad and worse than Enamorus. The only real reason to play it over Enamorus is the Excadrill matchup, which I just don't care enough about.
 - Passimian is not very good. It can help slightly against Crustle, but that matchup is still bad anyway. If you did play Passimian, it would probably be best to add Stamp back in.
 
 ## Gameplay Tips
@@ -145,42 +148,44 @@ Energy: 11
 
 ## Standard List
 
-![normie Raging Bolt list](./images/raging-bolt/irontwins.png)
+![normie Raging Bolt list](./images/raging-bolt/cape.png)
 ```decklist
 Pokémon: 20
 4 Mega Kangaskhan ex MEG 104
-3 Teal Mask Ogerpon ex TWM 25
 3 Meowth ex POR 62
 2 Latias ex SSP 76
+2 Teal Mask Ogerpon ex TWM 25
 2 Lillie's Clefairy ex JTG 56
-1 Raging Bolt ex TEF 123
 1 Chien-Pao SSP 56
-1 Wellspring Mask Ogerpon ex TWM 64
+1 Raging Bolt ex TEF 123
 1 Fezandipiti ex ASC 142
+1 Wellspring Mask Ogerpon ex TWM 64
 1 Iron Leaves ex TEF 25
 1 Iron Crown ex TEF 81
+1 Enamorus TWM 93
 
-Trainer: 25
+Trainer: 26
 4 Crispin SCR 133
-2 Boss's Orders MEG 114
 2 Cyrano SSP 170
-2 Ciphermaniac's Codebreaking TEF 145
-4 Ultra Ball MEG 131
+2 Boss's Orders MEG 114
+1 Ciphermaniac's Codebreaking TEF 145
 4 Energy Switch MEG 115
+4 Ultra Ball MEG 131
 2 Night Stretcher ASC 196
+1 Special Red Card CRI 82
 1 Glass Trumpet SCR 135
-1 Unfair Stamp TWM 165
-3 Area Zero Underdepths SCR 131
+1 Hero's Cape TEF 152
+4 Area Zero Underdepths SCR 131
 
-Energy: 15
-7 Grass Energy MEE 1
-3 Psychic Energy MEE 5
-2 Lightning Energy MEE 4
-2 Fighting Energy MEE 6
-1 Water Energy MEE 3
+Energy: 14
+6 Grass Energy MEE 9
+3 Psychic Energy MEE 13
+2 Fighting Energy MEE 14
+2 Lightning Energy MEE 12
+1 Water Energy MEE 11
 ```
 
-Techs such as Iron Leaves and Iron Crown are quite popular at the moment. Stamp is also a common Ace Spec, though Prime Catcher is seeing a little more play than it has been. Sometimes this deck includes a Crustle tech such as Enamorus or Passimian, other times not.
+This is the list that won Baltimore. Techs such as Iron Leaves and Iron Crown are quite popular at the moment. Other common Ace Specs are Prime Catcher and Unfair Stamp. They could reasonably play any one of the three Ace Specs.
 
 <!-- /PUBLIC -->
 ## Gameplay Tips
@@ -199,11 +204,13 @@ Techs such as Iron Leaves and Iron Crown are quite popular at the moment. Stamp 
 
 Against most builds, the matchup is favorable or slightly favorable. Against Blaziken or heavy Watchtower builds, the matchup is unfavorable or slightly unfavorable.
 
-- Try to get an early lead attacking with whatever you can. Baby Raging Bolt, Wellspring, or Fez are the best early-game attackers, but they can be hard to get under Item lock. I’ve even attacked with Noctowl or Kang if needed. If you can only get two Energy on baby Bolt, it can still KO Budew and then Drakloak on the following turn.
+- Try to get an early lead attacking with whatever you can. Baby Raging Bolt, Wellspring, or Fez are the best early-game attackers for sniping down Drakloak, but they can be hard to get under Item lock. If you can only get two Energy on baby Bolt, it can still KO Budew and then Drakloak on the following turn.
+- Fast Kangaskhan attack can also be good because they cannot one-shot it and you want it active anyway. Forcing them to attack into Kangaskhan is inefficient for them since they may end up wasting that damage. If they Phantom Dive into Kang and you respond KO with Clefairy, it's hard for them to make another Dragapult and Boss. If they don't have Energy on their backup Drakloak, you don't need to worry about it. If they do, you may need Chien-Pao immediately to clear the damaged Kang off the board. Using Kangaskhan to attack later is not great because it has a hard time taking two prizes, so early-game is the most efficient time for it.
 - Best to respond to Dragapult with an immediate Clefairy. If you don’t have Clefairy, you’ll have to respond with Raging Bolt ex, which is a lot harder.
-- The best way to play around Stamp is to have Hoothoot and Fez on board, but again it can be hard to find Fez so sometimes you don’t really have the choice. Staggering the Hoothoot can sometimes be good so they can’t ping them all at once, but usually you just want them all in play.
+- The best way to play around Stamp is to have Hoothoot / Kang and Fez on board, but again it can be hard to find Fez so sometimes you don’t really have the choice. Staggering the Hoothoot can sometimes be good so they can’t ping them all at once, but usually you just want them all in play.
 - Chien-Pao should be saved so that it can bump Watchtower or clear off damage at a crucial time. Area Zero is best saved for Watchtower, but playing one before that to set up a better board isn't necessarily bad.
-- Sob stopgap can be a good response to their disruption. They can fling the damage back with Adrenabrain, so you can't do it forever or set up damage, but it can still be useful to buy time.
+- Sob stopgap can be a good response to their disruption. They can fling the damage back with Adrenabrain, so you can't do it forever or set up damage, but it can still be useful to buy time. This is also a decent option against an attacking Blaziken if you need more time to set up a Raging Bolt KO on it.
+- If you play Cape, it's very strong on an undamaged Clefairy to run through Dragapult.
 
 ```youtube
 id: tauR3pT-QbY
@@ -250,16 +257,16 @@ title: Blaziken v Bolt 2
 
 - This is a straight up prize race matchup. Try to open the aggression when you can get a two-prize KO and leave a single-prize Pokemon or Kang in the active until you’re ready to do so. Getting random Energy in play even if you aren't ready to attack can help Raging Bolt get the KO on their Kang.
 - If you can't KO their Kang first, sometimes you can go around it and go 2-2-2 instead, if that ends up being easier. Clefairy is quite good at that.
-- If you have the lead, play around Stamp as much as you can and set up efficient attackers like Clefairy and Terapagos. Keeping Fez, Hoothoot, and attackers in play is the best way to maintain a lead.
-- If you’re stuck in a losing prize trade, you’ll have to rely on Stamp scam. Taking out their Fez and Stamping them can make them brick, but then you still have the attacker to deal with that can probably one-shot you. Therefore, you may need to KO their attacker and Stamp, giving them Fez, and hope they whiff.
-- Sob can randomly be good, especially in the early-game.
+- If you have the lead, play around Stamp as much as you can and set up efficient attackers like Clefairy. Keeping Fez, Kang / Hoothoot, and attackers in play is the best way to maintain a lead.
+- If you’re stuck in a losing prize trade, you’ll have to rely on Stamp scam. Taking out their Fez and Stamping them can make them brick, but then you still have the attacker to deal with that can probably one-shot you. Therefore, you may need to KO their attacker and Stamp, giving them Fez, and hope they whiff. Attacking with Kang can sometimes save the game since it's harder for them to KO it, but without hand disruption, it's very hard to make a comeback.
+- Sob can randomly be good, especially in the early-game. It can also be a stopgap or set up Kang for a KO on their Fez, which can be relevant. Due to Crispin and Energy Switch, nothing will be stuck for long, so you can't rely on Sob for an extended period of time.
 
 ## Zoroark - Slightly Favorable
 
-- Similar to the above two, but applying fast pressure is better than positioning because they don’t have to put a two-prize Pokemon in play in order to play the game. Don’t leave a two-prize Pokemon in the active unless you’re winning the prize trade. Fan Rotom can efficiently apply pressure. Whether you’re KO’ing Zorua or not, attacking with Fan Rotom early is generally good.
+- Applying fast pressure is better than positioning because they don’t have to put a two-prize Pokemon in play in order to play the game (unlike you). Don’t leave a two-prize Pokemon in the active unless you’re winning the prize trade. With the Noctowl build, Fan Rotom can efficiently apply pressure. Whether you’re KO’ing Zorua or not, attacking with Fan Rotom early is generally good.
 - Sometimes they have no Energy on the bench, and you have a choice to KO their Fez or KO their active Zoroark with Energy. I think KO’ing their Zoroark with Energy is generally best (even though it may be harder) if they have no Energy on the bench. Sometimes they just whiff PP Up, especially if you Stamp them.
 - Try to get a Grass Energy on Ogerpon (or even better, two of them) quickly so that you’ll have that option to one-shot Zoroark.
-- Try not to leave too much Energy in the discard. Using cards like Retrieval, Stretcher, and Trumpet can help play around Darmanitan and not give them that option.
+- If they play Darmanitan, try not to leave too much Energy in the discard. Using cards like Stretcher and Trumpet can help play around Darmanitan and not give them that option.
 
 ```youtube
 id: OHs-Mc5D3AU
@@ -278,8 +285,10 @@ title: Bolt v Zoroark 3
 
 ### Alakazam - Very Unfavorable
 
-- Baby Raging Bolt is very good, prioritize attacking with it early. If you can’t, Fan Rotom is also a good fast attacker. Otherwise, just attack with whatever you can for fast pressure. Baby Raging Bolt can also be useful throughout the game.
-- If they have Fez, KO it. If they only have one Dudunsparce/Fez, go for Stamp + Boss KO it and hope they brick. If they have neither, use Stamp immediately and hope they brick.
+- Attacking with a Kang early can be good before they have a chance to get to 15 cards in hand. Otherwise, use Waterpon to boardwipe them or just take two prizes, or use a single-prizer to offset their prize trade (and eventually get rid of the Kang via Chien-Pao). If they're on odd prizes, you don't want to have Kang or single-prize Pokemon in play.
+- If you play Cape, that can also be good early-game to deny an easy KO.
+- If they have Fez, KO it. However, if they don't have Shaymin or Rabsca in their deck, you can instead Sob the Fez and convert it into a three prize turn with Torrential Pump. If you're able to blitz prize cards and then do that, it's a reasonable way to potentially win.
+- If they only have one Dudunsparce/Fez, go for Stamp + Boss KO it and hope they brick. If they have neither, use Stamp immediately and hope they brick.
 
 ```youtube
 id: jghIvgnkBmg
@@ -317,7 +326,7 @@ title: King v Bolt 2
 
 - Go first.
 - Wellspring Ogerpon is very strong. Try to get a fast Torrential Pump for two prizes before they get set up. If they push Genesect, KO it normally or Sob it if you can’t get the KO yet.
-- Raging Bolt and Glass Trumpet are very premium cards for one-shotting an Excadrill.
+- Raging Bolt ex and Glass Trumpet are very premium cards for one-shotting an Excadrill.
 - 3-2-1 map is on the table, though it typically requires both Boss and a big Raging Bolt one-shot. You’ll probably want both Boss in most games.
 - Clefairy might seem bad, but it’s actually a very strong and efficient attacker. Mostly good for getting the Boss one-shot on their Genesect / Fez.
 - YOLO Kangaskhan is sometimes the best option.
@@ -333,10 +342,12 @@ id: hb0QJ851_EY
 title: Drill v Bolt 1
 ```
 
-### Festival Lead - Unfavorable
+### Festival Lead - Depends
 
-- Try to be very fast and aggressive with a single-prize attacker. Baby Raging Bolt is ideal, but Fan Rotom is much easier to use.
-- Stamp + Boss Thwackey is very effective if they don't have Shaymin in play. You can get Thwackey stuck and then snipe around it.
+With Iron Crown and Red Card / Stamp, this matchup is fairly close. Otherwise, it's unfavorable.
+
+- Stamp / Red Card + Boss Thwackey is very effective if they don't have Shaymin in play (or if you play Iron Crown). You can get Thwackey stuck and then snipe around it. If you don't play Iron Crown and they have Shaymin or Rabsca, keep KO'ing it until they don't, then go for Stamp / Red Card and gust up Thwackey (and use Cruel Arrow). With Iron Crown, you just need hand disrupt + Boss and Iron Crown, regardless of Shaymin or Rabsca.
+- With the Noctowl build, try to be very fast and aggressive with a single-prize attacker. Baby Raging Bolt is ideal, but Fan Rotom is much easier to use. You can use the same Stamp + Boss strategy as well.
 
 ### Crustle - Depends
 
@@ -345,7 +356,7 @@ With Enamorus and Jamming Tower, the matchup becomes favorable. Otherwise, it's 
 - Pressure their Energy whenever possible.
 
 With Enamorus:
-- Use Enamorus to one-shot a Crustle out of nowhere. Make sure you don't give them the chance to KO it, so you can't give them too much time to load up two Crustle. If Enamorus does go down, at least it can be recovered with Stretcher. Same Jamming Tower for the turn you KO through their Cape.
+- Use Enamorus to one-shot a Crustle out of nowhere. Make sure you don't give them the chance to KO it, so you can't give them too much time to load up two Crustle. If Enamorus does go down, at least it can be recovered with Stretcher. Save Jamming Tower for the turn you KO through their Cape.
 
 With Noctowl:
 - Fan Rotom can be used for fast pressure, but most of the time you’ll be trying to power up baby Bolt as fast as possible. It’s possible to win with baby Bolt. Use Boss to stall and snipe to pressure their Energy. Stamp is also very good to make them brick. If they KO baby Bolt, get it back and power it up with Energy Switch / Crispin.
@@ -363,14 +374,14 @@ id: ovX7LmYRiqY
 title: Crustle v Bolt 2
 ```
 
-### Slop Box - Even
+### Clefairy Box - Even
 
 - KO their Kang whenever possible.
 - Delaying putting down Teal Mask can be good because it stops them from getting an easy Moltres KO.
 - Slim board in the early-game is very good to stop them from initiating with Clefairy. If you started with something bad like Meowth or Raging Bolt, this isn’t as relevant since they can get the KO anyway.
 - Sob can be very good for buying time, particularly in the early-game.
 - If they Sob you, try to instantly start attacking with whatever is stuck.
-- Kang can sometimes be a good attacker since it’s hard for them to KO. Even if they have Koraidon, it’s not any worse than if a two-prize Pokemon gets KO’d (unless you have a single-prize attacker).
+- Kang can sometimes be a good attacker since it’s hard for them to KO. Even if they have Koraidon, it’s not any worse than if a two-prize Pokemon gets KO’d (unless you have a single-prize attacker that you want to use).
 
 ```youtube
 id: NfV1_7qY9JA
@@ -385,9 +396,9 @@ title: Slop v Bolt 2
 
 ### Mewtwo - Favorable
 
-- Use Raging Bolt ex to one-shot Mewtwo whenever possible. Otherwise, attack with whatever the situation calls for. Baby Bolt is good but sometimes annoying to use since you’ll need some Fighting/Lightning for the ex. Fan Rotom is an extremely useful and efficient attacker when they have Tarountula/Mimikyu in the active, which is often. Otherwise, Clefairy or Terapagos are good neutrally. Terapagos is generally better because it does not get KO’d by a Bangle Spidops (but still dies to Max Belt). Mimikyu copying Tera attacks is completely irrelevant, unless you attack with Ogerpon for some reason, which is not recommended.
+- Use Raging Bolt ex to one-shot Mewtwo whenever possible. Otherwise, attack with whatever the situation calls for. For the Noctowl build, Fan Rotom is an extremely useful and efficient attacker when they have Tarountula/Mimikyu in the active, which is often. Otherwise, Clefairy or Kang are good neutrally. Kang is generally better because it does not get KO’d by Spidops. Mimikyu copying Tera attacks is completely irrelevant, unless you attack with Ogerpon for some reason, which is not recommended.
 - Putting random Energy in play is good whenever you get the chance. It’s hard for them to power up Mewtwo in one turn, so they’ll often put it on the bench and attach an Energy to it. That’s your cue to go for a Boss-KO on it with Bolt.
-- If they don’t have Mewtwo in play, KO’ing their Mimikyu (sometimes via Baby Bolt snipe) can be very good as it is hard for them to maneuver around. Without a pivot, it’s even more difficult for them to put together a Mewtwo play. That said, most Mewtwo-less boards are attacking with Spidops, so you may just want to KO that depending on the situation.
+- If they don’t have Mewtwo in play, KO’ing their Mimikyu (sometimes via snipe) can be very good as it is hard for them to maneuver around. Without a pivot, it’s even more difficult for them to put together a Mewtwo play. That said, most Mewtwo-less boards are attacking with Spidops, so you may just want to KO that depending on the situation.
 
 ### Hide n Sneak - Even
 
@@ -408,11 +419,11 @@ id: 33oUkHZ-5qE
 title: Sneak v Bolt 2
 ```
 
-### Lucario - Depends
+### Lucario - Unfavorable
 
 This matchup is favorable for the Noctowl build, but unfavorable for the normal build.
 
-- Baby Raging Bolt is extremely helpful. It is a good option to open the aggression and get off to a fast start. It can also be used at other points to fix the prize trade if necessary.
+- With Noctowl, Baby Raging Bolt is extremely helpful. It is a good option to open the aggression and get off to a fast start. It can also be used at other points to fix the prize trade if necessary.
 - Even if you don’t have Baby Bolt, you want to be fast and pressure them with whatever you can. The next best option is Raging Bolt ex or Clefairy. Clefairy is more efficient but risks getting KO’d by a two-modifier Aura Jab, which can be bad, so I would prefer Raging Bolt. You probably won’t need big Bolt later, and it’s unlikely to be KO’d by Aura Jab.
 - Respond to Lucario with Clefairy.
 - Putting Fez down is usually good. Although it is a liability, it is important to keep tempo and recover off a potential Judge. Of course, don’t put it down if it will lose you the prize trade, as it does give them an easy Aura Jab target if they’re low on Energy in play.
