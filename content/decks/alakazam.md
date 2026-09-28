@@ -311,7 +311,7 @@ With Hammers:
 
 With Clefairy:
 
-- We rely on bad Zam to KO through mist Energy. Use the good Zam to KO anything without a Mist Energy.
+- We rely on bad Zam (and Clefairy vs an attacking Kang) to KO through mist Energy. Use the good Zam to KO anything without a Mist Energy.
 - Genesect is very good if you can get it before they get Cape!
 - Don't draw too many extra cards because we don't want our recovery cards to get Eri'd, and we also don't want to get bodied too hard by Xerosic.
 - Save Eri for when their hand is big or when you're about to smack for less than a KO (to get rid of Ice Creams).

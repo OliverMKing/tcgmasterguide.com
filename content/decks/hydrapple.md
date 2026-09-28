@@ -42,6 +42,7 @@ Energy: 14
 - Celebi is extremely good for setting up in many different matchups. This deck requires a lot of pieces to get set up, which can be difficult without Celebi. That said, more than one Celebi is never needed (unless it’s prized, in which case there is still a decent chance of the deck functioning).
 - Tapu Bulu is just a tech for Crustle, since Meganium alone is not enough. If you don’t care about Crustle, the Bulu is an easy cut.
 - Three Boss’s Orders is very good since this deck heavily relies on it to win prize trades and close out games.
+- Dawn is good consistency. If you aren't able to use Celebi, Dawn is important for getting set up.
 - Lana’s Aid can be very convenient if you need to reestablish a KO’d Meganium or Hydrapple (although it doesn’t get the Hydrapple itself). If you end up discarding an evolution piece for any reason, the opponent can punish you by targeting the remaining line. With Lana’s Aid, you can recover from such scenarios.
 - Ciphermaniac’s Codebreaking goes well with Teal Dance. It is primarily used to find cards such as Unfair Stamp or Forest of Vitality.
 - Unfair Stamp is very broken and the deck doesn’t need any other particular Ace Spec.
@@ -49,7 +50,7 @@ Energy: 14
 
 ### Possible Inclusions
 
-- I did not find Briar to be very useful since it’s too hard to get it to line up, but in theory, it does not sound bad. I couldn’t fault anyone for wanting the option.
+- I did not find Briar to be very useful since it’s too hard to get it to line up, but in theory, it does not sound bad. I couldn’t fault anyone for wanting the option. It's also not too hard to use single-prizers and / or Stamp to offset prize trades without needing Briar.
 - Special Red Card would be the more appealing tech in my opinion, but usually Stamp is good enough for hand disruption. Hand disruption can be nice in this deck because it makes it harder for opponents to deal with a big Hydrapple or gust around a single-prize attacker.
 - Poke Pad is a good consistency card but hard to fit in the deck.
 
@@ -73,7 +74,7 @@ Energy: 14
 
 ### Dragapult - Depends
 
-Against the normal build, the matchup is favorable if they don’t have Moltres, and about even if they do. Against Dusknoir or Blaziken, it’s unfavorable to slightly unfavorable.
+Against the normal build, the matchup is slightly favorable if they don’t have Moltres, and about even if they do. Against Dusknoir or Blaziken, it’s unfavorable to slightly unfavorable.
 
 - Celebi is very often used to set up, especially while Item-locked. Celebi’s second attack can easily one-shot Budew, but be careful about doing that. If your board isn’t established yet, you could lose outright to Unfair Stamp. It’s typically better to use the first attack to fully set up first.
 - Hydrapple is the key to this matchup. It heals off snipe damage and is difficult for them to KO. It also easily one-shots Dragapult. If you can get both Hydrapple set up, that’s ideal, but at least prioritize one. Against Blaziken, try to KO the Blaziken with Hydrapple so they can’t respond easily. Don’t throw Hydrapple into harm’s way of a Blaziken.
@@ -87,11 +88,19 @@ id: SfQtd8mZFbE
 title: Pultnoir v Hydrap 1
 ```
 
-### Festival Lead - Slightly Unfavorable
+### Zoroark - Favorable
 
-- Dipplin is the key to this matchup since it can take two KO’s at once by utilizing the opponent’s Festival Grounds. As such, all Dipplin pieces and Lana’s Aid are premium resources. In this matchup, you do need to put Applin down preemptively since you may not be using Forest to evolve it.
-- If you can’t get a double KO, prioritize targeting their Seaking, Goldeen, or anything with Growing Energy that could be a sponge capable of absorbing a Dipplin’s second attack. If they have a Growing Energy in play, a second Growing takes their Dipplin out of range of our own.
-- Fezandipiti can occasionally be a good fast attacker or win condition. If they do not have Shaymin or Rabsca on the board, Stamp + Boss + Fez can be game winning.
+- This is a straightforward prize trade matchup. Be careful not to feed them any Darmanitan plays. Play around BOTH of its attacks. Don’t forget that it can utilize the first attack along with our Fire weakness.
+- Hydrapple is generally the best attacker since it is more difficult for them to KO, but Ogerpon can also get some KO’s if Hydrapple is unavailable.
+- Meganium is a very good attacker since it it only gives up one prize card and it one-shots Zoroark. Try to use it to get a KO on Zoroark sooner rather than later. Hydrapple’s Ability can accelerate extra Energy to it. It’s also not a big deal if Meganium gets KO’d because our attackers can still one-shot Zoroark even without it in play.
+
+### Alakazam - Unfavorable
+
+- Apply fast pressure and try to cheese them.
+- On the Stamp turn, KO their on-board draw support with Hydrapple to minimize the chance of them having the response. If they have Genesect in play, you may need to KO it so that you can Stamp later.
+- Attacking with Hydrapple is best when they are unlikely to get enough cards to KO it, such as the early-game or after a Stamp. Don’t attack with it when they have a big hand.
+- In general, attack with single-prizers such as Tapu Bulu or Meganium. As such, recovery cards are very important resources.
+- If you play Briar, it can be quite good in this matchup.
 
 ### Slowking - Favorable
 
@@ -109,12 +118,6 @@ title: King v Hydrap 1
 id: IAtSXBDV-Hc
 title: King v Hydrap 2
 ```
-
-### Zoroark - Favorable
-
-- This is a straightforward prize trade matchup. Be careful not to feed them any Darmanitan plays. Play around BOTH of its attacks. Don’t forget that it can utilize the first attack along with our Fire weakness.
-- Hydrapple is generally the best attacker since it is more difficult for them to KO, but Ogerpon can also get some KO’s if Hydrapple is unavailable.
-- Meganium is a very good attacker since it it only gives up one prize card and it one-shots Zoroark. Try to use it to get a KO on Zoroark sooner rather than later. Hydrapple’s Ability can accelerate extra Energy to it. It’s also not a big deal if Meganium gets KO’d because our attackers can still one-shot Zoroark even without it in play.
 
 ### Excadrill - Slightly Favorable
 
@@ -135,15 +138,13 @@ title: Drill v Hydrap 1
 - Using Celebi to set up can be good, but be sure to play around Xerosic’s Machinations and Eri. Preemptively putting pre-evolutions in play is generally safe and helps play around Xerosic.
 - Recovery cards and Meganium pieces are premium resources.
 
-### Alakazam - Unfavorable
+### Festival Lead - Slightly Unfavorable
 
-- Apply fast pressure and try to cheese them.
-- On the Stamp turn, KO their on-board draw support with Hydrapple to minimize the chance of them having the response. If they have Genesect in play, you may need to KO it so that you can Stamp later.
-- Attacking with Hydrapple is best when they are unlikely to get enough cards to KO it, such as the early-game or after a Stamp. Don’t attack with it when they have a big hand.
-- In general, attack with single-prizers such as Tapu Bulu or Meganium. As such, recovery cards are very important resources.
-- If you play Briar, it can be quite good in this matchup.
+- Dipplin is the key to this matchup since it can take two KO’s at once by utilizing the opponent’s Festival Grounds. As such, all Dipplin pieces and Lana’s Aid are premium resources. In this matchup, you do need to put Applin down preemptively since you may not be using Forest to evolve it.
+- If you can’t get a double KO, prioritize targeting their Seaking, Goldeen, or anything with Growing Energy that could be a sponge capable of absorbing a Dipplin’s second attack. If they have a Growing Energy in play, a second Growing takes their Dipplin out of range of our own.
+- Fezandipiti can occasionally be a good fast attacker or win condition. If they do not have Shaymin or Rabsca on the board, Stamp + Boss + Fez can be game winning.
 
-### Slop Box - Favorable
+### Clefairy Box - Favorable
 
 - Celebi is premium for getting set up. Use it whenever possible in the early-game. If you’re using Celebi, you may need to avoid putting down Chikorita / Applin so they can’t get two prizes with Wellspring Ogerpon. Then you can use Forest to put down everything at once.
 - KO their Kang whenever possible. This is fairly easy with Hydrapple and very doable with Ogerpon as well. We want to get three prizes on their Kang before they get a chance to remove it with Chien-Pao. 3-2-1 prize map is convenient because we don’t mind KO’ing a Moltres or Lillie’s Pearl.

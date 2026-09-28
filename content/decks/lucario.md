@@ -49,15 +49,16 @@ Energy: 11
 ### Possible Inclusions
 
 - Third Solrock would be nice for consistency, especially early-game. I cut it to make space for Shaymin.
-- Maximum Belt still seems very good. It allows you to more easily Aura Jab KO the likes of Teal Mask Ogerpon and such, which can be very relevant. It also allows for occasional Riolu KO’s on the likes of Fez/Meowth on Turn 1, and it's still good against Dragapult.
 - Judge is overall not very good but sometimes it actually is the card you need to stop the opponent from getting a big combo. Meowth makes it somewhat consistent at least.
 - Another Fighting Energy would be nice.
+- Rocky Energy is generally bad, but if the Alakazam / Dusknoir deck becomes more popular, it's especially good against that.
+- Ciphermaniac could be ok but generally is only useful if you already have Solrock + Lunatone in play, which makes it seem like a win harder card.
 
 ### Exclusions
 
+- Secret Box is just too broken to consider a different Ace Spec.
 - Accompanying Flute is a terrible waste of space and actually does nothing.
 - I tried Wally’s Compassion and just never got value from it. Using it on Lucario means you can’t use Mega Brave or Boss’s Orders that turn, which sucks. Wally’s seems good in theory but is just bad. Scoop Up Cyclone has similar issues. Being an Item is nice but I don't think it's that good.
-- Rocky Energy is bad. I always get punished for having it over Fighting Energy as there are too many interactions with Basic Fighting Energy each game. Sure, Rocky has use cases against Dragapult and Alakazam, but it doesn’t really impact win-rate that much.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
@@ -127,29 +128,6 @@ id: 3gGYgkVt9Qs
 title: Lucario v Bolt 2
 ```
 
-### Alakazam - Very Unfavorable
-
-- If you play Judge, use it on a turn where you’re attacking with Lucario and they have a large hand, ideally in the late-game. This can be particularly good alongside a Hariyama gust on Fez/Dudunsparce.
-- Solrock can be useful for speed, but also try to get a fast Aura Jab. If their start isn’t great, it’s possible to get Aura Jab off before they’re ready to one-shot a Lucario, thus getting a free KO or two with the Lucario.
-- Hariyama can be a useful attacker in between Lucario.
-- The second Lucario is generally best when they’re on 2 prizes left. If used when they’re on 3, they can just go 3-3. If they’re on 1, they can simply Boss-KO a one-prizer for game.
-- Save Gravity Mountain for when they have Alakazam set up. It makes breakpoints with Premium Power Pro for Lucario and Solrock.
-
-```youtube
-id: tQgDTTJcgC0
-title: Zam v Lucario 1
-```
-
-### Slowking - Favorable
-
-This matchup is favorable or slightly favorable with Shaymin. Without Shaymin, it's very unfavorable.
-
-- Try to get Shaymin before they have a chance to use Trifrost.
-- Genesect can be useful, but it's not a priority. It's hard to set up Genesect since you need to get lots of other Pokemon first.
-- Hariyama is CRUCIAL for the prize map. Oftentimes your prize map is take one with Solrock (especially if they use Smoochum), one with Aura Jab, two with Hariyama, and finally two with the second Lucario. This makes it extremely difficult for them to take six prizes.
-- Of course, if they put Kangaskhan in play, go for an easy 3-2-1 prize map.
-- Delaying evolving into Lucario until you need it is good if they play a gust effect or Zeraora.
-
 ### Zoroark - Favorable
 
 - Target their Energy or easy prize cards. Solrock can be good for this as it one-shots Zorua. Aura Jab for acceleration vs Fez/Meowth/Pech, etc.
@@ -173,6 +151,29 @@ id: nU1gG12catQ
 title: Lucario v Zoroark 3
 ```
 
+### Alakazam - Very Unfavorable
+
+- If you play Judge, use it on a turn where you’re attacking with Lucario and they have a large hand, ideally in the late-game. This can be particularly good alongside a Hariyama gust on Fez/Dudunsparce.
+- Solrock can be useful for speed, but also try to get a fast Aura Jab. If their start isn’t great, it’s possible to get Aura Jab off before they’re ready to one-shot a Lucario, thus getting a free KO or two with the Lucario.
+- Hariyama can be a useful attacker in between Lucario.
+- The second Lucario is generally best when they’re on 2 prizes left. If used when they’re on 3, they can just go 3-3. If they’re on 1, they can simply Boss-KO a one-prizer for game.
+- Save Gravity Mountain for when they have Alakazam set up. It makes breakpoints with Premium Power Pro for Lucario and Solrock.
+
+```youtube
+id: tQgDTTJcgC0
+title: Zam v Lucario 1
+```
+
+### Slowking - Favorable
+
+This matchup is favorable or slightly favorable with Shaymin. Without Shaymin, it's very unfavorable.
+
+- Try to get Shaymin before they have a chance to use Trifrost.
+- Genesect can be useful, but it's not a priority. It's hard to set up Genesect since you need to get lots of other Pokemon first.
+- Hariyama is CRUCIAL for the prize map. Oftentimes your prize map is take one with Solrock (especially if they use Smoochum), one with Aura Jab, two with Hariyama, and finally two with the second Lucario. This makes it extremely difficult for them to take six prizes.
+- Of course, if they put Kangaskhan in play, go for an easy 3-2-1 prize map.
+- Delaying evolving into Lucario until you need it is good if they play a gust effect or Zeraora.
+
 ### Excadrill - Favorable
 
 - This is the main matchup where going second is best. Try to get a fast KO or two with Solrock. Getting an early KO on Beldum or Metang can be good if they don't have Excadrill set up yet, but it's usually not worth using a Premium Power Pro to do KO Metang with Solrock (just do it with Aura Jab instead).
@@ -194,6 +195,23 @@ id: qD3lvE40LAM
 title: Crustle v Lucario 1
 ```
 
+### Festival Lead - Unfavorable
+
+- Get as many fast Solrock KO’s as possible. This is the main way to get a prize lead and win.
+- Hariyama is valuable as a sponge. Evolve into it as soon as possible, even if you don’t want to use the ability. Don’t attack with it, as the self-damage removes its viability as a sponge.
+- We just have to hope they don't get the one-shot on both Lucario. This is optimistic but there's nothing you can really do about it if they get the Gladion play twice.
+- Judge can possibly make them brick if they do not have a backup Dipplin.
+
+```youtube
+id: plt2swbYZCQ
+title: Festival v Lucario 1
+```
+
+```youtube
+id: BQW03QYb1X0
+title: Festival v Lucario 2
+```
+
 ### Mewtwo - Unfavorable
 
 - Getting random KO’s with single-prize Pokemon can be good because if they do not have a full board of Rocket’s Pokemon they cannot two-shot Lucario with Spidops, which is often relevant.
@@ -211,7 +229,7 @@ id: NlCBLjsG3ic
 title: Lucario v Mewtwo 2
 ```
 
-### Slop Box - Favorable
+### Clefairy Box - Favorable
 
 - Hariyama is insanely broken for swinging the prize trade, and you’ll most likely need to attack with it to win. Clefairy one-shotting Lucario is not a problem as long as you have the Hariyama response.
 - You need to use Aura Jab to set up Hariyama. If you get baited by a Mega Brave KO with no follow up plan for when Lucario inevitably gets one-shot, you’ll lose.
@@ -233,23 +251,6 @@ This matchup may be slightly unfavored depending on the opponent’s list, as we
 - If they get two Lucario in play early, you can ignore single-prizers and try to win by KO’ing both of them. Two-shot one and one-shot the other. If this map is available to your opponent, you may want to delay your second Lucario from coming into play.
 - Judge is best used to stop them from one-shotting your Lucario. For example, if you’re attacking with an undamaged Lucario and they have a large hand, Judge can be good to potentially make them whiff the KO.
 - Genesect is very strong alongside an undamaged Lucario, as it makes it very hard for them to KO it. If they don't play Max Belt, Genesect is obviously not as useful.
-
-### Festival Lead - Unfavorable
-
-- Get as many fast Solrock KO’s as possible. This is the main way to get a prize lead and win.
-- Hariyama is valuable as a sponge. Evolve into it as soon as possible, even if you don’t want to use the ability. Don’t attack with it, as the self-damage removes its viability as a sponge.
-- We just have to hope they don't get the one-shot on both Lucario. This is optimistic but there's nothing you can really do about it if they get the Gladion play twice.
-- Judge can possibly make them brick if they do not have a backup Dipplin.
-
-```youtube
-id: plt2swbYZCQ
-title: Festival v Lucario 1
-```
-
-```youtube
-id: BQW03QYb1X0
-title: Festival v Lucario 2
-```
 
 ### Lopunny - Auto Win
 

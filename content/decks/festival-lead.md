@@ -41,23 +41,25 @@ Energy: 6
 <!-- PUBLIC -->
 ### Inclusions
 
-- I like playing four Thwackey because the deck needs to see it early to function, always needs two in play, and sometimes even needs three. This is even more important now with Gladion.
+- I like playing the 4-4 Thwackey because the deck needs to see it early to function, always needs two in play, and sometimes even needs three. This is even more important now with Gladion.
 - Rabsca is a necessary tech for Dragapult and it works well.
-- Shaymin flips the matchup against decks that have Wellspring Ogerpon, Slowking, or Darmanitan. It is quite efficient for only one deck spot.
+- Shaymin flips the matchup against decks that have Wellspring Ogerpon, Slowking, or Darmanitan. It is quite efficient for only one deck spot. It is also very important for stopping the disruption + Boss + Cruel Arrow line that basically any deck can do.
 - Seaking is a bit better now, especially with Goldeen naturally boosting consistency. With Bangle and Gladion, Seaking can now KO basically everything. It also draws some cards to refresh the hand after emptying it for Gladion, though this can sometimes make a subsequent Gladion harder to use. Some lists focus more on Seaking, but in my experience, focusing on Dipplin is still better.
 - Gladion is a very strong damage modifier and even makes Seaking dangerous. Also allows for one-shots on Excadrill and Metagross.
 - Ultra Ball is needed for Gladion and is not as invasive for consistency as I expected.
 - Tool Scrapper is useful for Handheld Fan or Hero's Cape, which are occasionally seen in various decks.
 - Secret Box is definitely the best Ace Spec for this deck. It grabs four combo pieces for the price of one search, which allows us to stabilize or reach for a big KO even with a weaker board, early in the game, or after getting Stamped. It is the ultimate consistency card.
-- Growing Energy stops KO's from Banette or Excadrill's first attack, and also sometimes makes relevant breakpoints against Dragapult. It allows Rellor to survive Dusclops or Phantom Dive snipe. The only real downside of Growing is that it cannot be found off Bug Catching Set, which we cut back on anyway for Seaking and Ultra Ball.
+- Growing Energy stops KO's from Banette or Excadrill's first attack, and also sometimes makes relevant breakpoints against Dragapult. It allows Rellor to survive Dusclops or Phantom Dive snipe.
 
 ### Possible Inclusions
 
+- I might add another Balloon because it's really good if you can get Balloons on every Thwackey in play. The Boss + hand disrupt + snipe play is a common lose condition, but it doesn't work if there's nothing to stall up.
 - More Rellor and Rabsca could help against Dragapult, which may be worthwhile.
 - Dawn, Lana's Aid, or Bug Catching Set would still be nice.
 
 ### Exclusions
 
+- Dragon Applin is not necessary. Find a Friend is occasionally useful, but it often doesn't make that much of a difference. I would prefer to use Growing Energy to protect from Dusclops or Iron Crown.
 - Genesect can be useful against Dragapult and mirror, but now that Dragapult has Red Card anyway, it's not as good.
 - Rillaboom isn't as relevant now with Gladion enabling Rellor to easily slay Cornerstone.
 - Lilligant is also nonsense now with access to Gladion.
@@ -65,12 +67,12 @@ Energy: 6
 - Brock’s Scouting is worse than Dawn. Of course, there are some situations where you’d wish that you had Brock instead, but the same could be said for any random card.
 - Kieran isn't really necessary anymore.
 - Other Ace Specs are far inferior to Secret Box. Honorable mention to Maximum Belt for saving two deck spots, which is pretty cool.
-- Other random cards such as Sacred Ash, Judge, or Forest of Vitality are just bad and pointless.
+- Other random cards such as Sacred Ash, Pokemon Catcher, Judge, or Forest of Vitality are just bad and pointless.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 
-- The most important thing when playing this deck is to always make sure you have a way to use Thwackey’s Boom Boom Groove Ability. Ideally, you’ll have a backup Dipplin on the bench in case your attacking one gets KO’d and you get Stamped. If you only have Applin, make sure to at least have a way to search out Dipplin in hand. Saving cards like Bug Catching Set can help draw out of Stamp. You can also have Goldeen on the bench with Air Balloon as another way to play around Stamp.
-- If all of your ducks are in a row, try to preemptively search out Switch or Air Balloon so that you won't get stuck by a random Boss.
+- The most important thing when playing this deck is to always make sure you have a way to use Thwackey’s Boom Boom Groove Ability. Ideally, you’ll have a backup Dipplin or Goldeen on the bench in case your attacking one gets KO’d and you get Stamped. If you only have Applin, make sure to at least have a way to search out Dipplin in hand. You can also have Goldeen on the bench with Air Balloon as another way to play around Stamp.
+- Try to preemptively search out Switch or Air Balloon to hold so that you won't get stuck by a random Boss.
 - In general, three Thwackey on the board is better than three Apples, but many exceptions exist. Three apples is generally better against Dragapult.
 - Secret Box is a valuable resource. Don’t use it unless you have to in order to get the KO (or to set up/play the game).
 - Since this deck has such good prize trades into most matchups, it is ok to spend a turn getting set up and “doing nothing” as long as you can stabilize and convert that off-turn into a winning prize trade. This requires a bit of matchup and situational awareness.
@@ -80,18 +82,20 @@ Energy: 6
 - Sometimes you do need to play around random Xerosic. If you have what you need for next turn and a somewhat large hand, don’t search out more good resources.
 - You’ll almost never attack with Goldeen or Rabsca.
 - Go first against everything besides decks that can often KO Grookey on Turn 1 (Lucario, Raging Bolt, or some other Crispin decks). Consider starting with non-Applin Pokemon when going first against decks like Dragapult (this can depend on your hand). They can reasonably KO Applin but are unlikely to KO anything else on Turn 1.
+- Get a basic Grass Energy the first time you need to search for an Energy (as opposed to a Growing Energy). This is so you can Stretcher for Energy later if needed. Some exceptions exist, so use your discretion.
 
 ## Matchups
 
 ### Dragapult - Unfavorable
 
-This matchup is closer against lists without Rare Candy or Dusknoir. The more Rare Candy they have, the more difficult it gets. Against Dusknoir (even with no Candy), it is very unfavorable.
+This matchup is closer against lists without Rare Candy or Dusknoir, but it's still tough either way. The more Rare Candy they have, the more difficult it gets. Against Dusknoir (even with no Candy), it is very unfavorable.
 
 - Rabsca is absolutely imperative to get quickly. Of course, you also need Dipplin and Thwackey first in order to play the game, but Rabsca is also a priority. It can be annoying to get under Item lock, so try to get the Rellor right away. Rellor takes priority even over the second Applin or second Grookey. It takes priority even over the first Applin if you happen to start with Goldeen or have to use it to set up.
 - Ideal board is two Thwackey, three apples, and Rabsca. Once they KO Rabsca, you’ll want to have as many Dipplin in play as possible.
 - Leaving damage on their board is generally bad. Usually I don’t use the double attack against Munkidori if I can’t get the KO, but if their board is weak or they’re not doing great on Energy attachments, I may smack into it instead to set up a stronger turn next turn. Smacking into Dragapult is a big no-no. We always want to one-shot Dragapult.
-- If you don’t mind getting rid of your hand, use Gladion to get the one-shot. Otherwise, using Kieran is fine. This applies to most matchups, so I won’t mention it every time.
 - Rabsca will inevitably die. With all of these Growing Energy and both Stretcher available, recovering it is not necessarily out of the question. If they don't Hammer you while KO'ing Rabsca, it's possible to get Rellor back with a Growing Energy, which forces them to flip heads or use another Boss. That said, it isn't necessarily the go-to play, but it is an option.
+- Shaymin isn't necessarily useless as they may go for the disrupt + Boss + Cruel Arrow play. This is slightly more common against the Blaziken list because they can power up Fez easier. Of course, Shaymin is only worth considering in certain scenarios, and it's useless as long as Rabsca is in play.
+- If you can get Balloon on all of your Thwackey, that would be ideal.
 
 ```youtube
 id: tcf2S94_PRY
@@ -108,11 +112,13 @@ id: ZwTtfOhLMS0
 title: Festival v Pult 3
 ```
 
-### Raging Bolt - Very Favorable
+### Raging Bolt - Favorable
 
 - Get Shaymin as soon as possible to counter Wellspring or Boss + Fez.
-- Ideal board is Shaymin, double Thwackey, and triple apple to play around Stamp (or two apples and Goldeen). If they don’t play Stamp or have already used it, third Thwackey takes priority over third apple.
+- Ideal board is Shaymin, double Thwackey, and triple apple to play around Stamp (or two apples and Goldeen). If they don’t play Stamp or have already used it, third Thwackey takes priority over third apple. Scrapper is great for Cape if they play it.
 - Stabilizing and setting up for a winning prize trade is the most important thing. Try not to get cheesed or leave any openings.
+- If you can get Balloon on all of your Thwackey, that would be ideal. Watch out for the Red Card + Boss + Iron Crown. It's a huge threat.
+- Early-game Growing Energy is very good on Applin to protect from Iron Crown.
 
 ```youtube
 id: X6nTeKlYEVE
@@ -123,7 +129,7 @@ title: Festival v Bolt 1
 
 - Shaymin is very good against the version with Darmanitan.
 - Preemptively search out Switch so Thwackey doesn’t get stuck in the active. Balloon isn’t good enough because they might use Yveltal, but ideally you have both to react to the situation. Believe it or not, Thwackey/Shaymin getting stuck can be a loss if they’re also able to build up damage on the board, so we need Switch or Kieran.
-- One-shotting the Zoroark with just the first attack is possible but not worth the resources if they have a sponge ready on the bench. If they don’t have a sponge, you can destroy them.
+- One-shotting the Zoroark with just the first attack is possible but it's pointless to expend the resources if they have a sponge ready on the bench. If they don’t have a sponge, you can destroy them.
 
 ```youtube
 id: nqiBklziLiw
@@ -133,9 +139,9 @@ title: Festival v Zoroark 1
 ### Alakazam - Favorable
 
 - Festival Grounds is a resource since they often play four Stadiums. Don’t put it in play until you’re ready to attack.
-- They don’t usually play hand disruption. Be as fast and aggressive as possible.
 - If they bump your Stadium, consider using Boss to KO something small while saving a Stadium. If you play all the Stadiums early, you might run out, and they can create an endgame board that cannot be KO’d by a single-attack Dipplin. If they don’t have Kadabra in play, KO’ing their active Alakazam is still best to force them to find Rare Candy.
 - If you ever have an extra Energy attachment, attaching to a backup apple is generally good. When you have two apples each with Energy, you can get through the Handheld Fan because you can attach another Energy when you need to. They may or may not play Handheld Fan, so it's best to play around it if you get the opportunity to. Scrapper can get through one Fan, and preattaching an Energy can get through another.
+- If they're playing the Hammer build, attaching backup Energy to play around Handheld Fan will actually backfire, so be careful.
 - Use Gladion's Final Battle whenever is most convenient to get an easy double KO. If they have Fez in play, you will want to KO that first before using Gladion.
 
 ```youtube
@@ -152,6 +158,7 @@ title: Festival v Zam 2
 ### Slowking - Favorable
 
 - Shaymin is the biggest priority if they are threatening a Trifrost. If Shaymin is prized, it's still possible to get Rabsca out quickly for protection. Make sure you always have some form of protection from Trifrost.
+- If they play Cofagrigus, you NEED Rabsca. If you don't get Rabsca, you have to be very careful and stagger the Abilities on your board. Try to play with only one Thwackey in play and don't evolve Applin until it's time to attack.
 
 ### Excadrill - Favorable
 
@@ -159,6 +166,7 @@ title: Festival v Zam 2
 - It’s fine to chip an Excadrill early if you can’t get a one-shot on it and have nothing better to do.
 - Damage modifiers and Boss are premium resources that you’ll need in order to get KO’s. Once you’re set up, every turn should be a Gladion or Boss one-shot.
 - Excadrill doesn’t play many Stadiums, but they can easily Petrel for them. If they mill a Stadium, you might need to be careful. Otherwise, you can probably toss one or two Stadiums. If you know they don’t play any Stadiums, then you only need one Festival Grounds for the whole game.
+- Save Scrapper for Cape.
 
 ```youtube
 id: llimXRrSMbA
@@ -220,11 +228,13 @@ id: BQW03QYb1X0
 title: Festival v Lucario 2
 ```
 
-### Hide n Sneak - Slightly Unfavorable
+### Hide n Sneak - Favorable
 
-If they do not have Flutter Mane, the matchup is favorable.
+If they have Flutter Mane, this matchup is slightly unfavorable. Otherwise, it's favorable.
 
-- If they have an extra Energy in play or Air Balloon on their Flutter Mane (if they are capable of pivoting the Flutter Mane in any way), KO the Flutter Mane on sight. Otherwise, just go for the Gladion play and force them to promote Flutter with no pivot. Of course, the Gladion play is also insanely strong if they do not have Flutter Mane in play.
+- Set up Rabsca to protect against Sinischa.
+- If they have an extra Energy in play or Air Balloon on their Flutter Mane, KO the Flutter Mane on sight. Otherwise, just go for the Gladion play and force them to promote Flutter with no pivot. Of course, the Gladion play is also insanely strong if they do not have Flutter Mane in play.
+- KO Latias on sight.
 - Don’t forget to use all Boom Boom searches before Bossing the Flutter Mane!
 - Growing Energy on Dipplin is very good if they are attacking with Banette. It’s also possible to make the board safe from Banette-KO (by withholding extra basics and having Growings on Dipplin), which can be relevant.
 - Dipplin is generally the ideal attacker but sometimes you have to use Seaking for one reason or another. Make sure to always have the Gladion play available.
@@ -243,7 +253,7 @@ title: Sneak v Festival 2
 
 - If you have two Gladion, just play normally and set up for two big one-shots on Lopunny. Easy win.
 - If you go first, you can get a Turn 2 double KO, and then you don’t have to get through two Lopunny. If that happens, try to use Boss as soon as possible for the third prize before they clean up all the single-prizers off their board. If you can get three single-prize KO’s, you’ll only have to get one big KO on a Lopunny.
-- If you prize a Gladion, I would still go for the big KO right away and hope to get it off the prizes.
+- If you prize a Gladion (and only play two), I would still go for the big KO right away and hope to get it off the prizes.
 
 ```youtube
 id: UMCYykyzajc
@@ -289,4 +299,4 @@ title: Festival v Meganium 2
 
 ## Personal Thoughts
 
-This deck is alright. The only real issue with it is being very shaky against Dragapult overall.
+I think this deck is just bad now. It is very fragile and exploitable, and also gets destroyed by Dragapult.

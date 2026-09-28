@@ -119,9 +119,12 @@ Energy: 13
 ### Possible Inclusions
 
 - Psyduck could be good to help against Dragapult / Dusknoir.
+- Tool Scrapper could be a tech for the Enamorus + Cape combo, and would also help in the mirror match.
+- Enhanced Hammer would be a good tech for Slowking and the mirror match.
 - Hilda would still be nice to find specific Energy cards consistently.
 - Handheld Fan is a fairly strong disruption card, though usually the attacker would rather have Hero's Cape.
 - Lumiose City is probably fine.
+- Special Red Card is probably ok.
 - Another Crustle or Switch would be nice to have.
 
 ### Exclusions
@@ -186,11 +189,13 @@ This is the list that had two Top 8's at Worlds. Without Bouffalant, it's worse 
 
 This matchup mostly depends on their list. If they have a tech like Dudunsparce ex or Chi-Yu, we are so cooked. If they are playing Dusknoir, the matchup is fairly close (about even or slightly unfavorable). Against all other builds, the matchup is very favorable.
 
+With Crispin:
 - Get Psyduck as soon as you see a Duskull. Try to keep Psyduck in play by using Night Stretcher if it gets KO’d.
 - Munkidori is very good due to the residual damage that adds up. It is often used to heal Psyduck and can pressure Duskull.
 - Mist Energy is mostly good on Crustle because they might try to Mind Bend it. If you don’t have Psyduck, they can also use Dusknoir plus Phantom Dive snipe to KO Crustle if it doesn’t have Mist. Mist is sometimes good on Psyduck if they're going in with Dragapult.
 - Try to KO Duskull/Dusclops/Dusknoir whenever possible. KO’ing Munkidori is also good because they can use Risky Ruins and Adrenabrain to snipe Psyduck. Although we do play Psyduck, Dusknoir is still a threat because it can attack. They can also KO our Psyduck multiple times and then pop it.
 
+With Kang:
 - As the Kang version, the goal is simply to build up an invincible Crustle. Mist Energy is prevents Mind Bend. If they Hammer the Mist and Mind Bend, we can still get Festival Grounds fairly easily.
 - Swinging into their big guys is generally not good because it gives them Adrenabrain damage. Sometimes it is necessary if you're under time pressure.
 - Save Stadiums to counter Watchtower.
@@ -208,10 +213,10 @@ id: NvqJhv7tq-Y
 title: Crustle v Pultnoir 2
 ```
 
-### Raging Bolt - Very Favorable
+### Raging Bolt - Favorable
 
 - Set up multiple Crustle as normal.
-- They sometimes have Passimian, which can be a threat. Try to get Hero's Cape on your main attacking Crustle so that it can survive a Passimian hit and one-shot in return. You don't want to commit all of your Energy to one Crustle only to be swept by a Passimian, so try to spread out your Energy at the start (or use Hero's Cape for protection if you have it). The same applies against Enamorus.
+- They sometimes have Passimian or Enamorus, which can be a threat. Try to get Hero's Cape on your main attacking Crustle so that it can survive a hit and one-shot in return. You don't want to commit all of your Energy to one Crustle only to be swept by a Passimian / Enamorus, so try to spread out your Energy at the start (or use Hero's Cape for protection if you have it).
 
 ```youtube
 id: BK_19n-ZiI0
@@ -230,19 +235,23 @@ title: Crustle v Bolt 2
 - Mist Energy is good to stop potential Drapion shenanigans. Don’t put down unnecessary extra Pokemon or you could get punished by random control cards.
 - If they have Lopunny, you need to get Cape on Crustle and also try to target it down with Boss before it becomes active. Lopunny is pretty rare nowadays though.
 
-### Alakazam - Unfavorable
+### Alakazam - Favorable
 
-This matchup is bad if they have Dedenne, and generally good if they don't.
+This matchup is generally favorable if they don't have Dedenne and unfavorable if they do. It's also closer if they have bad Zam.
 
+With Crispin:
 - Our win condition is to stick an attacker with Mist Energy and outlast their Enhanced Hammers. Use Lillie and Morty first to try and find the initial Mist Energy or two, and then use Hilda to find one or two after that.
 - Crustles are actually resources because you’ll need to be able to threaten attackers with Mist. Don’t evolve into them just to send them to the slaughter. Cornerstone Ogerpon can also be used for this purpose. 
 - Similarly, Ice Creams and Cape are also resources that you’ll need for the late-game. Even if you aren’t using Cornerstone and they don’t have techs, you’ll still have to contend with an attacking Dudunsparce, which they can use to two-shot your final Crustle.
 - Whenever you don’t have Mist for the turn, spread out random Energy among different Dwebble/Crustle. You’ll want to be able to respond to Dudunsparce in the late-game. Spiky Energy can also be good for that, since Spiky plus 120 one-shots Dudunsparce.
 - Against Dedenne, KO it on sight and try to rush prize cards.
 
+With Kang:
 - With the Kang build, try to make an attacking Kang as fast as possible. Attach as many Mist Energy as you can as fast as possible. Use Eri before they have used Enhanced Hammer, or after they use Dedenne for Hammer. Xerosic is usually good whenever you find it. Ideally, it will be used to stop them from getting the KO on your Kang.
-- KO Dedenne on sight.
-- Don't bench unnecessary Pokemon as they will get Boss stalled. If you end up with any liabilities on the bench, attach Energy to them so they can retreat if Boss'd. This is only relevant if they have Dedenne. If they don't have Dedenne, getting Boss stalled doesn't matter.
+- Don't bother using Crustle most of the time.
+- KO Dedenne or bad Zam on sight.
+- If they have bad Zam, Bouffalant can be good and healing cards are premium.
+- If they have Dedenne, don't bench unnecessary Pokemon as they will get Boss stalled. If you end up with any liabilities on the bench, attach Energy to them so they can retreat if Boss'd. This is only relevant if they have Dedenne.
 
 ```youtube
 id: cXhPdJLQN_g
@@ -290,16 +299,18 @@ title: King v Crust 1
 
 ### Excadrill - Auto-Loss
 
-I don't think it's possible to win. One idea is to go aggro Kang and hope for the best. Another is to go Crustle and hope they prized Metagross (but they sometimes play two).
+I don't think it's realistic to win. One idea is to go aggro Kang and hope for the best. Another is to go Crustle and hope they prized Metagross (but they sometimes play two).
 
 ### Festival Lead - Slightly Favorable
 
 This matchup is a bit closer with Gladion against the Cornerstone build. For the Kang build, it is slightly favorable.
 
+With Crispin:
 - Load up Cornerstone on the bench as fast as possible. Do not KO anything that is not a threat (such as Dipplin, as it is a liability for them). If they put Rellor down preemptively, KO that on sight. Now that they have Gladion, you need Cape on Cornerstone to survive it. Applin is also an attacking threat.
 - Bossing Thwackey randomly can be good as it stops the searches or forces them to use a switching card.
 - Ice Cream, Cape, and Munkidori are all very good to help Cornerstone survive.
 
+With Kang:
 - For the Kang build, prioritize getting both Bouffalant. Load them up with as much Energy as possible while using Kang to draw. Sacrifice the Kang to their initial Gladion play, and then go in with Ready to Ram Bouffalant. Make sure that you can get it back with Night Sretcher if they KO it. Spiky Energy here is particularly strong.
 - Use the Bouffalant and keep them alive to the best of your ability.
 - Eri can be very strong at the right time. If you save one for later and hit the Scrapper, Hero's Cape is an instant win.
@@ -322,12 +333,12 @@ title: Festival v Crustle 1
 - For the Kang build, try to make an invincible Crustle and use Eri before attacking to hopefully get rid of Ice Creams.
 - One possible way to win is by decking them out by sticking their Kang in the active. If they put down an extra Dwebble, KO it so that your Lillie only draws six. Then repeatedly use Boss to strand up their Kang while it cannot do anything to your Crustle. Keeping your main Crustle alive is important. Of course, you'll also need to carefully calculate each players' card situation so that your opponent will be the one to deck out after you both Xerosic each other.
 
-### Slop Box - Auto Win
+### Clefairy Box - Depends on Techs
 
 If they have no techs, this matchup is an auto-win. If they have Paldean Tauros and Koraidon ex, it's unfavorable.
 
-- In case of a surprise Passimian, play the same was as against Raging Bolt.
-- If they have Paldean Tauros, try to build up a Kang as fast as possible and go with the Kang Bouff strat. With Bouff or Cape, Kang even survives Koraidon's first attack. With both, it survives Koraidon's second attack.
+- For the most part, play the same was as against Raging Bolt.
+- If they have Paldean Tauros, ignore Crustle and instead try to build up a Kang as fast as possible and go with the Kang Bouff strat. With Bouff or Cape, Kang even survives Koraidon's first attack. With both, it survives Koraidon's second attack.
 
 ### Hydrapple - Unfavorable
 
@@ -336,7 +347,7 @@ If they have no techs, this matchup is an auto-win. If they have Paldean Tauros 
 
 ### Hide n Sneak - Depends
 
-For the Crispin build, this matchup is very unfavorable. For Kang, it is favorable.
+For the Crispin build, this matchup is very unfavorable. For Kang Bouff, it is favorable.
 
 - Power up a Kang try to make it invincible with healing and Cape. Target Dhelmise once you start attacking.
 - Get the Bouffalant online as soon as possible. Go with normal Kang Bouff gameplan.
@@ -354,6 +365,7 @@ title: Crustle v Lucario 1
 
 ### Mewtwo - Slightly Favorable
 
+With Crispin:
 - Win condition is Cornerstone. It’s possible that they KO it, but even then you can still win with Stretcher to get it back. Best to save the Fighting Energy for when you’re ready to attack. If you commit the Fighting Energy too soon and they gust up Cornerstone and KO it in two hits, you lose the Fighting for no reason and now need both Stretcher. If they only KO the Cornerstone before it starts attacking, you only need one Stretcher to recover and it’s no problem.
 - If Fighting or Cornerstone are prized, try to get a prize with a fast Crustle. It’s basically impossible to win, so if it’s a best-of-three, just scoop and immediately go to the next game.
 - Munkidori, Ice Cream, Cape, and Spiky Energy are very good in this matchup.
@@ -361,6 +373,7 @@ title: Crustle v Lucario 1
 - KO’ing Mimikyu is a priority because it’s a big threat. Tarountula is also a threat because it can deal massive damage with Maximum Belt. There are so many Tarountula that trying to KO them all or target them is basically an exercise in futility, so only worry about it if it’s actually attacking or has a Tool already attached.
 - Sacrifice random Pokemon while you set up Cornerstone. If you put down extra Pokemon to thin, make sure that they have fewer Giovanni left than prize cards! They usually play three.
 
+With Kang:
 - For the Kang build, go with a normal Kang Bouff gameplan.
 
 ```youtube
@@ -373,7 +386,7 @@ id: 9R29o4idU1o
 title: Crustle v Mewtwo 2
 ```
 
-### Lopunny - Auto Loss
+### Lopunny - Auto-Loss
 
 - Impossible to win. If you’re playing Kang you can go for the triple heads twice, or triple heads into triple Boss. If you’re playing Munkidori, try to set up a bunch of them on the bench with a Hero’s Cape Crustle.
 

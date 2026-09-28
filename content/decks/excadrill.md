@@ -39,31 +39,31 @@ Energy: 16
 ### Inclusions
 
 - Four Drilbur is nice to have it early and easy access to Call for Family, but it would probably be fine to play three. The Call for Family is a relevant buff to consistency.
-- Metagross is insanely good but you never need more than one.
+- Metagross is insanely good but you don't need more than one.
 - Fezandipiti is hard to find but sometimes you get it early and it can help get Boss. It can also be a decent fast attacker in some situations.
 - I added Shaymin as a tech for Slowking since the matchup is otherwise very difficult. With the techs against Alakazam sometimes being ineffective, I chose to simply tech for a different matchup instead. Can also be good against Waterpon or other snipers.
 - Lillie’s Determination is not as important in this deck as some others, but the card is still very good and helps a lot with overall consistency.
-- Four Boss’s Orders is necessary with how often this deck wants to have Boss at the right time. Without four I would never have it when I needed it. It can also help with reverse prize mapping. Sometimes you don’t want to attack with Excadrill since it’s good for your opponent’s prize map, but Excadrill is the only thing that gets a big KO, so you can use Boss to get value from a different attacker on that turn.
+- Four Boss’s Orders is very good with how often this deck wants to have Boss at the right time. With any fewer than four I would never have it when I needed it. It can also help with reverse prize mapping. Sometimes you don’t want to attack with Excadrill since it’s good for your opponent’s prize map, but Excadrill is the only thing that gets a big KO, so you can use Boss to get value from a different attacker on that turn.
 - Three Poffin helps make the deck consistent. Sometimes Trolley is prized or you only have Lillie in the early-game instead of Petrel, or you are forced to go first against a deck with Budew and can’t Trolley.
 - Night Stretcher is nice utility, usually used for Drilbur or Beldum if KO’d early, Genesect, or Metagross.
 - Precious Trolley makes the deck very fast and consistent. This deck needs to quickly find lots of Basics and Evolutions, and Trolley does everything at once. It’s so insane with Genesect ex.
 - Switch can be good against early-game Sob which allows us to sometimes play around Torrential Pump by leaving Genesect active. This isn’t necessarily the go-to if you think they can just KO the Genesect though. Switch can be generally good in other spots such as Mind Bend.
 - Ultra Ball is solid utility and consistency.
-- Air Balloon is helpful for getting into Call for Family or when getting Boss stalled early. It can be particularly useful against Dragapult.
+- Air Balloon is helpful for getting into Call for Family or when getting Boss stalled early. It can be particularly useful against Dragapult due to their Item lock.
 
 ### Possible Inclusions
 
 - Lana’s Aid would sometimes be nice but it’s difficult to pull off.
 - Pokegear would be very good to have Boss at the right time (and also increase the rate of finding early Trolley).
 - Special Red Card might occasionally be useful, though it didn’t get used much against Dragapult.
-- I cut Empoleon because lots of Alakazam lists now play Clefairy and / or bad Zam, rendering the Empoleon ineffective.
+- I cut Empoleon because lots of Alakazam lists now play Clefairy and / or bad Zam, rendering the Empoleon ineffective. The same can be said for the Team Rocket's Kangaskhan and Articuno combo.
 - Second Energy Recycler would be nice.
 
 ### Exclusions
 
 - Mega Skarmory is difficult to accomodate and use effectively. It's not terrible but also not necessary for this deck, nor does it solve a particular problem. It makes more sense to play it in the no-Boss list.
 - Brock's Scouting isn't needed in the Trolley build. Trolley makes the deck fast and consistent. If you're Item-locked against Dragapult, manually attaching and getting Turn 2 Undermine is fine. You don't need a fully developed board as fast against it.
-- Kieran is mostly useful against a non-Caped Mega Excadrill, which I think is too specific of a use case. It's also very hard to find and often telegraphed via Petrel.
+- Kieran is mostly useful against a non-Caped Mega Excadrill, which I think is too specific of a use case. It's also very hard to find and often telegraphed via Petrel. I think the card is very inefficient, and it's not as needed with Switch and Balloon in the list.
 - Hero's Cape is a strong card, but the deck starts to fall apart when it can't Petrel for Trolley to easily set up the entire board. The engine becomes weaker and the deck becomes less consistent. This deck's consistency is one of its selling points. After testing a bit with Cape, the deck becomes noticeably slower, and it doesn't seem like the Cape does all that much.
 - Jumbo Ice Cream’s breakpoints are atrocious because it’s very hard to have multiple of them at once. Moltres + Phantom Dive still KO’s after an Ice Cream, for example. This deck does not draw cards very well so it won’t have multiple Ice Creams very often, especially against hand disruption. They also aren’t relevant in lots of matchups, although they can be good in some others. In general, if they aren’t one-shotting Excadrill, we’re already having a good time anyway.
 - Poke Pad is just not good in this deck.
@@ -100,7 +100,7 @@ Energy: 17
 17 Metal Energy MEE 8
 ```
 
-There isn't a definitive standard list for Excadrill yet, since the deck is still fairly new. This is the list that did best at Worlds. The top Excadrill lists from Worlds focused on Lillie's instead of the hyped Brock's version, though you'll still see some of those around. Without Trolley, the deck is considerably slower, but with the upside of Hero's Cape and Jumbo Ice Cream in return.
+There isn't a definitive standard list for Excadrill yet, since the deck is still fairly new. This is the list that did best at Worlds. The top Excadrill lists from Worlds focused on Lillie's instead of the hyped Brock's version, though you'll still see plenty of Brock builds around. Without Trolley, the deck is considerably slower, but with the upside of Hero's Cape and Jumbo Ice Cream in return.
 
 <!-- /PUBLIC -->
 ## Gameplay Tips
@@ -120,14 +120,14 @@ There isn't a definitive standard list for Excadrill yet, since the deck is stil
 
 ### Dragapult - Favorable
 
-Against versions without a Fire-type, the matchup is favorable. If they have Moltres, it’s about even. If they have Blaziken, it’s very unfavorable.
+Against versions without a Fire-type, the matchup is favorable. If they have Moltres, it’s about even. If they have Blaziken, it’s unfavorable.
 
 - Metagross usually isn’t used for attacking in this matchup, but it’s still useful in another way. When they sprinkle some damage onto a Metang to set it up for a snipe KO, evolve it out of range!
 - Pile as much Energy as possible onto Excadrill so that you can one-shot Dragapult on sight, even if you don’t need to for another turn or two. In this matchup, you’ll almost always attack with Excadrill instead of the other attackers.
 - Second Drilbur is a priority to get evolved quickly so that they cannot spawn trap Drilbur.
 - Fast attacking Fezandipiti can occasionally be good, especially if they are threatening an instant Mind Bend response (which is more annoying against Excadrill), or if you prized double Excadrill / Metang / Beldum. However, the opportunity cost is very high, as you also want a board of two Excadrill, three Metang, and Genesect. If you’re against the Blaziken version, prioritize getting a fast Cruel Arrow to pick off Torchic and Combusken.
-- Metal Maker and then choosing to shuffle or not can help play against Special Red Card, though oftentimes hand disruption won’t matter anyway.
-- Using Call for Family to stabilize is often better than being aggressive, but being aggressive can sometimes be better depending on the situation (such as if the opponent’s board is very weak).
+- Metal Maker and then choosing to shuffle or not can help play against Special Red Card, though oftentimes hand disruption won’t matter anyway. You also want to keep the deck order in mind when considering Flip the Script (or Pokegear, if you play it).
+- Using Call for Family to stabilize is sometimes better than being aggressive, but being aggressive can sometimes be better depending on the situation (such as if the opponent’s board is very weak). Manual attaching to Excadrill twice can allow you to pressure an underdeveloped board even if you don't have Metang in play.
 
 ```youtube
 id: Z4mtndt9xIk
@@ -163,7 +163,7 @@ title: Drill v PultBlaze 1
 
 - Metagross is insane in this matchup. You’ll want to start attacking with it pretty much whenever you get the chance. Of course, early Excadrill is still the go-to main attacker for the matchup since Metagross is a bit slow.
 - Genesect can one-shot Clefairy. This is mostly relevant if the opponent is on three prize cards and you don’t have access to Metagross, or if they Sob trap Genesect. If they have Clefairy in their active, Boss’ing around it leaves the attacking Genesect plays open. Of course, this is all very situational.
-- Wellspring Ogerpon is a huge threat! If they attached an Energy to Wellspring, you may want to send up Genesect and not put a fifth Pokemon on your bench in order to play around Clefairy. If they Sob, you can Petrel for Switch and get out. If they don’t already have Energy on Wellspring, it might be best to just leave Drilbur active, fill the board, and hope they don’t get the Pump off from nowhere, as it is harder to pull off than one might think.
+- Wellspring Ogerpon is a huge threat! If they attached an Energy to Wellspring, you may want to send up Genesect and not put a fifth Pokemon on your bench in order to play around Clefairy. If they Sob, you can Petrel for Switch and get out. If they don’t already have Energy on Wellspring, it might be best to just leave Drilbur active, fill the board, and hope they don’t get the Pump off from nowhere, as it is harder to pull off than one might think. If you can play around it normally, you may not need Shaymin and can use the board spot for something else. But if Wellspring is threatening to your current position, it can be fine to put Shaymin down.
 
 ```youtube
 id: dkbC_f9YsAc
@@ -177,7 +177,7 @@ title: Drill v Bolt 1
 
 ### Zoroark - Favorable
 
-- If they play Darmanitan, do not put down the second Drilbur right away as that is a good way to instantly lose and feed them an easy prize map. Sometimes you need to wait awhile for the second Drilbur.
+- If they play Darmanitan, do not put down the second Drilbur right away as that is a good way to instantly lose and feed them an easy prize map. Sometimes you need to wait awhile for the second Drilbur. If you play Shaymin, you can use that for protection.
 - Darmanitan allows for nasty prize maps that you need to be aware of. Get three Beldum in play and evolved as soon as possible along with the initial Excadrill. Do not let them use Darmanitan’s attack for 90 on Excadrill and a single-prize KO. If they smack Excadrill for 250, don’t put down a single-prize Pokemon just yet. Also do not let them go 90-90 on two Excadrill (the second Excadrill should not even be in play).
 - Metagross is very important as it allows you to play without Excadrill and mess with their prize map.
 - Recycler can easily play around Darmanitan’s first attack.
@@ -206,17 +206,9 @@ Without Shaymin:
 - Don’t bother trying to tiptoe around Trifrost. Our best chance is to go fast and aggressive, and hope they don’t draw great. Play normally and try to prize race them by going 3-2-1.
 - Boss is very important as you’ll need to snipe down Kang and Latias to rush prize cards.
 
-### Festival Lead - Unfavorable
+### Crustle - Very Favorable
 
-- The ideal attacking lineup is Genesect -> Metagross -> Metagross -> Excadrill. They have to Boss around at some point, so make them get through the Metagross. There are many exceptions. Sometimes they get the first attack or you have an easy Excadrill attack instead. Getting some mills isn’t bad. If you mill a Gladion you basically win on the spot.
-- The fundamental principle here is to make their prize map as difficult as possible. They need Gladion to one-shot anything, so they’ll have to use Boss to take six prizes. Attacking with Excadrill is fairly risky because they can smack it and then Boss it for three prizes.
-- If they’re at three prizes and have both Boss plus a Bangle left, don’t evolve into Excadrill as you lose to Boss Boss. In general, don’t evolve into Excadrill unless you’re immediately attacking with it.
-- Pay attention to their resources, especially Boss, damage modifiers, and Dipplin / recovery. Sometimes they need to have awkward discards in order to use Gladion, and sometimes you hit something good off a mill. Depending on what’s in their discard, you can punish them appropriately.
-
-```youtube
-id: llimXRrSMbA
-title: Drill v Festival 1
-```
+- Use Excadrill to remove their Kang, and then use Metagross to run through Crustle. Target down their Energy and make sure you do not somehow lose the Metagross!
 
 ### Hydrapple - Slightly Unfavorable
 
@@ -230,11 +222,19 @@ id: jvtO0P-BdgY
 title: Drill v Hydrap 1
 ```
 
-### Crustle - Very Favorable
+### Festival Lead - Unfavorable
 
-- Use Excadrill to remove their Kang, and then use Metagross to run through Crustle. Target down their Energy and make sure you do not somehow lose the Metagross!
+- The ideal attacking lineup is Genesect -> Metagross -> Metagross -> Excadrill. They have to Boss around at some point, so make them get through the Metagross. There are many exceptions. Sometimes they get the first attack or you have an easy Excadrill attack instead. Getting some mills isn’t bad. If you mill a Gladion you basically win on the spot.
+- The fundamental principle here is to make their prize map as difficult as possible. They need Gladion to one-shot anything, so they’ll have to use Boss to take six prizes. Attacking with Excadrill is fairly risky because they can smack it and then Boss it for three prizes.
+- If they’re at three prizes and have both Boss plus a Bangle left, don’t evolve into Excadrill as you lose to Boss Boss. In general, don’t evolve into Excadrill unless you’re immediately attacking with it.
+- Pay attention to their resources, especially Boss, damage modifiers, and Dipplin / recovery. Sometimes they need to have awkward discards in order to use Gladion, and sometimes you hit something good off a mill. Depending on what’s in their discard, you can punish them appropriately.
 
-### Slop Box - Even
+```youtube
+id: llimXRrSMbA
+title: Drill v Festival 1
+```
+
+### Clefairy Box - Even
 
 - Boss is very important to take an efficient prize map. Try to KO their Kang before they remove it from the board with Chien-Pao.
 - Metagross is great in this matchup. Genesect can also sometimes attack for similar reasons as against Raging Bolt.
