@@ -44,7 +44,7 @@ Energy: 7
 - Heavy Dudunsparce line is the best way to make this deck work and also helps against threatening hand disruption.
 - Two Clefairy is definitely terrible but it is necessary for the Dragapult matchup. I would like to just play one and have another Stretcher, but when Dragapult is disrupting us, using Telepathic to find the second Clefairy is very common and relevant.
 - Ursaluna is absolutely required for closing out games. It is very good.
-- Flutter Mane is a very good tech for the Festival Lead matchup, which is getting some hype due to Gladion. Of course, if Festival Lead ends up not being very popular, Flutter is an easy cut. It’s basically useless against everything else aside for some fringe scenarios against Latias ex.
+- Flutter Mane is a very good tech for the Festival Lead matchup, which may or may not be worth it. Of course, in metagames with less Festival Lead, Flutter is an easy cut. It’s basically useless against everything else aside for some fringe scenarios against Latias ex.
 - Fan Rotom is surprisingly good. I didn’t have it at first but ended up needing it. With the lower Poffin count, searching for individual Dunsparce is a huge strain on resources. Fan Rotom can also attack on Turn 1 fairly often when you happen to start with it.
 - Explorer's Guidance is a bit of consistency and is included because it is sometimes the best option off Banette's attack.
 - Hilda is a way to find Legacy Energy, which is very nice. Without Hilda, I often had games where I would never even see the Legacy. Aside from that, generally searching for evolutions and Energy is still good on its own anyway.
@@ -57,6 +57,7 @@ Energy: 7
 ### Possible Inclusions
 
 - Chien-Pao is a good tech for Watchtower. It can occasionally be good against Festival Lead too. If Watchtower is more popular, Chien-Pao is better.
+- Yveltal would be a good tech for Excadrill, but I don't think that's necessary until Excadrill actually does well at a major tournament.
 - I would really like a third Night Stretcher. It would be good in basically every game and I feel like I’m always cutting it close with just two. I don’t know what to cut though.
 - Prism Energy over basic Psychic would enable some toolbox options such as Moltres, and it’s completely non-invasive.
 - More Hilda would be nice.
@@ -162,6 +163,78 @@ id: CgJXA_BAEVg
 title: Sneak v Zoro 1
 ```
 
+### Alakazam - Favorable
+
+- Start attacking with Banette as soon as possible. You’ll also need to get four Sneak guys in the discard quickly so that you can respond to an attacking Fez with Dhelmise. Bossing the Fez before it’s powered up and smacking it once with Banette is generally good if possible.
+- You still want a normal board of multiple Dun / Dudun and one or two Dhelmise in addition to the Banette. Use Dudunsparce aggressively to amass a large hand.
+- If you aren’t using Dhelmise to KO Fez, Dudunsparce, or other threat, Banette should be attacking in all other situations.
+- The second Shuppet is good to have in play, but prioritize getting the Dhelmise online first, and then you can get the backup Shuppet and Banette.
+- If they start powering up Dunsparce / Dudunsparce, Boss KO it once it gets two Energy.
+- Legacy is best on Banette since Alakazam bypasses it anyway, but Alakazam can’t hit Banette.
+
+```youtube
+id: rlDTFg8czno
+title: Sneak v Zam 1
+```
+
+```youtube
+id: g6O65XUmUxM
+title: Sneak v Zam 2
+```
+
+### Slowking - Slightly Favorable
+
+- Try to play with a slim board to play around Trifrost. The ideal board is a Dudunsparce and two Dhelmise with literally nothing else. You always want to prioritize getting a Dudunsparce into play. This will result in some Dunsparce falling to Trifrost, which is a necessary sacrifice, just don’t put more than one in play at once. The exception is Turn 1 when you’re unlikely to get Trifrosted next turn. That’s a prime opportunity to get many Dunsparce down and evolved to safety.
+- Trade Dhelmise into Slowking and make them work hard to chain attackers. If you have lots of Boss, it’s possible to line up a two-shot on Kang and then an Ursaluna one-shot on Latias to close out the game. However, this is rare because you won’t have unlimited Dudunsparce draw. Therefore, it’s usually better to just KO their attacking Slowking and save Boss for Ursaluna or for finishing off damaged Pokemon. If you managed to get a fast Dhelmise attack into their Kang, using Boss to finish it off is obviously great.
+- If they don’t have Kang or Fez draw available, keep in mind that Prism Tower can greatly help them (with their Ciphermaniac). Chien-Pao is also pretty reasonable in this matchup to bump Festival Grounds without giving them a useful Stadium (and it has a good HP number).
+
+```youtube
+id: J96IFKJc8gg
+title: Sneak v King 1
+```
+
+```youtube
+id: it6-5D9h9vA
+title: Sneak v King 2
+```
+
+### Excadrill - Unfavorable
+
+If they have Ice Creams, this matchup is unfavorable. If they do not have Ice Creams, the matchup is favorable.
+
+- Smacking Excadrill with Dhelmise is generally good whether they have Ice Cream or not. You’ll have to KO it eventually anyway.
+- Save Boss to get around Metagross. If you can close out the game with all four Boss and not have to go through Metagross, that is ideal. Two-shotting a single-prize Pokemon is extremely inefficient.
+- Leaving Genesect in play is generally good since Ursaluna can one-shot it (if it did not use Protect Charge last turn). However, if they’re smart, they’ll attack with Genesect. In that case, two-shot it as normal (including Boss to finish it off).
+- Use Boss to finish off damaged Pokemon as soon as possible in order to play around possible Ice Creams.
+
+```youtube
+id: XcVEM5eOs8I
+title: Sneak v Drill 1
+```
+
+### Crustle - Favorable
+
+- Get Dhelmise online as soon as possible and target their Kang with Energy. Smack it as much as possible for as much damage as you can. Crustle is a non-issue and can mostly be ignored (and easily KO’d when it’s active).
+- Flutter Mane or Banette are good in the active while you’re setting up, but as soon as you can attack with Dhelmise, do so. Putting Banette in play can be risky since it might make it harder to set up Dhelmise, but it depends on the situation.
+
+### Hydrapple - Even
+
+This matchup is basically the same as Raging Bolt. The main difference is that Hydrapple can heal itself into three-shot range (and there’s nothing you can do about it), but they cannot clear Pokemon with Chien-Pao.
+
+- The general game plan is to chip down the Hydrapple and KO it in three hits, find two prizes somewhere else at any point, and then finish with an Ursaluna Boss one-shot for two prizes. Legacy Energy and Boss are very important. It’s very good if you can get a fast single-prize KO (such as Celebi) and then another one (Meganium) via Boss. Of course, Boss KO Meowth with Dhelmise is also great.
+- Set up as many Dudunsparce as possible. You do want to use Run Away Draw a decent amount, but you also need to make sure to play around Stamp. If they are amassing a large hand or already used Ciphermaniac, you may need to watch out for Boss KO Dudunsparce plus Unfair Stamp. Keeping two Dudunsparce in play is ideal to play around that. If it’s in the early-game or they have a small hand, it’s much less likely they’ll have the Boss KO and Stamp play.
+- You’ll use Ursaluna to close out the game basically every time. Legacy on Ursaluna when they’re at two prizes is a very viable line (but not necessarily what you go for every time). If you can get value from Legacy on Dhelmise, that’s usually fine. Keep Air Balloon around for various possibilities in the late-game.
+
+```youtube
+id: RJyhSaM8zik
+title: Sneak v Hydrap 1
+```
+
+```youtube
+id: A0Iu5EHrh88
+title: Sneak v Hydrap 2
+```
+
 ### Festival Lead - Slightly Favorable
 
 - Flutter Mane is very important to always have on the bench, but don’t attach Energy or Balloon to it until you’re actually using it to pivot.
@@ -183,70 +256,12 @@ id: nRwJ9R4LPNw
 title: Sneak v Festival 2
 ```
 
-### Slowking - Slightly Favorable
-
-- Try to play with a slim board to play around Trifrost. The ideal board is a Dudunsparce and two Dhelmise with literally nothing else. You always want to prioritize getting a Dudunsparce into play. This will result in some Dunsparce falling to Trifrost, which is a necessary sacrifice, just don’t put more than one in play at once. The exception is Turn 1 when you’re unlikely to get Trifrosted next turn. That’s a prime opportunity to get many Dunsparce down and evolved to safety.
-- Trade Dhelmise into Slowking and make them work hard to chain attackers. If you have lots of Boss, it’s possible to line up a two-shot on Kang and then an Ursaluna one-shot on Latias to close out the game. However, this is rare because you won’t have unlimited Dudunsparce draw. Therefore, it’s usually better to just KO their attacking Slowking and save Boss for Ursaluna or for finishing off damaged Pokemon. If you managed to get a fast Dhelmise attack into their Kang, using Boss to finish it off is obviously great.
-- If they don’t have Kang or Fez draw available, keep in mind that Prism Tower can greatly help them (with their Ciphermaniac). Chien-Pao is also pretty reasonable in this matchup to bump Festival Grounds without giving them a useful Stadium (and it has a good HP number).
-
-```youtube
-id: J96IFKJc8gg
-title: Sneak v King 1
-```
-
-```youtube
-id: it6-5D9h9vA
-title: Sneak v King 2
-```
-
-### Alakazam - Favorable
-
-- Start attacking with Banette as soon as possible. You’ll also need to get four Sneak guys in the discard quickly so that you can respond to an attacking Fez with Dhelmise. Bossing the Fez before it’s powered up and smacking it once with Banette is generally good if possible.
-- You still want a normal board of multiple Dun / Dudun and one or two Dhelmise in addition to the Banette. Use Dudunsparce aggressively to amass a large hand.
-- If you aren’t using Dhelmise to KO Fez, Dudunsparce, or other threat, Banette should be attacking in all other situations.
-- The second Shuppet is good to have in play, but prioritize getting the Dhelmise online first, and then you can get the backup Shuppet and Banette.
-- If they start powering up Dunsparce / Dudunsparce, Boss KO it once it gets two Energy.
-- Legacy is best on Banette since Alakazam bypasses it anyway, but Alakazam can’t hit Banette.
-
-```youtube
-id: rlDTFg8czno
-title: Sneak v Zam 1
-```
-
-```youtube
-id: g6O65XUmUxM
-title: Sneak v Zam 2
-```
-
-### Hydrapple - Even
-
-This matchup is basically the same as Raging Bolt. The main difference is that Hydrapple can heal itself into three-shot range (and there’s nothing you can do about it), but they cannot clear Pokemon with Chien-Pao.
-
-- The general game plan is to chip down the Hydrapple and KO it in three hits, find two prizes somewhere else at any point, and then finish with an Ursaluna Boss one-shot for two prizes. Legacy Energy and Boss are very important. It’s very good if you can get a fast single-prize KO (such as Celebi) and then another one (Meganium) via Boss. Of course, Boss KO Meowth with Dhelmise is also great.
-- Set up as many Dudunsparce as possible. You do want to use Run Away Draw a decent amount, but you also need to make sure to play around Stamp. If they are amassing a large hand or already used Ciphermaniac, you may need to watch out for Boss KO Dudunsparce plus Unfair Stamp. Keeping two Dudunsparce in play is ideal to play around that. If it’s in the early-game or they have a small hand, it’s much less likely they’ll have the Boss KO and Stamp play.
-- You’ll use Ursaluna to close out the game basically every time. Legacy on Ursaluna when they’re at two prizes is a very viable line (but not necessarily what you go for every time). If you can get value from Legacy on Dhelmise, that’s usually fine. Keep Air Balloon around for various possibilities in the late-game.
-
-```youtube
-id: RJyhSaM8zik
-title: Sneak v Hydrap 1
-```
-
-```youtube
-id: A0Iu5EHrh88
-title: Sneak v Hydrap 2
-```
-
-### Slop Box - Favorable
+### Clefairy Box - Favorable
 
 - Dhelmise 30 poke or Banette 80 poke is good on Clefairy or Kang.
 - Just smack whatever is active, unless they have Pokemon in KO range on their bench. If that’s the case, Boss-KO whenever you can before Chien-Pao removes them permanently.
 - Play normally and use Ursaluna to close out the game.
 - They often play Prime Catcher, so playing around Stamp isn’t as important as usual. However this also means they can pull off Prime + Crispin Waterpon, so make sure there aren’t two Pokemon within Waterpon range on your board.
-
-### Crustle - Favorable
-
-- Get Dhelmise online as soon as possible and target their Kang with Energy. Smack it as much as possible for as much damage as you can. Crustle is a non-issue and can mostly be ignored (and easily KO’d when it’s active).
-- Flutter Mane or Banette are good in the active while you’re setting up, but as soon as you can attack with Dhelmise, do so. Putting Banette in play can be risky since it might make it harder to set up Dhelmise, but it depends on the situation.
 
 ### Mewtwo - Favorable
 
@@ -262,20 +277,6 @@ title: Sneak v Mewtwo 1
 ```youtube
 id: _wQ-3u4MEpE
 title: Sneak v Mewtwo 2
-```
-
-### Excadrill - Depends
-
-If they have Ice Creams, this matchup is unfavorable. If they do not have Ice Creams, the matchup is favorable.
-
-- Smacking Excadrill with Dhelmise is generally good whether they have Ice Cream or not. You’ll have to KO it eventually anyway.
-- Save Boss to get around Metagross. If you can close out the game with all four Boss and not have to go through Metagross, that is ideal. Two-shotting a single-prize Pokemon is extremely inefficient.
-- Leaving Genesect in play is generally good since Ursaluna can one-shot it (if it did not use Protect Charge last turn). However, if they’re smart, they’ll attack with Genesect. In that case, two-shot it as normal (including Boss to finish it off).
-- Use Boss to finish off damaged Pokemon as soon as possible in order to play around possible Ice Creams.
-
-```youtube
-id: XcVEM5eOs8I
-title: Sneak v Drill 1
 ```
 
 ## Personal Thoughts

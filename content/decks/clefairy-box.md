@@ -69,9 +69,9 @@ Energy: 11
 
 - Go first.
 - Against any deck that can one-shot Mega Kang, you may need to use Chien-Pao to remove it from play before they can KO it. This is mostly relevant if the opponent is on track for a 3-2-1 prize map, which occurs if they have to KO a Pearl’d Clefairy or Moltres. Chien-Pao is also a strong resource against Dragapult, so you mostly want to keep it around.
-- If you don’t know where to manually attach Energy for the turn, lean towards non-Psychic types. Energy attachments can be made up via Wondrous Patch, so sometimes you want to be flexible and keep various attacking options open. Manually attaching to Clefairy is still generally good though.
+- If you don’t know where to manually attach Energy for the turn, lean towards non-Psychic types (or a benched Mew). Energy attachments can be made up via Wondrous Patch, so sometimes you want to be flexible and keep various attacking options open. Manually attaching to Clefairy is still generally good though.
 - Wondrous Patch + Crispin can make an attacking Latias out of nowhere. I was surprised at how often this was relevant.
-- Draw before Dusk Ball is typically correct sequencing. Dusk Ball doesn’t thin the deck in the traditional sense, so you’d rather see your cards to inform the correct selection off Dusk Ball.
+- Draw before Dusk Ball is typically correct sequencing if you're playing Dusk Ball. Dusk Ball doesn’t thin the deck in the traditional sense, so you’d rather see your cards to inform the correct selection off Dusk Ball.
 - If you’re not sure what to get off Ciphermaniac, such as if your immediate needs are already fulfilled, remember that Area Zero, Lillie’s Pearl, and Wondrous Patch are important to have access to and difficult to find. If you don’t already have them, you may want them in the future and not have a way to find them.
 - Attacking with Kangaskhan with this deck is rare and inefficient. It’s mostly just a desperation option. However, sometimes you may need to acknowledge when you can’t win through normal means and start powering up Kang to rely on luck.
 
@@ -124,6 +124,18 @@ id: RoK0ACF6r9E
 title: Slop v Bolt 2
 ```
 
+### Zoroark - Unfavorable
+
+- Save Prime Catcher in case they try to use Yveltal or Drapion.
+- If they have a full bench, try to get the one-shot with Clefairy on their Zoroark. Your opportunity to one-shot Zoroark will disappear after that. The same is true if they have four Pokemon on the bench and a poisoned Zoroark. They should never let that happen, but if they do, you can punish it with a Clefairy one-shot.
+- If they have Fez, Meowth, or Pecharunt on their bench, KO it before it disappears to Transformation Tome.
+- Eventually, you’ll probably just have to two-shot a Zoroark, which is fine. You may need to rely on Mega Kangaskhan attacking luck in this matchup. Mega Kang can also be a meatshield at various points in the game because it’s very hard for them to one-shot it (especially because they do not want Pecharunt in play).
+
+```youtube
+id: Y9wQFCdEMII
+title: Slop v Zoro 1
+```
+
 ### Alakazam - Very Unfavorable
 
 - Your win condition is speed blitzing prize cards before they can stabilize. Wellspring Ogerpon is very strong in the early-game. Prioritize targeting their Kadabra. If they don’t have any, target Abra. Fast Clefairy is also good. Just try to amass a fast prize lead.
@@ -139,31 +151,6 @@ id: OABzOSwJJ3c
 title: Slop v Zam 2
 ```
 
-### Hydrapple - Unfavorable
-
-- Moltres and Lillie’s Pearl are very strong in this matchup. 
-- You’ll need to remove Kang from play at some point to deny them the 3-2-1. Even better if you can get by without putting Kang in play in the first place, but that is sometimes difficult.
-- Wellspring’s attacks are nearly useless in this matchup, but it’s still a good card to enable Area Zero.
-- Watch out for Briar. Sometimes there’s nothing you can do about it though. KO’ing their initial Celebi or other fodder one-prize isn’t bad because it does avoid Briar.
-- Also watch out for Stamp and Red Card. Play around them whenever possible.
-
-```youtube
-id: ReNNpTcJ4MA
-title: Slop v Hydrap 1
-```
-
-### Zoroark - Unfavorable
-
-- Save Prime Catcher in case they try to use Yveltal or Drapion.
-- If they have a full bench, try to get the one-shot with Clefairy on their Zoroark. Your opportunity to one-shot Zoroark will disappear after that. The same is true if they have four Pokemon on the bench and a poisoned Zoroark. They should never let that happen, but if they do, you can punish it with a Clefairy one-shot.
-- If they have Fez, Meowth, or Pecharunt on their bench, KO it before it disappears to Transformation Tome.
-- Eventually, you’ll probably just have to two-shot a Zoroark, which is fine. You may need to rely on Mega Kangaskhan attacking luck in this matchup. Mega Kang can also be a meatshield at various points in the game because it’s very hard for them to one-shot it (especially because they do not want Pecharunt in play).
-
-```youtube
-id: Y9wQFCdEMII
-title: Slop v Zoro 1
-```
-
 ### Slowking - Favorable
 
 - Wellspring is very good in this matchup so try to power it up with any spare Energy. Smacking into Kang sets it up for a Clefairy finish, or you can snipe it off after hitting it with Clefairy first. Of course, clearing off Slowpoke + Slowking is also great, and Sob can buy a turn or two if you have nothing better to do.
@@ -174,32 +161,6 @@ title: Slop v Zoro 1
 ```youtube
 id: m42C_e2OwqU
 title: King v Slop 1
-```
-
-### Slop Box Mirror - Even
-
-- Many of the same principles as the Raging Bolt matchup, barring Moltres. You can still use Moltres to swing fast, but it’s obviously not as strong when it can’t one-shot anything.
-- If they are threatening a Koraidon with an Energy, remove Kang from play. You can do the same thing to threaten their Kang. Using Chien-Pao makes it harder for them to remove Pokemon from play.
-- Don’t board lock yourself out of a Tera Pokemon.
-- Slim board in the early-game can stop them from initiating with Clefairy. Sob can also stall them from initiating.
-- Save Prime Catcher for Sob. It’s probably fine to use it to get a solid prize lead if you have to.
-- Lillie’s Pearl is very good.
-
-### Crustle - Auto Loss
-
-Without a tech you just can’t win. With a tech, you still have to play carefully.
-
-### Mewtwo - Unfavorable
-
-- Moltres is good to smack into Mewtwo. Lillie’s Pearl also very good in this matchup since it’s hard for them to gust a lot.
-- Wellspring’s attacks are also mostly bad here. Torrential Pump is hard to line up but it could occasionally be useful since getting the damage on Mewtwo is relevant. I never found a good chance to use it since it’s so committal.
-- Clefairy is the go-to attacker in most situations.
-- Attacking with Kang can sometimes be good in this matchup since it’s hard for them to one-shot it. Attacking with it earlier is best to reduce the likelihood of them having the Max Belt combo to one-shot it. If they swing into Kang for a bunch of damage, you HAVE to remove it with Chien-Pao.
-- Chien-Pao can also be very good because it removes Meowth from play, which leaves them with nothing they can easily KO with Spidops.
-
-```youtube
-id: 5vN-SSszLeg
-title: Slop v Mewtwo 1
 ```
 
 ### Excadrill - Even
@@ -213,6 +174,45 @@ title: Slop v Mewtwo 1
 ```youtube
 id: yXZhZKazbs8
 title: Drill v Slop 1
+```
+
+### Crustle - Auto Loss
+
+Without a tech you just can’t win. With a tech, you still have to play carefully.
+
+### Hydrapple - Unfavorable
+
+- Moltres and Lillie’s Pearl are very strong in this matchup. 
+- You’ll need to remove Kang from play at some point to deny them the 3-2-1. Even better if you can get by without putting Kang in play in the first place, but that is sometimes difficult.
+- Wellspring’s attacks are nearly useless in this matchup, but it’s still a good card to enable Area Zero.
+- Watch out for Briar. Sometimes there’s nothing you can do about it though. KO’ing their initial Celebi or other fodder one-prize isn’t bad because it does avoid Briar.
+- Also watch out for Stamp and Red Card. Play around them whenever possible.
+
+```youtube
+id: ReNNpTcJ4MA
+title: Slop v Hydrap 1
+```
+
+### Clefairy Box Mirror - Even
+
+- Many of the same principles as the Raging Bolt matchup, barring Moltres. You can still use Moltres to swing fast, but it’s obviously not as strong when it can’t one-shot anything.
+- If they are threatening a Koraidon with an Energy, remove Kang from play. You can do the same thing to threaten their Kang. Using Chien-Pao makes it harder for them to remove Pokemon from play.
+- Don’t board lock yourself out of a Tera Pokemon.
+- Slim board in the early-game can stop them from initiating with Clefairy. Sob can also stall them from initiating.
+- Save Prime Catcher for Sob. It’s probably fine to use it to get a solid prize lead if you have to.
+- Lillie’s Pearl is very good.
+
+### Mewtwo - Unfavorable
+
+- Moltres is good to smack into Mewtwo. Lillie’s Pearl also very good in this matchup since it’s hard for them to gust a lot.
+- Wellspring’s attacks are also mostly bad here. Torrential Pump is hard to line up but it could occasionally be useful since getting the damage on Mewtwo is relevant. I never found a good chance to use it since it’s so committal.
+- Clefairy is the go-to attacker in most situations.
+- Attacking with Kang can sometimes be good in this matchup since it’s hard for them to one-shot it. Attacking with it earlier is best to reduce the likelihood of them having the Max Belt combo to one-shot it. If they swing into Kang for a bunch of damage, you HAVE to remove it with Chien-Pao.
+- Chien-Pao can also be very good because it removes Meowth from play, which leaves them with nothing they can easily KO with Spidops.
+
+```youtube
+id: 5vN-SSszLeg
+title: Slop v Mewtwo 1
 ```
 
 ### Lucario - Unfavorable
@@ -229,4 +229,4 @@ title: Slop v Lucario 1
 
 ## Personal Thoughts
 
-This deck is atrociously bad and doesn’t really beat anything. I just thought I should cover it since it somehow won NAIC.
+This deck is just bad and doesn’t really beat anything.
