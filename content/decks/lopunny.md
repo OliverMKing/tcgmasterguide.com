@@ -180,8 +180,8 @@ title: Lop v Zam 1
 ### Slowking - Favorable
 
 - Get Shaymin out as quickly as possible.
-- Make sure the attacking Lopunny always has Mist to play around a potential Fighting-type Annihilape.
-- Don't put a second Lopunny in play! Need to play around Kyurem + Zeraora.
+- Make sure the attacking Lopunny always has Mist to play around a potential Pawmot / Drapion / Fighting-type Annihilape.
+- Usually don't want to put a second Lopunny in play in order to play around snipe shenanigans.
 - Accept that one Lopunny will probably get one-shot to Metagross + Bangle. As long as you don't give up many other prize cards and immediately KO the Bangle, the second Lopunny can carry the rest of the game.
 
 ### Excadrill - Auto-Loss
