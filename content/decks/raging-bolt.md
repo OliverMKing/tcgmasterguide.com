@@ -290,6 +290,20 @@ title: Bolt v Zoroark 3
 - If they have Fez, KO it. However, if they don't have Shaymin or Rabsca in their deck, you can instead Sob the Fez and convert it into a three prize turn with Torrential Pump. If you're able to blitz prize cards and then do that, it's a reasonable way to potentially win.
 - If they only have one Dudunsparce/Fez, go for Stamp + Boss KO it and hope they brick. If they have neither, use Stamp immediately and hope they brick.
 
+Against the Dusknoir build (Slightly Unfavorable):
+
+This is one of the more interesting and dynamic matchups that can go lots of different ways depending on what the opponent does. The most important thing is to be adaptable to the situation.
+
+- If you play Iron Crown and can get it before they evolve, it can be game-winning, but that’s somewhat rare. If they have Budew in play, Iron Crown is good because it can take two prizes on Budew and Abra, but you probably want to do that later. Can also Sob Shaymin twice and Twin Shotels that and Budew.
+- If you can get the Wellspring for two prizes early, that’s obviously good, but it’s also rare.
+- If you’re playing Red Card (or if your opponent doesn’t know that you don’t), your early-game attacker should often be Kang. They are hesitant to KO it since it activates Red Card, so it makes the game awkward for them.
+- If they have Budew in play, Fezandipiti can be a good early-game attacker since it forces them to put down Shaymin, and from there you can target the vulnerabilities in their board with Boss or Iron Crown. Their board is generally too exploitable and weak if they have Budew and Shaymin in play, so KO’ing Budew might not be optimal.
+- If you’re playing Cape, it is often good to protect Fez. If you end up with a single-prizer in play (such as if you’re using Enamorus for the prize trade), put Cape on that instead.
+- If they try to set up damage on board, use Chien-Pao to get rid of it (and itself).
+- Get Psychic and Water Energy in play quickly so you can access them with Energy Switch or Night Stretcher later.
+- If they have Fez, you want to KO it. If you can’t do so outright, Sob is a very good option against Fez. After one Sob, you can KO with Kang or an Iron Leaves boosted by Iron Crown (easy to activate via Cyrano).
+- If you play Iron Leaves, keep it around as an out to Shadow Bind’s retreat-lock.
+
 ```youtube
 id: jghIvgnkBmg
 title: Zam v Bolt 1
@@ -298,6 +312,26 @@ title: Zam v Bolt 1
 ```youtube
 id: nqv7CF4-1NI
 title: Zam v Bolt 2
+```
+
+```youtube
+id: V544SIFPwCk
+title: ZamNoir v Bolt 1
+```
+
+```youtube
+id: IYMjAlXkRas
+title: ZamNoir v Bolt 2
+```
+
+```youtube
+id: NsJwRONLAkc
+title: ZamNoir v Bolt 3
+```
+
+```youtube
+id: FUrzkgSHVMA
+title: ZamNoir v Bolt 4
 ```
 
 ### Slowking - Slightly Favorable

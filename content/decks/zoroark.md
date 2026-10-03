@@ -251,6 +251,14 @@ With Dedenne:
 - Taking a KO can be good following a Xerosic, particularly if they have one or zero Dudunsparce in play. If you think they can’t get a return KO on Zoroark, you can strategically take a KO as a way of removing something from their board (such as Energy). In other words, Zoroark can be good because it isn’t easy for them to KO. After all, attacking with Dedenne is basically feeding them a prize card.
 - Recovery and switching options are premium resources to reuse Dedenne.
 
+Against the Dusknoir build:
+This matchup is slightly favorable for the Purrloin disruptive build, unfavorable otherwise.
+
+- Being aggressive is good. Setting up two or more Zoroark is even better.
+- If they put down Shaymin or Fez, you can do a Clutch setup on it, but keep in mind they can get out one time with Prime Catcher.
+- Darmanitan is very strong if you’re able to get any value out of it.
+- With the Purrloin build, copying Purrloin is your main attack. With Mochi, you can one-shot most of the Pokemon, but you may not want to, depending on the situation. Hand disruption is very good when taking a KO to make it less likely for them to get the return-KO on Zoroark. Judge and Red Card are premium resources for the right time.
+
 ```youtube
 id: y-Q-39hGx1M
 title: Zoro v Zam 1
@@ -259,6 +267,16 @@ title: Zoro v Zam 1
 ```youtube
 id: C2V6sKkPxY4
 title: Zoro v Zam 2
+```
+
+```youtube
+id: e9QiSKm5Kek
+title: ZamNoir v Zoro 1
+```
+
+```youtube
+id: _ooq7iyXWYE
+title: ZamNoir v Zoro 2
 ```
 
 ### Slowking - Even

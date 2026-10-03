@@ -102,6 +102,28 @@ title: Pultnoir v Hydrap 1
 - In general, attack with single-prizers such as Tapu Bulu or Meganium. As such, recovery cards are very important resources.
 - If you play Briar, it can be quite good in this matchup.
 
+Against the Dusknoir build:
+
+- Putting the pre-evolutions down is sometimes bad because the opponent can get easy value from Dusknoir.
+- Setting up with Celebi is great against Budew. If we can’t do that, just be aggressive.
+- Stamp + KO with Hydrapple is ideal. KO with Ogerpon or Meganium can also be fine after a Stamp.
+- Try to force them into Briar range. If you see a Fez, Boss-KO it.
+
+```youtube
+id: hCAbYtSSwoo
+title: ZamNoir v Hydrapple 1
+```
+
+```youtube
+id: tYjYsDCIOJw
+title: ZamNoir v Hydrapple 2
+```
+
+```youtube
+id: oNM2m836gOI
+title: ZamNoir v Hydrapple 3
+```
+
 ### Slowking - Favorable
 
 - Celebi is a premium card because it allows you to set up your hand without putting single-prize Pokemon in play. This is ideal because you’d rather not feed them single-prize Pokemon to Trifrost. If you aren’t able to get Celebi, you may have to risk being vulnerable to Trifrost, depending on the situation.

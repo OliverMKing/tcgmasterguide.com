@@ -253,6 +253,13 @@ With Kang:
 - If they have bad Zam, Bouffalant can be good and healing cards are premium.
 - If they have Dedenne, don't bench unnecessary Pokemon as they will get Boss stalled. If you end up with any liabilities on the bench, attach Energy to them so they can retreat if Boss'd. This is only relevant if they have Dedenne.
 
+Against the Dusknoir build (slightly favorable):
+
+- Need Mist on Kang as soon as possible. Ideally Cape as well. Building up a fast attacking Kang is very good as you can KO their Duskull with Energy, which is game-winning.
+- If you have a slower start, you may need a second Kang with Mist.
+- Ignore Dwebble and Crustle.
+- With the Crispin build, Psyduck with Mist is so strong since it forces Shadow Bind plus gust (and then you can just get it back). Even without Psyduck, Cornerstone with Cape and Mist is good enough as it takes three Cursed Blasts to take down, at which point any other attacker with Mist wins.
+
 ```youtube
 id: cXhPdJLQN_g
 title: CrustBouff v Zam 1
@@ -271,6 +278,21 @@ title: Crustle v Zam 1
 ```youtube
 id: 0Cw8pFTfpZE
 title: Crustle v Zam 2
+```
+
+```youtube
+id: C6ybomCLR4I
+title: ZamNoir v Crustle 1
+```
+
+```youtube
+id: tUjQcrvxGC8
+title: ZamNoir v Crustle 2
+```
+
+```youtube
+id: yiOii5gZuOU
+title: ZamNoir v Crustle 3
 ```
 
 ### Slowking - Depends

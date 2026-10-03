@@ -102,7 +102,7 @@ Energy: 8
 
 The normal list often includes Jamming Tower and / or Watchtower. Judge is sometimes present and sometimes not. A fourth Crushing Hammer is also common.
 
-## Standard List
+## Standard List 2
 
 ![Patrat list](./images/dragapult-dusknoir/patrat.png)
 ```decklist
@@ -240,6 +240,14 @@ title: Zoro v Pultnoir 2
 - Play around Eri by not grabbing important Items with early Recon Directives (namely Special Red Card) and by using Items as soon as you can get value. Now that many Alakazam decks have Eri, carefully consider the board state before deciding which Items to hang on to. Early Stamp is one that's usually fine to grab because they are more likely to use a setup Supporter instead of Eri, and you can punish them if they don't get Genesect fast enough. If you save the Stamp for later, they will just have Genesect by then. Of course, once Eri has been used, you don't need to play around it anymore. Some play two Eri, but it's fairly rare.
 - Snipe damage should usually KO Abra whenever possible. Spreading 2 to multiple Kadabra is fine if possible. Otherwise, 5 to Genesect and / or 1 to Fez is generally good to set it up for another snipe.
 
+Against the Dusknoir build:
+
+- If you have a good start, it’s possible to win the Budew war if you play two Budew and get a fast Dusclops.
+- Dusclops is generally good for getting cheap KO’s in the early-game. If you are Item-locking them, consider using Dusclops to KO Budew. Otherwise, use it to KO Abra. Later on, it’s not as useful.
+- If you aren’t trying to win the Budew war with double Budew, save Budew to use as a positional piece to deny the Rare Candy Dusknoir play. This can buy you an extra turn when you need it most (such as Turn 3 or so).
+- If they Dusclops / Dusknoir to KO your active, you might think that you should keep your Drakloak with Energy safe on the bench. Most of the time, it’s actually correct to push it into the active, even if all of your instincts are screaming at you not to. If they take the KO with Alakazam too early, they severely compromise their fragile board and you can punish them. If you push something else, it will just get stuck, and you give them too much time to do as they like.
+- Being aggressive is good. Evolving into Dragapult (even if you can’t attack with it this turn) is sometimes good (it’s hard for them to get 16 cards plus full Dusknoir and gust combo). Putting Fez down is good. The Shadow Bind line is not real and cannot hurt you.
+
 ```youtube
 id: VL0a9wzxKwI
 title: Pultnoir v Zam 1
@@ -248,6 +256,16 @@ title: Pultnoir v Zam 1
 ```youtube
 id: KKp9jEXXOdI
 title: Pultnoir v Zam 2
+```
+
+```youtube
+id: QUVOtrELjnU
+title: ZamNoir v PultNoir 1
+```
+
+```youtube
+id: ubV4nAw_8KM
+title: ZamNoir v PultNoir 2
 ```
 
 ### Slowking - Depends

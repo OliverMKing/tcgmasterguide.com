@@ -252,6 +252,14 @@ title:  Zoro v Pult 1
 - If they ever attack with Elgyem, KO it immediately. You don't need to play around it particularly hard. Elgyem is bad and useless as long as you don't let it attack multiple times.
 - Snipe damage should usually KO Abra whenever possible. Spreading 2 to multiple Kadabra is fine if possible. Otherwise, 5 to Genesect and / or 1 to Fez is generally good to set it up for another snipe.
 
+Against the Dusknoir build:
+
+- If you play two Budew and Ruins, get both Budew down quickly if you get the chance (along with Dreepy). With two Budew and Ruins, it’s not that hard to win the Budew war. If you aren’t equipped with all of that, don’t bother engaging the Budew war and just try to get as many Dreepy as possible.
+- Risky Ruins is extremely strong. Slam it as soon as possible, but if you’re going for Budew, get that first. You don’t want to put down Budew under Risky Ruins in almost any situation! Putting Dreepy under Risky Ruins also isn’t ideal, but it can be situationally ok. Ideally, get the Basics first and then Ruins.
+- If you aren’t trying to win the Budew war with double Budew, save Budew to use as a positional piece to deny the Rare Candy Dusknoir play. This can buy you an extra turn when you need it most (such as Turn 3 or so).
+- If they Dusclops / Dusknoir to KO your active, you might think that you should keep your Drakloak with Energy safe on the bench. Most of the time, it’s actually correct to push it into the active, even if all of your instincts are screaming at you not to. If they take the KO with Alakazam too early, they severely compromise their fragile board and you can punish them. If you push something else, it will just get stuck, and you give them too much time to do as they like.
+- Being aggressive is good. Evolving into Dragapult (even if you can’t attack with it this turn) is sometimes good (it’s hard for them to get 16 cards plus full Dusknoir and gust combo). Putting Fez down is good. The Shadow Bind line is not real and cannot hurt you.
+
 ```youtube
 id: 2pwoICz5MAs
 title: Zam v Pult 1
@@ -262,6 +270,16 @@ id: WqRUQWNB7HU
 title: Zam v Pult 2
 ```
 This is one of the most interesting and confusing games I’ve ever played.
+
+```youtube
+id: NfQPi10WnyA
+title: ZamNoir v PultHam 1
+```
+
+```youtube
+id: 8ciISbyJlUQ
+title: ZamNoir v PultHam 2
+```
 
 ### Slowking - Favorable
 

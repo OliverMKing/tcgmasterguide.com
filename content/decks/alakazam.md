@@ -246,6 +246,12 @@ title: Zam v Zoroark 1
 - Don't give them free Enhanced Hammer value by attaching extra Telepathic Energy for no reason.
 - Don't put Fez in play.
 
+Against the Dusknoir build (unfavorable):
+The heavy Battle Cage build is favored against the Dusknoir build. Otherwise, it’s unfavorable.
+
+- Protecting the bench from Dusknoir is the priority. With Rabsca, get double Rellor to improve your chances of getting Rabsca out. With Battle Cage, spam draw and Enriching to try and find the Cage.
+- If your bench is protected, play like a normal mirror match (except you don’t have to play around Eri).
+
 ### Slowking - Very Favorable
 
 This matchup is good thanks to Shaymin / Rabsca. If you don’t have either, the control combo of Dede + Elgyem + Eri also wins. If you have just Elgyem + Dedenne but no Eri, the matchup is about even. If you have none of these cards, it’s probably slightly unfavorable.
