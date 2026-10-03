@@ -241,6 +241,7 @@ If they have Shaymin or the Eri + Dedenne + Elgyem package, the matchup is very 
 - Sometimes the game slows down after using Trifrost when they try to trap Slowking. If that happens, simply wait for the combo. However, if they have Eri and Dedenne, waiting does not necessarily work, so you’ll have to somehow avoid ending up in that situation (take a few KO’s with Metagross and hoard cards for back to back Kyurem is one way). If they only have one Eri and no Dedenne, waiting around is fine.
 - The best targets for Trifrost are usually control Pokemon (Dede and Elgyem) or Pokemon that can draw when they evolve (especially before their hand is built up). However, sometimes you need to smack something for 110 (such as Fez or Alakazam) for a more efficient prize map. Don't take a triple KO just because you can, as you're aiming to get maximum value over two Trifrost attacks, so just think ahead a little bit.
 - Prize mapping efficient Trifrosts is very important, and sometimes you need to include a Clefairy or Metagross attack for one prize card.
+- It’s basically impossible to win against the Dusknoir build with Shaymin. Just go for a fast Trifrost and hope they can’t find their Shaymin quick enough.
 
 ```youtube
 id: yV715Nm-4z8
@@ -255,6 +256,11 @@ title: King v Zam 2
 ```youtube
 id: OkwXG4DViHE
 title: King v Zam 3
+```
+
+```youtube
+id: M8Rd7GLBnz0
+title: ZamNoir v Slowking 1
 ```
 
 ### Slowking Mirror - Even

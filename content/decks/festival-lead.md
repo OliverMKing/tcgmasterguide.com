@@ -144,6 +144,13 @@ title: Festival v Zoroark 1
 - If they're playing the Hammer build, attaching backup Energy to play around Handheld Fan will actually backfire, so be careful.
 - Use Gladion's Final Battle whenever is most convenient to get an easy double KO. If they have Fez in play, you will want to KO that first before using Gladion.
 
+Against the Dusknoir build (even):
+
+- Going first is very important. When going first, apply maximum pressure.
+- Rabsca is very important because it makes their lines a bit more awkward.
+- Growing Energy can protect Rellor or Applin from Dusclops.
+- Go for as many double-KO’s as possible. If they put Fez on the bench, it can be countered with Boss + Bangle (or Gladion + Bangle to ensure a double KO).
+
 ```youtube
 id: g5-pKFaJc_Y
 title: Festival v Zam 1
@@ -153,6 +160,16 @@ The games I have recorded are pre-Gladion. Some of the same principles still app
 ```youtube
 id: X3YpsKBoBBI
 title: Festival v Zam 2
+```
+
+```youtube
+id: EpQOlQbBpr8
+title: ZamNoir v Festival 1
+```
+
+```youtube
+id: 8iBK5vouH8U
+title: ZamNoir v Festival 2
 ```
 
 ### Slowking - Favorable
