@@ -1,6 +1,6 @@
 ---
-title: Mega Kangskhan Box
-pokemon: [10039]
+title: Clefairy Box
+pokemon: [35]
 tier: 3
 format: Standard
 ---

@@ -61,6 +61,7 @@ Energy: 7
 - Special Red Card probablemente estaría bien, pero no tiene mucho sentido en este deck.
 - Chien-Pao es exclusivamente para la Watchtower. Ocasionalmente también puede ser útil contra Festival Lead. Si no temes a Rocket's Watchtower, no lo incluyas.
 - Más Hilda podrían ser buenas.
+- Yveltal 30C podría ser una buena inclusión contra Mega Excadrill pero no creo que sea necesaria hasta que Mega Excadrill tenga buenos resultados en los torneos.
 
 ### Exclusiones
 
@@ -236,7 +237,7 @@ id: A0Iu5EHrh88
 title: Sneak v Hydrap 2
 ```
 
-### Mega Kangaskhan Box - Favorable
+### Clefairy Box - Favorable
 
 - Dhelmise 30 dos veces o Banette 80 son buenas opciones contra Clefairy o Kangaskhan.
 - Ataca sin piedad al Pokémon activo, a menos que tengan Pokémon en la banca en alcance de KO. En ese caso, usa Boss-KO siempre que puedas antes de que Chien-Pao los elimine definitivamente.
@@ -264,9 +265,7 @@ id: _wQ-3u4MEpE
 title: Sneak v Mewtwo 2
 ```
 
-### Excadrill - Depende
-
-Si tienen Jumbo Ice Cream, este matchup es desfavorable. Si no los tienen, es favorable.
+### Mega Excadrill - Desfavorable
 
 - Atacar a Excadrill con Dhelmise suele ser una buena estrategia, tengan o no Helados. De todas formas, tendrás que noquearlo tarde o temprano.
 - Guarda Boss para evitar a Metagross. Si puedes terminar la partida con los cuatro Jefes y no tener que enfrentarte a Metagross, es ideal. Derrotar a un Pokémon de un solo premio de dos golpes es extremadamente ineficiente.
@@ -280,4 +279,4 @@ title: Sneak v Drill 1
 
 ## Conclusión
 
-Este deck es algo inconsistente y muy lineal. Su distribución de matchups no es tan mala. Le cuesta contra Unfair Stamp a pesar de tener muchos Dudunsparce. Mi opinión sobre el deck mejora cuanto más lo juego. Al principio pensé que era una auténtica basura. Creo que funcionaría mejor en entornos menos competitivos porque es malo contra buenos jugadores de Dragapult y Zoroark, pero vence a la mayoría de los demás decks. Así que creo que es una pésima opción para el Mundial, pero podría funcionar bien en otros lugares.
+La verdad es que creo que este deck está bastante bien ahora mismo. Es muy malo contra Zoroark y Blaziken, pero por lo demás tiene matchups bastante decentes. También me parece que esta lista es bastante sólida y está bien pulida.
