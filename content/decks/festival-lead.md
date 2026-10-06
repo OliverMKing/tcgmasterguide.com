@@ -218,6 +218,12 @@ title: Festival v Crustle 1
 - Just like in the mirror, they can take a double KO with Dipplin. For that reason, try to keep Seaking on the bench to use as a sponge.
 - Shaymin can be useful as protection from their Boss + Stamp + Fez play, which could otherwise be devastating. I wouldn't use the Shaymin early, as you'll need the board space for other stuff, but it could be good to put down later when they're more likely to get that play.
 
+### Bronzong / Lopunny - Unfavorable
+
+- Ideal setup is three Dipplin / Seaking, Rabsca, and two Thwackey. Try to get the Festival Lead attackers evolved as soon as possible so that you don’t lose to Bronzong. They are generally higher priority than Thwackey.
+- Target down their Bronzor / Bronzong if they only have one. Otherwise, target down Duskull pieces.
+- Growing Energy can protect Applin / Rellor from Dusclops, but honestly this did not accomplish as much as I had hoped.
+
 ### Mewtwo - Favorable
 
 - They have easy access to Archer which is basically a Stamp. Playing around Archer is the main thing in this matchup. Try to get a backup Dipplin as soon as possible. If you can’t, Goldeen with Air Balloon can be a good way to play around Archer (or can help set up). Ideal board is triple apple and 2-3 Thwackey depending if you need Goldeen.

@@ -166,6 +166,12 @@ title: Drill v Hydrap 1
 - If you can’t get a double KO, prioritize targeting their Seaking, Goldeen, or anything with Growing Energy that could be a sponge capable of absorbing a Dipplin’s second attack. If they have a Growing Energy in play, a second Growing takes their Dipplin out of range of our own.
 - Fezandipiti can occasionally be a good fast attacker or win condition. If they do not have Shaymin or Rabsca on the board, Stamp + Boss + Fez can be game winning.
 
+### Bronzong / Lopunny - Favorable
+
+- If they go Bronzong, Ogerpon can easily KO it. Otherwise, set up behind Celebi. Sometimes Celebi is good even if they’re using Bronzong.
+- Protect your Energy in the early-game. Need to be able to respond-KO Lopunny as soon as it comes in. So don’t just KO their Bronzong if your board is particularly vulnerable to an incoming Lopunny.
+- Don’t put down Chikorita / Applin until you are fully evolving it. This can get punished by Dusknoir and is bad for the prize trade.
+
 ### Clefairy Box - Favorable
 
 - Celebi is premium for getting set up. Use it whenever possible in the early-game. If you’re using Celebi, you may need to avoid putting down Chikorita / Applin so they can’t get two prizes with Wellspring Ogerpon. Then you can use Forest to put down everything at once.

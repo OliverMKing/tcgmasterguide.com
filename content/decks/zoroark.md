@@ -354,6 +354,30 @@ Other:
 - Copy Darmanitan is can potentially win a prize trade if they don't play Shaymin or don't get it out.
 - Purrloin can make them brick, especially along with Boss.
 
+### Bronzong / Lopunny - Favorable
+
+- Get a bunch of Zorua to make it hard for them to wipe all of them.
+- If you go first and get Zoroark out, you can more or less play normally.
+- Mochi Scratch is the go-to Bronzong countermeasure. If you can get the Purrloin, that’s even better.
+- Pecharunt is necessary if you’re evo-locked. Get it in play and slap an Energy on it whenever you get the chance. If you don’t get the Mochi Scratch play, you’ll need to use Pecharunt’s attack to KO Bronzong after they take a prize.
+- If you can line up the Mochi Scratch, you may also need to save a Stadium to bump a possible Jamming Tower.
+- Purrloin in general is likely to make them brick, especially with Watchtower. If you don’t have the Mochi for it, try to get it active without poisoning it so that it can tank two Evo Jammers.
+
+```youtube
+id: RExC7pnDq5w
+title: Bronz v ZoroPurr 1
+```
+
+```youtube
+id: fYS8klIAWGE
+title: Bronz v ZoroPurr 2
+```
+
+```youtube
+id: 735BujRcwK8
+title: Bronz v ZoroDarm 1
+```
+
 ### Clefairy Box - Favorable
 
 - Limit your board so that they cannot one-shot Zoroark with Clefairy. Don’t leave Zoroark poisoned if you have four Pokemon on your bench since they can still get the KO with Clefairy.

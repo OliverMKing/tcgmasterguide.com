@@ -386,6 +386,24 @@ title: Pult v Crustle 2
 - If you ever get the chance to snipe down Applin or Chikorita before they evolve, that's very good.
 - Judge can be very strong in the early-game, especially combined with Item-lock. If you're using Judge in response to a Celebi setup attack, it's ideal (but not necessarily required) to KO the Celebi that turn.
 
+### Bronzong / Lopunny - Even
+
+- Itchy Pollen is usually bait and not worth going for, but it can be good if you have Stamp in hand since it forces them to take an early KO.
+- The most important thing is to get a fast response to Bronzong. Mind Bend is easiest and it works best along with hand disruption. Fast Fez is also very strong if you’re able to get to it.
+- Sometimes it isn’t clear what to snipe with Fez. If they are threatening Dusknoir + Dusclops + Evo Jammer, you need to stop that. If they have triple Duskull and only one Brozong, KO Bronzong. If they have only two Duskull lines, KO’ing one of those is probably fine. Otherwise (such as if they have a small hand or low chance of getting the combo), KO’ing Buneary can be good as well (not recommended if they have two Buneary).
+- When you’re going first, getting a fast Dragon Headbutt with Drakloak is also good.
+- Boss-KO a Duskull with Mind Bend or Dragon Headbutt is generally good if you don’t have anything better to do.
+
+```youtube
+id: A2tLdC0Ruxc
+title: Bronz v PultHam 1
+```
+
+```youtube
+id: QqxYNuDdyxg
+title: Bronz v PultHam 2
+```
+
 ### Clefairy Box - Slightly Favorable
 
 - At the end of the game, you would like to only have one benched Pokemon so that Clefairy cannot KO Dragapult without the Area Zero. This is makes it difficult for them to get the KO after disrupting their hand. This means you need to be careful about putting Pokemon down. Don't put down extra stuff like Munkidori or Moltres if you don't need to. Hoard the disruption combo for when you have slim board.

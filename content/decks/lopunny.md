@@ -55,6 +55,7 @@ Energy: 5
 
 ### Exclusions
 
+- Mew and Clefairy are more or less pointless in this build. The Dragapult matchup is already good, and giving up two prizes is completely antithetical to the deck's game plan.
 - Mega Froslass is just a bad Lopunny that opponents can play around (and requires Water Energy). You’ll still lose to Fighting decks just as hard, so there’s no point.
 - Moltres is bad and doesn’t do anything against Raging Bolt. Having to play Fire Energy is bad too. I don't think it really helps that much against Hydrapple or Excadrill, which are bad matchups anyway.
 - Abra is not relevant very often. It allows Lopunny to cycle Wally when the opponent is at one prize (or has Watchtower in play), which is nice utility, but just doesn’t really matter. It would be relevant in games where opponents can KO one Lopunny but not a second one. This most commonly is Festival Lead with only one Black Belt, but against that, Spiky Energy does the same job! In the games where Abra is good, it is game-winning, but I found those to be incredibly rare.

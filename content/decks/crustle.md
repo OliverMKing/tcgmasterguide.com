@@ -355,6 +355,10 @@ title: Festival v Crustle 1
 - For the Kang build, try to make an invincible Crustle and use Eri before attacking to hopefully get rid of Ice Creams.
 - One possible way to win is by decking them out by sticking their Kang in the active. If they put down an extra Dwebble, KO it so that your Lillie only draws six. Then repeatedly use Boss to strand up their Kang while it cannot do anything to your Crustle. Keeping your main Crustle alive is important. Of course, you'll also need to carefully calculate each players' card situation so that your opponent will be the one to deck out after you both Xerosic each other.
 
+### Bronzong / Lopunny - Very Unfavorable
+
+- For the Kang build with no Duck, go aggro Kang and target down Duskull lines. If you play Duck, get it and go with Crustle, praying that their Lopunny is prized. 
+
 ### Clefairy Box - Depends on Techs
 
 If they have no techs, this matchup is an auto-win. If they have Paldean Tauros and Koraidon ex, it's unfavorable.

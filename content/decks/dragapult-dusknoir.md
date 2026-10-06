@@ -352,6 +352,17 @@ id: SfQtd8mZFbE
 title: Pultnoir v Hydrap 1
 ```
 
+### Bronzong / Lopunny - Slightly Unfavorable
+
+If you’re playing the Patrat build, it’s even more unfavorable.
+
+- Itchy Pollen is usually bait and not worth going for, but it can be good if you have Stamp in hand since it forces them to take an early KO.
+- The most important thing is to get a fast response to Bronzong. Mind Bend is easiest and it works best along with hand disruption. Fast Fez is also very strong if you’re able to get to it.
+- Sometimes it isn’t clear what to snipe with Fez. If they are threatening Dusknoir + Dusclops + Evo Jammer, you need to stop that. If they have triple Duskull and only one Brozong, KO Bronzong. If they have only two Duskull lines, KO’ing one of those is probably fine. Otherwise (such as if they have a small hand or low chance of getting the combo), KO’ing Buneary can be good as well (not recommended if they have two Buneary).
+- When you’re going first, getting a fast Dragon Headbutt with Drakloak is also good.
+- Boss-KO a Duskull with Mind Bend or Dragon Headbutt is generally good if you don’t have anything better to do.
+- With the Patrat build, prioritize getting to Fez as fast as possible (or Dragon Headbutt, if you’re going first).
+
 ### Clefairy Box - Favorable
 
 - Budew and Munkidori are usually not good in this matchup. Shaymin is sometimes good if they’re threatening Fez / Wellspring, but not always since you want a slim board later.
