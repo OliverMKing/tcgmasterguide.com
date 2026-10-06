@@ -281,6 +281,36 @@ Without a tech:
 - If you ever get the chance to snipe down Applin or Chikorita before they evolve, that's very good.
 - Judge can be very strong in the early-game, especially combined with Item-lock. If you're using Judge in response to a Celebi setup attack, it's ideal (but not necessarily required) to KO the Celebi that turn.
 
+### Bronzong / Lopunny - Favorable
+
+- Itchy Pollen is usually bait and not worth going for, but it can be good if you have Stamp in hand since it forces them to take an early KO.
+- The most important thing is to get a fast response to Bronzong. Mind Bend is easiest and it works best along with hand disruption. Fast Fez is also very strong if you’re able to get to it. Chi-Yu can also work.
+- Thanks to Rare Candy, this deck has a decent backup plan as long as you’re able to stop the Evo Jammer soon enough. Try to line up a Rare Candy play when they’re about to break the Evo Jammer lock (when you force them to).
+- If you get lots of Dreepy and Torchic, there’s too many threats on the board. They cannot KO all of them, so something will eventually be able to Candy up.
+- Sometimes it isn’t clear what to snipe with Fez. If they are threatening Dusknoir + Dusclops + Evo Jammer, you need to stop that. If they have triple Duskull and only one Brozong, KO Bronzong. If they have only two Duskull lines, KO’ing one of those is probably fine. Otherwise (such as if they have a small hand or low chance of getting the combo), KO’ing Buneary can be good as well (not recommended if they have two Buneary).
+- When you’re going first, getting a fast Dragon Headbutt with Drakloak is also good.
+- Boss-KO a Duskull with Mind Bend or Dragon Headbutt is generally good if you don’t have anything better to do.
+
+```youtube
+id: 2gVi8YZ6eMk
+title: Bronz v PultBlaze 1
+```
+
+```youtube
+id: uvzzRTEJp6s
+title: Bronz v PultBlaze 2
+```
+
+```youtube
+id: ZRBCLvhjB4w
+title: Bronz v PultBlaze 3
+```
+
+```youtube
+id: 93420PHKYco
+title: Bronz v PultBlaze 4
+```
+
 ### Clefairy Box - Slightly Unfavorable
 
 - Try to get a fast Blaziken. If they are threatening attacking Fezandipiti (or Wellspring), get both Torchic right away. If not, still get it relatively soon. Blaziken can take most two-prize KO’s (sometimes with Adrenabrain’s help) and does not worry about Clefairy.

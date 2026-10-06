@@ -47,7 +47,6 @@ Energy: 7
 
 ### Possible Inclusions
 
-- I don't think Toucannon is needed, but it can solve some problems in specific metas. For example, it makes it a lot more possible to beat decks such as Hide n Sneak or Rocket's Articuno. For the time being, I don't think those decks are that big of a deal.
 - Shaymin would be ok but it's a bit redudant with heavy Rabsca.
 - Special Red Card would probably be good.
 - Lillie's Clefairy enables some interesting setups and also provides a way to circumvent hard counters. It could be worth playing.
@@ -55,9 +54,11 @@ Energy: 7
 ### Exclusions
 
 - Psyduck is not here because I tested it against Pult/Noir and it was not doing much. I'd rather have double Rabsca on the board.
+- Toucannon bad. Too much space for hardly contributing anything.
 - Genesect doesn't go well in this list since we need the board space for Rabsca, and it's not too hard to recover off Stamp anyway.
 - Fan Rotom is bad, especially with no Stadiums. I initially thought that it would be fine to play Fan Rotom if you played Stadiums, but I did not get much value from it at all, and it is a liability to have in play. Even with Stadiums, I would not play Fan Rotom.
 - I think Rabsca is better than other Stadiums like Nighttime Mine or Battle Cage. However, the deck is more vulnerable to Watchtower this way.
+- Forest of Vitality is bait. It doesn't accomplish much besides countering Stadiums, at which point just play Battle Cages and cut Rabsca.
 - Lana’s Aid seems like it would be alright but I would always rather play other Supporters for the turn. Night Stretcher is more convenient. This deck doesn’t really need heavy recovery, but if it does, there’s still Sacred Ash.
 
 ## Decklist 2
@@ -338,6 +339,15 @@ title: Crustle v Zam 2
 - Play around Unfair Stamp as normal. Some of them have Special Red Card and some don't.
 - Watch out for Briar.
 - For the most part, play normally and you'll win more often than not.
+
+### Bronzong / Lopunny - Very Unfavorable
+
+- If you play Clefairy, go for it as soon as possible. If not, prioritize powering up Fezandipiti. Of course, going first and getting Candy Alakazam is ideal, but that requires too much luck.
+
+```youtube
+id: rC7gz5bNU-Q
+title: Bronz v Zam 1
+```
 
 ### Clefairy Box - Very Favorable
 

@@ -260,6 +260,11 @@ id: 8iBK5vouH8U
 title: ZamNoir v Festival 2
 ```
 
+### Bronzong / Lopunny - Very Unfavorable
+
+- If you go first and they don’t get Item-lock, try to find Rare Candy Dusknoir to pop their Bronzor.
+- If you’re going to get Evo locked, go for Fez as soon as possible and start powering it up.
+
 ### Hide n Sneak - Very Unfavorable
 
 - Power up Fez asap and use it to KO Hide n Sneak Pokemon. Use Alakazam to KO everything else.

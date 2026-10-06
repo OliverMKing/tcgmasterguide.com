@@ -57,7 +57,8 @@ Energy: 7
 ### Possible Inclusions
 
 - Chien-Pao is a good tech for Watchtower. It can occasionally be good against Festival Lead too. If Watchtower is more popular, Chien-Pao is better.
-- Yveltal would be a good tech for Excadrill, but I don't think that's necessary until Excadrill actually does well at a major tournament.
+- Yveltal (30th Celebration) would be a good tech for Excadrill, but I don't think that's necessary until Excadrill actually does well at a major tournament.
+- Dudunsparce ex could be decent.
 - I would really like a third Night Stretcher. It would be good in basically every game and I feel like I’m always cutting it close with just two. I don’t know what to cut though.
 - Prism Energy over basic Psychic would enable some toolbox options such as Moltres, and it’s completely non-invasive.
 - More Hilda would be nice.

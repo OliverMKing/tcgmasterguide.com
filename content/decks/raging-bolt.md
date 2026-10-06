@@ -408,6 +408,29 @@ id: ovX7LmYRiqY
 title: Crustle v Bolt 2
 ```
 
+### Bronzong / Lopunny - Even
+
+- Raging Bolt is the premium attacker. You’ll rely on it to KO the likes of Lopunny or Ursaluna. Build up as much Energy in play whenever you can so that it’s easier to use Raging Bolt.
+- If you can’t get a Raging Bolt KO, sometimes you have to go for the Kang flips. It’s not pretty, but it comes up every so often. This is only out of necessity, and not the main strategy, but if the situation looks bad, go for it.
+- Lopunny is the main threat. If you can KO Buneary before it evolves, that is the best possible route.
+- Waterpon seems like it would be good, but I never ended up using it. If they leave a single-prizer in the active for some reason and the play lines up, it seems fine, but I didn’t have that happen. Sob is also not reliable since they play four Switch. In other words, Waterpon is bait.
+- Account for Dusknoir in your prize map. They typically have to use multiple Dusknoir, unless they start out way ahead. Kang is very good in the active since it requires them to pop one in order to one-shot it, and if you return-KO their Lopunny with Bolt, they cannot pop two more to win. For that reason, Kang is the default attacker if you have nothing better to do.
+
+```youtube
+id: 8JDzaw-yjeQ
+title: Bronz v Bolt 1
+```
+
+```youtube
+id: hsBZsfJz00o
+title: Bronz v Bolt 2
+```
+
+```youtube
+id: GsGM_7PCI1s
+title: Bronz v Bolt 3
+```
+
 ### Clefairy Box - Even
 
 - KO their Kang whenever possible.

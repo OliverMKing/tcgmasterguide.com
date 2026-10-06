@@ -234,6 +234,16 @@ id: llimXRrSMbA
 title: Drill v Festival 1
 ```
 
+### Bronzong / Lopunny - Unfavorable
+
+- Ideally, go first and get at least one Drilbur and Beldum (but as many as possible) evolved on Turn 2. You will want to get a second Drilbur somewhat quickly since they can easily one-shot Excadrill. Need to one-shot their Lopunny in response once it comes in.
+- When going second, you need to start powering up Genesect (or Fez) as soon as possible to deal with the Bronzong. To be honest, it is impossible to win if they go first and draw well.
+
+```youtube
+id: VBip_I0ITnk
+title: Bronz v Exca 1
+```
+
 ### Clefairy Box - Even
 
 - Boss is very important to take an efficient prize map. Try to KO their Kang before they remove it from the board with Chien-Pao.
@@ -257,6 +267,7 @@ title: Drill v Slop 1
 id: 1wwt0VOC4Rc
 title: Drill v Mewtwo 1
 ```
+
 ### Hide n Sneak - Unfavorable
 
 This is the main matchup where Ice Creams would be very good. If you have Ice Creams, the matchup is favorable.

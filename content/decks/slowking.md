@@ -319,6 +319,22 @@ With Slowbro:
 - Get multiple Slowpoke in play and attach Energy to them aggressively so that you'll be able to use Slowbro. Evolving into Slowbro preemptively is usually fine as well. Just make sure you don't end up with one Slowpoke with two Energy and it just gets KO'd. Sometimes it can be better to split Energy in the early-game.
 - Don't evolve Slowpoke into Slowking unless you need Slowking to attack that turn. They probably won't disrupt your hand so you can hoard resources.
 
+### Bronzong / Lopunny - Favorable
+
+- Play the early-game more or less normally and threaten a Trifrost. If they get Bronzong to stop it, respond KO it with Clefairy as soon as possible.
+- If you play Bangle or Fighting-type Annihilape, they can be used to one-shot Lopunny.
+- Fezandipiti is usually very good to have down (unless you’re in a very specific situation where it loses you the game, which can come up).
+
+```youtube
+id: LtU0lFjuaI8
+title: Bronz v King 1
+```
+
+```youtube
+id: GbyojO9NLWc
+title: Bronz v King 2
+```
+
 ### Clefairy Box - Unfavorable
 
 - Sometimes you may be tempted to go for Trifrost because they have a Pearl Clefairy active that doesn’t look very appetizing. Trifrost seems appealing because you can win in two attacks. However, if they have the Chien-Pao play available, it is a game-deciding punish. If it seems reasonable that they can have that play, just settle for a humble Metagross attack and chain Metagross (Clefairy can sometimes get in there too). That is the more reliable line and it also constantly forces them to find attackers (which makes it harder for them to gust). All they need for the Chien-Pao play is Meowth and Area Zero → Meowth for Ciphermaniac for Chien-Pao and Prime Catcher → Run Errand. 
