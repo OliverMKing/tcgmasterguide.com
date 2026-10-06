@@ -6,35 +6,34 @@ format: Standard
 ---
 ## Decklist
 
-![excadrill list](./images/excadrill/balloonback.png)
+![excadrill list](./images/excadrill/shaymin.png)
 ```decklist
 Pokémon: 20
+Pokémon: 19
 4 Drilbur PBL 46
 2 Mega Excadrill ex PBL 65
 4 Beldum TEF 113
 4 Metang TEF 114
 1 Metagross CRI 61
 2 Genesect ex BLK 67
-1 Piplup PFL 27
-1 Empoleon ex PFL 70
 1 Fezandipiti ex SFA 38
+1 Shaymin DRI 10
 
 Trainer: 25
 4 Boss's Orders PAL 172
 4 Team Rocket's Petrel DRI 176
-3 Lillie's Determination MEG 119
+4 Lillie's Determination MEG 119
 4 Team Rocket's Transceiver DRI 178
 3 Buddy-Buddy Poffin TEF 144
 1 Energy Recycler DRI 164
 1 Night Stretcher ASC 196
 1 Switch MEG 130
 1 Ultra Ball SVI 196
-1 Rare Candy SVI 191
 1 Precious Trolley SSP 185
 1 Air Balloon BLK 79
 
-Energy: 15
-15 Metal Energy MEE 8
+Energy: 16
+16 Metal Energy MEE 8
 ```
 <!-- PUBLIC -->
 ### Inclusiones
@@ -47,10 +46,10 @@ Energy: 15
 - Tres Buddy Buddy Poffin ayudan a que el deck sea consistente. A veces Precious Trolley esta premiada, o solo tienes a Lillie's Determination al principio de la partida en lugar de Petrel, o te ves obligado a empezar primero contra un deck con Budew y no puedes usar Trolley.
 - Night Stretcher es una buena carta de utilidad, que se suele usar por Drilbur o Beldum si son noqueados al principio, Genesect o Metagross.
 - El Precious Trolley hace que el deck sea muy fluido y consistente. No probé otras Ace Specs, pero no me imagino haciéndolo. Este deck necesita encontrar rápidamente muchos Pokémon Básicos y Evoluciones, y Precious Trolley lo hace todo a la vez. Es una locura con Genesect.
-- Empoleon ex es una opción estratégica para Alakazam que abundaran en el meta tras el Mundial, Alakazam está generando mucha expectativa debido a su extraordinario desempeño. El Caramelo Raro también permite desplegar rápidamente a Metagross, lo cual es ventajoso para el intercambio de cartas de premio y para ciertos matchups específicos, como contra Festival Lead (si se dan las condiciones adecuadas).
 - La carta Cambio puede resultar útil frente a Sob en los primeros compases de la partida, permitiéndonos a veces eludir el efecto de Torrential Pump al mantener a Genesect en el puesto activo. No obstante, esta no es necesariamente la mejor opción si prevemos que el rival puede noquear a Genesect fácilmente. En general, Cambio también puede ser valioso en otras situaciones, como frente a Mind Bend.
 - Ultra Ball aporta una gran utilidad y mejora la consistencia del deck.
 - Air Ballon resulta útil para Call For Family o cuando usan Boss para frenarte. Puede ser especialmente útil contra Dragapult.
+- Agregue Shaymin como tech contra Slowking ya que el matchup es increiblemente dificil sin ella. 
 
 ### Posibles Inclusiones
 
@@ -59,6 +58,7 @@ Energy: 15
 - La Special Red Card podría ser útil ocasionalmente, aunque no se usó mucho contra Dragapult.
 - Shaymin podría ser una buena opción para Slowking. Habría que retrasar la evolución al segundo Mega Excadrill.
 - Segundo Energy Recycler podría ser bueno.
+- Corte a Empoleon ex porque muchas listas de Alakazam juegan Clefairy o al otro Alakazam.
 
 ### Exclusiones
 
@@ -68,7 +68,7 @@ Energy: 15
 - Mega Skarmory es dificil de usar de manera efectiva, y solo tiene sentido en una lista sin Boss's Orders.
 - Hero's Cape es una carta muy buena pero el deck suele desmoronarse si no tienes Precious Trolley al inicio y el deck se vuelve menos consistente.
 - Brock's Scouting no es necesaria en la versión del deck con Trolley. Si te bloquean el uso de objetos contra Dragapult, unir energía manualmente y lograr usar Undermine en el segundo turno es suficiente; no necesitas tener una mesa completamente preparada tan rápido contra ese deck.
-- Kieran resulta útil principalmente contra un Mega Excadrill que no lleve equipada la Hero's Cape, un escenario que considero demasiado específico. Además, es una carta difícil de encontrar y su uso suele quedar en evidencia debido a Petrel.
+- Kieran resulta útil principalmente contra un Mega Excadrill que no lleve equipada la Hero's Cape, un escenario que considero demasiado específico. Además, es una carta difícil de encontrar y su uso suele quedar en evidencia debido a Petrel. Me parece ineficiente y no tan necesaria cuando tenemos Switch y Air Balloon en la lista.
 
 ## Standard List
 
@@ -175,7 +175,7 @@ id: hb0QJ851_EY
 title: Drill v Bolt 1
 ```
 
-### Alakazam - Depende
+### Alakazam - Muy Desfavorable
 
 Con Empoleon es muy favorable, sin Empoleon es muy desfavorable.
 
@@ -230,12 +230,19 @@ id: jvtO0P-BdgY
 title: Drill v Hydrap 1
 ```
 
-### Slowking - Desfavorable
+### Slowking - Depende
 
+Con Shaymin se vuelve favorable, sin Shaymin es desfavorable.
+
+Con Shaymin:
+- Saca a Shaymin lo más pronto posible y juega normal. Si no lo puedes conseguir rápido, intenta jugar alrededor de Trifrost hasta que lo consigas. 
+- Si consiguen Trifrost antes de que saques a Shaymin, puedes atacar con Protect Charge de Genesect para evitar que puedan noquearlo con otro Trifrost.
+
+Sin Shaymin:
 - No intentes andarte con rodeos con Trifrost. Nuestra mejor opción es ir rápido y agresivo, y esperar que no tengan mucha suerte con las cartas. Juega con normalidad e intenta conseguir premios rápidamente con una formación 3-2-1.
 - Boss es muy importante, ya que tendrás que noquear a Mega Kangaskhan y Latias para conseguir cartas de premio rápidamente.
 
-### Mega Kangaskhan Box - Parejo
+### Clefairy Box - Parejo
 
 - Boss es muy importante para conseguir un mapa de premios eficiente. Intenta noquear a su Mega Kangaskhan antes de que lo retiren del tablero con Chien-Pao.
 - Metagross es excelente en este matchup. Genesect también puede atacar a veces por razones similares a las que usa contra Raging Bolt.

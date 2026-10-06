@@ -50,13 +50,15 @@ Energy: 11
 
 ### Posibles inclusiones
 
-- Maximum Belt me sigue pareciendo muy bueno. Permite noquear con mayor facilidad a Pokémon como Teal Mask Ogerpon con Aura Jab, lo cual puede ser muy relevante. También permite noquear ocasionalmente a Pokémon como Fezandipiti/Meowth en el primer turno con Riolu, además de mejorar los mirrors.
+- Rocky Energy suele ser mala, pero si el deck de Alakazam / Dusknoir gana popularidad, resulta especialmente eficaz contra él.
+- Ciphermaniac podría estar bien, pero por lo general solo es útil si ya tienes a Solrock y Lunatone en juego.
 
 ### Exclusiones
 
 - Accompanying Flute es una perdida de espacio y realmente no hace nada.
 - Probé Wally’s Compassion y no le encontré ningún sentido. Usarla en Lucario impide usar Mega Brave o Boss’s Orders en ese turno, lo cual no es ideal. Wally’s Compassion parece buena en teoría, pero no lo es en la práctica.
-- La Fighting Rocky Energy es mala. Siempre quisiera que fuera una Energía Básica cuando la tengo, ya que hay demasiadas interacciones con la Energía Básica en cada partida. Claro, la Fighting Rocky Energy tiene sus ventajas contra Dragapult y Alakazam, pero no influye mucho en el porcentaje de victorias.
+- Secret Box es demasiado buena como para considerar cualquier otro Ace Spec.
+
 <!-- /PUBLIC -->
 ## Gameplay
 
@@ -124,9 +126,9 @@ Este matchup podría ser ligeramente desfavorable dependiendo de la lista del op
 - Judge es ideal para evitar que derroten a tu Lucario de un solo golpe. Por ejemplo, si atacas con un Lucario intacto y tienen una mano grande, Judge puede ser útil para que fallen el KO.
 - Genesect es muy fuerte junto a un Lucario intacto, ya que les dificulta mucho debilitarlo.
 
-### Mega Excadrill - Desfavorable
+### Mega Excadrill - Favorable
 
-- Este es el matchup principal en el que conviene atacar en segundo lugar. Intenta conseguir uno o dos KOs rápidos con Solrock. Lograr un KO temprano contra Beldum o Metang puede ser útil si aún no han seteado a Excadrill, pero por lo general no vale la pena gastar un Premium Power Pro para noquear a Metang con Solrock (es mejor usar Aura Jab).
+- Este es el matchup principal en el que conviene elegir ir segundo. Intenta conseguir uno o dos KOs rápidos con Solrock. Lograr un KO temprano contra Beldum o Metang puede ser útil si aún no han seteado a Excadrill, pero por lo general no vale la pena gastar un Premium Power Pro para noquear a Metang con Solrock (es mejor usar Aura Jab).
 - Intenta preparar una jugada de triple Premium Power Pro para noquear a su Excadrill de un solo golpe con Mega Brave. Si llevan equipada la Hero's Cape, necesitarás dos golpes, lo cual es aceptable. Si te ves obligado a dar dos golpes, procura infligir mucho daño con el primero (Mega Brave) para contrarrestar el efecto de Jumbo Ice Cream. Genesect también puede ser útil para anular la Hero's Cape si logras ponerlo en juego lo suficientemente rápido.
 - La distribución de premios 1-2-3 es bastante ventajosa, ya que ellos siempre están obligados a poner a Genesect ex en juego.
 - Hariyama puede ser un buen atacante, especialmente si usan Petrel para buscar a Kieran y amenazar con un KO de un solo golpe.
@@ -140,7 +142,7 @@ Este matchup podría ser ligeramente desfavorable dependiendo de la lista del op
 - No les des un mapa de premios 3-3 poniendo un segundo Lucario en juego demasiado pronto. Hariyama puede ser un atacante decente contra casi cualquier cosa en el mapa de premios. Incluso puede derrotar a un Garchomp sin Power Weight de un solo golpe con algunos modificadores de daño. Si obtienes uno o dos premios con Solrock, Hariyama puede no ser necesario, y es difícil de cargar.
 - Genesect no es muy bueno en este matchup si juegan Neo Upper. Solo es útil si están muy atrasados ​​en cargas de Energía, e incluso en ese caso no es una prioridad. Sin embargo, si juegan Unfair Stamp, Gensect es mucho mejor.
 
-### Kangaskhan Box - Favorable
+### Clefairy Box - Favorable
 
 - Hariyama es increíblemente poderoso para cambiar el rumbo del intercambio de premios, y lo más probable es que necesites atacar con él para ganar. Que Clefairy noquee a Mega Lucario de un solo golpe no es un problema siempre y cuando tengas a Hariyama como respuesta.
 - Debes usar Aura Jab para preparar a Hariyama. Si caes en la trampa de un KO con Mega Brave sin un plan de seguimiento para cuando Lucario sea derrotado de un solo golpe, perderás.

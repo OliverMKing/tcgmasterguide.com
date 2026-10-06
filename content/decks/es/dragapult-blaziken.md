@@ -48,7 +48,7 @@ Energy: 8
 - Rare Candy es una carta que puede ser inútil o extremadamente impactante. Hay partidas en las que no la necesitas, pero es muy poderosa e importante tenerla en turnos específicos en diversas situaciones. La probé con dos y tres copias y me pareció lo suficientemente fuerte como para justificar la tercera.
 - Crispin es extremadamente fuerte. Lo usé muchísimo, a pesar de que el deck también incluye a Blaziken. Un aspecto muy subestimado es la facilidad para encontrar la Energía, algo que a veces puede ser inconsistente.
 - Special Red Card reemplaza a Petrel ya que es similar a Unfair Stamp. Aunque sería bueno tener a Petrel para encontrar Rare Candy, en definitiva no es una carta tan fuerte.
-- Al igual que Dragapult, Risky Ruins es muy útil e impactante. Creo que es el mejor Estadio por mucho. No estoy seguro si este deck realmente necesita Estadios, pero pueden ser útiles en cualquier matchup y son particularmente importantes contra Alakazam.
+- Al igual que Dragapult, Risky Ruins es muy útil e impactante. Creo que es el mejor Estadio por mucho. Pueden ser útiles en cualquier matchup y son particularmente importantes contra Alakazam. Un Risky Ruins podría ser Watchtower.
 
 ### Posibles Inclusiones
 
@@ -66,9 +66,10 @@ Energy: 8
 
 ## Lista Común
 
-![normieBlaziken list](./images/dragapult-blaziken/normieblaze.png)
+![normieBlaziken list](./images/dragapult-blaziken/judge.png)
 ```decklist
 Pokémon: 22
+Pokémon: 21
 4 Dreepy ASC 158
 4 Drakloak ASC 159
 2 Dragapult ex ASC 160
@@ -76,17 +77,17 @@ Pokémon: 22
 1 Combusken DRI 41
 2 Blaziken ex JTG 24
 2 Munkidori ASC 99
-1 Lillie's Clefairy ex ASC 76
 1 Fezandipiti ex ASC 142
 1 Meowth ex POR 62
 1 Budew ASC 16
 1 Chi-Yu TWM 39
 
-Trainer: 30
+Trainer: 31
 4 Lillie's Determination MEG 119
 3 Boss's Orders MEG 114
 2 Crispin SCR 133
 1 Dawn PFL 87
+1 Judge DRI 167
 4 Buddy-Buddy Poffin ASC 184
 4 Ultra Ball MEG 131
 4 Poké Pad POR 81
@@ -103,7 +104,7 @@ Energy: 8
 2 Darkness Energy MEE 7
 ```
 
-La mayoría de las listas de Blaziken tienen Area Zero o Rocket's Watchtower. shaymin también es bastante común como tech.
+La mayoría de las listas de Blaziken tienen Area Zero o Rocket's Watchtower. Shaymin también es bastante común como tech.
 
 <!-- /PUBLIC -->
 ## Gameplay
@@ -137,6 +138,19 @@ Esto es aún más común con la lista de Blaziken.
 - Munkidori puede ser un atacante rápido decente para noquear a Budew y obtener ventaja en premios. No es tan importante protegerlo como a un Drakloak atacante, pero Drakloak puede ser un atacante seguro si no tienen otro Drakloak y no juegan Rare Candy.
 - Clefairy es excelente para noquear a su Dragapult, especialmente si no tienen Energías en otro Drakloak.
 - En el Turno 1, usa Items de forma anticipada para jugar alrededor de Budew. PokéPad para Drakloak, Ultra Ball para Meowth, lo que sea mejor en la situación. Simplemente no dejes que esos Items se atoren si tienes la oportunidad de usarlos.
+- Decidir si jugar de forma agresiva depende principalmente de qué jugador escala mejor a largo plazo. Si tu seteo supera a la del oponente en cuanto a progresión, no hay razón para exponerte a los efectos de Crushing Hammer y Unfair Stamp. Prepara una mesa sólida antes de atacar, idealmente frenando al rival con Itchy Pollen. Si tu oponente escala mejor que tú, debes atacar lo antes posible y presionar (esperando que fallen algo, como no encontrar Unfair Stamp o sacar cruz en Hammer). Contra decks que no llevan Hammer, tienes más incentivos para atacar, siempre y cuando no seas especialmente vulnerable a Stamp. Existen varios criterios para evaluar la progresión y no siempre son evidentes de inmediato; entre ellos se incluyen: el número de Drakloak, la situación de Munkidori y de las Energías en general y las cartas en mano o recursos disponibles.
+- Ser agresivo desde el inicio y noquear (hacer KO) a su Drakloak cargado de Energía es lo ideal, especialmente contra la versión con Hammer. Si tienes que moquear a Budew, lo mejor es hacerlo usando tu propio Budew. Si ya tienen a Munkidori en juego, a veces es mejor usar Jet Headbutt o Dragon Headbutt en lugar de Phantom Dive para noquear a Pokémon que otorgan un solo premio (esto no aplica si Patrat está en juego).
+- Munkidori es muy fuerte. Intenta no bloquear tu propia banca de forma que te impida jugarlo cuando lo encuentres. Por otro lado, si ellos tienen a Munkidori con Energía, considera noquearlo para limitar sus opciones; al tener pocas copias de Stretcher, es posible que no puedan recuperarlo. Munkidori puede ser un atacante rápido decente para noqeuar a Budew y tomar ventaja en premios. No es tan crucial mantenerlo a salvo como a un Drakloak atacante, aunque Drakloak puede atacar con seguridad si el rival no tiene su propio Drakloak y no juega Rare Candy.
+- Sigo pensando que empezar primero es mejor, ya que ofrece más opciones y te permite ejecutar el primer Phantom Dive, o simplemente infligir diez puntos de daño a su Budew con Itchy Pollen antes que ellos. Noquear al Budew del rival con tu propio Budew es una situación muy ventajosa; por tanto, debes evitar que te ocurra lo contrario. Ir segundo lugar no es malo y se siente mejor si tienes Lillie para buscar Items, pero aun así prefiero ir primero. A veces decides no cargar Energía en el primer turno al ir primero para contrarrestar la amenaza de Crushing Hammer, pero esto depende mucho de la situación.
+- Cruel Arrow al inicio puede ser bueno si se dan las condiciones adecuadas, por lo que a veces resulta óptimo empezar con Fezandipiti. Sin embargo, dado que esta jugada se frustra fácilmente con Crushing Hammer, no conviene depender de ella. Si amenazan con un ataque rápido de Fez, responde con Hammer, Mind Bend o Boss.
+- En el primer turno, usa los Items de forma preventiva para contrarrestar la amenaza de Budew. Usa PokePad para buscar a Drakloak, Ultra Ball para Meowth o lo que mejor convenga según la situación. Simplemente no dejes que esos Objetos queden bloqueados si tienes la oportunidad de jugarlos. Si existe la posibilidad de que jueguen Watchtower, considera usar a Meowth preventivamente; preferiría no hacerlo, pero es mejor que quedarte con cartas inútiles en la mano debido a Watchtower. Por el contrario, deberías jugar Watchtower en el primer turno, ya que a veces puede dejar al rival brickeado.
+- No siempre es estrictamente necesario usar a Budew. Si vas segundo, especialmente si tienes Stamp o si el rival no tiene Energías, usarlo en el primer turno es una prioridad. Si no tienes una razón específica para buscar a Budew, no es obligatorio hacerlo. Gastar una Energía para retirarte y sacar a Budew puede suponer una pérdida significativa de ritmo, sobre todo si lo noquean de inmediato o lo obligan a ir a la Banca con Boss. Incluso si eso no ocurre, se convierte en un punto débil en el tablero para más adelante. Además, el rival ya usó sus Items en el primer turno al jugar primero, por lo que esto solo importa si usa a Lillie y encuentra Items de búsqueda. Budew puede proteger tus Energías de los Crushing Hammer rivales, pero esto solo es relevante en situaciones concretas. En otras palabras, no priorices a Budew sin razón.
+- Cuando te apliquen 30 de daño a ambos Drakloak, la respuesta ideal es curar a uno con Adrena Brain y evolucionar al otro. Por lo general, a menudo tendrás que evolucionar un Drakloak de forma preventiva para protegerlo. Infligir 30 puntos de daño a sus Drakloak suele ser una buena jugada, ya que les obliga a buscar muchas cartas como respuesta; además, si evolucionan a Drakloak, dispondrán de menos capacidad de robo para recuperarse tras un ataque de su mano. Si crees que pueden proteger ambos Drakloak y necesitas un objetivo seguro, a veces es aceptable centrar el daño en un Dreepy en su lugar.
+- Dado que la mayoría de los jugadores llevan Judge actualmente, intenta anticiparte a ello en la medida de lo posible (usando cartas para obtener ventaja que de otro modo guardarías). También hay momentos en los que conviene retrasar la toma de premios. Esto es especialmente cierto si no tienen a Munkidori y puedes repartir daño. Ten cuidado y juega teniendo en cuenta cartas como Rosa y Stamp.
+- NO evoluciones a Blaziken si existe el riesgo de que se quede atrapado y reciba un golpe de 200 puntos de daño. Blaziken es muy bueno en este matchup, pero asegúrate de que no suponga un riesgo excesivo antes de ponerlo en juego. Si usan Boss para atraer a Blaziken, querrás poder retirarlo y atacar con otro Pokémon. A veces no tendrás más remedio que atacar con él, lo cual sigue siendo mejor que dejarlo atrapado.
+- Contra Patrat, puede ser un objetivo cómodo para un ataque de precisión, pero no es una prioridad de noquear con Boss.
+- Contra Dusknoir, tienes un incentivo adicional para optar por un Phantom Dive rápido, ya que puedes noquear a Duskull antes de que evolucione. Si no existe la amenaza de Dusknoir, puedes permitirte un juego más pausado y buscar una mejor preparación. Por supuesto, si ya han evolucionado a Duskull en Dusclops, ese incentivo para jugar rápido desaparece; de ​​hecho, ocurre lo contrario, ya que no querrás exponer innecesariamente a tu único Dragapult a una situación que combine a Dusknoir con Phantom Dive para que sea noqueado.
+
 
 ```youtube
 id: SmX3t4Se6hk
@@ -149,11 +163,14 @@ id: YbrejTOUFNI
 Título: Blaziken v Pult 2
 ```
 
-### Raging Bolt - Favorable
+### Raging Bolt - Ligeramente Favorable
 
-- Este es otro matchup donde Blaziken es muy bueno. No necesitas conseguir el segundo Torchic de inmediato, y muchas veces ni siquiera lo necesitas.
+- Este es otro matchup donde Blaziken es muy bueno. No necesitas conseguir el segundo Torchic de inmediato.
+- Mind Bend al inicio del juego a veces es bueno para frenar la agresión y porque puede absorber un ataque de Wellspring Ogerpon.
 - Blaziken se usa mejor para atacar prácticamente siempre que pueda conseguir un KO. Idealmente, no tienen muchas Energías o un Raging Bolt ex con Energía en juego. Es posible que derroten a Blaziken de un solo golpe con Raging Bolt ex. Si lo hacen, responde con Unfair Stamp y Phantom Dive. Si tienen a Fezandipiti, no tomes un KO de inmediato e intenta que pierdan turnos en el juego. Aunque Blaziken es bueno para atacar, puede que ni siquiera ataques con él más de una vez. Se usa principalmente para frenar su ritmo y evitar un KO fácil de Clefairy.
 - En orden de prioridad, el daño en la banca siempre debe ser 40 en Raging Bolt si lo tienen y 10 a los Pokemon con 210. Poder noqeuar a Fezandipiti es bueno pero aveces es aun mejor pegarle 200 y no noquearlo, para que en el siguiente turno puedas obtener una mayor ventaja sin darles robo extra.
+- El mejor momento para jugar Watchtower es justo al comienzo de la partida, cuando el rival tiene pocas cartas en la mano, o cuando puedes combinarla con efectos que alteren su mano. En otras palabras, no juegues Watchtower precipitadamente si el rival tiene una mano grande o si crees que puede descartarla fácilmente.
+- Depender de una jugada preparada de varios turnos para infligir mucho daño es arriesgado, ya que el rival puede usar a Chien-Pao para eliminar el daño acumulado. Sin embargo, puede ser una buena opción si ya han utilizado a Chien-Pao para descartar tu Watchtower. También puede ser aceptable si logras que fallen una jugada (o si necesitas que fallen), puesto que retrasar un K.O. limita su capacidad de robo con Kangaskhan o Fezandipiti. Si logras alterar su mano, es posible que no consigan a Chien-Pao, por lo que preparar un ataque de gran daño podría ser viable. En general, todo depende de la situación (también podrías verte obligado a noquear a Clefairy, ya que representa una gran amenaza).
 
 ```youtube
 id: b_n36dgxdPo
@@ -167,10 +184,14 @@ Título: Blaziken v Bolt 2
 
 ### Alakazam - Favorable
 
-- Guarda Risky Ruins para quitar sus Battle Cage. También funciona bien con Munkidori más adelante. Intenta conseguir dos premios cada que ataques con Phantom Dive. Lo ideal es que puedas derrotar a Kadabra o Dunsparce con la ayuda de Munkidori, pero si no, derrotar a Abra también está bien.
+- Guarda Risky Ruins para quitar sus Estadios y en combo con disrupción de mano. También funciona bien con Munkidori más adelante. Intenta conseguir dos premios cada que ataques con Phantom Dive. Lo ideal es que puedas derrotar a Kadabra o Dunsparce con la ayuda de Munkidori, pero si no, derrotar a Abra también está bien.
 - La disrupción de la mano es mejor al atacar con un Pokémon grande de dos premios, ya que probablemente no podrán conseguir el KO de respuesta. Las cartas de disrupción de mano son esenciales en este matchup.
-- Blaziken es una buena opción si necesitas que ataque a través de Nighttime Mine.
+- Blaziken es una buena opción si necesitas que ataque a través de Nighttime Mine o te preocupa un posible Clefairy.
 - Usar Pokémon como Fezandipiti/Meowth suele ser una buena opción para mantener el ritmo. Intenta reservar un espacio para Munkidori en la fase intermedia o final del juego.
+- Juega teniendo en cuenta a Eri: evita tomar Items importantes con los Drakloak iniciales (especialmente la Special Red Card) y utilizalos tan pronto como puedas sacarles partido. Ahora que muchas versiones de Alakazam incluyen a Eri, evalúa detenidamente la situación de la mesa antes de decidir qué objetos conservar. Por lo general, es buena idea tomar la Unfair Stamp al principio, ya que es más probable que el rival utilice un Partidario de seteo en lugar de a Eri, y podrás castigarlo si no consigue a Genesect con la suficiente rapidez. Si reservas la Stamp para más adelante, es muy probable que para entonces ya tengan a Genesect en juego. Por supuesto, una vez que se haya utilizado a Eri, ya no será necesario jugar teniendo en cuenta esta carta. Algunos jugadores incluyen dos copias de Eri, aunque es algo poco habitual.
+- Algunos también juegan Special Red Card, es importante anticiparse a ella reduciendo el tamaño de tu mano tanto como sea posible.
+- Si alguna vez atacan con Elgyem, noquealo de inmediato. No hace falta que te obsesiones demasiado con contrarrestarlo: Elgyem es una carta mala e inútil, siempre y cuando no le permitas atacar varias veces.
+- El daño en banca debería noquear a Abra siempre que sea posible. Infligir 2 puntos de daño a varios Kadabra está bien si se puede; de ​​lo contrario, infligir 5 a Genesect o 1 a Fez suele ser una buena opción para prepararlos para ser noqueados despues.
 
 ```youtube
 id: bdMztyglVF4
@@ -182,8 +203,17 @@ id: 3oqKTcPvTRs
 Título: Blaziken v Zam 2
 ```
 
-### Crustle - Muy Desfavorable
+### Crustle - Depende de la Tech
 
+Con una tech como Chi-Yu, este matchup es muy favorable; sin él, resulta muy desfavorable.
+
+Con Chi-Yu:
+- Reserva a Chi-Yu para responder a un Crustle cargado.
+- Munkidori sigue siendo útil en este matchup.
+- Ataca normalmente con Dragapult para presionar a su Mega Kangaskhan y repartir daño.
+- Presiona sus Energías siempre que sea posible.
+
+Sin Tech:
 - Combusken puede noquear a Crustle de un solo golpe si consigues dos caras. Usa Night Stretcher para Torchic y Combusken. Puede que necesites a Blaziken para acelerar la Energía a pesar del coste de oportunidad de Combusken. Incluso una sola cara en Combusken deja a Crustle listo para un Dragon Headbutt. Combusken se usa mejor contra Crustle con varias energías y máximo HP.
 - Presiona con un atacante rápido. Si aún no tienen a Crustle, Dragapult es la mejor opción. Si tienen a Crustle sin Mist Energy, Mind Bend es la mejor opción. De lo contrario, Drakloak. Presiona con lo que sea que tengas disponible, queremos obligarlos a reaccionar para poder usar Unfair Stamp y, con suerte, dejarlos brickeados.
 - Si quisieras agregar una tech para mejorar este matchup, sería razonable.
@@ -207,7 +237,7 @@ id: bwkleD_as9E
 Título: Blaziken v Mewtwo 2
 ```
 
-### Mega Kangaskhan Box - Ligeramente Desfavorable
+### Clefairy Box - Ligeramente Desfavorable
 
 - Intenta conseguir un Blaziken rápido. Si amenazan un ataque con Fezandipiti (o Wellspring Ogerpon), consigue ambos Torchic de inmediato. Si no, consíguelos relativamente pronto. Blaziken puede derrotar a la mayoría de los Pokémon que dan dos premios (a veces con la ayuda de Adrena Brain) y no se preocupa por Clefairy.
 - Atacar con Dragapult sigue siendo una buena opción, y de todas formas lo harás con bastante frecuencia. Es mejor combinarlo con Unfair Stamp, ya que así es menos probable que tengan una respuesta.
@@ -241,8 +271,13 @@ title: Sneak v PultBlaze 2
 ### Hydrapple - Favorable
 
 - Prioriza atacar con múltiples Blaziken.
+- Budew al inicio puede ser bueno para frenarlos y el daño puede ser relevante también.
+- Aunque juegan muchos Estadios, bajar Watchtower de inmediato en turno 1 yendo primero podria hacerlos brickear. De lo contrario, guardalos para hacer combo con la disrupcion de mano y/o quitar sus estadios.
 - Si te ves en desventaja en el intercambio de premios, es posible que debas recurrir a estrategias de disrupción y a dejar fuera de combate a su Meganium.
 - Ten cuidado con Briar. Esto no significa necesariamente que debas mantenerte siempre con un número impar de cartas de premio, ya que el rival también necesita a Meganium y la propia carta de Briar (además de un Ogerpon potente). Alterar su mano o su mesa son otras formas de contrarrestar la amenaza de Briar.
+- Ten en cuenta la habilidad de curación de Hydrapple. Por ello, a veces es mejor infligir 30 de daño más de lo estrictamente necesario al atacar con Phantom Dive. Por ejemplo, colocar 40 de daño a Teal Mask en lugar de 10 puede resultar decisivo.
+- Si tienes la oportunidad de noquear a Applin o Chikorita antes de que evolucionen, es una jugada excelente.
+- Judge puede ser muy potente en el inicio de la partida, especialmente si se combina con el bloqueo de objetos. Si utilizas Judge en respuesta a un ataque de preparación de Celebi, lo ideal (aunque no estrictamente obligatorio) es noquear a ese Celebi en el mismo turno.
 
 ### Mega Excadrill - Muy Favorable
 
@@ -250,6 +285,7 @@ title: Sneak v PultBlaze 2
 - Prioriza preparar a Blaziken lo más rápido posible. Mejor aún si puedes conseguir un segundo eventualmente.
 - Itchy Pollen es útil si no están bien seteados. También inflige diez de daño relevantes a Fezandipiti si deciden atacar con él, para que puedas rematarlo con Phantom Dive. Mind Bend también puede ser una buena respuesta a Fezandipiti.
 - Si no tienen a Mega Excadrill en juego, simplemente ataca con Drakloak o Dragapult, guardando a Blaziken para responder a Mega Excadrill.
+- Baja Risky Ruins al instante.
 
 ```youtube
 id: 8pYQpK3xHAQ
@@ -261,6 +297,12 @@ Título: Drill v PultBlaze 1
 - Caramelo Raro puede ayudar a acelerar la evolución a Dragapult o a recuperarte tras un ataque Trifrost. Lo ideal es conseguir un Phantom Dive o sacar a Blaziken en el segundo turno, aunque, por supuesto, no siempre ocurrirá así.
 - Fezandipiti puede ser un atacante o un muro útil, especialmente al principio de la partida. Si obligas al rival a usar Trifrost contra Fezandipiti (al tener solo tres Pokémon en juego), Munkidori podrá aprovecharlo más adelante para acumular daño.
 - Blaziken puede ser un gran atacante en las fases avanzadas de la partida, ya que al rival le resulta difícil noquearlo de un solo golpe (no es débil frente a Clefairy). Para lograrlo, necesitarían a Annihilape o un Brave Bangle, cartas que no se incluyen en muchas listas.
+- Si crees que viene el Trifrost, la mesa ideal es Budew, Dreepy y Fezandipiti o solo Budew y Fez.
+- Evita darles lineas donde Trifrost facilmente les gana el juego. A veces no hay problema en bajar muchos Dreepy, y en otras es la razon por la que pierdes.
+- Munkidori es importantisimo si dejan daño de Trifrost en un Pokemon como Fezandipiti o Meowth.
+- Phantom Dive casi siempre coloca 6 contadores de daño al Slowpoke o Slowking de la banca que tenga menos probabilidades de atacar en el siguiente turno, a menos que estés preparando una estrategia para ganar la partida de otra manera.
+- Judge es muy útil al principio de la partida, cuando el rival tiene una mano grande o cuando utiliza Cipher para preparar su siguiente turno.
+- Si juegan Zeraora, debes intentar constantemente poner en juego a Drakloak y Dragapult. Pueden castigarte si te quedas protegiendo a Fez con Budew pero sin Drakloak, ya que podrían noquear a Fez mediante su ataque.
 
 ### Mega Lucario - Favorable
 
@@ -281,7 +323,7 @@ id: 4Nk425YlP_8
 Título: Blaziken v Lucario 2
 ```
 
-### Festival Lead - Ligeramente favorable
+### Festival Lead - Favorable
 
 - Los Rare Candy son un recurso muy valioso, al igual que Blaziken para acelerar Energía.
 - Poner a Munkidori en juego para usarlo como escudo es muy bueno. Se puede usar como sacrificio o para subirlo después de que usen su primer ataque y noquean algo. Más adelante en la partida, también será relevante para Adrena Brain.
@@ -289,6 +331,8 @@ Título: Blaziken v Lucario 2
 - Unfair Stamp está muy rota. Úsala cuando empieces a atacar con Dragapult, o con Boss's Orders para alentarlos. Si subes a Thwackey y juegas Unfair Stamp, es poco probable que se libere de inmediato y así puedes ganar tiempo. Si juegan Genesect y no tienen la banca llena, usa Unfair Stamp lo antes posible e intenta hacer la jugada de Boss's Orders a Thwackey.
 - Noquea a Rabsca lo antes posible. Es prácticamente imposible ganar si permanece en juego demasiado tiempo. A veces lo noqueas con Drakloak, o con una sola Energía en Dragapult.
 - Si no tienen muchas cartas en la mano y solo dos Thwackey, puede ser mejor atacar a uno de ellos. Dependiendo del tablero, es más probable que fallen un KO, pero a veces debilitar a su atacante sigue siendo la mejor opción. Si solo tienen un Thwackey, noquearlo suele ser lo mejor.
+- Itchy Pollen es muy útil en este matchup. Ayuda a frenar a Rabsca y a entorpecer su seteo en general.
+- Noquea a Rabsca lo antes posible.
 
 ### Mega Lopunny - Desfavorable
 
@@ -359,6 +403,7 @@ Título: Blaziken v Meg 2
 - Si existe la posibilidad de que jueguen Reshiram y tengan un hueco libre en la banca, intenta jugar teniendo en cuenta esa amenaza (usando Boss, Jet Headbutt, Mind Bend o Itchy Pollen). Si no tienen espacio libre, ten en cuenta que les resultará difícil realizar una jugada con Tome al principio de la partida; de hecho, algunos ni siquiera llevan Tome en su deck ultimamente.
 - Si puedes lograr un intercambio de premios favorable, a veces vale la pena exponerse a Reshiram para ganar tempo, dependiendo de la situación. Otras veces, el noqueo es inevitable de todos modos.
 - Los 6 contadores de daño suelen dirigirse casi siempre a Zoroark y/o Zorua.
+- Si es probable que jueguen Tomos, prioriza noquear a sus Pokémon débiles que otorgan dos premios antes de que desaparezcan de juego.
 
 ## Conclusión
 

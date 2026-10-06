@@ -46,10 +46,11 @@ Energy: 14
 - Ciphermaniac’s Codebreaking combina muy bien con Teal Dance. Se utiliza principalmente para buscar cartas como Unfair Stamp o Forest of Vitality.
 - Unfair Stamp es una carta extremadamente poderosa y el deck no necesita ninguna otra Ace Spec en particular.
 - Algunas listas incluyen solo tres copias de Forest of Vitality, pero considero que esta carta es demasiado importante para el funcionamiento del deck y requiere cuatro, incluso llevando a Celebi.
+- Dawn es buena para la consistencia. Si no puedes usar a Celebi, Dawn es importante para tu seteo.
 
 ### Posibles Inclusiones
 
-- No me pareció que Briar fuera muy útil, ya que es demasiado difícil lograr la alineación necesaria, aunque en teoría no suena mal. No culparía a nadie por querer tener esa opción.
+- No me pareció que Briar fuera muy útil, ya que es demasiado difícil lograr la alineación necesaria, aunque en teoría no suena mal. No culparía a nadie por querer tener esa opción. También es fácil usar Pokemon de un premio y/o Unfair Stamp para el intercambio de premios sin necesidad de Briar.
 - En mi opinión, Special Red Card sería la carta tech más atractiva, pero por lo general Stamp basta para alterar la mano del rival ya que dificulta que los oponentes lidien con un Hydrapple grande o que utilicen efectos de gusteo contra un atacante que solo otorga un premio.
 - Poke Pad es una buena carta para mejorar la consistencia, pero es difícil encontrarle espacio.
 
@@ -72,7 +73,7 @@ Energy: 14
 
 ### Dragapult - Depende
 
-Contra la versión estándar del deck, el matchup es favorable si el rival no lleva a Moltres, y está bastante igualado si lo lleva. Contra Dusknoir o Blaziken, es desfavorable o ligeramente desfavorable.
+Contra la versión estándar del deck, el matchup es ligeramente favorable si no tienen Moltres, y está bastante igualado si lo lleva. Contra Dusknoir o Blaziken, es desfavorable o ligeramente desfavorable.
 
 - Celebi se utiliza a menudo para setear, especialmente cuando estás bloqueado de Items. Su segundo ataque puede noquear a Budew de un solo golpe, pero ten cuidado al hacerlo: si tu mesa aún no está consolidada, podrías perder la partida inmediatamente a causa de una Unfair Stamp. Por lo general, es mejor usar el primer ataque para setear todo el terreno primero.
 - Hydrapple es la clave de este matchup. Cura el daño recibido por ataques y es difícil de noquear para el rival. Además, puede noquear a Dragapult de un solo golpe con facilidad. Lo ideal es tener dos Hydrapple listos, pero prioriza al menos uno. Contra Blaziken, intenta noquearlo usando a Hydrapple para que el rival no pueda responder fácilmente; evita exponer a Hydrapple a los ataques de Blaziken.
@@ -142,7 +143,29 @@ title: Drill v Hydrap 1
 - Por lo general, ataca con Pokémon que otorgan un solo premio, como Tapu Bulu o Meganium. Por ello, las cartas de recuperación son recursos muy importantes.
 - Si juegas con Briar, esta carta puede resultar muy útil en este enfrentamiento.
 
-### Mega Kangaskhan Box - Favorable
+Contra la versión de Dusknoir:
+
+- Bajar las preevoluciones a veces es mala idea, ya que el rival puede noquearlas fácilmente gracias a Dusknoir.
+- Setear con Celebi es excelente contra Budew. Si no es posible, simplemente juega de forma agresiva.
+- Lo ideal es usar Unfair Stamp y luego lograr un KO con Hydrapple. También es buena opción conseguir el KO con Ogerpon o Meganium tras usar Stamp.
+- Intenta forzar la situación para que el rival quede al alcance de Briar. Si ves un Fez, elimínalo usando Boss.
+
+```youtube
+id: hCAbYtSSwoo
+title: ZamNoir v Hydrapple 1
+```
+
+```youtube
+id: tYjYsDCIOJw
+title: ZamNoir v Hydrapple 2
+```
+
+```youtube
+id: oNM2m836gOI
+title: ZamNoir v Hydrapple 3
+```
+
+### Clefairy Box - Favorable
 
 - Celebi es una pieza clave para setear tu mesa; úsalo siempre que sea posible al inicio de la partida. Si inicias con Celebi, quizás debas evitar bajar a Chikorita o Applin para impedir que el rival consiga dos cartas de premio usando a Wellspring Ogerpon. Así, podrás usar Forest para ponerlos todos en juego de una vez.
 - Debes noquear a su Kang siempre que puedas. Esto es bastante sencillo con Hydrapple y también muy factible con Ogerpon. El objetivo es obtener tres premios gracias a su Kang antes de que tengan oportunidad de quitarlo con Chien-Pao. Una secuencia de premios de 3-2-1 resulta ventajosa, ya que no nos importa dejar fuera de combate a un Moltres o a Clefairy con Lillie’s Pearl.
@@ -175,4 +198,4 @@ title: Sneak v Hydrap 2
 
 ## Conclusión
 
-Hydrapple es un deck decente. Su desempeño frente a otros decks es aceptable, aunque no funciona muy bien contra la mayoría de las variantes de Dragapult ni contra Festival Lead, lo cual me genera demasiadas dudas para mi gusto.
+Hydrapple es un deck decente. Su desempeño frente a otros decks es aceptable, aunque no funciona muy bien contra la mayoría de las variantes de Dragapult lo cual me genera demasiadas dudas para mi gusto.
