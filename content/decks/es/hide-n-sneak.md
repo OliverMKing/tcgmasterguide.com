@@ -1,7 +1,7 @@
 ---
 title: Hide n Sneak
 pokemon: [781]
-tier: 2
+tier: 3
 format: Standard
 ---
 ## Decklist
@@ -62,6 +62,7 @@ Energy: 7
 - Chien-Pao es exclusivamente para la Watchtower. Ocasionalmente también puede ser útil contra Festival Lead. Si no temes a Rocket's Watchtower, no lo incluyas.
 - Más Hilda podrían ser buenas.
 - Yveltal 30C podría ser una buena inclusión contra Mega Excadrill pero no creo que sea necesaria hasta que Mega Excadrill tenga buenos resultados en los torneos.
+- Dudunsparce ex podría incluirse.
 
 ### Exclusiones
 

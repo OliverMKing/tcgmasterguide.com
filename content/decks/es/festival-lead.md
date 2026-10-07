@@ -1,7 +1,7 @@
 ---
 title: Festival Lead
 pokemon: [1011]
-tier: 2
+tier: 3
 format: Standard
 ---
 ## Decklist

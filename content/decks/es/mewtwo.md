@@ -1,7 +1,7 @@
 ---
 title: Mewtwo
 pokemon: [150]
-tier: 3
+tier: 4
 format: Standard
 ---
 ## Decklist
