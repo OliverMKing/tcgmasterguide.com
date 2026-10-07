@@ -12,16 +12,24 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  // Initialize from the class the pre-paint head script already applied so this
-  // provider's effects do not fight it (which caused a dark flash in light mode).
-  const [theme, setTheme] = useState<Theme>(() => {
-    if (typeof document !== 'undefined') {
-      return document.documentElement.classList.contains('dark') ? 'dark' : 'light'
-    }
-    return 'dark'
-  })
+  // Start with the same value the server renders so hydration matches. The
+  // pre-paint head script already set the <html> class from localStorage, so
+  // the visible theme is correct before React runs; we only sync state below.
+  const [theme, setTheme] = useState<Theme>('dark')
+  const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
+    const stored = localStorage.getItem('theme') as Theme | null
+    if (stored) {
+      setTheme(stored)
+    }
+    setMounted(true)
+  }, [])
+
+  useEffect(() => {
+    // Skip until state is synced from storage, otherwise the default 'dark'
+    // would clobber the class the head script already applied (a light->dark flash).
+    if (!mounted) return
     const root = document.documentElement
     if (theme === 'dark') {
       root.classList.add('dark')
@@ -29,7 +37,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
       root.classList.remove('dark')
     }
     localStorage.setItem('theme', theme)
-  }, [theme])
+  }, [theme, mounted])
 
   const toggleTheme = () => {
     setTheme((prev) => (prev === 'light' ? 'dark' : 'light'))
