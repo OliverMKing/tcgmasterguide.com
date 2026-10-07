@@ -248,17 +248,7 @@ title: ZamNoir v Hydrapple 3
 - Putting Fez on the bench is generally very good at basically any time, especially early-game. However, you need an Energy on a benched attacker so that you can retreat Fez after promoting it to sponge a hit.
 - The ideal early-game board is two Abra, two Duskull, Fez, and either a third Abra or attacking Budew.
 - Cursed Blast their two Festival Lead Pokemon or double Thwackey can just pick their board apart and easily exploit vulnerabilities. A simple Red Card + gust on Thwackey is similarly vicious.
-- Pop Dusclops for a KO whenever possible since it's easier to pick off Goldeen and Applin before they evolve.
-
-```youtube
-id: EpQOlQbBpr8
-title: ZamNoir v Festival 1
-```
-
-```youtube
-id: 8iBK5vouH8U
-title: ZamNoir v Festival 2
-```
+- Pop Dusclops for a KO whenever possible since it's easier to pick off Goldeen and Applin before they evolve (unless you need that Clops for a specific Dusknoir play).
 
 ### Bronzong / Lopunny - Very Unfavorable
 

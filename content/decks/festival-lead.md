@@ -161,16 +161,6 @@ id: X3YpsKBoBBI
 title: Festival v Zam 2
 ```
 
-```youtube
-id: EpQOlQbBpr8
-title: ZamNoir v Festival 1
-```
-
-```youtube
-id: 8iBK5vouH8U
-title: ZamNoir v Festival 2
-```
-
 ### Slowking - Favorable
 
 - Shaymin is the biggest priority if they are threatening a Trifrost. If Shaymin is prized, it's still possible to get Rabsca out quickly for protection. Make sure you always have some form of protection from Trifrost.
