@@ -1,6 +1,6 @@
 ---
-title: "Pre-Regionals Prep"
-date: 2026-10-05
+title: "Pre-Louisville Preparation"
+date: 2026-10-07
 ---
 
 ```youtube

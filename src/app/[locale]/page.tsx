@@ -5,11 +5,11 @@ import matter from 'gray-matter'
 import LiveBanner from '@/components/LiveBanner'
 import AnnouncementBanner from '@/components/AnnouncementBanner'
 import { DeckCard } from '@/components/DeckCard'
-import { PostCard } from '@/components/PostCard'
 import { TierBadge } from '@/components/TierBadge'
 import { Badge, EmptyState } from '@/components/ui'
 import { Link } from '@/i18n/navigation'
 import { getAllPosts } from '@/lib/posts'
+import { LocalDate } from '@/components/LocalDate'
 
 // Force static generation at build time
 export const dynamic = 'force-static'
@@ -121,7 +121,7 @@ export default async function Home({
   const t = await getTranslations('home')
   const decks = getAllDecks(locale as Locale)
   const decksByFormat = getDecksByFormat(decks)
-  const recentPosts = getAllPosts(locale as Locale).slice(0, 3)
+  const latestPost = getAllPosts(locale as Locale)[0]
 
   const tierLabelsTranslated: Record<number, string> = {
     1: t('tier1'),
@@ -166,28 +166,25 @@ export default async function Home({
         </div>
       </div>
 
-      {/* Posts Section - shows the 3 most recent posts above the decks */}
-      {recentPosts.length > 0 && (
-        <div id="posts" className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 relative scroll-mt-16">
-          <div className="flex items-end justify-between mb-10 gap-4">
-            <h2 className="text-3xl font-bold text-neutral-800 dark:text-slate-100">
-              {t('postsTitle')}
-            </h2>
-            <Link
-              href="/posts"
-              className="shrink-0 inline-flex items-center gap-1.5 text-sm font-medium text-violet-600 dark:text-violet-400 hover:text-violet-700 dark:hover:text-violet-300 transition-colors"
-            >
-              {t('viewAllPosts')}
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </Link>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {recentPosts.map((post) => (
-              <PostCard key={post.slug} post={post} />
-            ))}
-          </div>
+      {/* Posts Section - violet notice banner linking to the latest post, visually distinct from deck cards */}
+      {latestPost && (
+        <div id="posts" className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 relative scroll-mt-16">
+          <Link
+            href={`/posts/${latestPost.slug}`}
+            className="group flex items-center gap-3 text-base rounded-lg bg-violet-50 dark:bg-violet-950/40 px-4 py-3 hover:bg-violet-100 dark:hover:bg-violet-900/50 transition-colors duration-300"
+          >
+            <span className="shrink-0 inline-flex items-center translate-y-px text-xs font-semibold uppercase tracking-wide text-violet-700 dark:text-violet-300">
+              {t('latestPost')}
+            </span>
+            <span className="min-w-0 truncate font-medium text-violet-900 dark:text-violet-100 group-hover:text-violet-700 dark:group-hover:text-white transition-colors">
+              {latestPost.title}
+            </span>
+            {latestPost.date && (
+              <span className="hidden sm:flex shrink-0 ml-auto items-center gap-1.5 text-xs text-violet-500/80 dark:text-violet-400/80">
+                <LocalDate timestamp={latestPost.date} />
+              </span>
+            )}
+          </Link>
         </div>
       )}
 
