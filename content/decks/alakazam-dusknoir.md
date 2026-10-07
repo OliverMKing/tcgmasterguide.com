@@ -247,8 +247,8 @@ title: ZamNoir v Hydrapple 3
 - Whoever goes first is at a massive advantage. When going first, apply as much pressure as possible. When going second, try to mitigate the damage with tactics such as Item lock and benched Fez as a sponge.
 - Putting Fez on the bench is generally very good at basically any time, especially early-game. However, you need an Energy on a benched attacker so that you can retreat Fez after promoting it to sponge a hit.
 - The ideal early-game board is two Abra, two Duskull, Fez, and either a third Abra or attacking Budew.
-- Cursed Blast their active + gust KO their other Festival Lead Pokemon + Red Card is a very strong line that can make them brick. If they don’t have Rabsca in play, you can fairly easily KO both Thwackey, or just pick their board apart and more easily exploit vulnerabilities. A simple Red Card + gust on Thwackey is similarly vicious, but not as big of a deal if they have Rabsca in play.
-- Pop Dusclops for a KO whenever possible, especially on Rellor or to wipe out all of their Festival Lead Pokemon.
+- Cursed Blast their two Festival Lead Pokemon or double Thwackey can just pick their board apart and easily exploit vulnerabilities. A simple Red Card + gust on Thwackey is similarly vicious.
+- Pop Dusclops for a KO whenever possible since it's easier to pick off Goldeen and Applin before they evolve.
 
 ```youtube
 id: EpQOlQbBpr8
