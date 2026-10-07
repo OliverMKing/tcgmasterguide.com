@@ -131,7 +131,13 @@ Energy: 13
 
 - Brock's Scouting sería muy útil para encontrar a Bouffalant y/o Kangaskhan al principio de la partida.
 
+- Tool Scrapper podría ser buena tech para la Hero's Cape que colocan en Enamorus y en el mirror.
+
+- Enhanced Hammer podría ser buena tech para el mirror y contra Slowking.
+
 - Handheld Fan es una carta de interrupción bastante potente, aunque normalmente el activo preferiría Hero's Cape.
+
+- Podría considerarse una Special Red Card.
 
 - Lumiose City probablemente podría ser buena.
 
@@ -208,11 +214,13 @@ Esta es la lista que obtuvo dos Top 8 en el Mundial. Sin Bouffalant es peor cont
 
 La mayoría de los decks de Dragapult probablemente no techeen contra Crustle en este momento, así que realmente depende de la lista a la que nos enfrentemos. Si tienen a Dudunsparce ex o Chi-Yu, estamos perdidos. Si juegan con Dusknoir, el matchup es bastante parejo (o ligeramente desfavorable). Contra cualquier otra versión, el matchup es muy favorable. Por supuesto, si tienen una carta como Paldean Tauros, prácticamente no tenemos ninguna posibilidad.
 
-- Psyduck de inmediato en cuanot veas a Duskull e intenta mantener a Psyduck en juego usando Night Stretcher si es noqueado y protegiéndolo con Mist Energy.
+Con Crispin:
+- Psyduck de inmediato en cuanto veas a Duskull e intenta mantener a Psyduck en juego usando Night Stretcher si es noqueado y protegiéndolo con Mist Energy.
 - Munkidori es muy bueno debido al daño residual que se acumula. Se usa a menudo para curar a Psyduck y puede presionar a Duskull.
 - Mist Energy también puede ser útil en Crustle porque podrían intentar usar Mind Bend sobre él. Si no tienes a Psyduck, también pueden usar Dusknoir junto con Phantom Dive para debilitar a Crustle si no tiene Mist Energy.
 - Intenta noquear a Duskull, Dusclops o Dusknoir siempre que sea posible. Noquear a Munkidori también es una buena opción, ya que puede usar Risky Ruins y Adrena Brain para atacar a Psyduck. Aunque jugamos con Psyduck, Dusknoir sigue siendo una amenaza porque puede atacar. Además, puede noquear a nuestro Psyduck varias veces.
 
+Con Mega Kangaskhan:
 - En la versión de Mega Kangaskhan, el objetivo es simplemente crear un Crustle invencible. La Energía Mist previene Mind Bend. Si usan Crushing Hammer contra la Energía Mist y después Mind Bend, aún podemos encontrar Festival Ground con relativa facilidad.
 
 - Atacar a sus Pokémon grandes generalmente no es buena idea, ya que les otorga daño para Adrena Brain. A veces es necesario si tienes poco tiempo.
@@ -235,7 +243,7 @@ id: NvqJhv7tq-Y
 title: Crustle v Pultnoir 2
 ```
 
-### Raging Bolt - Muy Favorable
+### Raging Bolt - Favorable
 
 - Setea varios Crustle como de costumbre.
 - A veces tienen a Passimian, que puede ser una amenaza. Intenta equipar a tu Crustle principal con la Hero's Cape para que pueda sobrevivir a un ataque de Passimian y noquearlo de regreso. No querrás concentrar toda tu Energía en un solo Crustle para que luego Passimian te noquee, así que intenta distribuir tus Energías al principio (o simplemente usa la Hero's Cape).
@@ -250,14 +258,21 @@ id: ovX7LmYRiqY
 title: Crustle v Bolt 2
 ```
 
-### Alakazam - Desfavorable
+### Alakazam - Favorable
 
 Este matchup es malo si tienen Dedenne y bueno si no lo tienen.
 
+Con Crispin:
 - Nuestra condición de victoria tener en el activo a un atacante con Mist Energy y resistir sus Enhanced Hammer. Usa primero a Lillie y Morty para intentar encontrar una o dos Mist Energy iniciales, y luego usa a Hilda para encontrar una o dos más.
 - Los Crustles son recursos valiosos, ya que necesitarás poder amenazar con atacantes con Mist Energy. No evoluciones a ellos solo para ser noqueados de inmediato. Puedes sacrificar a Cornerstone Ogerpon para llegar a la situación ideal.
 - De igual manera, los Jumbo Ice Cream y Hero’s Cape también son recursos que necesitarás para la fase final del juego. Incluso si no usas Cornerstone Ogerpon y ellos no tienen tech, aún tendrás que enfrentarte a un Dudunsparce atacante, que pueden usar para derrotar a tu último Crustle en dos golpes.
 - Cuando no tengas Mist Energy disponible en ese turno, distribuye Energía aleatoria entre diferentes Dwebble/Crustle. Necesitarás poder responder a Dudunsparce en la fase final del juego. La Spiky Energy también puede ser útil, ya que el daño de Spiky Energy + 120 elimina a Dudunsparce de un solo golpe.
+
+Con Mega Kangaskhan:
+- No te molestes en usar Crustle.
+- Noquea a Dedenne o al Alakazam alterno en cuanto los veas.
+- Si tienen al Alakazam alterno, necesitas bajar a Bouffalant y cualqueir carta para curar se vuelve indispensable.
+- Si tienen Dedenne, no bajes nada mas porque podrían subirlo al activo y asi reciclar los Enhanced Hammer infinitamente.
 
 ```youtube
 id: KfDqsPaSWZo
@@ -345,15 +360,19 @@ title: Crustle v Lucario 1
 ```
 
 ### Excadrill - Auto Loss
+
 No creo que sea posible ganar. Una opción es jugar de forma agresiva con Mega Kangaskhan y esperar tener suerte. Otra es usar a Crustle y confiar en que hayan enviado a Metagross a los premios (aunque a veces llevan dos).
 
 ### Festival Lead - Ligeramente Favorable
 
 Este matchup es un poco más parejo con Gladion contra la versión de Cornerstone. Para la versión de Mega Kangaskhan, es ligeramente favorable. 
 
+Con Crispin:
 - Carga a Cornerstone Ogerpon en la banca lo más rápido posible. Si le cargan Energía a Thwackey, intenta noquearlo inmediatamente. No debilites nada que no represente una amenaza (como Dipplin, ya que es un problema para ellos). Si ponen a Rellor de forma preventiva, noquealo en cuanto lo veas. Lo mismo con Rillaboom.
 - Usar Boss's Orders a Thwackey puede ser útil, ya que detiene las búsquedas o los obliga a usar una carta de cambio.
 - Jumbo Ice Cream, Hero's Cape y Munkidori son muy útiles para ayudar a Cornerstone Ogerpon a sobrevivir. Si juegan Maximum Belt, necesitarás esa Hero's Cape en Cornerstone cuanto antes.
+
+Con Mega Kangaskhan:
 - Spiky Energy en Bouffalant puede ser muy efectiva asi como Handheld Fan si lo juegas.
 - Para la versión de Mega Kangaskhan, prioriza conseguir ambos Bouffalant. Cárgalos con tantas Energías como sea posible mientras robas cartas. Sacrifica a Kang ante su jugada inicial de Gladion y luego pasa al ataque con el Bouffalant que tenga el ataque Ready to Ram. Asegúrate de poder recuperarlo con Night Stretcher si lo dejan fuera de combate. Aquí, la carta Spiky Energy resulta especialmente potente.
 - Usa a los Bouffalant y trata de mantenerlos con vida tanto como puedas.

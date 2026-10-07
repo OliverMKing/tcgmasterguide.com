@@ -1,7 +1,7 @@
 ---
 title: Clefairy Box
 pokemon: [35]
-tier: 3
+tier: 2
 format: Standard
 ---
 ## Decklist
