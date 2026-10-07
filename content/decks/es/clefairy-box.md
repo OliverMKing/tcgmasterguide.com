@@ -39,55 +39,55 @@ Energy: 11
 2 Fire Energy MEE 2
 ```
 <!-- PUBLIC -->
-### Inclusions
+### Inclusiones
 
-- This deck plays high counts of all the Pokemon primarily for consistency and to have enough Pokemon to bump liabilities with Chien-Pao whenever necessary. We also want to start with Kangaskhan as much as possible. This deck also uses many copies of Clefairy and Meowth every game, so it’s not as overkill as you might think.
-- Wellspring Ogerpon is a useful tech. Sob can buy time to build up Energy in play or find a specific combo. Torrential Pump can be very strong in early games against Dragapult or other evolving decks, though sometimes you still just use Clefairy instead. Crucially it also opens up Area Zero which powers up Clefairy and enables Chien-Pao.
-- Mew ex is good with Wondrous Patch and Crispin, and sometimes it's nice to not lose a Clefairy (though it can't use Pearl). Mew also makes it a bit easier to use Wellspring's attacks because now you can effectively Patch to Wellspring. Another use case for Mew is against Dragapult to copy Koraidon, as their win condition is often to have only one Pokemon on board at the end of the game, keeping Clefairy out of range (and using hand disruption to make it hard to get Area Zero).
-- Moltres helps prize trade against decks with Teal Mask Ogerpon. It can also be useful to smack big Pokemon like opposing Mega Kangaskhan or to open fast aggression against other two-prize decks.
-- Koraidon is surprisingly helpful because of how many decks play Kangaskhan. It enables 3-2-1 prize maps as a way to one-shot other Kangs, and also provides a Tera in play for Area Zero. Its second attack gets used on occasion too.
-- Chien-Pao is extremely relevant. Aside from the Dragapult matchup, removing Mega Kangaskhan from play is very strong against any deck that can one-shot it. This helps us utilize Lillie’s Pearl for a better prize trade.
-- I found Cyrano to be much better than Dusk Ball, so I added a Cyrano and cut Dusk Balls from the original list. Dusk Ball can still help with consistency, especially in the early-game, though I often still want to use Cyrano in most games.
-- Lillie’s Determination is a solid option in a deck with four Meowth. Sometimes your hand is small or bad and you just want a new one.
-- Prime Catcher has great synergy with the deck. It enables Ciphermaniac + Run Errand even if you don’t already have Kang in the active. It escapes retreat lock. And of course, gust + Crispin is incredibly strong.
+- Este deck incluye un número elevado de copias de todos los Pokémon, principalmente para garantizar la consistencia y contar con suficientes Pokémon para descartar aquellos que suponen una desventaja (mediante la habilidad de Chien-Pao) cuando sea necesario. También buscamos empezar la partida con Kangaskhan siempre que sea posible. Dado que el deck utiliza muchas copias de Clefairy y Meowth en cada partida, incluir tantas no resulta excesivo.
+- Wellspring Ogerpon es una carta muy útil. Su ataque Sob permite ganar tiempo para acumular Energía en juego o encontrar una combinación específica. "Torrential Pump" puede ser muy potente en los primeros compases de la partida contra Dragapult u otros decks basados ​​en evoluciones, aunque a veces resulta preferible optar por Clefairy. Además, es fundamental porque activa "Area Zero", lo que potencia a Clefairy y habilita la estrategia de Chien-Pao.
+- Mew ex funciona bien junto a Wondrous Patch y Crispin; a veces es ventajoso evitar perder un Clefairy (aunque Mew no puede utilizar Pearl). Mew también facilita el uso de los ataques de Wellspring, ya que permite transferir Energía directamente a este Pokémon mediante "Patch". Otro uso estratégico de Mew surge contra Dragapult al copiar a Koraidon; esto es útil dado que la condición de victoria del rival suele implicar mantener un único Pokémon en juego al final de la partida, dejando a Clefairy fuera de alcance (mientras se utilizan cartas de disrupción en la mano para dificultar la obtención de Area Zero).
+- Moltres ayuda a equilibrar el intercambio de cartas de premio contra decks que incluyen a Teal Mask Ogerpon. También resulta útil para golpear con fuerza a Pokémon grandes, como el Kangaskhan rival, o para iniciar una ofensiva rápida contra otros decks que otorgan dos cartas de premio.
+- Koraidon resulta sorprendentemente útil debido a la frecuencia con la que otros decks usan Kangaskhan. Permite establecer secuencias de premios de 3-2-1 al noquear de un solo golpe a otros Kangaskhan, además de aportar un Pokémon Tera en juego para activar "Area Zero". Su segundo ataque también se utiliza en ocasiones puntuales.
+- Chien-Pao es una pieza clave. Más allá del matchup contra Dragapult, noquear a Kangaskhan es una jugada muy potente contra cualquier deck capaz de derrotarlo de un solo golpe. Esto nos permite aprovechar "Lillie’s Pearl" para lograr un intercambio de premios más favorable. 
+- Me pareció que Cyrano es mucho mejor que Dusk Ball, así que añadí un Cyrano y noqueé las Dusk Ball de la lista original. Dusk Ball aún puede ayudar con la consistencia, especialmente al principio de la partida, aunque en la mayoría de los casos sigo prefiriendo usar a Cyrano.
+- Lillie’s Determination es una opción sólida para un deck que lleva cuatro Meowth. A veces tienes una mano pequeña o mala y simplemente quieres una nueva.
+- Prime Catcher tiene una gran sinergia con el deck. Permite realizar el combo Ciphermaniac + Run Errand incluso si no tienes a Kangaskhan en el puesto activo. Además, permite escapar de situaciones de bloqueo de retirada y, por supuesto, la combinación de gustear + Crispin es increíblemente fuerte.
 
-### Possible Inclusions
+### Posibles Inclusiones
 
-- A tech for Crustle could be considered, such as Chi-Yu or Paldean Tauros.
-- Telepathic Energy might be a bit better now with Mew in the deck.
-- Second Moltres or Chien-Pao would be nice.
-- More Cyrano, Lillie’s, or Dusk Balls would increase consistency, which is never bad. I did not find the Dusk Balls to be that great overall.
-- A tech Energy Switch or two could still be good. There are some times where you use Crispin in the early-game but want to repurpose the Energy later. It also works well with Wondrous Patch.
-- This deck has some space to work with, so I’m sure some other ideas that I haven’t thought of could be good.
+- Se podría considerar incluir una tech para Crustle, como Chi-Yu o Tauros de Paldea.
+- La Telepathic Energy podría funcionar mejor ahora que el deck incluye a Mew.
+- Vendría bien incluir un segundo ejemplar de Moltres o de Chien-Pao.
+- Incluir más copias de Cyrano, Lillie o Dusk Ball mejoraría la consistencia, lo cual siempre es positivo; aunque, en general, las Dusk Ball no me parecieron tan útiles.
+- También podría ser buena idea incluir una o dos Energy Switch. A veces usas a Crispin al principio de la partida pero quieres reutilizar la energía más adelante; además, esta carta combina bien con Wondrous Patch.
+- Este deck cuenta con cierto margen de maniobra, así que seguro que hay otras ideas que no he contemplado y que podrían funcionar bien.
 
-### Exclusions
+### Exclusiones
 
-- Stunfisk was underwhelming in testing since most decks have ways around it.
-- Hand disruption cards are good and could be nice on occasion, but usually they won’t swing any matchups and don’t work well with the deck overall.
+- Stunfisk resultó decepcionante durante el testing, ya que la mayoría de los decks cuentan con formas de contrarrestarlo.
+- Las cartas para atacar la mano son buenas y pueden resultar útiles en ocasiones, pero por lo general no ayudan en los matchups a tu favor ni encajan bien con el funcionamiento general del deck.
 <!-- /PUBLIC -->
-## Gameplay Tips
+## Gameplay
 
-- Go first.
-- Against any deck that can one-shot Mega Kang, you may need to use Chien-Pao to remove it from play before they can KO it. This is mostly relevant if the opponent is on track for a 3-2-1 prize map, which occurs if they have to KO a Pearl’d Clefairy or Moltres. Chien-Pao is also a strong resource against Dragapult, so you mostly want to keep it around.
-- If you don’t know where to manually attach Energy for the turn, lean towards non-Psychic types (or a benched Mew). Energy attachments can be made up via Wondrous Patch, so sometimes you want to be flexible and keep various attacking options open. Manually attaching to Clefairy is still generally good though.
-- Wondrous Patch + Crispin can make an attacking Latias out of nowhere. I was surprised at how often this was relevant.
-- Draw before Dusk Ball is typically correct sequencing if you're playing Dusk Ball. Dusk Ball doesn’t thin the deck in the traditional sense, so you’d rather see your cards to inform the correct selection off Dusk Ball.
-- If you’re not sure what to get off Ciphermaniac, such as if your immediate needs are already fulfilled, remember that Area Zero, Lillie’s Pearl, and Wondrous Patch are important to have access to and difficult to find. If you don’t already have them, you may want them in the future and not have a way to find them.
-- Attacking with Kangaskhan with this deck is rare and inefficient. It’s mostly just a desperation option. However, sometimes you may need to acknowledge when you can’t win through normal means and start powering up Kang to rely on luck.
+- Elige ir primero.
+- Contra cualquier deck capaz de noquear a Mega Kang de un solo golpe, es posible que necesites usar a Chien-Pao para retirarlo del juego antes de que lo debiliten. Esto es especialmente relevante si el oponente sigue una secuencia de premios de 3-2-1, lo cual ocurre si tienen que debilitar a un Clefairy equipado con la Perla de Lillie o a un Moltres. Chien-Pao también es un recurso potente contra Dragapult, por lo que generalmente conviene conservarlo en juego.
+- Si no sabes dónde cargar la Energía del turno, prioriza los tipos que no sean Psíquicos (o a un Mew en la banca). Las Energías pueden recuperarse mediante Wondrous Patch, así que a veces interesa mantener la flexibilidad y dejar abiertas varias opciones de ataque. No obstante, cargar Energía manualmente a Clefairy suele ser una buena jugada.
+- La combinación de Wondrous Patch y Crispin puede preparar a un Latias para atacar de forma inesperada. Me sorprendió la frecuencia con la que esto resultaba relevante.
+- Robar cartas antes de usar Dusk Ball suele ser la secuencia correcta si llevas esta carta en el deck. Dusk Ball no reduce el deck en el sentido tradicional, por lo que es preferible ver tus cartas primero para tomar la decisión correcta al buscar con Dusk Ball.
+- Si no estás seguro de qué buscar con Ciphermaniac, por ejemplo, si tus necesidades inmediatas ya están cubiertas, recuerda que Area Zero, la Perla de Lillie y Wondrous Patch son cartas importantes y difíciles de encontrar. Si no las tienes ya, podrías necesitarlas más adelante y no tener forma de localizarlas.
+- Atacar con Kangaskhan en este deck es poco frecuente e ineficiente; suele ser una opción de último recurso. Sin embargo, a veces debes reconocer cuándo no puedes ganar por los medios habituales y empezar a cargar a Mega Kangaskhan y confiar en la suerte.
 
 ## Matchups
 
-### Dragapult - Slightly Unfavorable
+### Dragapult - Ligeramente Desfavorable
 
 Some builds of Dragapult might be closer to even.
 
-- Save Area Zero for bumping their Stadium, making a Chien-Pao play, or reaching for the KO when they have a slim board. Chien-Pao can bump Watchtower if necessary, but ideally you’ll have an Area Zero for that instead.
-- Latias can one-shot Dragapult even if they have too slim of a board for Clefairy. This is mostly relevant in the end-game. If you manage to get extra Energy on Latias at some point throughout the game, it can be a good closer. Now with Mew, it's easier to simply have Koraidon on the board and then Mew can win with just a Crispin after they disrupt you with a slim board.
-- Attaching Energy to Wellspring or Fez on Turn 1 can be good to present the threat. If you have Mew, attach to that instead. Even if it gets Hammered, you can still Crispin Clefairy. While attacking with Wellspring/Fez (or Mew copy) can be very strong in the early-game, attacking with Clefairy instead is still fine. It just depends on the situation and what lines up easier. If you’re going second, try to get the Turn 1 KO with Clefairy.
-- Prepare for hand disruption and play around it to the best of your ability.
-- If they have Meowth or Fez in play, they are massive liabilities for them. Don’t go out of your way to KO them. Instead, keep them around as easy Sob or KO targets for later. Of course, if they are threatening to attack with them after you use Sob, you have to take the KO.
-- Against the Dusknoir version, if you have too many Meowth and Clefairy in play, they can possibly win with just two Phantom Dives + one Dusknoir. Watch out for that and try to play around it. Snipes from Phantom Dive or Dusknoir also bypasses Lillie’s Pearl.
-- If they don’t have Stamp left, Ciphermaniac (or Dusk Ball, to some extent) can play around Special Red Card to close out the game.
+- Guarda Area Zero para reemplazar su Estadio, facilitar una jugada con Chien-Pao o buscar el KO cuando tengan una mesa con pocos Pokémon. Chien-Pao puede descartar Watchtower si es necesario, pero lo ideal es usar Area Zero para ello.
+- Latias puede noquear a Dragapult de un solo golpe, incluso si el rival tiene una banca reducida para usar a Clefairy. Esto es especialmente relevante en la fase final de la partida. Si logras asignar Energía extra a Latias en algún momento, puede servir para cerrar el encuentro. Ahora, con Mew, es más sencillo tener a Koraidon en juego y ganar usando a Mew junto con Crispin, incluso después de que el rival intente desbaratar tu estrategia dejándote con pocos Pokémon en mesa.
+- Asignar Energía a Wellspring o Fez en el primer turno puede ser útil para plantear una amenaza. Si tienes a Mew, asígnala a este en su lugar; aunque te la descarten con un Martillo, aún podrás usar a Crispin con Clefairy. Si bien atacar con Wellspring o Fez (o copiando el ataque con Mew) puede ser muy potente al inicio, atacar con Clefairy también es una buena opción. Todo depende de la situación y de qué jugada sea más viable. Si juegas en segundo lugar, intenta conseguir el KO en el primer turno con Clefairy.
+- Prepárate para los efectos que atacan tu mano y juega teniendo esto en cuenta en la medida de lo posible.
+- Si tienen a Meowth o Fez en juego, estos representan una gran debilidad para ellos. No te obsesiones con noquearlos; en su lugar, mantenlos ahí como objetivos fáciles para Sob o para conseguir un KO más adelante. Eso sí, si amenazan con atacar usándolos después de que hayas utilizado Sob, deberás noquearlos.
+- Contra la versión con Dusknoir, si tienes demasiados Meowth y Clefairy en juego, podrían ganar simplemente con dos *Phantom Dive* y un Dusknoir. Ten cuidado con esto e intenta jugar de forma que lo evites. Además, los contadores de Phantom Dive* o Dusknoir ignoran el efecto de Lillie’s Pearl. 
+- Si ya no les queda Unfair Stamp, Ciphermaniac (o la Dusk Ball, hasta cierto punto) permite sortear la Special Red Card para cerrar la partida.
 
 ```youtube
 id: zvBAEEaoVNA
@@ -104,42 +104,42 @@ id: PADRK5BOGhQ
 title: Slop v Pultnoir 1
 ```
 
-### Raging Bolt - Even
+### Raging Bolt - Parejo
 
-- Koraidon and Moltres are generally good in this matchup. Moltres can open aggression if they foolishly put down Teal Mask, while Koraidon can threaten them if they try to hide behind a Kang. Koraidon is also good to respond to a Kang as they might try to attack with it.
-- You may need to remove your own Kang in this matchup to stop a 3-2-1 line from your opponent. Don’t worry about it if you’re already winning the trade regardless. Going 3-2-1 yourself is only possible if they use Passimian, which could happen. If not, you can sometimes just ignore their Kang.
-- Don’t board lock yourself out of a Tera Pokemon.
-- Slim board in the early-game can stop them from initiating with Clefairy. Sob can also stall them from initiating.
-- Prime Catcher is a premium resource to get around their Sob. They don’t play tons of gusts, so threatening an attack with whatever gets Sob locked is another way out of it. Boss is also a premium resource to get easy KO’s.
-- You want to be the one initiating the aggression as soon as you can get a KO, and then win the prize trade straightforward from there.
+- Koraidon y Moltres suelen rendir bien en este matchup. Moltres puede pasar a la ofensiva si el rival comete el error de jugar a Teal Mask, mientras que Koraidon puede amenazarlos si intentan protegerse tras un Kang. Koraidon también es una buena respuesta frente a Kang, ya que el oponente podría intentar atacar con él.
+- Es posible que debas deshacerte de tu propio Kang en este matchup para evitar que el rival ejecute una secuencia de intercambio de premios 3-2-1. No te preocupes por ello si ya llevas ventaja en el intercambio de todos modos. Que tú mismo realices un 3-2-1 solo es posible si ellos usan a Passimian, algo que podría ocurrir; de lo contrario, a veces basta con ignorar a su Kang.
+- Asegúrate de no quedarte sin opciones de usar la Teracristalización al elegir tu banca.
+- Mantener una mesa con pocos Pokémon al inicio de la partida puede impedir que el rival empiece la agresión con Clefairy. Sob también puede retrasar su inicio.
+- Prime Catcher es un recurso valioso para lidiar con su Sob. Como no suelen llevar muchas cartas de gusteo, amenazar con atacar usando el Pokémon que haya quedado atrapado por Sob es otra forma de salir de esa situación. Boss también es un recurso clave para conseguir KOs fáciles.
+- El objetivo es tomar la iniciativa ofensiva tan pronto como puedas lograr un KO y, a partir de ahí, ganar el intercambio de premios de forma directa.
 
 ```youtube
 id: NfV1_7qY9JA
 title: Slop v Bolt 1
 ```
-These games are actually surprisingly interesting.
+Estos juegos fueron muy interesantes.
 
 ```youtube
 id: RoK0ACF6r9E
 title: Slop v Bolt 2
 ```
 
-### Zoroark - Unfavorable
+### Zoroark - Desfavorable
 
-- Save Prime Catcher in case they try to use Yveltal or Drapion.
-- If they have a full bench, try to get the one-shot with Clefairy on their Zoroark. Your opportunity to one-shot Zoroark will disappear after that. The same is true if they have four Pokemon on the bench and a poisoned Zoroark. They should never let that happen, but if they do, you can punish it with a Clefairy one-shot.
-- If they have Fez, Meowth, or Pecharunt on their bench, KO it before it disappears to Transformation Tome.
-- Eventually, you’ll probably just have to two-shot a Zoroark, which is fine. You may need to rely on Mega Kangaskhan attacking luck in this matchup. Mega Kang can also be a meatshield at various points in the game because it’s very hard for them to one-shot it (especially because they do not want Pecharunt in play).
+- Guarda el Prime Catcher por si intentan usar a Yveltal o a Drapion.
+- Si tienen la banca llena, intenta noquear al Zoroark de un solo golpe con Clefairy. Tu oportunidad de lograr ese KO de un solo golpe desaparecerá después de eso. Lo mismo aplica si tienen cuatro Pokémon en la banca y un Zoroark envenenado; no deberían permitir que eso suceda, pero si lo hacen, puedes castigarlos noqueando al Zoroark de un solo golpe con Clefairy.
+- Si tienen a Fez, Meowth o Pecharunt en la banca, noquealo antes de que desaparezca gracias al Transformation Tome.
+- A la larga, probablemente tendrás que noquear a un Zoroark en dos turnos, lo cual está bien. Es posible que en este matchup debas confiar en la suerte al atacar con Mega Kangaskhan. Mega Kang también puede servir de escudo en varios momentos de la partida, ya que es muy difícil que lo noqueen de un solo golpe (especialmente porque no quieren tener a Pecharunt en juego).
 
 ```youtube
 id: Y9wQFCdEMII
 title: Slop v Zoro 1
 ```
 
-### Alakazam - Very Unfavorable
+### Alakazam - Muy Desfavorable
 
-- Your win condition is speed blitzing prize cards before they can stabilize. Wellspring Ogerpon is very strong in the early-game. Prioritize targeting their Kadabra. If they don’t have any, target Abra. Fast Clefairy is also good. Just try to amass a fast prize lead.
-- Save Stadiums / Chien-Pao to counter Nighttime Mine if you plan on attacking with Wellspring Ogerpon.
+- Tu condición de victoria consiste en tomar cartas de premio a gran velocidad antes de que el rival pueda estabilizarse. Wellspring Ogerpon es muy fuerte en los compases iniciales de la partida. Prioriza atacar a su Kadabra; si no tienen ninguno, ataca a Abra. Usar a Clefairy rápidamente también es una buena opción. Simplemente intenta conseguir ventaja en las cartas de premio lo antes posible.
+- Guarda tus cartas de Estadio o a Chien-Pao para contrarrestar Nighttime Mine si planeas atacar con Wellspring Ogerpon.
 
 ```youtube
 id: UMXM2VXsxeo
@@ -153,23 +153,23 @@ title: Slop v Zam 2
 
 ### Slowking - Favorable
 
-- Wellspring is very good in this matchup so try to power it up with any spare Energy. Smacking into Kang sets it up for a Clefairy finish, or you can snipe it off after hitting it with Clefairy first. Of course, clearing off Slowpoke + Slowking is also great, and Sob can buy a turn or two if you have nothing better to do.
-- Lillie’s Pearl on an attacking Clefairy is generally very good. Lillie’s Pearl is a premium card in general because it also denies some Trifrost lines even if you’re not attacking with Clefairy.
-- You need to hold Area Zero + Meowth to counter Trifrost. If they use Trifrost and threaten lethal, Meowth → Ciphermanaic → Prime Catcher and Chien-Pao → retreat, Run Errand, clear off the damage and Prime snipe whatever you want. This is the ideal response to Trifrost so make sure you keep it available. Set up your board so that they cannot win with two more Trifrosts.
-- If they have the Kang in play but you aren’t able to punch it, try to get Koraidon with Energy so you can take three prizes on their Kang and close out the game.
+- Wellspring es muy útil en este matchup, así que intenta cargarle energía siempre que te sobre alguna. Atacar a Kang con ella lo deja listo para ser rematado por Clefairy, o bien puedes noquearlo a distancia tras haberlo golpeado primero con Clefairy. Por supuesto, deshacerse de Slowpoke y Slowking también es excelente, y Sob puede ganarte un turno o dos si no tienes nada mejor que hacer.
+- Equipar Lillie’s Pearl a una Clefairy que esté atacando suele ser una gran jugada. En general, Lillie’s Pearl es una carta de gran valor, ya que también bloquea ciertas estrategias basadas en Trifrost, incluso si no estás atacando con Clefairy.
+- Debes conservar Area Zero y Meowth para contrarrestar Trifrost. Si usan Trifrost y amenazan con ganar la partida, la secuencia ideal es: Meowth → Ciphermaniac → Prime Catcher y Chien-Pao → retirada, usar Run Errand, borrar el daño y usar Prime Catcher para atacar al objetivo que prefieras. Asegúrate de tener esta opción disponible, ya que es la respuesta perfecta contra Trifrost. Organiza tu mesa de juego de modo que no puedan ganar aunque utilicen Trifrost dos veces más.
+- Si tienen a Kang en juego pero no puedes atacarlo directamente, intenta preparar a Koraidon con energía; así podrás obtener tres cartas de premio al derrotar a su Kang y cerrar la partida.
 
 ```youtube
 id: m42C_e2OwqU
 title: King v Slop 1
 ```
 
-### Excadrill - Even
+### Excadrill - Parejo
 
-- Go first.
-- Going fast and aggressive is the way to win. If you can get an Energy on Wellspring Turn 1, that can be very good. Torrential Pump is generally always good in this matchup if you’re able to power it up. Any spare Crispin or manual attachments should go onto Wellspring, while using Wondrous Patch to power up Clefairy.
-- Moltres is insane in this matchup. If you smack Excadrill for 220, you can even get a Torrential Pump with Boss or Prime Catcher to take four prizes.
-- Clefairy is still a useful and efficient attacker. Even better if you have the Pearl to go with it.
-- Try to remove Kang from play with Chien-Pao whenever you get the chance. It is a massive liability.
+- Ataca primero.
+- Jugar de forma rápida y agresiva es la clave para ganar. Conseguir una Energía en Wellspring durante el primer turno puede ser muy ventajoso. Torrential Pump suele ser una excelente opción en este matchup.
+- Moltres es una carta increíble en este matchup. Si golpeas a Excadrill infligiéndole 220 puntos de daño, puedes incluso usar Boss o Prime Catcher para noquear algo más junto con el Excadrill dañado con Torrential Pump y llevarte cuatro cartas de premio.
+- Clefairy sigue siendo un atacante útil y eficiente; su eficacia aumenta aún más si cuentas con Pearl para acompañarlo.
+- Intenta quitar a Kang del juego con Chien-Pao siempre que tengas la oportunidad, ya que representa una debilidad enorme.
 
 ```youtube
 id: yXZhZKazbs8
@@ -178,49 +178,49 @@ title: Drill v Slop 1
 
 ### Crustle - Auto Loss
 
-Without a tech you just can’t win. With a tech, you still have to play carefully.
+Sin una tech, simplemente no puedes ganar. Con una tech, aun así tienes que jugar con cuidado.
 
-### Hydrapple - Unfavorable
+### Hydrapple - Desfavorable
 
-- Moltres and Lillie’s Pearl are very strong in this matchup. 
-- You’ll need to remove Kang from play at some point to deny them the 3-2-1. Even better if you can get by without putting Kang in play in the first place, but that is sometimes difficult.
-- Wellspring’s attacks are nearly useless in this matchup, but it’s still a good card to enable Area Zero.
-- Watch out for Briar. Sometimes there’s nothing you can do about it though. KO’ing their initial Celebi or other fodder one-prize isn’t bad because it does avoid Briar.
-- Also watch out for Stamp and Red Card. Play around them whenever possible.
+- Moltres y Lillie’s Pearl son muy fuertes en este matchup.
+- Tendrás que sacar a Kang del juego en algún momento para evitar que consigan la secuencia de premios 3-2-1. Mejor aún si logras arreglártelas sin llegar a poner a Kang en juego, aunque a veces resulta difícil.
+- Los ataques de Wellspring son prácticamente inútiles en este matchup, pero sigue siendo una buena carta para activar Area Zero.
+- Ten cuidado con Briar. Aunque, a veces, no hay nada que puedas hacer al respecto. Noquear a su Celebi inicial o a otro Pokémon prescindible que otorgue un solo premio no es mala idea, ya que así evitas que jueguen Briar.
+- Ten cuidado también con Stamp y Red Card. Juega teniendo en cuenta estas cartas siempre que sea posible.
 
 ```youtube
 id: ReNNpTcJ4MA
 title: Slop v Hydrap 1
 ```
 
-### Clefairy Box Mirror - Even
+### Clefairy Box Mirror - Parejo
 
-- Many of the same principles as the Raging Bolt matchup, barring Moltres. You can still use Moltres to swing fast, but it’s obviously not as strong when it can’t one-shot anything.
-- If they are threatening a Koraidon with an Energy, remove Kang from play. You can do the same thing to threaten their Kang. Using Chien-Pao makes it harder for them to remove Pokemon from play.
-- Don’t board lock yourself out of a Tera Pokemon.
-- Slim board in the early-game can stop them from initiating with Clefairy. Sob can also stall them from initiating.
-- Save Prime Catcher for Sob. It’s probably fine to use it to get a solid prize lead if you have to.
-- Lillie’s Pearl is very good.
+- Se aplican muchos de los mismos principios que en el matchup contra Raging Bolt, salvo por el caso de Moltres. Puedes seguir usando a Moltres para atacar rápido, pero obviamente no es tan potente cuando no logra noquear a ningún rival de un solo golpe.
+- Si amenazan con un Koraidon cargado de energía, retira a Kang del juego. Puedes hacer lo mismo para amenazar a su Kang. Usar a Chien-Pao dificulta que ellos retiren Pokémon del juego.
+- No te bloquees el campo impidiéndote jugar un Pokémon Tera.
+- Mantener un campo con pocos Pokémon al inicio de la partida puede evitar que empiecen su estrategia con Clefairy. Sob también puede retrasar su inicio.
+- Guarda el Prime Catcher para Sob. Probablemente esté bien usarlo para conseguir una ventaja sólida de cartas de premio si es necesario.
+- Lillie’s Pearl es muy buena carta.
 
-### Mewtwo - Unfavorable
+### Mewtwo - Desfavorable
 
-- Moltres is good to smack into Mewtwo. Lillie’s Pearl also very good in this matchup since it’s hard for them to gust a lot.
-- Wellspring’s attacks are also mostly bad here. Torrential Pump is hard to line up but it could occasionally be useful since getting the damage on Mewtwo is relevant. I never found a good chance to use it since it’s so committal.
-- Clefairy is the go-to attacker in most situations.
-- Attacking with Kang can sometimes be good in this matchup since it’s hard for them to one-shot it. Attacking with it earlier is best to reduce the likelihood of them having the Max Belt combo to one-shot it. If they swing into Kang for a bunch of damage, you HAVE to remove it with Chien-Pao.
-- Chien-Pao can also be very good because it removes Meowth from play, which leaves them with nothing they can easily KO with Spidops.
+- Moltres es una buena opción para atacar a Mewtwo. La Perla de Lillie también funciona muy bien en este matchup, ya que al rival le cuesta usar Giovanni con frecuencia.
+- Los ataques de Wellspring tampoco suelen ser efectivos aquí. Es difícil preparar Torrential Pump, aunque podría resultar útil en ocasiones, dado que infligir daño a Mewtwo es importante; sin embargo, nunca encontré el momento adecuado para usarlo, ya que requiere un compromiso táctico muy grande.
+- Clefairy es el atacante de referencia en la mayoría de las situaciones.
+- Atacar con Kang puede ser una buena estrategia en este matchup, ya que al rival le resulta difícil noquearlo de un solo golpe. Lo ideal es atacar con él pronto para reducir las probabilidades de que el oponente tenga la combinación de Max Belt necesaria para un KO instantáneo. Si el rival ataca a Kang e inflige mucho daño, TIENES que quitarlo usando a Chien-Pao.
+- Chien-Pao también puede ser muy útil, ya que saca a Meowth de la partida, dejándolos sin ninguna opción fácil para lograr un KO con Spidops.
 
 ```youtube
 id: 5vN-SSszLeg
 title: Slop v Mewtwo 1
 ```
 
-### Lucario - Unfavorable
+### Lucario - Desfavorable
 
-- Kangaskhan should be avoided if at all possible.
-- Lillie’s Pearl!
-- Sob on Lunatone or Solrock is very good because it sets up for a perfect Torrential Pump for two prizes. This is the best way to actually win a prize trade. There’s nothing you can do if they have Switch right away, but sometimes they will not have it.
-- If they have only one Riolu and no Lucario, obviously target that. Otherwise, target Makuhita because Hariyama is a massive threat in this matchup.
+- Se debe evitar a Kangaskhan siempre que sea posible.
+- La Perla de Lillie es vital.
+- Usar Sob contra Lunatone o Solrock es una excelente opción, ya que prepara el terreno para un Torrential Pump perfecto y conseguir dos cartas de premio. Es la mejor manera de ganar el intercambio de premios. No hay nada que puedas hacer si tienen una carta de Cambio de inmediato, pero a veces no la tendrán.
+- Si solo tienen un Riolu y ningún Lucario, obviamente debes centrarte en él. De lo contrario, ataca a Makuhita, ya que Hariyama supone una amenaza enorme en este matchup.
 
 ```youtube
 id: KRenxp2JaK0
@@ -229,4 +229,4 @@ title: Slop v Lucario 1
 
 ## Personal Thoughts
 
-This deck is just bad and doesn’t really beat anything.
+Este deck es simplemente malo y realmente no gana a nada.
