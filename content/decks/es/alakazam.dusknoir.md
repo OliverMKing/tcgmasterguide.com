@@ -250,16 +250,6 @@ title: ZamNoir v Hydrapple 3
 - Usar Cursed Blast contra su Pokémon activo, seguido de un efecto de gusteo para dejar fuera de combate a su otro Pokémon clave de la estrategia Festival Lead y rematar con Red Card, es una secuencia muy potente que puede dejarlos sin jugadas viables. Si no tienen a Rabsca en juego, puedes eliminar con relativa facilidad a ambos Thwackey, o simplemente desmantelar su campo y aprovechar sus vulnerabilidades más fácilmente. Una combinación sencilla de Red Card y subir a Thwackey al activo es igualmente devastadora, aunque pierde efectividad si ellos tienen a Rabsca en juego.
 - Sacrifica a Dusclops para lograr un KO siempre que sea posible, especialmente contra Rellor o para eliminar por completo a sus Pokémon clave de la estrategia Festival Lead.
 
-```youtube
-id: EpQOlQbBpr8
-title: ZamNoir v Festival 1
-```
-
-```youtube
-id: 8iBK5vouH8U
-title: ZamNoir v Festival 2
-```
-
 ### Bronzong / Lopunny - Muy Desfavorable
 
 - Si vas primero y el rival no logra bloquear el uso de objetos, intenta conseguir a Dusknoir mediante Rare Candy para noquear a su Bronzor.
