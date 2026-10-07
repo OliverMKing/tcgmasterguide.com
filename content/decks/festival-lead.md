@@ -147,7 +147,6 @@ title: Festival v Zoroark 1
 Against the Dusknoir build (even):
 
 - Going first is very important. When going first, apply maximum pressure.
-- Rabsca is very important because it makes their lines a bit more awkward.
 - Growing Energy can protect Rellor or Applin from Dusclops.
 - Go for as many double-KO’s as possible. If they put Fez on the bench, it can be countered with Boss + Bangle (or Gladion + Bangle to ensure a double KO).
 
@@ -220,9 +219,9 @@ title: Festival v Crustle 1
 
 ### Bronzong / Lopunny - Unfavorable
 
-- Ideal setup is three Dipplin / Seaking, Rabsca, and two Thwackey. Try to get the Festival Lead attackers evolved as soon as possible so that you don’t lose to Bronzong. They are generally higher priority than Thwackey.
+- Ideal setup is four Dipplin / Seaking and two Thwackey. Try to get the Festival Lead attackers evolved as soon as possible so that you don’t lose to Bronzong. They are generally higher priority than Thwackey.
 - Target down their Bronzor / Bronzong if they only have one. Otherwise, target down Duskull pieces.
-- Growing Energy can protect Applin / Rellor from Dusclops, but honestly this did not accomplish as much as I had hoped.
+- Growing Energy can protect Applin from Dusclops, but honestly this did not accomplish as much as I had hoped.
 
 ### Mewtwo - Favorable
 

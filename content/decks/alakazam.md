@@ -250,7 +250,7 @@ title: Zam v Zoroark 1
 Against the Dusknoir build (unfavorable):
 The heavy Battle Cage build is favored against the Dusknoir build. Otherwise, it’s unfavorable.
 
-- Protecting the bench from Dusknoir is the priority. With Rabsca, get double Rellor to improve your chances of getting Rabsca out. With Battle Cage, spam draw and Enriching to try and find the Cage.
+- Protecting the bench from Dusknoir is the priority. With Battle Cage, spam draw and Enriching to try and find the Cage.
 - If your bench is protected, play like a normal mirror match (except you don’t have to play around Eri).
 
 ### Slowking - Very Favorable

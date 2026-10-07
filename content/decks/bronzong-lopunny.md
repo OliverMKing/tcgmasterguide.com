@@ -215,12 +215,10 @@ title: Bronz v Exca 1
 - Bronzong is bait. Just rush them down with Lopunny and target their Energy.
 - If they have any evolving Pokemon within Dusknoir / Dusclops range, punish them by popping the Dusknoir for a KO. This basically denies Celebi because if they put that down too you can pop it with Dusknoir to end the game. If they have Celebi but no other single-prize Pokemon, popping Dusknoir on it is wasted effort unless they put something else in range. In other words, just save Dusknoir for the two-prize Pokemon unless your opponent makes a mistake.
 
-### Festival Lead - Favorable
+### Festival Lead - Very Favorable
 
 - They cannot do literally anything to a Bronzong. Even if you don’t go first, simply set up a situation where Dusknoir KO’s all of their Dipplin / Seaking, and then Bronzong wins.
 - When going second, getting a second Bronzor down preemptively can be good. Getting lots of Pokemon minimizes the chances of getting run off the board.
-- If they have Rabsca, you can use Dusknoir to KO their active attacker, Boss + Dusknoir their other threat, and then Evo Jammer to win. Of course, this requires some setup, and you might get run off the board before that comes together. 
-- If they have Rabsca, don’t put extra Energy on your Bronzong!
 
 ## Personal Thoughts
 
