@@ -110,7 +110,8 @@ export default function Navbar() {
     return () => window.removeEventListener('keydown', onKey)
   }, [isMenuOpen])
 
-  const desktopLinks: { href: '/about' | '/subscribe' | '/qa'; key: 'about' | 'subscribe' | 'qa' }[] = [
+  const desktopLinks: { href: '/posts' | '/about' | '/subscribe' | '/qa'; key: 'posts' | 'about' | 'subscribe' | 'qa' }[] = [
+    { href: '/posts', key: 'posts' },
     { href: '/about', key: 'about' },
     { href: '/subscribe', key: 'subscribe' },
     { href: '/qa', key: 'qa' },
@@ -133,6 +134,11 @@ export default function Navbar() {
               {t('decks')}
               <ActiveUnderline show={pathname === '/'} />
             </button>
+            {/* Posts */}
+            <Link href="/posts" className={navClasses({ active: pathname === '/posts' })}>
+              {t('posts')}
+              <ActiveUnderline show={pathname === '/posts'} />
+            </Link>
             {/* About */}
             <Link href="/about" className={navClasses({ active: pathname === '/about' })}>
               {t('about')}

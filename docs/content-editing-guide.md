@@ -142,6 +142,67 @@ If you're doing something complex like adding images, you can preview your markd
 
 Follow the same steps as editing (see "Create a Pull Request" above).
 
+## Adding Posts
+
+Posts are articles for pre-event and post-event guidance. They live beside decks but use a separate directory. Posts render the same way as decks. They support Markdown, deck lists, YouTube videos, Twitch videos, images, and the PUBLIC/PREMIUM visibility markers. Posts do not have a table of contents.
+
+### Where Posts Appear
+
+The home page shows the 3 most recent posts above the decks. The page sorts posts by the `date` field, newest first. A "View all posts" link opens the full list at `/posts`. The navbar also has a "Posts" link.
+
+### 1. Create a New File
+
+1. In your text editor, go to `content/posts/`.
+2. Create a new file with the post name in lowercase. Use hyphens for spaces.
+   - Example: `pre-regionals-prep.md` or `post-worlds-recap.md`.
+
+### 2. Add the Required Metadata
+
+Every post file must start with metadata between `---` marks:
+
+```markdown
+---
+title: "Pre-Regionals Prep"
+date: 2026-10-05
+---
+```
+
+**Metadata fields:**
+
+| Field | Required | Description |
+|-------|----------|-------------|
+| `title` | Yes | The display name of the post |
+| `date` | Yes | The post date in `YYYY-MM-DD` format. The site sorts posts by this field, newest first |
+
+### 3. Write the Post Content
+
+Write the post with Markdown. Use the same features as decks:
+
+- Deck lists with the `decklist` code block.
+- YouTube videos with the `youtube` code block.
+- Twitch videos with the `twitch` code block.
+- Images stored in `content/posts/images/`. Reference them as `![Description](./images/my-post/filename.png)`.
+- PUBLIC and PREMIUM markers to control subscriber-only content.
+
+See the sections below for the exact syntax of each feature. The syntax is the same for posts and decks.
+
+### 4. Adding Spanish Posts
+
+Spanish posts work the same way as Spanish decks:
+
+1. Create the file in `content/posts/es/`.
+2. Use the same filename as the English post. This keeps the same URL path (`/es/posts/my-post`).
+3. Add the same metadata fields (`title`, `date`). Translate the `title`.
+4. Translate the content. Use the same Markdown structure and the same PUBLIC and PREMIUM markers.
+
+### Checklist for Posts
+
+- [ ] File is in `content/posts/` (or `content/posts/es/` for Spanish)
+- [ ] Metadata includes `title` and `date`
+- [ ] `date` uses `YYYY-MM-DD` format
+- [ ] PUBLIC and PREMIUM markers are in place
+- [ ] Image paths use `./images/` and point to `content/posts/images/`
+
 ## Adding a Deck List
 
 You can add an expandable, copyable deck list to any deck guide using the special `decklist` code block:

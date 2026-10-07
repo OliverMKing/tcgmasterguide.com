@@ -10,14 +10,14 @@ import matter from 'gray-matter'
 // Set via NEXT_PUBLIC_REQUIRE_SUBSCRIPTION env variable (defaults to false)
 const REQUIRE_SUBSCRIPTION = process.env.NEXT_PUBLIC_REQUIRE_SUBSCRIPTION === 'true'
 
-function getDecksDirectory(locale: SubscriptionLocale): string {
+function getPostsDirectory(locale: SubscriptionLocale): string {
   if (locale === 'es') {
-    return path.join(process.cwd(), 'content', 'decks', 'es')
+    return path.join(process.cwd(), 'content', 'posts', 'es')
   }
-  return path.join(process.cwd(), 'content', 'decks')
+  return path.join(process.cwd(), 'content', 'posts')
 }
 
-// GET /api/decks/[slug]/content - Get deck content if user has access
+// GET /api/posts/[slug]/content - Get post content if user has access
 // Query params: ?locale=en|es (defaults to 'en')
 export async function GET(
   request: NextRequest,
@@ -28,11 +28,11 @@ export async function GET(
   const localeParam = searchParams.get('locale')
   const locale: SubscriptionLocale = localeParam === 'es' ? 'es' : 'en'
 
-  // Check if deck exists for this locale
-  const decksDirectory = getDecksDirectory(locale)
-  const filePath = path.join(decksDirectory, `${slug}.md`)
+  // Check if post exists for this locale
+  const postsDirectory = getPostsDirectory(locale)
+  const filePath = path.join(postsDirectory, `${slug}.md`)
   if (!fs.existsSync(filePath)) {
-    return NextResponse.json({ error: 'Deck not found' }, { status: 404 })
+    return NextResponse.json({ error: 'Post not found' }, { status: 404 })
   }
 
   // Check subscription access for this locale
@@ -70,9 +70,9 @@ export async function GET(
       content: processedContent,
     })
   } catch (error) {
-    console.error('Error reading deck content:', error)
+    console.error('Error reading post content:', error)
     return NextResponse.json(
-      { error: 'Failed to read deck content' },
+      { error: 'Failed to read post content' },
       { status: 500 }
     )
   }

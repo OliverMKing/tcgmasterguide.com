@@ -12,16 +12,14 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<Theme>('dark')
-
-  useEffect(() => {
-    const stored = localStorage.getItem('theme') as Theme | null
-
-    if (stored) {
-      setTheme(stored)
+  // Initialize from the class the pre-paint head script already applied so this
+  // provider's effects do not fight it (which caused a dark flash in light mode).
+  const [theme, setTheme] = useState<Theme>(() => {
+    if (typeof document !== 'undefined') {
+      return document.documentElement.classList.contains('dark') ? 'dark' : 'light'
     }
-    // Default to dark mode, no need to check system preference
-  }, [])
+    return 'dark'
+  })
 
   useEffect(() => {
     const root = document.documentElement

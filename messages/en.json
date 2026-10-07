@@ -3,6 +3,7 @@
     "home": "Home",
     "about": "About",
     "decks": "Decks",
+    "posts": "Posts",
     "qa": "Q&A",
     "subscribe": "Subscribe",
     "admin": "Admin",
@@ -24,7 +25,9 @@
     "updated": "Updated",
     "deckCount": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}",
     "emptyTierTitle": "No decks here yet",
-    "emptyTierDescription": "New guides drop as the meta shifts. Check back soon."
+    "emptyTierDescription": "New guides drop as the meta shifts. Check back soon.",
+    "postsTitle": "Recent Posts",
+    "viewAllPosts": "All posts"
   },
   "about": {
     "title": "About TCG Master Guide",
@@ -32,13 +35,14 @@
     "authorTitle": "About the Author",
     "authorDescription": "TCG Master Guide is written by <author>Grant Manley</author>, an elite competitive Pokemon TCG player who has been ranked #1 in the world. Known for his consistent top finishes and deep understanding of the game, Grant is one of the most accomplished players in the competitive scene.",
     "missionTitle": "Our Mission",
-    "missionDescription": "TCG Master Guide provides in-depth deck guides for Pokemon Trading Card Game players of all skill levels. Our guides are constantly updated to reflect the latest meta shifts, new card releases, and competitive strategies. Whether you're just starting out or competing at the highest levels, our deck guides give you the insights you need to succeed.",
+    "missionDescription": "TCG Master Guide provides in-depth <decksLink>deck guides</decksLink> for Pokemon Trading Card Game players of all skill levels. Our guides are constantly updated to reflect the latest meta shifts, new card releases, and competitive strategies. Whether you're just starting out or competing at the highest levels, our deck guides give you the insights you need to succeed.",
     "offerTitle": "What We Offer",
-    "offer1": "Detailed deck guides with in-depth text strategies and video matchup breakdowns",
+    "offer1": "Detailed <decksLink>deck guides</decksLink> with in-depth text strategies and video matchup breakdowns",
     "offer2": "Regularly updated content reflecting the current meta",
     "offer3": "Guides for both beginners and competitive players",
     "offer4": "Matchup analysis and tech card recommendations",
     "offer5": "Q&A section where you can ask questions and get answers directly from Grant",
+    "offerPosts": "Pre-event and post-event guidance posted to the <postsLink>Posts</postsLink> page",
     "updatesTitle": "Always Up to Date",
     "updatesDescription": "Grant continuously updates these deck guides as the meta evolves, new sets release, and strategies develop. Here's how to stay on top of changes:",
     "updatesFeature1Title": "Last updated date",
@@ -205,5 +209,21 @@
     "language": "Language",
     "email": "Email",
     "lastUpdated": "Last updated"
+  },
+  "post": {
+    "backToPosts": "Back to posts",
+    "freePreview": "Free Preview",
+    "limitedPreview": "You're reading a limited preview.",
+    "subscribeForAccess": "Subscribe",
+    "forFullAccess": "for full access.",
+    "exploreMorePosts": "Explore more posts",
+    "continueReading": "Read more pre-event and post-event guidance.",
+    "browseAllPosts": "Browse all posts"
+  },
+  "posts": {
+    "title": "Posts",
+    "subtitle": "Pre-event and post-event guidance to help you prepare and review.",
+    "emptyTitle": "No posts yet",
+    "emptyDescription": "Check back soon for pre-event and post-event guidance."
   }
 }

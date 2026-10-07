@@ -69,6 +69,16 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning className={lexend.variable}>
+      <head>
+        {/* Apply the saved theme before first paint to avoid a light-mode flash
+            and to theme boundaries (e.g. the root 404) that render outside ThemeProvider.
+            Mirrors ThemeProvider: dark by default unless the user chose light. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem('theme');if(t==='light'){document.documentElement.classList.remove('dark')}else{document.documentElement.classList.add('dark')}}catch(e){document.documentElement.classList.add('dark')}})()`,
+          }}
+        />
+      </head>
       <body className="font-sans bg-stone-50 dark:bg-slate-900 text-neutral-800 dark:text-neutral-100 transition-colors">
         {children}
       </body>

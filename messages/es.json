@@ -3,6 +3,7 @@
     "home": "Inicio",
     "about": "Acerca de",
     "decks": "Decks",
+    "posts": "Publicaciones",
     "qa": "Preguntas",
     "subscribe": "Suscribirse",
     "admin": "Admin",
@@ -24,7 +25,9 @@
     "updated": "Actualizado",
     "deckCount": "{count, plural, =0 {Sin decks} =1 {1 deck} other {# decks}}",
     "emptyTierTitle": "Aún no hay decks aquí",
-    "emptyTierDescription": "Publicamos nuevas guías conforme cambia el meta. Vuelve pronto."
+    "emptyTierDescription": "Publicamos nuevas guías conforme cambia el meta. Vuelve pronto.",
+    "postsTitle": "Publicaciones recientes",
+    "viewAllPosts": "Todas las publicaciones"
   },
   "about": {
     "title": "Acerca de TCG Master Guide",
@@ -32,13 +35,14 @@
     "authorTitle": "Acerca del Autor",
     "authorDescription": "TCG Master Guide está escrito por <author>Grant Manley</author>, un jugador élite de Pokemon TCG competitivo que ha sido clasificado #1 en el mundo. Conocido por sus consistentes resultados top y profundo entendimiento del juego, Grant es uno de los jugadores más destacados de la escena competitiva.",
     "missionTitle": "Nuestra Misión",
-    "missionDescription": "TCG Master Guide proporciona guías detalladas de decks para jugadores del Juego de Cartas Coleccionables Pokémon de todos los niveles. Nuestras guías se actualizan constantemente para reflejar los últimos cambios del meta, nuevos lanzamientos de cartas y estrategias competitivas. Ya sea que estés comenzando o compitiendo en los niveles más altos, nuestras guías de decks te dan los conocimientos que necesitas para tener éxito.",
+    "missionDescription": "TCG Master Guide proporciona <decksLink>guías detalladas de decks</decksLink> para jugadores del Juego de Cartas Coleccionables Pokémon de todos los niveles. Nuestras guías se actualizan constantemente para reflejar los últimos cambios del meta, nuevos lanzamientos de cartas y estrategias competitivas. Ya sea que estés comenzando o compitiendo en los niveles más altos, nuestras guías de decks te dan los conocimientos que necesitas para tener éxito.",
     "offerTitle": "Lo Que Ofrecemos",
-    "offer1": "Guías detalladas de decks con estrategias de texto profundas y análisis de enfrentamientos en video",
+    "offer1": "<decksLink>Guías detalladas de decks</decksLink> con estrategias de texto profundas y análisis de enfrentamientos en video",
     "offer2": "Contenido actualizado regularmente reflejando el meta actual",
     "offer3": "Guías tanto para principiantes como para jugadores competitivos",
     "offer4": "Análisis de enfrentamientos y recomendaciones de cartas tech",
     "offer5": "Sección de preguntas y respuestas donde puedes hacer preguntas y obtener respuestas directamente de Grant",
+    "offerPosts": "Guía previa y posterior a los eventos publicada en la página de <postsLink>Publicaciones</postsLink>",
     "updatesTitle": "Siempre Actualizado",
     "updatesDescription": "Grant actualiza continuamente estas guías de decks a medida que evoluciona el meta, se lanzan nuevos sets y se desarrollan estrategias. Así es como puedes mantenerte al día con los cambios:",
     "updatesFeature1Title": "Fecha de última actualización",
@@ -205,5 +209,21 @@
     "language": "Idioma",
     "email": "Correo",
     "lastUpdated": "Última actualización"
+  },
+  "post": {
+    "backToPosts": "Volver a publicaciones",
+    "freePreview": "Vista previa gratuita",
+    "limitedPreview": "Estás viendo una vista previa limitada.",
+    "subscribeForAccess": "Suscríbete",
+    "forFullAccess": "para acceso completo.",
+    "exploreMorePosts": "Explora más publicaciones",
+    "continueReading": "Lee más guía previa y posterior a los eventos.",
+    "browseAllPosts": "Ver todas las publicaciones"
+  },
+  "posts": {
+    "title": "Publicaciones",
+    "subtitle": "Guía previa y posterior a los eventos para ayudarte a prepararte y repasar.",
+    "emptyTitle": "Aún no hay publicaciones",
+    "emptyDescription": "Vuelve pronto para ver guía previa y posterior a los eventos."
   }
 }
