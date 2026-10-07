@@ -62,7 +62,7 @@ Energy: 9
 - Rare Candy no es necesario, aunque tampoco es malo.
 - Jamming Tower es simplemente mala en el meta actual; es por mucho la peor opción de Estadio popular.
 
-## Standard List
+## Lista Estándar
 
 ![normiePultnoir list](./images/dragapult-dusknoir/normienoir.png)
 ```decklist
@@ -101,6 +101,43 @@ Energy: 8
 ```
 
 La lista normal normalmente incluye Jamming Tower y/o Rocket's Watchtower. Juez y el cuarto Crushing Hammer también son comunes.
+
+## Lista Estándar 2
+
+![Patrat list](./images/dragapult-dusknoir/patrat.png)
+```decklist
+Pokémon: 21
+4 Dreepy ASC 158
+4 Drakloak ASC 159
+3 Dragapult ex ASC 160
+2 Duskull PRE 35
+2 Dusclops PRE 36
+1 Dusknoir PRE 37
+2 Budew ASC 16
+1 Patrat CRI 70
+1 Meowth ex POR 62
+1 Fezandipiti ex ASC 142
+
+Trainer: 31
+4 Lillie's Determination MEG 119
+3 Boss's Orders MEG 114
+2 Crispin SCR 133
+1 Judge POR 76
+1 Dawn PFL 87
+4 Buddy-Buddy Poffin ASC 184
+4 Poké Pad POR 81
+4 Ultra Ball MEG 131
+4 Night Stretcher ASC 196
+1 Special Red Card CRI 82
+1 Unfair Stamp TWM 165
+2 Jamming Tower TWM 153
+
+Energy: 8
+4 Psychic Energy MEE 5
+4 Fire Energy MEE 2
+```
+
+Esta versión se volvió más popular después del Top 4 de Henry Chao en el Mundial 2026. Patrat es muy bueno contra Munkidori en los mirror y contra Zoroark. Por lo tanto ni Risky Ruins ni Watchtower tienen sentido aqui y Jamming Tower es la única opción viable de Estadio.
 <!-- /PUBLIC -->
 ## Gameplay
 
@@ -165,6 +202,14 @@ title: Pultnoir v Bolt 2
 - Contra la estrategia de Alakazam Control, adelantarse en la colocación de Energías es aún más importante, por lo que recurrir a Budew tiene menos valor. Priorizar Itchy Pollen es una buena opción si tienes Unfair Stamp en la mano, ya que puedes dejar que lo noqueen y luego atacar con Unfair Stamp. Por supuesto, Itchy Pollen siempre es beneficioso si no pueden amenazar con un KO inmediato, pero normalmente pueden hacerlo fácilmente con Kadabra.
 - Si atacan con Elgyem, noquealo inmediatamente.
 
+Contra la versión con Dusknoir:
+
+- Si tienes un buen inicio, es posible ganar la batalla por los Budew si juegas dos Budew y consigues un Dusclops rápido.
+- Dusclops suele ser útil para lograr noqueos fáciles al principio de la partida. Si estás bloqueando sus Items, considera usar a Dusclops para noquear al Budew rival; de lo contrario, úsalo para noquear a Abra. Más adelante, pierde utilidad.
+- Si no intentas ganar la batalla de los Budew con dos copias, resérvalo como pieza de posicionamiento para impedir la jugada de Dusknoir mediante Rare Candy. Esto puede ganarte un turno extra cuando más lo necesites (por ejemplo, alrededor del turno 3).
+- Si usan a Dusclops o Dusknoir para noquear a tu Pokémon activo, podrías pensar que lo mejor es mantener a salvo en la banca a tu Drakloak con Energía. Sin embargo, la mayoría de las veces lo correcto es moverlo al puesto activo, aunque todo tu instinto te diga lo contrario. Si logran el KO con Alakazam demasiado pronto, comprometen gravemente su frágil mesa de juego y puedes castigarlos por ello. Si mueves a otro Pokémon, simplemente se quedará atrapado y les darás demasiado tiempo para hacer lo que quieran.
+- Ser agresivo es bueno. Evolucionar a Dragapult (aunque no puedas atacar con él ese mismo turno) a veces es una buena idea (les resulta difícil conseguir 16 cartas más el combo completo de Dusknoir y el efecto de gusteo). Poner a Fezandipiti en juego también es positivo. La estrategia de Shadow Bind no es viable y no puede hacerte daño.
+
 ```youtube
 id: VL0a9wzxKwI
 title: Pultnoir v Zam 1
@@ -173,6 +218,15 @@ title: Pultnoir v Zam 1
 ```youtube
 id: KKp9jEXXOdI
 title: Pultnoir v Zam 2
+```
+```youtube
+id: QUVOtrELjnU
+title: ZamNoir v PultNoir 1
+```
+
+```youtube
+id: ubV4nAw_8KM
+title: ZamNoir v PultNoir 2
 ```
 
 ### Hydrapple - Favorable
@@ -186,6 +240,18 @@ title: Pultnoir v Zam 2
 id: SfQtd8mZFbE
 title: Pultnoir v Hydrap 1
 ```
+
+### Bronzong / Lopunny - Ligeramente Desfavorable
+
+Si juegas la versión con Patrat, el matchup es aún más desfavorable.
+
+- Itchy Pollen normalmente no vale la pena al inicio al ser un premio fácil para Bronzong, pero puede ser útil si tienes Unfair Stamp en la mano, ya que les obliga a conseguir un KO temprano.
+- Lo más importante es conseguir una respuesta rápida contra Bronzong. Mind Bend es la opción más sencilla y funciona mejor si se combina con efectos que alteren la mano del rival. Fezandipiti también es muy potente si logras acceder a él; Chi-Yu también puede servir.
+- Gracias a Rare Candy, este deck cuenta con un plan de respaldo decente, siempre y cuando logres detener el bloqueo de Evo Jammer a tiempo. Intenta preparar una jugada con Rare Candy para el momento en que estén a punto de romper el bloqueo de Evo Jammer (o cuando los obligues a hacerlo).
+- Si consigues muchos Dreepy y Torchic, habrá demasiadas amenazas en la mesa. No podrán noquearlos a todos, así que alguno acabará pudiendo evolucionar.
+- A veces no está claro a qué objetivo atacar a distancia con Fez. Si amenazan con la combinación Dusknoir + Dusclops + Evo Jammer, debes impedirlo. Si tienen tres Duskull y solo un Bronzong, noquea a Bronzong. Si solo tienen dos líneas evolutivas de Duskull, probablemente baste con eliminar una de ellas. En otros casos (por ejemplo, si tienen pocas cartas en la mano o pocas probabilidades de completar el combo), noquear a Buneary también puede ser una buena opción (aunque no se recomienda si tienen dos Buneary).
+- Si vas primero, realizar un ataque rápido de Dragon Headbutt con Drakloak también es una buena jugada.
+- Usar Boss para noquear a un Duskull mediante Mind Bend o Dragon Headbutt suele ser una buena idea si no tienes nada mejor que hacer.
 
 ### Zoroark - Ligeramente Desfavorable
 
