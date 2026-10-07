@@ -48,79 +48,83 @@ Energy: 7
 ### Posibles Inclusiones
 - Shaymin podría incluirse pero es redundante cuando tenemos a Rabsca.
 - Special Red Card probablemente sería buena.
-- No creo que Toucannon sea necesario pero puede resolver algunos problemas en metas especificos, por ejemplo si hay mucho Hide n Sneak o decks con Rocket's Articuno. 
 - Lillie's Clefairy abre algunas opciones interesantes y otorga una manera de jugar alrededor de algunos counters.
-- Eri podría ser buena para intentar atacar Unfair Stamp y Special Red card en turnos clave.
 
 ### Exclusiones
 
 - Psyduck no está aquí porque testee versus Dragapult/Dusknoir y aún así perdía, incluso con Rabsca. 
-- Genesect supone una inversión excesiva de recursos para un retorno tan pequeño. No es tan difícil recuperarse de Unfair Stamp, y comprometer un espacio de la banca, así como espacios en el deck para Tools, me parece una mala idea.
+- Toucannon es malo. Demasiado espacio y no contribuye nada.
+- Genesect no vale la pena por el espacio en banca además de Rabsca y no es tan difícil recuperarse de Unfair Stamp.
 - Fan Rotom es malo, sobre todo sin Estadios. Al principio pensé que estaría bien usarlo si se jugaban Estadios, pero no le saqué mucho provecho y es un riesgo tenerlo en juego. Incluso con Estadios, no lo usaría.
 - Creo que Rabsca es mejor que estadios como Nighttime Mine o Battle Cage pero el deck es más vulnerable a Rocket's Watchtower de esta forma.
+- Forest of Vitality tampoco vale la pena, y si vas a juagr Estadios mejor juega Battle Cage.
 - Lana’s Aid parece una buena opción, pero siempre prefiero jugar otras cartas de partidario en ese turno. Night Stretcher es más conveniente. Este deck no necesita mucha recuperación, pero si la necesitara, también tiene Sacred Ash.
 
 ## Decklist 2
 
-![decklist2 for Alakazam](./images/alakazam/cages.png)
+![decklist2 for Alakazam](./images/alakazam/clef.png)
 ```decklist
-Pokémon: 20
+Pokémon: 21
 4 Abra MEG 54
 4 Kadabra MEG 55
 3 Alakazam MEG 56
+1 Alakazam TWM 82
 3 Dunsparce JTG 120
-3 Dudunsparce TEF 129
+2 Dudunsparce TEF 129
 1 Fezandipiti ex ASC 142
+1 Lillie's Clefairy ex ASC 76
 1 Genesect SFA 40
 1 Shaymin DRI 10
 
-Trainer: 34
+Trainer: 32
 4 Dawn PFL 87
 3 Hilda WHT 84
 2 Boss's Orders MEG 114
-4 Buddy-Buddy Poffin TEF 144
+1 Eri TEF 146
 4 Poké Pad POR 81
-4 Rare Candy MEG 125
-3 Enhanced Hammer TWM 148
-2 Night Stretcher ASC 196
+4 Buddy-Buddy Poffin ASC 184
+2 Wondrous Patch PFL 94
+2 Rare Candy MEG 125
+1 Night Stretcher ASC 196
 1 Sacred Ash DRI 168
-2 Air Balloon ASC 181
-1 Lucky Helmet TWM 158
-4 Battle Cage PFL 85
+1 Special Red Card CRI 82
+3 Air Balloon ASC 181
+3 Nighttime Mine ASC 197
+1 Battle Cage PFL 85
 
-Energy: 6
+Energy: 7
 4 Telepathic Psychic Energy POR 88
-1 Psychic Energy MEE 5
+2 Psychic Energy MEE 5
 1 Enriching Energy SSP 191
 ```
 
-Esta es la versión más estándar, con Genesect y Estadios en lugar de Rabsca y Wondrous Patch. La mejor versión depende del metajuego. Con más Rocket's Watchtower, los Estadios son mejores. De lo contrario, Rabsca es mejor.
+Esta es la versión más estándar, con Genesect y Estadios en lugar de Rabsca. La mejor versión depende del metajuego. Con más Rocket's Watchtower, los Estadios son mejores. De lo contrario, Rabsca es mejor.
 
 ### Inclusiones
 
+- El Alakazam alterno es un counter de Crustle. También puede ser útil contra otros Pokemon que son invencibles al Alakazam principal. Gracias a Nighttime Mine y Clefairy, tambien puede noquear a un Dragapult con 3 Energías, que es más fácil de noquear que tener que conseguir 16 cartas en mano.
 - Genesect es útil principalmente contra Dragapult y nos da una excusa para usar Lucky Helmet, que es muy útil contra la interrupción de la mano. Genesect también es bueno contra Festival para detener Secret Box, lo que les dificulta un poco jugar Gladion.
+- Clefairy es bueno contra Dragapult y también sirve contra Pokemon que son invencibles vs Alakazam.
+- El Air Balloon es una opción bastante buena para Genesect debido al Crushing Hammer de Dragapult. Si no lleváramos el Globo, podrían usar Martillo y luego ganar tiempo con Boss para acumular daño gratis.
 - Shaymin sirve contra Wellspring Ogerpon y Slowking.
-- Cuatro Rare Candy por las mismas razones que las anteriores, igual que tres Enhanced Hammer.
-- Nighttime Mine es muy útil contra Dragapult y nos da una respuesta fácil a Rocket's Watchtower.
-- Air Balloon es muy buena opcion para Genesect y además para contrarrestar los Crushing Hammer de Dragapult para evitar un gusteo a Fez o Genesect y no poder atacar el mismo turno.
-- Battle Cage es mejor que otros estadios porque frena a Dusknoir y a Munkidori, además del daño de Dragapult.
+- Eri y Special Red Card son especialmente buenos contra Dragapult, pero también resultan útiles en otros matchups, como el mirror.
+- Rare Candy se utiliza más bien como pieza de combo para crear mesas más fuertes a mitad o al final de la partida. Estaría bien llevar más copias, pero no hay espacio. Si logras tenerla al principio, genial, pero no es la estrategia principal.
+- Nighttime Mine y Battle Cage son buenas opciones contra Dragapult y para sustituir estadios molestos. Sinceramente, no estoy seguro de cuál es el mejor estadio en términos generales. Cuanto más presente esté Dusknoir en el metajuego, mejor será Battle Cage.
 
 ### Posibles Inclusiones
 
-- Una cuarta Hilda y/o un cuarto Alakazam serían ideales.
+- Una cuarta Hilda, otro Dudunsparce o más Rare Candy estarián bien.
 - Special Red Card probablemente sería útil.
-- Jugar el paquete de Wondrous Patch en lugar del paquete Genesect podría ser una opción.
-- Psyduck ayuda poco contra Dragapult/Dusknoir, pero el matchup sigue siendo difícil incluso con él, así que no creo que valga la pena.
-- No creo que Toucannon sea necesario pero puede resolver algunos problemas en metas especificos, por ejemplo si hay mucho Hide n Sneak o decks con Rocket's Articuno. 
+- Un Lucky Helmet por un Air Ballon podría ser.
+- Podrías evaluar Battle Cage en lugar de Nighttime Mine.
 
 ### Exclusiones
 
-- Dedenne es un Pokémon malo para empezar y no se usa mucho. Creo que tres Enhanced Hammer son suficientes para ganar la partida rápidamente contra decks como Crustle y Lopunny. Prefiero tener el tercer Enhanced Hammer antes que a Dedenne. Además, así es más fácil encontrarlos, lo cual es importante.
+- Dedenne es malo sin Enhanced Hammer.
 - Elgyem no resultó ser muy útil contra Dragapult, así que lo quité.
+- Toucannon es malo.
 - Creo que Night Stretcher es mejor que Lana's Aid.
 - Handheld Fan no es muy bueno porque pierdes contra Festival Lead de todas formas.
-- Nighttime Mine es mucho peor que Battle Cage en estos momentos.
-
 <!-- /PUBLIC -->
 
 ## Gameplay
@@ -161,6 +165,17 @@ Sin Rabsca:
 - Deja 1 o 2 Dudunsparce en juego si puedes para contrarrestar Unfair Stamp.
 - Fezandipiti puede ser una gran desventaja, pero a menudo es necesario usarlo. Si mejor puedes contrarrestar la interrupción de mano con Lucky Helmet y Dudunsparce, sería ideal.
 - Juega Nightime Mine en cuanto la veas.
+
+Con Clefairy:
+
+- Prioriza conseguir una Energía Psíquica básica en tu atacante o en la pila de descartes. La única forma de lograrlo es retirando al Pokémon activo o permitiendo que sea debilitado (KO).
+- Esta versión se beneficia de un estilo de juego más pasivo en ciertas situaciones, ya que dispones de opciones para intercambiar golpes con Dragapult incluso tras sufrir una disrupción de mano. Conviene tener a Genesect ya en juego (o a Eri lista para usar contra un  Unfair Stamp) antes de pasar a la ofensiva.
+- No pongas a Fezandipiti en juego a menos que sea estrictamente necesario.
+- Evoluciona todos los Abra lo antes posible para evitar que sean víctimas fáciles dePhantom Dive.
+- Si no logras reunir dieciséis cartas en mano, Clefairy es una buena opción para noquear a Dragapult. Puedes colocar a Clefairy en juego preventivamente si también logras cargarle una Energía Psíquica básica (idealmente, habiendo evolucionado ya a los Abra para sacarlos del rango de daño). El rival no puede usar Boss's Orders y Judge en el mismo turno. Si eligen a Clefairy como objetivo, simplemente noquea con un Alakazam y las dieciséis cartas.
+- Usar Boss's Orders para atacar a Pokémon que otorgan dos cartas de premio o para eliminar Energías suele ser una buena estrategia.
+- Usa Nighttime Mine en cualquier momento. El Alakazam alterno puede noquear a un Dragapult de un solo golpe si este tiene tres Energías y Clefairy está en juego, aunque no debes esperar que esta situación se dé en todas las partidas.
+- Contra Blaziken: si por alguna razón no tienen Energías en la pila de descartes (o si ya han asignado demasiadas Energías al tablero o las han descartado), puedes usar Boss's Orders sobre Blaziken y golpearlo por 300 de daño; esto prepara el terreno para una jugada de Strange Hacking con el Alakazam alterno.
 
 ```youtube
 id: M8qiF8cGqdY
@@ -219,12 +234,27 @@ title: Zam v Bolt 2
 - Ten cuidado con Briar.
 - Por lo general, juega con normalidad y ganarás la mayoría de las veces.
 
+### Bronzong / Lopunny - Muy Desfavorable
+
+- Si juegas con Clefairy, intenta sacarlo lo antes posible. Si no, prioriza cargar a Fezandipiti. Por supuesto, lo ideal es empezar primero y conseguir el Alakazam con Rare Candy, pero eso requiere demasiada suerte.
+
+```youtube
+id: rC7gz5bNU-Q
+title: Bronz v Zam 1
+```
+
 ### Alakazam Mirror - Parejo
 
 - Juega alrededor de Eri usando Night Stretcher y Sacred Ash por recursos valiosos lo más pronto posible. Si los pillan con Eri, podrías quedarte sin atacantes en algún momento.
 - Haz todo lo posible por tomar el primer KO.
 - Juega teniendo en cuenta los Enhanced Hammer.
 - No pongas a Fezandipiti en juego.
+
+Contra la versión con Dusknoir (desfavorable):
+La versión con Battle Cage tiene ventaja frente a la versión con Dusknoir. En caso contrario, el enfrentamiento es desfavorable.
+
+- Proteger la Banca de Dusknoir es la prioridad. Con Battle Cage, utiliza constantemente efectos de robo y la Enriching Energy para intentar encontrar la carta Battle Cage.
+- Si tu Banca está protegida, juega como en un mirror normal (salvo que no necesitas jugar teniendo en cuenta a Eri).
 
 ### Slowking - Muy Favorable
 
@@ -250,7 +280,7 @@ id: OkwXG4DViHE
 title: King v Zam 3
 ```
 
-### Mega Kangaskhan Box - Muy Favorable
+### Clefairy Box - Muy Favorable
 
 - Prioriza tu seteo consiguiendo tantos Abra y Kadabra como sea posible. Shaymin/Rabsca pueden ser muy útiles para protegerte de Wellspring Ogerpon.
 - Si consiguen una ventaja rápida significativa, es posible que debas evitar poner a Fezandipiti en la banca para ganar el intercambio de premios.
@@ -279,12 +309,20 @@ title: Zam v Zoroark 1
 
 ### Crustle - Favorable
 
+Con Enhanced Hammer:
+
 - Consigue un Alakazam rápido y roba cartas agresivamente para encontrar Enhanced Hammer y Boss's Orders.
 - Boss's Orders es especialmente útil para eliminar Spiky Energy, Hero's Cape o cualquier cosa que acumule demasiada Energía.
 - Empieza a cargar a Dudunsparce de inmediato. Así podrás lidiar con un Crustle con Mist Energy cuando te quedes sin Enhanced Hammer. Esto es relevante en la mayoría de las partidas. Si dejan un Dwebble con Mist Energy y puedes noquearlo con Dudunsparce, hazlo y prácticamente se acaba la partida.
 - Si les quedan más premios que Boss's Orders, incluso puedes encadenar Dudunsparce en la fase final. Debes tener cuidado al gestionar las cartas para no quedarte sin cartas, pero Dudunsparce puede curarse infinitamente, mientras que Crustle no puede noquearlo de un solo golpe.
 - Si no tienes Enhanced Hammer en mano y no tienen Mist Energy en su activo, no robes cartas extra si no lo necesitas para jugar alrededor de Eri. La lista más popular de Crustle juega 3 Eri asi es que queremos evitar que nos los descarten de a gratis.
-- Usa los Enhanced Hammers de inmediato en contra en las Mist y solo las Mist.
+
+Con Clefairy:
+
+- Dependemos del Alakazam alterno (y de Clefairy contra un Mega Kangaskhan atacante) para lograr el KO a través de la Energía Mist. Usa al Alakazam principal para noquear cualquier cosa que no tenga Energía Mist.
+- Genesect es excelente si logras conseguirlo antes de que ellos jueguen la Hero's Cape.
+- No robes demasiadas cartas extra, ya que no queremos que nos descarten las cartas de recuperación con Eri ni sufrir demasiado daño por culpa de Xerosic.
+- Guarda a Eri para cuando tengan una mano grande o cuando estés a punto de atacar sin llegar a lograr el KO (para deshacerte de los Helados).
 
 ```youtube
 id: KfDqsPaSWZo
@@ -297,6 +335,8 @@ title: Crustle v Zam 2
 ```
 
 ### Mewtwo - Auto Loss
+
+El matchup es menos peor si juega Clefairy pero sigue siento terrible.
 
 - Obviamente, este es un matchup terrible debido a Articuno, pero si hay alguna forma de ganar es cargando a Fezandipiti lo más rápido posible y eliminando a su Articuno. Usa Boss's Orders y Enhanced Hammer para alentarlos. A veces roban mal, así que es posible tener suerte.
 - Si por alguna razón no tienen a Articuno en juego, aprovecha cualquier oportunidad para causar el mayor daño posible con Alakazam. También usa a Alakazam para noquear a Spidops.
@@ -328,6 +368,7 @@ title: Sneak v Zam 2
 - Boss's Orders es un recurso importante cuando empiezan a atacar con Pokémon de una sola carta de premio.
 - Shaymin a veces es útil para detener su Fezandipiti.
 - Intenta siempre dar OHKO a Mega Excadrill, porque podrían tener Jumbo Ice Cream si tienes que hacer un 2HKO.
+- Si juegan una respuesta como el Kangaskhan del Team Rocket o Empoleon, Alakazam alterno o Clefairy son respuestas sólidas.
 
 ### Lucario - Muy Favorable
 
@@ -335,6 +376,7 @@ title: Sneak v Zam 2
 - Guarda los enhanced Hammer para las Rocky Fighting Energy en Mega Lucario. Si atacan con Solrock con Rocky Fighting Energy, intenta usar Boss's Orders para evitarlo y así tener Enhanced Hammer para Mega Lucario o Hariyama. 
 - Poner a Fezandipiti en la banca de forma preventiva es una buena estrategia para evitar Judge, siempre y cuando tengas ventaja en la carrera de premios y no pierdas al dárselo. Pueden obtener dos premios fácilmente, pero no pueden hacer nada para obtener premios extra como Dragapult.
 - Creo que ir segundo es mejor para evitar el riesgo innecesario de ser donkeado por Solrock.
+- La versión de Clefairy no juega Enhanced Hammers asi es que necesitaras usar a Clefairy para lidear con Rocky Energy si es que la juegan.
 
 ```youtube
 id: tQgDTTJcgC0
@@ -344,10 +386,12 @@ title: Zam v Lucario 1
 ### Festival Lead - Desfavorable
 
 - Los Rare Candy son un recurso muy importante. Intenta poner en juego tantos Abra y Kadabra como sea posible cuanto antes.
+- Un Genesect al inicio puede ser útil para bloquear la Secret Box, lo que a su vez potencia cartas de disrupción posteriores, como Red Card o Eri.
 - Intenta poner un Dudunsparce en juego cuanto antes para usarlo como escudo y evitar que consigan dos premios. Desafortunadamente no hay mucho que puedas hacer para evitar un doble KO con Gladion, así es que hay que ser agresivo para tener chance contra ellos.
 - Noquea a Dipplin en cada turno. Esto agota sus recursos al máximo. Una vez caí en la trampa al noquear a su único Thwackey, y eso marcó la diferencia entre ganar y perder.
 - Si juegas muchos Estadios intenta quitar su Estadio en cada turno. Puedes crear un tablero al final de la partida lleno de Pokémon con más de 100 de HP para potencialmente ganar si se quedan sin Estadios.
 - Si juegas Handheld Fan, usarlo en Alakazam suele ser la mejor opción. Se pueden hacer algunas jugadas ingeniosas con Dudunsparce y Handheld Fan, pero son muy complejas y dependen de la situación.
+- Si juegas Special Red Card, puedes realizar el combo de Boss a Thwackey + Red Card + Cruel Arrow para remontar la partida, aunque cargar a Fezandipiti es un proceso lento y predecible. También es viable intentar esto sin la Red Card si el oponente acaba de vaciar su mano para usar Gladion.
 
 ```youtube
 id: g5-pKFaJc_Y
@@ -377,6 +421,8 @@ title: Lop v Zam 1
 ```
 
 ### Garchomp - Favorable
+
+Para la versión de Clefairy, es un auto-loss.
 
 - Roba muchas cartas agresivamente para encontrar Enhanced Hammer y Boss's Orders.
 - Usa cualquier Energía sobrante para cargar a Fezandipiti. Puede que lo necesites para debilitar a Gabite con Rocky Fighting Energy. 
@@ -416,4 +462,4 @@ title: Zam v Meganium 2
 
 ## Conclusión
 
-Este deck es fundamentalmente muy potente, pero el matchup contra Dragapult siempre será difícil. También existen otros matchups desfavorables, aunque sean menos comunes. Sin embargo, es posible que esos decks no lleguen a ser demasiado populares, por lo que Alakazam sigue teniendo potencial. Alakazam cuenta con muchos matchups favorables, lo cual juega a su favor. En general, creo que es un deck bueno.
+Este deck es fundamentalmente muy poderoso, pero el matchup contra Dragapult siempre será difícil. También existen otros matchups desfavorables, aunque sean menos comunes. Sin embargo, es posible que esos decks no lleguen a ser demasiado populares, por lo que Alakazam sigue teniendo potencial. Alakazam cuenta con muchos matchups favorables, lo cual juega a su favor. En general, creo que es un deck bueno.

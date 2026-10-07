@@ -199,6 +199,14 @@ title: Pult v Lucario 3
 - Acumula tanta Energía en juego como sea posible contra la versión de Nighttime Mine. Incluso cargar Energía Dark a un Drakloak cualquiera es bueno.
 - Si atacan con Elgyem, noquealo inmediatamente.
 
+Contra la versión con Dusknoir:
+
+- Si juegas con dos Budew y Risky Ruins, pon ambos Budew en juego rápidamente si tienes la oportunidad (junto con Dreepy). Con dos Budew y Ruins, no es tan difícil ganar la batalla de los Budew. Si no cuentas con todo eso, no te molestes en entrar en esa disputa y limítate a intentar conseguir tantos Dreepy como sea posible.
+- Risky Ruins es extremadamente bueno. Juega esta carta tan pronto como puedas, pero si tu objetivo es usar Budew, asegúrate de ponerlos en juego primero. Casi nunca conviene poner un Budew en juego cuando Risky Ruins está activa. Poner un Dreepy bajo los efectos de Risky Ruins tampoco es lo ideal, aunque en determinadas situaciones puede ser aceptable. Lo mejor es poner primero los Pokémon Básicos y después jugar Risky Ruins.
+- Si no intentas ganar la batalla de los Budew con dos copias, resérvalo como pieza de posicionamiento para impedir la jugada de Dusknoir mediante Rare Candy. Esto puede ganarte un turno extra cuando más lo necesites (por ejemplo, alrededor del turno 3).
+- Si usan a Dusclops o Dusknoir para noquear a tu Pokémon activo, podrías pensar que lo mejor es mantener a salvo en la banca a tu Drakloak con Energía. Sin embargo, la mayoría de las veces lo correcto es moverlo al puesto activo, aunque todo tu instinto te diga lo contrario. Si logran el KO con Alakazam demasiado pronto, comprometen gravemente su frágil mesa de juego y puedes castigarlos por ello. Si mueves a otro Pokémon, simplemente se quedará atrapado y les darás demasiado tiempo para hacer lo que quieran.
+- Ser agresivo es bueno. Evolucionar a Dragapult (aunque no puedas atacar con él ese mismo turno) a veces es una buena idea (les resulta difícil conseguir 16 cartas más el combo completo de Dusknoir y el efecto de gusteo). Poner a Fezandipiti en juego también es positivo. La estrategia de Shadow Bind no es viable y no puede hacerte daño.
+
 ```youtube
 id: 2pwoICz5MAs
 title: Zam v Pult 1
@@ -210,6 +218,16 @@ title: Zam v Pult 2
 ```
 Este es uno de los juegos mas interesantes confusos que he jugado.
 
+```youtube
+id: NfQPi10WnyA
+title: ZamNoir v PultHam 1
+```
+
+```youtube
+id: 8ciISbyJlUQ
+title: ZamNoir v PultHam 2
+```
+
 ### Hydrapple
 
 - Un Budew temprano puede ser bueno para alentarlos, y su daño también es relevante. Si tienen a Applin o cualquier Pokémon de dos premios en su Activo, Moltres podría ser mejor. En general, Moltres es muy bueno y debería entrar en juego lo antes posible.
@@ -217,6 +235,24 @@ Este es uno de los juegos mas interesantes confusos que he jugado.
 - Si estás en una mala posición, puedes intentar atacar su mano y noquear a su Meganium, y es poco probable que lo recuperen. Noquear a su Meganium no es el plan ideal porque solo da un premio (y es malo si obtienen otro), pero puede ser un plan B funcional si las cosas van mal.
 - Aunque juegan muchos Estadios, jugar Rocket's Watchtower en el primer turno puede dejarlos con una mano inicial mala. De lo contrario, guardalo para combinar con la disrupción de mano y quitar su Estadio.
 - Ten en cuenta la habilidad curativa de Hydrapple. Por ello, a veces es mejor infligir 30 puntos de daño adicionales a lo que necesitarias con Phantom Dive.
+
+### Bronzong / Lopunny - Parejo
+
+- Itchy Pollen normalmente no vale la pena al inicio al ser un premio fácil para Bronzong, pero puede ser útil si tienes Unfair Stamp en la mano, ya que les obliga a conseguir un KO temprano.
+- Lo más importante es conseguir una respuesta rápida contra Bronzong. Mind Bend es la opción más sencilla y funciona mejor si se combina con efectos que alteren la mano del rival. Fezandipiti también es muy potente si logras acceder a él; Chi-Yu también puede servir.
+- A veces no está claro a qué objetivo atacar a distancia con Fez. Si amenazan con la combinación Dusknoir + Dusclops + Evo Jammer, debes impedirlo. Si tienen tres Duskull y solo un Bronzong, noquea a Bronzong. Si solo tienen dos líneas evolutivas de Duskull, probablemente baste con eliminar una de ellas. En otros casos (por ejemplo, si tienen pocas cartas en la mano o pocas probabilidades de completar el combo), noquear a Buneary también puede ser una buena opción (aunque no se recomienda si tienen dos Buneary).
+- Si vas primero, realizar un ataque rápido de Dragon Headbutt con Drakloak también es una buena jugada.
+- Usar Boss para noquear a un Duskull mediante Mind Bend o Dragon Headbutt suele ser una buena idea si no tienes nada mejor que hacer.
+
+```youtube
+id: A2tLdC0Ruxc
+title: Bronz v PultHam 1
+```
+
+```youtube
+id: QqxYNuDdyxg
+title: Bronz v PultHam 2
+```
 
 ### Zoroark - Ligeramente Desfavorable
 

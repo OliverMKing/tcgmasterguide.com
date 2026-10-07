@@ -344,6 +344,36 @@ Título: Blaziken v Lucario 2
 - Munkidori es muy bueno en general. Guarda Risky Ruins para quitar Battle Cage.
 - Si tienes Rocket's Watchtower, intenta combinarlo con disrupción de mano en el mismo turno para hacerlos brickear.
 
+### Bronzong / Mega Lopunny - Favorable
+
+- Itchy Pollen normalmente no vale la pena al inicio al ser un premio fácil para Bronzong, pero puede ser útil si tienes Unfair Stamp en la mano, ya que les obliga a conseguir un KO temprano.
+- Lo más importante es conseguir una respuesta rápida contra Bronzong. Mind Bend es la opción más sencilla y funciona mejor si se combina con efectos que alteren la mano del rival. Fezandipiti también es muy potente si logras acceder a él; Chi-Yu también puede servir.
+- Gracias a Rare Candy, este deck cuenta con un plan de respaldo decente, siempre y cuando logres detener el bloqueo de Evo Jammer a tiempo. Intenta preparar una jugada con Rare Candy para el momento en que estén a punto de romper el bloqueo de Evo Jammer (o cuando los obligues a hacerlo).
+- Si consigues muchos Dreepy y Torchic, habrá demasiadas amenazas en la mesa. No podrán noquearlos a todos, así que alguno acabará pudiendo evolucionar.
+- A veces no está claro a qué objetivo atacar a distancia con Fez. Si amenazan con la combinación Dusknoir + Dusclops + Evo Jammer, debes impedirlo. Si tienen tres Duskull y solo un Bronzong, noquea a Bronzong. Si solo tienen dos líneas evolutivas de Duskull, probablemente baste con eliminar una de ellas. En otros casos (por ejemplo, si tienen pocas cartas en la mano o pocas probabilidades de completar el combo), noquear a Buneary también puede ser una buena opción (aunque no se recomienda si tienen dos Buneary).
+- Si vas primero, realizar un ataque rápido de Dragon Headbutt con Drakloak también es una buena jugada.
+- Usar Boss para noquear a un Duskull mediante Mind Bend o Dragon Headbutt suele ser una buena idea si no tienes nada mejor que hacer.
+
+```youtube
+id: 2gVi8YZ6eMk
+title: Bronz v PultBlaze 1
+```
+
+```youtube
+id: uvzzRTEJp6s
+title: Bronz v PultBlaze 2
+```
+
+```youtube
+id: ZRBCLvhjB4w
+title: Bronz v PultBlaze 3
+```
+
+```youtube
+id: 93420PHKYco
+title: Bronz v PultBlaze 4
+```
+
 ### Garchomp - Desfavorable
 
 - Encadena Dragapult tanto como sea posible. Si atacan a uno, intenta atacar con uno nuevo.
