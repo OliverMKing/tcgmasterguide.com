@@ -147,7 +147,7 @@ title: Festival v Zoroark 1
 Against the Dusknoir build (even):
 
 - Going first is very important. When going first, apply maximum pressure.
-- Growing Energy can protect Rellor or Applin from Dusclops.
+- Growing Energy can protect Applin from Dusclops.
 - Go for as many double-KO’s as possible. If they put Fez on the bench, it can be countered with Boss + Bangle (or Gladion + Bangle to ensure a double KO).
 
 ```youtube
