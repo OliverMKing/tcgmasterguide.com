@@ -6,81 +6,85 @@ format: Standard
 ---
 ## Decklist
 
-![Blaziken list](./images/dragapult-blaziken/chi.png)
+![Blaziken list](./images/dragapult-blaziken/1blaze.png)
 ```decklist
-Pokémon: 21
-4 Dreepy ASC 158
-4 Drakloak ASC 159
-2 Dragapult ex ASC 160
-2 Torchic DRI 40
-1 Combusken DRI 41
-2 Blaziken ex JTG 24
-2 Munkidori ASC 99
-1 Fezandipiti ex ASC 142
+Pokémon: 19
+4 Dreepy TWM 128
+4 Drakloak TWM 129
+2 Dragapult ex TWM 130
+2 Munkidori TWM 95
+2 Budew PRE 4
+1 Torchic DRI 40
+1 Blaziken ex JTG 24
 1 Meowth ex POR 62
-1 Budew ASC 16
+1 Fezandipiti ex SFA 38
 1 Chi-Yu TWM 39
 
-Trainer: 31
+Trainer: 33
 4 Lillie's Determination MEG 119
 3 Boss's Orders MEG 114
 2 Crispin SCR 133
+1 Judge DRI 167
 1 Dawn PFL 87
-4 Buddy-Buddy Poffin ASC 184
 4 Ultra Ball MEG 131
 4 Poké Pad POR 81
-3 Rare Candy MEG 125
-2 Night Stretcher ASC 196
+4 Buddy-Buddy Poffin TEF 144
+3 Rare Candy SVI 191
+3 Night Stretcher ASC 196
 1 Special Red Card CRI 82
 1 Unfair Stamp TWM 165
-2 Risky Ruins MEG 127
+1 Risky Ruins MEG 127
+1 Team Rocket's Watchtower DRI 180
 
 Energy: 8
-3 Fire Energy MEE 2
 3 Psychic Energy MEE 5
+3 Fire Energy MEE 2
 2 Darkness Energy MEE 7
 ```
 <!-- PUBLIC -->
 ### Inclusions
 
-- Added Chi-Yu to counter Crustle for now.
+- Chi-Yu is a very good opener in lots of matchups. Aside from drawing two, its attack can be quite handy against stuff like Alakazam, Zoroark, and Grass Stuff. Of course, its main purpose is to counter Crustle, but if that was all that it did, I would probably cut it for now.
+- Added second Budew for mirrors and increase starting with it, but this is probably the most questionable card in the list.
 - Dawn is better than expected. I would like to add the second one back in but not sure where the space is since I also want second Crispin.
 - Rare Candy is a card that is either useless or extremely impactful. There are some games where you don’t need it, but it’s very powerful and important to have on specific turns in various situations. I tried with two and three and found it to be strong enough to warrant the third.
+- Judge is good for breaking stalemates and stopping big combos. Mostly good in mirror, Slowking, and Alakazam matchups.
 - Crispin is extremely strong. I found myself using it a ton, despite the deck also playing Blaziken. A very underrated aspect of it is actually finding the Energy, which can sometimes be inconsistent otherwise.
-- Special Red Card replaces Petrel since it's similar to Unfair Stamp. Although it would be nice to have Petrel to find Candy, it's ultimately not that strong of a card.
-- Just like regular Dragapult, Risky Ruins is very useful and impactful. I think it’s the best Stadium for this build. They can be useful in any matchup and are particularly important against Alakazam. One Ruins could be a Watchtower.
+- Third Night Stretcher gets in there to compensate for the thin Blaziken line.
+- Special Red Card is very important for combo turns since you won't always have Stamp. It does not have as much overlap in use cases with Judge as people think, so I think it's good to have both.
+- Just like regular Dragapult, Risky Ruins is very useful and impactful. I think it’s the best Stadium for this build. They can be useful in any matchup and are particularly important against Alakazam.
+- Added a Watchtower for annoying Patrat. It also gives you an additional win condition against decks that rely on Kang or Dudunsparce.
 
 ### Possible Inclusions
 
 - Second Dawn would be nice to have.
 - Clefairy is still good but I felt it was the most cuttable card for Chi-Yu. It doesn't increase the winrate in mirror that much and is terrible to start with. It's a bit better in the Area Zero lists anyway.
-- Team Rocket’s Watchtower is decent in the current meta. I am considering it more to deal with annoying Patrat in other Dragapult decks.
+- With just one Blaziken, could add a third Pult or Rosa's Encouragement. Could also still play one Combusken.
+- Thicker Blaziken line could still be fine.
 
 ### Exclusions
 
-- A thicker Blaziken line isn’t necessary because you’re only using one Blaziken in most games. Having double Blaziken on the board is nice, but more of an unnecessary luxury. It would also be hard to leverage as it takes up another board spot (so less for Munkidori). Of course, in matchups where attacking with Blaziken is important, a thicker line would be good.
+- I cut one of the Blaziken lines for space. I think one is sufficient for doing what it needs to, which is covering matchups. Even when it's prized, the deck is still a normal Dragapult deck, which is good.
 - Shaymin isn't as necessary with the deck packing three Rare Candy.
-- I think Judge and Harlequin are bad cards so I am not going to play them unless I find a good reason to do so.
 - I tried four Boss because the card is broken, but didn’t find that to be necessary in testing.
 - Area Zero is one of the worse Stadium options. It doesn't do enough. However, if you also played Chien-Pao, it could remove liabilities from the board.
 - The Milotic build is sadly a failed experiment.
 
 ## Standard List
 
-![normieBlaziken list](./images/dragapult-blaziken/judge.png)
+![normieBlaziken list](./images/dragapult-blaziken/goodnormie.png)
 ```decklist
-Pokémon: 22
 Pokémon: 21
-4 Dreepy ASC 158
-4 Drakloak ASC 159
-2 Dragapult ex ASC 160
+4 Dreepy TWM 128
+4 Drakloak TWM 129
+2 Dragapult ex TWM 130
 2 Torchic DRI 40
 1 Combusken DRI 41
 2 Blaziken ex JTG 24
-2 Munkidori ASC 99
+2 Munkidori TWM 95
+1 Budew ASC 16
 1 Fezandipiti ex ASC 142
 1 Meowth ex POR 62
-1 Budew ASC 16
 1 Chi-Yu TWM 39
 
 Trainer: 31
@@ -88,24 +92,24 @@ Trainer: 31
 3 Boss's Orders MEG 114
 2 Crispin SCR 133
 1 Dawn PFL 87
-1 Judge DRI 167
-4 Buddy-Buddy Poffin ASC 184
+1 Judge POR 76
 4 Ultra Ball MEG 131
+4 Buddy-Buddy Poffin TEF 144
 4 Poké Pad POR 81
 2 Night Stretcher ASC 196
 2 Rare Candy MEG 125
 1 Special Red Card CRI 82
 1 Unfair Stamp TWM 165
-1 Area Zero Underdepths SCR 131
-1 Team Rocket's Watchtower ASC 210
+1 Risky Ruins MEG 127
+1 Team Rocket's Watchtower DRI 180
 
 Energy: 8
-3 Fire Energy MEE 2
-3 Psychic Energy MEE 5
-2 Darkness Energy MEE 7
+3 Psychic Energy MEE 13
+3 Fire Energy MEE 10
+2 Darkness Energy MEE 15
 ```
 
-Most Blaziken lists have Area Zero and / or Watchtower, as well as Judge. Shaymin is also a fairly common tech, although it's also common for them to not have it.
+Dragapult / Blaziken is one of the decks where the normal list has gotten rather optimized. Some still play Clefairy, and lots of them still play Area Zero as well. Shaymin is sometimes included and sometimes not.
 
 <!-- /PUBLIC -->
 ## Gameplay Tips
@@ -133,6 +137,7 @@ For Dragapult in general:
 
 ### Dragapult mirrors - Even
 
+- Lists with two Budew may want to go second in the mirror because they can more consistently extract value from the Turn 1 Budew. I would personally still go first with one Budew lists.
 - If they go first and get Turn 2 Dragon Headbutt with Drakloak, you can punish them hard with a Rare Candy KO.
 - Ideal board is Blaziken, two Munkidori (if you can get both Darks), and the rest Drakloak or Dragapult. Evolving into extra Dragapult preemptively is sometimes necessary to stop them from getting a snipe KO on Drakloak with their Munkidori + Phantom Dive. If you’re getting a KO, try not to leave 30 damage increments on their board so they cannot snipe Drakloak.
 - When deciding whether to be aggressive mostly depends on which player is outscaling the other. If your setup is outscaling the opponent's, there's no reason to make yourself vulnerable to Hammers and Stamp. Set up a strong board before going in, ideally stalling them with Itchy Pollen. If your opponent is outscaling you, you have to go in as fast as possible and apply pressure (hoping they whiff something such as not finding Stamp or tails on Hammer). Against non-Hammer builds, you have more incentive to go in as long as you aren't particularly vulnerable to Stamp. There can be multiple metrics of scaling and it's not always immediately obvious, including but not limited to: number of Drakloak, Munkidori / overall Energy situation, optimal board setup (Meowth situation), and cards in hand / resources available.
