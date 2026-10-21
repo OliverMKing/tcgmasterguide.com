@@ -6,7 +6,7 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for Dragapult](./images/dragapult/rosa.png)
+![decklist for Dragapult](./images/dragapult/judge.png)
 ```decklist
 Pokémon: 16
 4 Dreepy TWM 128
@@ -23,12 +23,13 @@ Trainer: 35
 4 Boss's Orders MEG 114
 2 Crispin SCR 133
 1 Rosa's Encouragement POR 84
+1 Judge DRI 167
 4 Buddy-Buddy Poffin TEF 144
 4 Ultra Ball MEG 131
 4 Poké Pad POR 81
 4 Crushing Hammer POR 71
 2 Night Stretcher ASC 196
-2 Special Red Card CRI 82
+1 Special Red Card CRI 82
 1 Unfair Stamp TWM 165
 3 Team Rocket's Watchtower DRI 180
 
@@ -44,7 +45,7 @@ Energy: 9
 - Boss’s Orders is extremely important in literally every matchup. Lots of times I’m forced to discard one off Ultra Ball, but with four copies, that’s fine. Playing four lets you have it when you need it, and gives more flexibility to outmaneuver single-prize decks. Also works well in prolonged games, which is often relevant. Four Boss is definitely a good play.
 - I added Rosa's Encouragement because it is often relevant and good. Crispin is sometimes hard to use in the late-game, and Rosa can also make it easier to activate Munkidori since it accelerates more Energy than Crispin.
 - Crushing Hammer is pretty broken. One or two timely heads can be game-winning, and if you flip tails, you’re still a powerful Dragapult deck. Early heads can be particularly devastating against Slop Box/Raging Bolt and Slowking. Also gives a chance to win against Crustle or come back in the mirror.
-- Special Red Card is very good in this deck. You may think that you’ll never use two in a game, but sometimes you end up doing so anyway, especially if you hit the Stamp early. This deck ends up in lots of longer games, so having two Red Card is very nice. Even if you only need one in a game, it’s very important to have at the right time and has nice synergy with all of the other disruption.
+- Special Red Card is very good in this deck. I swapped the second one for a Judge because Judge is becoming much better in the metagame.
 - Stamp is absurdly broken, especially with all of the other disruption and how much effort opponents have to put in to deal with a Dragapult. At best, it can instantly win games, but at least it stops opponents from hitting combos and doing what they want. I think it’s the best Ace Spec, even though you sometimes won’t have it when you want it.
 - Three Watchtower is a lot, but with fewer, it wasn’t as consistent. Slamming it Turn 1 can make a lot of other decks brick such as mirror and Kangaskhan decks. Later, you’ll need it to combo with hand disruption, which has a high chance of making opponents brick. Watchtower is good in the current meta, and other Stadiums aren’t particularly needed.
 
@@ -53,7 +54,7 @@ Energy: 9
 - The Risky Ruins plus Dudunsparce version is obviously good since it won Worlds. That build is perhaps a bit more consistent throughout the game due to Dudunsparce, but its matchup spread is a bit worse. Dudunsparce also doesn't help early-game consistency, moreso mid- and late-game, but that's when Dragapult is already good either way.
 - Chi-Yu would be a good tech to destroy Crustle. Paldean Tarous also does this, but I think Chi-Yu is better for this build.
 - Dark Bell was ok when I tried it out. Free confusion is good, but the card is a bit more situational than I expected. I'm still not sure if it needs to be in the deck.
-- Judge could be played over a Red Card. I think Red Card is better overall, but it’s pretty close. Xerosic’s Machinations is a similar consideration for the same reasons.
+- Second Budew would be good.
 - Patrat instead of Munkidori could potentially be ok, since Munkidori is mostly used in the mirror. In the Risky Ruins build, Munkidori is clearly better.
 - Dawn could be ok.
 
@@ -195,9 +196,9 @@ id: aUJFp8ykZHE
 title: Hammers v Noir 2
 ```
 
-### Raging Bolt - Favorable
+### Raging Bolt - Depends
 
-For the straightforward Risky Ruins build with no techs, this matchup is closer to even or slightly unfavorable.
+For my lists with heavy Watchtower + Moltres or the Dudunsparce ex, the matchup is favorable. For the straightforward Risky Ruins build with no techs, this matchup is closer to even or slightly unfavorable.
 
 - If you can use Itchy Pollen + Hammer to stop them from attacking in the early-game, that is the ideal situation.
 - Early-game Mind Bend is sometimes good. Having Munkidori in the active is ok since it tanks a Waterpon attack.

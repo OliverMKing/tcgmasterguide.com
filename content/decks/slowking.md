@@ -55,7 +55,7 @@ it with a Kyurem attack.
 
 - Mega Slowbro is alright but not as useful when Festival Lead isn't as popular. It does swing that matchup though.
 - Drapion can be useful against Dragapult or mirror. I think it's a little better than Pawmot due the poison breakpoint in mirror.
-- Unown and Mew could be ok. I haven't tried them yet. I am a bit skeptical.
+- Mew is ok for fast pressure against Dragapult, mainly KO'ing Budew on Turn 1, which can set up for a better Trifrost.
 - The Cofagrigus Munkidori combo is a bit too much going on when there's already so many moving parts for this deck. However, it may be necessary in metas with too much Shaymin.
 - Lana's Aid is fine.
 - Prime Catcher is a decent option.
@@ -65,6 +65,7 @@ it with a Kyurem attack.
 ### Exclusions
 
 - Both Annihilape are bad. The Psychic one does not let you win the matchups it's supposed to, and the Fighting one is just useless.
+- Unown is a bit too situational.
 - I don't see the point of cards like Seismitoad or Spectrier.
 - Powerglass isn't good enough for how hard it is to pull off at a relevant time, but when it does line up, it's very strong.
 - Surfer is worse than Switch. Although you can use it while Item locked, you won't have
@@ -76,7 +77,7 @@ Metagross is not that hard normally as the deck often has extra Poke Pads anyway
 
 ## Standard List
 
-![normieslowking list](./images/slowking/zera.png)
+![normieslowking list](./images/slowking/normie.png)
 ```decklist
 Pokémon: 21
 4 Slowpoke SCR 57
@@ -87,9 +88,9 @@ Pokémon: 21
 2 Metagross CRI 61
 1 Fezandipiti ex ASC 142
 1 Meowth ex POR 62
-1 Smoochum SSP 75
 1 Lillie's Clefairy ex ASC 76
 1 Zeraora DRI 78
+1 Annihilape PBL 41
 
 Trainer: 29
 4 Lillie's Determination MEG 119
@@ -110,7 +111,7 @@ Energy: 10
 2 Boomerang Energy TWM 166
 ```
 
-This is fairly similar to my list. Zeraora has become very common now. Sometimes the deck also contains either Annihilape or Pawmot / Drapion as additional techs. Brave Bangle has dropped off in popularity, but still sees some play, and basically everyone plays Surfer. Many lists also do not play Smoochum, though many still do as well. Powerglass is another occasional tech. Finally, Mew and Unown are seeing widespread play on the ladder as people are figuring out if those cards are actually good. I haven't included Mew here because it's still in its experimental phase. Overall, there are lots of techs that may or may not be in their list.
+This is fairly similar to my list. Zeraora has become very common now. Sometimes the deck also contains Fighting Annihilape, Smoochum, or Pawmot / Drapion as additional techs. Brave Bangle has dropped off in popularity, but still sees some play, and basically everyone plays Surfer. Powerglass is another occasional tech. Finally, Mew and Unown are seeing widespread play on the ladder as people are figuring out if those cards are actually good. I haven't included Mew here because it's still in its experimental phase. Overall, there are lots of techs that may or may not be in their list.
 <!-- /PUBLIC -->
 ## Gameplay Tips
 

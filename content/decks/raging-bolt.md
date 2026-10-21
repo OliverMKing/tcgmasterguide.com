@@ -261,7 +261,7 @@ title: Blaziken v Bolt 2
 - If you’re stuck in a losing prize trade, you’ll have to rely on Stamp scam. Taking out their Fez and Stamping them can make them brick, but then you still have the attacker to deal with that can probably one-shot you. Therefore, you may need to KO their attacker and Stamp, giving them Fez, and hope they whiff. Attacking with Kang can sometimes save the game since it's harder for them to KO it, but without hand disruption, it's very hard to make a comeback.
 - Sob can randomly be good, especially in the early-game. It can also be a stopgap or set up Kang for a KO on their Fez, which can be relevant. Due to Crispin and Energy Switch, nothing will be stuck for long, so you can't rely on Sob for an extended period of time.
 
-## Zoroark - Slightly Favorable
+### Zoroark - Slightly Favorable
 
 - Applying fast pressure is better than positioning because they don’t have to put a two-prize Pokemon in play in order to play the game (unlike you). Don’t leave a two-prize Pokemon in the active unless you’re winning the prize trade. With the Noctowl build, Fan Rotom can efficiently apply pressure. Whether you’re KO’ing Zorua or not, attacking with Fan Rotom early is generally good.
 - Sometimes they have no Energy on the bench, and you have a choice to KO their Fez or KO their active Zoroark with Energy. I think KO’ing their Zoroark with Energy is generally best (even though it may be harder) if they have no Energy on the bench. Sometimes they just whiff PP Up, especially if you Stamp them.

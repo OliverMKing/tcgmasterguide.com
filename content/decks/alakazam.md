@@ -63,15 +63,14 @@ Energy: 7
 
 ## Decklist 2
 
-![decklist2 for Alakazam](./images/alakazam/clef.png)
+![decklist2 for Alakazam](./images/alakazam/cageclef.png)
 ```decklist
 Pokémon: 21
 4 Abra MEG 54
 4 Kadabra MEG 55
 3 Alakazam MEG 56
-1 Alakazam TWM 82
 3 Dunsparce JTG 120
-2 Dudunsparce TEF 129
+3 Dudunsparce TEF 129
 1 Fezandipiti ex ASC 142
 1 Lillie's Clefairy ex ASC 76
 1 Genesect SFA 40
@@ -90,8 +89,7 @@ Trainer: 32
 1 Sacred Ash DRI 168
 1 Special Red Card CRI 82
 3 Air Balloon ASC 181
-3 Nighttime Mine ASC 197
-1 Battle Cage PFL 85
+4 Battle Cage PFL 85
 
 Energy: 7
 4 Telepathic Psychic Energy POR 88
@@ -103,24 +101,23 @@ This is the more normal build with Genesect and Stadiums instead of Rabsca. Whic
 
 ### Inclusions
 
-- The bad Alakazam is a Crustle counter. It can also be useful against other Pokemon that are invincible to the main Alakazam. Thanks to Nighttime Mine and Clefairy, it can also one-shot a Dragapult with three Energy. If they attach three Energy to attack through Nighttime Mine, it's easier to KO it that way than get sixteen cards in hand.
 - Genesect helps against Dragapult primarily and Unfair Stamp in general, which is otherwise a very annoying card. Genesect is also good against Festival to stop Secret Box, making it a little more difficult for them to play Gladion's Final Battle.
 - Clefairy is good against Dragapult and can also deal with annoying Pokemon that are invincible to Alakazam. Wondrous Patch to power up Clefairy.
 - Air Balloon is fairly good as a Tool option for Genesect because of Dragapult's Crushing Hammer. If we did not play Balloon, they could Hammer and then Boss stall to set up damage for free.
 - Shaymin is for Wellspring and Slowking.
 - Eri and Special Red Card are particularly good against Dragapult but they also end up being useful in other matchups such as the mirror.
 - Rare Candy is used more as a combo piece for making stronger boards in mid- or late-game. It would be nice to have more, but there's no space. If you happen to have it early, that's great, but it's not the main game plan.
-- Nighttime Mine and Battle Cage are good against Dragapult and to bump annoying Stadiums. I'm honestly not sure which Stadium is best overall. The more Dusknoir is present in the metagame, the better Battle Cage gets.
+- Battle Cage is good against Dragapult and to bump annoying Stadiums. I'm honestly not sure which Stadium is best overall. The more Dusknoir is present in the metagame, the better Battle Cage gets. Cage also seems better without supplemental disruption like Elgyem or Fan (which could work better with Mine).
 
 ### Possible Inclusions
 
-- Fourth Hilda, another Dudunsparce, or more Candy would be nice.
-- Special Red Card would probably be good.
+- Fourth Hilda or more Candy would be nice.
 - Could play a Lucky Helmet over one Balloon.
-- Could play Battle Cages over Mines.
+- Could play Mines over Cages.
 
 ### Exclusions
 
+- I cut the bad Alakazam since it doesn't even beat Crustle if the opponent plays around it properly.
 - Dedenne is especially bad without Hammers.
 - Elgyem was not doing anything for me against Dragapult so I cut it.
 - Toucannon is bad.
@@ -306,7 +303,9 @@ id: X3YpsKBoBBI
 title: Festival v Zam 2
 ```
 
-### Crustle - Favorable
+### Crustle - Depends
+
+With Hammers, the matchup is favorable. Without Hammers or other tech, it's very unfavorable.
 
 With Hammers:
 
@@ -407,24 +406,25 @@ This matchup is still unfavorable even if you play Toucannon / Clefairy, but it'
 - If they for some reason do not have Articuno in play, wreak as much havoc as possible with Alakazam during that window whenever possible. Also use Alakazam to KO Spidops.
 - If you play Toucannon, try to set it up quickly (so they can't KO it first) and use it along with Boss to KO Articuno. Whenever they don't have Articuno in play, use Alakazam as normal.
 
-### Lopunny - Slightly Favorable
+### Lopunny - Depends
 
-This matchup would be better with Dedenne or Handheld Fan, but it’s still fine. For the Clefairy build, it's unfavorable.
+This matchup would be better with Dedenne or Handheld Fan, but it’s still slightly favorable with Hammers. For the Clefairy build, it's unfavorable.
 
 - Draw cards fast and cycle Dudunsparce as aggressively as possible. We need to find those Hammers!
 - Hoard the Hammers until you can empty the clip to one-shot a Lopunny. Same goes for Boss. If you play three Boss you could consider a cheeky KO on a Dunsparce/Dudunsparce one time.
 - Start attaching Energy to Fezandipiti as soon as possible. This is very important since we need to threaten their Buneary before it gets all four Mists.
 - If you play Handheld Fan, there might be some merit to not KO’ing their extra Buneary or Fan Rotom, depending on the situation. Without Fan, just take KO’s as much as you can.
 - KO any Lopunny whenever possible!
+- The Clefairy build has to target down Dudunsparce first or any Lopunny without Mist. To deal with the Mist Lopunny, set up for Red Card + Eri and use Clefairy to smack it.
 
 ```youtube
 id: STEe7cRpzw0
 title: Lop v Zam 1
 ```
 
-### Garchomp - Favorable
+### Garchomp - Depends
 
-For the Clefairy build, this is basically an auto-loss.
+For the Clefairy build, this is basically an auto-loss. With Hammers, it's favorable.
 
 - Draw tons of cards aggressively to find Hammers and Bosses.
 - Use any spare Energy attachments to power up Fezandipiti. You may need it to KO a Gabite with Rocky Energy. Get one Energy on Alakazam first, then power up Fez asap. Use Fez to KO a Rocky Energy at any opportunity! This play is basically an instant-win if you get it.
