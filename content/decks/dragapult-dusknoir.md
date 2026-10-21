@@ -7,7 +7,7 @@ format: Standard
 <!-- PUBLIC -->
 ## Decklist
 
-![Pultnoir list](./images/dragapult-dusknoir/noir.png)
+![Pultnoir list](./images/dragapult-dusknoir/judge.png)
 ```decklist
 Pokémon: 21
 4 Dreepy TWM 128
@@ -27,11 +27,12 @@ Trainer: 30
 3 Boss's Orders MEG 114
 2 Crispin SCR 133
 1 Rosa's Encouragement POR 84
+1 Judge DRI 167
 4 Ultra Ball MEG 131
 4 Poké Pad POR 81
 4 Buddy-Buddy Poffin TEF 144
 2 Night Stretcher ASC 196
-2 Special Red Card CRI 82
+1 Special Red Card CRI 82
 1 Unfair Stamp TWM 165
 3 Team Rocket's Watchtower DRI 180
 
@@ -45,13 +46,13 @@ Energy: 9
 - Shaymin is mostly to help against fast snipers such as Fez and Wellspring, since this deck has no other response such as Moltres, Candy, or Hammer. It's also great against Slowking.
 - Meowth is often needed to play the game and is amazing for consistency. It might look awkward with three Watchtower, but in reality, the two cards rarely end up clashing with each other.
 - Rosa’s Encouragement is oftentimes just what you need on a specific turn, especially in the late-game. I don’t end up using it for attacking with Dusknoir very often, but that is a viable option, especially against decks like Lucario. It’s mostly still used on Dragapult though.
-- I added a second Special Red Card because I often found myself needing it, and one wasn’t enough. This is the best deck to utilize Red Card, as it needs to make comebacks and disrupt the opponent. Red Card also has nice synergies with Dusknoir and Watchtower.
+- I added a Judge over the second Red Card because it keeps getting better in the current metagame. Special Red Card is still very good in this deck and worth playing.
 - I think Unfair Stamp is still the best Ace Spec because the card is completely broken and you don’t really need another Ace Spec.
 - Watchtower is very good in the current meta, especially against decks with Mega Kangaskhan or Dudunsparce. It goes well with all of the disruption in this deck and solves lots of problems. I tried with two Watchtower and it was not enough because it’s hard to find at the right time, so I added a third one.
 
 ### Possible Inclusions
 
-- Second Budew is ok but wasn’t doing much for me in testing so I think it’s fine to not have it.
+- Second Budew is ok but wasn’t doing much for me in testing so I think it’s fine to not have it. Dusclops helps you win Budew wars in mirror anyway.
 - Dawn is a fine consistency card, but just like many of the other cards in this section, it wasn’t impressing me in testing so I ended up cutting it.
 - Risky Ruins is still a pretty good card, and it makes Dragapult overall stronger. However, the absence of Watchtower opens up some concerning vulnerabilities and makes the hand disruption less effective.
 - Crushing Hammer is a very good card and works well alongside the other disruption. However it is awkward to fit them in, and playing three instead of four isn’t very consistent. When I tested with them, they weren’t helping as much as I’d hoped, and the matchup against the Hammer build does not seem to change that much.
@@ -59,6 +60,7 @@ Energy: 9
 ### Exclusions
 
 - Moltres wasn’t doing anything against Raging Bolt, and Dusknoir helps enough against Hydrapple.
+- Patrat doesn't work alongside Watchtower, and I think this is the better way to play the deck.
 - Rare Candy isn’t necessary although it isn’t bad either.
 - Jamming Tower not that good in the current meta. I think it's the worst of the main Stadium options.
 

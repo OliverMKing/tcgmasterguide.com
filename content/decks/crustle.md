@@ -69,7 +69,7 @@ Energy: 15
 <!-- /PUBLIC -->
 ## Decklist 2
 
-![CrustBouff list](./images/crustle/bouffbrock.png)
+![CrustBouff list](./images/crustle/2switch.png)
 ```decklist
 Pokémon: 11
 4 Mega Kangaskhan ex MEG 104
@@ -78,7 +78,7 @@ Pokémon: 11
 1 Bouffalant SCR 119
 1 Bouffalant SSP 151
 
-Trainer: 36
+Trainer: 37
 4 Lillie's Determination MEG 119
 4 Boss's Orders MEG 114
 4 Team Rocket's Petrel DRI 176
@@ -88,44 +88,46 @@ Trainer: 36
 1 Pokémon Center Lady MEG 123
 4 Jumbo Ice Cream PFL 91
 4 Pokégear 3.0 SVI 186
-2 Poké Pad POR 81
 2 Night Stretcher ASC 196
+2 Switch MEG 130
+1 Poké Pad POR 81
 1 Buddy-Buddy Poffin TEF 144
 1 Ultra Ball MEG 131
-1 Switch MEG 130
 1 Hero's Cape TEF 152
 1 Team Rocket's Factory DRI 173
 1 Festival Grounds TWM 149
+1 Lumiose City POR 77
 
-Energy: 13
-4 Spiky Energy JTG 159
+Energy: 12
 4 Growing Grass Energy POR 86
 4 Mist Energy TEF 161
+3 Spiky Energy JTG 159
 1 Grass Energy MEE 1
 ```
 
 ### Inclusions
 
-- Bouffalant is a very nice addition because it significantly helps against otherwise bad matchups such as Slowking, Festival Lead, and Hide n Sneak. It was also supposed to help against Dragapult with anti-Crustle tech, but unfortunately that matchup is still bad. There are some downsides to Bouffalant and requires some accomodation with the list, such as the addition of Stretcher and Poke Pad. That said, Crustle's good matchups are still good and Bouffalant saves a few bad ones, which is very good for Crustle.
+- Bouffalant is a very nice addition because it significantly helps against otherwise bad matchups such as Slowking, Festival Lead, and Hide n Sneak. It was also supposed to help against Dragapult with anti-Crustle tech, but unfortunately that matchup is still bad (especially if they have Watchtower). There are some downsides to Bouffalant and requires some accomodation with the list, such as the addition of Stretcher and Poke Pad. That said, Crustle's good matchups are still good and Bouffalant saves a few bad ones, which is very good for Crustle.
 - Although this list is a little less aggressive than the Crispin one, Boss is still very good for applying pressure to the relevant threats (sometimes with Kang attacking). Boss also has the added utilty of straining opponent's resources / stalling, which is also quite nice for this deck.
 - I swapped Hilda out for Brock's Scouting to make the deck more consistent. Like Hilda, it can still find Crustle when needed, but it's a bit harder to find specific Energy now.
-- Eri is very good for the mirror, Dragapult, and Alakazam matchups. It actually gives the deck a chance of beating Alakazam, even if they have Dedenne. Two is needed to make it relevant, otherwise it would be drawn too infrequently as a one-of.
+- Eri is very good for the mirror, Dragapult, and Alakazam matchups. It actually gives the deck a good chance of beating Alakazam with Hammers. Two is needed to make it relevant, otherwise it would be drawn too infrequently as a one-of.
 - Pokemon Center Lady is like another Jumbo Ice Cream and also heals Mind Bend confusion, which is a lot more relevant now that most Dragapult decks play Crushing Hammer.
 - Poke Pad is needed to find Bouffalant, along with Night Stretcher to recover a Bouffalant if it gets targeted down.
 - Ultra Ball is necessary to find Kangaskhan if you don't start with it. All of these Trainer cards go very well with Team Rocket's Petrel.
 - I'm not sure if Team Rocket's Factory is the best Stadium option but we do need Stadiums to bump Team Rocket's Watchtower, and drawing cards is good. Festival Grounds is also quite handy to remove Mind Bend's confusion. Unlike Pokemon Center Lady, it can instantly be utilized off a Petrel.
+- I added a Lumiose to help find Pokemon under Item lock as well as general consistency and counter to Watchtower. It's a nice multipurpose card.
+- I added a second Switch because the card is often very useful, especially with Bouffalant.
 - The Grass Energy ensures that Dragapult cannot Hammer away all of the Growings to stop Crustle from attacking entirely. Even if you prize a Growing, there is significantly less risk against Hammer. More Energy is generally good since we want to attach Energy every turn.
 
 ### Possible Inclusions
 
-- Psyduck could be good to help against Dragapult / Dusknoir.
+- Psyduck could be good to help against the various Dusknoir decks.
 - Tool Scrapper could be a tech for the Enamorus + Cape combo, and would also help in the mirror match.
 - Enhanced Hammer would be a good tech for Slowking and the mirror match.
 - Hilda would still be nice to find specific Energy cards consistently.
 - Handheld Fan is a fairly strong disruption card, though usually the attacker would rather have Hero's Cape.
-- Lumiose City is probably fine.
 - Special Red Card is probably ok.
-- Another Crustle or Switch would be nice to have.
+- Another Crustle would be nice to have.
 
 ### Exclusions
 

@@ -109,7 +109,7 @@ Energy: 8
 2 Darkness Energy MEE 15
 ```
 
-Dragapult / Blaziken is one of the decks where the normal list has gotten rather optimized. Some still play Clefairy, and lots of them still play Area Zero as well. Shaymin is sometimes included and sometimes not.
+Dragapult / Blaziken is one of the decks where the normal list has gotten rather optimized. Some of them, such as the Louisville second place list, play double Judge and double Watchtower. Some still play Clefairy, and some of them still play Area Zero as well. Shaymin is sometimes included and sometimes not.
 
 <!-- /PUBLIC -->
 ## Gameplay Tips
@@ -152,6 +152,7 @@ For Dragapult in general:
 - Do NOT evolve into Blaziken if there's a risk of it getting stuck and smacked for 200. Blaziken is very good in this matchup, but make sure it's not a liability before putting it into play. If they Boss Blaziken, you want to be able to retreat it and attack with something else. Sometimes you have no choice but to attack with it, which is still better than it getting stuck.
 - Against Patrat, it can be a convenient snipe target, but it's not a priority to Boss up since they play lots of Night Stretchers.
 - Against Dusknoir, you have additional incentive to go for a fast Phantom Dive since you can snipe down Duskull before they evolve. If they don't have a threat of Dusknoir, it's fine to play a slower game and go for a better setup. Of course, if they already evolved Duskull into Dusclops, the incentive to go fast is no longer there. The opposite is true because you don't want to walk into Dusknoir + Phantom Dive on your only Dragapult.
+- With the single Blaziken list, we can't evolve into it through Item lock. Don't bother putting Torchic down unless you can likely use Candy next turn, such as if you can use Budew to stop them from finding their Budew. Don't put Torchic down if it will easily get sniped by Adrenabrain + Phantom Dive. If you don't have an opening to put it down early, disruption + Boss + Itchy Pollen can create an opening to get it into play later, or you might not even need it at all.
 
 ```youtube
 id: SmX3t4Se6hk
@@ -236,17 +237,19 @@ id: ElRlP72TodY
 title: ZamNoir v PultBlaze 3
 ```
 
-### Slowking - Slightly Unfavorable
+### Slowking - Slightly Favorable
+
+Recent lists are better against Slowking than before, but the matchup is still close. My list has triple Candy and triple hand disruption, which is helpful. The list with double Judge double Watchtower is also quite effective against Slowking.
 
 - If you're expecting Trifrost, the ideal board is Budew, Dreepy, Fez (or just Budew Fez).
 - Rare Candy can help with making fast Stage 2's or recovering off Trifrost. Ideally, you'll get a Turn 2 Phantom Dive or Blaziken, but of course that won't always happen.
 - Fezandipiti can be a useful attacker or wall, especially early in the game. If you force them to Trifrost into Fez (by only having three Pokemon in play), Munkidori can use it to farm damage later.
-- Blaziken can be a great attacker later in the game since they cannot easily one-shot it (it's not weak to Clefairy). They would need either Annihilape or Brave Bangle, which many lists don't play.
+- Blaziken can be a great attacker later in the game since they cannot easily one-shot it (it's not weak to Clefairy). They would need either Fighting Annihilape or Brave Bangle, which many lists don't play.
 - Avoid giving them easy Trifrost lines to win the game. This is very situational based on the board. Sometimes it’s fine to bench extra Dreepy and stuff, and sometimes it’s game-losing.
 - Munkidori is extremely important if they end up Trifrosting any two-prizer for less than a KO.
 - Phantom Dive almost always puts six on the backup Slowpoke/King that is least likely to attack next turn unless you're setting up to win the game another way.
 - Judge is very good early-game or whenever they have a big hand, or when they use Cipher to set up their next turn.
-- If they play Zeraora, you have to constantly try to get Drakloak and Dragapult into play. They can punish you for sitting behind Budew with Fez and no Drakloak by sniping Fez. Zeraora is somewhat rare and bad, so I wouldn't play around it super hard unless you know they have it.
+- If they play Zeraora, you have to constantly try to get Drakloak and Dragapult into play. They can punish you for sitting behind Budew with Fez and no Drakloak by sniping Fez. Most of the time they would rather go for Kyurem, so I wouldn't play around it super hard (just make sure you are at least threatening Drakloak / Dragapult).
 
 ### Excadrill - Favorable
 
@@ -261,7 +264,7 @@ id: 8pYQpK3xHAQ
 title: Drill v PultBlaze 1
 ```
 
-### Crustle - Depends on Tech
+### Crustle - Very Favorable
 
 With a tech such as Chi-Yu, this matchup is very favorable. Without it, it's very unfavorable.
 
