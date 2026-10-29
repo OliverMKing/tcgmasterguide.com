@@ -166,6 +166,16 @@ title: Festival v Zam 2
 - Shaymin is the biggest priority if they are threatening a Trifrost. If Shaymin is prized, it's still possible to get Rabsca out quickly for protection. Make sure you always have some form of protection from Trifrost.
 - If they play Cofagrigus, you NEED Rabsca. If you don't get Rabsca, you have to be very careful and stagger the Abilities on your board. Try to play with only one Thwackey in play and don't evolve Applin until it's time to attack.
 
+### Rayquaza - Unfavorable
+
+- Try to conserve Stadiums and Lillie’s to maximize the chances of drawing out of hand disruption + Pyroduct, and thin out other useless cards. Ultimately this does come down to luck though.
+- Shaymin can be decent to stop Cruel Arrow combos.
+
+```youtube
+id: ZOFC69WIz8o
+title: Ray v Festival 1
+```
+
 ### Excadrill - Favorable
 
 - Set up triple Thwackey and triple apple (or double apple plus Seaking). Seaking is useful in this matchup because it can still one-shot anything with the right modifiers. It is similar to another Dipplin and Goldeen has Festival Lead. However, the draw effect of Seaking can be very bad if you need to use Gladion in the future!

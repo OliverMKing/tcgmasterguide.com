@@ -292,6 +292,15 @@ id: DuCHkNj08Rw
 title: King v Pultnoir 2
 ```
 
+### Rayquaza - Unfavorable
+
+- Dusknoir is best used for board control. Typically you can use it to one-shot a Ray combined with hand disruption to make it harder for them to respond-KO your Dragapult.
+- Use Stamp when it’s most likely to stop them from respond-KO’ing a Dragapult. Judge is very good after they use Talonflame, but you may need to prioritize your own setup instead.
+- If you play Risky Ruins, it’s very strong in this matchup for getting relevant Munkidori damage.
+- Ideally, go for a 3-3 line on their Ray and Kang (or two Rays). However, sometimes Phantom Diving into their Talonflame is unavoidable, so you can go for a 3-2-2 line instead and it’s not as bad as it sounds.
+- If they play Chien-Pao, you’ll want to play around that to some extent and not leave too much damage in play.
+- Early Watchtower can be good if they aren’t playing Stadiums besides Pyroduct since they might brick. Against the version with more Stadiums, it’s risky because they have more outs, and then can later make you brick with Pyroduct.
+
 ### Excadrill - Unfavorable
 
 - Go second.

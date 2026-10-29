@@ -141,6 +141,24 @@ id: IAtSXBDV-Hc
 title: King v Hydrap 2
 ```
 
+### Rayquaza - Even
+
+- The most reliable win condition is to Stamp them before their board is developed and have a pop off turn. Unfortunately, it’s kind of hard to find Stamp unless you Cipher for it.
+- Push a single-prizer in the early-game (ideally Celebi along with its attack) to force them to activate Stamp with their Talonflame. You may not want to do this if you have no out to Stamp on the following turn (but even a Lillie would be good enough).
+- In a slower-paced game, may need to save Forests for countering Pyroduct. In faster games, it may not be necessary to save Forests.
+- Fezandipiti is premium draw support and you basically always want it in play.
+- Hydrapple is a decent attacker since it’s much harder to KO, but sometimes you need to use Ogerpon as an attacker in the early-game since it’s doing more damage before you ramp up.
+
+```youtube
+id: 1087wX8dOXw
+title: Ray v Hydrap 1
+```
+
+```youtube
+id: ThUdlx124MM
+title: Ray v Hydrap 2
+```
+
 ### Excadrill - Slightly Favorable
 
 - Meganium pieces are premium so try not to discard them or put Chikorita down before getting value from it.

@@ -192,6 +192,10 @@ id: M8Rd7GLBnz0
 title: ZamNoir v Slowking 1
 ```
 
+### Rayquaza - Very Unfavorable
+
+- With no Stadiums, we are very weak to Pyroduct. The best option is to be very aggressive with Dusknoir / Dusclops to put them into Red Card range, then use Red Card after they use Talonflame’s attack to try and deny Pyroduct. If you play Stadiums, you can play with a bit more precision and patience since you have an out to Pyroduct.
+
 ### Excadrill - Auto-Win
 
 - If they go with Team Rocket’s Kang + Articuno, go for Dusknoir on the Articuno + Alakazam one-shot on the Kang. If the Articuno has Cape, double Dusknoir.

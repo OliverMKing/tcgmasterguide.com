@@ -58,6 +58,8 @@ Energy: 14
 
 ### Possible Inclusions
 
+- Passimian is a little better now with more Dudunsparce and Kang in the metagame.
+- Talonflame ex is good, especially if you also play Unfair Stamp along with it.
 - Iron Crown plus Special Red Card is quite strong against Festival Lead. This combo also helps against Alakazam, though that matchup is still pretty bad.
 - Mew ex is probably fine but I don't think it's as good as all the hype. With four Energy Switch, Mew's versatility isn't necessarily required for this deck.
 - Unfair Stamp is still very good. I just don't think it synergizes very well with the deck. The same can be said for Special Red Card. Alone, those cards aren't enough to salvage bad matchups, but they're still generally good cards.
@@ -70,7 +72,6 @@ Energy: 14
 - The second Raging Bolt isn't very important.
 - Iron Leaves is bad and useless. Retreat lock is no problem since every Pokemon (besides Chien Pao) can attack, and we also have Prime Catcher.
 - I think Paldean Tauros is bad and worse than Enamorus. The only real reason to play it over Enamorus is the Excadrill matchup, which I just don't care enough about.
-- Passimian is not very good. It can help slightly against Crustle, but that matchup is still bad anyway. If you did play Passimian, it would probably be best to add Stamp back in.
 
 ## Gameplay Tips
 
@@ -354,6 +355,37 @@ title: King v Bolt 1
 ```youtube
 id: hnu2VK19vmk
 title: King v Bolt 2
+```
+
+### Rayquaza - Even
+
+- Heavily rely on Raging Bolt to take big KO’s. It is the main attacker in this matchup and you’ll usually need Stretcher to get it back. Similarly, Glass Trumpet is a premium card for enabling Raging Bolt attacks.
+- Clefairy is very good if they overbench. If they have five Pokemon on their bench, you can go wide with Area Zero and have Clefairy hit for 280, which perfectly one-shots Ray or Talonflame. Even if they don’t enable that play, Clefairy is still an efficient way to take two prize cards along with Boss’s Orders against the likes of Fez or Latias.
+- A fast Kang attack can be pretty good since you might get lucky on flips. Even if you don’t, forcing them to KO Kang activates Special Red Card (if you play it). An early Special Red Card or Stamp is very strong against them.
+- Assuming they’re playing Stamp, try to make a robust board when you take a KO (Kang, Fez, some Energy) so that you don’t just lose to a Stamp. Of course, there’s a much lower risk of Stamp if they did not use Talonflame’s attack recently.
+- If you play Talonflame and Stamp, you can copy their strategy and use early Talonflame to find Stamp and Boss. If you take the first KO with Talonflame, you’re winning the trade. If they take the first KO, you can Stamp and cripple them. Of course, the same is also true for them.
+- If you can’t maintain tempo, Sob is fairly reliable to buy a turn or two. I wouldn’t rely on it for extended periods of time just in case they play a switching card.
+- If you play Cape, it’s usually best on Raging Bolt or Fez.
+- It’s not out of the question to keep double Kang on board just to be more resilient to Stamp. If you do that, you may have to eventually use Chien-Pao to protect yourself from getting 3-3’d.
+
+```youtube
+id: KEuPsjIcyKk
+title: Ray v Bolt 1
+```
+
+```youtube
+id: TDOvqaLb17w
+title: Ray v Bolt 2
+```
+
+```youtube
+id: H94KNR-YL-0
+title: Ray v Bolt 3
+```
+
+```youtube
+id: YQtvh6S7Rrg
+title: Ray v Bolt 4
 ```
 
 ### Excadrill - Slightly Unfavorable

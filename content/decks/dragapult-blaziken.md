@@ -251,6 +251,20 @@ Recent lists are better against Slowking than before, but the matchup is still c
 - Judge is very good early-game or whenever they have a big hand, or when they use Cipher to set up their next turn.
 - If they play Zeraora, you have to constantly try to get Drakloak and Dragapult into play. They can punish you for sitting behind Budew with Fez and no Drakloak by sniping Fez. Most of the time they would rather go for Kyurem, so I wouldn't play around it super hard (just make sure you are at least threatening Drakloak / Dragapult).
 
+### Rayquaza - Unfavorable
+
+- Go for three back-to-back Phantom Dives as soon as possible.
+- Use Stamp when it’s most likely to stop them from respond-KO’ing a Dragapult. Judge is very good after they use Talonflame, but you may need to prioritize your own setup instead.
+- If you play Risky Ruins, it’s very strong in this matchup for getting relevant Munkidori damage.
+- Ideally, go for a 3-3 line on their Ray and Kang (or two Rays). However, sometimes Phantom Diving into their Talonflame is unavoidable, so you can go for a 3-2-2 line instead and it’s not as bad as it sounds.
+- If they play Chien-Pao, you’ll want to play around that to some extent and not leave too much damage in play.
+- Early Watchtower can be good if they aren’t playing Stadiums besides Pyroduct since they might brick. Against the version with more Stadiums, it’s risky because they have more outs, and then can later make you brick with Pyroduct.
+
+```youtube
+id: ez-5HY2yzgc
+title: Ray v PultBlaze 1
+```
+
 ### Excadrill - Favorable
 
 - I think going first is better but honestly not sure.

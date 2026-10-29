@@ -321,6 +321,12 @@ id: 7K4rTEmfVbU
 title: King v Crust 1
 ```
 
+### Rayquaza - Very Unfavorable
+
+- The win condition is triple Crustle. If you play three Crustle, try to evolve the first two quickly, and then use Switch + Ascension to get the third one. If you’re playing two Crustle and two Stretcher, you’ll have to rely on Stretcher for the third Crustle, but at least this lets you get an extra Dwebble too.
+- Save Stadiums to bump Pyroduct as soon as they put it into play.
+- Theres no real point to taking prize cards unless you prized an important piece such as Crustle or Stadium. Taking a KO risks Unfair Stamp.
+
 ### Excadrill - Auto-Loss
 
 I don't think it's realistic to win. One idea is to go aggro Kang and hope for the best. Another is to go Crustle and hope they prized Metagross (but they sometimes play two).

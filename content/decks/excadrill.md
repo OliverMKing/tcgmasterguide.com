@@ -206,6 +206,11 @@ Without Shaymin:
 - Don’t bother trying to tiptoe around Trifrost. Our best chance is to go fast and aggressive, and hope they don’t draw great. Play normally and try to prize race them by going 3-2-1.
 - Boss is very important as you’ll need to snipe down Kang and Latias to rush prize cards.
 
+### Rayquaza - Very Unfavorable
+
+- Be as fast and aggressive as possible and hope for the best.
+- After they KO Excadrill, you may want to use Metagross to deny them an easy prize map, depending on the situation.
+
 ### Crustle - Very Favorable
 
 - Use Excadrill to remove their Kang, and then use Metagross to run through Crustle. Target down their Energy and make sure you do not somehow lose the Metagross!

@@ -274,6 +274,29 @@ id: OkwXG4DViHE
 title: King v Zam 3
 ```
 
+### Rayquaza - Depends
+
+This matchup depends on both players’ lists. For the most part, it’s favorable, but it could be around even if they have a tech.
+
+- Prioritize getting Gensect with a Tool. If they Boss-KO it, try to get it back.
+- Save Stadiums to bump Pyroduct and have more outs off hand disruption.
+- Put Fez down preemptively to protect against hand disruption
+- Going 3-3 is ideal, but it might not be optimal if they’re planning on Red Card + Pyroduct.
+- Eri is good if they don’t play Cipher or don’t play around it. After one or Talonflame uses, Eri can take away their combo pieces. Even if they try to play around it, sometimes they will naturally draw into those Items by accident.
+- Against Cipher, usually it’s better to Boss-KO their Kang to start anyway and it forces them to find Fez and Cipher while threatening 3-3.
+- If you have a poor start, you can go for a passive line that relies on Special Red Card. Wait for them to take three prizes, and then hit them with Red Card and KO their Kang. If you go for this line, do not put Fez down since you’ll lose the prize trade by doing that.
+- With the heavy Clefairy build, you can establish Clefairy with Pearl and Energy to help recover off hand disruption and still have a decent attacking option. However, you still want to prioritize Tools on Genesect, and if they play Scrapper, Clefairy can lose the trade anyway, so it’s not always that great.
+
+```youtube
+id: N-9MpBsRkjo
+title: Ray v Zam 1
+```
+
+```youtube
+id: S2RcFuATnTk
+title: Ray v Zam 2
+```
+
 ### Excadrill - Very Favorable
 
 - Draw cards as much as possible so you can quickly one-shot Excadrill. The one exception is sometimes Fez. Sometimes it’s fine to put down, but if they got a fast start and you’re behind several prizes, it might be too much of a risk. Of course, if Fez is the difference between KO’ing an Excadrill and not, then it’s usually worth it.
