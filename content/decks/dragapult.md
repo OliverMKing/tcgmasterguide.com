@@ -312,6 +312,20 @@ title: Pult v King 2
 ```
 This game was funny because Pult prized all of its Psychics and still nearly won.
 
+### Rayquaza - Unfavorable
+
+- Similar to the Raging Bolt matchup, early Crushing Hammers along with Itchy Pollen can be very good to delay their first attack.
+- Stamp is ideal when you’re attacking with Dragapult, or when they otherwise can’t immediately use Talonflame to respond. Hand disruption is generally good after they use Talonflame’s attack.
+- Risky Ruins is premium in this matchup. Don’t play it too early because you could get bodied by Pyroduct, but you don’t have to save it forever. You’ll eventually want to play Ruins to get Munkidori damage into play, which is very relevant against Rayquaza.
+- Ideally, go for a 3-3 line on their Ray and Kang (or two Rays). However, sometimes Phantom Diving into their Talonflame is unavoidable, so you can go for a 3-2-2 line instead and it’s not as bad as it sounds.
+- If they play Chien-Pao, you’ll want to play around that to some extent and not leave too much damage in play.
+- If you play Dudunsparce ex, it’s very strong in this matchup. Even as a deterrent, hand disruption is more powerful if they purposely limit their own board. As soon as they put too many Pokemon ex in play, just throw Dudunsparce ex in their face.
+
+```youtube
+id: NQEUWtQn6UI
+title: Ray v PultDudun 1
+```
+
 ### Excadrill - Unfavorable
 
 With Moltres, this matchup is about even. Without it, it's unfavorable.

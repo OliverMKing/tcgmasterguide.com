@@ -271,6 +271,18 @@ title: ZamNoir v Slowking 1
 - Spam Trifrost unless they have Kang in the active that you can KO with Metagross. Trifrost on their Slowking is still good because you can wipe out all their Pokes/Kings with two Trifrosts. Of course, the same can also be done to you and there’s nothing you can do about it. Sniping two-prize Pokemon with Trifrost can also be very good for the prize map. If they have Munkidori, sniping Meowth/Clefairy is still good, but sniping Latias/Fez is not as good (but can still be viable if you’re KO’ing Munkidori and don’t think they can replace it).
 - Save Switches in case they have Drapion.
 
+### Rayquaza - Unfavorable
+
+- Try to attack with Slowking as quickly as possible to win a prize trade outright. Both decks win in three attacks, so he who strikes first wins.
+- Establish Kang and Fez to help against hand disruption. Save Stretchers in case they KO Fez.
+- Against the Area Zero build, you may need multiple Stadiums to win the Stadium war.
+- On the turn of your second Metagross attack, it may be optimal to pre-Stretcher a Metagross back. That way, if they Boss + Stamp, all you need is Cipher to get the Metagross KO.
+
+```youtube
+id: uTAyKTOHJ50
+title: Ray v Slowking 1
+```
+
 ### Excadrill - Depends
 
 This matchup depends on if they have Shaymin. If they do, it's unfavorable. If they don't, it's favorable.

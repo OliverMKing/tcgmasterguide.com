@@ -307,6 +307,24 @@ id: 0Fk7J6XC3RU
 title: Zoro v Slowking 4
 ```
 
+### Rayquaza - Favorable
+
+- Pushing Zoroark active in the early-game is generally best. It’s hard for them to actually get to the KO on Zoroark. If they smack it with Talonflame, keep that Zoroark on the bench as an Adrenabrain bank. If that happens, establish Munkidori as fast as possible and start spreading 30 to their big guys. Of course, if they can easily get a Ray KO, don’t feed them a Zoroark for no reason (but that’s pretty rare).
+- Damage modifiers and Pecharunt ex are premium options for one-shotting their Megas and Talonflame.
+- Early Boss KO on a two-prizer can also be very good. We want to be as aggressive as possible, and we don’t necessarily have to go 3-3 in order to win.
+- Turn one Scratch can be relevant on their Kang if you have nothing better to do.
+- Save Stadiums to counter Pyroduct.
+
+```youtube
+id: aBB8KegXeT8
+title: Ray v Zoro 1
+```
+
+```youtube
+id: iMSNMv_kMAc
+title: Ray v Zoro 2
+```
+
 ### Excadrill - Unfavorable
 
 - Random Scratch or Clutch on Drilbur / Excadrill is very good because it sets up for the Black Belt Mochi one-shot.
