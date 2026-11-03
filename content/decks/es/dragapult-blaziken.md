@@ -6,53 +6,61 @@ format: Standard
 ---
 ## Decklist
 
-![Blaziken list](./images/dragapult-blaziken/chi.png)
+![Blaziken list](./images/dragapult-blaziken/1blaze.png)
 ```decklist
-Pokémon: 21
-4 Dreepy ASC 158
-4 Drakloak ASC 159
-2 Dragapult ex ASC 160
-2 Torchic DRI 40
-1 Combusken DRI 41
-2 Blaziken ex JTG 24
-2 Munkidori ASC 99
-1 Fezandipiti ex ASC 142
+Pokémon: 19
+4 Dreepy TWM 128
+4 Drakloak TWM 129
+2 Dragapult ex TWM 130
+2 Munkidori TWM 95
+2 Budew PRE 4
+1 Torchic DRI 40
+1 Blaziken ex JTG 24
 1 Meowth ex POR 62
-1 Budew ASC 16
+1 Fezandipiti ex SFA 38
 1 Chi-Yu TWM 39
 
-Trainer: 31
+Trainer: 33
 4 Lillie's Determination MEG 119
 3 Boss's Orders MEG 114
 2 Crispin SCR 133
+1 Judge DRI 167
 1 Dawn PFL 87
-4 Buddy-Buddy Poffin ASC 184
 4 Ultra Ball MEG 131
 4 Poké Pad POR 81
-3 Rare Candy MEG 125
-2 Night Stretcher ASC 196
+4 Buddy-Buddy Poffin TEF 144
+3 Rare Candy SVI 191
+3 Night Stretcher ASC 196
 1 Special Red Card CRI 82
 1 Unfair Stamp TWM 165
-2 Risky Ruins MEG 127
+1 Risky Ruins MEG 127
+1 Team Rocket's Watchtower DRI 180
 
 Energy: 8
-3 Fire Energy MEE 2
 3 Psychic Energy MEE 5
+3 Fire Energy MEE 2
 2 Darkness Energy MEE 7
 ```
 <!-- PUBLIC -->
 ### Inclusiones
 
-- Agregue a Chi-Yu para counterear a Crustle por ahora.
+- Agregue a Chi-Yu es muy bueno para iniciar en muchos matchups. Además de robar 2, si ataque es bastante util contra Alakazam, Zoroark y decks tipo planta. Claro que su proposito princiap les hacerle counter a Crustle pero si solo fuera ese su uso, probablemente no estaria en la lista.
+- Agregue segundo Budew para los mirrors y aumentar las posibilidades de iniciar con el. 
+- Juez es bueno para romper los momentos 'muertos' en los mirrors o quitar combos de la mano pero también es útil contra Slowking y Alakazam.
+- Tercer Night Stretcher entra a la lista para compensar la linea delgada de Blaziken.
+- Special Red Card es muy importante para tener más opciones de atacar la mano de tu oponente.
+- Igual que la version de Crushing Hammer de Dragapult, Risky Ruins es muy útil y de alto impacto y es el mejor estadio para este deck. Pueden ser útiles en cualquier matchup pero son especialmente fuertes contra Alakazam.
+- Agregue una Watchtower por Patrat y te da una opción adicional para ganar contra decks que dependen de Mega Kangaskhan o Dudunsparce.
 - Dawn es mejor de lo que esperaba. Me gustaría volver a incluir la segunda copia, pero no sé dónde está el espacio, ya que también quiero un segundo Crispin.
 - Rare Candy es una carta que puede ser inútil o extremadamente impactante. Hay partidas en las que no la necesitas, pero es muy poderosa e importante tenerla en turnos específicos en diversas situaciones. La probé con dos y tres copias y me pareció lo suficientemente fuerte como para justificar la tercera.
 - Crispin es extremadamente fuerte. Lo usé muchísimo, a pesar de que el deck también incluye a Blaziken. Un aspecto muy subestimado es la facilidad para encontrar la Energía, algo que a veces puede ser inconsistente.
-- Special Red Card reemplaza a Petrel ya que es similar a Unfair Stamp. Aunque sería bueno tener a Petrel para encontrar Rare Candy, en definitiva no es una carta tan fuerte.
 - Al igual que Dragapult, Risky Ruins es muy útil e impactante. Creo que es el mejor Estadio por mucho. Pueden ser útiles en cualquier matchup y son particularmente importantes contra Alakazam. Un Risky Ruins podría ser Watchtower.
 
 ### Posibles Inclusiones
 
 - Una segunda Dawn sería útil.
+- Con solo un Blaziken, podrías agregar un tercer Dragapult o Rosa's Encouragemente o inclusive un Combusken.
+- Una linea mas gruesa de Blaziken también podría ser incluida.
 - Clefairy ex podría ser útil para los mirror pero por ahora me parece más importante tener una respuesta contra Crustle.
 - Team Rocket's Watchtower es bueno en el meta actual y se volvió aún mejor con Special Red Card.
 
@@ -63,23 +71,25 @@ Energy: 8
 - Creo que Judge y Harlequin son malas cartas, así que no las voy a jugar a menos que encuentre una buena razón para hacerlo.
 - Probé con cuatro Boss’s Orders porque la carta está rota, pero no me pareció necesario en las pruebas.
 - Area Zero no vale la pena sin jugar Chien-Pao para remover Pokemon de juego. 
+- Quite una de las lineas de Blaziken para tener más espacio ya que con uno creo que es suficiente para lo que lo necesitas. Aun cuando está premiado el deck sigue siendo un deck de Dragapult que obviamente es muy bueno.
 
 ## Lista Común
 
-![normieBlaziken list](./images/dragapult-blaziken/judge.png)
+## Standard List
+
+![normieBlaziken list](./images/dragapult-blaziken/goodnormie.png)
 ```decklist
-Pokémon: 22
 Pokémon: 21
-4 Dreepy ASC 158
-4 Drakloak ASC 159
-2 Dragapult ex ASC 160
+4 Dreepy TWM 128
+4 Drakloak TWM 129
+2 Dragapult ex TWM 130
 2 Torchic DRI 40
 1 Combusken DRI 41
 2 Blaziken ex JTG 24
-2 Munkidori ASC 99
+2 Munkidori TWM 95
+1 Budew ASC 16
 1 Fezandipiti ex ASC 142
 1 Meowth ex POR 62
-1 Budew ASC 16
 1 Chi-Yu TWM 39
 
 Trainer: 31
@@ -87,24 +97,24 @@ Trainer: 31
 3 Boss's Orders MEG 114
 2 Crispin SCR 133
 1 Dawn PFL 87
-1 Judge DRI 167
-4 Buddy-Buddy Poffin ASC 184
+1 Judge POR 76
 4 Ultra Ball MEG 131
+4 Buddy-Buddy Poffin TEF 144
 4 Poké Pad POR 81
 2 Night Stretcher ASC 196
 2 Rare Candy MEG 125
 1 Special Red Card CRI 82
 1 Unfair Stamp TWM 165
-1 Area Zero Underdepths SCR 131
-1 Team Rocket's Watchtower ASC 210
+1 Risky Ruins MEG 127
+1 Team Rocket's Watchtower DRI 180
 
 Energy: 8
-3 Fire Energy MEE 2
-3 Psychic Energy MEE 5
-2 Darkness Energy MEE 7
+3 Psychic Energy MEE 13
+3 Fire Energy MEE 10
+2 Darkness Energy MEE 15
 ```
 
-La mayoría de las listas de Blaziken tienen Area Zero o Rocket's Watchtower. Shaymin también es bastante común como tech.
+la lista normal de este deck ya está bastante optimizada. Algunas como la de segundo lugar de Louisville juega doble Judge y doble Watchtower. Otras aun juegan Clefairy y muchas de ellas juegan Area Zero. Shaymin también aparece de vez en cuando.
 
 <!-- /PUBLIC -->
 ## Gameplay
@@ -112,6 +122,8 @@ La mayoría de las listas de Blaziken tienen Area Zero o Rocket's Watchtower. Sh
 Para Dragapult en general:
 
 - Elige iniciar contra todo.
+- Con la lista de solo un Blaziken, no es posible evolucionar hacia él si hay un bloqueo de objetos activo. No merece la pena poner a Torchic en juego a menos que sea muy probable que puedas usar un Caramelo Raro en el siguiente turno; por ejemplo, si puedes utilizar a Budew para impedir que el rival encuentre su propio Budew. Tampoco lo pongas en juego si es probable que sea noqueado fácilmente mediante la combinación de Adrena Brain y Phantom Dive. Si no se presenta una oportunidad para desplegarlo al principio, puedes recurrir a una combinación de cartas de disrupción, Boss e Itchy Pollen para crear el momento adecuado; o bien, puede que ni siquiera llegues a necesitarlo.
+- Listas con dos Budew pueden elegir ir segundo en el mirror ya que pueden obtener más valor de un Budew turno 1. Yo personalmente seguiria eligiendo primero con listas que tengan solo un Budew.
 - Para el set up, suelo priorizar dos Dreepy y un Torchic en el primer turno. Blaziken es útil en la mayoría de las partidas, y puedo conseguir el tercer Dreepy más adelante. Sin embargo, si creo que es probable que consiga tres Drakloak en el siguiente turno, elegiré el tercer Dreepy en lugar del Torchic.
 - Normalmente me gusta dejar un espacio libre en el tablero para Risky Ruins, Munkidori o un Pokémon de apoyo, ya que puedo necesitar esa flexibilidad. Esto no es tan cierto si el oponente va a conseguir un KO seguro en su siguiente turno.
 - Si Torchic está en peligro y no podrás atacar sin Blaziken en el siguiente turno, baja un segundo Torchic. De lo contrario, no te molestes en conseguir un segundo Torchic.
@@ -203,6 +215,20 @@ id: 3oqKTcPvTRs
 Título: Blaziken v Zam 2
 ```
 
+### Mega Rayquaza - Desfavorable
+
+- Intenta realizar tres Phantom Dive de forma consecutiva tan pronto como sea posible.
+- Usa Stamp en el momento en que sea más probable que evite que el oponente responda con un KO contra tu Dragapult. Judge es una opción excelente justo después de que el rival utilice a Talonflame, aunque a veces es preferible priorizar tu propia preparación.
+- Si incluyes Risky Ruins en tu deck, resulta muy eficaz en este matchup para infligir daño clave con Munkidori.
+- Lo ideal es aplicar un mapa de premios 3-3 entre sus Rayquaza y Kangaskhan (o dos Rayquaza). No obstante, a veces es inevitable usar Phantom Dive contra su Talonflame; en ese caso, puedes optar por una distribución de 3-2-2, lo cual no es tan negativo como parece.
+- Si el rival juega con Chien-Pao, deberás tenerlo en cuenta y evitar dejar demasiado daño acumulado en el campo.
+- Usar Watchtower al principio de la partida puede ser una buena estrategia si el oponente no utiliza otros estadios además de Pyroduct, ya que esto podría dejarle sin jugadas posibles. Por el contrario, si el rival incluye más estadios, la jugada resulta arriesgada: tendrá más opciones para responder y, más adelante, podría usar Pyroduct para dejarte a ti sin jugadas.
+
+```youtube
+id: ez-5HY2yzgc
+title: Ray v PultBlaze 1
+```
+
 ### Crustle - Depende de la Tech
 
 Con una tech como Chi-Yu, este matchup es muy favorable; sin él, resulta muy desfavorable.
@@ -292,7 +318,9 @@ id: 8pYQpK3xHAQ
 Título: Drill v PultBlaze 1
 ```
 
-### Slowking - Ligeramente Desfavorable
+### Slowking - Ligeramente Favorable
+
+Las listas actuales son mejores contra Slowking que antes, pero el matchup sigue estando reñido. Mi lista incluye tres copias de Candy y tres cartas para atacar la mano del oponente, lo cual resulta útil. La lista que lleva dos copias de Judge y dos de Watchtower también es bastante eficaz contra Slowking.
 
 - Caramelo Raro puede ayudar a acelerar la evolución a Dragapult o a recuperarte tras un ataque Trifrost. Lo ideal es conseguir un Phantom Dive o sacar a Blaziken en el segundo turno, aunque, por supuesto, no siempre ocurrirá así.
 - Fezandipiti puede ser un atacante o un muro útil, especialmente al principio de la partida. Si obligas al rival a usar Trifrost contra Fezandipiti (al tener solo tres Pokémon en juego), Munkidori podrá aprovecharlo más adelante para acumular daño.

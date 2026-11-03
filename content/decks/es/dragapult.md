@@ -6,7 +6,7 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for Dragapult](./images/dragapult/rosa.png)
+![decklist for Dragapult](./images/dragapult/judge.png)
 ```decklist
 Pokémon: 16
 4 Dreepy TWM 128
@@ -23,12 +23,13 @@ Trainer: 35
 4 Boss's Orders MEG 114
 2 Crispin SCR 133
 1 Rosa's Encouragement POR 84
+1 Judge DRI 167
 4 Buddy-Buddy Poffin TEF 144
 4 Ultra Ball MEG 131
 4 Poké Pad POR 81
 4 Crushing Hammer POR 71
 2 Night Stretcher ASC 196
-2 Special Red Card CRI 82
+1 Special Red Card CRI 82
 1 Unfair Stamp TWM 165
 3 Team Rocket's Watchtower DRI 180
 
@@ -43,14 +44,15 @@ Energy: 9
 - Moltres me ha convencido y funciona bien en el metajuego actual. Es especialmente efectivo contra Hydrapple, además de ser una forma de responder a amenazas rápidas como Fezandipiti o Pokémon con Hero's Cape antes de que puedas establecer a Dragapult. También se usa ocasionalmente en otros matchups, como contra Raging Bolt y Slowking.
 - Boss's Orders es extremadamente importante en prácticamente todos los matchups. Muchas veces me veo obligado a descartar uno con Ultra Ball, pero con cuatro copias, no hay problema. Jugar cuatro te permite tenerla cuando la necesitas y te da más flexibilidad para ganarle a los decks de una sola carta de premio. También funciona bien en partidas largas, lo cual suele ser relevante. 
 - Crushing Hammer está bastante roto. Una o dos caras oportunas pueden ser decisivas, y si sale cruz, sigues siendo un poderoso deck de Dragapult. Las caras tempranas pueden ser particularmente devastadoras contra Mega Kangaskhan Box, Raging Bolt y Slowking. También te da la oportunidad de ganar contra Crustle o remontar en el mirror. 
-- Special Red Card es muy buena en este deck. Quizás pienses que nunca usarás dos en una partida, pero a veces terminas haciéndolo de todos modos, especialmente si consigues el Unfair Stamp al principio. Este deck suele jugar partidas largas, así que tener dos Special Red Card es muy útil. Incluso si solo necesitas una en una partida, es crucial tenerla en el momento justo y tiene una buena sinergia con el resto de las cartas de disrupción.
+- Special Red Card es muy buena en este deck. Cambie la segunda por un Judge porque el metajuego lo favorece.
 - Unfair Stamp está increíblemente roto, especialmente con todas las demás cartas de disrupción y el esfuerzo que los oponentes tienen que hacer para lidiar con un Dragapult. En el mejor de los casos, puede ganar partidas al instante, pero al menos impide que los oponentes hagan combos y hagan lo que quieran. Creo que es el mejor Ace Spec, aunque a veces no lo tendrás cuando lo necesites.
 - Tres Rocket's Watchtower son muchas, pero con menos, no era tan consistente. Jugarla en el Turno 1 puede dejar a muchos otros decks con manos iniciales pésimas, como los mirrors y los de Mega Kangaskhan. Más adelante, lo necesitarás para combinarlo con la disrupción de mano, que tiene una alta probabilidad de dejar a los oponentes brickeados. Rocket's Watchtower es buena en el meta actual, y otros Estadios no son particularmente necesarios.
 - Añadí Rosa's Encouragement porque suele ser important y a veces es dificil usar Crispin al final del juego. También te permite usar a Munkidori más facilmente ya que puedes tener a dRagapult listo y aun así cargarle la Dark a Munkidori.
 
 ### Posibles Inclusiones
+
 - Chi-Yu sería una buena opción para destruir a Crustle. Paldean Tarous también lo hace, pero creo que Chi-Yu es mejor para esta versión.
-- Judge podría jugarse en lugar de una Special Red Card. Creo que la Special Red Card es mejor en general, pero la diferencia es mínima. Xerosic's Machinations son una opción similar por las mismas razones.
+- Segundo Budew sería bueno.
 - Dark Bell no fue nada especial cuando la agregue. La confusión es buena pero la carta es mucho más situacional de lo que pense y no estoy seguro si debe ir en el deck.
 - Risky Ruins y Dudnsparce acaban de ganar el Mundial 2026 y Dudunsparce hace esa versión un poco más consistente.
 
@@ -119,6 +121,7 @@ Esta es la lista que gano el Mundial. Fundamentalmente es excelente y se enfoca 
 
 - Munkidori es muy fuerte. Intenta no quedarte sin espacio en banca para poder usarlo cuando lo encuentres. Por otro lado, si tienen un Munkidori con Dark, considera noquearlo para limitar sus opciones. Con Night Stretchers limitados, es posible que no puedan recuperarlo.
 - Queremos ser los primeros en atacar con Phantom Dive. Elige ir primero, ya que hay muchas maneras de encontrar a Dreepy. Ir primero también te da la opción de dejarlos fuera del juego por completo con Fezandipiti, dependiendo de tu mano.
+- Listas con dos Budew quiza quieran ir segundo en el mirror ya que pueden obtener valor de turno 1 Budew. Si solo juegas 1, elegiria ir primero.
 - Un Cruel Arrow rápido de Fezandipiti es MUY bueno en este matchup si se alinea con Crispin. Claro que no es muy bueno si juegan Shaymin. Si no tienes un Cruel Arrow rápido posible, generalmente no vale la pena poner a Fezandipiti en juego al principio.
 - En el Turno 1, usa Items de forma anticipada para jugar alrededor de Budew. PokéPad para Drakloak, Ultra Ball para Meowth, lo que sea mejor en la situación. Simplemente no dejes que esos Items se atoren si tienes la oportunidad de usarlos.
 - Budew a veces es útil y a veces no. Si vas segundo, especialmente si tienes Unfair Stamp es una prioridad en el Turno 1. Si no tienes una razón para buscar a Budew, no es necesario. Usar una Energía para retraer puede resultar en una pérdida de tempo significativa, especialmente si Budew es noqueado o juegan alrededor de el con Boss's Orders. Incluso si no sucede, es una desventaja en el tablero para más adelante. También usaron sus Items en el Turno 1 al ir primero, así que solo importa si usan Lillie's Determination y roban Items de búsqueda. Budew puede proteger tu Energía de los Crushing Hammers del oponente, pero esto solo es relevante en ciertas situaciones. En otras palabras, no priorices a Budew sin pensar, pero puede ser útil si tienes una razón para hacerlo.
@@ -135,7 +138,9 @@ id: aUJFp8ykZHE
 title: Hammers v Noir 2
 ´´´
 
-### Raging Bolt - Favorable
+### Raging Bolt - Depende
+
+Para mis listas con Watchtower y Moltres o Dudunsparce ex es favorable. Para las mas directas con Risky Ruins y sin techs el matchup es mucho más parejo o incluso desfavorable.
 
 - Poner a Moltres al principio de la partida puede ser ideal, sobre todo si amenazan con un ataque rápido antes de que puedas sacar a Dragapult. Puede ser una buena respuesta a un Fezandipiti rápido, pero no es tan buena si ya tienen a Wellspring Ogerpon con alguna Energía.
 - Sin embargo, si puedes usar Itchy Pollen + Crushing Hammer para evitar que ataquen, mucho mejor.
@@ -365,6 +370,20 @@ title: Sneak v Pult 2
 ```youtube
 id: O5GnPSfiIww
 title: Sneak v Pult 3
+```
+
+### Rayquaza - Desfavorable
+
+- Al igual que en el matchup contra Raging Bolt, el uso temprano de Crushing Hammers, junto con Itchy Pollen, puede resultar muy eficaz para retrasar su primer ataque.
+- Usa Stamp en el momento en que sea más probable que evite que el oponente responda con un KO contra tu Dragapult. Judge es una opción excelente justo después de que el rival utilice a Talonflame, aunque a veces es preferible priorizar tu propia preparación.
+- Si incluyes Risky Ruins en tu deck, resulta muy eficaz en este matchup para infligir daño clave con Munkidori.
+- Lo ideal es aplicar un mapa de premios 3-3 entre sus Rayquaza y Kangaskhan (o dos Rayquaza). No obstante, a veces es inevitable usar Phantom Dive contra su Talonflame; en ese caso, puedes optar por una distribución de 3-2-2, lo cual no es tan negativo como parece.
+- Si el rival juega con Chien-Pao, deberás tenerlo en cuenta y evitar dejar demasiado daño acumulado en el campo.
+- Si juegas con Dudunsparce ex, resulta muy fuerte en este matchup. Incluso con tan solo amenazarlo, el ataque de la mano es más eficaz si el rival limita deliberadamente su propio campo. En cuanto ponga demasiados Pokémon ex en juego, usa a Dudunsparce ex para daño masivo.
+
+```youtube
+id: NQEUWtQn6UI
+title: Ray v PultDudun 1
 ```
 
 ### Mega Excadrill - Parejo

@@ -6,8 +6,8 @@ format: Standard
 ---
 <!-- PUBLIC -->
 ## Decklist
-![Pultnoir list](./images/dragapult-dusknoir/noir.png)
 
+![Pultnoir list](./images/dragapult-dusknoir/judge.png)
 ```decklist
 Pokémon: 21
 4 Dreepy TWM 128
@@ -27,11 +27,12 @@ Trainer: 30
 3 Boss's Orders MEG 114
 2 Crispin SCR 133
 1 Rosa's Encouragement POR 84
+1 Judge DRI 167
 4 Ultra Ball MEG 131
 4 Poké Pad POR 81
 4 Buddy-Buddy Poffin TEF 144
 2 Night Stretcher ASC 196
-2 Special Red Card CRI 82
+1 Special Red Card CRI 82
 1 Unfair Stamp TWM 165
 3 Team Rocket's Watchtower DRI 180
 
@@ -45,13 +46,13 @@ Energy: 9
 - Shaymin sirve principalmente contra Raging Bolt, así como contra otros Fezandipiti o Wellspring Ogerpon. Por supuesto, también es útil contra otras cartas menos comunes como Slowking y Mega Starmie.
 - Meowth suele ser necesario para jugar y es excelente para la consistencia. Puede parecer extraño con tres Watchtower, pero en realidad, estas dos cartas rara vez chocan entre sí.
 - Rosa's Encouragement suele ser justo lo que necesitas en un turno específico, especialmente en la fase final de la partida. No lo uso mucho para atacar con Dusknoir, pero es una opción viable, sobre todo contra decks como Mega Lucario. Sin embargo, se usa principalmente con Dragapult.
-- Añadí una segunda Special Red Card porque a menudo la necesitaba y una no era suficiente. Este es el mejor deck para usar Special Red Card ya que necesita remontar y desestabilizar al oponente. Special Red Card también tiene buenas sinergias con Dusknoir y Watchtower.
 - Creo que Unfair Stamp sigue siendo la mejor Ace Spec porque está completamente rota y no necesitas otra.
-- Rocket's Watchtower es muy buena en el meta actual, especialmente contra decks con MEga Kangaskhan o con Dudunsparce. Combina bien con toda la disrupción y resuelve muchos problemas. Probé con dos Watchtower y no fue suficiente porque es difícil encontrarla en el momento justo, así que añadí una tercera.
+- Rocket's Watchtower es muy buena en el meta actual, especialmente contra decks con Mega Kangaskhan o con Dudunsparce. Combina bien con toda la disrupción y resuelve muchos problemas. Probé con dos Watchtower y no fue suficiente porque es difícil encontrarla en el momento justo, así que añadí una tercera.
+- Agregue un Judge sobre una Special Red Card porque el metajuego lo maerita.
 
 ### Posibles inclusiones
 
-- Un segundo Budew está bien, pero no me resultó muy útil en las pruebas, así que creo que no hay problema en prescindir de él.
+- Un segundo Budew está bien, pero no me resultó muy útil en las pruebas, así que creo que no hay problema en prescindir de él. Dusclops te ayuda a ganar la guerra de Budews de todas formas.
 - Dawn es una buena carta para mantener la consistencia, pero al igual que muchas otras cartas de esta sección, no me impresionó en las pruebas, así que terminé quitándola.
 - Risky Ruins sigue siendo una carta bastante buena y fortalece a Dragapult en general. Sin embargo, la ausencia de Watchtower deja algunas vulnerabilidades preocupantes y reduce la efectividad de la interrupción de mano.
 - Crushing Hammer es una carta muy buena y funciona bien junto con las demás cartas de interrupción. Sin embargo, es difícil incluirlos en el deck, y jugar tres en lugar de cuatro no es muy consistente. En las pruebas, no resultaron tan útiles como esperaba, y el matchup contra la versión pura de Crushing Hammer sigue siendo difícil con o sin ellos.
@@ -61,6 +62,7 @@ Energy: 9
 - Moltres no era efectivo contra Raging Bolt, y Dusknoir ayuda bastante contra Hydrapple.
 - Rare Candy no es necesario, aunque tampoco es malo.
 - Jamming Tower es simplemente mala en el meta actual; es por mucho la peor opción de Estadio popular.
+- Patrat no funciona con Watchtower.
 
 ## Lista Estándar
 
@@ -163,6 +165,7 @@ Esto es aún más común con la lista de Blaziken.
 El matchup entre Dusknoirs es bastante parejo, pero contra otras estrategias como Blaziken o decks de Martillos puros, es desfavorable o ligeramente desfavorable.
 
 - Intenta establecer a Munkidori con Energía Oscura. Es muy fuerte en el matchup contra Dusknoir.
+- Listas con dos Budew quiza quieran ir segundo en el mirror ya que pueden obtener valor de turno 1 Budew. Si solo juegas 1, elegiria ir primero.
 - Prioriza conseguir un Duskull al principio, incluso por encima del tercer o a veces segundo Dreepy. Dusclops puede ser útil por varias razones, como eliminar dos Drakloak con un solo Phantom Dive, o permitir que Dusknoir noquee de un solo golpe a su Dragapult. Quieres conseguir un Duskull rápidamente para que pueda evolucionar antes de que puedan noquearlo.
 - Budew es particularmente bueno al principio de la partida si no amenazan con un KO inmediato. Retraer hacia él puede ser arriesgado porque si lo eliminan, perderás mucho ritmo y estarás en desventaja de energías, así que depende de la situación. Por supuesto, empezar con Budew es ideal, por lo que jugar dos podría ser viable. 
 - Empieza tú y trata de conseguir el primer Phantom Dive.
@@ -329,6 +332,15 @@ title: Pultnoir v Crustle 2
 - Normalmente, lo mejor es atacar a su atacante Psíquico que tenga Energía, especialmente porque tienes que debilitar a Mewtwo de dos golpes de todas formas. Si atacas a Clefairy y dejas un atacante cargado, no les será difícil simplemente usar Night Stretcher para recuperar a Clefairy.
 - Si su único atacante cargado es Mimikyu, una buena forma de contrarrestarlo es no tener a Dragapult en el campo y atacar con otro Pokémon.
 - La Rocket's Watchtower se usa mejor de forma reactiva para destruir su Estadio. Esto aumenta las probabilidades de que fallen. Si la juegas de forma preventiva, no tiene efecto y pueden quitarla fácilmente.
+
+### Mega Rayquaza
+
+- Dusknoir es ideal para el control del tablero. Por lo general, puedes usarlo para noquear a un Rayquaza de un solo golpe, combinándolo con una disrupción de la mano del oponente para dificultar que este pueda responder noqueando a tu Dragapult.
+- Usa Stamp en el momento en que sea más probable que evite que el oponente responda con un KO contra tu Dragapult. Judge es una opción excelente justo después de que el rival utilice a Talonflame, aunque a veces es preferible priorizar tu propia preparación.
+- Si incluyes Risky Ruins en tu deck, resulta muy eficaz en este matchup para infligir daño clave con Munkidori.
+- Lo ideal es aplicar un mapa de premios 3-3 entre sus Rayquaza y Kangaskhan (o dos Rayquaza). No obstante, a veces es inevitable usar Phantom Dive contra su Talonflame; en ese caso, puedes optar por una distribución de 3-2-2, lo cual no es tan negativo como parece.
+- Si el rival juega con Chien-Pao, deberás tenerlo en cuenta y evitar dejar demasiado daño acumulado en el campo.
+- Usar Watchtower al principio de la partida puede ser una buena estrategia si el oponente no utiliza otros estadios además de Pyroduct, ya que esto podría dejarle sin jugadas posibles. Por el contrario, si el rival incluye más estadios, la jugada resulta arriesgada: tendrá más opciones para responder y, más adelante, podría usar Pyroduct para dejarte a ti sin jugadas.
 
 ### Hide n Sneak - Favorable
 
