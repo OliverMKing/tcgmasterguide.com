@@ -55,6 +55,7 @@ Energy: 9
 
 - Prime Catcher es una opción decente.
 - Drapion puede ser útil contra Dragapult o el mirror y creo que es mejor que Pawmot por el veneno.
+- Mew es bueno para presionar rapidamente a Dragapult, principalmente noqueando a Budew en el primer turno que mejora tu posible Trifrost.
 
 ### Exclusiones
 
@@ -64,10 +65,13 @@ Energy: 9
 - Unfair Stamp y Special Red CArd no son tan buenos para este deck porque no puedes combinarlo con Boss's Orders.
 - Surfer es peor que Switch. Aunque puedes usarlo cuando estas bajo Item Lock, no lo tendrás disponible en el momento adecuado.
 - Dawn parece buena en teoría, pero no fue muy útil en las pruebas. Encontrar a Slowking o Metagross no suele ser tan difícil, ya que el deck a menudo tiene Poké Pads extras de sobra.
+- Unown es muy situacional.
 
 ## Lista Estandár
 
-![normieslowking list](./images/slowking/zera.png)
+## Standard List
+
+![normieslowking list](./images/slowking/normie.png)
 ```decklist
 Pokémon: 21
 4 Slowpoke SCR 57
@@ -78,9 +82,9 @@ Pokémon: 21
 2 Metagross CRI 61
 1 Fezandipiti ex ASC 142
 1 Meowth ex POR 62
-1 Smoochum SSP 75
 1 Lillie's Clefairy ex ASC 76
 1 Zeraora DRI 78
+1 Annihilape PBL 41
 
 Trainer: 29
 4 Lillie's Determination MEG 119
@@ -180,6 +184,22 @@ id: hnu2VK19vmk
 title: King v Bolt 2
 ```
 
+### Bronzong / Mega Lopunny - Favorable
+
+- Juega la fase inicial de la partida con normalidad y amenaza con un Trifrost. Si el rival utiliza a Bronzong para impedirlo, intenta noquearlo con Clefairy lo antes posible.
+- Si llevas Bangle o a un Annihilape de tipo Lucha, puedes usarlos para noquear a Lopunny de un solo golpe.
+- Por lo general, es muy recomendable tener a Fezandipiti en juego salvo en situaciones muy específicas en las que esto pueda costarte la partida, algo que puede llegar a suceder.
+
+```youtube
+id: LtU0lFjuaI8
+title: Bronz v King 1
+```
+
+```youtube
+id: GbyojO9NLWc
+title: Bronz v King 2
+```
+
 ### Alakazam - Depende
 
 Si tienen a Shaymin o el combo de Eri + Dedenne + Elgyem, el matchup es muy desfavorable. Si no los tienen, el matchup está bastante parejo y puede volverse muy interesante.
@@ -203,6 +223,18 @@ title: King v Zam 2
 ```youtube
 id: OkwXG4DViHE
 title: King v Zam 3
+```
+
+### Mega Rayquaza - Desfavorable
+
+- Intenta atacar con Slowking lo antes posible para ganar el intercambio de premios de forma directa. Ambos decks necesitan tres ataques para ganar, así que quien golpee primero, gana.
+- Pon en juego a Kangaskhan y a Fezandipiti para protegerte frente a efectos que alteren tu mano. Guarda las Stretcher por si llegan a noquear a Fezandipiti.
+- Si te enfrentas a una versión que utiliza Area Zero, es posible que necesites varias cartas de Estadio para ganar la disputa por el control del Estadio.
+- En el turno de tu segundo ataque con Metagross, puede ser una buena estrategia usar Stretcher de antemano para recuperar a un Metagross. De este modo, si el rival juega «Boss» junto con una carta que reduzca el tamaño de tu mano como Stamp, solo necesitarás a Cipher para asegurar el noqueo del Pokémon rival mediante Metagross.
+
+```youtube
+id: uTAyKTOHJ50
+title: Ray v Slowking 1
 ```
 
 ### Hydrapple - Desfavorable

@@ -68,9 +68,9 @@ Energy: 15
 - Bosque de Vitalidad podría ser una buena inclusión. No parece lo suficientemente poderoso como para justificar el espacio, pero no lo he probado.
 - No creo que Maquinaciones de Xerosic ni Eri aporten nada que necesitemos.
 <!-- /PUBLIC -->
-## Decklist 2
+### Decklist 2
 
-![CrustBouff list](./images/crustle/bouffcrust.png)
+![CrustBouff list](./images/crustle/2switch.png)
 ```decklist
 Pokémon: 11
 4 Mega Kangaskhan ex MEG 104
@@ -79,7 +79,7 @@ Pokémon: 11
 1 Bouffalant SCR 119
 1 Bouffalant SSP 151
 
-Trainer: 36
+Trainer: 37
 4 Lillie's Determination MEG 119
 4 Boss's Orders MEG 114
 4 Team Rocket's Petrel DRI 176
@@ -89,19 +89,20 @@ Trainer: 36
 1 Pokémon Center Lady MEG 123
 4 Jumbo Ice Cream PFL 91
 4 Pokégear 3.0 SVI 186
-2 Poké Pad POR 81
 2 Night Stretcher ASC 196
+2 Switch MEG 130
+1 Poké Pad POR 81
 1 Buddy-Buddy Poffin TEF 144
 1 Ultra Ball MEG 131
-1 Switch MEG 130
 1 Hero's Cape TEF 152
 1 Team Rocket's Factory DRI 173
 1 Festival Grounds TWM 149
+1 Lumiose City POR 77
 
-Energy: 13
-4 Spiky Energy JTG 159
+Energy: 12
 4 Growing Grass Energy POR 86
 4 Mist Energy TEF 161
+3 Spiky Energy JTG 159
 1 Grass Energy MEE 1
 ```
 
@@ -110,6 +111,9 @@ Energy: 13
 - Bouffalant es una excelente incorporación, ya que ayuda significativamente contra matchups desfavorables como Slowking, Festival Lead y Hide n Sneak. También se suponía que ayudaría contra Dragapult con la estrategia anti-Crustle, pero lamentablemente ese matchup sigue siendo malo. Bouffalant tiene algunas desventajas y requiere ajustes en la lista, como la adición de Stretcher y Poke Pad. Dicho esto, los matchups favorables de Crustle siguen siendo buenos y Bouffalant compensa algunos desfavorables, lo cual es muy bueno para Crustle.
 
 - Aunque esta lista es un poco menos agresiva que la de Crispin, Boss sigue siendo muy bueno para presionar a las amenazas relevantes (a veces con Mega Kangaskhan atacando). Boss también tiene la utilidad adicional de agotar los recursos del oponente, lo cual también es muy bueno para este deck.
+
+- Agregue Lumiose City para encontrar Pokemon bajo el Item Lock y como consistencia general contra Watchtower.
+- Agregue un segundo Switch ya que la carta en general es muy útil especialmente con Bouffalant.
 
 - Cambie Hilda por Brock's Scouting para hacer el deck más consistente. Aún podemos buscar Crustle u otros básicos pero es un poco más dificil buscar Enegías específicas.
 
@@ -127,7 +131,9 @@ Energy: 13
 
 ### Posibles Inclusiones
 
-- Psyduck podría ser útil contra Dragapult/Dusknoir.
+- Psyduck podría ser útil contra los varios decks de Dusknoir en el meta.
+
+- Otro Crustle no estaría nada mal.
 
 - Brock's Scouting sería muy útil para encontrar a Bouffalant y/o Kangaskhan al principio de la partida.
 
@@ -258,6 +264,12 @@ id: ovX7LmYRiqY
 title: Crustle v Bolt 2
 ```
 
+### Mega Ryauqaza - Muy Desfavorable
+
+- La condición de victoria consiste en tener tres Crustle. Si llevas tres Crustle, intenta evolucionar los dos primeros rápidamente y, después, utiliza Ascensión para conseguir el tercero. Si juegas con dos Crustle y dos Stretcher, tendrás que recurrir a una de estas últimas para obtener el tercer Crustle; no obstante, esto también te permite recuperar un Dwebble adicional.
+- Guarda tus cartas de Estadio para reemplazar Pyroduct en cuanto el oponente lo ponga en juego.
+- No tiene mucho sentido tomar cartas de premio, a menos que una pieza importante como un Crustle o un Estadio haya quedado en los premios. Realizar un KO conlleva el riesgo de que el oponente utilice Unfair Stamp.
+
 ### Alakazam - Favorable
 
 Este matchup es malo si tienen Dedenne y bueno si no lo tienen.
@@ -311,6 +323,10 @@ título: King v Crust 1
 - Cornerstone Ogerpon puede ser útil, pero yo priorizaría a Crustle, ya que puede derrotar a Zoroark de un solo golpe con la ayuda de Spiky Energy. Si acumulas demasiadas Energías Básicas en el descarte, Darmanitan puede convertirse en una amenaza, así que intenta evitarlo. Aun así, probablemente ganarás.
 - La Mist Energy es útil para detener posibles estrategias de Elgyem. No coloques Pokémon adicionales innecesarios o podrías ser castigado por cartas de control aleatorias.
 - Si tienen a Mega Lopunny, necesitas ponerle Hero's Cape a Crustle y también intentar atacarlo con Boss's Orders antes de que te ataquen.
+
+### Bronzong / Mega Lopunny - Muy Desfavorable
+
+- Para la versión con Mega Kangaskhan sin Psyduck, ve con aggro Kangaskhan y elimina Duskulls en cuanto los veas. Si juegas Psyduck, ve por el y ve con Crustle esperando que su Mega Lopunny esté premiado.
 
 ### Mirror de Crustle - Parejo
 

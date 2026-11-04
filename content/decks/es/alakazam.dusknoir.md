@@ -197,6 +197,11 @@ title: ZamNoir v Slowking 1
 - Si juegan la combinación de Kangaskhan y Articuno del Team Rocket, usa a Dusknoir contra Articuno y noquea a Kangaskhan de un solo golpe. Si Articuno lleva la Capa, usa a Dusknoir dos veces.
 - Es imposible vencer a un Empoleon equipado con Capa, pero podemos evitar fácilmente que entre en juego usando Itchy Pollen y noqueando después a Piplup.
 
+### Mega Rayquaza - Muy Desfavorable
+
+- Sin estadios, Pyroduct es demasiado fuerte. La mejor opción sería ir muy agresivo con Dusknoir/Duslops para ponerlos en rango de Special Red Card para usarla después de que ataquen con Talonflame.
+- Probablemente sea necesario ajustar el deck para incluir estadios o Chien Pao para mejorar el matchup.
+
 ### Crustle - Ligeramente Desfavorable
 
 - La estrategia consiste en aprovechar la ventaja táctica que ofrece Budew. Aunque sigo pensando que es mejor salir primero, no estoy del todo seguro; permitirles salir primero les da una energía adicional, lo que les facilita jugar de forma agresiva con Mega Kangaskhan, algo muy peligroso.
@@ -247,7 +252,7 @@ title: ZamNoir v Hydrapple 3
 - Quien va primero tiene una ventaja enorme. Al empezar, ejerce tanta presión como sea posible. Si vas segundo, intenta mitigar el daño Budew y usar a Fez en la banca para absorber golpes.
 - Colocar a Fez en la banca suele ser una gran jugada en casi cualquier momento, especialmente al inicio de la partida. Sin embargo, necesitas tener una Energía en un atacante en la banca para poder retirar a Fez después de haberlo sacado al puesto activo para recibir un golpe.
 - El despliegue ideal al inicio de la partida consiste en dos Abra, dos Duskull, Fez y, o bien un tercer Abra o un Budew atacante.
-- Usar Cursed Blast contra su Pokémon activo, seguido de un efecto de gusteo para dejar fuera de combate a su otro Pokémon clave de la estrategia Festival Lead y rematar con Red Card, es una secuencia muy potente que puede dejarlos sin jugadas viables. Si no tienen a Rabsca en juego, puedes eliminar con relativa facilidad a ambos Thwackey, o simplemente desmantelar su campo y aprovechar sus vulnerabilidades más fácilmente. Una combinación sencilla de Red Card y subir a Thwackey al activo es igualmente devastadora, aunque pierde efectividad si ellos tienen a Rabsca en juego.
+- Usar Cursed Blast contra sus dos Pokemon de Festival LEad o doble Thwackey puede desmantelar su mesa. Special Red Card + gusteo a Thwackey puede ser igual de efectivo.
 - Sacrifica a Dusclops para lograr un KO siempre que sea posible, especialmente contra Rellor o para eliminar por completo a sus Pokémon clave de la estrategia Festival Lead.
 
 ### Bronzong / Lopunny - Muy Desfavorable

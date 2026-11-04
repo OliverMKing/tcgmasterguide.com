@@ -62,15 +62,14 @@ Energy: 7
 
 ## Decklist 2
 
-![decklist2 for Alakazam](./images/alakazam/clef.png)
+![decklist2 for Alakazam](./images/alakazam/cageclef.png)
 ```decklist
 Pokémon: 21
 4 Abra MEG 54
 4 Kadabra MEG 55
 3 Alakazam MEG 56
-1 Alakazam TWM 82
 3 Dunsparce JTG 120
-2 Dudunsparce TEF 129
+3 Dudunsparce TEF 129
 1 Fezandipiti ex ASC 142
 1 Lillie's Clefairy ex ASC 76
 1 Genesect SFA 40
@@ -89,8 +88,7 @@ Trainer: 32
 1 Sacred Ash DRI 168
 1 Special Red Card CRI 82
 3 Air Balloon ASC 181
-3 Nighttime Mine ASC 197
-1 Battle Cage PFL 85
+4 Battle Cage PFL 85
 
 Energy: 7
 4 Telepathic Psychic Energy POR 88
@@ -102,21 +100,20 @@ Esta es la versión más estándar, con Genesect y Estadios en lugar de Rabsca. 
 
 ### Inclusiones
 
-- El Alakazam alterno es un counter de Crustle. También puede ser útil contra otros Pokemon que son invencibles al Alakazam principal. Gracias a Nighttime Mine y Clefairy, tambien puede noquear a un Dragapult con 3 Energías, que es más fácil de noquear que tener que conseguir 16 cartas en mano.
 - Genesect es útil principalmente contra Dragapult y nos da una excusa para usar Lucky Helmet, que es muy útil contra la interrupción de la mano. Genesect también es bueno contra Festival para detener Secret Box, lo que les dificulta un poco jugar Gladion.
 - Clefairy es bueno contra Dragapult y también sirve contra Pokemon que son invencibles vs Alakazam.
 - El Air Balloon es una opción bastante buena para Genesect debido al Crushing Hammer de Dragapult. Si no lleváramos el Globo, podrían usar Martillo y luego ganar tiempo con Boss para acumular daño gratis.
 - Shaymin sirve contra Wellspring Ogerpon y Slowking.
 - Eri y Special Red Card son especialmente buenos contra Dragapult, pero también resultan útiles en otros matchups, como el mirror.
 - Rare Candy se utiliza más bien como pieza de combo para crear mesas más fuertes a mitad o al final de la partida. Estaría bien llevar más copias, pero no hay espacio. Si logras tenerla al principio, genial, pero no es la estrategia principal.
-- Nighttime Mine y Battle Cage son buenas opciones contra Dragapult y para sustituir estadios molestos. Sinceramente, no estoy seguro de cuál es el mejor estadio en términos generales. Cuanto más presente esté Dusknoir en el metajuego, mejor será Battle Cage.
+- Battle Cage es bueno contra Dragapult y quitar estadios molestos. No se que estadio sea mejor en general pero mientras más Dusknoir haya, mejor es Battle Cage. También me parece que es mejor que Nighttime Mine sin otras cartas como Elgyem o Handheld Fan para disrupcion de Energias.
 
 ### Posibles Inclusiones
 
-- Una cuarta Hilda, otro Dudunsparce o más Rare Candy estarián bien.
+- Una cuarta Hilda o más Rare Candy estarián bien.
 - Special Red Card probablemente sería útil.
 - Un Lucky Helmet por un Air Ballon podría ser.
-- Podrías evaluar Battle Cage en lugar de Nighttime Mine.
+- Podrías evaluar Nighttime Mine en lugar de Battle Cage.
 
 ### Exclusiones
 
@@ -125,6 +122,7 @@ Esta es la versión más estándar, con Genesect y Estadios en lugar de Rabsca. 
 - Toucannon es malo.
 - Creo que Night Stretcher es mejor que Lana's Aid.
 - Handheld Fan no es muy bueno porque pierdes contra Festival Lead de todas formas.
+- Quite al Alakazam alterno ya que ni con el le puedes ganar a Crustle si tu oponente juega alrededor de el apropiadamente.
 <!-- /PUBLIC -->
 
 ## Gameplay
@@ -253,7 +251,7 @@ title: Bronz v Zam 1
 Contra la versión con Dusknoir (desfavorable):
 La versión con Battle Cage tiene ventaja frente a la versión con Dusknoir. En caso contrario, el enfrentamiento es desfavorable.
 
-- Proteger la Banca de Dusknoir es la prioridad. Con Battle Cage, utiliza constantemente efectos de robo y la Enriching Energy para intentar encontrar la carta Battle Cage.
+- Proteger la banca de Dusknoir es la prioridad. Con Battle Cage, utiliza constantemente efectos de robo y la Enriching Energy para intentar encontrarla.
 - Si tu Banca está protegida, juega como en un mirror normal (salvo que no necesitas jugar teniendo en cuenta a Eri).
 
 ### Slowking - Muy Favorable
@@ -307,9 +305,9 @@ id: AAIh8BWElzA
 title: Zam v Zoroark 1
 ```
 
-### Crustle - Favorable
+### Crustle - Depende
 
-Con Enhanced Hammer:
+Con Enhanced Hammer el matchup es favorable, sin ellos u alguna otra tech es desfavorable.
 
 - Consigue un Alakazam rápido y roba cartas agresivamente para encontrar Enhanced Hammer y Boss's Orders.
 - Boss's Orders es especialmente útil para eliminar Spiky Energy, Hero's Cape o cualquier cosa que acumule demasiada Energía.
@@ -405,12 +403,12 @@ id: X3YpsKBoBBI
 title: Festival v Zam 2
 ```
 
-### Mega Lopunny - Ligeramente Favorable
+### Mega Lopunny - Depende
 
-Este matchup sería mejor con Dedenne o Handheld Fan, pero aun así está bien.
+Este matchup sería mejor con Dedenne o Handheld Fan, pero aun así es favorable con Enhanced Hammers. PAra la versión de Clefairy es desfavorable.
 
 - Roba cartas rápido y usa a Dudunsparce lo más agresivamente posible. ¡Necesitamos encontrar esos Enhanced Hammer!
-
+- La versión de Clefairy tiene que atacar primero a Dudunsparce o cualquier Mega Lopunny sin Mist. Para lidear con Mist Lopunny necesitas intentar hacer Special Red Card más Eri y atacarlos con Clefairy.
 - Guardalos hasta que puedas noquear a un Mega Lopunny de un solo golpe. Lo mismo aplica para Boss's Orders. Si juegas tres Boss's Orders, podrías considerar un KO inesperado sobre un Dunsparce/Dudunsparce una vez.
 - Empieza a cargar Energías a Fezandipiti cuanto antes. Esto es muy importante, ya que necesitamos amenazar a su Buneary antes de que consiga las cuatro Mist Energy.
 - Si juegas Handheld Fan, podría ser conveniente no noquear a su Buneary o Fan Rotom, dependiendo de la situación. Sin Handheld Fan, simplemente intenta noquear a tantos como puedas.
@@ -420,9 +418,9 @@ id: STEe7cRpzw0
 title: Lop v Zam 1
 ```
 
-### Garchomp - Favorable
+### Garchomp - Depende
 
-Para la versión de Clefairy, es un auto-loss.
+Para la versión de Clefairy, es un auto-loss. Con Enhanced Hammers es favorable.
 
 - Roba muchas cartas agresivamente para encontrar Enhanced Hammer y Boss's Orders.
 - Usa cualquier Energía sobrante para cargar a Fezandipiti. Puede que lo necesites para debilitar a Gabite con Rocky Fighting Energy. 
@@ -436,6 +434,29 @@ title: Chomp v Zam 1
 ```youtube
 id: sAhw5oGWVZE
 title: Chomp v Zam 2
+```
+
+### Mega Rayquaza - Depende
+
+Este matchup depende de las listas de ambos jugadores. Por lo general, es favorable, aunque podría estar bastante parejo si el oponente incluye alguna tech en contra.
+
+- Prioriza equipar a Genesect con una Herramienta. Si el oponente lo noquea mediante Boss, intenta recuperarlo.
+- Guarda tus cartas de Estadio para reemplazar Pyroduct y tener más opciones de respuesta ante efectos que alteren tu mano.
+- Juega a Fezandipiti de forma preventiva para protegerte contra los efectos que alteran tu mano.
+- La estrategia 3-3 es ideal, pero podría no ser la óptima si el oponente planea combinar Red Card con Pyroduct.
+- Eri es una carta útil si el oponente no juega Cipher o no toma precauciones contra ella. Tras el uso de una carta clave o de Talonflame, Eri puede eliminar piezas de su combo. Incluso si intentan jugar con cuidado, a veces terminarán robando esos Objetos por pura casualidad.
+- Contra Cipher, suele ser mejor usar Boss para dejar fuera de combate a su Kang desde el principio; esto les obliga a buscar a Fez y a Cipher, mientras los presionas con la amenaza de un intercambio 3-3.
+- Si tienes un mal inicio, puedes optar por una estrategia más pasiva basada en Special Red Card. Espera a que el oponente tome tres cartas de premio, luego juega Red Card y deja fuera de combate a su Kang. Si eliges esta línea, no pongas a Fez en juego, ya que, de lo contrario, perderás la ventaja en el intercambio de premios.
+- Si utilizas la versión con varios Clefairy, puedes preparar a uno de ellos con Pearl y Energía; esto te ayudará a recuperarte tras un efecto que altere tu mano, además de ofrecerte una opción de ataque decente. No obstante, sigue siendo prioritario equipar Herramientas a Genesect. Ten en cuenta que, si el oponente juega Scrapper, Clefairy podría terminar perdiendo el intercambio, por lo que esta opción no siempre es tan ventajosa.
+
+```youtube
+id: N-9MpBsRkjo
+title: Ray v Zam 1
+```
+
+```youtube
+id: S2RcFuATnTk
+title: Ray v Zam 2
 ```
 
 ### Arboliva - Muy Favorable
