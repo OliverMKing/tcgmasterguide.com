@@ -165,6 +165,12 @@ id: oNM2m836gOI
 title: ZamNoir v Hydrapple 3
 ```
 
+### Bronzong / Mega Lopunny
+
+- Si juegan a Bronzong, Ogerpon puede noquearlo fácilmente. De lo contrario, aprovecha para preparar tu estrategia detras de Celebi. A veces, Celebi resulta útil incluso cuando el rival utiliza a Bronzong.
+- Reserva tus Energías durante la primera fase de la partida. Debes ser capaz de responder debilitando a Lopunny en cuanto entre en juego; por tanto, no te limites a eliminar a su Bronzong si tu campo queda demasiado expuesto ante la llegada de un Lopunny.
+- No pongas en juego a Chikorita ni a Applin hasta que vayas a evolucionarlos por completo. De lo contrario, el rival podría noquearlos mediante Dusknoir, lo cual te perjudicaría en el intercambio de cartas de premio.
+
 ### Clefairy Box - Favorable
 
 - Celebi es una pieza clave para setear tu mesa; úsalo siempre que sea posible al inicio de la partida. Si inicias con Celebi, quizás debas evitar bajar a Chikorita o Applin para impedir que el rival consiga dos cartas de premio usando a Wellspring Ogerpon. Así, podrás usar Forest para ponerlos todos en juego de una vez.
@@ -175,6 +181,24 @@ title: ZamNoir v Hydrapple 3
 ```youtube
 id: ReNNpTcJ4MA
 title: Slop v Hydrap 1
+```
+
+### Mega Rayquaza - Parejo
+
+- La condición de victoria más fiable consiste en jugar Unfair Stamp antes de que el oponente haya consolidado su mesa, para luego aprovechar un turno decisivo. Por desgracia, resulta algo complicado encontrar esa carta de disrupción a menos que utilices una mecánica de búsqueda como Cipher.
+- Presiona utilizando un Pokémon de un premio (idealmente Celebi, aprovechando su ataque) para obligarlos a activar tu Unfair Stamp.
+- En partidas de ritmo más lento, es posible que debas reservar tus Forest para contrarrestar Pyroduct. En partidas más rápidas, no suele ser necesario guardarlas.
+- Fezandipiti es un recurso excelente para robar cartas; por norma general, siempre querrás tenerlo en juego.
+- Hydrapple es un atacante sólido, ya que es mucho más difícil de noquear. A veces es preferible recurrir a Ogerpon durante la fase inicial de la partida, ya que ofrece un mayor potencial de daño antes de que tu estrategia termine de ponerse en marcha.
+
+```youtube
+id: 1087wX8dOXw
+title: Ray v Hydrap 1
+```
+
+```youtube
+id: ThUdlx124MM
+title: Ray v Hydrap 2
 ```
 
 ### Hide n Sneak - Parejo

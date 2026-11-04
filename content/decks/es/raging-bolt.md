@@ -64,11 +64,12 @@ Sigo pensando que este deck no es muy bueno, e inferior a las versiones de Nocto
 - Iron Crown junto con la Tarjeta Roja Especial es una combinación bastante fuerte contra Festival Lead. Este combo también ayuda contra Alakazam, aunque ese matchup sigue siendo bastante desfavorable.
 - LLillie's Determination sigue siendo una buena opción.
 - Incluir una copia adicional de Fezandipiti, Ogerpon, Área Cero, Cyrano o Energía Planta sería una buena idea.
+- Passimian es un poco mejor ahora con mucho Dudunsparce y Mega Kangaskhan en el metajuego.
+- Talonflame ex es bueno, especialmente si juegas Unfair Stamp tambien. 
 
 ### Exclusiones
 
 - El segundo Raging Bolt no es muy importante.
-- Passimian no es muy bueno. Puede ayudar un poco contra Crustle, pero ese matchup sigue siendo desfavorable de todas formas. Si juegas con Passimian, probablemente sea mejor volver a incluir Unfair Stamp.
 - Iron Leaves no es muy bueno. El lock de retreat no es problema ya que todos los Pokemon menos Chien-Pao pueden atacar y además tenemos Prime Catcher.
 
 <!-- /PUBLIC -->
@@ -253,6 +254,37 @@ id: hnu2VK19vmk
 title: King v Bolt 2
 ```
 
+### Mega Rayquaza ex - Parejo
+
+- Depende en gran medida de Raging Bolt para conseguir los KOs importantes. Es el atacante principal en este matchup y, por lo general, necesitarás Stretcher para recuperarlo. Del mismo modo, Glass Trumpet es una carta fundamental para facilitar los ataques de Raging Bolt.
+- Clefairy es una opción excelente si el oponente llena su banca. Si tiene cinco Pokémon en ella, puedes ampliar tu campo con Area Zero y hacer que Clefairy inflija 280 puntos de daño, lo cual es suficiente para noquear a Rayquaza o Talonflame. Incluso si no se dan las condiciones para esa jugada, Clefairy sigue siendo una forma eficiente de obtener dos cartas de premio combinado con Boss’s Orders contra objetivos como Fezandipiti o Latias.
+- Un ataque rápido de Kangaskhan puede ser muy efectivo, ya que podrías tener suerte con los lanzamientos de moneda. Incluso si no es así, obligar al oponente a noquear a Kangaskhan activa Special Red Card (si la llevas en tu deck). Usar Special Red Card o Stamp en una etapa temprana de la partida es una jugada muy potente contra este tipo de decks.
+- Si sospechas que el oponente juega Stamp, intenta mantener un tablero sólido al momento de conseguir un KO (teniendo, por ejemplo, a Kangaskhan, Fezandipiti y algo de Energía en juego) para evitar perder la partida a causa de un Stamp. Por supuesto, el riesgo de que utilicen Stamp es mucho menor si no han empleado el ataque de Talonflame recientemente.
+- Si incluyes a Talonflame y Stamp en tu lista, puedes replicar su estrategia: utiliza a Talonflame al principio para buscar Stamp y Boss’s Orders. Si logras el primer KO con Talonflame, habrás ganado el intercambio. Si, por el contrario, ellos consiguen el primer nocaut, puedes responder con Stamp para frenar su avance. Ten en cuenta que ellos pueden hacer exactamente lo mismo contra ti.
+- Si no logras mantener el ritmo de la partida, Sob es una opción bastante fiable para ganar uno o dos turnos adicionales. No obstante, no te confíes demasiado, ya que el oponente podría utilizar una carta de cambio para neutralizar esta estrategia.
+- Si utilizas Cape, lo ideal es equipársela a Raging Bolt o a Fezandipiti.
+- No es mala idea mantener dos copias de Kangaskhan en el campo; esto te otorga mayor resistencia frente a una Stamp. Si haces eso, es posible que al final tengas que recurrir a Chien-Pao para evitar que te hagan un 3-3.
+
+```youtube
+id: KEuPsjIcyKk
+title: Ray v Bolt 1
+```
+
+```youtube
+id: TDOvqaLb17w
+title: Ray v Bolt 2
+```
+
+```youtube
+id: H94KNR-YL-0
+title: Ray v Bolt 3
+```
+
+```youtube
+id: YQtvh6S7Rrg
+title: Ray v Bolt 4
+```
+
 ### Mega Kangaskhan Box - Parejo
 
 - Noquea a su Mega Kangskhan siempre que sea posible.
@@ -273,7 +305,7 @@ id: RoK0ACF6r9E
 title: Slop v Bolt 2
 ```
 
-## Zoroark - Ligeramente Favorable
+### Zoroark - Ligeramente Favorable
 
 - Similar a los dos anteriores, pero ejercer presión rápidamente es mejor que posicionarse, ya que no necesitan poner un Pokémon de dos premios en juego para poder jugar. No dejes un Pokémon de dos premios en el activo a menos que vayas a ganar el intercambio de premios. Fan Rotom puede ejercer presión de manera eficiente. Ya sea que estés debilitando a Zorua o no, atacar con Fan Rotom al principio suele ser una buena estrategia.
 - A veces no tienen Energía en la banca, y tienes la opción de debilitar a su Zekrom/Fezandipiti o debilitar a su Zoroark activo con Energía. Creo que debilitar a su Zoroark con Energía suele ser la mejor opción (aunque puede ser más difícil) si no tienen Energía en la banca. A veces, simplemente no consiguen el N’s PP Up, especialmente si utilizas Unfair Stamp.
@@ -293,6 +325,29 @@ title: Bolt v Zoroark 2
 ```youtube
 id: 440pWXk5OLc
 title: Bolt v Zoroark 3
+```
+
+### Bronzong / Mega Lopunny
+
+- Raging Bolt es tu atacante principal. Dependerás de él para noquear a Pokémon como Lopunny o Ursaluna. Acumula tanta Energía en juego como puedas siempre que tengas la oportunidad; esto facilitará el uso de Raging Bolt.
+- Si no logras un KO con Raging Bolt, a veces tendrás que recurrir a los lanzamientos de moneda de Kang. No es lo ideal, pero es una opción que surge de vez en cuando. Solo hazlo por necesidad —no es la estrategia principal—, pero si la situación se pone difícil, toca intentarlo.
+- Lopunny es la mayor amenaza. Si logras noquear a Buneary antes de que evolucione, esa es la mejor jugada posible.
+- Waterpon parece una buena opción, pero nunca llegué a utilizarlo. Si el oponente deja un Pokémon que solo otorga un premio en el Puesto Activo y la situación es favorable, podría funcionar, pero a mí nunca me ocurrió. Sob tampoco es una opción fiable, ya que suelen incluir cuatro cartas de Cambio en el deck. 
+- Ten en cuenta a Dusknoir al planificar tu estrategia de premios. Por lo general, el oponente necesitará usar varios Dusknoir, a menos que lleve una ventaja muy amplia desde el principio. Kang es excelente en el Puesto Activo, ya que obliga al rival a sacrificar un Dusknoir para eliminarlo de un solo golpe; si luego respondes dejando fuera de combate a su Lopunny con Raging Bolt, el oponente no podrá usar otros dos Dusknoir para ganar la partida. Por este motivo, Kang es el atacante por defecto cuando no tienes una jugada mejor.
+
+```youtube
+id: 8JDzaw-yjeQ
+title: Bronz v Bolt 1
+```
+
+```youtube
+id: hsBZsfJz00o
+title: Bronz v Bolt 2
+```
+
+```youtube
+id: GsGM_7PCI1s
+title: Bronz v Bolt 3
 ```
 
 ### Crustle - Depende
