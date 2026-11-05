@@ -65,6 +65,7 @@ Energy: 14
 - The Ho-Oh version of the deck is just bad and non-functional. It can’t beat Pult and is far inferior in every aspect.
 - Judge doesn’t actually do anything. It seems like it would be good in theory, but in practice does nothing (and you’d always rather play a different Supporter). The one thing it does do is give you another roll at disrupting against Alakazam but that is not a good enough reason to play it, and you can’t cut Scrapper or anything else for it.
 - Special Red Card might seem good but it’s harder to use than you’d think because you always want to start off attacking with Talonflame and minimize the chances of your three-prizers getting KO’d. In any case, Stamp is sufficient and better.
+- Iron Thorns doesn't make that much sense in this list, but in a different build with Switches it could be decent.
 
 ![dumbho](./images/mega-rayquaza/dumbho.png)
 This is what happens when you play the Ho-Oh build.
