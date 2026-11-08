@@ -86,7 +86,7 @@ function getDeckMetadata(slug: string, locale: string = 'en') {
       const { data, content } = matter(fileContent)
       return {
         title: data.title,
-        pokemon: (data.pokemon as number[]) || [],
+        pokemon: Array.isArray(data.pokemon) ? data.pokemon : [],
         tier: (data.tier as number) || 3,
         format: (data.format as DeckFormat) || 'Standard',
         headings: extractHeadings(content),
@@ -103,7 +103,7 @@ function getDeckMetadata(slug: string, locale: string = 'en') {
     const { data, content } = matter(fileContent)
     return {
       title: data.title,
-      pokemon: (data.pokemon as number[]) || [],
+      pokemon: Array.isArray(data.pokemon) ? data.pokemon : [],
       tier: (data.tier as number) || 3,
       format: (data.format as DeckFormat) || 'Standard',
       headings: extractHeadings(content),
