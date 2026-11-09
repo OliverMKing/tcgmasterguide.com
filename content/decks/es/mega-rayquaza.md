@@ -65,6 +65,7 @@ Energy: 14
 - La versión del deck con Ho-Oh es simplemente mala y no funciona. No puede ganar contra Dragapult y es muy inferior en todos los aspectos.
 - Judge en realidad no aporta nada. En papel parece útil, pero en la práctica no sirve de nada (y siempre es preferible jugar cualquier otra carta de Partidario). Lo único que permite es intentar entorpecer al rival en un matchup contra Alakazam, pero no es motivo suficiente para incluirla; además, no puedes prescindir de Scrapper ni de ninguna otra carta para hacerle espacio.
 - Special Red Card puede parecer buena pero es más difícil de utilizar de lo que esperarias, ya que siempre interesa empezar atacando con Talonflame y reducir al mínimo las probabilidades de que tus Pokémon que otorgan tres cartas de Premio sean noqueados. En cualquier caso, Unfair Stamp es suficiente y una mejor opción.
+- Iron Thorns ex no tiene sentido en esta lista pero podría ser bueno en otra que lleve Switch.
 
 ## Gameplay 
 
