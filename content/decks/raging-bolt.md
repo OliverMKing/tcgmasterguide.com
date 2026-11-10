@@ -75,7 +75,7 @@ Energy: 14
 
 ## Decklist 2
 
-![Second Raging Bolt list](./images/raging-bolt/pyro.png)
+![Second Raging Bolt list](./images/raging-bolt/pyroeng.png)
 ```decklist
 Pokémon: 18
 4 Mega Kangaskhan ex MEG 104
@@ -83,7 +83,7 @@ Pokémon: 18
 2 Teal Mask Ogerpon ex TWM 25
 2 Latias ex SSP 76
 2 Lillie's Clefairy ex JTG 56
-1 Talonflame ex M6 62
+1 Talonflame ex DLR 88
 1 Raging Bolt ex TEF 123
 1 Chien-Pao SSP 56
 1 Wellspring Mask Ogerpon ex TWM 64
@@ -101,8 +101,8 @@ Trainer: 28
 1 Tool Scrapper WHT 85
 1 Unfair Stamp TWM 165
 3 Area Zero Underdepths SCR 131
-1 Legendary Lava Cave M6 75
-1 Legendary Lava Cave M6 76
+1 Legendary Pyroduct DLR 94
+1 Legendary Pyroduct DLR 95
 
 Energy: 14
 5 Grass Energy MEE 1

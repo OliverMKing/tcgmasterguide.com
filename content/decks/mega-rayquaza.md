@@ -6,15 +6,15 @@ format: Standard
 ---
 ## Decklist
 
-![decklist for ray](./images/mega-rayquaza/raylist.png)
+![decklist for ray](./images/mega-rayquaza/rayeng.png)
 ```decklist
 Pokémon: 18
 4 Mega Kangaskhan ex MEG 104
-3 Mega Rayquaza ex M6 58
+3 Mega Rayquaza ex DLR 84
 3 Meowth ex POR 62
 2 Latias ex SSP 76
 2 Terapagos ex PRE 92
-2 Talonflame ex M6 62
+2 Talonflame ex DLR 88
 1 Fezandipiti ex ASC 142
 1 Chien-Pao SSP 56
 
@@ -29,8 +29,8 @@ Trainer: 28
 1 Tool Scrapper WHT 85
 1 Unfair Stamp TWM 165
 3 Area Zero Underdepths SCR 131
-2 Legendary Lava Cave M6 75
-2 Legendary Lava Cave M6 76
+2 Legendary Pyroduct DLR 94
+2 Legendary Pyroduct DLR 95
 
 Energy: 14
 7 Fire Energy MEE 10
