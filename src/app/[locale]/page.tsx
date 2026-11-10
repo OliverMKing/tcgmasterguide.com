@@ -10,6 +10,8 @@ import { Badge, EmptyState } from '@/components/ui'
 import { Link } from '@/i18n/navigation'
 import { getAllPosts } from '@/lib/posts'
 import { LocalDate } from '@/components/LocalDate'
+import { FreshPostGate } from '@/components/FreshPostGate'
+import { isPostFresh } from '@/lib/postFreshness'
 
 // Force static generation at build time
 export const dynamic = 'force-static'
@@ -121,7 +123,9 @@ export default async function Home({
   const t = await getTranslations('home')
   const decks = getAllDecks(locale as Locale)
   const decksByFormat = getDecksByFormat(decks)
-  const latestPost = getAllPosts(locale as Locale)[0]
+  const newestPost = getAllPosts(locale as Locale)[0]
+  // Only feature the newest post while it is under a week and a half old.
+  const latestPost = newestPost && isPostFresh(newestPost.date) ? newestPost : undefined
 
   const tierLabelsTranslated: Record<number, string> = {
     1: t('tier1'),
@@ -168,24 +172,26 @@ export default async function Home({
 
       {/* Posts Section - violet notice banner linking to the latest post, visually distinct from deck cards */}
       {latestPost && (
-        <div id="posts" className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 relative scroll-mt-16">
-          <Link
-            href={`/posts/${latestPost.slug}`}
-            className="group flex items-center gap-3 text-base rounded-lg bg-violet-50 dark:bg-violet-950/40 px-4 py-3 hover:bg-violet-100 dark:hover:bg-violet-900/50 transition-colors duration-300"
-          >
-            <span className="shrink-0 inline-flex items-center translate-y-px text-xs font-semibold uppercase tracking-wide text-violet-700 dark:text-violet-300">
-              {t('latestPost')}
-            </span>
-            <span className="min-w-0 truncate font-medium text-violet-900 dark:text-violet-100 group-hover:text-violet-700 dark:group-hover:text-white transition-colors">
-              {latestPost.title}
-            </span>
-            {latestPost.date && (
-              <span className="hidden sm:flex shrink-0 ml-auto items-center gap-1.5 text-xs text-violet-500/80 dark:text-violet-400/80">
-                <LocalDate timestamp={latestPost.date} />
+        <FreshPostGate date={latestPost.date}>
+          <div id="posts" className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 relative scroll-mt-16">
+            <Link
+              href={`/posts/${latestPost.slug}`}
+              className="group flex items-center gap-3 text-base rounded-lg bg-violet-50 dark:bg-violet-950/40 px-4 py-3 hover:bg-violet-100 dark:hover:bg-violet-900/50 transition-colors duration-300"
+            >
+              <span className="shrink-0 inline-flex items-center translate-y-px text-xs font-semibold uppercase tracking-wide text-violet-700 dark:text-violet-300">
+                {t('latestPost')}
               </span>
-            )}
-          </Link>
-        </div>
+              <span className="min-w-0 truncate font-medium text-violet-900 dark:text-violet-100 group-hover:text-violet-700 dark:group-hover:text-white transition-colors">
+                {latestPost.title}
+              </span>
+              {latestPost.date && (
+                <span className="hidden sm:flex shrink-0 ml-auto items-center gap-1.5 text-xs text-violet-500/80 dark:text-violet-400/80">
+                  <LocalDate timestamp={latestPost.date} />
+                </span>
+              )}
+            </Link>
+          </div>
+        </FreshPostGate>
       )}
 
       {/* Decks Section */}
