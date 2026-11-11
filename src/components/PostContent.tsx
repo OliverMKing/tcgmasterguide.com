@@ -90,64 +90,47 @@ export function PostContent({ slug, title }: PostContentProps) {
   const isFullyLocked = !hasAccess && content?.trim() === PREMIUM_PLACEHOLDER
 
   if (isFullyLocked || !content) {
-    return <LockedDeckContent title={title} headings={[]} />
+    return <LockedDeckContent title={title} headings={[]} kind="post" />
   }
 
   return (
     <>
       <ReadingProgress />
-      {/* Free Preview Banner for non-subscribers */}
+      {/* Free preview notice for non-subscribers */}
       {!hasAccess && (
-        <div className="mb-8 p-5 bg-gradient-to-r from-violet-50 via-purple-50 to-fuchsia-50 dark:from-violet-900/20 dark:via-purple-900/20 dark:to-fuchsia-900/20 rounded-2xl border border-violet-200/70 dark:border-violet-800/50 shadow-sm">
-          <div className="flex items-center gap-4">
-            <div className="flex-shrink-0 w-11 h-11 bg-violet-100 text-violet-600 dark:bg-slate-700/60 dark:text-violet-400 rounded-xl flex items-center justify-center">
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-              </svg>
-            </div>
-            <div className="flex-1 min-w-0">
-              <p className="font-semibold text-slate-900 dark:text-slate-100">{t('freePreview')}</p>
-              <p className="text-sm text-slate-600 dark:text-slate-400 mt-0.5">
-                {t('limitedPreview')}{' '}
-                <Link href="/subscribe" className="text-violet-600 dark:text-violet-400 hover:underline underline-offset-4 font-medium">
-                  {t('subscribeForAccess')}
-                </Link>
-                {' '}{t('forFullAccess')}
-              </p>
-            </div>
+        <div className="mb-10 flex flex-col sm:flex-row sm:items-center gap-4 rounded-2xl border border-line bg-surface p-5">
+          <div className="flex-1 min-w-0">
+            <p className="font-bold text-ink">{t('freePreview')}</p>
+            <p className="text-ink-2 mt-0.5">
+              {t('limitedPreview')} {t('previewCta')}
+            </p>
           </div>
+          <Link
+            href="/subscribe"
+            className="inline-flex items-center justify-center shrink-0 rounded-[10px] bg-accent text-accent-ink hover:bg-accent-hover font-semibold px-5 py-2.5 transition-colors"
+          >
+            {t('subscribeForAccess')}
+          </Link>
         </div>
       )}
 
-      {/* Article Content */}
-      <div className="prose prose-slate prose-lg max-w-none dark:prose-invert">
+      {/* Article content. MarkdownContent frames images on a playmat. */}
+      <div className="guide-prose">
         <MarkdownContent content={content} imageApiBase="/api/post-images" />
       </div>
 
-      {/* Footer CTA */}
-      <div className="mt-16">
-        <div className="relative overflow-hidden bg-gradient-to-br from-violet-50 via-white to-purple-50 dark:from-slate-800 dark:via-slate-800 dark:to-slate-800/80 border border-violet-100 dark:border-slate-700 rounded-2xl p-8 text-center shadow-sm">
-          <div className="absolute -top-16 -right-16 w-48 h-48 bg-violet-300/20 dark:bg-violet-500/10 rounded-full blur-3xl" aria-hidden="true" />
-          <div className="absolute -bottom-20 -left-20 w-56 h-56 bg-purple-300/20 dark:bg-purple-500/10 rounded-full blur-3xl" aria-hidden="true" />
-          <div className="relative">
-            <h3 className="text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-2">
-              {t('exploreMorePosts')}
-            </h3>
-            <p className="text-neutral-600 dark:text-slate-300 mb-6">
-              {t('continueReading')}
-            </p>
-            <Link
-              href="/posts"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-violet-500 to-purple-500 hover:from-violet-600 hover:to-purple-600 text-white font-medium px-6 py-3 rounded-xl transition-all duration-300 ease-snappy active:scale-[0.98]"
-            >
-              {t('browseAllPosts')}
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </Link>
-          </div>
-        </div>
+      {/* More posts */}
+      <div className="mt-16 border-t border-line pt-10">
+        <h2 className="font-display font-extrabold text-3xl text-ink">
+          {t('exploreMorePosts')}
+        </h2>
+        <p className="mt-2 text-ink-2">{t('continueReading')}</p>
+        <Link
+          href="/posts"
+          className="mt-5 inline-flex items-center rounded-[10px] border border-line-strong hover:border-ink text-ink font-semibold px-5 py-2.5 transition-colors"
+        >
+          {t('browseAllPosts')}
+        </Link>
       </div>
 
       {/* Comments Section */}

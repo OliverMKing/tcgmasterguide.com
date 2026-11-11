@@ -1,65 +1,97 @@
 'use client'
 
+import { useId } from 'react'
 import { Link } from '@/i18n/navigation'
 import { useTranslations } from 'next-intl'
 import { SignInButton, SignedIn, SignedOut } from '@clerk/nextjs'
+import { LogoMark } from '@/components/Logo'
+
+// Our own card back: mat purple, a woven diamond print, an inner printed frame,
+// and the brand mark in a card-stock disc. It is not the official Pokémon card back.
+function CardBack({ className = '', style }: { className?: string; style?: React.CSSProperties }) {
+  return (
+    <div className={`tcg-card ${className}`} style={style}>
+      <div className="relative h-full overflow-hidden rounded-[7px] bg-mat">
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage:
+              'repeating-linear-gradient(45deg, var(--mat-2) 0 2px, transparent 2px 9px), repeating-linear-gradient(-45deg, var(--mat-2) 0 2px, transparent 2px 9px)',
+          }}
+        />
+        <div className="absolute inset-[6px] rounded-[4px] border border-mat-line" />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <span className="flex aspect-square w-[52%] items-center justify-center rounded-full bg-card ring-[3px] ring-mat-2">
+            <LogoMark className="w-[72%]" />
+          </span>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+const fan = [
+  { rotate: -9, y: 6 },
+  { rotate: 0, y: 0 },
+  { rotate: 9, y: 6 },
+]
+
+/** A small fanned row of face-down cards. Used where guide content is locked. */
+export function FaceDownCards({ count = 3, className = '' }: { count?: 2 | 3; className?: string }) {
+  const cards = count === 2 ? [fan[0], fan[2]] : fan
+  return (
+    <div aria-hidden="true" className={`flex items-start pt-1 pb-2 pl-2 pr-3 ${className}`}>
+      {cards.map((c, i) => (
+        <CardBack
+          key={i}
+          className={`w-[68px] sm:w-[78px] shrink-0 ${i > 0 ? '-ml-7 sm:-ml-8' : ''}`}
+          style={{ transform: `translateY(${c.y}px) rotate(${c.rotate}deg)`, zIndex: i === 1 ? 2 : 1 }}
+        />
+      ))}
+    </div>
+  )
+}
+
+/** The subscribe button, or the sign-in button for signed-out readers. */
+export function LockedActions({ fullWidth = false }: { fullWidth?: boolean }) {
+  const t = useTranslations('locked')
+  const cls = `inline-flex items-center justify-center rounded-[10px] bg-accent text-accent-ink hover:bg-accent-hover font-semibold text-base px-5 py-3 transition-colors cursor-pointer active:translate-y-px no-underline ${fullWidth ? 'w-full' : ''}`
+  return (
+    <>
+      <SignedOut>
+        <SignInButton mode="modal">
+          <button className={cls}>{t('signInButton')}</button>
+        </SignInButton>
+      </SignedOut>
+      <SignedIn>
+        {/* Overrides the .guide-prose link color: this is a button, not a text link. */}
+        <Link href="/subscribe" className={`${cls} !text-accent-ink !no-underline`}>
+          {t('subscribeButton')}
+        </Link>
+      </SignedIn>
+    </>
+  )
+}
 
 export function LockedSection() {
   const t = useTranslations('locked')
+  const titleId = useId()
 
   return (
-    <div className="my-12 relative">
-      {/* Blurred teaser content */}
-      <div className="blur-sm select-none pointer-events-none opacity-40 mb-8">
-        <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
-          {t('teaserTitle1')}
+    <section
+      aria-labelledby={titleId}
+      className="my-12 flex flex-col gap-5 rounded-2xl border border-line bg-surface p-5 sm:flex-row sm:items-center sm:gap-8 sm:p-7"
+    >
+      <FaceDownCards className="shrink-0 self-start sm:self-center" />
+      <div className="min-w-0">
+        <h3 id={titleId} className="font-display font-black text-[1.875rem] leading-[0.95] text-ink">
+          {t('faceDownTitle')}
         </h3>
-        <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
-          {t('teaserText1')}
-        </p>
-        <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
-          {t('teaserTitle2')}
-        </h3>
-        <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-          {t('teaserText2')}
-        </p>
-      </div>
-
-      {/* Subscribe CTA overlay */}
-      <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-2xl p-8 shadow-xl max-w-lg mx-auto text-center relative -mt-32">
-        <div className="w-16 h-16 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
-          <svg className="w-8 h-8 text-purple-600 dark:text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-          </svg>
+        <p className="mt-2 max-w-[46ch] text-base leading-relaxed text-ink-2">{t('faceDownBody')}</p>
+        <div className="mt-5">
+          <LockedActions />
         </div>
-        <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-2">
-          {t('title')}
-        </h3>
-        <p className="text-slate-600 dark:text-slate-400 mb-6">
-          {t('message')}
-        </p>
-
-        <SignedOut>
-          <SignInButton mode="modal">
-            <button className="w-full bg-gradient-to-r from-violet-500 to-purple-500 text-white font-semibold px-6 py-3 rounded-xl hover:from-violet-600 hover:to-purple-600 transition-colors duration-200 ease-snappy active:scale-[0.98] cursor-pointer mb-3">
-              {t('signInButton')}
-            </button>
-          </SignInButton>
-        </SignedOut>
-
-        <SignedIn>
-          <Link
-            href="/subscribe"
-            className="block w-full bg-gradient-to-r from-violet-500 to-purple-500 text-white font-semibold px-6 py-3 rounded-xl hover:from-violet-600 hover:to-purple-600 transition-colors duration-200 ease-snappy active:scale-[0.98] mb-3"
-          >
-            {t('subscribeButton')}
-          </Link>
-        </SignedIn>
-
-        <p className="text-sm text-slate-500 dark:text-slate-400">
-          {t('unlimitedAccess')}
-        </p>
       </div>
-    </div>
+    </section>
   )
 }

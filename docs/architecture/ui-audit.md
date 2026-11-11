@@ -1,5 +1,7 @@
 # UI Audit & Improvement Plan
 
+> **Note:** This audit describes the old violet design. The [Design System](./design-system.md) replaces it. Keep this file only as history.
+
 A usability-first review of the tcgmasterguide.com UI with concrete, file-level recommendations. Ordered by impact.
 
 ## Summary of the current state

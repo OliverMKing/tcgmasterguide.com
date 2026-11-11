@@ -1,6 +1,6 @@
 ---
 title: Mega Excadrill
-pokemon: [530]
+pokemon: [10287]
 tier: 2
 format: Standard
 ---

@@ -5,30 +5,22 @@ export default async function NotFound() {
   const t = await getTranslations('notFound')
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-stone-50 to-white dark:from-slate-900 dark:to-slate-800 relative">
-      {/* Decorative floating orbs */}
-      <div className="absolute top-20 left-10 w-72 h-72 bg-violet-300/15 dark:bg-violet-500/20 rounded-full blur-3xl animate-float" />
-      <div className="absolute bottom-10 right-10 w-80 h-80 bg-purple-300/15 dark:bg-purple-500/20 rounded-full blur-3xl animate-float-delayed" />
-
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 sm:py-40 relative">
-        <div className="flex flex-col items-center justify-center text-center">
-          <h1 className="text-8xl font-bold bg-gradient-to-r from-violet-600 via-purple-500 to-violet-600 dark:from-violet-400 dark:via-purple-400 dark:to-violet-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">
-            404
-          </h1>
-          <h2 className="mt-6 text-3xl font-bold text-neutral-800 dark:text-slate-100">
-            {t('title')}
-          </h2>
-          <p className="mt-4 text-lg text-neutral-600 dark:text-slate-300 max-w-md leading-relaxed">
-            {t('message')}
-          </p>
-
-          <Link
-            href="/"
-            className="mt-8 inline-block px-6 py-2.5 bg-violet-600 hover:bg-violet-700 text-white font-medium rounded-xl transition-colors"
-          >
-            {t('backHome')}
-          </Link>
+    <main className="min-h-[calc(100vh-4rem)] flex items-center justify-center px-4 py-16">
+      <div className="flex flex-col items-center text-center max-w-md">
+        {/* A small mat with an empty card spot: the page is not in the deck */}
+        <div aria-hidden="true" className="playmat rounded-[20px] px-10 py-8">
+          <div className="mat-slot w-[104px] flex items-center justify-center">
+            <span className="font-display font-black text-4xl text-mat-ink-2">404</span>
+          </div>
         </div>
+        <h1 className="mt-10 font-display font-black text-ink text-5xl sm:text-6xl leading-[0.9]">{t('title')}</h1>
+        <p className="mt-4 text-lg text-ink-2">{t('message')}</p>
+        <Link
+          href="/"
+          className="mt-8 inline-flex items-center rounded-[10px] bg-accent text-accent-ink hover:bg-accent-hover font-semibold px-6 py-3 transition-colors"
+        >
+          {t('backHome')}
+        </Link>
       </div>
     </main>
   )

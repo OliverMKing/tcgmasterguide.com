@@ -31,32 +31,24 @@ export default function LiveBanner({ channel }: { channel: string }) {
   return (
     <Link
       href="/live"
-      className="block mt-12 p-5 rounded-2xl bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 hover:border-red-300 dark:hover:border-red-700 transition-colors"
+      className="group mt-4 flex items-center gap-x-4 gap-y-1 rounded-2xl border border-line bg-surface px-4 py-3.5 sm:px-5 transition-colors hover:border-line-strong hover:bg-surface-2"
     >
-      <div className="flex items-center justify-center gap-3 flex-wrap">
-        <span className="flex items-center gap-2">
-          <span className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse" />
-          <span className="text-red-600 dark:text-red-400 font-semibold">{t('liveNow')}</span>
-        </span>
-        <span className="text-neutral-600 dark:text-slate-300">
-          {t('streaming')}
-        </span>
-        <span className="w-8 h-8 rounded-full bg-red-100 dark:bg-red-900/40 flex items-center justify-center">
-          <svg
-            className="w-4 h-4 text-red-500 dark:text-red-400"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M9 5l7 7-7 7"
-            />
-          </svg>
-        </span>
-      </div>
+      <span className="flex shrink-0 items-center gap-2 font-bold text-bad">
+        <span aria-hidden="true" className="size-2.5 rounded-full bg-bad animate-pulse" />
+        {t('liveNow')}
+      </span>
+      <span className="min-w-0 flex-1 text-ink-2 group-hover:text-ink transition-colors">
+        {t('streaming')}
+      </span>
+      <svg
+        aria-hidden="true"
+        className="size-5 shrink-0 text-ink-3 transition-transform group-hover:translate-x-0.5"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+      </svg>
     </Link>
   )
 }

@@ -1,6 +1,6 @@
 ---
 title: Excadrill
-pokemon: [530]
+pokemon: [10287]
 tier: 3
 format: Standard
 ---

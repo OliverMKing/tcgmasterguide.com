@@ -65,7 +65,7 @@ export const MarkdownRenderer = memo(function MarkdownRenderer({
           const text = String(children)
           const id = generateHeadingId(text)
           return (
-            <h2 id={id} className="text-3xl font-bold text-slate-900 dark:text-slate-100 mt-12 mb-4 first:mt-0 pb-2 border-b border-slate-200 dark:border-slate-700 scroll-mt-20 md:scroll-mt-32">
+            <h2 id={id} className="font-display font-black text-4xl sm:text-5xl leading-[0.9] text-ink mt-14 mb-5 first:mt-0 pb-3 border-b border-line scroll-mt-20 md:scroll-mt-32">
               {children}
             </h2>
           )
@@ -74,7 +74,7 @@ export const MarkdownRenderer = memo(function MarkdownRenderer({
           const text = String(children)
           const id = generateHeadingId(text)
           return (
-            <h3 id={id} className="text-2xl font-bold text-slate-900 dark:text-slate-100 mt-10 mb-4 scroll-mt-20 md:scroll-mt-32">
+            <h3 id={id} className="font-display font-extrabold text-3xl leading-none text-ink mt-12 mb-4 scroll-mt-20 md:scroll-mt-32">
               {children}
             </h3>
           )
@@ -83,7 +83,7 @@ export const MarkdownRenderer = memo(function MarkdownRenderer({
           const text = String(children)
           const id = generateHeadingId(text)
           return (
-            <h4 id={id} className="text-xl font-semibold text-slate-900 dark:text-slate-100 mt-8 mb-3 scroll-mt-20 md:scroll-mt-32">
+            <h4 id={id} className="font-display font-extrabold text-2xl leading-tight text-ink mt-8 mb-3 scroll-mt-20 md:scroll-mt-32">
               {children}
             </h4>
           )
@@ -97,31 +97,31 @@ export const MarkdownRenderer = memo(function MarkdownRenderer({
             return <LockedSection />
           }
           return (
-            <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
+            <p className="text-ink-2 mb-6">
               {children}
             </p>
           )
         },
         ul: ({ children }) => (
-          <ul className="deck-list space-y-3 text-slate-600 dark:text-slate-300 mb-6 pl-0">
+          <ul className="deck-list space-y-3 text-ink-2 mb-6 pl-0">
             {children}
           </ul>
         ),
         ol: ({ children }) => (
-          <ol className="deck-list space-y-3 text-slate-600 dark:text-slate-300 mb-6 pl-0 list-decimal list-inside">
+          <ol className="deck-list space-y-3 text-ink-2 mb-6 pl-0 list-decimal list-inside marker:text-accent-text marker:font-bold">
             {children}
           </ol>
         ),
         li: ({ children }) => (
-          <li className="text-slate-600 dark:text-slate-300 relative pl-5 before:content-[''] before:absolute before:left-0 before:top-[0.6em] before:w-1.5 before:h-1.5 before:rounded-full before:bg-purple-500 dark:before:bg-purple-400">
+          <li className="text-ink-2 relative pl-5 before:content-[''] before:absolute before:left-0 before:top-[0.68em] before:w-2 before:h-2 before:rounded-[2px] before:bg-accent">
             {children}
           </li>
         ),
         strong: ({ children }) => (
-          <strong className="font-semibold text-slate-900 dark:text-slate-100">{children}</strong>
+          <strong className="font-bold text-ink">{children}</strong>
         ),
         a: ({ href, children }) => {
-          const linkClass = "text-purple-600 dark:text-purple-400 hover:text-purple-800 dark:hover:text-purple-300 underline decoration-purple-300 dark:decoration-purple-600 underline-offset-2 hover:decoration-purple-500 dark:hover:decoration-purple-400 transition-colors"
+          const linkClass = "text-accent-text underline decoration-1 underline-offset-[3px] hover:decoration-2"
           if (href && (href.startsWith('/') || href.startsWith('#'))) {
             return (
               <Link href={href} className={linkClass}>
@@ -136,10 +136,10 @@ export const MarkdownRenderer = memo(function MarkdownRenderer({
           )
         },
         em: ({ children }) => (
-          <em className="italic text-slate-700 dark:text-slate-200">{children}</em>
+          <em className="italic text-ink">{children}</em>
         ),
         code: ({ children }) => (
-          <code className="bg-slate-100 dark:bg-slate-700 text-purple-700 dark:text-purple-300 px-2 py-0.5 rounded text-sm font-mono">
+          <code className="bg-surface-2 text-ink px-1.5 py-0.5 rounded-md text-[0.875em] font-mono">
             {children}
           </code>
         ),
@@ -180,7 +180,7 @@ export const MarkdownRenderer = memo(function MarkdownRenderer({
             }
           }
           return (
-            <pre className="bg-slate-100 dark:bg-slate-800 p-4 rounded-xl overflow-x-auto my-6">
+            <pre className="bg-surface border border-line p-4 rounded-2xl overflow-x-auto my-6 text-base [&_code]:bg-transparent [&_code]:p-0">
               {children}
             </pre>
           )
@@ -188,13 +188,13 @@ export const MarkdownRenderer = memo(function MarkdownRenderer({
         img: ({ src, alt }) => {
           const imageSrc = transformImageSrc(typeof src === 'string' ? src : '', imagePathPrefix)
           return (
-            <span className="block my-8 relative">
+            <span className="playmat block my-10 rounded-[20px] p-2 sm:p-3">
               <Image
                 src={imageSrc}
                 alt={alt || ''}
                 width={800}
                 height={600}
-                className="rounded-xl border border-slate-200 dark:border-slate-700 shadow-lg w-full h-auto"
+                className="block rounded-[10px] w-full h-auto"
                 unoptimized
               />
             </span>

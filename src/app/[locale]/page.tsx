@@ -5,8 +5,6 @@ import matter from 'gray-matter'
 import LiveBanner from '@/components/LiveBanner'
 import AnnouncementBanner from '@/components/AnnouncementBanner'
 import { DeckCard } from '@/components/DeckCard'
-import { TierBadge } from '@/components/TierBadge'
-import { Badge, EmptyState } from '@/components/ui'
 import { Link } from '@/i18n/navigation'
 import { getAllPosts } from '@/lib/posts'
 import { LocalDate } from '@/components/LocalDate'
@@ -96,20 +94,32 @@ function getDecksByFormat(decks: Deck[]): Map<DeckFormat, Deck[]> {
 
 const formatOrder: DeckFormat[] = ['Post-Rotation', 'Standard']
 
-function FormatIcon({ format }: { format: DeckFormat }) {
-  if (format === 'Post-Rotation') {
-    return (
-      <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M23 4v6h-6M1 20v-6h6" />
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15" />
-      </svg>
-    )
+const tierText: Record<number, string> = {
+  1: 'text-tier-1',
+  2: 'text-tier-2',
+  3: 'text-tier-3',
+  4: 'text-tier-4',
+}
+
+// The hero shows up to three Tier 1 decks, preferring different lead Pokémon.
+function pickHand(decks: Deck[]): Deck[] {
+  const tierOne = decks.filter((d) => d.tier === 1)
+  const seen = new Set<number>()
+  const distinct: Deck[] = []
+  const repeats: Deck[] = []
+  for (const deck of tierOne) {
+    const lead = deck.pokemon[0]
+    if (lead !== undefined && !seen.has(lead)) {
+      seen.add(lead)
+      distinct.push(deck)
+    } else {
+      repeats.push(deck)
+    }
   }
-  return (
-    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M12 2l3 7h7l-5.5 4 2 7-6.5-4.5L5.5 20l2-7L2 9h7z" />
-    </svg>
-  )
+  const hand = [...distinct, ...repeats].slice(0, 3)
+  // Put the first pick in the middle of the fan.
+  if (hand.length === 3) return [hand[1], hand[0], hand[2]]
+  return hand
 }
 
 export default async function Home({
@@ -139,141 +149,165 @@ export default async function Home({
     'Post-Rotation': t('formatPostRotation'),
   }
 
+  const multiFormat = process.env.NEXT_PUBLIC_ENABLE_MULTI_FORMAT === 'true'
+  const handDecks = pickHand(decks)
+
   return (
-    <main className="min-h-screen bg-gradient-to-b from-stone-50 to-white dark:from-slate-900 dark:to-slate-800 relative">
-      {/* Announcements */}
+    <main className="min-h-screen">
       <AnnouncementBanner />
 
-      {/* Hero Section */}
-      <div className="relative overflow-hidden border-b border-stone-200 dark:border-slate-700">
-        {/* Animated gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-r from-violet-500/8 via-purple-400/8 to-violet-500/8 dark:from-violet-600/20 dark:via-purple-500/20 dark:to-violet-600/20 animate-gradient" />
-
-        {/* Grid pattern overlay */}
-        <div className="absolute inset-0 grid-pattern" />
-
-        {/* Decorative floating orbs */}
-        <div className="absolute top-20 left-10 w-72 h-72 bg-violet-300/15 dark:bg-violet-500/20 rounded-full blur-3xl animate-float" />
-        <div className="absolute bottom-10 right-10 w-80 h-80 bg-purple-300/15 dark:bg-purple-500/20 rounded-full blur-3xl animate-float-delayed" />
-
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 relative">
-          <div className="text-center">
-            <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-violet-600 via-purple-500 to-violet-600 dark:from-violet-400 dark:via-purple-400 dark:to-violet-400 bg-clip-text text-transparent mb-6 animate-gradient bg-[length:200%_auto]">
+      {/* Hero: the site name and a hand of the current Tier 1 decks */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-16 pb-12 sm:pb-20 overflow-x-clip">
+        <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-10 lg:gap-6 items-center">
+          <div>
+            <h1 className="font-display font-black text-ink text-[clamp(3.6rem,10vw,7.25rem)] leading-[0.84] tracking-[-0.01em]">
               {t('title')}
             </h1>
-            <p className="text-lg text-neutral-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed">
+            <p className="mt-6 text-lg sm:text-xl text-ink-2 leading-relaxed max-w-[34rem]">
               {t.rich('subtitle', {
-                author: (chunks) => <span className="font-semibold text-violet-600 dark:text-violet-400">{chunks}</span>
+                author: (chunks) => <strong className="font-bold text-ink">{chunks}</strong>,
               })}
             </p>
-          </div>
-        </div>
-      </div>
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              <Link
+                href="/#decks"
+                className="inline-flex items-center rounded-[10px] bg-accent text-accent-ink hover:bg-accent-hover font-semibold px-5 py-3 transition-colors"
+              >
+                {t('browseDecks')}
+              </Link>
+              <Link
+                href="/about"
+                className="inline-flex items-center rounded-[10px] border border-line-strong hover:border-ink text-ink font-semibold px-5 py-3 transition-colors"
+              >
+                {t('aboutAuthor')}
+              </Link>
+            </div>
 
-      {/* Posts Section - violet notice banner linking to the latest post, visually distinct from deck cards */}
-      {latestPost && (
-        <FreshPostGate date={latestPost.date}>
-          <div id="posts" className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 relative scroll-mt-16">
-            <Link
-              href={`/posts/${latestPost.slug}`}
-              className="group flex items-center gap-3 text-base rounded-lg bg-violet-50 dark:bg-violet-950/40 px-4 py-3 hover:bg-violet-100 dark:hover:bg-violet-900/50 transition-colors duration-300"
+            {latestPost && (
+              <FreshPostGate date={latestPost.date}>
+                <Link
+                  id="posts"
+                  href={`/posts/${latestPost.slug}`}
+                  className="group mt-10 flex max-w-[34rem] items-baseline gap-3 border-t border-line pt-4 scroll-mt-16"
+                >
+                  <span className="shrink-0 text-sm font-bold text-accent-text">{t('latestPost')}</span>
+                  <span className="min-w-0 truncate font-semibold text-ink group-hover:underline underline-offset-4">
+                    {latestPost.title}
+                  </span>
+                  {latestPost.date && (
+                    <span className="hidden sm:block shrink-0 ml-auto text-sm text-ink-3">
+                      <LocalDate timestamp={latestPost.date} format="short" />
+                    </span>
+                  )}
+                </Link>
+              </FreshPostGate>
+            )}
+          </div>
+
+          {handDecks.length > 0 && (
+            <div
+              aria-hidden="true"
+              className="relative h-[270px] sm:h-[360px] [--spread:92px] sm:[--spread:150px]"
             >
-              <span className="shrink-0 inline-flex items-center translate-y-px text-xs font-semibold uppercase tracking-wide text-violet-700 dark:text-violet-300">
-                {t('latestPost')}
-              </span>
-              <span className="min-w-0 truncate font-medium text-violet-900 dark:text-violet-100 group-hover:text-violet-700 dark:group-hover:text-white transition-colors">
-                {latestPost.title}
-              </span>
-              {latestPost.date && (
-                <span className="hidden sm:flex shrink-0 ml-auto items-center gap-1.5 text-xs text-violet-500/80 dark:text-violet-400/80">
-                  <LocalDate timestamp={latestPost.date} />
-                </span>
-              )}
-            </Link>
-          </div>
-        </FreshPostGate>
-      )}
-
-      {/* Decks Section */}
-      <div id="decks" className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative scroll-mt-16">
-        {/* Background accent */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-violet-100/40 dark:bg-violet-900/20 rounded-full blur-3xl -z-10" />
-
-        <div className="flex items-end justify-between mb-10 gap-4">
-          <h2 className="text-3xl font-bold text-neutral-800 dark:text-slate-100">
-            {t('decksTitle')}
-          </h2>
-          {process.env.NEXT_PUBLIC_ENABLE_MULTI_FORMAT !== 'true' && (
-            <Badge variant="neutral" size="sm">
-              {t('deckCount', { count: decks.length })}
-            </Badge>
+              {handDecks.map((deck, i) => {
+                const offset = i - (handDecks.length - 1) / 2
+                return (
+                  <DeckCard
+                    key={deck.id}
+                    deck={deck}
+                    tier={deck.tier}
+                    size="lg"
+                    showDate={false}
+                    tabIndex={-1}
+                    className="deal absolute left-1/2 top-2 w-[160px] sm:w-[220px] -ml-[80px] sm:-ml-[110px]"
+                    style={{
+                      '--fan-x': `calc(var(--spread) * ${offset})`,
+                      '--fan-y': `${Math.abs(offset) * 22}px`,
+                      '--fan-rot': `${offset * 9}deg`,
+                      '--deal-delay': `${120 + i * 110}ms`,
+                      zIndex: i === 1 ? 2 : 1,
+                    } as React.CSSProperties}
+                  />
+                )
+              })}
+            </div>
           )}
         </div>
+      </section>
 
-        <div className="space-y-16">
-          {formatOrder.map((format) => {
-            const formatDecks = decksByFormat.get(format)
-            if (!formatDecks || formatDecks.length === 0) return null
+      {/* Tier list: a playmat with one printed zone per tier */}
+      <section id="decks" aria-labelledby="decks-title" className="max-w-6xl mx-auto px-2 sm:px-6 lg:px-8 pb-20 scroll-mt-16">
+        <div className="playmat rounded-[28px] px-3 py-6 sm:p-8">
+          <div className="flex items-baseline justify-between gap-4 px-2 sm:px-0 mb-6 sm:mb-8">
+            <h2 id="decks-title" className="font-display font-black text-5xl sm:text-6xl text-mat-ink">
+              {t('decksTitle')}
+            </h2>
+            {!multiFormat && (
+              <p className="text-mat-ink-2">{t('deckCount', { count: decks.length })}</p>
+            )}
+          </div>
 
-            const decksByTier = getDecksByTier(formatDecks)
-            const sortedTiers = Array.from(decksByTier.keys()).sort((a, b) => a - b)
+          <div className="space-y-12">
+            {formatOrder.map((format) => {
+              const formatDecks = decksByFormat.get(format)
+              if (!formatDecks || formatDecks.length === 0) return null
 
-            return (
-              <section key={format} aria-labelledby={`format-${format}`}>
-                {/* Format Header — accent bar + icon + count */}
-                {process.env.NEXT_PUBLIC_ENABLE_MULTI_FORMAT === 'true' && (
-                  <div className="mb-8 flex items-center gap-3">
-                    <span className="inline-block h-8 w-1 rounded-full bg-gradient-to-b from-violet-500 to-purple-500" aria-hidden="true" />
-                    {format === 'Post-Rotation' && (
-                      <span className="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-violet-100 text-violet-600 dark:bg-violet-900/40 dark:text-violet-300">
-                        <FormatIcon format={format} />
-                      </span>
-                    )}
-                    <h3
-                      id={`format-${format}`}
-                      className="text-2xl font-semibold text-neutral-800 dark:text-slate-100"
-                    >
-                      {formatLabelsTranslated[format]}
-                    </h3>
-                    <Badge variant="neutral" size="sm" className="ml-auto">
-                      {t('deckCount', { count: formatDecks.length })}
-                    </Badge>
-                  </div>
-                )}
+              const decksByTier = getDecksByTier(formatDecks)
+              const sortedTiers = Array.from(decksByTier.keys()).sort((a, b) => a - b)
 
-                <div className="space-y-12">
-                  {sortedTiers.map((tier) => {
-                    const tierDecks = decksByTier.get(tier)!
-                    return (
-                      <div key={tier}>
-                        <div className="flex items-center gap-3 mb-6">
-                          <TierBadge tier={tier} label={tierLabelsTranslated[tier]} />
-                          <div className="h-px flex-1 bg-gradient-to-r from-stone-200 dark:from-slate-700 to-transparent" />
+              return (
+                <section key={format} aria-labelledby={multiFormat ? `format-${format}` : undefined}>
+                  {multiFormat && (
+                    <div className="mb-5 flex items-baseline justify-between gap-3 px-2 sm:px-0">
+                      <h3 id={`format-${format}`} className="font-display font-extrabold text-3xl text-mat-ink">
+                        {formatLabelsTranslated[format]}
+                      </h3>
+                      <p className="text-mat-ink-2">{t('deckCount', { count: formatDecks.length })}</p>
+                    </div>
+                  )}
+
+                  <div className="space-y-4 sm:space-y-5">
+                    {sortedTiers.map((tier) => {
+                      const tierDecks = decksByTier.get(tier)!
+                      // Empty card spots printed on the mat complete the last row (desktop, 5 columns).
+                      const emptySlots = (5 - (tierDecks.length % 5)) % 5
+                      return (
+                        <div
+                          key={tier}
+                          className="mat-zone grid sm:grid-cols-[3.5rem_minmax(0,1fr)] gap-4 sm:gap-5 p-3 sm:p-5"
+                        >
+                          <h3
+                            className={`font-display font-black text-3xl sm:text-[2.6rem] leading-none ${tierText[tier] ?? 'text-tier-4'} sm:[writing-mode:vertical-rl] sm:rotate-180 sm:self-start sm:justify-self-center px-1 sm:px-0`}
+                          >
+                            {tierLabelsTranslated[tier]}
+                          </h3>
+                          {tierDecks.length === 0 ? (
+                            <div className="text-mat-ink-2">
+                              <p className="font-semibold text-mat-ink">{t('emptyTierTitle')}</p>
+                              <p>{t('emptyTierDescription')}</p>
+                            </div>
+                          ) : (
+                            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4">
+                              {tierDecks.map((deck) => (
+                                <DeckCard key={deck.id} deck={deck} tier={tier} />
+                              ))}
+                              {Array.from({ length: emptySlots }).map((_, i) => (
+                                <div key={`slot-${i}`} aria-hidden="true" className="mat-slot hidden lg:block" />
+                              ))}
+                            </div>
+                          )}
                         </div>
-                        {tierDecks.length === 0 ? (
-                          <EmptyState
-                            title={t('emptyTierTitle')}
-                            description={t('emptyTierDescription')}
-                          />
-                        ) : (
-                          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                            {tierDecks.map((deck) => (
-                              <DeckCard key={deck.id} deck={deck} />
-                            ))}
-                          </div>
-                        )}
-                      </div>
-                    )
-                  })}
-                </div>
-              </section>
-            )
-          })}
+                      )
+                    })}
+                  </div>
+                </section>
+              )
+            })}
+          </div>
         </div>
 
         <LiveBanner channel="tricroar" />
-      </div>
-
+      </section>
     </main>
   )
 }

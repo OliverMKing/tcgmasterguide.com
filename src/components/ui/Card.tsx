@@ -6,6 +6,7 @@ interface CardProps extends HTMLAttributes<HTMLDivElement> {
   children?: ReactNode
 }
 
+// A plain panel on the page. Not a trading card: use .tcg-card for those.
 export function Card({
   as: Tag = 'div',
   interactive = false,
@@ -13,11 +14,8 @@ export function Card({
   children,
   ...rest
 }: CardProps) {
-  const base =
-    'bg-white dark:bg-slate-800 rounded-2xl border border-stone-200 dark:border-slate-700 shadow-sm'
-  const hover = interactive
-    ? 'transition-all duration-300 ease-out hover:border-violet-300 dark:hover:border-violet-500 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-violet-500/10 dark:hover:shadow-violet-900/30'
-    : ''
+  const base = 'bg-surface rounded-2xl border border-line'
+  const hover = interactive ? 'transition-colors duration-200 hover:border-ink-3' : ''
   return (
     <Tag className={`${base} ${hover} ${className}`} {...(rest as object)}>
       {children}

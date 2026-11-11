@@ -10,9 +10,13 @@ interface LocalDateProps {
   /** Translation key for prefix (e.g., "home.updated" or "deck.lastUpdated") */
   prefixKey?: string
   className?: string
+  /** "long" gives "October 29, 2026"; "short" gives "Oct 29, 2026" */
+  format?: 'long' | 'short'
+  /** Shown until the date is formatted in the browser (the first render has no date). */
+  placeholder?: React.ReactNode
 }
 
-export function LocalDate({ timestamp, prefix = '', prefixKey, className }: LocalDateProps) {
+export function LocalDate({ timestamp, prefix = '', prefixKey, className, format = 'long', placeholder = null }: LocalDateProps) {
   const locale = useLocale()
   const tHome = useTranslations('home')
   const tDeck = useTranslations('deck')
@@ -31,14 +35,14 @@ export function LocalDate({ timestamp, prefix = '', prefixKey, className }: Loca
     setFormattedDate(
       date.toLocaleDateString(locale === 'es' ? 'es-ES' : 'en-US', {
         year: 'numeric',
-        month: 'long',
+        month: format === 'short' ? 'short' : 'long',
         day: 'numeric',
       })
     )
-  }, [timestamp, locale])
+  }, [timestamp, locale, format])
 
   if (!formattedDate) {
-    return null
+    return <>{placeholder}</>
   }
 
   return <span className={className}>{displayPrefix}{formattedDate}</span>

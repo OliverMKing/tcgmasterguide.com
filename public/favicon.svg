@@ -1,19 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <!-- Master Ball inspired "G" favicon -->
-
-  <!-- Ball group - tilted -->
-  <g transform="rotate(10, 32, 32)">
-    <!-- Outer circle (ball shape) - bottom half white -->
-    <circle cx="32" cy="32" r="30" fill="#FAFBFC" stroke="#111827" stroke-width="2"/>
-
-    <!-- Top half purple -->
-    <path d="M32 2 A30 30 0 0 1 62 32 L2 32 A30 30 0 0 1 32 2" fill="#9333EA"/>
-
-    <!-- Center band -->
-    <rect x="2" y="31.5" width="60" height="1" fill="#111827"/>
-  </g>
-
-  <!-- G letter - bold and readable -->
-  <text x="32" y="55" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="62" font-weight="800" fill="#111827">G</text>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- TCG Master Guide mark: two fanned trading cards. Matches src/components/Logo.tsx. -->
+  <style>
+    .back { fill: #2d1b4e; }
+    .front { fill: #b8246f; }
+    .window { fill: #f2f0f5; }
+    @media (prefers-color-scheme: dark) {
+      .back { fill: #a597c2; }
+      .front { fill: #ff6fb0; }
+      .window { fill: #15101e; }
+    }
+  </style>
+  <rect class="back" x="11" y="4" width="15" height="21" rx="2.5" transform="rotate(13 18.5 14.5)"/>
+  <rect class="front" x="6" y="7" width="15" height="21" rx="2.5" transform="rotate(-7 13.5 17.5)"/>
+  <rect class="window" x="9" y="11" width="9" height="8" rx="1" transform="rotate(-7 13.5 17.5)" opacity="0.9"/>
 </svg>

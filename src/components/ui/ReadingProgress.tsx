@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 
 /**
- * Thin violet progress bar fixed to the top of the viewport that fills as the
+ * Thin accent progress bar fixed to the top of the viewport that fills as the
  * user scrolls the page. Used on long-form pages (deck guides, about, etc.)
  * to give readers a sense of depth without adding visual noise.
  */
@@ -29,10 +29,10 @@ export function ReadingProgress() {
   return (
     <div
       aria-hidden="true"
-      className="fixed top-0 left-0 right-0 h-0.5 z-[60] pointer-events-none"
+      className="fixed top-0 left-0 right-0 h-[3px] z-[60] pointer-events-none"
     >
       <div
-        className="h-full bg-gradient-to-r from-violet-500 via-purple-500 to-violet-500 transition-[width] duration-75 ease-out"
+        className="h-full bg-accent transition-[width] duration-75 ease-out"
         style={{ width: `${progress}%` }}
       />
     </div>

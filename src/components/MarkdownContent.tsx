@@ -39,6 +39,31 @@ function transformImageSrc(src: string, imageApiBase: string): string {
   return src
 }
 
+type VerdictTone = 'good' | 'bad' | 'neutral'
+
+// Matchup headings read "Raging Bolt - Favorable". The verdict is shown as a small
+// status label. Only known verdict words match, so other headings with a dash stay as written.
+const VERDICT_PATTERN =
+  /^(?:(?:very|slightly|slighty|muy|ligeramente)\s+)?(?:un|des)?favorable$|^(?:even|parejo)$|^depend(?:s|e)\b.*$|^auto[- ]?(?:win|loss)$/i
+
+function parseMatchup(text: string): { name: string; verdict: string; tone: VerdictTone } | null {
+  const match = /^(.+?)\s+-\s+([^-]+(?:-[a-z]+)?)$/i.exec(text.trim())
+  if (!match) return null
+  const [, name, verdict] = match
+  if (!VERDICT_PATTERN.test(verdict.trim())) return null
+  const v = verdict.toLowerCase()
+  let tone: VerdictTone = 'neutral'
+  if (/unfav|desfav|loss/.test(v)) tone = 'bad'
+  else if (/fav|win/.test(v)) tone = 'good'
+  return { name, verdict: verdict.trim(), tone }
+}
+
+const verdictTone: Record<VerdictTone, string> = {
+  good: 'text-ok',
+  bad: 'text-bad',
+  neutral: 'text-ink-3',
+}
+
 interface MarkdownContentProps {
   content: string
   // API base path used to resolve relative ./images/ references.
@@ -89,7 +114,10 @@ export const MarkdownContent = memo(function MarkdownContent({
           const text = getTextFromChildren(children)
           const id = getHeadingId(text)
           return (
-            <h2 id={id} className="text-3xl font-bold text-slate-900 dark:text-slate-100 mt-12 mb-4 first:mt-0 pb-2 border-b border-slate-200 dark:border-slate-700 scroll-mt-20 md:scroll-mt-32">
+            <h2
+              id={id}
+              className="font-display font-black text-ink text-[2.5rem] sm:text-5xl leading-[0.9] mt-16 mb-6 first:mt-0 scroll-mt-24"
+            >
               {children}
             </h2>
           )
@@ -98,7 +126,10 @@ export const MarkdownContent = memo(function MarkdownContent({
           const text = getTextFromChildren(children)
           const id = getHeadingId(text)
           return (
-            <h3 id={id} className="text-2xl font-bold text-slate-900 dark:text-slate-100 mt-10 mb-4 scroll-mt-20 md:scroll-mt-32">
+            <h3
+              id={id}
+              className="font-display font-black text-ink text-[2.25rem] leading-[0.92] mt-16 mb-5 pt-8 border-t border-line first:mt-0 first:pt-0 first:border-t-0 scroll-mt-24"
+            >
               {children}
             </h3>
           )
@@ -106,9 +137,26 @@ export const MarkdownContent = memo(function MarkdownContent({
         h3: ({ children }) => {
           const text = getTextFromChildren(children)
           const id = getHeadingId(text)
+          const matchup = typeof children === 'string' ? parseMatchup(children) : null
           return (
-            <h4 id={id} className="text-xl font-semibold text-slate-900 dark:text-slate-100 mt-8 mb-3 scroll-mt-20 md:scroll-mt-32">
-              {children}
+            <h4
+              id={id}
+              className="font-display font-extrabold text-ink text-[1.75rem] leading-[0.95] mt-12 mb-3 scroll-mt-24"
+            >
+              {matchup ? (
+                <>
+                  {matchup.name}
+                  <span className="sr-only"> - </span>
+                  <span
+                    className={`ml-3 inline-flex items-center gap-1.5 align-[0.2em] font-sans text-[0.9375rem] font-bold leading-none tracking-normal whitespace-nowrap ${verdictTone[matchup.tone]}`}
+                  >
+                    <span aria-hidden="true" className="inline-block w-1.5 h-1.5 rounded-full bg-current" />
+                    {matchup.verdict}
+                  </span>
+                </>
+              ) : (
+                children
+              )}
             </h4>
           )
         },
@@ -120,37 +168,35 @@ export const MarkdownContent = memo(function MarkdownContent({
           if (text === PREMIUM_PLACEHOLDER) {
             return <LockedSection />
           }
-          return (
-            <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
-              {children}
-            </p>
-          )
+          return <p className="mb-6">{children}</p>
         },
         ul: ({ children }) => (
-          <ul className="deck-list space-y-3 text-slate-600 dark:text-slate-300 mb-6 pl-0">
+          <ul className="deck-list space-y-2.5 mb-6 pl-0">
             {children}
           </ul>
         ),
         ol: ({ children }) => (
-          <ol className="deck-list space-y-3 text-slate-600 dark:text-slate-300 mb-6 pl-0 list-decimal list-inside">
+          <ol className="deck-list space-y-2.5 mb-6 pl-6 list-decimal marker:text-ink-3 marker:font-semibold [&>li]:pl-1.5 [&>li]:before:hidden">
             {children}
           </ol>
         ),
         li: ({ children }) => (
-          <li className="text-slate-600 dark:text-slate-300 relative pl-5 before:content-[''] before:absolute before:left-0 before:top-[0.6em] before:w-1.5 before:h-1.5 before:rounded-full before:bg-purple-500 dark:before:bg-purple-400">
+          <li className="relative pl-6 before:content-[''] before:absolute before:left-1 before:top-[0.62em] before:w-[6px] before:h-[8.5px] before:rounded-[1.5px] before:bg-accent">
             {children}
           </li>
         ),
         strong: ({ children }) => (
-          <strong className="font-semibold text-slate-900 dark:text-slate-100">{children}</strong>
+          <strong className="font-bold text-ink">{children}</strong>
         ),
-        em: ({ children }) => (
-          <em className="italic text-slate-700 dark:text-slate-200">{children}</em>
-        ),
+        em: ({ children }) => <em className="italic text-ink">{children}</em>,
         code: ({ children }) => (
-          <code className="bg-slate-100 dark:bg-slate-700 text-purple-700 dark:text-purple-300 px-2 py-0.5 rounded text-sm font-mono">
+          <code className="bg-surface-2 text-ink border border-line px-1.5 py-px rounded-md text-[0.85em] font-mono">
             {children}
           </code>
+        ),
+        hr: () => <hr className="my-12 border-0 border-t border-line" />,
+        blockquote: ({ children }) => (
+          <blockquote className="my-8 border-l-2 border-accent pl-5 text-ink">{children}</blockquote>
         ),
         pre: ({ children }) => {
           const codeElement = children as React.ReactElement<{ className?: string; children?: string }>
@@ -189,7 +235,7 @@ export const MarkdownContent = memo(function MarkdownContent({
             }
           }
           return (
-            <pre className="bg-slate-100 dark:bg-slate-800 p-4 rounded-xl overflow-x-auto my-6">
+            <pre className="bg-surface-2 border border-line p-4 rounded-2xl overflow-x-auto my-6 text-sm leading-relaxed [&_code]:border-0 [&_code]:bg-transparent [&_code]:p-0">
               {children}
             </pre>
           )
@@ -197,13 +243,13 @@ export const MarkdownContent = memo(function MarkdownContent({
         img: ({ src, alt }) => {
           const imageSrc = transformImageSrc(typeof src === 'string' ? src : '', imageApiBase)
           return (
-            <span className="block my-8 relative">
+            <span className="playmat block my-10 rounded-[20px] p-2 sm:p-3">
               <Image
                 src={imageSrc}
                 alt={alt || ''}
                 width={800}
                 height={600}
-                className="rounded-xl border border-slate-200 dark:border-slate-700 shadow-lg w-full h-auto"
+                className="block rounded-[10px] w-full h-auto"
                 unoptimized
               />
             </span>

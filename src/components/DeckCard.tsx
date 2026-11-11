@@ -1,10 +1,10 @@
 'use client'
 
-import { useState } from 'react'
+import Image from 'next/image'
 import { Link } from '@/i18n/navigation'
-import { BouncingSprite } from '@/components/BouncingSprite'
 import { LocalDate } from '@/components/LocalDate'
 import { deckDates } from '@/generated/deck-dates'
+import { useHolo } from '@/hooks/useHolo'
 
 interface Deck {
   id: string
@@ -12,54 +12,95 @@ interface Deck {
   pokemon: number[]
 }
 
-function getPokemonSprite(pokedexId: number): string {
+export function getPokemonSprite(pokedexId: number): string {
   return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokedexId}.png`
 }
 
-export function DeckCard({ deck }: { deck: Deck }) {
+// Sprite width as a share of the art window, per number of Pokémon. PokeAPI sprites
+// have wide transparent margins, so sprites overlap to read as one group.
+const spriteLayout: { width: number; overlap: number }[] = [
+  { width: 96, overlap: 0 },
+  { width: 66, overlap: 22 },
+  { width: 52, overlap: 18 },
+]
+
+interface DeckCardProps {
+  deck: Deck
+  /** Every deck card is a holo. Set false for a plain card. */
+  holo?: boolean
+  /** Picks the foil metal: 1 gold, 2 silver, 3 copper, 4 lavender. */
+  tier?: number
+  size?: 'sm' | 'lg'
+  /** Shows the "Updated" line. Off for the hero hand. */
+  showDate?: boolean
+  className?: string
+  style?: React.CSSProperties
+  tabIndex?: number
+}
+
+export function DeckCard({
+  deck,
+  holo = true,
+  tier,
+  size = 'sm',
+  showDate = true,
+  className = '',
+  style,
+  tabIndex,
+}: DeckCardProps) {
   const lastEdited = deckDates[deck.id] || null
-  const [bounceKey, setBounceKey] = useState(0)
+  const { ref, onPointerMove, onPointerLeave } = useHolo<HTMLDivElement>(holo ? 12 : 0)
+  const count = Math.min(deck.pokemon.length, 3) || 1
+  const layout = spriteLayout[count - 1]
+  const [first, ...rest] = deck.title.split(' / ')
 
   return (
     <Link
       href={`/decks/${deck.id}`}
-      onMouseEnter={() => setBounceKey((k) => k + 1)}
-      className="group relative bg-white dark:bg-slate-800 rounded-2xl border border-stone-200 dark:border-slate-700 shadow-card hover:shadow-card-hover hover:border-violet-300 dark:hover:border-violet-500 transition-all duration-300 ease-snappy p-6 overflow-hidden flex flex-col h-full"
+      className={`group block rounded-[12px] ${className}`}
+      style={style}
+      tabIndex={tabIndex}
     >
-      <div className="absolute inset-0 bg-gradient-to-br from-violet-500/0 via-transparent to-purple-500/0 group-hover:from-violet-500/5 group-hover:to-purple-500/5 transition-all duration-500 rounded-2xl" />
-
-      <div className="relative flex items-center justify-between gap-3 flex-1">
-        <div className="flex items-center gap-3 min-w-0 flex-wrap lg:flex-nowrap">
-          <h3 className="text-lg font-medium text-neutral-800 dark:text-slate-100 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors break-words">
-            {deck.title.replace(/ \/ /g, ' / ')}
+      <div
+        ref={ref}
+        onPointerMove={holo ? onPointerMove : undefined}
+        onPointerLeave={holo ? onPointerLeave : undefined}
+        className={`tcg-card ${holo ? `holo ${tier ? `foil-tier-${tier}` : ''}` : ''}`}
+      >
+        <div className="tcg-card-face">
+          <h3
+            className={`font-display font-extrabold text-card-ink leading-[0.92] ${
+              size === 'lg' ? 'px-3.5 pt-3 pb-2.5 text-[1.75rem]' : 'px-2.5 pt-2 pb-1.5 text-[1.3rem]'
+            }`}
+          >
+            {first}
+            {rest.length > 0 && (
+              <span className="block text-card-ink-2 whitespace-nowrap">/ {rest.join(' / ')}</span>
+            )}
           </h3>
-          <div className="flex -space-x-2 shrink-0">
-            {deck.pokemon.map((id) => (
-              <BouncingSprite
+          <div className="tcg-card-art flex-1 flex items-center justify-center overflow-hidden">
+            {deck.pokemon.slice(0, 3).map((id, i) => (
+              <Image
                 key={id}
                 src={getPokemonSprite(id)}
-                size={40}
-                className="w-10 h-10"
-                bounceKey={bounceKey}
+                alt=""
+                width={96}
+                height={96}
+                unoptimized
+                className="sprite shrink-0 h-auto max-w-none object-contain"
+                style={{ width: `${layout.width}%`, marginLeft: i === 0 ? 0 : `-${layout.overlap}%` }}
               />
             ))}
           </div>
+          <div
+            className={`text-card-ink-2 ${size === 'lg' ? 'px-3.5 py-2.5 text-sm' : 'px-2.5 py-2 text-[0.72rem] sm:text-[0.78rem]'} leading-tight min-h-[1.5em] whitespace-nowrap overflow-hidden text-ellipsis`}
+          >
+            {showDate && lastEdited && (
+              <LocalDate timestamp={lastEdited} prefixKey="home.updated" format="short" />
+            )}
+          </div>
         </div>
-        <span className="shrink-0 w-8 h-8 rounded-full bg-stone-100 dark:bg-slate-700 flex items-center justify-center group-hover:bg-violet-100 dark:group-hover:bg-violet-900/40 group-hover:translate-x-0.5 transition-all duration-300">
-          <svg className="w-4 h-4 text-stone-400 dark:text-slate-400 group-hover:text-violet-500 dark:group-hover:text-violet-300 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-          </svg>
-        </span>
       </div>
-      {lastEdited && (
-        <p className="relative text-xs text-stone-400 dark:text-slate-500 mt-auto pt-3 flex items-center gap-1.5">
-          <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-            <circle cx="12" cy="12" r="9" />
-            <path strokeLinecap="round" strokeLinejoin="round" d="M12 7v5l3 2" />
-          </svg>
-          <LocalDate timestamp={lastEdited} prefixKey="home.updated" />
-        </p>
-      )}
     </Link>
   )
 }

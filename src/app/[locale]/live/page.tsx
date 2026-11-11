@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { setRequestLocale, getTranslations } from 'next-intl/server'
+import { setRequestLocale } from 'next-intl/server'
 import LivePageContent from '@/components/LivePageContent'
 
 export const metadata: Metadata = {
@@ -20,24 +20,10 @@ export default async function LivePage({
 }) {
   const { locale } = await params
   setRequestLocale(locale)
-  const t = await getTranslations('live')
 
+  // The header lives in LivePageContent so it can show the live status.
   return (
-    <main className="min-h-screen bg-gradient-to-b from-stone-50 to-white dark:from-slate-900 dark:to-slate-800">
-      {/* Hero Section */}
-      <div className="border-b border-stone-200 dark:border-slate-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative">
-          <div className="text-center">
-            <h1 className="text-3xl md:text-4xl font-bold text-neutral-800 dark:text-slate-100 mb-3">
-              {t('title')}
-            </h1>
-            <p className="text-lg text-neutral-600 dark:text-slate-300 max-w-2xl mx-auto">
-              {t('subtitle')}
-            </p>
-          </div>
-        </div>
-      </div>
-
+    <main className="min-h-screen">
       <LivePageContent channel="tricroar" />
     </main>
   )

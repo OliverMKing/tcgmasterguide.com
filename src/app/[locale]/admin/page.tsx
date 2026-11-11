@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from 'react'
 import { useUser } from '@clerk/nextjs'
 import { UserRole } from '@/lib/user-roles'
 import { useFetchWithRetry } from '@/lib/fetch-with-retry'
+import { Badge, Button, Skeleton } from '@/components/ui'
 
 interface Announcement {
   id: string
@@ -69,30 +70,197 @@ function SubscriptionBadges({ user }: { user: User }) {
     !user.stripeSubscriptionStatusEs
 
   if (isManual) {
-    return (
-      <span className="inline-flex px-2 py-1 text-xs font-semibold rounded-full bg-green-100 text-green-700 dark:bg-green-900/50 dark:text-green-300">
-        Manual (all)
-      </span>
-    )
+    return <Badge variant="success">Manual (all)</Badge>
   }
 
   if (!enActive && !esActive) {
-    return <span className="text-sm text-slate-400 dark:text-slate-500">—</span>
+    return <span className="text-sm text-ink-3">—</span>
   }
 
   return (
     <div className="flex gap-1.5">
-      {enActive && (
-        <span className="inline-flex px-2 py-1 text-xs font-semibold rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900/50 dark:text-blue-300">
-          EN
-        </span>
-      )}
-      {esActive && (
-        <span className="inline-flex px-2 py-1 text-xs font-semibold rounded-full bg-orange-100 text-orange-700 dark:bg-orange-900/50 dark:text-orange-300">
-          ES
-        </span>
-      )}
+      {enActive && <Badge variant="info">EN</Badge>}
+      {esActive && <Badge variant="info">ES</Badge>}
     </div>
+  )
+}
+
+function roleBadgeVariant(role: string): 'violet' | 'success' | 'neutral' {
+  if (role === UserRole.ADMIN) return 'violet'
+  if (role === UserRole.SUBSCRIBER) return 'success'
+  return 'neutral'
+}
+
+// Show roles in sentence case. Unknown roles fall back to the raw value.
+function roleLabel(role: string): string {
+  if (role === UserRole.ADMIN) return 'Admin'
+  if (role === UserRole.SUBSCRIBER) return 'Subscriber'
+  if (role === UserRole.USER) return 'User'
+  return role
+}
+
+const shell = 'max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-14 pb-20'
+
+const pageTitle =
+  'font-display font-black text-ink text-5xl sm:text-6xl leading-[0.88] tracking-[-0.01em]'
+
+const sectionTitle = 'font-display text-3xl text-ink'
+
+const inputCls =
+  'rounded-[10px] border border-line-strong bg-surface px-3.5 py-2.5 text-ink placeholder:text-ink-3 hover:border-ink-3 transition-colors'
+
+function StatGrid({
+  items,
+  size = 'lg',
+}: {
+  items: { label: string; value: number }[]
+  size?: 'lg' | 'md'
+}) {
+  return (
+    <dl className="grid grid-cols-2 md:grid-cols-4 gap-px bg-line border border-line rounded-2xl overflow-hidden">
+      {items.map((item) => (
+        <div key={item.label} className={`bg-surface ${size === 'lg' ? 'p-5' : 'px-5 py-4'}`}>
+          <dt className="text-sm text-ink-2">{item.label}</dt>
+          <dd
+            className={`mt-1.5 font-display font-extrabold text-ink tabular-nums leading-none ${
+              size === 'lg' ? 'text-5xl' : 'text-4xl'
+            }`}
+          >
+            {item.value}
+          </dd>
+        </div>
+      ))}
+    </dl>
+  )
+}
+
+function UsersTableSkeleton() {
+  return (
+    <div className="rounded-2xl border border-line bg-surface overflow-hidden" aria-hidden="true">
+      <div className="px-4 py-3 flex gap-4 border-b border-line">
+        <Skeleton className="h-4 w-20" />
+        <Skeleton className="h-4 w-32" />
+        <Skeleton className="h-4 w-16" />
+        <Skeleton className="h-4 w-20" />
+      </div>
+      {[...Array(5)].map((_, i) => (
+        <div key={i} className="px-4 py-4 border-t border-line first:border-t-0 flex gap-4">
+          <Skeleton className="h-5 w-24" />
+          <Skeleton className="h-5 w-40" />
+          <Skeleton className="h-5 w-16" rounded="full" />
+          <Skeleton className="h-8 w-24" rounded="lg" />
+        </div>
+      ))}
+    </div>
+  )
+}
+
+function SortButton({
+  active,
+  order,
+  onClick,
+  children,
+}: {
+  active: boolean
+  order: SortOrder
+  onClick: () => void
+  children: React.ReactNode
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      className={`px-3 py-1.5 text-sm font-semibold rounded-[8px] transition-colors cursor-pointer ${
+        active ? 'bg-surface-2 text-ink' : 'text-ink-2 hover:text-ink'
+      }`}
+    >
+      {children}
+      {active && <span aria-hidden="true"> {order === 'asc' ? '↑' : '↓'}</span>}
+    </button>
+  )
+}
+
+function AnnouncementPanel({
+  title,
+  description,
+  active,
+  value,
+  onChange,
+  placeholder,
+  saving,
+  onSave,
+  onClear,
+}: {
+  title: string
+  description: string
+  active: boolean
+  value: string
+  onChange: (v: string) => void
+  placeholder: string
+  saving: boolean
+  onSave: () => void
+  onClear: () => void
+}) {
+  return (
+    <div className="rounded-2xl border border-line bg-surface p-5 sm:p-6">
+      <div className="flex items-center justify-between gap-3">
+        <h3 className="font-display text-2xl text-ink">{title}</h3>
+        {active ? <Badge variant="success">Active</Badge> : <Badge variant="neutral">Off</Badge>}
+      </div>
+      <p className="mt-1 text-sm text-ink-2">{description}</p>
+      <textarea
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        placeholder={placeholder}
+        aria-label={title}
+        rows={3}
+        className={`${inputCls} mt-4 block w-full resize-y text-base`}
+      />
+      <div className="flex flex-wrap gap-2 mt-3">
+        <Button size="sm" onClick={onSave} disabled={saving || !value.trim()}>
+          {saving ? 'Saving…' : 'Set announcement'}
+        </Button>
+        <Button size="sm" variant="secondary" onClick={onClear} disabled={saving || !active}>
+          Clear
+        </Button>
+      </div>
+    </div>
+  )
+}
+
+function SimplePager({
+  pagination,
+  onChange,
+  showTotal = false,
+}: {
+  pagination: Pagination
+  onChange: (page: number) => void
+  showTotal?: boolean
+}) {
+  return (
+    <nav className="flex flex-wrap items-center gap-3 mt-5" aria-label="Pagination">
+      <Button
+        size="sm"
+        variant="secondary"
+        onClick={() => onChange(pagination.page - 1)}
+        disabled={pagination.page === 1}
+      >
+        Previous
+      </Button>
+      <span className="text-sm text-ink-2 tabular-nums">
+        Page {pagination.page} of {pagination.totalPages}
+        {showTotal && ` (${pagination.total} total)`}
+      </span>
+      <Button
+        size="sm"
+        variant="secondary"
+        onClick={() => onChange(pagination.page + 1)}
+        disabled={pagination.page === pagination.totalPages}
+      >
+        Next
+      </Button>
+    </nav>
   )
 }
 
@@ -330,85 +498,49 @@ export default function AdminPage() {
 
   if (!isLoaded || initialLoading) {
     return (
-      <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          {/* Title skeleton */}
-          <div className="h-9 w-56 bg-slate-200 dark:bg-slate-700 rounded-lg mb-8 animate-pulse" />
+      <main className="min-h-screen">
+        <div className={shell} aria-hidden="true">
+          <Skeleton className="h-12 w-72" />
 
-          {/* Stats skeleton */}
-          <div className="mb-12">
-            <div className="h-7 w-36 bg-slate-200 dark:bg-slate-700 rounded mb-4 animate-pulse" />
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {[...Array(4)].map((_, i) => (
-                <div key={i} className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6">
-                  <div className="h-9 w-16 bg-slate-200 dark:bg-slate-700 rounded mb-2 animate-pulse" />
-                  <div className="h-4 w-20 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Announcements skeleton */}
-          <div className="mb-12">
-            <div className="h-7 w-40 bg-slate-200 dark:bg-slate-700 rounded mb-4 animate-pulse" />
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {[...Array(2)].map((_, i) => (
-                <div key={i} className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6">
-                  <div className="h-6 w-48 bg-slate-200 dark:bg-slate-700 rounded mb-4 animate-pulse" />
-                  <div className="h-4 w-64 bg-slate-200 dark:bg-slate-700 rounded mb-3 animate-pulse" />
-                  <div className="h-20 w-full bg-slate-200 dark:bg-slate-700 rounded mb-3 animate-pulse" />
-                  <div className="h-16 w-full bg-slate-200 dark:bg-slate-700 rounded mb-3 animate-pulse" />
-                  <div className="h-9 w-36 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Pending comments skeleton */}
-          <div className="mt-12 mb-8">
-            <div className="h-7 w-48 bg-slate-200 dark:bg-slate-700 rounded mb-4 animate-pulse" />
-            <div className="space-y-4">
-              {[...Array(2)].map((_, i) => (
-                <div key={i} className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-4">
-                  <div className="flex justify-between mb-2">
-                    <div className="h-5 w-32 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
-                    <div className="h-4 w-20 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
-                  </div>
-                  <div className="h-4 w-full bg-slate-200 dark:bg-slate-700 rounded mb-2 animate-pulse" />
-                  <div className="h-4 w-3/4 bg-slate-200 dark:bg-slate-700 rounded mb-4 animate-pulse" />
-                  <div className="flex gap-2">
-                    <div className="h-8 w-20 bg-slate-200 dark:bg-slate-700 rounded-lg animate-pulse" />
-                    <div className="h-8 w-20 bg-slate-200 dark:bg-slate-700 rounded-lg animate-pulse" />
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Users table skeleton */}
-          <div className="mb-8">
-            <div className="h-7 w-36 bg-slate-200 dark:bg-slate-700 rounded mb-4 animate-pulse" />
-            <div className="flex gap-4 mb-6">
-              <div className="flex-1 h-10 bg-slate-200 dark:bg-slate-700 rounded-lg animate-pulse" />
-              <div className="h-10 w-24 bg-slate-200 dark:bg-slate-700 rounded-lg animate-pulse" />
-            </div>
-          </div>
-          <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 overflow-hidden">
-            <div className="bg-slate-50 dark:bg-slate-700 px-4 py-3 flex gap-4">
-              <div className="h-5 w-20 bg-slate-200 dark:bg-slate-600 rounded animate-pulse" />
-              <div className="h-5 w-32 bg-slate-200 dark:bg-slate-600 rounded animate-pulse" />
-              <div className="h-5 w-16 bg-slate-200 dark:bg-slate-600 rounded animate-pulse" />
-              <div className="h-5 w-20 bg-slate-200 dark:bg-slate-600 rounded animate-pulse" />
-            </div>
-            {[...Array(5)].map((_, i) => (
-              <div key={i} className="px-4 py-4 border-t border-slate-200 dark:border-slate-700 flex gap-4">
-                <div className="h-5 w-24 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
-                <div className="h-5 w-40 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
-                <div className="h-5 w-16 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
-                <div className="h-8 w-24 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
+          <Skeleton className="mt-12 h-7 w-40 mb-4" />
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-line border border-line rounded-2xl overflow-hidden">
+            {[...Array(4)].map((_, i) => (
+              <div key={i} className="bg-surface p-5">
+                <Skeleton className="h-4 w-20 mb-3" />
+                <Skeleton className="h-10 w-16" />
               </div>
             ))}
           </div>
+
+          <Skeleton className="mt-14 h-7 w-44 mb-4" />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {[...Array(2)].map((_, i) => (
+              <div key={i} className="rounded-2xl border border-line bg-surface p-6">
+                <Skeleton className="h-6 w-48 mb-3" />
+                <Skeleton className="h-4 w-64 mb-4" />
+                <Skeleton className="h-20 w-full mb-3" rounded="lg" />
+                <Skeleton className="h-9 w-36" rounded="lg" />
+              </div>
+            ))}
+          </div>
+
+          <Skeleton className="mt-14 h-7 w-48 mb-4" />
+          <div className="border-t border-line">
+            {[...Array(2)].map((_, i) => (
+              <div key={i} className="py-5 border-b border-line">
+                <Skeleton className="h-5 w-40 mb-3" />
+                <Skeleton className="h-4 w-full mb-2" />
+                <Skeleton className="h-4 w-3/4" />
+              </div>
+            ))}
+          </div>
+
+          <Skeleton className="mt-14 h-7 w-40 mb-4" />
+          <div className="flex gap-3 mb-5">
+            <Skeleton className="flex-1 h-11" rounded="lg" />
+            <Skeleton className="h-11 w-24" rounded="lg" />
+          </div>
+          <UsersTableSkeleton />
         </div>
       </main>
     )
@@ -416,11 +548,10 @@ export default function AdminPage() {
 
   if (!isSignedIn) {
     return (
-      <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="text-center text-slate-600 dark:text-slate-400">
-            Please sign in to access this page
-          </div>
+      <main className="min-h-screen">
+        <div className={shell}>
+          <h1 className={pageTitle}>Admin dashboard</h1>
+          <p className="mt-4 text-ink-2">Please sign in to access this page</p>
         </div>
       </main>
     )
@@ -428,437 +559,257 @@ export default function AdminPage() {
 
   if (error === 'You do not have permission to access this page') {
     return (
-      <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="text-center text-red-600 dark:text-red-400">{error}</div>
+      <main className="min-h-screen">
+        <div className={shell}>
+          <h1 className={pageTitle}>Admin dashboard</h1>
+          <p role="alert" className="mt-4 text-bad">{error}</p>
         </div>
       </main>
     )
   }
 
+  const publicActive = !!announcements.find((a) => a.type === 'PUBLIC')?.active
+  const subscriberActive = !!announcements.find((a) => a.type === 'SUBSCRIBER')?.active
+
   return (
-    <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h1 className="text-3xl font-bold text-slate-900 dark:text-slate-100 mb-8">
-          Admin Dashboard
-        </h1>
+    <main className="min-h-screen">
+      <div className={shell}>
+        <h1 className={pageTitle}>Admin dashboard</h1>
 
         {/* Stats Section */}
         {stats && (
-          <div className="mb-12">
-            <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-100 mb-4">
-              User Statistics
+          <section className="mt-12" aria-labelledby="admin-stats">
+            <h2 id="admin-stats" className={`${sectionTitle} mb-4`}>
+              Users
             </h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6">
-                <div className="text-3xl font-bold text-slate-900 dark:text-slate-100">
-                  {stats.totalUsers}
-                </div>
-                <div className="text-sm text-slate-600 dark:text-slate-400">Total Users</div>
-              </div>
-              <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6">
-                <div className="text-3xl font-bold text-purple-600 dark:text-purple-400">
-                  {stats.byRole[UserRole.ADMIN] || 0}
-                </div>
-                <div className="text-sm text-slate-600 dark:text-slate-400">Admins</div>
-              </div>
-              <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6">
-                <div className="text-3xl font-bold text-amber-600 dark:text-amber-400">
-                  {stats.byRole[UserRole.SUBSCRIBER] || 0}
-                </div>
-                <div className="text-sm text-slate-600 dark:text-slate-400">Subscribers</div>
-              </div>
-              <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6">
-                <div className="text-3xl font-bold text-slate-600 dark:text-slate-400">
-                  {stats.byRole[UserRole.USER] || 0}
-                </div>
-                <div className="text-sm text-slate-600 dark:text-slate-400">Regular Users</div>
-              </div>
-            </div>
+            <StatGrid
+              items={[
+                { label: 'Total users', value: stats.totalUsers },
+                { label: 'Admins', value: stats.byRole[UserRole.ADMIN] || 0 },
+                { label: 'Subscribers', value: stats.byRole[UserRole.SUBSCRIBER] || 0 },
+                { label: 'Regular users', value: stats.byRole[UserRole.USER] || 0 },
+              ]}
+            />
 
             {/* Subscriber Language Breakdown */}
             {stats.subscribersByLanguage && (
-              <div className="mt-6">
-                <h3 className="text-lg font-medium text-slate-900 dark:text-slate-100 mb-3">
-                  Subscribers by Language
+              <div className="mt-8">
+                <h3 className="font-display text-xl text-ink mb-3">
+                  Subscribers by language
                 </h3>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                  <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-4">
-                    <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-                      {stats.subscribersByLanguage.englishOnly}
-                    </div>
-                    <div className="text-sm text-slate-600 dark:text-slate-400">English Only</div>
-                  </div>
-                  <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-4">
-                    <div className="text-2xl font-bold text-orange-600 dark:text-orange-400">
-                      {stats.subscribersByLanguage.spanishOnly}
-                    </div>
-                    <div className="text-sm text-slate-600 dark:text-slate-400">Spanish Only</div>
-                  </div>
-                  <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-4">
-                    <div className="text-2xl font-bold text-green-600 dark:text-green-400">
-                      {stats.subscribersByLanguage.both}
-                    </div>
-                    <div className="text-sm text-slate-600 dark:text-slate-400">Both Languages</div>
-                  </div>
-                  <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-4">
-                    <div className="text-2xl font-bold text-amber-600 dark:text-amber-400">
-                      {stats.subscribersByLanguage.total}
-                    </div>
-                    <div className="text-sm text-slate-600 dark:text-slate-400">Total Active</div>
-                  </div>
-                </div>
+                <StatGrid
+                  size="md"
+                  items={[
+                    { label: 'English only', value: stats.subscribersByLanguage.englishOnly },
+                    { label: 'Spanish only', value: stats.subscribersByLanguage.spanishOnly },
+                    { label: 'Both languages', value: stats.subscribersByLanguage.both },
+                    { label: 'Total active', value: stats.subscribersByLanguage.total },
+                  ]}
+                />
               </div>
             )}
-          </div>
+          </section>
         )}
 
         {/* Announcements Section */}
-        <div className="mb-12">
-          <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-100 mb-4">
+        <section className="mt-14" aria-labelledby="admin-announcements">
+          <h2 id="admin-announcements" className={`${sectionTitle} mb-4`}>
             Announcements
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Public Announcement */}
-            <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6">
-              <div className="flex items-center gap-2 mb-4">
-                <div className="w-3 h-3 rounded-full bg-violet-500" />
-                <h3 className="text-lg font-medium text-slate-900 dark:text-slate-100">
-                  Public Announcement
-                </h3>
-                {announcements.find((a) => a.type === 'PUBLIC')?.active && (
-                  <span className="text-xs font-semibold text-violet-600 dark:text-violet-400 uppercase tracking-wider bg-violet-50 dark:bg-violet-900/30 px-2 py-0.5 rounded-full">Active</span>
-                )}
-              </div>
-              <p className="text-sm text-slate-500 dark:text-slate-400 mb-3">
-                Visible to all visitors
-              </p>
-              <textarea
-                value={publicMessage}
-                onChange={(e) => setPublicMessage(e.target.value)}
-                placeholder="Enter announcement message..."
-                rows={3}
-                className="w-full px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-purple-500 resize-none text-sm"
-              />
-              <div className="flex gap-2 mt-3">
-                <button
-                  onClick={() => saveAnnouncement('PUBLIC')}
-                  disabled={savingAnnouncement === 'PUBLIC' || !publicMessage.trim()}
-                  className="px-4 py-2 bg-violet-600 hover:bg-violet-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
-                >
-                  {savingAnnouncement === 'PUBLIC' ? 'Saving...' : 'Set Announcement'}
-                </button>
-                <button
-                  onClick={() => clearAnnouncement('PUBLIC')}
-                  disabled={savingAnnouncement === 'PUBLIC' || !announcements.find((a) => a.type === 'PUBLIC')?.active}
-                  className="px-4 py-2 bg-red-600 hover:bg-red-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
-                >
-                  Clear
-                </button>
-              </div>
-            </div>
-
-            {/* Subscriber Announcement */}
-            <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6">
-              <div className="flex items-center gap-2 mb-4">
-                <div className="w-3 h-3 rounded-full bg-amber-500" />
-                <h3 className="text-lg font-medium text-slate-900 dark:text-slate-100">
-                  Subscriber Announcement
-                </h3>
-                {announcements.find((a) => a.type === 'SUBSCRIBER')?.active && (
-                  <span className="text-xs font-semibold text-amber-600 dark:text-amber-400 uppercase tracking-wider bg-amber-50 dark:bg-amber-900/30 px-2 py-0.5 rounded-full">Active</span>
-                )}
-              </div>
-              <p className="text-sm text-slate-500 dark:text-slate-400 mb-3">
-                Only visible to subscribers and admins
-              </p>
-              <textarea
-                value={subscriberMessage}
-                onChange={(e) => setSubscriberMessage(e.target.value)}
-                placeholder="Enter subscriber announcement message..."
-                rows={3}
-                className="w-full px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-purple-500 resize-none text-sm"
-              />
-              <div className="flex gap-2 mt-3">
-                <button
-                  onClick={() => saveAnnouncement('SUBSCRIBER')}
-                  disabled={savingAnnouncement === 'SUBSCRIBER' || !subscriberMessage.trim()}
-                  className="px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
-                >
-                  {savingAnnouncement === 'SUBSCRIBER' ? 'Saving...' : 'Set Announcement'}
-                </button>
-                <button
-                  onClick={() => clearAnnouncement('SUBSCRIBER')}
-                  disabled={savingAnnouncement === 'SUBSCRIBER' || !announcements.find((a) => a.type === 'SUBSCRIBER')?.active}
-                  className="px-4 py-2 bg-red-600 hover:bg-red-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
-                >
-                  Clear
-                </button>
-              </div>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <AnnouncementPanel
+              title="Public announcement"
+              description="Visible to all visitors"
+              active={publicActive}
+              value={publicMessage}
+              onChange={setPublicMessage}
+              placeholder="Enter announcement message..."
+              saving={savingAnnouncement === 'PUBLIC'}
+              onSave={() => saveAnnouncement('PUBLIC')}
+              onClear={() => clearAnnouncement('PUBLIC')}
+            />
+            <AnnouncementPanel
+              title="Subscriber announcement"
+              description="Only visible to subscribers and admins"
+              active={subscriberActive}
+              value={subscriberMessage}
+              onChange={setSubscriberMessage}
+              placeholder="Enter subscriber announcement message..."
+              saving={savingAnnouncement === 'SUBSCRIBER'}
+              onSave={() => saveAnnouncement('SUBSCRIBER')}
+              onClear={() => clearAnnouncement('SUBSCRIBER')}
+            />
           </div>
-        </div>
+        </section>
 
         {/* Pending Comments Section */}
-        <div className="mt-12 mb-8">
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-100">
-              Pending Comments ({commentPagination?.total || 0})
+        <section className="mt-14" aria-labelledby="admin-pending">
+          <div className="flex flex-wrap items-end justify-between gap-3 mb-4">
+            <h2 id="admin-pending" className={sectionTitle}>
+              Pending comments
+              <span className="ml-3 font-sans text-base font-semibold text-ink-3 align-middle tabular-nums">
+                {commentPagination?.total || 0}
+              </span>
             </h2>
             {commentPagination && commentPagination.total > 0 && (
               <div className="flex items-center gap-2">
-                <span className="text-sm text-slate-500 dark:text-slate-400">Sort by:</span>
-                <button
-                  onClick={() => handleCommentSortChange('createdAt')}
-                  className={`px-3 py-1 text-sm rounded-lg transition-colors ${
-                    commentSortBy === 'createdAt'
-                      ? 'bg-purple-600 text-white'
-                      : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
-                  }`}
-                >
-                  Date {commentSortBy === 'createdAt' && (commentSortOrder === 'asc' ? '↑' : '↓')}
-                </button>
-                <button
-                  onClick={() => handleCommentSortChange('userName')}
-                  className={`px-3 py-1 text-sm rounded-lg transition-colors ${
-                    commentSortBy === 'userName'
-                      ? 'bg-purple-600 text-white'
-                      : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
-                  }`}
-                >
-                  User {commentSortBy === 'userName' && (commentSortOrder === 'asc' ? '↑' : '↓')}
-                </button>
-                <button
-                  onClick={() => handleCommentSortChange('deckTitle')}
-                  className={`px-3 py-1 text-sm rounded-lg transition-colors ${
-                    commentSortBy === 'deckTitle'
-                      ? 'bg-purple-600 text-white'
-                      : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
-                  }`}
-                >
-                  Deck {commentSortBy === 'deckTitle' && (commentSortOrder === 'asc' ? '↑' : '↓')}
-                </button>
+                <span className="text-sm text-ink-2">Sort by</span>
+                <div className="inline-flex rounded-[10px] border border-line-strong bg-surface p-0.5">
+                  <SortButton
+                    active={commentSortBy === 'createdAt'}
+                    order={commentSortOrder}
+                    onClick={() => handleCommentSortChange('createdAt')}
+                  >
+                    Date
+                  </SortButton>
+                  <SortButton
+                    active={commentSortBy === 'userName'}
+                    order={commentSortOrder}
+                    onClick={() => handleCommentSortChange('userName')}
+                  >
+                    User
+                  </SortButton>
+                  <SortButton
+                    active={commentSortBy === 'deckTitle'}
+                    order={commentSortOrder}
+                    onClick={() => handleCommentSortChange('deckTitle')}
+                  >
+                    Deck
+                  </SortButton>
+                </div>
               </div>
             )}
           </div>
           {pendingComments.length === 0 ? (
-            <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6 text-center text-slate-500 dark:text-slate-400">
-              No pending comments
-            </div>
+            <p className="border-t border-line pt-5 text-ink-2">No pending comments</p>
           ) : (
             <>
-              <div className="space-y-4">
+              <ul className="border-t border-line">
                 {pendingComments.map((comment) => (
-                  <div
-                    key={comment.id}
-                    className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-4"
-                  >
-                    <div className="flex justify-between items-start mb-2">
-                      <div>
-                        <span className="font-medium text-slate-900 dark:text-slate-100">
-                          {comment.userName}
-                        </span>
-                        <span className="text-sm text-slate-500 dark:text-slate-400 ml-2">
-                          on {comment.deckTitle || 'Other'}
-                        </span>
-                      </div>
-                      <span className="text-xs text-slate-400 dark:text-slate-500">
+                  <li key={comment.id} className="py-5 border-b border-line">
+                    <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-2">
+                      <p className="text-ink-2">
+                        <span className="font-semibold text-ink">{comment.userName}</span> on{' '}
+                        {comment.deckTitle || 'Other'}
+                      </p>
+                      <time dateTime={comment.createdAt} className="text-sm text-ink-3">
                         {new Date(comment.createdAt).toLocaleDateString()}
-                      </span>
+                      </time>
                     </div>
-                    <p className="text-slate-700 dark:text-slate-300 mb-4 whitespace-pre-wrap">
+                    <p className="text-ink whitespace-pre-wrap break-words max-w-[72ch]">
                       {comment.content}
                     </p>
-                    <div className="flex gap-2">
-                      <button
+                    <div className="flex gap-2 mt-4">
+                      <Button
+                        size="sm"
                         onClick={() => approveComment(comment.id, true)}
                         disabled={updatingCommentId === comment.id}
-                        className="px-4 py-1.5 bg-green-600 hover:bg-green-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
                       >
                         Approve
-                      </button>
-                      <button
+                      </Button>
+                      <Button
+                        size="sm"
+                        variant="secondary"
+                        className="hover:text-bad hover:border-bad"
                         onClick={() => deleteComment(comment.id)}
                         disabled={updatingCommentId === comment.id}
-                        className="px-4 py-1.5 bg-red-600 hover:bg-red-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
                       >
                         Delete
-                      </button>
+                      </Button>
                     </div>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
               {/* Comment Pagination */}
               {commentPagination && commentPagination.totalPages > 1 && (
-                <div className="flex items-center justify-center gap-2 mt-6">
-                  <button
-                    onClick={() => handleCommentPageChange(commentPagination.page - 1)}
-                    disabled={commentPagination.page === 1}
-                    className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
-                  >
-                    Previous
-                  </button>
-                  <span className="text-sm text-slate-600 dark:text-slate-400">
-                    Page {commentPagination.page} of {commentPagination.totalPages}
-                  </span>
-                  <button
-                    onClick={() => handleCommentPageChange(commentPagination.page + 1)}
-                    disabled={commentPagination.page === commentPagination.totalPages}
-                    className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
-                  >
-                    Next
-                  </button>
-                </div>
+                <SimplePager pagination={commentPagination} onChange={handleCommentPageChange} />
               )}
             </>
           )}
-        </div>
+        </section>
 
-        {/* Search Section */}
-        <div className="mb-8">
-          <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-100 mb-4">
-            Manage Users
+        {/* Users Section */}
+        <section className="mt-14" aria-labelledby="admin-users">
+          <h2 id="admin-users" className={`${sectionTitle} mb-4`}>
+            Manage users
           </h2>
-          <form onSubmit={handleSearch} className="flex gap-4">
+          <form onSubmit={handleSearch} className="flex gap-2 mb-5">
             <input
               type="text"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Search by email or name..."
-              className="flex-1 px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-purple-500"
+              aria-label="Search users"
+              className={`${inputCls} min-w-0 flex-1`}
             />
-            <button
-              type="submit"
-              className="px-6 py-2 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors"
-            >
-              Search
-            </button>
+            <Button type="submit">Search</Button>
           </form>
-        </div>
 
-        {/* Error Display */}
-        {error && error !== 'You do not have permission to access this page' && (
-          <div className="mb-4 p-4 bg-red-100 dark:bg-red-900/30 border border-red-300 dark:border-red-700 rounded-lg text-red-700 dark:text-red-400">
-            {error}
-          </div>
-        )}
-
-        {/* Users Table */}
-        {loading ? (
-          <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 overflow-hidden">
-            <div className="bg-slate-50 dark:bg-slate-700 px-4 py-3 flex gap-4">
-              <div className="h-5 w-20 bg-slate-200 dark:bg-slate-600 rounded animate-pulse" />
-              <div className="h-5 w-32 bg-slate-200 dark:bg-slate-600 rounded animate-pulse" />
-              <div className="h-5 w-16 bg-slate-200 dark:bg-slate-600 rounded animate-pulse" />
-              <div className="h-5 w-20 bg-slate-200 dark:bg-slate-600 rounded animate-pulse" />
+          {/* Error Display */}
+          {error && error !== 'You do not have permission to access this page' && (
+            <div role="alert" className="mb-4 rounded-[10px] bg-bad-soft text-bad px-4 py-3">
+              {error}
             </div>
-            {[...Array(5)].map((_, i) => (
-              <div key={i} className="px-4 py-4 border-t border-slate-200 dark:border-slate-700 flex gap-4">
-                <div className="h-5 w-24 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
-                <div className="h-5 w-40 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
-                <div className="h-5 w-16 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
-                <div className="h-8 w-24 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
-              </div>
-            ))}
-          </div>
-        ) : (
-          <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 overflow-x-auto">
-            <table className="w-full min-w-[600px]">
-              <thead className="bg-slate-50 dark:bg-slate-700">
-                <tr>
-                  <th className="px-4 py-3 text-left text-sm font-semibold text-slate-900 dark:text-slate-100">
-                    Name
-                  </th>
-                  <th className="px-4 py-3 text-left text-sm font-semibold text-slate-900 dark:text-slate-100">
-                    Email
-                  </th>
-                  <th className="px-4 py-3 text-left text-sm font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">
-                    Role
-                  </th>
-                  <th className="px-4 py-3 text-left text-sm font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">
-                    Subscription
-                  </th>
-                  <th className="px-4 py-3 text-left text-sm font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">
-                    Actions
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-slate-200 dark:divide-slate-700">
-                {users.map((user) => (
-                  <tr key={user.id} className="hover:bg-slate-50 dark:hover:bg-slate-700/50">
-                    <td className="px-4 py-4 text-sm text-slate-900 dark:text-slate-100">
-                      {user.name || '—'}
-                    </td>
-                    <td className="px-4 py-4 text-sm text-slate-600 dark:text-slate-400 break-all">
-                      {user.email || '—'}
-                    </td>
-                    <td className="px-4 py-4 whitespace-nowrap">
-                      <span
-                        className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full ${
-                          user.role === UserRole.ADMIN
-                            ? 'bg-purple-100 text-purple-700 dark:bg-purple-900/50 dark:text-purple-300'
-                            : user.role === UserRole.SUBSCRIBER
-                              ? 'bg-amber-100 text-amber-700 dark:bg-amber-900/50 dark:text-amber-300'
-                              : 'bg-slate-100 text-slate-700 dark:bg-slate-600 dark:text-slate-300'
-                        }`}
-                      >
-                        {user.role}
-                      </span>
-                    </td>
-                    <td className="px-4 py-4 whitespace-nowrap">
-                      <SubscriptionBadges user={user} />
-                    </td>
-                    <td className="px-4 py-4 whitespace-nowrap">
-                      <select
-                        value={user.role}
-                        onChange={(e) => updateUserRole(user.id, e.target.value, user.name)}
-                        disabled={updatingUserId === user.id}
-                        className="px-3 py-1 rounded border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-sm text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-purple-500 disabled:opacity-50"
-                      >
-                        <option value={UserRole.USER}>User</option>
-                        <option value={UserRole.SUBSCRIBER}>Subscriber</option>
-                        <option value={UserRole.ADMIN}>Admin</option>
-                      </select>
-                    </td>
-                  </tr>
-                ))}
-                {users.length === 0 && (
-                  <tr>
-                    <td
-                      colSpan={5}
-                      className="px-4 py-8 text-center text-slate-500 dark:text-slate-400"
-                    >
-                      No users found
-                    </td>
-                  </tr>
-                )}
-              </tbody>
-            </table>
-          </div>
-        )}
+          )}
 
-        {/* User Pagination */}
-        {userPagination && userPagination.totalPages > 1 && (
-          <div className="flex items-center justify-center gap-2 mt-6">
-            <button
-              onClick={() => handleUserPageChange(userPagination.page - 1)}
-              disabled={userPagination.page === 1}
-              className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
-            >
-              Previous
-            </button>
-            <span className="text-sm text-slate-600 dark:text-slate-400">
-              Page {userPagination.page} of {userPagination.totalPages} ({userPagination.total} total)
-            </span>
-            <button
-              onClick={() => handleUserPageChange(userPagination.page + 1)}
-              disabled={userPagination.page === userPagination.totalPages}
-              className="px-3 py-1.5 text-sm rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
-            >
-              Next
-            </button>
-          </div>
-        )}
+          {/* Users Table */}
+          {loading ? (
+            <UsersTableSkeleton />
+          ) : (
+            <div className="rounded-2xl border border-line bg-surface overflow-x-auto">
+              <table className="w-full min-w-[640px] text-sm">
+                <thead>
+                  <tr className="border-b border-line text-left text-ink-2">
+                    <th scope="col" className="px-4 py-3 font-semibold">Name</th>
+                    <th scope="col" className="px-4 py-3 font-semibold">Email</th>
+                    <th scope="col" className="px-4 py-3 font-semibold whitespace-nowrap">Role</th>
+                    <th scope="col" className="px-4 py-3 font-semibold whitespace-nowrap">Subscription</th>
+                    <th scope="col" className="px-4 py-3 font-semibold whitespace-nowrap">Change role</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-line">
+                  {users.map((user) => (
+                    <tr key={user.id} className="hover:bg-surface-2/60 transition-colors">
+                      <td className="px-4 py-3.5 text-ink font-semibold">{user.name || '—'}</td>
+                      <td className="px-4 py-3.5 text-ink-2 break-all">{user.email || '—'}</td>
+                      <td className="px-4 py-3.5 whitespace-nowrap">
+                        <Badge variant={roleBadgeVariant(user.role)}>{roleLabel(user.role)}</Badge>
+                      </td>
+                      <td className="px-4 py-3.5 whitespace-nowrap">
+                        <SubscriptionBadges user={user} />
+                      </td>
+                      <td className="px-4 py-3.5 whitespace-nowrap">
+                        <select
+                          value={user.role}
+                          onChange={(e) => updateUserRole(user.id, e.target.value, user.name)}
+                          disabled={updatingUserId === user.id}
+                          aria-label={`Role for ${user.name || user.email || 'user'}`}
+                          className="rounded-[10px] border border-line-strong bg-surface px-2.5 py-1.5 text-sm text-ink hover:border-ink-3 transition-colors disabled:opacity-50"
+                        >
+                          <option value={UserRole.USER}>User</option>
+                          <option value={UserRole.SUBSCRIBER}>Subscriber</option>
+                          <option value={UserRole.ADMIN}>Admin</option>
+                        </select>
+                      </td>
+                    </tr>
+                  ))}
+                  {users.length === 0 && (
+                    <tr>
+                      <td colSpan={5} className="px-4 py-8 text-ink-2">
+                        No users found
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+            </div>
+          )}
+
+          {/* User Pagination */}
+          {userPagination && userPagination.totalPages > 1 && (
+            <SimplePager pagination={userPagination} onChange={handleUserPageChange} showTotal />
+          )}
+        </section>
       </div>
     </main>
   )

@@ -1,10 +1,19 @@
 import type { Metadata } from 'next'
-import { Lexend } from 'next/font/google'
+import { Big_Shoulders, Atkinson_Hyperlegible_Next } from 'next/font/google'
 import '../styles/globals.css'
 
-const lexend = Lexend({
-  subsets: ['latin'],
-  variable: '--font-lexend',
+// Display face: athletic-signage condensed sans for headlines, tier numerals and card names.
+const shoulders = Big_Shoulders({
+  subsets: ['latin', 'latin-ext'],
+  variable: '--font-shoulders',
+  axes: ['opsz'],
+  display: 'swap',
+})
+
+// Text face: built for legibility, which matters most in long, bullet-dense guides.
+const atkinson = Atkinson_Hyperlegible_Next({
+  subsets: ['latin', 'latin-ext'],
+  variable: '--font-atkinson',
   display: 'swap',
 })
 
@@ -32,7 +41,12 @@ export const metadata: Metadata = {
   creator: 'Grant Manley',
   publisher: 'TCG Master Guide',
   icons: {
-    icon: '/favicon.svg',
+    // SVG first (it adapts to light and dark browser themes), PNG for browsers without SVG favicons.
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/icon-32.png', type: 'image/png', sizes: '32x32' },
+    ],
+    apple: { url: '/apple-icon.png', sizes: '180x180' },
   },
   openGraph: {
     type: 'website',
@@ -68,7 +82,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html suppressHydrationWarning className={lexend.variable}>
+    <html suppressHydrationWarning className={`${shoulders.variable} ${atkinson.variable}`}>
       <head>
         {/* Apply the saved theme before first paint to avoid a light-mode flash
             and to theme boundaries (e.g. the root 404) that render outside ThemeProvider.
@@ -79,7 +93,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="font-sans bg-stone-50 dark:bg-slate-900 text-neutral-800 dark:text-neutral-100 transition-colors">
+      <body className="font-sans bg-page text-ink">
         {children}
       </body>
     </html>

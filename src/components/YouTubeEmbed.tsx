@@ -1,5 +1,6 @@
 'use client'
 
+import { useTranslations } from 'next-intl'
 import { useVideoEmbed } from '@/contexts/VideoEmbedContext'
 
 interface YouTubeEmbedProps {
@@ -8,6 +9,7 @@ interface YouTubeEmbedProps {
 }
 
 export function YouTubeEmbed({ videoId, title = 'YouTube video' }: YouTubeEmbedProps) {
+  const t = useTranslations('deck')
   const { activeVideoId, setActiveVideoId, expandedVideoId, setExpandedVideoId } = useVideoEmbed()
   const myId = `youtube-${videoId}`
   const isActive = activeVideoId === myId
@@ -19,7 +21,7 @@ export function YouTubeEmbed({ videoId, title = 'YouTube video' }: YouTubeEmbedP
   }
 
   return (
-    <div className={`my-6 aspect-video rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-lg relative transition-all duration-300 ${isExpanded ? 'w-full' : 'w-full max-w-sm'}`}>
+    <div className={`my-8 aspect-video rounded-2xl overflow-hidden border border-line bg-mat relative transition-[max-width] duration-300 ease-snappy ${isExpanded ? 'w-full' : 'w-full max-w-sm'}`}>
       {isActive ? (
         <iframe
           src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
@@ -31,17 +33,18 @@ export function YouTubeEmbed({ videoId, title = 'YouTube video' }: YouTubeEmbedP
       ) : (
         <button
           onClick={handlePlay}
-          className="w-full h-full relative group cursor-pointer bg-slate-800"
-          aria-label={`Play ${title}`}
+          className="playmat w-full h-full group cursor-pointer text-left"
+          aria-label={t('playVideo', { title })}
         >
-          <div className="absolute inset-0 flex flex-col items-center justify-center">
-            <div className="aspect-square w-12 md:w-16 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 group-hover:bg-white transition-all shadow-lg mb-2">
-              <svg className="w-5 h-5 md:w-7 md:h-7 text-slate-800 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24">
+          <span className="absolute inset-0 flex flex-col items-start justify-end gap-3 p-4 sm:p-5">
+            <span className="flex w-11 h-11 sm:w-12 sm:h-12 items-center justify-center rounded-full bg-mat-ink text-mat transition-[transform,background-color,color] duration-200 ease-snappy group-hover:scale-110 group-hover:bg-accent group-hover:text-accent-ink">
+              <svg className="w-5 h-5 translate-x-px" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M8 5v14l11-7z" />
               </svg>
-            </div>
-            <span className="text-white/90 font-medium text-xs md:text-sm px-4 text-center leading-snug">{title}</span>
-          </div>
+            </span>
+            <span className="text-mat-ink font-semibold text-sm sm:text-base leading-snug line-clamp-2">{title}</span>
+            <span className="absolute top-4 right-4 sm:top-5 sm:right-5 text-xs text-mat-ink-2">YouTube</span>
+          </span>
         </button>
       )}
     </div>

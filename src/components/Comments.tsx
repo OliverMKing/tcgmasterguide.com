@@ -6,7 +6,7 @@ import { useTranslations, useLocale } from 'next-intl'
 import { useUser, SignInButton } from '@clerk/nextjs'
 import { useCurrentUser } from '@/hooks/useCurrentUser'
 import { useFetchWithRetry } from '@/lib/fetch-with-retry'
-import { Skeleton, Button } from '@/components/ui'
+import { Skeleton, Button, Badge } from '@/components/ui'
 
 interface Reply {
   id: string
@@ -84,23 +84,17 @@ function CharacterMeter({ length }: { length: number }) {
   const pct = Math.min(100, (length / MAX_LENGTH) * 100)
   const near = length > MAX_LENGTH * 0.9
   const over = length >= MAX_LENGTH
-  const color = over
-    ? 'bg-red-500'
-    : near
-      ? 'bg-amber-500'
-      : 'bg-violet-500'
+  const color = over ? 'bg-bad' : near ? 'bg-warn' : 'bg-accent'
   return (
     <div className="flex items-center gap-2 min-w-0 flex-1">
-      <div className="h-1.5 flex-1 max-w-[140px] bg-stone-200 dark:bg-slate-700 rounded-full overflow-hidden">
+      <div className="h-1 flex-1 max-w-[120px] bg-surface-2 rounded-full overflow-hidden">
         <div
-          className={`h-full rounded-full transition-all duration-300 ${color}`}
+          className={`h-full rounded-full transition-[width] duration-300 ${color}`}
           style={{ width: `${pct}%` }}
         />
       </div>
       <span
-        className={`text-xs tabular-nums ${
-          over ? 'text-red-500' : near ? 'text-amber-600 dark:text-amber-400' : 'text-neutral-400 dark:text-slate-500'
-        }`}
+        className={`text-xs tabular-nums ${over ? 'text-bad' : near ? 'text-warn' : 'text-ink-3'}`}
       >
         {length}/{MAX_LENGTH}
       </span>
@@ -135,15 +129,16 @@ function Pager({
   }
 
   const baseBtn =
-    'min-w-9 h-9 px-3 inline-flex items-center justify-center text-sm rounded-lg border transition-colors duration-200 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer'
+    'min-w-9 h-9 px-3 inline-flex items-center justify-center text-sm font-semibold rounded-[10px] border transition-colors duration-200 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer'
+  const idleBtn = 'border-line-strong bg-surface text-ink-2 hover:border-ink hover:text-ink'
 
   return (
-    <nav className="flex items-center justify-center gap-1.5 mt-8" aria-label="Pagination">
+    <nav className="flex flex-wrap items-center gap-1.5 mt-6" aria-label="Pagination">
       <button
         type="button"
         onClick={() => onChange(page - 1)}
         disabled={page === 1}
-        className={`${baseBtn} border-stone-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-neutral-600 dark:text-slate-300 hover:border-violet-300 hover:text-violet-600 dark:hover:border-violet-500 dark:hover:text-violet-400`}
+        className={`${baseBtn} ${idleBtn}`}
       >
         <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
           <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
@@ -152,7 +147,7 @@ function Pager({
       </button>
       {pages.map((p, i) =>
         p === 'ellipsis' ? (
-          <span key={`e-${i}`} className="px-1 text-sm text-neutral-400 dark:text-slate-500" aria-hidden="true">
+          <span key={`e-${i}`} className="px-1 text-sm text-ink-3" aria-hidden="true">
             …
           </span>
         ) : (
@@ -162,9 +157,7 @@ function Pager({
             onClick={() => onChange(p)}
             aria-current={p === page ? 'page' : undefined}
             className={`${baseBtn} ${
-              p === page
-                ? 'border-transparent bg-gradient-to-r from-violet-500 to-purple-500 text-white'
-                : 'border-stone-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-neutral-600 dark:text-slate-300 hover:border-violet-300 hover:text-violet-600 dark:hover:border-violet-500 dark:hover:text-violet-400'
+              p === page ? 'border-transparent bg-accent text-accent-ink' : idleBtn
             }`}
           >
             {p}
@@ -175,7 +168,7 @@ function Pager({
         type="button"
         onClick={() => onChange(page + 1)}
         disabled={page === totalPages}
-        className={`${baseBtn} border-stone-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-neutral-600 dark:text-slate-300 hover:border-violet-300 hover:text-violet-600 dark:hover:border-violet-500 dark:hover:text-violet-400`}
+        className={`${baseBtn} ${idleBtn}`}
       >
         <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
           <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
@@ -183,6 +176,51 @@ function Pager({
         <span className="sr-only">{labels.next}</span>
       </button>
     </nav>
+  )
+}
+
+function Avatar({ name, admin = false }: { name: string; admin?: boolean }) {
+  return (
+    <span
+      aria-hidden="true"
+      className={`inline-flex items-center justify-center w-7 h-7 rounded-full text-[11px] font-bold shrink-0 ${
+        admin ? 'bg-accent text-accent-ink' : 'bg-surface-2 text-ink-2'
+      }`}
+    >
+      {(name || '?').slice(0, 2).toUpperCase()}
+    </span>
+  )
+}
+
+const iconBtn =
+  'p-2 rounded-[10px] text-ink-3 hover:text-ink hover:bg-surface-2 transition-colors cursor-pointer'
+
+const primaryBtn =
+  'inline-flex items-center justify-center rounded-[10px] bg-accent text-accent-ink hover:bg-accent-hover font-semibold px-5 py-2.5 transition-colors cursor-pointer'
+
+type IconProps = { className?: string }
+
+function ReplyIcon({ className }: IconProps) {
+  return (
+    <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
+    </svg>
+  )
+}
+
+function CheckIcon({ className }: IconProps) {
+  return (
+    <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+    </svg>
+  )
+}
+
+function TrashIcon({ className }: IconProps) {
+  return (
+    <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+    </svg>
   )
 }
 
@@ -357,100 +395,76 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
     }
   }
 
-  return (
-    <div
-      id="discussion"
-      className="mt-16 border-t border-slate-200 dark:border-slate-700 pt-12 scroll-mt-20"
-    >
-      <div className="flex items-center justify-between mb-8 gap-4">
-        <div className="flex items-center gap-3">
-          <span className="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-violet-100 dark:bg-violet-900/40 text-violet-600 dark:text-violet-300">
-            <svg
-              className="w-4 h-4"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth="2"
-              aria-hidden="true"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.7 9.7 0 01-4-.8L3 20l1.3-3.9A7.9 7.9 0 013 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
-              />
-            </svg>
-          </span>
-          <h2 className="text-2xl font-bold text-neutral-800 dark:text-slate-100">
-            {t('title')}
-            {hasSubscriberAccess && pagination && pagination.total > 0 && (
-              <span className="ml-2 text-sm font-semibold text-neutral-400 dark:text-slate-500 align-middle">
-                {pagination.total}
-              </span>
-            )}
-          </h2>
-        </div>
-        {hasSubscriberAccess && pagination && pagination.total > 0 && (
-          <div className="flex items-center gap-2">
-            <span className="text-sm text-neutral-500 dark:text-slate-400">{t('sort')}</span>
-            <button
-              onClick={() => handleSortChange('createdAt')}
-              className={`px-3 py-1.5 text-sm rounded-lg transition-colors cursor-pointer ${
-                sortBy === 'createdAt'
-                  ? 'bg-gradient-to-r from-violet-500 to-purple-500 text-white'
-                  : 'bg-stone-100 dark:bg-slate-700 text-neutral-600 dark:text-slate-300 hover:bg-stone-200 dark:hover:bg-slate-600'
-              }`}
-            >
-              {t('date')} {sortBy === 'createdAt' && (sortOrder === 'asc' ? '↑' : '↓')}
-            </button>
+  const commentSkeleton = (
+    <div className="border-t border-line" aria-hidden="true">
+      {[1, 2].map((i) => (
+        <div key={i} className="py-5 border-b border-line">
+          <div className="flex items-center gap-2.5 mb-3">
+            <Skeleton className="h-7 w-7" rounded="full" />
+            <Skeleton className="h-4 w-24" />
+            <Skeleton className="h-4 w-16" />
           </div>
+          <Skeleton className="h-4 w-full mb-2" />
+          <Skeleton className="h-4 w-5/6" />
+        </div>
+      ))}
+    </div>
+  )
+
+  return (
+    <section
+      id="discussion"
+      aria-labelledby="discussion-heading"
+      className="mt-16 border-t border-line pt-10 scroll-mt-20"
+    >
+      <div className="flex flex-wrap items-end justify-between gap-x-4 gap-y-3 mb-6">
+        <h2 id="discussion-heading" className="font-display font-black text-4xl sm:text-5xl text-ink leading-[0.9]">
+          {t('title')}
+          {hasSubscriberAccess && pagination && pagination.total > 0 && (
+            <span className="ml-3 font-sans text-base font-semibold text-ink-3 align-middle tabular-nums">
+              {pagination.total}
+            </span>
+          )}
+        </h2>
+        {hasSubscriberAccess && pagination && pagination.total > 0 && (
+          <button
+            onClick={() => handleSortChange('createdAt')}
+            className="inline-flex items-center gap-1.5 rounded-[10px] border border-line-strong bg-surface px-3 py-1.5 text-sm font-semibold text-ink hover:border-ink transition-colors cursor-pointer"
+          >
+            <svg className="w-4 h-4 text-ink-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M7 4v16m0 0l-3-3m3 3l3-3M17 20V4m0 0l-3 3m3-3l3 3" />
+            </svg>
+            {sortOrder === 'asc' ? t('oldestFirst') : t('newestFirst')}
+          </button>
         )}
       </div>
 
       {/* Subscriber Gate */}
       {isLoaded && userLoaded && !hasSubscriberAccess && (
-        <div className="relative overflow-hidden p-8 rounded-2xl bg-gradient-to-br from-violet-50 via-white to-purple-50 dark:from-slate-800 dark:via-slate-800 dark:to-slate-800/80 border border-violet-100 dark:border-slate-700 text-center shadow-sm">
-          <div className="absolute -top-12 -right-12 w-40 h-40 bg-violet-300/25 dark:bg-violet-500/15 rounded-full blur-3xl" aria-hidden="true" />
-          <div className="absolute -bottom-16 -left-16 w-48 h-48 bg-purple-300/25 dark:bg-purple-500/15 rounded-full blur-3xl" aria-hidden="true" />
-          <div className="relative">
-            <div className="w-14 h-14 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-violet-500 to-purple-500 text-white flex items-center justify-center">
-              <svg
-                className="w-7 h-7"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth="2"
-                aria-hidden="true"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-                />
-              </svg>
+        <div className="rounded-2xl border border-line bg-surface p-6 sm:p-7 flex items-start gap-4">
+          <span className="hidden sm:inline-flex shrink-0 w-10 h-10 rounded-full bg-accent-soft text-accent-text items-center justify-center">
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+              />
+            </svg>
+          </span>
+          <div>
+            <h3 className="font-display text-2xl text-ink">{t('subscriberOnly')}</h3>
+            <p className="mt-1.5 text-ink-2 max-w-[56ch]">{t('subscriberOnlyMessage')}</p>
+            <div className="mt-5">
+              {isSignedIn ? (
+                <Link href="/subscribe" className={primaryBtn}>
+                  {t('subscribeNow')}
+                </Link>
+              ) : (
+                <SignInButton mode="modal">
+                  <button className={primaryBtn}>{t('signIn')}</button>
+                </SignInButton>
+              )}
             </div>
-            <h3 className="text-xl font-bold text-neutral-800 dark:text-slate-100 mb-2">
-              {t('subscriberOnly')}
-            </h3>
-            <p className="text-neutral-600 dark:text-slate-400 mb-6 max-w-md mx-auto">
-              {t('subscriberOnlyMessage')}
-            </p>
-            {isSignedIn ? (
-              <Link
-                href="/subscribe"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-violet-500 to-purple-500 hover:from-violet-600 hover:to-purple-600 text-white font-medium rounded-xl transition-colors duration-200 ease-snappy active:scale-[0.98]"
-              >
-                {t('subscribeNow')}
-                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                </svg>
-              </Link>
-            ) : (
-              <SignInButton mode="modal">
-                <button className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-violet-500 to-purple-500 hover:from-violet-600 hover:to-purple-600 text-white font-medium rounded-xl transition-colors duration-200 ease-snappy active:scale-[0.98] cursor-pointer">
-                  {t('signIn')}
-                </button>
-              </SignInButton>
-            )}
           </div>
         </div>
       )}
@@ -459,27 +473,13 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
       {(!isLoaded || !userLoaded) && (
         <div className="space-y-6">
           <div>
-            <Skeleton className="h-32 w-full mb-3" rounded="xl" />
+            <Skeleton className="h-28 w-full mb-3" rounded="lg" />
             <div className="flex justify-between">
               <Skeleton className="h-4 w-24" />
-              <Skeleton className="h-10 w-32" rounded="xl" />
+              <Skeleton className="h-10 w-32" rounded="lg" />
             </div>
           </div>
-          {[1, 2].map((i) => (
-            <div
-              key={i}
-              className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-5"
-            >
-              <div className="flex items-center gap-2 mb-3">
-                <Skeleton className="h-4 w-24" />
-                <Skeleton className="h-4 w-20" />
-              </div>
-              <div className="space-y-2">
-                <Skeleton className="h-4 w-full" />
-                <Skeleton className="h-4 w-2/3" />
-              </div>
-            </div>
-          ))}
+          {commentSkeleton}
         </div>
       )}
 
@@ -491,16 +491,15 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
             <div className="mb-8">
               {isSignedIn ? (
                 <form onSubmit={handleSubmit}>
-                  <div className="relative rounded-2xl border border-stone-200 dark:border-slate-700 bg-white dark:bg-slate-800 focus-within:border-violet-400 focus-within:ring-2 focus-within:ring-violet-500/30 transition-all">
-                    <textarea
-                      value={newComment}
-                      onChange={(e) => setNewComment(e.target.value)}
-                      placeholder={t('placeholder')}
-                      className="w-full p-4 bg-transparent text-neutral-800 dark:text-slate-100 placeholder-neutral-400 dark:placeholder-slate-500 resize-none rounded-2xl outline-none"
-                      rows={4}
-                      maxLength={MAX_LENGTH}
-                    />
-                  </div>
+                  <textarea
+                    value={newComment}
+                    onChange={(e) => setNewComment(e.target.value)}
+                    placeholder={t('placeholder')}
+                    aria-label={t('placeholder')}
+                    className="block w-full rounded-[10px] border border-line-strong bg-surface px-3.5 py-3 text-ink placeholder:text-ink-3 hover:border-ink-3 transition-colors resize-y leading-relaxed"
+                    rows={3}
+                    maxLength={MAX_LENGTH}
+                  />
                   <div className="flex items-center justify-between mt-3 gap-4">
                     <CharacterMeter length={newComment.length} />
                     <Button
@@ -515,12 +514,10 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
                   </div>
                 </form>
               ) : (
-                <div className="p-6 rounded-2xl bg-stone-50 dark:bg-slate-800/60 border border-stone-200 dark:border-slate-700 text-center">
-                  <p className="text-neutral-600 dark:text-slate-300 mb-4">{t('signInToComment')}</p>
+                <div className="rounded-2xl border border-line bg-surface p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                  <p className="text-ink-2">{t('signInToComment')}</p>
                   <SignInButton mode="modal">
-                    <button className="px-6 py-2.5 bg-gradient-to-r from-violet-500 to-purple-500 hover:from-violet-600 hover:to-purple-600 text-white font-medium rounded-xl transition-colors duration-200 ease-snappy cursor-pointer active:scale-[0.98]">
-                      {t('signIn')}
-                    </button>
+                    <button className={`${primaryBtn} self-start sm:self-auto`}>{t('signIn')}</button>
                   </SignInButton>
                 </div>
               )}
@@ -528,7 +525,7 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
           )}
 
           {error && !replyingTo && (
-            <div className="mb-6 p-4 rounded-xl bg-red-50 dark:bg-red-900/20 border border-red-200/60 dark:border-red-800/40 text-red-600 dark:text-red-400 flex items-start gap-3">
+            <div role="alert" className="mb-6 rounded-[10px] bg-bad-soft text-bad px-4 py-3 flex items-start gap-3">
               <svg className="w-5 h-5 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01M4.93 4.93a10 10 0 1014.14 14.14A10 10 0 004.93 4.93z" />
               </svg>
@@ -538,71 +535,40 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
 
           {/* Comments List */}
           {isLoading ? (
-            <div className="space-y-4">
-              {[1, 2].map((i) => (
-                <div
-                  key={i}
-                  className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-5"
-                >
-                  <div className="flex items-center gap-2 mb-3">
-                    <Skeleton className="h-4 w-24" />
-                    <Skeleton className="h-4 w-16" />
-                  </div>
-                  <Skeleton className="h-4 w-full mb-2" />
-                  <Skeleton className="h-4 w-5/6" />
-                </div>
-              ))}
-            </div>
+            commentSkeleton
           ) : comments.length === 0 ? (
-            <div className="text-center border border-dashed border-stone-200 dark:border-slate-700 rounded-2xl bg-stone-50/50 dark:bg-slate-800/30 py-12 px-6">
-              <div className="mx-auto mb-3 w-10 h-10 rounded-full bg-violet-100 dark:bg-violet-900/40 text-violet-600 dark:text-violet-300 flex items-center justify-center">
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M7 8h10M7 12h6m-6 4h10M5 20l-2 2V6a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2H5z" />
-                </svg>
-              </div>
-              <p className="text-neutral-600 dark:text-slate-300 font-medium">{t('noComments')}</p>
+            <div className="border-t border-line pt-6">
+              <p className="text-ink-2 max-w-[60ch]">{t('noComments')}</p>
             </div>
           ) : (
-            <div className="space-y-6">
+            <ol className="border-t border-line">
               {comments.map((comment) => (
-                <div key={comment.id}>
-                  <div
-                    className={`p-5 rounded-2xl border transition-shadow hover:shadow-sm ${
-                      !comment.approved
-                        ? 'bg-amber-50 dark:bg-amber-900/20 border-amber-200 dark:border-amber-700'
-                        : 'bg-white dark:bg-slate-800 border-stone-200 dark:border-slate-700'
-                    }`}
-                  >
-                    <div className="flex items-start justify-between gap-4">
+                <li key={comment.id} className="py-5 border-b border-line">
+                  <article>
+                    <div className="flex items-start justify-between gap-3">
                       <div className="flex-1 min-w-0">
-                        <div className="flex flex-wrap items-center gap-2 mb-2">
-                          <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gradient-to-br from-violet-500 to-purple-500 text-white text-xs font-semibold shrink-0">
-                            {(comment.userName || '?').slice(0, 2).toUpperCase()}
-                          </span>
-                          <span className="font-semibold text-neutral-800 dark:text-slate-100">
-                            {comment.userName}
-                          </span>
-                          <span
-                            className="text-sm text-neutral-400 dark:text-slate-500"
+                        <div className="flex flex-wrap items-center gap-x-2.5 gap-y-1.5 mb-2">
+                          <Avatar name={comment.userName} />
+                          <span className="font-semibold text-ink">{comment.userName}</span>
+                          <time
+                            dateTime={comment.createdAt}
+                            className="text-sm text-ink-3"
                             title={formatAbsolute(comment.createdAt, locale)}
                           >
                             {formatRelative(comment.createdAt, locale)}
-                          </span>
+                          </time>
                           {!comment.approved && (
-                            <span
-                              className="px-2 py-0.5 text-xs font-medium bg-amber-100 dark:bg-amber-800 text-amber-700 dark:text-amber-200 rounded-full"
-                              title="Only you can see this comment until an admin approves it"
-                            >
-                              {t('pendingApproval')}
+                            <span title="Only you can see this comment until an admin approves it">
+                              <Badge variant="warning">{t('pendingApproval')}</Badge>
                             </span>
                           )}
                         </div>
-                        <p className="text-neutral-700 dark:text-slate-300 whitespace-pre-wrap leading-relaxed">
+                        <p className="text-ink whitespace-pre-wrap break-words leading-relaxed max-w-[68ch]">
                           {comment.content}
                         </p>
                       </div>
                       {isAdmin && (
-                        <div className="flex shrink-0 gap-1">
+                        <div className="flex shrink-0 gap-0.5 -mr-2 -mt-1">
                           <button
                             onClick={() => {
                               if (!comment.approved) {
@@ -618,91 +584,90 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
                               setReplyingTo(replyingTo === comment.id ? null : comment.id)
                               setError(null)
                             }}
-                            className="p-2 rounded-lg text-neutral-400 hover:text-violet-500 hover:bg-violet-50 dark:text-slate-500 dark:hover:text-violet-400 dark:hover:bg-violet-900/30 transition-colors cursor-pointer"
+                            className={iconBtn}
                             title={comment.approved ? 'Reply' : 'Approve first to reply'}
                             aria-label="Reply"
                           >
-                            <svg
-                              className="w-5 h-5"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke="currentColor"
-                              aria-hidden="true"
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6"
-                              />
-                            </svg>
+                            <ReplyIcon className="w-5 h-5" />
                           </button>
                           {!comment.approved && (
                             <button
                               onClick={() => handleApprove(comment.id)}
-                              className="p-2 rounded-lg text-slate-400 hover:text-emerald-500 hover:bg-emerald-50 dark:text-slate-500 dark:hover:text-emerald-400 dark:hover:bg-emerald-900/30 transition-colors cursor-pointer"
+                              className={`${iconBtn} hover:text-ok`}
                               title="Approve comment"
                               aria-label="Approve comment"
                             >
-                              <svg
-                                className="w-5 h-5"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                                aria-hidden="true"
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M5 13l4 4L19 7"
-                                />
-                              </svg>
+                              <CheckIcon className="w-5 h-5" />
                             </button>
                           )}
                           <button
                             onClick={() => handleDelete(comment.id)}
-                            className="p-2 rounded-lg text-slate-400 hover:text-red-500 hover:bg-red-50 dark:text-slate-500 dark:hover:text-red-400 dark:hover:bg-red-900/30 transition-colors cursor-pointer"
+                            className={`${iconBtn} hover:text-bad`}
                             title="Delete comment"
                             aria-label="Delete comment"
                           >
-                            <svg
-                              className="w-5 h-5"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke="currentColor"
-                              aria-hidden="true"
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
-                              />
-                            </svg>
+                            <TrashIcon className="w-5 h-5" />
                           </button>
                         </div>
                       )}
                     </div>
 
+                    {/* Replies */}
+                    {comment.replies && comment.replies.length > 0 && (
+                      <div className="mt-4 ml-3 sm:ml-9 space-y-4">
+                        {comment.replies.map((reply) => (
+                          <div key={reply.id} className="border-l-2 border-accent pl-4">
+                            <div className="flex items-start justify-between gap-3">
+                              <div className="flex-1 min-w-0">
+                                <div className="flex items-center gap-x-2.5 gap-y-1.5 mb-1.5 flex-wrap">
+                                  <Avatar name={reply.userName} admin />
+                                  <span className="font-semibold text-accent-text">{reply.userName}</span>
+                                  <Badge variant="violet">{t('admin')}</Badge>
+                                  <time
+                                    dateTime={reply.createdAt}
+                                    className="text-sm text-ink-3"
+                                    title={formatAbsolute(reply.createdAt, locale)}
+                                  >
+                                    {formatRelative(reply.createdAt, locale)}
+                                  </time>
+                                </div>
+                                <p className="text-ink whitespace-pre-wrap break-words leading-relaxed max-w-[68ch]">
+                                  {reply.content}
+                                </p>
+                              </div>
+                              {isAdmin && (
+                                <button
+                                  onClick={() => handleDelete(reply.id, true, comment.id)}
+                                  className={`${iconBtn} hover:text-bad shrink-0 -mr-2 -mt-1`}
+                                  title="Delete reply"
+                                  aria-label="Delete reply"
+                                >
+                                  <TrashIcon className="w-4 h-4" />
+                                </button>
+                              )}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+
                     {/* Reply Form */}
                     {isAdmin && replyingTo === comment.id && (
-                      <div className="mt-4 pt-4 border-t border-stone-200 dark:border-slate-700">
+                      <div className="mt-4 ml-3 sm:ml-9 border-l-2 border-line-strong pl-4">
                         {error && (
-                          <div className="mb-3 p-3 rounded-lg bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400 text-sm">
+                          <div role="alert" className="mb-3 rounded-[10px] bg-bad-soft text-bad px-3 py-2 text-sm">
                             {error}
                           </div>
                         )}
-                        <div className="relative rounded-xl border border-stone-200 dark:border-slate-700 bg-white dark:bg-slate-800 focus-within:border-violet-400 focus-within:ring-2 focus-within:ring-violet-500/30 transition-all">
-                          <textarea
-                            value={replyContent}
-                            onChange={(e) => setReplyContent(e.target.value)}
-                            placeholder={t('replyPlaceholder')}
-                            className="w-full p-3 bg-transparent text-neutral-800 dark:text-slate-100 placeholder-neutral-400 dark:placeholder-slate-500 resize-none rounded-xl outline-none text-sm"
-                            rows={3}
-                            maxLength={MAX_LENGTH}
-                          />
-                        </div>
+                        <textarea
+                          value={replyContent}
+                          onChange={(e) => setReplyContent(e.target.value)}
+                          placeholder={t('replyPlaceholder')}
+                          aria-label={t('replyPlaceholder')}
+                          className="block w-full rounded-[10px] border border-line-strong bg-surface px-3 py-2.5 text-ink placeholder:text-ink-3 hover:border-ink-3 transition-colors resize-y"
+                          rows={3}
+                          maxLength={MAX_LENGTH}
+                        />
                         <div className="flex items-center justify-between mt-2 gap-3">
                           <CharacterMeter length={replyContent.length} />
                           <div className="flex gap-2">
@@ -732,70 +697,10 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
                         </div>
                       </div>
                     )}
-                  </div>
-
-                  {/* Replies */}
-                  {comment.replies && comment.replies.length > 0 && (
-                    <div className="mt-3 ml-4 pl-4 border-l-2 border-violet-200 dark:border-violet-800/50 space-y-2">
-                      {comment.replies.map((reply) => (
-                        <div
-                          key={reply.id}
-                          className="p-4 rounded-xl bg-violet-50 dark:bg-slate-700/50 border border-violet-100 dark:border-slate-600"
-                        >
-                          <div className="flex items-start justify-between gap-4">
-                            <div className="flex-1 min-w-0">
-                              <div className="flex items-center gap-2 mb-2 flex-wrap">
-                                <span className="font-semibold text-violet-700 dark:text-violet-300">
-                                  {reply.userName}
-                                </span>
-                                <span className="inline-flex items-center gap-1 px-2 py-0.5 text-xs font-medium bg-violet-200 dark:bg-violet-800 text-violet-700 dark:text-violet-200 rounded-full">
-                                  <svg className="w-3 h-3" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                    <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                                  </svg>
-                                  {t('admin')}
-                                </span>
-                                <span
-                                  className="text-sm text-neutral-400 dark:text-slate-500"
-                                  title={formatAbsolute(reply.createdAt, locale)}
-                                >
-                                  {formatRelative(reply.createdAt, locale)}
-                                </span>
-                              </div>
-                              <p className="text-neutral-700 dark:text-slate-300 whitespace-pre-wrap leading-relaxed">
-                                {reply.content}
-                              </p>
-                            </div>
-                            {isAdmin && (
-                              <button
-                                onClick={() => handleDelete(reply.id, true, comment.id)}
-                                className="p-2 rounded-lg text-slate-400 hover:text-red-500 hover:bg-red-50 dark:text-slate-500 dark:hover:text-red-400 dark:hover:bg-red-900/30 transition-colors cursor-pointer shrink-0"
-                                title="Delete reply"
-                                aria-label="Delete reply"
-                              >
-                                <svg
-                                  className="w-4 h-4"
-                                  fill="none"
-                                  viewBox="0 0 24 24"
-                                  stroke="currentColor"
-                                  aria-hidden="true"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
-                                  />
-                                </svg>
-                              </button>
-                            )}
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                </div>
+                  </article>
+                </li>
               ))}
-            </div>
+            </ol>
           )}
 
           {/* Pagination */}
@@ -809,6 +714,6 @@ export default function Comments({ deckSlug, deckTitle }: CommentsProps) {
           )}
         </>
       )}
-    </div>
+    </section>
   )
 }

@@ -16,11 +16,11 @@ export function LocaleSwitcher() {
 
   return (
     <div className="flex items-center gap-2">
-      <span className="text-xs text-neutral-500 dark:text-neutral-400">{t('language')}:</span>
+      <span className="text-sm text-ink-3">{t('language')}</span>
       <select
         value={locale}
         onChange={(e) => handleChange(e.target.value)}
-        className="bg-transparent text-sm text-neutral-500 dark:text-neutral-400 border border-neutral-300 dark:border-neutral-600 rounded px-2 py-1 focus:outline-none focus:ring-2 focus:ring-violet-500 dark:focus:ring-violet-400 cursor-pointer"
+        className="bg-surface text-sm text-ink border border-line-strong rounded-lg px-2 py-1 cursor-pointer"
         aria-label="Select language"
       >
         {routing.locales.map((loc) => (

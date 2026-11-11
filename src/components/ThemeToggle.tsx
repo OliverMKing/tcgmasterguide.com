@@ -9,14 +9,14 @@ export function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="relative p-2 w-9 h-9 rounded-xl bg-stone-100 dark:bg-slate-700 hover:bg-stone-200 dark:hover:bg-slate-600 transition-colors cursor-pointer overflow-hidden"
+      className="relative p-2 w-9 h-9 rounded-[10px] text-ink-2 hover:text-ink hover:bg-surface-2 transition-colors cursor-pointer overflow-hidden"
       aria-label={`Switch to ${isDark ? 'light' : 'dark'} mode`}
       title={`Switch to ${isDark ? 'light' : 'dark'} mode`}
     >
       <span className="sr-only">Toggle theme</span>
       {/* Sun (visible in dark mode) */}
       <svg
-        className={`absolute inset-0 m-auto w-5 h-5 text-amber-400 transition-all duration-500 ease-snappy ${
+        className={`absolute inset-0 m-auto w-5 h-5 transition-all duration-500 ease-snappy ${
           isDark ? 'opacity-100 rotate-0 scale-100' : 'opacity-0 -rotate-90 scale-50'
         }`}
         fill="none"
@@ -33,7 +33,7 @@ export function ThemeToggle() {
       </svg>
       {/* Moon (visible in light mode) */}
       <svg
-        className={`absolute inset-0 m-auto w-5 h-5 text-slate-600 transition-all duration-500 ease-snappy ${
+        className={`absolute inset-0 m-auto w-5 h-5 transition-all duration-500 ease-snappy ${
           isDark ? 'opacity-0 rotate-90 scale-50' : 'opacity-100 rotate-0 scale-100'
         }`}
         fill="none"

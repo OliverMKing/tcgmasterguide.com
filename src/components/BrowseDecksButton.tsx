@@ -21,7 +21,7 @@ export function BrowseDecksButton({ children }: BrowseDecksButtonProps) {
     <a
       href="#decks"
       onClick={handleClick}
-      className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-violet-500 to-purple-500 hover:from-violet-600 hover:to-purple-600 text-white font-medium px-6 py-3 rounded-xl transition-colors duration-200 ease-snappy active:scale-[0.98]"
+      className="inline-flex items-center justify-center gap-2 rounded-[10px] bg-accent text-accent-ink hover:bg-accent-hover font-semibold px-5 py-3 transition-colors active:translate-y-px"
     >
       {children}
       <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">

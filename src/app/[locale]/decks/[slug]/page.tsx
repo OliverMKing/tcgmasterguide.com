@@ -5,8 +5,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { LocalDate } from '@/components/LocalDate'
-import { DeckContent } from '@/components/DeckContent'
-import { BouncingSprite } from '@/components/BouncingSprite'
+import { DeckContent, DeckAccessProvider, DeckGuideCard, DeckHistoryControl, MatSkeleton } from '@/components/DeckContent'
 import { TierBadge } from '@/components/TierBadge'
 import { FormatBadge } from '@/components/FormatBadge'
 import { deckHistory } from '@/generated/deck-history'
@@ -66,10 +65,6 @@ function getAllDeckSlugs() {
   return filenames
     .filter((filename) => filename.endsWith('.md'))
     .map((filename) => filename.replace(/\.md$/, ''))
-}
-
-function getPokemonSprite(pokedexId: number): string {
-  return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokedexId}.png`
 }
 
 type DeckFormat = 'Standard' | 'Post-Rotation'
@@ -178,59 +173,60 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
     'Post-Rotation': tHome('formatPostRotation'),
   }
 
+  const multiFormat = process.env.NEXT_PUBLIC_ENABLE_MULTI_FORMAT === 'true'
+
   return (
-    <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800">
-      {/* Header - sticky below navbar on md+ screens, static on small screens */}
-      <div className="border-b border-slate-200 dark:border-slate-700 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm md:sticky md:top-16 z-10">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <main className="min-h-screen pb-20">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <DeckAccessProvider>
           <Link
             href="/#decks"
-            className="inline-flex items-center gap-2 text-slate-600 dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors text-sm font-medium"
+            className="mt-5 sm:mt-7 inline-flex items-center gap-1.5 py-1 text-sm font-semibold text-ink-2 hover:text-ink transition-colors"
           >
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.25} aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
             </svg>
             {t('backToGuides')}
           </Link>
-        </div>
-      </div>
 
-      <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Article Header */}
-        <header className="mb-12">
-          <div className="flex flex-wrap items-center gap-3 mb-4">
-            <h1 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-slate-100 leading-tight min-w-0">
-              {deck.title}
-            </h1>
-            {deck.pokemon.length > 0 && (
-              <div className="flex -space-x-2 shrink-0">
-                {deck.pokemon.map((id) => (
-                  <BouncingSprite
-                    key={id}
-                    src={getPokemonSprite(id)}
-                    size={64}
-                    className="w-12 h-12 md:w-16 md:h-16"
-                  />
-                ))}
+          {/* The deck on the mat: the one bold element on this page */}
+          <header className="playmat mt-3 flex items-center gap-5 rounded-[28px] p-4 sm:gap-10 sm:p-8 lg:px-10">
+            <DeckGuideCard
+              title={deck.title}
+              pokemon={deck.pokemon}
+              footer={formatLabelsTranslated[deck.format]}
+              tier={deck.tier}
+              className="w-[108px] shrink-0 sm:w-[184px]"
+            />
+            <div className="min-w-0">
+              <div className="flex flex-wrap items-center gap-2">
+                {multiFormat && (
+                  <FormatBadge format={deck.format} label={formatLabelsTranslated[deck.format]} size="md" />
+                )}
+                <TierBadge tier={deck.tier} label={tierLabelsTranslated[deck.tier]} size="md" />
               </div>
-            )}
-          </div>
-          <div className="flex items-center gap-3 mb-3">
-            {process.env.NEXT_PUBLIC_ENABLE_MULTI_FORMAT === 'true' && (
-              <FormatBadge format={deck.format} label={formatLabelsTranslated[deck.format]} size="md" />
-            )}
-            <TierBadge tier={deck.tier} label={tierLabelsTranslated[deck.tier]} size="md" />
-          </div>
-          {lastEdited && (
-            <div className="text-sm text-slate-500 dark:text-slate-400">
-              <LocalDate timestamp={lastEdited} prefixKey="deck.lastUpdated" />
+              <h1 className="mt-3 sm:mt-4 font-display font-black text-mat-ink text-[2.5rem] sm:text-6xl lg:text-[5.5rem] leading-[0.88] break-words">
+                {deck.title}
+              </h1>
+              <div className="mt-3 sm:mt-5 flex flex-wrap items-center gap-x-5 gap-y-1.5 text-sm text-mat-ink-2">
+                {lastEdited && (
+                  <LocalDate
+                    timestamp={lastEdited}
+                    prefixKey="deck.lastUpdated"
+                    placeholder={<MatSkeleton className="h-4 w-[12.5rem]" />}
+                  />
+                )}
+                <DeckHistoryControl history={history} deckTitle={deck.title} />
+              </div>
             </div>
-          )}
-        </header>
+          </header>
 
-        {/* Deck Content - fetched client-side with subscription check */}
-        <DeckContent slug={slug} title={deck.title} headings={deck.headings} history={history} deckTitle={deck.title} />
-      </article>
+          <div className="mt-10 sm:mt-14">
+            {/* Deck content: fetched client-side with a subscription check */}
+            <DeckContent slug={slug} title={deck.title} headings={deck.headings} />
+          </div>
+        </DeckAccessProvider>
+      </div>
     </main>
   )
 }

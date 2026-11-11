@@ -2,12 +2,16 @@
 
 import { useEffect, useState } from 'react'
 import { Link } from '@/i18n/navigation'
+import { useTranslations } from 'next-intl'
 import { clearUserCache, useCurrentUser } from '@/hooks/useCurrentUser'
+import { LogoMark } from '@/components/Logo'
+import { MembershipCard } from '../MembershipCard'
 
 const MAX_POLL_ATTEMPTS = 10
 const POLL_INTERVAL = 1500 // 1.5 seconds
 
 export default function SubscribeSuccessPage() {
+  const t = useTranslations('subscribe.success')
   const { hasSubscriberAccess, isLoaded } = useCurrentUser()
   const [pollCount, setPollCount] = useState(0)
   const [confirmed, setConfirmed] = useState(false)
@@ -38,40 +42,45 @@ export default function SubscribeSuccessPage() {
   const isWaiting = !confirmed && pollCount < MAX_POLL_ATTEMPTS
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800 flex items-center justify-center">
-      <div className="max-w-md mx-auto px-4 text-center">
-        <div className={`w-20 h-20 ${isWaiting ? 'bg-purple-100 dark:bg-purple-900/30' : 'bg-green-100 dark:bg-green-900/30'} rounded-full flex items-center justify-center mx-auto mb-6`}>
-          {isWaiting ? (
-            <svg className="w-10 h-10 text-purple-600 dark:text-purple-400 animate-spin" fill="none" viewBox="0 0 24 24">
-              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-            </svg>
-          ) : (
-            <svg className="w-10 h-10 text-green-600 dark:text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-            </svg>
-          )}
+    <main className="min-h-[calc(100vh-4rem)] flex items-center justify-center px-4 py-16">
+      <div className="w-full max-w-md flex flex-col items-center text-center">
+        {/* While we wait, the card lies face down. When the payment is confirmed, it turns over. */}
+        <div className="[perspective:1200px] text-left" aria-hidden="true">
+          <div
+            className={`relative w-[210px] sm:w-[240px] [transform-style:preserve-3d] transition-transform duration-[900ms] ease-snappy ${
+              isWaiting ? '[transform:rotateY(180deg)]' : '[transform:rotateY(0deg)]'
+            }`}
+          >
+            <MembershipCard className="w-full [backface-visibility:hidden]" />
+            {/* The card back. The wrapper holds the position, because .tcg-card sets its own. */}
+            <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)]">
+              <div className="tcg-card h-full w-full">
+                <div className="relative h-full rounded-[7px] bg-mat flex items-center justify-center">
+                  <div className="mat-zone absolute inset-3 rounded-[8px]" />
+                  <div className={`rounded-full bg-card-art p-4 ${isWaiting ? 'animate-pulse' : ''}`}>
+                    <LogoMark className="w-14 h-14" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <h1 className="text-3xl font-bold text-slate-900 dark:text-slate-100 mb-4">
-          {isWaiting ? 'Activating Your Subscription...' : 'Welcome to Premium!'}
-        </h1>
-
-        <p className="text-slate-600 dark:text-slate-300 mb-8">
-          {isWaiting
-            ? 'Please wait while we confirm your payment.'
-            : 'Your subscription is now active. You have full access to all deck guides and premium content.'}
-        </p>
+        <div role="status" aria-live="polite" className="mt-10">
+          <h1 className="font-display font-black text-ink text-5xl sm:text-6xl leading-[0.9]">
+            {isWaiting ? t('activatingTitle') : t('title')}
+          </h1>
+          <p className="mt-4 text-lg text-ink-2">
+            {isWaiting ? t('activatingMessage') : t('message')}
+          </p>
+        </div>
 
         {!isWaiting && (
           <Link
             href="/#decks"
-            className="inline-flex items-center gap-2 bg-gradient-to-r from-violet-500 to-purple-500 text-white font-semibold px-6 py-3 rounded-xl hover:from-violet-600 hover:to-purple-600 transition-colors duration-200 ease-snappy active:scale-[0.98]"
+            className="mt-8 inline-flex items-center rounded-[10px] bg-accent text-accent-ink hover:bg-accent-hover font-semibold px-6 py-3 transition-colors"
           >
-            Browse Deck Guides
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
+            {t('browse')}
           </Link>
         )}
       </div>

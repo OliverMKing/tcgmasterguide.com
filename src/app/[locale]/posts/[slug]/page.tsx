@@ -61,37 +61,41 @@ export default async function PostPage({
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800">
-      {/* Header - sticky below navbar on md+ screens, static on small screens */}
-      <div className="border-b border-slate-200 dark:border-slate-700 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm md:sticky md:top-16 z-10">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <Link
-            href="/posts"
-            className="inline-flex items-center gap-2 text-slate-600 dark:text-slate-300 hover:text-purple-700 dark:hover:text-purple-400 transition-colors text-sm font-medium"
-          >
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-            {t('backToPosts')}
-          </Link>
-        </div>
-      </div>
+    <main className="min-h-screen">
+      <article className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 pb-20">
+        <Link
+          href="/posts"
+          className="inline-flex items-center gap-1.5 text-ink-2 hover:text-ink font-semibold transition-colors"
+        >
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+          </svg>
+          {t('backToPosts')}
+        </Link>
 
-      <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Article Header */}
-        <header className="mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-slate-100 leading-tight mb-3">
-            {post.title}
-          </h1>
-          {post.date && (
-            <div className="text-sm text-slate-500 dark:text-slate-400">
-              <LocalDate timestamp={post.date} />
+        <div className="max-w-[68ch]">
+          {/* Article header */}
+          <header className="mt-8 sm:mt-10 pb-8 mb-10 border-b border-line">
+            <h1 className="font-display font-black text-ink text-5xl sm:text-7xl leading-[0.88] tracking-[-0.01em] break-words">
+              {post.title}
+            </h1>
+            <div className="mt-6 flex flex-wrap items-baseline gap-x-6 gap-y-1 text-ink-2">
+              <p>
+                {t.rich('byline', {
+                  author: (chunks) => <strong className="font-bold text-ink">{chunks}</strong>,
+                })}
+              </p>
+              {post.date && (
+                <time dateTime={post.date.slice(0, 10)}>
+                  <LocalDate timestamp={post.date} />
+                </time>
+              )}
             </div>
-          )}
-        </header>
+          </header>
 
-        {/* Post Content - fetched client-side with subscription check */}
-        <PostContent slug={slug} title={post.title} />
+          {/* Post content - fetched client-side with subscription check */}
+          <PostContent slug={slug} title={post.title} />
+        </div>
       </article>
     </main>
   )

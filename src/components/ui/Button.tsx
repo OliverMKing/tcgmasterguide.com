@@ -15,18 +15,15 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const base =
-  'inline-flex items-center justify-center gap-2 font-medium rounded-xl transition-all duration-200 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-slate-900 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer select-none whitespace-nowrap'
+  'inline-flex items-center justify-center gap-2 font-semibold rounded-[10px] transition-[background-color,color,border-color,transform] duration-200 ease-snappy disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer select-none whitespace-nowrap active:translate-y-px'
 
 const variants: Record<Variant, string> = {
-  primary:
-    'bg-gradient-to-r from-violet-500 to-purple-500 hover:from-violet-600 hover:to-purple-600 text-white active:scale-[0.98]',
+  primary: 'bg-accent text-accent-ink hover:bg-accent-hover',
   secondary:
-    'bg-white dark:bg-slate-800 text-neutral-800 dark:text-slate-100 border border-stone-200 dark:border-slate-700 hover:border-violet-300 dark:hover:border-violet-500 hover:text-violet-600 dark:hover:text-violet-400 active:scale-[0.98]',
-  ghost:
-    'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-violet-50 dark:hover:bg-violet-900/30 active:scale-[0.98]',
-  link: 'text-violet-600 dark:text-violet-400 hover:text-violet-700 dark:hover:text-violet-300 underline-offset-4 hover:underline px-0 py-0',
-  danger:
-    'bg-red-500 hover:bg-red-600 text-white active:scale-[0.98]',
+    'bg-surface text-ink border border-line-strong hover:border-ink',
+  ghost: 'text-ink-2 hover:text-ink hover:bg-surface-2',
+  link: 'text-accent-text underline underline-offset-4 decoration-1 hover:decoration-2 px-0 py-0 active:translate-y-0',
+  danger: 'bg-bad text-white dark:text-[#2a0a07] hover:opacity-90',
 }
 
 const sizes: Record<Size, string> = {

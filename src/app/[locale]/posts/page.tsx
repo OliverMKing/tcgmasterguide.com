@@ -29,32 +29,42 @@ export default async function PostsPage({
   const t = await getTranslations('posts')
   const posts = getAllPosts(locale as Locale)
 
-  return (
-    <main className="min-h-screen bg-gradient-to-b from-stone-50 to-white dark:from-slate-900 dark:to-slate-800">
-      {/* Hero Section */}
-      <div className="border-b border-stone-200 dark:border-slate-700">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-neutral-800 dark:text-slate-100 mb-4">
-              {t('title')}
-            </h1>
-            <p className="text-lg text-neutral-600 dark:text-slate-300 max-w-2xl mx-auto">
-              {t('subtitle')}
-            </p>
-          </div>
-        </div>
-      </div>
+  const [lead, ...earlier] = posts
 
-      {/* Content Section */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  return (
+    <main className="min-h-screen">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-16 pb-20">
+        <header className="max-w-[60ch]">
+          <h1 className="font-display font-black text-ink text-6xl sm:text-7xl leading-[0.88]">
+            {t('title')}
+          </h1>
+          <p className="mt-4 text-lg text-ink-2">{t('subtitle')}</p>
+        </header>
+
         {posts.length === 0 ? (
-          <EmptyState title={t('emptyTitle')} description={t('emptyDescription')} />
+          <EmptyState className="mt-10" title={t('emptyTitle')} description={t('emptyDescription')} />
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {posts.map((post) => (
-              <PostCard key={post.slug} post={post} />
-            ))}
-          </div>
+          <>
+            {/* The newest post leads the page */}
+            <div className="mt-10 border-y border-line-strong">
+              <PostCard post={lead} variant="lead" />
+            </div>
+
+            {earlier.length > 0 && (
+              <section aria-labelledby="earlier-posts" className="mt-14 max-w-4xl">
+                <h2 id="earlier-posts" className="font-display font-extrabold text-2xl text-ink pb-3">
+                  {t('earlierPosts')}
+                </h2>
+                <ol className="border-t border-line">
+                  {earlier.map((post) => (
+                    <li key={post.slug} className="border-b border-line">
+                      <PostCard post={post} />
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            )}
+          </>
         )}
       </div>
     </main>

@@ -9,6 +9,7 @@ Comprehensive architecture documentation for TCG Master Guide.
 - **[System Architecture](./system-architecture.md)**: Visual diagrams and infrastructure overview
 - **[Data Model](./data-model.md)**: Database schema and relationships
 - **[Internationalization](./internationalization.md)**: Multi-language support design (i18n)
+- **[Design System](./design-system.md)**: Visual design, color tokens, type, and UI rules ("Playmat")
 - **[Original Tech Stack Doc](./tech-stack.md)**: Complete combined reference (legacy)
 
 ## Getting Started

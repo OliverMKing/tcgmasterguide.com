@@ -12,6 +12,11 @@ export type { StreamStatus }
 
 type StreamStatus = 'loading' | 'live' | 'offline' | 'unknown'
 
+const twitchGlyph =
+  'M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714z'
+
+// The embed sits on a playmat. Desktop shows the video at 16:9 with the
+// Twitch chat column (340px) beside it; mobile stacks video and chat.
 export default function TwitchEmbed({ channel, onStatusChange }: TwitchEmbedProps) {
   const t = useTranslations('live')
   const [status, setStatus] = useState<StreamStatus>('loading')
@@ -96,10 +101,13 @@ export default function TwitchEmbed({ channel, onStatusChange }: TwitchEmbedProp
 
   if (status === 'loading') {
     return (
-      <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-12">
-        <div className="flex flex-col items-center justify-center text-center">
-          <div className="w-12 h-12 border-4 border-purple-600 border-t-transparent rounded-full animate-spin mb-4" />
-          <p className="text-slate-600 dark:text-slate-300">{t('checkingStatus')}</p>
+      <div className="mat-zone flex aspect-video items-center justify-center p-6">
+        <div role="status" className="flex items-center gap-3 text-mat-ink-2">
+          <span
+            aria-hidden="true"
+            className="size-5 rounded-full border-2 border-mat-line border-t-mat-ink animate-spin"
+          />
+          <span>{t('checkingStatus')}</span>
         </div>
       </div>
     )
@@ -107,27 +115,23 @@ export default function TwitchEmbed({ channel, onStatusChange }: TwitchEmbedProp
 
   if (status === 'offline') {
     return (
-      <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-12">
-        <div className="flex flex-col items-center justify-center text-center">
-          <div className="w-20 h-20 rounded-full bg-slate-100 dark:bg-slate-700 flex items-center justify-center mb-6">
-            <svg className="w-10 h-10 text-slate-400 dark:text-slate-500" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714z" />
-            </svg>
-          </div>
-          <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-2">
+      <div className="mat-zone flex min-h-[320px] items-end p-6 sm:aspect-video sm:p-10 lg:aspect-[21/9]">
+        <div className="max-w-[34rem]">
+          <svg className="size-10 text-mat-ink-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d={twitchGlyph} />
+          </svg>
+          <h2 className="mt-5 font-display font-black text-4xl sm:text-5xl leading-none text-mat-ink">
             {t('streamOffline')}
           </h2>
-          <p className="text-slate-600 dark:text-slate-300 mb-6 max-w-md">
-            {t('offlineMessage')}
-          </p>
+          <p className="mt-3 text-mat-ink-2 sm:text-lg">{t('offlineMessage')}</p>
           <a
             href={`https://twitch.tv/${channel}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-xl transition-colors"
+            className="mt-6 inline-flex items-center gap-2 rounded-[10px] bg-accent px-5 py-3 font-semibold text-accent-ink transition-colors hover:bg-accent-hover"
           >
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714z" />
+            <svg className="size-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d={twitchGlyph} />
             </svg>
             {t('followOnTwitch')}
           </a>
@@ -137,51 +141,28 @@ export default function TwitchEmbed({ channel, onStatusChange }: TwitchEmbedProp
   }
 
   // Live or unknown status - show embed
+  const parent = typeof window !== 'undefined' ? window.location.hostname : 'localhost'
+
   return (
-    <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 overflow-hidden">
-      <div className="flex items-center justify-between gap-2 px-4 py-3 border-b border-slate-200 dark:border-slate-700">
-        <div className="flex items-center gap-2">
-          {status === 'live' ? (
-            <>
-              <span className="flex items-center gap-2">
-                <span className="w-3 h-3 bg-red-500 rounded-full animate-pulse" />
-                <span className="text-sm font-semibold text-red-500">{t('live')}</span>
-              </span>
-              <span className="text-slate-600 dark:text-slate-300 text-sm hidden sm:inline">
-                {t('streamingNow')}
-              </span>
-            </>
-          ) : (
-            <span className="text-slate-600 dark:text-slate-300 text-sm">
-              {t('checkIfLive')}
-            </span>
-          )}
-        </div>
-        <a
-          href={`https://twitch.tv/${channel}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-sm text-purple-600 dark:text-purple-400 hover:underline"
-        >
-          {t('openInTwitch')}
-        </a>
-      </div>
-      {/* Video player */}
+    <div className="@container overflow-hidden rounded-[18px] bg-black">
+      {/* Video player with chat (desktop). Height keeps the video at 16:9 beside the 340px chat. */}
       <div
         ref={embedRef}
-        className={isMobile ? 'hidden' : 'h-[500px]'}
+        className={isMobile ? 'hidden' : 'h-[max(420px,calc((100cqw-340px)*0.5625))]'}
       />
       {/* Mobile: stacked video + chat */}
       {isMobile && (
         <div className="flex flex-col">
           <iframe
-            src={`https://player.twitch.tv/?channel=${channel}&parent=${typeof window !== 'undefined' ? window.location.hostname : 'localhost'}`}
-            className="w-full h-[56.25vw] max-h-[300px]"
+            title={t('title')}
+            src={`https://player.twitch.tv/?channel=${channel}&parent=${parent}`}
+            className="block w-full aspect-video"
             allowFullScreen
           />
           <iframe
-            src={`https://www.twitch.tv/embed/${channel}/chat?parent=${typeof window !== 'undefined' ? window.location.hostname : 'localhost'}`}
-            className="w-full h-[400px]"
+            title="Twitch chat"
+            src={`https://www.twitch.tv/embed/${channel}/chat?parent=${parent}`}
+            className="block w-full h-[420px]"
           />
         </div>
       )}

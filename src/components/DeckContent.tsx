@@ -1,13 +1,16 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { createContext, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Link } from '@/i18n/navigation'
 import { useTranslations, useLocale } from 'next-intl'
 import { LockedDeckContent } from '@/components/LockedDeckContent'
 import { MarkdownContent } from '@/components/MarkdownContent'
 import { ViewHistoryButton } from '@/components/ViewHistoryButton'
+import Image from 'next/image'
+import { getPokemonSprite } from '@/components/DeckCard'
 import Comments from '@/components/Comments'
 import { HistoryEntry } from '@/generated/deck-history'
+import { useHolo } from '@/hooks/useHolo'
 import { useFetchWithRetry } from '@/lib/fetch-with-retry'
 import { PREMIUM_PLACEHOLDER } from '@/lib/content-visibility'
 import { Skeleton, ReadingProgress } from '@/components/ui'
@@ -22,8 +25,6 @@ interface DeckContentProps {
   slug: string
   title: string
   headings: TocItem[]
-  history: HistoryEntry[]
-  deckTitle: string
 }
 
 // Retry config for subscription propagation delays
@@ -71,8 +72,236 @@ function extractHeadingsFromContent(content: string): TocItem[] {
   return headings
 }
 
-export function DeckContent({ slug, title, headings, history, deckTitle }: DeckContentProps) {
+
+/* ------------------------------------------------------------------
+   Access state, shared with the page header.
+   The header is rendered on the server, but whether the reader has access
+   is only known after DeckContent fetches the guide. The header's
+   "View history" control reads it from this context.
+   ------------------------------------------------------------------ */
+
+interface DeckAccessState {
+  hasAccess: boolean | null
+  setHasAccess: (value: boolean | null) => void
+}
+
+const DeckAccessContext = createContext<DeckAccessState | null>(null)
+
+export function DeckAccessProvider({ children }: { children: ReactNode }) {
+  const [hasAccess, setHasAccess] = useState<boolean | null>(null)
+  const value = useMemo(() => ({ hasAccess, setHasAccess }), [hasAccess])
+  return <DeckAccessContext.Provider value={value}>{children}</DeckAccessContext.Provider>
+}
+
+/** A shimmering placeholder for text on the playmat, sized by className. */
+export function MatSkeleton({ className = '' }: { className?: string }) {
+  return (
+    <span
+      aria-hidden="true"
+      className={`relative inline-block overflow-hidden rounded-full bg-mat-ink/15 align-middle ${className}`}
+    >
+      <span className="absolute inset-0 -translate-x-full animate-shimmer bg-gradient-to-r from-transparent via-mat-ink/20 to-transparent" />
+    </span>
+  )
+}
+
+/** "View history" for the page header. Only subscribers see the revision history. */
+export function DeckHistoryControl({ history, deckTitle }: { history: HistoryEntry[]; deckTitle: string }) {
+  const access = useContext(DeckAccessContext)
+  if (history.length === 0) return null
+  // Access is unknown until the guide loads: hold the space with a placeholder.
+  if (access?.hasAccess === null) return <MatSkeleton className="h-4 w-[6.75rem]" />
+  if (!access?.hasAccess) return null
+  return <ViewHistoryButton history={history} deckTitle={deckTitle} tone="mat" />
+}
+
+/* ------------------------------------------------------------------
+   The deck as a trading card, for the page header. Same face as DeckCard,
+   but not a link. Every deck card is a holo.
+   ------------------------------------------------------------------ */
+
+const spriteLayout: { width: number; overlap: number }[] = [
+  { width: 96, overlap: 0 },
+  { width: 66, overlap: 22 },
+  { width: 52, overlap: 18 },
+]
+
+export function DeckGuideCard({
+  title,
+  pokemon,
+  footer,
+  holo = true,
+  tier,
+  className = '',
+}: {
+  title: string
+  pokemon: number[]
+  footer?: string
+  holo?: boolean
+  /** Picks the foil metal: 1 gold, 2 silver, 3 copper, 4 lavender. */
+  tier?: number
+  className?: string
+}) {
+  const { ref, onPointerMove, onPointerLeave } = useHolo<HTMLDivElement>(holo ? 12 : 0)
+  const count = Math.min(pokemon.length, 3) || 1
+  const layout = spriteLayout[count - 1]
+  const [first, ...rest] = title.split(' / ')
+
+  return (
+    <div aria-hidden="true" className={className}>
+      <div
+        ref={ref}
+        onPointerMove={holo ? onPointerMove : undefined}
+        onPointerLeave={holo ? onPointerLeave : undefined}
+        className={`tcg-card ${holo ? `holo ${tier ? `foil-tier-${tier}` : ''}` : ''}`}
+      >
+        <div className="tcg-card-face">
+          <div className="font-display font-extrabold text-card-ink leading-[0.92] px-2.5 pt-2 pb-1.5 text-[1.15rem] sm:px-3.5 sm:pt-3 sm:pb-2.5 sm:text-[1.75rem]">
+            {first}
+            {rest.length > 0 && (
+              <span className="block text-card-ink-2 whitespace-nowrap">/ {rest.join(' / ')}</span>
+            )}
+          </div>
+          <div className="tcg-card-art flex-1 flex items-center justify-center overflow-hidden">
+            {pokemon.slice(0, 3).map((id, i) => (
+              <Image
+                key={id}
+                src={getPokemonSprite(id)}
+                alt=""
+                width={96}
+                height={96}
+                unoptimized
+                className="sprite shrink-0 h-auto max-w-none object-contain"
+                style={{ width: `${layout.width}%`, marginLeft: i === 0 ? 0 : `-${layout.overlap}%` }}
+              />
+            ))}
+          </div>
+          <div className="text-card-ink-2 px-2.5 py-2 text-[0.72rem] sm:px-3.5 sm:py-2.5 sm:text-sm leading-tight min-h-[1.5em] whitespace-nowrap overflow-hidden text-ellipsis">
+            {footer}
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+/* ------------------------------------------------------------------
+   Table of contents
+   ------------------------------------------------------------------ */
+
+// The heading whose top has passed this line (in px from the viewport top) is the current one.
+const ACTIVE_LINE = 140
+
+function useActiveHeading(ids: string[]): string | null {
+  const [active, setActive] = useState<string | null>(null)
+  const key = ids.join('|')
+
+  useEffect(() => {
+    const list = key ? key.split('|') : []
+    if (list.length === 0) return
+    let frame = 0
+    const update = () => {
+      frame = 0
+      let current: string | null = null
+      for (const id of list) {
+        const el = document.getElementById(id)
+        if (!el) continue
+        if (el.getBoundingClientRect().top - ACTIVE_LINE <= 0) current = id
+        else break
+      }
+      setActive(current)
+    }
+    const onScroll = () => {
+      if (!frame) frame = requestAnimationFrame(update)
+    }
+    // Headings render after the guide loads, so watch them with an IntersectionObserver
+    // as well as on scroll. The observer catches jumps from TOC links and resizes.
+    const observer = new IntersectionObserver(onScroll, { rootMargin: `-${ACTIVE_LINE}px 0px 0px 0px` })
+    for (const id of list) {
+      const el = document.getElementById(id)
+      if (el) observer.observe(el)
+    }
+    update()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    window.addEventListener('resize', onScroll)
+    return () => {
+      if (frame) cancelAnimationFrame(frame)
+      observer.disconnect()
+      window.removeEventListener('scroll', onScroll)
+      window.removeEventListener('resize', onScroll)
+    }
+  }, [key])
+
+  return active
+}
+
+interface TocListProps {
+  headings: TocItem[]
+  activeId: string | null
+  showDiscussion: boolean
+  discussionLabel: string
+  onNavigate?: () => void
+}
+
+function TocList({ headings, activeId, showDiscussion, discussionLabel, onNavigate }: TocListProps) {
+  const minLevel = headings.length > 0 ? Math.min(...headings.map((h) => h.level)) : 1
+  const items = [
+    ...headings.map((h) => ({ id: h.id, text: h.text, depth: h.level - minLevel })),
+    ...(showDiscussion ? [{ id: 'discussion', text: discussionLabel, depth: 0 }] : []),
+  ]
+
+  return (
+    <ul className="border-l border-line">
+      {items.map((item) => {
+        const isActive = item.id === activeId
+        return (
+          <li key={item.id}>
+            <a
+              href={`#${item.id}`}
+              onClick={onNavigate}
+              aria-current={isActive ? 'location' : undefined}
+              className={`-ml-px block border-l-2 py-1.5 pr-2 leading-snug transition-colors ${
+                item.depth === 0 ? 'text-[0.9375rem] font-semibold' : 'text-sm'
+              } ${
+                isActive
+                  ? 'border-accent text-ink'
+                  : `border-transparent hover:text-ink ${item.depth === 0 ? 'text-ink-2' : 'text-ink-3'}`
+              }`}
+              style={{ paddingLeft: `${0.875 + item.depth * 0.875}rem` }}
+            >
+              {item.text}
+            </a>
+          </li>
+        )
+      })}
+    </ul>
+  )
+}
+
+function LockedTocTeaser({ hidden, label, moreLabel }: { hidden: TocItem[]; label: string; moreLabel: string | null }) {
+  return (
+    <div className="mt-6">
+      <p className="text-sm font-semibold text-ink-2 mb-2">{label}</p>
+      <ul className="space-y-1.5">
+        {hidden.slice(0, 4).map((heading) => (
+          <li key={heading.id} className="flex items-start gap-2 text-sm leading-snug text-ink-3">
+            <svg className="mt-[0.15em] w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+              <rect x="5" y="11" width="14" height="10" rx="2" />
+              <path strokeLinecap="round" d="M8 11V8a4 4 0 018 0v3" />
+            </svg>
+            <span>{heading.text}</span>
+          </li>
+        ))}
+      </ul>
+      {moreLabel && <p className="mt-2 pl-[1.375rem] text-sm text-ink-3">{moreLabel}</p>}
+    </div>
+  )
+}
+
+export function DeckContent({ slug, title, headings }: DeckContentProps) {
   const t = useTranslations('deck')
+  const access = useContext(DeckAccessContext)
+  const reportAccess = access?.setHasAccess
   const locale = useLocale()
   const [content, setContent] = useState<string | null>(null)
   const [hasAccess, setHasAccess] = useState<boolean | null>(null)
@@ -116,33 +345,57 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
     fetchContent()
   }, [slug, locale])
 
+  useEffect(() => {
+    reportAccess?.(hasAccess)
+  }, [hasAccess, reportAccess])
+
+  // For non-subscribers, extract headings only from the content they can see
+  const visibleHeadings = useMemo(
+    () => (hasAccess || !content ? headings : extractHeadingsFromContent(content)),
+    [hasAccess, content, headings]
+  )
+  const activeId = useActiveHeading(
+    loading ? [] : [...visibleHeadings.map((h) => h.id), ...(hasAccess ? ['discussion'] : [])]
+  )
+  const tocScrollRef = useRef<HTMLDivElement>(null)
+  const mobileTocRef = useRef<HTMLDetailsElement>(null)
+
+  // Keep the current item visible inside the sticky table of contents.
+  useEffect(() => {
+    const box = tocScrollRef.current
+    if (!box || !activeId) return
+    const link = box.querySelector<HTMLElement>(`a[href="#${CSS.escape(activeId)}"]`)
+    if (!link) return
+    const top = link.offsetTop - box.offsetTop
+    if (top < box.scrollTop + 40 || top > box.scrollTop + box.clientHeight - 80) {
+      box.scrollTo({ top: Math.max(0, top - box.clientHeight / 3) })
+    }
+  }, [activeId])
+
   if (loading) {
     return (
-      <div className="space-y-8" aria-busy="true" aria-label="Loading deck guide">
-        {/* TOC skeleton */}
-        <div className="p-6 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700">
-          <Skeleton className="h-5 w-40 mb-4" />
-          <div className="space-y-2">
-            <Skeleton className="h-4 w-5/6" />
-            <Skeleton className="h-4 w-2/3 ml-4" />
-            <Skeleton className="h-4 w-3/4" />
-            <Skeleton className="h-4 w-1/2 ml-4" />
-            <Skeleton className="h-4 w-2/3" />
-          </div>
+      <div
+        className="lg:grid lg:grid-cols-[14.5rem_minmax(0,1fr)] lg:gap-14 xl:gap-20"
+        aria-busy="true"
+        aria-label={t('loadingGuide')}
+      >
+        <div className="hidden lg:block space-y-3 pt-1">
+          <Skeleton className="h-5 w-24 mb-5" />
+          <Skeleton className="h-4 w-36" />
+          <Skeleton className="h-4 w-28 ml-4" />
+          <Skeleton className="h-4 w-32 ml-4" />
+          <Skeleton className="h-4 w-40" />
+          <Skeleton className="h-4 w-24 ml-4" />
+          <Skeleton className="h-4 w-36" />
         </div>
-        {/* Article skeleton */}
-        <div className="space-y-4">
-          <Skeleton className="h-8 w-1/2" />
+        <div className="max-w-[68ch] space-y-4">
+          <Skeleton className="h-12 w-full lg:hidden mb-8" rounded="2xl" />
+          <Skeleton className="h-9 w-1/3" />
+          <Skeleton className="h-64 w-full" rounded="2xl" />
           <Skeleton className="h-4 w-full" />
           <Skeleton className="h-4 w-full" />
           <Skeleton className="h-4 w-5/6" />
           <Skeleton className="h-4 w-3/4" />
-          <div className="pt-6">
-            <Skeleton className="h-6 w-1/3 mb-3" />
-            <Skeleton className="h-4 w-full" />
-            <Skeleton className="h-4 w-full mt-2" />
-            <Skeleton className="h-4 w-11/12 mt-2" />
-          </div>
         </div>
       </div>
     )
@@ -152,156 +405,121 @@ export function DeckContent({ slug, title, headings, history, deckTitle }: DeckC
   const isFullyLocked = !hasAccess && content?.trim() === PREMIUM_PLACEHOLDER
 
   if (isFullyLocked || !content) {
-    return <LockedDeckContent title={title} headings={headings} />
+    return (
+      <div className="max-w-[68ch]">
+        <LockedDeckContent title={title} headings={headings} />
+      </div>
+    )
   }
 
-  // For non-subscribers, extract headings only from the content they can see
-  const visibleHeadings = hasAccess ? headings : extractHeadingsFromContent(content)
+  const tocTitle = hasAccess ? t('tableOfContents') : t('previewContents')
+  const hiddenHeadings = (() => {
+    if (hasAccess) return []
+    const visibleTexts = new Set(visibleHeadings.map((h) => h.text))
+    return headings.filter((h) => !visibleTexts.has(h.text))
+  })()
+  const moreLabel = hiddenHeadings.length > 4 ? t('moreSections', { count: hiddenHeadings.length - 4 }) : null
+  const hasToc = visibleHeadings.length > 0
+
+  const tocBody = (onNavigate?: () => void) => (
+    <>
+      <TocList
+        headings={visibleHeadings}
+        activeId={activeId}
+        showDiscussion={!!hasAccess}
+        discussionLabel={t('discussion')}
+        onNavigate={onNavigate}
+      />
+      {hiddenHeadings.length > 0 && (
+        <LockedTocTeaser hidden={hiddenHeadings} label={t('fullGuideIncludes')} moreLabel={moreLabel} />
+      )}
+    </>
+  )
 
   return (
     <>
       <ReadingProgress />
-      {/* Free Preview Banner for non-subscribers */}
-      {!hasAccess && (
-        <div className="mb-8 p-5 bg-gradient-to-r from-violet-50 via-purple-50 to-fuchsia-50 dark:from-violet-900/20 dark:via-purple-900/20 dark:to-fuchsia-900/20 rounded-2xl border border-violet-200/70 dark:border-violet-800/50 shadow-sm">
-          <div className="flex items-center gap-4">
-            <div className="flex-shrink-0 w-11 h-11 bg-violet-100 text-violet-600 dark:bg-slate-700/60 dark:text-violet-400 rounded-xl flex items-center justify-center">
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-              </svg>
+      <div className={hasToc ? 'lg:grid lg:grid-cols-[14.5rem_minmax(0,1fr)] lg:gap-14 xl:gap-20' : ''}>
+        {/* Table of contents: a sticky column on large screens */}
+        {hasToc && (
+          <nav aria-label={tocTitle} className="hidden lg:block">
+            <div
+              ref={tocScrollRef}
+              className="sticky top-24 max-h-[calc(100dvh-8rem)] overflow-y-auto overscroll-contain pb-8 pr-1"
+            >
+              <p className="font-display font-extrabold text-2xl leading-none text-ink mb-4">{tocTitle}</p>
+              {tocBody()}
             </div>
-            <div className="flex-1 min-w-0">
-              <p className="font-semibold text-slate-900 dark:text-slate-100">{t('freePreview')}</p>
-              <p className="text-sm text-slate-600 dark:text-slate-400 mt-0.5">
-                {t('limitedPreview')}{' '}
-                <Link href="/subscribe" className="text-violet-600 dark:text-violet-400 hover:underline underline-offset-4 font-medium">
+          </nav>
+        )}
+
+        <div className="min-w-0 max-w-[68ch]">
+          {/* Free preview note for non-subscribers */}
+          {!hasAccess && (
+            <div className="mb-10 flex gap-3 rounded-2xl border border-line bg-surface px-4 py-3.5 sm:px-5 text-[0.9375rem] leading-relaxed text-ink-2">
+              <svg className="mt-[0.2em] w-[1.1rem] h-[1.1rem] shrink-0 text-accent-text" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+              </svg>
+              <p>
+                <strong className="font-bold text-ink">{t('freePreview')}</strong> {t('limitedPreview')}{' '}
+                <Link
+                  href="/subscribe"
+                  className="font-semibold text-accent-text underline decoration-1 underline-offset-[3px] hover:decoration-2"
+                >
                   {t('subscribeForAccess')}
-                </Link>
-                {' '}{t('forFullAccess')}
+                </Link>{' '}
+                {t('forFullAccess')}
               </p>
             </div>
-          </div>
-        </div>
-      )}
+          )}
 
-      {/* View History Button */}
-      {hasAccess && history.length > 0 && (
-        <div className="-mt-10 mb-8">
-          <ViewHistoryButton history={history} deckTitle={deckTitle} />
-        </div>
-      )}
-
-      {/* Table of Contents */}
-      {visibleHeadings.length > 0 && (
-        <nav
-          aria-label="Table of contents"
-          className="mb-12 p-6 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm"
-        >
-          <div className="flex items-center gap-2 mb-4">
-            <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-violet-100 dark:bg-violet-900/40 text-violet-600 dark:text-violet-300">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h10M4 18h7" />
-              </svg>
-            </span>
-            <h2 className="text-lg font-semibold text-slate-900 dark:text-slate-100">
-              {hasAccess ? t('tableOfContents') : t('previewContents')}
-            </h2>
-          </div>
-          <ul className="space-y-1">
-            {(() => {
-              const minLevel = visibleHeadings.length > 0 ? Math.min(...visibleHeadings.map((h) => h.level)) : 1
-              return visibleHeadings.map((heading) => (
-                <li
-                  key={heading.id}
-                  style={{ paddingLeft: `${(heading.level - minLevel) * 1}rem` }}
+          {/* Table of contents: a disclosure above the article on small screens */}
+          {hasToc && (
+            <details ref={mobileTocRef} className="group lg:hidden mb-10 rounded-2xl border border-line bg-surface">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-3 px-4 py-3.5 [&::-webkit-details-marker]:hidden">
+                <span className="font-display font-extrabold text-2xl leading-none text-ink">{tocTitle}</span>
+                <svg
+                  className="w-5 h-5 shrink-0 text-ink-3 transition-transform duration-200 ease-snappy group-open:rotate-180"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                  aria-hidden="true"
                 >
-                  <a
-                    href={`#${heading.id}`}
-                    className="text-slate-600 dark:text-slate-300 hover:text-violet-700 dark:hover:text-violet-400 transition-colors text-sm py-1"
-                  >
-                    {heading.text}
-                  </a>
-                </li>
-              ))
-            })()}
-            {hasAccess && (
-              <li>
-                <a
-                  href="#discussion"
-                  className="text-slate-600 dark:text-slate-300 hover:text-violet-700 dark:hover:text-violet-400 transition-colors text-sm py-1"
-                >
-                  {t('discussion')}
-                </a>
-              </li>
-            )}
-          </ul>
-          {/* Show "What's Inside" teaser for non-subscribers */}
-          {!hasAccess && (() => {
-            const visibleTexts = new Set(visibleHeadings.map((h) => h.text))
-            const hiddenHeadings = headings.filter((h) => !visibleTexts.has(h.text))
-            if (hiddenHeadings.length === 0) return null
-            return (
-              <div className="mt-4 pt-4 border-t border-slate-200 dark:border-slate-700">
-                <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mb-2">
-                  {t('fullGuideIncludes')}
-                </p>
-                <ul className="space-y-1">
-                  {hiddenHeadings.slice(0, 4).map((heading) => (
-                    <li
-                      key={heading.id}
-                      className="flex items-center gap-2 text-slate-400 dark:text-slate-500 text-sm"
-                    >
-                      <svg className="w-3.5 h-3.5 text-violet-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                      </svg>
-                      <span>{heading.text}</span>
-                    </li>
-                  ))}
-                  {hiddenHeadings.length > 4 && (
-                    <li className="text-slate-400 dark:text-slate-500 text-sm pl-5">
-                      {t('moreSections', { count: hiddenHeadings.length - 4 })}
-                    </li>
-                  )}
-                </ul>
-              </div>
-            )
-          })()}
-        </nav>
-      )}
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <nav aria-label={tocTitle} className="border-t border-line px-4 pt-3 pb-4">
+                {tocBody(() => {
+                  if (mobileTocRef.current) mobileTocRef.current.open = false
+                })}
+              </nav>
+            </details>
+          )}
 
-      {/* Article Content */}
-      <div className="prose prose-slate prose-lg max-w-none dark:prose-invert">
-        <MarkdownContent content={content} />
-      </div>
+          {/* Article */}
+          <div className="guide-prose">
+            <MarkdownContent content={content} />
+          </div>
 
-      {/* Footer CTA */}
-      <div className="mt-16">
-        <div className="relative overflow-hidden bg-gradient-to-br from-violet-50 via-white to-purple-50 dark:from-slate-800 dark:via-slate-800 dark:to-slate-800/80 border border-violet-100 dark:border-slate-700 rounded-2xl p-8 text-center shadow-sm">
-          <div className="absolute -top-16 -right-16 w-48 h-48 bg-violet-300/20 dark:bg-violet-500/10 rounded-full blur-3xl" aria-hidden="true" />
-          <div className="absolute -bottom-20 -left-20 w-56 h-56 bg-purple-300/20 dark:bg-purple-500/10 rounded-full blur-3xl" aria-hidden="true" />
-          <div className="relative">
-            <h3 className="text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-2">
-              {t('exploreMoreGuides')}
-            </h3>
-            <p className="text-neutral-600 dark:text-slate-300 mb-6">
-              {t('continueJourney')}
-            </p>
+          {/* More guides */}
+          <div className="mt-20 flex flex-col gap-4 border-t border-line pt-8 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <h2 className="font-display font-black text-4xl leading-none text-ink">{t('exploreMoreGuides')}</h2>
+              <p className="mt-2 text-ink-2">{t('continueJourney')}</p>
+            </div>
             <Link
               href="/#decks"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-violet-500 to-purple-500 hover:from-violet-600 hover:to-purple-600 text-white font-medium px-6 py-3 rounded-xl transition-all duration-300 ease-snappy active:scale-[0.98]"
+              className="inline-flex shrink-0 items-center self-start rounded-[10px] border border-line-strong px-4 py-2.5 font-semibold text-ink transition-colors hover:border-ink sm:self-auto"
             >
               {t('browseAllDecks')}
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
             </Link>
           </div>
+
+          <Comments deckSlug={slug} deckTitle={title} />
         </div>
       </div>
-
-      {/* Comments Section */}
-      <Comments deckSlug={slug} deckTitle={title} />
     </>
   )
 }

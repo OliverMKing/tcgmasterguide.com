@@ -93,7 +93,7 @@ format: "Standard"
 | Field | Required | Description |
 |-------|----------|-------------|
 | `title` | Yes | The display name of the deck (e.g., "Charizard / Pidgeot") |
-| `pokemon` | Yes | Array of Pokédex numbers for the Pokemon representing the deck |
+| `pokemon` | Yes | Array of Pokédex numbers for the Pokemon representing the deck. The deck card shows the first three only. |
 | `tier` | Yes | Tier ranking (1, 2, or 3). Tier 1 = top meta decks, Tier 2 = competitive, Tier 3 = viable |
 | `format` | No | The format the deck is for. Must be either `Standard` or `Post-Rotation`. Defaults to `Standard` |
 

@@ -11,6 +11,7 @@ import {
   UserButton,
 } from '@clerk/nextjs'
 import { useCurrentUser } from '@/hooks/useCurrentUser'
+import { LogoMark } from './Logo'
 
 interface NavClassOptions {
   active: boolean
@@ -19,14 +20,12 @@ interface NavClassOptions {
 
 function navClasses({ active, admin = false }: NavClassOptions) {
   const base =
-    'relative text-base px-3 py-2 rounded-lg transition-colors duration-200 ease-snappy focus-visible:outline-none'
-  const color = admin
-    ? active
-      ? 'text-violet-600 dark:text-violet-400 font-semibold'
-      : 'text-violet-500 dark:text-violet-400 font-medium hover:text-violet-600 dark:hover:text-violet-300'
-    : active
-      ? 'text-violet-600 dark:text-violet-400 font-medium'
-      : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400'
+    'relative text-[0.95rem] font-semibold px-3 py-2 rounded-lg transition-colors duration-200 ease-snappy'
+  const color = active
+    ? 'text-ink'
+    : admin
+      ? 'text-accent-text hover:text-ink'
+      : 'text-ink-2 hover:text-ink'
   return `${base} ${color}`
 }
 
@@ -34,8 +33,8 @@ function ActiveUnderline({ show }: { show: boolean }) {
   return (
     <span
       aria-hidden="true"
-      className={`pointer-events-none absolute left-3 right-3 -bottom-[7px] h-0.5 rounded-full bg-gradient-to-r from-violet-500 to-purple-500 transition-all duration-300 ease-snappy ${
-        show ? 'opacity-100 scale-x-100' : 'opacity-0 scale-x-50'
+      className={`pointer-events-none absolute left-3 right-3 bottom-0.5 h-[2px] rounded-full bg-accent transition-transform duration-300 ease-snappy origin-left ${
+        show ? 'scale-x-100' : 'scale-x-0'
       }`}
     />
   )
@@ -118,11 +117,12 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className="bg-white/85 dark:bg-slate-900/85 backdrop-blur-md border-b border-stone-200/80 dark:border-slate-700/80 shadow-sm sticky top-0 z-50">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="bg-page/90 backdrop-blur-md border-b border-line sticky top-0 z-50">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="flex items-center shrink-0 group" aria-label="TCG Master Guide home">
-            <span className="text-lg sm:text-2xl font-bold bg-gradient-to-r from-violet-600 to-purple-500 dark:from-violet-400 dark:to-purple-400 bg-clip-text text-transparent group-hover:from-purple-500 group-hover:to-violet-600 dark:group-hover:from-purple-400 dark:group-hover:to-violet-400 transition-all duration-500">
+          <Link href="/" className="flex items-center gap-1.5 sm:gap-2 shrink-0 group" aria-label="TCG Master Guide home">
+            <LogoMark className="w-7 h-7 sm:w-8 sm:h-8 transition-transform duration-300 ease-snappy group-hover:-rotate-6" />
+            <span className="font-display font-black text-[1.3rem] min-[400px]:text-[1.45rem] sm:text-[1.7rem] leading-none text-ink whitespace-nowrap">
               TCG Master Guide
             </span>
           </Link>
@@ -163,11 +163,11 @@ export default function Navbar() {
                 <ActiveUnderline show={pathname === '/admin'} />
               </Link>
             )}
-            <div className="w-px h-6 bg-stone-200 dark:bg-slate-700 mx-2" />
+            <div className="w-px h-6 bg-line mx-2" />
             <ThemeToggle />
             <SignedOut>
               <SignInButton mode="modal">
-                <button className="ml-2 inline-flex items-center gap-2 text-base font-medium bg-gradient-to-r from-violet-500 to-purple-500 hover:from-violet-600 hover:to-purple-600 text-white px-4 py-2 rounded-xl transition-colors duration-200 ease-snappy cursor-pointer active:scale-[0.98]">
+                <button className="ml-2 inline-flex items-center text-[0.95rem] font-semibold bg-accent hover:bg-accent-hover text-accent-ink px-4 py-2 rounded-[10px] transition-colors duration-200 cursor-pointer">
                   {t('signIn')}
                 </button>
               </SignInButton>
@@ -186,11 +186,14 @@ export default function Navbar() {
           </div>
 
           {/* Mobile menu button */}
-          <div className="flex lg:hidden items-center gap-2">
-            <ThemeToggle />
+          <div className="flex lg:hidden items-center gap-1 min-[400px]:gap-2">
+            {/* On very narrow screens the theme toggle moves into the menu */}
+            <div className="hidden min-[400px]:block">
+              <ThemeToggle />
+            </div>
             <SignedOut>
               <SignInButton mode="modal">
-                <button className="text-sm font-medium bg-gradient-to-r from-violet-500 to-purple-500 hover:from-violet-600 hover:to-purple-600 text-white px-3.5 py-2 rounded-xl transition-colors duration-200 ease-snappy cursor-pointer active:scale-[0.98] whitespace-nowrap">
+                <button className="text-sm font-semibold bg-accent hover:bg-accent-hover text-accent-ink px-3 min-[400px]:px-3.5 py-2 rounded-[10px] transition-colors duration-200 cursor-pointer whitespace-nowrap">
                   {t('signIn')}
                 </button>
               </SignInButton>
@@ -206,7 +209,7 @@ export default function Navbar() {
             </SignedIn>
             <button
               onClick={() => setIsMenuOpen((v) => !v)}
-              className="p-2 text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-100 dark:hover:bg-slate-700 rounded-xl transition-colors duration-200 cursor-pointer"
+              className="p-2 text-ink-2 hover:text-ink hover:bg-surface-2 rounded-[10px] transition-colors duration-200 cursor-pointer"
               aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
               aria-expanded={isMenuOpen}
               aria-controls="mobile-menu"
@@ -248,10 +251,10 @@ export default function Navbar() {
                 setIsMenuOpen(false)
                 setTimeout(handleDecksClick, 350)
               }}
-              className={`block w-full text-left py-2.5 px-4 rounded-xl transition-colors duration-200 cursor-pointer border-l-2 ${
+              className={`block w-full text-left py-2.5 px-4 rounded-r-[10px] transition-colors duration-200 cursor-pointer border-l-2 font-semibold ${
                 pathname === '/'
-                  ? 'text-white bg-violet-500 border-transparent dark:text-violet-400 dark:bg-violet-900/30 dark:border-violet-500 font-medium'
-                  : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-slate-700/50 border-transparent'
+                  ? 'text-ink bg-surface-2 border-accent font-semibold'
+                  : 'text-ink-2 hover:text-ink hover:bg-surface-2 border-transparent'
               }`}
             >
               {t('decks')}
@@ -263,10 +266,10 @@ export default function Navbar() {
                   key={href}
                   href={href}
                   onClick={() => setIsMenuOpen(false)}
-                  className={`block py-2.5 px-4 rounded-xl transition-colors duration-200 border-l-2 ${
+                  className={`block py-2.5 px-4 rounded-r-[10px] transition-colors duration-200 border-l-2 font-semibold ${
                     active
-                      ? 'text-white bg-violet-500 border-transparent dark:text-violet-400 dark:bg-violet-900/30 dark:border-violet-500 font-medium'
-                      : 'text-neutral-600 dark:text-neutral-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-stone-50 dark:hover:bg-slate-700/50 border-transparent'
+                      ? 'text-ink bg-surface-2 border-accent font-semibold'
+                      : 'text-ink-2 hover:text-ink hover:bg-surface-2 border-transparent'
                   }`}
                 >
                   {t(key)}
@@ -277,15 +280,18 @@ export default function Navbar() {
               <Link
                 href="/admin"
                 onClick={() => setIsMenuOpen(false)}
-                className={`block py-2.5 px-4 rounded-xl font-medium transition-colors duration-200 border-l-2 ${
+                className={`block py-2.5 px-4 rounded-r-[10px] font-semibold transition-colors duration-200 border-l-2 ${
                   pathname === '/admin'
-                    ? 'text-white bg-violet-500 border-transparent dark:text-violet-400 dark:bg-violet-900/30 dark:border-violet-500'
-                    : 'text-violet-500 dark:text-violet-400 hover:text-violet-600 dark:hover:text-violet-300 hover:bg-violet-50 dark:hover:bg-violet-900/30 border-transparent'
+                    ? 'text-ink bg-surface-2 border-accent'
+                    : 'text-accent-text hover:text-ink hover:bg-surface-2 border-transparent'
                 }`}
               >
                 {t('admin')}
               </Link>
             )}
+            <div className="min-[400px]:hidden flex items-center px-3 pt-2 mt-2 border-t border-line">
+              <ThemeToggle />
+            </div>
           </div>
         </div>
       </div>

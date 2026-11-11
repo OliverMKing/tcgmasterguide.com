@@ -1,79 +1,10 @@
-export default function HomeLoading() {
-  const tierColors: Record<number, string> = {
-    1: 'bg-amber-500',
-    2: 'bg-slate-400',
-    3: 'bg-amber-700',
-    4: 'bg-stone-500',
-  }
-
-  const tierLabels: Record<number, string> = {
-    1: 'Tier 1',
-    2: 'Tier 2',
-    3: 'Tier 3',
-    4: 'Tier 4',
-  }
-
-  // Show 2 cards per tier for skeleton
-  const tiers = [1, 2, 3, 4]
-
+// Shown while a route loads. One card outline pulses gently.
+// Global CSS stops the pulse for people who ask for reduced motion.
+export default function Loading() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800">
-      {/* Hero Section */}
-      <div className="relative overflow-hidden border-b border-slate-200 dark:border-slate-700">
-        <div className="absolute inset-0 bg-gradient-to-r from-purple-600/10 via-transparent to-fuchsia-600/10 dark:from-purple-600/20 dark:to-fuchsia-600/20" />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 relative">
-          <div className="text-center">
-            <h1 className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-purple-700 to-fuchsia-600 dark:from-purple-400 dark:to-fuchsia-400 bg-clip-text text-transparent mb-6">
-              TCG Master Guide
-            </h1>
-            <p className="text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed">
-              In-depth Pokémon TCG deck guides by Grant Manley, former world #1 ranked player. Constantly updated to keep you ahead of the meta.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/* Decks Section Skeleton */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="flex items-center justify-between mb-10">
-          <h2 id="decks" className="text-3xl font-bold text-slate-900 dark:text-slate-100">
-            Decks
-          </h2>
-          <div className="h-px flex-1 bg-gradient-to-r from-slate-200 dark:from-slate-700 to-transparent ml-8" />
-        </div>
-
-        <div className="space-y-12">
-          {tiers.map((tier) => (
-            <div key={tier}>
-              <div className="flex items-center gap-3 mb-6">
-                <span className={`${tierColors[tier]} text-white text-sm font-bold px-3 py-1 rounded-full`}>
-                  {tierLabels[tier]}
-                </span>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {[...Array(2)].map((_, i) => (
-                  <div
-                    key={i}
-                    className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6"
-                  >
-                    <div className="flex items-start justify-between">
-                      <div className="flex items-center gap-2">
-                        <div className="h-5 w-32 bg-slate-200 dark:bg-slate-700 rounded animate-pulse" />
-                        <div className="flex -space-x-2">
-                          <div className="w-10 h-10 bg-slate-200 dark:bg-slate-700 rounded-full animate-pulse" />
-                          <div className="w-10 h-10 bg-slate-200 dark:bg-slate-700 rounded-full animate-pulse" />
-                        </div>
-                      </div>
-                      <div className="w-8 h-8 bg-slate-200 dark:bg-slate-700 rounded-full animate-pulse" />
-                    </div>
-                    <div className="h-4 w-24 bg-slate-200 dark:bg-slate-700 rounded animate-pulse mt-3" />
-                  </div>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+    <main className="min-h-[70vh] flex items-center justify-center px-4" role="status" aria-live="polite">
+      <div aria-hidden="true" className="w-[88px] aspect-[63/88] rounded-[12px] border-2 border-line-strong animate-pulse" />
+      <span className="sr-only">Loading</span>
     </main>
   )
 }

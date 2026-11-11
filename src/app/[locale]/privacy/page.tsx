@@ -16,6 +16,7 @@ type Section = {
 type PolicyContent = {
   title: string
   lastUpdatedLabel: string
+  contentsLabel: string
   intro: string[]
   sections: Section[]
   translationNote?: string
@@ -24,6 +25,7 @@ type PolicyContent = {
 const en: PolicyContent = {
   title: 'Privacy Policy',
   lastUpdatedLabel: 'Last updated',
+  contentsLabel: 'Contents',
   intro: [
     'This Privacy Policy explains how TCG Master Guide ("TCG Master Guide", "we", "us"), the website at tcgmasterguide.com operated by Grant Manley, accesses, uses, stores, shares, and protects your information, including information we receive from Google when you sign in with your Google account.',
     'By using tcgmasterguide.com, you agree to the practices described in this policy.',
@@ -135,6 +137,7 @@ const en: PolicyContent = {
 const es: PolicyContent = {
   title: 'Política de privacidad',
   lastUpdatedLabel: 'Última actualización',
+  contentsLabel: 'Contenido',
   translationNote:
     'Esta es una traducción de la versión en inglés. Si hay diferencias, prevalece la versión en inglés.',
   intro: [
@@ -261,20 +264,22 @@ export async function generateMetadata({
   }
 }
 
+const linkClass = 'text-accent-text underline underline-offset-4 decoration-1 hover:decoration-2'
+
 // Turn bare URLs and the contact email into links.
 function linkify(text: string) {
   const parts = text.split(/(https:\/\/\S+?(?=[.,]?(?:\s|$))|[\w.+-]+@[\w-]+\.[\w.]+\w)/g)
   return parts.map((part, i) => {
     if (part.startsWith('https://')) {
       return (
-        <a key={i} href={part} target="_blank" rel="noopener noreferrer" className="text-violet-600 dark:text-violet-400 hover:underline break-all">
+        <a key={i} href={part} target="_blank" rel="noopener noreferrer" className={`${linkClass} break-all`}>
           {part}
         </a>
       )
     }
     if (part.includes('@') && /^[\w.+-]+@[\w-]+\.[\w.]+$/.test(part)) {
       return (
-        <a key={i} href={`mailto:${part}`} className="text-violet-600 dark:text-violet-400 hover:underline">
+        <a key={i} href={`mailto:${part}`} className={linkClass}>
           {part}
         </a>
       )
@@ -297,53 +302,71 @@ export default async function PrivacyPage({
     { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }
   )
 
+  const sectionId = (i: number) => `section-${i + 1}`
+
   return (
-    <main className="min-h-screen bg-gradient-to-b from-stone-50 to-white dark:from-slate-900 dark:to-slate-800">
-      <div className="border-b border-stone-200 dark:border-slate-700">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-neutral-800 dark:text-slate-100 mb-4">
-            {content.title}
-          </h1>
-          <p className="text-neutral-600 dark:text-slate-300">
+    <main className="min-h-screen">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-16 pb-20">
+        <header className="max-w-[68ch]">
+          <h1 className="font-display font-black text-ink text-5xl sm:text-6xl leading-[0.9]">{content.title}</h1>
+          <p className="mt-4 text-ink-3">
             {content.lastUpdatedLabel}: <time dateTime={LAST_UPDATED}>{formattedDate}</time>
           </p>
+        </header>
+
+        <div className="mt-10 lg:grid lg:grid-cols-[minmax(0,68ch)_15rem] lg:gap-16 lg:items-start">
+          <nav
+            aria-labelledby="contents-title"
+            className="mb-10 border-y border-line py-5 lg:col-start-2 lg:row-start-1 lg:sticky lg:top-24 lg:mb-0 lg:border-b-0 lg:border-t-0 lg:border-l lg:py-0 lg:pl-6"
+          >
+            <h2 id="contents-title" className="font-bold text-ink mb-3">
+              {content.contentsLabel}
+            </h2>
+            <ol className="space-y-2 text-[0.95rem]">
+              {content.sections.map((section, i) => (
+                <li key={section.title}>
+                  <a href={`#${sectionId(i)}`} className="text-ink-2 hover:text-ink hover:underline underline-offset-4">
+                    {section.title}
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </nav>
+
+          <article className="lg:col-start-1 lg:row-start-1 text-ink-2 leading-relaxed">
+            {content.translationNote && (
+              <p className="mb-6 rounded-[10px] bg-surface-2 px-4 py-3 text-sm text-ink-2">{content.translationNote}</p>
+            )}
+            {content.intro.map((p, i) => (
+              <p key={i} className="mb-4">
+                {linkify(p)}
+              </p>
+            ))}
+
+            {content.sections.map((section, i) => (
+              <section key={section.title} id={sectionId(i)} className="mt-12 scroll-mt-24">
+                <h2 className="font-display font-extrabold text-ink text-2xl sm:text-3xl leading-none mb-4">{section.title}</h2>
+                {section.paragraphs?.map((p, j) => (
+                  <p key={j} className="mb-4">
+                    {linkify(p)}
+                  </p>
+                ))}
+                {section.bullets && (
+                  <ul className="list-disc pl-5 space-y-2.5 mb-4 marker:text-ink-3">
+                    {section.bullets.map((b, j) => (
+                      <li key={j} className="pl-1">{linkify(b)}</li>
+                    ))}
+                  </ul>
+                )}
+                {section.after?.map((p, j) => (
+                  <p key={j} className="mb-4">
+                    {linkify(p)}
+                  </p>
+                ))}
+              </section>
+            ))}
+          </article>
         </div>
-      </div>
-
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <article className="bg-white dark:bg-slate-800 rounded-2xl border border-stone-200 dark:border-slate-700 p-8 md:p-10 text-neutral-600 dark:text-slate-300 leading-relaxed">
-          {content.translationNote && (
-            <p className="mb-6 text-sm italic text-neutral-500 dark:text-slate-400">{content.translationNote}</p>
-          )}
-          {content.intro.map((p, i) => (
-            <p key={i} className="mb-4">
-              {linkify(p)}
-            </p>
-          ))}
-
-          {content.sections.map((section) => (
-            <section key={section.title} className="mt-10">
-              <h2 className="text-2xl font-bold text-neutral-800 dark:text-slate-100 mb-3">{section.title}</h2>
-              {section.paragraphs?.map((p, i) => (
-                <p key={i} className="mb-4">
-                  {linkify(p)}
-                </p>
-              ))}
-              {section.bullets && (
-                <ul className="list-disc pl-6 space-y-2 mb-4">
-                  {section.bullets.map((b, i) => (
-                    <li key={i}>{linkify(b)}</li>
-                  ))}
-                </ul>
-              )}
-              {section.after?.map((p, i) => (
-                <p key={i} className="mb-4">
-                  {linkify(p)}
-                </p>
-              ))}
-            </section>
-          ))}
-        </article>
       </div>
     </main>
   )
