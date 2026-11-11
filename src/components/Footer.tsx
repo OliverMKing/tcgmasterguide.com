@@ -3,6 +3,7 @@
 import { useMemo } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
 import { LocaleSwitcher } from './LocaleSwitcher'
+import { Link } from '@/i18n/navigation'
 import { deckDates } from '@/generated/deck-dates'
 
 export default function Footer() {
@@ -93,9 +94,12 @@ export default function Footer() {
         <div className="mt-8 pt-6 border-t border-stone-200 dark:border-slate-700">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <LocaleSwitcher />
-            <p className="text-xs text-neutral-400 dark:text-neutral-500">
-              {new Date().getFullYear()} tcgmasterguide.com
-            </p>
+            <div className="flex items-center gap-4 text-xs text-neutral-400 dark:text-neutral-500">
+              <Link href="/privacy" className="hover:text-violet-600 dark:hover:text-violet-400 hover:underline">
+                {t('privacy')}
+              </Link>
+              <p>{new Date().getFullYear()} tcgmasterguide.com</p>
+            </div>
           </div>
         </div>
       </div>
