@@ -117,7 +117,7 @@
     "postFaceDownBody": "Subscribe to read the full post, along with every deck guide."
   },
   "deck": {
-    "backToGuides": "Back to the tier list",
+    "backToGuides": "Back to decks",
     "freePreview": "Free preview.",
     "limitedPreview": "You're viewing a limited preview.",
     "subscribeForAccess": "Subscribe",
@@ -129,7 +129,7 @@
     "moreSections": "{count} more sections",
     "exploreMoreGuides": "Explore more guides",
     "continueJourney": "See how this deck compares to the rest of the format.",
-    "browseAllDecks": "See the tier list",
+    "browseAllDecks": "Back to decks",
     "lastUpdated": "Last updated ",
     "viewHistory": "View history",
     "revisionHistory": "Revision history",

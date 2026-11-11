@@ -117,7 +117,7 @@
     "postFaceDownBody": "Suscríbete para leer la publicación completa y todas las guías de decks."
   },
   "deck": {
-    "backToGuides": "Volver a la lista de tiers",
+    "backToGuides": "Volver a los decks",
     "freePreview": "Vista previa gratuita.",
     "limitedPreview": "Estás viendo una vista previa limitada.",
     "subscribeForAccess": "Suscríbete",
@@ -129,7 +129,7 @@
     "moreSections": "{count} secciones más",
     "exploreMoreGuides": "Explora más guías",
     "continueJourney": "Mira cómo se compara este deck con el resto del formato.",
-    "browseAllDecks": "Ver la lista de tiers",
+    "browseAllDecks": "Volver a los decks",
     "lastUpdated": "Última actualización ",
     "viewHistory": "Ver historial",
     "revisionHistory": "Historial de revisiones",
