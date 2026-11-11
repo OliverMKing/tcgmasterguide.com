@@ -8,6 +8,16 @@ export interface PostSummary {
   slug: string
   title: string
   date: string
+  /** The first YouTube video in the post, if any. The posts index shows its thumbnail. */
+  videoId?: string
+}
+
+// Find the first ```youtube block and read its `id:` line.
+function getFirstVideoId(markdown: string): string | undefined {
+  const block = markdown.match(/```youtube\s*\n([\s\S]*?)```/)
+  if (!block) return undefined
+  const id = block[1].match(/^\s*id:\s*([A-Za-z0-9_-]{11})\s*$/m)
+  return id ? id[1] : undefined
 }
 
 function getPostsDirectory(locale: Locale): string {
@@ -58,12 +68,13 @@ export function getAllPosts(locale: Locale): PostSummary[] {
       const slug = filename.replace(/\.md$/, '')
       const filePath = path.join(postsDirectory, filename)
       const fileContent = fs.readFileSync(filePath, 'utf8')
-      const { data } = matter(fileContent)
+      const { data, content } = matter(fileContent)
 
       return {
         slug,
         title: data.title || slug,
         date: normalizeDate(data.date),
+        videoId: getFirstVideoId(content),
       }
     })
     .sort((a, b) => b.date.localeCompare(a.date))

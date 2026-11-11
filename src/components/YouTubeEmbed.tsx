@@ -1,14 +1,18 @@
 'use client'
 
 import { useTranslations } from 'next-intl'
+import Image from 'next/image'
 import { useVideoEmbed } from '@/contexts/VideoEmbedContext'
+import { videoThumbnailSrc } from '@/components/VideoThumbnail'
 
 interface YouTubeEmbedProps {
   videoId: string
   title?: string
+  /** "compact" starts small and expands on play; "full" always fills the column. */
+  layout?: 'compact' | 'full'
 }
 
-export function YouTubeEmbed({ videoId, title = 'YouTube video' }: YouTubeEmbedProps) {
+export function YouTubeEmbed({ videoId, title = 'YouTube video', layout = 'compact' }: YouTubeEmbedProps) {
   const t = useTranslations('deck')
   const { activeVideoId, setActiveVideoId, expandedVideoId, setExpandedVideoId } = useVideoEmbed()
   const myId = `youtube-${videoId}`
@@ -21,7 +25,7 @@ export function YouTubeEmbed({ videoId, title = 'YouTube video' }: YouTubeEmbedP
   }
 
   return (
-    <div className={`my-8 aspect-video rounded-2xl overflow-hidden border border-line bg-mat relative transition-[max-width] duration-300 ease-snappy ${isExpanded ? 'w-full' : 'w-full max-w-sm'}`}>
+    <div className={`my-8 aspect-video rounded-2xl overflow-hidden border border-line bg-mat relative transition-[max-width] duration-300 ease-snappy ${isExpanded || layout === 'full' ? 'w-full' : 'w-full max-w-sm'}`}>
       {isActive ? (
         <iframe
           src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
@@ -36,14 +40,24 @@ export function YouTubeEmbed({ videoId, title = 'YouTube video' }: YouTubeEmbedP
           className="playmat w-full h-full group cursor-pointer text-left"
           aria-label={t('playVideo', { title })}
         >
+          {/* Poster from our own domain: YouTube is not contacted until the video plays */}
+          <Image
+            src={videoThumbnailSrc(videoId, layout === 'full' ? 'lg' : 'sm')}
+            alt=""
+            fill
+            unoptimized
+            sizes={layout === 'full' ? '(min-width: 768px) 720px, 100vw' : '384px'}
+            className="object-cover"
+          />
+          <span aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
           <span className="absolute inset-0 flex flex-col items-start justify-end gap-3 p-4 sm:p-5">
             <span className="flex w-11 h-11 sm:w-12 sm:h-12 items-center justify-center rounded-full bg-mat-ink text-mat transition-[transform,background-color,color] duration-200 ease-snappy group-hover:scale-110 group-hover:bg-accent group-hover:text-accent-ink">
               <svg className="w-5 h-5 translate-x-px" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M8 5v14l11-7z" />
               </svg>
             </span>
-            <span className="text-mat-ink font-semibold text-sm sm:text-base leading-snug line-clamp-2">{title}</span>
-            <span className="absolute top-4 right-4 sm:top-5 sm:right-5 text-xs text-mat-ink-2">YouTube</span>
+            <span className="text-white font-semibold text-sm sm:text-base leading-snug line-clamp-2 [text-shadow:0_1px_2px_rgb(0_0_0/0.5)]">{title}</span>
+            <span className="absolute top-4 right-4 sm:top-5 sm:right-5 text-xs text-white/80 [text-shadow:0_1px_2px_rgb(0_0_0/0.5)]">YouTube</span>
           </span>
         </button>
       )}

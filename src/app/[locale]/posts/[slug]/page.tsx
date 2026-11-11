@@ -73,26 +73,26 @@ export default async function PostPage({
           {t('backToPosts')}
         </Link>
 
-        <div className="max-w-[68ch]">
-          {/* Article header */}
-          <header className="mt-8 sm:mt-10 pb-8 mb-10 border-b border-line">
-            <h1 className="font-display font-black text-ink text-5xl sm:text-7xl leading-[0.88] tracking-[-0.01em] break-words">
-              {post.title}
-            </h1>
-            <div className="mt-6 flex flex-wrap items-baseline gap-x-6 gap-y-1 text-ink-2">
-              <p>
-                {t.rich('byline', {
-                  author: (chunks) => <strong className="font-bold text-ink">{chunks}</strong>,
-                })}
-              </p>
-              {post.date && (
-                <time dateTime={post.date.slice(0, 10)}>
-                  <LocalDate timestamp={post.date} />
-                </time>
-              )}
-            </div>
-          </header>
+        {/* Article header on the playmat, like the deck guide header */}
+        <header className="playmat mt-3 rounded-[28px] px-5 py-7 sm:px-10 sm:py-10">
+          <h1 className="font-display font-black text-mat-ink text-5xl sm:text-7xl leading-[0.88] tracking-[-0.01em] break-words max-w-[20ch]">
+            {post.title}
+          </h1>
+          <div className="mt-5 sm:mt-6 flex flex-wrap items-baseline gap-x-6 gap-y-1 text-mat-ink-2">
+            <p>
+              {t.rich('byline', {
+                author: (chunks) => <strong className="font-bold text-mat-ink">{chunks}</strong>,
+              })}
+            </p>
+            {post.date && (
+              <time dateTime={post.date.slice(0, 10)}>
+                <LocalDate timestamp={post.date} />
+              </time>
+            )}
+          </div>
+        </header>
 
+        <div className="mt-10 sm:mt-12 max-w-[68ch]">
           {/* Post content - fetched client-side with subscription check */}
           <PostContent slug={slug} title={post.title} />
         </div>

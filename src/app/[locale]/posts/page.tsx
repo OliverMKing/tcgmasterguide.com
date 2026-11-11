@@ -46,7 +46,7 @@ export default async function PostsPage({
         ) : (
           <>
             {/* The newest post leads the page */}
-            <div className="mt-10 border-y border-line-strong">
+            <div className="mt-10">
               <PostCard post={lead} variant="lead" />
             </div>
 

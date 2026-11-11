@@ -79,15 +79,26 @@ function SubscriptionBadges({ user }: { user: User }) {
 
   return (
     <div className="flex gap-1.5">
-      {enActive && <Badge variant="info">EN</Badge>}
-      {esActive && <Badge variant="info">ES</Badge>}
+      {enActive && <LanguageChip label="EN" color={SERIES.english} />}
+      {esActive && <LanguageChip label="ES" color={SERIES.spanish} />}
     </div>
   )
 }
 
-function roleBadgeVariant(role: string): 'violet' | 'success' | 'neutral' {
+function LanguageChip({ label, color }: { label: string; color: string }) {
+  return (
+    <Badge
+      variant="info"
+      leftIcon={<span aria-hidden="true" className="size-1.5 rounded-full" style={{ backgroundColor: color }} />}
+    >
+      {label}
+    </Badge>
+  )
+}
+
+function roleBadgeVariant(role: string): 'violet' | 'gold' | 'neutral' {
   if (role === UserRole.ADMIN) return 'violet'
-  if (role === UserRole.SUBSCRIBER) return 'success'
+  if (role === UserRole.SUBSCRIBER) return 'gold'
   return 'neutral'
 }
 
@@ -109,28 +120,109 @@ const sectionTitle = 'font-display text-3xl text-ink'
 const inputCls =
   'rounded-[10px] border border-line-strong bg-surface px-3.5 py-2.5 text-ink placeholder:text-ink-3 hover:border-ink-3 transition-colors'
 
-function StatGrid({
+// Series colors for the stats panel. Validated with the dataviz palette checks
+// (lightness band, chroma, colorblind and normal-vision separation, contrast) against
+// the playmat in both themes. Regular users are a muted neutral: the story is who pays.
+const SERIES = {
+  admins: '#e65598',
+  subscribers: '#b68b16',
+  regular: '#6f6288',
+  english: '#3a95cd',
+  spanish: '#c3773e',
+  both: '#9274c3',
+} as const
+
+interface SplitItem {
+  label: string
+  value: number
+  color: string
+}
+
+function percent(value: number, total: number): string {
+  if (total <= 0) return '0%'
+  const p = (value / total) * 100
+  return `${p > 0 && p < 1 ? '<1' : Math.round(p)}%`
+}
+
+/**
+ * One whole split into parts, on the playmat: a stat tile per part (swatch, name,
+ * amount, share), an optional total tile, and a thin segmented bar. The tiles carry
+ * the figures, so the bar has no text. Each segment names itself on hover and focus.
+ */
+function StatSplit({
+  title,
+  titleId,
+  total,
   items,
   size = 'lg',
 }: {
-  items: { label: string; value: number }[]
+  title: string
+  titleId: string
+  total: { label: string; value: number }
+  items: SplitItem[]
   size?: 'lg' | 'md'
 }) {
+  const sum = items.reduce((n, i) => n + i.value, 0)
+  // The main split is a section heading; the breakdown under it is a subheading.
+  const Heading = size === 'lg' ? 'h2' : 'h3'
+  const valueCls = `mt-1.5 font-display font-extrabold text-mat-ink leading-none ${
+    size === 'lg' ? 'text-5xl' : 'text-4xl'
+  }`
+
   return (
-    <dl className="grid grid-cols-2 md:grid-cols-4 gap-px bg-line border border-line rounded-2xl overflow-hidden">
-      {items.map((item) => (
-        <div key={item.label} className={`bg-surface ${size === 'lg' ? 'p-5' : 'px-5 py-4'}`}>
-          <dt className="text-sm text-ink-2">{item.label}</dt>
-          <dd
-            className={`mt-1.5 font-display font-extrabold text-ink tabular-nums leading-none ${
-              size === 'lg' ? 'text-5xl' : 'text-4xl'
-            }`}
-          >
-            {item.value}
-          </dd>
+    <div>
+      <Heading id={titleId} className={`font-display text-mat-ink mb-4 ${size === 'lg' ? 'text-3xl' : 'text-xl'}`}>
+        {title}
+      </Heading>
+      <dl className="grid grid-cols-2 md:grid-cols-4 gap-y-5">
+        <div className="pr-4">
+          <dt className="text-sm text-mat-ink-2">{total.label}</dt>
+          <dd className={valueCls}>{total.value.toLocaleString('en-US')}</dd>
         </div>
-      ))}
-    </dl>
+        {items.map((item) => (
+          <div key={item.label} className="pr-4 md:pl-5 md:border-l border-mat-line">
+            <dt className="flex items-center gap-2 text-sm text-mat-ink-2">
+              <span aria-hidden="true" className="size-2.5 rounded-full shrink-0" style={{ backgroundColor: item.color }} />
+              {item.label}
+            </dt>
+            <dd className={valueCls}>{item.value.toLocaleString('en-US')}</dd>
+            <dd className="mt-1 text-sm text-mat-ink-2">{percent(item.value, sum)}</dd>
+          </div>
+        ))}
+      </dl>
+
+      {sum > 0 && (
+        <div
+          role="group"
+          aria-label={`${title}: ${items.map((i) => `${i.label} ${i.value} (${percent(i.value, sum)})`).join(', ')}`}
+          className="mt-6 flex h-2 gap-[2px]"
+        >
+          {items
+            .filter((i) => i.value > 0)
+            .map((item, index, shown) => (
+              <span
+                key={item.label}
+                tabIndex={0}
+                aria-label={`${item.label}: ${item.value.toLocaleString('en-US')}, ${percent(item.value, sum)}`}
+                className="group relative h-full rounded-full outline-offset-2 first:rounded-l-full last:rounded-r-full hover:brightness-110"
+                style={{ flexGrow: item.value, flexBasis: 0, backgroundColor: item.color, minWidth: '4px' }}
+              >
+                {/* Tooltip: hit area is taller than the 8px mark */}
+                <span aria-hidden="true" className="absolute -inset-y-2 inset-x-0" />
+                <span
+                  aria-hidden="true"
+                  className={`pointer-events-none absolute bottom-full z-10 mb-3 whitespace-nowrap ${
+                    // Keep the edge labels inside the panel
+                    index === 0 ? 'left-0' : index === shown.length - 1 ? 'right-0' : 'left-1/2 -translate-x-1/2'
+                  } rounded-lg bg-surface px-2.5 py-1.5 text-xs text-ink border border-line opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100`}
+                >
+                  <span className="font-semibold">{item.label}</span> {item.value.toLocaleString('en-US')} ({percent(item.value, sum)})
+                </span>
+              </span>
+            ))}
+        </div>
+      )}
+    </div>
   )
 }
 
@@ -576,34 +668,31 @@ export default function AdminPage() {
       <div className={shell}>
         <h1 className={pageTitle}>Admin dashboard</h1>
 
-        {/* Stats Section */}
+        {/* Stats: the one bold element on this page */}
         {stats && (
-          <section className="mt-12" aria-labelledby="admin-stats">
-            <h2 id="admin-stats" className={`${sectionTitle} mb-4`}>
-              Users
-            </h2>
-            <StatGrid
+          <section className="playmat mt-10 rounded-[28px] p-5 sm:p-8 space-y-10" aria-labelledby="admin-stats">
+            <StatSplit
+              title="Users"
+              titleId="admin-stats"
+              total={{ label: 'Total users', value: stats.totalUsers }}
               items={[
-                { label: 'Total users', value: stats.totalUsers },
-                { label: 'Admins', value: stats.byRole[UserRole.ADMIN] || 0 },
-                { label: 'Subscribers', value: stats.byRole[UserRole.SUBSCRIBER] || 0 },
-                { label: 'Regular users', value: stats.byRole[UserRole.USER] || 0 },
+                { label: 'Admins', value: stats.byRole[UserRole.ADMIN] || 0, color: SERIES.admins },
+                { label: 'Subscribers', value: stats.byRole[UserRole.SUBSCRIBER] || 0, color: SERIES.subscribers },
+                { label: 'Regular users', value: stats.byRole[UserRole.USER] || 0, color: SERIES.regular },
               ]}
             />
 
-            {/* Subscriber Language Breakdown */}
             {stats.subscribersByLanguage && (
-              <div className="mt-8">
-                <h3 className="font-display text-xl text-ink mb-3">
-                  Subscribers by language
-                </h3>
-                <StatGrid
+              <div className="border-t border-mat-line pt-8">
+                <StatSplit
                   size="md"
+                  title="Subscribers by language"
+                  titleId="admin-stats-language"
+                  total={{ label: 'Total active', value: stats.subscribersByLanguage.total }}
                   items={[
-                    { label: 'English only', value: stats.subscribersByLanguage.englishOnly },
-                    { label: 'Spanish only', value: stats.subscribersByLanguage.spanishOnly },
-                    { label: 'Both languages', value: stats.subscribersByLanguage.both },
-                    { label: 'Total active', value: stats.subscribersByLanguage.total },
+                    { label: 'English only', value: stats.subscribersByLanguage.englishOnly, color: SERIES.english },
+                    { label: 'Spanish only', value: stats.subscribersByLanguage.spanishOnly, color: SERIES.spanish },
+                    { label: 'Both languages', value: stats.subscribersByLanguage.both, color: SERIES.both },
                   ]}
                 />
               </div>

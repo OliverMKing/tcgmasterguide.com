@@ -68,12 +68,16 @@ interface MarkdownContentProps {
   content: string
   // API base path used to resolve relative ./images/ references.
   imageApiBase?: string
+  // "compact" videos start small and expand on play (deck guides have many).
+  // "full" videos fill the column (a post's video is its main content).
+  videoLayout?: 'compact' | 'full'
 }
 
 // Memoized markdown renderer to prevent iframe remounting on parent re-renders
 export const MarkdownContent = memo(function MarkdownContent({
   content,
   imageApiBase = '/api/deck-images',
+  videoLayout = 'compact',
 }: MarkdownContentProps) {
   // Pre-compute all heading IDs to ensure consistency
   // Extract headings from content and map text to ID
@@ -216,7 +220,7 @@ export const MarkdownContent = memo(function MarkdownContent({
               if (key.trim() === 'title') videoTitle = value
             }
             if (videoId) {
-              return <YouTubeEmbed videoId={videoId} title={videoTitle} />
+              return <YouTubeEmbed videoId={videoId} title={videoTitle} layout={videoLayout} />
             }
           }
           if (codeElement?.props?.className === 'language-twitch') {

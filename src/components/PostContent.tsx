@@ -116,7 +116,7 @@ export function PostContent({ slug, title }: PostContentProps) {
 
       {/* Article content. MarkdownContent frames images on a playmat. */}
       <div className="guide-prose">
-        <MarkdownContent content={content} imageApiBase="/api/post-images" />
+        <MarkdownContent content={content} imageApiBase="/api/post-images" videoLayout="full" />
       </div>
 
       {/* More posts */}
