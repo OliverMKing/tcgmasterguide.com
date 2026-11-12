@@ -173,7 +173,7 @@ export default function Navbar() {
               </SignInButton>
             </SignedOut>
             <SignedIn>
-              <div className="ml-2">
+              <div className="ml-2 flex items-center">
                 <UserButton
                   appearance={{
                     elements: {

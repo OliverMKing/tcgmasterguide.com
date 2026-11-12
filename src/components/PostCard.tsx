@@ -35,8 +35,8 @@ export function PostCard({ post, variant = 'row' }: PostCardProps) {
           </h2>
           <div className="mt-5 flex flex-wrap items-baseline gap-x-6 gap-y-2">
             {post.date && (
-              <time dateTime={post.date.slice(0, 10)} className="text-mat-ink-2 min-h-[1.5em]">
-                <LocalDate timestamp={post.date} />
+              <time dateTime={post.date.slice(0, 10)} className="text-mat-ink-2">
+                <LocalDate timestamp={post.date} placeholder={'\u00a0'} />
               </time>
             )}
             <span className="font-semibold text-mat-ink underline decoration-accent decoration-2 underline-offset-4 group-hover:decoration-[3px]">
@@ -59,8 +59,8 @@ export function PostCard({ post, variant = 'row' }: PostCardProps) {
           {post.title}
         </h3>
         {post.date && (
-          <time dateTime={post.date.slice(0, 10)} className="mt-1 block text-sm sm:text-base text-ink-3 min-h-[1.25em]">
-            <LocalDate timestamp={post.date} format="short" />
+          <time dateTime={post.date.slice(0, 10)} className="mt-1 block text-sm sm:text-base text-ink-3">
+            <LocalDate timestamp={post.date} format="short" placeholder={'\u00a0'} />
           </time>
         )}
       </div>

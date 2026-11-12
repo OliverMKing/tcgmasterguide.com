@@ -112,7 +112,7 @@ export function DeckHistoryControl({ history, deckTitle }: { history: HistoryEnt
   const access = useContext(DeckAccessContext)
   if (history.length === 0) return null
   // Access is unknown until the guide loads: hold the space with a placeholder.
-  if (access?.hasAccess === null) return <MatSkeleton className="h-4 w-[6.75rem]" />
+  if (access?.hasAccess === null) return <MatSkeleton className="h-4 my-0.5 w-[6.75rem]" />
   if (!access?.hasAccess) return null
   return <ViewHistoryButton history={history} deckTitle={deckTitle} tone="mat" />
 }

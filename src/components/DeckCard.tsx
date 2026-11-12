@@ -93,10 +93,15 @@ export function DeckCard({
             ))}
           </div>
           <div
-            className={`text-card-ink-2 ${size === 'lg' ? 'px-3.5 py-2.5 text-sm' : 'px-2.5 py-2 text-[0.72rem] sm:text-[0.78rem]'} leading-tight min-h-[1.5em] whitespace-nowrap overflow-hidden text-ellipsis`}
+            className={`text-card-ink-2 ${size === 'lg' ? 'px-3.5 py-2.5 text-sm' : 'px-2.5 py-2 text-[0.72rem] sm:text-[0.78rem]'} leading-tight whitespace-nowrap overflow-hidden text-ellipsis`}
           >
-            {showDate && lastEdited && (
-              <LocalDate timestamp={lastEdited} prefixKey="home.updated" format="short" />
+            {/* The date is formatted in the browser, so the server sends an empty footer.
+                A non-breaking space holds one line of text until then, so the footer keeps
+                its height and the art window above it does not resize. */}
+            {showDate && lastEdited ? (
+              <LocalDate timestamp={lastEdited} prefixKey="home.updated" format="short" placeholder={'\u00a0'} />
+            ) : (
+              '\u00a0'
             )}
           </div>
         </div>

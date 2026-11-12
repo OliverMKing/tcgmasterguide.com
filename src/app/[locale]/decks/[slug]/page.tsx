@@ -214,7 +214,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
                   <LocalDate
                     timestamp={lastEdited}
                     prefixKey="deck.lastUpdated"
-                    placeholder={<MatSkeleton className="h-4 w-[12.5rem]" />}
+                    placeholder={<MatSkeleton className="h-4 my-0.5 w-[12.5rem]" />}
                   />
                 )}
                 <DeckHistoryControl history={history} deckTitle={deck.title} />
