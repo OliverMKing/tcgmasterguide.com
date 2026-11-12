@@ -178,9 +178,14 @@ export function DeckGuideCard({
               />
             ))}
           </div>
-          <div className="text-card-ink-2 px-2.5 py-2 text-[0.72rem] sm:px-3.5 sm:py-2.5 sm:text-sm leading-tight min-h-[1.5em] whitespace-nowrap overflow-hidden text-ellipsis">
-            {footer}
-          </div>
+          {footer ? (
+            <div className="text-card-ink-2 px-2.5 py-2 text-[0.72rem] sm:px-3.5 sm:py-2.5 sm:text-sm leading-tight whitespace-nowrap overflow-hidden text-ellipsis">
+              {footer}
+            </div>
+          ) : (
+            // No footer text: keep a small margin under the art window, like the sides.
+            <div aria-hidden="true" className="h-[7px]" />
+          )}
         </div>
       </div>
     </div>

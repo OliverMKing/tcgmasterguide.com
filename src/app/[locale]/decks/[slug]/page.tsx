@@ -195,7 +195,6 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
             <DeckGuideCard
               title={deck.title}
               pokemon={deck.pokemon}
-              footer={formatLabelsTranslated[deck.format]}
               tier={deck.tier}
               className="w-[108px] shrink-0 sm:w-[184px]"
             />
