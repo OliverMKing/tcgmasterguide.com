@@ -11,6 +11,7 @@ import { FormatBadge } from '@/components/FormatBadge'
 import { deckHistory } from '@/generated/deck-history'
 import { deckDates } from '@/generated/deck-dates'
 import type { Metadata } from 'next'
+import { tierAnchor } from '@/lib/tier-anchor'
 
 // Static generation - content is fetched client-side via API with subscription check
 export const dynamic = 'force-static'
@@ -180,7 +181,7 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <DeckAccessProvider>
           <Link
-            href="/#decks"
+            href={`/#${tierAnchor(deck.tier, deck.format)}`}
             className="mt-5 sm:mt-7 inline-flex items-center gap-1.5 py-1 text-sm font-semibold text-ink-2 hover:text-ink transition-colors"
           >
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.25} aria-hidden="true">
@@ -223,7 +224,12 @@ export default async function DeckPage({ params }: { params: Promise<{ slug: str
 
           <div className="mt-10 sm:mt-14">
             {/* Deck content: fetched client-side with a subscription check */}
-            <DeckContent slug={slug} title={deck.title} headings={deck.headings} />
+            <DeckContent
+              slug={slug}
+              title={deck.title}
+              headings={deck.headings}
+              backHref={`/#${tierAnchor(deck.tier, deck.format)}`}
+            />
           </div>
         </DeckAccessProvider>
       </div>

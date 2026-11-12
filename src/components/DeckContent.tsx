@@ -25,6 +25,8 @@ interface DeckContentProps {
   slug: string
   title: string
   headings: TocItem[]
+  /** Where "Back to decks" goes: this deck's tier on the home page. */
+  backHref?: string
 }
 
 // Retry config for subscription propagation delays
@@ -298,7 +300,26 @@ function LockedTocTeaser({ hidden, label, moreLabel }: { hidden: TocItem[]; labe
   )
 }
 
-export function DeckContent({ slug, title, headings }: DeckContentProps) {
+/** The row at the end of a guide that leads back to the deck's tier on the home page. */
+function MoreGuides({ backHref }: { backHref: string }) {
+  const t = useTranslations('deck')
+  return (
+    <div className="mt-20 flex flex-col gap-4 border-t border-line pt-8 sm:flex-row sm:items-end sm:justify-between">
+      <div>
+        <h2 className="font-display font-black text-4xl leading-none text-ink">{t('exploreMoreGuides')}</h2>
+        <p className="mt-2 text-ink-2">{t('continueJourney')}</p>
+      </div>
+      <Link
+        href={backHref}
+        className="inline-flex shrink-0 items-center self-start rounded-[10px] border border-line-strong px-4 py-2.5 font-semibold text-ink transition-colors hover:border-ink sm:self-auto"
+      >
+        {t('browseAllDecks')}
+      </Link>
+    </div>
+  )
+}
+
+export function DeckContent({ slug, title, headings, backHref = '/#decks' }: DeckContentProps) {
   const t = useTranslations('deck')
   const access = useContext(DeckAccessContext)
   const reportAccess = access?.setHasAccess
@@ -408,6 +429,7 @@ export function DeckContent({ slug, title, headings }: DeckContentProps) {
     return (
       <div className="max-w-[68ch]">
         <LockedDeckContent title={title} headings={headings} />
+        <MoreGuides backHref={backHref} />
       </div>
     )
   }
@@ -503,19 +525,7 @@ export function DeckContent({ slug, title, headings }: DeckContentProps) {
             <MarkdownContent content={content} />
           </div>
 
-          {/* More guides */}
-          <div className="mt-20 flex flex-col gap-4 border-t border-line pt-8 sm:flex-row sm:items-end sm:justify-between">
-            <div>
-              <h2 className="font-display font-black text-4xl leading-none text-ink">{t('exploreMoreGuides')}</h2>
-              <p className="mt-2 text-ink-2">{t('continueJourney')}</p>
-            </div>
-            <Link
-              href="/#decks"
-              className="inline-flex shrink-0 items-center self-start rounded-[10px] border border-line-strong px-4 py-2.5 font-semibold text-ink transition-colors hover:border-ink sm:self-auto"
-            >
-              {t('browseAllDecks')}
-            </Link>
-          </div>
+          <MoreGuides backHref={backHref} />
 
           <Comments deckSlug={slug} deckTitle={title} />
         </div>

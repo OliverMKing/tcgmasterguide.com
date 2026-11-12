@@ -10,6 +10,7 @@ import { getAllPosts } from '@/lib/posts'
 import { LocalDate } from '@/components/LocalDate'
 import { FreshPostGate } from '@/components/FreshPostGate'
 import { isPostFresh } from '@/lib/postFreshness'
+import { tierAnchor } from '@/lib/tier-anchor'
 
 // Force static generation at build time
 export const dynamic = 'force-static'
@@ -274,7 +275,8 @@ export default async function Home({
                       return (
                         <div
                           key={tier}
-                          className="mat-zone grid sm:grid-cols-[3.5rem_minmax(0,1fr)] gap-4 sm:gap-5 p-3 sm:p-5"
+                          id={tierAnchor(tier, format)}
+                          className="scroll-mt-20 mat-zone grid sm:grid-cols-[3.5rem_minmax(0,1fr)] gap-4 sm:gap-5 p-3 sm:p-5"
                         >
                           <h3
                             className={`font-display font-black text-3xl sm:text-[2.6rem] leading-none ${tierText[tier] ?? 'text-tier-4'} sm:[writing-mode:vertical-rl] sm:rotate-180 sm:self-start sm:justify-self-center px-1 sm:px-0`}
