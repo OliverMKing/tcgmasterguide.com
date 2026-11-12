@@ -55,9 +55,15 @@ export function DeckList({ decklist }: DeckListProps) {
           >
             <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
           </svg>
-          <span className="font-display font-extrabold text-2xl leading-none text-ink">{t('decklist')}</span>
-          {cardCount > 0 && (
-            <span className="text-sm text-ink-3 whitespace-nowrap">{t('cardCount', { count: cardCount })}</span>
+          {/* The section heading above already says what this is, so the card count leads.
+              Screen readers still hear "Decklist" as part of the button name. */}
+          {cardCount > 0 ? (
+            <>
+              <span className="sr-only">{t('decklist')}, </span>
+              <span className="font-semibold text-ink whitespace-nowrap">{t('cardCount', { count: cardCount })}</span>
+            </>
+          ) : (
+            <span className="font-semibold text-ink">{t('decklist')}</span>
           )}
         </button>
         <button
@@ -79,7 +85,7 @@ export function DeckList({ decklist }: DeckListProps) {
               <path strokeLinecap="round" strokeLinejoin="round" d="M16 8V6a2 2 0 00-2-2H6a2 2 0 00-2 2v8a2 2 0 002 2h2" />
             </svg>
           )}
-          <span aria-live="polite">{copied ? t('copied') : t('copyDecklist')}</span>
+          <span aria-live="polite">{copied ? t('copied') : t('copy')}</span>
         </button>
       </div>
 

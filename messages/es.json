@@ -147,7 +147,8 @@
     "copied": "Copiada",
     "copiedAria": "Lista copiada al portapapeles",
     "playVideo": "Reproducir {title}",
-    "loadingGuide": "Cargando la guía del deck"
+    "loadingGuide": "Cargando la guía del deck",
+    "copy": "Copiar"
   },
   "qa": {
     "title": "Preguntas y respuestas",

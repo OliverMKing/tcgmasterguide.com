@@ -147,7 +147,8 @@
     "copied": "Copied",
     "copiedAria": "Decklist copied to clipboard",
     "playVideo": "Play {title}",
-    "loadingGuide": "Loading deck guide"
+    "loadingGuide": "Loading deck guide",
+    "copy": "Copy"
   },
   "qa": {
     "title": "Questions and answers",
