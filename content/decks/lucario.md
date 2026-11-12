@@ -110,6 +110,14 @@ id: 4Nk425YlP_8
 title: Blaziken v Lucario 2
 ```
 
+### Rayquaza - Favorable
+
+- The most common prize map is 3-3, especially if they put Kangaskhan in play (since they always have to put Rayquaza in play to deal with Lucario). However, there are some occasional games where it's easier to win with three KO's instead of 3-3.
+- Gust effects are premium to pick off their three-prize Pokemon when it's convenient. Similarly, Premium Power Pro is an extremely important resource. You'll commonly use one Premium Power to KO their Kang with an early-game Aura Jab, followed by a double Premium Power Mega Brave to KO their Rayquaza. Using Premium Powers on anything else is inefficient and not recommended in most cases.
+- Genesect is great to deny Unfair Stamp if you get the chance to set it up.
+- You can afford to do nothing on a couple of turns in order to wait and set up for an efficient prize map. Don't put Lucario in play unless it's doing something important, as you want to make your opponent's prize map difficult. Lucario is your main attacker, but it can also be a liability because it forces you to win the game quicker.
+- I did not end up attacking with anything besides Lucario in any of my games, but in theory there could be some spots where Solrock poking a mega could be good, or Hariyama as an attacker in games where you need to take three KO's and not feed them a Lucario.
+
 ### Raging Bolt - Favorable
 
 - Don’t let them go 3-3 by feeding them two Lucario. It’s not hard for them to one-shot Lucario.

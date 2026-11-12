@@ -230,6 +230,13 @@ title: Ray v Festival 1
 - Against Dudunsparce, Stamp + Pyroduct can make them brick. Even against non-Dudunsparce, Pyroduct can still be useful to clear off damage by bumping Area Zero. In case of Dudunsparce ex, try to keep your board to four Pokemon total at the beginning of the game. If you have to expand it later to clear off damage, that’s fine.
 - In general, Chien-Pao and Pyroduct are important resources to clear off damage, which is your main strategy regardless of whether they use Dhelmise or Sinischa.
 
+### Lucario - Unfavorable
+
+- It's very difficult to actually play a game without putting Kangaskhan in play (Rayquaza also allows you to put Talonflame in play), but keep an eye out in case the opportunity presents itself. Kangaskhan's presence on the board makes it a lot easier for Lucario to win.
+- Just like against Dragapult, prioritize piling Energy onto the board so that you can one-shot Lucario with its massive HP.
+- Stamp is very important when you go in with Rayquaza because it makes it unlikely for them to hit the double Premium Power Mega Brave play on Rayquaza. Stamp in general is very good because there's also a chance they brick off of it.
+- Pyroduct is occasionally useful in the mid- or late-game because it stops Hariyama from closing out the game, but it's very situational and not usually a priority.
+
 ### Bronzong - Favorable
 
 - Pile Energy into play as quickly as possible so that Rayquaza can one-shot Lopunny.
