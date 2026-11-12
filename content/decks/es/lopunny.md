@@ -1,6 +1,6 @@
 ---
 title: Lopunny
-pokemon: [428]
+pokemon: [10088]
 tier: 4
 format: Standard
 ---

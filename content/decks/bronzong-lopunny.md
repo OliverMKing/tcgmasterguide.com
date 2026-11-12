@@ -1,6 +1,6 @@
 ---
 title: Bronzong / Lopunny
-pokemon: [437, 428]
+pokemon: [437, 10088]
 tier: 3
 format: Standard
 ---
