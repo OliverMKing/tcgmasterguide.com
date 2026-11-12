@@ -10,7 +10,7 @@ For content writers looking to add or edit deck guides, see the [Content Editing
 
 ### Prerequisites
 
-- Node.js 20.x or later
+- Node.js 22.x or later
 - npm
 
 ### Getting Started
